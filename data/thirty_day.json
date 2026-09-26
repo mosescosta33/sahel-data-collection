@@ -1,45 +1,45 @@
 {
-  "generated_at": "2026-09-26T20:26:43.795699Z",
+  "generated_at": "2026-09-26T21:27:41.870371Z",
   "window_days": 30,
   "cutoff": "2026-08-27",
-  "reports": 128,
-  "incident_reports": 23,
-  "candidate_events": 22,
+  "reports": 129,
+  "incident_reports": 24,
+  "candidate_events": 23,
   "corroborated_events": 1,
-  "mapped_events": 17,
-  "mapped_locations": 40,
+  "mapped_events": 18,
+  "mapped_locations": 41,
   "distinct_sources": 46,
   "by_actor": {
-    "State": 9,
+    "State": 10,
     "JNIM": 5,
     "Other": 5,
     "Africa Corps/Wagner": 3
   },
   "by_country": {
-    "Mali": 18,
+    "Mali": 19,
     "Niger": 3,
     "Burkina Faso": 1
   },
   "by_event_type": {
     "security operation": 10,
     "attack": 8,
-    "offensive/campaign": 2,
+    "offensive/campaign": 3,
     "ambush": 1,
     "clash": 1
   },
   "by_language": {
-    "fr": 92,
+    "fr": 93,
     "en": 28,
     "ar": 8
   },
   "by_confidence": {
-    "low": 11,
-    "moderate": 11
+    "moderate": 12,
+    "low": 11
   },
   "top_sources": [
     {
       "source": "Bamada",
-      "count": 10
+      "count": 11
     },
     {
       "source": "Malijet",
@@ -100,12 +100,12 @@
       "count": 6
     },
     {
-      "location": "Mopti",
+      "location": "Kidal",
       "count": 6
     },
     {
-      "location": "Kidal",
-      "count": 5
+      "location": "Mopti",
+      "count": 6
     },
     {
       "location": "Mali",
@@ -280,15 +280,78 @@
     {
       "date": "2026-09-25",
       "reports": 8,
-      "events": 2
+      "events": 3
     },
     {
       "date": "2026-09-26",
-      "reports": 3,
+      "reports": 4,
       "events": 0
     }
   ],
   "latest_events": [
+    {
+      "id": "a329cce8bd7b1437379579d7b298851f0e8eb0f7",
+      "event_date": "2026-09-25",
+      "event_date_confidence": "explicit-text",
+      "event_date_source": "explicit-calendar-date",
+      "published_at": "2026-09-26T20:09:24Z",
+      "collected_at": "2026-09-26T21:27:09.799758Z",
+      "actor": "State",
+      "perpetrator": "State",
+      "target": null,
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [
+        "State"
+      ],
+      "parent_report_id": null,
+      "event_type": "offensive/campaign",
+      "country": "Mali",
+      "city": "Kidal",
+      "lat": 18.4411,
+      "lng": 1.4078,
+      "locations": [
+        {
+          "name": "Kidal",
+          "country": "Mali",
+          "lat": 18.4411,
+          "lng": 1.4078,
+          "confidence": "explicit-place"
+        }
+      ],
+      "title": "FAMa Offensive: War Materials Destroyed and Terrorist Leaders Accurately Targeted",
+      "summary": "The General Staff of the Armed Forces informs the national opinion that the Malian Armed Forces (FAMa), supported by their partners, are continuing the permanent operations of surveillance, control and security of the national territory as part of Operation Dougoukoloko . On Friday, September 25, 2026, the exploitation of precise intelligence made it possible to locate, northwest of the city of Kidal, an area of entr",
+      "sources": [
+        "Bamada"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://bamada.net/offensive-fama-materiels-de-guerre-detruits-et-chefs-terroristes-cibles-avec-precision"
+      ],
+      "created_at": "2026-09-26T21:27:09.799758Z",
+      "updated_at": "2026-09-26T21:27:09.799758Z",
+      "extraction_confidence": "moderate",
+      "revision_history": [
+        {
+          "at": "2026-09-26T21:27:09.799758Z",
+          "type": "event_created",
+          "source": "Bamada"
+        }
+      ],
+      "corroboration": "single-source",
+      "confidence": "moderate",
+      "independent_source_domains": [
+        "bamada.net"
+      ],
+      "independent_source_count": 1,
+      "significance": "MAJOR",
+      "significance_reasons": [
+        "strategic/severe event pattern"
+      ]
+    },
     {
       "id": "cc6d005e79a5348a248980ee4de9ca9da6084a76",
       "event_date": "2026-09-25",
@@ -1808,7 +1871,7 @@
   "latest_reports": [
     {
       "published_at": null,
-      "discovered_at": "2026-09-26T20:26:13.822790Z",
+      "discovered_at": "2026-09-26T21:27:09.616682Z",
       "source": "aNiamey.com",
       "language": "fr",
       "actor": null,
@@ -1818,6 +1881,19 @@
       "candidate_event": false,
       "title": "Dfense: the Gnral Tiani reshuffles the military command after the Niamey mutiny",
       "url": "http://news.aniamey.com/h/123258.html"
+    },
+    {
+      "published_at": "2026-09-26T20:09:24Z",
+      "discovered_at": "2026-09-26T21:27:09.799758Z",
+      "source": "Bamada",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Kidal",
+      "event_type": "offensive/campaign",
+      "candidate_event": true,
+      "title": "FAMa Offensive: War Materials Destroyed and Terrorist Leaders Accurately Targeted",
+      "url": "https://bamada.net/offensive-fama-materiels-de-guerre-detruits-et-chefs-terroristes-cibles-avec-precision"
     },
     {
       "published_at": "2026-09-26T19:38:20Z",
@@ -2312,19 +2388,6 @@
       "candidate_event": false,
       "title": "How stray bullet killed Niger varsity 400-level student",
       "url": "https://punchng.com/how-stray-bullet-killed-niger-varsity-400-level-student/"
-    },
-    {
-      "published_at": "2026-09-22T02:44:00Z",
-      "discovered_at": "2026-09-22T06:33:33.267654Z",
-      "source": "Vanguard News (Nigeria)",
-      "language": "en",
-      "actor": "State",
-      "country": "Niger",
-      "city": null,
-      "event_type": "clash",
-      "candidate_event": false,
-      "title": "33 months unpaid rent threatens war against oil bunkering",
-      "url": "https://www.vanguardngr.com/2026/09/33-months-unpaid-rent-threatens-war-against-oil-bunkering/"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
