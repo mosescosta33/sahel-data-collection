@@ -1,40 +1,40 @@
 {
-  "generated_at": "2026-09-26T19:25:19.807219Z",
+  "generated_at": "2026-09-26T20:26:43.795699Z",
   "window_days": 30,
   "cutoff": "2026-08-27",
-  "reports": 127,
-  "incident_reports": 22,
-  "candidate_events": 21,
+  "reports": 128,
+  "incident_reports": 23,
+  "candidate_events": 22,
   "corroborated_events": 1,
-  "mapped_events": 16,
-  "mapped_locations": 39,
+  "mapped_events": 17,
+  "mapped_locations": 40,
   "distinct_sources": 46,
   "by_actor": {
-    "State": 8,
+    "State": 9,
     "JNIM": 5,
     "Other": 5,
     "Africa Corps/Wagner": 3
   },
   "by_country": {
-    "Mali": 17,
+    "Mali": 18,
     "Niger": 3,
     "Burkina Faso": 1
   },
   "by_event_type": {
-    "security operation": 9,
+    "security operation": 10,
     "attack": 8,
     "offensive/campaign": 2,
     "ambush": 1,
     "clash": 1
   },
   "by_language": {
-    "fr": 91,
+    "fr": 92,
     "en": 28,
     "ar": 8
   },
   "by_confidence": {
     "low": 11,
-    "moderate": 10
+    "moderate": 11
   },
   "top_sources": [
     {
@@ -43,7 +43,7 @@
     },
     {
       "source": "Malijet",
-      "count": 9
+      "count": 10
     },
     {
       "source": "AMAP (Agence Malienne de Presse et de Publicité)",
@@ -104,12 +104,12 @@
       "count": 6
     },
     {
-      "location": "Mali",
+      "location": "Kidal",
       "count": 5
     },
     {
-      "location": "Kidal",
-      "count": 4
+      "location": "Mali",
+      "count": 5
     },
     {
       "location": "Ber",
@@ -280,15 +280,78 @@
     {
       "date": "2026-09-25",
       "reports": 8,
-      "events": 1
+      "events": 2
     },
     {
       "date": "2026-09-26",
-      "reports": 2,
+      "reports": 3,
       "events": 0
     }
   ],
   "latest_events": [
+    {
+      "id": "cc6d005e79a5348a248980ee4de9ca9da6084a76",
+      "event_date": "2026-09-25",
+      "event_date_confidence": "explicit-text",
+      "event_date_source": "explicit-calendar-date",
+      "published_at": "2026-09-26T19:38:20Z",
+      "collected_at": "2026-09-26T20:26:14.005658Z",
+      "actor": "State",
+      "perpetrator": "State",
+      "target": null,
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [
+        "State"
+      ],
+      "parent_report_id": null,
+      "event_type": "security operation",
+      "country": "Mali",
+      "city": "Kidal",
+      "lat": 18.4411,
+      "lng": 1.4078,
+      "locations": [
+        {
+          "name": "Kidal",
+          "country": "Mali",
+          "lat": 18.4411,
+          "lng": 1.4078,
+          "confidence": "explicit-place"
+        }
+      ],
+      "title": "Security: New targeted FAMa strikes in Kidal and Léré as part of Operation Dougoukoloko",
+      "summary": "Security: New targeted FAMa strikes in Kidal and Léré as part of Operation Dougoukoloko The General Staff of the Armed Forces announced, in a statement, the continuation of operations to secure the national territory as part of Operation Dougoukoloko. The Malian Armed Forces (FAMa), supported by their partners, conducted two new targeted airstrikes on Friday, September 25, 2026 . On September 25, the exploitation of ",
+      "sources": [
+        "Malijet"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://malijet.com/actualte_dans_les_regions_du_mali/312033-securite-nouvelles-frappes-ciblees-des-fama-a-kidal-et-lere.html"
+      ],
+      "created_at": "2026-09-26T20:26:14.005658Z",
+      "updated_at": "2026-09-26T20:26:14.005658Z",
+      "extraction_confidence": "moderate",
+      "revision_history": [
+        {
+          "at": "2026-09-26T20:26:14.005658Z",
+          "type": "event_created",
+          "source": "Malijet"
+        }
+      ],
+      "corroboration": "single-source",
+      "confidence": "moderate",
+      "independent_source_domains": [
+        "malijet.com"
+      ],
+      "independent_source_count": 1,
+      "significance": "ROUTINE",
+      "significance_reasons": [
+        "limited currently observed significance"
+      ]
+    },
     {
       "id": "34f5c10aef962fc9189a994017b518f7531ed22d",
       "event_date": "2026-09-25",
@@ -1745,7 +1808,7 @@
   "latest_reports": [
     {
       "published_at": null,
-      "discovered_at": "2026-09-26T19:24:55.847321Z",
+      "discovered_at": "2026-09-26T20:26:13.822790Z",
       "source": "aNiamey.com",
       "language": "fr",
       "actor": null,
@@ -1755,6 +1818,19 @@
       "candidate_event": false,
       "title": "Dfense: the Gnral Tiani reshuffles the military command after the Niamey mutiny",
       "url": "http://news.aniamey.com/h/123258.html"
+    },
+    {
+      "published_at": "2026-09-26T19:38:20Z",
+      "discovered_at": "2026-09-26T20:26:14.005658Z",
+      "source": "Malijet",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Kidal",
+      "event_type": "security operation",
+      "candidate_event": true,
+      "title": "Security: New targeted FAMa strikes in Kidal and Léré as part of Operation Dougoukoloko",
+      "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312033-securite-nouvelles-frappes-ciblees-des-fama-a-kidal-et-lere.html"
     },
     {
       "published_at": "2026-09-26T12:24:54Z",
@@ -2249,19 +2325,6 @@
       "candidate_event": false,
       "title": "33 months unpaid rent threatens war against oil bunkering",
       "url": "https://www.vanguardngr.com/2026/09/33-months-unpaid-rent-threatens-war-against-oil-bunkering/"
-    },
-    {
-      "published_at": "2026-09-21T22:06:07Z",
-      "discovered_at": "2026-09-21T22:27:00.921705Z",
-      "source": "Bamada",
-      "language": "fr",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Sévaré",
-      "event_type": "security operation",
-      "candidate_event": false,
-      "title": "Mali: FAMa targeted in Kassala, Sévaré and Dioura",
-      "url": "https://bamada.net/mali-les-fama-ciblees-a-kassala-sevare-et-dioura"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
