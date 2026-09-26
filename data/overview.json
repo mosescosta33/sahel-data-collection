@@ -1,8 +1,8 @@
 {
   "status": "LIVE",
   "site_patch_version": "2.9.3",
-  "status_detail": "Last automated GitHub collection completed 2026-09-26T18:30:38.290756Z; 173/173 sources yielded a direct or indexed discovery path.",
-  "last_collection": "2026-09-26T18:30:38.290756Z",
+  "status_detail": "Last automated GitHub collection completed 2026-09-26T19:25:19.859018Z; 173/173 sources yielded a direct or indexed discovery path.",
+  "last_collection": "2026-09-26T19:25:19.859018Z",
   "reports_24h": 5,
   "distinct_sources_24h": 5,
   "candidate_events_24h": 1,
@@ -78,7 +78,7 @@
     "ngo": 3
   },
   "threat": {
-    "generated_at": "2026-09-26T18:30:38.273784Z",
+    "generated_at": "2026-09-26T19:25:19.841942Z",
     "model_version": "0.1-experimental",
     "label": "Experimental Conflict Threat Level",
     "regional": {
@@ -142,7 +142,7 @@
     "method_note": "Experimental research indicator derived from fused candidate events, recent country-relative tempo, significance, militant activity, civilian-threat signals, geographic spread and corroboration. It is not a travel advisory, verified incident count, or forecast. Collection gaps reduce confidence rather than automatically reducing threat."
   },
   "data_quality": {
-    "generated_at": "2026-09-26T18:30:38.290496Z",
+    "generated_at": "2026-09-26T19:25:19.858686Z",
     "events_30d": 21,
     "date_resolution_pct": 81,
     "precise_geography_pct": 76,
@@ -160,17 +160,17 @@
     "note": "Quality percentages describe fields present in Sahel Intel fused candidate events; they are not accuracy estimates."
   },
   "last_run": {
-    "started_at": "2026-09-26T18:26:57.302898Z",
-    "finished_at": "2026-09-26T18:30:38.290756Z",
+    "started_at": "2026-09-26T19:21:44.407171Z",
+    "finished_at": "2026-09-26T19:25:19.859018Z",
     "status": "complete",
     "site_patch_version": "2.9.3",
     "sources_total": 173,
     "sources_success": 173,
     "sources_failed": 0,
-    "documents_discovered": 6828,
+    "documents_discovered": 6799,
     "documents_selected": 9,
-    "prefetch_skipped": 7434,
-    "known_url_skipped": 103,
+    "prefetch_skipped": 7407,
+    "known_url_skipped": 106,
     "duplicate_url_skipped": 0,
     "title_duplicates_skipped": 0,
     "source_cap_skipped": 0,
