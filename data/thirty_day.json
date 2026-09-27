@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-27T13:28:49.784161Z",
+  "generated_at": "2026-09-27T14:26:27.284843Z",
   "window_days": 30,
   "cutoff": "2026-08-28",
-  "reports": 131,
+  "reports": 132,
   "incident_reports": 24,
   "candidate_events": 23,
   "corroborated_events": 1,
@@ -28,7 +28,7 @@
     "clash": 1
   },
   "by_language": {
-    "fr": 93,
+    "fr": 94,
     "en": 29,
     "ar": 9
   },
@@ -39,7 +39,7 @@
   "top_sources": [
     {
       "source": "Bamada",
-      "count": 11
+      "count": 12
     },
     {
       "source": "Malijet",
@@ -284,7 +284,7 @@
     },
     {
       "date": "2026-09-27",
-      "reports": 2,
+      "reports": 3,
       "events": 0
     }
   ],
@@ -1871,7 +1871,7 @@
   "latest_reports": [
     {
       "published_at": null,
-      "discovered_at": "2026-09-27T13:28:24.252757Z",
+      "discovered_at": "2026-09-27T14:25:56.275401Z",
       "source": "aNiamey.com",
       "language": "fr",
       "actor": null,
@@ -1881,6 +1881,19 @@
       "candidate_event": false,
       "title": "Dfense: the Gnral Tiani reshuffles the military command after the Niamey mutiny",
       "url": "http://news.aniamey.com/h/123258.html"
+    },
+    {
+      "published_at": "2026-09-27T12:51:29Z",
+      "discovered_at": "2026-09-27T14:25:56.443637Z",
+      "source": "Bamada",
+      "language": "fr",
+      "actor": null,
+      "country": "Niger",
+      "city": null,
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Diplomatic forum in New York: ESA claims sovereignty and denounces Ukraine's support for terrorism",
+      "url": "https://bamada.net/tribune-diplomatique-a-new-york-laes-revendique-sa-souverainete-et-denonce-le-soutien-de-lukraine-au-terrorisme"
     },
     {
       "published_at": "2026-09-27T07:47:10Z",
@@ -2375,19 +2388,6 @@
       "candidate_event": true,
       "title": "Mali: 150 dead after several JNIM attacks",
       "url": "https://www.france24.com/fr/%C3%A9missions/le-rendez-vous-afrique/20260922-mali-150-morts-apr%C3%A8s-plusieurs-attaques-du-jnim"
-    },
-    {
-      "published_at": "2026-09-22T07:44:15Z",
-      "discovered_at": "2026-09-24T18:32:14.964332Z",
-      "source": "France 24 Arabic",
-      "language": "ar",
-      "actor": "JNIM",
-      "country": "Mali",
-      "city": null,
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Mali: Ten bloody days in the center of the country after JNIM attacks against the army - France 24",
-      "url": "https://news.google.com/rss/articles/CBMioAVBVV95cUxQcDBHaVFCSEo2cjQyazdNR3E3ZnlfZ2NLdlY4eFgxRzlPVXpCYjItSnBRZmQ5c1VUcXN0aVBNcXdRWmlGeGoySUoyemFuc3ZtRWFxaTlCOTYtekxoTGNFaWMtM3NGUDJaalJRcjQtblFBaUp4Q2g4UTRZbnZMTkNzd3h3cTNVRDRYTDVRUkNkbUFOMks2WXo2THZXdXpxVjFzUTVOZmdnaUZ2VlVaLTAtbUg5NlBoSEUwQ2trVWRWX0xMUnppUnBnNmtNdFhlVTRYdEhhRGFJMUlNcFppR3hjcGdTUW1qRm1MbTRLMEVGMUp2eFk4QmFwTTA5Snp2ZW9NSEppdFU0dHJkN2NvblRNOE1pTlVRZ2k1eC02VUtmM3VrZlV6eHBfclBYSWs1NEtzaGxVLUlBVklUbFNRM0ppdWdCRkkwczZZMlpmenBZa29zS3hDVm9lMEtFb3hMV3I4b3JDYkFWejVXSlpQbGgxR0J0aV90b2t1YnJ6enQ0NTZIQVRPRXdOTk9PMjkxM09XV1k2aFZDWDVqSVdmOG12blo4MTdEWm1LVWhvbjgyclFqZFpVUm9ZZDJEaHJ2Ul9CRVZVNkgwX05rVzhLcHVTUHRROFk4RHNFTEN6UGZ2ZEp5YzltMDd1VC1KZ1RQbUlEWERPNVNNVUtwWXNSLVlCMTZFNVNiMHFLSktuMHJNb0JMYVppTVBtR2MxMWttdXhCb0k2YlB6RGZNZ3pWQzltbm4xTkpfa3JQNHlxWXNtaHhUQTJPczk2WVI0N0RNZmVSRlJITWpQNkRuRENHbGF3OWJQS0JhLXFpMk5yRk5tODhYRVNENXVvRVRzclZ1ODN4QXpCRU5GODRCLVhJaTI2S0VzXzZYcnYxcU1FVDU2Q2k?oc=5"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
