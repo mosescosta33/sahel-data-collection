@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T16:28:11.105492Z",
+  "generated_at": "2026-09-27T17:26:56.708428Z",
   "model_version": "0.1-experimental",
   "label": "Experimental Conflict Threat Level",
   "regional": {
@@ -44,21 +44,21 @@
       "independent_domains_7d": 1
     },
     "Niger": {
-      "score": 23,
+      "score": 29,
       "level": "LOW",
       "trend": "DETERIORATING",
       "confidence": "MODERATE",
       "assessment_status": "ASSESSED",
-      "events_7d": 2,
-      "events_30d": 3,
+      "events_7d": 3,
+      "events_30d": 4,
       "baseline_7d_equivalent": 0.3,
-      "tempo_ratio": 2.3,
+      "tempo_ratio": 3.07,
       "drivers": [
-        "2 fused candidate event(s) in 7 days",
+        "3 fused candidate event(s) in 7 days",
         "1 significant/major event(s)",
         "7-day tempo above recent country baseline"
       ],
-      "independent_domains_7d": 2
+      "independent_domains_7d": 3
     }
   },
   "method_note": "Experimental research indicator derived from fused candidate events, recent country-relative tempo, significance, militant activity, civilian-threat signals, geographic spread and corroboration. It is not a travel advisory, verified incident count, or forecast. Collection gaps reduce confidence rather than automatically reducing threat."
