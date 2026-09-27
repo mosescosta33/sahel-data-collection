@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-27T20:28:19.375871Z",
+  "generated_at": "2026-09-27T21:28:01.889318Z",
   "window_days": 30,
   "cutoff": "2026-08-28",
-  "reports": 133,
+  "reports": 134,
   "incident_reports": 25,
   "candidate_events": 24,
   "corroborated_events": 1,
@@ -28,7 +28,7 @@
     "clash": 1
   },
   "by_language": {
-    "fr": 95,
+    "fr": 96,
     "en": 29,
     "ar": 9
   },
@@ -43,7 +43,7 @@
     },
     {
       "source": "Malijet",
-      "count": 10
+      "count": 11
     },
     {
       "source": "AMAP (Agence Malienne de Presse et de Publicité)",
@@ -284,7 +284,7 @@
     },
     {
       "date": "2026-09-27",
-      "reports": 4,
+      "reports": 5,
       "events": 0
     }
   ],
@@ -1932,7 +1932,7 @@
   "latest_reports": [
     {
       "published_at": null,
-      "discovered_at": "2026-09-27T20:27:46.611621Z",
+      "discovered_at": "2026-09-27T21:27:30.477566Z",
       "source": "aNiamey.com",
       "language": "fr",
       "actor": null,
@@ -1942,6 +1942,19 @@
       "candidate_event": false,
       "title": "Dfense: the Gnral Tiani reshuffles the military command after the Niamey mutiny",
       "url": "http://news.aniamey.com/h/123258.html"
+    },
+    {
+      "published_at": "2026-09-27T21:07:33Z",
+      "discovered_at": "2026-09-27T21:27:30.562792Z",
+      "source": "Malijet",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Bamako",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Supply: A new convoy of 493 tanker trucks arrives in Bamako under the escort of FAMa",
+      "url": "https://malijet.com/flash-info/312046-approvisionneument-un-nouveau-convoi-de-493-camions-citern.html"
     },
     {
       "published_at": "2026-09-27T16:40:41Z",
@@ -2436,19 +2449,6 @@
       "candidate_event": false,
       "title": "66th anniversary of independence in Koutiala:Governor calls on populations to \"healthy collaboration\" with FAMa",
       "url": "https://amap.ml/2026/09/22/66e-anniversaire-de-lindependance-a-koutiala-le-gouverneur-appelle-les-populations-a-une-saine-collaboration-avec-fama/"
-    },
-    {
-      "published_at": "2026-09-22T09:27:47Z",
-      "discovered_at": "2026-09-22T10:29:38.385360Z",
-      "source": "ActuNiger",
-      "language": "fr",
-      "actor": null,
-      "country": "Niger",
-      "city": null,
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Guarding and security: the Nigerienne des Eaux launches a call for tenders for the recruitment of 536 guards in eight regions",
-      "url": "https://www.actuniger.com/societe/22368-gardiennage-et-securite-la-nigerienne-des-eaux-lance-un-appel-doffres-pour-le-recrutement-de-536-vigiles-dans-huit-regions.html"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
