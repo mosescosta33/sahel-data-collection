@@ -1,17 +1,17 @@
 {
   "status": "LIVE",
   "site_patch_version": "2.9.3",
-  "status_detail": "Last automated GitHub collection completed 2026-09-26T23:26:35.335588Z; 173/173 sources yielded a direct or indexed discovery path.",
-  "last_collection": "2026-09-26T23:26:35.335588Z",
+  "status_detail": "Last automated GitHub collection completed 2026-09-27T00:37:22.471101Z; 172/173 sources yielded a direct or indexed discovery path.",
+  "last_collection": "2026-09-27T00:37:22.471101Z",
   "reports_24h": 4,
   "distinct_sources_24h": 4,
-  "candidate_events_24h": 3,
-  "mapped_events_24h": 3,
-  "mapped_locations_24h": 7,
+  "candidate_events_24h": 0,
+  "mapped_events_24h": 0,
+  "mapped_locations_24h": 0,
   "sources_configured": 173,
   "sources_live": 131,
-  "sources_degraded": 42,
-  "sources_failed": 0,
+  "sources_degraded": 41,
+  "sources_failed": 1,
   "source_onboarding": {
     "candidate_total": 300,
     "verified_or_active": 156,
@@ -78,7 +78,7 @@
     "ngo": 3
   },
   "threat": {
-    "generated_at": "2026-09-26T23:26:35.318991Z",
+    "generated_at": "2026-09-27T00:37:22.454308Z",
     "model_version": "0.1-experimental",
     "label": "Experimental Conflict Threat Level",
     "regional": {
@@ -87,23 +87,23 @@
     },
     "countries": {
       "Mali": {
-        "score": 74,
+        "score": 69,
         "level": "HIGH",
         "trend": "DETERIORATING",
-        "confidence": "HIGH",
+        "confidence": "MODERATE",
         "assessment_status": "ASSESSED",
-        "events_7d": 7,
+        "events_7d": 6,
         "events_30d": 19,
-        "baseline_7d_equivalent": 3.7,
-        "tempo_ratio": 1.72,
+        "baseline_7d_equivalent": 4.0,
+        "tempo_ratio": 1.41,
         "drivers": [
-          "7 fused candidate event(s) in 7 days",
-          "2 JNIM/IS Sahel-linked event(s)",
-          "6 significant/major event(s)",
+          "6 fused candidate event(s) in 7 days",
+          "1 JNIM/IS Sahel-linked event(s)",
+          "5 significant/major event(s)",
           "activity across 8 named locations",
           "7-day tempo above recent country baseline"
         ],
-        "independent_domains_7d": 4
+        "independent_domains_7d": 3
       },
       "Burkina Faso": {
         "score": 17,
@@ -143,7 +143,7 @@
     "method_note": "Experimental research indicator derived from fused candidate events, recent country-relative tempo, significance, militant activity, civilian-threat signals, geographic spread and corroboration. It is not a travel advisory, verified incident count, or forecast. Collection gaps reduce confidence rather than automatically reducing threat."
   },
   "data_quality": {
-    "generated_at": "2026-09-26T23:26:35.335306Z",
+    "generated_at": "2026-09-27T00:37:22.470776Z",
     "events_30d": 23,
     "date_resolution_pct": 83,
     "precise_geography_pct": 78,
@@ -159,17 +159,17 @@
     "note": "Quality percentages describe fields present in Sahel Intel fused candidate events; they are not accuracy estimates."
   },
   "last_run": {
-    "started_at": "2026-09-26T23:23:02.338403Z",
-    "finished_at": "2026-09-26T23:26:35.335588Z",
+    "started_at": "2026-09-27T00:33:07.559468Z",
+    "finished_at": "2026-09-27T00:37:22.471101Z",
     "status": "complete",
     "site_patch_version": "2.9.3",
     "sources_total": 173,
-    "sources_success": 173,
-    "sources_failed": 0,
-    "documents_discovered": 6855,
+    "sources_success": 172,
+    "sources_failed": 1,
+    "documents_discovered": 6830,
     "documents_selected": 8,
-    "prefetch_skipped": 7481,
-    "known_url_skipped": 110,
+    "prefetch_skipped": 7480,
+    "known_url_skipped": 109,
     "duplicate_url_skipped": 0,
     "title_duplicates_skipped": 0,
     "source_cap_skipped": 0,
@@ -199,7 +199,7 @@
     "translation_failures": 0,
     "archive_reports": 274,
     "candidate_events_archive": 50,
-    "candidate_events_7d": 10,
+    "candidate_events_7d": 9,
     "candidate_events_30d": 23,
     "reports_30d": 129,
     "sources_30d": 46,
