@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-27T08:30:14.078040Z",
+  "generated_at": "2026-09-27T09:27:35.738230Z",
   "window_days": 30,
   "cutoff": "2026-08-28",
-  "reports": 129,
+  "reports": 130,
   "incident_reports": 24,
   "candidate_events": 23,
   "corroborated_events": 1,
@@ -29,7 +29,7 @@
   },
   "by_language": {
     "fr": 93,
-    "en": 28,
+    "en": 29,
     "ar": 8
   },
   "by_confidence": {
@@ -284,7 +284,7 @@
     },
     {
       "date": "2026-09-27",
-      "reports": 1,
+      "reports": 2,
       "events": 0
     }
   ],
@@ -1871,7 +1871,7 @@
   "latest_reports": [
     {
       "published_at": null,
-      "discovered_at": "2026-09-27T08:29:38.988405Z",
+      "discovered_at": "2026-09-27T09:27:12.786117Z",
       "source": "aNiamey.com",
       "language": "fr",
       "actor": null,
@@ -1881,6 +1881,19 @@
       "candidate_event": false,
       "title": "Dfense: the Gnral Tiani reshuffles the military command after the Niamey mutiny",
       "url": "http://news.aniamey.com/h/123258.html"
+    },
+    {
+      "published_at": "2026-09-27T07:47:10Z",
+      "discovered_at": "2026-09-27T09:27:13.278892Z",
+      "source": "Vanguard News (Nigeria)",
+      "language": "en",
+      "actor": "State",
+      "country": "Niger",
+      "city": null,
+      "event_type": "kidnapping",
+      "candidate_event": false,
+      "title": "Military rescues 125 kidnap victims, arrests over 50",
+      "url": "https://www.vanguardngr.com/2026/09/military-rescues-125-kidnap-victims-arrests-over-50/"
     },
     {
       "published_at": "2026-09-26T20:09:24Z",
@@ -2375,19 +2388,6 @@
       "candidate_event": false,
       "title": "Mali: Ten bloody days in the center of the country after JNIM attacks against the army - France 24",
       "url": "https://news.google.com/rss/articles/CBMioAVBVV95cUxQcDBHaVFCSEo2cjQyazdNR3E3ZnlfZ2NLdlY4eFgxRzlPVXpCYjItSnBRZmQ5c1VUcXN0aVBNcXdRWmlGeGoySUoyemFuc3ZtRWFxaTlCOTYtekxoTGNFaWMtM3NGUDJaalJRcjQtblFBaUp4Q2g4UTRZbnZMTkNzd3h3cTNVRDRYTDVRUkNkbUFOMks2WXo2THZXdXpxVjFzUTVOZmdnaUZ2VlVaLTAtbUg5NlBoSEUwQ2trVWRWX0xMUnppUnBnNmtNdFhlVTRYdEhhRGFJMUlNcFppR3hjcGdTUW1qRm1MbTRLMEVGMUp2eFk4QmFwTTA5Snp2ZW9NSEppdFU0dHJkN2NvblRNOE1pTlVRZ2k1eC02VUtmM3VrZlV6eHBfclBYSWs1NEtzaGxVLUlBVklUbFNRM0ppdWdCRkkwczZZMlpmenBZa29zS3hDVm9lMEtFb3hMV3I4b3JDYkFWejVXSlpQbGgxR0J0aV90b2t1YnJ6enQ0NTZIQVRPRXdOTk9PMjkxM09XV1k2aFZDWDVqSVdmOG12blo4MTdEWm1LVWhvbjgyclFqZFpVUm9ZZDJEaHJ2Ul9CRVZVNkgwX05rVzhLcHVTUHRROFk4RHNFTEN6UGZ2ZEp5YzltMDd1VC1KZ1RQbUlEWERPNVNNVUtwWXNSLVlCMTZFNVNiMHFLSktuMHJNb0JMYVppTVBtR2MxMWttdXhCb0k2YlB6RGZNZ3pWQzltbm4xTkpfa3JQNHlxWXNtaHhUQTJPczk2WVI0N0RNZmVSRlJITWpQNkRuRENHbGF3OWJQS0JhLXFpMk5yRk5tODhYRVNENXVvRVRzclZ1ODN4QXpCRU5GODRCLVhJaTI2S0VzXzZYcnYxcU1FVDU2Q2k?oc=5"
-    },
-    {
-      "published_at": "2026-09-22T07:11:01Z",
-      "discovered_at": "2026-09-22T06:33:32.645956Z",
-      "source": "Punch Newspapers (Nigeria)",
-      "language": "en",
-      "actor": "State",
-      "country": "Niger",
-      "city": null,
-      "event_type": null,
-      "candidate_event": false,
-      "title": "How stray bullet killed Niger varsity 400-level student",
-      "url": "https://punchng.com/how-stray-bullet-killed-niger-varsity-400-level-student/"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
