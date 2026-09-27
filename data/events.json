@@ -1,5 +1,68 @@
 [
   {
+    "id": "c68cfc212b862ad9676b84964d97a501f68a4114",
+    "event_date": "2026-09-26",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "explicit-calendar-date",
+    "published_at": "2026-09-27T21:35:18Z",
+    "collected_at": "2026-09-27T22:28:09.942661Z",
+    "actor": "State",
+    "perpetrator": "State",
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [
+      "State"
+    ],
+    "parent_report_id": null,
+    "event_type": "air/drone strike",
+    "country": "Mali",
+    "city": "Kidal",
+    "lat": 18.4411,
+    "lng": 1.4078,
+    "locations": [
+      {
+        "name": "Kidal",
+        "country": "Mali",
+        "lat": 18.4411,
+        "lng": 1.4078,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "Operation Dougoukoloko: At least 50 terrorists, including executives, neutralized in Abeibara",
+    "summary": "Operation Dougoukoloko: At least 50 terrorists, including executives, neutralized in Abeibara The General Staff of the Armed Forces announced this Sunday, September 27, in a statement, the continuation of operations to secure the national territory as part of Operation Dougoukoloko. The Malian Armed Forces (FAMa), supported by their partners, conducted a targeted airstrike on Saturday, September 26, 2026 in the Kidal",
+    "sources": [
+      "Malijet"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://malijet.com/actualte_dans_les_regions_du_mali/312048-operation-dougoukoloko-au-moins-50-terroristes-dont-des-c.html"
+    ],
+    "created_at": "2026-09-27T22:28:09.942661Z",
+    "updated_at": "2026-09-27T22:28:09.942661Z",
+    "extraction_confidence": "low",
+    "revision_history": [
+      {
+        "at": "2026-09-27T22:28:09.942661Z",
+        "type": "event_created",
+        "source": "Malijet"
+      }
+    ],
+    "corroboration": "single-source",
+    "confidence": "low",
+    "independent_source_domains": [
+      "malijet.com"
+    ],
+    "independent_source_count": 1,
+    "significance": "ROUTINE",
+    "significance_reasons": [
+      "limited currently observed significance"
+    ]
+  },
+  {
     "id": "a329cce8bd7b1437379579d7b298851f0e8eb0f7",
     "event_date": "2026-09-25",
     "event_date_confidence": "explicit-text",

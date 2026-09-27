@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-09-27T21:28:01.889318Z",
+  "generated_at": "2026-09-27T22:28:43.126199Z",
   "window_days": 30,
   "cutoff": "2026-08-28",
-  "reports": 134,
-  "incident_reports": 25,
-  "candidate_events": 24,
+  "reports": 135,
+  "incident_reports": 26,
+  "candidate_events": 25,
   "corroborated_events": 1,
-  "mapped_events": 19,
-  "mapped_locations": 42,
+  "mapped_events": 20,
+  "mapped_locations": 43,
   "distinct_sources": 47,
   "by_actor": {
-    "State": 10,
+    "State": 11,
     "Other": 6,
     "JNIM": 5,
     "Africa Corps/Wagner": 3
   },
   "by_country": {
-    "Mali": 19,
+    "Mali": 20,
     "Niger": 4,
     "Burkina Faso": 1
   },
@@ -24,16 +24,17 @@
     "security operation": 10,
     "attack": 9,
     "offensive/campaign": 3,
+    "air/drone strike": 1,
     "ambush": 1,
     "clash": 1
   },
   "by_language": {
-    "fr": 96,
+    "fr": 97,
     "en": 29,
     "ar": 9
   },
   "by_confidence": {
-    "low": 12,
+    "low": 13,
     "moderate": 12
   },
   "top_sources": [
@@ -43,7 +44,7 @@
     },
     {
       "source": "Malijet",
-      "count": 11
+      "count": 12
     },
     {
       "source": "AMAP (Agence Malienne de Presse et de Publicité)",
@@ -92,15 +93,15 @@
       "count": 7
     },
     {
+      "location": "Kidal",
+      "count": 7
+    },
+    {
       "location": "Sévaré",
       "count": 7
     },
     {
       "location": "Bamako",
-      "count": 6
-    },
-    {
-      "location": "Kidal",
       "count": 6
     },
     {
@@ -280,15 +281,78 @@
     {
       "date": "2026-09-26",
       "reports": 3,
-      "events": 0
+      "events": 1
     },
     {
       "date": "2026-09-27",
-      "reports": 5,
+      "reports": 6,
       "events": 0
     }
   ],
   "latest_events": [
+    {
+      "id": "c68cfc212b862ad9676b84964d97a501f68a4114",
+      "event_date": "2026-09-26",
+      "event_date_confidence": "explicit-text",
+      "event_date_source": "explicit-calendar-date",
+      "published_at": "2026-09-27T21:35:18Z",
+      "collected_at": "2026-09-27T22:28:09.942661Z",
+      "actor": "State",
+      "perpetrator": "State",
+      "target": null,
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [
+        "State"
+      ],
+      "parent_report_id": null,
+      "event_type": "air/drone strike",
+      "country": "Mali",
+      "city": "Kidal",
+      "lat": 18.4411,
+      "lng": 1.4078,
+      "locations": [
+        {
+          "name": "Kidal",
+          "country": "Mali",
+          "lat": 18.4411,
+          "lng": 1.4078,
+          "confidence": "explicit-place"
+        }
+      ],
+      "title": "Operation Dougoukoloko: At least 50 terrorists, including executives, neutralized in Abeibara",
+      "summary": "Operation Dougoukoloko: At least 50 terrorists, including executives, neutralized in Abeibara The General Staff of the Armed Forces announced this Sunday, September 27, in a statement, the continuation of operations to secure the national territory as part of Operation Dougoukoloko. The Malian Armed Forces (FAMa), supported by their partners, conducted a targeted airstrike on Saturday, September 26, 2026 in the Kidal",
+      "sources": [
+        "Malijet"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://malijet.com/actualte_dans_les_regions_du_mali/312048-operation-dougoukoloko-au-moins-50-terroristes-dont-des-c.html"
+      ],
+      "created_at": "2026-09-27T22:28:09.942661Z",
+      "updated_at": "2026-09-27T22:28:09.942661Z",
+      "extraction_confidence": "low",
+      "revision_history": [
+        {
+          "at": "2026-09-27T22:28:09.942661Z",
+          "type": "event_created",
+          "source": "Malijet"
+        }
+      ],
+      "corroboration": "single-source",
+      "confidence": "low",
+      "independent_source_domains": [
+        "malijet.com"
+      ],
+      "independent_source_count": 1,
+      "significance": "ROUTINE",
+      "significance_reasons": [
+        "limited currently observed significance"
+      ]
+    },
     {
       "id": "a329cce8bd7b1437379579d7b298851f0e8eb0f7",
       "event_date": "2026-09-25",
@@ -1932,7 +1996,7 @@
   "latest_reports": [
     {
       "published_at": null,
-      "discovered_at": "2026-09-27T21:27:30.477566Z",
+      "discovered_at": "2026-09-27T22:28:09.863847Z",
       "source": "aNiamey.com",
       "language": "fr",
       "actor": null,
@@ -1942,6 +2006,19 @@
       "candidate_event": false,
       "title": "Dfense: the Gnral Tiani reshuffles the military command after the Niamey mutiny",
       "url": "http://news.aniamey.com/h/123258.html"
+    },
+    {
+      "published_at": "2026-09-27T21:35:18Z",
+      "discovered_at": "2026-09-27T22:28:09.942661Z",
+      "source": "Malijet",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Kidal",
+      "event_type": "air/drone strike",
+      "candidate_event": true,
+      "title": "Operation Dougoukoloko: At least 50 terrorists, including executives, neutralized in Abeibara",
+      "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312048-operation-dougoukoloko-au-moins-50-terroristes-dont-des-c.html"
     },
     {
       "published_at": "2026-09-27T21:07:33Z",
@@ -2436,19 +2513,6 @@
       "candidate_event": false,
       "title": "66th anniversary of independence: Governor of Kayes calls for commitment to national construction",
       "url": "https://amap.ml/2026/09/22/66e-anniversaire-de-lindependance-le-gouverneur-de-kayes-appelle-a-lengagement-pour-la-construction-nationale/"
-    },
-    {
-      "published_at": "2026-09-22T11:49:09Z",
-      "discovered_at": "2026-09-22T12:33:46.796615Z",
-      "source": "AMAP (Agence Malienne de Presse et de Publicité)",
-      "language": "fr",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Sikasso",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "66th anniversary of independence in Koutiala:Governor calls on populations to \"healthy collaboration\" with FAMa",
-      "url": "https://amap.ml/2026/09/22/66e-anniversaire-de-lindependance-a-koutiala-le-gouverneur-appelle-les-populations-a-une-saine-collaboration-avec-fama/"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
