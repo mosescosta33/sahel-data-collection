@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-28T06:37:57.541216Z",
+  "generated_at": "2026-09-28T07:32:36.557779Z",
   "window_days": 30,
   "cutoff": "2026-08-29",
-  "reports": 136,
-  "incident_reports": 26,
+  "reports": 131,
+  "incident_reports": 25,
   "candidate_events": 25,
   "corroborated_events": 1,
   "mapped_events": 20,
   "mapped_locations": 43,
-  "distinct_sources": 47,
+  "distinct_sources": 45,
   "by_actor": {
     "State": 11,
     "Other": 6,
@@ -29,9 +29,9 @@
     "clash": 1
   },
   "by_language": {
-    "fr": 98,
-    "en": 29,
-    "ar": 9
+    "fr": 97,
+    "en": 27,
+    "ar": 7
   },
   "by_confidence": {
     "low": 13,
@@ -40,7 +40,7 @@
   "top_sources": [
     {
       "source": "Bamada",
-      "count": 12
+      "count": 13
     },
     {
       "source": "Malijet",
@@ -59,10 +59,6 @@
       "count": 6
     },
     {
-      "source": "Agence Nigérienne de Presse",
-      "count": 6
-    },
-    {
       "source": "Jeune Afrique",
       "count": 6
     },
@@ -71,8 +67,8 @@
       "count": 6
     },
     {
-      "source": "Sahara Medias (صحراء ميديا)",
-      "count": 4
+      "source": "Agence Nigérienne de Presse",
+      "count": 5
     },
     {
       "source": "Sidwaya",
@@ -85,6 +81,10 @@
     {
       "source": "Wakat Sera",
       "count": 4
+    },
+    {
+      "source": "Aïr Info",
+      "count": 3
     }
   ],
   "top_locations": [
@@ -285,7 +285,7 @@
     },
     {
       "date": "2026-09-28",
-      "reports": 1,
+      "reports": 2,
       "events": 0
     }
   ],
@@ -1996,7 +1996,7 @@
   "latest_reports": [
     {
       "published_at": null,
-      "discovered_at": "2026-09-28T06:37:33.645959Z",
+      "discovered_at": "2026-09-28T07:32:10.362001Z",
       "source": "aNiamey.com",
       "language": "fr",
       "actor": null,
@@ -2006,6 +2006,19 @@
       "candidate_event": false,
       "title": "Dfense: the Gnral Tiani reshuffles the military command after the Niamey mutiny",
       "url": "http://news.aniamey.com/h/123258.html"
+    },
+    {
+      "published_at": "2026-09-28T06:55:42Z",
+      "discovered_at": "2026-09-28T07:32:10.575370Z",
+      "source": "Bamada",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Bamako",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "493 Tanker Trucks in Bamako: A Major New Breakthrough for Fuel Stocks",
+      "url": "https://bamada.net/493-camions-citernes-a-bamako-une-nouvelle-avancee-majeure-pour-les-stocks-de-carburant"
     },
     {
       "published_at": "2026-09-27T23:49:50Z",
@@ -2500,19 +2513,6 @@
       "candidate_event": false,
       "title": "Bafoulabé: September 22nd under the sign of resilience",
       "url": "https://amap.ml/2026/09/22/bafoulabe-le-22-septembre-place-sous-le-signe-de-la-resilience/"
-    },
-    {
-      "published_at": "2026-09-22T13:19:30Z",
-      "discovered_at": "2026-09-22T13:30:20.996068Z",
-      "source": "Malijet",
-      "language": "fr",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Sévaré",
-      "event_type": "security operation",
-      "candidate_event": true,
-      "title": "Counter-terrorism: new targeted FAMa strikes in Sévaré, Dioura and Tessalit",
-      "url": "https://malijet.com/actualte_dans_les_regions_du_mali/311972-lutte-antiterroriste-nouvelles-frappes-ciblees-des-fama-a.html"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
