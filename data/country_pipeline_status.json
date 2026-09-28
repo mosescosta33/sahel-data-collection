@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-28T11:30:29.673086Z",
-  "run_id": "92247c8b090b133cfa5581d1ccaf944c50ea09fa",
+  "generated_at": "2026-09-28T12:36:59.282096Z",
+  "run_id": "5411b035ef8bead6a33f577aff1d522413787ee6",
   "pipelines": {
     "Mali": {
       "sources": 11,
-      "discovered": 417,
-      "included": 1,
+      "discovered": 423,
+      "included": 2,
       "excluded": 0,
       "errors": 0,
       "duplicates": 0,
@@ -38,13 +38,13 @@
     },
     "Regional": {
       "sources": 149,
-      "discovered": 5903,
+      "discovered": 5892,
       "included": 0,
       "excluded": 6,
       "errors": 0,
       "duplicates": 0,
       "pending": 0,
-      "status": "FAILED",
+      "status": "DEGRADED",
       "note": "Regional/cross-border lane; 7 priority query terms configured"
     }
   }
