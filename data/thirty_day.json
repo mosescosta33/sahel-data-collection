@@ -1,46 +1,46 @@
 {
-  "generated_at": "2026-09-28T18:35:06.692354Z",
+  "generated_at": "2026-09-28T19:30:37.454259Z",
   "window_days": 30,
   "cutoff": "2026-08-29",
-  "reports": 135,
-  "incident_reports": 25,
-  "candidate_events": 25,
+  "reports": 136,
+  "incident_reports": 27,
+  "candidate_events": 27,
   "corroborated_events": 1,
-  "mapped_events": 20,
-  "mapped_locations": 43,
+  "mapped_events": 22,
+  "mapped_locations": 46,
   "distinct_sources": 46,
   "by_actor": {
-    "State": 10,
+    "State": 12,
     "Other": 7,
     "JNIM": 5,
     "Africa Corps/Wagner": 3
   },
   "by_country": {
-    "Mali": 20,
+    "Mali": 22,
     "Niger": 4,
     "Burkina Faso": 1
   },
   "by_event_type": {
+    "security operation": 11,
     "attack": 10,
-    "security operation": 9,
     "offensive/campaign": 3,
     "air/drone strike": 1,
     "ambush": 1,
     "clash": 1
   },
   "by_language": {
-    "fr": 99,
+    "fr": 100,
     "en": 28,
     "ar": 8
   },
   "by_confidence": {
-    "low": 13,
-    "moderate": 12
+    "moderate": 14,
+    "low": 13
   },
   "top_sources": [
     {
       "source": "Bamada",
-      "count": 14
+      "count": 15
     },
     {
       "source": "Malijet",
@@ -89,6 +89,10 @@
   ],
   "top_locations": [
     {
+      "location": "Kidal",
+      "count": 8
+    },
+    {
       "location": "Dioura",
       "count": 7
     },
@@ -98,10 +102,6 @@
     },
     {
       "location": "Bamako",
-      "count": 6
-    },
-    {
-      "location": "Kidal",
       "count": 6
     },
     {
@@ -271,7 +271,7 @@
     {
       "date": "2026-09-25",
       "reports": 8,
-      "events": 2
+      "events": 3
     },
     {
       "date": "2026-09-26",
@@ -285,11 +285,82 @@
     },
     {
       "date": "2026-09-28",
-      "reports": 5,
-      "events": 1
+      "reports": 6,
+      "events": 2
     }
   ],
   "latest_events": [
+    {
+      "id": "f809d1299758dbc658b7f5ac4be910e7c9d833ab",
+      "event_date": "2026-09-28",
+      "event_date_confidence": "explicit-text",
+      "event_date_source": "explicit-calendar-date",
+      "published_at": "2026-09-28T18:31:11Z",
+      "collected_at": "2026-09-28T19:29:54.968102Z",
+      "actor": "State",
+      "perpetrator": "State",
+      "target": null,
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [
+        "JNIM",
+        "State"
+      ],
+      "parent_report_id": null,
+      "event_type": "security operation",
+      "country": "Mali",
+      "city": "Timbuktu",
+      "lat": 16.7666,
+      "lng": -3.0026,
+      "locations": [
+        {
+          "name": "Timbuktu",
+          "country": "Mali",
+          "lat": 16.7666,
+          "lng": -3.0026,
+          "confidence": "explicit-place"
+        },
+        {
+          "name": "Kidal",
+          "country": "Mali",
+          "lat": 18.4411,
+          "lng": 1.4078,
+          "confidence": "explicit-place"
+        }
+      ],
+      "title": "COUNTER-TERRORISM OPERATION IN THE TIMBUKTU AND KIDAL REGIONS: A SENIOR JNIM ABDOULLAHI AG FALY OFFICER REPORTEDLY PERISHED FOLLOWING FAMA STRIKES",
+      "summary": "The Malian Armed Forces (FAMa) conducted extensive operations against armed terrorist groups early last weekend. These targeted actions in the Timbuktu and Kidal Regions have inflicted significant damage, including the destruction of war equipment and (…)By Mahamane TOURE – NEW HORIZONRETROUVE the REST OF YOUR ARTICLE IN the NEW HORIZON OF MONDAY, SEPTEMBER 28, 2026 Follow US ON Facebook, Telegram, WhatsApp so you do",
+      "sources": [
+        "Bamada"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://bamada.net/operation-antiterroriste-denvergure-dans-les-regions-de-tombouctou-et-kidal-un-haut-cadre-du-jnim-abdoullahi-ag-faly-aurait-peri-suite-aux-frappes-des-fama"
+      ],
+      "created_at": "2026-09-28T19:29:54.968102Z",
+      "updated_at": "2026-09-28T19:29:54.968102Z",
+      "extraction_confidence": "moderate",
+      "revision_history": [
+        {
+          "at": "2026-09-28T19:29:54.968102Z",
+          "type": "event_created",
+          "source": "Bamada"
+        }
+      ],
+      "corroboration": "single-source",
+      "confidence": "moderate",
+      "independent_source_domains": [
+        "bamada.net"
+      ],
+      "independent_source_count": 1,
+      "significance": "MAJOR",
+      "significance_reasons": [
+        "multi-location activity"
+      ]
+    },
     {
       "id": "fa6676e72a47cd7ee193f40b12a10b824f677528",
       "event_date": "2026-09-28",
@@ -407,6 +478,69 @@
       ],
       "corroboration": "single-source",
       "confidence": "low",
+      "independent_source_domains": [
+        "malijet.com"
+      ],
+      "independent_source_count": 1,
+      "significance": "ROUTINE",
+      "significance_reasons": [
+        "limited currently observed significance"
+      ]
+    },
+    {
+      "id": "cc6d005e79a5348a248980ee4de9ca9da6084a76",
+      "event_date": "2026-09-25",
+      "event_date_confidence": "explicit-text",
+      "event_date_source": "explicit-calendar-date",
+      "published_at": "2026-09-26T19:38:20Z",
+      "collected_at": "2026-09-28T19:29:55.174602Z",
+      "actor": "State",
+      "perpetrator": "State",
+      "target": null,
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [
+        "State"
+      ],
+      "parent_report_id": null,
+      "event_type": "security operation",
+      "country": "Mali",
+      "city": "Kidal",
+      "lat": 18.4411,
+      "lng": 1.4078,
+      "locations": [
+        {
+          "name": "Kidal",
+          "country": "Mali",
+          "lat": 18.4411,
+          "lng": 1.4078,
+          "confidence": "explicit-place"
+        }
+      ],
+      "title": "Security: New targeted FAMa strikes in Kidal and Léré as part of Operation Dougoukoloko",
+      "summary": "Security: New targeted FAMa strikes in Kidal and Léré as part of Operation Dougoukoloko The General Staff of the Armed Forces announced, in a statement, the continuation of operations to secure the national territory as part of Operation Dougoukoloko. The Malian Armed Forces (FAMa), supported by their partners, conducted two new targeted airstrikes on Friday, September 25, 2026 . On September 25, the exploitation of ",
+      "sources": [
+        "Malijet"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://malijet.com/actualte_dans_les_regions_du_mali/312033-securite-nouvelles-frappes-ciblees-des-fama-a-kidal-et-lere.html"
+      ],
+      "created_at": "2026-09-28T19:29:55.174602Z",
+      "updated_at": "2026-09-28T19:29:55.174602Z",
+      "extraction_confidence": "moderate",
+      "revision_history": [
+        {
+          "at": "2026-09-28T19:29:55.174602Z",
+          "type": "event_created",
+          "source": "Malijet"
+        }
+      ],
+      "corroboration": "single-source",
+      "confidence": "moderate",
       "independent_source_domains": [
         "malijet.com"
       ],
@@ -1996,7 +2130,7 @@
   "latest_reports": [
     {
       "published_at": null,
-      "discovered_at": "2026-09-28T18:34:32.751458Z",
+      "discovered_at": "2026-09-28T19:29:54.935112Z",
       "source": "aNiamey.com",
       "language": "fr",
       "actor": null,
@@ -2006,6 +2140,19 @@
       "candidate_event": false,
       "title": "Dfense: the Gnral Tiani reshuffles the military command after the Niamey mutiny",
       "url": "http://news.aniamey.com/h/123258.html"
+    },
+    {
+      "published_at": "2026-09-28T18:31:11Z",
+      "discovered_at": "2026-09-28T19:29:54.968102Z",
+      "source": "Bamada",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Timbuktu",
+      "event_type": "security operation",
+      "candidate_event": true,
+      "title": "COUNTER-TERRORISM OPERATION IN THE TIMBUKTU AND KIDAL REGIONS: A SENIOR JNIM ABDOULLAHI AG FALY OFFICER REPORTEDLY PERISHED FOLLOWING FAMA STRIKES",
+      "url": "https://bamada.net/operation-antiterroriste-denvergure-dans-les-regions-de-tombouctou-et-kidal-un-haut-cadre-du-jnim-abdoullahi-ag-faly-aurait-peri-suite-aux-frappes-des-fama"
     },
     {
       "published_at": "2026-09-28T17:18:45Z",
@@ -2152,16 +2299,16 @@
     },
     {
       "published_at": "2026-09-26T19:38:20Z",
-      "discovered_at": "2026-09-28T18:34:46.310813Z",
+      "discovered_at": "2026-09-28T19:29:55.174602Z",
       "source": "Malijet",
       "language": "fr",
       "actor": "State",
       "country": "Mali",
       "city": "Kidal",
       "event_type": "security operation",
-      "candidate_event": false,
-      "title": "Security: New targeted FAMa strikes in Kidal and Léré as part of Operation Dougoukoloko - malijet.com",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVHZKNDl1VmxBcV9ieFRFQUZHaU9oZlFmY3pVUVdseExadDc2bzdqSTN4VTFROUlsUElxOW9NWUVUcmhFbl85djlKM2hJd29TZl9qVXdxdnpXRFlNUWQxUk5xWk1RY2xNOWR5Y1VNcFJRbnhYZThCc0Itd2dIckg0bld3OThZNUdTOXdLNnAwVkNCbXlZMTJHTXE2ZmhWYU9OeG5hc1VtRl92cmhkZkpyQ2ZEX0VsUHZ0bmFlUkd0UXQtZjA?oc=5"
+      "candidate_event": true,
+      "title": "Security: New targeted FAMa strikes in Kidal and Léré as part of Operation Dougoukoloko",
+      "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312033-securite-nouvelles-frappes-ciblees-des-fama-a-kidal-et-lere.html"
     },
     {
       "published_at": "2026-09-26T12:24:54Z",
@@ -2500,19 +2647,6 @@
       "candidate_event": false,
       "title": "FULL LIST: Names of 37 ‘illegal miners’ who died in NSCDC custody in Niger – Report",
       "url": "https://punchng.com/full-list-names-of-37-illegal-miners-who-died-in-nscdc-custody-in-niger-report/"
-    },
-    {
-      "published_at": "2026-09-22T15:20:44Z",
-      "discovered_at": "2026-09-22T15:28:24.039563Z",
-      "source": "News Central TV (Nigeria)",
-      "language": "en",
-      "actor": null,
-      "country": "Niger",
-      "city": null,
-      "event_type": "law enforcement",
-      "candidate_event": false,
-      "title": "Names of 37 Niger Miners Who Died in Custody",
-      "url": "https://newscentraltv.com/names-of-37-niger-miners-who-died-in-custody/"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
