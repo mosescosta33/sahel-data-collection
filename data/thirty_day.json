@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-09-28T22:28:12.770677Z",
+  "generated_at": "2026-09-28T23:29:06.389324Z",
   "window_days": 30,
   "cutoff": "2026-08-29",
   "reports": 138,
-  "incident_reports": 26,
-  "candidate_events": 26,
+  "incident_reports": 27,
+  "candidate_events": 27,
   "corroborated_events": 1,
-  "mapped_events": 21,
-  "mapped_locations": 45,
+  "mapped_events": 22,
+  "mapped_locations": 46,
   "distinct_sources": 47,
   "by_actor": {
-    "State": 11,
+    "State": 12,
     "Other": 7,
     "JNIM": 5,
     "Africa Corps/Wagner": 3
   },
   "by_country": {
-    "Mali": 21,
+    "Mali": 22,
     "Niger": 4,
     "Burkina Faso": 1
   },
   "by_event_type": {
+    "security operation": 11,
     "attack": 10,
-    "security operation": 10,
     "offensive/campaign": 3,
     "air/drone strike": 1,
     "ambush": 1,
@@ -34,8 +34,8 @@
     "ar": 8
   },
   "by_confidence": {
-    "low": 13,
-    "moderate": 13
+    "moderate": 14,
+    "low": 13
   },
   "top_sources": [
     {
@@ -89,11 +89,11 @@
   ],
   "top_locations": [
     {
-      "location": "Dioura",
-      "count": 7
+      "location": "Kidal",
+      "count": 8
     },
     {
-      "location": "Kidal",
+      "location": "Dioura",
       "count": 7
     },
     {
@@ -271,7 +271,7 @@
     {
       "date": "2026-09-25",
       "reports": 8,
-      "events": 2
+      "events": 3
     },
     {
       "date": "2026-09-26",
@@ -478,6 +478,69 @@
       ],
       "corroboration": "single-source",
       "confidence": "low",
+      "independent_source_domains": [
+        "malijet.com"
+      ],
+      "independent_source_count": 1,
+      "significance": "ROUTINE",
+      "significance_reasons": [
+        "limited currently observed significance"
+      ]
+    },
+    {
+      "id": "cc6d005e79a5348a248980ee4de9ca9da6084a76",
+      "event_date": "2026-09-25",
+      "event_date_confidence": "explicit-text",
+      "event_date_source": "explicit-calendar-date",
+      "published_at": "2026-09-26T19:38:20Z",
+      "collected_at": "2026-09-28T23:28:31.313714Z",
+      "actor": "State",
+      "perpetrator": "State",
+      "target": null,
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [
+        "State"
+      ],
+      "parent_report_id": null,
+      "event_type": "security operation",
+      "country": "Mali",
+      "city": "Kidal",
+      "lat": 18.4411,
+      "lng": 1.4078,
+      "locations": [
+        {
+          "name": "Kidal",
+          "country": "Mali",
+          "lat": 18.4411,
+          "lng": 1.4078,
+          "confidence": "explicit-place"
+        }
+      ],
+      "title": "Security: New targeted FAMa strikes in Kidal and Léré as part of Operation Dougoukoloko",
+      "summary": "Security: New targeted FAMa strikes in Kidal and Léré as part of Operation Dougoukoloko The General Staff of the Armed Forces announced, in a statement, the continuation of operations to secure the national territory as part of Operation Dougoukoloko. The Malian Armed Forces (FAMa), supported by their partners, conducted two new targeted airstrikes on Friday, September 25, 2026 . On September 25, the exploitation of ",
+      "sources": [
+        "Malijet"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://malijet.com/actualte_dans_les_regions_du_mali/312033-securite-nouvelles-frappes-ciblees-des-fama-a-kidal-et-lere.html"
+      ],
+      "created_at": "2026-09-28T23:28:31.313714Z",
+      "updated_at": "2026-09-28T23:28:31.313714Z",
+      "extraction_confidence": "moderate",
+      "revision_history": [
+        {
+          "at": "2026-09-28T23:28:31.313714Z",
+          "type": "event_created",
+          "source": "Malijet"
+        }
+      ],
+      "corroboration": "single-source",
+      "confidence": "moderate",
       "independent_source_domains": [
         "malijet.com"
       ],
@@ -2067,7 +2130,7 @@
   "latest_reports": [
     {
       "published_at": null,
-      "discovered_at": "2026-09-28T22:27:57.395419Z",
+      "discovered_at": "2026-09-28T23:28:31.029700Z",
       "source": "aNiamey.com",
       "language": "fr",
       "actor": null,
@@ -2075,7 +2138,7 @@
       "city": "Niamey",
       "event_type": "political/security policy",
       "candidate_event": false,
-      "title": "D�fense : le G�n�ral Tiani remanie le commandement militaire apr�s la mutinerie de Niamey",
+      "title": "Dfense: the Gnral Tiani reshuffles the military command after the Niamey mutiny",
       "url": "http://news.aniamey.com/h/123258.html"
     },
     {
@@ -2262,16 +2325,16 @@
     },
     {
       "published_at": "2026-09-26T19:38:20Z",
-      "discovered_at": "2026-09-28T22:28:07.114009Z",
+      "discovered_at": "2026-09-28T23:28:31.313714Z",
       "source": "Malijet",
       "language": "fr",
       "actor": "State",
       "country": "Mali",
       "city": "Kidal",
       "event_type": "security operation",
-      "candidate_event": false,
-      "title": "Sécurité: Nouvelles frappes ciblées des FAMa à Kidal et Léré dans le cadre de l'opération Dougoukoloko - malijet.com",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVHZKNDl1VmxBcV9ieFRFQUZHaU9oZlFmY3pVUVdseExadDc2bzdqSTN4VTFROUlsUElxOW9NWUVUcmhFbl85djlKM2hJd29TZl9qVXdxdnpXRFlNUWQxUk5xWk1RY2xNOWR5Y1VNcFJRbnhYZThCc0Itd2dIckg0bld3OThZNUdTOXdLNnAwVkNCbXlZMTJHTXE2ZmhWYU9OeG5hc1VtRl92cmhkZkpyQ2ZEX0VsUHZ0bmFlUkd0UXQtZjA?oc=5"
+      "candidate_event": true,
+      "title": "Security: New targeted FAMa strikes in Kidal and Léré as part of Operation Dougoukoloko",
+      "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312033-securite-nouvelles-frappes-ciblees-des-fama-a-kidal-et-lere.html"
     },
     {
       "published_at": "2026-09-26T12:24:54Z",
