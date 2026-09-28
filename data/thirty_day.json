@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-27T23:27:17.945341Z",
+  "generated_at": "2026-09-28T00:38:37.010464Z",
   "window_days": 30,
-  "cutoff": "2026-08-28",
-  "reports": 135,
+  "cutoff": "2026-08-29",
+  "reports": 136,
   "incident_reports": 26,
   "candidate_events": 25,
   "corroborated_events": 1,
@@ -29,7 +29,7 @@
     "clash": 1
   },
   "by_language": {
-    "fr": 97,
+    "fr": 98,
     "en": 29,
     "ar": 9
   },
@@ -138,11 +138,6 @@
     }
   ],
   "daily": [
-    {
-      "date": "2026-08-29",
-      "reports": 6,
-      "events": 1
-    },
     {
       "date": "2026-08-30",
       "reports": 5,
@@ -286,6 +281,11 @@
     {
       "date": "2026-09-27",
       "reports": 6,
+      "events": 0
+    },
+    {
+      "date": "2026-09-28",
+      "reports": 1,
       "events": 0
     }
   ],
@@ -1996,7 +1996,7 @@
   "latest_reports": [
     {
       "published_at": null,
-      "discovered_at": "2026-09-27T23:26:54.594735Z",
+      "discovered_at": "2026-09-28T00:38:06.390109Z",
       "source": "aNiamey.com",
       "language": "fr",
       "actor": null,
@@ -2006,6 +2006,19 @@
       "candidate_event": false,
       "title": "Dfense: the Gnral Tiani reshuffles the military command after the Niamey mutiny",
       "url": "http://news.aniamey.com/h/123258.html"
+    },
+    {
+      "published_at": "2026-09-27T23:49:50Z",
+      "discovered_at": "2026-09-28T00:38:06.799842Z",
+      "source": "La Nouvelle Tribune (Bénin)",
+      "language": "fr",
+      "actor": "State",
+      "country": "Burkina Faso",
+      "city": null,
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Beyond terrorism, Ibrahim Traoré says that the Burkinabe army is preparing for major wars",
+      "url": "https://lanouvelletribune.info/2026/09/au-dela-du-terrorisme-ibrahim-traore-affirme-que-larmee-burkinabe-se-prepare-a-de-grandes-guerres/"
     },
     {
       "published_at": "2026-09-27T21:35:18Z",
@@ -2500,19 +2513,6 @@
       "candidate_event": true,
       "title": "Counter-terrorism: new targeted FAMa strikes in Sévaré, Dioura and Tessalit",
       "url": "https://malijet.com/actualte_dans_les_regions_du_mali/311972-lutte-antiterroriste-nouvelles-frappes-ciblees-des-fama-a.html"
-    },
-    {
-      "published_at": "2026-09-22T12:22:16Z",
-      "discovered_at": "2026-09-22T12:33:46.849426Z",
-      "source": "AMAP (Agence Malienne de Presse et de Publicité)",
-      "language": "fr",
-      "actor": null,
-      "country": "Mali",
-      "city": null,
-      "event_type": null,
-      "candidate_event": false,
-      "title": "66th anniversary of independence: Governor of Kayes calls for commitment to national construction",
-      "url": "https://amap.ml/2026/09/22/66e-anniversaire-de-lindependance-le-gouverneur-de-kayes-appelle-a-lengagement-pour-la-construction-nationale/"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."

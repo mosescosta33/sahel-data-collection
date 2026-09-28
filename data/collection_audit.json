@@ -1,23 +1,23 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-27T23:27:18.799295Z",
-  "run_id": "e68e8b7efb9d5b2559c37571d012a2d104c442c6",
-  "started_at": "2026-09-27T23:23:14.477171Z",
-  "finished_at": "2026-09-27T23:27:17.984412Z",
+  "generated_at": "2026-09-28T00:38:37.929019Z",
+  "run_id": "afb524eeea29144c7c82d7e21c65550bdcbcf245",
+  "started_at": "2026-09-28T00:34:16.557931Z",
+  "finished_at": "2026-09-28T00:38:37.067307Z",
   "status": "LIVE",
   "pipeline_totals": {
     "sources_configured": 173,
-    "links_discovered": 6831,
+    "links_discovered": 6812,
     "current_cycle_retained": 3,
     "current_cycle_rejected_or_error": 6,
-    "translations_attempted": 1,
-    "translations_succeeded": 1,
+    "translations_attempted": 2,
+    "translations_succeeded": 2,
     "translations_failed": 0
   },
   "pipelines": {
     "Mali": {
       "sources": 11,
-      "discovered": 425,
+      "discovered": 422,
       "included": 0,
       "excluded": 0,
       "errors": 0,
@@ -29,7 +29,7 @@
     "Burkina Faso": {
       "sources": 6,
       "discovered": 261,
-      "included": 0,
+      "included": 1,
       "excluded": 0,
       "errors": 0,
       "duplicates": 0,
@@ -50,8 +50,8 @@
     },
     "Regional": {
       "sources": 149,
-      "discovered": 5869,
-      "included": 1,
+      "discovered": 5853,
+      "included": 0,
       "excluded": 6,
       "errors": 0,
       "duplicates": 0,
@@ -63,20 +63,6 @@
   "decisions": [
     {
       "pipeline": "Regional",
-      "decision": "INCLUDED",
-      "source": "The Defense Post Africa",
-      "source_id": "defense-post",
-      "language": "en",
-      "collection_method": "google-news-domain",
-      "stage": "indexed_fallback",
-      "reason": "Google News index URL had no publisher canonical URL in the RSS item; retained indexed context only",
-      "title": "How Qaeda-Friendly GSIM Became the Sahel’s Leading Jihadists - The Defense Post",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9rVUEzZzRVa3dNTEIxV190c2pWR2xnRU51T0pMVGhqejYxV1ViWGs0MFpvb1ExTmdvNk85SVdxaVFkUXEyQ1lubkhPczkyUWVYQ2pGaG9MaWIxTzZQYl92WlRieFl5RVJpaXhGbWVqZlQ4dldBYUHSAXtBVV95cUxOT1RoU0JxX2ltLUFxUEVDT0dCZ2xpNnQyb2EzY2ZqQllsZUd1eFhaWmM5TnRtaXZOQmxveEd1MTZna1hZb1VnQ2ozM3FYdjlmRG1GUzVfc1llVVlucDEwLXZXNl91VUNsVnlRbjBFRFE4akk4SXhjcG41Y1k?oc=5",
-      "collected_at": "2026-09-27T23:26:54.072983Z",
-      "score": 10
-    },
-    {
-      "pipeline": "Regional",
       "decision": "EXCLUDED",
       "source": "HumAngle",
       "source_id": "humangle",
@@ -84,9 +70,9 @@
       "collection_method": "google-news-domain",
       "stage": "indexed_fallback",
       "reason": "Google News index URL had no canonical publisher URL and headline/excerpt did not pass relevance",
-      "title": "Escalating Violence In Sahel As JNIM Claims Rising Jihadi Operations - humanglemedia.com",
+      "title": "Escalating Violence In Sahel As JNIM Claims Rising Jihadi Operations - HumAngle",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNdzA5V283RXJ5VkxhVFlVQUMxWGt3YjFobkxDNWJyV0p5d1FSc2lNQXF1dTB0NUtWdk56emdtdk9VZ3lQQW54MnZxcFB5aHdsMzhURkJZWWJUUXNHRzY5My1QdGJpMG1HcnAwZmNyOUp5X3hiTjNBTm8wVXA0akhaUEt5RE1jOG9pX3U2M1Fka2pRYkVhRjZheGhXTTZTUjA?oc=5",
-      "collected_at": "2026-09-27T23:26:54.078502Z",
+      "collected_at": "2026-09-28T00:38:06.018520Z",
       "score": null
     },
     {
@@ -98,9 +84,9 @@
       "collection_method": "google-news-domain",
       "stage": "indexed_fallback",
       "reason": "Google News index URL had no canonical publisher URL and headline/excerpt did not pass relevance",
-      "title": "JNIM: Coalition Of Terrorists Intensifying Attacks In The Sahel - humanglemedia.com",
+      "title": "JNIM: Coalition Of Terrorists Intensifying Attacks In The Sahel - HumAngle",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPbGVLeFVlYUFsVWZNSXY1bmpsZDJMLW9uSUZ3X3A0Um0tSWR4eUVueEl0bEdoUFRaVElsUHA0QnVUdkgtS2F1VzZ0MWdJek1TX1NLRzBYellFcHJjQ1hJT2dhWll2dnNRdkI5VUQzbklod1BwXzNPM25CREdUWXRPT1dPSEdxSkRWcGU4MWYyU3FBUQ?oc=5",
-      "collected_at": "2026-09-27T23:26:54.083873Z",
+      "collected_at": "2026-09-28T00:38:06.024003Z",
       "score": null
     },
     {
@@ -112,9 +98,9 @@
       "collection_method": "google-news-domain",
       "stage": "indexed_fallback",
       "reason": "Google News index URL had no canonical publisher URL and headline/excerpt did not pass relevance",
-      "title": "Understanding JNIM’s Expansion beyond the Sahel - crisisgroup.org",
+      "title": "Understanding JNIM’s Expansion beyond the Sahel - International Crisis Group",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOMW9CSDEzYy0xN2ZWcEluQ3JEd1RlQWVHdkkxbVFKSVhiYmhDaXVNRno3OHlUbGlvQl9tcjJjS2gtU3F0Uy05S0U3Qk5RaXMyZE91UUF5T0NQVHdvbDBRVFJQODlEbUYzNTV3Vk5YUmhNempoVXJuWHdfMDhZYWVjVVFhd3FoeVZYcnotTA?oc=5",
-      "collected_at": "2026-09-27T23:26:54.088730Z",
+      "collected_at": "2026-09-28T00:38:06.029432Z",
       "score": null
     },
     {
@@ -128,7 +114,7 @@
       "reason": "Google News index URL had no canonical publisher URL and headline/excerpt did not pass relevance",
       "title": "Countering JNIM’s Drone Proliferation in the Sahel - Small Wars Journal",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPZFhyVzVHTVQtT0VFaDRBNmpxcEUtcTdraDM4bTFDeTVKcGJJQVJvcFV6cVBjc21oTUpCeXduSWFzRVhldlVqTG5VaWVJZng5Z0F0djFQNkZjOFQ5RjN2S0dsQUVkdDhtc051MWVoWDhkaW1LVWtxMmJtQ0JsLWsyUW9oY0NucWRRTGpOUkljYXdsNEhZ?oc=5",
-      "collected_at": "2026-09-27T23:26:54.093730Z",
+      "collected_at": "2026-09-28T00:38:06.034796Z",
       "score": null
     },
     {
@@ -142,7 +128,7 @@
       "reason": "Google News index URL had no canonical publisher URL and headline/excerpt did not pass relevance",
       "title": "Exploiting Borders in the Sahel: The Islamic State in the Greater Sahara - Africa Center for Strategic Studies",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNQXQ4WU1FaWhpOUs0RDBFZk1ZbGtiWEdfVW9mSVR0UVZxQWRzYWt0VEdvZk9ESmhwbkxaZzEtNEJRVVBLaFVWbXRSRUs1NDRCLXpjYURIVHFBcVRXeV8wOW80MFhXd1dULVlMbTlycjRMYl9ZSnpIMGQ5S0EydFlwa3RyLUh0ZkR1Rm5PaEJaV0gtUlhTVWFNblBDbDFmQjMxT3pN?oc=5",
-      "collected_at": "2026-09-27T23:26:54.099892Z",
+      "collected_at": "2026-09-28T00:38:06.041471Z",
       "score": null
     },
     {
@@ -156,7 +142,7 @@
       "reason": "Google News index URL had no canonical publisher URL and headline/excerpt did not pass relevance",
       "title": "Al-Qaïda au Sahel revendique une attaque et salue le coronavirus - VOA Afrique",
       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPYzZIa0NMRWpqUHl5Z19rZTM1cXp3ZFRpR1MxazNXUmlGZ2NFUVhSaEp3NTA1S0w1YWJ2dDVaM1RVZW14NDlmQWpESTFkTjZUU2I2V3dLS0tlNmt1ZVdXZnJ0cWE5ak1FcFdmTmF5M21fbVFjWV85SnNkOXFGbzdsY2JDSjBvSGMweVhVRmplbWVrUS0yV3JtUUNwb2p5QlR1V3VQbEhwWjNWNzlLWUlDVkZuc19LZkF3SU5qU1pZYWZYS1l5aVY2ZHEydUtZNTVVdDF2MzZ30gHYAUFVX3lxTE5OQ2d1NC14OXV3R2ozcHVQbXh3RndJUmZZR2JxbjVBcVNlR0hZWXdpeUgxMWg3dVlJZGV4a3duTXJVM3FHRXJkb20xOEVHbTNxSjBoNXlxa1ptaUVLUFppQ01IRTVTRl9aaEZkcC1jNXh1N0oyeHBsdFdUb1pBa1hPb09fZjdLdDZJTzc3RDA1SWJSWlcwb3N6NHN0bFVycWlnNUNvVGtORUVYbi1xcmwxSFZDYk1Yd3BERFI2NEFTb2ttVnVzNjZnS3FtYkhmMDlITWxzVl8tNg?oc=5",
-      "collected_at": "2026-09-27T23:26:54.104057Z",
+      "collected_at": "2026-09-28T00:38:06.045904Z",
       "score": null
     },
     {
@@ -170,8 +156,22 @@
       "reason": "explicit place: Niamey (niamey); local source prior: Niger; headline event signal: political/security policy (mutinerie); security context: militaire",
       "title": "D�fense : le G�n�ral Tiani remanie le commandement militaire apr�s la mutinerie de Niamey",
       "url": "http://news.aNiamey.com/h/123258.html",
-      "collected_at": "2026-09-27T23:26:54.595029Z",
+      "collected_at": "2026-09-28T00:38:06.390440Z",
       "score": 13
+    },
+    {
+      "pipeline": "Burkina Faso",
+      "decision": "INCLUDED",
+      "source": "La Nouvelle Tribune (Bénin)",
+      "source_id": "dir-046-la-nouvelle-tribune-benin",
+      "language": "fr",
+      "collection_method": "rss:/feed/",
+      "stage": "precision",
+      "reason": "explicit country: Burkina Faso (burkinabe); state/security force: armée burkinabè; security context: defense",
+      "title": "Au-delà du terrorisme, Ibrahim Traoré affirme que l’armée burkinabè se prépare à de grandes guerres",
+      "url": "https://lanouvelletribune.info/2026/09/au-dela-du-terrorisme-ibrahim-traore-affirme-que-larmee-burkinabe-se-prepare-a-de-grandes-guerres/",
+      "collected_at": "2026-09-28T00:38:06.800022Z",
+      "score": 10
     },
     {
       "pipeline": "Niger",
@@ -184,7 +184,7 @@
       "reason": "explicit place: Niamey (niamey); headline event signal: air/drone strike (drone attack); supporting signal civilians: civilians; security context: security; actor unresolved: retained as Other",
       "title": "Boko Massacre in Nigeria; Ethiopia on the Brink; M23 Drone Attack; IS Attacks Niamey: Africa File, February 5, 2026",
       "url": "https://www.criticalthreats.org/analysis/boko-haram-nigeria-tplf-ethiopia-red-sea-drc-m23-rwanda-isis-niger-saf-rsf-sudan-africa-file-february-5-2026",
-      "collected_at": "2026-09-27T23:26:54.719143Z",
+      "collected_at": "2026-09-28T00:38:07.634527Z",
       "score": 14
     }
   ],
