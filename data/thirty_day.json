@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-28T17:32:32.716488Z",
+  "generated_at": "2026-09-28T18:35:06.692354Z",
   "window_days": 30,
   "cutoff": "2026-08-29",
-  "reports": 134,
+  "reports": 135,
   "incident_reports": 25,
   "candidate_events": 25,
   "corroborated_events": 1,
@@ -10,8 +10,8 @@
   "mapped_locations": 43,
   "distinct_sources": 46,
   "by_actor": {
-    "State": 11,
-    "Other": 6,
+    "State": 10,
+    "Other": 7,
     "JNIM": 5,
     "Africa Corps/Wagner": 3
   },
@@ -21,15 +21,15 @@
     "Burkina Faso": 1
   },
   "by_event_type": {
-    "security operation": 10,
-    "attack": 9,
+    "attack": 10,
+    "security operation": 9,
     "offensive/campaign": 3,
     "air/drone strike": 1,
     "ambush": 1,
     "clash": 1
   },
   "by_language": {
-    "fr": 98,
+    "fr": 99,
     "en": 28,
     "ar": 8
   },
@@ -40,7 +40,7 @@
   "top_sources": [
     {
       "source": "Bamada",
-      "count": 13
+      "count": 14
     },
     {
       "source": "Malijet",
@@ -93,15 +93,15 @@
       "count": 7
     },
     {
-      "location": "Kidal",
-      "count": 7
-    },
-    {
       "location": "Sévaré",
       "count": 7
     },
     {
       "location": "Bamako",
+      "count": 6
+    },
+    {
+      "location": "Kidal",
       "count": 6
     },
     {
@@ -113,15 +113,15 @@
       "count": 5
     },
     {
+      "location": "Djenné",
+      "count": 3
+    },
+    {
       "location": "Tillabéri",
       "count": 3
     },
     {
       "location": "Ber",
-      "count": 2
-    },
-    {
-      "location": "Djenné",
       "count": 2
     },
     {
@@ -271,7 +271,7 @@
     {
       "date": "2026-09-25",
       "reports": 8,
-      "events": 3
+      "events": 2
     },
     {
       "date": "2026-09-26",
@@ -285,11 +285,74 @@
     },
     {
       "date": "2026-09-28",
-      "reports": 4,
-      "events": 0
+      "reports": 5,
+      "events": 1
     }
   ],
   "latest_events": [
+    {
+      "id": "fa6676e72a47cd7ee193f40b12a10b824f677528",
+      "event_date": "2026-09-28",
+      "event_date_confidence": "explicit-text",
+      "event_date_source": "explicit-calendar-date",
+      "published_at": "2026-09-28T17:18:45Z",
+      "collected_at": "2026-09-28T18:34:32.985737Z",
+      "actor": "Other",
+      "perpetrator": null,
+      "target": "State",
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [
+        "State"
+      ],
+      "parent_report_id": null,
+      "event_type": "attack",
+      "country": "Mali",
+      "city": "Djenné",
+      "lat": 13.9061,
+      "lng": -4.555,
+      "locations": [
+        {
+          "name": "Djenné",
+          "country": "Mali",
+          "lat": 13.9061,
+          "lng": -4.555,
+          "confidence": "explicit-place"
+        }
+      ],
+      "title": "ATTACK AGAINST THE MALIAN ARMED FORCES AT THE CROSSROADS OF DJENNÉ: SEVERAL DOZEN TERRORISTS KILLED AND EQUIPMENT RECOVERED BY THE FAMA",
+      "summary": "The Malian Armed Forces (FAMa) were the target of an attack by an armed terrorist group on Thursday at the Djenné crossroads. Following the intervention of the Army, the terrorists there (...)By Mahamane TOURE – NEW HORIZONRETROUVE the REST OF YOUR ARTICLE IN the NEW HORIZON OF MONDAY, SEPTEMBER 28, 2026 Follow us on Facebook, Telegram, WhatsApp to not miss anything of the Malian news Follow us on Facebook, Telegram,",
+      "sources": [
+        "Bamada"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://bamada.net/attaque-contre-les-forces-armees-maliennes-au-carrefour-de-djenne-plusieurs-dizaines-de-terroristes-tues-et-du-materiel-recupere-par-les-fama"
+      ],
+      "created_at": "2026-09-28T18:34:32.985737Z",
+      "updated_at": "2026-09-28T18:34:32.985737Z",
+      "extraction_confidence": "moderate",
+      "revision_history": [
+        {
+          "at": "2026-09-28T18:34:32.985737Z",
+          "type": "event_created",
+          "source": "Bamada"
+        }
+      ],
+      "corroboration": "single-source",
+      "confidence": "moderate",
+      "independent_source_domains": [
+        "bamada.net"
+      ],
+      "independent_source_count": 1,
+      "significance": "ROUTINE",
+      "significance_reasons": [
+        "limited currently observed significance"
+      ]
+    },
     {
       "id": "c68cfc212b862ad9676b84964d97a501f68a4114",
       "event_date": "2026-09-26",
@@ -344,69 +407,6 @@
       ],
       "corroboration": "single-source",
       "confidence": "low",
-      "independent_source_domains": [
-        "malijet.com"
-      ],
-      "independent_source_count": 1,
-      "significance": "ROUTINE",
-      "significance_reasons": [
-        "limited currently observed significance"
-      ]
-    },
-    {
-      "id": "cc6d005e79a5348a248980ee4de9ca9da6084a76",
-      "event_date": "2026-09-25",
-      "event_date_confidence": "explicit-text",
-      "event_date_source": "explicit-calendar-date",
-      "published_at": "2026-09-26T19:38:20Z",
-      "collected_at": "2026-09-28T17:30:00.604973Z",
-      "actor": "State",
-      "perpetrator": "State",
-      "target": null,
-      "claimant": null,
-      "supporting_force": null,
-      "mentioned_actors": [
-        "State"
-      ],
-      "parent_report_id": null,
-      "event_type": "security operation",
-      "country": "Mali",
-      "city": "Kidal",
-      "lat": 18.4411,
-      "lng": 1.4078,
-      "locations": [
-        {
-          "name": "Kidal",
-          "country": "Mali",
-          "lat": 18.4411,
-          "lng": 1.4078,
-          "confidence": "explicit-place"
-        }
-      ],
-      "title": "Security: New targeted FAMa strikes in Kidal and Léré as part of Operation Dougoukoloko",
-      "summary": "Security: New targeted FAMa strikes in Kidal and Léré as part of Operation Dougoukoloko The General Staff of the Armed Forces announced, in a statement, the continuation of operations to secure the national territory as part of Operation Dougoukoloko. The Malian Armed Forces (FAMa), supported by their partners, conducted two new targeted airstrikes on Friday, September 25, 2026 . On September 25, the exploitation of ",
-      "sources": [
-        "Malijet"
-      ],
-      "languages": [
-        "fr"
-      ],
-      "source_count": 1,
-      "report_urls": [
-        "https://malijet.com/actualte_dans_les_regions_du_mali/312033-securite-nouvelles-frappes-ciblees-des-fama-a-kidal-et-lere.html"
-      ],
-      "created_at": "2026-09-28T17:30:00.604973Z",
-      "updated_at": "2026-09-28T17:30:00.604973Z",
-      "extraction_confidence": "moderate",
-      "revision_history": [
-        {
-          "at": "2026-09-28T17:30:00.604973Z",
-          "type": "event_created",
-          "source": "Malijet"
-        }
-      ],
-      "corroboration": "single-source",
-      "confidence": "moderate",
       "independent_source_domains": [
         "malijet.com"
       ],
@@ -1996,7 +1996,7 @@
   "latest_reports": [
     {
       "published_at": null,
-      "discovered_at": "2026-09-28T17:30:02.244688Z",
+      "discovered_at": "2026-09-28T18:34:32.751458Z",
       "source": "aNiamey.com",
       "language": "fr",
       "actor": null,
@@ -2006,6 +2006,19 @@
       "candidate_event": false,
       "title": "Dfense: the Gnral Tiani reshuffles the military command after the Niamey mutiny",
       "url": "http://news.aniamey.com/h/123258.html"
+    },
+    {
+      "published_at": "2026-09-28T17:18:45Z",
+      "discovered_at": "2026-09-28T18:34:32.985737Z",
+      "source": "Bamada",
+      "language": "fr",
+      "actor": "Other",
+      "country": "Mali",
+      "city": "Djenné",
+      "event_type": "attack",
+      "candidate_event": true,
+      "title": "ATTACK AGAINST THE MALIAN ARMED FORCES AT THE CROSSROADS OF DJENNÉ: SEVERAL DOZEN TERRORISTS KILLED AND EQUIPMENT RECOVERED BY THE FAMA",
+      "url": "https://bamada.net/attaque-contre-les-forces-armees-maliennes-au-carrefour-de-djenne-plusieurs-dizaines-de-terroristes-tues-et-du-materiel-recupere-par-les-fama"
     },
     {
       "published_at": "2026-09-28T16:42:47Z",
@@ -2139,16 +2152,16 @@
     },
     {
       "published_at": "2026-09-26T19:38:20Z",
-      "discovered_at": "2026-09-28T17:30:00.604973Z",
+      "discovered_at": "2026-09-28T18:34:46.310813Z",
       "source": "Malijet",
       "language": "fr",
       "actor": "State",
       "country": "Mali",
       "city": "Kidal",
       "event_type": "security operation",
-      "candidate_event": true,
-      "title": "Security: New targeted FAMa strikes in Kidal and Léré as part of Operation Dougoukoloko",
-      "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312033-securite-nouvelles-frappes-ciblees-des-fama-a-kidal-et-lere.html"
+      "candidate_event": false,
+      "title": "Security: New targeted FAMa strikes in Kidal and Léré as part of Operation Dougoukoloko - malijet.com",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVHZKNDl1VmxBcV9ieFRFQUZHaU9oZlFmY3pVUVdseExadDc2bzdqSTN4VTFROUlsUElxOW9NWUVUcmhFbl85djlKM2hJd29TZl9qVXdxdnpXRFlNUWQxUk5xWk1RY2xNOWR5Y1VNcFJRbnhYZThCc0Itd2dIckg0bld3OThZNUdTOXdLNnAwVkNCbXlZMTJHTXE2ZmhWYU9OeG5hc1VtRl92cmhkZkpyQ2ZEX0VsUHZ0bmFlUkd0UXQtZjA?oc=5"
     },
     {
       "published_at": "2026-09-26T12:24:54Z",
@@ -2500,19 +2513,6 @@
       "candidate_event": false,
       "title": "Names of 37 Niger Miners Who Died in Custody",
       "url": "https://newscentraltv.com/names-of-37-niger-miners-who-died-in-custody/"
-    },
-    {
-      "published_at": "2026-09-22T15:16:21Z",
-      "discovered_at": "2026-09-22T15:28:25.611368Z",
-      "source": "AMAP (Agence Malienne de Presse et de Publicité)",
-      "language": "fr",
-      "actor": null,
-      "country": "Mali",
-      "city": null,
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Tominian: Independence Day marked by the rise of colours",
-      "url": "https://amap.ml/2026/09/22/tominian-la-fete-de-lindependance-marquee-par-la-montee-des-couleurs/"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
