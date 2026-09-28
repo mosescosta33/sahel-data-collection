@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "site_patch_version": "2.9.3",
   "reporting_date": "2026-09-28",
-  "generated_at": "2026-09-28T10:32:20.394324Z",
+  "generated_at": "2026-09-28T11:30:29.394144Z",
   "coverage": [
     "Mali",
     "Burkina Faso",
@@ -16,7 +16,7 @@
     "multi_source_events": 0,
     "reports_collected_on_date": 9,
     "reports_published_on_date": 1,
-    "newly_discovered_older_events": 1,
+    "newly_discovered_older_events": 2,
     "events_awaiting_date_verification": 0,
     "distinct_sources_collected": 5
   },
@@ -28,7 +28,7 @@
     },
     {
       "heading": "What remains unclear",
-      "text": "1 newly recorded item concern earlier dates and are kept out of today's incident count. Collection or source checks are incomplete for this date, so relevant reporting may still be missing."
+      "text": "2 newly recorded items concern earlier dates and are kept out of today's incident count. Collection or source checks are incomplete for this date, so relevant reporting may still be missing."
     }
   ],
   "key_judgments": [
@@ -41,7 +41,7 @@
   ],
   "emerging_patterns": [
     "JNIM 7-day activity is lower than the preceding 7-day window (1 → 0).",
-    "State 7-day activity is lower than the preceding 7-day window (6 → 1)."
+    "State 7-day activity is lower than the preceding 7-day window (6 → 2)."
   ],
   "intelligence_gaps": [
     "Collection confidence is moderate, so absence of reporting should not be interpreted as absence of activity."
@@ -81,7 +81,7 @@
     "State": {
       "events": 0,
       "delta_vs_previous_day": 0,
-      "current_7d": 1,
+      "current_7d": 2,
       "previous_7d": 6,
       "countries": [],
       "event_types": []
@@ -124,19 +124,20 @@
   },
   "collection_notes": {
     "sources_total": 174,
-    "sources_success": 174,
-    "sources_failed": 0,
-    "sources_degraded": 48,
-    "documents_discovered": 6720,
-    "documents_retained": 7,
+    "sources_success": 173,
+    "sources_failed": 1,
+    "sources_degraded": 41,
+    "documents_discovered": 6877,
+    "documents_retained": 3,
     "report_target": 100,
     "translations_attempted": 2,
     "translations_success": 2,
     "translation_failures": 0,
     "collection_confidence": "MODERATE",
     "collection_confidence_reasons": [
-      "174/174 source paths reached",
-      "48 degraded / 0 failed of 174 configured sources"
+      "173/174 source paths reached",
+      "1 failed source paths",
+      "41 degraded / 1 failed of 174 configured sources"
     ],
     "reports_collected": 9,
     "reports_published": 1,
@@ -146,5 +147,5 @@
       "en": 6
     }
   },
-  "sultana_daily_text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nDaily bottom line for 2026-09-28: Reporting collected on 2026-09-28 does not yet support a clear account of a new incident in Mali, Burkina Faso, or Niger. The desk received 9 reports from 5 sources, but the automated incident record needs further review. This is not evidence of calm on the ground.\n\nActor picture: no same-day fused candidate events.\n\nWhat changed: Collection volume: -3 retained report(s) versus 2026-09-27 (12 → 9). Actor-level same-day fused event counts are unchanged from the previous date.\n\nIntelligence gaps: Collection confidence is moderate, so absence of reporting should not be interpreted as absence of activity.\n\nCollection confidence: MODERATE. 174/174 source paths reached 48 degraded / 0 failed of 174 configured sources\n\nNothing further to report at this time."
+  "sultana_daily_text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nDaily bottom line for 2026-09-28: Reporting collected on 2026-09-28 does not yet support a clear account of a new incident in Mali, Burkina Faso, or Niger. The desk received 9 reports from 5 sources, but the automated incident record needs further review. This is not evidence of calm on the ground.\n\nActor picture: no same-day fused candidate events.\n\nWhat changed: Collection volume: -3 retained report(s) versus 2026-09-27 (12 → 9). Actor-level same-day fused event counts are unchanged from the previous date.\n\nIntelligence gaps: Collection confidence is moderate, so absence of reporting should not be interpreted as absence of activity.\n\nCollection confidence: MODERATE. 173/174 source paths reached 1 failed source paths 41 degraded / 1 failed of 174 configured sources\n\nNothing further to report at this time."
 }
