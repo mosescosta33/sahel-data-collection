@@ -1,29 +1,15 @@
 {
-  "generated_at": "2026-09-29T13:35:03.315300Z",
+  "generated_at": "2026-09-29T14:31:50.251368Z",
   "method": "Sultana expanded multilingual OSINT synthesis",
   "freshness_status": "LIVE",
-  "new_event_ids": [],
+  "new_event_ids": [
+    "fb430061113f814b0494991f5380c0b986b53e06",
+    "c76ab7dfb6b09e5d8c3b598413274cf5616c5d6b"
+  ],
   "updated_event_ids": [],
   "new_corroboration_ids": [],
-  "new_reports_this_cycle": 3,
+  "new_reports_this_cycle": 5,
   "trend_snapshot": {
-    "JNIM": {
-      "current": 1,
-      "previous": 2,
-      "change_pct": -50.0
-    },
-    "IS Sahel": {
-      "current": 0,
-      "previous": 0,
-      "change_pct": null
-    },
-    "State": {
-      "current": 4,
-      "previous": 8,
-      "change_pct": -50.0
-    }
-  },
-  "previous_briefing_trend_snapshot": {
     "JNIM": {
       "current": 1,
       "previous": 2,
@@ -40,11 +26,34 @@
       "change_pct": -37.5
     }
   },
+  "previous_briefing_trend_snapshot": {
+    "JNIM": {
+      "current": 1,
+      "previous": 2,
+      "change_pct": -50.0
+    },
+    "IS Sahel": {
+      "current": 0,
+      "previous": 0,
+      "change_pct": null
+    },
+    "State": {
+      "current": 4,
+      "previous": 8,
+      "change_pct": -50.0
+    }
+  },
   "event_snapshots": [
     {
       "id": "c68cfc212b862ad9676b84964d97a501f68a4114",
       "source_count": 1,
       "updated_at": "2026-09-27T22:28:09.942661Z",
+      "location_count": 1
+    },
+    {
+      "id": "fb430061113f814b0494991f5380c0b986b53e06",
+      "source_count": 2,
+      "updated_at": "2026-09-29T11:28:59.703866Z",
       "location_count": 1
     },
     {
@@ -60,24 +69,21 @@
       "location_count": 2
     },
     {
-      "id": "2380ea669beeac5ae200554e092e110503a2285c",
-      "source_count": 1,
-      "updated_at": "2026-09-29T11:28:59.703866Z",
-      "location_count": 1
-    },
-    {
       "id": "61ab582907045a7d4feecd0b1b9f25eb68513ea3",
       "source_count": 1,
       "updated_at": "2026-09-29T09:31:26.858958Z",
       "location_count": 3
+    },
+    {
+      "id": "c76ab7dfb6b09e5d8c3b598413274cf5616c5d6b",
+      "source_count": 1,
+      "updated_at": "2026-09-29T14:31:16.957074Z",
+      "location_count": 4
     }
   ],
-  "briefing_fingerprint": "cc3c52b26830d1b0a509c62ab6dd8e53d265bbc8",
-  "previous_fingerprint": "04b47eb12075cb0b7429dd50541b959d809f80c1",
+  "briefing_fingerprint": "052239e023580752bd114f4dd8d4cf7e97d842d4",
+  "previous_fingerprint": "cc3c52b26830d1b0a509c62ab6dd8e53d265bbc8",
   "seen_context_report_ids": [
-    "3190425ec6c5e6b1539de38bf97c1014d9e9a45d",
-    "162a32416ff11a04186c44734393c11f51fae441",
-    "7d91181a59cfd756d5bace6b5bae978da58afe24",
     "76c4d486aab822cb5ddc4c653869194df8fb6176",
     "99f7483b7c768cb9c7383e2cff0f2d8513ac8d64",
     "56a40a24113d34cffe1ed9f9ff74a31343d7a2f2",
@@ -194,9 +200,12 @@
     "23c8a8124efd4b90479df7b441fd5c68eeaa4560",
     "fc6c35f40124cf9f5783ba69bf99a827f2ef8ef8",
     "3d21c3da5ad26b3456a8eea6c7984e4125f362f6",
-    "29f936b12c0fd508332f776691b518bb4db12c31"
+    "29f936b12c0fd508332f776691b518bb4db12c31",
+    "52cfd8ab7629aaa544433d49484b67939edc38da",
+    "28fec21054cac10682eda4563a44e83255413a69",
+    "9f9409c8333474d1a1d59a88a6bfcd0c12bca3c0"
   ],
-  "text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nBottom line: the latest collection cycle retained 3 new relevant reports. The fusion layer recorded no newly created fused event IDs. The archive currently contains 11 candidate events in the last seven days and 27 in the last thirty days.\n\nLatest reporting picture:\nDevelopment 1: 2026-09-29: Africa Corps/Wagner — civilian targeting near Ségou, Mali. This candidate event is linked to 1 monitored source and is currently assessed at low confidence. Reporting headline: Mali: Amnesty International accuses the army and Wagner of war crimes against civilians.\nDevelopment 2: 2026-09-28: State — security operation near Dioura, Mali. This candidate event is linked to 1 monitored source and is currently assessed at moderate confidence. Reporting headline: Operation Dougoukoloko: FAMa surgical strikes, several terrorist hideouts wiped out in the center of the country.\nDevelopment 3: 2026-09-28: State — security operation near Timbuktu, Mali. This candidate event is linked to 1 monitored source and is currently assessed at moderate confidence. Reporting headline: COUNTER-TERRORISM OPERATION IN THE TIMBUKTU AND KIDAL REGIONS: A SENIOR JNIM ABDOULLAHI AG FALY OFFICER REPORTEDLY PERISHED FOLLOWING FAMA STRIKES.\nDevelopment 4: 2026-09-28: Other — attack near Djenné, Mali. This candidate event is linked to 1 monitored source and is currently assessed at moderate confidence. Reporting headline: ATTACK AGAINST THE MALIAN ARMED FORCES AT THE CROSSROADS OF DJENNÉ: SEVERAL DOZEN TERRORISTS KILLED AND EQUIPMENT RECOVERED BY THE FAMA.\nDevelopment 5: 2026-09-26: State — air/drone strike near Kidal, Mali. This candidate event is linked to 1 monitored source and is currently assessed at low confidence. Reporting headline: Operation Dougoukoloko: At least 50 terrorists, including executives, neutralized in Abeibara.\n\nQuantitative picture: JNIM is down to 1 from 2 candidate events across the two seven-day windows. IS Sahel is unchanged at 0 candidate events in the current seven-day window. State is down to 4 from 8 candidate events across the two seven-day windows.\n\nCollection picture: 174 sources are configured; 134 are live, 40 are degraded, and 0 failed in the latest cycle. The collector discovered 6947 links, selected 9 new URLs, and retained 3. Country retention this cycle: Mali 1, Burkina Faso 0, Niger 2. Language retention: FR 2, EN 1, AR 0, OTHER 0. The thirty-day archive contains 140 relevant reports from 47 distinct sources.\nTranslation status: 2 translations were attempted this cycle; 2 succeeded and 0 failed.\n\nAnalytic note: Sahel Intel distinguishes source reporting, retained reports, fused candidate events, and independently verified incidents. These event signals are open-source analytical candidates and may change as additional reporting, geolocation, dates, or corroboration are collected.",
-  "candidate_events_7d": 11,
-  "candidate_events_30d": 27
+  "text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nBottom line: the latest collection cycle retained 5 new relevant reports. The fusion layer recorded 2 new fused events. The archive currently contains 12 candidate events in the last seven days and 28 in the last thirty days.\n\nLatest reporting picture:\nDevelopment 1: 2026-09-29: State — security operation near Bamako, Mali. This candidate event is linked to 1 monitored source and is currently assessed at low confidence. Reporting headline: It targeted Arabs, Tuareg and Fulani.. Amnesty accuses Bamako and a Russian legion of war crimes.\nDevelopment 2: 2026-09-29: Africa Corps/Wagner — civilian targeting near Ségou, Mali. This candidate event is linked to 1 monitored source and is currently assessed at low confidence. Reporting headline: Mali: Amnesty International accuses the army and Wagner of war crimes against civilians.\nDevelopment 3: 2026-09-28: State — security operation near Timbuktu, Mali. This candidate event is linked to 1 monitored source and is currently assessed at moderate confidence. Reporting headline: COUNTER-TERRORISM OPERATION IN THE TIMBUKTU AND KIDAL REGIONS: A SENIOR JNIM ABDOULLAHI AG FALY OFFICER REPORTEDLY PERISHED FOLLOWING FAMA STRIKES.\nDevelopment 4: 2026-09-28: Other — attack near Djenné, Mali. This candidate event is linked to 1 monitored source and is currently assessed at moderate confidence. Reporting headline: ATTACK AGAINST THE MALIAN ARMED FORCES AT THE CROSSROADS OF DJENNÉ: SEVERAL DOZEN TERRORISTS KILLED AND EQUIPMENT RECOVERED BY THE FAMA.\nDevelopment 5: 2026-09-27: State — security operation near Dioura, Mali. This candidate event is linked to 2 monitored sources and is currently assessed at moderate confidence. Reporting headline: Sectors of Niono and Dioura: The FAMa strike several terrorist positions with precision.\n\nQuantitative picture: JNIM is down to 1 from 2 candidate events across the two seven-day windows. IS Sahel is unchanged at 0 candidate events in the current seven-day window. State is down to 5 from 8 candidate events across the two seven-day windows.\n\nCollection picture: 174 sources are configured; 133 are live, 41 are degraded, and 0 failed in the latest cycle. The collector discovered 6876 links, selected 11 new URLs, and retained 5. Country retention this cycle: Mali 2, Burkina Faso 0, Niger 3. Language retention: FR 2, EN 2, AR 1, OTHER 0. The thirty-day archive contains 143 relevant reports from 48 distinct sources.\nTranslation status: 3 translations were attempted this cycle; 3 succeeded and 0 failed.\n\nAnalytic note: Sahel Intel distinguishes source reporting, retained reports, fused candidate events, and independently verified incidents. These event signals are open-source analytical candidates and may change as additional reporting, geolocation, dates, or corroboration are collected.",
+  "candidate_events_7d": 12,
+  "candidate_events_30d": 28
 }

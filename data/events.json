@@ -1,5 +1,88 @@
 [
   {
+    "id": "c76ab7dfb6b09e5d8c3b598413274cf5616c5d6b",
+    "event_date": "2026-09-29",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "relative-today",
+    "published_at": "2026-09-29T10:17:19Z",
+    "collected_at": "2026-09-29T14:31:16.957074Z",
+    "actor": "State",
+    "perpetrator": null,
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [],
+    "parent_report_id": null,
+    "event_type": "security operation",
+    "country": "Mali",
+    "city": "Bamako",
+    "lat": 12.6392,
+    "lng": -8.0029,
+    "locations": [
+      {
+        "name": "Bamako",
+        "country": "Mali",
+        "lat": 12.6392,
+        "lng": -8.0029,
+        "confidence": "explicit-place"
+      },
+      {
+        "name": "Ségou",
+        "country": "Mali",
+        "lat": 13.4317,
+        "lng": -6.2157,
+        "confidence": "explicit-place"
+      },
+      {
+        "name": "Mopti",
+        "country": "Mali",
+        "lat": 14.4843,
+        "lng": -4.1829,
+        "confidence": "explicit-place"
+      },
+      {
+        "name": "Timbuktu",
+        "country": "Mali",
+        "lat": 16.7666,
+        "lng": -3.0026,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "It targeted Arabs, Tuareg and Fulani.. Amnesty accuses Bamako and a Russian legion of war crimes",
+    "summary": "Amnesty International has accused the Malian armed forces and elements of Russia's Africa Corps of committing war crimes during joint operations between June 2023 and December 2025. According to the organization, the crimes included killing, torturing and forcibly disappearing civilians and looting and destroying their property. Suggested stories list of 2 items and confirmed that the majority of victims were Fulans,",
+    "sources": [
+      "Al Jazeera Arabic"
+    ],
+    "languages": [
+      "ar"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://www.aljazeera.net/news/2026/9/29/%d8%a7%d8%b3%d8%aa%d9%87%d8%af%d9%81%d8%aa-%d8%b9%d8%b1%d8%a8%d8%a7-%d9%88%d8%b7%d9%88%d8%a7%d8%b1%d9%82-%d9%88%d9%81%d9%88%d9%84%d8%a7%d9%86-%d8%a3%d9%85%d9%86%d8%b3%d8%aa%d9%8a?traffic_source=rss"
+    ],
+    "created_at": "2026-09-29T14:31:16.957074Z",
+    "updated_at": "2026-09-29T14:31:16.957074Z",
+    "extraction_confidence": "low",
+    "revision_history": [
+      {
+        "at": "2026-09-29T14:31:16.957074Z",
+        "type": "event_created",
+        "source": "Al Jazeera Arabic"
+      }
+    ],
+    "corroboration": "single-source",
+    "confidence": "low",
+    "independent_source_domains": [
+      "aljazeera.net"
+    ],
+    "independent_source_count": 1,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "strategic/severe event pattern",
+      "multi-location activity"
+    ]
+  },
+  {
     "id": "61ab582907045a7d4feecd0b1b9f25eb68513ea3",
     "event_date": "2026-09-29",
     "event_date_confidence": "publication-proxy",
@@ -76,69 +159,6 @@
     "significance_reasons": [
       "strategic/severe event pattern",
       "multi-location activity"
-    ]
-  },
-  {
-    "id": "2380ea669beeac5ae200554e092e110503a2285c",
-    "event_date": "2026-09-28",
-    "event_date_confidence": "explicit-text",
-    "event_date_source": "explicit-calendar-date",
-    "published_at": "2026-09-29T10:38:03Z",
-    "collected_at": "2026-09-29T11:28:59.703866Z",
-    "actor": "State",
-    "perpetrator": "State",
-    "target": null,
-    "claimant": null,
-    "supporting_force": null,
-    "mentioned_actors": [
-      "State"
-    ],
-    "parent_report_id": null,
-    "event_type": "security operation",
-    "country": "Mali",
-    "city": "Dioura",
-    "lat": 14.82528,
-    "lng": -5.25139,
-    "locations": [
-      {
-        "name": "Dioura",
-        "country": "Mali",
-        "lat": 14.82528,
-        "lng": -5.25139,
-        "confidence": "explicit-place"
-      }
-    ],
-    "title": "Operation Dougoukoloko: FAMa surgical strikes, several terrorist hideouts wiped out in the center of the country",
-    "summary": "Operation Dougoukoloko: Surgical strikes by the FAMa, several terrorist hideouts wiped out in the centre of the country By a statement issued on Tuesday, 29 September, the General Staff of the Armed Forces confirmed the continuation of the \"Dougoukoloko\" operation aimed at securing the territory. The Malian Armed Forces (FAMa), supported by their partners, conducted two rounds of targeted strikes on 27 and 28 Septemb",
-    "sources": [
-      "Malijet"
-    ],
-    "languages": [
-      "fr"
-    ],
-    "source_count": 1,
-    "report_urls": [
-      "https://malijet.com/actualte_dans_les_regions_du_mali/312079-operation-dougoukoloko-frappes-chirurgicales-des-fama-plu.html"
-    ],
-    "created_at": "2026-09-29T11:28:59.703866Z",
-    "updated_at": "2026-09-29T11:28:59.703866Z",
-    "extraction_confidence": "moderate",
-    "revision_history": [
-      {
-        "at": "2026-09-29T11:28:59.703866Z",
-        "type": "event_created",
-        "source": "Malijet"
-      }
-    ],
-    "corroboration": "single-source",
-    "confidence": "moderate",
-    "independent_source_domains": [
-      "malijet.com"
-    ],
-    "independent_source_count": 1,
-    "significance": "ROUTINE",
-    "significance_reasons": [
-      "limited currently observed significance"
     ]
   },
   {
@@ -273,6 +293,77 @@
     "significance": "ROUTINE",
     "significance_reasons": [
       "limited currently observed significance"
+    ]
+  },
+  {
+    "id": "fb430061113f814b0494991f5380c0b986b53e06",
+    "event_date": "2026-09-27",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "explicit-calendar-date",
+    "published_at": "2026-09-29T13:36:16Z",
+    "collected_at": "2026-09-29T14:31:17.312023Z",
+    "actor": "State",
+    "perpetrator": "State",
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [
+      "State"
+    ],
+    "parent_report_id": null,
+    "event_type": "security operation",
+    "country": "Mali",
+    "city": "Dioura",
+    "lat": 14.82528,
+    "lng": -5.25139,
+    "locations": [
+      {
+        "name": "Dioura",
+        "country": "Mali",
+        "lat": 14.82528,
+        "lng": -5.25139,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "Sectors of Niono and Dioura: The FAMa strike several terrorist positions with precision",
+    "summary": "Operation Dougoukoloko: Surgical strikes by the FAMa, several terrorist hideouts wiped out in the centre of the country By a statement issued on Tuesday, 29 September, the General Staff of the Armed Forces confirmed the continuation of the \"Dougoukoloko\" operation aimed at securing the territory. The Malian Armed Forces (FAMa), supported by their partners, conducted two rounds of targeted strikes on 27 and 28 Septemb",
+    "sources": [
+      "Bamada",
+      "Malijet"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 2,
+    "report_urls": [
+      "https://bamada.net/secteurs-de-niono-et-dioura-les-fama-frappent-plusieurs-positions-terroristes-avec-precision",
+      "https://malijet.com/actualte_dans_les_regions_du_mali/312079-operation-dougoukoloko-frappes-chirurgicales-des-fama-plu.html"
+    ],
+    "created_at": "2026-09-29T14:31:17.312023Z",
+    "updated_at": "2026-09-29T11:28:59.703866Z",
+    "extraction_confidence": "moderate",
+    "revision_history": [
+      {
+        "at": "2026-09-29T14:31:17.312023Z",
+        "type": "event_created",
+        "source": "Bamada"
+      },
+      {
+        "at": "2026-09-29T11:28:59.703866Z",
+        "type": "corroboration_or_geography_update",
+        "source": "Malijet"
+      }
+    ],
+    "corroboration": "limited corroboration",
+    "confidence": "moderate",
+    "independent_source_domains": [
+      "bamada.net",
+      "malijet.com"
+    ],
+    "independent_source_count": 2,
+    "significance": "SIGNIFICANT",
+    "significance_reasons": [
+      "operational security event"
     ]
   },
   {
