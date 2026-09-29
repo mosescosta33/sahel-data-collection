@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-09-29T09:32:24.289336Z",
+  "generated_at": "2026-09-29T10:32:16.597906Z",
   "window_days": 30,
   "cutoff": "2026-08-30",
-  "reports": 138,
-  "incident_reports": 27,
-  "candidate_events": 26,
+  "reports": 139,
+  "incident_reports": 28,
+  "candidate_events": 27,
   "corroborated_events": 1,
-  "mapped_events": 21,
-  "mapped_locations": 47,
+  "mapped_events": 22,
+  "mapped_locations": 48,
   "distinct_sources": 47,
   "by_actor": {
-    "State": 11,
+    "State": 12,
     "Other": 6,
     "JNIM": 5,
     "Africa Corps/Wagner": 4
   },
   "by_country": {
-    "Mali": 22,
+    "Mali": 23,
     "Niger": 3,
     "Burkina Faso": 1
   },
   "by_event_type": {
-    "security operation": 10,
+    "security operation": 11,
     "attack": 9,
     "offensive/campaign": 3,
     "air/drone strike": 1,
@@ -31,12 +31,12 @@
   },
   "by_language": {
     "fr": 103,
-    "en": 29,
+    "en": 30,
     "ar": 6
   },
   "by_confidence": {
-    "low": 13,
-    "moderate": 13
+    "moderate": 14,
+    "low": 13
   },
   "top_sources": [
     {
@@ -72,6 +72,10 @@
       "count": 5
     },
     {
+      "source": "Punch Newspapers (Nigeria)",
+      "count": 4
+    },
+    {
       "source": "Sahara Medias (صحراء ميديا)",
       "count": 4
     },
@@ -82,19 +86,15 @@
     {
       "source": "Studio Tamani",
       "count": 4
-    },
-    {
-      "source": "Wakat Sera",
-      "count": 4
     }
   ],
   "top_locations": [
     {
-      "location": "Dioura",
-      "count": 7
+      "location": "Kidal",
+      "count": 8
     },
     {
-      "location": "Kidal",
+      "location": "Dioura",
       "count": 7
     },
     {
@@ -267,7 +267,7 @@
     {
       "date": "2026-09-25",
       "reports": 8,
-      "events": 2
+      "events": 3
     },
     {
       "date": "2026-09-26",
@@ -286,7 +286,7 @@
     },
     {
       "date": "2026-09-29",
-      "reports": 5,
+      "reports": 6,
       "events": 1
     }
   ],
@@ -558,6 +558,69 @@
       ],
       "corroboration": "single-source",
       "confidence": "low",
+      "independent_source_domains": [
+        "malijet.com"
+      ],
+      "independent_source_count": 1,
+      "significance": "ROUTINE",
+      "significance_reasons": [
+        "limited currently observed significance"
+      ]
+    },
+    {
+      "id": "cc6d005e79a5348a248980ee4de9ca9da6084a76",
+      "event_date": "2026-09-25",
+      "event_date_confidence": "explicit-text",
+      "event_date_source": "explicit-calendar-date",
+      "published_at": "2026-09-26T19:38:20Z",
+      "collected_at": "2026-09-29T10:31:47.036009Z",
+      "actor": "State",
+      "perpetrator": "State",
+      "target": null,
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [
+        "State"
+      ],
+      "parent_report_id": null,
+      "event_type": "security operation",
+      "country": "Mali",
+      "city": "Kidal",
+      "lat": 18.4411,
+      "lng": 1.4078,
+      "locations": [
+        {
+          "name": "Kidal",
+          "country": "Mali",
+          "lat": 18.4411,
+          "lng": 1.4078,
+          "confidence": "explicit-place"
+        }
+      ],
+      "title": "Security: New targeted FAMa strikes in Kidal and Léré as part of Operation Dougoukoloko",
+      "summary": "Security: New targeted FAMa strikes in Kidal and Léré as part of Operation Dougoukoloko The General Staff of the Armed Forces announced, in a statement, the continuation of operations to secure the national territory as part of Operation Dougoukoloko. The Malian Armed Forces (FAMa), supported by their partners, conducted two new targeted airstrikes on Friday, September 25, 2026 . On September 25, the exploitation of ",
+      "sources": [
+        "Malijet"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://malijet.com/actualte_dans_les_regions_du_mali/312033-securite-nouvelles-frappes-ciblees-des-fama-a-kidal-et-lere.html"
+      ],
+      "created_at": "2026-09-29T10:31:47.036009Z",
+      "updated_at": "2026-09-29T10:31:47.036009Z",
+      "extraction_confidence": "moderate",
+      "revision_history": [
+        {
+          "at": "2026-09-29T10:31:47.036009Z",
+          "type": "event_created",
+          "source": "Malijet"
+        }
+      ],
+      "corroboration": "single-source",
+      "confidence": "moderate",
       "independent_source_domains": [
         "malijet.com"
       ],
@@ -2086,7 +2149,7 @@
   "latest_reports": [
     {
       "published_at": null,
-      "discovered_at": "2026-09-29T09:31:26.471659Z",
+      "discovered_at": "2026-09-29T10:31:46.867432Z",
       "source": "aNiamey.com",
       "language": "fr",
       "actor": null,
@@ -2122,6 +2185,19 @@
       "candidate_event": false,
       "title": "Mali: Russian army and paramilitaries accused of 'war crimes' by Amnesty International",
       "url": "https://www.la-croix.com/international/mali-l-armee-et-les-paramilitaires-russes-accuses-de-crimes-de-guerre-par-amnesty-international-20260929"
+    },
+    {
+      "published_at": "2026-09-29T07:30:34Z",
+      "discovered_at": "2026-09-29T10:31:47.152819Z",
+      "source": "Punch Newspapers (Nigeria)",
+      "language": "en",
+      "actor": null,
+      "country": "Burkina Faso",
+      "city": null,
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Burkina Faso opens first-ever gold refinery",
+      "url": "https://punchng.com/burkina-faso-opens-first-ever-gold-refinery/"
     },
     {
       "published_at": "2026-09-29T04:54:36Z",
@@ -2333,16 +2409,16 @@
     },
     {
       "published_at": "2026-09-26T19:38:20Z",
-      "discovered_at": "2026-09-29T09:31:38.944212Z",
+      "discovered_at": "2026-09-29T10:31:47.036009Z",
       "source": "Malijet",
       "language": "fr",
       "actor": "State",
       "country": "Mali",
       "city": "Kidal",
       "event_type": "security operation",
-      "candidate_event": false,
-      "title": "Security: New targeted FAMa strikes in Kidal and Léré as part of Operation Dougoukoloko - malijet.com",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVHZKNDl1VmxBcV9ieFRFQUZHaU9oZlFmY3pVUVdseExadDc2bzdqSTN4VTFROUlsUElxOW9NWUVUcmhFbl85djlKM2hJd29TZl9qVXdxdnpXRFlNUWQxUk5xWk1RY2xNOWR5Y1VNcFJRbnhYZThCc0Itd2dIckg0bld3OThZNUdTOXdLNnAwVkNCbXlZMTJHTXE2ZmhWYU9OeG5hc1VtRl92cmhkZkpyQ2ZEX0VsUHZ0bmFlUkd0UXQtZjA?oc=5"
+      "candidate_event": true,
+      "title": "Security: New targeted FAMa strikes in Kidal and Léré as part of Operation Dougoukoloko",
+      "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312033-securite-nouvelles-frappes-ciblees-des-fama-a-kidal-et-lere.html"
     },
     {
       "published_at": "2026-09-26T12:24:54Z",
@@ -2590,19 +2666,6 @@
       "candidate_event": false,
       "title": "Mali: Arrival of a historic convoy of 1,289 tankers in Bamako",
       "url": "https://bamada.net/mali-arrivee-dun-convoi-historique-de-1-289-camions-citernes-a-bamako"
-    },
-    {
-      "published_at": "2026-09-23T07:12:27Z",
-      "discovered_at": "2026-09-23T07:29:37.603999Z",
-      "source": "AMAP (Agence Malienne de Presse et de Publicité)",
-      "language": "fr",
-      "actor": null,
-      "country": "Mali",
-      "city": "Timbuktu",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Timbuktu: Celebration of Mali's Independence Day",
-      "url": "https://amap.ml/2026/09/23/tombouctou-celebration-de-la-fete-de-lindependence-du-mali/"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
