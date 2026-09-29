@@ -226,6 +226,79 @@
     ]
   },
   {
+    "id": "4a52bf1865035b7ae6209ec54e7e341474692af2",
+    "event_date": "2026-09-28",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "explicit-date-no-year",
+    "published_at": "2026-09-29T20:18:44Z",
+    "collected_at": "2026-09-29T20:32:43.614369Z",
+    "actor": "JNIM",
+    "perpetrator": null,
+    "target": "JNIM",
+    "claimant": "JNIM",
+    "supporting_force": null,
+    "mentioned_actors": [
+      "JNIM",
+      "Africa Corps/Wagner"
+    ],
+    "parent_report_id": null,
+    "event_type": "ambush",
+    "country": "Mali",
+    "city": "Ségou",
+    "lat": 13.4317,
+    "lng": -6.2157,
+    "locations": [
+      {
+        "name": "Ségou",
+        "country": "Mali",
+        "lat": 13.4317,
+        "lng": -6.2157,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "Mali: deadly ambush of Jnim jihadists in Niono against the Russian Africa Corps",
+    "summary": "At least three Malian soldiers and four Russian paramilitaries were killed in an ambush by extremists on their convoy in central Mali, security and local sources told Agence France-Presse on Tuesday. Sunday's attack comes amid an upsurge in attacks by extremists from al-Qaeda-linked JNIM. A security source, speaking on condition of anonymity, told AFP: \"A convoy consisting mainly of members of the Africa Corps group ",
+    "sources": [
+      "RFI Afrique",
+      "Asharq Al-Awsat"
+    ],
+    "languages": [
+      "fr",
+      "ar"
+    ],
+    "source_count": 2,
+    "report_urls": [
+      "https://www.rfi.fr/fr/afrique/20260929-mali-embuscade-meurtri%C3%A8re-des-jihadistes-du-jnim-%C3%A0-niono-contre-l-africa-corps-russe",
+      "https://aawsat.com/%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%A3%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7/5324072-%D9%85%D9%82%D8%AA%D9%84-%D8%AC%D9%86%D9%88%D8%AF-%D9%85%D8%A7%D9%84%D9%8A%D9%8A%D9%86-%D9%88%D8%B9%D9%86%D8%A7%D8%B5%D8%B1-%D8%B1%D9%88%D8%B3%D9%8A%D8%A9-%D9%81%D9%8A-%D9%83%D9%85%D9%8A%D9%86-%D9%84%D9%85%D8%AA%D8%B7%D8%B1%D9%81%D9%8A%D9%86-%D9%88%D8%B3%D8%B7-%D9%85%D8%A7%D9%84%D9%8A"
+    ],
+    "created_at": "2026-09-29T20:32:43.614369Z",
+    "updated_at": "2026-09-29T20:32:45.781091Z",
+    "extraction_confidence": "moderate",
+    "revision_history": [
+      {
+        "at": "2026-09-29T20:32:43.614369Z",
+        "type": "event_created",
+        "source": "RFI Afrique"
+      },
+      {
+        "at": "2026-09-29T20:32:45.781091Z",
+        "type": "corroboration_or_geography_update",
+        "source": "Asharq Al-Awsat"
+      }
+    ],
+    "corroboration": "limited corroboration",
+    "confidence": "moderate",
+    "independent_source_domains": [
+      "rfi.fr",
+      "aawsat.com"
+    ],
+    "independent_source_count": 2,
+    "significance": "SIGNIFICANT",
+    "significance_reasons": [
+      "operational security event"
+    ]
+  },
+  {
     "id": "f92eb6aec222d7b5067b5647786d0aa721e1c004",
     "event_date": "2026-09-28",
     "event_date_confidence": "explicit-text",
