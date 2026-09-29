@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T16:33:19.079986Z",
+  "generated_at": "2026-09-29T17:30:27.198811Z",
   "model_version": "0.1-experimental",
   "label": "Experimental Conflict Threat Level",
   "regional": {
@@ -8,23 +8,23 @@
   },
   "countries": {
     "Mali": {
-      "score": 75,
+      "score": 82,
       "level": "HIGH",
       "trend": "DETERIORATING",
       "confidence": "HIGH",
       "assessment_status": "ASSESSED",
-      "events_7d": 9,
-      "events_30d": 25,
+      "events_7d": 11,
+      "events_30d": 27,
       "baseline_7d_equivalent": 4.9,
-      "tempo_ratio": 1.7,
+      "tempo_ratio": 2.04,
       "drivers": [
-        "9 fused candidate event(s) in 7 days",
-        "1 JNIM/IS Sahel-linked event(s)",
-        "6 significant/major event(s)",
+        "11 fused candidate event(s) in 7 days",
+        "2 JNIM/IS Sahel-linked event(s)",
+        "8 significant/major event(s)",
         "1 civilian-threat indicator(s)",
         "activity across 9 named locations"
       ],
-      "independent_domains_7d": 6
+      "independent_domains_7d": 7
     },
     "Burkina Faso": {
       "score": 17,

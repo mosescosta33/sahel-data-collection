@@ -1,24 +1,24 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-29T16:33:20.063001Z",
-  "run_id": "5214467ee3bbb1fae52f4283c50ca9bfad70ca55",
-  "started_at": "2026-09-29T16:29:31.355740Z",
-  "finished_at": "2026-09-29T16:33:19.093809Z",
+  "generated_at": "2026-09-29T17:30:28.129372Z",
+  "run_id": "e8a0d42d7b61cc473faf324612129bd768be93e2",
+  "started_at": "2026-09-29T17:26:40.129202Z",
+  "finished_at": "2026-09-29T17:30:27.218170Z",
   "status": "LIVE",
   "pipeline_totals": {
     "sources_configured": 174,
-    "links_discovered": 6881,
-    "current_cycle_retained": 3,
+    "links_discovered": 6944,
+    "current_cycle_retained": 4,
     "current_cycle_rejected_or_error": 6,
-    "translations_attempted": 2,
-    "translations_succeeded": 2,
+    "translations_attempted": 3,
+    "translations_succeeded": 3,
     "translations_failed": 0
   },
   "pipelines": {
     "Mali": {
       "sources": 11,
-      "discovered": 425,
-      "included": 1,
+      "discovered": 424,
+      "included": 2,
       "excluded": 0,
       "errors": 0,
       "duplicates": 0,
@@ -50,7 +50,7 @@
     },
     "Regional": {
       "sources": 149,
-      "discovered": 5872,
+      "discovered": 5936,
       "included": 0,
       "excluded": 6,
       "errors": 0,
@@ -72,7 +72,7 @@
       "reason": "Google News index URL had no canonical publisher URL and headline/excerpt did not pass relevance",
       "title": "Escalating Violence In Sahel As JNIM Claims Rising Jihadi Operations - HumAngle",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNdzA5V283RXJ5VkxhVFlVQUMxWGt3YjFobkxDNWJyV0p5d1FSc2lNQXF1dTB0NUtWdk56emdtdk9VZ3lQQW54MnZxcFB5aHdsMzhURkJZWWJUUXNHRzY5My1QdGJpMG1HcnAwZmNyOUp5X3hiTjNBTm8wVXA0akhaUEt5RE1jOG9pX3U2M1Fka2pRYkVhRjZheGhXTTZTUjA?oc=5",
-      "collected_at": "2026-09-29T16:32:46.314124Z",
+      "collected_at": "2026-09-29T17:29:49.397313Z",
       "score": null
     },
     {
@@ -86,7 +86,7 @@
       "reason": "Google News index URL had no canonical publisher URL and headline/excerpt did not pass relevance",
       "title": "JNIM: Coalition Of Terrorists Intensifying Attacks In The Sahel - HumAngle",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPbGVLeFVlYUFsVWZNSXY1bmpsZDJMLW9uSUZ3X3A0Um0tSWR4eUVueEl0bEdoUFRaVElsUHA0QnVUdkgtS2F1VzZ0MWdJek1TX1NLRzBYellFcHJjQ1hJT2dhWll2dnNRdkI5VUQzbklod1BwXzNPM25CREdUWXRPT1dPSEdxSkRWcGU4MWYyU3FBUQ?oc=5",
-      "collected_at": "2026-09-29T16:32:46.319278Z",
+      "collected_at": "2026-09-29T17:29:49.402737Z",
       "score": null
     },
     {
@@ -100,7 +100,7 @@
       "reason": "Google News index URL had no canonical publisher URL and headline/excerpt did not pass relevance",
       "title": "Understanding JNIM’s Expansion beyond the Sahel - International Crisis Group",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOMW9CSDEzYy0xN2ZWcEluQ3JEd1RlQWVHdkkxbVFKSVhiYmhDaXVNRno3OHlUbGlvQl9tcjJjS2gtU3F0Uy05S0U3Qk5RaXMyZE91UUF5T0NQVHdvbDBRVFJQODlEbUYzNTV3Vk5YUmhNempoVXJuWHdfMDhZYWVjVVFhd3FoeVZYcnotTA?oc=5",
-      "collected_at": "2026-09-29T16:32:46.324425Z",
+      "collected_at": "2026-09-29T17:29:49.408134Z",
       "score": null
     },
     {
@@ -114,7 +114,7 @@
       "reason": "Google News index URL had no canonical publisher URL and headline/excerpt did not pass relevance",
       "title": "Countering JNIM’s Drone Proliferation in the Sahel - Small Wars Journal",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPZFhyVzVHTVQtT0VFaDRBNmpxcEUtcTdraDM4bTFDeTVKcGJJQVJvcFV6cVBjc21oTUpCeXduSWFzRVhldlVqTG5VaWVJZng5Z0F0djFQNkZjOFQ5RjN2S0dsQUVkdDhtc051MWVoWDhkaW1LVWtxMmJtQ0JsLWsyUW9oY0NucWRRTGpOUkljYXdsNEhZ?oc=5",
-      "collected_at": "2026-09-29T16:32:46.329457Z",
+      "collected_at": "2026-09-29T17:29:49.413439Z",
       "score": null
     },
     {
@@ -128,7 +128,7 @@
       "reason": "Google News index URL had no canonical publisher URL and headline/excerpt did not pass relevance",
       "title": "Exploiting Borders in the Sahel: The Islamic State in the Greater Sahara - Africa Center for Strategic Studies",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNQXQ4WU1FaWhpOUs0RDBFZk1ZbGtiWEdfVW9mSVR0UVZxQWRzYWt0VEdvZk9ESmhwbkxaZzEtNEJRVVBLaFVWbXRSRUs1NDRCLXpjYURIVHFBcVRXeV8wOW80MFhXd1dULVlMbTlycjRMYl9ZSnpIMGQ5S0EydFlwa3RyLUh0ZkR1Rm5PaEJaV0gtUlhTVWFNblBDbDFmQjMxT3pN?oc=5",
-      "collected_at": "2026-09-29T16:32:46.335641Z",
+      "collected_at": "2026-09-29T17:29:49.419910Z",
       "score": null
     },
     {
@@ -142,22 +142,8 @@
       "reason": "Google News index URL had no canonical publisher URL and headline/excerpt did not pass relevance",
       "title": "Al-Qaïda au Sahel revendique une attaque et salue le coronavirus - VOA Afrique",
       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPYzZIa0NMRWpqUHl5Z19rZTM1cXp3ZFRpR1MxazNXUmlGZ2NFUVhSaEp3NTA1S0w1YWJ2dDVaM1RVZW14NDlmQWpESTFkTjZUU2I2V3dLS0tlNmt1ZVdXZnJ0cWE5ak1FcFdmTmF5M21fbVFjWV85SnNkOXFGbzdsY2JDSjBvSGMweVhVRmplbWVrUS0yV3JtUUNwb2p5QlR1V3VQbEhwWjNWNzlLWUlDVkZuc19LZkF3SU5qU1pZYWZYS1l5aVY2ZHEydUtZNTVVdDF2MzZ30gHYAUFVX3lxTE5OQ2d1NC14OXV3R2ozcHVQbXh3RndJUmZZR2JxbjVBcVNlR0hZWXdpeUgxMWg3dVlJZGV4a3duTXJVM3FHRXJkb20xOEVHbTNxSjBoNXlxa1ptaUVLUFppQ01IRTVTRl9aaEZkcC1jNXh1N0oyeHBsdFdUb1pBa1hPb09fZjdLdDZJTzc3RDA1SWJSWlcwb3N6NHN0bFVycWlnNUNvVGtORUVYbi1xcmwxSFZDYk1Yd3BERFI2NEFTb2ttVnVzNjZnS3FtYkhmMDlITWxzVl8tNg?oc=5",
-      "collected_at": "2026-09-29T16:32:46.339801Z",
+      "collected_at": "2026-09-29T17:29:49.424280Z",
       "score": null
-    },
-    {
-      "pipeline": "Niger",
-      "decision": "INCLUDED",
-      "source": "aNiamey.com",
-      "source_id": "dir-051-aniamey-com",
-      "language": "fr",
-      "collection_method": "homepage",
-      "stage": "precision",
-      "reason": "explicit place: Niamey (niamey); local source prior: Niger; headline event signal: political/security policy (mutinerie); security context: militaire",
-      "title": "D�fense : le G�n�ral Tiani remanie le commandement militaire apr�s la mutinerie de Niamey",
-      "url": "http://news.aNiamey.com/h/123258.html",
-      "collected_at": "2026-09-29T16:32:46.694280Z",
-      "score": 13
     },
     {
       "pipeline": "Niger",
@@ -170,22 +156,50 @@
       "reason": "explicit place: Niamey (niamey); headline event signal: air/drone strike (drone attack); supporting signal civilians: civilians; security context: security; actor unresolved: retained as Other",
       "title": "Boko Massacre in Nigeria; Ethiopia on the Brink; M23 Drone Attack; IS Attacks Niamey: Africa File, February 5, 2026",
       "url": "https://www.criticalthreats.org/analysis/boko-haram-nigeria-tplf-ethiopia-red-sea-drc-m23-rwanda-isis-niger-saf-rsf-sudan-africa-file-february-5-2026",
-      "collected_at": "2026-09-29T16:32:46.821577Z",
+      "collected_at": "2026-09-29T17:29:49.768745Z",
+      "score": 14
+    },
+    {
+      "pipeline": "Niger",
+      "decision": "INCLUDED",
+      "source": "aNiamey.com",
+      "source_id": "dir-051-aniamey-com",
+      "language": "fr",
+      "collection_method": "homepage",
+      "stage": "precision",
+      "reason": "explicit place: Niamey (niamey); local source prior: Niger; headline event signal: political/security policy (mutinerie); security context: militaire",
+      "title": "D�fense : le G�n�ral Tiani remanie le commandement militaire apr�s la mutinerie de Niamey",
+      "url": "http://news.aNiamey.com/h/123258.html",
+      "collected_at": "2026-09-29T17:29:49.927017Z",
+      "score": 13
+    },
+    {
+      "pipeline": "Mali",
+      "decision": "INCLUDED",
+      "source": "Bamada",
+      "source_id": "bamada",
+      "language": "fr",
+      "collection_method": "rss:/rss",
+      "stage": "precision",
+      "reason": "explicit place: Ségou (segou); headline actor: Africa Corps/Wagner (africa corps); local source prior: Mali; headline event signal: offensive/campaign (offensive)",
+      "title": "OFFENSIVE CONJOINTE FAMa-AFRICA CORPS DANS LA RÉGION DE SÉGOU, HIER : UN BILAN PROVISOIRE DE 30 TERRORISTES NEUTRALISÉS ET PLUSIEURS ARMEMENTS RÉCUPÉRÉS",
+      "url": "https://bamada.net/offensive-conjointe-fama-africa-corps-dans-la-region-de-segou-hier-un-bilan-provisoire-de-30-terroristes-neutralises-et-plusieurs-armements-recuperes",
+      "collected_at": "2026-09-29T17:29:50.095227Z",
       "score": 14
     },
     {
       "pipeline": "Mali",
       "decision": "INCLUDED",
-      "source": "AMAP (Agence Malienne de Presse et de Publicité)",
-      "source_id": "dir-001-amap-agence-malienne-de-presse",
+      "source": "Seneweb",
+      "source_id": "dir-035-seneweb",
       "language": "fr",
-      "collection_method": "rss:/feed/",
+      "collection_method": "rss:/feed",
       "stage": "precision",
-      "reason": "explicit place: Dioura (dioura); local source prior: Mali; state/security force: forces armées maliennes; event signal: attack (attaque); supporting signal military_target: convoi",
-      "title": "Sécurisation du pays : des positions de groupes armés frappées à Niono et Dioura",
-      "url": "https://amap.ml/2026/09/29/securisation-du-pays-des-positions-de-groupes-armes-frappees-a-niono-et-dioura/",
-      "collected_at": "2026-09-29T16:32:48.200505Z",
-      "score": 16
+      "reason": "explicit country: Mali (mali); actor: JNIM (groupe de soutien à l'islam et aux musulmans); headline event signal: attack (attaque); supporting signal military_target: convoi",
+      "title": "Mali : au moins 3 militaires et 4 paramilitaires russes tués dans une attaque jihadiste",
+      "url": "https://www.seneweb.com/fr/news/Afrique/mali-au-moins-3-militaires-et-4-paramilitaires-russes-tues-dans-une-attaque-jihadiste_n_505606.html",
+      "collected_at": "2026-09-29T17:29:50.237623Z",
+      "score": 13
     }
   ],
   "privacy": {

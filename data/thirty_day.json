@@ -1,47 +1,47 @@
 {
-  "generated_at": "2026-09-29T16:33:19.051510Z",
+  "generated_at": "2026-09-29T17:30:27.158581Z",
   "window_days": 30,
   "cutoff": "2026-08-30",
-  "reports": 146,
-  "incident_reports": 31,
-  "candidate_events": 29,
+  "reports": 148,
+  "incident_reports": 33,
+  "candidate_events": 31,
   "corroborated_events": 2,
-  "mapped_events": 23,
-  "mapped_locations": 52,
-  "distinct_sources": 49,
+  "mapped_events": 25,
+  "mapped_locations": 54,
+  "distinct_sources": 50,
   "by_actor": {
-    "State": 13,
+    "State": 14,
+    "JNIM": 6,
     "Other": 6,
-    "Africa Corps/Wagner": 5,
-    "JNIM": 5
+    "Africa Corps/Wagner": 5
   },
   "by_country": {
-    "Mali": 25,
+    "Mali": 27,
     "Niger": 3,
     "Burkina Faso": 1
   },
   "by_event_type": {
     "security operation": 12,
-    "attack": 9,
-    "offensive/campaign": 3,
+    "attack": 10,
+    "offensive/campaign": 4,
     "clash": 2,
     "air/drone strike": 1,
     "ambush": 1,
     "civilian targeting": 1
   },
   "by_language": {
-    "fr": 107,
+    "fr": 109,
     "en": 32,
     "ar": 7
   },
   "by_confidence": {
-    "low": 15,
-    "moderate": 14
+    "low": 16,
+    "moderate": 15
   },
   "top_sources": [
     {
       "source": "Bamada",
-      "count": 16
+      "count": 17
     },
     {
       "source": "Malijet",
@@ -114,6 +114,10 @@
       "count": 6
     },
     {
+      "location": "Ségou",
+      "count": 4
+    },
+    {
       "location": "Djenné",
       "count": 3
     },
@@ -127,10 +131,6 @@
     },
     {
       "location": "Ber",
-      "count": 2
-    },
-    {
-      "location": "Ségou",
       "count": 2
     },
     {
@@ -282,15 +282,79 @@
     {
       "date": "2026-09-28",
       "reports": 7,
-      "events": 2
+      "events": 3
     },
     {
       "date": "2026-09-29",
-      "reports": 14,
-      "events": 2
+      "reports": 16,
+      "events": 3
     }
   ],
   "latest_events": [
+    {
+      "id": "2c2e044bc7ede838d4f82c6aeaa6e9bf7177a38b",
+      "event_date": "2026-09-29",
+      "event_date_confidence": "explicit-text",
+      "event_date_source": "relative-weekday",
+      "published_at": "2026-09-29T17:22:59Z",
+      "collected_at": "2026-09-29T17:29:50.237478Z",
+      "actor": "JNIM",
+      "perpetrator": null,
+      "target": "Africa Corps/Wagner",
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [
+        "Africa Corps/Wagner",
+        "JNIM"
+      ],
+      "parent_report_id": null,
+      "event_type": "attack",
+      "country": "Mali",
+      "city": "Ségou",
+      "lat": 13.4317,
+      "lng": -6.2157,
+      "locations": [
+        {
+          "name": "Ségou",
+          "country": "Mali",
+          "lat": 13.4317,
+          "lng": -6.2157,
+          "confidence": "explicit-place"
+        }
+      ],
+      "title": "Mali: at least 3 Russian soldiers and 4 paramilitaries killed in a jihadist attack",
+      "summary": "Mali: at least 3 Russian servicemen and 4 paramilitaries killed in jihadist attack At least three Malian servicemen and four Russian paramilitaries of Africa Corps, were killed Sunday when their convoy fell in a jihadist ambush in the center of the country, AFP learned Tuesday from security and local sources This new assault comes amid an upsurge in attacks by jihadists from the Al-Qaeda-affiliated Support Group for ",
+      "sources": [
+        "Seneweb"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://www.seneweb.com/fr/news/Afrique/mali-au-moins-3-militaires-et-4-paramilitaires-russes-tues-dans-une-attaque-jihadiste_n_505606.html"
+      ],
+      "created_at": "2026-09-29T17:29:50.237478Z",
+      "updated_at": "2026-09-29T17:29:50.237478Z",
+      "extraction_confidence": "low",
+      "revision_history": [
+        {
+          "at": "2026-09-29T17:29:50.237478Z",
+          "type": "event_created",
+          "source": "Seneweb"
+        }
+      ],
+      "corroboration": "single-source",
+      "confidence": "low",
+      "independent_source_domains": [
+        "seneweb.com"
+      ],
+      "independent_source_count": 1,
+      "significance": "SIGNIFICANT",
+      "significance_reasons": [
+        "operational security event"
+      ]
+    },
     {
       "id": "c76ab7dfb6b09e5d8c3b598413274cf5616c5d6b",
       "event_date": "2026-09-29",
@@ -451,6 +515,70 @@
       "significance_reasons": [
         "strategic/severe event pattern",
         "multi-location activity"
+      ]
+    },
+    {
+      "id": "f92eb6aec222d7b5067b5647786d0aa721e1c004",
+      "event_date": "2026-09-28",
+      "event_date_confidence": "explicit-text",
+      "event_date_source": "explicit-calendar-date",
+      "published_at": "2026-09-29T16:10:21Z",
+      "collected_at": "2026-09-29T17:29:50.095125Z",
+      "actor": "State",
+      "perpetrator": "State",
+      "target": null,
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [
+        "State",
+        "Africa Corps/Wagner"
+      ],
+      "parent_report_id": null,
+      "event_type": "offensive/campaign",
+      "country": "Mali",
+      "city": "Ségou",
+      "lat": 13.4317,
+      "lng": -6.2157,
+      "locations": [
+        {
+          "name": "Ségou",
+          "country": "Mali",
+          "lat": 13.4317,
+          "lng": -6.2157,
+          "confidence": "explicit-place"
+        }
+      ],
+      "title": "FAMA-AFRICA JOINT OFFENSIVE BODY IN the SÉGOU REGION, YESTERDAY: A PROVISIONAL ASSESSMENT OF 30 NEUTRALIZED TERRORISTS and SEVERAL WEAPONS RECOVERED",
+      "summary": "A joint operation involving the Malian Armed Forces (FAMa) and the Africa Corps of the Armed Forces of the Russian Federation was conducted on September 28, 2026, in the Segou Region.According to the information provided by the Russian partner of the FAMa, at the end of (…)By Mahamane TOURE – NOUVEL HORIZONRETROUVE the REST OF YOUR ARTICLE IN the NEW HORIZON OF TUESDAY, SEPTEMBER 29, 2026 Follow US ON Facebook, Teleg",
+      "sources": [
+        "Bamada"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://bamada.net/offensive-conjointe-fama-africa-corps-dans-la-region-de-segou-hier-un-bilan-provisoire-de-30-terroristes-neutralises-et-plusieurs-armements-recuperes"
+      ],
+      "created_at": "2026-09-29T17:29:50.095125Z",
+      "updated_at": "2026-09-29T17:29:50.095125Z",
+      "extraction_confidence": "moderate",
+      "revision_history": [
+        {
+          "at": "2026-09-29T17:29:50.095125Z",
+          "type": "event_created",
+          "source": "Bamada"
+        }
+      ],
+      "corroboration": "single-source",
+      "confidence": "moderate",
+      "independent_source_domains": [
+        "bamada.net"
+      ],
+      "independent_source_count": 1,
+      "significance": "MAJOR",
+      "significance_reasons": [
+        "strategic/severe event pattern"
       ]
     },
     {
@@ -2236,67 +2364,12 @@
       "significance_reasons": [
         "multi-location activity"
       ]
-    },
-    {
-      "id": "49a010bed8728cedc2a1329288e5290eb58aa820",
-      "event_date": "2026-09-10",
-      "event_date_confidence": "explicit-text",
-      "event_date_source": "relative-weekday",
-      "published_at": "2026-09-14T13:44:16Z",
-      "collected_at": "2026-09-21T04:28:31.185520Z",
-      "actor": "Africa Corps/Wagner",
-      "perpetrator": "Africa Corps/Wagner",
-      "target": null,
-      "claimant": null,
-      "supporting_force": null,
-      "mentioned_actors": [
-        "Africa Corps/Wagner"
-      ],
-      "parent_report_id": null,
-      "event_type": "attack",
-      "country": "Mali",
-      "city": null,
-      "lat": null,
-      "lng": null,
-      "locations": [],
-      "title": "In Mali, at least 50 Russian soldiers and five mercenaries killed Thursday in a jihadist attack - Le Monde.fr",
-      "summary": "In Mali, at least 50 Russian soldiers and five mercenaries killed Thursday in a jihadist attack.",
-      "sources": [
-        "Le Monde Afrique"
-      ],
-      "languages": [
-        "fr"
-      ],
-      "source_count": 1,
-      "report_urls": [
-        "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNdEVaXzlZVWVJZHhJR2tXVndQS0trNExJTENfbDJCTTAxMGpNMzMzRE1rZ3JpeVZBV2MtVnpka0tWMC1RN20zUnR0blVUUm1xa2lxajBldzJJdzQwOFpVWGl5b3YwWklkXzRuVUpiOGtxZlBMR3hzUWpTOGRqYkJJUjFaYnpqMkplelBUOU9iWmF2b2cwT3RGR0gxSUNGcFQxX0JvN1VBOXJMRmxEbEZmbjRGcHRTMkJMYnJlUnR0eEVBNXFiZk83MmVuZmV6RjNlZUdrMGltR1BLN0xNcmlFZ2hOeVUxV1l4ajUxSFBRYnp4bkNRSzRJ?oc=5"
-      ],
-      "created_at": "2026-09-21T04:28:31.185520Z",
-      "updated_at": "2026-09-21T04:28:31.185520Z",
-      "extraction_confidence": "moderate",
-      "revision_history": [
-        {
-          "at": "2026-09-21T04:28:31.185520Z",
-          "type": "event_created",
-          "source": "Le Monde Afrique"
-        }
-      ],
-      "corroboration": "single-source",
-      "confidence": "moderate",
-      "independent_source_domains": [
-        "news.google.com"
-      ],
-      "independent_source_count": 1,
-      "significance": "ROUTINE",
-      "significance_reasons": [
-        "limited currently observed significance"
-      ]
     }
   ],
   "latest_reports": [
     {
       "published_at": null,
-      "discovered_at": "2026-09-29T16:32:46.693981Z",
+      "discovered_at": "2026-09-29T17:29:49.926740Z",
       "source": "aNiamey.com",
       "language": "fr",
       "actor": null,
@@ -2306,6 +2379,32 @@
       "candidate_event": false,
       "title": "Dfense: the Gnral Tiani reshuffles the military command after the Niamey mutiny",
       "url": "http://news.aniamey.com/h/123258.html"
+    },
+    {
+      "published_at": "2026-09-29T17:22:59Z",
+      "discovered_at": "2026-09-29T17:29:50.237478Z",
+      "source": "Seneweb",
+      "language": "fr",
+      "actor": "JNIM",
+      "country": "Mali",
+      "city": "Ségou",
+      "event_type": "attack",
+      "candidate_event": true,
+      "title": "Mali: at least 3 Russian soldiers and 4 paramilitaries killed in a jihadist attack",
+      "url": "https://www.seneweb.com/fr/news/Afrique/mali-au-moins-3-militaires-et-4-paramilitaires-russes-tues-dans-une-attaque-jihadiste_n_505606.html"
+    },
+    {
+      "published_at": "2026-09-29T16:10:21Z",
+      "discovered_at": "2026-09-29T17:29:50.095125Z",
+      "source": "Bamada",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Ségou",
+      "event_type": "offensive/campaign",
+      "candidate_event": true,
+      "title": "FAMA-AFRICA JOINT OFFENSIVE BODY IN the SÉGOU REGION, YESTERDAY: A PROVISIONAL ASSESSMENT OF 30 NEUTRALIZED TERRORISTS and SEVERAL WEAPONS RECOVERED",
+      "url": "https://bamada.net/offensive-conjointe-fama-africa-corps-dans-la-region-de-segou-hier-un-bilan-provisoire-de-30-terroristes-neutralises-et-plusieurs-armements-recuperes"
     },
     {
       "published_at": "2026-09-29T16:04:14Z",
@@ -2787,32 +2886,6 @@
       "candidate_event": false,
       "title": "Floods in Mali: 13 dead, 12,405 affected and a call for vigilance",
       "url": "https://malijet.com/a_la_une_du_mali/312013-inondations-au-mali-13-morts-12-405-sinistres-et-un-appel.html"
-    },
-    {
-      "published_at": "2026-09-24T23:02:53Z",
-      "discovered_at": "2026-09-25T16:30:58.333134Z",
-      "source": "Critical Threats Project - Africa File",
-      "language": "en",
-      "actor": "JNIM",
-      "country": "Mali",
-      "city": null,
-      "event_type": "offensive/campaign",
-      "candidate_event": false,
-      "title": "Ethiopian Rebels Launch Major Offensive; China Expands Djibouti Base; Deadly Jnim Attacks In Central Mali: Africa File, September 24, 2026 - Critical Threats",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNRGJkS3dVRlRKM1JKNG1ZenAtWGEwVXhtRXRnc3pPVWZJalB2RmsxTDVXVno5OWtkVlZvcC01ekxUVWJRbEdlWGJjbkNDaEJWNUNlT1JCcGlzV09XVnlwUDlwZUhBWU4yRUV6RjdLU21IUk9YU2l4WW1aVjdWTWQ1Y21wX29Vc0ZFUjhNdnQ0WExwSlQ2eEJHQlB2RU1EVVQtLTVDRUdVcmlHX0NTNjN1QjJDbFNUU3cxUmRBd2t0VWgwdw?oc=5"
-    },
-    {
-      "published_at": "2026-09-24T18:00:36Z",
-      "discovered_at": "2026-09-24T17:28:03.775866Z",
-      "source": "Jeune Afrique",
-      "language": "fr",
-      "actor": "Other",
-      "country": "Burkina Faso",
-      "city": "Dori",
-      "event_type": "security operation",
-      "candidate_event": true,
-      "title": "Reporting in Burkina Faso: when jihadist violence destroys the Great Green Wall",
-      "url": "https://www.jeuneafrique.com/1845416/societe/reportage-au-burkina-faso-quand-la-violence-jihadiste-detruit-la-grande-muraille-verte/"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."

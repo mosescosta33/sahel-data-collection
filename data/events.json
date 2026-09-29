@@ -1,5 +1,69 @@
 [
   {
+    "id": "2c2e044bc7ede838d4f82c6aeaa6e9bf7177a38b",
+    "event_date": "2026-09-29",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "relative-weekday",
+    "published_at": "2026-09-29T17:22:59Z",
+    "collected_at": "2026-09-29T17:29:50.237478Z",
+    "actor": "JNIM",
+    "perpetrator": null,
+    "target": "Africa Corps/Wagner",
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [
+      "Africa Corps/Wagner",
+      "JNIM"
+    ],
+    "parent_report_id": null,
+    "event_type": "attack",
+    "country": "Mali",
+    "city": "Ségou",
+    "lat": 13.4317,
+    "lng": -6.2157,
+    "locations": [
+      {
+        "name": "Ségou",
+        "country": "Mali",
+        "lat": 13.4317,
+        "lng": -6.2157,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "Mali: at least 3 Russian soldiers and 4 paramilitaries killed in a jihadist attack",
+    "summary": "Mali: at least 3 Russian servicemen and 4 paramilitaries killed in jihadist attack At least three Malian servicemen and four Russian paramilitaries of Africa Corps, were killed Sunday when their convoy fell in a jihadist ambush in the center of the country, AFP learned Tuesday from security and local sources This new assault comes amid an upsurge in attacks by jihadists from the Al-Qaeda-affiliated Support Group for ",
+    "sources": [
+      "Seneweb"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://www.seneweb.com/fr/news/Afrique/mali-au-moins-3-militaires-et-4-paramilitaires-russes-tues-dans-une-attaque-jihadiste_n_505606.html"
+    ],
+    "created_at": "2026-09-29T17:29:50.237478Z",
+    "updated_at": "2026-09-29T17:29:50.237478Z",
+    "extraction_confidence": "low",
+    "revision_history": [
+      {
+        "at": "2026-09-29T17:29:50.237478Z",
+        "type": "event_created",
+        "source": "Seneweb"
+      }
+    ],
+    "corroboration": "single-source",
+    "confidence": "low",
+    "independent_source_domains": [
+      "seneweb.com"
+    ],
+    "independent_source_count": 1,
+    "significance": "SIGNIFICANT",
+    "significance_reasons": [
+      "operational security event"
+    ]
+  },
+  {
     "id": "c76ab7dfb6b09e5d8c3b598413274cf5616c5d6b",
     "event_date": "2026-09-29",
     "event_date_confidence": "explicit-text",
@@ -159,6 +223,70 @@
     "significance_reasons": [
       "strategic/severe event pattern",
       "multi-location activity"
+    ]
+  },
+  {
+    "id": "f92eb6aec222d7b5067b5647786d0aa721e1c004",
+    "event_date": "2026-09-28",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "explicit-calendar-date",
+    "published_at": "2026-09-29T16:10:21Z",
+    "collected_at": "2026-09-29T17:29:50.095125Z",
+    "actor": "State",
+    "perpetrator": "State",
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [
+      "State",
+      "Africa Corps/Wagner"
+    ],
+    "parent_report_id": null,
+    "event_type": "offensive/campaign",
+    "country": "Mali",
+    "city": "Ségou",
+    "lat": 13.4317,
+    "lng": -6.2157,
+    "locations": [
+      {
+        "name": "Ségou",
+        "country": "Mali",
+        "lat": 13.4317,
+        "lng": -6.2157,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "FAMA-AFRICA JOINT OFFENSIVE BODY IN the SÉGOU REGION, YESTERDAY: A PROVISIONAL ASSESSMENT OF 30 NEUTRALIZED TERRORISTS and SEVERAL WEAPONS RECOVERED",
+    "summary": "A joint operation involving the Malian Armed Forces (FAMa) and the Africa Corps of the Armed Forces of the Russian Federation was conducted on September 28, 2026, in the Segou Region.According to the information provided by the Russian partner of the FAMa, at the end of (…)By Mahamane TOURE – NOUVEL HORIZONRETROUVE the REST OF YOUR ARTICLE IN the NEW HORIZON OF TUESDAY, SEPTEMBER 29, 2026 Follow US ON Facebook, Teleg",
+    "sources": [
+      "Bamada"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://bamada.net/offensive-conjointe-fama-africa-corps-dans-la-region-de-segou-hier-un-bilan-provisoire-de-30-terroristes-neutralises-et-plusieurs-armements-recuperes"
+    ],
+    "created_at": "2026-09-29T17:29:50.095125Z",
+    "updated_at": "2026-09-29T17:29:50.095125Z",
+    "extraction_confidence": "moderate",
+    "revision_history": [
+      {
+        "at": "2026-09-29T17:29:50.095125Z",
+        "type": "event_created",
+        "source": "Bamada"
+      }
+    ],
+    "corroboration": "single-source",
+    "confidence": "moderate",
+    "independent_source_domains": [
+      "bamada.net"
+    ],
+    "independent_source_count": 1,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "strategic/severe event pattern"
     ]
   },
   {
