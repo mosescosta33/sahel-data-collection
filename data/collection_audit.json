@@ -1,17 +1,17 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-29T11:29:27.206881Z",
-  "run_id": "9cf8dcc30f679e93030a29cab4834053b8eb5d48",
-  "started_at": "2026-09-29T11:26:03.123403Z",
-  "finished_at": "2026-09-29T11:29:26.491453Z",
+  "generated_at": "2026-09-29T12:37:09.999212Z",
+  "run_id": "121f5d4c8bd40b89caa6bb7d17cdd9d4248e0d8f",
+  "started_at": "2026-09-29T12:33:08.886863Z",
+  "finished_at": "2026-09-29T12:37:09.068769Z",
   "status": "LIVE",
   "pipeline_totals": {
     "sources_configured": 174,
-    "links_discovered": 6875,
+    "links_discovered": 6843,
     "current_cycle_retained": 3,
-    "current_cycle_rejected_or_error": 7,
-    "translations_attempted": 2,
-    "translations_succeeded": 2,
+    "current_cycle_rejected_or_error": 6,
+    "translations_attempted": 1,
+    "translations_succeeded": 1,
     "translations_failed": 0
   },
   "pipelines": {
@@ -39,9 +39,9 @@
     },
     "Niger": {
       "sources": 7,
-      "discovered": 275,
+      "discovered": 247,
       "included": 2,
-      "excluded": 1,
+      "excluded": 0,
       "errors": 0,
       "duplicates": 0,
       "pending": 0,
@@ -50,7 +50,7 @@
     },
     "Regional": {
       "sources": 149,
-      "discovered": 5866,
+      "discovered": 5862,
       "included": 0,
       "excluded": 6,
       "errors": 0,
@@ -62,6 +62,20 @@
   },
   "decisions": [
     {
+      "pipeline": "Mali",
+      "decision": "INCLUDED",
+      "source": "Reuters Africa",
+      "source_id": "reuters-africa",
+      "language": "en",
+      "collection_method": "google-news-domain",
+      "stage": "indexed_fallback",
+      "reason": "Google News index URL had no publisher canonical URL in the RSS item; retained indexed context only",
+      "title": "Soldiers and mercenaries killed at least 34 civilians in Mali, Amnesty report says - Reuters",
+      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQT045QWx6ZElwVVo3OXpQaWh1ZTl1MEVnT0gtMnNXS1Z2cXpNb0hRUmVoMFVoQmlBWkhkNVlmLUVEakhqSlFSbm0ta1pSZTE1R0pubVpmbE5jaXlxTHc1elJsamVrbXpIYndyNHlfa3JJVHpxRlBCc1BnT2ZOQmtKb2pWYmdfcTFoZGlNWEEtenF2X3FxVzBfdjJSSUdscHVDVE1kQ1JaMXJkZV9rM1ZVODBPaHBiM1lsTnFYeg?oc=5",
+      "collected_at": "2026-09-29T12:36:43.404568Z",
+      "score": 8
+    },
+    {
       "pipeline": "Regional",
       "decision": "EXCLUDED",
       "source": "HumAngle",
@@ -72,7 +86,7 @@
       "reason": "Google News index URL had no canonical publisher URL and headline/excerpt did not pass relevance",
       "title": "Escalating Violence In Sahel As JNIM Claims Rising Jihadi Operations - HumAngle",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNdzA5V283RXJ5VkxhVFlVQUMxWGt3YjFobkxDNWJyV0p5d1FSc2lNQXF1dTB0NUtWdk56emdtdk9VZ3lQQW54MnZxcFB5aHdsMzhURkJZWWJUUXNHRzY5My1QdGJpMG1HcnAwZmNyOUp5X3hiTjNBTm8wVXA0akhaUEt5RE1jOG9pX3U2M1Fka2pRYkVhRjZheGhXTTZTUjA?oc=5",
-      "collected_at": "2026-09-29T11:28:59.312460Z",
+      "collected_at": "2026-09-29T12:36:43.410216Z",
       "score": null
     },
     {
@@ -86,7 +100,7 @@
       "reason": "Google News index URL had no canonical publisher URL and headline/excerpt did not pass relevance",
       "title": "JNIM: Coalition Of Terrorists Intensifying Attacks In The Sahel - HumAngle",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPbGVLeFVlYUFsVWZNSXY1bmpsZDJMLW9uSUZ3X3A0Um0tSWR4eUVueEl0bEdoUFRaVElsUHA0QnVUdkgtS2F1VzZ0MWdJek1TX1NLRzBYellFcHJjQ1hJT2dhWll2dnNRdkI5VUQzbklod1BwXzNPM25CREdUWXRPT1dPSEdxSkRWcGU4MWYyU3FBUQ?oc=5",
-      "collected_at": "2026-09-29T11:28:59.316514Z",
+      "collected_at": "2026-09-29T12:36:43.415586Z",
       "score": null
     },
     {
@@ -100,7 +114,7 @@
       "reason": "Google News index URL had no canonical publisher URL and headline/excerpt did not pass relevance",
       "title": "Understanding JNIM’s Expansion beyond the Sahel - International Crisis Group",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOMW9CSDEzYy0xN2ZWcEluQ3JEd1RlQWVHdkkxbVFKSVhiYmhDaXVNRno3OHlUbGlvQl9tcjJjS2gtU3F0Uy05S0U3Qk5RaXMyZE91UUF5T0NQVHdvbDBRVFJQODlEbUYzNTV3Vk5YUmhNempoVXJuWHdfMDhZYWVjVVFhd3FoeVZYcnotTA?oc=5",
-      "collected_at": "2026-09-29T11:28:59.320513Z",
+      "collected_at": "2026-09-29T12:36:43.421049Z",
       "score": null
     },
     {
@@ -114,7 +128,7 @@
       "reason": "Google News index URL had no canonical publisher URL and headline/excerpt did not pass relevance",
       "title": "Countering JNIM’s Drone Proliferation in the Sahel - Small Wars Journal",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPZFhyVzVHTVQtT0VFaDRBNmpxcEUtcTdraDM4bTFDeTVKcGJJQVJvcFV6cVBjc21oTUpCeXduSWFzRVhldlVqTG5VaWVJZng5Z0F0djFQNkZjOFQ5RjN2S0dsQUVkdDhtc051MWVoWDhkaW1LVWtxMmJtQ0JsLWsyUW9oY0NucWRRTGpOUkljYXdsNEhZ?oc=5",
-      "collected_at": "2026-09-29T11:28:59.324398Z",
+      "collected_at": "2026-09-29T12:36:43.426357Z",
       "score": null
     },
     {
@@ -128,7 +142,7 @@
       "reason": "Google News index URL had no canonical publisher URL and headline/excerpt did not pass relevance",
       "title": "Exploiting Borders in the Sahel: The Islamic State in the Greater Sahara - Africa Center for Strategic Studies",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNQXQ4WU1FaWhpOUs0RDBFZk1ZbGtiWEdfVW9mSVR0UVZxQWRzYWt0VEdvZk9ESmhwbkxaZzEtNEJRVVBLaFVWbXRSRUs1NDRCLXpjYURIVHFBcVRXeV8wOW80MFhXd1dULVlMbTlycjRMYl9ZSnpIMGQ5S0EydFlwa3RyLUh0ZkR1Rm5PaEJaV0gtUlhTVWFNblBDbDFmQjMxT3pN?oc=5",
-      "collected_at": "2026-09-29T11:28:59.329160Z",
+      "collected_at": "2026-09-29T12:36:43.432869Z",
       "score": null
     },
     {
@@ -142,50 +156,8 @@
       "reason": "Google News index URL had no canonical publisher URL and headline/excerpt did not pass relevance",
       "title": "Al-Qaïda au Sahel revendique une attaque et salue le coronavirus - VOA Afrique",
       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPYzZIa0NMRWpqUHl5Z19rZTM1cXp3ZFRpR1MxazNXUmlGZ2NFUVhSaEp3NTA1S0w1YWJ2dDVaM1RVZW14NDlmQWpESTFkTjZUU2I2V3dLS0tlNmt1ZVdXZnJ0cWE5ak1FcFdmTmF5M21fbVFjWV85SnNkOXFGbzdsY2JDSjBvSGMweVhVRmplbWVrUS0yV3JtUUNwb2p5QlR1V3VQbEhwWjNWNzlLWUlDVkZuc19LZkF3SU5qU1pZYWZYS1l5aVY2ZHEydUtZNTVVdDF2MzZ30gHYAUFVX3lxTE5OQ2d1NC14OXV3R2ozcHVQbXh3RndJUmZZR2JxbjVBcVNlR0hZWXdpeUgxMWg3dVlJZGV4a3duTXJVM3FHRXJkb20xOEVHbTNxSjBoNXlxa1ptaUVLUFppQ01IRTVTRl9aaEZkcC1jNXh1N0oyeHBsdFdUb1pBa1hPb09fZjdLdDZJTzc3RDA1SWJSWlcwb3N6NHN0bFVycWlnNUNvVGtORUVYbi1xcmwxSFZDYk1Yd3BERFI2NEFTb2ttVnVzNjZnS3FtYkhmMDlITWxzVl8tNg?oc=5",
-      "collected_at": "2026-09-29T11:28:59.332406Z",
+      "collected_at": "2026-09-29T12:36:43.437250Z",
       "score": null
-    },
-    {
-      "pipeline": "Niger",
-      "decision": "INCLUDED",
-      "source": "aNiamey.com",
-      "source_id": "dir-051-aniamey-com",
-      "language": "fr",
-      "collection_method": "homepage",
-      "stage": "precision",
-      "reason": "explicit place: Niamey (niamey); local source prior: Niger; headline event signal: political/security policy (mutinerie); security context: militaire",
-      "title": "D�fense : le G�n�ral Tiani remanie le commandement militaire apr�s la mutinerie de Niamey",
-      "url": "http://news.aNiamey.com/h/123258.html",
-      "collected_at": "2026-09-29T11:28:59.641933Z",
-      "score": 13
-    },
-    {
-      "pipeline": "Mali",
-      "decision": "INCLUDED",
-      "source": "Malijet",
-      "source_id": "malijet",
-      "language": "fr",
-      "collection_method": "rss:/feed",
-      "stage": "precision",
-      "reason": "explicit place: Dioura (dioura); local source prior: Mali; state/security force: fama; headline event signal: security operation (frappes); supporting signal military_target: convoi",
-      "title": "Opération Dougoukoloko : Frappes chirurgicales des FAMa, plusieurs repaires terroristes anéantis dans le centre du pays",
-      "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312079-operation-dougoukoloko-frappes-chirurgicales-des-fama-plu.html",
-      "collected_at": "2026-09-29T11:28:59.704005Z",
-      "score": 16
-    },
-    {
-      "pipeline": "Niger",
-      "decision": "EXCLUDED",
-      "source": "Al Jazeera English",
-      "source_id": "aljazeera-en",
-      "language": "en",
-      "collection_method": "rss:/rss",
-      "stage": "precision",
-      "reason": "relevance score 7; headline event signal: kidnapping (abducted); supporting signal claim_language: suspected; security context: security; foreign headline dominates: nigeria",
-      "title": "More than 80 reported abducted in Nigeria as police find human remains",
-      "url": "https://www.aljazeera.com/news/2026/9/29/more-than-80-reported-abducted-in-nigeria-as-police-find-human-remains?traffic_source=rss",
-      "collected_at": "2026-09-29T11:28:59.765356Z",
-      "score": 7
     },
     {
       "pipeline": "Niger",
@@ -198,8 +170,22 @@
       "reason": "explicit place: Niamey (niamey); headline event signal: air/drone strike (drone attack); supporting signal civilians: civilians; security context: security; actor unresolved: retained as Other",
       "title": "Boko Massacre in Nigeria; Ethiopia on the Brink; M23 Drone Attack; IS Attacks Niamey: Africa File, February 5, 2026",
       "url": "https://www.criticalthreats.org/analysis/boko-haram-nigeria-tplf-ethiopia-red-sea-drc-m23-rwanda-isis-niger-saf-rsf-sudan-africa-file-february-5-2026",
-      "collected_at": "2026-09-29T11:29:00.644791Z",
+      "collected_at": "2026-09-29T12:36:43.794150Z",
       "score": 14
+    },
+    {
+      "pipeline": "Niger",
+      "decision": "INCLUDED",
+      "source": "aNiamey.com",
+      "source_id": "dir-051-aniamey-com",
+      "language": "fr",
+      "collection_method": "homepage",
+      "stage": "precision",
+      "reason": "explicit place: Niamey (niamey); local source prior: Niger; headline event signal: political/security policy (mutinerie); security context: militaire",
+      "title": "D�fense : le G�n�ral Tiani remanie le commandement militaire apr�s la mutinerie de Niamey",
+      "url": "http://news.aNiamey.com/h/123258.html",
+      "collected_at": "2026-09-29T12:36:43.949423Z",
+      "score": 13
     }
   ],
   "privacy": {

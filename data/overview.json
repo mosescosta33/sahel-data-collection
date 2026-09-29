@@ -1,10 +1,10 @@
 {
   "status": "LIVE",
   "site_patch_version": "2.9.3",
-  "status_detail": "Last automated GitHub collection completed 2026-09-29T11:29:26.491453Z; 174/174 sources yielded a direct or indexed discovery path.",
-  "last_collection": "2026-09-29T11:29:26.491453Z",
+  "status_detail": "Last automated GitHub collection completed 2026-09-29T12:37:09.068769Z; 174/174 sources yielded a direct or indexed discovery path.",
+  "last_collection": "2026-09-29T12:37:09.068769Z",
   "reports_24h": 13,
-  "distinct_sources_24h": 11,
+  "distinct_sources_24h": 10,
   "candidate_events_24h": 4,
   "mapped_events_24h": 4,
   "mapped_locations_24h": 7,
@@ -39,8 +39,8 @@
     },
     "en": {
       "configured_sources": 83,
-      "archive_reports": 137,
-      "reports_30d": 30,
+      "archive_reports": 138,
+      "reports_30d": 31,
       "distinct_sources_30d": 16,
       "candidate_event_reports_30d": 3,
       "translations_success_archive": 0,
@@ -68,17 +68,17 @@
   "source_type_coverage": {
     "aggregator": 2,
     "local_media": 113,
+    "wire": 12,
     "regional_media": 6,
     "international_media": 107,
     "official": 19,
     "ngo": 4,
-    "wire": 11,
     "research": 31,
     "defense_media": 9,
     "analysis_media": 9
   },
   "threat": {
-    "generated_at": "2026-09-29T11:29:26.479962Z",
+    "generated_at": "2026-09-29T12:37:09.049549Z",
     "model_version": "0.1-experimental",
     "label": "Experimental Conflict Threat Level",
     "regional": {
@@ -143,7 +143,7 @@
     "method_note": "Experimental research indicator derived from fused candidate events, recent country-relative tempo, significance, militant activity, civilian-threat signals, geographic spread and corroboration. It is not a travel advisory, verified incident count, or forecast. Collection gaps reduce confidence rather than automatically reducing threat."
   },
   "data_quality": {
-    "generated_at": "2026-09-29T11:29:26.491010Z",
+    "generated_at": "2026-09-29T12:37:09.068385Z",
     "events_30d": 28,
     "date_resolution_pct": 86,
     "precise_geography_pct": 82,
@@ -153,23 +153,23 @@
     "collection_status": "NOMINAL",
     "language_reports_30d": {
       "fr": 104,
-      "en": 30,
+      "en": 31,
       "ar": 6
     },
     "note": "Quality percentages describe fields present in Sahel Intel fused candidate events; they are not accuracy estimates."
   },
   "last_run": {
-    "started_at": "2026-09-29T11:26:03.123403Z",
-    "finished_at": "2026-09-29T11:29:26.491453Z",
+    "started_at": "2026-09-29T12:33:08.886863Z",
+    "finished_at": "2026-09-29T12:37:09.068769Z",
     "status": "complete",
     "site_patch_version": "2.9.3",
     "sources_total": 174,
     "sources_success": 174,
     "sources_failed": 0,
-    "documents_discovered": 6875,
-    "documents_selected": 10,
-    "prefetch_skipped": 7507,
-    "known_url_skipped": 110,
+    "documents_discovered": 6843,
+    "documents_selected": 9,
+    "prefetch_skipped": 7462,
+    "known_url_skipped": 109,
     "duplicate_url_skipped": 0,
     "title_duplicates_skipped": 0,
     "source_cap_skipped": 0,
@@ -184,7 +184,7 @@
       "Niger": 2
     },
     "collection_waves": 1,
-    "fetch_candidates_attempted": 10,
+    "fetch_candidates_attempted": 9,
     "targeted_sources_queried": 36,
     "targeted_links_discovered": 0,
     "dynamic_sources_loaded": 100,
@@ -194,17 +194,17 @@
     "archive_rejected_by_precision_rules": 0,
     "archive_rescreened": 0,
     "archive_duplicates_removed": 2,
-    "translations_attempted": 2,
-    "translations": 2,
+    "translations_attempted": 1,
+    "translations": 1,
     "translation_failures": 0,
-    "archive_reports": 311,
+    "archive_reports": 312,
     "candidate_events_archive": 57,
     "candidate_events_7d": 12,
     "candidate_events_30d": 28,
-    "reports_30d": 140,
+    "reports_30d": 141,
     "sources_30d": 47,
-    "event_changes": 1,
-    "indexed_context_archive": 24,
+    "event_changes": 0,
+    "indexed_context_archive": 25,
     "research_leads_archive": 116,
     "analytical_context_archive": 11,
     "analytical_child_incidents": 7,
@@ -212,20 +212,20 @@
     "event_date_proxy_reports": 24,
     "funnel_unaccounted": 0,
     "selected_by_language": {
-      "fr": 3,
+      "fr": 2,
       "en": 7,
       "ar": 0,
       "other": 0
     },
     "retained_cycle_by_language": {
-      "fr": 2,
-      "en": 1,
+      "fr": 1,
+      "en": 2,
       "ar": 0,
       "other": 0
     },
     "precision_rejects_by_language": {
       "fr": 0,
-      "en": 1,
+      "en": 0,
       "ar": 0,
       "other": 0
     }
