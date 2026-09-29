@@ -1,24 +1,24 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-29T14:31:50.854702Z",
-  "run_id": "8fe4f0901d429a858cc6d7cf97dea461f5c64e45",
-  "started_at": "2026-09-29T14:28:34.925465Z",
-  "finished_at": "2026-09-29T14:31:50.006335Z",
+  "generated_at": "2026-09-29T15:33:53.303959Z",
+  "run_id": "7f6e3bd69640b8e20b21a80f5a62ce976fa34234",
+  "started_at": "2026-09-29T15:29:37.006086Z",
+  "finished_at": "2026-09-29T15:33:52.106595Z",
   "status": "LIVE",
   "pipeline_totals": {
     "sources_configured": 174,
-    "links_discovered": 6876,
-    "current_cycle_retained": 5,
+    "links_discovered": 6905,
+    "current_cycle_retained": 4,
     "current_cycle_rejected_or_error": 6,
-    "translations_attempted": 3,
-    "translations_succeeded": 3,
+    "translations_attempted": 2,
+    "translations_succeeded": 2,
     "translations_failed": 0
   },
   "pipelines": {
     "Mali": {
       "sources": 11,
-      "discovered": 429,
-      "included": 2,
+      "discovered": 430,
+      "included": 1,
       "excluded": 0,
       "errors": 0,
       "duplicates": 0,
@@ -28,19 +28,19 @@
     },
     "Burkina Faso": {
       "sources": 7,
-      "discovered": 263,
-      "included": 0,
+      "discovered": 309,
+      "included": 1,
       "excluded": 0,
       "errors": 0,
       "duplicates": 0,
       "pending": 0,
-      "status": "DEGRADED",
+      "status": "LIVE",
       "note": "Burkina Faso lane; 8 priority query terms configured"
     },
     "Niger": {
       "sources": 7,
       "discovered": 275,
-      "included": 3,
+      "included": 2,
       "excluded": 0,
       "errors": 0,
       "duplicates": 0,
@@ -50,7 +50,7 @@
     },
     "Regional": {
       "sources": 149,
-      "discovered": 5909,
+      "discovered": 5891,
       "included": 0,
       "excluded": 6,
       "errors": 0,
@@ -72,7 +72,7 @@
       "reason": "Google News index URL had no canonical publisher URL and headline/excerpt did not pass relevance",
       "title": "Escalating Violence In Sahel As JNIM Claims Rising Jihadi Operations - HumAngle",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNdzA5V283RXJ5VkxhVFlVQUMxWGt3YjFobkxDNWJyV0p5d1FSc2lNQXF1dTB0NUtWdk56emdtdk9VZ3lQQW54MnZxcFB5aHdsMzhURkJZWWJUUXNHRzY5My1QdGJpMG1HcnAwZmNyOUp5X3hiTjNBTm8wVXA0akhaUEt5RE1jOG9pX3U2M1Fka2pRYkVhRjZheGhXTTZTUjA?oc=5",
-      "collected_at": "2026-09-29T14:31:16.774603Z",
+      "collected_at": "2026-09-29T15:33:18.536705Z",
       "score": null
     },
     {
@@ -86,7 +86,7 @@
       "reason": "Google News index URL had no canonical publisher URL and headline/excerpt did not pass relevance",
       "title": "JNIM: Coalition Of Terrorists Intensifying Attacks In The Sahel - HumAngle",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPbGVLeFVlYUFsVWZNSXY1bmpsZDJMLW9uSUZ3X3A0Um0tSWR4eUVueEl0bEdoUFRaVElsUHA0QnVUdkgtS2F1VzZ0MWdJek1TX1NLRzBYellFcHJjQ1hJT2dhWll2dnNRdkI5VUQzbklod1BwXzNPM25CREdUWXRPT1dPSEdxSkRWcGU4MWYyU3FBUQ?oc=5",
-      "collected_at": "2026-09-29T14:31:16.779176Z",
+      "collected_at": "2026-09-29T15:33:18.542373Z",
       "score": null
     },
     {
@@ -100,7 +100,7 @@
       "reason": "Google News index URL had no canonical publisher URL and headline/excerpt did not pass relevance",
       "title": "Understanding JNIM’s Expansion beyond the Sahel - International Crisis Group",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOMW9CSDEzYy0xN2ZWcEluQ3JEd1RlQWVHdkkxbVFKSVhiYmhDaXVNRno3OHlUbGlvQl9tcjJjS2gtU3F0Uy05S0U3Qk5RaXMyZE91UUF5T0NQVHdvbDBRVFJQODlEbUYzNTV3Vk5YUmhNempoVXJuWHdfMDhZYWVjVVFhd3FoeVZYcnotTA?oc=5",
-      "collected_at": "2026-09-29T14:31:16.783696Z",
+      "collected_at": "2026-09-29T15:33:18.548074Z",
       "score": null
     },
     {
@@ -114,7 +114,7 @@
       "reason": "Google News index URL had no canonical publisher URL and headline/excerpt did not pass relevance",
       "title": "Countering JNIM’s Drone Proliferation in the Sahel - Small Wars Journal",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPZFhyVzVHTVQtT0VFaDRBNmpxcEUtcTdraDM4bTFDeTVKcGJJQVJvcFV6cVBjc21oTUpCeXduSWFzRVhldlVqTG5VaWVJZng5Z0F0djFQNkZjOFQ5RjN2S0dsQUVkdDhtc051MWVoWDhkaW1LVWtxMmJtQ0JsLWsyUW9oY0NucWRRTGpOUkljYXdsNEhZ?oc=5",
-      "collected_at": "2026-09-29T14:31:16.788109Z",
+      "collected_at": "2026-09-29T15:33:18.553676Z",
       "score": null
     },
     {
@@ -128,7 +128,7 @@
       "reason": "Google News index URL had no canonical publisher URL and headline/excerpt did not pass relevance",
       "title": "Exploiting Borders in the Sahel: The Islamic State in the Greater Sahara - Africa Center for Strategic Studies",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNQXQ4WU1FaWhpOUs0RDBFZk1ZbGtiWEdfVW9mSVR0UVZxQWRzYWt0VEdvZk9ESmhwbkxaZzEtNEJRVVBLaFVWbXRSRUs1NDRCLXpjYURIVHFBcVRXeV8wOW80MFhXd1dULVlMbTlycjRMYl9ZSnpIMGQ5S0EydFlwa3RyLUh0ZkR1Rm5PaEJaV0gtUlhTVWFNblBDbDFmQjMxT3pN?oc=5",
-      "collected_at": "2026-09-29T14:31:16.793486Z",
+      "collected_at": "2026-09-29T15:33:18.560468Z",
       "score": null
     },
     {
@@ -142,36 +142,8 @@
       "reason": "Google News index URL had no canonical publisher URL and headline/excerpt did not pass relevance",
       "title": "Al-Qaïda au Sahel revendique une attaque et salue le coronavirus - VOA Afrique",
       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPYzZIa0NMRWpqUHl5Z19rZTM1cXp3ZFRpR1MxazNXUmlGZ2NFUVhSaEp3NTA1S0w1YWJ2dDVaM1RVZW14NDlmQWpESTFkTjZUU2I2V3dLS0tlNmt1ZVdXZnJ0cWE5ak1FcFdmTmF5M21fbVFjWV85SnNkOXFGbzdsY2JDSjBvSGMweVhVRmplbWVrUS0yV3JtUUNwb2p5QlR1V3VQbEhwWjNWNzlLWUlDVkZuc19LZkF3SU5qU1pZYWZYS1l5aVY2ZHEydUtZNTVVdDF2MzZ30gHYAUFVX3lxTE5OQ2d1NC14OXV3R2ozcHVQbXh3RndJUmZZR2JxbjVBcVNlR0hZWXdpeUgxMWg3dVlJZGV4a3duTXJVM3FHRXJkb20xOEVHbTNxSjBoNXlxa1ptaUVLUFppQ01IRTVTRl9aaEZkcC1jNXh1N0oyeHBsdFdUb1pBa1hPb09fZjdLdDZJTzc3RDA1SWJSWlcwb3N6NHN0bFVycWlnNUNvVGtORUVYbi1xcmwxSFZDYk1Yd3BERFI2NEFTb2ttVnVzNjZnS3FtYkhmMDlITWxzVl8tNg?oc=5",
-      "collected_at": "2026-09-29T14:31:16.797137Z",
+      "collected_at": "2026-09-29T15:33:18.565044Z",
       "score": null
-    },
-    {
-      "pipeline": "Mali",
-      "decision": "INCLUDED",
-      "source": "Al Jazeera Arabic",
-      "source_id": "aljazeera-ar",
-      "language": "ar",
-      "collection_method": "rss:/feed",
-      "stage": "precision",
-      "reason": "explicit place: Bamako (باماكو); generic state/security force: القوات المسلحة; headline event signal: security operation (استهدفت); supporting signal casualties: قتل; supporting signal civilians: قرية",
-      "title": "استهدفت عربا وطوارق وفولان.. أمنستي تتهم باماكو وفيلقا روسيًّا بجرائم حرب",
-      "url": "https://www.aljazeera.net/news/2026/9/29/%d8%a7%d8%b3%d8%aa%d9%87%d8%af%d9%81%d8%aa-%d8%b9%d8%b1%d8%a8%d8%a7-%d9%88%d8%b7%d9%88%d8%a7%d8%b1%d9%82-%d9%88%d9%81%d9%88%d9%84%d8%a7%d9%86-%d8%a3%d9%85%d9%86%d8%b3%d8%aa%d9%8a?traffic_source=rss",
-      "collected_at": "2026-09-29T14:31:16.957269Z",
-      "score": 14
-    },
-    {
-      "pipeline": "Niger",
-      "decision": "INCLUDED",
-      "source": "Critical Threats Project - Africa File",
-      "source_id": "critical-threats-africa",
-      "language": "en",
-      "collection_method": "homepage",
-      "stage": "precision",
-      "reason": "explicit place: Niamey (niamey); headline event signal: air/drone strike (drone attack); supporting signal civilians: civilians; security context: security; actor unresolved: retained as Other",
-      "title": "Boko Massacre in Nigeria; Ethiopia on the Brink; M23 Drone Attack; IS Attacks Niamey: Africa File, February 5, 2026",
-      "url": "https://www.criticalthreats.org/analysis/boko-haram-nigeria-tplf-ethiopia-red-sea-drc-m23-rwanda-isis-niger-saf-rsf-sudan-africa-file-february-5-2026",
-      "collected_at": "2026-09-29T14:31:17.134471Z",
-      "score": 14
     },
     {
       "pipeline": "Niger",
@@ -184,36 +156,50 @@
       "reason": "explicit place: Niamey (niamey); local source prior: Niger; headline event signal: political/security policy (mutinerie); security context: militaire",
       "title": "D�fense : le G�n�ral Tiani remanie le commandement militaire apr�s la mutinerie de Niamey",
       "url": "http://news.aNiamey.com/h/123258.html",
-      "collected_at": "2026-09-29T14:31:17.283232Z",
+      "collected_at": "2026-09-29T15:33:18.980650Z",
       "score": 13
     },
     {
       "pipeline": "Mali",
       "decision": "INCLUDED",
-      "source": "Bamada",
-      "source_id": "bamada",
+      "source": "RFI Afrique",
+      "source_id": "rfi-afrique",
       "language": "fr",
       "collection_method": "rss:/rss",
       "stage": "precision",
-      "reason": "explicit place: Dioura (dioura); local source prior: Mali; state/security force: fama; headline event signal: security operation (frappent); supporting signal military_target: convoi",
-      "title": "Secteurs de Niono et Dioura : Les FAMa frappent plusieurs positions terroristes avec précision",
-      "url": "https://bamada.net/secteurs-de-niono-et-dioura-les-fama-frappent-plusieurs-positions-terroristes-avec-precision",
-      "collected_at": "2026-09-29T14:31:17.312136Z",
-      "score": 16
+      "reason": "explicit country: Mali (mali); headline actor: Africa Corps/Wagner (groupe wagner); event signal: clash (combats); supporting signal civilians: civils; security context: defense",
+      "title": "Mali: «Nul n'est épargné», alerte l'ONG Amnesty dans un rapport sur les exactions de l'armée et du groupe Wagner",
+      "url": "https://www.rfi.fr/fr/podcasts/invit%C3%A9-afrique-midi/20260929-mali-nul-n-est-%C3%A9pargn%C3%A9-alerte-l-ong-amnesty-dans-un-rapport-sur-les-exactions-de-l-arm%C3%A9e-et-du-groupe-wagner",
+      "collected_at": "2026-09-29T15:33:19.118297Z",
+      "score": 15
+    },
+    {
+      "pipeline": "Burkina Faso",
+      "decision": "INCLUDED",
+      "source": "The Heritage Times",
+      "source_id": "dir-135-the-heritage-times",
+      "language": "en",
+      "collection_method": "rss:/feed/",
+      "stage": "precision",
+      "reason": "explicit country: Burkina Faso (burkina faso); generic state/security force: military; security context: military",
+      "title": "Burkina Faso: Junta-Led Government Inaugurates First Gold Refinery",
+      "url": "https://www.theheritagetimes.com/burkina-faso-junta-led-government-inaugurates-first-gold-refinery/",
+      "collected_at": "2026-09-29T15:33:19.680730Z",
+      "score": 9
     },
     {
       "pipeline": "Niger",
       "decision": "INCLUDED",
-      "source": "Vanguard News (Nigeria)",
-      "source_id": "dir-123-vanguard-news-nigeria",
+      "source": "Critical Threats Project - Africa File",
+      "source_id": "critical-threats-africa",
       "language": "en",
-      "collection_method": "rss:/feed/",
+      "collection_method": "homepage",
       "stage": "precision",
-      "reason": "explicit country: Niger (niger); supporting signal casualties: dead; security context: security",
-      "title": "APC donates N52m to families of 37 dead miners in Niger",
-      "url": "https://www.vanguardngr.com/2026/09/apc-donates-n52m-to-families-of-37-dead-miners-in-niger/",
-      "collected_at": "2026-09-29T14:31:17.454442Z",
-      "score": 9
+      "reason": "explicit place: Niamey (niamey); headline event signal: air/drone strike (drone attack); supporting signal civilians: civilians; security context: security; actor unresolved: retained as Other",
+      "title": "Boko Massacre in Nigeria; Ethiopia on the Brink; M23 Drone Attack; IS Attacks Niamey: Africa File, February 5, 2026",
+      "url": "https://www.criticalthreats.org/analysis/boko-haram-nigeria-tplf-ethiopia-red-sea-drc-m23-rwanda-isis-niger-saf-rsf-sudan-africa-file-february-5-2026",
+      "collected_at": "2026-09-29T15:33:19.920509Z",
+      "score": 14
     }
   ],
   "privacy": {

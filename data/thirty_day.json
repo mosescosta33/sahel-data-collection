@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-09-29T14:31:49.969551Z",
+  "generated_at": "2026-09-29T15:33:52.041258Z",
   "window_days": 30,
   "cutoff": "2026-08-30",
-  "reports": 143,
-  "incident_reports": 30,
-  "candidate_events": 28,
+  "reports": 145,
+  "incident_reports": 31,
+  "candidate_events": 29,
   "corroborated_events": 2,
   "mapped_events": 23,
   "mapped_locations": 52,
-  "distinct_sources": 48,
+  "distinct_sources": 49,
   "by_actor": {
     "State": 13,
     "Other": 6,
-    "JNIM": 5,
-    "Africa Corps/Wagner": 4
+    "Africa Corps/Wagner": 5,
+    "JNIM": 5
   },
   "by_country": {
-    "Mali": 24,
+    "Mali": 25,
     "Niger": 3,
     "Burkina Faso": 1
   },
@@ -24,18 +24,18 @@
     "security operation": 12,
     "attack": 9,
     "offensive/campaign": 3,
+    "clash": 2,
     "air/drone strike": 1,
     "ambush": 1,
-    "civilian targeting": 1,
-    "clash": 1
+    "civilian targeting": 1
   },
   "by_language": {
-    "fr": 105,
-    "en": 31,
+    "fr": 106,
+    "en": 32,
     "ar": 7
   },
   "by_confidence": {
-    "low": 14,
+    "low": 15,
     "moderate": 14
   },
   "top_sources": [
@@ -111,7 +111,7 @@
     },
     {
       "location": "Mali",
-      "count": 5
+      "count": 6
     },
     {
       "location": "Djenné",
@@ -257,7 +257,7 @@
     {
       "date": "2026-09-23",
       "reports": 5,
-      "events": 3
+      "events": 4
     },
     {
       "date": "2026-09-24",
@@ -286,7 +286,7 @@
     },
     {
       "date": "2026-09-29",
-      "reports": 11,
+      "reports": 13,
       "events": 2
     }
   ],
@@ -935,6 +935,62 @@
       "significance": "SIGNIFICANT",
       "significance_reasons": [
         "operational security event"
+      ]
+    },
+    {
+      "id": "ef4429417893e117702cfe92a67b5e5dedd6e263",
+      "event_date": "2026-09-23",
+      "event_date_confidence": "explicit-text",
+      "event_date_source": "explicit-date-no-year",
+      "published_at": "2026-09-29T14:50:38Z",
+      "collected_at": "2026-09-29T15:33:19.118072Z",
+      "actor": "Africa Corps/Wagner",
+      "perpetrator": null,
+      "target": null,
+      "claimant": null,
+      "supporting_force": "Africa Corps/Wagner",
+      "mentioned_actors": [
+        "Africa Corps/Wagner",
+        "State"
+      ],
+      "parent_report_id": null,
+      "event_type": "clash",
+      "country": "Mali",
+      "city": null,
+      "lat": null,
+      "lng": null,
+      "locations": [],
+      "title": "Mali: \"No one is spared\", warns the NGO Amnesty in a report on the abuses of the army and the Wagner group",
+      "summary": "\"No one is spared\": this is the title of the report published on 29 September by Amnesty International. The human rights organisation investigated cases of killings, torture and enforced disappearances committed by the Malian army and its Russian proxies. In particular, it documents the murders of at least 34 civilians in seven locations in Mali along the Mauritanian border between June 2023 and December 2025. . Ousm",
+      "sources": [
+        "RFI Afrique"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://www.rfi.fr/fr/podcasts/invit%C3%A9-afrique-midi/20260929-mali-nul-n-est-%C3%A9pargn%C3%A9-alerte-l-ong-amnesty-dans-un-rapport-sur-les-exactions-de-l-arm%C3%A9e-et-du-groupe-wagner"
+      ],
+      "created_at": "2026-09-29T15:33:19.118072Z",
+      "updated_at": "2026-09-29T15:33:19.118072Z",
+      "extraction_confidence": "low",
+      "revision_history": [
+        {
+          "at": "2026-09-29T15:33:19.118072Z",
+          "type": "event_created",
+          "source": "RFI Afrique"
+        }
+      ],
+      "corroboration": "single-source",
+      "confidence": "low",
+      "independent_source_domains": [
+        "rfi.fr"
+      ],
+      "independent_source_count": 1,
+      "significance": "ROUTINE",
+      "significance_reasons": [
+        "limited currently observed significance"
       ]
     },
     {
@@ -2240,7 +2296,7 @@
   "latest_reports": [
     {
       "published_at": null,
-      "discovered_at": "2026-09-29T14:31:17.282984Z",
+      "discovered_at": "2026-09-29T15:33:18.980327Z",
       "source": "aNiamey.com",
       "language": "fr",
       "actor": null,
@@ -2250,6 +2306,32 @@
       "candidate_event": false,
       "title": "Dfense: the Gnral Tiani reshuffles the military command after the Niamey mutiny",
       "url": "http://news.aniamey.com/h/123258.html"
+    },
+    {
+      "published_at": "2026-09-29T15:06:00Z",
+      "discovered_at": "2026-09-29T15:33:19.680530Z",
+      "source": "The Heritage Times",
+      "language": "en",
+      "actor": "State",
+      "country": "Burkina Faso",
+      "city": null,
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Burkina Faso: Junta-Led Government Inaugurates First Gold Refinery",
+      "url": "https://www.theheritagetimes.com/burkina-faso-junta-led-government-inaugurates-first-gold-refinery/"
+    },
+    {
+      "published_at": "2026-09-29T14:50:38Z",
+      "discovered_at": "2026-09-29T15:33:19.118072Z",
+      "source": "RFI Afrique",
+      "language": "fr",
+      "actor": "Africa Corps/Wagner",
+      "country": "Mali",
+      "city": null,
+      "event_type": "clash",
+      "candidate_event": true,
+      "title": "Mali: \"No one is spared\", warns the NGO Amnesty in a report on the abuses of the army and the Wagner group",
+      "url": "https://www.rfi.fr/fr/podcasts/invit%C3%A9-afrique-midi/20260929-mali-nul-n-est-%C3%A9pargn%C3%A9-alerte-l-ong-amnesty-dans-un-rapport-sur-les-exactions-de-l-arm%C3%A9e-et-du-groupe-wagner"
     },
     {
       "published_at": "2026-09-29T13:45:42Z",
@@ -2731,32 +2813,6 @@
       "candidate_event": false,
       "title": "Collective defence: Three years later, what results for the ESA?",
       "url": "https://journaldumali.com/defense-collective-trois-ans-apres-quels-resultats-pour-laes/"
-    },
-    {
-      "published_at": "2026-09-24T12:53:05Z",
-      "discovered_at": "2026-09-24T13:31:15.159442Z",
-      "source": "News Central TV (Nigeria)",
-      "language": "en",
-      "actor": "Other",
-      "country": "Niger",
-      "city": "Tillabéri",
-      "event_type": "clash",
-      "candidate_event": true,
-      "title": "Niger Soldiers Killed in Fighting Near Mali Border",
-      "url": "https://newscentraltv.com/niger-soldiers-killed-in-fighting-near-mali-border/"
-    },
-    {
-      "published_at": null,
-      "discovered_at": "2026-09-24T12:35:43.065968Z",
-      "source": "Al Jazeera Center for Studies (مركز الجزيرة للدراسات)",
-      "language": "en",
-      "actor": "State",
-      "country": "Niger",
-      "city": "Niamey",
-      "event_type": "attack",
-      "candidate_event": false,
-      "title": "Niger Coup: Survival of the Military Regime and Growing Fragility",
-      "url": "https://studies.aljazeera.net/en/policy-briefs/niger-coup-survival-military-regime-and-growing-fragility"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."

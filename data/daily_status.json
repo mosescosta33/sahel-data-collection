@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "site_patch_version": "2.9.3",
   "reporting_date": "2026-09-29",
-  "generated_at": "2026-09-29T14:31:50.674546Z",
+  "generated_at": "2026-09-29T15:33:52.696629Z",
   "coverage": [
     "Mali",
     "Burkina Faso",
@@ -14,17 +14,17 @@
     "events_occurring_on_date": 0,
     "records_held_for_review": 2,
     "multi_source_events": 0,
-    "reports_collected_on_date": 12,
-    "reports_published_on_date": 10,
+    "reports_collected_on_date": 14,
+    "reports_published_on_date": 12,
     "newly_discovered_older_events": 1,
     "events_awaiting_date_verification": 1,
-    "distinct_sources_collected": 11
+    "distinct_sources_collected": 12
   },
-  "executive_assessment": "Reporting collected on 2026-09-29 does not yet support a clear account of a new incident in Mali, Burkina Faso, or Niger. The desk received 12 reports from 11 sources, but the automated incident record needs further review. This is not evidence of calm on the ground.",
+  "executive_assessment": "Reporting collected on 2026-09-29 does not yet support a clear account of a new incident in Mali, Burkina Faso, or Niger. The desk received 14 reports from 12 sources, but the automated incident record needs further review. This is not evidence of calm on the ground.",
   "briefing_sections": [
     {
       "heading": "Assessment",
-      "text": "Reporting collected on 2026-09-29 does not yet support a clear account of a new incident in Mali, Burkina Faso, or Niger. The desk received 12 reports from 11 sources, but the automated incident record needs further review. This is not evidence of calm on the ground."
+      "text": "Reporting collected on 2026-09-29 does not yet support a clear account of a new incident in Mali, Burkina Faso, or Niger. The desk received 14 reports from 12 sources, but the automated incident record needs further review. This is not evidence of calm on the ground."
     },
     {
       "heading": "Reporting in context",
@@ -42,7 +42,7 @@
   "significant_events": [],
   "what_changed_since_yesterday": [
     "State: -1 same-day fused event(s) versus 2026-09-28 (1 → 0).",
-    "Collection volume: -4 retained report(s) versus 2026-09-28 (16 → 12)."
+    "Collection volume: -2 retained report(s) versus 2026-09-28 (16 → 14)."
   ],
   "emerging_patterns": [
     "JNIM 7-day activity is lower than the preceding 7-day window (1 → 0).",
@@ -62,8 +62,8 @@
     "Niger": 0
   },
   "country_reporting_counts": {
-    "Mali": 9,
-    "Burkina Faso": 1,
+    "Mali": 10,
+    "Burkina Faso": 2,
     "Niger": 2
   },
   "actor_profiles": {
@@ -95,7 +95,7 @@
   "country_profiles": {
     "Mali": {
       "events": 0,
-      "reports_collected": 9,
+      "reports_collected": 10,
       "actor_counts": {
         "JNIM": 0,
         "IS Sahel": 0,
@@ -106,7 +106,7 @@
     },
     "Burkina Faso": {
       "events": 0,
-      "reports_collected": 1,
+      "reports_collected": 2,
       "actor_counts": {
         "JNIM": 0,
         "IS Sahel": 0,
@@ -131,26 +131,26 @@
     "sources_total": 174,
     "sources_success": 174,
     "sources_failed": 0,
-    "sources_degraded": 41,
-    "documents_discovered": 6876,
-    "documents_retained": 5,
+    "sources_degraded": 42,
+    "documents_discovered": 6905,
+    "documents_retained": 4,
     "report_target": 100,
-    "translations_attempted": 3,
-    "translations_success": 3,
+    "translations_attempted": 2,
+    "translations_success": 2,
     "translation_failures": 0,
     "collection_confidence": "HIGH",
     "collection_confidence_reasons": [
       "174/174 source paths reached",
-      "41 degraded / 0 failed of 174 configured sources"
+      "42 degraded / 0 failed of 174 configured sources"
     ],
-    "reports_collected": 12,
-    "reports_published": 10,
-    "distinct_sources_collected": 11,
+    "reports_collected": 14,
+    "reports_published": 12,
+    "distinct_sources_collected": 12,
     "language_counts": {
-      "fr": 7,
-      "en": 4,
+      "fr": 8,
+      "en": 5,
       "ar": 1
     }
   },
-  "sultana_daily_text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nDaily bottom line for 2026-09-29: Reporting collected on 2026-09-29 does not yet support a clear account of a new incident in Mali, Burkina Faso, or Niger. The desk received 12 reports from 11 sources, but the automated incident record needs further review. This is not evidence of calm on the ground.\n\nActor picture: no same-day fused candidate events.\n\nWhat changed: State: -1 same-day fused event(s) versus 2026-09-28 (1 → 0). Collection volume: -4 retained report(s) versus 2026-09-28 (16 → 12).\n\nIntelligence gaps: 1 newly collected operational/candidate report(s) have unresolved or publication-proxy event dates.\n\nCollection confidence: HIGH. 174/174 source paths reached 41 degraded / 0 failed of 174 configured sources\n\nNothing further to report at this time."
+  "sultana_daily_text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nDaily bottom line for 2026-09-29: Reporting collected on 2026-09-29 does not yet support a clear account of a new incident in Mali, Burkina Faso, or Niger. The desk received 14 reports from 12 sources, but the automated incident record needs further review. This is not evidence of calm on the ground.\n\nActor picture: no same-day fused candidate events.\n\nWhat changed: State: -1 same-day fused event(s) versus 2026-09-28 (1 → 0). Collection volume: -2 retained report(s) versus 2026-09-28 (16 → 14).\n\nIntelligence gaps: 1 newly collected operational/candidate report(s) have unresolved or publication-proxy event dates.\n\nCollection confidence: HIGH. 174/174 source paths reached 42 degraded / 0 failed of 174 configured sources\n\nNothing further to report at this time."
 }
