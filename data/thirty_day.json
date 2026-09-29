@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-29T15:33:52.041258Z",
+  "generated_at": "2026-09-29T16:33:19.051510Z",
   "window_days": 30,
   "cutoff": "2026-08-30",
-  "reports": 145,
+  "reports": 146,
   "incident_reports": 31,
   "candidate_events": 29,
   "corroborated_events": 2,
@@ -30,7 +30,7 @@
     "civilian targeting": 1
   },
   "by_language": {
-    "fr": 106,
+    "fr": 107,
     "en": 32,
     "ar": 7
   },
@@ -49,7 +49,7 @@
     },
     {
       "source": "AMAP (Agence Malienne de Presse et de Publicité)",
-      "count": 8
+      "count": 9
     },
     {
       "source": "ActuNiger",
@@ -286,7 +286,7 @@
     },
     {
       "date": "2026-09-29",
-      "reports": 13,
+      "reports": 14,
       "events": 2
     }
   ],
@@ -2296,7 +2296,7 @@
   "latest_reports": [
     {
       "published_at": null,
-      "discovered_at": "2026-09-29T15:33:18.980327Z",
+      "discovered_at": "2026-09-29T16:32:46.693981Z",
       "source": "aNiamey.com",
       "language": "fr",
       "actor": null,
@@ -2306,6 +2306,19 @@
       "candidate_event": false,
       "title": "Dfense: the Gnral Tiani reshuffles the military command after the Niamey mutiny",
       "url": "http://news.aniamey.com/h/123258.html"
+    },
+    {
+      "published_at": "2026-09-29T16:04:14Z",
+      "discovered_at": "2026-09-29T16:32:48.200372Z",
+      "source": "AMAP (Agence Malienne de Presse et de Publicité)",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Dioura",
+      "event_type": "attack",
+      "candidate_event": false,
+      "title": "Securing the country: positions of armed groups hit in Niono and Dioura",
+      "url": "https://amap.ml/2026/09/29/securisation-du-pays-des-positions-de-groupes-armes-frappees-a-niono-et-dioura/"
     },
     {
       "published_at": "2026-09-29T15:06:00Z",
@@ -2800,19 +2813,6 @@
       "candidate_event": true,
       "title": "Reporting in Burkina Faso: when jihadist violence destroys the Great Green Wall",
       "url": "https://www.jeuneafrique.com/1845416/societe/reportage-au-burkina-faso-quand-la-violence-jihadiste-detruit-la-grande-muraille-verte/"
-    },
-    {
-      "published_at": "2026-09-24T15:55:35Z",
-      "discovered_at": "2026-09-24T16:31:38.100611Z",
-      "source": "Journal du Mali",
-      "language": "fr",
-      "actor": null,
-      "country": "Niger",
-      "city": "Niamey",
-      "event_type": "political/security policy",
-      "candidate_event": false,
-      "title": "Collective defence: Three years later, what results for the ESA?",
-      "url": "https://journaldumali.com/defense-collective-trois-ans-apres-quels-resultats-pour-laes/"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
