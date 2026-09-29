@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-09-29T10:32:16.597906Z",
+  "generated_at": "2026-09-29T11:29:26.456782Z",
   "window_days": 30,
   "cutoff": "2026-08-30",
-  "reports": 139,
-  "incident_reports": 28,
-  "candidate_events": 27,
+  "reports": 140,
+  "incident_reports": 29,
+  "candidate_events": 28,
   "corroborated_events": 1,
-  "mapped_events": 22,
-  "mapped_locations": 48,
+  "mapped_events": 23,
+  "mapped_locations": 49,
   "distinct_sources": 47,
   "by_actor": {
-    "State": 12,
+    "State": 13,
     "Other": 6,
     "JNIM": 5,
     "Africa Corps/Wagner": 4
   },
   "by_country": {
-    "Mali": 23,
+    "Mali": 24,
     "Niger": 3,
     "Burkina Faso": 1
   },
   "by_event_type": {
-    "security operation": 11,
+    "security operation": 12,
     "attack": 9,
     "offensive/campaign": 3,
     "air/drone strike": 1,
@@ -30,12 +30,12 @@
     "clash": 1
   },
   "by_language": {
-    "fr": 103,
+    "fr": 104,
     "en": 30,
     "ar": 6
   },
   "by_confidence": {
-    "moderate": 14,
+    "moderate": 15,
     "low": 13
   },
   "top_sources": [
@@ -45,7 +45,7 @@
     },
     {
       "source": "Malijet",
-      "count": 13
+      "count": 14
     },
     {
       "source": "AMAP (Agence Malienne de Presse et de Publicité)",
@@ -90,12 +90,12 @@
   ],
   "top_locations": [
     {
-      "location": "Kidal",
+      "location": "Dioura",
       "count": 8
     },
     {
-      "location": "Dioura",
-      "count": 7
+      "location": "Kidal",
+      "count": 8
     },
     {
       "location": "Mopti",
@@ -282,11 +282,11 @@
     {
       "date": "2026-09-28",
       "reports": 7,
-      "events": 2
+      "events": 3
     },
     {
       "date": "2026-09-29",
-      "reports": 6,
+      "reports": 7,
       "events": 1
     }
   ],
@@ -368,6 +368,69 @@
       "significance_reasons": [
         "strategic/severe event pattern",
         "multi-location activity"
+      ]
+    },
+    {
+      "id": "2380ea669beeac5ae200554e092e110503a2285c",
+      "event_date": "2026-09-28",
+      "event_date_confidence": "explicit-text",
+      "event_date_source": "explicit-calendar-date",
+      "published_at": "2026-09-29T10:38:03Z",
+      "collected_at": "2026-09-29T11:28:59.703866Z",
+      "actor": "State",
+      "perpetrator": "State",
+      "target": null,
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [
+        "State"
+      ],
+      "parent_report_id": null,
+      "event_type": "security operation",
+      "country": "Mali",
+      "city": "Dioura",
+      "lat": 14.82528,
+      "lng": -5.25139,
+      "locations": [
+        {
+          "name": "Dioura",
+          "country": "Mali",
+          "lat": 14.82528,
+          "lng": -5.25139,
+          "confidence": "explicit-place"
+        }
+      ],
+      "title": "Operation Dougoukoloko: FAMa surgical strikes, several terrorist hideouts wiped out in the center of the country",
+      "summary": "Operation Dougoukoloko: Surgical strikes by the FAMa, several terrorist hideouts wiped out in the centre of the country By a statement issued on Tuesday, 29 September, the General Staff of the Armed Forces confirmed the continuation of the \"Dougoukoloko\" operation aimed at securing the territory. The Malian Armed Forces (FAMa), supported by their partners, conducted two rounds of targeted strikes on 27 and 28 Septemb",
+      "sources": [
+        "Malijet"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://malijet.com/actualte_dans_les_regions_du_mali/312079-operation-dougoukoloko-frappes-chirurgicales-des-fama-plu.html"
+      ],
+      "created_at": "2026-09-29T11:28:59.703866Z",
+      "updated_at": "2026-09-29T11:28:59.703866Z",
+      "extraction_confidence": "moderate",
+      "revision_history": [
+        {
+          "at": "2026-09-29T11:28:59.703866Z",
+          "type": "event_created",
+          "source": "Malijet"
+        }
+      ],
+      "corroboration": "single-source",
+      "confidence": "moderate",
+      "independent_source_domains": [
+        "malijet.com"
+      ],
+      "independent_source_count": 1,
+      "significance": "ROUTINE",
+      "significance_reasons": [
+        "limited currently observed significance"
       ]
     },
     {
@@ -2149,7 +2212,7 @@
   "latest_reports": [
     {
       "published_at": null,
-      "discovered_at": "2026-09-29T10:31:46.867432Z",
+      "discovered_at": "2026-09-29T11:28:59.641690Z",
       "source": "aNiamey.com",
       "language": "fr",
       "actor": null,
@@ -2159,6 +2222,19 @@
       "candidate_event": false,
       "title": "Dfense: the Gnral Tiani reshuffles the military command after the Niamey mutiny",
       "url": "http://news.aniamey.com/h/123258.html"
+    },
+    {
+      "published_at": "2026-09-29T10:38:03Z",
+      "discovered_at": "2026-09-29T11:28:59.703866Z",
+      "source": "Malijet",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Dioura",
+      "event_type": "security operation",
+      "candidate_event": true,
+      "title": "Operation Dougoukoloko: FAMa surgical strikes, several terrorist hideouts wiped out in the center of the country",
+      "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312079-operation-dougoukoloko-frappes-chirurgicales-des-fama-plu.html"
     },
     {
       "published_at": "2026-09-29T09:17:59Z",
@@ -2653,19 +2729,6 @@
       "candidate_event": false,
       "title": "Mali – United States: Why Ukraine's support for the Fla upsets the Trump administration",
       "url": "https://www.jeuneafrique.com/1844908/politique/mali-etats-unis-pourquoi-le-soutien-de-lukraine-au-fla-contrarie-ladministration-trump/"
-    },
-    {
-      "published_at": "2026-09-23T11:48:13Z",
-      "discovered_at": "2026-09-23T13:30:54.768326Z",
-      "source": "Bamada",
-      "language": "fr",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Bamako",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Mali: Arrival of a historic convoy of 1,289 tankers in Bamako",
-      "url": "https://bamada.net/mali-arrivee-dun-convoi-historique-de-1-289-camions-citernes-a-bamako"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
