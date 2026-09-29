@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-29T18:35:08.423161Z",
+  "generated_at": "2026-09-29T19:31:23.008376Z",
   "window_days": 30,
   "cutoff": "2026-08-30",
-  "reports": 148,
+  "reports": 149,
   "incident_reports": 33,
   "candidate_events": 31,
   "corroborated_events": 2,
@@ -31,7 +31,7 @@
   },
   "by_language": {
     "fr": 109,
-    "en": 32,
+    "en": 33,
     "ar": 7
   },
   "by_confidence": {
@@ -57,7 +57,7 @@
     },
     {
       "source": "Africa Defense Forum (ADF Magazine)",
-      "count": 6
+      "count": 7
     },
     {
       "source": "Jeune Afrique",
@@ -286,7 +286,7 @@
     },
     {
       "date": "2026-09-29",
-      "reports": 16,
+      "reports": 17,
       "events": 3
     }
   ],
@@ -2369,7 +2369,7 @@
   "latest_reports": [
     {
       "published_at": null,
-      "discovered_at": "2026-09-29T18:34:43.263111Z",
+      "discovered_at": "2026-09-29T19:30:57.175556Z",
       "source": "aNiamey.com",
       "language": "fr",
       "actor": null,
@@ -2379,6 +2379,19 @@
       "candidate_event": false,
       "title": "Dfense: the Gnral Tiani reshuffles the military command after the Niamey mutiny",
       "url": "http://news.aniamey.com/h/123258.html"
+    },
+    {
+      "published_at": "2026-09-29T18:02:24Z",
+      "discovered_at": "2026-09-29T19:30:57.376831Z",
+      "source": "Africa Defense Forum (ADF Magazine)",
+      "language": "en",
+      "actor": "Africa Corps/Wagner",
+      "country": "Niger",
+      "city": null,
+      "event_type": "political/security policy",
+      "candidate_event": false,
+      "title": "Mutiny in Niger Reveals Flawed Security Strategy",
+      "url": "https://adf-magazine.com/2026/09/mutiny-in-niger-reveals-flawed-security-strategy/"
     },
     {
       "published_at": "2026-09-29T17:22:59Z",
@@ -2873,19 +2886,6 @@
       "candidate_event": false,
       "title": "Change of command at Maradi Defense Zone No.6",
       "url": "https://anp.ne/passation-de-commandement-au-niveau-de-la-zone-de-defense-n6-de-maradi/"
-    },
-    {
-      "published_at": "2026-09-25T01:19:25Z",
-      "discovered_at": "2026-09-25T01:40:04.684233Z",
-      "source": "Malijet",
-      "language": "fr",
-      "actor": null,
-      "country": "Mali",
-      "city": null,
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Floods in Mali: 13 dead, 12,405 affected and a call for vigilance",
-      "url": "https://malijet.com/a_la_une_du_mali/312013-inondations-au-mali-13-morts-12-405-sinistres-et-un-appel.html"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
