@@ -1,23 +1,23 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-29T04:30:48.400154Z",
-  "run_id": "cc53e79e1263fd46a86c2ff7d3390cabfdf6404b",
-  "started_at": "2026-09-29T04:26:33.260171Z",
-  "finished_at": "2026-09-29T04:30:47.638578Z",
+  "generated_at": "2026-09-29T05:29:37.514960Z",
+  "run_id": "9df654559f110d485597db8d2f17830f8013a221",
+  "started_at": "2026-09-29T05:25:45.653861Z",
+  "finished_at": "2026-09-29T05:29:36.887754Z",
   "status": "LIVE",
   "pipeline_totals": {
     "sources_configured": 174,
-    "links_discovered": 6881,
+    "links_discovered": 6849,
     "current_cycle_retained": 4,
-    "current_cycle_rejected_or_error": 6,
-    "translations_attempted": 3,
-    "translations_succeeded": 3,
+    "current_cycle_rejected_or_error": 7,
+    "translations_attempted": 2,
+    "translations_succeeded": 2,
     "translations_failed": 0
   },
   "pipelines": {
     "Mali": {
       "sources": 11,
-      "discovered": 426,
+      "discovered": 425,
       "included": 2,
       "excluded": 0,
       "errors": 0,
@@ -41,7 +41,7 @@
       "sources": 7,
       "discovered": 275,
       "included": 2,
-      "excluded": 0,
+      "excluded": 1,
       "errors": 0,
       "duplicates": 0,
       "pending": 0,
@@ -50,7 +50,7 @@
     },
     "Regional": {
       "sources": 149,
-      "discovered": 5871,
+      "discovered": 5840,
       "included": 0,
       "excluded": 6,
       "errors": 0,
@@ -72,7 +72,7 @@
       "reason": "Google News index URL had no canonical publisher URL and headline/excerpt did not pass relevance",
       "title": "Escalating Violence In Sahel As JNIM Claims Rising Jihadi Operations - HumAngle",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNdzA5V283RXJ5VkxhVFlVQUMxWGt3YjFobkxDNWJyV0p5d1FSc2lNQXF1dTB0NUtWdk56emdtdk9VZ3lQQW54MnZxcFB5aHdsMzhURkJZWWJUUXNHRzY5My1QdGJpMG1HcnAwZmNyOUp5X3hiTjNBTm8wVXA0akhaUEt5RE1jOG9pX3U2M1Fka2pRYkVhRjZheGhXTTZTUjA?oc=5",
-      "collected_at": "2026-09-29T04:30:15.229935Z",
+      "collected_at": "2026-09-29T05:29:09.990107Z",
       "score": null
     },
     {
@@ -86,7 +86,7 @@
       "reason": "Google News index URL had no canonical publisher URL and headline/excerpt did not pass relevance",
       "title": "JNIM: Coalition Of Terrorists Intensifying Attacks In The Sahel - HumAngle",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPbGVLeFVlYUFsVWZNSXY1bmpsZDJMLW9uSUZ3X3A0Um0tSWR4eUVueEl0bEdoUFRaVElsUHA0QnVUdkgtS2F1VzZ0MWdJek1TX1NLRzBYellFcHJjQ1hJT2dhWll2dnNRdkI5VUQzbklod1BwXzNPM25CREdUWXRPT1dPSEdxSkRWcGU4MWYyU3FBUQ?oc=5",
-      "collected_at": "2026-09-29T04:30:15.233938Z",
+      "collected_at": "2026-09-29T05:29:09.993952Z",
       "score": null
     },
     {
@@ -100,7 +100,7 @@
       "reason": "Google News index URL had no canonical publisher URL and headline/excerpt did not pass relevance",
       "title": "Understanding JNIM’s Expansion beyond the Sahel - International Crisis Group",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOMW9CSDEzYy0xN2ZWcEluQ3JEd1RlQWVHdkkxbVFKSVhiYmhDaXVNRno3OHlUbGlvQl9tcjJjS2gtU3F0Uy05S0U3Qk5RaXMyZE91UUF5T0NQVHdvbDBRVFJQODlEbUYzNTV3Vk5YUmhNempoVXJuWHdfMDhZYWVjVVFhd3FoeVZYcnotTA?oc=5",
-      "collected_at": "2026-09-29T04:30:15.238008Z",
+      "collected_at": "2026-09-29T05:29:09.997880Z",
       "score": null
     },
     {
@@ -112,9 +112,9 @@
       "collection_method": "google-news-domain",
       "stage": "indexed_fallback",
       "reason": "Google News index URL had no canonical publisher URL and headline/excerpt did not pass relevance",
-      "title": "Countering JNIM’s Drone Proliferation in the Sahel - smallwarsjournal.com",
+      "title": "Countering JNIM’s Drone Proliferation in the Sahel - Small Wars Journal",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPZFhyVzVHTVQtT0VFaDRBNmpxcEUtcTdraDM4bTFDeTVKcGJJQVJvcFV6cVBjc21oTUpCeXduSWFzRVhldlVqTG5VaWVJZng5Z0F0djFQNkZjOFQ5RjN2S0dsQUVkdDhtc051MWVoWDhkaW1LVWtxMmJtQ0JsLWsyUW9oY0NucWRRTGpOUkljYXdsNEhZ?oc=5",
-      "collected_at": "2026-09-29T04:30:15.242007Z",
+      "collected_at": "2026-09-29T05:29:10.001628Z",
       "score": null
     },
     {
@@ -128,7 +128,7 @@
       "reason": "Google News index URL had no canonical publisher URL and headline/excerpt did not pass relevance",
       "title": "Exploiting Borders in the Sahel: The Islamic State in the Greater Sahara - Africa Center for Strategic Studies",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNQXQ4WU1FaWhpOUs0RDBFZk1ZbGtiWEdfVW9mSVR0UVZxQWRzYWt0VEdvZk9ESmhwbkxaZzEtNEJRVVBLaFVWbXRSRUs1NDRCLXpjYURIVHFBcVRXeV8wOW80MFhXd1dULVlMbTlycjRMYl9ZSnpIMGQ5S0EydFlwa3RyLUh0ZkR1Rm5PaEJaV0gtUlhTVWFNblBDbDFmQjMxT3pN?oc=5",
-      "collected_at": "2026-09-29T04:30:15.246800Z",
+      "collected_at": "2026-09-29T05:29:10.006342Z",
       "score": null
     },
     {
@@ -142,7 +142,7 @@
       "reason": "Google News index URL had no canonical publisher URL and headline/excerpt did not pass relevance",
       "title": "Al-Qaïda au Sahel revendique une attaque et salue le coronavirus - VOA Afrique",
       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPYzZIa0NMRWpqUHl5Z19rZTM1cXp3ZFRpR1MxazNXUmlGZ2NFUVhSaEp3NTA1S0w1YWJ2dDVaM1RVZW14NDlmQWpESTFkTjZUU2I2V3dLS0tlNmt1ZVdXZnJ0cWE5ak1FcFdmTmF5M21fbVFjWV85SnNkOXFGbzdsY2JDSjBvSGMweVhVRmplbWVrUS0yV3JtUUNwb2p5QlR1V3VQbEhwWjNWNzlLWUlDVkZuc19LZkF3SU5qU1pZYWZYS1l5aVY2ZHEydUtZNTVVdDF2MzZ30gHYAUFVX3lxTE5OQ2d1NC14OXV3R2ozcHVQbXh3RndJUmZZR2JxbjVBcVNlR0hZWXdpeUgxMWg3dVlJZGV4a3duTXJVM3FHRXJkb20xOEVHbTNxSjBoNXlxa1ptaUVLUFppQ01IRTVTRl9aaEZkcC1jNXh1N0oyeHBsdFdUb1pBa1hPb09fZjdLdDZJTzc3RDA1SWJSWlcwb3N6NHN0bFVycWlnNUNvVGtORUVYbi1xcmwxSFZDYk1Yd3BERFI2NEFTb2ttVnVzNjZnS3FtYkhmMDlITWxzVl8tNg?oc=5",
-      "collected_at": "2026-09-29T04:30:15.250012Z",
+      "collected_at": "2026-09-29T05:29:10.009445Z",
       "score": null
     },
     {
@@ -156,22 +156,50 @@
       "reason": "explicit place: Niamey (niamey); local source prior: Niger; headline event signal: political/security policy (mutinerie); security context: militaire",
       "title": "D�fense : le G�n�ral Tiani remanie le commandement militaire apr�s la mutinerie de Niamey",
       "url": "http://news.aNiamey.com/h/123258.html",
-      "collected_at": "2026-09-29T04:30:15.634445Z",
+      "collected_at": "2026-09-29T05:29:10.393871Z",
       "score": 13
     },
     {
       "pipeline": "Mali",
       "decision": "INCLUDED",
-      "source": "RFI Afrique",
-      "source_id": "rfi-afrique",
+      "source": "Malijet",
+      "source_id": "malijet",
       "language": "fr",
+      "collection_method": "rss:/feed",
+      "stage": "precision",
+      "reason": "explicit place: Kidal (kidal); local source prior: Mali; state/security force: fama; headline event signal: security operation (frappes); security context: sécurité",
+      "title": "Sécurité: Nouvelles frappes ciblées des FAMa à Kidal et Léré dans le cadre de l'opération Dougoukoloko",
+      "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312033-securite-nouvelles-frappes-ciblees-des-fama-a-kidal-et-lere.html",
+      "collected_at": "2026-09-29T05:29:10.474266Z",
+      "score": 17
+    },
+    {
+      "pipeline": "Mali",
+      "decision": "INCLUDED",
+      "source": "Amnesty West and Central Africa",
+      "source_id": "amnesty-wca",
+      "language": "en",
+      "collection_method": "rss:/feed/",
+      "stage": "indexed_fallback",
+      "reason": "publisher HTTP 403; retained feed/index context only",
+      "title": "Mali: Damning evidence of war crimes by state armed forces and Wagner Group personnel – new report",
+      "url": "https://www.amnesty.org/en/latest/news/2026/09/mali-war-wagner/",
+      "collected_at": "2026-09-29T05:29:10.483588Z",
+      "score": 9
+    },
+    {
+      "pipeline": "Niger",
+      "decision": "EXCLUDED",
+      "source": "Al Jazeera English",
+      "source_id": "aljazeera-en",
+      "language": "en",
       "collection_method": "rss:/rss",
       "stage": "precision",
-      "reason": "explicit country: Mali (mali); headline actor: Africa Corps/Wagner (groupe wagner); supporting signal casualties: mort; supporting signal civilians: civils; security context: defense",
-      "title": "Mali: l'ONG Amnesty documente des cas d'assassinats et de tortures commis par l'armée et le groupe Wagner",
-      "url": "https://www.rfi.fr/fr/afrique/20260929-mali-l-ong-amnesty-documente-des-cas-d-assassinats-et-de-tortures-commis-par-l-arm%C3%A9e-et-le-groupe-wagner",
-      "collected_at": "2026-09-29T04:30:15.900097Z",
-      "score": 14
+      "reason": "relevance score 7; headline event signal: kidnapping (abducted); supporting signal claim_language: suspected; security context: security; foreign headline dominates: nigeria",
+      "title": "More than 80 reported abducted in Nigeria as police find human remains",
+      "url": "https://www.aljazeera.com/news/2026/9/29/more-than-80-reported-abducted-in-nigeria-as-police-find-human-remains?traffic_source=rss",
+      "collected_at": "2026-09-29T05:29:10.615976Z",
+      "score": 7
     },
     {
       "pipeline": "Niger",
@@ -184,22 +212,8 @@
       "reason": "explicit place: Niamey (niamey); headline event signal: air/drone strike (drone attack); supporting signal civilians: civilians; security context: security; actor unresolved: retained as Other",
       "title": "Boko Massacre in Nigeria; Ethiopia on the Brink; M23 Drone Attack; IS Attacks Niamey: Africa File, February 5, 2026",
       "url": "https://www.criticalthreats.org/analysis/boko-haram-nigeria-tplf-ethiopia-red-sea-drc-m23-rwanda-isis-niger-saf-rsf-sudan-africa-file-february-5-2026",
-      "collected_at": "2026-09-29T04:30:17.664830Z",
+      "collected_at": "2026-09-29T05:29:11.532611Z",
       "score": 14
-    },
-    {
-      "pipeline": "Mali",
-      "decision": "INCLUDED",
-      "source": "Malijet",
-      "source_id": "malijet",
-      "language": "fr",
-      "collection_method": "google-news-country:Mali",
-      "stage": "indexed_fallback",
-      "reason": "Google News index URL had no publisher canonical URL in the RSS item; retained indexed context only",
-      "title": "Sécurité: Nouvelles frappes ciblées des FAMa à Kidal et Léré dans le cadre de l'opération Dougoukoloko - malijet.com",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVHZKNDl1VmxBcV9ieFRFQUZHaU9oZlFmY3pVUVdseExadDc2bzdqSTN4VTFROUlsUElxOW9NWUVUcmhFbl85djlKM2hJd29TZl9qVXdxdnpXRFlNUWQxUk5xWk1RY2xNOWR5Y1VNcFJRbnhYZThCc0Itd2dIckg0bld3OThZNUdTOXdLNnAwVkNCbXlZMTJHTXE2ZmhWYU9OeG5hc1VtRl92cmhkZkpyQ2ZEX0VsUHZ0bmFlUkd0UXQtZjA?oc=5",
-      "collected_at": "2026-09-29T04:30:26.795336Z",
-      "score": 17
     }
   ],
   "privacy": {
