@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "site_patch_version": "2.9.3",
   "reporting_date": "2026-09-28",
-  "generated_at": "2026-09-29T00:36:44.794064Z",
+  "generated_at": "2026-09-29T01:29:08.659116Z",
   "coverage": [
     "Mali",
     "Burkina Faso",
@@ -16,7 +16,7 @@
     "multi_source_events": 0,
     "reports_collected_on_date": 17,
     "reports_published_on_date": 7,
-    "newly_discovered_older_events": 1,
+    "newly_discovered_older_events": 2,
     "events_awaiting_date_verification": 0,
     "distinct_sources_collected": 9
   },
@@ -32,7 +32,7 @@
     },
     {
       "heading": "What remains unclear",
-      "text": "1 newly recorded item concern earlier dates and are kept out of today's incident count."
+      "text": "2 newly recorded items concern earlier dates and are kept out of today's incident count."
     }
   ],
   "key_judgments": [
@@ -116,7 +116,7 @@
   ],
   "emerging_patterns": [
     "JNIM 7-day activity is lower than the preceding 7-day window (1 → 0).",
-    "State 7-day activity is lower than the preceding 7-day window (6 → 2)."
+    "State 7-day activity is lower than the preceding 7-day window (6 → 3)."
   ],
   "intelligence_gaps": [
     "2 same-day event(s) lack independent multi-source corroboration."
@@ -156,7 +156,7 @@
     "State": {
       "events": 1,
       "delta_vs_previous_day": 1,
-      "current_7d": 2,
+      "current_7d": 3,
       "previous_7d": 6,
       "countries": [
         [
@@ -221,7 +221,7 @@
     "sources_success": 174,
     "sources_failed": 0,
     "sources_degraded": 42,
-    "documents_discovered": 6886,
+    "documents_discovered": 6880,
     "documents_retained": 3,
     "report_target": 100,
     "translations_attempted": 2,
