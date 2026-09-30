@@ -1,24 +1,24 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-30T04:31:21.220231Z",
-  "run_id": "db53d08e2b475885666a8c00f0fec7d8d0cf9f16",
-  "started_at": "2026-09-30T04:27:40.969746Z",
-  "finished_at": "2026-09-30T04:31:20.207920Z",
+  "generated_at": "2026-09-30T05:30:04.444979Z",
+  "run_id": "128a1912bf7fd8a5b5f61708f7f8e2553e34d911",
+  "started_at": "2026-09-30T05:26:59.742524Z",
+  "finished_at": "2026-09-30T05:30:03.789484Z",
   "status": "LIVE",
   "pipeline_totals": {
-    "sources_configured": 174,
-    "links_discovered": 6972,
-    "current_cycle_retained": 5,
-    "current_cycle_rejected_or_error": 6,
-    "translations_attempted": 3,
-    "translations_succeeded": 3,
+    "sources_configured": 175,
+    "links_discovered": 7020,
+    "current_cycle_retained": 3,
+    "current_cycle_rejected_or_error": 7,
+    "translations_attempted": 2,
+    "translations_succeeded": 2,
     "translations_failed": 0
   },
   "pipelines": {
     "Mali": {
       "sources": 11,
-      "discovered": 423,
-      "included": 2,
+      "discovered": 424,
+      "included": 1,
       "excluded": 0,
       "errors": 0,
       "duplicates": 0,
@@ -40,8 +40,8 @@
     "Niger": {
       "sources": 7,
       "discovered": 275,
-      "included": 3,
-      "excluded": 0,
+      "included": 2,
+      "excluded": 1,
       "errors": 0,
       "duplicates": 0,
       "pending": 0,
@@ -49,8 +49,8 @@
       "note": "Niger lane; 8 priority query terms configured"
     },
     "Regional": {
-      "sources": 149,
-      "discovered": 5965,
+      "sources": 150,
+      "discovered": 6012,
       "included": 0,
       "excluded": 6,
       "errors": 0,
@@ -62,20 +62,6 @@
   },
   "decisions": [
     {
-      "pipeline": "Niger",
-      "decision": "INCLUDED",
-      "source": "Africa Defense Forum (ADF Magazine)",
-      "source_id": "adf-magazine",
-      "language": "en",
-      "collection_method": "google-news-domain",
-      "stage": "indexed_fallback",
-      "reason": "Google News index URL had no publisher canonical URL in the RSS item; retained indexed context only",
-      "title": "Mutiny in Niger Reveals Flawed Security Strategy - Africa Defense Forum",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQlBKa3ZZX19RYXlxTWs5Qy03TFJfS201bVRzRmRoWGpvSmVRbXhkOTFaMUFJU3J0d0pTODg5S1VsMFBpYXdTSUJ6OHBncEM0R1dzZC1uWF9zSnUwZXhZRTE5cXZhQ0ZLUFZ3M2ZGR2RRbUFEc0l6c2NTNWlsWjg1T3VsblNhMTJMamc?oc=5",
-      "collected_at": "2026-09-30T04:30:43.935666Z",
-      "score": 9
-    },
-    {
       "pipeline": "Regional",
       "decision": "EXCLUDED",
       "source": "HumAngle",
@@ -86,7 +72,7 @@
       "reason": "Google News index URL had no canonical publisher URL and headline/excerpt did not pass relevance",
       "title": "Escalating Violence In Sahel As JNIM Claims Rising Jihadi Operations - HumAngle",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNdzA5V283RXJ5VkxhVFlVQUMxWGt3YjFobkxDNWJyV0p5d1FSc2lNQXF1dTB0NUtWdk56emdtdk9VZ3lQQW54MnZxcFB5aHdsMzhURkJZWWJUUXNHRzY5My1QdGJpMG1HcnAwZmNyOUp5X3hiTjNBTm8wVXA0akhaUEt5RE1jOG9pX3U2M1Fka2pRYkVhRjZheGhXTTZTUjA?oc=5",
-      "collected_at": "2026-09-30T04:30:43.941564Z",
+      "collected_at": "2026-09-30T05:29:39.143491Z",
       "score": null
     },
     {
@@ -100,7 +86,7 @@
       "reason": "Google News index URL had no canonical publisher URL and headline/excerpt did not pass relevance",
       "title": "JNIM: Coalition Of Terrorists Intensifying Attacks In The Sahel - HumAngle",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPbGVLeFVlYUFsVWZNSXY1bmpsZDJMLW9uSUZ3X3A0Um0tSWR4eUVueEl0bEdoUFRaVElsUHA0QnVUdkgtS2F1VzZ0MWdJek1TX1NLRzBYellFcHJjQ1hJT2dhWll2dnNRdkI5VUQzbklod1BwXzNPM25CREdUWXRPT1dPSEdxSkRWcGU4MWYyU3FBUQ?oc=5",
-      "collected_at": "2026-09-30T04:30:43.947069Z",
+      "collected_at": "2026-09-30T05:29:39.147380Z",
       "score": null
     },
     {
@@ -114,7 +100,7 @@
       "reason": "Google News index URL had no canonical publisher URL and headline/excerpt did not pass relevance",
       "title": "Understanding JNIM’s Expansion beyond the Sahel - International Crisis Group",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOMW9CSDEzYy0xN2ZWcEluQ3JEd1RlQWVHdkkxbVFKSVhiYmhDaXVNRno3OHlUbGlvQl9tcjJjS2gtU3F0Uy05S0U3Qk5RaXMyZE91UUF5T0NQVHdvbDBRVFJQODlEbUYzNTV3Vk5YUmhNempoVXJuWHdfMDhZYWVjVVFhd3FoeVZYcnotTA?oc=5",
-      "collected_at": "2026-09-30T04:30:43.952604Z",
+      "collected_at": "2026-09-30T05:29:39.151196Z",
       "score": null
     },
     {
@@ -128,7 +114,7 @@
       "reason": "Google News index URL had no canonical publisher URL and headline/excerpt did not pass relevance",
       "title": "Countering JNIM’s Drone Proliferation in the Sahel - Small Wars Journal",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPZFhyVzVHTVQtT0VFaDRBNmpxcEUtcTdraDM4bTFDeTVKcGJJQVJvcFV6cVBjc21oTUpCeXduSWFzRVhldlVqTG5VaWVJZng5Z0F0djFQNkZjOFQ5RjN2S0dsQUVkdDhtc051MWVoWDhkaW1LVWtxMmJtQ0JsLWsyUW9oY0NucWRRTGpOUkljYXdsNEhZ?oc=5",
-      "collected_at": "2026-09-30T04:30:43.958396Z",
+      "collected_at": "2026-09-30T05:29:39.154954Z",
       "score": null
     },
     {
@@ -142,7 +128,7 @@
       "reason": "Google News index URL had no canonical publisher URL and headline/excerpt did not pass relevance",
       "title": "Exploiting Borders in the Sahel: The Islamic State in the Greater Sahara - Africa Center for Strategic Studies",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNQXQ4WU1FaWhpOUs0RDBFZk1ZbGtiWEdfVW9mSVR0UVZxQWRzYWt0VEdvZk9ESmhwbkxaZzEtNEJRVVBLaFVWbXRSRUs1NDRCLXpjYURIVHFBcVRXeV8wOW80MFhXd1dULVlMbTlycjRMYl9ZSnpIMGQ5S0EydFlwa3RyLUh0ZkR1Rm5PaEJaV0gtUlhTVWFNblBDbDFmQjMxT3pN?oc=5",
-      "collected_at": "2026-09-30T04:30:43.965233Z",
+      "collected_at": "2026-09-30T05:29:39.159682Z",
       "score": null
     },
     {
@@ -156,7 +142,35 @@
       "reason": "Google News index URL had no canonical publisher URL and headline/excerpt did not pass relevance",
       "title": "Al-Qaïda au Sahel revendique une attaque et salue le coronavirus - VOA Afrique",
       "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPYzZIa0NMRWpqUHl5Z19rZTM1cXp3ZFRpR1MxazNXUmlGZ2NFUVhSaEp3NTA1S0w1YWJ2dDVaM1RVZW14NDlmQWpESTFkTjZUU2I2V3dLS0tlNmt1ZVdXZnJ0cWE5ak1FcFdmTmF5M21fbVFjWV85SnNkOXFGbzdsY2JDSjBvSGMweVhVRmplbWVrUS0yV3JtUUNwb2p5QlR1V3VQbEhwWjNWNzlLWUlDVkZuc19LZkF3SU5qU1pZYWZYS1l5aVY2ZHEydUtZNTVVdDF2MzZ30gHYAUFVX3lxTE5OQ2d1NC14OXV3R2ozcHVQbXh3RndJUmZZR2JxbjVBcVNlR0hZWXdpeUgxMWg3dVlJZGV4a3duTXJVM3FHRXJkb20xOEVHbTNxSjBoNXlxa1ptaUVLUFppQ01IRTVTRl9aaEZkcC1jNXh1N0oyeHBsdFdUb1pBa1hPb09fZjdLdDZJTzc3RDA1SWJSWlcwb3N6NHN0bFVycWlnNUNvVGtORUVYbi1xcmwxSFZDYk1Yd3BERFI2NEFTb2ttVnVzNjZnS3FtYkhmMDlITWxzVl8tNg?oc=5",
-      "collected_at": "2026-09-30T04:30:43.969802Z",
+      "collected_at": "2026-09-30T05:29:39.162829Z",
+      "score": null
+    },
+    {
+      "pipeline": "Niger",
+      "decision": "INCLUDED",
+      "source": "aNiamey.com",
+      "source_id": "dir-051-aniamey-com",
+      "language": "fr",
+      "collection_method": "homepage",
+      "stage": "precision",
+      "reason": "explicit place: Niamey (niamey); local source prior: Niger; headline event signal: political/security policy (mutinerie); security context: militaire",
+      "title": "D�fense : le G�n�ral Tiani remanie le commandement militaire apr�s la mutinerie de Niamey",
+      "url": "http://news.aNiamey.com/h/123258.html",
+      "collected_at": "2026-09-30T05:29:39.426454Z",
+      "score": 13
+    },
+    {
+      "pipeline": "Niger",
+      "decision": "EXCLUDED",
+      "source": "Africa Defense Forum (ADF Magazine)",
+      "source_id": "adf-magazine",
+      "language": "en",
+      "collection_method": "homepage",
+      "stage": "extraction",
+      "reason": "insufficient extracted text (0 chars; feed excerpt 0 chars)",
+      "title": "Mutiny in Niger Reveals Flawed Security Strategy",
+      "url": "https://adf-magazine.com/2026/09/mutiny-in-niger-reveals-flawed-security-strategy/",
+      "collected_at": "2026-09-30T05:29:39.605398Z",
       "score": null
     },
     {
@@ -170,22 +184,8 @@
       "reason": "explicit place: Niamey (niamey); headline event signal: air/drone strike (drone attack); supporting signal civilians: civilians; security context: security; actor unresolved: retained as Other",
       "title": "Boko Massacre in Nigeria; Ethiopia on the Brink; M23 Drone Attack; IS Attacks Niamey: Africa File, February 5, 2026",
       "url": "https://www.criticalthreats.org/analysis/boko-haram-nigeria-tplf-ethiopia-red-sea-drc-m23-rwanda-isis-niger-saf-rsf-sudan-africa-file-february-5-2026",
-      "collected_at": "2026-09-30T04:30:44.503556Z",
+      "collected_at": "2026-09-30T05:29:40.753229Z",
       "score": 14
-    },
-    {
-      "pipeline": "Mali",
-      "decision": "INCLUDED",
-      "source": "Asharq Al-Awsat",
-      "source_id": "aawsat-ar",
-      "language": "ar",
-      "collection_method": "rss:/feed",
-      "stage": "precision",
-      "reason": "explicit country: Mali (مالي); actor: JNIM (نصرة الإسلام والمسلمين); headline event signal: ambush (كمين); supporting signal military_target: قافلة; supporting signal casualties: قتل",
-      "title": "مقتل جنود ماليين وعناصر روسية في كمين لمتطرفين وسط مالي",
-      "url": "https://aawsat.com/node/5324072",
-      "collected_at": "2026-09-30T04:30:44.633532Z",
-      "score": 16
     },
     {
       "pipeline": "Mali",
@@ -193,27 +193,13 @@
       "source": "Malijet",
       "source_id": "malijet",
       "language": "fr",
-      "collection_method": "rss:/feed",
-      "stage": "precision",
-      "reason": "explicit place: Ségou (segou); headline actor: JNIM (jnim); local source prior: Mali; event signal: clash (affrontements); security context: terroriste",
-      "title": "Ségou : Une trentaine de terroristes du JNIM et du FLA neutralisés par les FAMa et l'Africa Corps",
-      "url": "https://malijet.com/flash-info/312069-segou-une-trentaine-de-terroristes-du-jnim-et-du-fla-neutr.html",
-      "collected_at": "2026-09-30T04:30:44.712214Z",
-      "score": 18
-    },
-    {
-      "pipeline": "Niger",
-      "decision": "INCLUDED",
-      "source": "aNiamey.com",
-      "source_id": "dir-051-aniamey-com",
-      "language": "fr",
-      "collection_method": "homepage",
-      "stage": "precision",
-      "reason": "explicit place: Niamey (niamey); local source prior: Niger; headline event signal: political/security policy (mutinerie); security context: militaire",
-      "title": "D�fense : le G�n�ral Tiani remanie le commandement militaire apr�s la mutinerie de Niamey",
-      "url": "http://news.aNiamey.com/h/123258.html",
-      "collected_at": "2026-09-30T04:30:44.886555Z",
-      "score": 13
+      "collection_method": "google-news-country:Mali",
+      "stage": "indexed_fallback",
+      "reason": "Google News index URL had no publisher canonical URL in the RSS item; retained indexed context only",
+      "title": "Ségou : Une trentaine de terroristes du JNIM et du FLA neutralisés par les FAMa et l'Africa Corps - malijet.com",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOMUhpYktIZDlDYnNVRGluenlEUk5sNGpHdlVRcGwzdEJkUnA3aFhKVjNGQ21qeDBFOHd5X1lRTWpLdFVyQ2NmV0xlWk1ZR2NJWUU5ZFNBcVBOa3NSMVQ1Slg3MDRXM2RrS09qdERKY0d3ZmRNSjgtZEhsYzFOM1Z6MU1JNmZITzExWGY1WVJzbk0yNFJjQlNLak9BOUlNcEZxYzhF?oc=5",
+      "collected_at": "2026-09-30T05:29:49.741063Z",
+      "score": 12
     }
   ],
   "privacy": {
