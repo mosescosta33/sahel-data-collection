@@ -1,16 +1,16 @@
 {
   "status": "LIVE",
   "site_patch_version": "2.9.3",
-  "status_detail": "Last automated GitHub collection completed 2026-09-30T10:33:13.380929Z; 175/175 sources yielded a direct or indexed discovery path.",
-  "last_collection": "2026-09-30T10:33:13.380929Z",
-  "reports_24h": 16,
-  "distinct_sources_24h": 12,
+  "status_detail": "Last automated GitHub collection completed 2026-09-30T11:30:32.413201Z; 175/175 sources yielded a direct or indexed discovery path.",
+  "last_collection": "2026-09-30T11:30:32.413201Z",
+  "reports_24h": 15,
+  "distinct_sources_24h": 11,
   "candidate_events_24h": 4,
   "mapped_events_24h": 3,
   "mapped_locations_24h": 8,
   "sources_configured": 175,
-  "sources_live": 133,
-  "sources_degraded": 42,
+  "sources_live": 134,
+  "sources_degraded": 41,
   "sources_failed": 0,
   "source_onboarding": {
     "candidate_total": 300,
@@ -66,8 +66,8 @@
     }
   },
   "source_type_coverage": {
-    "official": 21,
     "aggregator": 2,
+    "official": 21,
     "local_media": 118,
     "international_media": 115,
     "defense_media": 10,
@@ -78,7 +78,7 @@
     "analysis_media": 9
   },
   "threat": {
-    "generated_at": "2026-09-30T10:33:13.360952Z",
+    "generated_at": "2026-09-30T11:30:32.392615Z",
     "model_version": "0.1-experimental",
     "label": "Experimental Conflict Threat Level",
     "regional": {
@@ -142,7 +142,7 @@
     "method_note": "Experimental research indicator derived from fused candidate events, recent country-relative tempo, significance, militant activity, civilian-threat signals, geographic spread and corroboration. It is not a travel advisory, verified incident count, or forecast. Collection gaps reduce confidence rather than automatically reducing threat."
   },
   "data_quality": {
-    "generated_at": "2026-09-30T10:33:13.380433Z",
+    "generated_at": "2026-09-30T11:30:32.412799Z",
     "events_30d": 33,
     "date_resolution_pct": 88,
     "precise_geography_pct": 79,
@@ -158,34 +158,34 @@
     "note": "Quality percentages describe fields present in Sahel Intel fused candidate events; they are not accuracy estimates."
   },
   "last_run": {
-    "started_at": "2026-09-30T10:28:14.009586Z",
-    "finished_at": "2026-09-30T10:33:13.380929Z",
+    "started_at": "2026-09-30T11:25:28.888606Z",
+    "finished_at": "2026-09-30T11:30:32.413201Z",
     "status": "complete",
     "site_patch_version": "2.9.3",
     "sources_total": 175,
     "sources_success": 175,
     "sources_failed": 0,
-    "documents_discovered": 6966,
-    "documents_selected": 11,
-    "prefetch_skipped": 7596,
-    "known_url_skipped": 112,
+    "documents_discovered": 6985,
+    "documents_selected": 10,
+    "prefetch_skipped": 7622,
+    "known_url_skipped": 108,
     "duplicate_url_skipped": 0,
     "title_duplicates_skipped": 0,
     "source_cap_skipped": 0,
-    "documents_retained": 5,
+    "documents_retained": 4,
     "report_target": 100,
-    "report_target_progress": 5,
+    "report_target_progress": 4,
     "report_target_met": false,
     "country_report_floor": 20,
     "retained_cycle_by_country": {
       "Mali": 1,
       "Burkina Faso": 0,
-      "Niger": 4
+      "Niger": 3
     },
-    "collection_waves": 2,
-    "fetch_candidates_attempted": 11,
+    "collection_waves": 1,
+    "fetch_candidates_attempted": 10,
     "targeted_sources_queried": 36,
-    "targeted_links_discovered": 1,
+    "targeted_links_discovered": 0,
     "dynamic_sources_loaded": 101,
     "source_candidates_total": 300,
     "source_candidates_verified_or_active": 158,
@@ -202,9 +202,9 @@
     "candidate_events_30d": 33,
     "reports_30d": 152,
     "sources_30d": 50,
-    "event_changes": 1,
-    "indexed_context_archive": 26,
-    "research_leads_archive": 119,
+    "event_changes": 0,
+    "indexed_context_archive": 25,
+    "research_leads_archive": 118,
     "analytical_context_archive": 11,
     "analytical_child_incidents": 7,
     "event_date_unresolved_reports": 0,
@@ -212,13 +212,13 @@
     "funnel_unaccounted": 0,
     "selected_by_language": {
       "fr": 3,
-      "en": 8,
+      "en": 7,
       "ar": 0,
       "other": 0
     },
     "retained_cycle_by_language": {
       "fr": 2,
-      "en": 3,
+      "en": 2,
       "ar": 0,
       "other": 0
     },
