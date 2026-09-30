@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-09-29T23:27:36.546892Z",
+  "generated_at": "2026-09-30T00:38:43.342377Z",
   "model_version": "0.1-experimental",
   "label": "Experimental Conflict Threat Level",
   "regional": {
     "level": "HIGH",
-    "confidence": "MODERATE"
+    "confidence": "LOW"
   },
   "countries": {
     "Mali": {
-      "score": 90,
+      "score": 88,
       "level": "HIGH",
       "trend": "DETERIORATING",
       "confidence": "HIGH",
       "assessment_status": "ASSESSED",
-      "events_7d": 12,
+      "events_7d": 11,
       "events_30d": 28,
-      "baseline_7d_equivalent": 4.9,
-      "tempo_ratio": 2.21,
+      "baseline_7d_equivalent": 5.2,
+      "tempo_ratio": 1.94,
       "drivers": [
-        "12 fused candidate event(s) in 7 days",
+        "11 fused candidate event(s) in 7 days",
         "3 JNIM/IS Sahel-linked event(s)",
         "9 significant/major event(s)",
         "1 civilian-threat indicator(s)",
@@ -44,21 +44,19 @@
       "independent_domains_7d": 1
     },
     "Niger": {
-      "score": 29,
-      "level": "LOW",
-      "trend": "DETERIORATING",
-      "confidence": "MODERATE",
-      "assessment_status": "ASSESSED",
-      "events_7d": 3,
+      "score": 0,
+      "level": "INSUFFICIENT DATA",
+      "trend": "STABLE",
+      "confidence": "LOW",
+      "assessment_status": "INSUFFICIENT_DATA",
+      "events_7d": 0,
       "events_30d": 3,
-      "baseline_7d_equivalent": 0.0,
-      "tempo_ratio": 4.0,
+      "baseline_7d_equivalent": 0.9,
+      "tempo_ratio": 0.52,
       "drivers": [
-        "3 fused candidate event(s) in 7 days",
-        "1 significant/major event(s)",
-        "7-day tempo above recent country baseline"
+        "insufficient fused-event evidence for a current 7-day threat classification"
       ],
-      "independent_domains_7d": 3
+      "independent_domains_7d": 0
     }
   },
   "method_note": "Experimental research indicator derived from fused candidate events, recent country-relative tempo, significance, militant activity, civilian-threat signals, geographic spread and corroboration. It is not a travel advisory, verified incident count, or forecast. Collection gaps reduce confidence rather than automatically reducing threat."
