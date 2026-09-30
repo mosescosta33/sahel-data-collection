@@ -1,5 +1,68 @@
 [
   {
+    "id": "7633fd051ef077f862a26eb746614ce56fc1b33a",
+    "event_date": "2026-09-29",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "relative-weekday",
+    "published_at": "2026-09-29T20:01:30Z",
+    "collected_at": "2026-09-30T01:29:41.217435Z",
+    "actor": "JNIM",
+    "perpetrator": null,
+    "target": "JNIM",
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [
+      "JNIM"
+    ],
+    "parent_report_id": null,
+    "event_type": "ambush",
+    "country": "Mali",
+    "city": "Ségou",
+    "lat": 13.4317,
+    "lng": -6.2157,
+    "locations": [
+      {
+        "name": "Ségou",
+        "country": "Mali",
+        "lat": 13.4317,
+        "lng": -6.2157,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "مقتل جنود ماليين وعناصر روسية في كمين لمتطرفين وسط مالي",
+    "summary": "لقي ما لا يقل عن ثلاثة جنود ماليين وأربعة من عناصر قوات شبه عسكرية روسية مصرعهم في كمين نصبه متطرّفون لقافلتهم في وسط مالي، بحسب ما أفادت مصادر أمنية ومحلية «وكالة الصحافة الفرنسية» الثلاثاء. ويأتي الهجوم الذي وقع الأحد في ظل تصاعد الهجمات التي يشنّها متطرفون من «جماعة نصرة الإسلام والمسلمين» المرتبطة بتنظيم «القاعدة». وقال مصدر أمني لوكالة الصحافة الفرنسية، طالباً عدم الكشف عن هويته: «تعرّضت قافلة تتكوّن أساساً من أ",
+    "sources": [
+      "Asharq Al-Awsat"
+    ],
+    "languages": [
+      "ar"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://aawsat.com/%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%A3%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7/5324072-%D9%85%D9%82%D8%AA%D9%84-%D8%AC%D9%86%D9%88%D8%AF-%D9%85%D8%A7%D9%84%D9%8A%D9%8A%D9%86-%D9%88%D8%B9%D9%86%D8%A7%D8%B5%D8%B1-%D8%B1%D9%88%D8%B3%D9%8A%D8%A9-%D9%81%D9%8A-%D9%83%D9%85%D9%8A%D9%86-%D9%84%D9%85%D8%AA%D8%B7%D8%B1%D9%81%D9%8A%D9%86-%D9%88%D8%B3%D8%B7-%D9%85%D8%A7%D9%84%D9%8A"
+    ],
+    "created_at": "2026-09-30T01:29:41.217435Z",
+    "updated_at": "2026-09-30T01:29:41.217435Z",
+    "extraction_confidence": "low",
+    "revision_history": [
+      {
+        "at": "2026-09-30T01:29:41.217435Z",
+        "type": "event_created",
+        "source": "Asharq Al-Awsat"
+      }
+    ],
+    "corroboration": "single-source",
+    "confidence": "low",
+    "independent_source_domains": [
+      "aawsat.com"
+    ],
+    "independent_source_count": 1,
+    "significance": "SIGNIFICANT",
+    "significance_reasons": [
+      "operational security event"
+    ]
+  },
+  {
     "id": "2c2e044bc7ede838d4f82c6aeaa6e9bf7177a38b",
     "event_date": "2026-09-29",
     "event_date_confidence": "explicit-text",
@@ -257,42 +320,33 @@
       }
     ],
     "title": "Mali: deadly ambush of Jnim jihadists in Niono against the Russian Africa Corps",
-    "summary": "At least three Malian soldiers and four Russian paramilitaries were killed in an ambush by extremists on their convoy in central Mali, security and local sources told Agence France-Presse on Tuesday. Sunday's attack comes amid an upsurge in attacks by extremists from al-Qaeda-linked JNIM. A security source, speaking on condition of anonymity, told AFP: \"A convoy consisting mainly of members of the Africa Corps group ",
+    "summary": "Mali: deadly ambush of Jnim jihadists in Niono against the Russian Africa Corps In Mali, jihadists from the Islam and Muslim Support Group (Jnim), linked to al-Qaeda, claimed responsibility for an ambush on Monday, September 28 near Niono, in the Segou region, against a military convoy carrying Russian Africa Corps fighters. Numerous local sources confirm at least four Russians killed . The army has not communicated ",
     "sources": [
-      "RFI Afrique",
-      "Asharq Al-Awsat"
+      "RFI Afrique"
     ],
     "languages": [
-      "fr",
-      "ar"
+      "fr"
     ],
-    "source_count": 2,
+    "source_count": 1,
     "report_urls": [
-      "https://www.rfi.fr/fr/afrique/20260929-mali-embuscade-meurtri%C3%A8re-des-jihadistes-du-jnim-%C3%A0-niono-contre-l-africa-corps-russe",
-      "https://aawsat.com/%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%A3%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7/5324072-%D9%85%D9%82%D8%AA%D9%84-%D8%AC%D9%86%D9%88%D8%AF-%D9%85%D8%A7%D9%84%D9%8A%D9%8A%D9%86-%D9%88%D8%B9%D9%86%D8%A7%D8%B5%D8%B1-%D8%B1%D9%88%D8%B3%D9%8A%D8%A9-%D9%81%D9%8A-%D9%83%D9%85%D9%8A%D9%86-%D9%84%D9%85%D8%AA%D8%B7%D8%B1%D9%81%D9%8A%D9%86-%D9%88%D8%B3%D8%B7-%D9%85%D8%A7%D9%84%D9%8A"
+      "https://www.rfi.fr/fr/afrique/20260929-mali-embuscade-meurtri%C3%A8re-des-jihadistes-du-jnim-%C3%A0-niono-contre-l-africa-corps-russe"
     ],
     "created_at": "2026-09-29T20:32:43.614369Z",
-    "updated_at": "2026-09-30T00:38:03.374168Z",
+    "updated_at": "2026-09-29T20:32:43.614369Z",
     "extraction_confidence": "moderate",
     "revision_history": [
       {
         "at": "2026-09-29T20:32:43.614369Z",
         "type": "event_created",
         "source": "RFI Afrique"
-      },
-      {
-        "at": "2026-09-30T00:38:03.374168Z",
-        "type": "corroboration_or_geography_update",
-        "source": "Asharq Al-Awsat"
       }
     ],
-    "corroboration": "limited corroboration",
+    "corroboration": "single-source",
     "confidence": "moderate",
     "independent_source_domains": [
-      "rfi.fr",
-      "aawsat.com"
+      "rfi.fr"
     ],
-    "independent_source_count": 2,
+    "independent_source_count": 1,
     "significance": "SIGNIFICANT",
     "significance_reasons": [
       "operational security event"

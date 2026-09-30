@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-09-30T00:38:43.301292Z",
+  "generated_at": "2026-09-30T01:30:02.920313Z",
   "window_days": 30,
   "cutoff": "2026-08-31",
   "reports": 153,
   "incident_reports": 35,
-  "candidate_events": 32,
-  "corroborated_events": 3,
-  "mapped_events": 26,
-  "mapped_locations": 55,
+  "candidate_events": 33,
+  "corroborated_events": 2,
+  "mapped_events": 27,
+  "mapped_locations": 56,
   "distinct_sources": 51,
   "by_actor": {
     "State": 14,
-    "JNIM": 7,
+    "JNIM": 8,
     "Other": 6,
     "Africa Corps/Wagner": 5
   },
   "by_country": {
-    "Mali": 28,
+    "Mali": 29,
     "Niger": 3,
     "Burkina Faso": 1
   },
@@ -24,7 +24,7 @@
     "security operation": 12,
     "attack": 10,
     "offensive/campaign": 4,
-    "ambush": 2,
+    "ambush": 3,
     "clash": 2,
     "air/drone strike": 1,
     "civilian targeting": 1
@@ -35,7 +35,7 @@
     "ar": 8
   },
   "by_confidence": {
-    "low": 16,
+    "low": 17,
     "moderate": 16
   },
   "top_sources": [
@@ -115,7 +115,7 @@
     },
     {
       "location": "Ségou",
-      "count": 5
+      "count": 6
     },
     {
       "location": "Djenné",
@@ -282,7 +282,7 @@
     {
       "date": "2026-09-29",
       "reports": 20,
-      "events": 3
+      "events": 4
     },
     {
       "date": "2026-09-30",
@@ -291,6 +291,69 @@
     }
   ],
   "latest_events": [
+    {
+      "id": "7633fd051ef077f862a26eb746614ce56fc1b33a",
+      "event_date": "2026-09-29",
+      "event_date_confidence": "explicit-text",
+      "event_date_source": "relative-weekday",
+      "published_at": "2026-09-29T20:01:30Z",
+      "collected_at": "2026-09-30T01:29:41.217435Z",
+      "actor": "JNIM",
+      "perpetrator": null,
+      "target": "JNIM",
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [
+        "JNIM"
+      ],
+      "parent_report_id": null,
+      "event_type": "ambush",
+      "country": "Mali",
+      "city": "Ségou",
+      "lat": 13.4317,
+      "lng": -6.2157,
+      "locations": [
+        {
+          "name": "Ségou",
+          "country": "Mali",
+          "lat": 13.4317,
+          "lng": -6.2157,
+          "confidence": "explicit-place"
+        }
+      ],
+      "title": "مقتل جنود ماليين وعناصر روسية في كمين لمتطرفين وسط مالي",
+      "summary": "لقي ما لا يقل عن ثلاثة جنود ماليين وأربعة من عناصر قوات شبه عسكرية روسية مصرعهم في كمين نصبه متطرّفون لقافلتهم في وسط مالي، بحسب ما أفادت مصادر أمنية ومحلية «وكالة الصحافة الفرنسية» الثلاثاء. ويأتي الهجوم الذي وقع الأحد في ظل تصاعد الهجمات التي يشنّها متطرفون من «جماعة نصرة الإسلام والمسلمين» المرتبطة بتنظيم «القاعدة». وقال مصدر أمني لوكالة الصحافة الفرنسية، طالباً عدم الكشف عن هويته: «تعرّضت قافلة تتكوّن أساساً من أ",
+      "sources": [
+        "Asharq Al-Awsat"
+      ],
+      "languages": [
+        "ar"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://aawsat.com/%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%A3%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7/5324072-%D9%85%D9%82%D8%AA%D9%84-%D8%AC%D9%86%D9%88%D8%AF-%D9%85%D8%A7%D9%84%D9%8A%D9%8A%D9%86-%D9%88%D8%B9%D9%86%D8%A7%D8%B5%D8%B1-%D8%B1%D9%88%D8%B3%D9%8A%D8%A9-%D9%81%D9%8A-%D9%83%D9%85%D9%8A%D9%86-%D9%84%D9%85%D8%AA%D8%B7%D8%B1%D9%81%D9%8A%D9%86-%D9%88%D8%B3%D8%B7-%D9%85%D8%A7%D9%84%D9%8A"
+      ],
+      "created_at": "2026-09-30T01:29:41.217435Z",
+      "updated_at": "2026-09-30T01:29:41.217435Z",
+      "extraction_confidence": "low",
+      "revision_history": [
+        {
+          "at": "2026-09-30T01:29:41.217435Z",
+          "type": "event_created",
+          "source": "Asharq Al-Awsat"
+        }
+      ],
+      "corroboration": "single-source",
+      "confidence": "low",
+      "independent_source_domains": [
+        "aawsat.com"
+      ],
+      "independent_source_count": 1,
+      "significance": "SIGNIFICANT",
+      "significance_reasons": [
+        "operational security event"
+      ]
+    },
     {
       "id": "2c2e044bc7ede838d4f82c6aeaa6e9bf7177a38b",
       "event_date": "2026-09-29",
@@ -549,42 +612,33 @@
         }
       ],
       "title": "Mali: deadly ambush of Jnim jihadists in Niono against the Russian Africa Corps",
-      "summary": "At least three Malian soldiers and four Russian paramilitaries were killed in an ambush by extremists on their convoy in central Mali, security and local sources told Agence France-Presse on Tuesday. Sunday's attack comes amid an upsurge in attacks by extremists from al-Qaeda-linked JNIM. A security source, speaking on condition of anonymity, told AFP: \"A convoy consisting mainly of members of the Africa Corps group ",
+      "summary": "Mali: deadly ambush of Jnim jihadists in Niono against the Russian Africa Corps In Mali, jihadists from the Islam and Muslim Support Group (Jnim), linked to al-Qaeda, claimed responsibility for an ambush on Monday, September 28 near Niono, in the Segou region, against a military convoy carrying Russian Africa Corps fighters. Numerous local sources confirm at least four Russians killed . The army has not communicated ",
       "sources": [
-        "RFI Afrique",
-        "Asharq Al-Awsat"
+        "RFI Afrique"
       ],
       "languages": [
-        "fr",
-        "ar"
+        "fr"
       ],
-      "source_count": 2,
+      "source_count": 1,
       "report_urls": [
-        "https://www.rfi.fr/fr/afrique/20260929-mali-embuscade-meurtri%C3%A8re-des-jihadistes-du-jnim-%C3%A0-niono-contre-l-africa-corps-russe",
-        "https://aawsat.com/%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%A3%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7/5324072-%D9%85%D9%82%D8%AA%D9%84-%D8%AC%D9%86%D9%88%D8%AF-%D9%85%D8%A7%D9%84%D9%8A%D9%8A%D9%86-%D9%88%D8%B9%D9%86%D8%A7%D8%B5%D8%B1-%D8%B1%D9%88%D8%B3%D9%8A%D8%A9-%D9%81%D9%8A-%D9%83%D9%85%D9%8A%D9%86-%D9%84%D9%85%D8%AA%D8%B7%D8%B1%D9%81%D9%8A%D9%86-%D9%88%D8%B3%D8%B7-%D9%85%D8%A7%D9%84%D9%8A"
+        "https://www.rfi.fr/fr/afrique/20260929-mali-embuscade-meurtri%C3%A8re-des-jihadistes-du-jnim-%C3%A0-niono-contre-l-africa-corps-russe"
       ],
       "created_at": "2026-09-29T20:32:43.614369Z",
-      "updated_at": "2026-09-30T00:38:03.374168Z",
+      "updated_at": "2026-09-29T20:32:43.614369Z",
       "extraction_confidence": "moderate",
       "revision_history": [
         {
           "at": "2026-09-29T20:32:43.614369Z",
           "type": "event_created",
           "source": "RFI Afrique"
-        },
-        {
-          "at": "2026-09-30T00:38:03.374168Z",
-          "type": "corroboration_or_geography_update",
-          "source": "Asharq Al-Awsat"
         }
       ],
-      "corroboration": "limited corroboration",
+      "corroboration": "single-source",
       "confidence": "moderate",
       "independent_source_domains": [
-        "rfi.fr",
-        "aawsat.com"
+        "rfi.fr"
       ],
-      "independent_source_count": 2,
+      "independent_source_count": 1,
       "significance": "SIGNIFICANT",
       "significance_reasons": [
         "operational security event"
@@ -2273,105 +2327,12 @@
       "significance_reasons": [
         "strategic/severe event pattern"
       ]
-    },
-    {
-      "id": "39b2ccbd079c7b2e312b3576f28563c799161548",
-      "event_date": "2026-09-10",
-      "event_date_confidence": "explicit-text",
-      "event_date_source": "explicit-date-no-year",
-      "published_at": "2026-09-26T12:24:54Z",
-      "collected_at": "2026-09-26T12:30:22.028729Z",
-      "actor": "JNIM",
-      "perpetrator": null,
-      "target": "Africa Corps/Wagner",
-      "claimant": null,
-      "supporting_force": null,
-      "mentioned_actors": [
-        "Africa Corps/Wagner",
-        "JNIM"
-      ],
-      "parent_report_id": null,
-      "event_type": "ambush",
-      "country": "Mali",
-      "city": "Dioura",
-      "lat": 14.82528,
-      "lng": -5.25139,
-      "locations": [
-        {
-          "name": "Dioura",
-          "country": "Mali",
-          "lat": 14.82528,
-          "lng": -5.25139,
-          "confidence": "explicit-place"
-        },
-        {
-          "name": "Sévaré",
-          "country": "Mali",
-          "lat": 14.5272,
-          "lng": -4.0934,
-          "confidence": "explicit-place"
-        },
-        {
-          "name": "Kidal",
-          "country": "Mali",
-          "lat": 18.4411,
-          "lng": 1.4078,
-          "confidence": "explicit-place"
-        },
-        {
-          "name": "Bamako",
-          "country": "Mali",
-          "lat": 12.6392,
-          "lng": -8.0029,
-          "confidence": "explicit-place"
-        },
-        {
-          "name": "Mopti",
-          "country": "Mali",
-          "lat": 14.4843,
-          "lng": -4.1829,
-          "confidence": "explicit-place"
-        }
-      ],
-      "title": "Mali: Dioura, Sévaré, Kidal... Russian weapons are no longer enough to hold the ground",
-      "summary": "More than 100 Malian soldiers killed in Dioura, the military airport of Sévaré targeted a few days later, Russian fighters ambushed in Kaka: September 2026 severely tested the security system of Bamako Five years after the rapprochement with Moscow and more than a year after the replacement of Wagner by the Africa Corps, JNIM remains capable of hitting major positions of the army, which today has more equipment and a",
-      "sources": [
-        "Afrik.com"
-      ],
-      "languages": [
-        "fr"
-      ],
-      "source_count": 1,
-      "report_urls": [
-        "https://www.afrik.com/mali-dioura-sevare-kidal-les-armes-russes-ne-suffisent-plus-a-tenir-le-terrain"
-      ],
-      "created_at": "2026-09-26T12:30:22.028729Z",
-      "updated_at": "2026-09-26T12:30:22.028729Z",
-      "extraction_confidence": "low",
-      "revision_history": [
-        {
-          "at": "2026-09-26T12:30:22.028729Z",
-          "type": "event_created",
-          "source": "Afrik.com"
-        }
-      ],
-      "corroboration": "single-source",
-      "confidence": "low",
-      "independent_source_domains": [
-        "afrik.com"
-      ],
-      "independent_source_count": 1,
-      "significance": "MAJOR",
-      "significance_reasons": [
-        "strategic/severe event pattern",
-        "multi-location activity"
-      ]
     }
   ],
   "latest_reports": [
     {
       "published_at": null,
-      "discovered_at": "2026-09-30T00:38:03.538753Z",
+      "discovered_at": "2026-09-30T01:29:41.092270Z",
       "source": "aNiamey.com",
       "language": "fr",
       "actor": null,
@@ -2379,7 +2340,7 @@
       "city": "Niamey",
       "event_type": "political/security policy",
       "candidate_event": false,
-      "title": "Dfense: the Gnral Tiani reshuffles the military command after the Niamey mutiny",
+      "title": "D�fense : le G�n�ral Tiani remanie le commandement militaire apr�s la mutinerie de Niamey",
       "url": "http://news.aniamey.com/h/123258.html"
     },
     {
@@ -2423,7 +2384,7 @@
     },
     {
       "published_at": "2026-09-29T20:01:30Z",
-      "discovered_at": "2026-09-30T00:38:03.374168Z",
+      "discovered_at": "2026-09-30T01:29:41.217435Z",
       "source": "Asharq Al-Awsat",
       "language": "ar",
       "actor": "JNIM",
@@ -2431,21 +2392,21 @@
       "city": "Ségou",
       "event_type": "ambush",
       "candidate_event": true,
-      "title": "Malian soldiers and Russian elements killed in ambush of extremists in central Mali",
+      "title": "مقتل جنود ماليين وعناصر روسية في كمين لمتطرفين وسط مالي",
       "url": "https://aawsat.com/%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%A3%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7/5324072-%D9%85%D9%82%D8%AA%D9%84-%D8%AC%D9%86%D9%88%D8%AF-%D9%85%D8%A7%D9%84%D9%8A%D9%8A%D9%86-%D9%88%D8%B9%D9%86%D8%A7%D8%B5%D8%B1-%D8%B1%D9%88%D8%B3%D9%8A%D8%A9-%D9%81%D9%8A-%D9%83%D9%85%D9%8A%D9%86-%D9%84%D9%85%D8%AA%D8%B7%D8%B1%D9%81%D9%8A%D9%86-%D9%88%D8%B3%D8%B7-%D9%85%D8%A7%D9%84%D9%8A"
     },
     {
       "published_at": "2026-09-29T18:02:24Z",
-      "discovered_at": "2026-09-30T00:38:03.165776Z",
+      "discovered_at": "2026-09-30T01:29:40.724212Z",
       "source": "Africa Defense Forum (ADF Magazine)",
       "language": "en",
-      "actor": "Africa Corps/Wagner",
+      "actor": null,
       "country": "Niger",
       "city": null,
       "event_type": "political/security policy",
       "candidate_event": false,
-      "title": "Mutiny in Niger Reveals Flawed Security Strategy",
-      "url": "https://adf-magazine.com/2026/09/mutiny-in-niger-reveals-flawed-security-strategy/"
+      "title": "Mutiny in Niger Reveals Flawed Security Strategy - Africa Defense Forum",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQlBKa3ZZX19RYXlxTWs5Qy03TFJfS201bVRzRmRoWGpvSmVRbXhkOTFaMUFJU3J0d0pTODg5S1VsMFBpYXdTSUJ6OHBncEM0R1dzZC1uWF9zSnUwZXhZRTE5cXZhQ0ZLUFZ3M2ZGR2RRbUFEc0l6c2NTNWlsWjg1T3VsblNhMTJMamc?oc=5"
     },
     {
       "published_at": "2026-09-29T17:22:59Z",
@@ -2696,16 +2657,16 @@
     },
     {
       "published_at": "2026-09-28T16:42:47Z",
-      "discovered_at": "2026-09-30T00:38:03.622799Z",
+      "discovered_at": "2026-09-30T01:29:54.472860Z",
       "source": "Malijet",
       "language": "fr",
       "actor": "JNIM",
       "country": "Mali",
       "city": "Ségou",
-      "event_type": "clash",
+      "event_type": null,
       "candidate_event": false,
-      "title": "Segou: About thirty JNIM and Fla terrorists neutralized by the FAMa and the Africa Corps",
-      "url": "https://malijet.com/flash-info/312069-segou-une-trentaine-de-terroristes-du-jnim-et-du-fla-neutr.html"
+      "title": "Ségou : Une trentaine de terroristes du JNIM et du FLA neutralisés par les FAMa et l'Africa Corps - malijet.com",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOMUhpYktIZDlDYnNVRGluenlEUk5sNGpHdlVRcGwzdEJkUnA3aFhKVjNGQ21qeDBFOHd5X1lRTWpLdFVyQ2NmV0xlWk1ZR2NJWUU5ZFNBcVBOa3NSMVQ1Slg3MDRXM2RrS09qdERKY0d3ZmRNSjgtZEhsYzFOM1Z6MU1JNmZITzExWGY1WVJzbk0yNFJjQlNLak9BOUlNcEZxYzhF?oc=5"
     },
     {
       "published_at": "2026-09-28T11:50:24Z",
