@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-30T15:34:13.724483Z",
+  "generated_at": "2026-09-30T16:34:06.664919Z",
   "window_days": 30,
   "cutoff": "2026-08-31",
-  "reports": 153,
+  "reports": 154,
   "incident_reports": 37,
   "candidate_events": 34,
   "corroborated_events": 3,
@@ -31,7 +31,7 @@
     "civilian targeting": 1
   },
   "by_language": {
-    "fr": 111,
+    "fr": 112,
     "en": 35,
     "ar": 7
   },
@@ -62,7 +62,7 @@
     },
     {
       "source": "Jeune Afrique",
-      "count": 6
+      "count": 7
     },
     {
       "source": "Agence Nigérienne de Presse",
@@ -287,7 +287,7 @@
     },
     {
       "date": "2026-09-30",
-      "reports": 4,
+      "reports": 5,
       "events": 0
     }
   ],
@@ -2329,8 +2329,21 @@
   ],
   "latest_reports": [
     {
+      "published_at": "2026-09-30T18:00:49Z",
+      "discovered_at": "2026-09-30T16:33:34.185613Z",
+      "source": "Jeune Afrique",
+      "language": "fr",
+      "actor": null,
+      "country": "Mali",
+      "city": "Bamako",
+      "event_type": "offensive/campaign",
+      "candidate_event": false,
+      "title": "Mali's gold and lithium in the sights of the Trump administration",
+      "url": "https://www.jeuneafrique.com/1847863/economie-entreprises/lor-et-le-lithium-du-mali-dans-le-viseur-de-ladministration-trump/"
+    },
+    {
       "published_at": null,
-      "discovered_at": "2026-09-30T15:33:53.132946Z",
+      "discovered_at": "2026-09-30T16:33:34.088126Z",
       "source": "aNiamey.com",
       "language": "fr",
       "actor": null,
@@ -2834,19 +2847,6 @@
       "candidate_event": false,
       "title": "Security: New targeted FAMa strikes in Kidal and Léré as part of Operation Dougoukoloko - malijet.com",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVHZKNDl1VmxBcV9ieFRFQUZHaU9oZlFmY3pVUVdseExadDc2bzdqSTN4VTFROUlsUElxOW9NWUVUcmhFbl85djlKM2hJd29TZl9qVXdxdnpXRFlNUWQxUk5xWk1RY2xNOWR5Y1VNcFJRbnhYZThCc0Itd2dIckg0bld3OThZNUdTOXdLNnAwVkNCbXlZMTJHTXE2ZmhWYU9OeG5hc1VtRl92cmhkZkpyQ2ZEX0VsUHZ0bmFlUkd0UXQtZjA?oc=5"
-    },
-    {
-      "published_at": "2026-09-26T12:24:54Z",
-      "discovered_at": "2026-09-26T12:30:22.028729Z",
-      "source": "Afrik.com",
-      "language": "fr",
-      "actor": "JNIM",
-      "country": "Mali",
-      "city": "Dioura",
-      "event_type": "ambush",
-      "candidate_event": true,
-      "title": "Mali: Dioura, Sévaré, Kidal... Russian weapons are no longer enough to hold the ground",
-      "url": "https://www.afrik.com/mali-dioura-sevare-kidal-les-armes-russes-ne-suffisent-plus-a-tenir-le-terrain"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
