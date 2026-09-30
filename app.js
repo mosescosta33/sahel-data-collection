@@ -1,4 +1,4 @@
-const SITE_UI_VERSION='3.0.1';
+const SITE_UI_VERSION='3.0.2';
 const state={overview:null,reports:[],events:[],metrics:null,thirty:null,sources:[],runs:[],briefing:null,actorFilter:'all',mapDays:1,langFilter:'all',range:30,voices:[],speaking:false,readerRunning:false,readerPaused:false,readerIndex:0,readerCycle:0,readerRange:30,readerQueue:[],readerSession:0,timelineDate:null};
 const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
 const esc=s=>String(s??'').replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
@@ -113,7 +113,7 @@ function eventInWindow(e,days){
   return !isNaN(d) && (Date.now()-d.getTime()) <= Number(days)*86400000;
 }
 function renderMap(){
-  if(window.SAHEL_MAP_UI&&window.maplibregl){window.SAHEL_MAP_UI.render(state,{eventInWindow,actorColor,showEventDetail,showEventCluster,esc});return}
+  if(window.SAHEL_MAP_UI){window.SAHEL_MAP_UI.render(state,{eventInWindow,actorColor,showEventDetail,showEventCluster,esc});return}
   renderLegacyMap();
 }
 function renderLegacyMap(){
@@ -318,3 +318,4 @@ const savedReaderRange=localStorage.getItem('sicReaderRange');if(savedReaderRang
 setInterval(()=>{if(state.readerRunning&&!state.readerPaused&&'speechSynthesis'in window&&speechSynthesis.paused)speechSynthesis.resume()},10000);
 
 refresh();setInterval(refresh,30000);
+

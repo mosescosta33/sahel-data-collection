@@ -67,3 +67,9 @@ html[data-theme="light"] .map-source-links a{color:#1c6d84}
 .map-layer-switches label{display:flex;gap:8px;align-items:center;font-size:12px;color:var(--text);cursor:pointer}
 .map-layer-switches input{accent-color:#339171}
 html[data-theme="light"] .map-layer-switches label{color:#29414e}
+
+
+.map .compatibility-map{display:block;width:100%;height:100%;background:#e8f0e9;touch-action:none;cursor:grab}
+.map .compatibility-marker{cursor:pointer}.map .compatibility-marker:focus{stroke:#162f4a;stroke-width:4}
+.compatibility-controls{position:absolute;right:12px;bottom:12px;display:flex;gap:4px;z-index:9}
+.compatibility-controls button{background:#fff;color:#203846;border:1px solid #8fa9ad;border-radius:5px;min-width:38px;min-height:38px;font-size:18px}

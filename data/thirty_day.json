@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-30T22:30:09.864927Z",
+  "generated_at": "2026-09-30T23:11:37.413469Z",
   "window_days": 30,
   "cutoff": "2026-08-31",
-  "reports": 156,
-  "incident_reports": 37,
+  "reports": 174,
+  "incident_reports": 39,
   "candidate_events": 34,
-  "corroborated_events": 3,
+  "corroborated_events": 2,
   "mapped_events": 26,
   "mapped_locations": 55,
-  "distinct_sources": 50,
+  "distinct_sources": 52,
   "by_actor": {
     "State": 15,
     "JNIM": 7,
@@ -31,13 +31,13 @@
     "civilian targeting": 1
   },
   "by_language": {
-    "fr": 112,
-    "en": 37,
+    "fr": 124,
+    "en": 43,
     "ar": 7
   },
   "by_confidence": {
-    "low": 18,
-    "moderate": 16
+    "low": 19,
+    "moderate": 15
   },
   "top_sources": [
     {
@@ -46,7 +46,7 @@
     },
     {
       "source": "Malijet",
-      "count": 14
+      "count": 15
     },
     {
       "source": "AMAP (Agence Malienne de Presse et de Publicité)",
@@ -65,6 +65,14 @@
       "count": 7
     },
     {
+      "source": "Critical Threats Project - Africa File",
+      "count": 6
+    },
+    {
+      "source": "RFI Afrique",
+      "count": 6
+    },
+    {
       "source": "Agence Nigérienne de Presse",
       "count": 5
     },
@@ -73,20 +81,12 @@
       "count": 5
     },
     {
-      "source": "Punch Newspapers (Nigeria)",
+      "source": "Niger Inter",
       "count": 5
     },
     {
-      "source": "RFI Afrique",
-      "count": 4
-    },
-    {
-      "source": "Sahara Medias (صحراء ميديا)",
-      "count": 4
-    },
-    {
-      "source": "Sidwaya",
-      "count": 4
+      "source": "Punch Newspapers (Nigeria)",
+      "count": 5
     }
   ],
   "top_locations": [
@@ -147,7 +147,7 @@
     },
     {
       "date": "2026-09-02",
-      "reports": 2,
+      "reports": 3,
       "events": 0
     },
     {
@@ -157,7 +157,7 @@
     },
     {
       "date": "2026-09-04",
-      "reports": 1,
+      "reports": 2,
       "events": 0
     },
     {
@@ -187,7 +187,7 @@
     },
     {
       "date": "2026-09-10",
-      "reports": 0,
+      "reports": 1,
       "events": 3
     },
     {
@@ -277,17 +277,17 @@
     },
     {
       "date": "2026-09-28",
-      "reports": 7,
-      "events": 4
+      "reports": 10,
+      "events": 3
     },
     {
       "date": "2026-09-29",
       "reports": 21,
-      "events": 4
+      "events": 5
     },
     {
       "date": "2026-09-30",
-      "reports": 6,
+      "reports": 18,
       "events": 0
     }
   ],
@@ -338,6 +338,69 @@
       "confidence": "low",
       "independent_source_domains": [
         "punchng.com"
+      ],
+      "independent_source_count": 1,
+      "significance": "SIGNIFICANT",
+      "significance_reasons": [
+        "operational security event"
+      ]
+    },
+    {
+      "id": "7633fd051ef077f862a26eb746614ce56fc1b33a",
+      "event_date": "2026-09-29",
+      "event_date_confidence": "explicit-text",
+      "event_date_source": "relative-weekday",
+      "published_at": "2026-09-29T20:01:30Z",
+      "collected_at": "2026-09-30T04:30:44.633388Z",
+      "actor": "JNIM",
+      "perpetrator": null,
+      "target": "JNIM",
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [
+        "JNIM"
+      ],
+      "parent_report_id": null,
+      "event_type": "ambush",
+      "country": "Mali",
+      "city": "Ségou",
+      "lat": 13.4317,
+      "lng": -6.2157,
+      "locations": [
+        {
+          "name": "Ségou",
+          "country": "Mali",
+          "lat": 13.4317,
+          "lng": -6.2157,
+          "confidence": "explicit-place"
+        }
+      ],
+      "title": "Malian soldiers and Russian elements killed in ambush of extremists in central Mali",
+      "summary": "At least three Malian soldiers and four Russian paramilitaries were killed in an ambush by extremists on their convoy in central Mali, security and local sources told Agence France-Presse on Tuesday. Sunday's attack comes amid an upsurge in attacks by extremists from al-Qaeda-linked JNIM. A security source, speaking on condition of anonymity, told AFP: \"A convoy consisting mainly of members of the Africa Corps group ",
+      "sources": [
+        "Asharq Al-Awsat"
+      ],
+      "languages": [
+        "ar"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://aawsat.com/%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%A3%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7/5324072-%D9%85%D9%82%D8%AA%D9%84-%D8%AC%D9%86%D9%88%D8%AF-%D9%85%D8%A7%D9%84%D9%8A%D9%8A%D9%86-%D9%88%D8%B9%D9%86%D8%A7%D8%B5%D8%B1-%D8%B1%D9%88%D8%B3%D9%8A%D8%A9-%D9%81%D9%8A-%D9%83%D9%85%D9%8A%D9%86-%D9%84%D9%85%D8%AA%D8%B7%D8%B1%D9%81%D9%8A%D9%86-%D9%88%D8%B3%D8%B7-%D9%85%D8%A7%D9%84%D9%8A"
+      ],
+      "created_at": "2026-09-30T04:30:44.633388Z",
+      "updated_at": "2026-09-30T04:30:44.633388Z",
+      "extraction_confidence": "low",
+      "revision_history": [
+        {
+          "at": "2026-09-30T04:30:44.633388Z",
+          "type": "event_created",
+          "source": "Asharq Al-Awsat"
+        }
+      ],
+      "corroboration": "single-source",
+      "confidence": "low",
+      "independent_source_domains": [
+        "aawsat.com"
       ],
       "independent_source_count": 1,
       "significance": "SIGNIFICANT",
@@ -569,79 +632,6 @@
       "significance_reasons": [
         "strategic/severe event pattern",
         "multi-location activity"
-      ]
-    },
-    {
-      "id": "4a52bf1865035b7ae6209ec54e7e341474692af2",
-      "event_date": "2026-09-28",
-      "event_date_confidence": "explicit-text",
-      "event_date_source": "explicit-date-no-year",
-      "published_at": "2026-09-29T20:18:44Z",
-      "collected_at": "2026-09-29T20:32:43.614369Z",
-      "actor": "JNIM",
-      "perpetrator": null,
-      "target": "JNIM",
-      "claimant": "JNIM",
-      "supporting_force": null,
-      "mentioned_actors": [
-        "JNIM",
-        "Africa Corps/Wagner"
-      ],
-      "parent_report_id": null,
-      "event_type": "ambush",
-      "country": "Mali",
-      "city": "Ségou",
-      "lat": 13.4317,
-      "lng": -6.2157,
-      "locations": [
-        {
-          "name": "Ségou",
-          "country": "Mali",
-          "lat": 13.4317,
-          "lng": -6.2157,
-          "confidence": "explicit-place"
-        }
-      ],
-      "title": "Mali: deadly ambush of Jnim jihadists in Niono against the Russian Africa Corps",
-      "summary": "At least three Malian soldiers and four Russian paramilitaries were killed in an ambush by extremists on their convoy in central Mali, security and local sources told Agence France-Presse on Tuesday. Sunday's attack comes amid an upsurge in attacks by extremists from al-Qaeda-linked JNIM. A security source, speaking on condition of anonymity, told AFP: \"A convoy consisting mainly of members of the Africa Corps group ",
-      "sources": [
-        "RFI Afrique",
-        "Asharq Al-Awsat"
-      ],
-      "languages": [
-        "fr",
-        "ar"
-      ],
-      "source_count": 2,
-      "report_urls": [
-        "https://www.rfi.fr/fr/afrique/20260929-mali-embuscade-meurtri%C3%A8re-des-jihadistes-du-jnim-%C3%A0-niono-contre-l-africa-corps-russe",
-        "https://aawsat.com/%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%A3%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7/5324072-%D9%85%D9%82%D8%AA%D9%84-%D8%AC%D9%86%D9%88%D8%AF-%D9%85%D8%A7%D9%84%D9%8A%D9%8A%D9%86-%D9%88%D8%B9%D9%86%D8%A7%D8%B5%D8%B1-%D8%B1%D9%88%D8%B3%D9%8A%D8%A9-%D9%81%D9%8A-%D9%83%D9%85%D9%8A%D9%86-%D9%84%D9%85%D8%AA%D8%B7%D8%B1%D9%81%D9%8A%D9%86-%D9%88%D8%B3%D8%B7-%D9%85%D8%A7%D9%84%D9%8A"
-      ],
-      "created_at": "2026-09-29T20:32:43.614369Z",
-      "updated_at": "2026-09-30T04:30:44.633388Z",
-      "extraction_confidence": "moderate",
-      "revision_history": [
-        {
-          "at": "2026-09-29T20:32:43.614369Z",
-          "type": "event_created",
-          "source": "RFI Afrique"
-        },
-        {
-          "at": "2026-09-30T04:30:44.633388Z",
-          "type": "corroboration_or_geography_update",
-          "source": "Asharq Al-Awsat"
-        }
-      ],
-      "corroboration": "limited corroboration",
-      "confidence": "moderate",
-      "independent_source_domains": [
-        "rfi.fr",
-        "aawsat.com"
-      ],
-      "independent_source_count": 2,
-      "significance": "SIGNIFICANT",
-      "significance_reasons": [
-        "operational security event"
       ]
     },
     {
@@ -2330,7 +2320,46 @@
   "latest_reports": [
     {
       "published_at": null,
-      "discovered_at": "2026-09-30T22:29:47.681476Z",
+      "discovered_at": "2026-09-30T23:09:39.012500Z",
+      "source": "Critical Threats Project - Africa File",
+      "language": "en",
+      "actor": null,
+      "country": "Niger",
+      "city": "Niamey",
+      "event_type": "territorial seizure/blockade",
+      "candidate_event": false,
+      "title": "Salafi-Jihadi Movement Update Special Edition: Niger Coup Threatens Western Counterterrorism Efforts and Could Offer Opportunities to Russia",
+      "url": "https://www.criticalthreats.org/analysis/salafi-jihadi-movement-update-special-edition-niger-coup-threatens-western-counterterrorism-efforts-and-could-offer-opportunities-to-russia"
+    },
+    {
+      "published_at": null,
+      "discovered_at": "2026-09-30T23:09:38.586345Z",
+      "source": "Critical Threats Project - Africa File",
+      "language": "en",
+      "actor": "Africa Corps/Wagner",
+      "country": "Niger",
+      "city": null,
+      "event_type": "law enforcement",
+      "candidate_event": false,
+      "title": "Salafi-Jihadi Movement Update Special Edition: Niger Coup—Wagner Group and an ECOWAS Intervention Threaten to Further Destabilize the Sahel",
+      "url": "https://www.criticalthreats.org/analysis/salafi-jihadi-movement-update-special-edition-niger-coup-wagner-group-and-an-ecowas-intervention-threaten-to-further-destabilize-the-sahel"
+    },
+    {
+      "published_at": null,
+      "discovered_at": "2026-09-30T23:09:37.077566Z",
+      "source": "Critical Threats Project - Africa File",
+      "language": "en",
+      "actor": "Africa Corps/Wagner",
+      "country": "Niger",
+      "city": null,
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Africa File Special Edition: Russia’s Africa Corps Arrives in Niger. What’s Next?",
+      "url": "https://www.criticalthreats.org/analysis/africa-file-special-edition-russias-africa-corps-arrives-in-niger-whats-next"
+    },
+    {
+      "published_at": null,
+      "discovered_at": "2026-09-30T23:09:14.145208Z",
       "source": "aNiamey.com",
       "language": "fr",
       "actor": null,
@@ -2340,6 +2369,58 @@
       "candidate_event": false,
       "title": "Dfense: the Gnral Tiani reshuffles the military command after the Niamey mutiny",
       "url": "http://news.aniamey.com/h/123258.html"
+    },
+    {
+      "published_at": null,
+      "discovered_at": "2026-09-30T23:09:12.652289Z",
+      "source": "aNiamey.com",
+      "language": "fr",
+      "actor": "Other",
+      "country": "Niger",
+      "city": "Niamey",
+      "event_type": "attack",
+      "candidate_event": true,
+      "title": "Niger: whatwe know about the jihadist attack on theport of Niamey",
+      "url": "http://news.aniamey.com/h/123071.html"
+    },
+    {
+      "published_at": null,
+      "discovered_at": "2026-09-30T23:09:12.405197Z",
+      "source": "aNiamey.com",
+      "language": "fr",
+      "actor": "JNIM",
+      "country": "Niger",
+      "city": "Niamey",
+      "event_type": "attack",
+      "candidate_event": true,
+      "title": "Niger: Islamic State claims responsibility for attackon Niamey airport",
+      "url": "http://news.aniamey.com/h/123067.html"
+    },
+    {
+      "published_at": null,
+      "discovered_at": "2026-09-30T23:09:11.347321Z",
+      "source": "aNiamey.com",
+      "language": "fr",
+      "actor": "Other",
+      "country": "Niger",
+      "city": null,
+      "event_type": "ambush",
+      "candidate_event": true,
+      "title": "Niger: 16 soldiers fellat the front and 15 terrorists neutralized in a terrorist ambushbetween Bankilar and Tira (TillabRi)",
+      "url": "http://news.aniamey.com/h/123221.html"
+    },
+    {
+      "published_at": "2026-09-30T19:55:11Z",
+      "discovered_at": "2026-09-30T23:09:14.351404Z",
+      "source": "Burkina24",
+      "language": "fr",
+      "actor": "State",
+      "country": "Burkina Faso",
+      "city": "Ouagadougou",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "RPP Night: Strong mobilization at the Place de la Révolution in Ouagadougou",
+      "url": "https://burkina24.com/2026/09/30/nuit-de-la-rpp-forte-mobilisation-a-la-place-de-la-revolution-de-ouagadougou/"
     },
     {
       "published_at": "2026-09-30T18:00:49Z",
@@ -2356,7 +2437,7 @@
     },
     {
       "published_at": "2026-09-30T16:45:03Z",
-      "discovered_at": "2026-09-30T21:29:42.635199Z",
+      "discovered_at": "2026-09-30T23:09:14.073391Z",
       "source": "Africanews",
       "language": "en",
       "actor": "State",
@@ -2394,6 +2475,32 @@
       "url": "https://punchng.com/security-operatives-move-to-rescue-47-abducted-farmers-in-niger/"
     },
     {
+      "published_at": "2026-09-30T10:01:55Z",
+      "discovered_at": "2026-09-30T23:09:13.712678Z",
+      "source": "RFI Afrique",
+      "language": "fr",
+      "actor": "JNIM",
+      "country": "Mali",
+      "city": null,
+      "event_type": null,
+      "candidate_event": false,
+      "title": "JNIM wa? ii hippannde faade e konu Mali e wallidii? e mum Africa Coprs haa wa? i maay? e - RFI",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOV2FHUV95V2daTUVJcEtKYjlRREJ1MzJRN3ZLUlR5eFdjd0ItQjdvMEgwWW1rQ0lDMjBUZTMtX1dlTjBFVWRCRjZ2WjNLRXgtU2ZhaVdBdEVab1pqTWZUdU1OWWNocVN6T3NOZ0JEdWpBc3RqOXRPSFNHbGtzNlNpU2tlUVhkWFcxcEI4OFBDVlRTMXlqWVJLSVdGc3g5WnFDdlE2MXJ1U0pET0RrT2x1dmVSSkJ5MWZ1WmtwTXdaVEgzcVZJZUphY0JCbFYxbkJNNnFnYmlaV3k?oc=5"
+    },
+    {
+      "published_at": "2026-09-30T09:48:16Z",
+      "discovered_at": "2026-09-30T23:09:13.717393Z",
+      "source": "RFI Afrique",
+      "language": "fr",
+      "actor": "JNIM",
+      "country": "Mali",
+      "city": null,
+      "event_type": null,
+      "candidate_event": false,
+      "title": "MALI: Sěrasi 3 ani Russie køløcø 4, o de fagara JNIM jatigøwale-kulu ka binkanni dø senfø Niono - RFI",
+      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNN1BCTjJaUFZwanUyWmc2V3J2aFFlVmxmTTFRdVZjU0l0RDRkZEFFaWZKUzZudmk3U0NfeXZCLUFaSElZbG1Ya01OZ2twck5uUERrUDNsSTZUTldTZldEenNPN1prekNUVzJUOTBuVm5VOXUyWnBlS0IyN1FrRUdoWTlzazZKcXJpdDhJOHdGQ2ZkZFFVWl9KVW9JVEg4YXR4MXNVYTJ3R00tRElvWlBiVDNzRXlVYVN1T2wtZ3g2RGx0N1J4NGszMHlCXzU5UjlnakRXcllidVdrcjI5dC1vSHc4eUtvUDY1VGI1U0R2cjZIYzFEME5MWkRLRFlOdw?oc=5"
+    },
+    {
       "published_at": null,
       "discovered_at": "2026-09-30T09:31:45.810359Z",
       "source": "Le Sahel",
@@ -2405,6 +2512,45 @@
       "candidate_event": false,
       "title": "Food handover: The FSSP offers 636 25 kg bags of rice to insecure IDPs living in the Niamey region",
       "url": "https://www.lesahel.org/remise-de-vivres-le-fssp-offre-636-sacs-de-25-kg-de-riz-aux-deplaces-internes-victimes-de-linsecurite-vivant-dans-la-region-de-niamey/"
+    },
+    {
+      "published_at": "2026-09-30T09:02:01Z",
+      "discovered_at": "2026-09-30T23:09:11.059942Z",
+      "source": "AllAfrica (Édition Française)",
+      "language": "fr",
+      "actor": "JNIM",
+      "country": "Mali",
+      "city": null,
+      "event_type": "ambush",
+      "candidate_event": false,
+      "title": "Mali: deadly ambush of Jnim jihadists in Niono against the Russian Africa Corps - allAfrica.fr",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5Hel9RZTh3VGZ3M25RVXBZWWlTenE0NjZQb3lLb3ZnOXVVd3ZOUzJBTDhudEU3ejNaamVtZ2FDMjNaMW84M3lyNkppd2U1bl85dkZmUUdFX3NEQ3lkNTZB?oc=5"
+    },
+    {
+      "published_at": "2026-09-30T05:20:33Z",
+      "discovered_at": "2026-09-30T23:09:46.144932Z",
+      "source": "Africanews",
+      "language": "en",
+      "actor": null,
+      "country": "Burkina Faso",
+      "city": null,
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Burkina Faso opens first gold refinery in push for economic independence",
+      "url": "https://www.africanews.com/2026/09/30/burkina-faso-opens-first-gold-refinery-in-push-for-economic-independence/"
+    },
+    {
+      "published_at": "2026-09-30T00:44:58Z",
+      "discovered_at": "2026-09-30T23:09:13.892205Z",
+      "source": "Sidwaya",
+      "language": "fr",
+      "actor": "State",
+      "country": "Burkina Faso",
+      "city": "Ouagadougou",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "A historic night",
+      "url": "https://www.sidwaya.info/une-nuit-historique/"
     },
     {
       "published_at": "2026-09-29T21:11:18Z",
@@ -2434,16 +2580,16 @@
     },
     {
       "published_at": "2026-09-29T20:18:44Z",
-      "discovered_at": "2026-09-29T20:32:43.614369Z",
+      "discovered_at": "2026-09-30T23:09:11.063077Z",
       "source": "RFI Afrique",
       "language": "fr",
       "actor": "JNIM",
       "country": "Mali",
-      "city": "Ségou",
+      "city": null,
       "event_type": "ambush",
-      "candidate_event": true,
-      "title": "Mali: deadly ambush of Jnim jihadists in Niono against the Russian Africa Corps",
-      "url": "https://www.rfi.fr/fr/afrique/20260929-mali-embuscade-meurtri%C3%A8re-des-jihadistes-du-jnim-%C3%A0-niono-contre-l-africa-corps-russe"
+      "candidate_event": false,
+      "title": "Mali: deadly ambush of Jnim jihadists in Niono against the Russian Africa Corps - RFI",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNQklpbTNwVlQ3TkdlaENzbEpINHdDZkFzV3lYamJCWk12NUZ3M0tPeW1zZFNobGFxR2Vabjd5a25qc1d3OGc3ZmtlM3ZvUG92anc3V2Z6MlRWOGREN0F6MFVxUjBoMXZNM2s3T1RIZ1VYQWRzMEM0c2RQVDNlbnB2U2hPRlZ0bVRLemV6cmkyUDgtVUxLQ0VOS1BmeWJoYm00ZXJ2ZjRkaWRlQWE5ZmVsM2pURExrYU5YVzc4YnhsWWllMmkwYm5NbEV3bFBzdw?oc=5"
     },
     {
       "published_at": "2026-09-29T20:01:30Z",
@@ -2680,173 +2826,17 @@
       "url": "https://www.rfi.fr/fr/afrique/20260929-mali-l-ong-amnesty-documente-des-cas-d-assassinats-et-de-tortures-commis-par-l-arm%C3%A9e-et-le-groupe-wagner"
     },
     {
-      "published_at": "2026-09-28T21:02:25Z",
-      "discovered_at": "2026-09-28T21:28:48.646101Z",
+      "published_at": "2026-09-28T21:05:04Z",
+      "discovered_at": "2026-09-30T23:09:12.533147Z",
       "source": "Niger Inter",
       "language": "fr",
-      "actor": null,
-      "country": "Niger",
-      "city": "Dosso",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Fight against insecurity: One mercenary killed, several others apprehended and 112 people rescued by the Army",
-      "url": "https://nigerinter.com/2026/09/28/lutte-contre-linsecurite-un-mercenaire-tue-plusieurs-autres-apprehendes-et-112-personnes-secourues-par-larmee/"
-    },
-    {
-      "published_at": "2026-09-28T18:31:11Z",
-      "discovered_at": "2026-09-28T19:29:54.968102Z",
-      "source": "Bamada",
-      "language": "fr",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Timbuktu",
-      "event_type": "security operation",
-      "candidate_event": true,
-      "title": "COUNTER-TERRORISM OPERATION IN THE TIMBUKTU AND KIDAL REGIONS: A SENIOR JNIM ABDOULLAHI AG FALY OFFICER REPORTEDLY PERISHED FOLLOWING FAMA STRIKES",
-      "url": "https://bamada.net/operation-antiterroriste-denvergure-dans-les-regions-de-tombouctou-et-kidal-un-haut-cadre-du-jnim-abdoullahi-ag-faly-aurait-peri-suite-aux-frappes-des-fama"
-    },
-    {
-      "published_at": "2026-09-28T18:20:35Z",
-      "discovered_at": "2026-09-28T20:28:33.256871Z",
-      "source": "Reuters Africa",
-      "language": "en",
       "actor": "State",
       "country": "Niger",
-      "city": null,
-      "event_type": null,
+      "city": "Agadez",
+      "event_type": "law enforcement",
       "candidate_event": false,
-      "title": "More than 50 members of Niger's security forces killed in attacks, sources say - Reuters",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNaXRHM0dmSmRMLXFFamRBNnQ0Y2RvZmhqWEFtVEdwUGt2Zm5rWXprOW1DVk50TTNpaVFVSEdYd0hlTURoRkVaMDZidzhicHBhRERNQng1S05JVHNoUVJiS2hJOGhqNE9sdXo3NWlZdko0MTNEekF6OS0yWDJoZTRlNGJXZUtEQzhVTTVlNlY2X3FUSWRTamxtLTJEb3B1SkViTGlzWVFiMC05SnEyS0ltXzg1am5oN3Jfc2Zn?oc=5"
-    },
-    {
-      "published_at": "2026-09-28T17:18:45Z",
-      "discovered_at": "2026-09-28T18:34:32.985737Z",
-      "source": "Bamada",
-      "language": "fr",
-      "actor": "Other",
-      "country": "Mali",
-      "city": "Djenné",
-      "event_type": "attack",
-      "candidate_event": true,
-      "title": "ATTACK AGAINST THE MALIAN ARMED FORCES AT THE CROSSROADS OF DJENNÉ: SEVERAL DOZEN TERRORISTS KILLED AND EQUIPMENT RECOVERED BY THE FAMA",
-      "url": "https://bamada.net/attaque-contre-les-forces-armees-maliennes-au-carrefour-de-djenne-plusieurs-dizaines-de-terroristes-tues-et-du-materiel-recupere-par-les-fama"
-    },
-    {
-      "published_at": "2026-09-28T16:42:47Z",
-      "discovered_at": "2026-09-30T11:29:59.229976Z",
-      "source": "Malijet",
-      "language": "fr",
-      "actor": "JNIM",
-      "country": "Mali",
-      "city": "Ségou",
-      "event_type": "clash",
-      "candidate_event": false,
-      "title": "Segou: About thirty JNIM and Fla terrorists neutralized by the FAMa and the Africa Corps",
-      "url": "https://malijet.com/flash-info/312069-segou-une-trentaine-de-terroristes-du-jnim-et-du-fla-neutr.html"
-    },
-    {
-      "published_at": "2026-09-28T11:50:24Z",
-      "discovered_at": "2026-09-28T12:36:30.580248Z",
-      "source": "Sahara Medias (صحراء ميديا)",
-      "language": "ar",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Kidal",
-      "event_type": "security operation",
-      "candidate_event": false,
-      "title": "Among them are leaders of the Malian army announcing the neutralization of 50 militants in Kidal.",
-      "url": "https://saharamedias.net/265512/"
-    },
-    {
-      "published_at": "2026-09-28T06:55:42Z",
-      "discovered_at": "2026-09-28T07:32:10.575370Z",
-      "source": "Bamada",
-      "language": "fr",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Bamako",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "493 Tanker Trucks in Bamako: A Major New Breakthrough for Fuel Stocks",
-      "url": "https://bamada.net/493-camions-citernes-a-bamako-une-nouvelle-avancee-majeure-pour-les-stocks-de-carburant"
-    },
-    {
-      "published_at": "2026-09-27T23:49:50Z",
-      "discovered_at": "2026-09-28T00:38:06.799842Z",
-      "source": "La Nouvelle Tribune (Bénin)",
-      "language": "fr",
-      "actor": "State",
-      "country": "Burkina Faso",
-      "city": null,
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Beyond terrorism, Ibrahim Traoré says that the Burkinabe army is preparing for major wars",
-      "url": "https://lanouvelletribune.info/2026/09/au-dela-du-terrorisme-ibrahim-traore-affirme-que-larmee-burkinabe-se-prepare-a-de-grandes-guerres/"
-    },
-    {
-      "published_at": "2026-09-27T21:35:18Z",
-      "discovered_at": "2026-09-27T22:28:09.942661Z",
-      "source": "Malijet",
-      "language": "fr",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Kidal",
-      "event_type": "air/drone strike",
-      "candidate_event": true,
-      "title": "Operation Dougoukoloko: At least 50 terrorists, including executives, neutralized in Abeibara",
-      "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312048-operation-dougoukoloko-au-moins-50-terroristes-dont-des-c.html"
-    },
-    {
-      "published_at": "2026-09-27T21:07:33Z",
-      "discovered_at": "2026-09-27T21:27:30.562792Z",
-      "source": "Malijet",
-      "language": "fr",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Bamako",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Supply: A new convoy of 493 tanker trucks arrives in Bamako under the escort of FAMa",
-      "url": "https://malijet.com/flash-info/312046-approvisionneument-un-nouveau-convoi-de-493-camions-citern.html"
-    },
-    {
-      "published_at": "2026-09-27T16:40:41Z",
-      "discovered_at": "2026-09-27T17:26:26.935417Z",
-      "source": "AllAfrica (Édition Française)",
-      "language": "fr",
-      "actor": "Other",
-      "country": "Niger",
-      "city": "Tillabéri",
-      "event_type": "attack",
-      "candidate_event": true,
-      "title": "Niger: Mutiny and Fartel attack, security system flaws exposed...",
-      "url": "https://fr.allafrica.com/stories/202609270111.html"
-    },
-    {
-      "published_at": "2026-09-27T12:51:29Z",
-      "discovered_at": "2026-09-27T14:25:56.443637Z",
-      "source": "Bamada",
-      "language": "fr",
-      "actor": null,
-      "country": "Niger",
-      "city": null,
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Diplomatic forum in New York: ESA claims sovereignty and denounces Ukraine's support for terrorism",
-      "url": "https://bamada.net/tribune-diplomatique-a-new-york-laes-revendique-sa-souverainete-et-denonce-le-soutien-de-lukraine-au-terrorisme"
-    },
-    {
-      "published_at": "2026-09-27T07:47:10Z",
-      "discovered_at": "2026-09-27T09:27:13.278892Z",
-      "source": "Vanguard News (Nigeria)",
-      "language": "en",
-      "actor": "State",
-      "country": "Niger",
-      "city": null,
-      "event_type": "kidnapping",
-      "candidate_event": false,
-      "title": "Military rescues 125 kidnap victims, arrests over 50",
-      "url": "https://www.vanguardngr.com/2026/09/military-rescues-125-kidnap-victims-arrests-over-50/"
+      "title": "Agadez: two (2) individuals arrested in possession of a large quantity of drugs",
+      "url": "https://nigerinter.com/2026/09/28/agadez-deux-2-individus-interpelles-en-possession-dune-importante-quantite-de-drogue/"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."

@@ -53,6 +53,69 @@
     ]
   },
   {
+    "id": "7633fd051ef077f862a26eb746614ce56fc1b33a",
+    "event_date": "2026-09-29",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "relative-weekday",
+    "published_at": "2026-09-29T20:01:30Z",
+    "collected_at": "2026-09-30T04:30:44.633388Z",
+    "actor": "JNIM",
+    "perpetrator": null,
+    "target": "JNIM",
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [
+      "JNIM"
+    ],
+    "parent_report_id": null,
+    "event_type": "ambush",
+    "country": "Mali",
+    "city": "Ségou",
+    "lat": 13.4317,
+    "lng": -6.2157,
+    "locations": [
+      {
+        "name": "Ségou",
+        "country": "Mali",
+        "lat": 13.4317,
+        "lng": -6.2157,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "Malian soldiers and Russian elements killed in ambush of extremists in central Mali",
+    "summary": "At least three Malian soldiers and four Russian paramilitaries were killed in an ambush by extremists on their convoy in central Mali, security and local sources told Agence France-Presse on Tuesday. Sunday's attack comes amid an upsurge in attacks by extremists from al-Qaeda-linked JNIM. A security source, speaking on condition of anonymity, told AFP: \"A convoy consisting mainly of members of the Africa Corps group ",
+    "sources": [
+      "Asharq Al-Awsat"
+    ],
+    "languages": [
+      "ar"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://aawsat.com/%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%A3%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7/5324072-%D9%85%D9%82%D8%AA%D9%84-%D8%AC%D9%86%D9%88%D8%AF-%D9%85%D8%A7%D9%84%D9%8A%D9%8A%D9%86-%D9%88%D8%B9%D9%86%D8%A7%D8%B5%D8%B1-%D8%B1%D9%88%D8%B3%D9%8A%D8%A9-%D9%81%D9%8A-%D9%83%D9%85%D9%8A%D9%86-%D9%84%D9%85%D8%AA%D8%B7%D8%B1%D9%81%D9%8A%D9%86-%D9%88%D8%B3%D8%B7-%D9%85%D8%A7%D9%84%D9%8A"
+    ],
+    "created_at": "2026-09-30T04:30:44.633388Z",
+    "updated_at": "2026-09-30T04:30:44.633388Z",
+    "extraction_confidence": "low",
+    "revision_history": [
+      {
+        "at": "2026-09-30T04:30:44.633388Z",
+        "type": "event_created",
+        "source": "Asharq Al-Awsat"
+      }
+    ],
+    "corroboration": "single-source",
+    "confidence": "low",
+    "independent_source_domains": [
+      "aawsat.com"
+    ],
+    "independent_source_count": 1,
+    "significance": "SIGNIFICANT",
+    "significance_reasons": [
+      "operational security event"
+    ]
+  },
+  {
     "id": "2c2e044bc7ede838d4f82c6aeaa6e9bf7177a38b",
     "event_date": "2026-09-29",
     "event_date_confidence": "explicit-text",
@@ -276,79 +339,6 @@
     "significance_reasons": [
       "strategic/severe event pattern",
       "multi-location activity"
-    ]
-  },
-  {
-    "id": "4a52bf1865035b7ae6209ec54e7e341474692af2",
-    "event_date": "2026-09-28",
-    "event_date_confidence": "explicit-text",
-    "event_date_source": "explicit-date-no-year",
-    "published_at": "2026-09-29T20:18:44Z",
-    "collected_at": "2026-09-29T20:32:43.614369Z",
-    "actor": "JNIM",
-    "perpetrator": null,
-    "target": "JNIM",
-    "claimant": "JNIM",
-    "supporting_force": null,
-    "mentioned_actors": [
-      "JNIM",
-      "Africa Corps/Wagner"
-    ],
-    "parent_report_id": null,
-    "event_type": "ambush",
-    "country": "Mali",
-    "city": "Ségou",
-    "lat": 13.4317,
-    "lng": -6.2157,
-    "locations": [
-      {
-        "name": "Ségou",
-        "country": "Mali",
-        "lat": 13.4317,
-        "lng": -6.2157,
-        "confidence": "explicit-place"
-      }
-    ],
-    "title": "Mali: deadly ambush of Jnim jihadists in Niono against the Russian Africa Corps",
-    "summary": "At least three Malian soldiers and four Russian paramilitaries were killed in an ambush by extremists on their convoy in central Mali, security and local sources told Agence France-Presse on Tuesday. Sunday's attack comes amid an upsurge in attacks by extremists from al-Qaeda-linked JNIM. A security source, speaking on condition of anonymity, told AFP: \"A convoy consisting mainly of members of the Africa Corps group ",
-    "sources": [
-      "RFI Afrique",
-      "Asharq Al-Awsat"
-    ],
-    "languages": [
-      "fr",
-      "ar"
-    ],
-    "source_count": 2,
-    "report_urls": [
-      "https://www.rfi.fr/fr/afrique/20260929-mali-embuscade-meurtri%C3%A8re-des-jihadistes-du-jnim-%C3%A0-niono-contre-l-africa-corps-russe",
-      "https://aawsat.com/%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%A3%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7/5324072-%D9%85%D9%82%D8%AA%D9%84-%D8%AC%D9%86%D9%88%D8%AF-%D9%85%D8%A7%D9%84%D9%8A%D9%8A%D9%86-%D9%88%D8%B9%D9%86%D8%A7%D8%B5%D8%B1-%D8%B1%D9%88%D8%B3%D9%8A%D8%A9-%D9%81%D9%8A-%D9%83%D9%85%D9%8A%D9%86-%D9%84%D9%85%D8%AA%D8%B7%D8%B1%D9%81%D9%8A%D9%86-%D9%88%D8%B3%D8%B7-%D9%85%D8%A7%D9%84%D9%8A"
-    ],
-    "created_at": "2026-09-29T20:32:43.614369Z",
-    "updated_at": "2026-09-30T04:30:44.633388Z",
-    "extraction_confidence": "moderate",
-    "revision_history": [
-      {
-        "at": "2026-09-29T20:32:43.614369Z",
-        "type": "event_created",
-        "source": "RFI Afrique"
-      },
-      {
-        "at": "2026-09-30T04:30:44.633388Z",
-        "type": "corroboration_or_geography_update",
-        "source": "Asharq Al-Awsat"
-      }
-    ],
-    "corroboration": "limited corroboration",
-    "confidence": "moderate",
-    "independent_source_domains": [
-      "rfi.fr",
-      "aawsat.com"
-    ],
-    "independent_source_count": 2,
-    "significance": "SIGNIFICANT",
-    "significance_reasons": [
-      "operational security event"
     ]
   },
   {
@@ -2422,6 +2412,59 @@
     ]
   },
   {
+    "id": "cb9197d542bae058b41eb408eac4a378721bc563",
+    "event_date": "2026-07-21",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "explicit-calendar-date",
+    "published_at": null,
+    "collected_at": "2026-09-30T23:09:11.347321Z",
+    "actor": "Other",
+    "perpetrator": null,
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [],
+    "parent_report_id": null,
+    "event_type": "ambush",
+    "country": "Niger",
+    "city": null,
+    "lat": null,
+    "lng": null,
+    "locations": [],
+    "title": "Niger: 16 soldiers fellat the front and 15 terrorists neutralized in a terrorist ambushbetween Bankilar and Tira (TillabRi)",
+    "summary": "Niger region: 16 soldiers fallenat the front and 15 terrorists neutralized in a terrorist ambush between Bankilarand Tara (Tillab) Published on Tuesday, July 21, 2026 | actuniger.com",
+    "sources": [
+      "aNiamey.com"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "http://news.aniamey.com/h/123221.html"
+    ],
+    "created_at": "2026-09-30T23:09:11.347321Z",
+    "updated_at": "2026-09-30T23:09:11.347321Z",
+    "extraction_confidence": "low",
+    "revision_history": [
+      {
+        "at": "2026-09-30T23:09:11.347321Z",
+        "type": "event_created",
+        "source": "aNiamey.com"
+      }
+    ],
+    "corroboration": "single-source",
+    "confidence": "low",
+    "independent_source_domains": [
+      "news.aniamey.com"
+    ],
+    "independent_source_count": 1,
+    "significance": "SIGNIFICANT",
+    "significance_reasons": [
+      "operational security event"
+    ]
+  },
+  {
     "id": "9a3d5da15e7647754aabc3e55b26bf28e4e9199a",
     "event_date": "2026-07-18",
     "event_date_confidence": "publication-proxy",
@@ -3186,6 +3229,128 @@
     ]
   },
   {
+    "id": "8265196671b7757e9c65d18e0e52c0d345f6e81b",
+    "event_date": "2026-01-31",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "explicit-calendar-date",
+    "published_at": null,
+    "collected_at": "2026-09-30T23:09:12.652289Z",
+    "actor": "Other",
+    "perpetrator": null,
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [],
+    "parent_report_id": null,
+    "event_type": "attack",
+    "country": "Niger",
+    "city": "Niamey",
+    "lat": 13.5116,
+    "lng": 2.1254,
+    "locations": [
+      {
+        "name": "Niamey",
+        "country": "Niger",
+        "lat": 13.5116,
+        "lng": 2.1254,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "Niger: whatwe know about the jihadist attack on theport of Niamey",
+    "summary": "Niger: what we know about the jihadist attack on the port of Niamey Published on Saturday, January 31, 2026 | AFP On the night of Wednesday, Thursday, the port of Niamey in Niger suffered a brutal attack claimed on Friday by the Islamic State, in a country where jihadist violence usually occurs in the west and south-east . The Nigerianmilitary junta, aided by \"Russian partners\", accused the French, Binese and Ivorian",
+    "sources": [
+      "aNiamey.com"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "http://news.aniamey.com/h/123071.html"
+    ],
+    "created_at": "2026-09-30T23:09:12.652289Z",
+    "updated_at": "2026-09-30T23:09:12.652289Z",
+    "extraction_confidence": "low",
+    "revision_history": [
+      {
+        "at": "2026-09-30T23:09:12.652289Z",
+        "type": "event_created",
+        "source": "aNiamey.com"
+      }
+    ],
+    "corroboration": "single-source",
+    "confidence": "low",
+    "independent_source_domains": [
+      "news.aniamey.com"
+    ],
+    "independent_source_count": 1,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "strategic/severe event pattern"
+    ]
+  },
+  {
+    "id": "9b5c0dea1d6faabad301aef236285e68a46786ec",
+    "event_date": "2026-01-30",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "explicit-calendar-date",
+    "published_at": null,
+    "collected_at": "2026-09-30T23:09:12.405197Z",
+    "actor": "JNIM",
+    "perpetrator": null,
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [],
+    "parent_report_id": null,
+    "event_type": "attack",
+    "country": "Niger",
+    "city": "Niamey",
+    "lat": 13.5116,
+    "lng": 2.1254,
+    "locations": [
+      {
+        "name": "Niamey",
+        "country": "Niger",
+        "lat": 13.5116,
+        "lng": 2.1254,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "Niger: Islamic State claims responsibility for attackon Niamey airport",
+    "summary": "Niger: Islamic State claims responsibility for the attack on the Niamey Publi airport on Friday, January 30, 2026 | AFP The Islamic State claimed responsibility on Friday for the attack on the Niamey airport in Niger, indicated the Site group, specializing in counter-terrorism research . On the night of Wednesday, Thursday, the port of Niamey, which is home to military sites and is located about ten kilometers from t",
+    "sources": [
+      "aNiamey.com"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "http://news.aniamey.com/h/123067.html"
+    ],
+    "created_at": "2026-09-30T23:09:12.405197Z",
+    "updated_at": "2026-09-30T23:09:12.405197Z",
+    "extraction_confidence": "low",
+    "revision_history": [
+      {
+        "at": "2026-09-30T23:09:12.405197Z",
+        "type": "event_created",
+        "source": "aNiamey.com"
+      }
+    ],
+    "corroboration": "single-source",
+    "confidence": "low",
+    "independent_source_domains": [
+      "news.aniamey.com"
+    ],
+    "independent_source_count": 1,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "strategic/severe event pattern"
+    ]
+  },
+  {
     "id": "d9dd2877a0bfd405cdaf7985020e3cc753ed25b6",
     "event_date": "2025-11-10",
     "event_date_confidence": "publication-proxy",
@@ -3231,6 +3396,61 @@
     "confidence": "low",
     "independent_source_domains": [
       "news.google.com"
+    ],
+    "independent_source_count": 1,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "strategic/severe event pattern"
+    ]
+  },
+  {
+    "id": "c807c7cfab01fb3c9075eda8d4fad618d6e88ccf",
+    "event_date": "2025-10-09",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "analytical-child-claim",
+    "published_at": "2025-10-09T00:00:00Z",
+    "collected_at": "2026-09-30T23:09:12.956549Z",
+    "actor": "JNIM",
+    "perpetrator": "JNIM",
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [
+      "JNIM"
+    ],
+    "parent_report_id": "7941e76db5fc6cc47f68afff6a3cead79d4266f2",
+    "event_type": "territorial seizure/blockade",
+    "country": "Mali",
+    "city": null,
+    "lat": null,
+    "lng": null,
+    "locations": [],
+    "title": "{{currentView.title}} October 09, 2025 Mali Negotiates Amid JNIM Blockade",
+    "summary": "{{currentView.title}} October 09, 2025 Mali Negotiates Amid JNIM Blockade",
+    "sources": [
+      "Critical Threats Project - Africa File"
+    ],
+    "languages": [
+      "en"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://www.criticalthreats.org/analysis/mali-negotiates-jnim-blockade-drc-m23-numbers-swell-al-shabaab-mogadishu-somali-election-disputes-boko-haram-cameroon-nigeria-border-africa-file-october-9-2025"
+    ],
+    "created_at": "2026-09-30T23:09:12.956549Z",
+    "updated_at": "2026-09-30T23:09:12.956549Z",
+    "extraction_confidence": "moderate",
+    "revision_history": [
+      {
+        "at": "2026-09-30T23:09:12.956549Z",
+        "type": "event_created",
+        "source": "Critical Threats Project - Africa File"
+      }
+    ],
+    "corroboration": "single-source",
+    "confidence": "moderate",
+    "independent_source_domains": [
+      "criticalthreats.org"
     ],
     "independent_source_count": 1,
     "significance": "MAJOR",
