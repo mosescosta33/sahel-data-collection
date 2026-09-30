@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-09-30T09:32:34.564569Z",
+  "generated_at": "2026-09-30T10:33:13.318113Z",
   "window_days": 30,
   "cutoff": "2026-08-31",
-  "reports": 151,
-  "incident_reports": 35,
-  "candidate_events": 32,
+  "reports": 152,
+  "incident_reports": 36,
+  "candidate_events": 33,
   "corroborated_events": 3,
   "mapped_events": 26,
   "mapped_locations": 55,
   "distinct_sources": 50,
   "by_actor": {
-    "State": 14,
+    "State": 15,
     "JNIM": 7,
     "Other": 6,
     "Africa Corps/Wagner": 5
   },
   "by_country": {
     "Mali": 28,
-    "Niger": 3,
+    "Niger": 4,
     "Burkina Faso": 1
   },
   "by_event_type": {
@@ -27,15 +27,16 @@
     "ambush": 2,
     "clash": 2,
     "air/drone strike": 1,
-    "civilian targeting": 1
+    "civilian targeting": 1,
+    "kidnapping": 1
   },
   "by_language": {
     "fr": 111,
-    "en": 33,
+    "en": 34,
     "ar": 7
   },
   "by_confidence": {
-    "low": 16,
+    "low": 17,
     "moderate": 16
   },
   "top_sources": [
@@ -73,7 +74,7 @@
     },
     {
       "source": "Punch Newspapers (Nigeria)",
-      "count": 4
+      "count": 5
     },
     {
       "source": "RFI Afrique",
@@ -282,15 +283,68 @@
     {
       "date": "2026-09-29",
       "reports": 20,
-      "events": 3
+      "events": 4
     },
     {
       "date": "2026-09-30",
-      "reports": 2,
+      "reports": 3,
       "events": 0
     }
   ],
   "latest_events": [
+    {
+      "id": "5dbb5d8563e76b592535470307c1d84827b4c3bb",
+      "event_date": "2026-09-29",
+      "event_date_confidence": "explicit-text",
+      "event_date_source": "relative-weekday",
+      "published_at": "2026-09-30T10:48:57Z",
+      "collected_at": "2026-09-30T10:32:42.658754Z",
+      "actor": "State",
+      "perpetrator": null,
+      "target": null,
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [],
+      "parent_report_id": null,
+      "event_type": "kidnapping",
+      "country": "Niger",
+      "city": null,
+      "lat": null,
+      "lng": null,
+      "locations": [],
+      "title": "Security operatives move to rescue 47 abducted farmers in Niger",
+      "summary": "A joint security team comprising personnel of the Nigerian military and the Nigeria Police Force has moved into a forest in Niger State to rescue farmers abducted by suspected bandits. The spokesman for the Niger State Police Command, Wasiu Abiodun, disclosed this on Wednesday in a WhatsApp message, saying the operatives were combing Mukura village, Kasuwan-Garba District, in Mariga Local Government Area. “Reports re",
+      "sources": [
+        "Punch Newspapers (Nigeria)"
+      ],
+      "languages": [
+        "en"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://punchng.com/security-operatives-move-to-rescue-47-abducted-farmers-in-niger/"
+      ],
+      "created_at": "2026-09-30T10:32:42.658754Z",
+      "updated_at": "2026-09-30T10:32:42.658754Z",
+      "extraction_confidence": "low",
+      "revision_history": [
+        {
+          "at": "2026-09-30T10:32:42.658754Z",
+          "type": "event_created",
+          "source": "Punch Newspapers (Nigeria)"
+        }
+      ],
+      "corroboration": "single-source",
+      "confidence": "low",
+      "independent_source_domains": [
+        "punchng.com"
+      ],
+      "independent_source_count": 1,
+      "significance": "SIGNIFICANT",
+      "significance_reasons": [
+        "operational security event"
+      ]
+    },
     {
       "id": "2c2e044bc7ede838d4f82c6aeaa6e9bf7177a38b",
       "event_date": "2026-09-29",
@@ -2273,102 +2327,35 @@
       "significance_reasons": [
         "strategic/severe event pattern"
       ]
-    },
-    {
-      "id": "39b2ccbd079c7b2e312b3576f28563c799161548",
-      "event_date": "2026-09-10",
-      "event_date_confidence": "explicit-text",
-      "event_date_source": "explicit-date-no-year",
-      "published_at": "2026-09-26T12:24:54Z",
-      "collected_at": "2026-09-26T12:30:22.028729Z",
-      "actor": "JNIM",
-      "perpetrator": null,
-      "target": "Africa Corps/Wagner",
-      "claimant": null,
-      "supporting_force": null,
-      "mentioned_actors": [
-        "Africa Corps/Wagner",
-        "JNIM"
-      ],
-      "parent_report_id": null,
-      "event_type": "ambush",
-      "country": "Mali",
-      "city": "Dioura",
-      "lat": 14.82528,
-      "lng": -5.25139,
-      "locations": [
-        {
-          "name": "Dioura",
-          "country": "Mali",
-          "lat": 14.82528,
-          "lng": -5.25139,
-          "confidence": "explicit-place"
-        },
-        {
-          "name": "Sévaré",
-          "country": "Mali",
-          "lat": 14.5272,
-          "lng": -4.0934,
-          "confidence": "explicit-place"
-        },
-        {
-          "name": "Kidal",
-          "country": "Mali",
-          "lat": 18.4411,
-          "lng": 1.4078,
-          "confidence": "explicit-place"
-        },
-        {
-          "name": "Bamako",
-          "country": "Mali",
-          "lat": 12.6392,
-          "lng": -8.0029,
-          "confidence": "explicit-place"
-        },
-        {
-          "name": "Mopti",
-          "country": "Mali",
-          "lat": 14.4843,
-          "lng": -4.1829,
-          "confidence": "explicit-place"
-        }
-      ],
-      "title": "Mali: Dioura, Sévaré, Kidal... Russian weapons are no longer enough to hold the ground",
-      "summary": "More than 100 Malian soldiers killed in Dioura, the military airport of Sévaré targeted a few days later, Russian fighters ambushed in Kaka: September 2026 severely tested the security system of Bamako Five years after the rapprochement with Moscow and more than a year after the replacement of Wagner by the Africa Corps, JNIM remains capable of hitting major positions of the army, which today has more equipment and a",
-      "sources": [
-        "Afrik.com"
-      ],
-      "languages": [
-        "fr"
-      ],
-      "source_count": 1,
-      "report_urls": [
-        "https://www.afrik.com/mali-dioura-sevare-kidal-les-armes-russes-ne-suffisent-plus-a-tenir-le-terrain"
-      ],
-      "created_at": "2026-09-26T12:30:22.028729Z",
-      "updated_at": "2026-09-26T12:30:22.028729Z",
-      "extraction_confidence": "low",
-      "revision_history": [
-        {
-          "at": "2026-09-26T12:30:22.028729Z",
-          "type": "event_created",
-          "source": "Afrik.com"
-        }
-      ],
-      "corroboration": "single-source",
-      "confidence": "low",
-      "independent_source_domains": [
-        "afrik.com"
-      ],
-      "independent_source_count": 1,
-      "significance": "MAJOR",
-      "significance_reasons": [
-        "strategic/severe event pattern",
-        "multi-location activity"
-      ]
     }
   ],
   "latest_reports": [
+    {
+      "published_at": "2026-09-30T10:48:57Z",
+      "discovered_at": "2026-09-30T10:32:42.658754Z",
+      "source": "Punch Newspapers (Nigeria)",
+      "language": "en",
+      "actor": "State",
+      "country": "Niger",
+      "city": null,
+      "event_type": "kidnapping",
+      "candidate_event": true,
+      "title": "Security operatives move to rescue 47 abducted farmers in Niger",
+      "url": "https://punchng.com/security-operatives-move-to-rescue-47-abducted-farmers-in-niger/"
+    },
+    {
+      "published_at": null,
+      "discovered_at": "2026-09-30T10:32:42.822347Z",
+      "source": "aNiamey.com",
+      "language": "fr",
+      "actor": null,
+      "country": "Niger",
+      "city": "Niamey",
+      "event_type": "political/security policy",
+      "candidate_event": false,
+      "title": "Dfense: the Gnral Tiani reshuffles the military command after the Niamey mutiny",
+      "url": "http://news.aniamey.com/h/123258.html"
+    },
     {
       "published_at": null,
       "discovered_at": "2026-09-30T09:31:45.810359Z",
@@ -2381,19 +2368,6 @@
       "candidate_event": false,
       "title": "Food handover: The FSSP offers 636 25 kg bags of rice to insecure IDPs living in the Niamey region",
       "url": "https://www.lesahel.org/remise-de-vivres-le-fssp-offre-636-sacs-de-25-kg-de-riz-aux-deplaces-internes-victimes-de-linsecurite-vivant-dans-la-region-de-niamey/"
-    },
-    {
-      "published_at": null,
-      "discovered_at": "2026-09-30T09:31:44.643634Z",
-      "source": "aNiamey.com",
-      "language": "fr",
-      "actor": null,
-      "country": "Niger",
-      "city": "Niamey",
-      "event_type": "political/security policy",
-      "candidate_event": false,
-      "title": "Dfense: the Gnral Tiani reshuffles the military command after the Niamey mutiny",
-      "url": "http://news.aniamey.com/h/123258.html"
     },
     {
       "published_at": "2026-09-29T21:11:18Z",
@@ -2449,16 +2423,16 @@
     },
     {
       "published_at": "2026-09-29T18:02:24Z",
-      "discovered_at": "2026-09-30T09:31:44.308878Z",
+      "discovered_at": "2026-09-30T10:32:42.376293Z",
       "source": "Africa Defense Forum (ADF Magazine)",
       "language": "en",
-      "actor": "Africa Corps/Wagner",
+      "actor": null,
       "country": "Niger",
       "city": null,
       "event_type": "political/security policy",
       "candidate_event": false,
-      "title": "Mutiny in Niger Reveals Flawed Security Strategy",
-      "url": "https://adf-magazine.com/2026/09/mutiny-in-niger-reveals-flawed-security-strategy/"
+      "title": "Mutiny in Niger Reveals Flawed Security Strategy - Africa Defense Forum",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQlBKa3ZZX19RYXlxTWs5Qy03TFJfS201bVRzRmRoWGpvSmVRbXhkOTFaMUFJU3J0d0pTODg5S1VsMFBpYXdTSUJ6OHBncEM0R1dzZC1uWF9zSnUwZXhZRTE5cXZhQ0ZLUFZ3M2ZGR2RRbUFEc0l6c2NTNWlsWjg1T3VsblNhMTJMamc?oc=5"
     },
     {
       "published_at": "2026-09-29T17:22:59Z",
@@ -2709,16 +2683,16 @@
     },
     {
       "published_at": "2026-09-28T16:42:47Z",
-      "discovered_at": "2026-09-30T08:34:54.337132Z",
+      "discovered_at": "2026-09-30T10:32:56.899745Z",
       "source": "Malijet",
       "language": "fr",
       "actor": "JNIM",
       "country": "Mali",
       "city": "Ségou",
-      "event_type": "clash",
+      "event_type": null,
       "candidate_event": false,
-      "title": "Segou: About thirty JNIM and Fla terrorists neutralized by the FAMa and the Africa Corps",
-      "url": "https://malijet.com/flash-info/312069-segou-une-trentaine-de-terroristes-du-jnim-et-du-fla-neutr.html"
+      "title": "Ségou: About thirty JNIM and Fla terrorists neutralized by the FAMa and the Africa Corps - malijet.com",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOMUhpYktIZDlDYnNVRGluenlEUk5sNGpHdlVRcGwzdEJkUnA3aFhKVjNGQ21qeDBFOHd5X1lRTWpLdFVyQ2NmV0xlWk1ZR2NJWUU5ZFNBcVBOa3NSMVQ1Slg3MDRXM2RrS09qdERKY0d3ZmRNSjgtZEhsYzFOM1Z6MU1JNmZITzExWGY1WVJzbk0yNFJjQlNLak9BOUlNcEZxYzhF?oc=5"
     },
     {
       "published_at": "2026-09-28T11:50:24Z",
@@ -2875,19 +2849,6 @@
       "candidate_event": false,
       "title": "Police arrest guard over defilement, death of minor in Niger",
       "url": "https://punchng.com/police-arrest-guard-over-defilement-death-of-minor-in-niger/"
-    },
-    {
-      "published_at": "2026-09-25T20:42:45Z",
-      "discovered_at": "2026-09-25T21:28:55.255928Z",
-      "source": "La Nouvelle Tribune (Bénin)",
-      "language": "fr",
-      "actor": "JNIM",
-      "country": "Mali",
-      "city": "Bamako",
-      "event_type": "attack",
-      "candidate_event": true,
-      "title": "UN: Burkina Faso denounces international silence after the 25 April attack in Mali",
-      "url": "https://lanouvelletribune.info/2026/09/onu-le-burkina-faso-denonce-le-silence-international-apres-lattaque-du-25-avril-au-mali/"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
