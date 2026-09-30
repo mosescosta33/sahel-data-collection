@@ -1,16 +1,16 @@
 {
   "status": "LIVE",
   "site_patch_version": "2.9.3",
-  "status_detail": "Last automated GitHub collection completed 2026-09-30T07:32:41.930787Z; 175/175 sources yielded a direct or indexed discovery path.",
-  "last_collection": "2026-09-30T07:32:41.930787Z",
+  "status_detail": "Last automated GitHub collection completed 2026-09-30T08:35:15.309543Z; 175/175 sources yielded a direct or indexed discovery path.",
+  "last_collection": "2026-09-30T08:35:15.309543Z",
   "reports_24h": 18,
   "distinct_sources_24h": 14,
   "candidate_events_24h": 3,
   "mapped_events_24h": 3,
   "mapped_locations_24h": 8,
   "sources_configured": 175,
-  "sources_live": 135,
-  "sources_degraded": 40,
+  "sources_live": 134,
+  "sources_degraded": 41,
   "sources_failed": 0,
   "source_onboarding": {
     "candidate_total": 300,
@@ -34,8 +34,8 @@
       "reports_30d": 110,
       "distinct_sources_30d": 30,
       "candidate_event_reports_30d": 30,
-      "translations_success_archive": 172,
-      "translations_pending_or_failed": 0
+      "translations_success_archive": 170,
+      "translations_pending_or_failed": 2
     },
     "en": {
       "configured_sources": 83,
@@ -78,7 +78,7 @@
     "analysis_media": 9
   },
   "threat": {
-    "generated_at": "2026-09-30T07:32:41.922601Z",
+    "generated_at": "2026-09-30T08:35:15.288814Z",
     "model_version": "0.1-experimental",
     "label": "Experimental Conflict Threat Level",
     "regional": {
@@ -141,7 +141,7 @@
     "method_note": "Experimental research indicator derived from fused candidate events, recent country-relative tempo, significance, militant activity, civilian-threat signals, geographic spread and corroboration. It is not a travel advisory, verified incident count, or forecast. Collection gaps reduce confidence rather than automatically reducing threat."
   },
   "data_quality": {
-    "generated_at": "2026-09-30T07:32:41.930621Z",
+    "generated_at": "2026-09-30T08:35:15.309272Z",
     "events_30d": 32,
     "date_resolution_pct": 88,
     "precise_geography_pct": 81,
@@ -157,17 +157,17 @@
     "note": "Quality percentages describe fields present in Sahel Intel fused candidate events; they are not accuracy estimates."
   },
   "last_run": {
-    "started_at": "2026-09-30T07:29:49.574447Z",
-    "finished_at": "2026-09-30T07:32:41.930787Z",
+    "started_at": "2026-09-30T08:30:13.355448Z",
+    "finished_at": "2026-09-30T08:35:15.309543Z",
     "status": "complete",
     "site_patch_version": "2.9.3",
     "sources_total": 175,
     "sources_success": 175,
     "sources_failed": 0,
-    "documents_discovered": 7002,
+    "documents_discovered": 7004,
     "documents_selected": 10,
-    "prefetch_skipped": 7634,
-    "known_url_skipped": 111,
+    "prefetch_skipped": 7640,
+    "known_url_skipped": 107,
     "duplicate_url_skipped": 0,
     "title_duplicates_skipped": 0,
     "source_cap_skipped": 0,
@@ -181,10 +181,10 @@
       "Burkina Faso": 0,
       "Niger": 2
     },
-    "collection_waves": 2,
+    "collection_waves": 1,
     "fetch_candidates_attempted": 10,
     "targeted_sources_queried": 36,
-    "targeted_links_discovered": 1,
+    "targeted_links_discovered": 0,
     "dynamic_sources_loaded": 101,
     "source_candidates_total": 300,
     "source_candidates_verified_or_active": 158,
@@ -193,8 +193,8 @@
     "archive_rescreened": 0,
     "archive_duplicates_removed": 3,
     "translations_attempted": 2,
-    "translations": 2,
-    "translation_failures": 0,
+    "translations": 0,
+    "translation_failures": 2,
     "archive_reports": 326,
     "candidate_events_archive": 61,
     "candidate_events_7d": 12,
@@ -202,7 +202,7 @@
     "reports_30d": 150,
     "sources_30d": 50,
     "event_changes": 0,
-    "indexed_context_archive": 26,
+    "indexed_context_archive": 25,
     "research_leads_archive": 119,
     "analytical_context_archive": 11,
     "analytical_child_incidents": 7,
