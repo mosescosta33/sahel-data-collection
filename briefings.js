@@ -149,6 +149,22 @@
     return `<div class="db-profile"><h4>${esc(title)}</h4>${rows.join('')}</div>`;
   }
 
+  function renderCountryArticles(b) {
+    const grouped = b.country_article_summaries || {};
+    const countries = ['Mali','Burkina Faso','Niger'];
+    const blocks = countries.map(country => {
+      const rows = Array.isArray(grouped[country]) ? grouped[country] : [];
+      const cards = rows.map(r => `<article class="db-event-card db-article-card">
+        <div class="db-event-head"><div><span class="db-kicker">${esc(country)} • ${esc(r.source || 'SOURCE')}</span><h4>${esc(r.title || 'Untitled report')}</h4></div>${r.candidate_event?'<span class="db-pill">MAP CANDIDATE</span>':'<span class="db-pill">RETAINED</span>'}</div>
+        <p><b>Article summary:</b> ${esc(r.summary || 'Summary unavailable.')}</p>
+        <div class="db-event-meta"><span>Event date: ${esc(r.event_date || 'unresolved')}</span></div>
+        ${r.url?`<div class="db-links"><a href="${esc(r.url)}" target="_blank" rel="noopener noreferrer">OPEN SOURCE ↗</a></div>`:''}
+      </article>`).join('');
+      return `<section class="db-country-articles"><div class="db-section-head"><h3>${esc(country)} retained reporting</h3><span>${rows.length} summarized</span></div>${cards || '<div class="db-empty">No retained reports for this country on the selected desk date.</div>'}</section>`;
+    });
+    return blocks.join('');
+  }
+
   function renderProfiles(b) {
     const countries = b.country_profiles || {};
     const actors = b.actor_profiles || {};
@@ -167,6 +183,7 @@
     const m = b.headline_metrics || {};
     host.innerHTML = `<details class="db-annex"><summary>Supporting evidence and collection figures <span>VIEW SOURCE RECORDS ↓</span></summary><div class="db-annex-content">
       <section class="db-section"><h3>Key Judgments</h3>${judgmentList(b.key_judgments)}</section>
+      <section class="db-section"><div class="db-section-head"><h3>Retained Article Summaries</h3><span>mapped + unmapped</span></div>${renderCountryArticles(b)}</section>
       <section class="db-section">
         <div class="db-section-head"><h3>Significant Events</h3><span>${events.length} shown</span></div>
         <div class="db-filter-row">

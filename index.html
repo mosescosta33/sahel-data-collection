@@ -132,8 +132,9 @@
 
     <section id="view-feed" class="view">
       <section class="panel full">
-        <div class="panelhead"><div><span class="eyebrow">SOURCE-LEVEL REPORTING</span><h2>Multilingual Intelligence Feed</h2></div><div class="filterbar"><button class="lang active" data-lang="all">ALL</button><button class="lang" data-lang="fr">FR</button><button class="lang" data-lang="ar">AR</button><button class="lang" data-lang="en">EN</button></div></div>
-        <p class="note">Original-source reporting remains attributed to its publisher. French and Arabic items show an English machine translation when translation succeeded.</p>
+        <div class="panelhead"><div><span class="eyebrow">SOURCE-LEVEL REPORTING</span><h2>Multilingual Intelligence Feed</h2></div><div><div class="filterbar"><button class="lang active" data-lang="all">ALL LANG</button><button class="lang" data-lang="fr">FR</button><button class="lang" data-lang="ar">AR</button><button class="lang" data-lang="en">EN</button></div><div class="filterbar country-feedbar"><button class="country-feed active" data-country="all">ALL COUNTRIES</button><button class="country-feed" data-country="Mali">MALI</button><button class="country-feed" data-country="Burkina Faso">BURKINA FASO</button><button class="country-feed" data-country="Niger">NIGER</button></div></div></div>
+        <p id="feedCountryCounts" class="note">Retained archive • loading country counts…</p>
+        <p class="note">Every retained report is summarized whether or not it becomes a mapped event. Mapped events also show summaries for their linked source articles.</p>
         <div id="fullFeed" class="feed expanded"></div>
       </section>
     </section>
