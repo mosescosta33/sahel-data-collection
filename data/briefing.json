@@ -1,18 +1,16 @@
 {
-  "generated_at": "2026-09-30T23:11:37.769409Z",
+  "generated_at": "2026-09-30T23:29:47.472101Z",
   "method": "Sultana expanded multilingual OSINT synthesis",
   "freshness_status": "LIVE",
-  "new_event_ids": [
-    "7633fd051ef077f862a26eb746614ce56fc1b33a"
-  ],
+  "new_event_ids": [],
   "updated_event_ids": [],
   "new_corroboration_ids": [],
-  "new_reports_this_cycle": 65,
+  "new_reports_this_cycle": 30,
   "trend_snapshot": {
     "JNIM": {
-      "current": 3,
+      "current": 2,
       "previous": 2,
-      "change_pct": 50.0
+      "change_pct": 0.0
     },
     "IS Sahel": {
       "current": 0,
@@ -21,8 +19,8 @@
     },
     "State": {
       "current": 7,
-      "previous": 8,
-      "change_pct": -12.5
+      "previous": 9,
+      "change_pct": -22.2
     }
   },
   "previous_briefing_trend_snapshot": {
@@ -86,25 +84,15 @@
       "location_count": 1
     },
     {
-      "id": "7633fd051ef077f862a26eb746614ce56fc1b33a",
-      "source_count": 1,
-      "updated_at": "2026-09-30T04:30:44.633388Z",
-      "location_count": 1
-    },
-    {
       "id": "5dbb5d8563e76b592535470307c1d84827b4c3bb",
       "source_count": 1,
       "updated_at": "2026-09-30T10:32:42.658754Z",
       "location_count": 0
     }
   ],
-  "briefing_fingerprint": "8894498414f4c1f427aacd382bc4b7c15fbcf1ca",
-  "previous_fingerprint": "4faebf7dc7ae63d87a33c02f2a20426bd8f6ae53",
+  "briefing_fingerprint": "a164e0da42d089a1e584e4df5c546edeccba1171",
+  "previous_fingerprint": "8894498414f4c1f427aacd382bc4b7c15fbcf1ca",
   "seen_context_report_ids": [
-    "0762b4fef6626b0ad75b85dde21ca682547ac484",
-    "7b5ef94092db35f2a719e2e76879321aecb50e29",
-    "e9454de9fd7836a646e88ba6750307cad77869c2",
-    "e7f2de74781389a3b65973c3bc7ab3ccc201f43f",
     "889ccbae2feaefc2e9b30458153ab022fa8c4778",
     "1c6cbc856a4cce58ea89a21981fcf0f06f79df16",
     "70213a20d8a1544089e7ee064e0a72bdcec7469c",
@@ -220,9 +208,13 @@
     "b0770cb11a977644405b6056016228bba3262381",
     "7941e76db5fc6cc47f68afff6a3cead79d4266f2",
     "3bb2dea785d829fc491f0db35acbd9b9876a80dc",
-    "5e8504a314b3140fdc9c4b3a12c9528d5584ba54"
+    "5e8504a314b3140fdc9c4b3a12c9528d5584ba54",
+    "6df76a133ab5dc3e03b886c03db6a7625e7497ef",
+    "674edf68b0cfecaa5a696c52aed3f343cc80d63c",
+    "534745cec3b65c868c64a31bd81a128b15a90c7f",
+    "5443bb06aed63acd3d49b7911dc4d6f01d541633"
   ],
-  "text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nBottom line: the latest collection cycle retained 65 new relevant reports. The fusion layer recorded 1 new fused event. The archive currently contains 14 candidate events in the last seven days and 34 in the last thirty days.\n\nLatest reporting picture:\nDevelopment 1: 2026-09-29: State — kidnapping near Niger. This candidate event is linked to 1 monitored source and is currently assessed at low confidence. Reporting headline: Security operatives move to rescue 47 abducted farmers in Niger.\nDevelopment 2: 2026-09-29: JNIM — ambush near Ségou, Mali. This candidate event is linked to 1 monitored source and is currently assessed at low confidence. Reporting headline: Malian soldiers and Russian elements killed in ambush of extremists in central Mali.\nDevelopment 3: 2026-09-29: JNIM — attack near Ségou, Mali. This candidate event is linked to 1 monitored source and is currently assessed at low confidence. Reporting headline: Mali: at least 3 Russian soldiers and 4 paramilitaries killed in a jihadist attack.\nDevelopment 4: 2026-09-29: State — security operation near Bamako, Mali. This candidate event is linked to 1 monitored source and is currently assessed at low confidence. Reporting headline: It targeted Arabs, Tuareg and Fulani.. Amnesty accuses Bamako and a Russian legion of war crimes.\nDevelopment 5: 2026-09-29: Africa Corps/Wagner — civilian targeting near Ségou, Mali. This candidate event is linked to 1 monitored source and is currently assessed at low confidence. Reporting headline: Mali: Amnesty International accuses the army and Wagner of war crimes against civilians.\n\nQuantitative picture: JNIM is up to 3 from 2 candidate events across the two seven-day windows. IS Sahel is unchanged at 0 candidate events in the current seven-day window. State is down to 7 from 8 candidate events across the two seven-day windows.\n\nCollection picture: 175 sources are configured; 135 are live, 40 are degraded, and 0 failed in the latest cycle. The collector discovered 15018 links, selected 480 new URLs, and retained 65. Country retention this cycle: Mali 25, Burkina Faso 21, Niger 19. Language retention: FR 24, EN 41, AR 0, OTHER 0. The thirty-day archive contains 174 relevant reports from 52 distinct sources.\nTranslation status: 24 translations were attempted this cycle; 24 succeeded and 0 failed.\n\nAnalytic note: Sahel Intel distinguishes source reporting, retained reports, fused candidate events, and independently verified incidents. These event signals are open-source analytical candidates and may change as additional reporting, geolocation, dates, or corroboration are collected.",
-  "candidate_events_7d": 14,
-  "candidate_events_30d": 34
+  "text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nBottom line: the latest collection cycle retained 30 new relevant reports. The fusion layer recorded no newly created fused event IDs. The archive currently contains 13 candidate events in the last seven days and 35 in the last thirty days.\n\nLatest reporting picture:\nDevelopment 1: 2026-09-29: State — kidnapping near Niger. This candidate event is linked to 1 monitored source and is currently assessed at low confidence. Reporting headline: Security operatives move to rescue 47 abducted farmers in Niger.\nDevelopment 2: 2026-09-29: JNIM — attack near Ségou, Mali. This candidate event is linked to 1 monitored source and is currently assessed at low confidence. Reporting headline: Mali: at least 3 Russian soldiers and 4 paramilitaries killed in a jihadist attack.\nDevelopment 3: 2026-09-29: State — security operation near Bamako, Mali. This candidate event is linked to 1 monitored source and is currently assessed at low confidence. Reporting headline: It targeted Arabs, Tuareg and Fulani.. Amnesty accuses Bamako and a Russian legion of war crimes.\nDevelopment 4: 2026-09-29: Africa Corps/Wagner — civilian targeting near Ségou, Mali. This candidate event is linked to 1 monitored source and is currently assessed at low confidence. Reporting headline: Mali: Amnesty International accuses the army and Wagner of war crimes against civilians.\nDevelopment 5: 2026-09-28: State — offensive/campaign near Ségou, Mali. This candidate event is linked to 1 monitored source and is currently assessed at moderate confidence. Reporting headline: FAMA-AFRICA JOINT OFFENSIVE BODY IN the SÉGOU REGION, YESTERDAY: A PROVISIONAL ASSESSMENT OF 30 NEUTRALIZED TERRORISTS and SEVERAL WEAPONS RECOVERED.\n\nQuantitative picture: JNIM is unchanged at 2 candidate events in the current seven-day window. IS Sahel is unchanged at 0 candidate events in the current seven-day window. State is down to 7 from 9 candidate events across the two seven-day windows.\n\nCollection picture: 176 sources are configured; 134 are live, 42 are degraded, and 0 failed in the latest cycle. The collector discovered 15220 links, selected 480 new URLs, and retained 30. Country retention this cycle: Mali 23, Burkina Faso 1, Niger 6. Language retention: FR 13, EN 16, AR 1, OTHER 0. The thirty-day archive contains 184 relevant reports from 54 distinct sources.\nTranslation status: 14 translations were attempted this cycle; 14 succeeded and 0 failed.\n\nAnalytic note: Sahel Intel distinguishes source reporting, retained reports, fused candidate events, and independently verified incidents. These event signals are open-source analytical candidates and may change as additional reporting, geolocation, dates, or corroboration are collected.",
+  "candidate_events_7d": 13,
+  "candidate_events_30d": 35
 }

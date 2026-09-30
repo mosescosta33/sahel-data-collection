@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-09-30T23:11:37.413469Z",
+  "generated_at": "2026-09-30T23:29:47.208611Z",
   "window_days": 30,
   "cutoff": "2026-08-31",
-  "reports": 174,
-  "incident_reports": 39,
-  "candidate_events": 34,
+  "reports": 184,
+  "incident_reports": 42,
+  "candidate_events": 35,
   "corroborated_events": 2,
-  "mapped_events": 26,
-  "mapped_locations": 55,
-  "distinct_sources": 52,
+  "mapped_events": 27,
+  "mapped_locations": 58,
+  "distinct_sources": 54,
   "by_actor": {
-    "State": 15,
+    "State": 16,
     "JNIM": 7,
     "Other": 7,
     "Africa Corps/Wagner": 5
   },
   "by_country": {
-    "Mali": 28,
+    "Mali": 29,
     "Niger": 5,
     "Burkina Faso": 1
   },
   "by_event_type": {
     "security operation": 12,
-    "attack": 10,
+    "attack": 11,
     "offensive/campaign": 4,
     "ambush": 2,
     "clash": 2,
@@ -31,12 +31,12 @@
     "civilian targeting": 1
   },
   "by_language": {
-    "fr": 124,
-    "en": 43,
+    "fr": 130,
+    "en": 47,
     "ar": 7
   },
   "by_confidence": {
-    "low": 19,
+    "low": 20,
     "moderate": 15
   },
   "top_sources": [
@@ -65,15 +65,19 @@
       "count": 7
     },
     {
+      "source": "RFI Afrique",
+      "count": 7
+    },
+    {
       "source": "Critical Threats Project - Africa File",
       "count": 6
     },
     {
-      "source": "RFI Afrique",
-      "count": 6
+      "source": "Agence Nigérienne de Presse",
+      "count": 5
     },
     {
-      "source": "Agence Nigérienne de Presse",
+      "source": "AllAfrica (Édition Française)",
       "count": 5
     },
     {
@@ -83,24 +87,20 @@
     {
       "source": "Niger Inter",
       "count": 5
-    },
-    {
-      "source": "Punch Newspapers (Nigeria)",
-      "count": 5
     }
   ],
   "top_locations": [
     {
-      "location": "Dioura",
-      "count": 8
+      "location": "Mopti",
+      "count": 10
     },
     {
-      "location": "Mopti",
-      "count": 8
+      "location": "Dioura",
+      "count": 9
     },
     {
       "location": "Bamako",
-      "count": 7
+      "count": 8
     },
     {
       "location": "Kidal",
@@ -116,7 +116,7 @@
     },
     {
       "location": "Ségou",
-      "count": 5
+      "count": 4
     },
     {
       "location": "Djenné",
@@ -173,11 +173,11 @@
     {
       "date": "2026-09-07",
       "reports": 0,
-      "events": 0
+      "events": 1
     },
     {
       "date": "2026-09-08",
-      "reports": 3,
+      "reports": 4,
       "events": 0
     },
     {
@@ -207,7 +207,7 @@
     },
     {
       "date": "2026-09-14",
-      "reports": 3,
+      "reports": 4,
       "events": 0
     },
     {
@@ -232,8 +232,8 @@
     },
     {
       "date": "2026-09-19",
-      "reports": 19,
-      "events": 5
+      "reports": 20,
+      "events": 6
     },
     {
       "date": "2026-09-20",
@@ -282,12 +282,12 @@
     },
     {
       "date": "2026-09-29",
-      "reports": 21,
-      "events": 5
+      "reports": 25,
+      "events": 4
     },
     {
       "date": "2026-09-30",
-      "reports": 18,
+      "reports": 21,
       "events": 0
     }
   ],
@@ -338,69 +338,6 @@
       "confidence": "low",
       "independent_source_domains": [
         "punchng.com"
-      ],
-      "independent_source_count": 1,
-      "significance": "SIGNIFICANT",
-      "significance_reasons": [
-        "operational security event"
-      ]
-    },
-    {
-      "id": "7633fd051ef077f862a26eb746614ce56fc1b33a",
-      "event_date": "2026-09-29",
-      "event_date_confidence": "explicit-text",
-      "event_date_source": "relative-weekday",
-      "published_at": "2026-09-29T20:01:30Z",
-      "collected_at": "2026-09-30T04:30:44.633388Z",
-      "actor": "JNIM",
-      "perpetrator": null,
-      "target": "JNIM",
-      "claimant": null,
-      "supporting_force": null,
-      "mentioned_actors": [
-        "JNIM"
-      ],
-      "parent_report_id": null,
-      "event_type": "ambush",
-      "country": "Mali",
-      "city": "Ségou",
-      "lat": 13.4317,
-      "lng": -6.2157,
-      "locations": [
-        {
-          "name": "Ségou",
-          "country": "Mali",
-          "lat": 13.4317,
-          "lng": -6.2157,
-          "confidence": "explicit-place"
-        }
-      ],
-      "title": "Malian soldiers and Russian elements killed in ambush of extremists in central Mali",
-      "summary": "At least three Malian soldiers and four Russian paramilitaries were killed in an ambush by extremists on their convoy in central Mali, security and local sources told Agence France-Presse on Tuesday. Sunday's attack comes amid an upsurge in attacks by extremists from al-Qaeda-linked JNIM. A security source, speaking on condition of anonymity, told AFP: \"A convoy consisting mainly of members of the Africa Corps group ",
-      "sources": [
-        "Asharq Al-Awsat"
-      ],
-      "languages": [
-        "ar"
-      ],
-      "source_count": 1,
-      "report_urls": [
-        "https://aawsat.com/%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%A3%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7/5324072-%D9%85%D9%82%D8%AA%D9%84-%D8%AC%D9%86%D9%88%D8%AF-%D9%85%D8%A7%D9%84%D9%8A%D9%8A%D9%86-%D9%88%D8%B9%D9%86%D8%A7%D8%B5%D8%B1-%D8%B1%D9%88%D8%B3%D9%8A%D8%A9-%D9%81%D9%8A-%D9%83%D9%85%D9%8A%D9%86-%D9%84%D9%85%D8%AA%D8%B7%D8%B1%D9%81%D9%8A%D9%86-%D9%88%D8%B3%D8%B7-%D9%85%D8%A7%D9%84%D9%8A"
-      ],
-      "created_at": "2026-09-30T04:30:44.633388Z",
-      "updated_at": "2026-09-30T04:30:44.633388Z",
-      "extraction_confidence": "low",
-      "revision_history": [
-        {
-          "at": "2026-09-30T04:30:44.633388Z",
-          "type": "event_created",
-          "source": "Asharq Al-Awsat"
-        }
-      ],
-      "corroboration": "single-source",
-      "confidence": "low",
-      "independent_source_domains": [
-        "aawsat.com"
       ],
       "independent_source_count": 1,
       "significance": "SIGNIFICANT",
@@ -1787,6 +1724,82 @@
       ]
     },
     {
+      "id": "5ceb5de2e2ca10f9b11c58b2ea22ccb3f9f32541",
+      "event_date": "2026-09-19",
+      "event_date_confidence": "publication-proxy",
+      "event_date_source": "jsonld:datePublished",
+      "published_at": "2026-09-19T13:29:36Z",
+      "collected_at": "2026-09-30T23:28:25.463402Z",
+      "actor": "State",
+      "perpetrator": null,
+      "target": null,
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [],
+      "parent_report_id": null,
+      "event_type": "attack",
+      "country": "Mali",
+      "city": "Bamako",
+      "lat": 12.6392,
+      "lng": -8.0029,
+      "locations": [
+        {
+          "name": "Bamako",
+          "country": "Mali",
+          "lat": 12.6392,
+          "lng": -8.0029,
+          "confidence": "explicit-place"
+        },
+        {
+          "name": "Dioura",
+          "country": "Mali",
+          "lat": 14.82528,
+          "lng": -5.25139,
+          "confidence": "explicit-place"
+        },
+        {
+          "name": "Mopti",
+          "country": "Mali",
+          "lat": 14.4843,
+          "lng": -4.1829,
+          "confidence": "explicit-place"
+        }
+      ],
+      "title": "Death toll from Mali attack passes 100: sources",
+      "summary": "The insignia of the Malian Armed Forces appears in the footage during a meeting between members of the Tamuzok Association and Malian authorities, in Bamako, Mali, February 15, 2025. /CFP The number of Malian soldiers that were killed in a militant attack on the Dioura military camp in central Mali last week could have surpassed the 100 mark, according to local sources. Previous reports this week indicated that at le",
+      "sources": [
+        "CGTN Africa"
+      ],
+      "languages": [
+        "en"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://newsaf.cgtn.com/news/2026-09-19/Death-toll-from-Mali-attack-passes-100-sources-1Qz68w34K2Y/p.html"
+      ],
+      "created_at": "2026-09-30T23:28:25.463402Z",
+      "updated_at": "2026-09-30T23:28:25.463402Z",
+      "extraction_confidence": "low",
+      "revision_history": [
+        {
+          "at": "2026-09-30T23:28:25.463402Z",
+          "type": "event_created",
+          "source": "CGTN Africa"
+        }
+      ],
+      "corroboration": "single-source",
+      "confidence": "low",
+      "independent_source_domains": [
+        "newsaf.cgtn.com"
+      ],
+      "independent_source_count": 1,
+      "significance": "MAJOR",
+      "significance_reasons": [
+        "strategic/severe event pattern",
+        "multi-location activity"
+      ]
+    },
+    {
       "id": "1a0ba63571bcbeb260576cfc6c409cb672ff4607",
       "event_date": "2026-09-19",
       "event_date_confidence": "explicit-text",
@@ -2320,6 +2333,71 @@
   "latest_reports": [
     {
       "published_at": null,
+      "discovered_at": "2026-09-30T23:28:25.985050Z",
+      "source": "Dakaractu",
+      "language": "fr",
+      "actor": "JNIM",
+      "country": "Mali",
+      "city": "Ségou",
+      "event_type": "attack",
+      "candidate_event": true,
+      "title": "Mali: at least 3 Russian soldiers and 4 paramilitaries killed in a jihadist attack",
+      "url": "https://www.dakaractu.com/Mali-au-moins-3-militaires-et-4-paramilitaires-russes-tues-dans-une-attaque-jihadiste_a276500.html"
+    },
+    {
+      "published_at": null,
+      "discovered_at": "2026-09-30T23:27:57.406107Z",
+      "source": "aNiamey.com",
+      "language": "fr",
+      "actor": "Other",
+      "country": "Niger",
+      "city": "Niamey",
+      "event_type": "attack",
+      "candidate_event": true,
+      "title": "Niger: whatwe know about the jihadist attack on theport of Niamey",
+      "url": "http://news.aniamey.com/h/123071.html"
+    },
+    {
+      "published_at": null,
+      "discovered_at": "2026-09-30T23:27:57.011172Z",
+      "source": "aNiamey.com",
+      "language": "fr",
+      "actor": "JNIM",
+      "country": "Niger",
+      "city": "Niamey",
+      "event_type": "attack",
+      "candidate_event": true,
+      "title": "Niger: Islamic State claims responsibility for attackon Niamey airport",
+      "url": "http://news.aniamey.com/h/123067.html"
+    },
+    {
+      "published_at": null,
+      "discovered_at": "2026-09-30T23:27:56.223666Z",
+      "source": "aNiamey.com",
+      "language": "fr",
+      "actor": null,
+      "country": "Niger",
+      "city": "Niamey",
+      "event_type": "political/security policy",
+      "candidate_event": false,
+      "title": "Dfense: the Gnral Tiani reshuffles the military command after the Niamey mutiny",
+      "url": "http://news.aniamey.com/h/123258.html"
+    },
+    {
+      "published_at": null,
+      "discovered_at": "2026-09-30T23:27:55.948668Z",
+      "source": "aNiamey.com",
+      "language": "fr",
+      "actor": "Other",
+      "country": "Niger",
+      "city": null,
+      "event_type": "ambush",
+      "candidate_event": true,
+      "title": "Niger: 16 soldiers fellat the front and 15 terrorists neutralized in a terrorist ambushbetween Bankilar and Tira (TillabRi)",
+      "url": "http://news.aniamey.com/h/123221.html"
+    },
+    {
+      "published_at": null,
       "discovered_at": "2026-09-30T23:09:39.012500Z",
       "source": "Critical Threats Project - Africa File",
       "language": "en",
@@ -2358,58 +2436,6 @@
       "url": "https://www.criticalthreats.org/analysis/africa-file-special-edition-russias-africa-corps-arrives-in-niger-whats-next"
     },
     {
-      "published_at": null,
-      "discovered_at": "2026-09-30T23:09:14.145208Z",
-      "source": "aNiamey.com",
-      "language": "fr",
-      "actor": null,
-      "country": "Niger",
-      "city": "Niamey",
-      "event_type": "political/security policy",
-      "candidate_event": false,
-      "title": "Dfense: the Gnral Tiani reshuffles the military command after the Niamey mutiny",
-      "url": "http://news.aniamey.com/h/123258.html"
-    },
-    {
-      "published_at": null,
-      "discovered_at": "2026-09-30T23:09:12.652289Z",
-      "source": "aNiamey.com",
-      "language": "fr",
-      "actor": "Other",
-      "country": "Niger",
-      "city": "Niamey",
-      "event_type": "attack",
-      "candidate_event": true,
-      "title": "Niger: whatwe know about the jihadist attack on theport of Niamey",
-      "url": "http://news.aniamey.com/h/123071.html"
-    },
-    {
-      "published_at": null,
-      "discovered_at": "2026-09-30T23:09:12.405197Z",
-      "source": "aNiamey.com",
-      "language": "fr",
-      "actor": "JNIM",
-      "country": "Niger",
-      "city": "Niamey",
-      "event_type": "attack",
-      "candidate_event": true,
-      "title": "Niger: Islamic State claims responsibility for attackon Niamey airport",
-      "url": "http://news.aniamey.com/h/123067.html"
-    },
-    {
-      "published_at": null,
-      "discovered_at": "2026-09-30T23:09:11.347321Z",
-      "source": "aNiamey.com",
-      "language": "fr",
-      "actor": "Other",
-      "country": "Niger",
-      "city": null,
-      "event_type": "ambush",
-      "candidate_event": true,
-      "title": "Niger: 16 soldiers fellat the front and 15 terrorists neutralized in a terrorist ambushbetween Bankilar and Tira (TillabRi)",
-      "url": "http://news.aniamey.com/h/123221.html"
-    },
-    {
       "published_at": "2026-09-30T19:55:11Z",
       "discovered_at": "2026-09-30T23:09:14.351404Z",
       "source": "Burkina24",
@@ -2437,7 +2463,7 @@
     },
     {
       "published_at": "2026-09-30T16:45:03Z",
-      "discovered_at": "2026-09-30T23:09:14.073391Z",
+      "discovered_at": "2026-09-30T23:27:57.634934Z",
       "source": "Africanews",
       "language": "en",
       "actor": "State",
@@ -2514,6 +2540,19 @@
       "url": "https://www.lesahel.org/remise-de-vivres-le-fssp-offre-636-sacs-de-25-kg-de-riz-aux-deplaces-internes-victimes-de-linsecurite-vivant-dans-la-region-de-niamey/"
     },
     {
+      "published_at": "2026-09-30T09:04:22Z",
+      "discovered_at": "2026-09-30T23:28:25.648854Z",
+      "source": "AllAfrica (Édition Française)",
+      "language": "fr",
+      "actor": "Africa Corps/Wagner",
+      "country": "Mali",
+      "city": "Ségou",
+      "event_type": "ambush",
+      "candidate_event": false,
+      "title": "Mali: Towards a stalemate of the Africa Corps?",
+      "url": "https://fr.allafrica.com/stories/202609300164.html"
+    },
+    {
       "published_at": "2026-09-30T09:02:01Z",
       "discovered_at": "2026-09-30T23:09:11.059942Z",
       "source": "AllAfrica (Édition Française)",
@@ -2525,6 +2564,19 @@
       "candidate_event": false,
       "title": "Mali: deadly ambush of Jnim jihadists in Niono against the Russian Africa Corps - allAfrica.fr",
       "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5Hel9RZTh3VGZ3M25RVXBZWWlTenE0NjZQb3lLb3ZnOXVVd3ZOUzJBTDhudEU3ejNaamVtZ2FDMjNaMW84M3lyNkppd2U1bl85dkZmUUdFX3NEQ3lkNTZB?oc=5"
+    },
+    {
+      "published_at": "2026-09-30T07:44:52Z",
+      "discovered_at": "2026-09-30T23:28:17.999979Z",
+      "source": "AllAfrica (English Edition)",
+      "language": "en",
+      "actor": "Africa Corps/Wagner",
+      "country": "Mali",
+      "city": "Ségou",
+      "event_type": "security operation",
+      "candidate_event": false,
+      "title": "Mali: Mali Army and Russian Fighters Accused of Killing Dozens of Civilians",
+      "url": "https://allafrica.com/stories/202609300127.html"
     },
     {
       "published_at": "2026-09-30T05:20:33Z",
@@ -2593,16 +2645,29 @@
     },
     {
       "published_at": "2026-09-29T20:01:30Z",
-      "discovered_at": "2026-09-30T04:30:44.633388Z",
+      "discovered_at": "2026-09-30T23:28:01.668786Z",
       "source": "Asharq Al-Awsat",
       "language": "ar",
-      "actor": "JNIM",
+      "actor": null,
       "country": "Mali",
-      "city": "Ségou",
+      "city": null,
       "event_type": "ambush",
-      "candidate_event": true,
-      "title": "Malian soldiers and Russian elements killed in ambush of extremists in central Mali",
-      "url": "https://aawsat.com/%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%A3%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7/5324072-%D9%85%D9%82%D8%AA%D9%84-%D8%AC%D9%86%D9%88%D8%AF-%D9%85%D8%A7%D9%84%D9%8A%D9%8A%D9%86-%D9%88%D8%B9%D9%86%D8%A7%D8%B5%D8%B1-%D8%B1%D9%88%D8%B3%D9%8A%D8%A9-%D9%81%D9%8A-%D9%83%D9%85%D9%8A%D9%86-%D9%84%D9%85%D8%AA%D8%B7%D8%B1%D9%81%D9%8A%D9%86-%D9%88%D8%B3%D8%B7-%D9%85%D8%A7%D9%84%D9%8A"
+      "candidate_event": false,
+      "title": "Malian soldiers and Russian elements killed in ambush of central Malian extremists - aawsat.com",
+      "url": "https://news.google.com/rss/articles/CBMipwRBVV95cUxPTENNbi00SkVyUWEyOFFsWVhiYWJ1dTJKZWM0eUpMV0RIWVdaZFNiNkdCYUg0b1JPaTFUOXdCa2M1dlNzRTBOWTZ1TUFjRzdjUVRBNWVKZUx4eGZFbUpZTlIzSXBJcFk4c2Y2VUU5ektCNFRuZHpSWXFvN3JSdnE1MW50a1paQnVNb3ZnTEZxOWN4UkVibTdWZGZHZXdNUExvOUpORWFxSGFUSjRucDJUclRRbEpvMzQyb25ybDR4em5DM0toeFFRdnZhZGpkYkYwTzdkZnFpa0JaTXVWSk9tUnhKZ1Z3TGZ2Mlp0ZGowVk5qRkp3eGxhY3RFMGtfU1pweFJ1UUQtTVhyWjJaa0JUazhhVFlCMFVMWWhwYWs4d1NmUW8zVGMzYmx0QllWMzA2SmRMSkpFWEdXdG0zOUZhSjZ3YVAzSGFtUF9UbHVZWFp2aUZMZEpBSy1JdklKWDh2MjNWYWtHYjZ2alJuUmpyWjM3cF9Eb0gyT0s5eGp0bUtrQmtvMVVaWFF6WUI4U1NRUnhYS0NEQ3l4VzUwNHp4SDlfbVJDcUxldWcxR3lkX2Roc0VUUzhXTVlWR05yVEkxS1pnNmItaFpObVpVU0NYdHdybjdfaDk0aFNhMHZ4S2gwQTVOdkxCblpVNmFJZ1FVdFh2Q3lldldNNVZsQTkxY3Q5YTFaV1ZGaldqZGxPSUpoSTIxNnNodUk0Vjh0UWhfaGNsOGpLbw?oc=5"
+    },
+    {
+      "published_at": "2026-09-29T18:09:51Z",
+      "discovered_at": "2026-09-30T23:28:25.864673Z",
+      "source": "AllAfrica (Édition Française)",
+      "language": "fr",
+      "actor": "Africa Corps/Wagner",
+      "country": "Mali",
+      "city": "Timbuktu",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "7 Mali: The NGO Amnesty documents cases of killings and torture committed by the army and the Wagner group",
+      "url": "https://fr.allafrica.com/stories/202609290656.html"
     },
     {
       "published_at": "2026-09-29T18:02:24Z",
@@ -2670,6 +2735,19 @@
       "url": "https://amap.ml/2026/09/29/securisation-du-pays-des-positions-de-groupes-armes-frappees-a-niono-et-dioura/"
     },
     {
+      "published_at": "2026-09-29T15:15:59Z",
+      "discovered_at": "2026-09-30T23:28:19.618374Z",
+      "source": "TV5MONDE Afrique",
+      "language": "fr",
+      "actor": "Africa Corps/Wagner",
+      "country": "Mali",
+      "city": "Timbuktu",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Image Africa \"No one is spared\": Amnesty documents killings and torture in Mali by the army and the Wagner group",
+      "url": "https://information.tv5monde.com/afrique/personne-nest-epargne-amnesty-documente-des-assassinats-et-tortures-commis-au-mali-par-larmee-et-le-groupe-wagner-2839491"
+    },
+    {
       "published_at": "2026-09-29T15:06:00Z",
       "discovered_at": "2026-09-29T15:33:19.680530Z",
       "source": "The Heritage Times",
@@ -2707,6 +2785,19 @@
       "candidate_event": false,
       "title": "APC donates N52m to families of 37 dead miners in Niger",
       "url": "https://www.vanguardngr.com/2026/09/apc-donates-n52m-to-families-of-37-dead-miners-in-niger/"
+    },
+    {
+      "published_at": "2026-09-29T13:38:07Z",
+      "discovered_at": "2026-09-30T23:28:25.740994Z",
+      "source": "AllAfrica (English Edition)",
+      "language": "en",
+      "actor": "Africa Corps/Wagner",
+      "country": "Mali",
+      "city": null,
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Amnesty Report Accuses Mali Army, Wagner Group of War Crimes",
+      "url": "https://allafrica.com/view/group/main/main/id/00098284.html"
     },
     {
       "published_at": "2026-09-29T13:36:16Z",
@@ -2759,84 +2850,6 @@
       "candidate_event": false,
       "title": "Soldiers and mercenaries killed at least 34 civilians in Mali, Amnesty report says - Reuters",
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQT045QWx6ZElwVVo3OXpQaWh1ZTl1MEVnT0gtMnNXS1Z2cXpNb0hRUmVoMFVoQmlBWkhkNVlmLUVEakhqSlFSbm0ta1pSZTE1R0pubVpmbE5jaXlxTHc1elJsamVrbXpIYndyNHlfa3JJVHpxRlBCc1BnT2ZOQmtKb2pWYmdfcTFoZGlNWEEtenF2X3FxVzBfdjJSSUdscHVDVE1kQ1JaMXJkZV9rM1ZVODBPaHBiM1lsTnFYeg?oc=5"
-    },
-    {
-      "published_at": "2026-09-29T09:17:59Z",
-      "discovered_at": "2026-09-29T09:31:26.858958Z",
-      "source": "Afrik.com",
-      "language": "fr",
-      "actor": "Africa Corps/Wagner",
-      "country": "Mali",
-      "city": "Ségou",
-      "event_type": "civilian targeting",
-      "candidate_event": true,
-      "title": "Mali: Amnesty International accuses the army and Wagner of war crimes against civilians",
-      "url": "https://www.afrik.com/mali-amnesty-international-accuse-l-armee-et-wagner-de-crimes-de-guerre-contre-des-civils"
-    },
-    {
-      "published_at": "2026-09-29T08:44:32Z",
-      "discovered_at": "2026-09-29T09:31:26.755177Z",
-      "source": "La Croix (Afrique)",
-      "language": "fr",
-      "actor": "Africa Corps/Wagner",
-      "country": "Mali",
-      "city": null,
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Mali: Russian army and paramilitaries accused of 'war crimes' by Amnesty International",
-      "url": "https://www.la-croix.com/international/mali-l-armee-et-les-paramilitaires-russes-accuses-de-crimes-de-guerre-par-amnesty-international-20260929"
-    },
-    {
-      "published_at": "2026-09-29T07:30:34Z",
-      "discovered_at": "2026-09-29T10:31:47.152819Z",
-      "source": "Punch Newspapers (Nigeria)",
-      "language": "en",
-      "actor": null,
-      "country": "Burkina Faso",
-      "city": null,
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Burkina Faso opens first-ever gold refinery",
-      "url": "https://punchng.com/burkina-faso-opens-first-ever-gold-refinery/"
-    },
-    {
-      "published_at": "2026-09-29T04:54:36Z",
-      "discovered_at": "2026-09-29T05:29:10.483572Z",
-      "source": "Amnesty West and Central Africa",
-      "language": "en",
-      "actor": "Africa Corps/Wagner",
-      "country": "Mali",
-      "city": null,
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Mali: Damning evidence of war crimes by state armed forces and Wagner Group personnel – new report",
-      "url": "https://www.amnesty.org/en/latest/news/2026/09/mali-war-wagner/"
-    },
-    {
-      "published_at": "2026-09-29T04:23:31Z",
-      "discovered_at": "2026-09-29T04:30:15.899910Z",
-      "source": "RFI Afrique",
-      "language": "fr",
-      "actor": "Africa Corps/Wagner",
-      "country": "Mali",
-      "city": "Timbuktu",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Mali: Amnesty NGO documents cases of killings and torture committed by the army and the Wagner group",
-      "url": "https://www.rfi.fr/fr/afrique/20260929-mali-l-ong-amnesty-documente-des-cas-d-assassinats-et-de-tortures-commis-par-l-arm%C3%A9e-et-le-groupe-wagner"
-    },
-    {
-      "published_at": "2026-09-28T21:05:04Z",
-      "discovered_at": "2026-09-30T23:09:12.533147Z",
-      "source": "Niger Inter",
-      "language": "fr",
-      "actor": "State",
-      "country": "Niger",
-      "city": "Agadez",
-      "event_type": "law enforcement",
-      "candidate_event": false,
-      "title": "Agadez: two (2) individuals arrested in possession of a large quantity of drugs",
-      "url": "https://nigerinter.com/2026/09/28/agadez-deux-2-individus-interpelles-en-possession-dune-importante-quantite-de-drogue/"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."

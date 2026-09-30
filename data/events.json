@@ -53,69 +53,6 @@
     ]
   },
   {
-    "id": "7633fd051ef077f862a26eb746614ce56fc1b33a",
-    "event_date": "2026-09-29",
-    "event_date_confidence": "explicit-text",
-    "event_date_source": "relative-weekday",
-    "published_at": "2026-09-29T20:01:30Z",
-    "collected_at": "2026-09-30T04:30:44.633388Z",
-    "actor": "JNIM",
-    "perpetrator": null,
-    "target": "JNIM",
-    "claimant": null,
-    "supporting_force": null,
-    "mentioned_actors": [
-      "JNIM"
-    ],
-    "parent_report_id": null,
-    "event_type": "ambush",
-    "country": "Mali",
-    "city": "Ségou",
-    "lat": 13.4317,
-    "lng": -6.2157,
-    "locations": [
-      {
-        "name": "Ségou",
-        "country": "Mali",
-        "lat": 13.4317,
-        "lng": -6.2157,
-        "confidence": "explicit-place"
-      }
-    ],
-    "title": "Malian soldiers and Russian elements killed in ambush of extremists in central Mali",
-    "summary": "At least three Malian soldiers and four Russian paramilitaries were killed in an ambush by extremists on their convoy in central Mali, security and local sources told Agence France-Presse on Tuesday. Sunday's attack comes amid an upsurge in attacks by extremists from al-Qaeda-linked JNIM. A security source, speaking on condition of anonymity, told AFP: \"A convoy consisting mainly of members of the Africa Corps group ",
-    "sources": [
-      "Asharq Al-Awsat"
-    ],
-    "languages": [
-      "ar"
-    ],
-    "source_count": 1,
-    "report_urls": [
-      "https://aawsat.com/%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%A3%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7/5324072-%D9%85%D9%82%D8%AA%D9%84-%D8%AC%D9%86%D9%88%D8%AF-%D9%85%D8%A7%D9%84%D9%8A%D9%8A%D9%86-%D9%88%D8%B9%D9%86%D8%A7%D8%B5%D8%B1-%D8%B1%D9%88%D8%B3%D9%8A%D8%A9-%D9%81%D9%8A-%D9%83%D9%85%D9%8A%D9%86-%D9%84%D9%85%D8%AA%D8%B7%D8%B1%D9%81%D9%8A%D9%86-%D9%88%D8%B3%D8%B7-%D9%85%D8%A7%D9%84%D9%8A"
-    ],
-    "created_at": "2026-09-30T04:30:44.633388Z",
-    "updated_at": "2026-09-30T04:30:44.633388Z",
-    "extraction_confidence": "low",
-    "revision_history": [
-      {
-        "at": "2026-09-30T04:30:44.633388Z",
-        "type": "event_created",
-        "source": "Asharq Al-Awsat"
-      }
-    ],
-    "corroboration": "single-source",
-    "confidence": "low",
-    "independent_source_domains": [
-      "aawsat.com"
-    ],
-    "independent_source_count": 1,
-    "significance": "SIGNIFICANT",
-    "significance_reasons": [
-      "operational security event"
-    ]
-  },
-  {
     "id": "2c2e044bc7ede838d4f82c6aeaa6e9bf7177a38b",
     "event_date": "2026-09-29",
     "event_date_confidence": "explicit-text",
@@ -1494,6 +1431,82 @@
     ]
   },
   {
+    "id": "5ceb5de2e2ca10f9b11c58b2ea22ccb3f9f32541",
+    "event_date": "2026-09-19",
+    "event_date_confidence": "publication-proxy",
+    "event_date_source": "jsonld:datePublished",
+    "published_at": "2026-09-19T13:29:36Z",
+    "collected_at": "2026-09-30T23:28:25.463402Z",
+    "actor": "State",
+    "perpetrator": null,
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [],
+    "parent_report_id": null,
+    "event_type": "attack",
+    "country": "Mali",
+    "city": "Bamako",
+    "lat": 12.6392,
+    "lng": -8.0029,
+    "locations": [
+      {
+        "name": "Bamako",
+        "country": "Mali",
+        "lat": 12.6392,
+        "lng": -8.0029,
+        "confidence": "explicit-place"
+      },
+      {
+        "name": "Dioura",
+        "country": "Mali",
+        "lat": 14.82528,
+        "lng": -5.25139,
+        "confidence": "explicit-place"
+      },
+      {
+        "name": "Mopti",
+        "country": "Mali",
+        "lat": 14.4843,
+        "lng": -4.1829,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "Death toll from Mali attack passes 100: sources",
+    "summary": "The insignia of the Malian Armed Forces appears in the footage during a meeting between members of the Tamuzok Association and Malian authorities, in Bamako, Mali, February 15, 2025. /CFP The number of Malian soldiers that were killed in a militant attack on the Dioura military camp in central Mali last week could have surpassed the 100 mark, according to local sources. Previous reports this week indicated that at le",
+    "sources": [
+      "CGTN Africa"
+    ],
+    "languages": [
+      "en"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://newsaf.cgtn.com/news/2026-09-19/Death-toll-from-Mali-attack-passes-100-sources-1Qz68w34K2Y/p.html"
+    ],
+    "created_at": "2026-09-30T23:28:25.463402Z",
+    "updated_at": "2026-09-30T23:28:25.463402Z",
+    "extraction_confidence": "low",
+    "revision_history": [
+      {
+        "at": "2026-09-30T23:28:25.463402Z",
+        "type": "event_created",
+        "source": "CGTN Africa"
+      }
+    ],
+    "corroboration": "single-source",
+    "confidence": "low",
+    "independent_source_domains": [
+      "newsaf.cgtn.com"
+    ],
+    "independent_source_count": 1,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "strategic/severe event pattern",
+      "multi-location activity"
+    ]
+  },
+  {
     "id": "1a0ba63571bcbeb260576cfc6c409cb672ff4607",
     "event_date": "2026-09-19",
     "event_date_confidence": "explicit-text",
@@ -2298,6 +2311,131 @@
     ]
   },
   {
+    "id": "e5cf5a92b849917df4445a992e7620a6997c143b",
+    "event_date": "2026-09-07",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "explicit-date-no-year",
+    "published_at": "2026-09-08T15:10:20Z",
+    "collected_at": "2026-09-30T23:28:18.727847Z",
+    "actor": "JNIM",
+    "perpetrator": null,
+    "target": "JNIM",
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [
+      "JNIM",
+      "Africa Corps/Wagner"
+    ],
+    "parent_report_id": null,
+    "event_type": "ambush",
+    "country": "Mali",
+    "city": "Mopti",
+    "lat": 14.4843,
+    "lng": -4.1829,
+    "locations": [
+      {
+        "name": "Mopti",
+        "country": "Mali",
+        "lat": 14.4843,
+        "lng": -4.1829,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "Mali: at least eleven Russian soldiers and traditional hunters killed in a jihadist ambush",
+    "summary": "Mali: At least eleven Russian soldiers and traditional hunters killed in jihadist ambush In Mali, a military patrol fell on September 7 in an ambush claimed by al-Qaeda-linked Jnim in Kaka, near Sofara, Mopti region, in the center of the country. At least eleven Russian soldiers of the Africa Corps, partner of the Malian forces, and traditional Dozo hunters, substitutes for the army, were killed . Published on: Modif",
+    "sources": [
+      "RFI Afrique"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://www.rfi.fr/fr/afrique/20260908-mali-au-moins-onze-soldats-russes-et-chasseurs-traditionnels-tu%C3%A9s-dans-une-embuscade-jihadiste"
+    ],
+    "created_at": "2026-09-30T23:28:18.727847Z",
+    "updated_at": "2026-09-30T23:28:18.727847Z",
+    "extraction_confidence": "low",
+    "revision_history": [
+      {
+        "at": "2026-09-30T23:28:18.727847Z",
+        "type": "event_created",
+        "source": "RFI Afrique"
+      }
+    ],
+    "corroboration": "single-source",
+    "confidence": "low",
+    "independent_source_domains": [
+      "rfi.fr"
+    ],
+    "independent_source_count": 1,
+    "significance": "SIGNIFICANT",
+    "significance_reasons": [
+      "operational security event"
+    ]
+  },
+  {
+    "id": "eb4fe7fadd5ce3e7cdec7193b7422e68277972cc",
+    "event_date": "2026-08-29",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "explicit-calendar-date",
+    "published_at": "2026-09-14T12:11:28Z",
+    "collected_at": "2026-09-30T23:28:25.150424Z",
+    "actor": "Africa Corps/Wagner",
+    "perpetrator": null,
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [],
+    "parent_report_id": null,
+    "event_type": "attack",
+    "country": "Niger",
+    "city": "Niamey",
+    "lat": 13.5116,
+    "lng": 2.1254,
+    "locations": [
+      {
+        "name": "Niamey",
+        "country": "Niger",
+        "lat": 13.5116,
+        "lng": 2.1254,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "7 West Africa: Niger - Niamey - The attack that exposed the ESA flaw",
+    "summary": "The attack on Base 101 in Niamey in August 2026 revealed the existential vulnerability of the AES. Analysis of a night that forces the Sahel to rethink its sovereignty. The attempted mutiny against Niamey Air Force Base 101 brought the AES face to face with an existential question: what would become of the Confederacy if one of its three states tipped over? Niamey, 1 a.m., August 29, 2026. Heavy gunfire rips through ",
+    "sources": [
+      "AllAfrica (Édition Française)"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://fr.allafrica.com/stories/202609140439.html"
+    ],
+    "created_at": "2026-09-30T23:28:25.150424Z",
+    "updated_at": "2026-09-30T23:28:25.150424Z",
+    "extraction_confidence": "low",
+    "revision_history": [
+      {
+        "at": "2026-09-30T23:28:25.150424Z",
+        "type": "event_created",
+        "source": "AllAfrica (Édition Française)"
+      }
+    ],
+    "corroboration": "single-source",
+    "confidence": "low",
+    "independent_source_domains": [
+      "fr.allafrica.com"
+    ],
+    "independent_source_count": 1,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "strategic/severe event pattern"
+    ]
+  },
+  {
     "id": "889644f62f066fc2e2d8956e1237e69d27fb3895",
     "event_date": "2026-08-29",
     "event_date_confidence": "publication-proxy",
@@ -2417,7 +2555,7 @@
     "event_date_confidence": "explicit-text",
     "event_date_source": "explicit-calendar-date",
     "published_at": null,
-    "collected_at": "2026-09-30T23:09:11.347321Z",
+    "collected_at": "2026-09-30T23:27:55.948668Z",
     "actor": "Other",
     "perpetrator": null,
     "target": null,
@@ -2443,12 +2581,12 @@
     "report_urls": [
       "http://news.aniamey.com/h/123221.html"
     ],
-    "created_at": "2026-09-30T23:09:11.347321Z",
-    "updated_at": "2026-09-30T23:09:11.347321Z",
+    "created_at": "2026-09-30T23:27:55.948668Z",
+    "updated_at": "2026-09-30T23:27:55.948668Z",
     "extraction_confidence": "low",
     "revision_history": [
       {
-        "at": "2026-09-30T23:09:11.347321Z",
+        "at": "2026-09-30T23:27:55.948668Z",
         "type": "event_created",
         "source": "aNiamey.com"
       }
@@ -3234,7 +3372,7 @@
     "event_date_confidence": "explicit-text",
     "event_date_source": "explicit-calendar-date",
     "published_at": null,
-    "collected_at": "2026-09-30T23:09:12.652289Z",
+    "collected_at": "2026-09-30T23:27:57.406107Z",
     "actor": "Other",
     "perpetrator": null,
     "target": null,
@@ -3268,12 +3406,12 @@
     "report_urls": [
       "http://news.aniamey.com/h/123071.html"
     ],
-    "created_at": "2026-09-30T23:09:12.652289Z",
-    "updated_at": "2026-09-30T23:09:12.652289Z",
+    "created_at": "2026-09-30T23:27:57.406107Z",
+    "updated_at": "2026-09-30T23:27:57.406107Z",
     "extraction_confidence": "low",
     "revision_history": [
       {
-        "at": "2026-09-30T23:09:12.652289Z",
+        "at": "2026-09-30T23:27:57.406107Z",
         "type": "event_created",
         "source": "aNiamey.com"
       }
@@ -3295,7 +3433,7 @@
     "event_date_confidence": "explicit-text",
     "event_date_source": "explicit-calendar-date",
     "published_at": null,
-    "collected_at": "2026-09-30T23:09:12.405197Z",
+    "collected_at": "2026-09-30T23:27:57.011172Z",
     "actor": "JNIM",
     "perpetrator": null,
     "target": null,
@@ -3329,12 +3467,12 @@
     "report_urls": [
       "http://news.aniamey.com/h/123067.html"
     ],
-    "created_at": "2026-09-30T23:09:12.405197Z",
-    "updated_at": "2026-09-30T23:09:12.405197Z",
+    "created_at": "2026-09-30T23:27:57.011172Z",
+    "updated_at": "2026-09-30T23:27:57.011172Z",
     "extraction_confidence": "low",
     "revision_history": [
       {
-        "at": "2026-09-30T23:09:12.405197Z",
+        "at": "2026-09-30T23:27:57.011172Z",
         "type": "event_created",
         "source": "aNiamey.com"
       }
