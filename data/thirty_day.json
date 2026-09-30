@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-09-30T11:30:32.350394Z",
+  "generated_at": "2026-09-30T12:39:36.139065Z",
   "window_days": 30,
   "cutoff": "2026-08-31",
-  "reports": 152,
-  "incident_reports": 36,
-  "candidate_events": 33,
+  "reports": 153,
+  "incident_reports": 37,
+  "candidate_events": 34,
   "corroborated_events": 3,
   "mapped_events": 26,
   "mapped_locations": 55,
@@ -12,12 +12,12 @@
   "by_actor": {
     "State": 15,
     "JNIM": 7,
-    "Other": 6,
+    "Other": 7,
     "Africa Corps/Wagner": 5
   },
   "by_country": {
     "Mali": 28,
-    "Niger": 4,
+    "Niger": 5,
     "Burkina Faso": 1
   },
   "by_event_type": {
@@ -26,17 +26,17 @@
     "offensive/campaign": 4,
     "ambush": 2,
     "clash": 2,
+    "kidnapping": 2,
     "air/drone strike": 1,
-    "civilian targeting": 1,
-    "kidnapping": 1
+    "civilian targeting": 1
   },
   "by_language": {
     "fr": 111,
-    "en": 34,
+    "en": 35,
     "ar": 7
   },
   "by_confidence": {
-    "low": 17,
+    "low": 18,
     "moderate": 16
   },
   "top_sources": [
@@ -135,8 +135,8 @@
       "count": 2
     },
     {
-      "location": "Dori",
-      "count": 1
+      "location": "Niger",
+      "count": 2
     }
   ],
   "daily": [
@@ -268,7 +268,7 @@
     {
       "date": "2026-09-26",
       "reports": 3,
-      "events": 1
+      "events": 2
     },
     {
       "date": "2026-09-27",
@@ -287,7 +287,7 @@
     },
     {
       "date": "2026-09-30",
-      "reports": 3,
+      "reports": 4,
       "events": 0
     }
   ],
@@ -908,6 +908,59 @@
         "malijet.com"
       ],
       "independent_source_count": 2,
+      "significance": "SIGNIFICANT",
+      "significance_reasons": [
+        "operational security event"
+      ]
+    },
+    {
+      "id": "7660123e875e8b896d8b810545c8e2aed063b015",
+      "event_date": "2026-09-26",
+      "event_date_confidence": "explicit-text",
+      "event_date_source": "relative-weekday",
+      "published_at": "2026-09-30T12:05:43Z",
+      "collected_at": "2026-09-30T12:39:12.112299Z",
+      "actor": "Other",
+      "perpetrator": null,
+      "target": null,
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [],
+      "parent_report_id": null,
+      "event_type": "kidnapping",
+      "country": "Niger",
+      "city": null,
+      "lat": null,
+      "lng": null,
+      "locations": [],
+      "title": "Bandits abduct 47 Niger women, others harvesting groundnuts",
+      "summary": "By Clare Nnabuike, Minna MINNA — No fewer than 47 people, mostly women, have been abducted by suspected bandits while harvesting groundnuts on farms in Mariga Local Government Area of Niger State. The incident occurred on Saturday at Tungan Rimi in Ma’undu-Beri Ward of the council area. The victims were said to have been working on their farms when the armed men invaded the area and took them into the forest. The Cha",
+      "sources": [
+        "Vanguard News (Nigeria)"
+      ],
+      "languages": [
+        "en"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://www.vanguardngr.com/2026/09/bandits-abduct-47-niger-women-others-harvesting-groundnuts/"
+      ],
+      "created_at": "2026-09-30T12:39:12.112299Z",
+      "updated_at": "2026-09-30T12:39:12.112299Z",
+      "extraction_confidence": "low",
+      "revision_history": [
+        {
+          "at": "2026-09-30T12:39:12.112299Z",
+          "type": "event_created",
+          "source": "Vanguard News (Nigeria)"
+        }
+      ],
+      "corroboration": "single-source",
+      "confidence": "low",
+      "independent_source_domains": [
+        "vanguardngr.com"
+      ],
+      "independent_source_count": 1,
       "significance": "SIGNIFICANT",
       "significance_reasons": [
         "operational security event"
@@ -2272,67 +2325,12 @@
         "strategic/severe event pattern",
         "multi-location activity"
       ]
-    },
-    {
-      "id": "38c4521eeb4bc2760c514e087d6c7ff8a41f8b23",
-      "event_date": "2026-09-17",
-      "event_date_confidence": "explicit-text",
-      "event_date_source": "explicit-calendar-date",
-      "published_at": "2026-09-19T11:26:16Z",
-      "collected_at": "2026-09-19T18:15:03.129399Z",
-      "actor": "State",
-      "perpetrator": "State",
-      "target": null,
-      "claimant": null,
-      "supporting_force": null,
-      "mentioned_actors": [
-        "State"
-      ],
-      "parent_report_id": null,
-      "event_type": "offensive/campaign",
-      "country": "Mali",
-      "city": null,
-      "lat": null,
-      "lng": null,
-      "locations": [],
-      "title": "Terrorist hunt: The FAMa's victorious offensive is accelerating on several fronts",
-      "summary": "The General Staff of the Armed Forces informs the national opinion that the Malian Armed Forces (FAMa), supported by their partners, are continuing their permanent operations to monitor, control and secure the national territory as part of Operation Dougoukoloko. On Thursday, September 17, 2026, the exploitation of precise information made it possible to locate several group concentration points",
-      "sources": [
-        "Bamada"
-      ],
-      "languages": [
-        "fr"
-      ],
-      "source_count": 1,
-      "report_urls": [
-        "https://bamada.net/traque-terroriste-loffensive-victorieuse-des-fama-saccelere-sur-plusieurs-fronts"
-      ],
-      "created_at": "2026-09-19T18:15:03.129399Z",
-      "updated_at": "2026-09-19T18:15:03.129399Z",
-      "extraction_confidence": "moderate",
-      "revision_history": [
-        {
-          "at": "2026-09-19T18:15:03.129399Z",
-          "type": "event_created",
-          "source": "Bamada"
-        }
-      ],
-      "corroboration": "single-source",
-      "confidence": "moderate",
-      "independent_source_domains": [
-        "bamada.net"
-      ],
-      "independent_source_count": 1,
-      "significance": "MAJOR",
-      "significance_reasons": [
-        "strategic/severe event pattern"
-      ]
     }
   ],
   "latest_reports": [
     {
       "published_at": null,
-      "discovered_at": "2026-09-30T11:29:59.142379Z",
+      "discovered_at": "2026-09-30T12:39:11.540330Z",
       "source": "aNiamey.com",
       "language": "fr",
       "actor": null,
@@ -2342,6 +2340,19 @@
       "candidate_event": false,
       "title": "Dfense: the Gnral Tiani reshuffles the military command after the Niamey mutiny",
       "url": "http://news.aniamey.com/h/123258.html"
+    },
+    {
+      "published_at": "2026-09-30T12:05:43Z",
+      "discovered_at": "2026-09-30T12:39:12.112299Z",
+      "source": "Vanguard News (Nigeria)",
+      "language": "en",
+      "actor": "Other",
+      "country": "Niger",
+      "city": null,
+      "event_type": "kidnapping",
+      "candidate_event": true,
+      "title": "Bandits abduct 47 Niger women, others harvesting groundnuts",
+      "url": "https://www.vanguardngr.com/2026/09/bandits-abduct-47-niger-women-others-harvesting-groundnuts/"
     },
     {
       "published_at": "2026-09-30T10:48:57Z",
@@ -2423,16 +2434,16 @@
     },
     {
       "published_at": "2026-09-29T18:02:24Z",
-      "discovered_at": "2026-09-30T11:29:58.511772Z",
+      "discovered_at": "2026-09-30T12:39:11.139312Z",
       "source": "Africa Defense Forum (ADF Magazine)",
       "language": "en",
-      "actor": "Africa Corps/Wagner",
+      "actor": null,
       "country": "Niger",
       "city": null,
       "event_type": "political/security policy",
       "candidate_event": false,
-      "title": "Mutiny in Niger Reveals Flawed Security Strategy",
-      "url": "https://adf-magazine.com/2026/09/mutiny-in-niger-reveals-flawed-security-strategy/"
+      "title": "Mutiny in Niger Reveals Flawed Security Strategy - Africa Defense Forum",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQlBKa3ZZX19RYXlxTWs5Qy03TFJfS201bVRzRmRoWGpvSmVRbXhkOTFaMUFJU3J0d0pTODg5S1VsMFBpYXdTSUJ6OHBncEM0R1dzZC1uWF9zSnUwZXhZRTE5cXZhQ0ZLUFZ3M2ZGR2RRbUFEc0l6c2NTNWlsWjg1T3VsblNhMTJMamc?oc=5"
     },
     {
       "published_at": "2026-09-29T17:22:59Z",
@@ -2836,19 +2847,6 @@
       "candidate_event": true,
       "title": "Mali: Dioura, Sévaré, Kidal... Russian weapons are no longer enough to hold the ground",
       "url": "https://www.afrik.com/mali-dioura-sevare-kidal-les-armes-russes-ne-suffisent-plus-a-tenir-le-terrain"
-    },
-    {
-      "published_at": "2026-09-25T22:37:45Z",
-      "discovered_at": "2026-09-25T21:50:15.975110Z",
-      "source": "Punch Newspapers (Nigeria)",
-      "language": "en",
-      "actor": null,
-      "country": "Niger",
-      "city": null,
-      "event_type": "law enforcement",
-      "candidate_event": false,
-      "title": "Police arrest guard over defilement, death of minor in Niger",
-      "url": "https://punchng.com/police-arrest-guard-over-defilement-death-of-minor-in-niger/"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
