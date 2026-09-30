@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-30T16:34:06.664919Z",
+  "generated_at": "2026-09-30T17:31:22.835639Z",
   "window_days": 30,
   "cutoff": "2026-08-31",
-  "reports": 154,
+  "reports": 155,
   "incident_reports": 37,
   "candidate_events": 34,
   "corroborated_events": 3,
@@ -32,7 +32,7 @@
   },
   "by_language": {
     "fr": 112,
-    "en": 35,
+    "en": 36,
     "ar": 7
   },
   "by_confidence": {
@@ -287,7 +287,7 @@
     },
     {
       "date": "2026-09-30",
-      "reports": 5,
+      "reports": 6,
       "events": 0
     }
   ],
@@ -2343,7 +2343,7 @@
     },
     {
       "published_at": null,
-      "discovered_at": "2026-09-30T16:33:34.088126Z",
+      "discovered_at": "2026-09-30T17:31:00.541935Z",
       "source": "aNiamey.com",
       "language": "fr",
       "actor": null,
@@ -2353,6 +2353,19 @@
       "candidate_event": false,
       "title": "Dfense: the Gnral Tiani reshuffles the military command after the Niamey mutiny",
       "url": "http://news.aniamey.com/h/123258.html"
+    },
+    {
+      "published_at": "2026-09-30T16:45:03Z",
+      "discovered_at": "2026-09-30T17:31:00.660534Z",
+      "source": "Africanews",
+      "language": "en",
+      "actor": "State",
+      "country": "Burkina Faso",
+      "city": null,
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Pix of the Day, 30 September, 2026 - Across the world",
+      "url": "https://www.africanews.com/2026/09/30/pix-of-the-day-30-september-2026-across-the-world/"
     },
     {
       "published_at": "2026-09-30T12:05:43Z",
@@ -2447,16 +2460,16 @@
     },
     {
       "published_at": "2026-09-29T18:02:24Z",
-      "discovered_at": "2026-09-30T14:34:56.243122Z",
+      "discovered_at": "2026-09-30T17:31:00.319526Z",
       "source": "Africa Defense Forum (ADF Magazine)",
       "language": "en",
-      "actor": null,
+      "actor": "Africa Corps/Wagner",
       "country": "Niger",
       "city": null,
       "event_type": "political/security policy",
       "candidate_event": false,
-      "title": "Mutiny in Niger Reveals Flawed Security Strategy - Africa Defense Forum",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQlBKa3ZZX19RYXlxTWs5Qy03TFJfS201bVRzRmRoWGpvSmVRbXhkOTFaMUFJU3J0d0pTODg5S1VsMFBpYXdTSUJ6OHBncEM0R1dzZC1uWF9zSnUwZXhZRTE5cXZhQ0ZLUFZ3M2ZGR2RRbUFEc0l6c2NTNWlsWjg1T3VsblNhMTJMamc?oc=5"
+      "title": "Mutiny in Niger Reveals Flawed Security Strategy",
+      "url": "https://adf-magazine.com/2026/09/mutiny-in-niger-reveals-flawed-security-strategy/"
     },
     {
       "published_at": "2026-09-29T17:22:59Z",
@@ -2834,19 +2847,6 @@
       "candidate_event": true,
       "title": "FAMa Offensive: War Materials Destroyed and Terrorist Leaders Accurately Targeted",
       "url": "https://bamada.net/offensive-fama-materiels-de-guerre-detruits-et-chefs-terroristes-cibles-avec-precision"
-    },
-    {
-      "published_at": "2026-09-26T19:38:20Z",
-      "discovered_at": "2026-09-29T13:34:46.854286Z",
-      "source": "Malijet",
-      "language": "fr",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Kidal",
-      "event_type": "security operation",
-      "candidate_event": false,
-      "title": "Security: New targeted FAMa strikes in Kidal and Léré as part of Operation Dougoukoloko - malijet.com",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVHZKNDl1VmxBcV9ieFRFQUZHaU9oZlFmY3pVUVdseExadDc2bzdqSTN4VTFROUlsUElxOW9NWUVUcmhFbl85djlKM2hJd29TZl9qVXdxdnpXRFlNUWQxUk5xWk1RY2xNOWR5Y1VNcFJRbnhYZThCc0Itd2dIckg0bld3OThZNUdTOXdLNnAwVkNCbXlZMTJHTXE2ZmhWYU9OeG5hc1VtRl92cmhkZkpyQ2ZEX0VsUHZ0bmFlUkd0UXQtZjA?oc=5"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
