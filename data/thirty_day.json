@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-30T20:30:23.482034Z",
+  "generated_at": "2026-09-30T21:30:01.802692Z",
   "window_days": 30,
   "cutoff": "2026-08-31",
-  "reports": 155,
+  "reports": 156,
   "incident_reports": 37,
   "candidate_events": 34,
   "corroborated_events": 3,
@@ -32,7 +32,7 @@
   },
   "by_language": {
     "fr": 112,
-    "en": 36,
+    "en": 37,
     "ar": 7
   },
   "by_confidence": {
@@ -53,11 +53,11 @@
       "count": 9
     },
     {
-      "source": "ActuNiger",
-      "count": 7
+      "source": "Africa Defense Forum (ADF Magazine)",
+      "count": 8
     },
     {
-      "source": "Africa Defense Forum (ADF Magazine)",
+      "source": "ActuNiger",
       "count": 7
     },
     {
@@ -282,7 +282,7 @@
     },
     {
       "date": "2026-09-29",
-      "reports": 20,
+      "reports": 21,
       "events": 4
     },
     {
@@ -2330,7 +2330,7 @@
   "latest_reports": [
     {
       "published_at": null,
-      "discovered_at": "2026-09-30T20:29:58.771591Z",
+      "discovered_at": "2026-09-30T21:29:42.477505Z",
       "source": "aNiamey.com",
       "language": "fr",
       "actor": null,
@@ -2356,7 +2356,7 @@
     },
     {
       "published_at": "2026-09-30T16:45:03Z",
-      "discovered_at": "2026-09-30T20:29:59.030409Z",
+      "discovered_at": "2026-09-30T21:29:42.635199Z",
       "source": "Africanews",
       "language": "en",
       "actor": "State",
@@ -2457,6 +2457,19 @@
       "candidate_event": true,
       "title": "Malian soldiers and Russian elements killed in ambush of extremists in central Mali",
       "url": "https://aawsat.com/%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%A3%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7/5324072-%D9%85%D9%82%D8%AA%D9%84-%D8%AC%D9%86%D9%88%D8%AF-%D9%85%D8%A7%D9%84%D9%8A%D9%8A%D9%86-%D9%88%D8%B9%D9%86%D8%A7%D8%B5%D8%B1-%D8%B1%D9%88%D8%B3%D9%8A%D8%A9-%D9%81%D9%8A-%D9%83%D9%85%D9%8A%D9%86-%D9%84%D9%85%D8%AA%D8%B7%D8%B1%D9%81%D9%8A%D9%86-%D9%88%D8%B3%D8%B7-%D9%85%D8%A7%D9%84%D9%8A"
+    },
+    {
+      "published_at": "2026-09-29T18:02:24Z",
+      "discovered_at": "2026-09-30T21:29:42.229732Z",
+      "source": "Africa Defense Forum (ADF Magazine)",
+      "language": "en",
+      "actor": null,
+      "country": "Niger",
+      "city": null,
+      "event_type": "political/security policy",
+      "candidate_event": false,
+      "title": "Mutiny in Niger Reveals Flawed Security Strategy - adf-magazine.com",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQlBKa3ZZX19RYXlxTWs5Qy03TFJfS201bVRzRmRoWGpvSmVRbXhkOTFaMUFJU3J0d0pTODg5S1VsMFBpYXdTSUJ6OHBncEM0R1dzZC1uWF9zSnUwZXhZRTE5cXZhQ0ZLUFZ3M2ZGR2RRbUFEc0l6c2NTNWlsWjg1T3VsblNhMTJMamc?oc=5"
     },
     {
       "published_at": "2026-09-29T18:02:24Z",
@@ -2834,19 +2847,6 @@
       "candidate_event": false,
       "title": "Military rescues 125 kidnap victims, arrests over 50",
       "url": "https://www.vanguardngr.com/2026/09/military-rescues-125-kidnap-victims-arrests-over-50/"
-    },
-    {
-      "published_at": "2026-09-26T20:09:24Z",
-      "discovered_at": "2026-09-26T21:27:09.799758Z",
-      "source": "Bamada",
-      "language": "fr",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Kidal",
-      "event_type": "offensive/campaign",
-      "candidate_event": true,
-      "title": "FAMa Offensive: War Materials Destroyed and Terrorist Leaders Accurately Targeted",
-      "url": "https://bamada.net/offensive-fama-materiels-de-guerre-detruits-et-chefs-terroristes-cibles-avec-precision"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
