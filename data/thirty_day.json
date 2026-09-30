@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-30T08:35:15.247726Z",
+  "generated_at": "2026-09-30T09:32:34.564569Z",
   "window_days": 30,
   "cutoff": "2026-08-31",
-  "reports": 150,
+  "reports": 151,
   "incident_reports": 35,
   "candidate_events": 32,
   "corroborated_events": 3,
@@ -30,7 +30,7 @@
     "civilian targeting": 1
   },
   "by_language": {
-    "fr": 110,
+    "fr": 111,
     "en": 33,
     "ar": 7
   },
@@ -286,7 +286,7 @@
     },
     {
       "date": "2026-09-30",
-      "reports": 1,
+      "reports": 2,
       "events": 0
     }
   ],
@@ -2371,7 +2371,20 @@
   "latest_reports": [
     {
       "published_at": null,
-      "discovered_at": "2026-09-30T08:34:54.252235Z",
+      "discovered_at": "2026-09-30T09:31:45.810359Z",
+      "source": "Le Sahel",
+      "language": "fr",
+      "actor": null,
+      "country": "Niger",
+      "city": "Niamey",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Food handover: The FSSP offers 636 25 kg bags of rice to insecure IDPs living in the Niamey region",
+      "url": "https://www.lesahel.org/remise-de-vivres-le-fssp-offre-636-sacs-de-25-kg-de-riz-aux-deplaces-internes-victimes-de-linsecurite-vivant-dans-la-region-de-niamey/"
+    },
+    {
+      "published_at": null,
+      "discovered_at": "2026-09-30T09:31:44.643634Z",
       "source": "aNiamey.com",
       "language": "fr",
       "actor": null,
@@ -2379,7 +2392,7 @@
       "city": "Niamey",
       "event_type": "political/security policy",
       "candidate_event": false,
-      "title": "D�fense : le G�n�ral Tiani remanie le commandement militaire apr�s la mutinerie de Niamey",
+      "title": "Dfense: the Gnral Tiani reshuffles the military command after the Niamey mutiny",
       "url": "http://news.aniamey.com/h/123258.html"
     },
     {
@@ -2436,16 +2449,16 @@
     },
     {
       "published_at": "2026-09-29T18:02:24Z",
-      "discovered_at": "2026-09-30T04:30:43.935646Z",
+      "discovered_at": "2026-09-30T09:31:44.308878Z",
       "source": "Africa Defense Forum (ADF Magazine)",
       "language": "en",
-      "actor": null,
+      "actor": "Africa Corps/Wagner",
       "country": "Niger",
       "city": null,
       "event_type": "political/security policy",
       "candidate_event": false,
-      "title": "Mutiny in Niger Reveals Flawed Security Strategy - Africa Defense Forum",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQlBKa3ZZX19RYXlxTWs5Qy03TFJfS201bVRzRmRoWGpvSmVRbXhkOTFaMUFJU3J0d0pTODg5S1VsMFBpYXdTSUJ6OHBncEM0R1dzZC1uWF9zSnUwZXhZRTE5cXZhQ0ZLUFZ3M2ZGR2RRbUFEc0l6c2NTNWlsWjg1T3VsblNhMTJMamc?oc=5"
+      "title": "Mutiny in Niger Reveals Flawed Security Strategy",
+      "url": "https://adf-magazine.com/2026/09/mutiny-in-niger-reveals-flawed-security-strategy/"
     },
     {
       "published_at": "2026-09-29T17:22:59Z",
@@ -2704,7 +2717,7 @@
       "city": "Ségou",
       "event_type": "clash",
       "candidate_event": false,
-      "title": "Ségou : Une trentaine de terroristes du JNIM et du FLA neutralisés par les FAMa et l'Africa Corps",
+      "title": "Segou: About thirty JNIM and Fla terrorists neutralized by the FAMa and the Africa Corps",
       "url": "https://malijet.com/flash-info/312069-segou-une-trentaine-de-terroristes-du-jnim-et-du-fla-neutr.html"
     },
     {
@@ -2875,19 +2888,6 @@
       "candidate_event": true,
       "title": "UN: Burkina Faso denounces international silence after the 25 April attack in Mali",
       "url": "https://lanouvelletribune.info/2026/09/onu-le-burkina-faso-denonce-le-silence-international-apres-lattaque-du-25-avril-au-mali/"
-    },
-    {
-      "published_at": "2026-09-25T19:30:02Z",
-      "discovered_at": "2026-09-25T20:26:52.553967Z",
-      "source": "Sahara Medias (صحراء ميديا)",
-      "language": "ar",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Kidal",
-      "event_type": "security operation",
-      "candidate_event": false,
-      "title": "Mali.. The army announces the targeting of sites containing hundreds of militants in Kidal",
-      "url": "https://saharamedias.net/265401/"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
