@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "site_patch_version": "2.9.3",
-  "generated_at": "2026-10-01T03:34:26.168783Z",
+  "generated_at": "2026-10-01T03:46:16.118046Z",
   "active_limit": 33,
   "total_briefings": 237,
   "active_count": 33,
@@ -11,7 +11,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-30",
-      "generated_at": "2026-10-01T03:34:25.783890Z",
+      "generated_at": "2026-10-01T03:46:15.792767Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -1084,11 +1084,11 @@
         "sources_success": 176,
         "sources_failed": 0,
         "sources_degraded": 42,
-        "documents_discovered": 15000,
-        "documents_retained": 10,
+        "documents_discovered": 15082,
+        "documents_retained": 7,
         "report_target": 100,
-        "translations_attempted": 5,
-        "translations_success": 5,
+        "translations_attempted": 4,
+        "translations_success": 4,
         "translation_failures": 0,
         "collection_confidence": "HIGH",
         "collection_confidence_reasons": [
@@ -1110,14 +1110,14 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-29",
-      "generated_at": "2026-10-01T03:34:25.474078Z",
+      "generated_at": "2026-10-01T03:46:15.588471Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
         "Niger"
       ],
       "classification": "OPEN SOURCE",
-      "collection_confidence": "HIGH",
+      "collection_confidence": "LOW",
       "headline_metrics": {
         "events_occurring_on_date": 0,
         "records_held_for_review": 4,
@@ -1152,11 +1152,11 @@
         },
         {
           "heading": "What remains unclear",
-          "text": "2 newly recorded items concern earlier dates and are kept out of today's incident count. The date of 1 operational report still needs checking."
+          "text": "2 newly recorded items concern earlier dates and are kept out of today's incident count. The date of 1 operational report still needs checking. Collection or source checks are incomplete for this date, so relevant reporting may still be missing."
         }
       ],
       "key_judgments": [
-        "No fused candidate event currently has 2026-09-29 as its event date; collection confidence for that date is high.",
+        "No fused candidate event currently has 2026-09-29 as its event date; collection confidence for that date is low.",
         "1 collected operational/candidate report(s) still use an unresolved or proxy event date and require temporal verification."
       ],
       "significant_events": [],
@@ -1169,7 +1169,8 @@
         "State 7-day activity is lower than the preceding 7-day window (6 → 4)."
       ],
       "intelligence_gaps": [
-        "1 newly collected operational/candidate report(s) have unresolved or publication-proxy event dates."
+        "1 newly collected operational/candidate report(s) have unresolved or publication-proxy event dates.",
+        "Collection confidence is low, so absence of reporting should not be interpreted as absence of activity."
       ],
       "actor_counts": {
         "JNIM": 0,
@@ -1427,19 +1428,19 @@
         ]
       },
       "collection_notes": {
-        "sources_total": 174,
-        "sources_success": 174,
+        "sources_total": 0,
+        "sources_success": 0,
         "sources_failed": 0,
         "sources_degraded": null,
-        "documents_discovered": 6956,
-        "documents_retained": 5,
+        "documents_discovered": 0,
+        "documents_retained": 0,
         "report_target": 100,
-        "translations_attempted": 3,
-        "translations_success": 3,
+        "translations_attempted": 0,
+        "translations_success": 0,
         "translation_failures": 0,
-        "collection_confidence": "HIGH",
+        "collection_confidence": "LOW",
         "collection_confidence_reasons": [
-          "174/174 source paths reached"
+          "no completed collection run recorded for this date"
         ],
         "reports_collected": 19,
         "reports_published": 26,
@@ -1450,13 +1451,13 @@
           "ar": 1
         }
       },
-      "sultana_daily_text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nDaily bottom line for 2026-09-29: Reporting collected on 2026-09-29 does not yet support a clear account of a new incident in Mali, Burkina Faso, or Niger. The desk received 19 reports from 14 sources, but the automated incident record needs further review. This is not evidence of calm on the ground.\n\nMali: 16 retained reports. 1. FUNERAL CEREMONY: the FAMa pay a final tribute to retired Brigadier General Sirakoro SANGARE. The funeral ceremony of retired Brigadier General Sirakoro SANGARE took place on Tuesday, September 29, 2026, in the place of arms of the 34th Military Engineer Regiment, in the presence of many military, civil, political, administrative and religious authorities, as well as several of his classmates . Born on 22 December 1948 in Bafoulabé, retired Brigadier General Sirakoro SANGARE was the son of Guedjouma and Aminata SAKILIBA. 2. Terrorist tracking: The FAMa neutralize several armed groups east of Boghasa and southeast of Sofara. The General Staff of the Armed Forces informs the national opinion that the Malian Armed Forces (FAMa), supported by their partners, are continuing the permanent operations of surveillance, control and security of the national territory as part of Operation Dougoukoloko . On Monday, September 28, 2026, the exploitation of precise information made it possible to locate, east of the village of Boghassa, Kidal region, a group of terrorist elements preparing to bivouac for the night. 3. Mali: at least 3 Russian soldiers and 4 paramilitaries killed in a jihadist attack. Mali: at least 3 Russian servicemen and 4 paramilitaries killed in jihadist attack At least three Malian servicemen and four Russian paramilitaries of Africa Corps, were killed Sunday when their convoy fell in a jihadist ambush in the center of the country, AFP learned Tuesday from security and local sources This new assault comes amid an upsurge in attacks by jihadists from the Al-Qaeda-affiliated Support Group for Islam and Muslims (JNIM) in the Sahelian country, which has been in conflict since 2012.\n\nBurkina Faso: 2 retained reports. 1. Burkina Faso: Junta-Led Government Inaugurates First Gold Refinery. By Enyichukwu Enemanna The military-governed Burkina Faso has inaugurated its first gold refinery, as the West African country seeks to process more of its mineral resources locally and generate more revenue from its gold industry. According to a statement from the Communications Directorate of the Presidency of Faso, head of the junta government, President Ibrahim Traoré inaugurated the National Gold Refinery of Burkina Faso, known as RAFFINOR-BF, on Monday. 2. Burkina Faso opens first-ever gold refinery. Burkina Faso opened its first gold refinery on Monday, pushing ahead with plans to better organise the commercialisation of the precious metal in one of the continent’s top producers. The West African nation is the continent’s third leading gold producer, churning out more than 94 tonnes of the precious metal last year, according to the World Gold Council. But authorities traditionally struggle to control the informal gold mining sector, which has been blighted by jihadist violence and smuggling.\n\nNiger: 1 retained report. 1. APC donates N52m to families of 37 dead miners in Niger. The All Progressives Congress (APC) has donated N52 million to the survivors and families of the 37 miners who died in the custody of the Nigeria Security and Civil Defence Corps (NSCDC) in Niger. Governor Umaru Bago disclosed this on Tuesday when he received the National Working Committee (NWC) of the party, led by its National Chairman, Prof. Nentawe Yilwatda, on a condolence visit over the incident.\n\nActor picture: no same-day fused candidate events.\n\nWhat changed: State: -2 same-day fused event(s) versus 2026-09-28 (2 → 0). Collection volume: +4 retained report(s) versus 2026-09-28 (15 → 19).\n\nIntelligence gaps: 1 newly collected operational/candidate report(s) have unresolved or publication-proxy event dates.\n\nCollection confidence: HIGH. 174/174 source paths reached\n\nAll retained source reports, including reports not promoted to the map, remain individually summarized in the intelligence feed and source records."
+      "sultana_daily_text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nDaily bottom line for 2026-09-29: Reporting collected on 2026-09-29 does not yet support a clear account of a new incident in Mali, Burkina Faso, or Niger. The desk received 19 reports from 14 sources, but the automated incident record needs further review. This is not evidence of calm on the ground.\n\nMali: 16 retained reports. 1. FUNERAL CEREMONY: the FAMa pay a final tribute to retired Brigadier General Sirakoro SANGARE. The funeral ceremony of retired Brigadier General Sirakoro SANGARE took place on Tuesday, September 29, 2026, in the place of arms of the 34th Military Engineer Regiment, in the presence of many military, civil, political, administrative and religious authorities, as well as several of his classmates . Born on 22 December 1948 in Bafoulabé, retired Brigadier General Sirakoro SANGARE was the son of Guedjouma and Aminata SAKILIBA. 2. Terrorist tracking: The FAMa neutralize several armed groups east of Boghasa and southeast of Sofara. The General Staff of the Armed Forces informs the national opinion that the Malian Armed Forces (FAMa), supported by their partners, are continuing the permanent operations of surveillance, control and security of the national territory as part of Operation Dougoukoloko . On Monday, September 28, 2026, the exploitation of precise information made it possible to locate, east of the village of Boghassa, Kidal region, a group of terrorist elements preparing to bivouac for the night. 3. Mali: at least 3 Russian soldiers and 4 paramilitaries killed in a jihadist attack. Mali: at least 3 Russian servicemen and 4 paramilitaries killed in jihadist attack At least three Malian servicemen and four Russian paramilitaries of Africa Corps, were killed Sunday when their convoy fell in a jihadist ambush in the center of the country, AFP learned Tuesday from security and local sources This new assault comes amid an upsurge in attacks by jihadists from the Al-Qaeda-affiliated Support Group for Islam and Muslims (JNIM) in the Sahelian country, which has been in conflict since 2012.\n\nBurkina Faso: 2 retained reports. 1. Burkina Faso: Junta-Led Government Inaugurates First Gold Refinery. By Enyichukwu Enemanna The military-governed Burkina Faso has inaugurated its first gold refinery, as the West African country seeks to process more of its mineral resources locally and generate more revenue from its gold industry. According to a statement from the Communications Directorate of the Presidency of Faso, head of the junta government, President Ibrahim Traoré inaugurated the National Gold Refinery of Burkina Faso, known as RAFFINOR-BF, on Monday. 2. Burkina Faso opens first-ever gold refinery. Burkina Faso opened its first gold refinery on Monday, pushing ahead with plans to better organise the commercialisation of the precious metal in one of the continent’s top producers. The West African nation is the continent’s third leading gold producer, churning out more than 94 tonnes of the precious metal last year, according to the World Gold Council. But authorities traditionally struggle to control the informal gold mining sector, which has been blighted by jihadist violence and smuggling.\n\nNiger: 1 retained report. 1. APC donates N52m to families of 37 dead miners in Niger. The All Progressives Congress (APC) has donated N52 million to the survivors and families of the 37 miners who died in the custody of the Nigeria Security and Civil Defence Corps (NSCDC) in Niger. Governor Umaru Bago disclosed this on Tuesday when he received the National Working Committee (NWC) of the party, led by its National Chairman, Prof. Nentawe Yilwatda, on a condolence visit over the incident.\n\nActor picture: no same-day fused candidate events.\n\nWhat changed: State: -2 same-day fused event(s) versus 2026-09-28 (2 → 0). Collection volume: +4 retained report(s) versus 2026-09-28 (15 → 19).\n\nIntelligence gaps: 1 newly collected operational/candidate report(s) have unresolved or publication-proxy event dates. Collection confidence is low, so absence of reporting should not be interpreted as absence of activity.\n\nCollection confidence: LOW. no completed collection run recorded for this date\n\nAll retained source reports, including reports not promoted to the map, remain individually summarized in the intelligence feed and source records."
     },
     {
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-28",
-      "generated_at": "2026-10-01T03:34:25.522451Z",
+      "generated_at": "2026-10-01T03:46:16.005324Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -1898,7 +1899,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-27",
-      "generated_at": "2026-10-01T03:34:25.430908Z",
+      "generated_at": "2026-10-01T03:46:15.999873Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -2216,7 +2217,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-26",
-      "generated_at": "2026-10-01T03:34:25.787548Z",
+      "generated_at": "2026-10-01T03:46:15.499732Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -2469,7 +2470,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-25",
-      "generated_at": "2026-10-01T03:34:25.408857Z",
+      "generated_at": "2026-10-01T03:46:16.099231Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -2844,7 +2845,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-24",
-      "generated_at": "2026-10-01T03:34:25.621804Z",
+      "generated_at": "2026-10-01T03:46:16.037057Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -3216,7 +3217,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-23",
-      "generated_at": "2026-10-01T03:34:25.397998Z",
+      "generated_at": "2026-10-01T03:46:15.612707Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -3535,7 +3536,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-22",
-      "generated_at": "2026-10-01T03:34:25.998507Z",
+      "generated_at": "2026-10-01T03:46:15.604612Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -4462,7 +4463,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-21",
-      "generated_at": "2026-10-01T03:34:25.425264Z",
+      "generated_at": "2026-10-01T03:46:16.112614Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -4976,7 +4977,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-20",
-      "generated_at": "2026-10-01T03:34:26.120894Z",
+      "generated_at": "2026-10-01T03:46:15.634095Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -5620,7 +5621,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-19",
-      "generated_at": "2026-10-01T03:34:25.592908Z",
+      "generated_at": "2026-10-01T03:46:16.053158Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -6324,7 +6325,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-18",
-      "generated_at": "2026-10-01T03:34:25.964126Z",
+      "generated_at": "2026-10-01T03:46:15.483444Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -6534,7 +6535,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-17",
-      "generated_at": "2026-10-01T03:34:25.419662Z",
+      "generated_at": "2026-10-01T03:46:15.351280Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -6801,7 +6802,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-16",
-      "generated_at": "2026-10-01T03:34:25.606025Z",
+      "generated_at": "2026-10-01T03:46:15.446501Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -6963,7 +6964,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-15",
-      "generated_at": "2026-10-01T03:34:26.168700Z",
+      "generated_at": "2026-10-01T03:46:15.404163Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -7125,7 +7126,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-14",
-      "generated_at": "2026-10-01T03:34:25.325519Z",
+      "generated_at": "2026-10-01T03:46:16.058399Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -7287,7 +7288,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-13",
-      "generated_at": "2026-10-01T03:34:25.953030Z",
+      "generated_at": "2026-10-01T03:46:15.803074Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -7449,7 +7450,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-12",
-      "generated_at": "2026-10-01T03:34:25.919368Z",
+      "generated_at": "2026-10-01T03:46:15.409423Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -7611,7 +7612,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-11",
-      "generated_at": "2026-10-01T03:34:25.699739Z",
+      "generated_at": "2026-10-01T03:46:15.486208Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -7773,7 +7774,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-10",
-      "generated_at": "2026-10-01T03:34:25.694368Z",
+      "generated_at": "2026-10-01T03:46:15.834837Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -8031,7 +8032,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-08",
-      "generated_at": "2026-10-01T03:34:26.160858Z",
+      "generated_at": "2026-10-01T03:46:16.063669Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -8193,7 +8194,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-07",
-      "generated_at": "2026-10-01T03:34:25.924544Z",
+      "generated_at": "2026-10-01T03:46:15.983937Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -8359,7 +8360,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-05",
-      "generated_at": "2026-10-01T03:34:25.589958Z",
+      "generated_at": "2026-10-01T03:46:16.091242Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -8521,7 +8522,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-04",
-      "generated_at": "2026-10-01T03:34:25.893403Z",
+      "generated_at": "2026-10-01T03:46:15.596385Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -8683,7 +8684,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-03",
-      "generated_at": "2026-10-01T03:34:25.340666Z",
+      "generated_at": "2026-10-01T03:46:15.518269Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -8845,7 +8846,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-02",
-      "generated_at": "2026-10-01T03:34:25.360876Z",
+      "generated_at": "2026-10-01T03:46:15.526708Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -9007,7 +9008,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-01",
-      "generated_at": "2026-10-01T03:34:25.548467Z",
+      "generated_at": "2026-10-01T03:46:15.628405Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -9169,7 +9170,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-08-31",
-      "generated_at": "2026-10-01T03:34:25.414190Z",
+      "generated_at": "2026-10-01T03:46:15.813254Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -9331,7 +9332,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-08-30",
-      "generated_at": "2026-10-01T03:34:25.911565Z",
+      "generated_at": "2026-10-01T03:46:15.472807Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -9493,7 +9494,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-08-29",
-      "generated_at": "2026-10-01T03:34:25.901185Z",
+      "generated_at": "2026-10-01T03:46:15.781690Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -9659,7 +9660,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-08-23",
-      "generated_at": "2026-10-01T03:34:25.794160Z",
+      "generated_at": "2026-10-01T03:46:15.981333Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -9821,7 +9822,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-08-16",
-      "generated_at": "2026-10-01T03:34:25.452263Z",
+      "generated_at": "2026-10-01T03:46:15.663137Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
