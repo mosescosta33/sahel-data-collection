@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-01T02:53:59.653713Z",
+  "generated_at": "2026-10-01T03:34:24.787284Z",
   "window_days": 30,
   "cutoff": "2026-09-01",
-  "reports": 186,
+  "reports": 187,
   "incident_reports": 43,
   "candidate_events": 35,
   "corroborated_events": 2,
@@ -31,7 +31,7 @@
     "civilian targeting": 1
   },
   "by_language": {
-    "fr": 132,
+    "fr": 133,
     "en": 47,
     "ar": 7
   },
@@ -42,7 +42,7 @@
   "top_sources": [
     {
       "source": "Bamada",
-      "count": 19
+      "count": 20
     },
     {
       "source": "Malijet",
@@ -287,7 +287,7 @@
     },
     {
       "date": "2026-10-01",
-      "reports": 5,
+      "reports": 6,
       "events": 0
     }
   ],
@@ -2617,7 +2617,7 @@
   "latest_reports": [
     {
       "published_at": null,
-      "discovered_at": "2026-10-01T02:52:51.094628Z",
+      "discovered_at": "2026-10-01T03:33:03.792705Z",
       "source": "aNiamey.com",
       "language": "fr",
       "actor": "Other",
@@ -2630,7 +2630,7 @@
     },
     {
       "published_at": null,
-      "discovered_at": "2026-10-01T02:52:50.834103Z",
+      "discovered_at": "2026-10-01T03:33:03.371939Z",
       "source": "aNiamey.com",
       "language": "fr",
       "actor": "JNIM",
@@ -2643,7 +2643,7 @@
     },
     {
       "published_at": null,
-      "discovered_at": "2026-10-01T02:52:50.628098Z",
+      "discovered_at": "2026-10-01T03:33:02.905145Z",
       "source": "aNiamey.com",
       "language": "fr",
       "actor": null,
@@ -2656,7 +2656,7 @@
     },
     {
       "published_at": null,
-      "discovered_at": "2026-10-01T02:52:50.055962Z",
+      "discovered_at": "2026-10-01T03:33:02.566798Z",
       "source": "aNiamey.com",
       "language": "fr",
       "actor": "Other",
@@ -2666,6 +2666,19 @@
       "candidate_event": true,
       "title": "Niger: 16 soldiers fellat the front and 15 terrorists neutralized in a terrorist ambushbetween Bankilar and Tira (TillabRi)",
       "url": "http://news.aniamey.com/h/123221.html"
+    },
+    {
+      "published_at": "2026-10-01T02:50:25Z",
+      "discovered_at": "2026-10-01T03:33:03.995162Z",
+      "source": "Bamada",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Bamako",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Fuel Supply in Mali: The Mass Arrival of Secure Convoys Instills a New Order in Distribution",
+      "url": "https://bamada.net/approvisionnement-en-carburant-au-mali-larrivee-massive-de-convois-securises-insuffle-un-nouvel-ordre-dans-la-distribution"
     },
     {
       "published_at": null,
@@ -2773,7 +2786,7 @@
     },
     {
       "published_at": "2026-09-30T16:45:03Z",
-      "discovered_at": "2026-10-01T02:31:17.122196Z",
+      "discovered_at": "2026-10-01T03:33:04.263902Z",
       "source": "Africanews",
       "language": "en",
       "actor": "State",
@@ -2890,7 +2903,7 @@
     },
     {
       "published_at": "2026-09-30T05:20:33Z",
-      "discovered_at": "2026-10-01T02:53:31.889153Z",
+      "discovered_at": "2026-10-01T03:33:45.766803Z",
       "source": "Africanews",
       "language": "en",
       "actor": null,
@@ -3121,19 +3134,6 @@
       "candidate_event": true,
       "title": "Sectors of Niono and Dioura: The FAMa strike several terrorist positions with precision",
       "url": "https://bamada.net/secteurs-de-niono-et-dioura-les-fama-frappent-plusieurs-positions-terroristes-avec-precision"
-    },
-    {
-      "published_at": "2026-09-29T10:38:03Z",
-      "discovered_at": "2026-09-29T11:28:59.703866Z",
-      "source": "Malijet",
-      "language": "fr",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Dioura",
-      "event_type": "security operation",
-      "candidate_event": true,
-      "title": "Operation Dougoukoloko: FAMa surgical strikes, several terrorist hideouts wiped out in the center of the country",
-      "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312079-operation-dougoukoloko-frappes-chirurgicales-des-fama-plu.html"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
