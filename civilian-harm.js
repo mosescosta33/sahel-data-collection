@@ -27,7 +27,7 @@
   const civilianContext=/\b(civilian(?:s)?|villager(?:s)?|resident(?:s)?|farmer(?:s)?|pastoralist(?:s)?|women|children|child|famil(?:y|ies)|non[- ]combatant(?:s)?|civilian population|population civile|civils?|villageois|habitants)\b/i;
   const disputeContext=/\b(den(?:y|ied|ies)|disput(?:e|ed|es)|reject(?:ed|s)? the allegation|contested|counterclaim|said the victims were|described the dead as militants)\b/i;
 
-  const ui={country:'all',category:'all'};
+  const ui={country:'all',category:'all',days:30};
   let reports=[];
   let events=[];
   let cases=[];
@@ -132,9 +132,76 @@
     return cases.filter(c=>(ui.country==='all'||c.country===ui.country)&&(ui.category==='all'||c.categories.some(x=>x.code===ui.category)));
   }
   function setText(id,v){const el=document.getElementById(id);if(el)el.textContent=v}
+  function shortDate(v){
+    if(!v)return '—';
+    const d=new Date(String(v).slice(0,10)+'T00:00:00Z');
+    if(isNaN(d))return String(v);
+    return d.toLocaleDateString(undefined,{month:'short',day:'numeric',timeZone:'UTC'});
+  }
+  function trendRows(){
+    const rows=[];
+    const today=new Date();today.setUTCHours(0,0,0,0);
+    for(let back=ui.days-1;back>=0;back--){
+      const d=new Date(today.getTime()-back*86400000);
+      const iso=d.toISOString().slice(0,10);
+      rows.push({date:iso,screened:0,multi:0,review:0});
+    }
+    const idx=new Map(rows.map((r,i)=>[r.date,i]));
+    for(const c of filteredCases()){
+      const date=String(c.event_date||'').slice(0,10);
+      if(!idx.has(date))continue;
+      const row=rows[idx.get(date)];
+      row.screened+=1;
+      if(c.source_count>=2)row.multi+=1;
+      if(c.review.length)row.review+=1;
+    }
+    return rows;
+  }
+  function trendChartSVG(rows){
+    const width=900,height=260,left=48,right=14,top=18,bottom=34;
+    const maxRaw=Math.max(0,...rows.flatMap(r=>[r.screened,r.multi,r.review]));
+    const step=Math.max(1,Math.ceil(maxRaw/4)),yMax=Math.max(4,step*4);
+    const sx=i=>left+(i/Math.max(1,rows.length-1))*(width-left-right);
+    const sy=v=>top+(1-(Number(v)||0)/yMax)*(height-top-bottom);
+    let out='';
+    for(let i=0;i<=4;i++){
+      const value=yMax-i*step,y=top+i*(height-top-bottom)/4;
+      out+='<line x1="'+left+'" y1="'+y+'" x2="'+(width-right)+'" y2="'+y+'" stroke="var(--chart-grid)" stroke-width="1"/>';
+      out+='<text x="'+(left-7)+'" y="'+(y+3)+'" text-anchor="end" fill="var(--chart-axis)" font-size="10">'+value+'</text>';
+    }
+    const tickIdx=[0,Math.round((rows.length-1)*.25),Math.round((rows.length-1)*.5),Math.round((rows.length-1)*.75),rows.length-1].filter((v,i,a)=>a.indexOf(v)===i);
+    for(const i of tickIdx){
+      out+='<text x="'+sx(i)+'" y="'+(height-10)+'" text-anchor="middle" fill="var(--chart-axis)" font-size="10">'+esc(shortDate(rows[i]?.date))+'</text>';
+    }
+    out+='<text x="12" y="'+(height/2)+'" transform="rotate(-90 12 '+(height/2)+')" text-anchor="middle" fill="var(--chart-axis)" font-size="9">REPORT COUNT</text>';
+    out+='<text x="'+(width/2)+'" y="'+(height-1)+'" text-anchor="middle" fill="var(--chart-axis)" font-size="9">INCIDENT DATE</text>';
+    const series=[['screened','Screened reports','var(--cyan)'],['multi','Multi-source linked','var(--green)'],['review','Needs review','var(--amber)']];
+    for(const [key,label,color] of series){
+      const pts=rows.map((r,i)=>sx(i)+','+sy(r[key])).join(' ');
+      out+='<polyline fill="none" stroke="'+color+'" stroke-width="2.4" points="'+pts+'" vector-effect="non-scaling-stroke"/>';
+      rows.forEach((r,i)=>{
+        const v=r[key];if(!v)return;
+        out+='<circle cx="'+sx(i)+'" cy="'+sy(v)+'" r="3" fill="'+color+'"><title>'+esc(label)+' • '+esc(r.date)+' • '+v+'</title></circle>';
+        if(rows.length<=31)out+='<text x="'+sx(i)+'" y="'+Math.max(10,sy(v)-7)+'" text-anchor="middle" fill="var(--chart-axis)" font-size="9">'+v+'</text>';
+      });
+    }
+    return '<svg viewBox="0 0 '+width+' '+height+'" preserveAspectRatio="none" role="img" aria-label="Civilian harm screening trend by incident date">'+out+'</svg>'+
+      '<div class="chartlegend"><span><i class="dot" style="background:var(--cyan)"></i>Screened reports</span><span><i class="dot" style="background:var(--green)"></i>Multi-source linked</span><span><i class="dot" style="background:var(--amber)"></i>Needs review</span></div>';
+  }
+  function renderTrend(){
+    const rows=trendRows();
+    const chart=q('#civilianTrendChart');if(chart)chart.innerHTML=trendChartSVG(rows);
+    const total=rows.reduce((n,r)=>n+r.screened,0),multi=rows.reduce((n,r)=>n+r.multi,0),review=rows.reduce((n,r)=>n+r.review,0);
+    const first=rows[0]?.date,last=rows.at(-1)?.date;
+    setText('civilianTrendReadout',shortDate(first)+' → '+shortDate(last)+' • screened '+total+' • multi-source '+multi+' • needs review '+review+' • peak/day '+Math.max(0,...rows.map(r=>r.screened)));
+    const data=q('#civilianTrendData');
+    if(data)data.innerHTML='<table class="numeric-data-table"><thead><tr><th>Date</th><th>Screened reports</th><th>Multi-source linked</th><th>Needs review</th></tr></thead><tbody>'+rows.map(r=>'<tr><td>'+esc(r.date)+'</td><td>'+r.screened+'</td><td>'+r.multi+'</td><td>'+r.review+'</td></tr>').join('')+'</tbody></table>';
+    qa('.civilian-range').forEach(b=>b.classList.toggle('active',Number(b.dataset.civilianDays)===ui.days));
+  }
   function barRows(items){
     const max=Math.max(1,...items.map(x=>x[1]));
-    return items.map(([label,n])=>'<div class="civilian-breakdown-row"><span>'+esc(label)+'</span><div class="civilian-breakdown-track"><div class="civilian-breakdown-fill" style="width:'+Math.max(4,Math.round(n/max*100))+'%"></div></div><strong>'+esc(n)+'</strong></div>').join('');
+    const total=Math.max(1,items.reduce((n,x)=>n+(Number(x[1])||0),0));
+    return items.map(([label,n])=>'<div class="civilian-breakdown-row"><span>'+esc(label)+'</span><div class="civilian-breakdown-track" title="'+esc(label)+': '+esc(n)+'"><div class="civilian-breakdown-fill" style="width:'+Math.max(4,Math.round(n/max*100))+'%"></div></div><strong>'+esc(n)+' · '+Math.round((Number(n)||0)*100/total)+'%</strong></div>').join('');
   }
   function countBy(values){
     const m=new Map();
@@ -176,6 +243,7 @@
     setText('civilianMulti',cases.filter(c=>c.source_count>=2).length);
     setText('civilianReview',cases.filter(c=>c.review.length).length);
     renderBreakdowns();
+    renderTrend();
     const rows=filteredCases();
     setText('civilianCaseCount',rows.length+' case'+(rows.length===1?'':'s'));
     const host=q('#civilianCases');
@@ -209,6 +277,7 @@
   }
   function bind(){
     qa('.civilian-country-filter').forEach(b=>b.onclick=()=>{ui.country=b.dataset.civilianCountry||'all';render()});
+    qa('.civilian-range').forEach(b=>b.onclick=()=>{ui.days=Math.max(1,Number(b.dataset.civilianDays)||30);render()});
     const category=q('#civilianCategory');if(category)category.onchange=()=>{ui.category=category.value||'all';render()};
     const json=q('#downloadCivilianJson');if(json)json.onclick=()=>exportRows('json');
     const csv=q('#downloadCivilianCsv');if(csv)csv.onclick=()=>exportRows('csv');
