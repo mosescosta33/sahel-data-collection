@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-01T03:46:14.835617Z",
+  "generated_at": "2026-10-01T03:59:47.164286Z",
   "window_days": 30,
   "cutoff": "2026-09-01",
-  "reports": 187,
+  "reports": 189,
   "incident_reports": 43,
   "candidate_events": 35,
   "corroborated_events": 2,
@@ -31,8 +31,8 @@
     "civilian targeting": 1
   },
   "by_language": {
-    "fr": 133,
-    "en": 47,
+    "fr": 134,
+    "en": 48,
     "ar": 7
   },
   "by_confidence": {
@@ -69,11 +69,15 @@
       "count": 7
     },
     {
+      "source": "Sidwaya",
+      "count": 7
+    },
+    {
       "source": "Critical Threats Project - Africa File",
       "count": 6
     },
     {
-      "source": "Sidwaya",
+      "source": "Punch Newspapers (Nigeria)",
       "count": 6
     },
     {
@@ -82,10 +86,6 @@
     },
     {
       "source": "AllAfrica (Édition Française)",
-      "count": 5
-    },
-    {
-      "source": "LeFaso.net",
       "count": 5
     }
   ],
@@ -287,7 +287,7 @@
     },
     {
       "date": "2026-10-01",
-      "reports": 6,
+      "reports": 8,
       "events": 0
     }
   ],
@@ -2616,8 +2616,21 @@
   ],
   "latest_reports": [
     {
+      "published_at": "2026-10-01T04:30:56Z",
+      "discovered_at": "2026-10-01T03:59:07.921375Z",
+      "source": "Punch Newspapers (Nigeria)",
+      "language": "en",
+      "actor": null,
+      "country": "Niger",
+      "city": null,
+      "event_type": "law enforcement",
+      "candidate_event": false,
+      "title": "Navy recovers 80,000 litres of stolen crude, arrests three",
+      "url": "https://punchng.com/navy-recovers-80000-litres-of-stolen-crude-arrests-three/"
+    },
+    {
       "published_at": null,
-      "discovered_at": "2026-10-01T03:45:01.378161Z",
+      "discovered_at": "2026-10-01T03:58:23.192120Z",
       "source": "aNiamey.com",
       "language": "fr",
       "actor": "Other",
@@ -2630,7 +2643,7 @@
     },
     {
       "published_at": null,
-      "discovered_at": "2026-10-01T03:45:00.934860Z",
+      "discovered_at": "2026-10-01T03:58:22.903754Z",
       "source": "aNiamey.com",
       "language": "fr",
       "actor": "JNIM",
@@ -2643,7 +2656,7 @@
     },
     {
       "published_at": null,
-      "discovered_at": "2026-10-01T03:45:00.291537Z",
+      "discovered_at": "2026-10-01T03:58:22.081126Z",
       "source": "aNiamey.com",
       "language": "fr",
       "actor": null,
@@ -2656,7 +2669,7 @@
     },
     {
       "published_at": null,
-      "discovered_at": "2026-10-01T03:44:59.830838Z",
+      "discovered_at": "2026-10-01T03:58:21.815230Z",
       "source": "aNiamey.com",
       "language": "fr",
       "actor": "Other",
@@ -2666,6 +2679,19 @@
       "candidate_event": true,
       "title": "Niger: 16 soldiers fellat the front and 15 terrorists neutralized in a terrorist ambushbetween Bankilar and Tira (TillabRi)",
       "url": "http://news.aniamey.com/h/123221.html"
+    },
+    {
+      "published_at": "2026-10-01T03:46:30Z",
+      "discovered_at": "2026-10-01T03:58:27.322069Z",
+      "source": "Sidwaya",
+      "language": "fr",
+      "actor": "State",
+      "country": "Burkina Faso",
+      "city": null,
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Night of the People's Progressive Revolution: the main achievements presented to the population",
+      "url": "https://www.sidwaya.info/nuit-de-la-revolution-progressiste-populaire-les-principaux-acquis-presentes-a-la-population/"
     },
     {
       "published_at": "2026-10-01T02:50:25Z",
@@ -3108,32 +3134,6 @@
       "candidate_event": false,
       "title": "APC donates N52m to families of 37 dead miners in Niger",
       "url": "https://www.vanguardngr.com/2026/09/apc-donates-n52m-to-families-of-37-dead-miners-in-niger/"
-    },
-    {
-      "published_at": "2026-09-29T13:38:07Z",
-      "discovered_at": "2026-09-30T23:28:25.740994Z",
-      "source": "AllAfrica (English Edition)",
-      "language": "en",
-      "actor": "Africa Corps/Wagner",
-      "country": "Mali",
-      "city": null,
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Amnesty Report Accuses Mali Army, Wagner Group of War Crimes",
-      "url": "https://allafrica.com/view/group/main/main/id/00098284.html"
-    },
-    {
-      "published_at": "2026-09-29T13:36:16Z",
-      "discovered_at": "2026-09-29T14:31:17.312023Z",
-      "source": "Bamada",
-      "language": "fr",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Dioura",
-      "event_type": "security operation",
-      "candidate_event": true,
-      "title": "Sectors of Niono and Dioura: The FAMa strike several terrorist positions with precision",
-      "url": "https://bamada.net/secteurs-de-niono-et-dioura-les-fama-frappent-plusieurs-positions-terroristes-avec-precision"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
