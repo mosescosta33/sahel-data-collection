@@ -8,6 +8,7 @@
   const byId = id => document.getElementById(id);
   const goodCoord = (lat,lng) => lat !== null && lng !== null && lat !== '' && lng !== '' && Number.isFinite(Number(lat)) && Number.isFinite(Number(lng)) && Math.abs(Number(lat)) <= 90 && Math.abs(Number(lng)) <= 180 && !(Number(lat) === 0 && Number(lng) === 0);
   let map, lastState, callbacks, currentFeatures=empty(), recordIndex=new Map(), visibleEvents=[], dates=[], layersReady=false, markerHandlers=false;
+  let domMarkers=[];
   let fallback=false, loadTimer, controlsBound=false, svgView=[0,0,1000,560];
   let showMarkers=true, showBorders=true, styleName='positron';
   const startBounds=[[-17.8,9.0],[16.4,25.0]];
@@ -32,10 +33,77 @@
   }
 
 
+  function actorHex(actor){
+    return actor==='JNIM'?'#df625b':actor==='IS Sahel'?'#a977d8':actor==='State'?'#d39646':'#588dbd';
+  }
+  function clearDomMarkers(){
+    for(const marker of domMarkers){try{marker.remove()}catch(_){}}
+    domMarkers=[];
+  }
+  function renderDomMarkers(){
+    clearDomMarkers();
+    if(!map||fallback||!showMarkers||!window.maplibregl)return;
+
+    // Group identical coordinates so overlapping reports remain visible and clickable.
+    const groups=new Map();
+    for(const f of currentFeatures.features||[]){
+      const coords=f?.geometry?.coordinates;
+      const e=recordIndex.get(f?.properties?.key);
+      if(!Array.isArray(coords)||coords.length<2||!e)continue;
+      const lng=Number(coords[0]),lat=Number(coords[1]);
+      if(!goodCoord(lat,lng))continue;
+      const key=`${lng.toFixed(5)},${lat.toFixed(5)}`;
+      if(!groups.has(key))groups.set(key,{coords:[lng,lat],rows:[]});
+      groups.get(key).rows.push(e);
+    }
+
+    for(const group of groups.values()){
+      const rows=group.rows;
+      if(!rows.length)continue;
+      const unique=[];
+      const seen=new Set();
+      for(const e of rows){
+        const id=String(e._event_id||e.id||`${e.event_date}|${e.title}`);
+        if(seen.has(id))continue;
+        seen.add(id);unique.push(e);
+      }
+      const lead=unique[0]||rows[0];
+      const el=document.createElement('button');
+      el.type='button';
+      el.className='sahel-dom-marker';
+      el.title=unique.length>1
+        ? `${unique.length} candidate events at ${lead.city||lead.country||'this location'}`
+        : `${lead.city||lead.country||'Location'} · ${lead.event_date||''} · ${lead.title||lead.event_type||'Candidate event'}`;
+      el.setAttribute('aria-label',el.title);
+      el.style.width=unique.length>1?'24px':'18px';
+      el.style.height=unique.length>1?'24px':'18px';
+      el.style.borderRadius='999px';
+      el.style.border='2px solid #ffffff';
+      el.style.background=actorHex(lead.actor);
+      el.style.boxShadow='0 1px 3px rgba(0,0,0,.55), 0 0 0 3px rgba(20,35,45,.20)';
+      el.style.color='#ffffff';
+      el.style.font='700 10px/1 system-ui,sans-serif';
+      el.style.display='grid';
+      el.style.placeItems='center';
+      el.style.padding='0';
+      el.style.cursor='pointer';
+      el.style.zIndex='12';
+      if(unique.length>1)el.textContent=String(unique.length);
+      el.addEventListener('click',ev=>{
+        ev.preventDefault();ev.stopPropagation();
+        if(unique.length>1&&callbacks.showEventCluster)callbacks.showEventCluster(unique);
+        else{callbacks.showEventDetail(lead);enhanceDetails(lead);}
+      });
+      const marker=new maplibregl.Marker({element:el,anchor:'center'})
+        .setLngLat(group.coords)
+        .addTo(map);
+      domMarkers.push(marker);
+    }
+  }
   function status(message){const el=byId('mapLoadStatus');if(!el)return;el.hidden=!message;el.textContent=message||''}
   function activateFallback(){
     if(fallback)return;
-    fallback=true;clearTimeout(loadTimer);layersReady=false;
+    fallback=true;clearTimeout(loadTimer);layersReady=false;clearDomMarkers();
     try{map?.remove()}catch(_){}map=null;
     const host=byId('map');if(host)host.replaceChildren();
     status('Compatibility map · drag to pan, use + / − to zoom. Street tiles unavailable.');
@@ -102,32 +170,23 @@
     const countries=(window.SAHEL_MAP_DATA?.countries||[]).filter(f=>AES.has(f.properties?.name));
     map.addSource('sahel-borders',{type:'geojson',data:{type:'FeatureCollection',features:countries}});
     map.addLayer({id:'sahel-border-lines',type:'line',source:'sahel-borders',paint:{'line-color':'#dd6758','line-width':['interpolate',['linear'],['zoom'],3,1.2,8,2.4],'line-opacity':0.78}});
-    map.addSource('sahel-events',{type:'geojson',data:currentFeatures,cluster:true,clusterRadius:43,clusterMaxZoom:11});
-    map.addLayer({id:'sahel-clusters',type:'circle',source:'sahel-events',filter:['has','point_count'],paint:{'circle-color':'#b85e3e','circle-radius':['step',['get','point_count'],18,8,23,30,29],'circle-stroke-color':'#ffffff','circle-stroke-width':2,'circle-opacity':0.95}});
-    map.addLayer({id:'sahel-cluster-count',type:'symbol',source:'sahel-events',filter:['has','point_count'],layout:{'text-field':['get','point_count_abbreviated'],'text-size':13},paint:{'text-color':'#ffffff'}});
-    map.addLayer({id:'sahel-points',type:'circle',source:'sahel-events',filter:['!', ['has','point_count']],paint:{'circle-radius':['interpolate',['linear'],['zoom'],4,7,10,11],'circle-color':['match',['get','actor'],'JNIM','#df625b','IS Sahel','#a977d8','State','#d39646','#588dbd'],'circle-stroke-color':'#ffffff','circle-stroke-width':2.2}});
-    if(!markerHandlers){
-      markerHandlers=true;
-      map.on('click','sahel-clusters',async ev=>{
-        const f=ev.features?.[0];if(!f)return;
-        try{const zoom=await map.getSource('sahel-events').getClusterExpansionZoom(f.properties.cluster_id);map.easeTo({center:f.geometry.coordinates,zoom:Math.min(zoom,13),duration:420})}catch(err){console.warn(err)}
-      });
-      map.on('click','sahel-points',ev=>{
-        const key=ev.features?.[0]?.properties?.key;const e=recordIndex.get(key);
-        if(e){callbacks.showEventDetail(e);enhanceDetails(e);}
-      });
-      ['sahel-clusters','sahel-points'].forEach(layer=>{
-        map.on('mouseenter',layer,()=>map.getCanvas().style.cursor='pointer');
-        map.on('mouseleave',layer,()=>map.getCanvas().style.cursor='');
-      });
-    }
+    // Keep the GeoJSON source for diagnostics/future clustering, but render event
+    // symbols as DOM markers above the map canvas. This avoids style-layer failures
+    // making all incidents invisible while the data/counts remain present.
+    map.addSource('sahel-events',{type:'geojson',data:currentFeatures});
+    markerHandlers=true;
     applyVisibility();
+    renderDomMarkers();
   }
   function applyVisibility(){
     if(fallback){renderFallback();return}
     if(!map||!layersReady)return;
-    for(const id of ['sahel-clusters','sahel-cluster-count','sahel-points'])if(map.getLayer(id))map.setLayoutProperty(id,'visibility',showMarkers?'visible':'none');
     if(map.getLayer('sahel-border-lines'))map.setLayoutProperty('sahel-border-lines','visibility',showBorders?'visible':'none');
+    for(const marker of domMarkers){
+      const el=marker.getElement?.();
+      if(el)el.style.display=showMarkers?'grid':'none';
+    }
+    if(showMarkers&&!domMarkers.length)renderDomMarkers();
   }
   function render(state, api){
     lastState=state;callbacks=api;initialize();
@@ -156,6 +215,7 @@
     });
     currentFeatures={type:'FeatureCollection',features};
     if(layersReady&&map.getSource('sahel-events'))map.getSource('sahel-events').setData(currentFeatures);
+    if(layersReady&&map)renderDomMarkers();
     const count=byId('mapExplorerCount');if(count)count.textContent=`${visibleEvents.length} candidate events · ${features.length} map locations`;
     const totals=byId('mapCountryCounts');if(totals)totals.textContent=`${state.mapDays==='all'?'All available dates':state.mapDays===1?'Last 24 hours':`Last ${state.mapDays} days`} · ${visibleEvents.length} candidate events · ${features.length} map locations · ${missing.length} without precise coordinates`;
     const country=byId('mapCountryOnly');if(country){country.innerHTML=missing.length?`<h4>Location not precise (${missing.length})</h4><p>These records have no usable coordinates. They are listed here without a map pin.</p>${missing.slice(0,12).map((e,i)=>`<button type="button" data-missing="${i}">${api.esc([e.city,e.country].filter(Boolean).join(', ')||'Location unresolved')} · ${api.esc(e.event_date||'Date unresolved')}</button>`).join('')}`:'';country.querySelectorAll('[data-missing]').forEach(b=>b.onclick=()=>{const e=missing[Number(b.dataset.missing)];api.showEventDetail(e);enhanceDetails(e)})}
