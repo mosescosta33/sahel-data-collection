@@ -1,5 +1,5 @@
-const SITE_UI_VERSION='3.0.13';
-const state={overview:null,reports:[],events:[],metrics:null,thirty:null,sources:[],runs:[],briefing:null,actorFilter:'all',mapDays:7,langFilter:'all',countryFilter:'all',range:30,voices:[],speaking:false,readerRunning:false,readerPaused:false,readerIndex:0,readerCycle:0,readerRange:30,readerQueue:[],readerSession:0,timelineDate:null};
+const SITE_UI_VERSION='3.1.0';
+const state={overview:null,reports:[],events:[],metrics:null,thirty:null,sources:[],runs:[],briefing:null,actorFilter:'all',mapDays:7,langFilter:'all',countryFilter:'all',range:30,voices:[],speaking:false,readerRunning:false,readerPaused:false,readerIndex:0,readerCycle:0,readerRange:30,readerQueue:[],readerSession:0,timelineDate:null,savedReports:[]};
 const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
 const esc=s=>String(s??'').replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
 const fmtTime=v=>{if(!v)return '—'; const d=new Date(v); return isNaN(d)?'—':d.toLocaleString()};
@@ -23,6 +23,67 @@ function applyTheme(theme){
 applyTheme(document.documentElement.dataset.theme||'dark');
 const themeButton=$('#themeToggle');if(themeButton)themeButton.onclick=()=>applyTheme(document.documentElement.dataset.theme==='light'?'dark':'light');
 
+const SAVED_REPORTS_KEY='sicSavedReportsV1';
+
+function reportKey(r){
+  return String(r?.id||r?.url||[r?.source,r?.title,r?.published_at,r?.discovered_at].filter(Boolean).join('|'));
+}
+function loadSavedReports(){
+  try{
+    const raw=JSON.parse(localStorage.getItem(SAVED_REPORTS_KEY)||'[]');
+    if(!Array.isArray(raw))return [];
+    const seen=new Set(),rows=[];
+    for(const r of raw){if(!r||typeof r!=='object')continue;const key=reportKey(r);if(!key||seen.has(key))continue;seen.add(key);rows.push(r);}
+    return rows;
+  }catch(e){console.warn('Could not load saved reports',e);return [];}
+}
+function persistSavedReports(){
+  try{localStorage.setItem(SAVED_REPORTS_KEY,JSON.stringify(state.savedReports));return true;}
+  catch(e){console.error('Could not save reports locally',e);const status=$('#savedReportsStatus');if(status)status.textContent='Browser storage could not be updated. The saved set may not persist after refresh.';return false;}
+}
+function isReportSaved(r){const key=reportKey(r);return Boolean(key)&&state.savedReports.some(x=>reportKey(x)===key);}
+function reportSnapshot(r){const copy={...r,_saved_at:new Date().toISOString()};try{return JSON.parse(JSON.stringify(copy))}catch(_){return copy}}
+function toggleSavedReport(encodedKey){
+  let key='';try{key=decodeURIComponent(encodedKey||'')}catch(_){key=String(encodedKey||'')}
+  if(!key)return;
+  const existing=state.savedReports.findIndex(r=>reportKey(r)===key);
+  if(existing>=0){state.savedReports.splice(existing,1);}else{const report=(state.reports||[]).find(r=>reportKey(r)===key);if(!report)return;state.savedReports.unshift(reportSnapshot(report));}
+  persistSavedReports();renderFeeds();renderSavedReports();
+}
+function bindSaveButtons(root){if(!root)return;root.querySelectorAll('[data-save-report]').forEach(b=>{b.onclick=()=>toggleSavedReport(b.dataset.saveReport);});}
+function updateSavedCount(){
+  const n=state.savedReports.length;setText('savedTabCount',n);
+  const status=$('#savedReportsStatus');if(status)status.textContent=n?`${n} saved report${n===1?'':'s'} stored in this browser.`:'No reports saved yet. Use SAVE REPORT on any feed card.';
+  for(const id of ['downloadSavedJson','downloadSavedCsv','clearSavedReports']){const b=document.getElementById(id);if(b)b.disabled=n===0;}
+}
+function renderSavedReports(){
+  updateSavedCount();const host=$('#savedReportsFeed');if(!host)return;
+  const rows=[...state.savedReports].sort((a,b)=>String(b._saved_at||'').localeCompare(String(a._saved_at||'')));
+  host.innerHTML=rows.map(reportCard).join('')||'<div class="runbox">No saved reports yet. Open the Intel Feed and choose SAVE REPORT on any article.</div>';
+  bindSaveButtons(host);
+}
+function downloadBlob(contents,filename,type){const blob=new Blob([contents],{type});const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download=filename;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);}
+function csvCell(v){const value=String(v??'');return '"'+value.replace(/"/g,'""')+'"';}
+function downloadSavedReports(format){
+  const rows=[...state.savedReports];if(!rows.length)return;const stamp=new Date().toISOString().slice(0,10);
+  if(format==='csv'){
+    const fields=['saved_at','title','original_title','source','country','language','published_at','collected_at','event_date','actor','event_type','perpetrator','target','summary','url'];
+    const header=fields.map(csvCell).join(',');
+    const body=rows.map(r=>{const values={saved_at:r._saved_at||'',title:r.translated_title||r.title||'',original_title:r.title||'',source:r.source||'',country:r.country||'',language:r.language||r.source_language||'',published_at:r.published_at||'',collected_at:r.discovered_at||r.collected_at||'',event_date:r.event_date||'',actor:r.actor||r.actor_bucket||'',event_type:r.event_type||'',perpetrator:r.perpetrator||'',target:r.target||'',summary:r.article_summary||r.translated_excerpt||r.excerpt||'',url:r.url||''};return fields.map(k=>csvCell(values[k])).join(',');}).join('\n');
+    downloadBlob(header+'\n'+body,'sahel-intel-saved-reports-'+stamp+'.csv','text/csv;charset=utf-8');return;
+  }
+  const payload={exported_at:new Date().toISOString(),report_count:rows.length,reports:rows};
+  downloadBlob(JSON.stringify(payload,null,2),'sahel-intel-saved-reports-'+stamp+'.json','application/json;charset=utf-8');
+}
+function bindSavedControls(){
+  const json=$('#downloadSavedJson');if(json)json.onclick=()=>downloadSavedReports('json');
+  const csv=$('#downloadSavedCsv');if(csv)csv.onclick=()=>downloadSavedReports('csv');
+  const clear=$('#clearSavedReports');if(clear)clear.onclick=()=>{if(!state.savedReports.length)return;if(!confirm(`Clear all ${state.savedReports.length} saved report${state.savedReports.length===1?'':'s'} from this browser?`))return;state.savedReports=[];persistSavedReports();renderFeeds();renderSavedReports();};
+}
+
+state.savedReports=loadSavedReports();
+bindSavedControls();
+renderSavedReports();
 function enforceInitialMapRange(){
   state.mapDays=7;
   state.timelineDate=null;
@@ -30,7 +91,7 @@ function enforceInitialMapRange(){
 }
 enforceInitialMapRange();
 
-$$('.tab').forEach(b=>b.onclick=()=>{$$('.tab').forEach(x=>x.classList.remove('active'));b.classList.add('active');$$('.view').forEach(v=>v.classList.remove('active'));$(`#view-${b.dataset.view}`).classList.add('active');if(b.dataset.view==='quant')renderQuant();if(b.dataset.view==='sources')renderOps();});
+$$('.tab').forEach(b=>b.onclick=()=>{$$('.tab').forEach(x=>x.classList.remove('active'));b.classList.add('active');$$('.view').forEach(v=>v.classList.remove('active'));$(`#view-${b.dataset.view}`).classList.add('active');if(b.dataset.view==='quant')renderQuant();if(b.dataset.view==='sources')renderOps();if(b.dataset.view==='saved')renderSavedReports();});
 $$('.filter').forEach(b=>b.onclick=()=>{$$('.filter').forEach(x=>x.classList.remove('active'));b.classList.add('active');state.actorFilter=b.dataset.actor;renderMap();});
 $$('.lang').forEach(b=>b.onclick=()=>{$$('.lang').forEach(x=>x.classList.remove('active'));b.classList.add('active');state.langFilter=b.dataset.lang;renderFeeds();});
 $$('.country-feed').forEach(b=>b.onclick=()=>{$$('.country-feed').forEach(x=>x.classList.remove('active'));b.classList.add('active');state.countryFilter=b.dataset.country;renderFeeds();});
@@ -44,7 +105,7 @@ async function refresh(){
       data('thirty_day').catch(()=>null)
     ]);
     Object.assign(state,{overview,reports,events,metrics,sources,runs,briefing,thirty});
-    renderOverview();renderThreat();renderMap();renderActors();renderFeeds();renderBriefing();renderThirty();updateReaderStatus();
+    renderOverview();renderThreat();renderMap();renderActors();renderFeeds();renderSavedReports();renderBriefing();renderThirty();updateReaderStatus();
     const active=$('.view.active')?.id;
     if(active==='view-quant')renderQuant();
     if(active==='view-sources')renderOps();
@@ -55,7 +116,18 @@ async function refresh(){
 }
 function renderOverview(){const o=state.overview||{};let status=o.status||'OFFLINE',detail=o.status_detail||'';const patch=SITE_UI_VERSION;setText('patchBadge',`PATCH v${patch}`);const pb=$('#patchBadge');if(pb)pb.title=`Sahel Intel public dashboard patch v${patch}`;if(o.last_collection){const age=(Date.now()-new Date(o.last_collection))/60000;if(age>90){status='OFFLINE';detail=`Last automated collection was ${relTime(o.last_collection)}. Scheduled collection may be disabled or failing.`}else if(age>40&&status==='LIVE'){status='DEGRADED';detail=`Last automated collection was ${relTime(o.last_collection)}. GitHub scheduled jobs can be delayed.`}}applyStatus(status,detail);setText('reports24',o.reports_24h??0);setText('sources24',o.distinct_sources_24h??0);setText('mapped24',o.mapped_events_24h??0);setText('configuredSources',o.sources_configured??74);setText('liveSources',o.sources_live??0);setText('degradedSources',o.sources_degraded??0);setText('failedSources',o.sources_failed??0);const r=o.last_run;if(r){const target=r.report_target??100;$('#runBox').innerHTML=`Last cycle ${esc(relTime(o.last_collection))}<br>${r.sources_success}/${o.sources_configured} active sources reached • ${r.documents_discovered} links discovered • ${r.documents_retained}/${target} qualifying-report target • ${r.collection_waves??1} collection wave${(r.collection_waves??1)===1?'':'s'} • ${r.event_changes} event changes`;}else{$('#runBox').textContent='Awaiting first collection run. The interface will not claim LIVE until the worker finishes a real cycle.'}}
 
-function reportCard(r){const english=r.translated_title||r.title;const hasTranslation=r.translated_title&&r.translated_title!==r.title;const summary=r.article_summary||r.translated_excerpt||r.excerpt||'';const published=r.published_at?fmtTime(r.published_at):'publication time unavailable';const collected=r.discovered_at?relTime(r.discovered_at):'unknown';const trans=r.language==='en'?'EN original':(r.translation_status==='success'?'EN translated':r.translation_status==='failed'?'translation failed / retry queued':'translation pending');const type=r.research_lead||r.retention_class==='research_lead'?'RESEARCH LEAD':(r.analytical_container?'ANALYTICAL CONTEXT':(r.candidate_event?'CANDIDATE EVENT':'CONTEXT REPORT'));return `<article class="report"><div class="report-top"><span class="badge">${esc((r.language||'').toUpperCase())}</span><span class="badge">${esc(r.country||'REGIONAL')}</span><span class="badge">${esc(r.actor_bucket||'GENERAL')}</span><span class="badge">${esc(type)}</span><span class="report-meta">${esc(r.source)}</span></div><h3>${esc(english)}</h3>${summary?`<div class="article-summary"><small>ARTICLE SUMMARY</small><p>${esc(summary)}</p></div>`:''}<div class="report-meta">Published: ${esc(published)} • Collected: ${esc(collected)} • Event date: ${esc(r.event_date||'unresolved')} (${esc(r.event_date_confidence||'unresolved')}) • ${esc(trans)}</div><div class="report-meta">${esc([r.city,r.country,r.event_type].filter(Boolean).join(' • ')||'No structured event')}${r.perpetrator?` • Perpetrator: ${esc(r.perpetrator)}`:''}${r.target?` • Target: ${esc(r.target)}`:''}</div>${hasTranslation?`<details class="original"><summary>Original ${esc((r.language||'').toUpperCase())}</summary><p>${esc(r.title)}</p></details>`:''}<a href="${esc(r.url)}" target="_blank" rel="noopener">OPEN SOURCE ↗</a></article>`}
+function reportCard(r){
+  const english=r.translated_title||r.title;
+  const hasTranslation=r.translated_title&&r.translated_title!==r.title;
+  const summary=r.article_summary||r.translated_excerpt||r.excerpt||'';
+  const published=r.published_at?fmtTime(r.published_at):'publication time unavailable';
+  const collected=r.discovered_at?relTime(r.discovered_at):'unknown';
+  const trans=r.language==='en'?'EN original':(r.translation_status==='success'?'EN translated':r.translation_status==='failed'?'translation failed / retry queued':'translation pending');
+  const type=r.research_lead||r.retention_class==='research_lead'?'RESEARCH LEAD':(r.analytical_container?'ANALYTICAL CONTEXT':(r.candidate_event?'CANDIDATE EVENT':'CONTEXT REPORT'));
+  const key=encodeURIComponent(reportKey(r));
+  const saved=isReportSaved(r);
+  return `<article class="report"><div class="report-top"><span class="badge">${esc((r.language||'').toUpperCase())}</span><span class="badge">${esc(r.country||'REGIONAL')}</span><span class="badge">${esc(r.actor_bucket||'GENERAL')}</span><span class="badge">${esc(type)}</span><span class="report-meta">${esc(r.source)}</span></div><h3>${esc(english)}</h3>${summary?`<div class="article-summary"><small>ARTICLE SUMMARY</small><p>${esc(summary)}</p></div>`:''}<div class="report-meta">Published: ${esc(published)} • Collected: ${esc(collected)} • Event date: ${esc(r.event_date||'unresolved')} (${esc(r.event_date_confidence||'unresolved')}) • ${esc(trans)}</div><div class="report-meta">${esc([r.city,r.country,r.event_type].filter(Boolean).join(' • ')||'No structured event')}${r.perpetrator?` • Perpetrator: ${esc(r.perpetrator)}`:''}${r.target?` • Target: ${esc(r.target)}`:''}</div>${hasTranslation?`<details class="original"><summary>Original ${esc((r.language||'').toUpperCase())}</summary><p>${esc(r.title)}</p></details>`:''}<div class="report-actions"><a href="${esc(r.url)}" target="_blank" rel="noopener">OPEN SOURCE ↗</a><button type="button" class="save-report-btn ${saved?'saved':''}" data-save-report="${esc(key)}">${saved?'★ SAVED':'☆ SAVE REPORT'}</button></div></article>`;
+}
 function renderThreat(){
   const t=state.overview?.threat;if(!t)return;
   const r=t.regional||{};
@@ -81,6 +153,9 @@ function renderFeeds(){
   const previewRows=state.countryFilter==='all'?preview:rows.slice(0,9);
   $('#feedPreview').innerHTML=previewRows.map(reportCard).join('')||'<div class="runbox">No relevant reports have been retained yet.</div>';
   $('#fullFeed').innerHTML=rows.map(reportCard).join('')||'<div class="runbox">No reports match the selected country/language filters.</div>';
+  bindSaveButtons($('#feedPreview'));
+  bindSaveButtons($('#fullFeed'));
+  updateSavedCount();
 }
 
 function svgEl(tag,attrs={}){const e=document.createElementNS('http://www.w3.org/2000/svg',tag);Object.entries(attrs).forEach(([k,v])=>e.setAttribute(k,v));return e}
