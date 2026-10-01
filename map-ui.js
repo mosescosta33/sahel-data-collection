@@ -124,13 +124,33 @@
       map=new maplibregl.Map({container:host,style:STYLE_ROOT+styleName,center:[0.1,16.1],zoom:4,attributionControl:true,maxZoom:16});
       map.addControl(new maplibregl.NavigationControl({showCompass:false}),'bottom-right');
       map.fitBounds(startBounds,{padding:32,duration:0});
-      map.on('style.load', installLayers);
-      map.on('error',e=>{console.warn('Map resource error',e.error||e);if(!layersReady)status('Loading street map… compatibility map will open if loading fails.')});
+
+      // Some browsers/styles can complete the initial style before a style.load
+      // listener becomes useful to us. Treat the ordinary map load as authoritative,
+      // and also retry on style.load/styledata for later style switches.
+      const ready=()=>{try{installLayers()}catch(error){console.warn('Map overlay install failed',error);layersReady=true;clearTimeout(loadTimer);status('Street map loaded; incident overlay retrying.');renderDomMarkers()}};
+      map.on('load',ready);
+      map.on('style.load',ready);
+      map.on('styledata',()=>{if(map?.isStyleLoaded())ready()});
+      map.on('error',e=>{console.warn('Map resource error',e.error||e);if(!map?.loaded())status('Loading street map… compatibility map will open only if the basemap itself fails.')});
       map.on('webglcontextlost',activateFallback);
       armTimeout();
+      queueMicrotask(()=>{if(map?.isStyleLoaded())ready()});
     }catch(error){console.warn('Using compatibility map',error);activateFallback()}
   }
-  function armTimeout(){clearTimeout(loadTimer);loadTimer=setTimeout(()=>{if(!layersReady)activateFallback()},12000)}
+  function armTimeout(){
+    clearTimeout(loadTimer);
+    loadTimer=setTimeout(()=>{
+      if(layersReady)return;
+      // Never throw away a street map that has visibly loaded just because our
+      // custom overlay hook missed an event. Install the overlay late instead.
+      if(map&&(map.loaded()||map.isStyleLoaded())){
+        try{installLayers()}catch(error){console.warn('Late overlay install failed',error);layersReady=true;status('Street map loaded; using direct incident markers.');renderDomMarkers()}
+        return;
+      }
+      activateFallback();
+    },12000);
+  }
   const projectFallback=(lng,lat)=>[(Number(lng)+17.8)/34.2*1000,(25-Number(lat))/16*560];
   function focusFallback(lng,lat){const [x,y]=projectFallback(lng,lat);svgView=[x-125,y-70,250,140];renderFallback()}
   function renderFallback(){
@@ -165,15 +185,22 @@
     host.replaceChildren(svg,controls);
   }
   function installLayers(){
-    if(!map||!map.isStyleLoaded()||map.getSource('sahel-events'))return;
+    if(!map||!map.isStyleLoaded())return;
     clearTimeout(loadTimer);layersReady=true;status('');
     const countries=(window.SAHEL_MAP_DATA?.countries||[]).filter(f=>AES.has(f.properties?.name));
-    map.addSource('sahel-borders',{type:'geojson',data:{type:'FeatureCollection',features:countries}});
-    map.addLayer({id:'sahel-border-lines',type:'line',source:'sahel-borders',paint:{'line-color':'#dd6758','line-width':['interpolate',['linear'],['zoom'],3,1.2,8,2.4],'line-opacity':0.78}});
-    // Keep the GeoJSON source for diagnostics/future clustering, but render event
-    // symbols as DOM markers above the map canvas. This avoids style-layer failures
-    // making all incidents invisible while the data/counts remain present.
-    map.addSource('sahel-events',{type:'geojson',data:currentFeatures});
+    if(!map.getSource('sahel-borders')){
+      map.addSource('sahel-borders',{type:'geojson',data:{type:'FeatureCollection',features:countries}});
+    }
+    if(!map.getLayer('sahel-border-lines')){
+      map.addLayer({id:'sahel-border-lines',type:'line',source:'sahel-borders',paint:{'line-color':'#dd6758','line-width':['interpolate',['linear'],['zoom'],3,1.2,8,2.4],'line-opacity':0.78}});
+    }
+    // Event pins are DOM overlays above the canvas. The GeoJSON source remains only
+    // for diagnostics/future clustering and is not required for pin visibility.
+    if(!map.getSource('sahel-events')){
+      map.addSource('sahel-events',{type:'geojson',data:currentFeatures});
+    }else{
+      map.getSource('sahel-events').setData(currentFeatures);
+    }
     markerHandlers=true;
     applyVisibility();
     renderDomMarkers();
