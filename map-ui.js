@@ -11,7 +11,7 @@
   let domMarkers=[];
   let fallback=false, loadTimer, controlsBound=false, svgView=[0,0,1000,560];
   let showMarkers=true, styleName='positron';
-  const startBounds=[[-17.8,9.0],[16.4,25.0]];
+  const startBounds=[[-12.7,9.1],[16.4,23.5]];
 
   const COUNTRY_ANCHORS={
     'Mali':{lat:19.4,lng:-5.4},
@@ -234,8 +234,19 @@
     currentFeatures={type:'FeatureCollection',features};
     if(layersReady&&map.getSource('sahel-events'))map.getSource('sahel-events').setData(currentFeatures);
     if(layersReady&&map)renderDomMarkers();
-    const count=byId('mapExplorerCount');if(count)count.textContent=`${visibleEvents.length} candidate events · ${features.length} map locations`;
-    const totals=byId('mapCountryCounts');if(totals)totals.textContent=`${state.mapDays==='all'?'All available dates':state.mapDays===1?'Last 24 hours':`Last ${state.mapDays} days`} · ${visibleEvents.length} candidate events · ${features.length} map locations · ${missing.length} without precise coordinates`;
+    const reports24=Number(state.overview?.reports_24h||0);
+    const count=byId('mapExplorerCount');
+    if(count){
+      count.textContent=state.mapDays===1
+        ? `${visibleEvents.length} incidents dated in last 24h · ${reports24} reports collected in last 24h`
+        : `${visibleEvents.length} candidate events · ${features.length} map locations`;
+    }
+    const totals=byId('mapCountryCounts');
+    if(totals){
+      const windowLabel=state.mapDays==='all'?'All available incident dates':state.mapDays===1?'Incident date: last 24 hours':`Incident date: last ${state.mapDays} days`;
+      const reportingNote=state.mapDays===1?` · ${reports24} reports collected in last 24h`:'';
+      totals.textContent=`${windowLabel} · ${visibleEvents.length} candidate events · ${features.length} map locations · ${missing.length} without precise coordinates${reportingNote}`;
+    }
     const country=byId('mapCountryOnly');if(country){country.innerHTML=missing.length?`<h4>Location not precise (${missing.length})</h4><p>These records have no usable coordinates. They are listed here without a map pin.</p>${missing.slice(0,12).map((e,i)=>`<button type="button" data-missing="${i}">${api.esc([e.city,e.country].filter(Boolean).join(', ')||'Location unresolved')} · ${api.esc(e.event_date||'Date unresolved')}</button>`).join('')}`:'';country.querySelectorAll('[data-missing]').forEach(b=>b.onclick=()=>{const e=missing[Number(b.dataset.missing)];api.showEventDetail(e);enhanceDetails(e)})}
     if(fallback)renderFallback();
     updateTimeline(state);
