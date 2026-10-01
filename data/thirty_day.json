@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-01T00:02:05.328991Z",
+  "generated_at": "2026-10-01T00:57:11.266236Z",
   "window_days": 30,
   "cutoff": "2026-09-01",
-  "reports": 185,
-  "incident_reports": 42,
+  "reports": 186,
+  "incident_reports": 43,
   "candidate_events": 35,
   "corroborated_events": 2,
   "mapped_events": 27,
@@ -31,7 +31,7 @@
     "civilian targeting": 1
   },
   "by_language": {
-    "fr": 131,
+    "fr": 132,
     "en": 47,
     "ar": 7
   },
@@ -42,7 +42,7 @@
   "top_sources": [
     {
       "source": "Bamada",
-      "count": 18
+      "count": 19
     },
     {
       "source": "Malijet",
@@ -287,7 +287,7 @@
     },
     {
       "date": "2026-10-01",
-      "reports": 4,
+      "reports": 5,
       "events": 0
     }
   ],
@@ -2617,7 +2617,7 @@
   "latest_reports": [
     {
       "published_at": null,
-      "discovered_at": "2026-10-01T00:00:37.265597Z",
+      "discovered_at": "2026-10-01T00:56:15.454515Z",
       "source": "aNiamey.com",
       "language": "fr",
       "actor": "Other",
@@ -2630,7 +2630,7 @@
     },
     {
       "published_at": null,
-      "discovered_at": "2026-10-01T00:00:32.307039Z",
+      "discovered_at": "2026-10-01T00:56:14.930909Z",
       "source": "aNiamey.com",
       "language": "fr",
       "actor": "JNIM",
@@ -2643,7 +2643,7 @@
     },
     {
       "published_at": null,
-      "discovered_at": "2026-10-01T00:00:31.635121Z",
+      "discovered_at": "2026-10-01T00:56:13.615235Z",
       "source": "aNiamey.com",
       "language": "fr",
       "actor": null,
@@ -2656,7 +2656,20 @@
     },
     {
       "published_at": null,
-      "discovered_at": "2026-10-01T00:00:31.352016Z",
+      "discovered_at": "2026-10-01T00:56:13.358599Z",
+      "source": "Bamada",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": null,
+      "event_type": "security operation",
+      "candidate_event": true,
+      "title": "Operation Dougoukoloko: the FAMa intensify surveillance and targeted strikes against terrorist groups",
+      "url": "https://bamada.net/operation-dougoukoloko-les-fama-intensifient-la-surveillance-et-les-frappes-ciblees-contre-les-regroupements-terroristes"
+    },
+    {
+      "published_at": null,
+      "discovered_at": "2026-10-01T00:56:12.916846Z",
       "source": "aNiamey.com",
       "language": "fr",
       "actor": "Other",
@@ -2760,7 +2773,7 @@
     },
     {
       "published_at": "2026-09-30T16:45:03Z",
-      "discovered_at": "2026-10-01T00:00:33.388636Z",
+      "discovered_at": "2026-10-01T00:56:15.331759Z",
       "source": "Africanews",
       "language": "en",
       "actor": "State",
@@ -2877,7 +2890,7 @@
     },
     {
       "published_at": "2026-09-30T05:20:33Z",
-      "discovered_at": "2026-09-30T23:09:46.144932Z",
+      "discovered_at": "2026-10-01T00:56:41.737125Z",
       "source": "Africanews",
       "language": "en",
       "actor": null,
@@ -3121,19 +3134,6 @@
       "candidate_event": true,
       "title": "Operation Dougoukoloko: FAMa surgical strikes, several terrorist hideouts wiped out in the center of the country",
       "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312079-operation-dougoukoloko-frappes-chirurgicales-des-fama-plu.html"
-    },
-    {
-      "published_at": "2026-09-29T10:17:19Z",
-      "discovered_at": "2026-09-29T14:31:16.957074Z",
-      "source": "Al Jazeera Arabic",
-      "language": "ar",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Bamako",
-      "event_type": "security operation",
-      "candidate_event": true,
-      "title": "It targeted Arabs, Tuareg and Fulani.. Amnesty accuses Bamako and a Russian legion of war crimes",
-      "url": "https://www.aljazeera.net/news/2026/9/29/%d8%a7%d8%b3%d8%aa%d9%87%d8%af%d9%81%d8%aa-%d8%b9%d8%b1%d8%a8%d8%a7-%d9%88%d8%b7%d9%88%d8%a7%d8%b1%d9%82-%d9%88%d9%81%d9%88%d9%84%d8%a7%d9%86-%d8%a3%d9%85%d9%86%d8%b3%d8%aa%d9%8a?traffic_source=rss"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
