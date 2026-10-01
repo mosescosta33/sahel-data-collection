@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-01T17:33:48.944756Z",
+  "generated_at": "2026-10-01T18:39:16.139877Z",
   "window_days": 30,
   "cutoff": "2026-09-01",
-  "reports": 202,
+  "reports": 203,
   "incident_reports": 37,
   "candidate_events": 35,
   "corroborated_events": 2,
@@ -30,7 +30,7 @@
     "air/drone strike": 1
   },
   "by_language": {
-    "fr": 136,
+    "fr": 137,
     "en": 59,
     "ar": 7
   },
@@ -41,7 +41,7 @@
   "top_sources": [
     {
       "source": "Bamada",
-      "count": 18
+      "count": 19
     },
     {
       "source": "Malijet",
@@ -286,7 +286,7 @@
     },
     {
       "date": "2026-10-01",
-      "reports": 20,
+      "reports": 21,
       "events": 1
     }
   ],
@@ -3405,6 +3405,23 @@
   ],
   "latest_reports": [
     {
+      "published_at": "2026-10-01T17:59:43Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-01T18:37:40.406415Z",
+      "discovered_at": "2026-10-01T18:37:40.406415Z",
+      "timestamp_integrity": "complete",
+      "source": "Bamada",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Bamako",
+      "event_type": "clash",
+      "candidate_event": false,
+      "title": "PATRIOTIC GESTURE: customs women and wives of customs officers give their blood in favor of the FAMa",
+      "url": "https://bamada.net/geste-patriotique-les-femmes-douanieres-et-epouses-de-douaniers-donnent-leur-sang-en-faveur-des-fama"
+    },
+    {
       "published_at": "2026-10-01T16:58:26Z",
       "published_date_source": "feed",
       "published_time_precision": "datetime",
@@ -3510,8 +3527,8 @@
       "published_at": "2026-10-01T11:56:30Z",
       "published_date_source": "feed",
       "published_time_precision": "datetime",
-      "collected_at": "2026-10-01T17:32:27.494962Z",
-      "discovered_at": "2026-10-01T17:32:27.494962Z",
+      "collected_at": "2026-10-01T18:37:40.810507Z",
+      "discovered_at": "2026-10-01T18:37:40.810507Z",
       "timestamp_integrity": "complete",
       "source": "Africanews",
       "language": "en",
@@ -3612,8 +3629,8 @@
       "published_at": "2026-10-01T09:06:07Z",
       "published_date_source": "feed",
       "published_time_precision": "datetime",
-      "collected_at": "2026-10-01T17:32:43.439376Z",
-      "discovered_at": "2026-10-01T17:32:43.439376Z",
+      "collected_at": "2026-10-01T18:38:02.765479Z",
+      "discovered_at": "2026-10-01T18:38:02.765479Z",
       "timestamp_integrity": "complete",
       "source": "Africanews",
       "language": "en",
@@ -3799,8 +3816,8 @@
       "published_at": "2026-09-30T16:45:03Z",
       "published_date_source": "feed",
       "published_time_precision": "datetime",
-      "collected_at": "2026-10-01T17:23:31.571966Z",
-      "discovered_at": "2026-10-01T17:23:31.571966Z",
+      "collected_at": "2026-10-01T18:37:44.908664Z",
+      "discovered_at": "2026-10-01T18:37:44.908664Z",
       "timestamp_integrity": "complete",
       "source": "Africanews",
       "language": "en",
@@ -4066,23 +4083,6 @@
       "candidate_event": false,
       "title": "A historic night",
       "url": "https://www.sidwaya.info/une-nuit-historique/"
-    },
-    {
-      "published_at": "2026-09-29T21:11:18Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-09-29T22:31:59.575124Z",
-      "discovered_at": "2026-09-29T22:31:59.575124Z",
-      "timestamp_integrity": "complete",
-      "source": "Bamada",
-      "language": "fr",
-      "actor": "State",
-      "country": "Mali",
-      "city": null,
-      "event_type": null,
-      "candidate_event": false,
-      "title": "FUNERAL CEREMONY: the FAMa pay a final tribute to retired Brigadier General Sirakoro SANGARE",
-      "url": "https://bamada.net/ceremonie-funebre-les-fama-rendent-un-ultime-hommage-au-general-de-brigade-a-la-retraite-sirakoro-sangare"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
