@@ -1,0 +1,240 @@
+(()=>{
+  'use strict';
+
+  const q=s=>document.querySelector(s);
+  const qa=s=>[...document.querySelectorAll(s)];
+  const esc=s=>String(s??'').replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
+  const safeUrl=v=>{try{const u=new URL(v,location.href);return ['http:','https:'].includes(u.protocol)?u.href:''}catch(_){return ''}};
+  const countryCode={'Mali':'MLI','Burkina Faso':'BFA','Niger':'NER'};
+
+  const rules=[
+    {code:'HR-KILL',label:'Civilian killing / execution',re:/\b(kill(?:ed|ing|s)?|dead|deaths?|massacr(?:e|ed)|execut(?:ed|ion)|slain|fatalit(?:y|ies)|morts?|tu[ée]s?|massacre)\b/i},
+    {code:'HR-INJ',label:'Civilian injury',re:/\b(injur(?:ed|ies|y)|wound(?:ed|s)?|bless[ée]s?)\b/i},
+    {code:'HR-DET',label:'Detention / arrest concern',re:/\b(arbitrary detention|detain(?:ed|ment)|arrest(?:ed|s)?|custody|d[ée]tenu(?:e|es|s)?)\b/i},
+    {code:'HR-DIS',label:'Disappearance / missing',re:/\b(enforced disappearance|disappear(?:ed|ance|ances)|missing|port[ée]s?\s+disparu(?:e|es|s)?)\b/i},
+    {code:'HR-TORT',label:'Torture / mistreatment',re:/\b(tortur(?:e|ed|ing)|ill-treatment|mistreat(?:ed|ment)|beaten in custody|mauvais traitements)\b/i},
+    {code:'HR-SV',label:'Sexual violence',re:/\b(rape(?:d|s)?|sexual violence|sexual assault|violences? sexuelles?|viol)\b/i},
+    {code:'HR-DISP',label:'Forced displacement',re:/\b(forced displacement|forcibly displaced|displaced civilians?|fled their homes?|forced from their homes?|expelled from|d[ée]plac[ée]s?)\b/i},
+    {code:'HR-PROP',label:'Property destruction',re:/\b(homes? (?:were )?(?:burned|burnt|destroyed)|houses? (?:were )?(?:burned|burnt|destroyed)|village(?:s)? (?:was|were)? ?(?:burned|burnt|torched|destroyed)|arson)\b/i},
+    {code:'HR-LOOT',label:'Looting / property seizure',re:/\b(loot(?:ed|ing)|pillag(?:e|ed|ing)|property seizure|seized livestock|stolen livestock)\b/i},
+    {code:'HR-KIDNAP',label:'Kidnapping / hostage taking',re:/\b(kidnap(?:ped|ping)|abduct(?:ed|ion|ions)|hostage(?:s)?|enl[èe]vement)\b/i},
+    {code:'HR-MED',label:'Medical personnel / facility harm',re:/\b((?:attack|strike|shell|raid|burn|destroy|kill|abduct)\w*\s+(?:a\s+)?(?:hospital|clinic|health centre|health center)|(?:hospital|clinic|medical personnel|health workers?)\b.{0,50}\b(?:attack|strike|shell|raid|burn|destroy|kill|abduct)\w*)\b/i,self:true},
+    {code:'HR-REL',label:'Religious site / personnel harm',re:/\b((?:attack|strike|shell|raid|burn|destroy|kill|abduct)\w*\s+(?:a\s+)?(?:mosque|church|imam|cleric|religious site)|(?:mosque|church|imam|cleric|religious site)\b.{0,50}\b(?:attack|strike|shell|raid|burn|destroy|kill|abduct)\w*)\b/i,self:true},
+    {code:'HR-AID',label:'Humanitarian access / aid worker harm',re:/\b((?:aid workers?|humanitarian workers?)\b.{0,60}\b(?:kill|attack|abduct|detain|injur)\w*|(?:block|deny|obstruct)\w*.{0,40}\bhumanitarian (?:aid|access))\b/i,self:true},
+    {code:'HR-INDIS',label:'Indiscriminate attack indicator',re:/\b(indiscriminate|indiscriminately|shelling|bombardment|airstrike|air strike|drone strike)\b/i}
+  ];
+
+  const civilianContext=/\b(civilian(?:s)?|villager(?:s)?|resident(?:s)?|farmer(?:s)?|pastoralist(?:s)?|women|children|child|famil(?:y|ies)|non[- ]combatant(?:s)?|civilian population|population civile|civils?|villageois|habitants)\b/i;
+  const disputeContext=/\b(den(?:y|ied|ies)|disput(?:e|ed|es)|reject(?:ed|s)? the allegation|contested|counterclaim|said the victims were|described the dead as militants)\b/i;
+
+  const ui={country:'all',category:'all'};
+  let reports=[];
+  let events=[];
+  let cases=[];
+
+  function hashKey(v){
+    let h=2166136261;
+    const s=String(v||'');
+    for(let i=0;i<s.length;i++){h^=s.charCodeAt(i);h=Math.imul(h,16777619)}
+    return (h>>>0).toString(36).toUpperCase().padStart(6,'0');
+  }
+  function reportKey(r){return String(r?.id||r?.url||[r?.source,r?.title,r?.published_at,r?.discovered_at].filter(Boolean).join('|'))}
+  function dateInDays(v,days){
+    if(!v)return false;
+    const d=new Date(String(v).slice(0,10)+'T23:59:59Z');
+    if(isNaN(d))return false;
+    const age=Date.now()-d.getTime();
+    return age>=0&&age<=days*86400000;
+  }
+  function eventIndex(){
+    const map=new Map();
+    for(const e of events){
+      const urls=Array.isArray(e?.report_urls)?e.report_urls:[];
+      for(const url of urls){
+        if(!url)continue;
+        const prior=map.get(url);
+        if(!prior||(prior.report_urls||[]).length<urls.length)map.set(url,e);
+      }
+    }
+    return map;
+  }
+  function actorLabel(r,e){
+    return String(r?.perpetrator||e?.perpetrator||r?.actor_bucket||e?.actor||'Attribution unresolved');
+  }
+  function locationLabel(r,e){
+    const city=r?.city||e?.city;
+    const country=r?.country||e?.country;
+    return [city,country].filter(Boolean).join(', ')||'Location unresolved';
+  }
+  function caseFromReport(r,idx){
+    const e=idx.get(r?.url)||null;
+    const text=[r?.translated_title,r?.title,r?.article_summary,r?.translated_excerpt,r?.excerpt,r?.target,r?.event_type,e?.summary].filter(Boolean).join(' ');
+    const hasCivilian=civilianContext.test(text)||civilianContext.test(String(r?.target||''));
+    const categories=rules.filter(rule=>rule.re.test(text)&&(hasCivilian||rule.self)).map(rule=>({code:rule.code,label:rule.label}));
+    if(!categories.length)return null;
+
+    const sourceCount=Math.max(1,Array.isArray(e?.report_urls)?e.report_urls.length:1);
+    const eventDate=r?.event_date||e?.event_date||'';
+    const country=r?.country||e?.country||'Regional';
+    const actor=actorLabel(r,e);
+    const location=locationLabel(r,e);
+    const summary=r?.article_summary||r?.translated_excerpt||r?.excerpt||'No retained article summary available.';
+    const hasAttribution=Boolean(r?.perpetrator||e?.perpetrator||r?.actor_bucket||e?.actor);
+    const hasPrecise=Boolean(r?.city||e?.city||(Array.isArray(e?.incident_locations)&&e.incident_locations.length));
+    const review=[];
+    if(sourceCount<2)review.push('single-source reporting');
+    if(!eventDate)review.push('incident date unresolved');
+    if(!hasAttribution)review.push('perpetrator attribution unresolved');
+    if(!hasPrecise)review.push('precise locality unresolved');
+    const disputed=disputeContext.test(text);
+    if(disputed)review.push('reporting contains dispute/denial language');
+
+    const code=countryCode[country]||'SAH';
+    const id='CH-'+code+'-'+hashKey(reportKey(r)).slice(0,7);
+    return {
+      id,
+      report:r,
+      linked_event:e,
+      title:r?.translated_title||r?.title||'Untitled retained report',
+      summary,
+      country,
+      location,
+      actor,
+      event_date:eventDate,
+      published_at:r?.published_at||'',
+      collected_at:r?.discovered_at||r?.collected_at||'',
+      source:r?.source||'Unknown source',
+      url:r?.url||'',
+      source_count:sourceCount,
+      categories,
+      disputed,
+      review,
+      evidence_status:sourceCount>=3?'Multiple-source case linkage':sourceCount===2?'Two-source case linkage':'Single-source report',
+      attribution_basis:hasAttribution?(r?.perpetrator||e?.perpetrator?'Named perpetrator in structured extraction':'Actor category in structured extraction'):'Unresolved',
+      location_precision:hasPrecise?'Named/structured locality available':country!=='Regional'?'Country-level only':'Unresolved'
+    };
+  }
+  function buildCases(){
+    const idx=eventIndex();
+    const seen=new Set();
+    const out=[];
+    for(const r of reports){
+      const item=caseFromReport(r,idx);
+      if(!item)continue;
+      const key=reportKey(r);
+      if(seen.has(key))continue;
+      seen.add(key);out.push(item);
+    }
+    out.sort((a,b)=>String(b.event_date||b.published_at||b.collected_at).localeCompare(String(a.event_date||a.published_at||a.collected_at)));
+    cases=out;
+  }
+  function filteredCases(){
+    return cases.filter(c=>(ui.country==='all'||c.country===ui.country)&&(ui.category==='all'||c.categories.some(x=>x.code===ui.category)));
+  }
+  function setText(id,v){const el=document.getElementById(id);if(el)el.textContent=v}
+  function barRows(items){
+    const max=Math.max(1,...items.map(x=>x[1]));
+    return items.map(([label,n])=>'<div class="civilian-breakdown-row"><span>'+esc(label)+'</span><div class="civilian-breakdown-track"><div class="civilian-breakdown-fill" style="width:'+Math.max(4,Math.round(n/max*100))+'%"></div></div><strong>'+esc(n)+'</strong></div>').join('');
+  }
+  function countBy(values){
+    const m=new Map();
+    for(const v of values){const k=String(v||'Unknown');m.set(k,(m.get(k)||0)+1)}
+    return [...m.entries()].sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0]));
+  }
+  function renderBreakdowns(){
+    const country=q('#civilianCountryBreakdown');
+    if(country)country.innerHTML=barRows(countBy(cases.map(c=>c.country)).slice(0,8))||'<div class="civilian-empty">No screened records.</div>';
+    const actor=q('#civilianActorBreakdown');
+    if(actor)actor.innerHTML=barRows(countBy(cases.map(c=>c.actor)).slice(0,8))||'<div class="civilian-empty">No attribution data.</div>';
+    const cats=[];
+    for(const c of cases)for(const cat of c.categories)cats.push(cat.label);
+    const category=q('#civilianCategoryBreakdown');
+    if(category)category.innerHTML=barRows(countBy(cats).slice(0,10))||'<div class="civilian-empty">No harm indicators.</div>';
+  }
+  function caseCard(c){
+    const source=safeUrl(c.url);
+    const chips=c.categories.map(x=>'<span class="civilian-pill">'+esc(x.code)+' · '+esc(x.label)+'</span>').join('');
+    const review=c.review.length?c.review.join(' • '):'No automatic review flags.';
+    const allegation=c.actor==='Attribution unresolved'?'No perpetrator attribution is resolved in the retained structured fields.':'The retained reporting/structured extraction attributes or associates the incident with '+c.actor+'.';
+    const dispute=c.disputed?'The retained text contains denial, dispute, or competing-characterization language. Review the underlying source before drawing conclusions.':'No explicit denial/dispute language was detected in the retained summary/title. Absence of a detected dispute is not proof of agreement.';
+    return '<article class="civilian-case '+(c.source_count>=2?'corroborated':'review')+'">'+
+      '<div class="civilian-case-head"><div><span class="civilian-case-id">'+esc(c.id)+'</span><h3>'+esc(c.title)+'</h3></div><span class="methodpill">'+esc(c.evidence_status)+'</span></div>'+
+      '<div class="civilian-case-meta">'+esc(c.country)+' • '+esc(c.location)+' • Event date: '+esc(c.event_date||'unresolved')+' • Source: '+esc(c.source)+' • Linked sources: '+esc(c.source_count)+'</div>'+
+      '<div class="civilian-indicators">'+chips+'</div>'+
+      '<div class="civilian-evidence-grid">'+
+        '<div class="civilian-evidence"><small>REPORTED INFORMATION</small><p>'+esc(c.summary)+'</p></div>'+
+        '<div class="civilian-evidence"><small>ALLEGED ATTRIBUTION</small><p>'+esc(allegation)+'</p></div>'+
+        '<div class="civilian-evidence"><small>CORROBORATION / DISPUTE</small><p>'+esc(dispute)+' Evidence status: '+esc(c.evidence_status)+'.</p></div>'+
+        '<div class="civilian-evidence"><small>UNKNOWN / NEEDS REVIEW</small><p>'+esc(review)+' • Location precision: '+esc(c.location_precision)+'.</p></div>'+
+      '</div>'+
+      '<div class="civilian-case-actions">'+(source?'<a href="'+esc(source)+'" target="_blank" rel="noopener">OPEN SOURCE ↗</a>':'')+'<span class="civilian-review-reasons">'+esc(c.attribution_basis)+'</span></div>'+
+    '</article>';
+  }
+  function render(){
+    setText('civilianTotal',cases.length);
+    setText('civilian30',cases.filter(c=>dateInDays(c.event_date,30)).length);
+    setText('civilianMulti',cases.filter(c=>c.source_count>=2).length);
+    setText('civilianReview',cases.filter(c=>c.review.length).length);
+    renderBreakdowns();
+    const rows=filteredCases();
+    setText('civilianCaseCount',rows.length+' case'+(rows.length===1?'':'s'));
+    const host=q('#civilianCases');
+    if(host)host.innerHTML=rows.length?rows.map(caseCard).join(''):'<div class="civilian-empty">No retained reports match this civilian-harm screening view.</div>';
+    qa('.civilian-country-filter').forEach(b=>b.classList.toggle('active',b.dataset.civilianCountry===ui.country));
+  }
+  function exportRows(format){
+    const rows=filteredCases();
+    if(!rows.length)return;
+    const stamp=new Date().toISOString().slice(0,10);
+    if(format==='json'){
+      const payload={exported_at:new Date().toISOString(),method:'keyword-assisted civilian-harm screening of retained reports; not a legal determination',record_count:rows.length,records:rows};
+      download(JSON.stringify(payload,null,2),'sahel-intel-civilian-harm-'+stamp+'.json','application/json;charset=utf-8');
+      return;
+    }
+    const fields=['case_id','country','location','event_date','source','source_count','evidence_status','alleged_actor','categories','review_flags','summary','url'];
+    const csv=[fields.join(',')];
+    for(const c of rows){
+      const vals=[c.id,c.country,c.location,c.event_date,c.source,c.source_count,c.evidence_status,c.actor,c.categories.map(x=>x.code).join('|'),c.review.join('|'),c.summary,c.url];
+      csv.push(vals.map(csvCell).join(','));
+    }
+    download(csv.join('\n'),'sahel-intel-civilian-harm-'+stamp+'.csv','text/csv;charset=utf-8');
+  }
+  function csvCell(v){const s=String(v??'');return '"'+s.replace(/"/g,'""')+'"'}
+  function download(contents,name,type){
+    const blob=new Blob([contents],{type});
+    const url=URL.createObjectURL(blob);
+    const a=document.createElement('a');
+    a.href=url;a.download=name;document.body.appendChild(a);a.click();a.remove();
+    setTimeout(()=>URL.revokeObjectURL(url),1000);
+  }
+  function bind(){
+    qa('.civilian-country-filter').forEach(b=>b.onclick=()=>{ui.country=b.dataset.civilianCountry||'all';render()});
+    const category=q('#civilianCategory');if(category)category.onchange=()=>{ui.category=category.value||'all';render()};
+    const json=q('#downloadCivilianJson');if(json)json.onclick=()=>exportRows('json');
+    const csv=q('#downloadCivilianCsv');if(csv)csv.onclick=()=>exportRows('csv');
+  }
+  async function load(){
+    try{
+      const stamp=Date.now();
+      const [rr,ee]=await Promise.all([
+        fetch('./data/reports.json?ts='+stamp,{cache:'no-store'}),
+        fetch('./data/events.json?ts='+stamp,{cache:'no-store'})
+      ]);
+      if(!rr.ok)throw new Error('reports '+rr.status);
+      reports=await rr.json();
+      events=ee.ok?await ee.json():[];
+      if(!Array.isArray(reports))reports=[];
+      if(!Array.isArray(events))events=[];
+      buildCases();
+      render();
+    }catch(err){
+      console.error('Civilian Harm Monitor data error',err);
+      const host=q('#civilianCases');
+      if(host)host.innerHTML='<div class="civilian-empty">Civilian Harm Monitor could not load retained-report data: '+esc(err.message)+'</div>';
+    }
+  }
+
+  bind();
+  load();
+  setInterval(load,60000);
+})();
