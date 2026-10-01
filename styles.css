@@ -265,3 +265,14 @@ html[data-theme="light"] .mini-chart-readout,html[data-theme="light"] .chart-rea
 html[data-theme="light"] .numeric-data-table th{background:#dce5e9}
 html[data-theme="light"] .civilian-range.active{background:#cedfe5!important;color:#102f3b!important;border-color:#668e9d!important}
 @media(max-width:700px){.civilian-trend-chart{height:260px}.civilian-trend-chart svg{height:220px}.spark{min-height:112px}}
+
+
+/* v3.3.3 owner placement correction
+   Desktop: shift MOSES COSTA ~2 physical CSS inches (192px) left of center.
+   Narrow layouts retain centered placement to prevent overlap. */
+@media (min-width:1101px){
+  .ownercenter{
+    left:calc(50% - 192px) !important;
+    transform:translate(-50%,-50%) !important;
+  }
+}
