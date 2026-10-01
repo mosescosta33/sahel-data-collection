@@ -1,5 +1,5 @@
-const SITE_UI_VERSION='3.1.0';
-const state={overview:null,reports:[],events:[],metrics:null,thirty:null,sources:[],runs:[],briefing:null,actorFilter:'all',mapDays:7,langFilter:'all',countryFilter:'all',range:30,voices:[],speaking:false,readerRunning:false,readerPaused:false,readerIndex:0,readerCycle:0,readerRange:30,readerQueue:[],readerSession:0,timelineDate:null,savedReports:[]};
+const SITE_UI_VERSION='3.1.1';
+const state={overview:null,reports:[],events:[],metrics:null,thirty:null,sources:[],runs:[],briefing:null,actorFilter:'all',mapDays:7,langFilter:'all',countryFilter:'all',range:30,voices:[],speaking:false,readerRunning:false,readerPaused:false,readerIndex:0,readerCycle:0,readerRange:30,readerQueue:[],readerSession:0,timelineDate:null,savedReports:[],savedViewMode:'all'};
 const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
 const esc=s=>String(s??'').replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
 const fmtTime=v=>{if(!v)return '—'; const d=new Date(v); return isNaN(d)?'—':d.toLocaleString()};
@@ -51,34 +51,49 @@ function toggleSavedReport(encodedKey){
   persistSavedReports();renderFeeds();renderSavedReports();
 }
 function bindSaveButtons(root){if(!root)return;root.querySelectorAll('[data-save-report]').forEach(b=>{b.onclick=()=>toggleSavedReport(b.dataset.saveReport);});}
+function reportLibraryRows(){
+  const seen=new Set(),rows=[];
+  for(const r of (state.reports||[])){const key=reportKey(r);if(!key||seen.has(key))continue;seen.add(key);rows.push(r);}
+  for(const r of (state.savedReports||[])){const key=reportKey(r);if(!key||seen.has(key))continue;seen.add(key);rows.push(r);}
+  return rows;
+}
 function updateSavedCount(){
-  const n=state.savedReports.length;setText('savedTabCount',n);
-  const status=$('#savedReportsStatus');if(status)status.textContent=n?`${n} saved report${n===1?'':'s'} stored in this browser.`:'No reports saved yet. Use SAVE REPORT on any feed card.';
-  for(const id of ['downloadSavedJson','downloadSavedCsv','clearSavedReports']){const b=document.getElementById(id);if(b)b.disabled=n===0;}
+  const total=reportLibraryRows().length;
+  const starred=state.savedReports.length;
+  setText('savedTabCount',total);
+  const status=$('#savedReportsStatus');
+  if(status)status.textContent=`${total} retained report${total===1?'':'s'} available with summaries • ${starred} starred favorite${starred===1?'':'s'}.`;
+  for(const id of ['downloadSavedJson','downloadSavedCsv']){const b=document.getElementById(id);if(b)b.disabled=total===0;}
+  const clear=$('#clearSavedReports');if(clear)clear.disabled=starred===0;
 }
 function renderSavedReports(){
-  updateSavedCount();const host=$('#savedReportsFeed');if(!host)return;
-  const rows=[...state.savedReports].sort((a,b)=>String(b._saved_at||'').localeCompare(String(a._saved_at||'')));
-  host.innerHTML=rows.map(reportCard).join('')||'<div class="runbox">No saved reports yet. Open the Intel Feed and choose SAVE REPORT on any article.</div>';
+  updateSavedCount();
+  const host=$('#savedReportsFeed');if(!host)return;
+  const allRows=reportLibraryRows().sort((a,b)=>String(b.published_at||b.discovered_at||b._saved_at||'').localeCompare(String(a.published_at||a.discovered_at||a._saved_at||'')));
+  const rows=state.savedViewMode==='starred'?allRows.filter(isReportSaved):allRows;
+  host.innerHTML=rows.map(reportCard).join('')||'<div class="runbox">No reports are available in this view.</div>';
   bindSaveButtons(host);
+  $$('.saved-view-filter').forEach(b=>b.classList.toggle('active',b.dataset.savedView===state.savedViewMode));
 }
+
 function downloadBlob(contents,filename,type){const blob=new Blob([contents],{type});const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download=filename;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);}
 function csvCell(v){const value=String(v??'');return '"'+value.replace(/"/g,'""')+'"';}
 function downloadSavedReports(format){
-  const rows=[...state.savedReports];if(!rows.length)return;const stamp=new Date().toISOString().slice(0,10);
+  const rows=reportLibraryRows();if(!rows.length)return;const stamp=new Date().toISOString().slice(0,10);
   if(format==='csv'){
-    const fields=['saved_at','title','original_title','source','country','language','published_at','collected_at','event_date','actor','event_type','perpetrator','target','summary','url'];
+    const fields=['starred','saved_at','title','original_title','source','country','language','published_at','collected_at','event_date','actor','event_type','perpetrator','target','summary','url'];
     const header=fields.map(csvCell).join(',');
-    const body=rows.map(r=>{const values={saved_at:r._saved_at||'',title:r.translated_title||r.title||'',original_title:r.title||'',source:r.source||'',country:r.country||'',language:r.language||r.source_language||'',published_at:r.published_at||'',collected_at:r.discovered_at||r.collected_at||'',event_date:r.event_date||'',actor:r.actor||r.actor_bucket||'',event_type:r.event_type||'',perpetrator:r.perpetrator||'',target:r.target||'',summary:r.article_summary||r.translated_excerpt||r.excerpt||'',url:r.url||''};return fields.map(k=>csvCell(values[k])).join(',');}).join('\n');
-    downloadBlob(header+'\n'+body,'sahel-intel-saved-reports-'+stamp+'.csv','text/csv;charset=utf-8');return;
+    const body=rows.map(r=>{const values={starred:isReportSaved(r)?'yes':'no',saved_at:(state.savedReports.find(x=>reportKey(x)===reportKey(r))?._saved_at)||'',title:r.translated_title||r.title||'',original_title:r.title||'',source:r.source||'',country:r.country||'',language:r.language||r.source_language||'',published_at:r.published_at||'',collected_at:r.discovered_at||r.collected_at||'',event_date:r.event_date||'',actor:r.actor||r.actor_bucket||'',event_type:r.event_type||'',perpetrator:r.perpetrator||'',target:r.target||'',summary:r.article_summary||r.translated_excerpt||r.excerpt||'',url:r.url||''};return fields.map(k=>csvCell(values[k])).join(',');}).join('\n');
+    downloadBlob(header+'\n'+body,'sahel-intel-all-reports-'+stamp+'.csv','text/csv;charset=utf-8');return;
   }
-  const payload={exported_at:new Date().toISOString(),report_count:rows.length,reports:rows};
-  downloadBlob(JSON.stringify(payload,null,2),'sahel-intel-saved-reports-'+stamp+'.json','application/json;charset=utf-8');
+  const payload={exported_at:new Date().toISOString(),report_count:rows.length,starred_count:state.savedReports.length,reports:rows.map(r=>({...r,_starred:isReportSaved(r)}))};
+  downloadBlob(JSON.stringify(payload,null,2),'sahel-intel-all-reports-'+stamp+'.json','application/json;charset=utf-8');
 }
 function bindSavedControls(){
   const json=$('#downloadSavedJson');if(json)json.onclick=()=>downloadSavedReports('json');
   const csv=$('#downloadSavedCsv');if(csv)csv.onclick=()=>downloadSavedReports('csv');
-  const clear=$('#clearSavedReports');if(clear)clear.onclick=()=>{if(!state.savedReports.length)return;if(!confirm(`Clear all ${state.savedReports.length} saved report${state.savedReports.length===1?'':'s'} from this browser?`))return;state.savedReports=[];persistSavedReports();renderFeeds();renderSavedReports();};
+  const clear=$('#clearSavedReports');if(clear)clear.onclick=()=>{if(!state.savedReports.length)return;if(!confirm(`Clear all ${state.savedReports.length} starred favorite${state.savedReports.length===1?'':'s'} from this browser?`))return;state.savedReports=[];persistSavedReports();renderFeeds();renderSavedReports();};
+  $('.saved-view-filter').forEach(b=>b.onclick=()=>{state.savedViewMode=b.dataset.savedView==='starred'?'starred':'all';renderSavedReports();});
 }
 
 state.savedReports=loadSavedReports();
