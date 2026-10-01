@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-01T06:15:46.675679Z",
+  "generated_at": "2026-10-01T06:40:45.344302Z",
   "window_days": 30,
   "cutoff": "2026-09-01",
-  "reports": 184,
+  "reports": 186,
   "incident_reports": 38,
   "candidate_events": 36,
   "corroborated_events": 2,
@@ -31,8 +31,8 @@
     "civilian targeting": 1
   },
   "by_language": {
-    "fr": 126,
-    "en": 51,
+    "fr": 127,
+    "en": 52,
     "ar": 7
   },
   "by_confidence": {
@@ -73,6 +73,10 @@
       "count": 6
     },
     {
+      "source": "AllAfrica (Édition Française)",
+      "count": 6
+    },
+    {
       "source": "Jeune Afrique",
       "count": 6
     },
@@ -82,10 +86,6 @@
     },
     {
       "source": "Agence Nigérienne de Presse",
-      "count": 5
-    },
-    {
-      "source": "AllAfrica (Édition Française)",
       "count": 5
     }
   ],
@@ -272,7 +272,7 @@
     },
     {
       "date": "2026-09-28",
-      "reports": 11,
+      "reports": 12,
       "events": 3
     },
     {
@@ -282,7 +282,7 @@
     },
     {
       "date": "2026-09-30",
-      "reports": 17,
+      "reports": 18,
       "events": 0
     },
     {
@@ -3580,8 +3580,8 @@
       "published_at": "2026-09-30T16:45:03Z",
       "published_date_source": "feed",
       "published_time_precision": "datetime",
-      "collected_at": "2026-10-01T06:13:49.929203Z",
-      "discovered_at": "2026-10-01T06:13:49.929203Z",
+      "collected_at": "2026-10-01T06:39:00.228815Z",
+      "discovered_at": "2026-10-01T06:39:00.228815Z",
       "timestamp_integrity": "complete",
       "source": "Africanews",
       "language": "en",
@@ -3609,6 +3609,23 @@
       "candidate_event": true,
       "title": "Bandits abduct 47 Niger women, others harvesting groundnuts",
       "url": "https://www.vanguardngr.com/2026/09/bandits-abduct-47-niger-women-others-harvesting-groundnuts/"
+    },
+    {
+      "published_at": "2026-09-30T11:51:21Z",
+      "published_date_source": "opengraph",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-01T06:39:37.085186Z",
+      "discovered_at": "2026-10-01T06:39:37.085186Z",
+      "timestamp_integrity": "complete",
+      "source": "AllAfrica (Édition Française)",
+      "language": "fr",
+      "actor": "State",
+      "country": "Burkina Faso",
+      "city": "Ouagadougou",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "5 Burkina Faso: A Historic Night",
+      "url": "https://fr.allafrica.com/stories/202609300370.html"
     },
     {
       "published_at": "2026-09-30T10:48:57Z",
@@ -4068,23 +4085,6 @@
       "candidate_event": true,
       "title": "Mali: \"No one is spared\", warns the NGO Amnesty in a report on the abuses of the army and the Wagner group",
       "url": "https://www.rfi.fr/fr/podcasts/invit%C3%A9-afrique-midi/20260929-mali-nul-n-est-%C3%A9pargn%C3%A9-alerte-l-ong-amnesty-dans-un-rapport-sur-les-exactions-de-l-arm%C3%A9e-et-du-groupe-wagner"
-    },
-    {
-      "published_at": "2026-09-29T14:47:56Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-01T06:13:55.625955Z",
-      "discovered_at": "2026-10-01T06:13:55.625955Z",
-      "timestamp_integrity": "complete",
-      "source": "Modern Ghana",
-      "language": "en",
-      "actor": "JNIM",
-      "country": "Mali",
-      "city": null,
-      "event_type": null,
-      "candidate_event": false,
-      "title": "‎Is JNIM Drifting From Al-Qaeda? What Mali's 2026 Upheaval Reveals ‎ - Modern Ghana",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPTmVtUGlDeEpZQ2kzcmVPMm85U2NUTUVfbjRrNWxYMzYzNmFUSjhfRGY2NkNSREpqdk9RZEs4T2FOY2dNcXoxSkppSDZNci00YzlJbnlHSTZDTExVS29DTzhQU01XckhFYWFtcF9meG9nWkxnRW0wZlJnM1Y4Zzd4M3JIVkc0SUtuYlUtNU92RlFYM1BreUE?oc=5"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
