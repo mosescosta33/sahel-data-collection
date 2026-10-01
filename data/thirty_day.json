@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-01T12:40:54.279034Z",
+  "generated_at": "2026-10-01T13:39:24.294203Z",
   "window_days": 30,
   "cutoff": "2026-09-01",
-  "reports": 195,
+  "reports": 199,
   "incident_reports": 37,
   "candidate_events": 35,
   "corroborated_events": 2,
   "mapped_events": 26,
   "mapped_locations": 55,
-  "distinct_sources": 57,
+  "distinct_sources": 58,
   "by_actor": {
     "State": 16,
     "JNIM": 7,
@@ -30,7 +30,7 @@
     "air/drone strike": 1
   },
   "by_language": {
-    "fr": 130,
+    "fr": 134,
     "en": 58,
     "ar": 7
   },
@@ -64,15 +64,15 @@
       "count": 9
     },
     {
+      "source": "AllAfrica (Édition Française)",
+      "count": 8
+    },
+    {
       "source": "Africanews",
       "count": 7
     },
     {
       "source": "AllAfrica (English Edition)",
-      "count": 7
-    },
-    {
-      "source": "AllAfrica (Édition Française)",
       "count": 7
     },
     {
@@ -266,17 +266,17 @@
     },
     {
       "date": "2026-09-27",
-      "reports": 6,
+      "reports": 7,
       "events": 1
     },
     {
       "date": "2026-09-28",
-      "reports": 12,
+      "reports": 13,
       "events": 3
     },
     {
       "date": "2026-09-29",
-      "reports": 28,
+      "reports": 29,
       "events": 3
     },
     {
@@ -286,7 +286,7 @@
     },
     {
       "date": "2026-10-01",
-      "reports": 16,
+      "reports": 17,
       "events": 1
     }
   ],
@@ -3422,6 +3422,23 @@
       "url": "https://www.africanews.com/country/burkina-faso/"
     },
     {
+      "published_at": "2026-10-01T13:12:31Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-01T13:36:54.937265Z",
+      "discovered_at": "2026-10-01T13:36:54.937265Z",
+      "timestamp_integrity": "complete",
+      "source": "Wakat Sera",
+      "language": "fr",
+      "actor": "State",
+      "country": "Burkina Faso",
+      "city": "Ouagadougou",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "RPP Night: a stopover to replenish energy",
+      "url": "https://www.wakatsera.com/nuit-de-la-rpp-une-halte-pour-refaire-le-plein-denergie/"
+    },
+    {
       "published_at": "2026-10-01T12:26:27Z",
       "published_date_source": "feed",
       "published_time_precision": "datetime",
@@ -3442,8 +3459,8 @@
       "published_at": "2026-10-01T11:56:30Z",
       "published_date_source": "feed",
       "published_time_precision": "datetime",
-      "collected_at": "2026-10-01T12:39:13.066834Z",
-      "discovered_at": "2026-10-01T12:39:13.066834Z",
+      "collected_at": "2026-10-01T13:36:50.229904Z",
+      "discovered_at": "2026-10-01T13:36:50.229904Z",
       "timestamp_integrity": "complete",
       "source": "Africanews",
       "language": "en",
@@ -3731,8 +3748,8 @@
       "published_at": "2026-09-30T16:45:03Z",
       "published_date_source": "feed",
       "published_time_precision": "datetime",
-      "collected_at": "2026-10-01T12:39:12.926872Z",
-      "discovered_at": "2026-10-01T12:39:12.926872Z",
+      "collected_at": "2026-10-01T13:36:50.388129Z",
+      "discovered_at": "2026-10-01T13:36:50.388129Z",
       "timestamp_integrity": "complete",
       "source": "Africanews",
       "language": "en",
@@ -4066,23 +4083,6 @@
       "candidate_event": false,
       "title": "Malian soldiers and Russian elements killed in ambush of central Malian extremists - aawsat.com",
       "url": "https://news.google.com/rss/articles/CBMipwRBVV95cUxPTENNbi00SkVyUWEyOFFsWVhiYWJ1dTJKZWM0eUpMV0RIWVdaZFNiNkdCYUg0b1JPaTFUOXdCa2M1dlNzRTBOWTZ1TUFjRzdjUVRBNWVKZUx4eGZFbUpZTlIzSXBJcFk4c2Y2VUU5ektCNFRuZHpSWXFvN3JSdnE1MW50a1paQnVNb3ZnTEZxOWN4UkVibTdWZGZHZXdNUExvOUpORWFxSGFUSjRucDJUclRRbEpvMzQyb25ybDR4em5DM0toeFFRdnZhZGpkYkYwTzdkZnFpa0JaTXVWSk9tUnhKZ1Z3TGZ2Mlp0ZGowVk5qRkp3eGxhY3RFMGtfU1pweFJ1UUQtTVhyWjJaa0JUazhhVFlCMFVMWWhwYWs4d1NmUW8zVGMzYmx0QllWMzA2SmRMSkpFWEdXdG0zOUZhSjZ3YVAzSGFtUF9UbHVZWFp2aUZMZEpBSy1JdklKWDh2MjNWYWtHYjZ2alJuUmpyWjM3cF9Eb0gyT0s5eGp0bUtrQmtvMVVaWFF6WUI4U1NRUnhYS0NEQ3l4VzUwNHp4SDlfbVJDcUxldWcxR3lkX2Roc0VUUzhXTVlWR05yVEkxS1pnNmItaFpObVpVU0NYdHdybjdfaDk0aFNhMHZ4S2gwQTVOdkxCblpVNmFJZ1FVdFh2Q3lldldNNVZsQTkxY3Q5YTFaV1ZGaldqZGxPSUpoSTIxNnNodUk0Vjh0UWhfaGNsOGpLbw?oc=5"
-    },
-    {
-      "published_at": "2026-09-29T18:57:42Z",
-      "published_date_source": "itemprop",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-01T06:13:58.706949Z",
-      "discovered_at": "2026-10-01T06:13:58.706949Z",
-      "timestamp_integrity": "complete",
-      "source": "ActuNiger",
-      "language": "fr",
-      "actor": "State",
-      "country": "Niger",
-      "city": "Agadez",
-      "event_type": "law enforcement",
-      "candidate_event": false,
-      "title": "Fight against drugs: 50 kg of cocaine worth 2.5 billion CFA seized in Agadez",
-      "url": "https://www.actuniger.com/societe/22407-lutte-contre-la-drogue-50-kg-de-cocaine-dune-valeur-de-2-5-milliards-cfa-saisis-a-agadez"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
