@@ -92,7 +92,7 @@
       el.addEventListener('click',ev=>{
         ev.preventDefault();ev.stopPropagation();
         if(unique.length>1&&callbacks.showEventCluster)callbacks.showEventCluster(unique);
-        else{callbacks.showEventDetail(lead);enhanceDetails(lead);}
+        else{callbacks.showEventDetail(lead);}
       });
       const marker=new maplibregl.Marker({element:el,anchor:'center'})
         .setLngLat(group.coords)
@@ -247,7 +247,7 @@
       const reportingNote=state.mapDays===1?` · ${reports24} reports collected in last 24h`:'';
       totals.textContent=`${windowLabel} · ${visibleEvents.length} candidate events · ${features.length} map locations · ${missing.length} without precise coordinates${reportingNote}`;
     }
-    const country=byId('mapCountryOnly');if(country){country.innerHTML=missing.length?`<h4>Location not precise (${missing.length})</h4><p>These records have no usable coordinates. They are listed here without a map pin.</p>${missing.slice(0,12).map((e,i)=>`<button type="button" data-missing="${i}">${api.esc([e.city,e.country].filter(Boolean).join(', ')||'Location unresolved')} · ${api.esc(e.event_date||'Date unresolved')}</button>`).join('')}`:'';country.querySelectorAll('[data-missing]').forEach(b=>b.onclick=()=>{const e=missing[Number(b.dataset.missing)];api.showEventDetail(e);enhanceDetails(e)})}
+    const country=byId('mapCountryOnly');if(country){country.innerHTML=missing.length?`<h4>Location not precise (${missing.length})</h4><p>These records have no usable coordinates. They are listed here without a map pin.</p>${missing.slice(0,12).map((e,i)=>`<button type="button" data-missing="${i}">${api.esc([e.city,e.country].filter(Boolean).join(', ')||'Location unresolved')} · ${api.esc(e.event_date||'Date unresolved')}</button>`).join('')}`:'';country.querySelectorAll('[data-missing]').forEach(b=>b.onclick=()=>{const e=missing[Number(b.dataset.missing)];api.showEventDetail(e)})}
     if(fallback)renderFallback();
     updateTimeline(state);
   }
@@ -286,7 +286,24 @@
     input.addEventListener('input',search);input.addEventListener('keydown',ev=>{if(ev.key==='Escape')results.hidden=true;if(ev.key==='Enter'){const b=results.querySelector('button');if(b)b.click()}});
     document.addEventListener('click',ev=>{if(!ev.target.closest('.map-search'))results.hidden=true});
   }
+  function focusEvent(e){
+    if(!e)return false;
+    let point=null;
+    const locations=Array.isArray(e.incident_locations)&&e.incident_locations.length?e.incident_locations:Array.isArray(e.locations)&&e.locations.length?e.locations:[];
+    const valid=locations.find(l=>goodCoord(l?.lat,l?.lng));
+    if(valid)point={lat:Number(valid.lat),lng:Number(valid.lng)};
+    else if(goodCoord(e.lat,e.lng))point={lat:Number(e.lat),lng:Number(e.lng)};
+    else{
+      const city=cityFallback(e);
+      if(city)point={lat:Number(city.lat),lng:Number(city.lng)};
+      else if(COUNTRY_ANCHORS[e.country])point={...COUNTRY_ANCHORS[e.country]};
+    }
+    if(!point)return false;
+    if(fallback){focusFallback(point.lng,point.lat);return true}
+    if(map){map.flyTo({center:[point.lng,point.lat],zoom:e.city?9:7.2,essential:true});return true}
+    return false;
+  }
   function resize(){if(map)map.resize()}
-  window.SAHEL_MAP_UI={render,resize};
+  window.SAHEL_MAP_UI={render,resize,focusEvent};
 })();
 

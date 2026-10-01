@@ -1,4 +1,4 @@
-const SITE_UI_VERSION='3.3.3';
+const SITE_UI_VERSION='3.3.4';
 const state={overview:null,reports:[],events:[],metrics:null,thirty:null,sources:[],runs:[],briefing:null,actorFilter:'all',mapDays:7,langFilter:'all',countryFilter:'all',range:30,voices:[],speaking:false,readerRunning:false,readerPaused:false,readerIndex:0,readerCycle:0,readerRange:30,readerQueue:[],readerSession:0,timelineDate:null,savedReports:[],savedViewMode:'all'};
 const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
 const esc=s=>String(s??'').replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
@@ -114,6 +114,8 @@ $$('.country-feed').forEach(b=>b.onclick=()=>{$$('.country-feed').forEach(x=>x.c
 $$('.range').forEach(b=>b.onclick=()=>{$$('.range').forEach(x=>x.classList.remove('active'));b.classList.add('active');state.range=Number(b.dataset.days);renderQuant();});
 $$('.map-range').forEach(b=>b.onclick=()=>{$$('.map-range').forEach(x=>x.classList.remove('active'));b.classList.add('active');state.mapDays=b.dataset.days==='all'?'all':Number(b.dataset.days);renderMap();});
 
+window.SAHEL_APP={state,esc,fmtTimestampUTC,reportKey,isReportSaved,reportSnapshot,persistSavedReports,toggleSavedReport,renderFeeds,renderSavedReports,renderMap,eventInWindow,hasCoord};
+
 async function refresh(){
   try{
     const [overview,reports,events,metrics,sources,runs,briefing,thirty]=await Promise.all([
@@ -121,7 +123,7 @@ async function refresh(){
       data('thirty_day').catch(()=>null)
     ]);
     Object.assign(state,{overview,reports,events,metrics,sources,runs,briefing,thirty});
-    renderOverview();renderThreat();renderMap();renderActors();renderFeeds();renderSavedReports();renderBriefing();renderThirty();updateReaderStatus();
+    renderOverview();renderThreat();renderMap();renderActors();renderFeeds();renderSavedReports();renderBriefing();renderThirty();updateReaderStatus();window.SAHEL_EVENT_DRAWER?.openHash?.();
     const active=$('.view.active')?.id;
     if(active==='view-quant')renderQuant();
     if(active==='view-sources')renderOps();
@@ -330,6 +332,7 @@ function showEventCluster(rows){
   [...box.querySelectorAll('.cluster-event-row')].forEach((b,i)=>b.onclick=()=>showEventDetail(rows[i]));
 }
 function showEventDetail(e){
+  if(window.SAHEL_EVENT_DRAWER?.open)return window.SAHEL_EVENT_DRAWER.open(e);
   const box=$('#mapEventDetail');if(!box)return;box.hidden=false;
   const src=(e.sources||e.source_names||[]);const sourceText=Array.isArray(src)?src.join(' • '):(e.source||`${e.source_count||1} monitored source(s)`);
   const linkedSummaries=Array.isArray(e.report_summaries)?e.report_summaries.filter(x=>x&&x.summary):[];
@@ -455,13 +458,13 @@ function renderThirty(){
     '<div class="chartlegend"><span><i class="dot" style="background:#59c3d8"></i>Relevant reports</span><span><i class="dot state"></i>Candidate events</span></div>';
   setText('thirtyChartReadout',chartDateLabel(dailyLabels[0])+' → '+chartDateLabel(dailyLabels.at(-1))+' • reports '+reportSeries.reduce((a,b)=>a+b,0)+' • candidate events '+eventSeries.reduce((a,b)=>a+b,0)+' • latest day '+(reportSeries.at(-1)??0)+' reports / '+(eventSeries.at(-1)??0)+' events');
   const thirtyData=$('#thirtyChartData');if(thirtyData)thirtyData.innerHTML=chartDataTable(dailyLabels,thirtySeries);
-  $('#thirtyTimeline').innerHTML=(t.latest_events||[]).slice(0,24).map(e=>`<div class="timeline-row timeline-event" data-event-date="${esc(e.event_date||'')}"><span>${esc(e.event_date||'—')}</span><b style="color:${actorColor(e.actor)}">${esc(e.actor||'Other')}</b><span>${esc(e.event_type||'event')}</span><span>${esc([e.city,e.country].filter(Boolean).join(', ')||'Location unresolved')}</span><strong>${esc(e.source_count??1)} src</strong><p>${esc(e.title||'')}</p></div>`).join('')||'<div class="runbox">No candidate events currently fall inside the 30-day window.</div>';
+  $('#thirtyTimeline').innerHTML=(t.latest_events||[]).slice(0,24).map((e,i)=>`<div class="timeline-row timeline-event" role="button" tabindex="0" data-event-index="${i}" data-event-date="${esc(e.event_date||'')}"><span>${esc(e.event_date||'—')}</span><b style="color:${actorColor(e.actor)}">${esc(e.actor||'Other')}</b><span>${esc(e.event_type||'event')}</span><span>${esc([e.city,e.country].filter(Boolean).join(', ')||'Location unresolved')}</span><strong>${esc(e.source_count??1)} src</strong><p>${esc(e.title||'')}<small class="timeline-open-hint">VIEW DOSSIER →</small></p></div>`).join('')||'<div class="runbox">No candidate events currently fall inside the 30-day window.</div>';
   $('#thirtyReports').innerHTML=(t.latest_reports||[]).slice(0,28).map(r=>`<div class="timeline-row report-row"><span>${esc(r.published_at?fmtTimestampUTC(r.published_at):'PUB UNAVAILABLE')}</span><b>${esc((r.language||'').toUpperCase())}</b><span>${esc(r.candidate_event?'EVENT':'REPORT')}</span><span>${esc([r.city,r.country].filter(Boolean).join(', ')||'Regional')}</span><strong>${esc(r.source||'')}</strong><p>${esc(r.title||'')}<br><small>Collected: ${esc(fmtTimestampUTC(r.collected_at||r.discovered_at))}</small></p></div>`).join('')||'<div class="runbox">No relevant reports currently fall inside the 30-day window.</div>';
   setText('thirtyNote',t.method_note||'');
   const dates=[...new Set((t.latest_events||[]).map(e=>e.event_date).filter(Boolean))].sort().reverse();
   const strip=$('#eventDateStrip');if(strip)strip.innerHTML=dates.map(d=>`<button class="date-chip ${state.timelineDate===d?'active':''}" data-date="${esc(d)}">${esc(d.slice(5))}</button>`).join('')||'<span class="report-meta">No dated candidate events.</span>';
   $$('.date-chip').forEach(b=>b.onclick=()=>{state.timelineDate=b.dataset.date;$('#clearTimelineFilter').hidden=false;renderMap();renderThirty()});
-  $$('.timeline-event').forEach(r=>r.onclick=()=>{if(r.dataset.eventDate){state.timelineDate=r.dataset.eventDate;$('#clearTimelineFilter').hidden=false;renderMap();renderThirty();window.scrollTo({top:0,behavior:'smooth'})}});
+  $$('.timeline-event').forEach(r=>{const open=()=>{const e=(t.latest_events||[])[Number(r.dataset.eventIndex)];if(e&&window.SAHEL_EVENT_DRAWER?.open)window.SAHEL_EVENT_DRAWER.open(e)};r.onclick=open;r.onkeydown=ev=>{if(ev.key==='Enter'||ev.key===' '){ev.preventDefault();open()}}});
   const clear=$('#clearTimelineFilter');if(clear){clear.hidden=!state.timelineDate;clear.onclick=()=>{state.timelineDate=null;renderMap();renderThirty()}};
 }
 

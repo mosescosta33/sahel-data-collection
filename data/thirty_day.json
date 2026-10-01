@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-01T16:33:55.376569Z",
+  "generated_at": "2026-10-01T17:25:18.734142Z",
   "window_days": 30,
   "cutoff": "2026-09-01",
-  "reports": 200,
+  "reports": 202,
   "incident_reports": 37,
   "candidate_events": 35,
   "corroborated_events": 2,
@@ -30,7 +30,7 @@
     "air/drone strike": 1
   },
   "by_language": {
-    "fr": 134,
+    "fr": 136,
     "en": 59,
     "ar": 7
   },
@@ -41,11 +41,11 @@
   "top_sources": [
     {
       "source": "Bamada",
-      "count": 17
+      "count": 18
     },
     {
       "source": "Malijet",
-      "count": 16
+      "count": 17
     },
     {
       "source": "AMAP (Agence Malienne de Presse et de Publicité)",
@@ -286,7 +286,7 @@
     },
     {
       "date": "2026-10-01",
-      "reports": 18,
+      "reports": 20,
       "events": 1
     }
   ],
@@ -3405,6 +3405,40 @@
   ],
   "latest_reports": [
     {
+      "published_at": "2026-10-01T16:58:26Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-01T17:23:26.676006Z",
+      "discovered_at": "2026-10-01T17:23:26.676006Z",
+      "timestamp_integrity": "complete",
+      "source": "Malijet",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": null,
+      "event_type": "security operation",
+      "candidate_event": false,
+      "title": "Operation Dougoukoloko: FAMa shelling terrorist hideouts in Tessalit, Nampala and Sofara",
+      "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312122-operation-dougoukoloko-les-fama-pilonnent-des-repaires-ter.html"
+    },
+    {
+      "published_at": "2026-10-01T16:05:21Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-01T17:23:26.279258Z",
+      "discovered_at": "2026-10-01T17:23:26.279258Z",
+      "timestamp_integrity": "complete",
+      "source": "Bamada",
+      "language": "fr",
+      "actor": "JNIM",
+      "country": "Mali",
+      "city": "Ménaka",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "JOINT PATROL FAMa-MSA-GATIA and AFRICA CORPS: MEMBERS OF the JNIM-FLA COALITION KILLED BETWEEN ANSONGO and MÉNAKA",
+      "url": "https://bamada.net/patrouille-conjointe-fama-msa-gatia-et-africa-corps-des-membres-de-la-coalition-jnim-fla-tues-entre-ansongo-et-menaka"
+    },
+    {
       "published_at": "2026-10-01T15:37:07Z",
       "published_date_source": "feed",
       "published_time_precision": "datetime",
@@ -3476,8 +3510,8 @@
       "published_at": "2026-10-01T11:56:30Z",
       "published_date_source": "feed",
       "published_time_precision": "datetime",
-      "collected_at": "2026-10-01T16:32:15.667936Z",
-      "discovered_at": "2026-10-01T16:32:15.667936Z",
+      "collected_at": "2026-10-01T17:23:28.005885Z",
+      "discovered_at": "2026-10-01T17:23:28.005885Z",
       "timestamp_integrity": "complete",
       "source": "Africanews",
       "language": "en",
@@ -3578,8 +3612,8 @@
       "published_at": "2026-10-01T09:06:07Z",
       "published_date_source": "feed",
       "published_time_precision": "datetime",
-      "collected_at": "2026-10-01T12:39:32.318053Z",
-      "discovered_at": "2026-10-01T12:39:32.318053Z",
+      "collected_at": "2026-10-01T17:23:48.499625Z",
+      "discovered_at": "2026-10-01T17:23:48.499625Z",
       "timestamp_integrity": "complete",
       "source": "Africanews",
       "language": "en",
@@ -3765,8 +3799,8 @@
       "published_at": "2026-09-30T16:45:03Z",
       "published_date_source": "feed",
       "published_time_precision": "datetime",
-      "collected_at": "2026-10-01T16:32:15.375185Z",
-      "discovered_at": "2026-10-01T16:32:15.375185Z",
+      "collected_at": "2026-10-01T17:23:31.571966Z",
+      "discovered_at": "2026-10-01T17:23:31.571966Z",
       "timestamp_integrity": "complete",
       "source": "Africanews",
       "language": "en",
@@ -3969,8 +4003,8 @@
       "published_at": "2026-09-30T05:20:33Z",
       "published_date_source": "feed",
       "published_time_precision": "datetime",
-      "collected_at": "2026-10-01T16:32:42.813912Z",
-      "discovered_at": "2026-10-01T16:32:42.813912Z",
+      "collected_at": "2026-10-01T17:23:54.369121Z",
+      "discovered_at": "2026-10-01T17:23:54.369121Z",
       "timestamp_integrity": "complete",
       "source": "Africanews",
       "language": "en",
@@ -4049,40 +4083,6 @@
       "candidate_event": false,
       "title": "FUNERAL CEREMONY: the FAMa pay a final tribute to retired Brigadier General Sirakoro SANGARE",
       "url": "https://bamada.net/ceremonie-funebre-les-fama-rendent-un-ultime-hommage-au-general-de-brigade-a-la-retraite-sirakoro-sangare"
-    },
-    {
-      "published_at": "2026-09-29T20:56:37Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-09-29T21:29:08.061402Z",
-      "discovered_at": "2026-09-29T21:29:08.061402Z",
-      "timestamp_integrity": "complete",
-      "source": "Bamada",
-      "language": "fr",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Kidal",
-      "event_type": "security operation",
-      "candidate_event": false,
-      "title": "Terrorist tracking: The FAMa neutralize several armed groups east of Boghasa and southeast of Sofara",
-      "url": "https://bamada.net/traque-terroriste-les-fama-neutralisent-plusieurs-regroupements-armes-a-lest-de-boghassa-et-au-sud-est-de-sofara"
-    },
-    {
-      "published_at": "2026-09-29T20:18:44Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-09-30T23:09:11.063077Z",
-      "discovered_at": "2026-09-30T23:09:11.063077Z",
-      "timestamp_integrity": "complete",
-      "source": "RFI Afrique",
-      "language": "fr",
-      "actor": "JNIM",
-      "country": "Mali",
-      "city": null,
-      "event_type": "ambush",
-      "candidate_event": false,
-      "title": "Mali: deadly ambush of Jnim jihadists in Niono against the Russian Africa Corps - RFI",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNQklpbTNwVlQ3TkdlaENzbEpINHdDZkFzV3lYamJCWk12NUZ3M0tPeW1zZFNobGFxR2Vabjd5a25qc1d3OGc3ZmtlM3ZvUG92anc3V2Z6MlRWOGREN0F6MFVxUjBoMXZNM2s3T1RIZ1VYQWRzMEM0c2RQVDNlbnB2U2hPRlZ0bVRLemV6cmkyUDgtVUxLQ0VOS1BmeWJoYm00ZXJ2ZjRkaWRlQWE5ZmVsM2pURExrYU5YVzc4YnhsWWllMmkwYm5NbEV3bFBzdw?oc=5"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
