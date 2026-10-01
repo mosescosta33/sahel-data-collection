@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "site_patch_version": "2.9.3",
   "reporting_date": "2026-10-01",
-  "generated_at": "2026-10-01T20:35:38.149897Z",
+  "generated_at": "2026-10-01T21:17:35.000321Z",
   "coverage": [
     "Mali",
     "Burkina Faso",
@@ -488,15 +488,6 @@
         "event_date": "2026-07-21"
       },
       {
-        "id": "cd9eaeaf240102d866a6cf227dbbc560cec03379",
-        "source": "aNiamey.com",
-        "title": "Agadez: the SDF repulse an attack in Abalama  two bandits neutralized, equipment seized, one soldier killed and four wounded",
-        "summary": "Agadez: SDF repels attack in Abalama – two bandits neutralized, equipment seized, one soldier killed and four wounded Published on Friday, September 5, 2025 | actuniger.com On Tuesday, September 2, 2025, the Defense and Security Forces (SDF) successfully repulsed two simultaneous attacks targeting the positions of the National Guard detachment in Abalama, Aderbissanat Department .",
-        "url": "http://news.aniamey.com/h/122857.html",
-        "candidate_event": true,
-        "event_date": "2025-09-05"
-      },
-      {
         "id": "c015f1edfe2106d96da43f14e6ff81027adcec26",
         "source": "aNiamey.com",
         "title": "Defence: General Tiani reshuffles the military command after the Niamey mutiny",
@@ -504,6 +495,15 @@
         "url": "http://news.aniamey.com/h/123258.html",
         "candidate_event": false,
         "event_date": "2026-09-12"
+      },
+      {
+        "id": "cd9eaeaf240102d866a6cf227dbbc560cec03379",
+        "source": "aNiamey.com",
+        "title": "Agadez: the SDF repulse an attack in Abalama  two bandits neutralized, equipment seized, one soldier killed and four wounded",
+        "summary": "Agadez: SDF repels attack in Abalama – two bandits neutralized, equipment seized, one soldier killed and four wounded Published on Friday, September 5, 2025 | actuniger.com On Tuesday, September 2, 2025, the Defense and Security Forces (SDF) successfully repulsed two simultaneous attacks targeting the positions of the National Guard detachment in Abalama, Aderbissanat Department .",
+        "url": "http://news.aniamey.com/h/122857.html",
+        "candidate_event": true,
+        "event_date": "2025-09-05"
       },
       {
         "id": "b0770cb11a977644405b6056016228bba3262381",
@@ -602,11 +602,11 @@
     "sources_success": 160,
     "sources_failed": 16,
     "sources_degraded": 28,
-    "documents_discovered": 12550,
+    "documents_discovered": 12542,
     "documents_retained": 12,
     "report_target": 100,
-    "translations_attempted": 8,
-    "translations_success": 8,
+    "translations_attempted": 7,
+    "translations_success": 7,
     "translation_failures": 0,
     "collection_confidence": "LOW",
     "collection_confidence_reasons": [

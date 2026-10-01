@@ -6,18 +6,19 @@
   <meta name="theme-color" content="#e5ebee" />
   <script>try{document.documentElement.dataset.theme=localStorage.getItem('sicTheme')||'light'}catch(e){document.documentElement.dataset.theme='light'}</script>
   <title>Sahel Intel Collection</title>
-  <link rel="stylesheet" href="./styles.css?v=3.3.4" />
+  <link rel="stylesheet" href="./styles.css?v=4.0.0" />
   <link rel="stylesheet" href="./briefings.css" />
   <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.12.0/dist/maplibre-gl.css" />
-  <link rel="stylesheet" href="./map-ui.css?v=3.3.4" />
+  <link rel="stylesheet" href="./map-ui.css?v=4.0.0" />
   <link rel="stylesheet" href="./logs.css" />
-  <link rel="stylesheet" href="./readability.css?v=3.3.4" />
+  <link rel="stylesheet" href="./readability.css?v=4.0.0" />
+  <link rel="stylesheet" href="./research-lab.css?v=4.0.0" />
 </head>
 <body>
   <header class="topbar">
     <div class="brand"><div class="brandmark">SIC</div><div><h1>SAHEL INTEL COLLECTION</h1><p>AUTOMATED MULTILINGUAL OPEN-SOURCE COLLECTION • FR / AR / EN</p></div></div>
     <div class="ownercenter"><strong>MOSES COSTA</strong></div>
-    <div class="topmeta"><span id="patchBadge" class="versionbadge" title="Site patch version">PATCH v3.3.4</span><button id="themeToggle" class="theme-toggle" type="button" aria-label="Switch light and dark mode">☀ LIGHT</button><span id="systemBadge" class="status offline">OFFLINE</span><span id="heartbeat">waiting for collector</span><span id="clock"></span></div>
+    <div class="topmeta"><span id="patchBadge" class="versionbadge" title="Site patch version">PATCH v4.0.0</span><button id="themeToggle" class="theme-toggle" type="button" aria-label="Switch light and dark mode">☀ LIGHT</button><span id="systemBadge" class="status offline">OFFLINE</span><span id="heartbeat">waiting for collector</span><span id="clock"></span></div>
   </header>
 
   <nav class="tabs">
@@ -242,6 +243,8 @@
     </section>
 
     <section id="view-quant" class="view">
+      <div id="researchLab" class="ql-shell"></div>
+      <details class="ql-osint"><summary class="ql-osint-heading">OSINT candidate-event trends</summary><p class="note">This series uses Sahel Intel candidate events. ACLED research above uses your separate validated export.</p>
       <div class="grid quant-grid">
         <section class="panel fullspan">
           <div class="panelhead"><div><span class="eyebrow">SAHEL ACTIVITY TREND VIEW</span><h2>JNIM • IS Sahel • State Activity</h2></div><div class="filterbar"><button class="range active" data-days="30">30D</button><button class="range" data-days="90">90D</button><button class="range" data-days="180">180D</button></div></div>
@@ -255,6 +258,7 @@
         <section class="panel"><span class="eyebrow">IS SAHEL ACTIVITY</span><h2>7D / 30D</h2><div class="dual-quant"><div><small>7 DAYS</small><strong id="qIs">0</strong><span id="qIsChange">—</span></div><div><small>30 DAYS</small><strong id="qIs30">0</strong><span id="qIs30Change">—</span></div></div></section>
         <section class="panel"><span class="eyebrow">STATE ACTIVITY</span><h2>7D / 30D</h2><div class="dual-quant"><div><small>7 DAYS</small><strong id="qState">0</strong><span id="qStateChange">—</span></div><div><small>30 DAYS</small><strong id="qState30">0</strong><span id="qState30Change">—</span></div></div></section>
       </div>
+      </details>
     </section>
 
 
@@ -347,11 +351,13 @@
   </main>
   <script src="https://unpkg.com/maplibre-gl@5.12.0/dist/maplibre-gl.js"></script>
   <script src="./map-data.js"></script>
-  <script src="./map-ui.js?v=3.3.4"></script>
-  <script src="./app.js?v=3.3.4"></script>
-  <script src="./event-drawer.js?v=3.3.4"></script>
-  <script src="./civilian-harm.js?v=3.3.4"></script>
+  <script src="./map-ui.js?v=4.0.0"></script>
+  <script src="./app.js?v=4.0.0"></script>
+  <script src="./event-drawer.js?v=4.0.0"></script>
+  <script src="./civilian-harm.js?v=4.0.0"></script>
   <script src="./logs.js"></script>
+  <script src="./research-lab.js?v=4.0.0"></script>
 </body>
 </html>
+
 
