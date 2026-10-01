@@ -9,14 +9,14 @@
   <link rel="stylesheet" href="./styles.css" />
   <link rel="stylesheet" href="./briefings.css" />
   <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.12.0/dist/maplibre-gl.css" />
-  <link rel="stylesheet" href="./map-ui.css?v=3.0.7" />
+  <link rel="stylesheet" href="./map-ui.css?v=3.0.8" />
   <link rel="stylesheet" href="./logs.css" />
 </head>
 <body>
   <header class="topbar">
     <div class="brand"><div class="brandmark">SIC</div><div><h1>SAHEL INTEL COLLECTION</h1><p>AUTOMATED MULTILINGUAL OPEN-SOURCE COLLECTION • FR / AR / EN</p></div></div>
     <div class="ownercenter"><strong>MOSES COSTA</strong></div>
-    <div class="topmeta"><span id="patchBadge" class="versionbadge" title="Site patch version">PATCH v3.0.7</span><button id="themeToggle" class="theme-toggle" type="button" aria-label="Switch light and dark mode">☀ LIGHT</button><span id="systemBadge" class="status offline">OFFLINE</span><span id="heartbeat">waiting for collector</span><span id="clock"></span></div>
+    <div class="topmeta"><span id="patchBadge" class="versionbadge" title="Site patch version">PATCH v3.0.8</span><button id="themeToggle" class="theme-toggle" type="button" aria-label="Switch light and dark mode">☀ LIGHT</button><span id="systemBadge" class="status offline">OFFLINE</span><span id="heartbeat">waiting for collector</span><span id="clock"></span></div>
   </header>
 
   <nav class="tabs">
@@ -46,7 +46,7 @@
               </div>
               <div class="map-legend"><span><i class="dot jnim"></i> JNIM</span><span><i class="dot is"></i> IS Sahel</span><span><i class="dot state"></i> State</span><span><i class="dot other"></i> Other</span><span>All map points are candidate records</span></div>
             </div>
-            <aside class="map-explorer" aria-label="Selected map record"><span class="eyebrow">INCIDENT EXPLORER</span><h3>What is happening nearby</h3><div id="mapExplorerCount" class="map-explorer-count">Loading event records…</div><div id="mapEventDetail" class="map-event-detail">Select a marker to examine its source reporting and location precision.</div><fieldset class="map-layer-switches"><legend>MAP LAYERS</legend><label><input id="mapMarkersLayer" type="checkbox" checked /> Candidate events</label><label><input id="mapBordersLayer" type="checkbox" checked /> AES borders</label></fieldset><div id="mapCountryOnly" class="map-country-only"></div></aside>
+            <aside class="map-explorer" aria-label="Selected map record"><span class="eyebrow">INCIDENT EXPLORER</span><h3>What is happening nearby</h3><div id="mapExplorerCount" class="map-explorer-count">Loading event records…</div><div id="mapEventDetail" class="map-event-detail">Select a marker to examine its source reporting and location precision.</div><fieldset class="map-layer-switches"><legend>MAP LAYERS</legend><label><input id="mapMarkersLayer" type="checkbox" checked /> Candidate events</label></fieldset><div id="mapCountryOnly" class="map-country-only"></div></aside>
           </div>
           <div class="map-timeline"><div><span class="eyebrow">EVENT DATE</span><strong id="mapTimelineLabel">Latest reports</strong></div><input id="mapTimeline" type="range" aria-label="Select a reported event date" min="0" max="0" value="0" disabled /><button id="mapTimelineClear" type="button" hidden>Clear date</button><span class="map-timeline-note">Dates are day-level; the collector does not supply incident hours.</span></div>
           <div id="mapCountryCounts" class="map-country-counts"></div>
@@ -243,8 +243,8 @@
   </main>
   <script src="https://unpkg.com/maplibre-gl@5.12.0/dist/maplibre-gl.js"></script>
   <script src="./map-data.js"></script>
-  <script src="./map-ui.js?v=3.0.7"></script>
-  <script src="./app.js?v=3.0.7"></script>
+  <script src="./map-ui.js?v=3.0.8"></script>
+  <script src="./app.js?v=3.0.8"></script>
   <script src="./logs.js"></script>
 </body>
 </html>
