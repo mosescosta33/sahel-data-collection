@@ -6,17 +6,17 @@
   <meta name="theme-color" content="#e5ebee" />
   <script>try{document.documentElement.dataset.theme=localStorage.getItem('sicTheme')||'light'}catch(e){document.documentElement.dataset.theme='light'}</script>
   <title>Sahel Intel Collection</title>
-  <link rel="stylesheet" href="./styles.css?v=3.2.0" />
+  <link rel="stylesheet" href="./styles.css?v=3.2.1" />
   <link rel="stylesheet" href="./briefings.css" />
   <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.12.0/dist/maplibre-gl.css" />
-  <link rel="stylesheet" href="./map-ui.css?v=3.2.0" />
+  <link rel="stylesheet" href="./map-ui.css?v=3.2.1" />
   <link rel="stylesheet" href="./logs.css" />
 </head>
 <body>
   <header class="topbar">
     <div class="brand"><div class="brandmark">SIC</div><div><h1>SAHEL INTEL COLLECTION</h1><p>AUTOMATED MULTILINGUAL OPEN-SOURCE COLLECTION • FR / AR / EN</p></div></div>
     <div class="ownercenter"><strong>MOSES COSTA</strong></div>
-    <div class="topmeta"><span id="patchBadge" class="versionbadge" title="Site patch version">PATCH v3.2.0</span><button id="themeToggle" class="theme-toggle" type="button" aria-label="Switch light and dark mode">☀ LIGHT</button><span id="systemBadge" class="status offline">OFFLINE</span><span id="heartbeat">waiting for collector</span><span id="clock"></span></div>
+    <div class="topmeta"><span id="patchBadge" class="versionbadge" title="Site patch version">PATCH v3.2.1</span><button id="themeToggle" class="theme-toggle" type="button" aria-label="Switch light and dark mode">☀ LIGHT</button><span id="systemBadge" class="status offline">OFFLINE</span><span id="heartbeat">waiting for collector</span><span id="clock"></span></div>
   </header>
 
   <nav class="tabs">
@@ -93,7 +93,7 @@
             <div class="dense-block"><h3>Reporting languages</h3><div id="thirtyLanguages" class="barlist"></div></div>
           </div>
           <div class="thirty-lower">
-            <div class="dense-block"><h3>30-day reporting vs event activity</h3><div id="thirtyChart" class="thirty-chart"></div></div>
+            <div class="dense-block"><h3>30-day reporting vs event activity</h3><div id="thirtyChart" class="thirty-chart"></div><div id="thirtyChartReadout" class="chart-readout"></div><details class="chart-data-details"><summary>SHOW EXACT DAILY VALUES</summary><div id="thirtyChartData" class="chart-data-table"></div></details></div>
             <div class="dense-block"><h3>Top reporting sources</h3><div id="thirtySources" class="barlist compact"></div></div>
           </div>
           <div class="timeline-toolbar"><h3 class="timeline-title">Latest candidate events in the 30-day window</h3><button id="clearTimelineFilter" class="methodpill" hidden>SHOW ALL DATES</button></div><div id="eventDateStrip" class="event-date-strip"></div>
@@ -184,6 +184,24 @@
           </div>
         </section>
 
+        <section class="panel fullspan civilian-trend-panel">
+          <div class="panelhead">
+            <div><span class="eyebrow">DATED QUANTITATIVE SERIES</span><h2>Civilian-Harm Screening Trend</h2></div>
+            <div class="filterbar" aria-label="Civilian harm chart range">
+              <button class="civilian-range active" data-civilian-days="30" type="button">30D</button>
+              <button class="civilian-range" data-civilian-days="90" type="button">90D</button>
+              <button class="civilian-range" data-civilian-days="180" type="button">180D</button>
+            </div>
+          </div>
+          <div id="civilianTrendChart" class="civilian-trend-chart" aria-label="Civilian-harm screened reports by incident date"></div>
+          <div id="civilianTrendReadout" class="chart-readout"></div>
+          <details class="chart-data-details">
+            <summary>SHOW EXACT DATE-BY-DATE VALUES</summary>
+            <div id="civilianTrendData" class="chart-data-table"></div>
+          </details>
+          <p class="note">Counts represent screened retained reports by reported incident date. They are documentation signals, not verified abuse counts or legal findings.</p>
+        </section>
+
         <section class="panel civilian-breakdown-panel">
           <div class="panelhead"><div><span class="eyebrow">COUNTRY COVERAGE</span><h2>Screened Reporting</h2></div></div>
           <div id="civilianCountryBreakdown" class="civilian-breakdown"></div>
@@ -228,6 +246,8 @@
           <div class="panelhead"><div><span class="eyebrow">STOCK-MARKET STYLE TREND VIEW</span><h2>JNIM • IS Sahel • State Activity</h2></div><div class="filterbar"><button class="range active" data-days="30">30D</button><button class="range" data-days="90">90D</button><button class="range" data-days="180">180D</button></div></div>
           <div id="actorChart" class="bigchart"></div>
           <div class="chartlegend"><span><i class="dot jnim"></i>JNIM</span><span><i class="dot is"></i>IS Sahel</span><span><i class="dot state"></i>State</span></div>
+          <div id="actorChartReadout" class="chart-readout"></div>
+          <details class="chart-data-details"><summary>SHOW EXACT DAILY VALUES</summary><div id="actorChartData" class="chart-data-table"></div></details>
           <p id="metricNote" class="note"></p>
         </section>
         <section class="panel"><span class="eyebrow">JNIM ACTIVITY</span><h2>7D / 30D</h2><div class="dual-quant"><div><small>7 DAYS</small><strong id="qJnim">0</strong><span id="qJnimChange">—</span></div><div><small>30 DAYS</small><strong id="qJnim30">0</strong><span id="qJnim30Change">—</span></div></div></section>
@@ -326,9 +346,9 @@
   </main>
   <script src="https://unpkg.com/maplibre-gl@5.12.0/dist/maplibre-gl.js"></script>
   <script src="./map-data.js"></script>
-  <script src="./map-ui.js?v=3.2.0"></script>
-  <script src="./app.js?v=3.2.0"></script>
-  <script src="./civilian-harm.js?v=3.2.0"></script>
+  <script src="./map-ui.js?v=3.2.1"></script>
+  <script src="./app.js?v=3.2.1"></script>
+  <script src="./civilian-harm.js?v=3.2.1"></script>
   <script src="./logs.js"></script>
 </body>
 </html>
