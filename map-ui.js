@@ -10,7 +10,7 @@
   let map, lastState, callbacks, currentFeatures=empty(), recordIndex=new Map(), visibleEvents=[], dates=[], layersReady=false, markerHandlers=false;
   let domMarkers=[];
   let fallback=false, loadTimer, controlsBound=false, svgView=[0,0,1000,560];
-  let showMarkers=true, showBorders=true, styleName='positron';
+  let showMarkers=true, styleName='positron';
   const startBounds=[[-17.8,9.0],[16.4,25.0]];
 
   const COUNTRY_ANCHORS={
@@ -116,7 +116,6 @@
       controlsBound=true;bindSearch();bindTimeline();
       byId('mapStyle').onchange=e=>{if(!STYLES.has(e.target.value)||!map)return;styleName=e.target.value;layersReady=false;map.setStyle(STYLE_ROOT+styleName);armTimeout()};
       byId('mapMarkersLayer').onchange=e=>{showMarkers=e.target.checked;applyVisibility()};
-      byId('mapBordersLayer').onchange=e=>{showBorders=e.target.checked;applyVisibility()};
     }
     if(map||fallback)return;
     if(!window.maplibregl){activateFallback();return}
@@ -163,7 +162,7 @@
     for(const country of window.SAHEL_MAP_DATA?.countries||[]){
       const g=country.geometry,polys=g.type==='Polygon'?[g.coordinates]:g.coordinates;
       const d=polys.map(poly=>poly.map(ring=>ring.map((p,i)=>`${i?'L':'M'}${projectFallback(p[0],p[1]).join(',')}`).join(' ')+' Z').join(' ')).join(' ');
-      svg.append(make('path',{d,fill:AES.has(country.properties?.name)?'#dae6d6':'#eef0df',stroke:showBorders?'#83958d':'none','stroke-width':1,'vector-effect':'non-scaling-stroke'}));
+      svg.append(make('path',{d,fill:AES.has(country.properties?.name)?'#dae6d6':'#eef0df',stroke:'#83958d','stroke-width':1,'vector-effect':'non-scaling-stroke'}));
     }
     const cities=typeof CITY_LABELS!=='undefined'?CITY_LABELS:[];
     for(const c of cities){const [x,y]=projectFallback(c.lng,c.lat);const label=make('text',{x:x+5,y:y-5,fill:'#304840','font-size':11});label.textContent=c.name;svg.append(label)}
@@ -187,13 +186,6 @@
   function installLayers(){
     if(!map||!map.isStyleLoaded())return;
     clearTimeout(loadTimer);layersReady=true;status('');
-    const countries=(window.SAHEL_MAP_DATA?.countries||[]).filter(f=>AES.has(f.properties?.name));
-    if(!map.getSource('sahel-borders')){
-      map.addSource('sahel-borders',{type:'geojson',data:{type:'FeatureCollection',features:countries}});
-    }
-    if(!map.getLayer('sahel-border-lines')){
-      map.addLayer({id:'sahel-border-lines',type:'line',source:'sahel-borders',paint:{'line-color':'#dd6758','line-width':['interpolate',['linear'],['zoom'],3,1.2,8,2.4],'line-opacity':0.78}});
-    }
     // Event pins are DOM overlays above the canvas. The GeoJSON source remains only
     // for diagnostics/future clustering and is not required for pin visibility.
     if(!map.getSource('sahel-events')){
@@ -208,7 +200,6 @@
   function applyVisibility(){
     if(fallback){renderFallback();return}
     if(!map||!layersReady)return;
-    if(map.getLayer('sahel-border-lines'))map.setLayoutProperty('sahel-border-lines','visibility',showBorders?'visible':'none');
     for(const marker of domMarkers){
       const el=marker.getElement?.();
       if(el)el.style.display=showMarkers?'grid':'none';
