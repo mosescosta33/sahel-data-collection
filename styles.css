@@ -197,3 +197,6 @@ html[data-theme="light"] .event-cluster-count{fill:#edf1f2!important;stroke:#1b3
 .saved-reports-feed:empty::before{content:"No saved reports yet.";display:block;padding:18px;border:1px dashed var(--line);color:var(--muted);font:600 10px ui-monospace,SFMono-Regular,Consolas,monospace}
 .saved-toolbar button:disabled{opacity:.45;cursor:not-allowed}
 html[data-theme="light"] .save-report-btn.saved{background:#fff4cc;color:#6d5200;border-color:#b58b2a}
+
+.saved-view-filter.active{color:#e7f8ff;border-color:#3f8da8;background:#0e2937}
+html[data-theme="light"] .saved-view-filter.active{background:#cedfe5!important;color:#102f3b!important;border-color:#668e9d!important}
