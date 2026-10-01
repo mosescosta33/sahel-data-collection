@@ -202,6 +202,28 @@
     const r=lab.result;if(!r)return '';
     const lines=['# '+(r.method_label||r.method),'','Author: Moses Costa','Source: ACLED','Generated: '+r.generated_at,'','## Research design','',r.config?.hypothesis||'Hypothesis was not recorded before estimation.','', 'Unit: '+r.config?.unit,'Outcome: '+r.config?.outcome,'N: '+(r.n??r.n_events??r.audit?.valid_rows),'', '## Specification','',r.formula||methods[r.method]?.[2]||'',r.standard_errors||'','', '## Interpretation','',...(Array.isArray(r.interpretation)?r.interpretation:[r.interpretation]).filter(Boolean),'','## Findings and uncertainty',''];
     if(r.coefficients){lines.push('| Term | Estimate | 95% lower | 95% upper | Ratio | p |','| --- | ---: | ---: | ---: | ---: | ---: |');for(const c of r.coefficients)lines.push(`| ${c.term.replace(/\|/g,'/')} | ${number(c.coefficient)} | ${number(c.ci_low??c.credible_low)} | ${number(c.ci_high??c.credible_high)} | ${number(c.ratio)} | ${number(c.p_value)} |`);}
+    const appendTable=(title,rows,limit=100)=>{
+      if(!rows?.length)return;
+      const cols=[...new Set(rows.flatMap(row=>Object.keys(row)))];
+      const cell=value=>String(typeof value==='number'?number(value):value===null||value===undefined?'—':typeof value==='object'?JSON.stringify(value):value).replace(/\|/g,'\\|').replace(/\r?\n/g,' ');
+      lines.push('','### '+title,'','| '+cols.map(cell).join(' | ')+' |','| '+cols.map(()=> '---').join(' | ')+' |');
+      for(const row of rows.slice(0,limit))lines.push('| '+cols.map(col=>cell(row[col])).join(' | ')+' |');
+      if(rows.length>limit)lines.push('',`Showing ${limit} of ${rows.length} rows. Complete values are in results.json.`);
+    };
+    appendTable('Dated outcome series',r.series);
+    if(r.variables)appendTable('Variable distributions',Object.entries(r.variables).map(([variable,v])=>({variable,...v})));
+    appendTable('Correlation estimates',r.pairs);
+    appendTable('Treated/control pre/post means',r.group_means);
+    appendTable('Covariate balance',r.balance);
+    appendTable('Forecast validation',r.validation);
+    appendTable('Probability validation',r.probability_validation);
+    appendTable('Next-month forecasts',r.forecast);
+    appendTable('Actor centrality',r.nodes,50);
+    appendTable('Actor interactions',r.edges,50);
+    appendTable('Spatial cell counts and hotspots',r.cells);
+    const metrics=['moran_i','moran_expected','moran_permutation_p','mean_nearest_neighbor_km','n_actors','n_edges','density','components','actor_hhi','effective_sample_size','matched_pairs','n_border_events'].filter(k=>r[k]!==undefined);
+    appendTable('Analysis statistics',metrics.map(statistic=>({statistic,value:r[statistic]})));
+    appendTable('Robustness specifications',r.specifications);
     lines.push('','## Diagnostics','','```json',JSON.stringify(r.diagnostics||r.audit,null,2),'```','','## Limitations','',...(r.limitations||[]).map(x=>'- '+x),'','## Replication','','Configuration and complete machine-readable results accompany this report. The panel contains derived aggregates; obtain raw events through your own ACLED access.','','```json',JSON.stringify(r.config,null,2),'```','',r.citation||'ACLED event data.');return lines.join('\n');
   }
   // ZIP store format. No dependency or raw-event upload; all entries are constructed in memory.
