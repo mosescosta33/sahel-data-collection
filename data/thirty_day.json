@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-01T11:33:15.792508Z",
+  "generated_at": "2026-10-01T12:40:54.279034Z",
   "window_days": 30,
   "cutoff": "2026-09-01",
-  "reports": 190,
+  "reports": 195,
   "incident_reports": 37,
   "candidate_events": 35,
   "corroborated_events": 2,
   "mapped_events": 26,
   "mapped_locations": 55,
-  "distinct_sources": 56,
+  "distinct_sources": 57,
   "by_actor": {
     "State": 16,
     "JNIM": 7,
@@ -30,8 +30,8 @@
     "air/drone strike": 1
   },
   "by_language": {
-    "fr": 128,
-    "en": 55,
+    "fr": 130,
+    "en": 58,
     "ar": 7
   },
   "by_confidence": {
@@ -64,6 +64,10 @@
       "count": 9
     },
     {
+      "source": "Africanews",
+      "count": 7
+    },
+    {
       "source": "AllAfrica (English Edition)",
       "count": 7
     },
@@ -82,10 +86,6 @@
     {
       "source": "Punch Newspapers (Nigeria)",
       "count": 6
-    },
-    {
-      "source": "Africanews",
-      "count": 5
     }
   ],
   "top_locations": [
@@ -286,7 +286,7 @@
     },
     {
       "date": "2026-10-01",
-      "reports": 11,
+      "reports": 16,
       "events": 1
     }
   ],
@@ -3405,6 +3405,91 @@
   ],
   "latest_reports": [
     {
+      "published_at": "2026-10-01T13:56:00Z",
+      "published_date_source": "html:time",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-01T12:39:42.381361Z",
+      "discovered_at": "2026-10-01T12:39:42.381361Z",
+      "timestamp_integrity": "complete",
+      "source": "Africanews",
+      "language": "en",
+      "actor": "State",
+      "country": "Burkina Faso",
+      "city": null,
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Burkina Faso",
+      "url": "https://www.africanews.com/country/burkina-faso/"
+    },
+    {
+      "published_at": "2026-10-01T12:26:27Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-01T12:39:10.910493Z",
+      "discovered_at": "2026-10-01T12:39:10.910493Z",
+      "timestamp_integrity": "complete",
+      "source": "Wakat Sera",
+      "language": "fr",
+      "actor": null,
+      "country": "Burkina Faso",
+      "city": null,
+      "event_type": "security operation",
+      "candidate_event": false,
+      "title": "Fight against fraud and clandestine gold mining: Condor Authority and its men strike hard",
+      "url": "https://www.wakatsera.com/lutte-contre-la-fraude-et-lorpaillage-clandestin-condor-autorite-et-ses-hommes-frappent-fort/"
+    },
+    {
+      "published_at": "2026-10-01T11:56:30Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-01T12:39:13.066834Z",
+      "discovered_at": "2026-10-01T12:39:13.066834Z",
+      "timestamp_integrity": "complete",
+      "source": "Africanews",
+      "language": "en",
+      "actor": "State",
+      "country": "Burkina Faso",
+      "city": null,
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Burkina Faso's military leaders mark four years in power",
+      "url": "https://www.africanews.com/2026/10/01/burkina-fasos-military-leaders-mark-four-years-in-power/"
+    },
+    {
+      "published_at": "2026-10-01T11:36:09Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-01T12:39:13.726904Z",
+      "discovered_at": "2026-10-01T12:39:13.726904Z",
+      "timestamp_integrity": "complete",
+      "source": "Channels Television (Nigeria)",
+      "language": "en",
+      "actor": null,
+      "country": "Niger",
+      "city": null,
+      "event_type": "law enforcement",
+      "candidate_event": false,
+      "title": "Three Arrested As Navy Recovers 80,000 Litres Of Stolen Crude",
+      "url": "https://www.channelstv.com/2026/10/01/three-arrested-as-navy-recovers-80000-litres-of-stolen-crude/"
+    },
+    {
+      "published_at": "2026-10-01T11:30:12Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-01T12:39:33.701632Z",
+      "discovered_at": "2026-10-01T12:39:33.701632Z",
+      "timestamp_integrity": "complete",
+      "source": "La Nouvelle Tribune (Bénin)",
+      "language": "fr",
+      "actor": "State",
+      "country": "Burkina Faso",
+      "city": "Ouagadougou",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Defence in Burkina Faso: 250 billion FCFA collected in nine months by the Patriotic Support Fund",
+      "url": "https://lanouvelletribune.info/2026/10/defense-au-burkina-faso-250-milliards-fcfa-collectes-en-neuf-mois-par-le-fonds-de-soutien-patriotique/"
+    },
+    {
       "published_at": "2026-10-01T11:16:55Z",
       "published_date_source": "opengraph",
       "published_time_precision": "datetime",
@@ -3422,21 +3507,21 @@
       "url": "https://fr.allafrica.com/stories/202610010260.html"
     },
     {
-      "published_at": "2026-10-01T09:57:14Z",
-      "published_date_source": "jsonld:datePublished",
+      "published_at": "2026-10-01T09:58:01Z",
+      "published_date_source": "feed",
       "published_time_precision": "datetime",
-      "collected_at": "2026-10-01T10:34:13.446266Z",
-      "discovered_at": "2026-10-01T10:34:13.446266Z",
+      "collected_at": "2026-10-01T12:39:09.222452Z",
+      "discovered_at": "2026-10-01T12:39:09.222452Z",
       "timestamp_integrity": "complete",
       "source": "The Defense Post Africa",
       "language": "en",
       "actor": "Africa Corps/Wagner",
       "country": "Mali",
-      "city": "Ségou",
-      "event_type": "civilian targeting",
+      "city": null,
+      "event_type": null,
       "candidate_event": false,
-      "title": "Amnesty Accuses Malian Forces, Wagner of War Crimes Against Civilians",
-      "url": "https://thedefensepost.com/2026/10/01/amnesty-mali-wagner-war-crimes/"
+      "title": "Amnesty Accuses Malian Forces, Wagner of War Crimes Against Civilians - The Defense Post",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5Sb2JPcmxPLXZhNG9NV0dibmF2RkgzdnNTRGNRMzR3eDNlZFhCbzZQZzlXUlJCQmd1eW1neUJ5Xy1GSTE5Ynl3a3FsbWtrSDJpaHl6STlCQ28tR3BjbDFMaXBHT053aEJHOUtvMlcySXk3Y2NHNkhLdNIBfkFVX3lxTE81Z3J5RE40NFJHRkRDU2NNdzNYdlhUd1JaX2tQcld2bUVjUmQ1UktUbXdWMmVPTGhadzlBOHJWNHF5X2tUMlRwSjZEcXFYVGtwN29leXZ6eHdqeXNNa3dPM29YWEVHMHFCaXg1eHFoUkdkS29WNTV0N3I4bjl3QQ?oc=5"
     },
     {
       "published_at": "2026-10-01T09:26:41Z",
@@ -3459,8 +3544,8 @@
       "published_at": "2026-10-01T09:06:07Z",
       "published_date_source": "feed",
       "published_time_precision": "datetime",
-      "collected_at": "2026-10-01T11:31:58.128134Z",
-      "discovered_at": "2026-10-01T11:31:58.128134Z",
+      "collected_at": "2026-10-01T12:39:32.318053Z",
+      "discovered_at": "2026-10-01T12:39:32.318053Z",
       "timestamp_integrity": "complete",
       "source": "Africanews",
       "language": "en",
@@ -3646,8 +3731,8 @@
       "published_at": "2026-09-30T16:45:03Z",
       "published_date_source": "feed",
       "published_time_precision": "datetime",
-      "collected_at": "2026-10-01T11:31:36.376283Z",
-      "discovered_at": "2026-10-01T11:31:36.376283Z",
+      "collected_at": "2026-10-01T12:39:12.926872Z",
+      "discovered_at": "2026-10-01T12:39:12.926872Z",
       "timestamp_integrity": "complete",
       "source": "Africanews",
       "language": "en",
@@ -3998,91 +4083,6 @@
       "candidate_event": false,
       "title": "Fight against drugs: 50 kg of cocaine worth 2.5 billion CFA seized in Agadez",
       "url": "https://www.actuniger.com/societe/22407-lutte-contre-la-drogue-50-kg-de-cocaine-dune-valeur-de-2-5-milliards-cfa-saisis-a-agadez"
-    },
-    {
-      "published_at": "2026-09-29T18:09:51Z",
-      "published_date_source": "opengraph",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-09-30T23:28:25.864673Z",
-      "discovered_at": "2026-09-30T23:28:25.864673Z",
-      "timestamp_integrity": "complete",
-      "source": "AllAfrica (Édition Française)",
-      "language": "fr",
-      "actor": "Africa Corps/Wagner",
-      "country": "Mali",
-      "city": "Timbuktu",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "7 Mali: The NGO Amnesty documents cases of killings and torture committed by the army and the Wagner group",
-      "url": "https://fr.allafrica.com/stories/202609290656.html"
-    },
-    {
-      "published_at": "2026-09-29T18:02:24Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-09-30T21:29:42.229732Z",
-      "discovered_at": "2026-09-30T21:29:42.229732Z",
-      "timestamp_integrity": "complete",
-      "source": "Africa Defense Forum (ADF Magazine)",
-      "language": "en",
-      "actor": null,
-      "country": "Niger",
-      "city": null,
-      "event_type": "political/security policy",
-      "candidate_event": false,
-      "title": "Mutiny in Niger Reveals Flawed Security Strategy - adf-magazine.com",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQlBKa3ZZX19RYXlxTWs5Qy03TFJfS201bVRzRmRoWGpvSmVRbXhkOTFaMUFJU3J0d0pTODg5S1VsMFBpYXdTSUJ6OHBncEM0R1dzZC1uWF9zSnUwZXhZRTE5cXZhQ0ZLUFZ3M2ZGR2RRbUFEc0l6c2NTNWlsWjg1T3VsblNhMTJMamc?oc=5"
-    },
-    {
-      "published_at": "2026-09-29T18:02:24Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-09-30T20:29:58.784090Z",
-      "discovered_at": "2026-09-30T20:29:58.784090Z",
-      "timestamp_integrity": "complete",
-      "source": "Africa Defense Forum (ADF Magazine)",
-      "language": "en",
-      "actor": "Africa Corps/Wagner",
-      "country": "Niger",
-      "city": null,
-      "event_type": "political/security policy",
-      "candidate_event": false,
-      "title": "Mutiny in Niger Reveals Flawed Security Strategy",
-      "url": "https://adf-magazine.com/2026/09/mutiny-in-niger-reveals-flawed-security-strategy/"
-    },
-    {
-      "published_at": "2026-09-29T17:22:59Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-09-29T17:29:50.237478Z",
-      "discovered_at": "2026-09-29T17:29:50.237478Z",
-      "timestamp_integrity": "complete",
-      "source": "Seneweb",
-      "language": "fr",
-      "actor": "JNIM",
-      "country": "Mali",
-      "city": "Ségou",
-      "event_type": "attack",
-      "candidate_event": true,
-      "title": "Mali: at least 3 Russian soldiers and 4 paramilitaries killed in a jihadist attack",
-      "url": "https://www.seneweb.com/fr/news/Afrique/mali-au-moins-3-militaires-et-4-paramilitaires-russes-tues-dans-une-attaque-jihadiste_n_505606.html"
-    },
-    {
-      "published_at": "2026-09-29T16:10:21Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-09-29T17:29:50.095125Z",
-      "discovered_at": "2026-09-29T17:29:50.095125Z",
-      "timestamp_integrity": "complete",
-      "source": "Bamada",
-      "language": "fr",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Ségou",
-      "event_type": "offensive/campaign",
-      "candidate_event": true,
-      "title": "FAMA-AFRICA JOINT OFFENSIVE BODY IN the SÉGOU REGION, YESTERDAY: A PROVISIONAL ASSESSMENT OF 30 NEUTRALIZED TERRORISTS and SEVERAL WEAPONS RECOVERED",
-      "url": "https://bamada.net/offensive-conjointe-fama-africa-corps-dans-la-region-de-segou-hier-un-bilan-provisoire-de-30-terroristes-neutralises-et-plusieurs-armements-recuperes"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
