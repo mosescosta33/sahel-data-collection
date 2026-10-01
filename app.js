@@ -25,8 +25,8 @@ const themeButton=$('#themeToggle');if(themeButton)themeButton.onclick=()=>apply
 
 $$('.tab').forEach(b=>b.onclick=()=>{$$('.tab').forEach(x=>x.classList.remove('active'));b.classList.add('active');$$('.view').forEach(v=>v.classList.remove('active'));$(`#view-${b.dataset.view}`).classList.add('active');if(b.dataset.view==='quant')renderQuant();if(b.dataset.view==='sources')renderOps();});
 $$('.filter').forEach(b=>b.onclick=()=>{$$('.filter').forEach(x=>x.classList.remove('active'));b.classList.add('active');state.actorFilter=b.dataset.actor;renderMap();});
-$('.lang').forEach(b=>b.onclick=()=>{$('.lang').forEach(x=>x.classList.remove('active'));b.classList.add('active');state.langFilter=b.dataset.lang;renderFeeds();});
-$('.country-feed').forEach(b=>b.onclick=()=>{$('.country-feed').forEach(x=>x.classList.remove('active'));b.classList.add('active');state.countryFilter=b.dataset.country;renderFeeds();});
+$$('.lang').forEach(b=>b.onclick=()=>{$$('.lang').forEach(x=>x.classList.remove('active'));b.classList.add('active');state.langFilter=b.dataset.lang;renderFeeds();});
+$$('.country-feed').forEach(b=>b.onclick=()=>{$$('.country-feed').forEach(x=>x.classList.remove('active'));b.classList.add('active');state.countryFilter=b.dataset.country;renderFeeds();});
 $$('.range').forEach(b=>b.onclick=()=>{$$('.range').forEach(x=>x.classList.remove('active'));b.classList.add('active');state.range=Number(b.dataset.days);renderQuant();});
 $$('.map-range').forEach(b=>b.onclick=()=>{$$('.map-range').forEach(x=>x.classList.remove('active'));b.classList.add('active');state.mapDays=b.dataset.days==='all'?'all':Number(b.dataset.days);renderMap();});
 
