@@ -1,17 +1,17 @@
 {
   "schema_version": "1.0",
   "site_patch_version": "2.9.3",
-  "generated_at": "2026-10-01T05:20:53.673161Z",
+  "generated_at": "2026-10-01T05:33:14.319539Z",
   "active_limit": 33,
-  "total_briefings": 238,
+  "total_briefings": 239,
   "active_count": 33,
-  "archived_count": 205,
+  "archived_count": 206,
   "briefings": [
     {
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-10-01",
-      "generated_at": "2026-10-01T05:20:53.048381Z",
+      "generated_at": "2026-10-01T05:33:14.280822Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -23,21 +23,21 @@
         "events_occurring_on_date": 0,
         "records_held_for_review": 0,
         "multi_source_events": 0,
-        "reports_collected_on_date": 9,
+        "reports_collected_on_date": 10,
         "reports_published_on_date": 2,
         "newly_discovered_older_events": 0,
         "events_awaiting_date_verification": 0,
-        "distinct_sources_collected": 5
+        "distinct_sources_collected": 6
       },
-      "executive_assessment": "Reporting collected on 2026-10-01 does not yet support a clear account of a new incident in Mali, Burkina Faso, or Niger. The desk received 9 reports from 5 sources, but the automated incident record needs further review. This is not evidence of calm on the ground.",
+      "executive_assessment": "Reporting collected on 2026-10-01 does not yet support a clear account of a new incident in Mali, Burkina Faso, or Niger. The desk received 10 reports from 6 sources, but the automated incident record needs further review. This is not evidence of calm on the ground.",
       "briefing_sections": [
         {
           "heading": "Assessment",
-          "text": "Reporting collected on 2026-10-01 does not yet support a clear account of a new incident in Mali, Burkina Faso, or Niger. The desk received 9 reports from 5 sources, but the automated incident record needs further review. This is not evidence of calm on the ground."
+          "text": "Reporting collected on 2026-10-01 does not yet support a clear account of a new incident in Mali, Burkina Faso, or Niger. The desk received 10 reports from 6 sources, but the automated incident record needs further review. This is not evidence of calm on the ground."
         },
         {
           "heading": "Mali",
-          "text": "1 retained report were collected for Mali. 0 fused candidate events currently carry this reporting date. Terrorist-Tuareg Alliance Leaves Mali’s Junta on Shaky Ground: Two years after canceling a peace agreement with Tuareg separatists, Mali’s ruling junta is no closer to restoring security to the country, according to analysts. Instead, the junta appears to have undermined its own…"
+          "text": "2 retained reports were collected for Mali. 0 fused candidate events currently carry this reporting date. Terrorist-Tuareg Alliance Leaves Mali’s Junta on Shaky Ground: Two years after canceling a peace agreement with Tuareg separatists, Mali’s ruling junta is no closer to restoring security to the country, according to analysts. Instead, the junta appears to have undermined its own… Mali’s ruling military appoints new prime minister, a day after his predecessor was fired - AP News: Mali’s ruling military appoints new prime minister, a day after his predecessor was fired AP News"
         },
         {
           "heading": "Burkina Faso",
@@ -53,7 +53,7 @@
       ],
       "significant_events": [],
       "what_changed_since_yesterday": [
-        "Collection volume: -90 retained report(s) versus 2026-09-30 (99 → 9).",
+        "Collection volume: -89 retained report(s) versus 2026-09-30 (99 → 10).",
         "Actor-level same-day fused event counts are unchanged from the previous date."
       ],
       "emerging_patterns": [
@@ -73,7 +73,7 @@
         "Niger": 0
       },
       "country_reporting_counts": {
-        "Mali": 1,
+        "Mali": 2,
         "Burkina Faso": 3,
         "Niger": 5
       },
@@ -106,7 +106,7 @@
       "country_profiles": {
         "Mali": {
           "events": 0,
-          "reports_collected": 1,
+          "reports_collected": 2,
           "actor_counts": {
             "JNIM": 0,
             "IS Sahel": 0,
@@ -148,6 +148,15 @@
             "url": "https://adf-magazine.com/2026/09/terrorist-tuareg-alliance-leaves-malis-junta-on-shaky-ground/",
             "candidate_event": false,
             "event_date": "2026-09-22"
+          },
+          {
+            "id": "537c917050c9e0b2120cedc27da54e090bc0bc8e",
+            "source": "Associated Press Africa",
+            "title": "Mali’s ruling military appoints new prime minister, a day after his predecessor was fired - AP News",
+            "summary": "Mali’s ruling military appoints new prime minister, a day after his predecessor was fired AP News",
+            "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPa1NjaXNiLUlMQjB1WDQ0d3FVUFRMRGotM2M2S1lEaUFFdTZ6a1V6RTNQbTZEczZBMGlSZFJrQW8yWjJNSVF2amRhMzFVVGZCX2pweGMzcmNLTm5HUGk1UmNua2hCT2stdGRaU3NySmYzcFBwQ29tR0tablNaR0pQTnJJakpDcmJVUEhIcDlnd3c5eTg?oc=5",
+            "candidate_event": false,
+            "event_date": "2024-11-21"
           }
         ],
         "Burkina Faso": [
@@ -232,32 +241,32 @@
         "sources_success": 176,
         "sources_failed": 0,
         "sources_degraded": 42,
-        "documents_discovered": 15016,
-        "documents_retained": 10,
+        "documents_discovered": 15017,
+        "documents_retained": 8,
         "report_target": 100,
-        "translations_attempted": 5,
-        "translations_success": 5,
+        "translations_attempted": 4,
+        "translations_success": 4,
         "translation_failures": 0,
         "collection_confidence": "HIGH",
         "collection_confidence_reasons": [
           "176/176 source paths reached",
           "42 degraded / 0 failed of 176 configured sources"
         ],
-        "reports_collected": 9,
+        "reports_collected": 10,
         "reports_published": 2,
-        "distinct_sources_collected": 5,
+        "distinct_sources_collected": 6,
         "language_counts": {
           "fr": 6,
-          "en": 3
+          "en": 4
         }
       },
-      "sultana_daily_text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nDaily bottom line for 2026-10-01: Reporting collected on 2026-10-01 does not yet support a clear account of a new incident in Mali, Burkina Faso, or Niger. The desk received 9 reports from 5 sources, but the automated incident record needs further review. This is not evidence of calm on the ground.\n\nMali: 1 retained report. 1. Terrorist-Tuareg Alliance Leaves Mali’s Junta on Shaky Ground. Two years after canceling a peace agreement with Tuareg separatists, Mali’s ruling junta is no closer to restoring security to the country, according to analysts. Instead, the junta appears to have undermined its own counterterrorism efforts by prompting the Azawad Liberation Front (FLA) to align with terrorists. “They [the Malian government] decided the factions in the north were terrorists equal to JNIM [Jama’at Nusrat al-Islam wal-Muslimin] and would be fought the same way,” Wassim Nasr, senior researcher at The Soufan Center, told ADF.\n\nBurkina Faso: 3 retained reports. 1. Disappearance of Moussa Kaka in Niger: \"Absolutely nothing justifies his arrest\". In Niger, journalist Moussa Kaka has been missing since 31 August. Senegalese Alioune Tine, who has been a UN expert on human rights, regrets what he calls \"the total indifference of the African and international community\" towards this \"enforced disappearance\". And he calls for the mobilization of African opinion and the organizations that represent it . 2. Pix of the Day, 30 September, 2026 - Across the world. Burkina Faso has inaugurated its first gold refinery as its military-led government seeks to strengthen economic sovereignty after breaking ties with its traditional Western partners. “From now on, Burkina Faso’s gold must not only be mined in Burkina Faso; it must also be processed, controlled, valued and certified there,” President Ibrahim Traoré said on Monday at the inauguration of the refinery, named Raffinor-BF. 3. Burkina Faso opens first gold refinery in push for economic independence. Burkina Faso opened its first gold refinery on Monday, pushing ahead with plans to better organise the commercialisation of the precious metal in one of the continent's top producers. The west African nation is the continent's third leading gold producer, churning out more than 94 tonnes of the precious metal last year, according to the World Gold Council. But authorities traditionally struggle to control the informal gold mining sector, which has been blighted by jihadist violence and smuggling.\n\nNiger: 5 retained reports. 1. Niger: whatwe know about the jihadist attack on theport of Niamey. Niger: what we know about the jihadist attack on the port of Niamey Published on Saturday, January 31, 2026 | AFP On the night of Wednesday, Thursday, the port of Niamey in Niger suffered a brutal attack claimed on Friday by the Islamic State, in a country where jihadist violence usually occurs in the west and south-east . The Nigerianmilitary junta, aided by \"Russian partners\", accused the French, Binese and Ivorian presidents of having the \"sponsors\" of the attackers, words condemned by Abidjan and Cotonou on Friday. 2. Niger: Islamic State claims responsibility for attackon Niamey airport. Niger: Islamic State claims responsibility for the attack on the Niamey Publi airport on Friday, January 30, 2026 | AFP The Islamic State claimed responsibility on Friday for the attack on the Niamey airport in Niger, indicated the Site group, specializing in counter-terrorism research . On the night of Wednesday, Thursday, the port of Niamey, which is home to military sites and is located about ten kilometers from the presidency, was the target of an attack that left 20 people dead, according to the Nigerian military junta. 3. Dfense: the Gnral Tiani reshuffles the military command after the Niamey mutiny. D fense: the G n ral Tiani reshuffles the military command after the Niamey mutiny Published on Saturday, September 12, 2026 | actuniger.com Two weeks to the day after the Niamey mutiny, the President of the Public R and Chief of the Arm es, the G n ral Abdourahamane Tiani, Chief of the Arm es, a proc d, Friday, September 11, 2026, a reshuffle .\n\nActor picture: no same-day fused candidate events.\n\nWhat changed: Collection volume: -90 retained report(s) versus 2026-09-30 (99 → 9). Actor-level same-day fused event counts are unchanged from the previous date.\n\nIntelligence gaps: No major automated collection or structured-data gap was detected for this date; source claims still require normal analyst review.\n\nCollection confidence: HIGH. 176/176 source paths reached 42 degraded / 0 failed of 176 configured sources\n\nAll retained source reports, including reports not promoted to the map, remain individually summarized in the intelligence feed and source records."
+      "sultana_daily_text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nDaily bottom line for 2026-10-01: Reporting collected on 2026-10-01 does not yet support a clear account of a new incident in Mali, Burkina Faso, or Niger. The desk received 10 reports from 6 sources, but the automated incident record needs further review. This is not evidence of calm on the ground.\n\nMali: 2 retained reports. 1. Terrorist-Tuareg Alliance Leaves Mali’s Junta on Shaky Ground. Two years after canceling a peace agreement with Tuareg separatists, Mali’s ruling junta is no closer to restoring security to the country, according to analysts. Instead, the junta appears to have undermined its own counterterrorism efforts by prompting the Azawad Liberation Front (FLA) to align with terrorists. “They [the Malian government] decided the factions in the north were terrorists equal to JNIM [Jama’at Nusrat al-Islam wal-Muslimin] and would be fought the same way,” Wassim Nasr, senior researcher at The Soufan Center, told ADF. 2. Mali’s ruling military appoints new prime minister, a day after his predecessor was fired - AP News. Mali’s ruling military appoints new prime minister, a day after his predecessor was fired AP News\n\nBurkina Faso: 3 retained reports. 1. Disappearance of Moussa Kaka in Niger: \"Absolutely nothing justifies his arrest\". In Niger, journalist Moussa Kaka has been missing since 31 August. Senegalese Alioune Tine, who has been a UN expert on human rights, regrets what he calls \"the total indifference of the African and international community\" towards this \"enforced disappearance\". And he calls for the mobilization of African opinion and the organizations that represent it . 2. Pix of the Day, 30 September, 2026 - Across the world. Burkina Faso has inaugurated its first gold refinery as its military-led government seeks to strengthen economic sovereignty after breaking ties with its traditional Western partners. “From now on, Burkina Faso’s gold must not only be mined in Burkina Faso; it must also be processed, controlled, valued and certified there,” President Ibrahim Traoré said on Monday at the inauguration of the refinery, named Raffinor-BF. 3. Burkina Faso opens first gold refinery in push for economic independence. Burkina Faso opened its first gold refinery on Monday, pushing ahead with plans to better organise the commercialisation of the precious metal in one of the continent's top producers. The west African nation is the continent's third leading gold producer, churning out more than 94 tonnes of the precious metal last year, according to the World Gold Council. But authorities traditionally struggle to control the informal gold mining sector, which has been blighted by jihadist violence and smuggling.\n\nNiger: 5 retained reports. 1. Niger: whatwe know about the jihadist attack on theport of Niamey. Niger: what we know about the jihadist attack on the port of Niamey Published on Saturday, January 31, 2026 | AFP On the night of Wednesday, Thursday, the port of Niamey in Niger suffered a brutal attack claimed on Friday by the Islamic State, in a country where jihadist violence usually occurs in the west and south-east . The Nigerianmilitary junta, aided by \"Russian partners\", accused the French, Binese and Ivorian presidents of having the \"sponsors\" of the attackers, words condemned by Abidjan and Cotonou on Friday. 2. Niger: Islamic State claims responsibility for attackon Niamey airport. Niger: Islamic State claims responsibility for the attack on the Niamey Publi airport on Friday, January 30, 2026 | AFP The Islamic State claimed responsibility on Friday for the attack on the Niamey airport in Niger, indicated the Site group, specializing in counter-terrorism research . On the night of Wednesday, Thursday, the port of Niamey, which is home to military sites and is located about ten kilometers from the presidency, was the target of an attack that left 20 people dead, according to the Nigerian military junta. 3. Dfense: the Gnral Tiani reshuffles the military command after the Niamey mutiny. D fense: the G n ral Tiani reshuffles the military command after the Niamey mutiny Published on Saturday, September 12, 2026 | actuniger.com Two weeks to the day after the Niamey mutiny, the President of the Public R and Chief of the Arm es, the G n ral Abdourahamane Tiani, Chief of the Arm es, a proc d, Friday, September 11, 2026, a reshuffle .\n\nActor picture: no same-day fused candidate events.\n\nWhat changed: Collection volume: -89 retained report(s) versus 2026-09-30 (99 → 10). Actor-level same-day fused event counts are unchanged from the previous date.\n\nIntelligence gaps: No major automated collection or structured-data gap was detected for this date; source claims still require normal analyst review.\n\nCollection confidence: HIGH. 176/176 source paths reached 42 degraded / 0 failed of 176 configured sources\n\nAll retained source reports, including reports not promoted to the map, remain individually summarized in the intelligence feed and source records."
     },
     {
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-30",
-      "generated_at": "2026-10-01T05:20:53.149123Z",
+      "generated_at": "2026-10-01T05:33:13.632429Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -1319,7 +1328,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-29",
-      "generated_at": "2026-10-01T05:20:53.177148Z",
+      "generated_at": "2026-10-01T05:33:14.267094Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -1666,7 +1675,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-28",
-      "generated_at": "2026-10-01T05:20:53.036048Z",
+      "generated_at": "2026-10-01T05:33:13.902168Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -2108,7 +2117,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-27",
-      "generated_at": "2026-10-01T05:20:53.554066Z",
+      "generated_at": "2026-10-01T05:33:13.605019Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -2426,7 +2435,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-26",
-      "generated_at": "2026-10-01T05:20:53.429642Z",
+      "generated_at": "2026-10-01T05:33:14.258907Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -2679,7 +2688,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-25",
-      "generated_at": "2026-10-01T05:20:53.540685Z",
+      "generated_at": "2026-10-01T05:33:14.112677Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -3054,7 +3063,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-24",
-      "generated_at": "2026-10-01T05:20:53.105607Z",
+      "generated_at": "2026-10-01T05:33:14.275288Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -3426,7 +3435,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-23",
-      "generated_at": "2026-10-01T05:20:52.854273Z",
+      "generated_at": "2026-10-01T05:33:14.233706Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -3745,7 +3754,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-22",
-      "generated_at": "2026-10-01T05:20:53.441536Z",
+      "generated_at": "2026-10-01T05:33:13.675645Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -4672,7 +4681,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-21",
-      "generated_at": "2026-10-01T05:20:53.476205Z",
+      "generated_at": "2026-10-01T05:33:13.918148Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -5186,7 +5195,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-20",
-      "generated_at": "2026-10-01T05:20:52.862514Z",
+      "generated_at": "2026-10-01T05:33:13.745206Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -5830,7 +5839,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-19",
-      "generated_at": "2026-10-01T05:20:53.351055Z",
+      "generated_at": "2026-10-01T05:33:14.311367Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -6534,7 +6543,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-18",
-      "generated_at": "2026-10-01T05:20:52.830210Z",
+      "generated_at": "2026-10-01T05:33:13.753805Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -6744,7 +6753,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-17",
-      "generated_at": "2026-10-01T05:20:53.014616Z",
+      "generated_at": "2026-10-01T05:33:13.585707Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -7011,7 +7020,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-16",
-      "generated_at": "2026-10-01T05:20:53.377496Z",
+      "generated_at": "2026-10-01T05:33:13.661938Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -7173,7 +7182,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-15",
-      "generated_at": "2026-10-01T05:20:53.345322Z",
+      "generated_at": "2026-10-01T05:33:13.651252Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -7335,7 +7344,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-14",
-      "generated_at": "2026-10-01T05:20:53.110948Z",
+      "generated_at": "2026-10-01T05:33:13.507895Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -7497,7 +7506,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-13",
-      "generated_at": "2026-10-01T05:20:53.453129Z",
+      "generated_at": "2026-10-01T05:33:14.123773Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -7659,7 +7668,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-12",
-      "generated_at": "2026-10-01T05:20:53.487667Z",
+      "generated_at": "2026-10-01T05:33:13.629209Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -7821,7 +7830,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-11",
-      "generated_at": "2026-10-01T05:20:53.524655Z",
+      "generated_at": "2026-10-01T05:33:14.006152Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -7983,7 +7992,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-10",
-      "generated_at": "2026-10-01T05:20:53.401068Z",
+      "generated_at": "2026-10-01T05:33:14.100081Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -8241,7 +8250,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-08",
-      "generated_at": "2026-10-01T05:20:52.892661Z",
+      "generated_at": "2026-10-01T05:33:13.770108Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -8403,7 +8412,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-07",
-      "generated_at": "2026-10-01T05:20:53.041363Z",
+      "generated_at": "2026-10-01T05:33:13.736307Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -8569,7 +8578,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-05",
-      "generated_at": "2026-10-01T05:20:53.380106Z",
+      "generated_at": "2026-10-01T05:33:13.939486Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -8731,7 +8740,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-04",
-      "generated_at": "2026-10-01T05:20:53.361823Z",
+      "generated_at": "2026-10-01T05:33:14.253437Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -8893,7 +8902,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-03",
-      "generated_at": "2026-10-01T05:20:53.303217Z",
+      "generated_at": "2026-10-01T05:33:13.733590Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -9055,7 +9064,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-02",
-      "generated_at": "2026-10-01T05:20:52.957650Z",
+      "generated_at": "2026-10-01T05:33:13.730635Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -9217,7 +9226,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-09-01",
-      "generated_at": "2026-10-01T05:20:53.209511Z",
+      "generated_at": "2026-10-01T05:33:13.548124Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -9379,7 +9388,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-08-31",
-      "generated_at": "2026-10-01T05:20:52.856943Z",
+      "generated_at": "2026-10-01T05:33:14.053163Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -9541,7 +9550,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-08-30",
-      "generated_at": "2026-10-01T05:20:53.318896Z",
+      "generated_at": "2026-10-01T05:33:13.580313Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -9703,7 +9712,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-08-29",
-      "generated_at": "2026-10-01T05:20:53.372241Z",
+      "generated_at": "2026-10-01T05:33:13.645840Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -9869,7 +9878,7 @@
       "schema_version": "1.0",
       "site_patch_version": "2.9.3",
       "reporting_date": "2026-08-23",
-      "generated_at": "2026-10-01T05:20:53.182548Z",
+      "generated_at": "2026-10-01T05:33:13.775385Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
