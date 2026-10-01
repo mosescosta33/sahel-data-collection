@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-01T15:10:08.212451Z",
+  "generated_at": "2026-10-01T16:33:55.376569Z",
   "window_days": 30,
   "cutoff": "2026-09-01",
-  "reports": 199,
+  "reports": 200,
   "incident_reports": 37,
   "candidate_events": 35,
   "corroborated_events": 2,
@@ -31,7 +31,7 @@
   },
   "by_language": {
     "fr": 134,
-    "en": 58,
+    "en": 59,
     "ar": 7
   },
   "by_confidence": {
@@ -286,7 +286,7 @@
     },
     {
       "date": "2026-10-01",
-      "reports": 17,
+      "reports": 18,
       "events": 1
     }
   ],
@@ -3405,6 +3405,23 @@
   ],
   "latest_reports": [
     {
+      "published_at": "2026-10-01T15:37:07Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-01T16:32:20.339105Z",
+      "discovered_at": "2026-10-01T16:32:20.339105Z",
+      "timestamp_integrity": "complete",
+      "source": "News Central TV (Nigeria)",
+      "language": "en",
+      "actor": "State",
+      "country": "Burkina Faso",
+      "city": "Ouagadougou",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Burkina Faso Holds Rally to Mark Traore Coup Anniversary",
+      "url": "https://newscentraltv.com/burkina-faso-holds-rally-to-mark-traore-coup-anniversary/"
+    },
+    {
       "published_at": "2026-10-01T13:56:00Z",
       "published_date_source": "html:time",
       "published_time_precision": "datetime",
@@ -3459,8 +3476,8 @@
       "published_at": "2026-10-01T11:56:30Z",
       "published_date_source": "feed",
       "published_time_precision": "datetime",
-      "collected_at": "2026-10-01T15:08:36.534482Z",
-      "discovered_at": "2026-10-01T15:08:36.534482Z",
+      "collected_at": "2026-10-01T16:32:15.667936Z",
+      "discovered_at": "2026-10-01T16:32:15.667936Z",
       "timestamp_integrity": "complete",
       "source": "Africanews",
       "language": "en",
@@ -3748,8 +3765,8 @@
       "published_at": "2026-09-30T16:45:03Z",
       "published_date_source": "feed",
       "published_time_precision": "datetime",
-      "collected_at": "2026-10-01T15:08:36.650595Z",
-      "discovered_at": "2026-10-01T15:08:36.650595Z",
+      "collected_at": "2026-10-01T16:32:15.375185Z",
+      "discovered_at": "2026-10-01T16:32:15.375185Z",
       "timestamp_integrity": "complete",
       "source": "Africanews",
       "language": "en",
@@ -3952,8 +3969,8 @@
       "published_at": "2026-09-30T05:20:33Z",
       "published_date_source": "feed",
       "published_time_precision": "datetime",
-      "collected_at": "2026-10-01T15:09:07.472647Z",
-      "discovered_at": "2026-10-01T15:09:07.472647Z",
+      "collected_at": "2026-10-01T16:32:42.813912Z",
+      "discovered_at": "2026-10-01T16:32:42.813912Z",
       "timestamp_integrity": "complete",
       "source": "Africanews",
       "language": "en",
@@ -4066,23 +4083,6 @@
       "candidate_event": false,
       "title": "Mali: deadly ambush of Jnim jihadists in Niono against the Russian Africa Corps - RFI",
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNQklpbTNwVlQ3TkdlaENzbEpINHdDZkFzV3lYamJCWk12NUZ3M0tPeW1zZFNobGFxR2Vabjd5a25qc1d3OGc3ZmtlM3ZvUG92anc3V2Z6MlRWOGREN0F6MFVxUjBoMXZNM2s3T1RIZ1VYQWRzMEM0c2RQVDNlbnB2U2hPRlZ0bVRLemV6cmkyUDgtVUxLQ0VOS1BmeWJoYm00ZXJ2ZjRkaWRlQWE5ZmVsM2pURExrYU5YVzc4YnhsWWllMmkwYm5NbEV3bFBzdw?oc=5"
-    },
-    {
-      "published_at": "2026-09-29T20:01:30Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-09-30T23:28:01.668786Z",
-      "discovered_at": "2026-09-30T23:28:01.668786Z",
-      "timestamp_integrity": "complete",
-      "source": "Asharq Al-Awsat",
-      "language": "ar",
-      "actor": null,
-      "country": "Mali",
-      "city": null,
-      "event_type": "ambush",
-      "candidate_event": false,
-      "title": "Malian soldiers and Russian elements killed in ambush of central Malian extremists - aawsat.com",
-      "url": "https://news.google.com/rss/articles/CBMipwRBVV95cUxPTENNbi00SkVyUWEyOFFsWVhiYWJ1dTJKZWM0eUpMV0RIWVdaZFNiNkdCYUg0b1JPaTFUOXdCa2M1dlNzRTBOWTZ1TUFjRzdjUVRBNWVKZUx4eGZFbUpZTlIzSXBJcFk4c2Y2VUU5ektCNFRuZHpSWXFvN3JSdnE1MW50a1paQnVNb3ZnTEZxOWN4UkVibTdWZGZHZXdNUExvOUpORWFxSGFUSjRucDJUclRRbEpvMzQyb25ybDR4em5DM0toeFFRdnZhZGpkYkYwTzdkZnFpa0JaTXVWSk9tUnhKZ1Z3TGZ2Mlp0ZGowVk5qRkp3eGxhY3RFMGtfU1pweFJ1UUQtTVhyWjJaa0JUazhhVFlCMFVMWWhwYWs4d1NmUW8zVGMzYmx0QllWMzA2SmRMSkpFWEdXdG0zOUZhSjZ3YVAzSGFtUF9UbHVZWFp2aUZMZEpBSy1JdklKWDh2MjNWYWtHYjZ2alJuUmpyWjM3cF9Eb0gyT0s5eGp0bUtrQmtvMVVaWFF6WUI4U1NRUnhYS0NEQ3l4VzUwNHp4SDlfbVJDcUxldWcxR3lkX2Roc0VUUzhXTVlWR05yVEkxS1pnNmItaFpObVpVU0NYdHdybjdfaDk0aFNhMHZ4S2gwQTVOdkxCblpVNmFJZ1FVdFh2Q3lldldNNVZsQTkxY3Q5YTFaV1ZGaldqZGxPSUpoSTIxNnNodUk0Vjh0UWhfaGNsOGpLbw?oc=5"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
