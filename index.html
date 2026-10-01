@@ -6,17 +6,18 @@
   <meta name="theme-color" content="#e5ebee" />
   <script>try{document.documentElement.dataset.theme=localStorage.getItem('sicTheme')||'light'}catch(e){document.documentElement.dataset.theme='light'}</script>
   <title>Sahel Intel Collection</title>
-  <link rel="stylesheet" href="./styles.css?v=3.2.1" />
+  <link rel="stylesheet" href="./styles.css?v=3.3.2" />
   <link rel="stylesheet" href="./briefings.css" />
   <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.12.0/dist/maplibre-gl.css" />
-  <link rel="stylesheet" href="./map-ui.css?v=3.2.1" />
+  <link rel="stylesheet" href="./map-ui.css?v=3.3.2" />
   <link rel="stylesheet" href="./logs.css" />
+  <link rel="stylesheet" href="./readability.css?v=3.3.2" />
 </head>
 <body>
   <header class="topbar">
     <div class="brand"><div class="brandmark">SIC</div><div><h1>SAHEL INTEL COLLECTION</h1><p>AUTOMATED MULTILINGUAL OPEN-SOURCE COLLECTION • FR / AR / EN</p></div></div>
     <div class="ownercenter"><strong>MOSES COSTA</strong></div>
-    <div class="topmeta"><span id="patchBadge" class="versionbadge" title="Site patch version">PATCH v3.2.1</span><button id="themeToggle" class="theme-toggle" type="button" aria-label="Switch light and dark mode">☀ LIGHT</button><span id="systemBadge" class="status offline">OFFLINE</span><span id="heartbeat">waiting for collector</span><span id="clock"></span></div>
+    <div class="topmeta"><span id="patchBadge" class="versionbadge" title="Site patch version">PATCH v3.3.2</span><button id="themeToggle" class="theme-toggle" type="button" aria-label="Switch light and dark mode">☀ LIGHT</button><span id="systemBadge" class="status offline">OFFLINE</span><span id="heartbeat">waiting for collector</span><span id="clock"></span></div>
   </header>
 
   <nav class="tabs">
@@ -243,7 +244,7 @@
     <section id="view-quant" class="view">
       <div class="grid quant-grid">
         <section class="panel fullspan">
-          <div class="panelhead"><div><span class="eyebrow">STOCK-MARKET STYLE TREND VIEW</span><h2>JNIM • IS Sahel • State Activity</h2></div><div class="filterbar"><button class="range active" data-days="30">30D</button><button class="range" data-days="90">90D</button><button class="range" data-days="180">180D</button></div></div>
+          <div class="panelhead"><div><span class="eyebrow">SAHEL ACTIVITY TREND VIEW</span><h2>JNIM • IS Sahel • State Activity</h2></div><div class="filterbar"><button class="range active" data-days="30">30D</button><button class="range" data-days="90">90D</button><button class="range" data-days="180">180D</button></div></div>
           <div id="actorChart" class="bigchart"></div>
           <div class="chartlegend"><span><i class="dot jnim"></i>JNIM</span><span><i class="dot is"></i>IS Sahel</span><span><i class="dot state"></i>State</span></div>
           <div id="actorChartReadout" class="chart-readout"></div>
@@ -346,9 +347,9 @@
   </main>
   <script src="https://unpkg.com/maplibre-gl@5.12.0/dist/maplibre-gl.js"></script>
   <script src="./map-data.js"></script>
-  <script src="./map-ui.js?v=3.2.1"></script>
-  <script src="./app.js?v=3.2.1"></script>
-  <script src="./civilian-harm.js?v=3.2.1"></script>
+  <script src="./map-ui.js?v=3.3.2"></script>
+  <script src="./app.js?v=3.3.2"></script>
+  <script src="./civilian-harm.js?v=3.3.2"></script>
   <script src="./logs.js"></script>
 </body>
 </html>

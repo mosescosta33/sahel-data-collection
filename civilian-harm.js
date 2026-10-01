@@ -69,8 +69,9 @@
   function caseFromReport(r,idx){
     const e=idx.get(r?.url)||null;
     const text=[r?.translated_title,r?.title,r?.article_summary,r?.translated_excerpt,r?.excerpt,r?.target,r?.event_type,e?.summary].filter(Boolean).join(' ');
-    const hasCivilian=civilianContext.test(text)||civilianContext.test(String(r?.target||''));
+    const hasCivilian=Boolean(r?.civilian_targeting_flag)||(Array.isArray(r?.victim_categories)&&r.victim_categories.includes('civilian'))||civilianContext.test(text)||civilianContext.test(String(r?.target||''));
     const categories=rules.filter(rule=>rule.re.test(text)&&(hasCivilian||rule.self)).map(rule=>({code:rule.code,label:rule.label}));
+    if(hasCivilian&&(Number.isFinite(Number(r?.fatalities_min))||Number.isFinite(Number(r?.fatalities_max)))&&!categories.some(x=>x.code==='HR-KILL'))categories.unshift({code:'HR-KILL',label:'Civilian killing / execution'});
     if(!categories.length)return null;
 
     const sourceCount=Math.max(1,Array.isArray(e?.report_urls)?e.report_urls.length:1);
@@ -102,7 +103,7 @@
       actor,
       event_date:eventDate,
       published_at:r?.published_at||'',
-      collected_at:r?.discovered_at||r?.collected_at||'',
+      collected_at:r?.collected_at||r?.discovered_at||'',
       source:r?.source||'Unknown source',
       url:r?.url||'',
       source_count:sourceCount,
@@ -111,7 +112,17 @@
       review,
       evidence_status:sourceCount>=3?'Multiple-source case linkage':sourceCount===2?'Two-source case linkage':'Single-source report',
       attribution_basis:hasAttribution?(r?.perpetrator||e?.perpetrator?'Named perpetrator in structured extraction':'Actor category in structured extraction'):'Unresolved',
-      location_precision:hasPrecise?'Named/structured locality available':country!=='Regional'?'Country-level only':'Unresolved'
+      location_precision:hasPrecise?'Named/structured locality available':country!=='Regional'?'Country-level only':'Unresolved',
+      fatalities_min:r?.fatalities_min??e?.fatalities_min??null,
+      fatalities_max:r?.fatalities_max??e?.fatalities_max??null,
+      fatalities_best:r?.fatalities_best??e?.fatalities_best??null,
+      injured_min:r?.injured_min??e?.injured_min??null,
+      injured_max:r?.injured_max??e?.injured_max??null,
+      abducted_min:r?.abducted_min??e?.abducted_min??null,
+      abducted_max:r?.abducted_max??e?.abducted_max??null,
+      casualty_disputed:Boolean(r?.casualty_disputed||e?.casualty_disputed),
+      victim_categories:Array.isArray(r?.victim_categories)?r.victim_categories:(Array.isArray(e?.victim_categories)?e.victim_categories:[]),
+      casualty_claims:Array.isArray(r?.casualty_claims)?r.casualty_claims:(Array.isArray(e?.casualty_claims)?e.casualty_claims:[])
     };
   }
   function buildCases(){
@@ -132,6 +143,7 @@
     return cases.filter(c=>(ui.country==='all'||c.country===ui.country)&&(ui.category==='all'||c.categories.some(x=>x.code===ui.category)));
   }
   function setText(id,v){const el=document.getElementById(id);if(el)el.textContent=v}
+  function fullTimestamp(v){if(!v)return 'UNAVAILABLE';const d=new Date(v);if(isNaN(d))return 'UNAVAILABLE';return new Intl.DateTimeFormat('en-US',{timeZone:'UTC',year:'numeric',month:'short',day:'2-digit',hour:'2-digit',minute:'2-digit',second:'2-digit',hour12:false,timeZoneName:'short'}).format(d)}
   function shortDate(v){
     if(!v)return '—';
     const d=new Date(String(v).slice(0,10)+'T00:00:00Z');
@@ -218,6 +230,13 @@
     const category=q('#civilianCategoryBreakdown');
     if(category)category.innerHTML=barRows(countBy(cats).slice(0,10))||'<div class="civilian-empty">No harm indicators.</div>';
   }
+  function casualtyValue(min,max,best){
+    if(best!==null&&best!==undefined)return String(best);
+    if(min!==null&&min!==undefined&&max!==null&&max!==undefined)return Number(min)===Number(max)?String(min):String(min)+'–'+String(max);
+    if(min!==null&&min!==undefined)return String(min);
+    if(max!==null&&max!==undefined)return String(max);
+    return '—';
+  }
   function caseCard(c){
     const source=safeUrl(c.url);
     const chips=c.categories.map(x=>'<span class="civilian-pill">'+esc(x.code)+' · '+esc(x.label)+'</span>').join('');
@@ -226,7 +245,9 @@
     const dispute=c.disputed?'The retained text contains denial, dispute, or competing-characterization language. Review the underlying source before drawing conclusions.':'No explicit denial/dispute language was detected in the retained summary/title. Absence of a detected dispute is not proof of agreement.';
     return '<article class="civilian-case '+(c.source_count>=2?'corroborated':'review')+'">'+
       '<div class="civilian-case-head"><div><span class="civilian-case-id">'+esc(c.id)+'</span><h3>'+esc(c.title)+'</h3></div><span class="methodpill">'+esc(c.evidence_status)+'</span></div>'+
-      '<div class="civilian-case-meta">'+esc(c.country)+' • '+esc(c.location)+' • Event date: '+esc(c.event_date||'unresolved')+' • Source: '+esc(c.source)+' • Linked sources: '+esc(c.source_count)+'</div>'+
+      '<div class="civilian-case-meta">'+esc(c.country)+' • '+esc(c.location)+' • Event date: '+esc(c.event_date||'unresolved')+' • Source: '+esc(c.source)+' • Linked sources: '+esc(c.source_count)+'</div>'+ 
+      '<div class="civilian-case-meta"><strong>PUBLISHED:</strong> '+esc(fullTimestamp(c.published_at))+' • <strong>COLLECTED BY SAHEL INTEL:</strong> '+esc(fullTimestamp(c.collected_at))+'</div>'+
+      '<div class="civilian-case-meta"><strong>Fatalities:</strong> '+esc(casualtyValue(c.fatalities_min,c.fatalities_max,c.fatalities_best))+' • <strong>Injured:</strong> '+esc(casualtyValue(c.injured_min,c.injured_max,null))+' • <strong>Abducted:</strong> '+esc(casualtyValue(c.abducted_min,c.abducted_max,null))+(c.casualty_disputed?' • <strong>CONFLICTING TOLLS</strong>':'')+(c.victim_categories.length?' • Victims: '+esc(c.victim_categories.join(', ')):'')+'</div>'+
       '<div class="civilian-indicators">'+chips+'</div>'+
       '<div class="civilian-evidence-grid">'+
         '<div class="civilian-evidence"><small>REPORTED INFORMATION</small><p>'+esc(c.summary)+'</p></div>'+
@@ -259,10 +280,10 @@
       download(JSON.stringify(payload,null,2),'sahel-intel-civilian-harm-'+stamp+'.json','application/json;charset=utf-8');
       return;
     }
-    const fields=['case_id','country','location','event_date','source','source_count','evidence_status','alleged_actor','categories','review_flags','summary','url'];
+    const fields=['case_id','country','location','event_date','published_at','collected_at','source','source_count','evidence_status','alleged_actor','categories','victim_categories','fatalities_min','fatalities_max','fatalities_best','injured_min','injured_max','abducted_min','abducted_max','casualty_disputed','review_flags','summary','url'];
     const csv=[fields.join(',')];
     for(const c of rows){
-      const vals=[c.id,c.country,c.location,c.event_date,c.source,c.source_count,c.evidence_status,c.actor,c.categories.map(x=>x.code).join('|'),c.review.join('|'),c.summary,c.url];
+      const vals=[c.id,c.country,c.location,c.event_date,c.published_at,c.collected_at,c.source,c.source_count,c.evidence_status,c.actor,c.categories.map(x=>x.code).join('|'),c.victim_categories.join('|'),c.fatalities_min,c.fatalities_max,c.fatalities_best,c.injured_min,c.injured_max,c.abducted_min,c.abducted_max,c.casualty_disputed,c.review.join('|'),c.summary,c.url];
       csv.push(vals.map(csvCell).join(','));
     }
     download(csv.join('\n'),'sahel-intel-civilian-harm-'+stamp+'.csv','text/csv;charset=utf-8');
