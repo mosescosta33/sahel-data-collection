@@ -1,4 +1,4 @@
-const SITE_UI_VERSION='3.2.0';
+const SITE_UI_VERSION='3.2.1';
 const state={overview:null,reports:[],events:[],metrics:null,thirty:null,sources:[],runs:[],briefing:null,actorFilter:'all',mapDays:7,langFilter:'all',countryFilter:'all',range:30,voices:[],speaking:false,readerRunning:false,readerPaused:false,readerIndex:0,readerCycle:0,readerRange:30,readerQueue:[],readerSession:0,timelineDate:null,savedReports:[],savedViewMode:'all'};
 const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
 const esc=s=>String(s??'').replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
@@ -336,21 +336,92 @@ function showEventDetail(e){
 }
 function hideTip(){const t=$('#maptip');if(t)t.style.display='none'}
 
-function lineSVG(seriesList,{height=100,showAxes=false}={}){const width=800,pad=showAxes?32:4;const vals=seriesList.flatMap(s=>s.values);const max=Math.max(1,...vals),min=0;const n=Math.max(2,...seriesList.map(s=>s.values.length));const sx=i=>pad+(i/(n-1))*(width-pad*2);const sy=v=>height-pad-(v-min)/(max-min||1)*(height-pad*2);let grid='';if(showAxes){for(let i=0;i<5;i++){const y=pad+i*(height-pad*2)/4;grid+=`<line x1="${pad}" y1="${y}" x2="${width-pad}" y2="${y}" stroke="var(--chart-grid)" stroke-width="1"/><text x="4" y="${y+3}" fill="var(--chart-axis)" font-size="9">${Math.round(max*(1-i/4))}</text>`}}const lines=seriesList.map(s=>{if(!s.values.length)return'';const pts=s.values.map((v,i)=>`${sx(i)},${sy(v)}`).join(' ');return `<polyline fill="none" stroke="${s.color}" stroke-width="2.3" points="${pts}" vector-effect="non-scaling-stroke"/>`}).join('');return `<svg viewBox="0 0 ${width} ${height}" preserveAspectRatio="none">${grid}${lines}</svg>`}
-function renderActors(){const m=state.metrics;if(!m)return;const ids={'JNIM':['jnim7','jnimChange','jnimSpark'],'IS Sahel':['is7','isChange','isSpark'],'State':['state7','stateChange','stateSpark']};Object.entries(ids).forEach(([a,[countId,chgId,sparkId]])=>{const t=m.trends_7d?.[a],rows=m.series?.[a]||[];setText(countId,t?.current??0);const ch=$(`#${chgId}`);ch.textContent=pct(t);ch.className=trendClass(t);$(`#${sparkId}`).innerHTML=lineSVG([{values:rows.slice(-30).map(x=>x.count),color:actorColor(a)}],{height:72})});}
+function chartDateLabel(v){
+  if(!v)return '—';
+  const d=new Date(String(v).slice(0,10)+'T00:00:00Z');
+  if(isNaN(d))return String(v);
+  return d.toLocaleDateString(undefined,{month:'short',day:'numeric',timeZone:'UTC'});
+}
+function lineSVG(seriesList,{height=100,showAxes=false,labels=[],pointLabels=false}={}){
+  const width=800;
+  const left=showAxes?46:5,right=showAxes?12:5,top=showAxes?15:5,bottom=showAxes?30:5;
+  const vals=seriesList.flatMap(x=>x.values||[]).map(Number).filter(Number.isFinite);
+  const rawMax=Math.max(0,...vals);
+  const step=Math.max(1,Math.ceil(rawMax/4));
+  const yMax=Math.max(4,step*4);
+  const n=Math.max(2,...seriesList.map(x=>(x.values||[]).length),labels.length);
+  const sx=i=>left+(i/(n-1))*(width-left-right);
+  const sy=v=>top+(1-(Number(v)||0)/yMax)*(height-top-bottom);
+  let grid='';
+  if(showAxes){
+    for(let i=0;i<=4;i++){
+      const value=yMax-(i*step);
+      const y=top+i*(height-top-bottom)/4;
+      grid+='<line x1="'+left+'" y1="'+y+'" x2="'+(width-right)+'" y2="'+y+'" stroke="var(--chart-grid)" stroke-width="1"/>';
+      grid+='<text x="'+(left-7)+'" y="'+(y+3)+'" text-anchor="end" fill="var(--chart-axis)" font-size="9">'+value+'</text>';
+    }
+    const idxs=[0,Math.round((n-1)*.25),Math.round((n-1)*.5),Math.round((n-1)*.75),n-1].filter((v,i,a)=>a.indexOf(v)===i);
+    for(const i of idxs){
+      const lab=labels[i]??String(i+1);
+      grid+='<line x1="'+sx(i)+'" y1="'+(height-bottom)+'" x2="'+sx(i)+'" y2="'+(height-bottom+4)+'" stroke="var(--chart-axis)" stroke-width="1"/>';
+      grid+='<text x="'+sx(i)+'" y="'+(height-8)+'" text-anchor="middle" fill="var(--chart-axis)" font-size="9">'+esc(chartDateLabel(lab))+'</text>';
+    }
+    grid+='<text x="12" y="'+(height/2)+'" transform="rotate(-90 12 '+(height/2)+')" text-anchor="middle" fill="var(--chart-axis)" font-size="9">COUNT</text>';
+    grid+='<text x="'+(width/2)+'" y="'+(height-1)+'" text-anchor="middle" fill="var(--chart-axis)" font-size="9">DATE</text>';
+  }
+  const lines=seriesList.map(series=>{
+    const values=series.values||[];
+    if(!values.length)return '';
+    const pts=values.map((v,i)=>sx(i)+','+sy(v)).join(' ');
+    let out='<polyline fill="none" stroke="'+series.color+'" stroke-width="2.3" points="'+pts+'" vector-effect="non-scaling-stroke"/>';
+    values.forEach((v,i)=>{
+      if(!Number.isFinite(Number(v)))return;
+      if(values.length<=45||Number(v)>0||i===values.length-1){
+        out+='<circle cx="'+sx(i)+'" cy="'+sy(v)+'" r="'+(values.length<=45?2.6:2)+'" fill="'+series.color+'"><title>'+esc(series.label||'Series')+' • '+esc(chartDateLabel(labels[i]))+' • '+Number(v)+'</title></circle>';
+      }
+      if(pointLabels&&Number(v)>0&&values.length<=31){
+        out+='<text x="'+sx(i)+'" y="'+Math.max(9,sy(v)-6)+'" text-anchor="middle" fill="var(--chart-axis)" font-size="8">'+Number(v)+'</text>';
+      }
+    });
+    return out;
+  }).join('');
+  return '<svg viewBox="0 0 '+width+' '+height+'" preserveAspectRatio="none" role="img" aria-label="Quantitative time-series chart">'+grid+lines+'</svg>';
+}
+function chartDataTable(labels,seriesList){
+  const n=Math.max(labels.length,...seriesList.map(x=>(x.values||[]).length));
+  if(!n)return '<div class="muted-empty">No numeric observations.</div>';
+  const head='<thead><tr><th>Date</th>'+seriesList.map(x=>'<th>'+esc(x.label||'Value')+'</th>').join('')+'</tr></thead>';
+  const body=Array.from({length:n},(_,i)=>'<tr><td>'+esc(labels[i]||'—')+'</td>'+seriesList.map(x=>'<td>'+esc((x.values||[])[i]??0)+'</td>').join('')+'</tr>').join('');
+  return '<table class="numeric-data-table">'+head+'<tbody>'+body+'</tbody></table>';
+}
+function renderActors(){
+  const m=state.metrics;if(!m)return;
+  const ids={'JNIM':['jnim7','jnimChange','jnimSpark'],'IS Sahel':['is7','isChange','isSpark'],'State':['state7','stateChange','stateSpark']};
+  Object.entries(ids).forEach(([actor,[countId,chgId,sparkId]])=>{
+    const trend=m.trends_7d?.[actor],rows=(m.series?.[actor]||[]).slice(-30);
+    setText(countId,trend?.current??0);
+    const ch=$('#'+chgId);ch.textContent=pct(trend);ch.className=trendClass(trend);
+    const labels=rows.map(x=>x.date),values=rows.map(x=>Number(x.count)||0);
+    const total=values.reduce((a,b)=>a+b,0),max=Math.max(0,...values),latest=values.at(-1)??0;
+    $('#'+sparkId).innerHTML=lineSVG([{label:actor,values:values,color:actorColor(actor)}],{height:92,showAxes:true,labels:labels,pointLabels:true})+
+      '<div class="mini-chart-readout">'+esc(chartDateLabel(labels[0]))+' → '+esc(chartDateLabel(labels.at(-1)))+' • latest '+latest+' • 30D total '+total+' • max/day '+max+'</div>';
+  });
+}
 function renderQuant(){
   const m=state.metrics;if(!m)return;
-  const series=['JNIM','IS Sahel','State'].map(a=>({label:a,color:actorColor(a),values:(m.series?.[a]||[]).slice(-state.range).map(x=>x.count)}));
-  $('#actorChart').innerHTML=lineSVG(series,{height:330,showAxes:true});
+  const actors=['JNIM','IS Sahel','State'];
+  const rowsByActor=Object.fromEntries(actors.map(a=>[a,(m.series?.[a]||[]).slice(-state.range)]));
+  const labels=(rowsByActor['JNIM']||[]).map(x=>x.date);
+  const series=actors.map(a=>({label:a,color:actorColor(a),values:(rowsByActor[a]||[]).map(x=>Number(x.count)||0)}));
+  $('#actorChart').innerHTML=lineSVG(series,{height:330,showAxes:true,labels:labels,pointLabels:state.range<=30});
+  const readout=series.map(x=>x.label+': latest '+(x.values.at(-1)??0)+' • period total '+x.values.reduce((a,b)=>a+b,0)+' • max/day '+Math.max(0,...x.values)).join(' | ');
+  setText('actorChartReadout',chartDateLabel(labels[0])+' → '+chartDateLabel(labels.at(-1))+' • '+readout);
+  const dataHost=$('#actorChartData');if(dataHost)dataHost.innerHTML=chartDataTable(labels,series);
   setText('metricNote',m.method_note||'');
-  [
-    ['JNIM','qJnim','qJnimChange','qJnim30','qJnim30Change'],
-    ['IS Sahel','qIs','qIsChange','qIs30','qIs30Change'],
-    ['State','qState','qStateChange','qState30','qState30Change']
-  ].forEach(([a,cid,xid,c30,x30])=>{
+  [['JNIM','qJnim','qJnimChange','qJnim30','qJnim30Change'],['IS Sahel','qIs','qIsChange','qIs30','qIs30Change'],['State','qState','qStateChange','qState30','qState30Change']].forEach(([a,cid,xid,c30,x30])=>{
     const t7=m.trends_7d?.[a],t30=m.trends_30d?.[a];
-    setText(cid,t7?.current??0);const e7=$(`#${xid}`);e7.textContent=pct(t7);e7.className=`quantchange ${trendClass(t7)}`;
-    setText(c30,t30?.current??0);const e30=$(`#${x30}`);e30.textContent=pct(t30);e30.className=`quantchange ${trendClass(t30)}`;
+    setText(cid,t7?.current??0);const e7=$('#'+xid);e7.textContent=pct(t7);e7.className='quantchange '+trendClass(t7);
+    setText(c30,t30?.current??0);const e30=$('#'+x30);e30.textContent=pct(t30);e30.className='quantchange '+trendClass(t30);
   });
 }
 function kvBars(obj,limit=8){
@@ -373,9 +444,14 @@ function renderThirty(){
   $('#thirtyLanguages').innerHTML=kvBars(t.by_language,8);
   const srcObj=Object.fromEntries((t.top_sources||[]).map(x=>[x.source,x.count]));
   $('#thirtySources').innerHTML=kvBars(srcObj,10);
-  const reportSeries=(t.daily||[]).map(x=>x.reports||0),eventSeries=(t.daily||[]).map(x=>x.events||0);
-  $('#thirtyChart').innerHTML=lineSVG([{values:reportSeries,color:'#59c3d8'},{values:eventSeries,color:'#e7ad53'}],{height:180,showAxes:true})+
+  const daily=t.daily||[];
+  const dailyLabels=daily.map(x=>x.date);
+  const reportSeries=daily.map(x=>Number(x.reports)||0),eventSeries=daily.map(x=>Number(x.events)||0);
+  const thirtySeries=[{label:'Relevant reports',values:reportSeries,color:'#59c3d8'},{label:'Candidate events',values:eventSeries,color:'#e7ad53'}];
+  $('#thirtyChart').innerHTML=lineSVG(thirtySeries,{height:180,showAxes:true,labels:dailyLabels,pointLabels:true})+
     '<div class="chartlegend"><span><i class="dot" style="background:#59c3d8"></i>Relevant reports</span><span><i class="dot state"></i>Candidate events</span></div>';
+  setText('thirtyChartReadout',chartDateLabel(dailyLabels[0])+' → '+chartDateLabel(dailyLabels.at(-1))+' • reports '+reportSeries.reduce((a,b)=>a+b,0)+' • candidate events '+eventSeries.reduce((a,b)=>a+b,0)+' • latest day '+(reportSeries.at(-1)??0)+' reports / '+(eventSeries.at(-1)??0)+' events');
+  const thirtyData=$('#thirtyChartData');if(thirtyData)thirtyData.innerHTML=chartDataTable(dailyLabels,thirtySeries);
   $('#thirtyTimeline').innerHTML=(t.latest_events||[]).slice(0,24).map(e=>`<div class="timeline-row timeline-event" data-event-date="${esc(e.event_date||'')}"><span>${esc(e.event_date||'—')}</span><b style="color:${actorColor(e.actor)}">${esc(e.actor||'Other')}</b><span>${esc(e.event_type||'event')}</span><span>${esc([e.city,e.country].filter(Boolean).join(', ')||'Location unresolved')}</span><strong>${esc(e.source_count??1)} src</strong><p>${esc(e.title||'')}</p></div>`).join('')||'<div class="runbox">No candidate events currently fall inside the 30-day window.</div>';
   $('#thirtyReports').innerHTML=(t.latest_reports||[]).slice(0,28).map(r=>`<div class="timeline-row report-row"><span>${esc(r.published_at?new Date(r.published_at).toLocaleDateString():'undated')}</span><b>${esc((r.language||'').toUpperCase())}</b><span>${esc(r.candidate_event?'EVENT':'REPORT')}</span><span>${esc([r.city,r.country].filter(Boolean).join(', ')||'Regional')}</span><strong>${esc(r.source||'')}</strong><p>${esc(r.title||'')}</p></div>`).join('')||'<div class="runbox">No relevant reports currently fall inside the 30-day window.</div>';
   setText('thirtyNote',t.method_note||'');
