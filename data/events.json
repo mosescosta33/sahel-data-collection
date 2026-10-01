@@ -86,6 +86,120 @@
     ]
   },
   {
+    "id": "61ab582907045a7d4feecd0b1b9f25eb68513ea3",
+    "event_date": "2026-09-29",
+    "event_date_confidence": "publication-proxy",
+    "event_date_source": "jsonld:datePublished",
+    "published_at": "2026-09-29T09:17:59Z",
+    "published_date_source": "jsonld:datePublished",
+    "published_time_precision": "datetime",
+    "collected_at": "2026-10-01T10:34:13.814791Z",
+    "actor": "Africa Corps/Wagner",
+    "perpetrator": "Africa Corps/Wagner",
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [
+      "Africa Corps/Wagner",
+      "State"
+    ],
+    "parent_report_id": null,
+    "event_type": "civilian targeting",
+    "country": "Mali",
+    "city": "Ségou",
+    "lat": 13.4317,
+    "lng": -6.2157,
+    "locations": [
+      {
+        "name": "Ségou",
+        "country": "Mali",
+        "lat": 13.4317,
+        "lng": -6.2157,
+        "confidence": "explicit-place"
+      },
+      {
+        "name": "Mopti",
+        "country": "Mali",
+        "lat": 14.4843,
+        "lng": -4.1829,
+        "confidence": "explicit-place"
+      },
+      {
+        "name": "Timbuktu",
+        "country": "Mali",
+        "lat": 16.7666,
+        "lng": -3.0026,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "Mali: Amnesty International accuses the army and Wagner of war crimes against civilians",
+    "summary": "Amnesty International blames the Malian Armed Forces and the Russian paramilitary group Wagner for the deaths of at least 34 civilians in joint operations between 2023 and 2025, as well as torture at two military bases. Most of the victims were from pastoralist communities Between 2025 and 2026, the NGO collected testimonies from 119 Malian refugees living in the Hodh ech-Chargui region of Mauritania, where UNHCR counted at the end of July some 290,000 people who had fled the conflict.",
+    "sources": [
+      "Afrik.com"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://www.afrik.com/mali-amnesty-international-accuse-l-armee-et-wagner-de-crimes-de-guerre-contre-des-civils"
+    ],
+    "report_summaries": [
+      {
+        "url": "https://www.afrik.com/mali-amnesty-international-accuse-l-armee-et-wagner-de-crimes-de-guerre-contre-des-civils",
+        "source": "Afrik.com",
+        "title": "Mali: Amnesty International accuses the army and Wagner of war crimes against civilians",
+        "summary": "Amnesty International blames the Malian Armed Forces and the Russian paramilitary group Wagner for the deaths of at least 34 civilians in joint operations between 2023 and 2025, as well as torture at two military bases. Most of the victims were from pastoralist communities Between 2025 and 2026, the NGO collected testimonies from 119 Malian refugees living in the Hodh ech-Chargui region of Mauritania, where UNHCR counted at the end of July some 290,000 people who had fled the conflict.",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "civilian"
+        ],
+        "civilian_targeting_flag": true,
+        "casualty_claims": []
+      }
+    ],
+    "created_at": "2026-10-01T10:34:13.814791Z",
+    "updated_at": "2026-10-01T10:34:13.814791Z",
+    "extraction_confidence": "low",
+    "victim_categories": [
+      "civilian"
+    ],
+    "civilian_targeting_flag": true,
+    "casualty_claims": [],
+    "fatalities_min": null,
+    "fatalities_max": null,
+    "fatalities_best": null,
+    "injured_min": null,
+    "injured_max": null,
+    "abducted_min": null,
+    "abducted_max": null,
+    "casualty_disputed": false,
+    "revision_history": [
+      {
+        "at": "2026-10-01T10:34:13.814791Z",
+        "type": "event_created",
+        "source": "Afrik.com"
+      }
+    ],
+    "corroboration": "single-source",
+    "confidence": "low",
+    "independent_source_domains": [
+      "afrik.com"
+    ],
+    "independent_source_count": 1,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "strategic/severe event pattern",
+      "multi-location activity"
+    ]
+  },
+  {
     "id": "5dbb5d8563e76b592535470307c1d84827b4c3bb",
     "event_date": "2026-09-29",
     "event_date_confidence": "explicit-text",
@@ -3913,7 +4027,7 @@
     "published_at": null,
     "published_date_source": "unresolved",
     "published_time_precision": "unresolved",
-    "collected_at": "2026-10-01T09:33:16.601561Z",
+    "collected_at": "2026-10-01T10:33:51.366350Z",
     "actor": "Other",
     "perpetrator": null,
     "target": null,
@@ -3977,8 +4091,8 @@
         ]
       }
     ],
-    "created_at": "2026-10-01T09:33:16.601561Z",
-    "updated_at": "2026-10-01T09:33:16.601561Z",
+    "created_at": "2026-10-01T10:33:51.366350Z",
+    "updated_at": "2026-10-01T10:33:51.366350Z",
     "extraction_confidence": "low",
     "victim_categories": [
       "security_force",
@@ -4006,7 +4120,7 @@
     "casualty_disputed": false,
     "revision_history": [
       {
-        "at": "2026-10-01T09:33:16.601561Z",
+        "at": "2026-10-01T10:33:51.366350Z",
         "type": "event_created",
         "source": "aNiamey.com"
       }
@@ -5215,7 +5329,7 @@
     "published_at": null,
     "published_date_source": "unresolved",
     "published_time_precision": "unresolved",
-    "collected_at": "2026-10-01T09:33:17.353515Z",
+    "collected_at": "2026-10-01T10:33:52.090941Z",
     "actor": "IS Sahel",
     "perpetrator": null,
     "target": null,
@@ -5272,8 +5386,8 @@
         "casualty_claims": []
       }
     ],
-    "created_at": "2026-10-01T09:33:17.353515Z",
-    "updated_at": "2026-10-01T09:33:17.353515Z",
+    "created_at": "2026-10-01T10:33:52.090941Z",
+    "updated_at": "2026-10-01T10:33:52.090941Z",
     "extraction_confidence": "low",
     "victim_categories": [
       "civilian",
@@ -5291,7 +5405,7 @@
     "casualty_disputed": false,
     "revision_history": [
       {
-        "at": "2026-10-01T09:33:17.353515Z",
+        "at": "2026-10-01T10:33:52.090941Z",
         "type": "event_created",
         "source": "aNiamey.com"
       }
@@ -5315,7 +5429,7 @@
     "published_at": null,
     "published_date_source": "unresolved",
     "published_time_precision": "unresolved",
-    "collected_at": "2026-10-01T09:33:16.340731Z",
+    "collected_at": "2026-10-01T10:33:51.114325Z",
     "actor": "JNIM",
     "perpetrator": null,
     "target": null,
@@ -5367,8 +5481,8 @@
         "casualty_claims": []
       }
     ],
-    "created_at": "2026-10-01T09:33:16.340731Z",
-    "updated_at": "2026-10-01T09:33:16.340731Z",
+    "created_at": "2026-10-01T10:33:51.114325Z",
+    "updated_at": "2026-10-01T10:33:51.114325Z",
     "extraction_confidence": "low",
     "victim_categories": [],
     "civilian_targeting_flag": false,
@@ -5383,7 +5497,7 @@
     "casualty_disputed": false,
     "revision_history": [
       {
-        "at": "2026-10-01T09:33:16.340731Z",
+        "at": "2026-10-01T10:33:51.114325Z",
         "type": "event_created",
         "source": "aNiamey.com"
       }
@@ -5673,7 +5787,7 @@
     "published_at": null,
     "published_date_source": "unresolved",
     "published_time_precision": "unresolved",
-    "collected_at": "2026-10-01T09:33:16.441273Z",
+    "collected_at": "2026-10-01T10:33:51.329643Z",
     "actor": "Other",
     "perpetrator": null,
     "target": null,
@@ -5737,8 +5851,8 @@
         ]
       }
     ],
-    "created_at": "2026-10-01T09:33:16.441273Z",
-    "updated_at": "2026-10-01T09:33:16.441273Z",
+    "created_at": "2026-10-01T10:33:51.329643Z",
+    "updated_at": "2026-10-01T10:33:51.329643Z",
     "extraction_confidence": "low",
     "victim_categories": [
       "civilian",
@@ -5766,7 +5880,7 @@
     "casualty_disputed": false,
     "revision_history": [
       {
-        "at": "2026-10-01T09:33:16.441273Z",
+        "at": "2026-10-01T10:33:51.329643Z",
         "type": "event_created",
         "source": "aNiamey.com"
       }

@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-10-01T09:34:57.600145Z",
+  "generated_at": "2026-10-01T10:35:56.518733Z",
   "window_days": 30,
   "cutoff": "2026-09-01",
-  "reports": 187,
-  "incident_reports": 37,
-  "candidate_events": 35,
+  "reports": 189,
+  "incident_reports": 38,
+  "candidate_events": 36,
   "corroborated_events": 2,
-  "mapped_events": 26,
-  "mapped_locations": 55,
-  "distinct_sources": 55,
+  "mapped_events": 27,
+  "mapped_locations": 58,
+  "distinct_sources": 56,
   "by_actor": {
     "State": 16,
     "JNIM": 7,
     "Other": 7,
-    "Africa Corps/Wagner": 5
+    "Africa Corps/Wagner": 6
   },
   "by_country": {
-    "Mali": 28,
+    "Mali": 29,
     "Niger": 5,
     "Burkina Faso": 2
   },
@@ -27,15 +27,16 @@
     "ambush": 2,
     "clash": 2,
     "kidnapping": 2,
-    "air/drone strike": 1
+    "air/drone strike": 1,
+    "civilian targeting": 1
   },
   "by_language": {
-    "fr": 126,
-    "en": 54,
+    "fr": 127,
+    "en": 55,
     "ar": 7
   },
   "by_confidence": {
-    "low": 20,
+    "low": 21,
     "moderate": 15
   },
   "top_sources": [
@@ -45,7 +46,7 @@
     },
     {
       "source": "Malijet",
-      "count": 15
+      "count": 16
     },
     {
       "source": "AMAP (Agence Malienne de Presse et de Publicité)",
@@ -90,11 +91,11 @@
   ],
   "top_locations": [
     {
-      "location": "Dioura",
-      "count": 9
+      "location": "Mopti",
+      "count": 10
     },
     {
-      "location": "Mopti",
+      "location": "Dioura",
       "count": 9
     },
     {
@@ -114,15 +115,19 @@
       "count": 6
     },
     {
+      "location": "Ségou",
+      "count": 4
+    },
+    {
       "location": "Djenné",
       "count": 3
     },
     {
-      "location": "Ségou",
+      "location": "Tillabéri",
       "count": 3
     },
     {
-      "location": "Tillabéri",
+      "location": "Timbuktu",
       "count": 3
     },
     {
@@ -131,10 +136,6 @@
     },
     {
       "location": "Niger",
-      "count": 2
-    },
-    {
-      "location": "Timbuktu",
       "count": 2
     }
   ],
@@ -277,7 +278,7 @@
     {
       "date": "2026-09-29",
       "reports": 28,
-      "events": 3
+      "events": 4
     },
     {
       "date": "2026-09-30",
@@ -286,7 +287,7 @@
     },
     {
       "date": "2026-10-01",
-      "reports": 8,
+      "reports": 10,
       "events": 1
     }
   ],
@@ -375,6 +376,120 @@
       "significance": "MAJOR",
       "significance_reasons": [
         "strategic/severe event pattern"
+      ]
+    },
+    {
+      "id": "61ab582907045a7d4feecd0b1b9f25eb68513ea3",
+      "event_date": "2026-09-29",
+      "event_date_confidence": "publication-proxy",
+      "event_date_source": "jsonld:datePublished",
+      "published_at": "2026-09-29T09:17:59Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-01T10:34:13.814791Z",
+      "actor": "Africa Corps/Wagner",
+      "perpetrator": "Africa Corps/Wagner",
+      "target": null,
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [
+        "Africa Corps/Wagner",
+        "State"
+      ],
+      "parent_report_id": null,
+      "event_type": "civilian targeting",
+      "country": "Mali",
+      "city": "Ségou",
+      "lat": 13.4317,
+      "lng": -6.2157,
+      "locations": [
+        {
+          "name": "Ségou",
+          "country": "Mali",
+          "lat": 13.4317,
+          "lng": -6.2157,
+          "confidence": "explicit-place"
+        },
+        {
+          "name": "Mopti",
+          "country": "Mali",
+          "lat": 14.4843,
+          "lng": -4.1829,
+          "confidence": "explicit-place"
+        },
+        {
+          "name": "Timbuktu",
+          "country": "Mali",
+          "lat": 16.7666,
+          "lng": -3.0026,
+          "confidence": "explicit-place"
+        }
+      ],
+      "title": "Mali: Amnesty International accuses the army and Wagner of war crimes against civilians",
+      "summary": "Amnesty International blames the Malian Armed Forces and the Russian paramilitary group Wagner for the deaths of at least 34 civilians in joint operations between 2023 and 2025, as well as torture at two military bases. Most of the victims were from pastoralist communities Between 2025 and 2026, the NGO collected testimonies from 119 Malian refugees living in the Hodh ech-Chargui region of Mauritania, where UNHCR counted at the end of July some 290,000 people who had fled the conflict.",
+      "sources": [
+        "Afrik.com"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://www.afrik.com/mali-amnesty-international-accuse-l-armee-et-wagner-de-crimes-de-guerre-contre-des-civils"
+      ],
+      "report_summaries": [
+        {
+          "url": "https://www.afrik.com/mali-amnesty-international-accuse-l-armee-et-wagner-de-crimes-de-guerre-contre-des-civils",
+          "source": "Afrik.com",
+          "title": "Mali: Amnesty International accuses the army and Wagner of war crimes against civilians",
+          "summary": "Amnesty International blames the Malian Armed Forces and the Russian paramilitary group Wagner for the deaths of at least 34 civilians in joint operations between 2023 and 2025, as well as torture at two military bases. Most of the victims were from pastoralist communities Between 2025 and 2026, the NGO collected testimonies from 119 Malian refugees living in the Hodh ech-Chargui region of Mauritania, where UNHCR counted at the end of July some 290,000 people who had fled the conflict.",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "civilian"
+          ],
+          "civilian_targeting_flag": true,
+          "casualty_claims": []
+        }
+      ],
+      "created_at": "2026-10-01T10:34:13.814791Z",
+      "updated_at": "2026-10-01T10:34:13.814791Z",
+      "extraction_confidence": "low",
+      "victim_categories": [
+        "civilian"
+      ],
+      "civilian_targeting_flag": true,
+      "casualty_claims": [],
+      "fatalities_min": null,
+      "fatalities_max": null,
+      "fatalities_best": null,
+      "injured_min": null,
+      "injured_max": null,
+      "abducted_min": null,
+      "abducted_max": null,
+      "casualty_disputed": false,
+      "revision_history": [
+        {
+          "at": "2026-10-01T10:34:13.814791Z",
+          "type": "event_created",
+          "source": "Afrik.com"
+        }
+      ],
+      "corroboration": "single-source",
+      "confidence": "low",
+      "independent_source_domains": [
+        "afrik.com"
+      ],
+      "independent_source_count": 1,
+      "significance": "MAJOR",
+      "significance_reasons": [
+        "strategic/severe event pattern",
+        "multi-location activity"
       ]
     },
     {
@@ -3288,128 +3403,49 @@
       "significance_reasons": [
         "operational security event"
       ]
-    },
-    {
-      "id": "dc854ef4a52412c4b3c6a93015bd1142e4c3a1f9",
-      "event_date": "2026-09-17",
-      "event_date_confidence": "explicit-text",
-      "event_date_source": "explicit-calendar-date",
-      "published_at": "2026-09-17T21:24:45Z",
-      "published_date_source": "stored",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-09-19T20:56:45.703291Z",
-      "actor": "State",
-      "perpetrator": "State",
-      "target": null,
-      "claimant": null,
-      "supporting_force": null,
-      "mentioned_actors": [
-        "State"
-      ],
-      "parent_report_id": null,
-      "event_type": "security operation",
-      "country": "Mali",
-      "city": "Dioura",
-      "lat": 14.82528,
-      "lng": -5.25139,
-      "locations": [
-        {
-          "name": "Dioura",
-          "country": "Mali",
-          "lat": 14.82528,
-          "lng": -5.25139,
-          "confidence": "explicit-place"
-        },
-        {
-          "name": "Kidal",
-          "country": "Mali",
-          "lat": 18.4411,
-          "lng": 1.4078,
-          "confidence": "explicit-place"
-        },
-        {
-          "name": "Mopti",
-          "country": "Mali",
-          "lat": 14.4843,
-          "lng": -4.1829,
-          "confidence": "explicit-place"
-        }
-      ],
-      "title": "Operation Dougoukoloko: The FAMa neutralize terrorist groups and destroy their equipment in Dioura and Kidal",
-      "summary": "As part of Operation Dougoukoloko, the Malian Armed Forces (FAMa), supported by their partners, carried out decisive offensive actions on 16 and 17 September 2026 against terrorist armed groups in the Mopti and Kidal regions On Wednesday, September 16, northeast of Gueledié (Mopti region), terrorist elements hidden under a canopy were spotted",
-      "sources": [
-        "Malijet"
-      ],
-      "languages": [
-        "fr"
-      ],
-      "source_count": 1,
-      "report_urls": [
-        "https://malijet.com/actualte_dans_les_regions_du_mali/311895-operation-dougoukoloko-les-fama-neutralisent-des-groupes-t-1.html"
-      ],
-      "report_summaries": [
-        {
-          "url": "https://malijet.com/actualte_dans_les_regions_du_mali/311895-operation-dougoukoloko-les-fama-neutralisent-des-groupes-t-1.html",
-          "source": "Malijet",
-          "title": "Operation Dougoukoloko: The FAMa neutralize terrorist groups and destroy their equipment in Dioura and Kidal",
-          "summary": "As part of Operation Dougoukoloko, the Malian Armed Forces (FAMa), supported by their partners, carried out decisive offensive actions on 16 and 17 September 2026 against terrorist armed groups in the Mopti and Kidal regions On Wednesday, September 16, northeast of Gueledié (Mopti region), terrorist elements hidden under a canopy were spotted",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "armed_group"
-          ],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        }
-      ],
-      "created_at": "2026-09-19T20:56:45.703291Z",
-      "updated_at": "2026-09-19T20:56:45.703291Z",
-      "extraction_confidence": "moderate",
-      "victim_categories": [
-        "armed_group"
-      ],
-      "civilian_targeting_flag": false,
-      "casualty_claims": [],
-      "fatalities_min": null,
-      "fatalities_max": null,
-      "fatalities_best": null,
-      "injured_min": null,
-      "injured_max": null,
-      "abducted_min": null,
-      "abducted_max": null,
-      "casualty_disputed": false,
-      "revision_history": [
-        {
-          "at": "2026-09-19T20:56:45.703291Z",
-          "type": "event_created",
-          "source": "Malijet"
-        }
-      ],
-      "corroboration": "single-source",
-      "confidence": "moderate",
-      "independent_source_domains": [
-        "malijet.com"
-      ],
-      "independent_source_count": 1,
-      "significance": "MAJOR",
-      "significance_reasons": [
-        "strategic/severe event pattern",
-        "multi-location activity"
-      ]
     }
   ],
   "latest_reports": [
     {
-      "published_at": "2026-10-01T08:48:40Z",
+      "published_at": "2026-10-01T09:57:14Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-01T10:34:13.446266Z",
+      "discovered_at": "2026-10-01T10:34:13.446266Z",
+      "timestamp_integrity": "complete",
+      "source": "The Defense Post Africa",
+      "language": "en",
+      "actor": "Africa Corps/Wagner",
+      "country": "Mali",
+      "city": "Ségou",
+      "event_type": "civilian targeting",
+      "candidate_event": false,
+      "title": "Amnesty Accuses Malian Forces, Wagner of War Crimes Against Civilians",
+      "url": "https://thedefensepost.com/2026/10/01/amnesty-mali-wagner-war-crimes/"
+    },
+    {
+      "published_at": "2026-10-01T09:26:41Z",
       "published_date_source": "feed",
       "published_time_precision": "datetime",
-      "collected_at": "2026-10-01T09:33:38.864879Z",
-      "discovered_at": "2026-10-01T09:33:38.864879Z",
+      "collected_at": "2026-10-01T10:33:51.921827Z",
+      "discovered_at": "2026-10-01T10:33:51.921827Z",
+      "timestamp_integrity": "complete",
+      "source": "Malijet",
+      "language": "fr",
+      "actor": null,
+      "country": "Mali",
+      "city": "Bamako",
+      "event_type": "law enforcement",
+      "candidate_event": false,
+      "title": "Armed robberies: end of escape for three robbers in Senou",
+      "url": "https://malijet.com/les_faits_divers_au_mali/312113-vols-a-main-armee-fin-de-cavale-pour-trois-braqueurs-a-sen.html"
+    },
+    {
+      "published_at": "2026-10-01T09:06:07Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-01T10:34:15.391801Z",
+      "discovered_at": "2026-10-01T10:34:15.391801Z",
       "timestamp_integrity": "complete",
       "source": "Africanews",
       "language": "en",
@@ -3595,8 +3631,8 @@
       "published_at": "2026-09-30T16:45:03Z",
       "published_date_source": "feed",
       "published_time_precision": "datetime",
-      "collected_at": "2026-10-01T09:33:18.043655Z",
-      "discovered_at": "2026-10-01T09:33:18.043655Z",
+      "collected_at": "2026-10-01T10:33:53.225305Z",
+      "discovered_at": "2026-10-01T10:33:53.225305Z",
       "timestamp_integrity": "complete",
       "source": "Africanews",
       "language": "en",
@@ -4049,40 +4085,6 @@
       "candidate_event": false,
       "title": "Securing the country: positions of armed groups hit in Niono and Dioura",
       "url": "https://amap.ml/2026/09/29/securisation-du-pays-des-positions-de-groupes-armes-frappees-a-niono-et-dioura/"
-    },
-    {
-      "published_at": "2026-09-29T15:46:04Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-01T06:14:25.241986Z",
-      "discovered_at": "2026-10-01T06:14:25.241986Z",
-      "timestamp_integrity": "complete",
-      "source": "The Premium Times (Nigeria)",
-      "language": "en",
-      "actor": "State",
-      "country": "Burkina Faso",
-      "city": "Ouagadougou",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Burkina Faso launches first gold refinery",
-      "url": "https://www.premiumtimesng.com/foreign/913268-burkina-faso-launches-first-gold-refinery.html"
-    },
-    {
-      "published_at": "2026-09-29T15:15:59Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-09-30T23:28:19.618374Z",
-      "discovered_at": "2026-09-30T23:28:19.618374Z",
-      "timestamp_integrity": "complete",
-      "source": "TV5MONDE Afrique",
-      "language": "fr",
-      "actor": "Africa Corps/Wagner",
-      "country": "Mali",
-      "city": "Timbuktu",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Image Africa \"No one is spared\": Amnesty documents killings and torture in Mali by the army and the Wagner group",
-      "url": "https://information.tv5monde.com/afrique/personne-nest-epargne-amnesty-documente-des-assassinats-et-tortures-commis-au-mali-par-larmee-et-le-groupe-wagner-2839491"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
