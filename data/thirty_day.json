@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-01T19:34:01.359190Z",
+  "generated_at": "2026-10-01T20:35:37.091102Z",
   "window_days": 30,
   "cutoff": "2026-09-01",
-  "reports": 203,
+  "reports": 204,
   "incident_reports": 37,
   "candidate_events": 35,
   "corroborated_events": 2,
@@ -30,7 +30,7 @@
     "air/drone strike": 1
   },
   "by_language": {
-    "fr": 137,
+    "fr": 138,
     "en": 59,
     "ar": 7
   },
@@ -41,7 +41,7 @@
   "top_sources": [
     {
       "source": "Bamada",
-      "count": 19
+      "count": 20
     },
     {
       "source": "Malijet",
@@ -286,7 +286,7 @@
     },
     {
       "date": "2026-10-01",
-      "reports": 21,
+      "reports": 22,
       "events": 1
     }
   ],
@@ -3405,6 +3405,23 @@
   ],
   "latest_reports": [
     {
+      "published_at": "2026-10-01T20:02:12Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-01T20:33:07.326831Z",
+      "discovered_at": "2026-10-01T20:33:07.326831Z",
+      "timestamp_integrity": "complete",
+      "source": "Bamada",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": null,
+      "event_type": "political/security policy",
+      "candidate_event": false,
+      "title": "MALIAN ARMED FORCES: the Army celebrates 66 years in the service of the Nation",
+      "url": "https://bamada.net/forces-armees-maliennes-larmee-de-terre-celebre-66-annees-au-service-de-la-nation"
+    },
+    {
       "published_at": "2026-10-01T17:59:43Z",
       "published_date_source": "feed",
       "published_time_precision": "datetime",
@@ -3527,8 +3544,8 @@
       "published_at": "2026-10-01T11:56:30Z",
       "published_date_source": "feed",
       "published_time_precision": "datetime",
-      "collected_at": "2026-10-01T18:37:40.810507Z",
-      "discovered_at": "2026-10-01T18:37:40.810507Z",
+      "collected_at": "2026-10-01T20:33:07.998583Z",
+      "discovered_at": "2026-10-01T20:33:07.998583Z",
       "timestamp_integrity": "complete",
       "source": "Africanews",
       "language": "en",
@@ -3816,8 +3833,8 @@
       "published_at": "2026-09-30T16:45:03Z",
       "published_date_source": "feed",
       "published_time_precision": "datetime",
-      "collected_at": "2026-10-01T18:37:44.908664Z",
-      "discovered_at": "2026-10-01T18:37:44.908664Z",
+      "collected_at": "2026-10-01T20:33:12.355714Z",
+      "discovered_at": "2026-10-01T20:33:12.355714Z",
       "timestamp_integrity": "complete",
       "source": "Africanews",
       "language": "en",
@@ -4066,23 +4083,6 @@
       "candidate_event": false,
       "title": "Burkina Faso: Burkina Faso, Mali and Niger Launch Tafouk TV Channel to Push Their Own Narrative",
       "url": "https://allafrica.com/stories/202609300003.html"
-    },
-    {
-      "published_at": "2026-09-30T00:44:58Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-09-30T23:09:13.892205Z",
-      "discovered_at": "2026-09-30T23:09:13.892205Z",
-      "timestamp_integrity": "complete",
-      "source": "Sidwaya",
-      "language": "fr",
-      "actor": "State",
-      "country": "Burkina Faso",
-      "city": "Ouagadougou",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "A historic night",
-      "url": "https://www.sidwaya.info/une-nuit-historique/"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
