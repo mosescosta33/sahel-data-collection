@@ -6,17 +6,17 @@
   <meta name="theme-color" content="#061019" />
   <script>try{document.documentElement.dataset.theme=localStorage.getItem('sicTheme')||'dark'}catch(e){document.documentElement.dataset.theme='dark'}</script>
   <title>Sahel Intel Collection</title>
-  <link rel="stylesheet" href="./styles.css?v=3.1.0" />
+  <link rel="stylesheet" href="./styles.css?v=3.1.1" />
   <link rel="stylesheet" href="./briefings.css" />
   <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.12.0/dist/maplibre-gl.css" />
-  <link rel="stylesheet" href="./map-ui.css?v=3.1.0" />
+  <link rel="stylesheet" href="./map-ui.css?v=3.1.1" />
   <link rel="stylesheet" href="./logs.css" />
 </head>
 <body>
   <header class="topbar">
     <div class="brand"><div class="brandmark">SIC</div><div><h1>SAHEL INTEL COLLECTION</h1><p>AUTOMATED MULTILINGUAL OPEN-SOURCE COLLECTION • FR / AR / EN</p></div></div>
     <div class="ownercenter"><strong>MOSES COSTA</strong></div>
-    <div class="topmeta"><span id="patchBadge" class="versionbadge" title="Site patch version">PATCH v3.1.0</span><button id="themeToggle" class="theme-toggle" type="button" aria-label="Switch light and dark mode">☀ LIGHT</button><span id="systemBadge" class="status offline">OFFLINE</span><span id="heartbeat">waiting for collector</span><span id="clock"></span></div>
+    <div class="topmeta"><span id="patchBadge" class="versionbadge" title="Site patch version">PATCH v3.1.1</span><button id="themeToggle" class="theme-toggle" type="button" aria-label="Switch light and dark mode">☀ LIGHT</button><span id="systemBadge" class="status offline">OFFLINE</span><span id="heartbeat">waiting for collector</span><span id="clock"></span></div>
   </header>
 
   <nav class="tabs">
@@ -143,15 +143,17 @@
     <section id="view-saved" class="view">
       <section class="panel full">
         <div class="panelhead">
-          <div><span class="eyebrow">PERSONAL RESEARCH FILE</span><h2>Saved Reports</h2></div>
+          <div><span class="eyebrow">REPORT LIBRARY</span><h2>Saved Reports</h2></div>
           <div class="saved-toolbar">
+            <button class="saved-view-filter active" data-saved-view="all" type="button">ALL REPORTS</button>
+            <button class="saved-view-filter" data-saved-view="starred" type="button">STARRED ONLY</button>
             <button id="downloadSavedJson" type="button">DOWNLOAD ALL JSON</button>
             <button id="downloadSavedCsv" type="button">DOWNLOAD ALL CSV</button>
-            <button id="clearSavedReports" type="button">CLEAR SAVED</button>
+            <button id="clearSavedReports" type="button">CLEAR STARS</button>
           </div>
         </div>
-        <p id="savedReportsStatus" class="note">No reports saved yet. Use SAVE REPORT on any feed card.</p>
-        <p class="note">Saved reports are stored in this browser as snapshots, so they survive page refreshes even if the live archive later changes.</p>
+        <p id="savedReportsStatus" class="note">Loading retained report library…</p>
+        <p class="note">This tab shows the full retained report archive with article summaries. Star reports to mark favorites; starred snapshots persist in this browser even if the live archive later changes.</p>
         <div id="savedReportsFeed" class="feed expanded saved-reports-feed"></div>
       </section>
     </section>
@@ -260,8 +262,8 @@
   </main>
   <script src="https://unpkg.com/maplibre-gl@5.12.0/dist/maplibre-gl.js"></script>
   <script src="./map-data.js"></script>
-  <script src="./map-ui.js?v=3.1.0"></script>
-  <script src="./app.js?v=3.1.0"></script>
+  <script src="./map-ui.js?v=3.1.1"></script>
+  <script src="./app.js?v=3.1.1"></script>
   <script src="./logs.js"></script>
 </body>
 </html>
