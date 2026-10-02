@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-01T23:29:38.496378Z",
+  "generated_at": "2026-10-02T00:40:20.848731Z",
   "window_days": 30,
-  "cutoff": "2026-09-01",
-  "reports": 204,
+  "cutoff": "2026-09-02",
+  "reports": 206,
   "incident_reports": 37,
   "candidate_events": 35,
   "corroborated_events": 2,
@@ -30,7 +30,7 @@
     "air/drone strike": 1
   },
   "by_language": {
-    "fr": 138,
+    "fr": 140,
     "en": 59,
     "ar": 7
   },
@@ -68,15 +68,15 @@
       "count": 8
     },
     {
+      "source": "Sidwaya",
+      "count": 8
+    },
+    {
       "source": "Africanews",
       "count": 7
     },
     {
       "source": "AllAfrica (English Edition)",
-      "count": 7
-    },
-    {
-      "source": "Sidwaya",
       "count": 7
     },
     {
@@ -139,11 +139,6 @@
     }
   ],
   "daily": [
-    {
-      "date": "2026-09-02",
-      "reports": 3,
-      "events": 0
-    },
     {
       "date": "2026-09-03",
       "reports": 2,
@@ -286,8 +281,13 @@
     },
     {
       "date": "2026-10-01",
-      "reports": 22,
+      "reports": 24,
       "events": 1
+    },
+    {
+      "date": "2026-10-02",
+      "reports": 0,
+      "events": 0
     }
   ],
   "latest_events": [
@@ -3405,6 +3405,23 @@
   ],
   "latest_reports": [
     {
+      "published_at": "2026-10-01T23:47:58Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-02T00:38:44.062067Z",
+      "discovered_at": "2026-10-02T00:38:44.062067Z",
+      "timestamp_integrity": "complete",
+      "source": "Sidwaya",
+      "language": "fr",
+      "actor": null,
+      "country": "Burkina Faso",
+      "city": "Ouagadougou",
+      "event_type": "security operation",
+      "candidate_event": false,
+      "title": "Use of motor tricycles: a control operation officially launched",
+      "url": "https://www.sidwaya.info/usage-des-tricycles-a-moteur-une-operation-de-controle-officiellement-lancee/"
+    },
+    {
       "published_at": "2026-10-01T20:02:12Z",
       "published_date_source": "feed",
       "published_time_precision": "datetime",
@@ -3643,6 +3660,23 @@
       "url": "https://malijet.com/les_faits_divers_au_mali/312113-vols-a-main-armee-fin-de-cavale-pour-trois-braqueurs-a-sen.html"
     },
     {
+      "published_at": "2026-10-01T09:23:17Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-02T00:38:39.591048Z",
+      "discovered_at": "2026-10-02T00:38:39.591048Z",
+      "timestamp_integrity": "complete",
+      "source": "Le Sahel",
+      "language": "fr",
+      "actor": "State",
+      "country": "Niger",
+      "city": "Niamey",
+      "event_type": "law enforcement",
+      "candidate_event": false,
+      "title": "Road safety: ANISER conducts an extensive roadside control operation",
+      "url": "https://www.lesahel.org/securite-routiere-laniser-mene-une-vaste-operation-de-controle-routier/"
+    },
+    {
       "published_at": "2026-10-01T09:06:07Z",
       "published_date_source": "feed",
       "published_time_precision": "datetime",
@@ -3833,8 +3867,8 @@
       "published_at": "2026-09-30T16:45:03Z",
       "published_date_source": "feed",
       "published_time_precision": "datetime",
-      "collected_at": "2026-10-01T22:28:56.812775Z",
-      "discovered_at": "2026-10-01T22:28:56.812775Z",
+      "collected_at": "2026-10-02T00:38:44.260475Z",
+      "discovered_at": "2026-10-02T00:38:44.260475Z",
       "timestamp_integrity": "complete",
       "source": "Africanews",
       "language": "en",
@@ -4049,40 +4083,6 @@
       "candidate_event": false,
       "title": "Burkina Faso opens first gold refinery in push for economic independence",
       "url": "https://www.africanews.com/2026/09/30/burkina-faso-opens-first-gold-refinery-in-push-for-economic-independence/"
-    },
-    {
-      "published_at": "2026-09-30T05:19:23Z",
-      "published_date_source": "opengraph",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-01T06:14:25.090756Z",
-      "discovered_at": "2026-10-01T06:14:25.090756Z",
-      "timestamp_integrity": "complete",
-      "source": "AllAfrica (English Edition)",
-      "language": "en",
-      "actor": "State",
-      "country": "Burkina Faso",
-      "city": "Ouagadougou",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "7 Burkina Faso: Burkina Faso Launches First Gold Refinery",
-      "url": "https://allafrica.com/stories/202609300060.html"
-    },
-    {
-      "published_at": "2026-09-30T04:41:56Z",
-      "published_date_source": "opengraph",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-01T08:36:12.839245Z",
-      "discovered_at": "2026-10-01T08:36:12.839245Z",
-      "timestamp_integrity": "complete",
-      "source": "AllAfrica (English Edition)",
-      "language": "en",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Bamako",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Burkina Faso: Burkina Faso, Mali and Niger Launch Tafouk TV Channel to Push Their Own Narrative",
-      "url": "https://allafrica.com/stories/202609300003.html"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
