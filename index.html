@@ -6,19 +6,19 @@
   <meta name="theme-color" content="#e5ebee" />
   <script>try{document.documentElement.dataset.theme=localStorage.getItem('sicTheme')||'light'}catch(e){document.documentElement.dataset.theme='light'}</script>
   <title>Sahel Intel Collection</title>
-  <link rel="stylesheet" href="./styles.css?v=4.2.0" />
+  <link rel="stylesheet" href="./styles.css?v=4.2.1" />
   <link rel="stylesheet" href="./briefings.css" />
   <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.12.0/dist/maplibre-gl.css" />
-  <link rel="stylesheet" href="./map-ui.css?v=4.2.0" />
+  <link rel="stylesheet" href="./map-ui.css?v=4.2.1" />
   <link rel="stylesheet" href="./logs.css" />
-  <link rel="stylesheet" href="./readability.css?v=4.2.0" />
-  <link rel="stylesheet" href="./research-lab.css?v=4.2.0" />
+  <link rel="stylesheet" href="./readability.css?v=4.2.1" />
+  <link rel="stylesheet" href="./research-lab.css?v=4.2.1" />
 </head>
 <body>
   <header class="topbar">
     <div class="brand"><div class="brandmark">SIC</div><div><h1>SAHEL INTEL COLLECTION</h1><p>AUTOMATED MULTILINGUAL OPEN-SOURCE COLLECTION • FR / AR / EN</p></div></div>
     <div class="ownercenter"><strong>MOSES COSTA</strong></div>
-    <div class="topmeta"><span id="patchBadge" class="versionbadge" title="Site patch version">PATCH v4.2.0</span><button id="themeToggle" class="theme-toggle" type="button" aria-label="Switch light and dark mode">☀ LIGHT</button><span id="systemBadge" class="status offline">OFFLINE</span><span id="heartbeat">waiting for collector</span><span id="clock"></span></div>
+    <div class="topmeta"><span id="patchBadge" class="versionbadge" title="Site patch version">PATCH v4.2.1</span><button id="themeToggle" class="theme-toggle" type="button" aria-label="Switch light and dark mode">☀ LIGHT</button><span id="systemBadge" class="status offline">OFFLINE</span><span id="heartbeat">waiting for collector</span><span id="clock"></span></div>
   </header>
 
   <nav class="tabs">
@@ -38,7 +38,7 @@
         <section class="panel map-panel" aria-labelledby="mapHeading">
           <div class="map-heading">
             <div><span class="eyebrow">LIVE OPERATING PICTURE</span><h2 id="mapHeading">Sahel operating picture</h2><p>Candidate events across Mali, Burkina Faso, and Niger</p></div>
-            <div class="map-controls"><div class="filterbar" aria-label="Actor filter"><button class="filter active" data-actor="all">All</button><button class="filter" data-actor="JNIM">JNIM</button><button class="filter" data-actor="IS Sahel">IS Sahel</button><button class="filter" data-actor="State">State</button></div><div class="filterbar maprange" aria-label="Date range"><button class="map-range" data-days="1" title="Filter by incident date in the last 24 hours">24H</button><button class="map-range active" data-days="7">7D</button><button class="map-range" data-days="30">30D</button><button class="map-range" data-days="all">ALL</button></div></div>
+            <div class="map-controls"><div class="filterbar" aria-label="Actor filter"><button class="filter active" data-actor="all">All</button><button class="filter" data-actor="JNIM">JNIM</button><button class="filter" data-actor="IS Sahel">IS Sahel</button><button class="filter" data-actor="State">State</button><button class="filter" data-actor="Africa Corps/Wagner">Wagner / Africa Corps</button></div><div class="filterbar maprange" aria-label="Date range"><button class="map-range" data-days="1" title="Filter by incident date in the last 24 hours">24H</button><button class="map-range active" data-days="7">7D</button><button class="map-range" data-days="30">30D</button><button class="map-range" data-days="all">ALL</button></div></div>
           </div>
           <div class="intel-map-layout">
             <div class="intel-map-area">
@@ -48,7 +48,7 @@
                 <div class="map-style-select"><label for="mapStyle">MAP STYLE</label><select id="mapStyle"><option value="positron">Street</option><option value="bright">Detailed</option><option value="dark">Dark</option></select></div>
                 <div id="mapLoadStatus" class="map-load-status" hidden role="status"></div>
               </div>
-              <div class="map-legend"><span><i class="dot jnim"></i> JNIM</span><span><i class="dot is"></i> IS Sahel</span><span><i class="dot state"></i> State</span><span><i class="dot other"></i> Other</span><span>All map points are candidate records</span></div>
+              <div class="map-legend"><span><i class="dot jnim"></i> JNIM</span><span><i class="dot is"></i> IS Sahel</span><span><i class="dot state"></i> State</span><span><i class="dot africa"></i> Wagner / Africa Corps</span><span><i class="dot other"></i> Other</span><span>All map points are candidate records</span></div>
             </div>
             <aside class="map-explorer" aria-label="Selected map record"><span class="eyebrow">INCIDENT EXPLORER</span><h3>What is happening nearby</h3><div id="mapExplorerCount" class="map-explorer-count">Loading event records…</div><div id="mapEventDetail" class="map-event-detail">Select a marker to examine its source reporting and location precision.</div><fieldset class="map-layer-switches"><legend>MAP LAYERS</legend><label><input id="mapMarkersLayer" type="checkbox" checked /> Candidate events</label></fieldset><div id="mapCountryOnly" class="map-country-only"></div></aside>
           </div>
@@ -118,7 +118,7 @@
         </section>
 
         <section class="panel feed-preview">
-          <div class="panelhead"><div><span class="eyebrow">NEWLY COLLECTED</span><h2>Intelligence Feed</h2></div><span class="methodpill">GitHub auto-collector</span></div>
+          <div class="panelhead"><div><span class="eyebrow">NEWLY COLLECTED</span><h2>Intelligence Feed</h2></div></div>
           <div id="feedPreview" class="feed"></div>
         </section>
       </div>
@@ -381,12 +381,12 @@
   </main>
   <script src="https://unpkg.com/maplibre-gl@5.12.0/dist/maplibre-gl.js"></script>
   <script src="./map-data.js"></script>
-  <script src="./map-ui.js?v=4.2.0"></script>
-  <script src="./app.js?v=4.2.0"></script>
-  <script src="./event-drawer.js?v=4.2.0"></script>
-  <script src="./civilian-harm.js?v=4.2.0"></script>
+  <script src="./map-ui.js?v=4.2.1"></script>
+  <script src="./app.js?v=4.2.1"></script>
+  <script src="./event-drawer.js?v=4.2.1"></script>
+  <script src="./civilian-harm.js?v=4.2.1"></script>
   <script src="./logs.js"></script>
-  <script src="./research-lab.js?v=4.2.0"></script>
+  <script src="./research-lab.js?v=4.2.1"></script>
 </body>
 </html>
 

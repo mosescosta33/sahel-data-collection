@@ -59,7 +59,9 @@
     return map;
   }
   function actorLabel(r,e){
-    return String(r?.perpetrator||e?.perpetrator||r?.actor_bucket||e?.actor||'Attribution unresolved');
+    // Actor buckets describe association/activity, not necessarily perpetration.
+    // Only an explicit perpetrator field is strong enough for the civilian-harm attribution panel.
+    return String(r?.perpetrator||e?.perpetrator||'Attribution unresolved');
   }
   function locationLabel(r,e){
     const city=r?.city||e?.city;
@@ -68,8 +70,15 @@
   }
   function caseFromReport(r,idx){
     const e=idx.get(r?.url)||null;
+    const claims=Array.isArray(r?.casualty_claims)?r.casualty_claims:[];
+    const explicitCivilianClaim=claims.some(c=>civilianContext.test(String(c?.victim_text||'')));
+    const analyticalContainer=Boolean(r?.analytical_container||r?.retention_class==='analytical_context');
+    // Long analytical products routinely mention civilians, killings, looting, armed groups,
+    // and state forces in the same document. Do not turn that co-occurrence into a fabricated
+    // incident card. An analytical product must have incident-level structured evidence first.
+    if(analyticalContainer&&!e&&!r?.civilian_targeting_flag&&!explicitCivilianClaim)return null;
     const text=[r?.translated_title,r?.title,r?.article_summary,r?.translated_excerpt,r?.excerpt,r?.target,r?.event_type,e?.summary].filter(Boolean).join(' ');
-    const hasCivilian=Boolean(r?.civilian_targeting_flag)||(Array.isArray(r?.victim_categories)&&r.victim_categories.includes('civilian'))||civilianContext.test(text)||civilianContext.test(String(r?.target||''));
+    const hasCivilian=Boolean(r?.civilian_targeting_flag)||explicitCivilianClaim||(Array.isArray(r?.victim_categories)&&r.victim_categories.includes('civilian'))||civilianContext.test(text)||civilianContext.test(String(r?.target||''));
     const categories=rules.filter(rule=>rule.re.test(text)&&(hasCivilian||rule.self)).map(rule=>({code:rule.code,label:rule.label}));
     if(hasCivilian&&(Number.isFinite(Number(r?.fatalities_min))||Number.isFinite(Number(r?.fatalities_max)))&&!categories.some(x=>x.code==='HR-KILL'))categories.unshift({code:'HR-KILL',label:'Civilian killing / execution'});
     if(!categories.length)return null;
@@ -79,8 +88,9 @@
     const country=r?.country||e?.country||'Regional';
     const actor=actorLabel(r,e);
     const location=locationLabel(r,e);
-    const summary=r?.article_summary||r?.translated_excerpt||r?.excerpt||'No retained article summary available.';
-    const hasAttribution=Boolean(r?.perpetrator||e?.perpetrator||r?.actor_bucket||e?.actor);
+    const rawSummary=r?.article_summary||r?.translated_excerpt||r?.excerpt||'No retained article summary available.';
+    const summary=String(rawSummary).replace(/\{\{[^{}]{1,120}\}\}/g,' ').replace(/\s+/g,' ').trim();
+    const hasAttribution=Boolean(r?.perpetrator||e?.perpetrator);
     const hasPrecise=Boolean(r?.city||e?.city||(Array.isArray(e?.incident_locations)&&e.incident_locations.length));
     const review=[];
     if(sourceCount<2)review.push('single-source reporting');
@@ -111,7 +121,7 @@
       disputed,
       review,
       evidence_status:sourceCount>=3?'Multiple-source case linkage':sourceCount===2?'Two-source case linkage':'Single-source report',
-      attribution_basis:hasAttribution?(r?.perpetrator||e?.perpetrator?'Named perpetrator in structured extraction':'Actor category in structured extraction'):'Unresolved',
+      attribution_basis:hasAttribution?'Named alleged perpetrator in structured extraction':'Perpetrator unresolved',
       location_precision:hasPrecise?'Named/structured locality available':country!=='Regional'?'Country-level only':'Unresolved',
       fatalities_min:r?.fatalities_min??e?.fatalities_min??null,
       fatalities_max:r?.fatalities_max??e?.fatalities_max??null,
@@ -241,13 +251,14 @@
     const source=safeUrl(c.url);
     const chips=c.categories.map(x=>'<span class="civilian-pill">'+esc(x.code)+' · '+esc(x.label)+'</span>').join('');
     const review=c.review.length?c.review.join(' • '):'No automatic review flags.';
-    const allegation=c.actor==='Attribution unresolved'?'No perpetrator attribution is resolved in the retained structured fields.':'The retained reporting/structured extraction attributes or associates the incident with '+c.actor+'.';
+    const allegation=c.actor==='Attribution unresolved'?'No perpetrator attribution is resolved in the retained structured fields.':'The retained structured extraction names '+c.actor+' as the alleged perpetrator. Review the source before treating the attribution as established.';
     const dispute=c.disputed?'The retained text contains denial, dispute, or competing-characterization language. Review the underlying source before drawing conclusions.':'No explicit denial/dispute language was detected in the retained summary/title. Absence of a detected dispute is not proof of agreement.';
+    const placeMeta=c.location&&c.location!==c.country?c.country+' • '+c.location:c.country;
     return '<article class="civilian-case '+(c.source_count>=2?'corroborated':'review')+'">'+
       '<div class="civilian-case-head"><div><span class="civilian-case-id">'+esc(c.id)+'</span><h3>'+esc(c.title)+'</h3></div><span class="methodpill">'+esc(c.evidence_status)+'</span></div>'+
-      '<div class="civilian-case-meta">'+esc(c.country)+' • '+esc(c.location)+' • Event date: '+esc(c.event_date||'unresolved')+' • Source: '+esc(c.source)+' • Linked sources: '+esc(c.source_count)+'</div>'+ 
+      '<div class="civilian-case-meta">'+esc(placeMeta)+' • Event date: '+esc(c.event_date||'unresolved')+' • Source: '+esc(c.source)+' • Linked sources: '+esc(c.source_count)+'</div>'+ 
       '<div class="civilian-case-meta"><strong>PUBLISHED:</strong> '+esc(fullTimestamp(c.published_at))+' • <strong>COLLECTED BY SAHEL INTEL:</strong> '+esc(fullTimestamp(c.collected_at))+'</div>'+
-      '<div class="civilian-case-meta"><strong>Fatalities:</strong> '+esc(casualtyValue(c.fatalities_min,c.fatalities_max,c.fatalities_best))+' • <strong>Injured:</strong> '+esc(casualtyValue(c.injured_min,c.injured_max,null))+' • <strong>Abducted:</strong> '+esc(casualtyValue(c.abducted_min,c.abducted_max,null))+(c.casualty_disputed?' • <strong>CONFLICTING TOLLS</strong>':'')+(c.victim_categories.length?' • Victims: '+esc(c.victim_categories.join(', ')):'')+'</div>'+
+      '<div class="civilian-case-meta"><strong>Fatalities:</strong> '+esc(casualtyValue(c.fatalities_min,c.fatalities_max,c.fatalities_best))+' • <strong>Injured:</strong> '+esc(casualtyValue(c.injured_min,c.injured_max,null))+' • <strong>Abducted:</strong> '+esc(casualtyValue(c.abducted_min,c.abducted_max,null))+(c.casualty_disputed?' • <strong>CONFLICTING TOLLS</strong>':'')+(c.victim_categories.length?' • Groups mentioned: '+esc(c.victim_categories.join(', ')):'')+'</div>'+
       '<div class="civilian-indicators">'+chips+'</div>'+
       '<div class="civilian-evidence-grid">'+
         '<div class="civilian-evidence"><small>REPORTED INFORMATION</small><p>'+esc(c.summary)+'</p></div>'+

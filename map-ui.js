@@ -34,7 +34,11 @@
 
 
   function actorHex(actor){
-    return actor==='JNIM'?'#df625b':actor==='IS Sahel'?'#a977d8':actor==='State'?'#d39646':'#588dbd';
+    return actor==='JNIM'?'#ef6262'
+      :actor==='IS Sahel'?'#b47cff'
+      :actor==='State'?'#e7ad53'
+      :actor==='Africa Corps/Wagner'?'#48d5a2'
+      :'#63a8ff';
   }
   function clearDomMarkers(){
     for(const marker of domMarkers){try{marker.remove()}catch(_){}}
