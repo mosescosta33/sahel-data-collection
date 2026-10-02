@@ -43,9 +43,10 @@ function ensure(){
   return d;
 }
 function sourceCard(r,i){
-  const title=r.translated_title||r.title||('Source '+(i+1)),summary=r.article_summary||r.translated_excerpt||r.excerpt||'No retained article summary is available.',u=safeUrl(r.url);
+  const title=r.translated_title||r.title||('Report '+(i+1)),summary=r.article_summary||r.translated_excerpt||r.excerpt||'No retained article summary is available.',u=safeUrl(r.url);
   const saved=app()?.isReportSaved?.(r),inArchive=(st().reports||[]).some(x=>reportKey(x)===reportKey(r));
-  return '<article class="event-source-card"><div class="event-source-head"><span>SOURCE '+(i+1)+'</span><strong>'+esc(r.source||'Unknown source')+'</strong><span>'+esc(String(r.language||'').toUpperCase()||'N/A')+'</span></div><h4>'+esc(title)+'</h4><div class="event-source-summary"><small>ARTICLE SUMMARY</small><p>'+esc(summary)+'</p></div><div class="event-source-meta">Published: '+esc(r.published_at?app()?.fmtTimestampUTC?.(r.published_at)||r.published_at:'UNAVAILABLE')+'</div><div class="event-source-actions">'+(u?'<a href="'+esc(u)+'" target="_blank" rel="noopener noreferrer">OPEN ORIGINAL SOURCE ↗</a>':'')+(inArchive?'<button class="event-save-one '+(saved?'saved':'')+'" data-report-key="'+esc(encodeURIComponent(reportKey(r)))+'">'+(saved?'★ SAVED':'☆ SAVE REPORT')+'</button>':'')+'</div></article>';
+  const sourceCode=app()?.sourceCodeForReport?.(r)||app()?.sourceCodeByName?.(r.source)||'SRC-UNASSIGNED';
+  return '<article class="event-source-card"><div class="event-source-head"><span>REPORT '+(i+1)+'</span><strong>'+esc(sourceCode)+' • '+esc(r.source||'Unknown source')+'</strong><span>'+esc(String(r.language||'').toUpperCase()||'N/A')+'</span></div><h4>'+esc(title)+'</h4><div class="event-source-summary"><small>ARTICLE SUMMARY</small><p>'+esc(summary)+'</p></div><div class="event-source-meta">Published: '+esc(r.published_at?app()?.fmtTimestampUTC?.(r.published_at)||r.published_at:'UNAVAILABLE')+'</div><div class="event-source-actions">'+(u?'<a href="'+esc(u)+'" target="_blank" rel="noopener noreferrer">OPEN ORIGINAL SOURCE ↗</a>':'')+(inArchive?'<button class="event-save-one '+(saved?'saved':'')+'" data-report-key="'+esc(encodeURIComponent(reportKey(r)))+'">'+(saved?'★ SAVED':'☆ SAVE REPORT')+'</button>':'')+'</div></article>';
 }
 function render(seed){
   const d=ensure(),e=resolve(seed)||seed;if(!e)return;

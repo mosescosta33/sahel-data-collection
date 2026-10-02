@@ -388,3 +388,26 @@ html[data-theme="light"] .russian-logistics-panel,
 html[data-theme="light"] .russian-logistics-metrics>div,
 html[data-theme="light"] .russian-logistics-chart{background:#e8eef0!important;border-color:#b6c6cd!important}
 @media(max-width:700px){.russian-logistics-metrics{grid-template-columns:repeat(2,1fr)}}
+
+
+/* v4.2 interactive chart provenance */
+.chart-point{cursor:pointer;outline:none;stroke:transparent;stroke-width:0;vector-effect:non-scaling-stroke}
+.chart-point:hover,.chart-point:focus{stroke:var(--text);stroke-width:2.4}
+.chart-point-tip{position:fixed;z-index:1200;max-width:380px;min-width:260px;padding:11px 12px;border:1px solid var(--line);border-radius:4px;background:var(--panel);color:var(--text);box-shadow:0 12px 34px rgba(0,0,0,.28);font:600 10px/1.45 ui-monospace,SFMono-Regular,Consolas,monospace;pointer-events:none}
+.chart-point-tip[hidden]{display:none}
+.chart-point-tip>strong{display:block;margin-bottom:4px;font-size:11px}
+.chart-point-value{margin:3px 0 7px;color:var(--cyan);font-weight:900}
+.chart-point-sources{display:grid;gap:3px;margin:6px 0}
+.chart-point-sources span{display:block;color:var(--muted)}
+.chart-point-sources b,.source-code{color:var(--cyan);font:800 9px ui-monospace,SFMono-Regular,Consolas,monospace;letter-spacing:.25px}
+.chart-point-tip em{display:block;margin-top:7px;color:var(--muted);font-style:normal}
+.feed-jump-context{display:flex;justify-content:space-between;align-items:center;gap:12px;margin:10px 0 12px;padding:10px 12px;border:1px solid var(--cyan);border-left-width:3px;background:rgba(89,195,216,.08)}
+.feed-jump-context[hidden]{display:none}
+.feed-jump-context>div{display:grid;gap:3px;min-width:0}
+.feed-jump-context strong{font:900 9px ui-monospace,SFMono-Regular,Consolas,monospace;color:var(--cyan);letter-spacing:.6px}
+.feed-jump-context span{font-weight:800}
+.feed-jump-context small{color:var(--muted);overflow-wrap:anywhere}
+.report-jump-highlight{outline:2px solid var(--cyan);outline-offset:2px;background:rgba(89,195,216,.08)!important}
+html[data-theme="light"] .chart-point-tip{background:#fff;color:#17313d;border-color:#9ebdca;box-shadow:0 12px 32px rgba(36,70,86,.18)}
+html[data-theme="light"] .feed-jump-context{background:#eef9fc}
+@media(max-width:700px){.chart-point-tip{max-width:calc(100vw - 16px);min-width:0}.feed-jump-context{align-items:flex-start;flex-direction:column}}

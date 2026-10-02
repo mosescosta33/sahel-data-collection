@@ -1,4 +1,4 @@
-const SITE_UI_VERSION='4.1.0';
+const SITE_UI_VERSION='4.2.0';
 const state={overview:null,reports:[],events:[],metrics:null,thirty:null,sources:[],runs:[],briefing:null,sultanaArchive:{briefings:[]},russianLogistics:null,actorFilter:'all',mapDays:7,langFilter:'all',countryFilter:'all',range:30,voices:[],speaking:false,readerRunning:false,readerPaused:false,readerIndex:0,readerCycle:0,readerRange:30,readerQueue:[],readerSession:0,timelineDate:null,savedReports:[],savedViewMode:'all'};
 const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
 const esc=s=>String(s??'').replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
@@ -7,6 +7,38 @@ const fmtTimestampUTC=v=>{if(!v)return 'UNAVAILABLE';const d=new Date(v);if(isNa
 const relTime=v=>{if(!v)return 'never';const d=new Date(v),s=Math.max(0,(Date.now()-d)/1000);if(s<60)return `${Math.round(s)}s ago`;if(s<3600)return `${Math.round(s/60)}m ago`;if(s<86400)return `${Math.round(s/3600)}h ago`;return `${Math.round(s/86400)}d ago`};
 async function data(name){const r=await fetch(`./data/${name}.json?ts=${Date.now()}`,{cache:'no-store'}); if(!r.ok)throw new Error(`${r.status} ${name}`); return r.json();}
 function setText(id,v){const e=document.getElementById(id);if(e)e.textContent=v;}
+function sourceCodeById(id){
+  const sid=String(id||'');
+  if(!sid)return null;
+  const rows=state.sources||[];
+  const row=rows.find(s=>String(s.id||'')===sid);
+  if(row?.source_code)return row.source_code;
+  const idx=rows.findIndex(s=>String(s.id||'')===sid);
+  return idx>=0?'SRC-'+String(idx+1).padStart(4,'0'):null;
+}
+function sourceCodeByName(name){
+  const target=String(name||'').trim().toLowerCase();
+  if(!target)return null;
+  const rows=state.sources||[];
+  const row=rows.find(s=>String(s.name||'').trim().toLowerCase()===target);
+  if(!row)return null;
+  return row.source_code||sourceCodeById(row.id);
+}
+function sourceCodeForReport(r){
+  return r?.source_code||sourceCodeById(r?.source_id)||sourceCodeByName(r?.source)||'SRC-UNASSIGNED';
+}
+function sourceCodeForSummary(x){return sourceCodeByName(x?.source)||'SRC-UNASSIGNED';}
+function simpleKeyHash(value){
+  let h=2166136261;
+  for(const ch of String(value||'')){h^=ch.charCodeAt(0);h=Math.imul(h,16777619);}
+  return (h>>>0).toString(36);
+}
+function reportDomToken(r){return 'r-'+simpleKeyHash(reportKey(r));}
+function reportDateKey(r){
+  const v=r?.published_at||r?.discovered_at||r?.collected_at;
+  if(!v)return '';
+  const d=new Date(v);return isNaN(d)?'':d.toISOString().slice(0,10);
+}
 function statusClass(s){s=(s||'OFFLINE').toLowerCase();return s==='live'?'live':s==='degraded'?'degraded':'offline'}
 function applyStatus(status,detail){['systemBadge','opsBadge'].forEach(id=>{const e=document.getElementById(id);if(!e)return;e.textContent=status;e.className=`status ${statusClass(status)}`});setText('heartbeat',detail||'');}
 function pct(t){if(!t)return '—';if(t.change_pct===null||t.change_pct===undefined)return t.current>0?'▲ NEW':'—';const n=Number(t.change_pct)||0;return `${n>0?'▲':n<0?'▼':'•'} ${Math.abs(n).toFixed(1)}%`}
@@ -72,7 +104,7 @@ function renderSavedReports(){
   const host=$('#savedReportsFeed');if(!host)return;
   const allRows=reportLibraryRows().sort((a,b)=>String(b.published_at||b.discovered_at||b._saved_at||'').localeCompare(String(a.published_at||a.discovered_at||a._saved_at||'')));
   const rows=state.savedViewMode==='starred'?allRows.filter(isReportSaved):allRows;
-  host.innerHTML=rows.map(reportCard).join('')||'<div class="runbox">No reports are available in this view.</div>';
+  host.innerHTML=rows.map(r=>reportCard(r,'saved')).join('')||'<div class="runbox">No reports are available in this view.</div>';
   bindSaveButtons(host);
   $$('.saved-view-filter').forEach(b=>b.classList.toggle('active',b.dataset.savedView===state.savedViewMode));
 }
@@ -82,9 +114,9 @@ function csvCell(v){const value=String(v??'');return '"'+value.replace(/"/g,'""'
 function downloadSavedReports(format){
   const rows=reportLibraryRows();if(!rows.length)return;const stamp=new Date().toISOString().slice(0,10);
   if(format==='csv'){
-    const fields=['starred','saved_at','title','original_title','source','country','language','published_at','published_date_source','published_time_precision','collected_at','collection_timestamp_source','event_date','actor','event_type','perpetrator','target','summary','url'];
+    const fields=['starred','saved_at','title','original_title','source_code','source','country','language','published_at','published_date_source','published_time_precision','collected_at','collection_timestamp_source','event_date','actor','event_type','perpetrator','target','summary','url'];
     const header=fields.map(csvCell).join(',');
-    const body=rows.map(r=>{const values={starred:isReportSaved(r)?'yes':'no',saved_at:(state.savedReports.find(x=>reportKey(x)===reportKey(r))?._saved_at)||'',title:r.translated_title||r.title||'',original_title:r.title||'',source:r.source||'',country:r.country||'',language:r.language||r.source_language||'',published_at:r.published_at||'',published_date_source:r.published_date_source||'',published_time_precision:r.published_time_precision||'',collected_at:r.collected_at||r.discovered_at||'',collection_timestamp_source:r.collection_timestamp_source||'',event_date:r.event_date||'',actor:r.actor||r.actor_bucket||'',event_type:r.event_type||'',perpetrator:r.perpetrator||'',target:r.target||'',summary:r.article_summary||r.translated_excerpt||r.excerpt||'',url:r.url||''};return fields.map(k=>csvCell(values[k])).join(',');}).join('\n');
+    const body=rows.map(r=>{const values={starred:isReportSaved(r)?'yes':'no',saved_at:(state.savedReports.find(x=>reportKey(x)===reportKey(r))?._saved_at)||'',title:r.translated_title||r.title||'',original_title:r.title||'',source_code:sourceCodeForReport(r),source:r.source||'',country:r.country||'',language:r.language||r.source_language||'',published_at:r.published_at||'',published_date_source:r.published_date_source||'',published_time_precision:r.published_time_precision||'',collected_at:r.collected_at||r.discovered_at||'',collection_timestamp_source:r.collection_timestamp_source||'',event_date:r.event_date||'',actor:r.actor||r.actor_bucket||'',event_type:r.event_type||'',perpetrator:r.perpetrator||'',target:r.target||'',summary:r.article_summary||r.translated_excerpt||r.excerpt||'',url:r.url||''};return fields.map(k=>csvCell(values[k])).join(',');}).join('\n');
     downloadBlob(header+'\n'+body,'sahel-intel-all-reports-'+stamp+'.csv','text/csv;charset=utf-8');return;
   }
   const payload={exported_at:new Date().toISOString(),report_count:rows.length,starred_count:state.savedReports.length,reports:rows.map(r=>({...r,_starred:isReportSaved(r)}))};
@@ -114,7 +146,7 @@ $$('.country-feed').forEach(b=>b.onclick=()=>{$$('.country-feed').forEach(x=>x.c
 $$('.range').forEach(b=>b.onclick=()=>{$$('.range').forEach(x=>x.classList.remove('active'));b.classList.add('active');state.range=Number(b.dataset.days);renderQuant();});
 $$('.map-range').forEach(b=>b.onclick=()=>{$$('.map-range').forEach(x=>x.classList.remove('active'));b.classList.add('active');state.mapDays=b.dataset.days==='all'?'all':Number(b.dataset.days);renderMap();});
 
-window.SAHEL_APP={state,esc,fmtTimestampUTC,reportKey,isReportSaved,reportSnapshot,persistSavedReports,toggleSavedReport,renderFeeds,renderSavedReports,renderMap,eventInWindow,hasCoord};
+window.SAHEL_APP={state,esc,fmtTimestampUTC,reportKey,isReportSaved,reportSnapshot,persistSavedReports,toggleSavedReport,renderFeeds,renderSavedReports,renderMap,eventInWindow,hasCoord,sourceCodeForReport,sourceCodeByName,reportDateKey,jumpToReports};
 
 async function refresh(){
   try{
@@ -136,7 +168,7 @@ async function refresh(){
 }
 function renderOverview(){const o=state.overview||{};let status=o.status||'OFFLINE',detail=o.status_detail||'';const patch=SITE_UI_VERSION;setText('patchBadge',`PATCH v${patch}`);const pb=$('#patchBadge');if(pb)pb.title=`Sahel Intel public dashboard patch v${patch}`;if(o.last_collection){const age=(Date.now()-new Date(o.last_collection))/60000;if(age>90){status='OFFLINE';detail=`Last automated collection was ${relTime(o.last_collection)}. Scheduled collection may be disabled or failing.`}else if(age>40&&status==='LIVE'){status='DEGRADED';detail=`Last automated collection was ${relTime(o.last_collection)}. GitHub scheduled jobs can be delayed.`}}applyStatus(status,detail);setText('reports24',o.reports_24h??0);setText('sources24',o.distinct_sources_24h??0);setText('mapped24',o.mapped_events_24h??0);setText('configuredSources',o.sources_configured??74);setText('liveSources',o.sources_live??0);setText('degradedSources',o.sources_degraded??0);setText('failedSources',o.sources_failed??0);const r=o.last_run;if(r){const target=r.report_target??100;$('#runBox').innerHTML=`Last cycle ${esc(relTime(o.last_collection))}<br>${r.sources_success}/${o.sources_configured} active sources reached • ${r.documents_discovered} links discovered • ${r.documents_retained}/${target} qualifying-report target • ${r.collection_waves??1} collection wave${(r.collection_waves??1)===1?'':'s'} • ${r.event_changes} event changes`;}else{$('#runBox').textContent='Awaiting first collection run. The interface will not claim LIVE until the worker finishes a real cycle.'}}
 
-function reportCard(r){
+function reportCard(r,scope='report'){
   const english=r.translated_title||r.title;
   const hasTranslation=r.translated_title&&r.translated_title!==r.title;
   const summary=r.article_summary||r.translated_excerpt||r.excerpt||'';
@@ -148,7 +180,9 @@ function reportCard(r){
   const type=r.research_lead||r.retention_class==='research_lead'?'RESEARCH LEAD':(r.analytical_container?'ANALYTICAL CONTEXT':(r.candidate_event?'CANDIDATE EVENT':'CONTEXT REPORT'));
   const key=encodeURIComponent(reportKey(r));
   const saved=isReportSaved(r);
-  return `<article class="report"><div class="report-top"><span class="badge">${esc((r.language||'').toUpperCase())}</span><span class="badge">${esc(r.country||'REGIONAL')}</span><span class="badge">${esc(r.actor_bucket||'GENERAL')}</span><span class="badge">${esc(type)}</span><span class="report-meta">${esc(r.source)}</span></div><h3>${esc(english)}</h3>${summary?`<div class="article-summary"><small>ARTICLE SUMMARY</small><p>${esc(summary)}</p></div>`:''}<div class="report-meta"><strong>PUBLISHED:</strong> ${esc(published)} (${esc(pubSource)}; ${esc(pubPrecision)}) • <strong>COLLECTED BY SAHEL INTEL:</strong> ${esc(collected)} • Event date: ${esc(r.event_date||'unresolved')} (${esc(r.event_date_confidence||'unresolved')}) • ${esc(trans)}</div><div class="report-meta">${esc([r.city,r.country,r.event_type].filter(Boolean).join(' • ')||'No structured event')}${r.perpetrator?` • Perpetrator: ${esc(r.perpetrator)}`:''}${r.target?` • Target: ${esc(r.target)}`:''}</div>${hasTranslation?`<details class="original"><summary>Original ${esc((r.language||'').toUpperCase())}</summary><p>${esc(r.title)}</p></details>`:''}<div class="report-actions"><a href="${esc(r.url)}" target="_blank" rel="noopener">OPEN SOURCE ↗</a><button type="button" class="save-report-btn ${saved?'saved':''}" data-save-report="${esc(key)}">${saved?'★ SAVED':'☆ SAVE REPORT'}</button></div></article>`;
+  const sourceCode=sourceCodeForReport(r);
+  const domId=scope+'-'+reportDomToken(r);
+  return `<article id="${esc(domId)}" class="report" data-report-key="${esc(key)}" data-source-code="${esc(sourceCode)}"><div class="report-top"><span class="badge">${esc((r.language||'').toUpperCase())}</span><span class="badge">${esc(r.country||'REGIONAL')}</span><span class="badge">${esc(r.actor_bucket||'GENERAL')}</span><span class="badge">${esc(type)}</span><span class="report-meta"><b class="source-code">${esc(sourceCode)}</b> • ${esc(r.source)}</span></div><h3>${esc(english)}</h3>${summary?`<div class="article-summary"><small>ARTICLE SUMMARY</small><p>${esc(summary)}</p></div>`:''}<div class="report-meta"><strong>PUBLISHED:</strong> ${esc(published)} (${esc(pubSource)}; ${esc(pubPrecision)}) • <strong>COLLECTED BY SAHEL INTEL:</strong> ${esc(collected)} • Event date: ${esc(r.event_date||'unresolved')} (${esc(r.event_date_confidence||'unresolved')}) • ${esc(trans)}</div><div class="report-meta">${esc([r.city,r.country,r.event_type].filter(Boolean).join(' • ')||'No structured event')}${r.perpetrator?` • Perpetrator: ${esc(r.perpetrator)}`:''}${r.target?` • Target: ${esc(r.target)}`:''}</div>${hasTranslation?`<details class="original"><summary>Original ${esc((r.language||'').toUpperCase())}</summary><p>${esc(r.title)}</p></details>`:''}<div class="report-actions"><a href="${esc(r.url)}" target="_blank" rel="noopener">OPEN SOURCE ↗</a><button type="button" class="save-report-btn ${saved?'saved':''}" data-save-report="${esc(key)}">${saved?'★ SAVED':'☆ SAVE REPORT'}</button></div></article>`;
 }
 function renderThreat(){
   const t=state.overview?.threat;if(!t)return;
@@ -173,8 +207,8 @@ function renderFeeds(){
   const perCountry=['Mali','Burkina Faso','Niger'].map(c=>state.reports.filter(r=>r.country===c&&filter(r)).slice(0,3));
   const preview=[];for(let i=0;i<3;i++)for(const group of perCountry)if(group[i])preview.push(group[i]);
   const previewRows=state.countryFilter==='all'?preview:rows.slice(0,9);
-  $('#feedPreview').innerHTML=previewRows.map(reportCard).join('')||'<div class="runbox">No relevant reports have been retained yet.</div>';
-  $('#fullFeed').innerHTML=rows.map(reportCard).join('')||'<div class="runbox">No reports match the selected country/language filters.</div>';
+  $('#feedPreview').innerHTML=previewRows.map(r=>reportCard(r,'preview')).join('')||'<div class="runbox">No relevant reports have been retained yet.</div>';
+  $('#fullFeed').innerHTML=rows.map(r=>reportCard(r,'feed')).join('')||'<div class="runbox">No reports match the selected country/language filters.</div>';
   bindSaveButtons($('#feedPreview'));
   bindSaveButtons($('#fullFeed'));
   updateSavedCount();
@@ -338,7 +372,7 @@ function showEventDetail(e){
   const box=$('#mapEventDetail');if(!box)return;box.hidden=false;
   const src=(e.sources||e.source_names||[]);const sourceText=Array.isArray(src)?src.join(' • '):(e.source||`${e.source_count||1} monitored source(s)`);
   const linkedSummaries=Array.isArray(e.report_summaries)?e.report_summaries.filter(x=>x&&x.summary):[];
-  const linkedHtml=linkedSummaries.length?`<div class="map-article-summaries"><h4>LINKED ARTICLE SUMMARIES</h4>${linkedSummaries.map((x,i)=>`<article><small>SOURCE ${i+1} • ${esc(x.source||'Unknown source')}</small><strong>${esc(x.title||'Untitled')}</strong><p>${esc(x.summary)}</p>${x.url?`<a href="${esc(x.url)}" target="_blank" rel="noopener">OPEN ARTICLE ↗</a>`:''}</article>`).join('')}</div>`:`<div class="map-article-summaries"><h4>ARTICLE / EVENT SUMMARY</h4><p>${esc(e.summary||e.title||'No summary available.')}</p></div>`;
+  const linkedHtml=linkedSummaries.length?`<div class="map-article-summaries"><h4>LINKED ARTICLE SUMMARIES</h4>${linkedSummaries.map((x,i)=>`<article><small>SOURCE ${i+1} • ${esc(sourceCodeForSummary(x))} • ${esc(x.source||'Unknown source')}</small><strong>${esc(x.title||'Untitled')}</strong><p>${esc(x.summary)}</p>${x.url?`<a href="${esc(x.url)}" target="_blank" rel="noopener">OPEN ARTICLE ↗</a>`:''}</article>`).join('')}</div>`:`<div class="map-article-summaries"><h4>ARTICLE / EVENT SUMMARY</h4><p>${esc(e.summary||e.title||'No summary available.')}</p></div>`;
   box.innerHTML=`<button class="detail-close" aria-label="Close">×</button><span class="eyebrow">EVENT EVIDENCE CARD</span><h3>${esc(e.actor||'Unattributed')} • ${esc(e.event_type||'Unclassified')}</h3><div class="event-detail-grid"><div><small>EVENT DATE</small><strong>${esc(e.event_date||'Unresolved')} • ${esc(e.event_date_confidence||'unresolved')}</strong></div><div><small>LOCATION</small><strong>${esc([e.city,e.country].filter(Boolean).join(', ')||'Unresolved')}</strong></div><div><small>CONFIDENCE</small><strong>${esc(e.confidence||e.corroboration||'Candidate')}</strong></div><div><small>SOURCES</small><strong>${esc(e.source_count??1)}</strong></div></div><div class="event-summary"><small>EVENT SUMMARY</small><p>${esc(e.summary||e.title||'No event summary available.')}</p></div>${linkedHtml}${(e.perpetrator||e.target||e.claimant||e.supporting_force)?`<div class="actor-role-line">${e.perpetrator?`<span>Perpetrator: <b>${esc(e.perpetrator)}</b></span>`:''}${e.target?`<span>Target: <b>${esc(e.target)}</b></span>`:''}${e.claimant?`<span>Claimant: <b>${esc(e.claimant)}</b></span>`:''}${e.supporting_force?`<span>Supporting force: <b>${esc(e.supporting_force)}</b></span>`:''}</div>`:''}<div class="report-meta">Published: ${esc(fmtTime(e.published_at))} • Collected: ${esc(fmtTime(e.collected_at))}<br>${esc(sourceText)}</div>`;
   box.querySelector('.detail-close').onclick=()=>{box.hidden=true};
 }
@@ -349,6 +383,115 @@ function chartDateLabel(v){
   const d=new Date(String(v).slice(0,10)+'T00:00:00Z');
   if(isNaN(d))return String(v);
   return d.toLocaleDateString(undefined,{month:'short',day:'numeric',timeZone:'UTC'});
+}
+function uniqueReports(rows){
+  const out=[],seen=new Set();
+  for(const r of rows||[]){const k=reportKey(r);if(!k||seen.has(k))continue;seen.add(k);out.push(r);}
+  return out;
+}
+function linkedReportsForEvents(events){
+  const urls=new Set(),ids=new Set();
+  for(const e of events||[]){
+    for(const u of [...(e.report_urls||[]),...(e.source_urls||[])])if(u)urls.add(String(u));
+    for(const x of e.report_summaries||[])if(x?.url)urls.add(String(x.url));
+    if(e.parent_report_id)ids.add(String(e.parent_report_id));
+  }
+  let rows=(state.reports||[]).filter(r=>urls.has(String(r.url||''))||ids.has(String(r.id||'')));
+  if(!rows.length&&(events||[]).length){
+    rows=(state.reports||[]).filter(r=>(events||[]).some(e=>
+      String(r.event_date||'').slice(0,10)===String(e.event_date||'').slice(0,10)
+      && String(r.actor_bucket||'')===String(e.actor||'')
+      && (!e.country||r.country===e.country)
+      && r.candidate_event
+    ));
+  }
+  return uniqueReports(rows);
+}
+function chartPointContext(series,date,value){
+  const day=String(date||'').slice(0,10);
+  let events=[],reports=[],note='';
+  if(series==='Relevant reports'){
+    reports=(state.reports||[]).filter(r=>reportDateKey(r)===day);
+  }else if(series==='Candidate events'){
+    events=(state.events||[]).filter(e=>String(e.event_date||'').slice(0,10)===day);
+    reports=linkedReportsForEvents(events);
+  }else if(series==='Aggregated logistics observations'){
+    note='This logistics series is aggregate-only. No observation-level aircraft identifiers, routes, or source records are published.';
+  }else{
+    events=(state.events||[]).filter(e=>String(e.event_date||'').slice(0,10)===day&&String(e.actor||'')===String(series||''));
+    reports=linkedReportsForEvents(events);
+  }
+  reports=uniqueReports(reports);
+  const sources=[],seen=new Set();
+  for(const r of reports){
+    const code=sourceCodeForReport(r),name=r.source||'Unknown source',k=code+'|'+name;
+    if(seen.has(k))continue;seen.add(k);sources.push({code,name});
+  }
+  return {series:String(series||'Data'),date:day,value:Number(value)||0,events,reports,sources,note};
+}
+function ensureChartTip(){
+  let tip=$('#chartPointTip');
+  if(tip)return tip;
+  tip=document.createElement('div');tip.id='chartPointTip';tip.className='chart-point-tip';tip.hidden=true;document.body.appendChild(tip);return tip;
+}
+function showChartPointTip(point){
+  const tip=ensureChartTip(),ctx=chartPointContext(point.dataset.series,point.dataset.date,point.dataset.value);
+  const eventLine=ctx.events.length?`<div><b>${ctx.events.length}</b> fused candidate event${ctx.events.length===1?'':'s'}</div>`:'';
+  const sources=ctx.sources.length?ctx.sources.slice(0,6).map(s=>`<span><b>${esc(s.code)}</b> ${esc(s.name)}</span>`).join(''):'<span>No linked source report in the public archive.</span>';
+  const hint=ctx.reports.length?'<em>Click this point to open and highlight the linked Intel Feed reports.</em>':(ctx.note?`<em>${esc(ctx.note)}</em>`:'');
+  tip.innerHTML=`<strong>${esc(ctx.series)} • ${esc(chartDateLabel(ctx.date))}</strong><div class="chart-point-value">COUNT ${ctx.value}</div>${eventLine}<div class="chart-point-sources">${sources}</div>${hint}`;
+  const rect=point.getBoundingClientRect();
+  tip.hidden=false;
+  const w=Math.min(380,Math.max(260,tip.offsetWidth||320));
+  const left=Math.max(8,Math.min(window.innerWidth-w-8,rect.left+rect.width/2-w/2));
+  const top=Math.max(8,rect.top-(tip.offsetHeight||150)-10);
+  tip.style.left=left+'px';tip.style.top=top+'px';
+}
+function hideChartPointTip(){const tip=$('#chartPointTip');if(tip)tip.hidden=true;}
+function clearChartJump(){
+  $$('.report-jump-highlight').forEach(el=>el.classList.remove('report-jump-highlight'));
+  const box=$('#feedJumpContext');if(box){box.hidden=true;box.innerHTML='';}
+}
+function jumpToReports(reports,context={}){
+  reports=uniqueReports(reports);
+  if(!reports.length)return false;
+  state.langFilter='all';state.countryFilter='all';
+  $$('.lang').forEach(b=>b.classList.toggle('active',b.dataset.lang==='all'));
+  $$('.country-feed').forEach(b=>b.classList.toggle('active',b.dataset.country==='all'));
+  const feedTab=$('.tab[data-view="feed"]');if(feedTab)feedTab.click();else renderFeeds();
+  renderFeeds();
+  const box=$('#feedJumpContext');
+  if(box){
+    const sourceList=uniqueReports(reports).map(r=>sourceCodeForReport(r)+' '+(r.source||'Unknown source'));
+    box.hidden=false;
+    box.innerHTML=`<div><strong>CHART SELECTION</strong><span>${esc(context.label||'Linked source reporting')}</span><small>${esc(sourceList.join(' • '))}</small></div><button type="button" id="clearChartJump">CLEAR HIGHLIGHT</button>`;
+    $('#clearChartJump')?.addEventListener('click',clearChartJump);
+  }
+  requestAnimationFrame(()=>{
+    clearChartJumpHighlightsOnly();
+    const cards=reports.map(r=>document.getElementById('feed-'+reportDomToken(r))).filter(Boolean);
+    cards.forEach(el=>el.classList.add('report-jump-highlight'));
+    cards[0]?.scrollIntoView({behavior:'smooth',block:'center'});
+  });
+  return true;
+}
+function clearChartJumpHighlightsOnly(){$$('.report-jump-highlight').forEach(el=>el.classList.remove('report-jump-highlight'));}
+function openChartPoint(point){
+  const ctx=chartPointContext(point.dataset.series,point.dataset.date,point.dataset.value);
+  if(!ctx.reports.length){showChartPointTip(point);return;}
+  hideChartPointTip();
+  jumpToReports(ctx.reports,{label:`${ctx.series} • ${chartDateLabel(ctx.date)} • ${ctx.value} record${ctx.value===1?'':'s'}`});
+}
+function bindChartPoints(host){
+  if(!host)return;
+  host.querySelectorAll('.chart-point').forEach(point=>{
+    point.addEventListener('mouseenter',()=>showChartPointTip(point));
+    point.addEventListener('mouseleave',hideChartPointTip);
+    point.addEventListener('focus',()=>showChartPointTip(point));
+    point.addEventListener('blur',hideChartPointTip);
+    point.addEventListener('click',()=>openChartPoint(point));
+    point.addEventListener('keydown',ev=>{if(ev.key==='Enter'||ev.key===' '){ev.preventDefault();openChartPoint(point);}});
+  });
 }
 function lineSVG(seriesList,{height=100,showAxes=false,labels=[],pointLabels=false}={}){
   const width=800;
@@ -385,7 +528,7 @@ function lineSVG(seriesList,{height=100,showAxes=false,labels=[],pointLabels=fal
     values.forEach((v,i)=>{
       if(!Number.isFinite(Number(v)))return;
       if(values.length<=45||Number(v)>0||i===values.length-1){
-        out+='<circle cx="'+sx(i)+'" cy="'+sy(v)+'" r="'+(values.length<=45?2.6:2)+'" fill="'+series.color+'"><title>'+esc(series.label||'Series')+' • '+esc(chartDateLabel(labels[i]))+' • '+Number(v)+'</title></circle>';
+        out+='<circle class="chart-point" tabindex="0" role="button" aria-label="'+esc((series.label||'Series')+' '+chartDateLabel(labels[i])+' count '+Number(v))+'" data-series="'+esc(series.label||'Series')+'" data-date="'+esc(labels[i]||'')+'" data-value="'+Number(v)+'" cx="'+sx(i)+'" cy="'+sy(v)+'" r="'+(values.length<=45?3.4:2.8)+'" fill="'+series.color+'"><title>'+esc(series.label||'Series')+' • '+esc(chartDateLabel(labels[i]))+' • '+Number(v)+'</title></circle>';
       }
       if(pointLabels&&Number(v)>0&&values.length<=31){
         out+='<text x="'+sx(i)+'" y="'+Math.max(9,sy(v)-6)+'" text-anchor="middle" fill="var(--chart-axis)" font-size="8">'+Number(v)+'</text>';
@@ -413,7 +556,7 @@ function renderRussianLogistics(){
   const rows=Array.isArray(r.daily)?r.daily.slice(-30):[];
   const labels=rows.map(x=>x.date),values=rows.map(x=>Number(x.count)||0);
   const host=$('#rlogChart');
-  if(host)host.innerHTML=rows.length?lineSVG([{label:'Aggregated logistics observations',values,color:actorColor('Africa Corps/Wagner')}],{height:150,showAxes:true,labels,pointLabels:true})+'<div class="mini-chart-readout">'+esc(chartDateLabel(labels[0]))+' → '+esc(chartDateLabel(labels.at(-1)))+' • 30D total '+values.reduce((a,b)=>a+b,0)+'</div>':'<div class="runbox">No compliant flight-log observations have been ingested yet.</div>';
+  if(host){host.innerHTML=rows.length?lineSVG([{label:'Aggregated logistics observations',values,color:actorColor('Africa Corps/Wagner')}],{height:150,showAxes:true,labels,pointLabels:true})+'<div class="mini-chart-readout">'+esc(chartDateLabel(labels[0]))+' → '+esc(chartDateLabel(labels.at(-1)))+' • 30D total '+values.reduce((a,b)=>a+b,0)+'</div>':'<div class="runbox">No compliant flight-log observations have been ingested yet.</div>';bindChartPoints(host);}
   setText('rlogNote',(r.method_note||'Flight-log observations are a logistics proxy, not a confirmed troop count.')+' '+(r.public_redaction||''));
 }
 function renderActors(){
@@ -427,6 +570,7 @@ function renderActors(){
     const total=values.reduce((a,b)=>a+b,0),max=Math.max(0,...values),latest=values.at(-1)??0;
     $('#'+sparkId).innerHTML=lineSVG([{label:actor,values:values,color:actorColor(actor)}],{height:92,showAxes:true,labels:labels,pointLabels:true})+
       '<div class="mini-chart-readout">'+esc(chartDateLabel(labels[0]))+' → '+esc(chartDateLabel(labels.at(-1)))+' • latest '+latest+' • 30D total '+total+' • max/day '+max+'</div>';
+    bindChartPoints($('#'+sparkId));
   });
   renderRussianLogistics();
 }
@@ -437,6 +581,7 @@ function renderQuant(){
   const labels=(rowsByActor['JNIM']||[]).map(x=>x.date);
   const series=actors.map(a=>({label:a,color:actorColor(a),values:(rowsByActor[a]||[]).map(x=>Number(x.count)||0)}));
   $('#actorChart').innerHTML=lineSVG(series,{height:330,showAxes:true,labels:labels,pointLabels:state.range<=30});
+  bindChartPoints($('#actorChart'));
   const readout=series.map(x=>x.label+': latest '+(x.values.at(-1)??0)+' • period total '+x.values.reduce((a,b)=>a+b,0)+' • max/day '+Math.max(0,...x.values)).join(' | ');
   setText('actorChartReadout',chartDateLabel(labels[0])+' → '+chartDateLabel(labels.at(-1))+' • '+readout);
   const dataHost=$('#actorChartData');if(dataHost)dataHost.innerHTML=chartDataTable(labels,series);
@@ -465,7 +610,7 @@ function renderThirty(){
   $('#thirtyCountries').innerHTML=kvBars(t.by_country,8);
   $('#thirtyTypes').innerHTML=kvBars(t.by_event_type,10);
   $('#thirtyLanguages').innerHTML=kvBars(t.by_language,8);
-  const srcObj=Object.fromEntries((t.top_sources||[]).map(x=>[x.source,x.count]));
+  const srcObj=Object.fromEntries((t.top_sources||[]).map(x=>[(x.source_code?x.source_code+' • ':'')+x.source,x.count]));
   $('#thirtySources').innerHTML=kvBars(srcObj,10);
   const daily=t.daily||[];
   const dailyLabels=daily.map(x=>x.date);
@@ -473,10 +618,11 @@ function renderThirty(){
   const thirtySeries=[{label:'Relevant reports',values:reportSeries,color:'#59c3d8'},{label:'Candidate events',values:eventSeries,color:'#e7ad53'}];
   $('#thirtyChart').innerHTML=lineSVG(thirtySeries,{height:180,showAxes:true,labels:dailyLabels,pointLabels:true})+
     '<div class="chartlegend"><span><i class="dot" style="background:#59c3d8"></i>Relevant reports</span><span><i class="dot state"></i>Candidate events</span></div>';
+  bindChartPoints($('#thirtyChart'));
   setText('thirtyChartReadout',chartDateLabel(dailyLabels[0])+' → '+chartDateLabel(dailyLabels.at(-1))+' • reports '+reportSeries.reduce((a,b)=>a+b,0)+' • candidate events '+eventSeries.reduce((a,b)=>a+b,0)+' • latest day '+(reportSeries.at(-1)??0)+' reports / '+(eventSeries.at(-1)??0)+' events');
   const thirtyData=$('#thirtyChartData');if(thirtyData)thirtyData.innerHTML=chartDataTable(dailyLabels,thirtySeries);
   $('#thirtyTimeline').innerHTML=(t.latest_events||[]).slice(0,24).map((e,i)=>`<div class="timeline-row timeline-event" role="button" tabindex="0" data-event-index="${i}" data-event-date="${esc(e.event_date||'')}"><span>${esc(e.event_date||'—')}</span><b style="color:${actorColor(e.actor)}">${esc(e.actor||'Other')}</b><span>${esc(e.event_type||'event')}</span><span>${esc([e.city,e.country].filter(Boolean).join(', ')||'Location unresolved')}</span><strong>${esc(e.source_count??1)} src</strong><p>${esc(e.title||'')}<small class="timeline-open-hint">VIEW DOSSIER →</small></p></div>`).join('')||'<div class="runbox">No candidate events currently fall inside the 30-day window.</div>';
-  $('#thirtyReports').innerHTML=(t.latest_reports||[]).slice(0,28).map(r=>`<div class="timeline-row report-row"><span>${esc(r.published_at?fmtTimestampUTC(r.published_at):'PUB UNAVAILABLE')}</span><b>${esc((r.language||'').toUpperCase())}</b><span>${esc(r.candidate_event?'EVENT':'REPORT')}</span><span>${esc([r.city,r.country].filter(Boolean).join(', ')||'Regional')}</span><strong>${esc(r.source||'')}</strong><p>${esc(r.title||'')}<br><small>Collected: ${esc(fmtTimestampUTC(r.collected_at||r.discovered_at))}</small></p></div>`).join('')||'<div class="runbox">No relevant reports currently fall inside the 30-day window.</div>';
+  $('#thirtyReports').innerHTML=(t.latest_reports||[]).slice(0,28).map(r=>`<div class="timeline-row report-row"><span>${esc(r.published_at?fmtTimestampUTC(r.published_at):'PUB UNAVAILABLE')}</span><b>${esc((r.language||'').toUpperCase())}</b><span>${esc(r.candidate_event?'EVENT':'REPORT')}</span><span>${esc([r.city,r.country].filter(Boolean).join(', ')||'Regional')}</span><strong>${esc((r.source_code||sourceCodeByName(r.source)||'SRC-UNASSIGNED')+' • '+(r.source||''))}</strong><p>${esc(r.title||'')}<br><small>Collected: ${esc(fmtTimestampUTC(r.collected_at||r.discovered_at))}</small></p></div>`).join('')||'<div class="runbox">No relevant reports currently fall inside the 30-day window.</div>';
   setText('thirtyNote',t.method_note||'');
   const dates=[...new Set((t.latest_events||[]).map(e=>e.event_date).filter(Boolean))].sort().reverse();
   const strip=$('#eventDateStrip');if(strip)strip.innerHTML=dates.map(d=>`<button class="date-chip ${state.timelineDate===d?'active':''}" data-date="${esc(d)}">${esc(d.slice(5))}</button>`).join('')||'<span class="report-meta">No dated candidate events.</span>';
@@ -541,7 +687,7 @@ function renderOps(){
   const blind=q.collection_blind_spots||[];$('#blindSpotWarning').textContent=blind.length?'COLLECTION DEGRADED: '+blind.join(' • '):'No major collection blind spot detected by the current automated checks.';
   const t=state.thirty||{};const reports30=t.reports??0,incidentReports=t.incident_reports??0,events30=t.candidate_events??0,corroborated=t.corroborated_events??0;
   $('#pipelineFunnel').innerHTML=`<span>${reports30} relevant reports / 30D</span><i>→</i><span>${incidentReports} incident reports</span><i>→</i><span>${events30} unique fused events</span><i>→</i><span>${corroborated} multi-source events</span>`;
-  $('#sourceRows').innerHTML=state.sources.map(s=>`<tr><td><a href="${esc(s.homepage)}" target="_blank" rel="noopener">${esc(s.name)}</a></td><td>${esc((s.language||'').toUpperCase())}</td><td>${esc(s.source_type||'—')}</td><td>${esc(s.focus)}</td><td class="statuscell ${statusClass(s.status)}">${esc(s.status)}</td><td>${esc(s.access_mode||'—')}</td><td>${esc(s.contribution_status||'—')}</td><td>${esc(relTime(s.last_checked_at))}</td><td>${esc(s.last_discovered_candidates??0)}</td><td>${esc(s.last_new_documents??0)}</td><td>${esc((s.translation_success_archive??0)+'/'+(s.translation_eligible_archive??0))}</td><td>${esc(s.error_category||'')}</td></tr>`).join('');
+  $('#sourceRows').innerHTML=state.sources.map(s=>`<tr><td><b class="source-code">${esc(s.source_code||sourceCodeById(s.id)||'SRC-UNASSIGNED')}</b></td><td><a href="${esc(s.homepage)}" target="_blank" rel="noopener">${esc(s.name)}</a></td><td>${esc((s.language||'').toUpperCase())}</td><td>${esc(s.source_type||'—')}</td><td>${esc(s.focus)}</td><td class="statuscell ${statusClass(s.status)}">${esc(s.status)}</td><td>${esc(s.access_mode||'—')}</td><td>${esc(s.contribution_status||'—')}</td><td>${esc(relTime(s.last_checked_at))}</td><td>${esc(s.last_discovered_candidates??0)}</td><td>${esc(s.last_new_documents??0)}</td><td>${esc((s.translation_success_archive??0)+'/'+(s.translation_eligible_archive??0))}</td><td>${esc(s.error_category||'')}</td></tr>`).join('');
   $('#runHistory').innerHTML=state.runs.map(r=>`<div class="runrow"><span>${esc(fmtTime(r.finished_at||r.started_at))}</span><strong>${esc(r.status)}</strong><span>${r.sources_success}/${r.sources_total} sources</span><span>${r.documents_discovered} discovered</span><span>${r.documents_retained} new relevant</span><span>${r.archive_reports??"—"} archive reports</span><span>${r.candidate_events_archive??"—"} candidate events</span><span>${r.archive_rejected_by_precision_rules??0} archive rejects</span><span>${r.translations??0}/${r.translations_attempted??0} translated</span><span>${r.translation_failures??0} translation failures</span><span>${r.event_changes} event changes</span></div>`).join('')||'<div class="runbox">No completed runs yet.</div>';
 }
 

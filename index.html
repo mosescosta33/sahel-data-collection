@@ -6,19 +6,19 @@
   <meta name="theme-color" content="#e5ebee" />
   <script>try{document.documentElement.dataset.theme=localStorage.getItem('sicTheme')||'light'}catch(e){document.documentElement.dataset.theme='light'}</script>
   <title>Sahel Intel Collection</title>
-  <link rel="stylesheet" href="./styles.css?v=4.1.0" />
+  <link rel="stylesheet" href="./styles.css?v=4.2.0" />
   <link rel="stylesheet" href="./briefings.css" />
   <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.12.0/dist/maplibre-gl.css" />
-  <link rel="stylesheet" href="./map-ui.css?v=4.1.0" />
+  <link rel="stylesheet" href="./map-ui.css?v=4.2.0" />
   <link rel="stylesheet" href="./logs.css" />
-  <link rel="stylesheet" href="./readability.css?v=4.1.0" />
-  <link rel="stylesheet" href="./research-lab.css?v=4.1.0" />
+  <link rel="stylesheet" href="./readability.css?v=4.2.0" />
+  <link rel="stylesheet" href="./research-lab.css?v=4.2.0" />
 </head>
 <body>
   <header class="topbar">
     <div class="brand"><div class="brandmark">SIC</div><div><h1>SAHEL INTEL COLLECTION</h1><p>AUTOMATED MULTILINGUAL OPEN-SOURCE COLLECTION • FR / AR / EN</p></div></div>
     <div class="ownercenter"><strong>MOSES COSTA</strong></div>
-    <div class="topmeta"><span id="patchBadge" class="versionbadge" title="Site patch version">PATCH v4.1.0</span><button id="themeToggle" class="theme-toggle" type="button" aria-label="Switch light and dark mode">☀ LIGHT</button><span id="systemBadge" class="status offline">OFFLINE</span><span id="heartbeat">waiting for collector</span><span id="clock"></span></div>
+    <div class="topmeta"><span id="patchBadge" class="versionbadge" title="Site patch version">PATCH v4.2.0</span><button id="themeToggle" class="theme-toggle" type="button" aria-label="Switch light and dark mode">☀ LIGHT</button><span id="systemBadge" class="status offline">OFFLINE</span><span id="heartbeat">waiting for collector</span><span id="clock"></span></div>
   </header>
 
   <nav class="tabs">
@@ -75,7 +75,7 @@
             <div id="rlogChart" class="russian-logistics-chart"></div>
             <p id="rlogNote" class="note">Flight-log observations are a logistics proxy, not a confirmed troop count. Public output is aggregate-only.</p>
           </div>
-          <p class="note">Counts are fused candidate events extracted from monitored open-source reporting. Africa Corps/Wagner can overlap State activity when Russian personnel are coded as a supporting force.</p>
+          <p class="note">Counts are fused candidate events extracted from monitored open-source reporting. Africa Corps/Wagner can overlap State activity when Russian personnel are coded as a supporting force. Hover, focus, or tap a chart point to inspect its date and linked sources; click a sourced point to jump directly to those Intel Feed reports.</p>
         </section>
 
         <section class="panel threat-panel">
@@ -166,7 +166,8 @@
       <section class="panel full">
         <div class="panelhead"><div><span class="eyebrow">SOURCE-LEVEL REPORTING</span><h2>Multilingual Intelligence Feed</h2></div><div><div class="filterbar"><button class="lang active" data-lang="all">ALL LANG</button><button class="lang" data-lang="fr">FR</button><button class="lang" data-lang="ar">AR</button><button class="lang" data-lang="en">EN</button></div><div class="filterbar country-feedbar"><button class="country-feed active" data-country="all">ALL COUNTRIES</button><button class="country-feed" data-country="Mali">MALI</button><button class="country-feed" data-country="Burkina Faso">BURKINA FASO</button><button class="country-feed" data-country="Niger">NIGER</button></div></div></div>
         <p id="feedCountryCounts" class="note">Retained archive • loading country counts…</p>
-        <p class="note">Every retained report is summarized whether or not it becomes a mapped event. Mapped events also show summaries for their linked source articles.</p>
+        <p class="note">Every retained report is summarized whether or not it becomes a mapped event. Mapped events also show summaries for their linked source articles. Stable SRC-#### identifiers distinguish publishers from individual reports.</p>
+        <div id="feedJumpContext" class="feed-jump-context" hidden></div>
         <div id="fullFeed" class="feed expanded"></div>
       </section>
     </section>
@@ -373,19 +374,19 @@
           <section class="integrity-card"><span class="eyebrow">LANGUAGE COVERAGE</span><div id="languageCoverage" class="language-coverage"></div><div id="languageWarning" class="coverage-warning"></div></section>
         </div>
         <section class="integrity-card quality-card"><div class="panelhead"><div><span class="eyebrow">RESEARCH DATA QUALITY</span><h2>30-Day Integrity</h2></div><span id="qualityStatus" class="methodpill">—</span></div><div id="qualityMetrics" class="quality-metrics"></div><div id="blindSpotWarning" class="coverage-warning"></div><div class="export-row"><a class="export-link" href="./data/events.csv" download>DOWNLOAD FUSED EVENTS CSV</a><a class="export-link" href="./data/events.json" download>JSON</a></div><p class="note">Completeness indicators describe fields present in Sahel Intel candidate events; they are not estimates of real-world reporting accuracy.</p></section>
-        <div class="source-table-wrap"><table><thead><tr><th>Source</th><th>Lang</th><th>Type</th><th>Focus</th><th>Status</th><th>Access</th><th>Contribution</th><th>Last check</th><th>Discovered</th><th>Retained</th><th>Translations</th><th>Note</th></tr></thead><tbody id="sourceRows"></tbody></table></div>
+        <div class="source-table-wrap"><table><thead><tr><th>Source ID</th><th>Source</th><th>Lang</th><th>Type</th><th>Focus</th><th>Status</th><th>Access</th><th>Contribution</th><th>Last check</th><th>Discovered</th><th>Retained</th><th>Translations</th><th>Note</th></tr></thead><tbody id="sourceRows"></tbody></table></div>
         <h3>Recent Collection Runs</h3><div id="runHistory" class="runs"></div>
       </section>
     </section>
   </main>
   <script src="https://unpkg.com/maplibre-gl@5.12.0/dist/maplibre-gl.js"></script>
   <script src="./map-data.js"></script>
-  <script src="./map-ui.js?v=4.1.0"></script>
-  <script src="./app.js?v=4.1.0"></script>
-  <script src="./event-drawer.js?v=4.1.0"></script>
-  <script src="./civilian-harm.js?v=4.1.0"></script>
+  <script src="./map-ui.js?v=4.2.0"></script>
+  <script src="./app.js?v=4.2.0"></script>
+  <script src="./event-drawer.js?v=4.2.0"></script>
+  <script src="./civilian-harm.js?v=4.2.0"></script>
   <script src="./logs.js"></script>
-  <script src="./research-lab.js?v=4.1.0"></script>
+  <script src="./research-lab.js?v=4.2.0"></script>
 </body>
 </html>
 
