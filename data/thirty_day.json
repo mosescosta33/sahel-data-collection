@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-02T21:35:08.360741Z",
+  "generated_at": "2026-10-02T22:32:01.271225Z",
   "window_days": 30,
   "cutoff": "2026-09-02",
-  "reports": 210,
+  "reports": 211,
   "incident_reports": 36,
   "candidate_events": 34,
   "corroborated_events": 2,
@@ -30,7 +30,7 @@
     "air/drone strike": 1
   },
   "by_language": {
-    "fr": 146,
+    "fr": 147,
     "en": 57,
     "ar": 7
   },
@@ -298,7 +298,7 @@
     },
     {
       "date": "2026-10-02",
-      "reports": 3,
+      "reports": 4,
       "events": 0
     }
   ],
@@ -3378,6 +3378,24 @@
   ],
   "latest_reports": [
     {
+      "published_at": "2026-10-02T21:35:33Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-02T22:30:20.687418Z",
+      "discovered_at": "2026-10-02T22:30:20.687418Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0010",
+      "source": "Burkina24",
+      "language": "fr",
+      "actor": "State",
+      "country": "Burkina Faso",
+      "city": "Ouagadougou",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Protection of asins, camels and horses in Burkina Faso: A new framework to better fight against trafficking",
+      "url": "https://burkina24.com/2026/10/02/protection-des-asins-camelins-et-equins-au-burkina-faso-un-nouveau-cadre-pour-mieux-lutter-contre-le-trafic/"
+    },
+    {
       "published_at": "2026-10-02T19:54:12Z",
       "published_date_source": "feed",
       "published_time_precision": "datetime",
@@ -3975,8 +3993,8 @@
       "published_at": "2026-09-30T16:45:03Z",
       "published_date_source": "feed",
       "published_time_precision": "datetime",
-      "collected_at": "2026-10-02T21:33:51.837232Z",
-      "discovered_at": "2026-10-02T21:33:51.837232Z",
+      "collected_at": "2026-10-02T22:30:26.445928Z",
+      "discovered_at": "2026-10-02T22:30:26.445928Z",
       "timestamp_integrity": "complete",
       "source_code": "SRC-0022",
       "source": "Africanews",
@@ -4078,24 +4096,6 @@
       "candidate_event": false,
       "title": "Niger: A Significant Quantity of Cocaine Worth More Than 2.5 Billion FCFA Seized in Agadez",
       "url": "https://www.seneweb.com/fr/news/Afrique/niger-une-importante-quantite-de-cocaine-valant-plus-de-25-milliards-de-fcfa-saisie-a-agadez_n_505668.html"
-    },
-    {
-      "published_at": "2026-09-30T09:48:16Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-09-30T23:09:13.717393Z",
-      "discovered_at": "2026-09-30T23:09:13.717393Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0001",
-      "source": "RFI Afrique",
-      "language": "fr",
-      "actor": "JNIM",
-      "country": "Mali",
-      "city": null,
-      "event_type": null,
-      "candidate_event": false,
-      "title": "MALI: Sěrasi 3 ani Russie køløcø 4, o de fagara JNIM jatigøwale-kulu ka binkanni dø senfø Niono - RFI",
-      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNN1BCTjJaUFZwanUyWmc2V3J2aFFlVmxmTTFRdVZjU0l0RDRkZEFFaWZKUzZudmk3U0NfeXZCLUFaSElZbG1Ya01OZ2twck5uUERrUDNsSTZUTldTZldEenNPN1prekNUVzJUOTBuVm5VOXUyWnBlS0IyN1FrRUdoWTlzazZKcXJpdDhJOHdGQ2ZkZFFVWl9KVW9JVEg4YXR4MXNVYTJ3R00tRElvWlBiVDNzRXlVYVN1T2wtZ3g2RGx0N1J4NGszMHlCXzU5UjlnakRXcllidVdrcjI5dC1vSHc4eUtvUDY1VGI1U0R2cjZIYzFEME5MWkRLRFlOdw?oc=5"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
