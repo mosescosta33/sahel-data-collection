@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-02T16:49:00.722124Z",
+  "generated_at": "2026-10-02T17:33:30.709591Z",
   "window_days": 30,
   "cutoff": "2026-09-02",
-  "reports": 207,
-  "incident_reports": 37,
-  "candidate_events": 35,
+  "reports": 210,
+  "incident_reports": 36,
+  "candidate_events": 34,
   "corroborated_events": 2,
-  "mapped_events": 26,
-  "mapped_locations": 55,
-  "distinct_sources": 57,
+  "mapped_events": 25,
+  "mapped_locations": 50,
+  "distinct_sources": 59,
   "by_actor": {
     "State": 16,
-    "JNIM": 7,
     "Other": 7,
+    "JNIM": 6,
     "Africa Corps/Wagner": 5
   },
   "by_country": {
-    "Mali": 28,
+    "Mali": 27,
     "Niger": 5,
     "Burkina Faso": 2
   },
   "by_event_type": {
     "security operation": 12,
-    "attack": 11,
+    "attack": 10,
     "offensive/campaign": 5,
     "ambush": 2,
     "clash": 2,
@@ -30,12 +30,12 @@
     "air/drone strike": 1
   },
   "by_language": {
-    "fr": 143,
-    "en": 57,
+    "fr": 145,
+    "en": 58,
     "ar": 7
   },
   "by_confidence": {
-    "low": 20,
+    "low": 19,
     "moderate": 15
   },
   "top_sources": [
@@ -50,13 +50,13 @@
       "count": 18
     },
     {
-      "source_code": "SRC-0001",
-      "source": "RFI Afrique",
-      "count": 9
-    },
-    {
       "source_code": "SRC-0015",
       "source": "ActuNiger",
+      "count": 10
+    },
+    {
+      "source_code": "SRC-0001",
+      "source": "RFI Afrique",
       "count": 9
     },
     {
@@ -107,22 +107,22 @@
     },
     {
       "location": "Mopti",
-      "count": 9
-    },
-    {
-      "location": "Bamako",
       "count": 8
     },
     {
-      "location": "Kidal",
+      "location": "Bamako",
       "count": 7
     },
     {
-      "location": "Sévaré",
-      "count": 7
+      "location": "Kidal",
+      "count": 6
     },
     {
       "location": "Mali",
+      "count": 6
+    },
+    {
+      "location": "Sévaré",
       "count": 6
     },
     {
@@ -264,7 +264,7 @@
     {
       "date": "2026-09-25",
       "reports": 8,
-      "events": 2
+      "events": 1
     },
     {
       "date": "2026-09-26",
@@ -273,7 +273,7 @@
     },
     {
       "date": "2026-09-27",
-      "reports": 7,
+      "reports": 8,
       "events": 1
     },
     {
@@ -293,7 +293,7 @@
     },
     {
       "date": "2026-10-01",
-      "reports": 25,
+      "reports": 27,
       "events": 1
     },
     {
@@ -1411,135 +1411,6 @@
       "significance": "MAJOR",
       "significance_reasons": [
         "strategic/severe event pattern"
-      ]
-    },
-    {
-      "id": "34f5c10aef962fc9189a994017b518f7531ed22d",
-      "event_date": "2026-09-25",
-      "event_date_confidence": "explicit-text",
-      "event_date_source": "explicit-date-no-year",
-      "published_at": "2026-09-25T20:42:45Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-09-25T21:28:55.255928Z",
-      "actor": "JNIM",
-      "perpetrator": null,
-      "target": "JNIM",
-      "claimant": null,
-      "supporting_force": null,
-      "mentioned_actors": [
-        "JNIM"
-      ],
-      "parent_report_id": null,
-      "event_type": "attack",
-      "country": "Mali",
-      "city": "Bamako",
-      "lat": 12.6392,
-      "lng": -8.0029,
-      "locations": [
-        {
-          "name": "Bamako",
-          "country": "Mali",
-          "lat": 12.6392,
-          "lng": -8.0029,
-          "confidence": "explicit-place"
-        },
-        {
-          "name": "Gao",
-          "country": "Mali",
-          "lat": 16.2717,
-          "lng": -0.0447,
-          "confidence": "explicit-place"
-        },
-        {
-          "name": "Mopti",
-          "country": "Mali",
-          "lat": 14.4843,
-          "lng": -4.1829,
-          "confidence": "explicit-place"
-        },
-        {
-          "name": "Sévaré",
-          "country": "Mali",
-          "lat": 14.5272,
-          "lng": -4.0934,
-          "confidence": "explicit-place"
-        },
-        {
-          "name": "Kidal",
-          "country": "Mali",
-          "lat": 18.4411,
-          "lng": 1.4078,
-          "confidence": "explicit-place"
-        }
-      ],
-      "title": "UN: Burkina Faso denounces international silence after the 25 April attack in Mali",
-      "summary": "Karamoko Jean-Marie Traoré appealed to the United Nations about the lack of international reaction to the jihadist attack that occurred on April 25 in Mali. The head of Burkina Faso's diplomacy spoke on 25 September 2026 in New York, during a meeting with Alexandre Zouev, Acting Assistant Secretary-General of the United Nations Office on Counter-Terrorism . The April 25 attacks in the background On April 25, 2026, a series of coordinated attacks hit several cities in Mali, including Bamako, Kati, Gao, Mopti, Sévaré and Kidal.",
-      "sources": [
-        "La Nouvelle Tribune (Bénin)"
-      ],
-      "languages": [
-        "fr"
-      ],
-      "source_count": 1,
-      "report_urls": [
-        "https://lanouvelletribune.info/2026/09/onu-le-burkina-faso-denonce-le-silence-international-apres-lattaque-du-25-avril-au-mali/"
-      ],
-      "report_summaries": [
-        {
-          "url": "https://lanouvelletribune.info/2026/09/onu-le-burkina-faso-denonce-le-silence-international-apres-lattaque-du-25-avril-au-mali/",
-          "source": "La Nouvelle Tribune (Bénin)",
-          "title": "UN: Burkina Faso denounces international silence after the 25 April attack in Mali",
-          "summary": "Karamoko Jean-Marie Traoré appealed to the United Nations about the lack of international reaction to the jihadist attack that occurred on April 25 in Mali. The head of Burkina Faso's diplomacy spoke on 25 September 2026 in New York, during a meeting with Alexandre Zouev, Acting Assistant Secretary-General of the United Nations Office on Counter-Terrorism . The April 25 attacks in the background On April 25, 2026, a series of coordinated attacks hit several cities in Mali, including Bamako, Kati, Gao, Mopti, Sévaré and Kidal.",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "civilian",
-            "armed_group"
-          ],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        }
-      ],
-      "created_at": "2026-09-25T21:28:55.255928Z",
-      "updated_at": "2026-09-25T21:28:55.255928Z",
-      "extraction_confidence": "low",
-      "victim_categories": [
-        "civilian",
-        "armed_group"
-      ],
-      "civilian_targeting_flag": false,
-      "casualty_claims": [],
-      "fatalities_min": null,
-      "fatalities_max": null,
-      "fatalities_best": null,
-      "injured_min": null,
-      "injured_max": null,
-      "abducted_min": null,
-      "abducted_max": null,
-      "casualty_disputed": false,
-      "revision_history": [
-        {
-          "at": "2026-09-25T21:28:55.255928Z",
-          "type": "event_created",
-          "source": "La Nouvelle Tribune (Bénin)"
-        }
-      ],
-      "corroboration": "single-source",
-      "confidence": "low",
-      "independent_source_domains": [
-        "lanouvelletribune.info"
-      ],
-      "independent_source_count": 1,
-      "significance": "MAJOR",
-      "significance_reasons": [
-        "strategic/severe event pattern",
-        "multi-location activity"
       ]
     },
     {
@@ -3413,6 +3284,96 @@
         "strategic/severe event pattern",
         "multi-location activity"
       ]
+    },
+    {
+      "id": "38c4521eeb4bc2760c514e087d6c7ff8a41f8b23",
+      "event_date": "2026-09-17",
+      "event_date_confidence": "explicit-text",
+      "event_date_source": "explicit-calendar-date",
+      "published_at": "2026-09-19T11:26:16Z",
+      "published_date_source": "stored",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-09-19T18:15:03.129399Z",
+      "actor": "State",
+      "perpetrator": "State",
+      "target": null,
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [
+        "State"
+      ],
+      "parent_report_id": null,
+      "event_type": "offensive/campaign",
+      "country": "Mali",
+      "city": null,
+      "lat": null,
+      "lng": null,
+      "locations": [],
+      "title": "Terrorist hunt: The FAMa's victorious offensive is accelerating on several fronts",
+      "summary": "The General Staff of the Armed Forces informs the national opinion that the Malian Armed Forces (FAMa), supported by their partners, are continuing their permanent operations to monitor, control and secure the national territory as part of Operation Dougoukoloko. On Thursday, September 17, 2026, the exploitation of precise information made it possible to locate several group concentration points",
+      "sources": [
+        "Bamada"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://bamada.net/traque-terroriste-loffensive-victorieuse-des-fama-saccelere-sur-plusieurs-fronts"
+      ],
+      "report_summaries": [
+        {
+          "url": "https://bamada.net/traque-terroriste-loffensive-victorieuse-des-fama-saccelere-sur-plusieurs-fronts",
+          "source": "Bamada",
+          "title": "Terrorist hunt: The FAMa's victorious offensive is accelerating on several fronts",
+          "summary": "The General Staff of the Armed Forces informs the national opinion that the Malian Armed Forces (FAMa), supported by their partners, are continuing their permanent operations to monitor, control and secure the national territory as part of Operation Dougoukoloko. On Thursday, September 17, 2026, the exploitation of precise information made it possible to locate several group concentration points",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "armed_group"
+          ],
+          "civilian_targeting_flag": false,
+          "casualty_claims": []
+        }
+      ],
+      "created_at": "2026-09-19T18:15:03.129399Z",
+      "updated_at": "2026-09-19T18:15:03.129399Z",
+      "extraction_confidence": "moderate",
+      "victim_categories": [
+        "armed_group"
+      ],
+      "civilian_targeting_flag": false,
+      "casualty_claims": [],
+      "fatalities_min": null,
+      "fatalities_max": null,
+      "fatalities_best": null,
+      "injured_min": null,
+      "injured_max": null,
+      "abducted_min": null,
+      "abducted_max": null,
+      "casualty_disputed": false,
+      "revision_history": [
+        {
+          "at": "2026-09-19T18:15:03.129399Z",
+          "type": "event_created",
+          "source": "Bamada"
+        }
+      ],
+      "corroboration": "single-source",
+      "confidence": "moderate",
+      "independent_source_domains": [
+        "bamada.net"
+      ],
+      "independent_source_count": 1,
+      "significance": "MAJOR",
+      "significance_reasons": [
+        "strategic/severe event pattern"
+      ]
     }
   ],
   "latest_reports": [
@@ -3615,11 +3576,29 @@
       "url": "https://www.wakatsera.com/lutte-contre-la-fraude-et-lorpaillage-clandestin-condor-autorite-et-ses-hommes-frappent-fort/"
     },
     {
+      "published_at": "2026-10-01T12:03:00Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-02T17:32:11.099116Z",
+      "discovered_at": "2026-10-02T17:32:11.099116Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0084",
+      "source": "Agence Ecofin",
+      "language": "fr",
+      "actor": null,
+      "country": "Niger",
+      "city": null,
+      "event_type": "security operation",
+      "candidate_event": false,
+      "title": "In 3 years, I&P has targeted 18 MSMEs in Niger and Mali for their first fundraising - ECOFIN AGENCY",
+      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNRVctOFBDeTVqRWJkMWdxVjMtZVAyWWpReURjcEIwZ05FUzdvNVdKSmlXYVp4S1ZfM01IS2F2dXNjYXBLV0VHLWxYSXdGYzd6VzFGenRadUx0TnhHengzdXVia05oZ3N3ZklrY2VGR2VYZkZsWFgxRzBPRkx4UWowMklBZEFCRTRPNE81NDQ4VVF0dW5UYW05dHNuTV9yVEN5bGFrLWw2WTZOVGktd1hONFlGUWdHWDZDcFh5TVhNaVVXRXVJRVF3ZWFyT2xNVzVTZUZ0NmdCTQ?oc=5"
+    },
+    {
       "published_at": "2026-10-01T11:56:30Z",
       "published_date_source": "feed",
       "published_time_precision": "datetime",
-      "collected_at": "2026-10-02T16:46:39.315429Z",
-      "discovered_at": "2026-10-02T16:46:39.315429Z",
+      "collected_at": "2026-10-02T17:31:54.940728Z",
+      "discovered_at": "2026-10-02T17:31:54.940728Z",
       "timestamp_integrity": "complete",
       "source_code": "SRC-0022",
       "source": "Africanews",
@@ -3744,8 +3723,8 @@
       "published_at": "2026-10-01T09:06:07Z",
       "published_date_source": "feed",
       "published_time_precision": "datetime",
-      "collected_at": "2026-10-02T03:30:44.710031Z",
-      "discovered_at": "2026-10-02T03:30:44.710031Z",
+      "collected_at": "2026-10-02T17:32:12.383218Z",
+      "discovered_at": "2026-10-02T17:32:12.383218Z",
       "timestamp_integrity": "complete",
       "source_code": "SRC-0022",
       "source": "Africanews",
@@ -3829,6 +3808,24 @@
       "candidate_event": false,
       "title": "Night of the People's Progressive Revolution: the main achievements presented to the population",
       "url": "https://www.sidwaya.info/nuit-de-la-revolution-progressiste-populaire-les-principaux-acquis-presentes-a-la-population/"
+    },
+    {
+      "published_at": "2026-10-01T03:07:33Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-02T17:31:47.611047Z",
+      "discovered_at": "2026-10-02T17:31:47.611047Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0015",
+      "source": "ActuNiger",
+      "language": "fr",
+      "actor": "Other",
+      "country": "Niger",
+      "city": "Dosso",
+      "event_type": "attack",
+      "candidate_event": false,
+      "title": "Insecurity: several soldiers fell at the front following a terrorist attack on the SDF position in Tessa (Dosso) - actuniger.com",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPUEtpc0t3VGJnU096aXhCOU1OWjI4bXFLM1ZyTXZMQXllZTgzLTRTRU9NbmEwWU5RYlBES1M1UjlCREM4QmRTQU9ZRVVxNjU2R3B6WFRsWlBQN3FJeFRReTBYakdDRHRvY1E2V2hLblN4UGxoZDNlbXBSNlNxWHM0M3NWdTYtdHRFOF9hYVRiT1gyamRtNGwyNVVWdF9ZUUJEbUt0VWdRZVB0UnpXeU9UdTlUZHR0dlB3OUE1MWlFamFGb0liekF5Yk1kTDBpRTJydHNvZkFXQjFxRWZLTjZaU1Zsc0NPcUpTeVlISHVR?oc=5"
     },
     {
       "published_at": "2026-10-01T02:58:20Z",
@@ -3960,8 +3957,8 @@
       "published_at": "2026-09-30T16:45:03Z",
       "published_date_source": "feed",
       "published_time_precision": "datetime",
-      "collected_at": "2026-10-02T07:33:37.318732Z",
-      "discovered_at": "2026-10-02T07:33:37.318732Z",
+      "collected_at": "2026-10-02T17:31:54.772961Z",
+      "discovered_at": "2026-10-02T17:31:54.772961Z",
       "timestamp_integrity": "complete",
       "source_code": "SRC-0022",
       "source": "Africanews",
@@ -4099,42 +4096,6 @@
       "candidate_event": false,
       "title": "Mali army and Russian fighters accused of killing dozens of civilians - Modern Ghana",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNNnUzY1A1aC1zdHZoT3NfWHZRR01IemEzS2dIcGZ2TmVZbXdQejlxVUg1SlhEaXZKNjI1bkVzNVVkRk1ZT2dRazhWUDJJcGR0aThfRGY5S0dYOEtVaEVBSE9jcXdUS2kzaXp0NFpQd3lhZWQtWTVFQ2dESzYyRmhabGtBaTU1ZU5pS0tadHJ4emdvaE5jOG94NzktWdIBmgFBVV95cUxNSXZPT0FTUGtSWTQzYm1jSFlTSlR1SFVtbmZGTmdDSC1sOFFCSmpVbGpvZjQ0TEZiZFFJZ0F5VkRBZndycEtXcE1RR0tsbHUxMHdYUENDa1o2OEc1MzZpR29YM2VybEdBX0dxSndmbDNHWXZQTU96T182T0VnWklUOW1tVWJzY1lIcVFFNWlPUUtHMWJlVWktNEln?oc=5"
-    },
-    {
-      "published_at": "2026-09-30T09:04:22Z",
-      "published_date_source": "opengraph",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-09-30T23:28:25.648854Z",
-      "discovered_at": "2026-09-30T23:28:25.648854Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0090",
-      "source": "AllAfrica (Édition Française)",
-      "language": "fr",
-      "actor": "Africa Corps/Wagner",
-      "country": "Mali",
-      "city": "Ségou",
-      "event_type": "ambush",
-      "candidate_event": false,
-      "title": "Mali: Towards a stalemate of the Africa Corps?",
-      "url": "https://fr.allafrica.com/stories/202609300164.html"
-    },
-    {
-      "published_at": "2026-09-30T09:02:01Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-09-30T23:09:11.059942Z",
-      "discovered_at": "2026-09-30T23:09:11.059942Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0090",
-      "source": "AllAfrica (Édition Française)",
-      "language": "fr",
-      "actor": "JNIM",
-      "country": "Mali",
-      "city": null,
-      "event_type": "ambush",
-      "candidate_event": false,
-      "title": "Mali: deadly ambush of Jnim jihadists in Niono against the Russian Africa Corps - allAfrica.fr",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5Hel9RZTh3VGZ3M25RVXBZWWlTenE0NjZQb3lLb3ZnOXVVd3ZOUzJBTDhudEU3ejNaamVtZ2FDMjNaMW84M3lyNkppd2U1bl85dkZmUUdFX3NEQ3lkNTZB?oc=5"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
