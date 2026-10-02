@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "site_patch_version": "3.3.3",
-  "generated_at": "2026-10-02T22:32:02.811759Z",
+  "generated_at": "2026-10-02T23:03:37.232828Z",
   "active_limit": 33,
   "total_briefings": 244,
   "active_count": 33,
@@ -11,7 +11,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.3",
       "reporting_date": "2026-10-02",
-      "generated_at": "2026-10-02T22:32:02.433535Z",
+      "generated_at": "2026-10-02T23:03:37.146577Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -23,17 +23,17 @@
         "events_occurring_on_date": 0,
         "records_held_for_review": 0,
         "multi_source_events": 0,
-        "reports_collected_on_date": 20,
+        "reports_collected_on_date": 21,
         "reports_published_on_date": 3,
         "newly_discovered_older_events": 0,
         "events_awaiting_date_verification": 0,
-        "distinct_sources_collected": 12
+        "distinct_sources_collected": 13
       },
-      "executive_assessment": "Reporting collected on 2026-10-02 does not yet support a clear account of a new incident in Mali, Burkina Faso, or Niger. The desk received 20 reports from 12 sources, but the automated incident record needs further review. This is not evidence of calm on the ground.",
+      "executive_assessment": "Reporting collected on 2026-10-02 does not yet support a clear account of a new incident in Mali, Burkina Faso, or Niger. The desk received 21 reports from 13 sources, but the automated incident record needs further review. This is not evidence of calm on the ground.",
       "briefing_sections": [
         {
           "heading": "Assessment",
-          "text": "Reporting collected on 2026-10-02 does not yet support a clear account of a new incident in Mali, Burkina Faso, or Niger. The desk received 20 reports from 12 sources, but the automated incident record needs further review. This is not evidence of calm on the ground."
+          "text": "Reporting collected on 2026-10-02 does not yet support a clear account of a new incident in Mali, Burkina Faso, or Niger. The desk received 21 reports from 13 sources, but the automated incident record needs further review. This is not evidence of calm on the ground."
         },
         {
           "heading": "Mali",
@@ -45,7 +45,7 @@
         },
         {
           "heading": "Niger",
-          "text": "8 retained reports were collected for Niger. 0 fused candidate events currently carry this reporting date. Drug trafficking: two young people in their twenties arrested with 12,000 Tramadol tablets at the…: Published on Tuesday, December 30, 2025 | actuniger.com The vigilance of the security forces has once again borne fruit . On December 22, 2025, officers of the Yantala Police Station seized 12,000 Tramadol tablets during a… Niger: what we know about the jihadist attack that targeted Niamey airport: Niger: what we know about the jihadist attack that targeted the Niamey airport Published on Saturday, January 31, 2026 | AFP In the night from Wednesday to Thursday, the Niamey airport in Niger suffered a brief attack claimed… Niger: 16 soldiers killed at the front and 15 terrorists neutralized in a terrorist ambush between…: Niger region: 16 soldiers fallen at the front and 15 terrorists neutralized in a terrorist ambush between Bankilaré and Tera (Tillabéri) Published on Tuesday, July 21, 2026 | actuniger.com 5 additional Niger reports are summarized individually in the source records."
+          "text": "9 retained reports were collected for Niger. 0 fused candidate events currently carry this reporting date. Niger Coup: Survival of the Military Regime and Growing Fragility: The attempted coup in Niamey on the night of 28–29 August 2026 exposed a fundamental contradiction at the heart of General Abdourahamane Tiani’s rule. Although the regime survived its serious internal challenge since the July… Drug trafficking: two young people in their twenties arrested with 12,000 Tramadol tablets at the…: Published on Tuesday, December 30, 2025 | actuniger.com The vigilance of the security forces has once again borne fruit . On December 22, 2025, officers of the Yantala Police Station seized 12,000 Tramadol tablets during a… Niger: what we know about the jihadist attack that targeted Niamey airport: Niger: what we know about the jihadist attack that targeted the Niamey airport Published on Saturday, January 31, 2026 | AFP In the night from Wednesday to Thursday, the Niamey airport in Niger suffered a brief attack claimed… 6 additional Niger reports are summarized individually in the source records."
         },
         {
           "heading": "What remains unclear",
@@ -57,7 +57,7 @@
       ],
       "significant_events": [],
       "what_changed_since_yesterday": [
-        "Collection volume: -23 retained report(s) versus 2026-10-01 (43 → 20).",
+        "Collection volume: -22 retained report(s) versus 2026-10-01 (43 → 21).",
         "Actor-level same-day fused event counts are unchanged from the previous date."
       ],
       "emerging_patterns": [
@@ -80,7 +80,7 @@
       "country_reporting_counts": {
         "Mali": 5,
         "Burkina Faso": 7,
-        "Niger": 8
+        "Niger": 9
       },
       "actor_profiles": {
         "JNIM": {
@@ -133,7 +133,7 @@
         },
         "Niger": {
           "events": 0,
-          "reports_collected": 8,
+          "reports_collected": 9,
           "actor_counts": {
             "JNIM": 0,
             "IS Sahel": 0,
@@ -258,6 +258,15 @@
         ],
         "Niger": [
           {
+            "id": "a89a1e8e5137dc3a48d194cbb6e9a41e0b249166",
+            "source": "Al Jazeera Center for Studies (مركز الجزيرة للدراسات)",
+            "title": "Niger Coup: Survival of the Military Regime and Growing Fragility",
+            "summary": "The attempted coup in Niamey on the night of 28–29 August 2026 exposed a fundamental contradiction at the heart of General Abdourahamane Tiani’s rule. Although the regime survived its serious internal challenge since the July 2023 coup against Mohamed Bazoum, the episode revealed fractures within the armed forces, declining confidence in the government’s ability to improve security, and dependence on foreign military support.",
+            "url": "https://studies.aljazeera.net/en/policy-briefs/niger-coup-survival-military-regime-and-growing-fragility",
+            "candidate_event": false,
+            "event_date": "2026-08-29"
+          },
+          {
             "id": "3057f809d88b4be978d0600e302164ee6ad1b71e",
             "source": "aNiamey.com",
             "title": "Drug trafficking: two young people in their twenties arrested with 12,000 Tramadol tablets at the Tillabéri road barrier",
@@ -285,15 +294,6 @@
             "event_date": "2026-07-21"
           },
           {
-            "id": "cd9eaeaf240102d866a6cf227dbbc560cec03379",
-            "source": "aNiamey.com",
-            "title": "Agadez: the SDF repulse an attack in Abalama  two bandits neutralized, equipment seized, one soldier killed and four wounded",
-            "summary": "Agadez: SDF repels attack in Abalama – two bandits neutralized, equipment seized, one soldier killed and four wounded Published on Friday, September 5, 2025 | actuniger.com On Tuesday, September 2, 2025, the Defense and Security Forces (SDF) successfully repulsed two simultaneous attacks targeting the positions of the National Guard detachment in Abalama, Aderbissanat Department .",
-            "url": "http://news.aniamey.com/h/122857.html",
-            "candidate_event": true,
-            "event_date": "2025-09-05"
-          },
-          {
             "id": "c015f1edfe2106d96da43f14e6ff81027adcec26",
             "source": "aNiamey.com",
             "title": "Defence: General Tiani reshuffles the military command after the Niamey mutiny",
@@ -301,6 +301,15 @@
             "url": "http://news.aniamey.com/h/123258.html",
             "candidate_event": false,
             "event_date": "2026-09-12"
+          },
+          {
+            "id": "cd9eaeaf240102d866a6cf227dbbc560cec03379",
+            "source": "aNiamey.com",
+            "title": "Agadez: the SDF repulse an attack in Abalama  two bandits neutralized, equipment seized, one soldier killed and four wounded",
+            "summary": "Agadez: SDF repels attack in Abalama – two bandits neutralized, equipment seized, one soldier killed and four wounded Published on Friday, September 5, 2025 | actuniger.com On Tuesday, September 2, 2025, the Defense and Security Forces (SDF) successfully repulsed two simultaneous attacks targeting the positions of the National Guard detachment in Abalama, Aderbissanat Department .",
+            "url": "http://news.aniamey.com/h/122857.html",
+            "candidate_event": true,
+            "event_date": "2025-09-05"
           },
           {
             "id": "b0770cb11a977644405b6056016228bba3262381",
@@ -333,36 +342,36 @@
       },
       "collection_notes": {
         "sources_total": 176,
-        "sources_success": 161,
-        "sources_failed": 15,
-        "sources_degraded": 29,
-        "documents_discovered": 12652,
-        "documents_retained": 11,
+        "sources_success": 160,
+        "sources_failed": 16,
+        "sources_degraded": 27,
+        "documents_discovered": 12472,
+        "documents_retained": 10,
         "report_target": 100,
-        "translations_attempted": 8,
-        "translations_success": 8,
+        "translations_attempted": 7,
+        "translations_success": 7,
         "translation_failures": 0,
         "collection_confidence": "LOW",
         "collection_confidence_reasons": [
-          "161/176 source paths reached",
-          "15 failed source paths",
-          "29 degraded / 15 failed of 176 configured sources"
+          "160/176 source paths reached",
+          "16 failed source paths",
+          "27 degraded / 16 failed of 176 configured sources"
         ],
-        "reports_collected": 20,
+        "reports_collected": 21,
         "reports_published": 3,
-        "distinct_sources_collected": 12,
+        "distinct_sources_collected": 13,
         "language_counts": {
-          "fr": 15,
-          "en": 5
+          "en": 6,
+          "fr": 15
         }
       },
-      "sultana_daily_text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nDaily bottom line for 2026-10-02: Reporting collected on 2026-10-02 does not yet support a clear account of a new incident in Mali, Burkina Faso, or Niger. The desk received 20 reports from 12 sources, but the automated incident record needs further review. This is not evidence of calm on the ground.\n\nMali: 5 retained reports. 1. ARMY MUSEUM: the School of Application and Development of Officers to discover the military heritage of our country. The Army Museum welcomed, this Friday, October 2, 2026, a delegation from the School of Application and Development of Officers (EAPO), as part of the educational activities of the institution. The purpose of this visit was to allow the trainees to learn more about the military history of Mali and to immerse themselves in the immense heritage bequeathed by previous generations of Malian combatants . 2. Celebration of the 66th anniversary of the Malian Army. On October 1, 2026, the Malian Army celebrated its 66th anniversary in Djicoroni-Para, under the theme: \"The Army, 66 years in the service of the Nation: cohesion and resilience for the sovereign defense of Mali\" . Composed in particular of the Infantry, the Artillery and the Armoured Weapon and Cavalry, the Army constitutes the main pillar of the land defence of the country. 3. Mali: more than 2,400 schools remain closed as insecurity disrupts new school year. Mali's new school year began Thursday with more than 2,400 schools unable to reopen, as worsening insecurity and the growing presence of jihadist groups continue to disrupt education. The 2026-2027 academic year has been declared the “Year of Education and Culture” by President Assimi Goïta, but thousands of children are starting the year without access to their classrooms.\n\nBurkina Faso: 7 retained reports. 1. Protection of asins, camels and horses in Burkina Faso: A new framework to better fight against trafficking. The Directorate General of Veterinary Services (DGSV) organized, on October 2, 2026 in Ouagadougou, a workshop dedicated to the popularization of the new regulatory framework for asins, camels and horses . Administrative, religious and customary authorities, veterinary services, customs, defence and security forces, VDP and breeders' representatives took part in the meeting to take ownership of the new provisions and strengthen their application on the ground . 2. Tribute ceremony to Thomas Sankara: Minister Mathias Traoré invites the Burkinabe to preserve the legacy of the national hero. The authorities gathered at the foot of the statue of Thomas Sankara. The Thomas Sankara Memorial hosted, this Thursday, October 1, 2026 in Ouagadougou, the military ceremony in tribute to Captain Thomas Sankara and his twelve companions, who fell on October 15, 1987 The ceremony brought together several members of the government as well as representatives of international organizations, who came to pay tribute to the memory of the former president of Faso and to recall the scope of his legacy. 3. Burkina Faso's military leaders mark four years in power. People gathered in Ougadougou’s Place de la Révolution on Wednesday night to mark four years since Captain Ibrahim Traoré came to power in a coup. The culmination of anniversary celebrations, they paid tribute to the armed forces and the military government’s achievements in Burkina Faso. One resident, Abdoul Rasmané Sawadogo, said military leaders have created an “ultra-modern army that meets expectations”.\n\nNiger: 8 retained reports. 1. Drug trafficking: two young people in their twenties arrested with 12,000 Tramadol tablets at the Tillabéri road barrier. Published on Tuesday, December 30, 2025 | actuniger.com The vigilance of the security forces has once again borne fruit . On December 22, 2025, officers of the Yantala Police Station seized 12,000 Tramadol tablets during a routine check at the Tillabéri road barrier, thwarting an attempt to transport drugs to a gold site in the region, with the arrest of two young Nigeriens in their twenties . 2. Niger: what we know about the jihadist attack that targeted Niamey airport. Niger: what we know about the jihadist attack that targeted the Niamey airport Published on Saturday, January 31, 2026 | AFP In the night from Wednesday to Thursday, the Niamey airport in Niger suffered a brief attack claimed Friday by the Islamic State, in a country where jihadist violence usually occurs in the west and south-east The Nigerien military junta, helped by \"Russian partners\", accused the French, Beninese and Ivorian presidents of being the \"sponsors\" of the attackers, words condemned by Abidjan and Cotonou on Friday. 3. Niger: 16 soldiers killed at the front and 15 terrorists neutralized in a terrorist ambush between Bankilaré and Tera (Tillabéri). Niger region: 16 soldiers fallen at the front and 15 terrorists neutralized in a terrorist ambush between Bankilaré and Tera (Tillabéri) Published on Tuesday, July 21, 2026 | actuniger.com\n\nActor picture: no same-day fused candidate events.\n\nWhat changed: Collection volume: -23 retained report(s) versus 2026-10-01 (43 → 20). Actor-level same-day fused event counts are unchanged from the previous date.\n\nIntelligence gaps: Collection confidence is low, so absence of reporting should not be interpreted as absence of activity.\n\nCollection confidence: LOW. 161/176 source paths reached 15 failed source paths 29 degraded / 15 failed of 176 configured sources\n\nAll retained source reports, including reports not promoted to the map, remain individually summarized in the intelligence feed and source records."
+      "sultana_daily_text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nDaily bottom line for 2026-10-02: Reporting collected on 2026-10-02 does not yet support a clear account of a new incident in Mali, Burkina Faso, or Niger. The desk received 21 reports from 13 sources, but the automated incident record needs further review. This is not evidence of calm on the ground.\n\nMali: 5 retained reports. 1. ARMY MUSEUM: the School of Application and Development of Officers to discover the military heritage of our country. The Army Museum welcomed, this Friday, October 2, 2026, a delegation from the School of Application and Development of Officers (EAPO), as part of the educational activities of the institution. The purpose of this visit was to allow the trainees to learn more about the military history of Mali and to immerse themselves in the immense heritage bequeathed by previous generations of Malian combatants . 2. Celebration of the 66th anniversary of the Malian Army. On October 1, 2026, the Malian Army celebrated its 66th anniversary in Djicoroni-Para, under the theme: \"The Army, 66 years in the service of the Nation: cohesion and resilience for the sovereign defense of Mali\" . Composed in particular of the Infantry, the Artillery and the Armoured Weapon and Cavalry, the Army constitutes the main pillar of the land defence of the country. 3. Mali: more than 2,400 schools remain closed as insecurity disrupts new school year. Mali's new school year began Thursday with more than 2,400 schools unable to reopen, as worsening insecurity and the growing presence of jihadist groups continue to disrupt education. The 2026-2027 academic year has been declared the “Year of Education and Culture” by President Assimi Goïta, but thousands of children are starting the year without access to their classrooms.\n\nBurkina Faso: 7 retained reports. 1. Protection of asins, camels and horses in Burkina Faso: A new framework to better fight against trafficking. The Directorate General of Veterinary Services (DGSV) organized, on October 2, 2026 in Ouagadougou, a workshop dedicated to the popularization of the new regulatory framework for asins, camels and horses . Administrative, religious and customary authorities, veterinary services, customs, defence and security forces, VDP and breeders' representatives took part in the meeting to take ownership of the new provisions and strengthen their application on the ground . 2. Tribute ceremony to Thomas Sankara: Minister Mathias Traoré invites the Burkinabe to preserve the legacy of the national hero. The authorities gathered at the foot of the statue of Thomas Sankara. The Thomas Sankara Memorial hosted, this Thursday, October 1, 2026 in Ouagadougou, the military ceremony in tribute to Captain Thomas Sankara and his twelve companions, who fell on October 15, 1987 The ceremony brought together several members of the government as well as representatives of international organizations, who came to pay tribute to the memory of the former president of Faso and to recall the scope of his legacy. 3. Burkina Faso's military leaders mark four years in power. People gathered in Ougadougou’s Place de la Révolution on Wednesday night to mark four years since Captain Ibrahim Traoré came to power in a coup. The culmination of anniversary celebrations, they paid tribute to the armed forces and the military government’s achievements in Burkina Faso. One resident, Abdoul Rasmané Sawadogo, said military leaders have created an “ultra-modern army that meets expectations”.\n\nNiger: 9 retained reports. 1. Niger Coup: Survival of the Military Regime and Growing Fragility. The attempted coup in Niamey on the night of 28–29 August 2026 exposed a fundamental contradiction at the heart of General Abdourahamane Tiani’s rule. Although the regime survived its serious internal challenge since the July 2023 coup against Mohamed Bazoum, the episode revealed fractures within the armed forces, declining confidence in the government’s ability to improve security, and dependence on foreign military support. 2. Drug trafficking: two young people in their twenties arrested with 12,000 Tramadol tablets at the Tillabéri road barrier. Published on Tuesday, December 30, 2025 | actuniger.com The vigilance of the security forces has once again borne fruit . On December 22, 2025, officers of the Yantala Police Station seized 12,000 Tramadol tablets during a routine check at the Tillabéri road barrier, thwarting an attempt to transport drugs to a gold site in the region, with the arrest of two young Nigeriens in their twenties . 3. Niger: what we know about the jihadist attack that targeted Niamey airport. Niger: what we know about the jihadist attack that targeted the Niamey airport Published on Saturday, January 31, 2026 | AFP In the night from Wednesday to Thursday, the Niamey airport in Niger suffered a brief attack claimed Friday by the Islamic State, in a country where jihadist violence usually occurs in the west and south-east The Nigerien military junta, helped by \"Russian partners\", accused the French, Beninese and Ivorian presidents of being the \"sponsors\" of the attackers, words condemned by Abidjan and Cotonou on Friday.\n\nActor picture: no same-day fused candidate events.\n\nWhat changed: Collection volume: -22 retained report(s) versus 2026-10-01 (43 → 21). Actor-level same-day fused event counts are unchanged from the previous date.\n\nIntelligence gaps: Collection confidence is low, so absence of reporting should not be interpreted as absence of activity.\n\nCollection confidence: LOW. 160/176 source paths reached 16 failed source paths 27 degraded / 16 failed of 176 configured sources\n\nAll retained source reports, including reports not promoted to the map, remain individually summarized in the intelligence feed and source records."
     },
     {
       "schema_version": "1.0",
       "site_patch_version": "3.3.3",
       "reporting_date": "2026-10-01",
-      "generated_at": "2026-10-02T22:32:02.045285Z",
+      "generated_at": "2026-10-02T23:03:37.166887Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -915,7 +924,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.3",
       "reporting_date": "2026-09-30",
-      "generated_at": "2026-10-02T22:32:02.317263Z",
+      "generated_at": "2026-10-02T23:03:37.195828Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -1978,7 +1987,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.3",
       "reporting_date": "2026-09-29",
-      "generated_at": "2026-10-02T22:32:02.141719Z",
+      "generated_at": "2026-10-02T23:03:37.224303Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -2314,7 +2323,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.3",
       "reporting_date": "2026-09-28",
-      "generated_at": "2026-10-02T22:32:02.264180Z",
+      "generated_at": "2026-10-02T23:03:36.504842Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -2756,7 +2765,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.3",
       "reporting_date": "2026-09-27",
-      "generated_at": "2026-10-02T22:32:02.197621Z",
+      "generated_at": "2026-10-02T23:03:36.964764Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -3074,7 +3083,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.3",
       "reporting_date": "2026-09-26",
-      "generated_at": "2026-10-02T22:32:02.734325Z",
+      "generated_at": "2026-10-02T23:03:36.788807Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -3327,7 +3336,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.3",
       "reporting_date": "2026-09-25",
-      "generated_at": "2026-10-02T22:32:02.722761Z",
+      "generated_at": "2026-10-02T23:03:37.042441Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -3415,7 +3424,7 @@
       ],
       "what_changed_since_yesterday": [
         "State: +1 same-day fused event(s) versus 2026-09-24 (0 → 1).",
-        "Collection volume: -7 retained report(s) versus 2026-09-24 (22 → 15)."
+        "Collection volume: -6 retained report(s) versus 2026-09-24 (21 → 15)."
       ],
       "emerging_patterns": [
         "JNIM 7-day activity is higher than the preceding 7-day window (0 → 1).",
@@ -3683,13 +3692,13 @@
           "fr": 6
         }
       },
-      "sultana_daily_text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nDaily bottom line for 2026-09-25: Reporting dated 2026-09-25 gives the desk 1 incident account to examine in Mali. None has support from a second independent source. The record is provisional; it does not establish the full extent of violence that day.\n\nMali: 9 retained reports. 1. Mali.. The army announces the targeting of sites containing hundreds of militants in Kidal. The Malian army announced the death of a number of members of armed groups and the destruction of military equipment in strikes carried out north of the village of Dandogo and east of the city of Kidal, according to a statement by the army's General Staff. The army said that the strikes it carried out on Thursday targeted several sites north of Dandogo, which included between 200 and 300 fighters, as well as large quantities of military equipment, according to its estimates. 2. Offensive in Dandougou and Kidal: FAMa pound terrorist hideouts and destroy important war materials. The General Staff of the Armed Forces informs the national opinion that the Malian Armed Forces (FAMa), supported by their partners, are continuing the permanent operations of surveillance, control and security of the national territory as part of Operation Dougoukoloko On Monday, September 21, 2026, the exploitation of precise intelligence made it possible to locate, east of the city of Kidal, two areas of withdrawal of armed terrorist groups housing war and logistics equipment. 3. Hard blow for terrorism: the FAMa destroy two major bases in Kidal and Dandougou. Hard blow for terrorism: the FAMa annihilate two major bases in Kidal and Dandougou The General Staff of the Armed Forces announced, this Friday, September 25, in a press release, the continuation of operations to secure the national territory as part of Operation Dougoukoloko. The Malian Armed Forces (FAMa), supported by their partners, conducted two targeted airstrikes on 21 and 24 September 2026 On Monday, September 21, the exploitation of precise intelligence made it possible to locate, east of the city of Kidal, two areas of withdrawal of armed terrorist groups housing war and logistics equipment.\n\nBurkina Faso: 2 retained reports. 1. Ouagadougou: a clandestine network for the manufacture and repackaging of alcoholic beverages unmasked. The Ouagadougou municipal police uncovered a clandestine network for the manufacture and repackaging of alcoholic beverages and arrested individuals for further investigation, according to information from the structure, this Friday, September 25, 2026 . On Tuesday, September 22, 2026, following a denunciation, the Directorate of Public Security (DSP) carried out an intervention in District No.06 of the Municipality of Ouagadougou, targeting a network allegedly involved in clandestine activities of manufacture and repackaging of alcoholic beverages within a court . 2. Africa File, July 3, 2024: Boko Haram Resurgence; Jnim Onslaught In Burkina Faso; Al Shabaab Exploits Au Withdrawal - Critical Threats. Africa File, July 3, 2024: Boko Haram Resurgence; Jnim Onslaught In Burkina Faso; Al Shabaab Exploits Au Withdrawal Critical Threats\n\nNiger: 4 retained reports. 1. Police arrest guard over defilement, death of minor in Niger. The Police Command in Niger has detained a 26-year-old security guard, Godwin Dauda, over the alleged defilement and death of an 11-year-old girl in Suleja. The command’s spokesperson, SP Wasiu Abiodun, disclosed this while briefing newsmen on Friday in Minna. Abiodun said the police received a missing-person report at the Suleja Police Division on Sept. 2. Change of command at Maradi Defense Zone No.6. Maradi, September 25 (ANP) – The Chief of the Land Staff (CeMAT), Brigadier General Abdourahamane Abdou Zataka presided this Friday, September 25, at the level of Defense Zone No.6 of Maradi, the official ceremony of change of command between the commanders entering and leaving the military base . Colonel Ousseini Hassane succeeds Colonel Almoctar Seydou Niandou and takes the reins of Defense Zone No.6 and the Tactical Command of Operation ‘‘YARDA’’. 3. Boko Massacre in Nigeria; Ethiopia on the Brink; M23 Drone Attack; IS Attacks Niamey: Africa File, February 5, 2026 - Critical Threats. Boko Massacre in Nigeria; Ethiopia on the Brink; M23 Drone Attack; IS Attacks Niamey: Africa File, February 5, 2026 Critical Threats\n\nActor picture: JNIM 0, IS Sahel 0, State 1.\n\nWhat changed: State: +1 same-day fused event(s) versus 2026-09-24 (0 → 1). Collection volume: -7 retained report(s) versus 2026-09-24 (22 → 15).\n\nIntelligence gaps: 1 same-day event(s) lack independent multi-source corroboration. Collection confidence is low, so absence of reporting should not be interpreted as absence of activity.\n\nCollection confidence: LOW. no completed collection run recorded for this date\n\nAll retained source reports, including reports not promoted to the map, remain individually summarized in the intelligence feed and source records."
+      "sultana_daily_text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nDaily bottom line for 2026-09-25: Reporting dated 2026-09-25 gives the desk 1 incident account to examine in Mali. None has support from a second independent source. The record is provisional; it does not establish the full extent of violence that day.\n\nMali: 9 retained reports. 1. Mali.. The army announces the targeting of sites containing hundreds of militants in Kidal. The Malian army announced the death of a number of members of armed groups and the destruction of military equipment in strikes carried out north of the village of Dandogo and east of the city of Kidal, according to a statement by the army's General Staff. The army said that the strikes it carried out on Thursday targeted several sites north of Dandogo, which included between 200 and 300 fighters, as well as large quantities of military equipment, according to its estimates. 2. Offensive in Dandougou and Kidal: FAMa pound terrorist hideouts and destroy important war materials. The General Staff of the Armed Forces informs the national opinion that the Malian Armed Forces (FAMa), supported by their partners, are continuing the permanent operations of surveillance, control and security of the national territory as part of Operation Dougoukoloko On Monday, September 21, 2026, the exploitation of precise intelligence made it possible to locate, east of the city of Kidal, two areas of withdrawal of armed terrorist groups housing war and logistics equipment. 3. Hard blow for terrorism: the FAMa destroy two major bases in Kidal and Dandougou. Hard blow for terrorism: the FAMa annihilate two major bases in Kidal and Dandougou The General Staff of the Armed Forces announced, this Friday, September 25, in a press release, the continuation of operations to secure the national territory as part of Operation Dougoukoloko. The Malian Armed Forces (FAMa), supported by their partners, conducted two targeted airstrikes on 21 and 24 September 2026 On Monday, September 21, the exploitation of precise intelligence made it possible to locate, east of the city of Kidal, two areas of withdrawal of armed terrorist groups housing war and logistics equipment.\n\nBurkina Faso: 2 retained reports. 1. Ouagadougou: a clandestine network for the manufacture and repackaging of alcoholic beverages unmasked. The Ouagadougou municipal police uncovered a clandestine network for the manufacture and repackaging of alcoholic beverages and arrested individuals for further investigation, according to information from the structure, this Friday, September 25, 2026 . On Tuesday, September 22, 2026, following a denunciation, the Directorate of Public Security (DSP) carried out an intervention in District No.06 of the Municipality of Ouagadougou, targeting a network allegedly involved in clandestine activities of manufacture and repackaging of alcoholic beverages within a court . 2. Africa File, July 3, 2024: Boko Haram Resurgence; Jnim Onslaught In Burkina Faso; Al Shabaab Exploits Au Withdrawal - Critical Threats. Africa File, July 3, 2024: Boko Haram Resurgence; Jnim Onslaught In Burkina Faso; Al Shabaab Exploits Au Withdrawal Critical Threats\n\nNiger: 4 retained reports. 1. Police arrest guard over defilement, death of minor in Niger. The Police Command in Niger has detained a 26-year-old security guard, Godwin Dauda, over the alleged defilement and death of an 11-year-old girl in Suleja. The command’s spokesperson, SP Wasiu Abiodun, disclosed this while briefing newsmen on Friday in Minna. Abiodun said the police received a missing-person report at the Suleja Police Division on Sept. 2. Change of command at Maradi Defense Zone No.6. Maradi, September 25 (ANP) – The Chief of the Land Staff (CeMAT), Brigadier General Abdourahamane Abdou Zataka presided this Friday, September 25, at the level of Defense Zone No.6 of Maradi, the official ceremony of change of command between the commanders entering and leaving the military base . Colonel Ousseini Hassane succeeds Colonel Almoctar Seydou Niandou and takes the reins of Defense Zone No.6 and the Tactical Command of Operation ‘‘YARDA’’. 3. Boko Massacre in Nigeria; Ethiopia on the Brink; M23 Drone Attack; IS Attacks Niamey: Africa File, February 5, 2026 - Critical Threats. Boko Massacre in Nigeria; Ethiopia on the Brink; M23 Drone Attack; IS Attacks Niamey: Africa File, February 5, 2026 Critical Threats\n\nActor picture: JNIM 0, IS Sahel 0, State 1.\n\nWhat changed: State: +1 same-day fused event(s) versus 2026-09-24 (0 → 1). Collection volume: -6 retained report(s) versus 2026-09-24 (21 → 15).\n\nIntelligence gaps: 1 same-day event(s) lack independent multi-source corroboration. Collection confidence is low, so absence of reporting should not be interpreted as absence of activity.\n\nCollection confidence: LOW. no completed collection run recorded for this date\n\nAll retained source reports, including reports not promoted to the map, remain individually summarized in the intelligence feed and source records."
     },
     {
       "schema_version": "1.0",
       "site_patch_version": "3.3.3",
       "reporting_date": "2026-09-24",
-      "generated_at": "2026-10-02T22:32:02.486208Z",
+      "generated_at": "2026-10-02T23:03:36.507838Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -3701,17 +3710,17 @@
         "events_occurring_on_date": 0,
         "records_held_for_review": 1,
         "multi_source_events": 0,
-        "reports_collected_on_date": 22,
+        "reports_collected_on_date": 21,
         "reports_published_on_date": 6,
         "newly_discovered_older_events": 1,
         "events_awaiting_date_verification": 0,
-        "distinct_sources_collected": 15
+        "distinct_sources_collected": 14
       },
-      "executive_assessment": "Reporting collected on 2026-09-24 does not yet support a clear account of a new incident in Mali, Burkina Faso, or Niger. The desk received 22 reports from 15 sources, but the automated incident record needs further review. This is not evidence of calm on the ground.",
+      "executive_assessment": "Reporting collected on 2026-09-24 does not yet support a clear account of a new incident in Mali, Burkina Faso, or Niger. The desk received 21 reports from 14 sources, but the automated incident record needs further review. This is not evidence of calm on the ground.",
       "briefing_sections": [
         {
           "heading": "Assessment",
-          "text": "Reporting collected on 2026-09-24 does not yet support a clear account of a new incident in Mali, Burkina Faso, or Niger. The desk received 22 reports from 15 sources, but the automated incident record needs further review. This is not evidence of calm on the ground."
+          "text": "Reporting collected on 2026-09-24 does not yet support a clear account of a new incident in Mali, Burkina Faso, or Niger. The desk received 21 reports from 14 sources, but the automated incident record needs further review. This is not evidence of calm on the ground."
         },
         {
           "heading": "Mali",
@@ -3723,7 +3732,7 @@
         },
         {
           "heading": "Niger",
-          "text": "4 retained reports were collected for Niger. 0 fused candidate events currently carry this reporting date. Collective defence: Three years later, what results for the ESA?: Three years after the signing of the Liptako-Gourma Charter, the collective defence of the Alliance of Sahel States (AES) is taking shape. Unified force, joint command and operational cooperation are the achievements. Their… Niger Soldiers Killed in Fighting Near Mali Border: Several Nigerien soldiers have been killed in a clash with heavily armed fighters near the border with Mali, an area affected by persistent terrorist violence. The Defence Ministry did not provide an exact death toll but said… Niger Coup: Survival of the Military Regime and Growing Fragility: The attempted coup in Niamey on the night of 28–29 August 2026 exposed a fundamental contradiction at the heart of General Abdourahamane Tiani’s rule. Although the regime survived its serious internal challenge since the July… 1 additional Niger report is summarized individually in the source records."
+          "text": "3 retained reports were collected for Niger. 0 fused candidate events currently carry this reporting date. Collective defence: Three years later, what results for the ESA?: Three years after the signing of the Liptako-Gourma Charter, the collective defence of the Alliance of Sahel States (AES) is taking shape. Unified force, joint command and operational cooperation are the achievements. Their… Niger Soldiers Killed in Fighting Near Mali Border: Several Nigerien soldiers have been killed in a clash with heavily armed fighters near the border with Mali, an area affected by persistent terrorist violence. The Defence Ministry did not provide an exact death toll but said… Niger: first interjihadist confrontation between the Islamic State and the JNIM - France 24: Niger: first interjihadist clash between the Islamic State and JNIM France 24"
         },
         {
           "heading": "Reporting in context",
@@ -3739,7 +3748,7 @@
       ],
       "significant_events": [],
       "what_changed_since_yesterday": [
-        "Collection volume: +6 retained report(s) versus 2026-09-23 (16 → 22).",
+        "Collection volume: +5 retained report(s) versus 2026-09-23 (16 → 21).",
         "Actor-level same-day fused event counts are unchanged from the previous date."
       ],
       "emerging_patterns": [
@@ -3762,7 +3771,7 @@
       "country_reporting_counts": {
         "Mali": 14,
         "Burkina Faso": 4,
-        "Niger": 4
+        "Niger": 3
       },
       "actor_profiles": {
         "JNIM": {
@@ -3815,7 +3824,7 @@
         },
         "Niger": {
           "events": 0,
-          "reports_collected": 4,
+          "reports_collected": 3,
           "actor_counts": {
             "JNIM": 0,
             "IS Sahel": 0,
@@ -4012,15 +4021,6 @@
             "event_date": "2026-09-23"
           },
           {
-            "id": "a89a1e8e5137dc3a48d194cbb6e9a41e0b249166",
-            "source": "Al Jazeera Center for Studies (مركز الجزيرة للدراسات)",
-            "title": "Niger Coup: Survival of the Military Regime and Growing Fragility",
-            "summary": "The attempted coup in Niamey on the night of 28–29 August 2026 exposed a fundamental contradiction at the heart of General Abdourahamane Tiani’s rule. Although the regime survived its serious internal challenge since the July 2023 coup against Mohamed Bazoum, the episode revealed fractures within the armed forces, declining confidence in the government’s ability to improve security, and dependence on foreign military support.",
-            "url": "https://studies.aljazeera.net/en/policy-briefs/niger-coup-survival-military-regime-and-growing-fragility",
-            "candidate_event": false,
-            "event_date": "2026-08-29"
-          },
-          {
             "id": "972afd0454b0a6d583639663b42de754de8ed775",
             "source": "France 24 Africa (EN)",
             "title": "Niger: first interjihadist confrontation between the Islamic State and the JNIM - France 24",
@@ -4046,22 +4046,22 @@
         "collection_confidence_reasons": [
           "no completed collection run recorded for this date"
         ],
-        "reports_collected": 22,
+        "reports_collected": 21,
         "reports_published": 6,
-        "distinct_sources_collected": 15,
+        "distinct_sources_collected": 14,
         "language_counts": {
           "fr": 15,
-          "en": 6,
+          "en": 5,
           "ar": 1
         }
       },
-      "sultana_daily_text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nDaily bottom line for 2026-09-24: Reporting collected on 2026-09-24 does not yet support a clear account of a new incident in Mali, Burkina Faso, or Niger. The desk received 22 reports from 15 sources, but the automated incident record needs further review. This is not evidence of calm on the ground.\n\nMali: 14 retained reports. 1. Floods in Mali: 13 dead, 12,405 affected and a call for vigilance. Floods in Mali: 13 dead, 12,405 disaster victims and a call for vigilance As the rainy season continues, the Crisis Coordination and Management Centre (CCGC) of the Ministry of Security and Civil Protection has issued a press release taking stock of the situation of wintering hazards . According to the balance sheet as of 23 September, the country recorded 7 cases of flooding, 11 cases of lightning and 5 cases of high winds. 2. In Mali, the deadly attack in Dioura reveals the shortcomings of the security system. In Mali, the deadly Dioura attack reveals the shortcomings of the security system The attack on the Dioura camp on September 10, the fifth in seven years, claimed the lives of more than a hundred soldiers of the Malian Armed Forces. The proliferation of jihadist attacks is forcing the General Staff to look for new solutions. Published today at 11:54, modified at 12:17 Reading: 3 minutes . 3. Mali: Ten bloody days in the center of the country after JNIM attacks against the army - France 24. Mali: Ten bloody days in the center of the country after JNIM attacks against the army France 24\n\nBurkina Faso: 4 retained reports. 1. Reporting in Burkina Faso: when jihadist violence destroys the Great Green Wall. Abandoned sites, billions promised never arrived... In Burkina Faso, projects to restore degraded lands have stalled. The jihadist violence and the vagueness surrounding donor funding promises got the better of one of Africa's most ambitious ecological projects . 2. Burkina Faso. Gold feeds and kills: clandestine gold panning, this \"necessary evil\" - Le360 Afrique. Burkina Faso. Gold feeds and kills: clandestine gold panning, this \"necessary evil\" 360 Africa 3. Russia to provide more military aid, instructors to Burkina Faso - Reuters. Russia to provide more military aid, instructors to Burkina Faso Reuters\n\nNiger: 4 retained reports. 1. Collective defence: Three years later, what results for the ESA?. Three years after the signing of the Liptako-Gourma Charter, the collective defence of the Alliance of Sahel States (AES) is taking shape. Unified force, joint command and operational cooperation are the achievements. Their effectiveness remains difficult to assess. 2. Niger Soldiers Killed in Fighting Near Mali Border. Several Nigerien soldiers have been killed in a clash with heavily armed fighters near the border with Mali, an area affected by persistent terrorist violence. The Defence Ministry did not provide an exact death toll but said the fighters involved were “mercenaries”, a term authorities in the junta-led country use to refer to terrorists. The ministry said the fighting occurred around 6:30 am on Wednesday near Fartel in the western Tillaberi region, when soldiers attempting to intercept stolen livestock encountered a large group of heavily armed fighters travelling on motorcycles. 3. Niger Coup: Survival of the Military Regime and Growing Fragility. The attempted coup in Niamey on the night of 28–29 August 2026 exposed a fundamental contradiction at the heart of General Abdourahamane Tiani’s rule. Although the regime survived its serious internal challenge since the July 2023 coup against Mohamed Bazoum, the episode revealed fractures within the armed forces, declining confidence in the government’s ability to improve security, and dependence on foreign military support.\n\nActor picture: no same-day fused candidate events.\n\nWhat changed: Collection volume: +6 retained report(s) versus 2026-09-23 (16 → 22). Actor-level same-day fused event counts are unchanged from the previous date.\n\nIntelligence gaps: Collection confidence is low, so absence of reporting should not be interpreted as absence of activity.\n\nCollection confidence: LOW. no completed collection run recorded for this date\n\nAll retained source reports, including reports not promoted to the map, remain individually summarized in the intelligence feed and source records."
+      "sultana_daily_text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nDaily bottom line for 2026-09-24: Reporting collected on 2026-09-24 does not yet support a clear account of a new incident in Mali, Burkina Faso, or Niger. The desk received 21 reports from 14 sources, but the automated incident record needs further review. This is not evidence of calm on the ground.\n\nMali: 14 retained reports. 1. Floods in Mali: 13 dead, 12,405 affected and a call for vigilance. Floods in Mali: 13 dead, 12,405 disaster victims and a call for vigilance As the rainy season continues, the Crisis Coordination and Management Centre (CCGC) of the Ministry of Security and Civil Protection has issued a press release taking stock of the situation of wintering hazards . According to the balance sheet as of 23 September, the country recorded 7 cases of flooding, 11 cases of lightning and 5 cases of high winds. 2. In Mali, the deadly attack in Dioura reveals the shortcomings of the security system. In Mali, the deadly Dioura attack reveals the shortcomings of the security system The attack on the Dioura camp on September 10, the fifth in seven years, claimed the lives of more than a hundred soldiers of the Malian Armed Forces. The proliferation of jihadist attacks is forcing the General Staff to look for new solutions. Published today at 11:54, modified at 12:17 Reading: 3 minutes . 3. Mali: Ten bloody days in the center of the country after JNIM attacks against the army - France 24. Mali: Ten bloody days in the center of the country after JNIM attacks against the army France 24\n\nBurkina Faso: 4 retained reports. 1. Reporting in Burkina Faso: when jihadist violence destroys the Great Green Wall. Abandoned sites, billions promised never arrived... In Burkina Faso, projects to restore degraded lands have stalled. The jihadist violence and the vagueness surrounding donor funding promises got the better of one of Africa's most ambitious ecological projects . 2. Burkina Faso. Gold feeds and kills: clandestine gold panning, this \"necessary evil\" - Le360 Afrique. Burkina Faso. Gold feeds and kills: clandestine gold panning, this \"necessary evil\" 360 Africa 3. Russia to provide more military aid, instructors to Burkina Faso - Reuters. Russia to provide more military aid, instructors to Burkina Faso Reuters\n\nNiger: 3 retained reports. 1. Collective defence: Three years later, what results for the ESA?. Three years after the signing of the Liptako-Gourma Charter, the collective defence of the Alliance of Sahel States (AES) is taking shape. Unified force, joint command and operational cooperation are the achievements. Their effectiveness remains difficult to assess. 2. Niger Soldiers Killed in Fighting Near Mali Border. Several Nigerien soldiers have been killed in a clash with heavily armed fighters near the border with Mali, an area affected by persistent terrorist violence. The Defence Ministry did not provide an exact death toll but said the fighters involved were “mercenaries”, a term authorities in the junta-led country use to refer to terrorists. The ministry said the fighting occurred around 6:30 am on Wednesday near Fartel in the western Tillaberi region, when soldiers attempting to intercept stolen livestock encountered a large group of heavily armed fighters travelling on motorcycles. 3. Niger: first interjihadist confrontation between the Islamic State and the JNIM - France 24. Niger: first interjihadist clash between the Islamic State and JNIM France 24\n\nActor picture: no same-day fused candidate events.\n\nWhat changed: Collection volume: +5 retained report(s) versus 2026-09-23 (16 → 21). Actor-level same-day fused event counts are unchanged from the previous date.\n\nIntelligence gaps: Collection confidence is low, so absence of reporting should not be interpreted as absence of activity.\n\nCollection confidence: LOW. no completed collection run recorded for this date\n\nAll retained source reports, including reports not promoted to the map, remain individually summarized in the intelligence feed and source records."
     },
     {
       "schema_version": "1.0",
       "site_patch_version": "3.3.3",
       "reporting_date": "2026-09-23",
-      "generated_at": "2026-10-02T22:32:02.144756Z",
+      "generated_at": "2026-10-02T23:03:36.530792Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -4380,7 +4380,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.3",
       "reporting_date": "2026-09-22",
-      "generated_at": "2026-10-02T22:32:02.295935Z",
+      "generated_at": "2026-10-02T23:03:37.106267Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -5307,7 +5307,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.3",
       "reporting_date": "2026-09-21",
-      "generated_at": "2026-10-02T22:32:02.102623Z",
+      "generated_at": "2026-10-02T23:03:36.516549Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -5821,7 +5821,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.3",
       "reporting_date": "2026-09-20",
-      "generated_at": "2026-10-02T22:32:02.368880Z",
+      "generated_at": "2026-10-02T23:03:36.463166Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -6465,7 +6465,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.3",
       "reporting_date": "2026-09-19",
-      "generated_at": "2026-10-02T22:32:02.395297Z",
+      "generated_at": "2026-10-02T23:03:37.013368Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -7160,7 +7160,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.3",
       "reporting_date": "2026-09-18",
-      "generated_at": "2026-10-02T22:32:02.586552Z",
+      "generated_at": "2026-10-02T23:03:36.794478Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -7370,7 +7370,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.3",
       "reporting_date": "2026-09-17",
-      "generated_at": "2026-10-02T22:32:02.453707Z",
+      "generated_at": "2026-10-02T23:03:36.572885Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -7637,7 +7637,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.3",
       "reporting_date": "2026-09-16",
-      "generated_at": "2026-10-02T22:32:02.416247Z",
+      "generated_at": "2026-10-02T23:03:37.175444Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -7799,7 +7799,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.3",
       "reporting_date": "2026-09-15",
-      "generated_at": "2026-10-02T22:32:02.617228Z",
+      "generated_at": "2026-10-02T23:03:36.740164Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -7961,7 +7961,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.3",
       "reporting_date": "2026-09-14",
-      "generated_at": "2026-10-02T22:32:02.525173Z",
+      "generated_at": "2026-10-02T23:03:36.791616Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -8123,7 +8123,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.3",
       "reporting_date": "2026-09-13",
-      "generated_at": "2026-10-02T22:32:02.351491Z",
+      "generated_at": "2026-10-02T23:03:37.079584Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -8285,7 +8285,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.3",
       "reporting_date": "2026-09-12",
-      "generated_at": "2026-10-02T22:32:02.516530Z",
+      "generated_at": "2026-10-02T23:03:37.198649Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -8447,7 +8447,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.3",
       "reporting_date": "2026-09-11",
-      "generated_at": "2026-10-02T22:32:02.135812Z",
+      "generated_at": "2026-10-02T23:03:36.809319Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -8609,7 +8609,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.3",
       "reporting_date": "2026-09-10",
-      "generated_at": "2026-10-02T22:32:02.114162Z",
+      "generated_at": "2026-10-02T23:03:36.944872Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -8867,7 +8867,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.3",
       "reporting_date": "2026-09-08",
-      "generated_at": "2026-10-02T22:32:02.535100Z",
+      "generated_at": "2026-10-02T23:03:36.806512Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -9029,7 +9029,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.3",
       "reporting_date": "2026-09-07",
-      "generated_at": "2026-10-02T22:32:02.345835Z",
+      "generated_at": "2026-10-02T23:03:36.978816Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -9195,7 +9195,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.3",
       "reporting_date": "2026-09-05",
-      "generated_at": "2026-10-02T22:32:02.279899Z",
+      "generated_at": "2026-10-02T23:03:36.726021Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -9357,7 +9357,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.3",
       "reporting_date": "2026-09-04",
-      "generated_at": "2026-10-02T22:32:02.119829Z",
+      "generated_at": "2026-10-02T23:03:36.545030Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -9519,7 +9519,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.3",
       "reporting_date": "2026-09-03",
-      "generated_at": "2026-10-02T22:32:02.577409Z",
+      "generated_at": "2026-10-02T23:03:36.681951Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -9681,7 +9681,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.3",
       "reporting_date": "2026-09-02",
-      "generated_at": "2026-10-02T22:32:02.622745Z",
+      "generated_at": "2026-10-02T23:03:36.692584Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -9843,7 +9843,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.3",
       "reporting_date": "2026-09-01",
-      "generated_at": "2026-10-02T22:32:02.354335Z",
+      "generated_at": "2026-10-02T23:03:36.922275Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -10005,7 +10005,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.3",
       "reporting_date": "2026-08-31",
-      "generated_at": "2026-10-02T22:32:02.230001Z",
+      "generated_at": "2026-10-02T23:03:36.987315Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -10167,7 +10167,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.3",
       "reporting_date": "2026-08-30",
-      "generated_at": "2026-10-02T22:32:02.538020Z",
+      "generated_at": "2026-10-02T23:03:37.134998Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -10329,7 +10329,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.3",
       "reporting_date": "2026-08-29",
-      "generated_at": "2026-10-02T22:32:02.650241Z",
+      "generated_at": "2026-10-02T23:03:36.884755Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
