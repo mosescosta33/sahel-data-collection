@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-02T01:33:21.425805Z",
+  "generated_at": "2026-10-02T02:31:18.992889Z",
   "window_days": 30,
   "cutoff": "2026-09-02",
-  "reports": 206,
+  "reports": 207,
   "incident_reports": 37,
   "candidate_events": 35,
   "corroborated_events": 2,
@@ -30,7 +30,7 @@
     "air/drone strike": 1
   },
   "by_language": {
-    "fr": 140,
+    "fr": 141,
     "en": 59,
     "ar": 7
   },
@@ -41,7 +41,7 @@
   "top_sources": [
     {
       "source": "Bamada",
-      "count": 20
+      "count": 21
     },
     {
       "source": "Malijet",
@@ -286,7 +286,7 @@
     },
     {
       "date": "2026-10-02",
-      "reports": 0,
+      "reports": 1,
       "events": 0
     }
   ],
@@ -3405,6 +3405,23 @@
   ],
   "latest_reports": [
     {
+      "published_at": "2026-10-02T01:09:46Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-02T02:29:43.828050Z",
+      "discovered_at": "2026-10-02T02:29:43.828050Z",
+      "timestamp_integrity": "complete",
+      "source": "Bamada",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": null,
+      "event_type": null,
+      "candidate_event": false,
+      "title": "OPERATION DOUGOUKOLOKO: FAMa MAINTAINS PRESSURE ON TERRORIST GROUPS IN TESSALIT, NAMPALA and SOFARA",
+      "url": "https://bamada.net/operation-dougoukoloko-les-fama-maintiennent-la-pression-sur-les-groupes-terroristes-a-tessalit-nampala-et-sofara"
+    },
+    {
       "published_at": "2026-10-01T23:47:58Z",
       "published_date_source": "feed",
       "published_time_precision": "datetime",
@@ -3561,8 +3578,8 @@
       "published_at": "2026-10-01T11:56:30Z",
       "published_date_source": "feed",
       "published_time_precision": "datetime",
-      "collected_at": "2026-10-02T01:32:01.133506Z",
-      "discovered_at": "2026-10-02T01:32:01.133506Z",
+      "collected_at": "2026-10-02T02:29:44.241773Z",
+      "discovered_at": "2026-10-02T02:29:44.241773Z",
       "timestamp_integrity": "complete",
       "source": "Africanews",
       "language": "en",
@@ -3680,8 +3697,8 @@
       "published_at": "2026-10-01T09:06:07Z",
       "published_date_source": "feed",
       "published_time_precision": "datetime",
-      "collected_at": "2026-10-02T01:32:17.955978Z",
-      "discovered_at": "2026-10-02T01:32:17.955978Z",
+      "collected_at": "2026-10-02T02:30:09.973007Z",
+      "discovered_at": "2026-10-02T02:30:09.973007Z",
       "timestamp_integrity": "complete",
       "source": "Africanews",
       "language": "en",
@@ -4066,23 +4083,6 @@
       "candidate_event": false,
       "title": "Mali: Mali Army and Russian Fighters Accused of Killing Dozens of Civilians",
       "url": "https://allafrica.com/stories/202609300127.html"
-    },
-    {
-      "published_at": "2026-09-30T05:20:33Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-02T01:32:24.383549Z",
-      "discovered_at": "2026-10-02T01:32:24.383549Z",
-      "timestamp_integrity": "complete",
-      "source": "Africanews",
-      "language": "en",
-      "actor": null,
-      "country": "Burkina Faso",
-      "city": null,
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Burkina Faso opens first gold refinery in push for economic independence",
-      "url": "https://www.africanews.com/2026/09/30/burkina-faso-opens-first-gold-refinery-in-push-for-economic-independence/"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
