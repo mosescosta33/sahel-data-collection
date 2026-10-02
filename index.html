@@ -6,19 +6,19 @@
   <meta name="theme-color" content="#e5ebee" />
   <script>try{document.documentElement.dataset.theme=localStorage.getItem('sicTheme')||'light'}catch(e){document.documentElement.dataset.theme='light'}</script>
   <title>Sahel Intel Collection</title>
-  <link rel="stylesheet" href="./styles.css?v=4.0.0" />
+  <link rel="stylesheet" href="./styles.css?v=4.1.0" />
   <link rel="stylesheet" href="./briefings.css" />
   <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.12.0/dist/maplibre-gl.css" />
-  <link rel="stylesheet" href="./map-ui.css?v=4.0.0" />
+  <link rel="stylesheet" href="./map-ui.css?v=4.1.0" />
   <link rel="stylesheet" href="./logs.css" />
-  <link rel="stylesheet" href="./readability.css?v=4.0.0" />
-  <link rel="stylesheet" href="./research-lab.css?v=4.0.0" />
+  <link rel="stylesheet" href="./readability.css?v=4.1.0" />
+  <link rel="stylesheet" href="./research-lab.css?v=4.1.0" />
 </head>
 <body>
   <header class="topbar">
     <div class="brand"><div class="brandmark">SIC</div><div><h1>SAHEL INTEL COLLECTION</h1><p>AUTOMATED MULTILINGUAL OPEN-SOURCE COLLECTION • FR / AR / EN</p></div></div>
     <div class="ownercenter"><strong>MOSES COSTA</strong></div>
-    <div class="topmeta"><span id="patchBadge" class="versionbadge" title="Site patch version">PATCH v4.0.0</span><button id="themeToggle" class="theme-toggle" type="button" aria-label="Switch light and dark mode">☀ LIGHT</button><span id="systemBadge" class="status offline">OFFLINE</span><span id="heartbeat">waiting for collector</span><span id="clock"></span></div>
+    <div class="topmeta"><span id="patchBadge" class="versionbadge" title="Site patch version">PATCH v4.1.0</span><button id="themeToggle" class="theme-toggle" type="button" aria-label="Switch light and dark mode">☀ LIGHT</button><span id="systemBadge" class="status offline">OFFLINE</span><span id="heartbeat">waiting for collector</span><span id="clock"></span></div>
   </header>
 
   <nav class="tabs">
@@ -62,8 +62,20 @@
             <article class="actorcard" data-actor="JNIM"><span>JNIM</span><strong id="jnim7">0</strong><em id="jnimChange">—</em><div id="jnimSpark" class="spark"></div></article>
             <article class="actorcard" data-actor="IS Sahel"><span>IS SAHEL</span><strong id="is7">0</strong><em id="isChange">—</em><div id="isSpark" class="spark"></div></article>
             <article class="actorcard" data-actor="State"><span>STATE ACTIVITY</span><strong id="state7">0</strong><em id="stateChange">—</em><div id="stateSpark" class="spark"></div></article>
+            <article class="actorcard" data-actor="Africa Corps/Wagner"><span>AFRICA CORPS / WAGNER</span><strong id="africa7">0</strong><em id="africaChange">—</em><div id="africaSpark" class="spark"></div></article>
           </div>
-          <p class="note">Counts are fused candidate events extracted from monitored open-source reporting. They are not automatically verified incidents.</p>
+          <div class="russian-logistics-panel">
+            <div class="panelhead"><div><span class="eyebrow">AGGREGATED FLIGHT-LOG OSINT</span><h3>Russian / Africa Corps Logistics Activity</h3></div><span id="rlogStatus" class="methodpill">NOT CONFIGURED</span></div>
+            <div class="russian-logistics-metrics">
+              <div><span>LAST 24H</span><strong id="rlog24">0</strong></div>
+              <div><span>7 DAYS</span><strong id="rlog7">0</strong></div>
+              <div><span>30 DAYS</span><strong id="rlog30">0</strong></div>
+              <div><span>7D CHANGE</span><strong id="rlogChange">—</strong></div>
+            </div>
+            <div id="rlogChart" class="russian-logistics-chart"></div>
+            <p id="rlogNote" class="note">Flight-log observations are a logistics proxy, not a confirmed troop count. Public output is aggregate-only.</p>
+          </div>
+          <p class="note">Counts are fused candidate events extracted from monitored open-source reporting. Africa Corps/Wagner can overlap State activity when Russian personnel are coded as a supporting force.</p>
         </section>
 
         <section class="panel threat-panel">
@@ -112,24 +124,40 @@
       </div>
     </section>
     <section id="view-briefings" class="view">
-      <div class="grid">
-<aside class="panel sultana">
-          <div class="analyst-head"><img src="./assets/sultana.png" alt="Sultana Al-Qahtani, stylized AI analyst avatar"/><div><span class="eyebrow">AI ANALYST • SAHEL DESK</span><h2>Sultana Al-Qahtani</h2><p id="briefStamp">Awaiting briefing.</p></div></div>
-          <div id="briefing" class="briefing">The collector has not generated a briefing yet.</div>
-          <div class="sultana-reader">
-            <div class="reader-head"><span class="eyebrow">CONTINUOUS SOURCE READER</span><span id="readerStatus">Loading readable sources…</span></div>
-            <div class="reader-controls">
-              <button id="sourceLoopBtn" class="primary">▶ SOURCE LOOP</button>
-              <button id="pauseLoopBtn">Ⅱ PAUSE</button>
-              <button id="stopBtn">■ STOP</button>
-              <label class="reader-range-label" for="readerRange">Read</label>
-              <select id="readerRange"><option value="1">24H</option><option value="7">7D</option><option value="30" selected>30D</option><option value="all">ALL</option></select>
-            </div>
-            <div id="readerNow" class="reader-now"></div>
-            <p class="reader-note">Reads English originals plus French/Arabic reports only after an English translation succeeds. When the queue ends, Sultana refreshes the feed and starts again.</p>
+      <div class="grid sultana-briefing-grid">
+        <section class="panel sultana sultana-daily-product">
+          <div class="analyst-head">
+            <img src="./assets/sultana.png" alt="Sultana Al-Qahtani, stylized AI analyst avatar"/>
+            <div><span class="eyebrow">24-HOUR AES INTELLIGENCE BRIEF</span><h2>Sultana Al-Qahtani</h2><p id="briefStamp">Awaiting the next completed desk brief.</p></div>
           </div>
-          <div class="brief-controls"><button id="briefBtn">▶ BRIEF ME</button></div>
+          <div id="sultanaBriefMeta" class="sultana-brief-meta"></div>
+          <article id="briefing" class="briefing sultana-intel-paper">The collector has not generated a 24-hour brief yet.</article>
+          <div class="brief-controls sultana-download-controls">
+            <button id="briefBtn" class="primary">▶ READ BRIEF</button>
+            <button id="downloadSultanaTxt" type="button">DOWNLOAD TXT</button>
+            <button id="downloadSultanaJson" type="button">DOWNLOAD JSON</button>
+            <button id="downloadAllSultanaJson" type="button">DOWNLOAD ALL BRIEFS</button>
+          </div>
           <div class="voice-row"><label for="voiceSelect">Voice</label><select id="voiceSelect"></select><span id="voiceStatus">browser speech</span></div>
+        </section>
+
+        <section class="panel sultana-archive-panel">
+          <div class="panelhead"><div><span class="eyebrow">PERMANENT DAILY RECORD</span><h2>Sultana Briefing Archive</h2></div><span id="sultanaArchiveCount" class="methodpill">0 briefs</span></div>
+          <p class="note">One frozen brief is created per Washington, DC desk day. Each product reviews every retained report collected in its preceding 24-hour window and preserves the complete article manifest used for the assessment.</p>
+          <div id="sultanaArchive" class="sultana-archive-list"><div class="runbox">No archived Sultana briefings yet.</div></div>
+        </section>
+
+        <aside class="panel sultana">
+          <div class="reader-head"><span class="eyebrow">CONTINUOUS SOURCE READER</span><span id="readerStatus">Loading readable sources…</span></div>
+          <div class="reader-controls">
+            <button id="sourceLoopBtn" class="primary">▶ SOURCE LOOP</button>
+            <button id="pauseLoopBtn">Ⅱ PAUSE</button>
+            <button id="stopBtn">■ STOP</button>
+            <label class="reader-range-label" for="readerRange">Read</label>
+            <select id="readerRange"><option value="1">24H</option><option value="7">7D</option><option value="30" selected>30D</option><option value="all">ALL</option></select>
+          </div>
+          <div id="readerNow" class="reader-now"></div>
+          <p class="reader-note">This reader is separate from the frozen daily product. It continuously reads source reporting; Sultana's archived intelligence brief is generated only once per desk day.</p>
         </aside>
       </div>
     </section>
@@ -247,9 +275,9 @@
       <details class="ql-osint"><summary class="ql-osint-heading">OSINT candidate-event trends</summary><p class="note">This series uses Sahel Intel candidate events. ACLED research above uses your separate validated export.</p>
       <div class="grid quant-grid">
         <section class="panel fullspan">
-          <div class="panelhead"><div><span class="eyebrow">SAHEL ACTIVITY TREND VIEW</span><h2>JNIM • IS Sahel • State Activity</h2></div><div class="filterbar"><button class="range active" data-days="30">30D</button><button class="range" data-days="90">90D</button><button class="range" data-days="180">180D</button></div></div>
+          <div class="panelhead"><div><span class="eyebrow">SAHEL ACTIVITY TREND VIEW</span><h2>JNIM • IS Sahel • State • Africa Corps / Wagner</h2></div><div class="filterbar"><button class="range active" data-days="30">30D</button><button class="range" data-days="90">90D</button><button class="range" data-days="180">180D</button></div></div>
           <div id="actorChart" class="bigchart"></div>
-          <div class="chartlegend"><span><i class="dot jnim"></i>JNIM</span><span><i class="dot is"></i>IS Sahel</span><span><i class="dot state"></i>State</span></div>
+          <div class="chartlegend"><span><i class="dot jnim"></i>JNIM</span><span><i class="dot is"></i>IS Sahel</span><span><i class="dot state"></i>State</span><span><i class="dot africa"></i>Africa Corps / Wagner</span></div>
           <div id="actorChartReadout" class="chart-readout"></div>
           <details class="chart-data-details"><summary>SHOW EXACT DAILY VALUES</summary><div id="actorChartData" class="chart-data-table"></div></details>
           <p id="metricNote" class="note"></p>
@@ -257,6 +285,7 @@
         <section class="panel"><span class="eyebrow">JNIM ACTIVITY</span><h2>7D / 30D</h2><div class="dual-quant"><div><small>7 DAYS</small><strong id="qJnim">0</strong><span id="qJnimChange">—</span></div><div><small>30 DAYS</small><strong id="qJnim30">0</strong><span id="qJnim30Change">—</span></div></div></section>
         <section class="panel"><span class="eyebrow">IS SAHEL ACTIVITY</span><h2>7D / 30D</h2><div class="dual-quant"><div><small>7 DAYS</small><strong id="qIs">0</strong><span id="qIsChange">—</span></div><div><small>30 DAYS</small><strong id="qIs30">0</strong><span id="qIs30Change">—</span></div></div></section>
         <section class="panel"><span class="eyebrow">STATE ACTIVITY</span><h2>7D / 30D</h2><div class="dual-quant"><div><small>7 DAYS</small><strong id="qState">0</strong><span id="qStateChange">—</span></div><div><small>30 DAYS</small><strong id="qState30">0</strong><span id="qState30Change">—</span></div></div></section>
+        <section class="panel"><span class="eyebrow">AFRICA CORPS / WAGNER</span><h2>7D / 30D</h2><div class="dual-quant"><div><small>7 DAYS</small><strong id="qAfrica">0</strong><span id="qAfricaChange">—</span></div><div><small>30 DAYS</small><strong id="qAfrica30">0</strong><span id="qAfrica30Change">—</span></div></div></section>
       </div>
       </details>
     </section>
@@ -351,12 +380,12 @@
   </main>
   <script src="https://unpkg.com/maplibre-gl@5.12.0/dist/maplibre-gl.js"></script>
   <script src="./map-data.js"></script>
-  <script src="./map-ui.js?v=4.0.0"></script>
-  <script src="./app.js?v=4.0.0"></script>
-  <script src="./event-drawer.js?v=4.0.0"></script>
-  <script src="./civilian-harm.js?v=4.0.0"></script>
+  <script src="./map-ui.js?v=4.1.0"></script>
+  <script src="./app.js?v=4.1.0"></script>
+  <script src="./event-drawer.js?v=4.1.0"></script>
+  <script src="./civilian-harm.js?v=4.1.0"></script>
   <script src="./logs.js"></script>
-  <script src="./research-lab.js?v=4.0.0"></script>
+  <script src="./research-lab.js?v=4.1.0"></script>
 </body>
 </html>
 

@@ -1,5 +1,5 @@
-const SITE_UI_VERSION='4.0.0';
-const state={overview:null,reports:[],events:[],metrics:null,thirty:null,sources:[],runs:[],briefing:null,actorFilter:'all',mapDays:7,langFilter:'all',countryFilter:'all',range:30,voices:[],speaking:false,readerRunning:false,readerPaused:false,readerIndex:0,readerCycle:0,readerRange:30,readerQueue:[],readerSession:0,timelineDate:null,savedReports:[],savedViewMode:'all'};
+const SITE_UI_VERSION='4.1.0';
+const state={overview:null,reports:[],events:[],metrics:null,thirty:null,sources:[],runs:[],briefing:null,sultanaArchive:{briefings:[]},russianLogistics:null,actorFilter:'all',mapDays:7,langFilter:'all',countryFilter:'all',range:30,voices:[],speaking:false,readerRunning:false,readerPaused:false,readerIndex:0,readerCycle:0,readerRange:30,readerQueue:[],readerSession:0,timelineDate:null,savedReports:[],savedViewMode:'all'};
 const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
 const esc=s=>String(s??'').replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
 const fmtTime=v=>{if(!v)return '—'; const d=new Date(v); return isNaN(d)?'—':d.toLocaleString()};
@@ -11,7 +11,7 @@ function statusClass(s){s=(s||'OFFLINE').toLowerCase();return s==='live'?'live':
 function applyStatus(status,detail){['systemBadge','opsBadge'].forEach(id=>{const e=document.getElementById(id);if(!e)return;e.textContent=status;e.className=`status ${statusClass(status)}`});setText('heartbeat',detail||'');}
 function pct(t){if(!t)return '—';if(t.change_pct===null||t.change_pct===undefined)return t.current>0?'▲ NEW':'—';const n=Number(t.change_pct)||0;return `${n>0?'▲':n<0?'▼':'•'} ${Math.abs(n).toFixed(1)}%`}
 function trendClass(t){if(!t||t.change_pct===null||t.change_pct===undefined)return t&&t.current>0?'up':'flat';return t.change_pct>1?'up':t.change_pct<-1?'down':'flat'}
-function actorColor(a){return a==='JNIM'?'#ef6262':a==='IS Sahel'?'#b47cff':a==='State'?'#e7ad53':'#63a8ff'}
+function actorColor(a){return a==='JNIM'?'#ef6262':a==='IS Sahel'?'#b47cff':a==='State'?'#e7ad53':a==='Africa Corps/Wagner'?'#48d5a2':'#63a8ff'}
 function clock(){const now=new Date();setText('clock',`YOUR TIME ${now.toLocaleTimeString([], {hour12:false})}`);}
 setInterval(clock,1000);clock();
 function applyTheme(theme){
@@ -118,11 +118,13 @@ window.SAHEL_APP={state,esc,fmtTimestampUTC,reportKey,isReportSaved,reportSnapsh
 
 async function refresh(){
   try{
-    const [overview,reports,events,metrics,sources,runs,briefing,thirty]=await Promise.all([
+    const [overview,reports,events,metrics,sources,runs,briefing,thirty,sultanaArchive,russianLogistics]=await Promise.all([
       data('overview'),data('reports'),data('events'),data('metrics'),data('sources'),data('runs'),data('briefing'),
-      data('thirty_day').catch(()=>null)
+      data('thirty_day').catch(()=>null),
+      data('sultana_briefing_archive').catch(()=>({briefings:[]})),
+      data('russian_logistics').catch(()=>null)
     ]);
-    Object.assign(state,{overview,reports,events,metrics,sources,runs,briefing,thirty});
+    Object.assign(state,{overview,reports,events,metrics,sources,runs,briefing,thirty,sultanaArchive,russianLogistics});
     renderOverview();renderThreat();renderMap();renderActors();renderFeeds();renderSavedReports();renderBriefing();renderThirty();updateReaderStatus();window.SAHEL_EVENT_DRAWER?.openHash?.();
     const active=$('.view.active')?.id;
     if(active==='view-quant')renderQuant();
@@ -400,9 +402,23 @@ function chartDataTable(labels,seriesList){
   const body=Array.from({length:n},(_,i)=>'<tr><td>'+esc(labels[i]||'—')+'</td>'+seriesList.map(x=>'<td>'+esc((x.values||[])[i]??0)+'</td>').join('')+'</tr>').join('');
   return '<table class="numeric-data-table">'+head+'<tbody>'+body+'</tbody></table>';
 }
+function renderRussianLogistics(){
+  const r=state.russianLogistics||{};
+  setText('rlogStatus',r.configured?'ACTIVE AGGREGATE':'NOT CONFIGURED');
+  setText('rlog24',r.last_24h??0);
+  setText('rlog7',r.current_7d??0);
+  setText('rlog30',r.current_30d??0);
+  const ch=$('#rlogChange');
+  if(ch){if(r.change_7d_pct===null||r.change_7d_pct===undefined){ch.textContent=(r.current_7d??0)>0?'NEW':'—';ch.className='flat'}else{const n=Number(r.change_7d_pct)||0;ch.textContent=`${n>0?'+':''}${n.toFixed(1)}%`;ch.className=n>0?'up':n<0?'down':'flat';}}
+  const rows=Array.isArray(r.daily)?r.daily.slice(-30):[];
+  const labels=rows.map(x=>x.date),values=rows.map(x=>Number(x.count)||0);
+  const host=$('#rlogChart');
+  if(host)host.innerHTML=rows.length?lineSVG([{label:'Aggregated logistics observations',values,color:actorColor('Africa Corps/Wagner')}],{height:150,showAxes:true,labels,pointLabels:true})+'<div class="mini-chart-readout">'+esc(chartDateLabel(labels[0]))+' → '+esc(chartDateLabel(labels.at(-1)))+' • 30D total '+values.reduce((a,b)=>a+b,0)+'</div>':'<div class="runbox">No compliant flight-log observations have been ingested yet.</div>';
+  setText('rlogNote',(r.method_note||'Flight-log observations are a logistics proxy, not a confirmed troop count.')+' '+(r.public_redaction||''));
+}
 function renderActors(){
   const m=state.metrics;if(!m)return;
-  const ids={'JNIM':['jnim7','jnimChange','jnimSpark'],'IS Sahel':['is7','isChange','isSpark'],'State':['state7','stateChange','stateSpark']};
+  const ids={'JNIM':['jnim7','jnimChange','jnimSpark'],'IS Sahel':['is7','isChange','isSpark'],'State':['state7','stateChange','stateSpark'],'Africa Corps/Wagner':['africa7','africaChange','africaSpark']};
   Object.entries(ids).forEach(([actor,[countId,chgId,sparkId]])=>{
     const trend=m.trends_7d?.[actor],rows=(m.series?.[actor]||[]).slice(-30);
     setText(countId,trend?.current??0);
@@ -412,10 +428,11 @@ function renderActors(){
     $('#'+sparkId).innerHTML=lineSVG([{label:actor,values:values,color:actorColor(actor)}],{height:92,showAxes:true,labels:labels,pointLabels:true})+
       '<div class="mini-chart-readout">'+esc(chartDateLabel(labels[0]))+' → '+esc(chartDateLabel(labels.at(-1)))+' • latest '+latest+' • 30D total '+total+' • max/day '+max+'</div>';
   });
+  renderRussianLogistics();
 }
 function renderQuant(){
   const m=state.metrics;if(!m)return;
-  const actors=['JNIM','IS Sahel','State'];
+  const actors=['JNIM','IS Sahel','State','Africa Corps/Wagner'];
   const rowsByActor=Object.fromEntries(actors.map(a=>[a,(m.series?.[a]||[]).slice(-state.range)]));
   const labels=(rowsByActor['JNIM']||[]).map(x=>x.date);
   const series=actors.map(a=>({label:a,color:actorColor(a),values:(rowsByActor[a]||[]).map(x=>Number(x.count)||0)}));
@@ -424,7 +441,7 @@ function renderQuant(){
   setText('actorChartReadout',chartDateLabel(labels[0])+' → '+chartDateLabel(labels.at(-1))+' • '+readout);
   const dataHost=$('#actorChartData');if(dataHost)dataHost.innerHTML=chartDataTable(labels,series);
   setText('metricNote',m.method_note||'');
-  [['JNIM','qJnim','qJnimChange','qJnim30','qJnim30Change'],['IS Sahel','qIs','qIsChange','qIs30','qIs30Change'],['State','qState','qStateChange','qState30','qState30Change']].forEach(([a,cid,xid,c30,x30])=>{
+  [['JNIM','qJnim','qJnimChange','qJnim30','qJnim30Change'],['IS Sahel','qIs','qIsChange','qIs30','qIs30Change'],['State','qState','qStateChange','qState30','qState30Change'],['Africa Corps/Wagner','qAfrica','qAfricaChange','qAfrica30','qAfrica30Change']].forEach(([a,cid,xid,c30,x30])=>{
     const t7=m.trends_7d?.[a],t30=m.trends_30d?.[a];
     setText(cid,t7?.current??0);const e7=$('#'+xid);e7.textContent=pct(t7);e7.className='quantchange '+trendClass(t7);
     setText(c30,t30?.current??0);const e30=$('#'+x30);e30.textContent=pct(t30);e30.className='quantchange '+trendClass(t30);
@@ -468,7 +485,45 @@ function renderThirty(){
   const clear=$('#clearTimelineFilter');if(clear){clear.hidden=!state.timelineDate;clear.onclick=()=>{state.timelineDate=null;renderMap();renderThirty()}};
 }
 
-function renderBriefing(){const b=state.briefing;if(!b)return;setText('briefStamp',`${b.method} • ${b.freshness_status||'status unavailable'} • ${fmtTime(b.generated_at)}`);setText('briefing',b.text||'No briefing generated.');}
+function downloadSultanaBrief(b,format='json'){
+  if(!b)return;
+  const date=String(b.reporting_date||new Date().toISOString().slice(0,10));
+  if(format==='txt'){downloadBlob(b.text||'No briefing text available.',`sultana-aes-brief-${date}.txt`,'text/plain;charset=utf-8');return;}
+  downloadBlob(JSON.stringify(b,null,2),`sultana-aes-brief-${date}.json`,'application/json;charset=utf-8');
+}
+function renderSultanaArchive(){
+  const host=$('#sultanaArchive');if(!host)return;
+  const rows=Array.isArray(state.sultanaArchive?.briefings)?state.sultanaArchive.briefings:[];
+  setText('sultanaArchiveCount',`${rows.length} brief${rows.length===1?'':'s'}`);
+  host.innerHTML=rows.map((b,i)=>{
+    const cov=b.coverage||{};
+    return `<article class="sultana-archive-row"><div><strong>${esc(b.reporting_date||'Undated')}</strong><span>${esc(cov.retained_articles_reviewed??0)} articles • ${esc(cov.distinct_sources??0)} sources • ${esc(b.assessment_confidence||'UNRATED')} confidence</span></div><div class="sultana-archive-actions"><button type="button" data-sultana-download="${i}" data-format="txt">TXT</button><button type="button" data-sultana-download="${i}" data-format="json">JSON</button></div></article>`;
+  }).join('')||'<div class="runbox">No archived Sultana briefings yet.</div>';
+  host.querySelectorAll('[data-sultana-download]').forEach(btn=>{btn.onclick=()=>downloadSultanaBrief(rows[Number(btn.dataset.sultanaDownload)],btn.dataset.format||'json');});
+}
+function renderBriefing(){
+  const b=state.briefing;if(!b)return;
+  const cov=b.coverage||{};
+  setText('briefStamp',`Frozen 24H product • ${b.reporting_date||'undated'} • ${b.assessment_confidence||'UNRATED'} confidence • generated ${fmtTime(b.generated_at)}`);
+  const meta=$('#sultanaBriefMeta');
+  if(meta)meta.innerHTML=[
+    ['ARTICLES REVIEWED',cov.retained_articles_reviewed??0],
+    ['DISTINCT SOURCES',cov.distinct_sources??0],
+    ['LINKED EVENTS',cov.linked_candidate_events??0],
+    ['MULTI-SOURCE',cov.multi_source_candidate_events??0],
+    ['WINDOW','24H'],
+    ['CONFIDENCE',b.assessment_confidence||'UNRATED']
+  ].map(([k,v])=>`<div><span>${esc(k)}</span><strong>${esc(v)}</strong></div>`).join('');
+  const host=$('#briefing');
+  if(host){
+    const sections=Array.isArray(b.sections)?b.sections:[];
+    host.innerHTML=sections.length?sections.map(s=>`<section class="sultana-brief-section"><h3>${esc(s.heading||'Assessment')}</h3>${s.text?`<p>${esc(s.text)}</p>`:''}${Array.isArray(s.bullets)&&s.bullets.length?`<ul>${s.bullets.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`:''}</section>`).join(''):`<pre>${esc(b.text||'No briefing generated.')}</pre>`;
+  }
+  const txt=$('#downloadSultanaTxt');if(txt)txt.onclick=()=>downloadSultanaBrief(b,'txt');
+  const json=$('#downloadSultanaJson');if(json)json.onclick=()=>downloadSultanaBrief(b,'json');
+  const all=$('#downloadAllSultanaJson');if(all)all.onclick=()=>downloadBlob(JSON.stringify(state.sultanaArchive||{briefings:[]},null,2),'sultana-aes-briefing-archive.json','application/json;charset=utf-8');
+  renderSultanaArchive();
+}
 
 function renderOps(){
   const o=state.overview||{},r=o.last_run||{},on=o.source_onboarding||{};setText('sourceMonitorTitle',`${o.sources_configured??state.sources.length??74} Active Sources • ${on.candidate_total??300} Candidate Registry`);

@@ -1,16 +1,16 @@
 {
   "status": "LIVE",
-  "site_patch_version": "2.9.3",
-  "status_detail": "Last automated GitHub collection completed 2026-10-02T06:39:27.871785Z; 161/176 sources yielded a direct or indexed discovery path.",
-  "last_collection": "2026-10-02T06:39:27.871785Z",
+  "site_patch_version": "3.3.3",
+  "status_detail": "Last automated GitHub collection completed 2026-10-02T07:03:20.541489Z; 161/176 sources yielded a direct or indexed discovery path.",
+  "last_collection": "2026-10-02T07:03:20.541489Z",
   "reports_24h": 18,
   "distinct_sources_24h": 11,
   "candidate_events_24h": 1,
   "mapped_events_24h": 0,
   "mapped_locations_24h": 0,
   "sources_configured": 176,
-  "sources_live": 133,
-  "sources_degraded": 28,
+  "sources_live": 132,
+  "sources_degraded": 29,
   "sources_failed": 15,
   "source_onboarding": {
     "candidate_total": 300,
@@ -40,8 +40,8 @@
     "en": {
       "configured_sources": 84,
       "archive_reports": 223,
-      "reports_30d": 67,
-      "distinct_sources_30d": 24,
+      "reports_30d": 65,
+      "distinct_sources_30d": 22,
       "candidate_event_reports_30d": 7,
       "translations_success_archive": 0,
       "translations_pending_or_failed": 0
@@ -80,7 +80,7 @@
     "multilateral": 2
   },
   "threat": {
-    "generated_at": "2026-10-02T06:39:27.843118Z",
+    "generated_at": "2026-10-02T07:03:20.520418Z",
     "model_version": "0.1-experimental",
     "label": "Experimental Conflict Threat Level",
     "regional": {
@@ -144,36 +144,38 @@
     "method_note": "Experimental research indicator derived from fused candidate events, recent country-relative tempo, significance, militant activity, civilian-threat signals, geographic spread and corroboration. It is not a travel advisory, verified incident count, or forecast. Collection gaps reduce confidence rather than automatically reducing threat."
   },
   "data_quality": {
-    "generated_at": "2026-10-02T06:39:27.871392Z",
+    "generated_at": "2026-10-02T07:03:20.541024Z",
     "events_30d": 35,
     "date_resolution_pct": 86,
     "precise_geography_pct": 74,
     "actor_attribution_pct": 80,
     "multi_source_corroboration_pct": 6,
-    "collection_blind_spots": [],
-    "collection_status": "NOMINAL",
+    "collection_blind_spots": [
+      "44 configured sources are degraded or failed"
+    ],
+    "collection_status": "DEGRADED",
     "language_reports_30d": {
       "fr": 158,
-      "en": 67,
+      "en": 65,
       "ar": 7
     },
     "note": "Quality percentages describe fields present in Sahel Intel fused candidate events; they are not accuracy estimates."
   },
   "last_run": {
-    "started_at": "2026-10-02T06:32:18.685991Z",
-    "finished_at": "2026-10-02T06:39:27.871785Z",
+    "started_at": "2026-10-02T06:57:04.859734Z",
+    "finished_at": "2026-10-02T07:03:20.541489Z",
     "status": "complete",
-    "site_patch_version": "2.9.3",
+    "site_patch_version": "3.3.3",
     "sources_total": 176,
     "sources_success": 161,
     "sources_failed": 15,
-    "documents_discovered": 12658,
+    "documents_discovered": 12511,
     "documents_selected": 480,
-    "prefetch_skipped": 11192,
+    "prefetch_skipped": 11073,
     "known_url_skipped": 85,
-    "duplicate_url_skipped": 355,
+    "duplicate_url_skipped": 346,
     "title_duplicates_skipped": 84,
-    "source_cap_skipped": 346,
+    "source_cap_skipped": 343,
     "documents_retained": 11,
     "report_target": 100,
     "report_target_progress": 11,
@@ -187,7 +189,7 @@
     "collection_waves": 3,
     "fetch_candidates_attempted": 480,
     "targeted_sources_queried": 36,
-    "targeted_links_discovered": 14,
+    "targeted_links_discovered": 16,
     "dynamic_sources_loaded": 102,
     "source_candidates_total": 300,
     "source_candidates_verified_or_active": 159,
@@ -202,8 +204,8 @@
     "candidate_events_archive": 69,
     "candidate_events_7d": 10,
     "candidate_events_30d": 35,
-    "reports_30d": 207,
-    "sources_30d": 58,
+    "reports_30d": 205,
+    "sources_30d": 56,
     "event_changes": 0,
     "indexed_context_archive": 32,
     "research_leads_archive": 176,
@@ -216,9 +218,9 @@
     "reports_missing_collection_timestamp": 0,
     "funnel_unaccounted": 0,
     "selected_by_language": {
-      "fr": 381,
-      "en": 46,
-      "ar": 53,
+      "fr": 374,
+      "en": 45,
+      "ar": 61,
       "other": 0
     },
     "retained_cycle_by_language": {
