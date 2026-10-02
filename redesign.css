@@ -1,0 +1,117 @@
+/* Sahel Intelligence Desk — research interface, v4.3.0.
+   Loaded last. Actor colors and map-marker geometry remain data-owned. */
+html[data-theme]{--ui-font:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;--page:#101820;--surface:#18232e;--surface-soft:#1e2d3b;--ink:#f5f7fa;--secondary:#c0ccd7;--edge:#344451;--accent:#8bbaff;--accent-soft:#233c59;--bg:var(--page);--panel:var(--surface);--panel2:var(--surface-soft);--line:var(--edge);--text:var(--ink);--muted:var(--secondary);--chart-axis:var(--secondary);--chart-grid:var(--edge);color-scheme:dark}
+html[data-theme="light"]{--page:#f6f5f1;--surface:#fff;--surface-soft:#f0f3f6;--ink:#162330;--secondary:#475b6c;--edge:#dce3e8;--accent:#235ec7;--accent-soft:#eaf0fc;color-scheme:light}
+html[data-theme],html[data-theme] body{background:var(--page)!important;color:var(--ink)!important;font-family:var(--ui-font);font-size:16px;line-height:1.6}
+html[data-theme] body{padding-bottom:48px}
+html[data-theme] :is(h1,h2,h3,h4){color:var(--ink)!important;letter-spacing:-.025em;line-height:1.25}
+html[data-theme] :is(p,li,label,summary,td,th){font-family:var(--ui-font);font-size:14px}
+html[data-theme] :is(.note,.report p,.report-meta,.eyebrow,.brand p,.topmeta,.map-legend,.chartlegend,.map-heading p,.map-event-detail,.map-event-detail p,.map-country-only p,.map-timeline-note,.map-layer-switches legend,.metrics span,.source-health-mini span,.actorcard>span,.opscard span,.runbox,.subnote,.barrow,.timeline-row,.dual-quant small,.reader-note,.reader-now,.map-country-counts,.event-detail-grid small,.cluster-event-row span,.civilian-method-note,.civilian-case-meta,.civilian-evidence p,.civilian-breakdown-row,.civilian-empty,.mini-chart-readout,.chart-readout,.logs-toolbar label,.country-pipeline-metrics span){color:var(--ink)!important;font-family:var(--ui-font)!important;font-size:14px!important;line-height:1.65;letter-spacing:0;opacity:1}
+html[data-theme] :is(.eyebrow,.metrics span,.source-health-mini span,.actorcard>span,.opscard span,.map-layer-switches legend){font-size:12px!important;font-weight:700;letter-spacing:.08em;text-transform:uppercase}
+html[data-theme] :is(button:not(.sahel-dom-marker),select,input,textarea){font-family:var(--ui-font)!important;font-size:14px!important;letter-spacing:0;line-height:1.4}
+html[data-theme] :is(button:not(.sahel-dom-marker):not(.maplibregl-ctrl-icon),select,input:not([type="checkbox"]):not([type="range"]),textarea){min-height:40px;background:var(--surface)!important;color:var(--ink)!important;border:1px solid var(--edge)!important;border-radius:8px;padding:9px 13px}
+html[data-theme] button:not(.sahel-dom-marker):hover{border-color:var(--accent)!important}
+html[data-theme] :is(button,input,select,textarea,a,summary):focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+html[data-theme] :is(.filter.active,.lang.active,.range.active,.map-range.active,.country-feed.active,.civilian-country-filter.active,.civilian-range.active,.saved-view-filter.active,.ql-tabs button.active){background:var(--accent-soft)!important;color:var(--accent)!important;border-color:var(--accent)!important}
+html[data-theme] :is(button.primary,.ql-run){background:var(--accent)!important;color:var(--page)!important;border-color:var(--accent)!important}
+html[data-theme] .topbar{height:auto;min-height:100px;padding:22px max(28px,calc((100vw - 1480px)/2));gap:24px;position:relative;top:auto;background:var(--surface)!important;border-bottom:1px solid var(--edge)!important;backdrop-filter:none}
+.brand-lockup{display:flex;align-items:center;gap:15px;min-width:0}
+html[data-theme] .brandmark{display:grid;place-items:center;width:46px;height:46px;padding:0;background:var(--accent);color:var(--page);border:0;border-radius:13px;font:800 15px var(--ui-font);letter-spacing:-.03em;flex-shrink:0}
+html[data-theme] .brand h1{font-size:23px;letter-spacing:-.04em;margin:0;font-weight:800}
+html[data-theme] .brand p{font-size:13px!important;margin:4px 0 0;display:block}
+html[data-theme] .topmeta{margin:0;display:flex;flex-direction:row;align-items:center;gap:12px;flex-shrink:0}
+html[data-theme] .status{font:700 11px var(--ui-font);letter-spacing:.06em;border-radius:20px;padding:7px 11px;white-space:nowrap}
+html[data-theme] .tabs{background:var(--surface)!important;border-bottom:1px solid var(--edge);padding:0 max(28px,calc((100vw - 1480px)/2));gap:24px;overflow-x:auto;scrollbar-width:thin}
+html[data-theme] .tabs .tab{position:relative;background:transparent!important;border:0!important;border-bottom:3px solid transparent!important;border-radius:0;color:var(--secondary)!important;font-size:14px!important;min-height:57px;padding:16px 0 13px;white-space:nowrap;flex-shrink:0}
+html[data-theme] .tabs .tab.active{color:var(--accent)!important;border-bottom-color:var(--accent)!important}
+html[data-theme] .saved-tab-count{background:var(--accent-soft);color:var(--accent);border:0;border-radius:20px;padding:2px 7px;font-size:11px}
+html[data-theme] main{max-width:1536px;padding:32px 28px;margin:0 auto}
+.desk-intro{display:flex;justify-content:space-between;gap:36px;align-items:center;margin:0 0 30px;padding:6px 0 8px}
+.desk-intro-copy{max-width:720px}.desk-intro h2{font-size:clamp(28px,3.2vw,44px);line-height:1.13;letter-spacing:-.045em;margin:10px 0 13px;font-weight:750}
+.desk-intro p{font-size:16px!important;line-height:1.65;margin:0 0 12px;max-width:660px;color:var(--secondary)}
+.desk-updated{font-size:12px;color:var(--secondary);display:flex;align-items:center;gap:8px}
+.desk-updated::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--secondary);flex-shrink:0}
+.desk-stats{display:grid;grid-template-columns:repeat(3,minmax(90px,1fr));gap:22px;min-width:330px}
+.desk-stat{border-left:1px solid var(--edge);padding-left:20px}.desk-stat strong{display:block;font-size:34px;line-height:1.2;font-weight:750;letter-spacing:-.05em;font-variant-numeric:tabular-nums}.desk-stat span{display:block;font-size:12px;color:var(--secondary);line-height:1.5;margin-top:6px}
+html[data-theme] .grid{gap:24px}
+html[data-theme] .overview-grid{grid-template-columns:minmax(0,1fr) 320px;grid-template-areas:"map map" "actors sitrep" "thirty thirty" "feed feed"}
+html[data-theme] .panel{background:var(--surface)!important;border:1px solid var(--edge)!important;border-radius:16px;box-shadow:0 3px 12px rgba(15,30,45,.025)!important;padding:26px;min-width:0}
+html[data-theme] .panelhead{margin-bottom:22px;align-items:center;gap:16px}
+html[data-theme] .panel h2{font-size:23px;font-weight:750;margin:5px 0 0}
+html[data-theme] .panel h3{font-size:17px}
+html[data-theme] .map-panel{padding:24px!important}
+html[data-theme] .map-heading{align-items:flex-start;gap:18px;margin-bottom:20px}
+html[data-theme] .map-heading h2{font-size:24px}
+html[data-theme] .map-heading p{margin-top:6px}
+html[data-theme] .map-heading .map-controls{gap:10px;align-items:flex-end;flex-direction:column}
+html[data-theme] .filterbar{gap:6px}
+html[data-theme] .intel-map-layout{grid-template-columns:minmax(0,1fr) 300px;gap:20px}
+html[data-theme] .intel-map-stage{height:520px;min-height:380px;border:1px solid var(--edge);border-radius:12px}
+html[data-theme] .map-explorer{background:var(--surface-soft)!important;border:0!important;border-radius:12px;min-height:0;max-height:520px;padding:22px}
+html[data-theme] .map-explorer h3{font-size:21px;margin:8px 0 16px}
+html[data-theme] .map-explorer-count{background:var(--accent-soft)!important;color:var(--accent)!important;font-size:13px!important;line-height:1.5;padding:12px 14px;border-radius:8px}
+html[data-theme] .map-event-detail{line-height:1.7}
+html[data-theme] .map-legend{gap:14px;margin:14px 0 0;font-size:12px!important}
+html[data-theme] .map-legend span:last-child{font-size:11px;color:var(--secondary)}
+html[data-theme] .map-timeline{border:0;border-top:1px solid var(--edge);border-radius:0;padding:18px 0 0;margin-top:18px;gap:20px}
+html[data-theme] .map-timeline input[type=range]{accent-color:var(--accent)}
+html[data-theme] .map-country-counts{border:0!important;background:transparent!important;padding:10px 0 0;font-size:12px!important}
+html[data-theme] .map-search input{box-shadow:0 3px 14px #102a341c;height:44px;border-radius:8px}
+html[data-theme] .map-search-results,html[data-theme] .map-style-select{background:var(--surface);color:var(--ink);border-color:var(--edge);border-radius:8px}
+html[data-theme] .map-style-select select{min-height:28px;padding:2px 5px;border:0!important}
+html[data-theme] .map .maplibregl-ctrl-group button{padding:0;min-height:29px;font-size:12px!important}
+html[data-theme] .actorcards{gap:16px;grid-template-columns:repeat(2,minmax(0,1fr))}
+html[data-theme] :is(.actorcard,.metrics>div,.source-health-mini>div,.opscard,.dual-quant>div){background:var(--surface-soft)!important;border:0!important;border-radius:10px;padding:18px;color:var(--ink)!important}
+html[data-theme] .actorcard{border-top:3px solid var(--edge)!important}
+html[data-theme] .actorcard[data-actor="JNIM"]{border-top-color:var(--red)!important}
+html[data-theme] .actorcard[data-actor="IS Sahel"]{border-top-color:var(--purple)!important}
+html[data-theme] .actorcard[data-actor="State"]{border-top-color:var(--amber)!important}
+html[data-theme] .actorcard[data-actor="Africa Corps/Wagner"]{border-top-color:var(--green)!important}
+html[data-theme] :is(.actorcard>strong,.metrics strong,.source-health-mini strong,.opscard strong,.dual-quant strong){font-family:var(--ui-font);color:var(--ink)!important;font-variant-numeric:tabular-nums;letter-spacing:-.04em;font-size:32px}
+html[data-theme] .source-health-mini{grid-template-columns:1fr;gap:0}.source-health-mini>div{display:flex;justify-content:space-between;align-items:center}
+html[data-theme] .source-health-mini>div{padding:10px 14px;border-radius:0}
+html[data-theme] .source-health-mini strong{font-size:20px}
+html[data-theme] :is(.methodpill,.badge,.civilian-pill,.export-link,.ql-source){background:var(--surface-soft);color:var(--secondary)!important;border:0;border-radius:6px;font:600 12px/1.5 var(--ui-font)!important;letter-spacing:0;padding:5px 9px}
+html[data-theme] :is(.runbox,.mini-chart-readout,.chart-readout,.chart-data-details,.dense-block,.event-timeline,.reader-now,.briefing){background:var(--surface-soft)!important;border:0!important;border-radius:10px;color:var(--ink)!important;padding:16px}
+html[data-theme] .runbox{border-left:3px solid var(--accent)!important}
+html[data-theme] :is(.chart-data-details>summary,.ql-shell summary){font:600 13px/1.5 var(--ui-font)!important;color:var(--accent)!important}
+html[data-theme] :is(.bigchart,.civilian-trend-chart){background:var(--surface)!important;border:0!important;padding:10px 0;height:390px}
+html[data-theme] .civilian-trend-chart svg{height:340px}
+html[data-theme] .thirty-chart{height:290px}.thirty-chart svg{min-height:240px}
+html[data-theme] .chartlegend{gap:22px;margin:16px 0}
+html[data-theme] .thirty-grid{gap:16px}
+html[data-theme] .feed{gap:0}
+html[data-theme] .report{border:0!important;border-bottom:1px solid var(--edge)!important;border-radius:0;background:transparent!important;padding:24px 0!important}
+html[data-theme] .report:first-child{padding-top:4px!important}
+html[data-theme] .report h3{font-size:19px!important;font-weight:700;line-height:1.4;margin:8px 0 10px}
+html[data-theme] .report p{font-size:15px!important;line-height:1.75;max-width:100ch}
+html[data-theme] .report-meta{font-size:12px!important;color:var(--secondary)!important}
+html[data-theme] :is(.report a,.map-source-links a,.civilian-case-actions a,.db-links a){color:var(--accent)!important;font:600 13px/1.6 var(--ui-font)!important;text-underline-offset:3px}
+html[data-theme] .report-top{flex-wrap:wrap;gap:8px}
+html[data-theme] .original{border-top:1px solid var(--edge);padding-top:12px;margin-top:14px}
+html[data-theme] .timeline-row{padding:16px;border-bottom:1px solid var(--edge)}
+html[data-theme] .timeline-row p{color:var(--ink)!important;line-height:1.6}
+html[data-theme] :is(.threat-country,.threat-regional,.integrity-card,.quality-card,.civilian-case,.civilian-metrics>div,.russian-logistics-panel){background:var(--surface-soft)!important;border-color:var(--edge)!important;border-radius:10px;padding:20px}
+html[data-theme] :is(.ql-shell,.ql-shell p,.ql-field,.ql-check,.ql-hint){font-size:14px;line-height:1.65}
+html[data-theme] .ql-heading{margin-bottom:28px}.ql-heading h2{font-size:34px}
+html[data-theme] :is(.ql-setup,.ql-content,.ql-card){background:var(--surface);border:1px solid var(--edge);border-radius:14px;padding:24px}
+html[data-theme] .ql-layout{gap:24px}
+html[data-theme] :is(.ql-stat,.ql-method,.ql-status,.ql-empty){border:0;background:var(--surface-soft);border-radius:10px;padding:18px}
+html[data-theme] .ql-stat strong{font-size:30px;letter-spacing:-.04em}
+html[data-theme] .ql-stat span{font-size:12px}
+html[data-theme] .ql-svg{max-height:560px;margin:24px 0}
+html[data-theme] .ql-result h3{font-size:24px}
+html[data-theme] :is(th,td){font-size:13px!important;line-height:1.5;padding:12px;border-color:var(--edge);color:var(--ink)!important}
+html[data-theme] th{font-weight:700;background:var(--surface-soft)!important}
+html[data-theme] :is(.source-table-wrap,.logs-table-wrap,.ql-table){border:1px solid var(--edge);border-radius:10px}
+.collection-diagnostics{padding:16px 20px;background:var(--surface-soft);border-radius:10px;margin-bottom:24px;color:var(--ink);overflow-wrap:anywhere}
+.collection-diagnostics summary{font-weight:650;cursor:pointer}.collection-diagnostics p{margin:12px 0;font-size:13px}.collection-diagnostics .versionbadge{display:inline-block;margin-right:16px}
+html[data-theme] .event-drawer-content{padding:28px}.event-dossier-title h2{font-size:28px}
+html[data-theme] .event-drawer-content p{font-size:15px;line-height:1.75}
+html[data-theme] .full{min-height:60vh}
+@media(min-width:1500px){html[data-theme] .actorcards{grid-template-columns:repeat(4,minmax(0,1fr))}}
+@media(max-width:1100px){.desk-intro{align-items:flex-start;flex-direction:column;gap:24px}.desk-stats{width:100%;max-width:620px}.desk-stat:first-child{border-left:0;padding-left:0}html[data-theme] .intel-map-layout{grid-template-columns:minmax(0,1fr) 270px}html[data-theme] .overview-grid{grid-template-columns:minmax(0,1fr);grid-template-areas:"map" "actors" "sitrep" "thirty" "feed"}html[data-theme] .source-health-mini{grid-template-columns:repeat(3,1fr)}html[data-theme] .map-heading .map-controls{align-items:flex-start}html[data-theme] .ql-layout{grid-template-columns:270px minmax(0,1fr)}}
+@media(max-width:800px){html[data-theme] .topbar{padding:18px 20px;gap:12px}html[data-theme] .brand h1{font-size:19px}html[data-theme] .brandmark{width:38px;height:38px;border-radius:10px}html[data-theme] .tabs{padding:0 20px;gap:22px}html[data-theme] main{padding:24px 18px}html[data-theme] .intel-map-layout{grid-template-columns:1fr}html[data-theme] .map-explorer{max-height:400px}html[data-theme] .intel-map-stage{height:440px}html[data-theme] .ql-layout{grid-template-columns:1fr}html[data-theme] .ql-heading{flex-direction:column}.desk-intro h2{font-size:34px}html[data-theme] .panel,html[data-theme] .map-panel{padding:20px!important}.desk-stats{min-width:0;gap:16px}html[data-theme] .thirty-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:540px){html[data-theme] .topbar{align-items:flex-start;flex-wrap:wrap;padding:16px}html[data-theme] .topmeta{width:100%;justify-content:space-between}.desk-intro h2{font-size:30px}.desk-intro p{font-size:15px!important}.desk-stat{padding-left:12px}.desk-stat strong{font-size:28px}.desk-stat span{font-size:11px}html[data-theme] main{padding:22px 12px}html[data-theme] .panel,html[data-theme] .map-panel{padding:16px!important;border-radius:12px}html[data-theme] .actorcards{grid-template-columns:1fr}html[data-theme] .intel-map-stage{height:390px;min-height:340px}html[data-theme] .map-heading h2{font-size:22px}html[data-theme] .map-search{width:calc(100% - 145px)}html[data-theme] .map-search input{font-size:12px!important;padding:8px}html[data-theme] .source-health-mini{grid-template-columns:1fr}html[data-theme] .thirty-grid{grid-template-columns:1fr}html[data-theme] .panelhead{align-items:flex-start}.desk-stats{gap:10px}html[data-theme] .ql-setup,html[data-theme] .ql-content{padding:16px}html[data-theme] .map-legend{gap:10px}html[data-theme] .map-legend span:last-child{width:100%}html[data-theme] .timeline-event p{padding-right:0}.timeline-open-hint{position:static;display:block;margin-top:8px}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
+@media print{html[data-theme],html[data-theme] body{background:white!important;color:black!important}.desk-intro{display:none}html[data-theme] .panel{box-shadow:none!important}}
