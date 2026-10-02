@@ -248,7 +248,13 @@
     if(!data||lab.events)return;lab.public=data;
     const available=data.analyses?.filter(a=>a.status==='ok')||[];
     if(available.length){for(const a of available)lab.history.push({result:a,panel:data.panel||[],panelCsv:''});render(available[0],data.panel||[],'',false);status(data.status==='stale'?'Scheduled aggregates are stale. Last successful snapshot: '+data.last_successful_at:'Scheduled ACLED aggregates available. Import your own export to change a specification.');}
-    else status(data.provenance?.reason||'No ACLED dataset has been loaded. Import your export to run the Research Lab.');
+    else {
+      const reason=String(data.provenance?.reason||'');
+      const friendly=reason.includes('configure repository ACLED secrets')
+        ? 'No scheduled ACLED dataset is available. Import your ACLED export to run the Research Lab.'
+        : (reason||'No ACLED dataset has been loaded. Import your export to run the Research Lab.');
+      status(friendly);
+    }
   }).catch(()=>status('No scheduled ACLED snapshot is available. Import your export to run the Research Lab.'));
   window.SAHEL_RESEARCH_LAB={methods,lab,configuration,render,report,zipFiles};
 })();
