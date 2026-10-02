@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "site_patch_version": "3.3.3",
-  "generated_at": "2026-10-02T18:39:27.319534Z",
+  "generated_at": "2026-10-02T19:34:56.944968Z",
   "active_limit": 33,
   "total_briefings": 244,
   "active_count": 33,
@@ -11,7 +11,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.3",
       "reporting_date": "2026-10-02",
-      "generated_at": "2026-10-02T18:39:27.175816Z",
+      "generated_at": "2026-10-02T19:34:56.210970Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -45,7 +45,7 @@
         },
         {
           "heading": "Niger",
-          "text": "8 retained reports were collected for Niger. 0 fused candidate events currently carry this reporting date. Niger: what we know about the jihadist attack that targeted Niamey airport: Niger: what we know about the jihadist attack that targeted the Niamey airport Published on Saturday, January 31, 2026 | AFP In the night from Wednesday to Thursday, the Niamey airport in Niger suffered a brief attack claimed… Drug trafficking: two young people in their twenties arrested with 12,000 Tramadol tablets at the…: Published on Tuesday, December 30, 2025 | actuniger.com The vigilance of the security forces has once again borne fruit . On December 22, 2025, officers of the Yantala Police Station seized 12,000 Tramadol tablets during a… Niger: 16 soldiers killed at the front and 15 terrorists neutralized in a terrorist ambush between…: Niger region: 16 soldiers fallen at the front and 15 terrorists neutralized in a terrorist ambush between Bankilaré and Tera (Tillabéri) Published on Tuesday, July 21, 2026 | actuniger.com 5 additional Niger reports are summarized individually in the source records."
+          "text": "8 retained reports were collected for Niger. 0 fused candidate events currently carry this reporting date. Drug trafficking: two young people in their twenties arrested with 12,000 Tramadol tablets at the…: Published on Tuesday, December 30, 2025 | actuniger.com The vigilance of the security forces has once again borne fruit . On December 22, 2025, officers of the Yantala Police Station seized 12,000 Tramadol tablets during a… Niger: what we know about the jihadist attack that targeted Niamey airport: Niger: what we know about the jihadist attack that targeted the Niamey airport Published on Saturday, January 31, 2026 | AFP In the night from Wednesday to Thursday, the Niamey airport in Niger suffered a brief attack claimed… Niger: 16 soldiers killed at the front and 15 terrorists neutralized in a terrorist ambush between…: Niger region: 16 soldiers fallen at the front and 15 terrorists neutralized in a terrorist ambush between Bankilaré and Tera (Tillabéri) Published on Tuesday, July 21, 2026 | actuniger.com 5 additional Niger reports are summarized individually in the source records."
         },
         {
           "heading": "What remains unclear",
@@ -240,15 +240,6 @@
         ],
         "Niger": [
           {
-            "id": "dda88051746ee9c1905ffc958aca1485920c0ec5",
-            "source": "aNiamey.com",
-            "title": "Niger: what we know about the jihadist attack that targeted Niamey airport",
-            "summary": "Niger: what we know about the jihadist attack that targeted the Niamey airport Published on Saturday, January 31, 2026 | AFP In the night from Wednesday to Thursday, the Niamey airport in Niger suffered a brief attack claimed Friday by the Islamic State, in a country where jihadist violence usually occurs in the west and south-east The Nigerien military junta, helped by \"Russian partners\", accused the French, Beninese and Ivorian presidents of being the \"sponsors\" of the attackers, words condemned by Abidjan and Cotonou on Friday.",
-            "url": "http://news.aniamey.com/h/123071.html",
-            "candidate_event": true,
-            "event_date": "2026-01-31"
-          },
-          {
             "id": "3057f809d88b4be978d0600e302164ee6ad1b71e",
             "source": "aNiamey.com",
             "title": "Drug trafficking: two young people in their twenties arrested with 12,000 Tramadol tablets at the Tillabéri road barrier",
@@ -256,6 +247,15 @@
             "url": "http://news.aniamey.com/h/123025.html",
             "candidate_event": false,
             "event_date": "2025-12-30"
+          },
+          {
+            "id": "dda88051746ee9c1905ffc958aca1485920c0ec5",
+            "source": "aNiamey.com",
+            "title": "Niger: what we know about the jihadist attack that targeted Niamey airport",
+            "summary": "Niger: what we know about the jihadist attack that targeted the Niamey airport Published on Saturday, January 31, 2026 | AFP In the night from Wednesday to Thursday, the Niamey airport in Niger suffered a brief attack claimed Friday by the Islamic State, in a country where jihadist violence usually occurs in the west and south-east The Nigerien military junta, helped by \"Russian partners\", accused the French, Beninese and Ivorian presidents of being the \"sponsors\" of the attackers, words condemned by Abidjan and Cotonou on Friday.",
+            "url": "http://news.aniamey.com/h/123071.html",
+            "candidate_event": true,
+            "event_date": "2026-01-31"
           },
           {
             "id": "cfac5c0bc3c39a757d7879ebd29ede3e9d071503",
@@ -267,15 +267,6 @@
             "event_date": "2026-07-21"
           },
           {
-            "id": "cd9eaeaf240102d866a6cf227dbbc560cec03379",
-            "source": "aNiamey.com",
-            "title": "Agadez: the SDF repulse an attack in Abalama  two bandits neutralized, equipment seized, one soldier killed and four wounded",
-            "summary": "Agadez: SDF repels attack in Abalama – two bandits neutralized, equipment seized, one soldier killed and four wounded Published on Friday, September 5, 2025 | actuniger.com On Tuesday, September 2, 2025, the Defense and Security Forces (SDF) successfully repulsed two simultaneous attacks targeting the positions of the National Guard detachment in Abalama, Aderbissanat Department .",
-            "url": "http://news.aniamey.com/h/122857.html",
-            "candidate_event": true,
-            "event_date": "2025-09-05"
-          },
-          {
             "id": "c015f1edfe2106d96da43f14e6ff81027adcec26",
             "source": "aNiamey.com",
             "title": "Defence: General Tiani reshuffles the military command after the Niamey mutiny",
@@ -283,6 +274,15 @@
             "url": "http://news.aniamey.com/h/123258.html",
             "candidate_event": false,
             "event_date": "2026-09-12"
+          },
+          {
+            "id": "cd9eaeaf240102d866a6cf227dbbc560cec03379",
+            "source": "aNiamey.com",
+            "title": "Agadez: the SDF repulse an attack in Abalama  two bandits neutralized, equipment seized, one soldier killed and four wounded",
+            "summary": "Agadez: SDF repels attack in Abalama – two bandits neutralized, equipment seized, one soldier killed and four wounded Published on Friday, September 5, 2025 | actuniger.com On Tuesday, September 2, 2025, the Defense and Security Forces (SDF) successfully repulsed two simultaneous attacks targeting the positions of the National Guard detachment in Abalama, Aderbissanat Department .",
+            "url": "http://news.aniamey.com/h/122857.html",
+            "candidate_event": true,
+            "event_date": "2025-09-05"
           },
           {
             "id": "b0770cb11a977644405b6056016228bba3262381",
@@ -315,20 +315,20 @@
       },
       "collection_notes": {
         "sources_total": 176,
-        "sources_success": 133,
-        "sources_failed": 43,
-        "sources_degraded": 0,
-        "documents_discovered": 10843,
-        "documents_retained": 10,
+        "sources_success": 161,
+        "sources_failed": 15,
+        "sources_degraded": 29,
+        "documents_discovered": 12674,
+        "documents_retained": 11,
         "report_target": 100,
         "translations_attempted": 7,
         "translations_success": 7,
         "translation_failures": 0,
         "collection_confidence": "LOW",
         "collection_confidence_reasons": [
-          "133/176 source paths reached",
-          "43 failed source paths",
-          "0 degraded / 43 failed of 176 configured sources"
+          "161/176 source paths reached",
+          "15 failed source paths",
+          "29 degraded / 15 failed of 176 configured sources"
         ],
         "reports_collected": 18,
         "reports_published": 1,
@@ -338,13 +338,13 @@
           "en": 5
         }
       },
-      "sultana_daily_text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nDaily bottom line for 2026-10-02: Reporting collected on 2026-10-02 does not yet support a clear account of a new incident in Mali, Burkina Faso, or Niger. The desk received 18 reports from 10 sources, but the automated incident record needs further review. This is not evidence of calm on the ground.\n\nMali: 4 retained reports. 1. Celebration of the 66th anniversary of the Malian Army. On October 1, 2026, the Malian Army celebrated its 66th anniversary in Djicoroni-Para, under the theme: \"The Army, 66 years in the service of the Nation: cohesion and resilience for the sovereign defense of Mali\" . Composed in particular of the Infantry, the Artillery and the Armoured Weapon and Cavalry, the Army constitutes the main pillar of the land defence of the country. 2. Mali: more than 2,400 schools remain closed as insecurity disrupts new school year. Mali's new school year began Thursday with more than 2,400 schools unable to reopen, as worsening insecurity and the growing presence of jihadist groups continue to disrupt education. The 2026-2027 academic year has been declared the “Year of Education and Culture” by President Assimi Goïta, but thousands of children are starting the year without access to their classrooms. 3. 01/10/2026 18:45 - Review of 3 years of Russian military presence in the Sahel: Symbolic successes, sure failure?. 01-10-2026 18:45 - Review of 3 years of Russian military presence in the Sahel: Symbolic successes, sure failure? Initiatives News -- From Wagner to the Africa Corps, Russian military engagement in the Sahel went through the due formalization. But three years later, is the Sahel safer £r?\n\nBurkina Faso: 6 retained reports. 1. Tribute ceremony to Thomas Sankara: Minister Mathias Traoré invites the Burkinabe to preserve the legacy of the national hero. The authorities gathered at the foot of the statue of Thomas Sankara. The Thomas Sankara Memorial hosted, this Thursday, October 1, 2026 in Ouagadougou, the military ceremony in tribute to Captain Thomas Sankara and his twelve companions, who fell on October 15, 1987 The ceremony brought together several members of the government as well as representatives of international organizations, who came to pay tribute to the memory of the former president of Faso and to recall the scope of his legacy. 2. Burkina Faso's military leaders mark four years in power. People gathered in Ougadougou’s Place de la Révolution on Wednesday night to mark four years since Captain Ibrahim Traoré came to power in a coup. The culmination of anniversary celebrations, they paid tribute to the armed forces and the military government’s achievements in Burkina Faso. One resident, Abdoul Rasmané Sawadogo, said military leaders have created an “ultra-modern army that meets expectations”. 3. Pix of the Day, 30 September, 2026 - Across the world. Burkina Faso has inaugurated its first gold refinery as its military-led government seeks to strengthen economic sovereignty after breaking ties with its traditional Western partners. “From now on, Burkina Faso’s gold must not only be mined in Burkina Faso; it must also be processed, controlled, valued and certified there,” President Ibrahim Traoré said on Monday at the inauguration of the refinery, named Raffinor-BF.\n\nNiger: 8 retained reports. 1. Niger: what we know about the jihadist attack that targeted Niamey airport. Niger: what we know about the jihadist attack that targeted the Niamey airport Published on Saturday, January 31, 2026 | AFP In the night from Wednesday to Thursday, the Niamey airport in Niger suffered a brief attack claimed Friday by the Islamic State, in a country where jihadist violence usually occurs in the west and south-east The Nigerien military junta, helped by \"Russian partners\", accused the French, Beninese and Ivorian presidents of being the \"sponsors\" of the attackers, words condemned by Abidjan and Cotonou on Friday. 2. Drug trafficking: two young people in their twenties arrested with 12,000 Tramadol tablets at the Tillabéri road barrier. Published on Tuesday, December 30, 2025 | actuniger.com The vigilance of the security forces has once again borne fruit . On December 22, 2025, officers of the Yantala Police Station seized 12,000 Tramadol tablets during a routine check at the Tillabéri road barrier, thwarting an attempt to transport drugs to a gold site in the region, with the arrest of two young Nigeriens in their twenties . 3. Niger: 16 soldiers killed at the front and 15 terrorists neutralized in a terrorist ambush between Bankilaré and Tera (Tillabéri). Niger region: 16 soldiers fallen at the front and 15 terrorists neutralized in a terrorist ambush between Bankilaré and Tera (Tillabéri) Published on Tuesday, July 21, 2026 | actuniger.com\n\nActor picture: no same-day fused candidate events.\n\nWhat changed: Collection volume: -25 retained report(s) versus 2026-10-01 (43 → 18). Actor-level same-day fused event counts are unchanged from the previous date.\n\nIntelligence gaps: Collection confidence is low, so absence of reporting should not be interpreted as absence of activity.\n\nCollection confidence: LOW. 133/176 source paths reached 43 failed source paths 0 degraded / 43 failed of 176 configured sources\n\nAll retained source reports, including reports not promoted to the map, remain individually summarized in the intelligence feed and source records."
+      "sultana_daily_text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nDaily bottom line for 2026-10-02: Reporting collected on 2026-10-02 does not yet support a clear account of a new incident in Mali, Burkina Faso, or Niger. The desk received 18 reports from 10 sources, but the automated incident record needs further review. This is not evidence of calm on the ground.\n\nMali: 4 retained reports. 1. Celebration of the 66th anniversary of the Malian Army. On October 1, 2026, the Malian Army celebrated its 66th anniversary in Djicoroni-Para, under the theme: \"The Army, 66 years in the service of the Nation: cohesion and resilience for the sovereign defense of Mali\" . Composed in particular of the Infantry, the Artillery and the Armoured Weapon and Cavalry, the Army constitutes the main pillar of the land defence of the country. 2. Mali: more than 2,400 schools remain closed as insecurity disrupts new school year. Mali's new school year began Thursday with more than 2,400 schools unable to reopen, as worsening insecurity and the growing presence of jihadist groups continue to disrupt education. The 2026-2027 academic year has been declared the “Year of Education and Culture” by President Assimi Goïta, but thousands of children are starting the year without access to their classrooms. 3. 01/10/2026 18:45 - Review of 3 years of Russian military presence in the Sahel: Symbolic successes, sure failure?. 01-10-2026 18:45 - Review of 3 years of Russian military presence in the Sahel: Symbolic successes, sure failure? Initiatives News -- From Wagner to the Africa Corps, Russian military engagement in the Sahel went through the due formalization. But three years later, is the Sahel safer £r?\n\nBurkina Faso: 6 retained reports. 1. Tribute ceremony to Thomas Sankara: Minister Mathias Traoré invites the Burkinabe to preserve the legacy of the national hero. The authorities gathered at the foot of the statue of Thomas Sankara. The Thomas Sankara Memorial hosted, this Thursday, October 1, 2026 in Ouagadougou, the military ceremony in tribute to Captain Thomas Sankara and his twelve companions, who fell on October 15, 1987 The ceremony brought together several members of the government as well as representatives of international organizations, who came to pay tribute to the memory of the former president of Faso and to recall the scope of his legacy. 2. Burkina Faso's military leaders mark four years in power. People gathered in Ougadougou’s Place de la Révolution on Wednesday night to mark four years since Captain Ibrahim Traoré came to power in a coup. The culmination of anniversary celebrations, they paid tribute to the armed forces and the military government’s achievements in Burkina Faso. One resident, Abdoul Rasmané Sawadogo, said military leaders have created an “ultra-modern army that meets expectations”. 3. Pix of the Day, 30 September, 2026 - Across the world. Burkina Faso has inaugurated its first gold refinery as its military-led government seeks to strengthen economic sovereignty after breaking ties with its traditional Western partners. “From now on, Burkina Faso’s gold must not only be mined in Burkina Faso; it must also be processed, controlled, valued and certified there,” President Ibrahim Traoré said on Monday at the inauguration of the refinery, named Raffinor-BF.\n\nNiger: 8 retained reports. 1. Drug trafficking: two young people in their twenties arrested with 12,000 Tramadol tablets at the Tillabéri road barrier. Published on Tuesday, December 30, 2025 | actuniger.com The vigilance of the security forces has once again borne fruit . On December 22, 2025, officers of the Yantala Police Station seized 12,000 Tramadol tablets during a routine check at the Tillabéri road barrier, thwarting an attempt to transport drugs to a gold site in the region, with the arrest of two young Nigeriens in their twenties . 2. Niger: what we know about the jihadist attack that targeted Niamey airport. Niger: what we know about the jihadist attack that targeted the Niamey airport Published on Saturday, January 31, 2026 | AFP In the night from Wednesday to Thursday, the Niamey airport in Niger suffered a brief attack claimed Friday by the Islamic State, in a country where jihadist violence usually occurs in the west and south-east The Nigerien military junta, helped by \"Russian partners\", accused the French, Beninese and Ivorian presidents of being the \"sponsors\" of the attackers, words condemned by Abidjan and Cotonou on Friday. 3. Niger: 16 soldiers killed at the front and 15 terrorists neutralized in a terrorist ambush between Bankilaré and Tera (Tillabéri). Niger region: 16 soldiers fallen at the front and 15 terrorists neutralized in a terrorist ambush between Bankilaré and Tera (Tillabéri) Published on Tuesday, July 21, 2026 | actuniger.com\n\nActor picture: no same-day fused candidate events.\n\nWhat changed: Collection volume: -25 retained report(s) versus 2026-10-01 (43 → 18). Actor-level same-day fused event counts are unchanged from the previous date.\n\nIntelligence gaps: Collection confidence is low, so absence of reporting should not be interpreted as absence of activity.\n\nCollection confidence: LOW. 161/176 source paths reached 15 failed source paths 29 degraded / 15 failed of 176 configured sources\n\nAll retained source reports, including reports not promoted to the map, remain individually summarized in the intelligence feed and source records."
     },
     {
       "schema_version": "1.0",
       "site_patch_version": "3.3.3",
       "reporting_date": "2026-10-01",
-      "generated_at": "2026-10-02T18:39:26.677864Z",
+      "generated_at": "2026-10-02T19:34:56.334404Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -897,7 +897,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.3",
       "reporting_date": "2026-09-30",
-      "generated_at": "2026-10-02T18:39:27.080930Z",
+      "generated_at": "2026-10-02T19:34:56.513064Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -1960,7 +1960,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.3",
       "reporting_date": "2026-09-29",
-      "generated_at": "2026-10-02T18:39:27.241317Z",
+      "generated_at": "2026-10-02T19:34:56.734823Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -2296,7 +2296,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.3",
       "reporting_date": "2026-09-28",
-      "generated_at": "2026-10-02T18:39:27.027464Z",
+      "generated_at": "2026-10-02T19:34:56.744257Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -2738,7 +2738,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.3",
       "reporting_date": "2026-09-27",
-      "generated_at": "2026-10-02T18:39:26.953993Z",
+      "generated_at": "2026-10-02T19:34:56.300337Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -3056,7 +3056,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.3",
       "reporting_date": "2026-09-26",
-      "generated_at": "2026-10-02T18:39:26.741809Z",
+      "generated_at": "2026-10-02T19:34:56.699157Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -3309,7 +3309,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.3",
       "reporting_date": "2026-09-25",
-      "generated_at": "2026-10-02T18:39:27.290007Z",
+      "generated_at": "2026-10-02T19:34:56.400220Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -3671,7 +3671,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.3",
       "reporting_date": "2026-09-24",
-      "generated_at": "2026-10-02T18:39:27.232098Z",
+      "generated_at": "2026-10-02T19:34:56.725739Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -4043,7 +4043,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.3",
       "reporting_date": "2026-09-23",
-      "generated_at": "2026-10-02T18:39:27.196003Z",
+      "generated_at": "2026-10-02T19:34:56.658025Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -4362,7 +4362,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.3",
       "reporting_date": "2026-09-22",
-      "generated_at": "2026-10-02T18:39:27.297038Z",
+      "generated_at": "2026-10-02T19:34:56.220208Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -5289,7 +5289,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.3",
       "reporting_date": "2026-09-21",
-      "generated_at": "2026-10-02T18:39:27.271084Z",
+      "generated_at": "2026-10-02T19:34:56.265734Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -5803,7 +5803,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.3",
       "reporting_date": "2026-09-20",
-      "generated_at": "2026-10-02T18:39:26.804301Z",
+      "generated_at": "2026-10-02T19:34:56.354672Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -6447,7 +6447,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.3",
       "reporting_date": "2026-09-19",
-      "generated_at": "2026-10-02T18:39:27.008828Z",
+      "generated_at": "2026-10-02T19:34:56.762139Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -7142,7 +7142,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.3",
       "reporting_date": "2026-09-18",
-      "generated_at": "2026-10-02T18:39:27.268219Z",
+      "generated_at": "2026-10-02T19:34:56.572401Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -7352,7 +7352,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.3",
       "reporting_date": "2026-09-17",
-      "generated_at": "2026-10-02T18:39:26.860956Z",
+      "generated_at": "2026-10-02T19:34:56.509670Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -7619,7 +7619,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.3",
       "reporting_date": "2026-09-16",
-      "generated_at": "2026-10-02T18:39:26.881022Z",
+      "generated_at": "2026-10-02T19:34:56.403188Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -7781,7 +7781,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.3",
       "reporting_date": "2026-09-15",
-      "generated_at": "2026-10-02T18:39:26.766193Z",
+      "generated_at": "2026-10-02T19:34:56.791834Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -7943,7 +7943,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.3",
       "reporting_date": "2026-09-14",
-      "generated_at": "2026-10-02T18:39:26.949331Z",
+      "generated_at": "2026-10-02T19:34:56.794721Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -8105,7 +8105,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.3",
       "reporting_date": "2026-09-13",
-      "generated_at": "2026-10-02T18:39:26.960917Z",
+      "generated_at": "2026-10-02T19:34:56.309657Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -8267,7 +8267,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.3",
       "reporting_date": "2026-09-12",
-      "generated_at": "2026-10-02T18:39:27.171123Z",
+      "generated_at": "2026-10-02T19:34:56.631567Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -8429,7 +8429,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.3",
       "reporting_date": "2026-09-11",
-      "generated_at": "2026-10-02T18:39:26.878755Z",
+      "generated_at": "2026-10-02T19:34:56.874392Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -8591,7 +8591,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.3",
       "reporting_date": "2026-09-10",
-      "generated_at": "2026-10-02T18:39:26.690034Z",
+      "generated_at": "2026-10-02T19:34:56.439817Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -8849,7 +8849,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.3",
       "reporting_date": "2026-09-08",
-      "generated_at": "2026-10-02T18:39:27.001695Z",
+      "generated_at": "2026-10-02T19:34:56.384170Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -9011,7 +9011,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.3",
       "reporting_date": "2026-09-07",
-      "generated_at": "2026-10-02T18:39:26.958547Z",
+      "generated_at": "2026-10-02T19:34:56.448768Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -9177,7 +9177,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.3",
       "reporting_date": "2026-09-05",
-      "generated_at": "2026-10-02T18:39:27.198220Z",
+      "generated_at": "2026-10-02T19:34:56.853811Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -9339,7 +9339,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.3",
       "reporting_date": "2026-09-04",
-      "generated_at": "2026-10-02T18:39:27.124967Z",
+      "generated_at": "2026-10-02T19:34:56.865582Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -9501,7 +9501,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.3",
       "reporting_date": "2026-09-03",
-      "generated_at": "2026-10-02T18:39:26.956256Z",
+      "generated_at": "2026-10-02T19:34:56.702110Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -9663,7 +9663,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.3",
       "reporting_date": "2026-09-02",
-      "generated_at": "2026-10-02T18:39:27.092386Z",
+      "generated_at": "2026-10-02T19:34:56.827388Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -9825,7 +9825,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.3",
       "reporting_date": "2026-09-01",
-      "generated_at": "2026-10-02T18:39:27.273322Z",
+      "generated_at": "2026-10-02T19:34:56.521853Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -9987,7 +9987,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.3",
       "reporting_date": "2026-08-31",
-      "generated_at": "2026-10-02T18:39:27.094642Z",
+      "generated_at": "2026-10-02T19:34:56.226108Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -10149,7 +10149,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.3",
       "reporting_date": "2026-08-30",
-      "generated_at": "2026-10-02T18:39:26.933213Z",
+      "generated_at": "2026-10-02T19:34:56.557773Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -10311,7 +10311,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.3",
       "reporting_date": "2026-08-29",
-      "generated_at": "2026-10-02T18:39:27.143026Z",
+      "generated_at": "2026-10-02T19:34:56.643141Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
