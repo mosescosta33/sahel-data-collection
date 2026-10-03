@@ -26,16 +26,10 @@
       text-wrap: balance;
     }
     .research-title > span { display: block; }
-    html[data-theme] .research-title-secondary { color: var(--accent); }
+    html[data-theme] .research-title-secondary { color: inherit; }
     .research-title-or { font-weight: 450; }
-    html[data-theme] .desk-intro .research-subtitle {
-      max-width: 60ch;
-      font-size: clamp(16px, 1.25vw, 18px) !important;
-      line-height: 1.6;
-      color: var(--secondary);
-      text-wrap: balance;
-      margin: 0 0 16px;
-    }
+    html[data-theme="light"] .desk-intro :is(h2, .eyebrow, .desk-updated) { color: #000 !important; }
+    html[data-theme="dark"] .desk-intro :is(h2, .eyebrow, .desk-updated) { color: #fff !important; }
     @media (max-width: 1100px) { .desk-intro-copy { flex-basis: auto; width: 100%; } }
     @media (max-width: 540px) {
       html[data-theme] .desk-intro .research-title { font-size: clamp(27px, 6.8vw, 34px); }
@@ -62,7 +56,7 @@
   <main>
     <section id="view-overview" class="view active">
       <div class="desk-intro">
-        <div class="desk-intro-copy"><span class="eyebrow">Central Sahel · Open-source research</span><h2 class="research-title"><span>Regime Security</span><span class="research-title-secondary"><span class="research-title-or">or</span> Regional Stabilization?</span></h2><p class="research-subtitle">Assessing Russian Intervention and Counterinsurgency Outcomes in the Central Sahel</p><div class="desk-updated" id="deskUpdated">Awaiting collection status</div></div>
+        <div class="desk-intro-copy"><span class="eyebrow">Central Sahel · Open-source research</span><h2 class="research-title"><span>Regime Security</span><span class="research-title-secondary"><span class="research-title-or">or</span> Regional Stabilization?</span></h2><div class="desk-updated" id="deskUpdated">Awaiting collection status</div></div>
         <div class="desk-stats" aria-label="Collection at a glance">
           <div class="desk-stat"><strong id="reports24">—</strong><span>Reports retained<br>Last 24 hours</span></div>
           <div class="desk-stat"><strong id="mapped24">—</strong><span>Mapped candidate events<br>Last 24 hours</span></div>
