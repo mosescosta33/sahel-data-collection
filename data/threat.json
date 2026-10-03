@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-02T23:35:09.162744Z",
+  "generated_at": "2026-10-03T00:38:21.143172Z",
   "model_version": "0.1-experimental",
   "label": "Experimental Conflict Threat Level",
   "regional": {
     "level": "HIGH",
-    "confidence": "MODERATE"
+    "confidence": "LOW"
   },
   "countries": {
     "Mali": {
@@ -13,12 +13,12 @@
       "trend": "STABLE",
       "confidence": "HIGH",
       "assessment_status": "ASSESSED",
-      "events_7d": 7,
+      "events_7d": 6,
       "events_30d": 27,
-      "baseline_7d_equivalent": 6.1,
-      "tempo_ratio": 1.13,
+      "baseline_7d_equivalent": 6.4,
+      "tempo_ratio": 0.95,
       "drivers": [
-        "7 fused candidate event(s) in 7 days",
+        "6 fused candidate event(s) in 7 days",
         "1 JNIM/IS Sahel-linked event(s)",
         "5 significant/major event(s)",
         "activity across 7 named locations"
@@ -43,21 +43,20 @@
       "independent_domains_7d": 1
     },
     "Niger": {
-      "score": 27,
-      "level": "LOW",
-      "trend": "DETERIORATING",
-      "confidence": "MODERATE",
-      "assessment_status": "ASSESSED",
-      "events_7d": 2,
+      "score": 12,
+      "level": "INSUFFICIENT DATA",
+      "trend": "STABLE",
+      "confidence": "LOW",
+      "assessment_status": "INSUFFICIENT_DATA",
+      "events_7d": 1,
       "events_30d": 5,
-      "baseline_7d_equivalent": 0.9,
-      "tempo_ratio": 1.57,
+      "baseline_7d_equivalent": 1.2,
+      "tempo_ratio": 0.9,
       "drivers": [
-        "2 fused candidate event(s) in 7 days",
-        "2 significant/major event(s)",
-        "7-day tempo above recent country baseline"
+        "1 fused candidate event(s) in 7 days",
+        "1 significant/major event(s)"
       ],
-      "independent_domains_7d": 2
+      "independent_domains_7d": 1
     }
   },
   "method_note": "Experimental research indicator derived from fused candidate events, recent country-relative tempo, significance, militant activity, civilian-threat signals, geographic spread and corroboration. It is not a travel advisory, verified incident count, or forecast. Collection gaps reduce confidence rather than automatically reducing threat."
