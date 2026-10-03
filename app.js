@@ -643,16 +643,26 @@ function renderSultanaArchive(){
   setText('sultanaArchiveCount',`${rows.length} brief${rows.length===1?'':'s'}`);
   host.innerHTML=rows.map((b,i)=>{
     const cov=b.coverage||{};
-    return `<article class="sultana-archive-row"><div><strong>${esc(b.reporting_date||'Undated')}</strong><span>${esc(cov.retained_articles_reviewed??0)} articles • ${esc(cov.distinct_sources??0)} sources • ${esc(b.assessment_confidence||'UNRATED')} confidence</span></div><div class="sultana-archive-actions"><button type="button" data-sultana-download="${i}" data-format="txt">TXT</button><button type="button" data-sultana-download="${i}" data-format="json">JSON</button></div></article>`;
+    return `<article class="sultana-archive-row"><div><strong>${esc(b.reporting_date||'Undated')}</strong>${b.generated_at?`<span>${esc(briefingCreatedDC(b.generated_at))}</span>`:''}<span>${esc(cov.retained_articles_reviewed??0)} articles • ${esc(cov.distinct_sources??0)} sources • ${esc(b.assessment_confidence||'UNRATED')} confidence</span></div><div class="sultana-archive-actions"><button type="button" data-sultana-download="${i}" data-format="txt">TXT</button><button type="button" data-sultana-download="${i}" data-format="json">JSON</button></div></article>`;
   }).join('')||'<div class="runbox">No archived Sultana briefings yet.</div>';
   host.querySelectorAll('[data-sultana-download]').forEach(btn=>{btn.onclick=()=>downloadSultanaBrief(rows[Number(btn.dataset.sultanaDownload)],btn.dataset.format||'json');});
+}
+function briefingCreatedDC(value){
+  if(!value)return '';
+  const date=new Date(value);
+  if(Number.isNaN(date.getTime()))return '';
+  return 'Created '+new Intl.DateTimeFormat('en-US',{
+    timeZone:'America/New_York',month:'short',day:'numeric',year:'numeric',
+    hour:'numeric',minute:'2-digit',timeZoneName:'short'
+  }).format(date)+' · Washington, D.C.';
 }
 function renderBriefing(){
   const b=state.briefing;if(!b)return;
   const cov=b.coverage||{};
-  setText('briefStamp','');
+  const createdLabel=briefingCreatedDC(b.generated_at);
+  setText('briefStamp',createdLabel);
   const briefStamp=$('#briefStamp');
-  if(briefStamp)briefStamp.hidden=true;
+  if(briefStamp)briefStamp.hidden=!createdLabel;
   const meta=$('#sultanaBriefMeta');
   if(meta)meta.innerHTML=[
     ['ARTICLES REVIEWED',cov.retained_articles_reviewed??0],
