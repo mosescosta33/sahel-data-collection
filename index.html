@@ -5,19 +5,42 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#e5ebee" />
   <script>try{document.documentElement.dataset.theme=localStorage.getItem('sicTheme')||'light'}catch(e){document.documentElement.dataset.theme='light'}</script>
-  <title>Sahel Intelligence Desk · Moses Costa</title>
-  <link rel="stylesheet" href="./styles.css?v=4.3.0" />
+  <title>Central Sahel Data Collection · Moses Costa</title>
+  <link rel="stylesheet" href="./styles.css?v=3.3.4" />
   <link rel="stylesheet" href="./briefings.css" />
   <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.12.0/dist/maplibre-gl.css" />
-  <link rel="stylesheet" href="./map-ui.css?v=4.2.1" />
+  <link rel="stylesheet" href="./map-ui.css?v=3.3.4" />
   <link rel="stylesheet" href="./logs.css" />
-  <link rel="stylesheet" href="./readability.css?v=4.2.1" />
-  <link rel="stylesheet" href="./research-lab.css?v=4.2.1" />
-  <link rel="stylesheet" href="./redesign.css?v=4.3.0" />
+  <link rel="stylesheet" href="./readability.css?v=3.3.4" />
+  <link rel="stylesheet" href="./research-lab.css?v=3.3.4" />
+  <link rel="stylesheet" href="./redesign.css?v=3.3.4" />
+
+  <style>
+    html[data-theme] .tabs .tab { font-size: 16px !important; }
+    html[data-theme] .tabs .saved-tab-count { font-size: 13px; }
+    /* Research heading: balanced lines with room for the collection counters. */
+    .desk-intro-copy { flex: 1 1 0; min-width: 0; }
+    html[data-theme] .desk-intro .research-title {
+      font-size: clamp(28px, 3.15vw, 44px);
+      line-height: 1.16;
+      letter-spacing: -.035em;
+      margin: 12px 0 18px;
+      text-wrap: balance;
+    }
+    .research-title > span { display: block; }
+    html[data-theme] .research-title-secondary { color: inherit; }
+    .research-title-or { font-weight: 450; }
+    html[data-theme="light"] .desk-intro :is(h2, .eyebrow, .desk-updated) { color: #000 !important; }
+    html[data-theme="dark"] .desk-intro :is(h2, .eyebrow, .desk-updated) { color: #fff !important; }
+    @media (max-width: 1100px) { .desk-intro-copy { flex-basis: auto; width: 100%; } }
+    @media (max-width: 540px) {
+      html[data-theme] .desk-intro .research-title { font-size: clamp(27px, 6.8vw, 34px); }
+    }
+  </style>
 </head>
 <body>
   <header class="topbar">
-    <div class="brand brand-lockup"><div class="brandmark" aria-hidden="true">SI</div><div><h1>Sahel Intelligence Desk</h1><p>Research by <strong>Moses Costa</strong> · FR / AR / EN</p></div></div>
+    <div class="brand brand-lockup"><div class="brandmark" aria-hidden="true">SI</div><div><h1>Central Sahel Data Collection</h1><p>Research by <strong>Moses Costa</strong> · FR / AR / EN</p></div></div>
     <div class="topmeta"><span id="systemBadge" class="status offline">OFFLINE</span><button id="themeToggle" class="theme-toggle" type="button" aria-label="Switch light and dark mode">☾ DARK</button></div>
   </header>
 
@@ -27,15 +50,15 @@
     <button class="tab" data-view="feed">Intel Feed</button>
     <button class="tab" data-view="quant">Quant Lab</button>
     <button class="tab" data-view="sources">Collection Ops</button>
-    <button class="tab" data-view="logs">Logs</button>
     <button class="tab" data-view="briefings">Daily Briefing</button>
+    <button class="tab" data-view="logs">Logs</button>
     <button class="tab" data-view="saved">Saved Reports <span id="savedTabCount" class="saved-tab-count">0</span></button>
   </nav>
 
   <main>
     <section id="view-overview" class="view active">
       <div class="desk-intro">
-        <div class="desk-intro-copy"><span class="eyebrow">Central Sahel · Open-source research</span><h2>Understanding conflict.<br>Examining security.</h2><p>Tracking conflict, civilian harm, and security intervention across Mali, Burkina Faso, and Niger.</p><div class="desk-updated" id="deskUpdated">Awaiting collection status</div></div>
+        <div class="desk-intro-copy"><span class="eyebrow">Central Sahel · Open-source research</span><h2 class="research-title"><span>Regime Security</span><span class="research-title-secondary"><span class="research-title-or">or</span> Regional Stabilization?</span></h2><div class="desk-updated" id="deskUpdated">Awaiting collection status</div></div>
         <div class="desk-stats" aria-label="Collection at a glance">
           <div class="desk-stat"><strong id="reports24">—</strong><span>Reports retained<br>Last 24 hours</span></div>
           <div class="desk-stat"><strong id="mapped24">—</strong><span>Mapped candidate events<br>Last 24 hours</span></div>
@@ -149,7 +172,7 @@
 
         <section class="panel sultana-archive-panel">
           <div class="panelhead"><div><span class="eyebrow">PERMANENT DAILY RECORD</span><h2>Sultana Briefing Archive</h2></div><span id="sultanaArchiveCount" class="methodpill">0 briefs</span></div>
-          <p class="note">One frozen brief is created per Washington, DC desk day. Each product reviews every retained report collected in its preceding 24-hour window and preserves the complete article manifest used for the assessment.</p>
+          <p class="note">Each product reviews every retained report collected in its preceding 24-hour window and preserves the complete article manifest used for the assessment.</p>
           <div id="sultanaArchive" class="sultana-archive-list"><div class="runbox">No archived Sultana briefings yet.</div></div>
         </section>
 
@@ -302,26 +325,9 @@
       <section class="panel full logs-shell">
         <div class="panelhead">
           <div><span class="eyebrow">COLLECTION AUDIT TRAIL</span><h2>Collector Logs</h2></div>
-          <button id="logsLockBtn" class="methodpill" type="button" hidden>LOCK</button>
         </div>
 
-        <div id="logsGate" class="logs-gate">
-          <div class="logs-gate-card">
-            <span class="eyebrow">RESTRICTED VIEW</span>
-            <h3>Enter logs password</h3>
-            <p>Unlock the collection audit trail to review what was collected, how it was collected, and why material was included or filtered out.</p>
-            <form id="logsUnlockForm">
-              <label for="logsPassword">Password</label>
-              <div class="logs-password-row">
-                <input id="logsPassword" type="password" inputmode="numeric" autocomplete="current-password" aria-label="Logs password" />
-                <button class="primary" type="submit">UNLOCK</button>
-              </div>
-              <div id="logsGateMessage" class="logs-gate-message" role="status"></div>
-            </form>
-          </div>
-        </div>
-
-        <div id="logsWorkspace" hidden>
+        <div id="logsWorkspace">
           <div id="logsPipelineCards" class="country-pipeline-grid"></div>
 
           <div class="logs-toolbar">
@@ -362,7 +368,6 @@
               <tbody id="logsRows"></tbody>
             </table>
           </div>
-          <p class="note">The password protects the dashboard view from casual access. Because the site is static, the published audit JSON is not cryptographically private; do not publish secrets, credentials, cookies, headers, or article full text.</p>
         </div>
       </section>
     </section>
@@ -388,14 +393,15 @@
   </main>
   <script src="https://unpkg.com/maplibre-gl@5.12.0/dist/maplibre-gl.js"></script>
   <script src="./map-data.js"></script>
-  <script src="./map-ui.js?v=4.2.1"></script>
-  <script src="./app.js?v=4.3.0"></script>
-  <script src="./event-drawer.js?v=4.2.1"></script>
-  <script src="./civilian-harm.js?v=4.2.1"></script>
-  <script src="./logs.js"></script>
-  <script src="./research-lab.js?v=4.2.2"></script>
+  <script src="./map-ui.js?v=3.3.4"></script>
+  <script src="./app.js?v=3.3.4"></script>
+  <script src="./event-drawer.js?v=3.3.4"></script>
+  <script src="./civilian-harm.js?v=3.3.4"></script>
+  <script src="./logs.js?v=3.3.4"></script>
+  <script src="./research-lab.js?v=3.3.4"></script>
 </body>
 </html>
+
 
 
 

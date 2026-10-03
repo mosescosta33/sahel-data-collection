@@ -1,4 +1,4 @@
-const SITE_UI_VERSION='4.3.0';
+const SITE_UI_VERSION='4.3.1';
 const state={overview:null,reports:[],events:[],metrics:null,thirty:null,sources:[],runs:[],briefing:null,sultanaArchive:{briefings:[]},russianLogistics:null,actorFilter:'all',mapDays:7,langFilter:'all',countryFilter:'all',range:30,voices:[],speaking:false,readerRunning:false,readerPaused:false,readerIndex:0,readerCycle:0,readerRange:30,readerQueue:[],readerSession:0,timelineDate:null,savedReports:[],savedViewMode:'all'};
 const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
 const esc=s=>String(s??'').replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
@@ -166,7 +166,7 @@ async function refresh(){
     console.error(e);
   }
 }
-function renderOverview(){const o=state.overview||{};setText('deskUpdated',o.last_collection?'Last completed collection · '+fmtTime(o.last_collection):'Awaiting first completed collection');let status=o.status||'OFFLINE',detail=o.status_detail||'';const patch=SITE_UI_VERSION;setText('patchBadge',`PATCH v${patch}`);const pb=$('#patchBadge');if(pb)pb.title=`Sahel Intel public dashboard patch v${patch}`;if(o.last_collection){const age=(Date.now()-new Date(o.last_collection))/60000;if(age>90){status='OFFLINE';detail=`Last automated collection was ${relTime(o.last_collection)}. Scheduled collection may be disabled or failing.`}else if(age>40&&status==='LIVE'){status='DEGRADED';detail=`Last automated collection was ${relTime(o.last_collection)}.`}}applyStatus(status,detail);setText('reports24',o.reports_24h??0);setText('sources24',o.distinct_sources_24h??0);setText('mapped24',o.mapped_events_24h??0);setText('configuredSources',o.sources_configured??74);setText('liveSources',o.sources_live??0);setText('degradedSources',o.sources_degraded??0);setText('failedSources',o.sources_failed??0);const r=o.last_run;if(r){const target=r.report_target??100;$('#runBox').innerHTML=`Last cycle ${esc(relTime(o.last_collection))}<br>${r.sources_success}/${o.sources_configured} active sources reached • ${r.documents_discovered} links discovered • ${r.documents_retained}/${target} qualifying-report target • ${r.collection_waves??1} collection wave${(r.collection_waves??1)===1?'':'s'} • ${r.event_changes} event changes`;}else{$('#runBox').textContent='Awaiting first collection run. The interface will not claim LIVE until the worker finishes a real cycle.'}}
+function renderOverview(){const o=state.overview||{};setText('deskUpdated',o.last_collection?'Last completed collection · '+fmtTime(o.last_collection):'Awaiting first completed collection');let status=o.status||'OFFLINE',detail=o.status_detail||'';const patch=SITE_UI_VERSION;setText('patchBadge',`PATCH v${patch}`);const pb=$('#patchBadge');if(pb)pb.title=`Sahel Intel public dashboard patch v${patch}`;if(o.last_collection){const age=(Date.now()-new Date(o.last_collection))/60000;if(age>90){status='OFFLINE';detail=`Last automated collection was ${relTime(o.last_collection)}. Scheduled collection may be disabled or failing.`}else if(age>40&&status==='LIVE'){status='DEGRADED';detail=`Last automated collection was ${relTime(o.last_collection)}.`}}applyStatus(status,detail);setText('reports24',o.reports_24h??0);setText('sources24',o.distinct_sources_24h??0);setText('mapped24',o.mapped_events_24h??0);setText('configuredSources',o.sources_configured??74);setText('liveSources',o.sources_live??0);setText('degradedSources',o.sources_degraded??0);setText('failedSources',o.sources_failed??0);const r=o.last_run;if(r){const target=r.report_target??100;$('#runBox').innerHTML=`Last cycle ${esc(relTime(o.last_collection))}<br>${r.sources_success}/${o.sources_configured} active sources reached • ${r.documents_discovered} links discovered • ${r.documents_retained}/${target} new-report target • ${r.collection_waves??1} collection wave${(r.collection_waves??1)===1?'':'s'} • ${r.events_added != null ? r.events_added + " new events • " + (r.events_removed ?? 0) + " removed events" : r.event_changes + " event IDs added/removed"}`;}else{$('#runBox').textContent='Awaiting first collection run. The interface will not claim LIVE until the worker finishes a real cycle.'}}
 
 function reportCard(r,scope='report'){
   const english=r.translated_title||r.title;
@@ -643,14 +643,26 @@ function renderSultanaArchive(){
   setText('sultanaArchiveCount',`${rows.length} brief${rows.length===1?'':'s'}`);
   host.innerHTML=rows.map((b,i)=>{
     const cov=b.coverage||{};
-    return `<article class="sultana-archive-row"><div><strong>${esc(b.reporting_date||'Undated')}</strong><span>${esc(cov.retained_articles_reviewed??0)} articles • ${esc(cov.distinct_sources??0)} sources • ${esc(b.assessment_confidence||'UNRATED')} confidence</span></div><div class="sultana-archive-actions"><button type="button" data-sultana-download="${i}" data-format="txt">TXT</button><button type="button" data-sultana-download="${i}" data-format="json">JSON</button></div></article>`;
+    return `<article class="sultana-archive-row"><div><strong>${esc(b.reporting_date||'Undated')}</strong>${b.generated_at?`<span>${esc(briefingCreatedDC(b.generated_at))}</span>`:''}<span>${esc(cov.retained_articles_reviewed??0)} articles • ${esc(cov.distinct_sources??0)} sources • ${esc(b.assessment_confidence||'UNRATED')} confidence</span></div><div class="sultana-archive-actions"><button type="button" data-sultana-download="${i}" data-format="txt">TXT</button><button type="button" data-sultana-download="${i}" data-format="json">JSON</button></div></article>`;
   }).join('')||'<div class="runbox">No archived Sultana briefings yet.</div>';
   host.querySelectorAll('[data-sultana-download]').forEach(btn=>{btn.onclick=()=>downloadSultanaBrief(rows[Number(btn.dataset.sultanaDownload)],btn.dataset.format||'json');});
+}
+function briefingCreatedDC(value){
+  if(!value)return '';
+  const date=new Date(value);
+  if(Number.isNaN(date.getTime()))return '';
+  return 'Created '+new Intl.DateTimeFormat('en-US',{
+    timeZone:'America/New_York',month:'short',day:'numeric',year:'numeric',
+    hour:'numeric',minute:'2-digit',timeZoneName:'short'
+  }).format(date)+' · Washington, D.C.';
 }
 function renderBriefing(){
   const b=state.briefing;if(!b)return;
   const cov=b.coverage||{};
-  setText('briefStamp',`Frozen 24H product • ${b.reporting_date||'undated'} • ${b.assessment_confidence||'UNRATED'} confidence • generated ${fmtTime(b.generated_at)}`);
+  const createdLabel=briefingCreatedDC(b.generated_at);
+  setText('briefStamp',createdLabel);
+  const briefStamp=$('#briefStamp');
+  if(briefStamp)briefStamp.hidden=!createdLabel;
   const meta=$('#sultanaBriefMeta');
   if(meta)meta.innerHTML=[
     ['ARTICLES REVIEWED',cov.retained_articles_reviewed??0],
@@ -688,7 +700,7 @@ function renderOps(){
   const t=state.thirty||{};const reports30=t.reports??0,incidentReports=t.incident_reports??0,events30=t.candidate_events??0,corroborated=t.corroborated_events??0;
   $('#pipelineFunnel').innerHTML=`<span>${reports30} relevant reports / 30D</span><i>→</i><span>${incidentReports} incident reports</span><i>→</i><span>${events30} unique fused events</span><i>→</i><span>${corroborated} multi-source events</span>`;
   $('#sourceRows').innerHTML=state.sources.map(s=>`<tr><td><b class="source-code">${esc(s.source_code||sourceCodeById(s.id)||'SRC-UNASSIGNED')}</b></td><td><a href="${esc(s.homepage)}" target="_blank" rel="noopener">${esc(s.name)}</a></td><td>${esc((s.language||'').toUpperCase())}</td><td>${esc(s.source_type||'—')}</td><td>${esc(s.focus)}</td><td class="statuscell ${statusClass(s.status)}">${esc(s.status)}</td><td>${esc(s.access_mode||'—')}</td><td>${esc(s.contribution_status||'—')}</td><td>${esc(relTime(s.last_checked_at))}</td><td>${esc(s.last_discovered_candidates??0)}</td><td>${esc(s.last_new_documents??0)}</td><td>${esc((s.translation_success_archive??0)+'/'+(s.translation_eligible_archive??0))}</td><td>${esc(s.error_category||'')}</td></tr>`).join('');
-  $('#runHistory').innerHTML=state.runs.map(r=>`<div class="runrow"><span>${esc(fmtTime(r.finished_at||r.started_at))}</span><strong>${esc(r.status)}</strong><span>${r.sources_success}/${r.sources_total} sources</span><span>${r.documents_discovered} discovered</span><span>${r.documents_retained} new relevant</span><span>${r.archive_reports??"—"} archive reports</span><span>${r.candidate_events_archive??"—"} candidate events</span><span>${r.archive_rejected_by_precision_rules??0} archive rejects</span><span>${r.translations??0}/${r.translations_attempted??0} translated</span><span>${r.translation_failures??0} translation failures</span><span>${r.event_changes} event changes</span></div>`).join('')||'<div class="runbox">No completed runs yet.</div>';
+  $('#runHistory').innerHTML=state.runs.map(r=>`<div class="runrow"><span>${esc(fmtTime(r.finished_at||r.started_at))}</span><strong>${esc(r.status)}</strong><span>${r.sources_success}/${r.sources_total} sources</span><span>${r.documents_discovered} discovered</span><span>${r.documents_retained} new relevant</span><span>${r.archive_reports??"—"} archive reports</span><span>${r.candidate_events_archive??"—"} candidate events</span><span>${r.archive_rejected_by_precision_rules??0} archive rejects</span><span>${r.translations??0}/${r.translations_attempted??0} translated</span><span>${r.translation_failures??0} translation failures</span><span>${r.events_added != null ? r.events_added + " new events • " + (r.events_removed ?? 0) + " removed events" : r.event_changes + " event IDs added/removed"}</span></div>`).join('')||'<div class="runbox">No completed runs yet.</div>';
 }
 
 function loadVoices(){state.voices=speechSynthesis.getVoices();const sel=$('#voiceSelect');if(!sel)return;const prior=sel.value;sel.innerHTML='';state.voices.forEach((v,i)=>{const o=document.createElement('option');o.value=i;o.textContent=v.name;sel.appendChild(o)});let idx=prior!==''?Number(prior):-1;if(!Number.isFinite(idx)||!state.voices[idx])idx=state.voices.findIndex(v=>/Microsoft Ava Online \(Natural\)/i.test(v.name));if(idx<0)idx=state.voices.findIndex(v=>/Ava/i.test(v.name));if(idx<0)idx=state.voices.findIndex(v=>v.lang&&v.lang.toLowerCase().startsWith('en'));if(idx>=0)sel.value=idx;setText('voiceStatus',idx>=0?state.voices[idx].name:'default browser voice')}
