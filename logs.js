@@ -1,6 +1,7 @@
 (() => {
   'use strict';
 
+  const PASSWORD = '33';
   const AUDIT_URL = './data/collection_audit.json';
   const STATUS_URL = './data/country_pipeline_status.json';
   const $ = (id) => document.getElementById(id);
@@ -46,6 +47,18 @@
     }
   }
 
+  function unlocked(){ return sessionStorage.getItem('sicLogsUnlocked') === '1'; }
+  function showGate(){
+    if($('logsGate')) $('logsGate').hidden = false;
+    if($('logsWorkspace')) $('logsWorkspace').hidden = true;
+    if($('logsLockBtn')) $('logsLockBtn').hidden = true;
+  }
+  async function showWorkspace(){
+    if($('logsGate')) $('logsGate').hidden = true;
+    if($('logsWorkspace')) $('logsWorkspace').hidden = false;
+    if($('logsLockBtn')) $('logsLockBtn').hidden = false;
+    await loadAudit();
+  }
   async function loadAudit(){
     const host = $('logsSummary');
     if(host) host.innerHTML = '<span class="note">Loading audit trail…</span>';
@@ -106,14 +119,31 @@
   }
 
   function bind(){
+    $('logsUnlockForm')?.addEventListener('submit', async (e)=>{
+      e.preventDefault();
+      const pw = $('logsPassword')?.value || '';
+      if(pw === PASSWORD){
+        sessionStorage.setItem('sicLogsUnlocked','1');
+        if($('logsGateMessage')) $('logsGateMessage').textContent = '';
+        if($('logsPassword')) $('logsPassword').value = '';
+        await showWorkspace();
+      } else {
+        if($('logsGateMessage')) $('logsGateMessage').textContent = 'Incorrect password.';
+      }
+    });
+    $('logsLockBtn')?.addEventListener('click', ()=>{
+      sessionStorage.removeItem('sicLogsUnlocked');
+      audit = null;
+      showGate();
+    });
     $('logsRefreshBtn')?.addEventListener('click', loadAudit);
     ['logsPipelineFilter','logsDecisionFilter','logsSearch'].forEach(id=>{
       $(id)?.addEventListener(id === 'logsSearch' ? 'input' : 'change', render);
     });
     document.querySelector('[data-view="logs"]')?.addEventListener('click', ()=>{
-      loadAudit();
+      if(unlocked()) showWorkspace(); else showGate();
     });
-    loadAudit();
+    if(unlocked()) showWorkspace(); else showGate();
     loadPublicPipelineStatus();
   }
 
