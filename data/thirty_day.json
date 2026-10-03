@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-03T14:40:13.640904Z",
+  "generated_at": "2026-10-03T18:26:58.999383Z",
   "window_days": 30,
   "cutoff": "2026-09-03",
-  "reports": 213,
+  "reports": 217,
   "incident_reports": 36,
   "candidate_events": 34,
   "corroborated_events": 2,
   "mapped_events": 25,
   "mapped_locations": 50,
-  "distinct_sources": 59,
+  "distinct_sources": 62,
   "by_actor": {
     "State": 16,
     "Other": 7,
@@ -30,9 +30,9 @@
     "air/drone strike": 1
   },
   "by_language": {
-    "fr": 150,
-    "en": 56,
-    "ar": 7
+    "fr": 152,
+    "en": 57,
+    "ar": 8
   },
   "by_confidence": {
     "low": 19,
@@ -60,6 +60,11 @@
       "count": 9
     },
     {
+      "source_code": "SRC-0012",
+      "source": "Sidwaya",
+      "count": 9
+    },
+    {
       "source_code": "SRC-0064",
       "source": "Africa Defense Forum (ADF Magazine)",
       "count": 9
@@ -68,11 +73,6 @@
       "source_code": "SRC-0075",
       "source": "AMAP (Agence Malienne de Presse et de Publicité)",
       "count": 9
-    },
-    {
-      "source_code": "SRC-0012",
-      "source": "Sidwaya",
-      "count": 8
     },
     {
       "source_code": "SRC-0090",
@@ -193,7 +193,7 @@
     },
     {
       "date": "2026-09-12",
-      "reports": 2,
+      "reports": 3,
       "events": 0
     },
     {
@@ -298,7 +298,7 @@
     },
     {
       "date": "2026-10-03",
-      "reports": 3,
+      "reports": 6,
       "events": 0
     }
   ],
@@ -3378,6 +3378,42 @@
   ],
   "latest_reports": [
     {
+      "published_at": "2026-10-03T18:03:08Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-03T18:25:54.294246Z",
+      "discovered_at": "2026-10-03T18:25:54.294246Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0023",
+      "source": "Al Jazeera English",
+      "language": "en",
+      "actor": "State",
+      "country": "Niger",
+      "city": "Niamey",
+      "event_type": "political/security policy",
+      "candidate_event": false,
+      "title": "Algeria sent fighter jets to Niger to thwart ‘coup attempt’, president says",
+      "url": "https://www.aljazeera.com/news/2026/10/3/algeria-sent-fighter-jets-to-niger-to-thwart-coup-attempt-president-says?traffic_source=rss"
+    },
+    {
+      "published_at": "2026-10-03T15:27:37Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-03T18:26:08.953654Z",
+      "discovered_at": "2026-10-03T18:26:08.953654Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0174",
+      "source": "Youm7 (اليوم السابع)",
+      "language": "ar",
+      "actor": "State",
+      "country": "Niger",
+      "city": "Niamey",
+      "event_type": "political/security policy",
+      "candidate_event": false,
+      "title": "Algeria's president reveals behind the scenes of sending fighter jets to thwart coup attempt in Niger",
+      "url": "https://www.youm7.com/story/2026/10/3/%D8%B1%D8%A6%D9%8A%D8%B3-%D8%A7%D9%84%D8%AC%D8%B2%D8%A7%D8%A6%D8%B1-%D9%8A%D9%83%D8%B4%D9%81-%D9%83%D9%88%D8%A7%D9%84%D9%8A%D8%B3-%D8%A5%D8%B1%D8%B3%D8%A7%D9%84-%D9%85%D9%82%D8%A7%D8%AA%D9%84%D8%A7%D8%AA-%D9%84%D8%A5%D8%AD%D8%A8%D8%A7%D8%B7-%D9%85%D8%AD%D8%A7%D9%88%D9%84%D8%A9-%D8%A7%D9%86%D9%82%D9%84%D8%A7%D8%A8-%D9%81%D9%89/7566038"
+    },
+    {
       "published_at": "2026-10-03T13:28:55Z",
       "published_date_source": "feed",
       "published_time_precision": "datetime",
@@ -3412,6 +3448,24 @@
       "candidate_event": false,
       "title": "Coup in Niger: Algeria denounces a \"provocation\" and reveals its military intervention",
       "url": "https://malijet.com/actualite-sur-afrique/312149-coup-detat-au-niger-lalgerie-denonce-une-provocation-e.html"
+    },
+    {
+      "published_at": "2026-10-03T12:34:20Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-03T18:26:28.734084Z",
+      "discovered_at": "2026-10-03T18:26:28.734084Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0012",
+      "source": "Sidwaya",
+      "language": "fr",
+      "actor": "State",
+      "country": "Burkina Faso",
+      "city": null,
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Government exhibition The minister in charge of war, Célestin Simporé, exchanges with citizens",
+      "url": "https://www.sidwaya.info/exposition-gouvernementale-le-ministre-charge-de-la-guerre-celestin-simpore-echange-avec-les-citoyens/"
     },
     {
       "published_at": "2026-10-03T11:56:30Z",
@@ -4042,60 +4096,6 @@
       "candidate_event": false,
       "title": "RPP Night: Strong mobilization at the Place de la Révolution in Ouagadougou",
       "url": "https://burkina24.com/2026/09/30/nuit-de-la-rpp-forte-mobilisation-a-la-place-de-la-revolution-de-ouagadougou/"
-    },
-    {
-      "published_at": "2026-09-30T18:00:49Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-09-30T16:33:34.185613Z",
-      "discovered_at": "2026-09-30T16:33:34.185613Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0003",
-      "source": "Jeune Afrique",
-      "language": "fr",
-      "actor": null,
-      "country": "Mali",
-      "city": "Bamako",
-      "event_type": "offensive/campaign",
-      "candidate_event": false,
-      "title": "Mali's gold and lithium in the sights of the Trump administration",
-      "url": "https://www.jeuneafrique.com/1847863/economie-entreprises/lor-et-le-lithium-du-mali-dans-le-viseur-de-ladministration-trump/"
-    },
-    {
-      "published_at": "2026-09-30T16:45:03Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-03T09:31:26.127441Z",
-      "discovered_at": "2026-10-03T09:31:26.127441Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0022",
-      "source": "Africanews",
-      "language": "en",
-      "actor": "State",
-      "country": "Burkina Faso",
-      "city": null,
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Pix of the Day, 30 September, 2026 - Across the world",
-      "url": "https://www.africanews.com/2026/09/30/pix-of-the-day-30-september-2026-across-the-world/"
-    },
-    {
-      "published_at": "2026-09-30T12:05:43Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-09-30T12:39:12.112299Z",
-      "discovered_at": "2026-09-30T12:39:12.112299Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0117",
-      "source": "Vanguard News (Nigeria)",
-      "language": "en",
-      "actor": "Other",
-      "country": "Niger",
-      "city": null,
-      "event_type": "kidnapping",
-      "candidate_event": true,
-      "title": "Bandits abduct 47 Niger women, others harvesting groundnuts",
-      "url": "https://www.vanguardngr.com/2026/09/bandits-abduct-47-niger-women-others-harvesting-groundnuts/"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
