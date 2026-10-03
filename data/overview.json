@@ -1,17 +1,17 @@
 {
   "status": "LIVE",
   "site_patch_version": "3.3.3",
-  "status_detail": "Last automated GitHub collection completed 2026-10-03T09:33:33.428299Z; 161/176 sources yielded a direct or indexed discovery path.",
-  "last_collection": "2026-10-03T09:33:33.428299Z",
-  "reports_24h": 3,
-  "distinct_sources_24h": 3,
+  "status_detail": "Last automated GitHub collection completed 2026-10-03T10:29:54.395719Z; 160/176 sources yielded a direct or indexed discovery path.",
+  "last_collection": "2026-10-03T10:29:54.395719Z",
+  "reports_24h": 2,
+  "distinct_sources_24h": 2,
   "candidate_events_24h": 0,
   "mapped_events_24h": 0,
   "mapped_locations_24h": 0,
   "sources_configured": 176,
-  "sources_live": 133,
+  "sources_live": 132,
   "sources_degraded": 28,
-  "sources_failed": 15,
+  "sources_failed": 16,
   "source_onboarding": {
     "candidate_total": 300,
     "verified_or_active": 159,
@@ -80,7 +80,7 @@
     "multilateral": 2
   },
   "threat": {
-    "generated_at": "2026-10-03T09:33:33.398360Z",
+    "generated_at": "2026-10-03T10:29:54.377995Z",
     "model_version": "0.1-experimental",
     "label": "Experimental Conflict Threat Level",
     "regional": {
@@ -143,14 +143,16 @@
     "method_note": "Experimental research indicator derived from fused candidate events, recent country-relative tempo, significance, militant activity, civilian-threat signals, geographic spread and corroboration. It is not a travel advisory, verified incident count, or forecast. Collection gaps reduce confidence rather than automatically reducing threat."
   },
   "data_quality": {
-    "generated_at": "2026-10-03T09:33:33.427195Z",
+    "generated_at": "2026-10-03T10:29:54.395050Z",
     "events_30d": 34,
     "date_resolution_pct": 85,
     "precise_geography_pct": 74,
     "actor_attribution_pct": 79,
     "multi_source_corroboration_pct": 6,
-    "collection_blind_spots": [],
-    "collection_status": "NOMINAL",
+    "collection_blind_spots": [
+      "44 configured sources are degraded or failed"
+    ],
+    "collection_status": "DEGRADED",
     "language_reports_30d": {
       "fr": 164,
       "en": 64,
@@ -159,41 +161,41 @@
     "note": "Quality percentages describe fields present in Sahel Intel fused candidate events; they are not accuracy estimates."
   },
   "last_run": {
-    "started_at": "2026-10-03T09:26:58.721754Z",
-    "finished_at": "2026-10-03T09:33:33.428299Z",
+    "started_at": "2026-10-03T10:24:55.311837Z",
+    "finished_at": "2026-10-03T10:29:54.395719Z",
     "status": "complete",
     "site_patch_version": "3.3.3",
     "sources_total": 176,
-    "sources_success": 161,
-    "sources_failed": 15,
-    "documents_discovered": 12644,
+    "sources_success": 160,
+    "sources_failed": 16,
+    "documents_discovered": 12581,
     "documents_selected": 480,
-    "prefetch_skipped": 11167,
-    "known_url_skipped": 85,
-    "duplicate_url_skipped": 364,
-    "title_duplicates_skipped": 104,
-    "source_cap_skipped": 341,
-    "documents_retained": 12,
+    "prefetch_skipped": 11124,
+    "known_url_skipped": 83,
+    "duplicate_url_skipped": 347,
+    "title_duplicates_skipped": 111,
+    "source_cap_skipped": 340,
+    "documents_retained": 9,
     "report_target": 100,
-    "report_target_progress": 12,
+    "report_target_progress": 9,
     "report_target_met": false,
     "country_report_floor": 20,
     "retained_cycle_by_country": {
-      "Mali": 3,
-      "Burkina Faso": 3,
+      "Mali": 2,
+      "Burkina Faso": 1,
       "Niger": 6
     },
     "collection_waves": 3,
     "fetch_candidates_attempted": 480,
     "targeted_sources_queried": 36,
-    "targeted_links_discovered": 20,
+    "targeted_links_discovered": 13,
     "dynamic_sources_loaded": 102,
     "source_candidates_total": 300,
     "source_candidates_verified_or_active": 159,
     "source_candidates_verified_this_run": 36,
     "archive_rejected_by_precision_rules": 0,
     "archive_rescreened": 0,
-    "archive_duplicates_removed": 12,
+    "archive_duplicates_removed": 9,
     "translations_attempted": 7,
     "translations": 7,
     "translation_failures": 0,
@@ -216,20 +218,20 @@
     "funnel_unaccounted": 0,
     "selected_by_language": {
       "fr": 371,
-      "en": 49,
-      "ar": 60,
+      "en": 48,
+      "ar": 61,
       "other": 0
     },
     "retained_cycle_by_language": {
       "fr": 7,
-      "en": 5,
+      "en": 2,
       "ar": 0,
       "other": 0
     },
     "precision_rejects_by_language": {
-      "fr": 164,
+      "fr": 184,
       "en": 14,
-      "ar": 16,
+      "ar": 15,
       "other": 0
     }
   }
