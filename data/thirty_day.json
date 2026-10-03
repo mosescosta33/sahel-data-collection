@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-03T10:29:54.331266Z",
+  "generated_at": "2026-10-03T14:40:13.640904Z",
   "window_days": 30,
   "cutoff": "2026-09-03",
-  "reports": 209,
+  "reports": 213,
   "incident_reports": 36,
   "candidate_events": 34,
   "corroborated_events": 2,
@@ -30,7 +30,7 @@
     "air/drone strike": 1
   },
   "by_language": {
-    "fr": 146,
+    "fr": 150,
     "en": 56,
     "ar": 7
   },
@@ -42,12 +42,12 @@
     {
       "source_code": "SRC-0008",
       "source": "Bamada",
-      "count": 22
+      "count": 23
     },
     {
       "source_code": "SRC-0006",
       "source": "Malijet",
-      "count": 17
+      "count": 19
     },
     {
       "source_code": "SRC-0015",
@@ -293,12 +293,12 @@
     },
     {
       "date": "2026-10-02",
-      "reports": 4,
+      "reports": 5,
       "events": 0
     },
     {
       "date": "2026-10-03",
-      "reports": 0,
+      "reports": 3,
       "events": 0
     }
   ],
@@ -1510,6 +1510,104 @@
       ]
     },
     {
+      "id": "18741c5c7b9e4c2ae1addba88456df852789e9bc",
+      "event_date": "2026-09-23",
+      "event_date_confidence": "explicit-text",
+      "event_date_source": "explicit-calendar-date",
+      "published_at": "2026-09-23T23:04:12Z",
+      "published_date_source": "itemprop",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-03T14:38:03.951056Z",
+      "actor": "Other",
+      "perpetrator": null,
+      "target": null,
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [],
+      "parent_report_id": null,
+      "event_type": "attack",
+      "country": "Niger",
+      "city": "Tillabéri",
+      "lat": 14.2071,
+      "lng": 1.4542,
+      "locations": [
+        {
+          "name": "Tillabéri",
+          "country": "Niger",
+          "lat": 14.2071,
+          "lng": 1.4542,
+          "confidence": "explicit-place"
+        }
+      ],
+      "title": "Niger: several soldiers fallen at the front and dozens of \"mercenaries\" neutralized in a new terrorist attack towards Abala",
+      "summary": "Several Nigerien soldiers fell on the battlefield and others were wounded in a new terrorist attack on Wednesday, September 23, 2026, in the Fartal area, located 22 km east of Abala, in the Tillabéri region, announced the Minister of National Defence in a statement issued in the evening According to the same source, violent clashes took place between Nigerien soldiers, in an operation to intercept a convoy of cattle stolen the day before in the area, and a large column of \"motorcycle mercenaries\" and \"heavily armed\" .",
+      "sources": [
+        "ActuNiger"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://www.actuniger.com/societe/22378-niger-plusieurs-soldats-tombes-au-front-et-des-dizaines-de-mercenaires-neutralises-dans-une-nouvelle-attaque-terroriste-vers-abala"
+      ],
+      "report_summaries": [
+        {
+          "url": "https://www.actuniger.com/societe/22378-niger-plusieurs-soldats-tombes-au-front-et-des-dizaines-de-mercenaires-neutralises-dans-une-nouvelle-attaque-terroriste-vers-abala",
+          "source": "ActuNiger",
+          "title": "Niger: several soldiers fallen at the front and dozens of \"mercenaries\" neutralized in a new terrorist attack towards Abala",
+          "summary": "Several Nigerien soldiers fell on the battlefield and others were wounded in a new terrorist attack on Wednesday, September 23, 2026, in the Fartal area, located 22 km east of Abala, in the Tillabéri region, announced the Minister of National Defence in a statement issued in the evening According to the same source, violent clashes took place between Nigerien soldiers, in an operation to intercept a convoy of cattle stolen the day before in the area, and a large column of \"motorcycle mercenaries\" and \"heavily armed\" .",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "security_force",
+            "armed_group"
+          ],
+          "civilian_targeting_flag": false,
+          "casualty_claims": []
+        }
+      ],
+      "created_at": "2026-10-03T14:38:03.951056Z",
+      "updated_at": "2026-10-03T14:38:03.951056Z",
+      "extraction_confidence": "low",
+      "victim_categories": [
+        "security_force",
+        "armed_group"
+      ],
+      "civilian_targeting_flag": false,
+      "casualty_claims": [],
+      "fatalities_min": null,
+      "fatalities_max": null,
+      "fatalities_best": null,
+      "injured_min": null,
+      "injured_max": null,
+      "abducted_min": null,
+      "abducted_max": null,
+      "casualty_disputed": false,
+      "revision_history": [
+        {
+          "at": "2026-10-03T14:38:03.951056Z",
+          "type": "event_created",
+          "source": "ActuNiger"
+        }
+      ],
+      "corroboration": "single-source",
+      "confidence": "low",
+      "independent_source_domains": [
+        "actuniger.com"
+      ],
+      "independent_source_count": 1,
+      "significance": "SIGNIFICANT",
+      "significance_reasons": [
+        "operational security event"
+      ]
+    },
+    {
       "id": "ef4429417893e117702cfe92a67b5e5dedd6e263",
       "event_date": "2026-09-23",
       "event_date_confidence": "explicit-text",
@@ -1792,104 +1890,6 @@
       "significance": "ROUTINE",
       "significance_reasons": [
         "limited currently observed significance"
-      ]
-    },
-    {
-      "id": "c9fca84b2d219d19ed9a5a86e10c3b5b309d3431",
-      "event_date": "2026-09-23",
-      "event_date_confidence": "explicit-text",
-      "event_date_source": "explicit-calendar-date",
-      "published_at": "2026-09-23T23:04:12Z",
-      "published_date_source": "itemprop",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-09-23T23:24:52.009243Z",
-      "actor": "Other",
-      "perpetrator": null,
-      "target": null,
-      "claimant": null,
-      "supporting_force": null,
-      "mentioned_actors": [],
-      "parent_report_id": null,
-      "event_type": "attack",
-      "country": "Niger",
-      "city": "Tillabéri",
-      "lat": 14.2071,
-      "lng": 1.4542,
-      "locations": [
-        {
-          "name": "Tillabéri",
-          "country": "Niger",
-          "lat": 14.2071,
-          "lng": 1.4542,
-          "confidence": "explicit-place"
-        }
-      ],
-      "title": "Niger: several soldiers fallen at the front and dozens of \"mercenaries\" neutralized in a new terrorist attack towards Abala",
-      "summary": "Several Nigerien soldiers fell on the battlefield and others were wounded in a new terrorist attack on Wednesday, September 23, 2026, in the Fartal area, located 22 km east of Abala, in the Tillabéri region, announced the Minister of National Defence in a statement issued in the evening According to the same source, violent clashes took place between Nigerien soldiers, in an operation to intercept a convoy of cattle stolen the day before in the area, and a large column of \"motorcycle mercenaries\" and \"heavily armed\" .",
-      "sources": [
-        "ActuNiger"
-      ],
-      "languages": [
-        "fr"
-      ],
-      "source_count": 1,
-      "report_urls": [
-        "https://www.actuniger.com/societe/22378-niger-plusieurs-soldats-tombes-au-front-et-des-dizaines-de-mercenaires-neutralises-dans-une-nouvelle-attaque-terroriste-vers-abala.html"
-      ],
-      "report_summaries": [
-        {
-          "url": "https://www.actuniger.com/societe/22378-niger-plusieurs-soldats-tombes-au-front-et-des-dizaines-de-mercenaires-neutralises-dans-une-nouvelle-attaque-terroriste-vers-abala.html",
-          "source": "ActuNiger",
-          "title": "Niger: several soldiers fallen at the front and dozens of \"mercenaries\" neutralized in a new terrorist attack towards Abala",
-          "summary": "Several Nigerien soldiers fell on the battlefield and others were wounded in a new terrorist attack on Wednesday, September 23, 2026, in the Fartal area, located 22 km east of Abala, in the Tillabéri region, announced the Minister of National Defence in a statement issued in the evening According to the same source, violent clashes took place between Nigerien soldiers, in an operation to intercept a convoy of cattle stolen the day before in the area, and a large column of \"motorcycle mercenaries\" and \"heavily armed\" .",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "security_force",
-            "armed_group"
-          ],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        }
-      ],
-      "created_at": "2026-09-23T23:24:52.009243Z",
-      "updated_at": "2026-09-23T23:24:52.009243Z",
-      "extraction_confidence": "low",
-      "victim_categories": [
-        "security_force",
-        "armed_group"
-      ],
-      "civilian_targeting_flag": false,
-      "casualty_claims": [],
-      "fatalities_min": null,
-      "fatalities_max": null,
-      "fatalities_best": null,
-      "injured_min": null,
-      "injured_max": null,
-      "abducted_min": null,
-      "abducted_max": null,
-      "casualty_disputed": false,
-      "revision_history": [
-        {
-          "at": "2026-09-23T23:24:52.009243Z",
-          "type": "event_created",
-          "source": "ActuNiger"
-        }
-      ],
-      "corroboration": "single-source",
-      "confidence": "low",
-      "independent_source_domains": [
-        "actuniger.com"
-      ],
-      "independent_source_count": 1,
-      "significance": "SIGNIFICANT",
-      "significance_reasons": [
-        "operational security event"
       ]
     },
     {
@@ -3378,6 +3378,60 @@
   ],
   "latest_reports": [
     {
+      "published_at": "2026-10-03T13:28:55Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-03T14:38:03.206150Z",
+      "discovered_at": "2026-10-03T14:38:03.206150Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0006",
+      "source": "Malijet",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Bamako",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Supply: A convoy of 643 tanker trucks arrives in Bamako under military escort",
+      "url": "https://malijet.com/flash-info/312150-approvisionnement-un-convoi-de-643-camions-citernes-arrive.html"
+    },
+    {
+      "published_at": "2026-10-03T13:21:55Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-03T14:38:07.935821Z",
+      "discovered_at": "2026-10-03T14:38:07.935821Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0006",
+      "source": "Malijet",
+      "language": "fr",
+      "actor": null,
+      "country": "Niger",
+      "city": "Niamey",
+      "event_type": "political/security policy",
+      "candidate_event": false,
+      "title": "Coup in Niger: Algeria denounces a \"provocation\" and reveals its military intervention",
+      "url": "https://malijet.com/actualite-sur-afrique/312149-coup-detat-au-niger-lalgerie-denonce-une-provocation-e.html"
+    },
+    {
+      "published_at": "2026-10-03T11:56:30Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-03T14:38:03.324862Z",
+      "discovered_at": "2026-10-03T14:38:03.324862Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0008",
+      "source": "Bamada",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Bamako",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Mali: Arrival in Bamako of an exceptional convoy of more than 643 tankers under military escort",
+      "url": "https://bamada.net/mali-arrivee-a-bamako-dun-convoi-exceptionnel-de-plus-de-643-camions-citernes-sous-escorte-militaire"
+    },
+    {
       "published_at": "2026-10-02T21:35:33Z",
       "published_date_source": "feed",
       "published_time_precision": "datetime",
@@ -3412,6 +3466,24 @@
       "candidate_event": false,
       "title": "ARMY MUSEUM: the School of Application and Development of Officers to discover the military heritage of our country",
       "url": "https://bamada.net/musee-des-armees-lecole-dapplication-et-de-perfectionnement-des-officiers-a-la-decouverte-du-patrimoine-militaire-de-notre-pays"
+    },
+    {
+      "published_at": "2026-10-02T13:43:20Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-03T14:38:24.760609Z",
+      "discovered_at": "2026-10-03T14:38:24.760609Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0009",
+      "source": "Agence d'Information du Burkina",
+      "language": "fr",
+      "actor": "State",
+      "country": "Burkina Faso",
+      "city": null,
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Gourma/Security: 600 national VDPs complete their training to strengthen the security of the region - 'Agence d 'Information du Burkina (AIB)",
+      "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFAyWVlNMXFGQTF2bUE4VFlmd2pzeWZnRzhXQ2VmSnVaRWx4Ty1YeVVNM19ybUctdXJpLWdPVkF4T2JhbzJLS3c?oc=5"
     },
     {
       "published_at": "2026-10-02T10:18:24Z",
@@ -3633,8 +3705,8 @@
       "published_at": "2026-10-01T11:56:30Z",
       "published_date_source": "feed",
       "published_time_precision": "datetime",
-      "collected_at": "2026-10-03T09:31:25.919738Z",
-      "discovered_at": "2026-10-03T09:31:25.919738Z",
+      "collected_at": "2026-10-03T14:38:08.983944Z",
+      "discovered_at": "2026-10-03T14:38:08.983944Z",
       "timestamp_integrity": "complete",
       "source_code": "SRC-0022",
       "source": "Africanews",
@@ -4024,78 +4096,6 @@
       "candidate_event": true,
       "title": "Bandits abduct 47 Niger women, others harvesting groundnuts",
       "url": "https://www.vanguardngr.com/2026/09/bandits-abduct-47-niger-women-others-harvesting-groundnuts/"
-    },
-    {
-      "published_at": "2026-09-30T11:51:21Z",
-      "published_date_source": "opengraph",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-01T06:39:37.085186Z",
-      "discovered_at": "2026-10-01T06:39:37.085186Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0090",
-      "source": "AllAfrica (Édition Française)",
-      "language": "fr",
-      "actor": "State",
-      "country": "Burkina Faso",
-      "city": "Ouagadougou",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "5 Burkina Faso: A Historic Night",
-      "url": "https://fr.allafrica.com/stories/202609300370.html"
-    },
-    {
-      "published_at": "2026-09-30T10:48:57Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-09-30T10:32:42.658754Z",
-      "discovered_at": "2026-09-30T10:32:42.658754Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0118",
-      "source": "Punch Newspapers (Nigeria)",
-      "language": "en",
-      "actor": "State",
-      "country": "Niger",
-      "city": null,
-      "event_type": "kidnapping",
-      "candidate_event": true,
-      "title": "Security operatives move to rescue 47 abducted farmers in Niger",
-      "url": "https://punchng.com/security-operatives-move-to-rescue-47-abducted-farmers-in-niger/"
-    },
-    {
-      "published_at": "2026-09-30T10:01:55Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-09-30T23:09:13.712678Z",
-      "discovered_at": "2026-09-30T23:09:13.712678Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0001",
-      "source": "RFI Afrique",
-      "language": "fr",
-      "actor": "JNIM",
-      "country": "Mali",
-      "city": null,
-      "event_type": null,
-      "candidate_event": false,
-      "title": "JNIM wa? ii hippannde faade e konu Mali e wallidii? e mum Africa Coprs haa wa? i maay? e - RFI",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOV2FHUV95V2daTUVJcEtKYjlRREJ1MzJRN3ZLUlR5eFdjd0ItQjdvMEgwWW1rQ0lDMjBUZTMtX1dlTjBFVWRCRjZ2WjNLRXgtU2ZhaVdBdEVab1pqTWZUdU1OWWNocVN6T3NOZ0JEdWpBc3RqOXRPSFNHbGtzNlNpU2tlUVhkWFcxcEI4OFBDVlRTMXlqWVJLSVdGc3g5WnFDdlE2MXJ1U0pET0RrT2x1dmVSSkJ5MWZ1WmtwTXdaVEgzcVZJZUphY0JCbFYxbkJNNnFnYmlaV3k?oc=5"
-    },
-    {
-      "published_at": "2026-09-30T09:59:01Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-01T06:14:21.136595Z",
-      "discovered_at": "2026-10-01T06:14:21.136595Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0085",
-      "source": "Seneweb",
-      "language": "fr",
-      "actor": "State",
-      "country": "Niger",
-      "city": "Agadez",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Niger: A Significant Quantity of Cocaine Worth More Than 2.5 Billion FCFA Seized in Agadez",
-      "url": "https://www.seneweb.com/fr/news/Afrique/niger-une-importante-quantite-de-cocaine-valant-plus-de-25-milliards-de-fcfa-saisie-a-agadez_n_505668.html"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
