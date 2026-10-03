@@ -14,6 +14,33 @@
   <link rel="stylesheet" href="./readability.css?v=4.2.1" />
   <link rel="stylesheet" href="./research-lab.css?v=4.2.1" />
   <link rel="stylesheet" href="./redesign.css?v=4.3.0" />
+
+  <style>
+    /* Research heading: balanced lines with room for the collection counters. */
+    .desk-intro-copy { flex: 1 1 0; min-width: 0; }
+    html[data-theme] .desk-intro .research-title {
+      font-size: clamp(28px, 3.15vw, 44px);
+      line-height: 1.16;
+      letter-spacing: -.035em;
+      margin: 12px 0 18px;
+      text-wrap: balance;
+    }
+    .research-title > span { display: block; }
+    html[data-theme] .research-title-secondary { color: var(--accent); }
+    .research-title-or { font-weight: 450; }
+    html[data-theme] .desk-intro .research-subtitle {
+      max-width: 60ch;
+      font-size: clamp(16px, 1.25vw, 18px) !important;
+      line-height: 1.6;
+      color: var(--secondary);
+      text-wrap: balance;
+      margin: 0 0 16px;
+    }
+    @media (max-width: 1100px) { .desk-intro-copy { flex-basis: auto; width: 100%; } }
+    @media (max-width: 540px) {
+      html[data-theme] .desk-intro .research-title { font-size: clamp(27px, 6.8vw, 34px); }
+    }
+  </style>
 </head>
 <body>
   <header class="topbar">
@@ -35,7 +62,7 @@
   <main>
     <section id="view-overview" class="view active">
       <div class="desk-intro">
-        <div class="desk-intro-copy"><span class="eyebrow">Central Sahel · Open-source research</span><h2>Understanding conflict.<br>Examining security.</h2><p>Tracking conflict, civilian harm, and security intervention across Mali, Burkina Faso, and Niger.</p><div class="desk-updated" id="deskUpdated">Awaiting collection status</div></div>
+        <div class="desk-intro-copy"><span class="eyebrow">Central Sahel · Open-source research</span><h2 class="research-title"><span>Regime Security</span><span class="research-title-secondary"><span class="research-title-or">or</span> Regional Stabilization?</span></h2><p class="research-subtitle">Assessing Russian Intervention and Counterinsurgency Outcomes in the Central Sahel</p><div class="desk-updated" id="deskUpdated">Awaiting collection status</div></div>
         <div class="desk-stats" aria-label="Collection at a glance">
           <div class="desk-stat"><strong id="reports24">—</strong><span>Reports retained<br>Last 24 hours</span></div>
           <div class="desk-stat"><strong id="mapped24">—</strong><span>Mapped candidate events<br>Last 24 hours</span></div>
