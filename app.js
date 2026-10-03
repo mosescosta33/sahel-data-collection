@@ -650,7 +650,9 @@ function renderSultanaArchive(){
 function renderBriefing(){
   const b=state.briefing;if(!b)return;
   const cov=b.coverage||{};
-  setText('briefStamp',`Frozen 24H product • ${b.reporting_date||'undated'} • ${b.assessment_confidence||'UNRATED'} confidence • generated ${fmtTime(b.generated_at)}`);
+  setText('briefStamp','');
+  const briefStamp=$('#briefStamp');
+  if(briefStamp)briefStamp.hidden=true;
   const meta=$('#sultanaBriefMeta');
   if(meta)meta.innerHTML=[
     ['ARTICLES REVIEWED',cov.retained_articles_reviewed??0],
