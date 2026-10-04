@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-10-04T11:09:12.577647Z",
+  "generated_at": "2026-10-04T18:04:46.190841Z",
   "window_days": 30,
   "cutoff": "2026-09-04",
-  "reports": 223,
-  "incident_reports": 39,
-  "candidate_events": 36,
+  "reports": 227,
+  "incident_reports": 40,
+  "candidate_events": 37,
   "corroborated_events": 3,
-  "mapped_events": 32,
-  "mapped_locations": 63,
+  "mapped_events": 33,
+  "mapped_locations": 64,
   "distinct_sources": 63,
   "by_actor": {
-    "State": 21,
+    "State": 22,
     "JNIM": 7,
     "Other": 7,
     "Africa Corps/Wagner": 1
   },
   "by_country": {
-    "Mali": 31,
+    "Mali": 32,
     "Niger": 3,
     "Burkina Faso": 2
   },
   "by_event_type": {
-    "security operation": 17,
+    "security operation": 18,
     "attack": 8,
     "offensive/campaign": 4,
     "ambush": 3,
@@ -29,12 +29,12 @@
     "kidnapping": 1
   },
   "by_language": {
-    "fr": 164,
+    "fr": 167,
     "en": 51,
-    "ar": 8
+    "ar": 9
   },
   "by_confidence": {
-    "low": 18,
+    "low": 19,
     "moderate": 17,
     "moderate-high": 1
   },
@@ -47,16 +47,21 @@
     {
       "source_code": "SRC-0006",
       "source": "Malijet",
-      "count": 21
+      "count": 22
     },
     {
       "source_code": "SRC-0015",
       "source": "ActuNiger",
-      "count": 11
+      "count": 12
     },
     {
       "source_code": "SRC-0012",
       "source": "Sidwaya",
+      "count": 10
+    },
+    {
+      "source_code": "SRC-0075",
+      "source": "AMAP (Agence Malienne de Presse et de Publicité)",
       "count": 10
     },
     {
@@ -72,11 +77,6 @@
     {
       "source_code": "SRC-0064",
       "source": "Africa Defense Forum (ADF Magazine)",
-      "count": 9
-    },
-    {
-      "source_code": "SRC-0075",
-      "source": "AMAP (Agence Malienne de Presse et de Publicité)",
       "count": 9
     },
     {
@@ -106,12 +106,12 @@
       "count": 11
     },
     {
-      "location": "Mopti",
+      "location": "Bamako",
       "count": 9
     },
     {
-      "location": "Bamako",
-      "count": 8
+      "location": "Mopti",
+      "count": 9
     },
     {
       "location": "Sévaré",
@@ -294,15 +294,113 @@
     {
       "date": "2026-10-03",
       "reports": 7,
-      "events": 1
+      "events": 2
     },
     {
       "date": "2026-10-04",
-      "reports": 4,
+      "reports": 8,
       "events": 0
     }
   ],
   "latest_events": [
+    {
+      "id": "01fe8f3c880fa8817a9b99ab1c330a5f64163f36",
+      "event_date": "2026-10-03",
+      "event_date_confidence": "explicit-text",
+      "event_date_source": "explicit-calendar-date",
+      "published_at": "2026-10-04T12:39:37Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-04T18:03:55.568913Z",
+      "actor": "State",
+      "perpetrator": "State",
+      "target": null,
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [
+        "State"
+      ],
+      "parent_report_id": null,
+      "event_type": "security operation",
+      "country": "Mali",
+      "city": "Bamako",
+      "lat": 12.6392,
+      "lng": -8.0029,
+      "locations": [
+        {
+          "name": "Bamako",
+          "country": "Mali",
+          "lat": 12.6392,
+          "lng": -8.0029,
+          "confidence": "explicit-place"
+        }
+      ],
+      "title": "Koutiala: positions of armed terrorist groups targeted and hit by FAMa",
+      "summary": "Bamako, October 04 (AMAP) The Malian Armed Forces (FAMa), supported by their partners, targeted and struck, on Saturday, October 3, 2026, several entrenchment points of armed terrorist groups, located about 40 kilometers south of Koutiala, says a statement from the General Staff of the Armed Forces . According to the same source, the exploitation of precise intelligence has made it possible to locate several positions housing armed terrorist groups as well as war materials, including many armed vehicles.",
+      "sources": [
+        "AMAP (Agence Malienne de Presse et de Publicité)"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://amap.ml/2026/10/04/koutiala-des-positions-de-groupes-armes-terroristes-ciblees-et-frappees-par-les-fama/"
+      ],
+      "report_summaries": [
+        {
+          "url": "https://amap.ml/2026/10/04/koutiala-des-positions-de-groupes-armes-terroristes-ciblees-et-frappees-par-les-fama/",
+          "source": "AMAP (Agence Malienne de Presse et de Publicité)",
+          "title": "Koutiala: positions of armed terrorist groups targeted and hit by FAMa",
+          "summary": "Bamako, October 04 (AMAP) The Malian Armed Forces (FAMa), supported by their partners, targeted and struck, on Saturday, October 3, 2026, several entrenchment points of armed terrorist groups, located about 40 kilometers south of Koutiala, says a statement from the General Staff of the Armed Forces . According to the same source, the exploitation of precise intelligence has made it possible to locate several positions housing armed terrorist groups as well as war materials, including many armed vehicles.",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "armed_group"
+          ],
+          "civilian_targeting_flag": false,
+          "casualty_claims": []
+        }
+      ],
+      "created_at": "2026-10-04T18:03:55.568913Z",
+      "updated_at": "2026-10-04T18:03:55.568913Z",
+      "extraction_confidence": "low",
+      "victim_categories": [
+        "armed_group"
+      ],
+      "civilian_targeting_flag": false,
+      "casualty_claims": [],
+      "fatalities_min": null,
+      "fatalities_max": null,
+      "fatalities_best": null,
+      "injured_min": null,
+      "injured_max": null,
+      "abducted_min": null,
+      "abducted_max": null,
+      "casualty_disputed": false,
+      "revision_history": [
+        {
+          "at": "2026-10-04T18:03:55.568913Z",
+          "type": "event_created",
+          "source": "AMAP (Agence Malienne de Presse et de Publicité)"
+        }
+      ],
+      "corroboration": "single-source",
+      "confidence": "low",
+      "independent_source_domains": [
+        "amap.ml"
+      ],
+      "independent_source_count": 1,
+      "significance": "MAJOR",
+      "significance_reasons": [
+        "strategic/severe event pattern"
+      ]
+    },
     {
       "id": "8b160c3bb1d1eb455322582aaf928a6eb5e00954",
       "event_date": "2026-10-03",
@@ -3339,129 +3437,81 @@
         "strategic/severe event pattern",
         "multi-location activity"
       ]
-    },
-    {
-      "id": "e226d28cd43ba36f73b371bd73dda83fb30fc0f2",
-      "event_date": "2026-09-19",
-      "event_date_confidence": "explicit-text",
-      "event_date_source": "explicit-calendar-date",
-      "published_at": "2026-09-19T13:26:58Z",
-      "published_date_source": "stored",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-09-19T18:15:00.857125Z",
-      "actor": "State",
-      "perpetrator": "State",
-      "target": null,
-      "claimant": null,
-      "supporting_force": null,
-      "mentioned_actors": [
-        "State"
-      ],
-      "parent_report_id": null,
-      "event_type": "security operation",
-      "country": "Mali",
-      "city": "Djenné",
-      "lat": 13.9061,
-      "lng": -4.555,
-      "locations": [
-        {
-          "name": "Djenné",
-          "country": "Mali",
-          "lat": 13.9061,
-          "lng": -4.555,
-          "confidence": "explicit-place"
-        },
-        {
-          "name": "Sévaré",
-          "country": "Mali",
-          "lat": 14.5272,
-          "lng": -4.0934,
-          "confidence": "explicit-place"
-        },
-        {
-          "name": "Ber",
-          "country": "Mali",
-          "lat": 16.7667,
-          "lng": -3.0167,
-          "confidence": "explicit-place"
-        },
-        {
-          "name": "Bamako",
-          "country": "Mali",
-          "lat": 12.6392,
-          "lng": -8.0029,
-          "confidence": "explicit-place"
-        }
-      ],
-      "title": "Operation Dougoukoloko: the FAMa strike several terrorist positions in Djenné, Sévaré and Ber",
-      "summary": "Targeted operations conducted south-east of Djenné, north-west of Sévaré and in Ber Bamako, 19 September 2026 – The Malian Armed Forces (FAMa) are continuing their mission to monitor, control and secure the national territory as part of Operation Dougoukoloko. Through a new series of actions reported by the General Staff of the Armed Forces, the Malian army reports several",
-      "sources": [
-        "Bamada"
-      ],
-      "languages": [
-        "fr"
-      ],
-      "source_count": 1,
-      "report_urls": [
-        "https://bamada.net/operation-dougoukoloko-nouvelle-serie-dactions-des-fama-contre-les-capacites-terroristes"
-      ],
-      "report_summaries": [
-        {
-          "url": "https://bamada.net/operation-dougoukoloko-nouvelle-serie-dactions-des-fama-contre-les-capacites-terroristes",
-          "source": "Bamada",
-          "title": "Operation Dougoukoloko: the FAMa strike several terrorist positions in Djenné, Sévaré and Ber",
-          "summary": "Targeted operations conducted south-east of Djenné, north-west of Sévaré and in Ber Bamako, 19 September 2026 – The Malian Armed Forces (FAMa) are continuing their mission to monitor, control and secure the national territory as part of Operation Dougoukoloko. Through a new series of actions reported by the General Staff of the Armed Forces, the Malian army reports several",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "armed_group"
-          ],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        }
-      ],
-      "created_at": "2026-09-19T18:15:00.857125Z",
-      "updated_at": "2026-09-19T18:15:00.857125Z",
-      "extraction_confidence": "moderate",
-      "victim_categories": [
-        "armed_group"
-      ],
-      "civilian_targeting_flag": false,
-      "casualty_claims": [],
-      "fatalities_min": null,
-      "fatalities_max": null,
-      "fatalities_best": null,
-      "injured_min": null,
-      "injured_max": null,
-      "abducted_min": null,
-      "abducted_max": null,
-      "casualty_disputed": false,
-      "revision_history": [
-        {
-          "at": "2026-09-19T18:15:00.857125Z",
-          "type": "event_created",
-          "source": "Bamada"
-        }
-      ],
-      "corroboration": "single-source",
-      "confidence": "moderate",
-      "independent_source_domains": [
-        "bamada.net"
-      ],
-      "independent_source_count": 1,
-      "significance": "MAJOR",
-      "significance_reasons": [
-        "strategic/severe event pattern",
-        "multi-location activity"
-      ]
     }
   ],
   "latest_reports": [
+    {
+      "published_at": "2026-10-04T14:22:43Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-04T18:03:55.799011Z",
+      "discovered_at": "2026-10-04T18:03:55.799011Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0160",
+      "source": "Sahara Medias (صحراء ميديا)",
+      "language": "ar",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Bamako",
+      "event_type": "law enforcement",
+      "candidate_event": false,
+      "title": "More than 643 fuel trucks arrive in Bamako under the tight protection of the Malian army",
+      "url": "https://saharamedias.net/266004/"
+    },
+    {
+      "published_at": "2026-10-04T12:39:37Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-04T18:03:55.568913Z",
+      "discovered_at": "2026-10-04T18:03:55.568913Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0075",
+      "source": "AMAP (Agence Malienne de Presse et de Publicité)",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Bamako",
+      "event_type": "security operation",
+      "candidate_event": true,
+      "title": "Koutiala: positions of armed terrorist groups targeted and hit by FAMa",
+      "url": "https://amap.ml/2026/10/04/koutiala-des-positions-de-groupes-armes-terroristes-ciblees-et-frappees-par-les-fama/"
+    },
+    {
+      "published_at": "2026-10-04T11:28:26Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-04T18:03:59.312083Z",
+      "discovered_at": "2026-10-04T18:03:59.312083Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0006",
+      "source": "Malijet",
+      "language": "fr",
+      "actor": "State",
+      "country": "Burkina Faso",
+      "city": null,
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Burkina Faso: the Patriotic Support Fund exceeds 250 billion FCFA",
+      "url": "https://malijet.com/a_la_une_du_mali/312161-burkina-faso-le-fonds-de-soutien-patriotique-depasse-250-m.html"
+    },
+    {
+      "published_at": "2026-10-04T11:13:08Z",
+      "published_date_source": "itemprop",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-04T18:03:53.730696Z",
+      "discovered_at": "2026-10-04T18:03:53.730696Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0015",
+      "source": "ActuNiger",
+      "language": "fr",
+      "actor": "State",
+      "country": "Niger",
+      "city": "Niamey",
+      "event_type": "political/security policy",
+      "candidate_event": false,
+      "title": "Events in Niamey: Algerian military aircraft dispatched to Niger to counter an attempted coup, assures the Algerian President",
+      "url": "https://www.actuniger.com/politique/22419-evenements-de-niamey-des-avions-militaires-algeriens-depeches-au-niger-pour-contrer-une-tentative-de-coup-detat-assure-le-president-algerien"
+    },
     {
       "published_at": "2026-10-04T10:51:37Z",
       "published_date_source": "jsonld:datePublished",
@@ -4109,78 +4159,6 @@
       "candidate_event": false,
       "title": "Burkina Faso: Exiled Burkina Publisher Tells RFI of Repression and Fear Four Years After Coup",
       "url": "https://allafrica.com/stories/202610010002.html"
-    },
-    {
-      "published_at": "2026-10-01T04:30:56Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-01T03:59:07.921375Z",
-      "discovered_at": "2026-10-01T03:59:07.921375Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0118",
-      "source": "Punch Newspapers (Nigeria)",
-      "language": "en",
-      "actor": null,
-      "country": "Niger",
-      "city": null,
-      "event_type": "law enforcement",
-      "candidate_event": false,
-      "title": "Navy recovers 80,000 litres of stolen crude, arrests three",
-      "url": "https://punchng.com/navy-recovers-80000-litres-of-stolen-crude-arrests-three/"
-    },
-    {
-      "published_at": "2026-10-01T03:46:30Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-01T03:58:27.322069Z",
-      "discovered_at": "2026-10-01T03:58:27.322069Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0012",
-      "source": "Sidwaya",
-      "language": "fr",
-      "actor": "State",
-      "country": "Burkina Faso",
-      "city": null,
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Night of the People's Progressive Revolution: the main achievements presented to the population",
-      "url": "https://www.sidwaya.info/nuit-de-la-revolution-progressiste-populaire-les-principaux-acquis-presentes-a-la-population/"
-    },
-    {
-      "published_at": "2026-10-01T03:07:33Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-02T17:31:47.611047Z",
-      "discovered_at": "2026-10-02T17:31:47.611047Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0015",
-      "source": "ActuNiger",
-      "language": "fr",
-      "actor": "Other",
-      "country": "Niger",
-      "city": "Dosso",
-      "event_type": "attack",
-      "candidate_event": false,
-      "title": "Insecurity: several soldiers fell at the front following a terrorist attack on the SDF position in Tessa (Dosso) - actuniger.com",
-      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPUEtpc0t3VGJnU096aXhCOU1OWjI4bXFLM1ZyTXZMQXllZTgzLTRTRU9NbmEwWU5RYlBES1M1UjlCREM4QmRTQU9ZRVVxNjU2R3B6WFRsWlBQN3FJeFRReTBYakdDRHRvY1E2V2hLblN4UGxoZDNlbXBSNlNxWHM0M3NWdTYtdHRFOF9hYVRiT1gyamRtNGwyNVVWdF9ZUUJEbUt0VWdRZVB0UnpXeU9UdTlUZHR0dlB3OUE1MWlFamFGb0liekF5Yk1kTDBpRTJydHNvZkFXQjFxRWZLTjZaU1Zsc0NPcUpTeVlISHVR?oc=5"
-    },
-    {
-      "published_at": "2026-10-01T02:58:20Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-01T06:14:18.563231Z",
-      "discovered_at": "2026-10-01T06:14:18.563231Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0001",
-      "source": "RFI Afrique",
-      "language": "fr",
-      "actor": "Other",
-      "country": "Burkina Faso",
-      "city": "Ouagadougou",
-      "event_type": "kidnapping",
-      "candidate_event": true,
-      "title": "Burkina Faso: Opponents in exile publish a documented list of 86 kidnappings perpetrated by the junta",
-      "url": "https://www.rfi.fr/fr/afrique/20261001-burkina-faso-des-opposants-en-exil-publient-une-liste-document%C3%A9e-de-86-enl%C3%A8vements-perp%C3%A9tr%C3%A9s-par-la-junte"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
