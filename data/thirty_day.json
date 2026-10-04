@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-04T10:57:00.754038Z",
+  "generated_at": "2026-10-04T11:09:12.577647Z",
   "window_days": 30,
   "cutoff": "2026-09-04",
-  "reports": 220,
+  "reports": 223,
   "incident_reports": 39,
   "candidate_events": 36,
   "corroborated_events": 3,
   "mapped_events": 32,
   "mapped_locations": 63,
-  "distinct_sources": 62,
+  "distinct_sources": 63,
   "by_actor": {
     "State": 21,
     "JNIM": 7,
@@ -29,8 +29,8 @@
     "kidnapping": 1
   },
   "by_language": {
-    "fr": 162,
-    "en": 50,
+    "fr": 164,
+    "en": 51,
     "ar": 8
   },
   "by_confidence": {
@@ -47,7 +47,7 @@
     {
       "source_code": "SRC-0006",
       "source": "Malijet",
-      "count": 20
+      "count": 21
     },
     {
       "source_code": "SRC-0015",
@@ -85,6 +85,11 @@
       "count": 7
     },
     {
+      "source_code": "SRC-0014",
+      "source": "Agence Nigérienne de Presse",
+      "count": 7
+    },
+    {
       "source_code": "SRC-0022",
       "source": "Africanews",
       "count": 7
@@ -93,11 +98,6 @@
       "source_code": "SRC-0121",
       "source": "AllAfrica (English Edition)",
       "count": 7
-    },
-    {
-      "source_code": "SRC-0004",
-      "source": "Studio Tamani",
-      "count": 6
     }
   ],
   "top_locations": [
@@ -263,7 +263,7 @@
     },
     {
       "date": "2026-09-27",
-      "reports": 7,
+      "reports": 8,
       "events": 2
     },
     {
@@ -273,7 +273,7 @@
     },
     {
       "date": "2026-09-29",
-      "reports": 34,
+      "reports": 35,
       "events": 2
     },
     {
@@ -298,7 +298,7 @@
     },
     {
       "date": "2026-10-04",
-      "reports": 3,
+      "reports": 4,
       "events": 0
     }
   ],
@@ -3463,6 +3463,24 @@
   ],
   "latest_reports": [
     {
+      "published_at": "2026-10-04T10:51:37Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-04T11:08:41.474233Z",
+      "discovered_at": "2026-10-04T11:08:41.474233Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0006",
+      "source": "Malijet",
+      "language": "fr",
+      "actor": null,
+      "country": "Mali",
+      "city": "Bamako",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Road safety: A \"Guissé Trans\" bus overturns on the Bla-San axis, one dead and 30 injured",
+      "url": "https://malijet.com/les_faits_divers_au_mali/312157-securite-routiere-un-car-guisse-trans-se-renverse-sur.html"
+    },
+    {
       "published_at": "2026-10-04T10:24:33Z",
       "published_date_source": "jsonld:datePublished",
       "published_time_precision": "datetime",
@@ -4163,24 +4181,6 @@
       "candidate_event": true,
       "title": "Burkina Faso: Opponents in exile publish a documented list of 86 kidnappings perpetrated by the junta",
       "url": "https://www.rfi.fr/fr/afrique/20261001-burkina-faso-des-opposants-en-exil-publient-une-liste-document%C3%A9e-de-86-enl%C3%A8vements-perp%C3%A9tr%C3%A9s-par-la-junte"
-    },
-    {
-      "published_at": "2026-10-01T02:50:25Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-01T03:33:03.995162Z",
-      "discovered_at": "2026-10-01T03:33:03.995162Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0008",
-      "source": "Bamada",
-      "language": "fr",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Bamako",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Fuel Supply in Mali: The Mass Arrival of Secure Convoys Instills a New Order in Distribution",
-      "url": "https://bamada.net/approvisionnement-en-carburant-au-mali-larrivee-massive-de-convois-securises-insuffle-un-nouvel-ordre-dans-la-distribution"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
