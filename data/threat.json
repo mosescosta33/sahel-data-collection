@@ -1,47 +1,46 @@
 {
-  "generated_at": "2026-10-04T05:28:25.385336Z",
+  "generated_at": "2026-10-04T10:26:58.465625Z",
   "model_version": "0.1-experimental",
   "label": "Experimental Conflict Threat Level",
   "regional": {
     "level": "HIGH",
-    "confidence": "MODERATE"
+    "confidence": "LOW"
   },
   "countries": {
     "Mali": {
-      "score": 71,
+      "score": 68,
       "level": "HIGH",
-      "trend": "DETERIORATING",
+      "trend": "STABLE",
       "confidence": "HIGH",
       "assessment_status": "ASSESSED",
-      "events_7d": 9,
-      "events_30d": 29,
+      "events_7d": 8,
+      "events_30d": 28,
       "baseline_7d_equivalent": 6.1,
-      "tempo_ratio": 1.41,
+      "tempo_ratio": 1.27,
       "drivers": [
-        "9 fused candidate event(s) in 7 days",
+        "8 fused candidate event(s) in 7 days",
         "2 JNIM/IS Sahel-linked event(s)",
         "6 significant/major event(s)",
-        "activity across 8 named locations",
-        "7-day tempo above recent country baseline"
+        "activity across 8 named locations"
       ],
-      "independent_domains_7d": 5
+      "independent_domains_7d": 4
     },
     "Burkina Faso": {
-      "score": 38,
-      "level": "MEDIUM",
-      "trend": "DETERIORATING",
-      "confidence": "MODERATE",
-      "assessment_status": "ASSESSED",
-      "events_7d": 2,
-      "events_30d": 3,
+      "score": 22,
+      "level": "INSUFFICIENT DATA",
+      "trend": "STABLE",
+      "confidence": "LOW",
+      "assessment_status": "INSUFFICIENT_DATA",
+      "events_7d": 1,
+      "events_30d": 2,
       "baseline_7d_equivalent": 0.3,
-      "tempo_ratio": 2.3,
+      "tempo_ratio": 1.53,
       "drivers": [
-        "2 fused candidate event(s) in 7 days",
-        "2 significant/major event(s)",
+        "1 fused candidate event(s) in 7 days",
+        "1 significant/major event(s)",
         "7-day tempo above recent country baseline"
       ],
-      "independent_domains_7d": 3
+      "independent_domains_7d": 2
     },
     "Niger": {
       "score": 0,

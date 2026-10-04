@@ -1,40 +1,40 @@
 {
-  "generated_at": "2026-10-04T05:28:25.305456Z",
+  "generated_at": "2026-10-04T10:26:58.406968Z",
   "window_days": 30,
   "cutoff": "2026-09-04",
-  "reports": 211,
-  "incident_reports": 40,
-  "candidate_events": 35,
+  "reports": 219,
+  "incident_reports": 38,
+  "candidate_events": 33,
   "corroborated_events": 3,
   "mapped_events": 31,
   "mapped_locations": 60,
-  "distinct_sources": 60,
+  "distinct_sources": 63,
   "by_actor": {
     "State": 18,
     "JNIM": 7,
     "Other": 7,
-    "Africa Corps/Wagner": 3
+    "Africa Corps/Wagner": 1
   },
   "by_country": {
-    "Mali": 29,
-    "Burkina Faso": 3,
-    "Niger": 3
+    "Mali": 28,
+    "Niger": 3,
+    "Burkina Faso": 2
   },
   "by_event_type": {
-    "security operation": 15,
+    "security operation": 14,
     "attack": 8,
-    "offensive/campaign": 5,
+    "offensive/campaign": 4,
     "ambush": 3,
     "clash": 3,
     "kidnapping": 1
   },
   "by_language": {
-    "fr": 154,
-    "en": 49,
+    "fr": 159,
+    "en": 52,
     "ar": 8
   },
   "by_confidence": {
-    "low": 20,
+    "low": 18,
     "moderate": 14,
     "moderate-high": 1
   },
@@ -52,6 +52,11 @@
     {
       "source_code": "SRC-0015",
       "source": "ActuNiger",
+      "count": 11
+    },
+    {
+      "source_code": "SRC-0090",
+      "source": "AllAfrica (Édition Française)",
       "count": 10
     },
     {
@@ -75,9 +80,9 @@
       "count": 9
     },
     {
-      "source_code": "SRC-0090",
-      "source": "AllAfrica (Édition Française)",
-      "count": 9
+      "source_code": "SRC-0003",
+      "source": "Jeune Afrique",
+      "count": 7
     },
     {
       "source_code": "SRC-0022",
@@ -88,11 +93,6 @@
       "source_code": "SRC-0121",
       "source": "AllAfrica (English Edition)",
       "count": 7
-    },
-    {
-      "source_code": "SRC-0003",
-      "source": "Jeune Afrique",
-      "count": 6
     },
     {
       "source_code": "SRC-0004",
@@ -130,10 +130,6 @@
       "count": 3
     },
     {
-      "location": "Mali",
-      "count": 3
-    },
-    {
       "location": "Tillabéri",
       "count": 3
     },
@@ -143,6 +139,10 @@
     },
     {
       "location": "Gao",
+      "count": 2
+    },
+    {
+      "location": "Mali",
       "count": 2
     },
     {
@@ -248,7 +248,7 @@
     },
     {
       "date": "2026-09-24",
-      "reports": 6,
+      "reports": 7,
       "events": 1
     },
     {
@@ -263,7 +263,7 @@
     },
     {
       "date": "2026-09-27",
-      "reports": 7,
+      "reports": 8,
       "events": 2
     },
     {
@@ -273,8 +273,8 @@
     },
     {
       "date": "2026-09-29",
-      "reports": 28,
-      "events": 3
+      "reports": 34,
+      "events": 2
     },
     {
       "date": "2026-09-30",
@@ -284,7 +284,7 @@
     {
       "date": "2026-10-01",
       "reports": 27,
-      "events": 1
+      "events": 0
     },
     {
       "date": "2026-10-02",
@@ -298,97 +298,11 @@
     },
     {
       "date": "2026-10-04",
-      "reports": 0,
+      "reports": 1,
       "events": 0
     }
   ],
   "latest_events": [
-    {
-      "id": "683dfa0c8d831f57955f3a64d8652015bf4728a5",
-      "event_date": "2026-10-01",
-      "event_date_confidence": "publication-proxy",
-      "event_date_source": "html:time",
-      "published_at": "2026-10-01T00:00:00Z",
-      "published_date_source": "html:time",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-01T06:14:23.025856Z",
-      "actor": "Africa Corps/Wagner",
-      "perpetrator": "Africa Corps/Wagner",
-      "target": null,
-      "claimant": null,
-      "supporting_force": null,
-      "mentioned_actors": [
-        "Africa Corps/Wagner"
-      ],
-      "parent_report_id": null,
-      "event_type": "offensive/campaign",
-      "country": "Burkina Faso",
-      "city": null,
-      "lat": null,
-      "lng": null,
-      "locations": [],
-      "title": "Burkina Faso",
-      "summary": "Leaked memos reveal millions spent on pro-Russian online stories, but the documents’ claims to be directing policies in friendly states don’t check out A cache of 75 secret Russian memos about the Kremlin’s propaganda offensive in Africa by the Wagner Group and its successor organisation, ‘The Company’, has exposed a vast...",
-      "sources": [
-        "Africa Confidential"
-      ],
-      "languages": [
-        "en"
-      ],
-      "source_count": 1,
-      "report_urls": [
-        "https://www.africa-confidential.com/browse-by-country/id/5/burkina-faso"
-      ],
-      "report_summaries": [
-        {
-          "url": "https://www.africa-confidential.com/browse-by-country/id/5/burkina-faso",
-          "source": "Africa Confidential",
-          "title": "Burkina Faso",
-          "summary": "Leaked memos reveal millions spent on pro-Russian online stories, but the documents’ claims to be directing policies in friendly states don’t check out A cache of 75 secret Russian memos about the Kremlin’s propaganda offensive in Africa by the Wagner Group and its successor organisation, ‘The Company’, has exposed a vast...",
-          "summary_basis": "source-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        }
-      ],
-      "created_at": "2026-10-01T06:14:23.025856Z",
-      "updated_at": "2026-10-01T06:14:23.025856Z",
-      "extraction_confidence": "low",
-      "victim_categories": [],
-      "civilian_targeting_flag": false,
-      "casualty_claims": [],
-      "fatalities_min": null,
-      "fatalities_max": null,
-      "fatalities_best": null,
-      "injured_min": null,
-      "injured_max": null,
-      "abducted_min": null,
-      "abducted_max": null,
-      "casualty_disputed": false,
-      "revision_history": [
-        {
-          "at": "2026-10-01T06:14:23.025856Z",
-          "type": "event_created",
-          "source": "Africa Confidential"
-        }
-      ],
-      "corroboration": "single-source",
-      "confidence": "low",
-      "independent_source_domains": [
-        "africa-confidential.com"
-      ],
-      "independent_source_count": 1,
-      "significance": "MAJOR",
-      "significance_reasons": [
-        "strategic/severe event pattern"
-      ]
-    },
     {
       "id": "15c9cf00d9b38c3ea13f5ff8fe6c11fd8843a803",
       "event_date": "2026-09-30",
@@ -507,96 +421,6 @@
       "significance": "MAJOR",
       "significance_reasons": [
         "strategic/severe event pattern"
-      ]
-    },
-    {
-      "id": "65c64bbdfec257229ab6c3aeef66273bc7ee4301",
-      "event_date": "2026-09-29",
-      "event_date_confidence": "publication-proxy",
-      "event_date_source": "opengraph",
-      "published_at": "2026-09-29T08:32:41Z",
-      "published_date_source": "opengraph",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-09-30T23:28:25.777664Z",
-      "actor": "Africa Corps/Wagner",
-      "perpetrator": "Africa Corps/Wagner",
-      "target": null,
-      "claimant": null,
-      "supporting_force": null,
-      "mentioned_actors": [
-        "Africa Corps/Wagner"
-      ],
-      "parent_report_id": null,
-      "event_type": "security operation",
-      "country": "Mali",
-      "city": null,
-      "lat": null,
-      "lng": null,
-      "locations": [],
-      "title": "Mali: Damning Evidence of War Crimes By State Armed Forces and Wagner Group Personnel - New Report",
-      "summary": "- Killings of civilians during military joint operations - Civilians tortured to death in detention, others subjected to simulated drowning, beatings and electric shocks - Fulani, Arabs and Tuaregs targeted Members of Mali's armed forces working together with personnel from the Wagner Group committed war crimes, including the murder and torture of civilians, during joint operations between 2023 and 2025, Amnesty International said in a new report.",
-      "sources": [
-        "AllAfrica (English Edition)"
-      ],
-      "languages": [
-        "en"
-      ],
-      "source_count": 1,
-      "report_urls": [
-        "https://allafrica.com/stories/202609290085.html"
-      ],
-      "report_summaries": [
-        {
-          "url": "https://allafrica.com/stories/202609290085.html",
-          "source": "AllAfrica (English Edition)",
-          "title": "Mali: Damning Evidence of War Crimes By State Armed Forces and Wagner Group Personnel - New Report",
-          "summary": "- Killings of civilians during military joint operations - Civilians tortured to death in detention, others subjected to simulated drowning, beatings and electric shocks - Fulani, Arabs and Tuaregs targeted Members of Mali's armed forces working together with personnel from the Wagner Group committed war crimes, including the murder and torture of civilians, during joint operations between 2023 and 2025, Amnesty International said in a new report.",
-          "summary_basis": "source-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "civilian"
-          ],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        }
-      ],
-      "created_at": "2026-09-30T23:28:25.777664Z",
-      "updated_at": "2026-09-30T23:28:25.777664Z",
-      "extraction_confidence": "low",
-      "victim_categories": [
-        "civilian"
-      ],
-      "civilian_targeting_flag": false,
-      "casualty_claims": [],
-      "fatalities_min": null,
-      "fatalities_max": null,
-      "fatalities_best": null,
-      "injured_min": null,
-      "injured_max": null,
-      "abducted_min": null,
-      "abducted_max": null,
-      "casualty_disputed": false,
-      "revision_history": [
-        {
-          "at": "2026-09-30T23:28:25.777664Z",
-          "type": "event_created",
-          "source": "AllAfrica (English Edition)"
-        }
-      ],
-      "corroboration": "single-source",
-      "confidence": "low",
-      "independent_source_domains": [
-        "allafrica.com"
-      ],
-      "independent_source_count": 1,
-      "significance": "ROUTINE",
-      "significance_reasons": [
-        "limited currently observed significance"
       ]
     },
     {
@@ -3455,9 +3279,247 @@
         "strategic/severe event pattern",
         "multi-location activity"
       ]
+    },
+    {
+      "id": "38c4521eeb4bc2760c514e087d6c7ff8a41f8b23",
+      "event_date": "2026-09-17",
+      "event_date_confidence": "explicit-text",
+      "event_date_source": "explicit-calendar-date",
+      "published_at": "2026-09-19T11:26:16Z",
+      "published_date_source": "stored",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-09-19T18:15:03.129399Z",
+      "actor": "State",
+      "perpetrator": "State",
+      "target": null,
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [
+        "State"
+      ],
+      "parent_report_id": null,
+      "event_type": "offensive/campaign",
+      "country": "Mali",
+      "city": null,
+      "lat": null,
+      "lng": null,
+      "locations": [],
+      "title": "Terrorist hunt: The FAMa's victorious offensive is accelerating on several fronts",
+      "summary": "The General Staff of the Armed Forces informs the national opinion that the Malian Armed Forces (FAMa), supported by their partners, are continuing their permanent operations to monitor, control and secure the national territory as part of Operation Dougoukoloko. On Thursday, September 17, 2026, the exploitation of precise information made it possible to locate several group concentration points",
+      "sources": [
+        "Bamada"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://bamada.net/traque-terroriste-loffensive-victorieuse-des-fama-saccelere-sur-plusieurs-fronts"
+      ],
+      "report_summaries": [
+        {
+          "url": "https://bamada.net/traque-terroriste-loffensive-victorieuse-des-fama-saccelere-sur-plusieurs-fronts",
+          "source": "Bamada",
+          "title": "Terrorist hunt: The FAMa's victorious offensive is accelerating on several fronts",
+          "summary": "The General Staff of the Armed Forces informs the national opinion that the Malian Armed Forces (FAMa), supported by their partners, are continuing their permanent operations to monitor, control and secure the national territory as part of Operation Dougoukoloko. On Thursday, September 17, 2026, the exploitation of precise information made it possible to locate several group concentration points",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "armed_group"
+          ],
+          "civilian_targeting_flag": false,
+          "casualty_claims": []
+        }
+      ],
+      "created_at": "2026-09-19T18:15:03.129399Z",
+      "updated_at": "2026-09-19T18:15:03.129399Z",
+      "extraction_confidence": "moderate",
+      "victim_categories": [
+        "armed_group"
+      ],
+      "civilian_targeting_flag": false,
+      "casualty_claims": [],
+      "fatalities_min": null,
+      "fatalities_max": null,
+      "fatalities_best": null,
+      "injured_min": null,
+      "injured_max": null,
+      "abducted_min": null,
+      "abducted_max": null,
+      "casualty_disputed": false,
+      "revision_history": [
+        {
+          "at": "2026-09-19T18:15:03.129399Z",
+          "type": "event_created",
+          "source": "Bamada"
+        }
+      ],
+      "corroboration": "single-source",
+      "confidence": "moderate",
+      "independent_source_domains": [
+        "bamada.net"
+      ],
+      "independent_source_count": 1,
+      "significance": "MAJOR",
+      "significance_reasons": [
+        "strategic/severe event pattern"
+      ]
+    },
+    {
+      "id": "39b2ccbd079c7b2e312b3576f28563c799161548",
+      "event_date": "2026-09-10",
+      "event_date_confidence": "explicit-text",
+      "event_date_source": "explicit-date-no-year",
+      "published_at": "2026-09-26T12:24:54Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-09-26T12:30:22.028729Z",
+      "actor": "JNIM",
+      "perpetrator": null,
+      "target": "Africa Corps/Wagner",
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [
+        "Africa Corps/Wagner",
+        "JNIM"
+      ],
+      "parent_report_id": null,
+      "event_type": "ambush",
+      "country": "Mali",
+      "city": "Dioura",
+      "lat": 14.82528,
+      "lng": -5.25139,
+      "locations": [
+        {
+          "name": "Dioura",
+          "country": "Mali",
+          "lat": 14.82528,
+          "lng": -5.25139,
+          "confidence": "explicit-place"
+        },
+        {
+          "name": "Sévaré",
+          "country": "Mali",
+          "lat": 14.5272,
+          "lng": -4.0934,
+          "confidence": "explicit-place"
+        },
+        {
+          "name": "Kidal",
+          "country": "Mali",
+          "lat": 18.4411,
+          "lng": 1.4078,
+          "confidence": "explicit-place"
+        },
+        {
+          "name": "Bamako",
+          "country": "Mali",
+          "lat": 12.6392,
+          "lng": -8.0029,
+          "confidence": "explicit-place"
+        },
+        {
+          "name": "Mopti",
+          "country": "Mali",
+          "lat": 14.4843,
+          "lng": -4.1829,
+          "confidence": "explicit-place"
+        }
+      ],
+      "title": "Mali: Dioura, Sévaré, Kidal... Russian weapons are no longer enough to hold the ground",
+      "summary": "More than 100 Malian soldiers killed in Dioura, the military airport of Sévaré targeted a few days later, Russian fighters ambushed in Kaka: September 2026 severely tested the security system of Bamako Five years after the rapprochement with Moscow and more than a year after the replacement of Wagner by the Africa Corps, JNIM remains capable of hitting major positions of the army, which today has more equipment and air capabilities than at the beginning of this partnership .",
+      "sources": [
+        "Afrik.com"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://www.afrik.com/mali-dioura-sevare-kidal-les-armes-russes-ne-suffisent-plus-a-tenir-le-terrain"
+      ],
+      "report_summaries": [
+        {
+          "url": "https://www.afrik.com/mali-dioura-sevare-kidal-les-armes-russes-ne-suffisent-plus-a-tenir-le-terrain",
+          "source": "Afrik.com",
+          "title": "Mali: Dioura, Sévaré, Kidal... Russian weapons are no longer enough to hold the ground",
+          "summary": "More than 100 Malian soldiers killed in Dioura, the military airport of Sévaré targeted a few days later, Russian fighters ambushed in Kaka: September 2026 severely tested the security system of Bamako Five years after the rapprochement with Moscow and more than a year after the replacement of Wagner by the Africa Corps, JNIM remains capable of hitting major positions of the army, which today has more equipment and air capabilities than at the beginning of this partnership .",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "security_force",
+            "armed_group"
+          ],
+          "civilian_targeting_flag": false,
+          "casualty_claims": []
+        }
+      ],
+      "created_at": "2026-09-26T12:30:22.028729Z",
+      "updated_at": "2026-09-26T12:30:22.028729Z",
+      "extraction_confidence": "low",
+      "victim_categories": [
+        "security_force",
+        "armed_group"
+      ],
+      "civilian_targeting_flag": false,
+      "casualty_claims": [],
+      "fatalities_min": null,
+      "fatalities_max": null,
+      "fatalities_best": null,
+      "injured_min": null,
+      "injured_max": null,
+      "abducted_min": null,
+      "abducted_max": null,
+      "casualty_disputed": false,
+      "revision_history": [
+        {
+          "at": "2026-09-26T12:30:22.028729Z",
+          "type": "event_created",
+          "source": "Afrik.com"
+        }
+      ],
+      "corroboration": "single-source",
+      "confidence": "low",
+      "independent_source_domains": [
+        "afrik.com"
+      ],
+      "independent_source_count": 1,
+      "significance": "MAJOR",
+      "significance_reasons": [
+        "strategic/severe event pattern",
+        "multi-location activity"
+      ]
     }
   ],
   "latest_reports": [
+    {
+      "published_at": "2026-10-04T05:05:00Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-04T10:25:14.204093Z",
+      "discovered_at": "2026-10-04T10:25:14.204093Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0003",
+      "source": "Jeune Afrique",
+      "language": "fr",
+      "actor": "Africa Corps/Wagner",
+      "country": "Mali",
+      "city": null,
+      "event_type": "abuses/war crimes",
+      "candidate_event": false,
+      "title": "In Mali, from the Wagner Group to Africa Corps, the continuity of impunity?",
+      "url": "https://www.jeuneafrique.com/1848740/societe/au-mali-du-groupe-wagner-a-africa-corps-la-continuite-de-limpunite/"
+    },
     {
       "published_at": "2026-10-03T18:03:08Z",
       "published_date_source": "feed",
@@ -3939,7 +4001,7 @@
       "actor": "Africa Corps/Wagner",
       "country": "Mali",
       "city": null,
-      "event_type": null,
+      "event_type": "abuses/war crimes",
       "candidate_event": false,
       "title": "Amnesty Accuses Malian Forces, Wagner of War Crimes Against Civilians - The Defense Post",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5Sb2JPcmxPLXZhNG9NV0dibmF2RkgzdnNTRGNRMzR3eDNlZFhCbzZQZzlXUlJCQmd1eW1neUJ5Xy1GSTE5Ynl3a3FsbWtrSDJpaHl6STlCQ28tR3BjbDFMaXBHT053aEJHOUtvMlcySXk3Y2NHNkhLdNIBfkFVX3lxTE81Z3J5RE40NFJHRkRDU2NNdzNYdlhUd1JaX2tQcld2bUVjUmQ1UktUbXdWMmVPTGhadzlBOHJWNHF5X2tUMlRwSjZEcXFYVGtwN29leXZ6eHdqeXNNa3dPM29YWEVHMHFCaXg1eHFoUkdkS29WNTV0N3I4bjl3QQ?oc=5"
@@ -4155,28 +4217,10 @@
       "actor": "Africa Corps/Wagner",
       "country": "Burkina Faso",
       "city": null,
-      "event_type": "offensive/campaign",
-      "candidate_event": true,
-      "title": "Burkina Faso",
-      "url": "https://www.africa-confidential.com/browse-by-country/id/5/burkina-faso"
-    },
-    {
-      "published_at": "2026-09-30T23:37:49Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-09-30T23:51:41.683206Z",
-      "discovered_at": "2026-09-30T23:51:41.683206Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0012",
-      "source": "Sidwaya",
-      "language": "fr",
-      "actor": "State",
-      "country": "Burkina Faso",
-      "city": "Ouagadougou",
       "event_type": null,
       "candidate_event": false,
-      "title": "Burkina Faso: Le Peuple débout celebrates the four years of the RPP in unity and fervor",
-      "url": "https://www.sidwaya.info/burkina-faso-le-peuple-debout-celebre-les-quatre-ans-de-la-rpp-dans-lunite-et-la-ferveur/"
+      "title": "Burkina Faso",
+      "url": "https://www.africa-confidential.com/browse-by-country/id/5/burkina-faso"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
