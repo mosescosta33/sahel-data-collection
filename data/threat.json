@@ -1,62 +1,62 @@
 {
-  "generated_at": "2026-10-04T02:39:31.762588Z",
+  "generated_at": "2026-10-04T05:28:25.385336Z",
   "model_version": "0.1-experimental",
   "label": "Experimental Conflict Threat Level",
   "regional": {
-    "level": "MEDIUM",
-    "confidence": "LOW"
+    "level": "HIGH",
+    "confidence": "MODERATE"
   },
   "countries": {
     "Mali": {
-      "score": 63,
+      "score": 71,
+      "level": "HIGH",
+      "trend": "DETERIORATING",
+      "confidence": "HIGH",
+      "assessment_status": "ASSESSED",
+      "events_7d": 9,
+      "events_30d": 29,
+      "baseline_7d_equivalent": 6.1,
+      "tempo_ratio": 1.41,
+      "drivers": [
+        "9 fused candidate event(s) in 7 days",
+        "2 JNIM/IS Sahel-linked event(s)",
+        "6 significant/major event(s)",
+        "activity across 8 named locations",
+        "7-day tempo above recent country baseline"
+      ],
+      "independent_domains_7d": 5
+    },
+    "Burkina Faso": {
+      "score": 38,
       "level": "MEDIUM",
-      "trend": "STABLE",
+      "trend": "DETERIORATING",
       "confidence": "MODERATE",
       "assessment_status": "ASSESSED",
-      "events_7d": 5,
-      "events_30d": 27,
-      "baseline_7d_equivalent": 6.7,
-      "tempo_ratio": 0.78,
+      "events_7d": 2,
+      "events_30d": 3,
+      "baseline_7d_equivalent": 0.3,
+      "tempo_ratio": 2.3,
       "drivers": [
-        "5 fused candidate event(s) in 7 days",
-        "1 JNIM/IS Sahel-linked event(s)",
-        "4 significant/major event(s)",
-        "activity across 6 named locations"
+        "2 fused candidate event(s) in 7 days",
+        "2 significant/major event(s)",
+        "7-day tempo above recent country baseline"
       ],
       "independent_domains_7d": 3
     },
-    "Burkina Faso": {
-      "score": 19,
-      "level": "INSUFFICIENT DATA",
-      "trend": "STABLE",
-      "confidence": "LOW",
-      "assessment_status": "INSUFFICIENT_DATA",
-      "events_7d": 1,
-      "events_30d": 2,
-      "baseline_7d_equivalent": 0.3,
-      "tempo_ratio": 1.53,
-      "drivers": [
-        "1 fused candidate event(s) in 7 days",
-        "1 significant/major event(s)",
-        "7-day tempo above recent country baseline"
-      ],
-      "independent_domains_7d": 1
-    },
     "Niger": {
-      "score": 12,
+      "score": 0,
       "level": "INSUFFICIENT DATA",
       "trend": "STABLE",
       "confidence": "LOW",
       "assessment_status": "INSUFFICIENT_DATA",
-      "events_7d": 1,
-      "events_30d": 5,
-      "baseline_7d_equivalent": 1.2,
-      "tempo_ratio": 0.9,
+      "events_7d": 0,
+      "events_30d": 3,
+      "baseline_7d_equivalent": 0.9,
+      "tempo_ratio": 0.52,
       "drivers": [
-        "1 fused candidate event(s) in 7 days",
-        "1 significant/major event(s)"
+        "insufficient fused-event evidence for a current 7-day threat classification"
       ],
-      "independent_domains_7d": 1
+      "independent_domains_7d": 0
     }
   },
   "method_note": "Experimental research indicator derived from fused candidate events, recent country-relative tempo, significance, militant activity, civilian-threat signals, geographic spread and corroboration. It is not a travel advisory, verified incident count, or forecast. Collection gaps reduce confidence rather than automatically reducing threat."

@@ -1,48 +1,48 @@
 {
-  "generated_at": "2026-10-04T02:39:31.703918Z",
+  "generated_at": "2026-10-04T05:28:25.305456Z",
   "window_days": 30,
   "cutoff": "2026-09-04",
-  "reports": 217,
-  "incident_reports": 36,
-  "candidate_events": 34,
-  "corroborated_events": 2,
-  "mapped_events": 25,
-  "mapped_locations": 50,
-  "distinct_sources": 62,
+  "reports": 211,
+  "incident_reports": 40,
+  "candidate_events": 35,
+  "corroborated_events": 3,
+  "mapped_events": 31,
+  "mapped_locations": 60,
+  "distinct_sources": 60,
   "by_actor": {
-    "State": 16,
+    "State": 18,
+    "JNIM": 7,
     "Other": 7,
-    "JNIM": 6,
-    "Africa Corps/Wagner": 5
+    "Africa Corps/Wagner": 3
   },
   "by_country": {
-    "Mali": 27,
-    "Niger": 5,
-    "Burkina Faso": 2
+    "Mali": 29,
+    "Burkina Faso": 3,
+    "Niger": 3
   },
   "by_event_type": {
-    "security operation": 12,
-    "attack": 10,
+    "security operation": 15,
+    "attack": 8,
     "offensive/campaign": 5,
-    "ambush": 2,
-    "clash": 2,
-    "kidnapping": 2,
-    "air/drone strike": 1
+    "ambush": 3,
+    "clash": 3,
+    "kidnapping": 1
   },
   "by_language": {
-    "fr": 152,
-    "en": 57,
+    "fr": 154,
+    "en": 49,
     "ar": 8
   },
   "by_confidence": {
-    "low": 19,
-    "moderate": 15
+    "low": 20,
+    "moderate": 14,
+    "moderate-high": 1
   },
   "top_sources": [
     {
       "source_code": "SRC-0008",
       "source": "Bamada",
-      "count": 23
+      "count": 24
     },
     {
       "source_code": "SRC-0006",
@@ -77,7 +77,7 @@
     {
       "source_code": "SRC-0090",
       "source": "AllAfrica (Édition Française)",
-      "count": 8
+      "count": 9
     },
     {
       "source_code": "SRC-0022",
@@ -95,19 +95,19 @@
       "count": 6
     },
     {
-      "source_code": "SRC-0013",
-      "source": "Wakat Sera",
+      "source_code": "SRC-0004",
+      "source": "Studio Tamani",
       "count": 6
     }
   ],
   "top_locations": [
     {
       "location": "Dioura",
-      "count": 9
+      "count": 10
     },
     {
       "location": "Mopti",
-      "count": 8
+      "count": 9
     },
     {
       "location": "Bamako",
@@ -115,22 +115,22 @@
     },
     {
       "location": "Kidal",
-      "count": 6
-    },
-    {
-      "location": "Mali",
-      "count": 6
+      "count": 7
     },
     {
       "location": "Sévaré",
-      "count": 6
+      "count": 7
+    },
+    {
+      "location": "Ségou",
+      "count": 5
     },
     {
       "location": "Djenné",
       "count": 3
     },
     {
-      "location": "Ségou",
+      "location": "Mali",
       "count": 3
     },
     {
@@ -142,7 +142,7 @@
       "count": 2
     },
     {
-      "location": "Niger",
+      "location": "Gao",
       "count": 2
     },
     {
@@ -169,7 +169,7 @@
     {
       "date": "2026-09-08",
       "reports": 4,
-      "events": 0
+      "events": 1
     },
     {
       "date": "2026-09-09",
@@ -179,7 +179,7 @@
     {
       "date": "2026-09-10",
       "reports": 1,
-      "events": 3
+      "events": 2
     },
     {
       "date": "2026-09-11",
@@ -214,12 +214,12 @@
     {
       "date": "2026-09-17",
       "reports": 5,
-      "events": 3
+      "events": 2
     },
     {
       "date": "2026-09-18",
       "reports": 11,
-      "events": 1
+      "events": 0
     },
     {
       "date": "2026-09-19",
@@ -238,7 +238,7 @@
     },
     {
       "date": "2026-09-22",
-      "reports": 18,
+      "reports": 15,
       "events": 0
     },
     {
@@ -248,38 +248,38 @@
     },
     {
       "date": "2026-09-24",
-      "reports": 5,
+      "reports": 6,
       "events": 1
     },
     {
       "date": "2026-09-25",
-      "reports": 8,
+      "reports": 7,
       "events": 1
     },
     {
       "date": "2026-09-26",
       "reports": 3,
-      "events": 2
+      "events": 0
     },
     {
       "date": "2026-09-27",
-      "reports": 8,
-      "events": 1
+      "reports": 7,
+      "events": 2
     },
     {
       "date": "2026-09-28",
       "reports": 13,
-      "events": 3
+      "events": 6
     },
     {
       "date": "2026-09-29",
-      "reports": 29,
+      "reports": 28,
       "events": 3
     },
     {
       "date": "2026-09-30",
-      "reports": 19,
-      "events": 0
+      "reports": 17,
+      "events": 1
     },
     {
       "date": "2026-10-01",
@@ -293,7 +293,7 @@
     },
     {
       "date": "2026-10-03",
-      "reports": 6,
+      "reports": 7,
       "events": 0
     },
     {
@@ -390,15 +390,15 @@
       ]
     },
     {
-      "id": "5dbb5d8563e76b592535470307c1d84827b4c3bb",
-      "event_date": "2026-09-29",
+      "id": "15c9cf00d9b38c3ea13f5ff8fe6c11fd8843a803",
+      "event_date": "2026-09-30",
       "event_date_confidence": "explicit-text",
-      "event_date_source": "relative-weekday",
-      "published_at": "2026-09-30T10:48:57Z",
-      "published_date_source": "feed",
+      "event_date_source": "explicit-date-no-year",
+      "published_at": "2026-10-01T02:58:20Z",
+      "published_date_source": "jsonld:datePublished",
       "published_time_precision": "datetime",
-      "collected_at": "2026-09-30T10:32:42.658754Z",
-      "actor": "State",
+      "collected_at": "2026-10-01T06:14:18.563231Z",
+      "actor": "Other",
       "perpetrator": null,
       "target": null,
       "claimant": null,
@@ -406,30 +406,56 @@
       "mentioned_actors": [],
       "parent_report_id": null,
       "event_type": "kidnapping",
-      "country": "Niger",
-      "city": null,
-      "lat": null,
-      "lng": null,
-      "locations": [],
-      "title": "Security operatives move to rescue 47 abducted farmers in Niger",
-      "summary": "A joint security team comprising personnel of the Nigerian military and the Nigeria Police Force has moved into a forest in Niger State to rescue farmers abducted by suspected bandits. The spokesman for the Niger State Police Command, Wasiu Abiodun, disclosed this on Wednesday in a WhatsApp message, saying the operatives were combing Mukura village, Kasuwan-Garba District, in Mariga Local Government Area.",
+      "country": "Burkina Faso",
+      "city": "Ouagadougou",
+      "lat": 12.3714,
+      "lng": -1.5197,
+      "locations": [
+        {
+          "name": "Ouagadougou",
+          "country": "Burkina Faso",
+          "lat": 12.3714,
+          "lng": -1.5197,
+          "confidence": "explicit-place"
+        }
+      ],
+      "title": "Burkina Faso: Opponents in exile publish a documented list of 86 kidnappings perpetrated by the junta",
+      "summary": "Posted on social networks under the title \"The missing of Ibrahim Traoré\" on the occasion of the fourth anniversary of the military coup of September 30, 2022, this trombinoscope intends to denounce the authoritarianism of the junta in power in Ouagadougou and honor the memory of those who were victims of its repression Four years of rule and 86 documented kidnappings: this is the other record of the junta in power in Burkina Faso that a group of Burkinabe opponents in exile, the Anti-Putchist Front (Frap), wanted to highlight, this Wednesday, September 30, while in Ouagadougou, the authorities celebrated the…",
       "sources": [
-        "Punch Newspapers (Nigeria)"
+        "RFI Afrique",
+        "AllAfrica (Édition Française)"
       ],
       "languages": [
-        "en"
+        "fr"
       ],
-      "source_count": 1,
+      "source_count": 2,
       "report_urls": [
-        "https://punchng.com/security-operatives-move-to-rescue-47-abducted-farmers-in-niger/"
+        "https://www.rfi.fr/fr/afrique/20261001-burkina-faso-des-opposants-en-exil-publient-une-liste-document%C3%A9e-de-86-enl%C3%A8vements-perp%C3%A9tr%C3%A9s-par-la-junte",
+        "https://fr.allafrica.com/stories/202610010260.html"
       ],
       "report_summaries": [
         {
-          "url": "https://punchng.com/security-operatives-move-to-rescue-47-abducted-farmers-in-niger/",
-          "source": "Punch Newspapers (Nigeria)",
-          "title": "Security operatives move to rescue 47 abducted farmers in Niger",
-          "summary": "A joint security team comprising personnel of the Nigerian military and the Nigeria Police Force has moved into a forest in Niger State to rescue farmers abducted by suspected bandits. The spokesman for the Niger State Police Command, Wasiu Abiodun, disclosed this on Wednesday in a WhatsApp message, saying the operatives were combing Mukura village, Kasuwan-Garba District, in Mariga Local Government Area.",
-          "summary_basis": "source-excerpt",
+          "url": "https://www.rfi.fr/fr/afrique/20261001-burkina-faso-des-opposants-en-exil-publient-une-liste-document%C3%A9e-de-86-enl%C3%A8vements-perp%C3%A9tr%C3%A9s-par-la-junte",
+          "source": "RFI Afrique",
+          "title": "Burkina Faso: Opponents in exile publish a documented list of 86 kidnappings perpetrated by the junta",
+          "summary": "Put online on social networks under the title \"The disappeared of Ibrahim Traoré\" on the occasion of the fourth anniversary of the military coup of September 30, 2022, this trombinoscope intends to denounce the authoritarianism of the junta in power in Ouagadougou and honor the memory of those who were victims of its repression .",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [],
+          "civilian_targeting_flag": false,
+          "casualty_claims": []
+        },
+        {
+          "url": "https://fr.allafrica.com/stories/202610010260.html",
+          "source": "AllAfrica (Édition Française)",
+          "title": "Burkina Faso: Opponents in exile publish a documented list of 86 kidnappings perpetrated by the junta",
+          "summary": "Posted on social networks under the title \"The missing of Ibrahim Traoré\" on the occasion of the fourth anniversary of the military coup of September 30, 2022, this trombinoscope intends to denounce the authoritarianism of the junta in power in Ouagadougou and honor the memory of those who were victims of its repression Four years of rule and 86 documented kidnappings: this is the other record of the junta in power in Burkina Faso that a group of Burkinabe opponents in exile, the Anti-Putchist Front (Frap), wanted to highlight, this Wednesday, September 30, while in Ouagadougou, the authorities celebrated the…",
+          "summary_basis": "translated-excerpt",
           "fatalities_min": null,
           "fatalities_max": null,
           "injured_min": null,
@@ -437,21 +463,17 @@
           "abducted_min": null,
           "abducted_max": null,
           "victim_categories": [
-            "civilian",
-            "security_force",
-            "armed_group"
+            "civilian"
           ],
           "civilian_targeting_flag": false,
           "casualty_claims": []
         }
       ],
-      "created_at": "2026-09-30T10:32:42.658754Z",
-      "updated_at": "2026-09-30T10:32:42.658754Z",
+      "created_at": "2026-10-01T06:14:18.563231Z",
+      "updated_at": "2026-10-01T11:32:12.506447Z",
       "extraction_confidence": "low",
       "victim_categories": [
-        "civilian",
-        "security_force",
-        "armed_group"
+        "civilian"
       ],
       "civilian_targeting_flag": false,
       "casualty_claims": [],
@@ -465,20 +487,116 @@
       "casualty_disputed": false,
       "revision_history": [
         {
-          "at": "2026-09-30T10:32:42.658754Z",
+          "at": "2026-10-01T06:14:18.563231Z",
           "type": "event_created",
-          "source": "Punch Newspapers (Nigeria)"
+          "source": "RFI Afrique"
+        },
+        {
+          "at": "2026-10-01T11:32:12.506447Z",
+          "type": "corroboration_or_geography_update",
+          "source": "AllAfrica (Édition Française)"
+        }
+      ],
+      "corroboration": "limited corroboration",
+      "confidence": "moderate",
+      "independent_source_domains": [
+        "rfi.fr",
+        "fr.allafrica.com"
+      ],
+      "independent_source_count": 2,
+      "significance": "MAJOR",
+      "significance_reasons": [
+        "strategic/severe event pattern"
+      ]
+    },
+    {
+      "id": "65c64bbdfec257229ab6c3aeef66273bc7ee4301",
+      "event_date": "2026-09-29",
+      "event_date_confidence": "publication-proxy",
+      "event_date_source": "opengraph",
+      "published_at": "2026-09-29T08:32:41Z",
+      "published_date_source": "opengraph",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-09-30T23:28:25.777664Z",
+      "actor": "Africa Corps/Wagner",
+      "perpetrator": "Africa Corps/Wagner",
+      "target": null,
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [
+        "Africa Corps/Wagner"
+      ],
+      "parent_report_id": null,
+      "event_type": "security operation",
+      "country": "Mali",
+      "city": null,
+      "lat": null,
+      "lng": null,
+      "locations": [],
+      "title": "Mali: Damning Evidence of War Crimes By State Armed Forces and Wagner Group Personnel - New Report",
+      "summary": "- Killings of civilians during military joint operations - Civilians tortured to death in detention, others subjected to simulated drowning, beatings and electric shocks - Fulani, Arabs and Tuaregs targeted Members of Mali's armed forces working together with personnel from the Wagner Group committed war crimes, including the murder and torture of civilians, during joint operations between 2023 and 2025, Amnesty International said in a new report.",
+      "sources": [
+        "AllAfrica (English Edition)"
+      ],
+      "languages": [
+        "en"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://allafrica.com/stories/202609290085.html"
+      ],
+      "report_summaries": [
+        {
+          "url": "https://allafrica.com/stories/202609290085.html",
+          "source": "AllAfrica (English Edition)",
+          "title": "Mali: Damning Evidence of War Crimes By State Armed Forces and Wagner Group Personnel - New Report",
+          "summary": "- Killings of civilians during military joint operations - Civilians tortured to death in detention, others subjected to simulated drowning, beatings and electric shocks - Fulani, Arabs and Tuaregs targeted Members of Mali's armed forces working together with personnel from the Wagner Group committed war crimes, including the murder and torture of civilians, during joint operations between 2023 and 2025, Amnesty International said in a new report.",
+          "summary_basis": "source-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "civilian"
+          ],
+          "civilian_targeting_flag": false,
+          "casualty_claims": []
+        }
+      ],
+      "created_at": "2026-09-30T23:28:25.777664Z",
+      "updated_at": "2026-09-30T23:28:25.777664Z",
+      "extraction_confidence": "low",
+      "victim_categories": [
+        "civilian"
+      ],
+      "civilian_targeting_flag": false,
+      "casualty_claims": [],
+      "fatalities_min": null,
+      "fatalities_max": null,
+      "fatalities_best": null,
+      "injured_min": null,
+      "injured_max": null,
+      "abducted_min": null,
+      "abducted_max": null,
+      "casualty_disputed": false,
+      "revision_history": [
+        {
+          "at": "2026-09-30T23:28:25.777664Z",
+          "type": "event_created",
+          "source": "AllAfrica (English Edition)"
         }
       ],
       "corroboration": "single-source",
       "confidence": "low",
       "independent_source_domains": [
-        "punchng.com"
+        "allafrica.com"
       ],
       "independent_source_count": 1,
-      "significance": "SIGNIFICANT",
+      "significance": "ROUTINE",
       "significance_reasons": [
-        "operational security event"
+        "limited currently observed significance"
       ]
     },
     {
@@ -698,6 +816,306 @@
       "significance_reasons": [
         "strategic/severe event pattern",
         "multi-location activity"
+      ]
+    },
+    {
+      "id": "6bbd28fac184f9a42f8582ca2a72c1da3e9242d2",
+      "event_date": "2026-09-28",
+      "event_date_confidence": "explicit-text",
+      "event_date_source": "explicit-calendar-date",
+      "published_at": "2026-10-01T16:05:21Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-01T17:23:26.279258Z",
+      "actor": "State",
+      "perpetrator": "State",
+      "target": null,
+      "claimant": null,
+      "supporting_force": "Africa Corps/Wagner",
+      "mentioned_actors": [
+        "State",
+        "Africa Corps/Wagner",
+        "JNIM"
+      ],
+      "parent_report_id": null,
+      "event_type": "security operation",
+      "country": "Mali",
+      "city": "Ménaka",
+      "lat": 15.9182,
+      "lng": 2.4022,
+      "locations": [
+        {
+          "name": "Ménaka",
+          "country": "Mali",
+          "lat": 15.9182,
+          "lng": 2.4022,
+          "confidence": "explicit-place"
+        },
+        {
+          "name": "Gao",
+          "country": "Mali",
+          "lat": 16.2717,
+          "lng": -0.0447,
+          "confidence": "explicit-place"
+        }
+      ],
+      "title": "JOINT PATROL FAMa-MSA-GATIA and AFRICA CORPS: MEMBERS OF the JNIM-FLA COALITION KILLED BETWEEN ANSONGO and MÉNAKA",
+      "summary": "Several elements of the JNIM-FLA coalition were neutralized on Monday, September 28, 2026, during an operation led by a patrol of the Malian Armed Forces (FAMa), supported by their partners of the Movement for the Salvation of Azawad (MSA), the Tuareg Self-Defense Group Imghad and Allies (GATIA) and the Africa Corps .",
+      "sources": [
+        "Bamada"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://bamada.net/patrouille-conjointe-fama-msa-gatia-et-africa-corps-des-membres-de-la-coalition-jnim-fla-tues-entre-ansongo-et-menaka"
+      ],
+      "report_summaries": [
+        {
+          "url": "https://bamada.net/patrouille-conjointe-fama-msa-gatia-et-africa-corps-des-membres-de-la-coalition-jnim-fla-tues-entre-ansongo-et-menaka",
+          "source": "Bamada",
+          "title": "JOINT PATROL FAMa-MSA-GATIA and AFRICA CORPS: MEMBERS OF the JNIM-FLA COALITION KILLED BETWEEN ANSONGO and MÉNAKA",
+          "summary": "Several elements of the JNIM-FLA coalition were neutralized on Monday, September 28, 2026, during an operation led by a patrol of the Malian Armed Forces (FAMa), supported by their partners of the Movement for the Salvation of Azawad (MSA), the Tuareg Self-Defense Group Imghad and Allies (GATIA) and the Africa Corps .",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [],
+          "civilian_targeting_flag": false,
+          "casualty_claims": []
+        }
+      ],
+      "created_at": "2026-10-01T17:23:26.279258Z",
+      "updated_at": "2026-10-01T17:23:26.279258Z",
+      "extraction_confidence": "low",
+      "victim_categories": [],
+      "civilian_targeting_flag": false,
+      "casualty_claims": [],
+      "fatalities_min": null,
+      "fatalities_max": null,
+      "fatalities_best": null,
+      "injured_min": null,
+      "injured_max": null,
+      "abducted_min": null,
+      "abducted_max": null,
+      "casualty_disputed": false,
+      "revision_history": [
+        {
+          "at": "2026-10-01T17:23:26.279258Z",
+          "type": "event_created",
+          "source": "Bamada"
+        }
+      ],
+      "corroboration": "single-source",
+      "confidence": "low",
+      "independent_source_domains": [
+        "bamada.net"
+      ],
+      "independent_source_count": 1,
+      "significance": "MAJOR",
+      "significance_reasons": [
+        "multi-location activity"
+      ]
+    },
+    {
+      "id": "6125f7848dd32d6b9a93bd88ca5a2f6e60db4c88",
+      "event_date": "2026-09-28",
+      "event_date_confidence": "explicit-text",
+      "event_date_source": "explicit-calendar-date",
+      "published_at": "2026-09-30T09:04:22Z",
+      "published_date_source": "opengraph",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-09-30T23:28:25.648854Z",
+      "actor": "JNIM",
+      "perpetrator": "JNIM",
+      "target": "Africa Corps/Wagner",
+      "claimant": "Africa Corps/Wagner",
+      "supporting_force": null,
+      "mentioned_actors": [
+        "Africa Corps/Wagner",
+        "JNIM"
+      ],
+      "parent_report_id": null,
+      "event_type": "ambush",
+      "country": "Mali",
+      "city": "Ségou",
+      "lat": 13.4317,
+      "lng": -6.2157,
+      "locations": [
+        {
+          "name": "Ségou",
+          "country": "Mali",
+          "lat": 13.4317,
+          "lng": -6.2157,
+          "confidence": "explicit-place"
+        }
+      ],
+      "title": "Mali: Towards a stalemate of the Africa Corps?",
+      "summary": "The jihadists of the Support Group for Islam and Muslims (Jnim), linked to al-Qaeda, claimed an ambush on the morning of Monday, September 28, 2026 near Niono, in the Ségou region, against an Africa Corps convoy. The attack occurred between Tiemaba and Wewo, north of Niono. This is an area where the Katiba Macina of Jnim has been particularly well established, for many years Two years after replacing Wagner, the Africa Corps, an expeditionary force of the Russian Ministry of Defense, is paying a heavy price in Mali.",
+      "sources": [
+        "AllAfrica (Édition Française)"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://fr.allafrica.com/stories/202609300164.html"
+      ],
+      "report_summaries": [
+        {
+          "url": "https://fr.allafrica.com/stories/202609300164.html",
+          "source": "AllAfrica (Édition Française)",
+          "title": "Mali: Towards a stalemate of the Africa Corps?",
+          "summary": "The jihadists of the Support Group for Islam and Muslims (Jnim), linked to al-Qaeda, claimed an ambush on the morning of Monday, September 28, 2026 near Niono, in the Ségou region, against an Africa Corps convoy. The attack occurred between Tiemaba and Wewo, north of Niono. This is an area where the Katiba Macina of Jnim has been particularly well established, for many years Two years after replacing Wagner, the Africa Corps, an expeditionary force of the Russian Ministry of Defense, is paying a heavy price in Mali.",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "armed_group"
+          ],
+          "civilian_targeting_flag": false,
+          "casualty_claims": []
+        }
+      ],
+      "created_at": "2026-09-30T23:28:25.648854Z",
+      "updated_at": "2026-09-30T23:28:25.648854Z",
+      "extraction_confidence": "low",
+      "victim_categories": [
+        "armed_group"
+      ],
+      "civilian_targeting_flag": false,
+      "casualty_claims": [],
+      "fatalities_min": null,
+      "fatalities_max": null,
+      "fatalities_best": null,
+      "injured_min": null,
+      "injured_max": null,
+      "abducted_min": null,
+      "abducted_max": null,
+      "casualty_disputed": true,
+      "revision_history": [
+        {
+          "at": "2026-09-30T23:28:25.648854Z",
+          "type": "event_created",
+          "source": "AllAfrica (Édition Française)"
+        }
+      ],
+      "corroboration": "single-source",
+      "confidence": "low",
+      "independent_source_domains": [
+        "fr.allafrica.com"
+      ],
+      "independent_source_count": 1,
+      "significance": "SIGNIFICANT",
+      "significance_reasons": [
+        "operational security event"
+      ]
+    },
+    {
+      "id": "cd2d89a39a22cb9f96a7a69113497e78d7326be2",
+      "event_date": "2026-09-28",
+      "event_date_confidence": "explicit-text",
+      "event_date_source": "explicit-calendar-date",
+      "published_at": "2026-09-29T20:56:37Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-09-29T21:29:08.061402Z",
+      "actor": "State",
+      "perpetrator": "State",
+      "target": null,
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [
+        "State"
+      ],
+      "parent_report_id": null,
+      "event_type": "security operation",
+      "country": "Mali",
+      "city": "Kidal",
+      "lat": 18.4411,
+      "lng": 1.4078,
+      "locations": [
+        {
+          "name": "Kidal",
+          "country": "Mali",
+          "lat": 18.4411,
+          "lng": 1.4078,
+          "confidence": "explicit-place"
+        }
+      ],
+      "title": "Terrorist tracking: The FAMa neutralize several armed groups east of Boghasa and southeast of Sofara",
+      "summary": "The General Staff of the Armed Forces informs the national opinion that the Malian Armed Forces (FAMa), supported by their partners, are continuing the permanent operations of surveillance, control and security of the national territory as part of Operation Dougoukoloko . On Monday, September 28, 2026, the exploitation of precise information made it possible to locate, east of the village of Boghassa, Kidal region, a group of terrorist elements preparing to bivouac for the night.",
+      "sources": [
+        "Bamada"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://bamada.net/traque-terroriste-les-fama-neutralisent-plusieurs-regroupements-armes-a-lest-de-boghassa-et-au-sud-est-de-sofara"
+      ],
+      "report_summaries": [
+        {
+          "url": "https://bamada.net/traque-terroriste-les-fama-neutralisent-plusieurs-regroupements-armes-a-lest-de-boghassa-et-au-sud-est-de-sofara",
+          "source": "Bamada",
+          "title": "Terrorist tracking: The FAMa neutralize several armed groups east of Boghasa and southeast of Sofara",
+          "summary": "The General Staff of the Armed Forces informs the national opinion that the Malian Armed Forces (FAMa), supported by their partners, are continuing the permanent operations of surveillance, control and security of the national territory as part of Operation Dougoukoloko . On Monday, September 28, 2026, the exploitation of precise information made it possible to locate, east of the village of Boghassa, Kidal region, a group of terrorist elements preparing to bivouac for the night.",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "armed_group"
+          ],
+          "civilian_targeting_flag": false,
+          "casualty_claims": []
+        }
+      ],
+      "created_at": "2026-09-29T21:29:08.061402Z",
+      "updated_at": "2026-09-29T21:29:08.061402Z",
+      "extraction_confidence": "moderate",
+      "victim_categories": [
+        "armed_group"
+      ],
+      "civilian_targeting_flag": false,
+      "casualty_claims": [],
+      "fatalities_min": null,
+      "fatalities_max": null,
+      "fatalities_best": null,
+      "injured_min": null,
+      "injured_max": null,
+      "abducted_min": null,
+      "abducted_max": null,
+      "casualty_disputed": false,
+      "revision_history": [
+        {
+          "at": "2026-09-29T21:29:08.061402Z",
+          "type": "event_created",
+          "source": "Bamada"
+        }
+      ],
+      "corroboration": "single-source",
+      "confidence": "moderate",
+      "independent_source_domains": [
+        "bamada.net"
+      ],
+      "independent_source_count": 1,
+      "significance": "ROUTINE",
+      "significance_reasons": [
+        "limited currently observed significance"
       ]
     },
     {
@@ -1004,6 +1422,106 @@
       ]
     },
     {
+      "id": "cf882301ea877be55279a1f74aee465120a78290",
+      "event_date": "2026-09-27",
+      "event_date_confidence": "explicit-text",
+      "event_date_source": "relative-weekday",
+      "published_at": "2026-09-28T16:42:47Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-09-30T11:29:59.229976Z",
+      "actor": "State",
+      "perpetrator": "State",
+      "target": null,
+      "claimant": null,
+      "supporting_force": "Africa Corps/Wagner",
+      "mentioned_actors": [
+        "JNIM",
+        "State",
+        "Africa Corps/Wagner"
+      ],
+      "parent_report_id": null,
+      "event_type": "security operation",
+      "country": "Mali",
+      "city": "Ségou",
+      "lat": 13.4317,
+      "lng": -6.2157,
+      "locations": [
+        {
+          "name": "Ségou",
+          "country": "Mali",
+          "lat": 13.4317,
+          "lng": -6.2157,
+          "confidence": "explicit-place"
+        }
+      ],
+      "title": "Segou: About thirty JNIM and Fla terrorists neutralized by the FAMa and the Africa Corps",
+      "summary": "Ségou: About thirty JNIM and Fla terrorists neutralized by the FAMa and the Africa Corps A joint military operation led by the Africa Corps of the Armed Forces of the Russian Federation and the Malian Armed Forces (FAMa) resulted, this Sunday, in the destruction of a large terrorist group in the Ségou region According to information relayed by the Africa Corps, the engagement targeted a coalition of fighters affiliated with the Azawad Liberation Front (Fla) and the Group for the Support of Islam and Muslims (JNIM).",
+      "sources": [
+        "Malijet"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://malijet.com/flash-info/312069-segou-une-trentaine-de-terroristes-du-jnim-et-du-fla-neutr.html"
+      ],
+      "report_summaries": [
+        {
+          "url": "https://malijet.com/flash-info/312069-segou-une-trentaine-de-terroristes-du-jnim-et-du-fla-neutr.html",
+          "source": "Malijet",
+          "title": "Segou: About thirty JNIM and Fla terrorists neutralized by the FAMa and the Africa Corps",
+          "summary": "Ségou: About thirty JNIM and Fla terrorists neutralized by the FAMa and the Africa Corps A joint military operation led by the Africa Corps of the Armed Forces of the Russian Federation and the Malian Armed Forces (FAMa) resulted, this Sunday, in the destruction of a large terrorist group in the Ségou region According to information relayed by the Africa Corps, the engagement targeted a coalition of fighters affiliated with the Azawad Liberation Front (Fla) and the Group for the Support of Islam and Muslims (JNIM).",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "armed_group"
+          ],
+          "civilian_targeting_flag": false,
+          "casualty_claims": []
+        }
+      ],
+      "created_at": "2026-09-30T11:29:59.229976Z",
+      "updated_at": "2026-09-30T11:29:59.229976Z",
+      "extraction_confidence": "moderate",
+      "victim_categories": [
+        "armed_group"
+      ],
+      "civilian_targeting_flag": false,
+      "casualty_claims": [],
+      "fatalities_min": null,
+      "fatalities_max": null,
+      "fatalities_best": null,
+      "injured_min": null,
+      "injured_max": null,
+      "abducted_min": null,
+      "abducted_max": null,
+      "casualty_disputed": false,
+      "revision_history": [
+        {
+          "at": "2026-09-30T11:29:59.229976Z",
+          "type": "event_created",
+          "source": "Malijet"
+        }
+      ],
+      "corroboration": "single-source",
+      "confidence": "moderate",
+      "independent_source_domains": [
+        "malijet.com"
+      ],
+      "independent_source_count": 1,
+      "significance": "ROUTINE",
+      "significance_reasons": [
+        "limited currently observed significance"
+      ]
+    },
+    {
       "id": "fb430061113f814b0494991f5380c0b986b53e06",
       "event_date": "2026-09-27",
       "event_date_confidence": "explicit-text",
@@ -1125,194 +1643,6 @@
       "significance": "SIGNIFICANT",
       "significance_reasons": [
         "operational security event"
-      ]
-    },
-    {
-      "id": "7660123e875e8b896d8b810545c8e2aed063b015",
-      "event_date": "2026-09-26",
-      "event_date_confidence": "explicit-text",
-      "event_date_source": "relative-weekday",
-      "published_at": "2026-09-30T12:05:43Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-09-30T12:39:12.112299Z",
-      "actor": "Other",
-      "perpetrator": null,
-      "target": null,
-      "claimant": null,
-      "supporting_force": null,
-      "mentioned_actors": [],
-      "parent_report_id": null,
-      "event_type": "kidnapping",
-      "country": "Niger",
-      "city": null,
-      "lat": null,
-      "lng": null,
-      "locations": [],
-      "title": "Bandits abduct 47 Niger women, others harvesting groundnuts",
-      "summary": "By Clare Nnabuike, Minna MINNA — No fewer than 47 people, mostly women, have been abducted by suspected bandits while harvesting groundnuts on farms in Mariga Local Government Area of Niger State. The incident occurred on Saturday at Tungan Rimi in Ma’undu-Beri Ward of the council area. The victims were said to have been working on their farms when the armed men invaded the area and took them into the forest.",
-      "sources": [
-        "Vanguard News (Nigeria)"
-      ],
-      "languages": [
-        "en"
-      ],
-      "source_count": 1,
-      "report_urls": [
-        "https://www.vanguardngr.com/2026/09/bandits-abduct-47-niger-women-others-harvesting-groundnuts/"
-      ],
-      "report_summaries": [
-        {
-          "url": "https://www.vanguardngr.com/2026/09/bandits-abduct-47-niger-women-others-harvesting-groundnuts/",
-          "source": "Vanguard News (Nigeria)",
-          "title": "Bandits abduct 47 Niger women, others harvesting groundnuts",
-          "summary": "By Clare Nnabuike, Minna MINNA — No fewer than 47 people, mostly women, have been abducted by suspected bandits while harvesting groundnuts on farms in Mariga Local Government Area of Niger State. The incident occurred on Saturday at Tungan Rimi in Ma’undu-Beri Ward of the council area. The victims were said to have been working on their farms when the armed men invaded the area and took them into the forest.",
-          "summary_basis": "source-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "civilian",
-            "armed_group"
-          ],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        }
-      ],
-      "created_at": "2026-09-30T12:39:12.112299Z",
-      "updated_at": "2026-09-30T12:39:12.112299Z",
-      "extraction_confidence": "low",
-      "victim_categories": [
-        "civilian",
-        "armed_group"
-      ],
-      "civilian_targeting_flag": false,
-      "casualty_claims": [],
-      "fatalities_min": null,
-      "fatalities_max": null,
-      "fatalities_best": null,
-      "injured_min": null,
-      "injured_max": null,
-      "abducted_min": null,
-      "abducted_max": null,
-      "casualty_disputed": false,
-      "revision_history": [
-        {
-          "at": "2026-09-30T12:39:12.112299Z",
-          "type": "event_created",
-          "source": "Vanguard News (Nigeria)"
-        }
-      ],
-      "corroboration": "single-source",
-      "confidence": "low",
-      "independent_source_domains": [
-        "vanguardngr.com"
-      ],
-      "independent_source_count": 1,
-      "significance": "SIGNIFICANT",
-      "significance_reasons": [
-        "operational security event"
-      ]
-    },
-    {
-      "id": "c68cfc212b862ad9676b84964d97a501f68a4114",
-      "event_date": "2026-09-26",
-      "event_date_confidence": "explicit-text",
-      "event_date_source": "explicit-calendar-date",
-      "published_at": "2026-09-27T21:35:18Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-09-27T22:28:09.942661Z",
-      "actor": "State",
-      "perpetrator": "State",
-      "target": null,
-      "claimant": null,
-      "supporting_force": null,
-      "mentioned_actors": [
-        "State"
-      ],
-      "parent_report_id": null,
-      "event_type": "air/drone strike",
-      "country": "Mali",
-      "city": "Kidal",
-      "lat": 18.4411,
-      "lng": 1.4078,
-      "locations": [
-        {
-          "name": "Kidal",
-          "country": "Mali",
-          "lat": 18.4411,
-          "lng": 1.4078,
-          "confidence": "explicit-place"
-        }
-      ],
-      "title": "Operation Dougoukoloko: At least 50 terrorists, including executives, neutralized in Abeibara",
-      "summary": "The General Staff of the Armed Forces announced this Sunday, September 27, in a statement, the continuation of operations to secure the national territory as part of Operation Dougoukoloko. The Malian Armed Forces (FAMa), supported by their partners, conducted a targeted airstrike on Saturday, September 26, 2026 in the Kidal region On 26 September, the exploitation of precise intelligence made it possible to locate, 45 km north-east of the city of Abeibara, several concentration points of armed terrorist groups.",
-      "sources": [
-        "Malijet"
-      ],
-      "languages": [
-        "fr"
-      ],
-      "source_count": 1,
-      "report_urls": [
-        "https://malijet.com/actualte_dans_les_regions_du_mali/312048-operation-dougoukoloko-au-moins-50-terroristes-dont-des-c.html"
-      ],
-      "report_summaries": [
-        {
-          "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312048-operation-dougoukoloko-au-moins-50-terroristes-dont-des-c.html",
-          "source": "Malijet",
-          "title": "Operation Dougoukoloko: At least 50 terrorists, including executives, neutralized in Abeibara",
-          "summary": "The General Staff of the Armed Forces announced this Sunday, September 27, in a statement, the continuation of operations to secure the national territory as part of Operation Dougoukoloko. The Malian Armed Forces (FAMa), supported by their partners, conducted a targeted airstrike on Saturday, September 26, 2026 in the Kidal region On 26 September, the exploitation of precise intelligence made it possible to locate, 45 km north-east of the city of Abeibara, several concentration points of armed terrorist groups.",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "armed_group"
-          ],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        }
-      ],
-      "created_at": "2026-09-27T22:28:09.942661Z",
-      "updated_at": "2026-09-27T22:28:09.942661Z",
-      "extraction_confidence": "low",
-      "victim_categories": [
-        "armed_group"
-      ],
-      "civilian_targeting_flag": false,
-      "casualty_claims": [],
-      "fatalities_min": null,
-      "fatalities_max": null,
-      "fatalities_best": null,
-      "injured_min": null,
-      "injured_max": null,
-      "abducted_min": null,
-      "abducted_max": null,
-      "casualty_disputed": false,
-      "revision_history": [
-        {
-          "at": "2026-09-27T22:28:09.942661Z",
-          "type": "event_created",
-          "source": "Malijet"
-        }
-      ],
-      "corroboration": "single-source",
-      "confidence": "low",
-      "independent_source_domains": [
-        "malijet.com"
-      ],
-      "independent_source_count": 1,
-      "significance": "ROUTINE",
-      "significance_reasons": [
-        "limited currently observed significance"
       ]
     },
     {
@@ -1991,14 +2321,14 @@
       ]
     },
     {
-      "id": "29287febb6ad28dcee240f5096976b06453d5b37",
+      "id": "e8c7d153fab7ade8088e457f0ed475f83cdda1fc",
       "event_date": "2026-09-21",
-      "event_date_confidence": "explicit-text",
-      "event_date_source": "explicit-date-no-year",
-      "published_at": "2026-09-22T13:19:30Z",
+      "event_date_confidence": "publication-proxy",
+      "event_date_source": "feed",
+      "published_at": "2026-09-21T16:17:43Z",
       "published_date_source": "feed",
       "published_time_precision": "datetime",
-      "collected_at": "2026-09-22T13:30:20.996068Z",
+      "collected_at": "2026-09-21T17:24:40.300675Z",
       "actor": "State",
       "perpetrator": "State",
       "target": null,
@@ -2027,30 +2357,61 @@
           "lat": 14.82528,
           "lng": -5.25139,
           "confidence": "explicit-place"
-        },
-        {
-          "name": "Bamako",
-          "country": "Mali",
-          "lat": 12.6392,
-          "lng": -8.0029,
-          "confidence": "explicit-place"
         }
       ],
-      "title": "Counter-terrorism: new targeted FAMa strikes in Sévaré, Dioura and Tessalit",
-      "summary": "The FAMa continue the Dougoukoloko operation in Sévaré, Dioura and Tessalit. The General Staff of the Armed Forces reports new surveillance actions and targeted strikes. Sévaré, Dioura, Tessalit: the Malian Armed Forces maintain pressure on armed terrorist groups Bamako, 22 September 2026 – The Malian Armed Forces (FAMa) continue their operations to monitor, control and secure the territory as part of Operation Dougoukoloko.",
+      "title": "Mali: FAMa targeted in Kassala, Sévaré and Dioura",
+      "summary": "As part of Operation Dougoukoloko, the Malian Armed Forces (FAMa) have stepped up targeted strikes in recent days. Targeting logistical caches and terrorist elements, these actions illustrate the ongoing pressure on armed groups across the country. The Malian army leaves no respite to the armed terrorist groups .",
       "sources": [
-        "Malijet",
-        "Bamada"
+        "Studio Tamani",
+        "Bamada",
+        "Malijet"
       ],
       "languages": [
         "fr"
       ],
-      "source_count": 2,
+      "source_count": 3,
       "report_urls": [
-        "https://malijet.com/actualte_dans_les_regions_du_mali/311972-lutte-antiterroriste-nouvelles-frappes-ciblees-des-fama-a.html",
-        "https://bamada.net/fama-loperation-dougoukoloko-se-poursuit-avec-de-nouvelles-frappes-a-sevare-dioura-et-tessalit"
+        "https://www.studiotamani.org/208003-mali-attaques-fama-kassela-sevare-dioura-strategie-groupes-armes",
+        "https://bamada.net/mali-les-fama-ciblees-a-kassala-sevare-et-dioura",
+        "https://malijet.com/actualte_dans_les_regions_du_mali/311972-lutte-antiterroriste-nouvelles-frappes-ciblees-des-fama-a.html"
       ],
       "report_summaries": [
+        {
+          "url": "https://www.studiotamani.org/208003-mali-attaques-fama-kassela-sevare-dioura-strategie-groupes-armes",
+          "source": "Studio Tamani",
+          "title": "Mali: FAMa targeted in Kassala, Sévaré and Dioura",
+          "summary": "The Malian Armed Forces have been the target of several attacks this weekend, including in Kassala, Sévaré and Dioura. Attacks attributed to armed groups. This upsurge in violence raises questions about the capacities and objectives of these groups For Dr.",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "armed_group"
+          ],
+          "civilian_targeting_flag": false,
+          "casualty_claims": []
+        },
+        {
+          "url": "https://bamada.net/mali-les-fama-ciblees-a-kassala-sevare-et-dioura",
+          "source": "Bamada",
+          "title": "Mali: FAMa targeted in Kassala, Sévaré and Dioura",
+          "summary": "The Malian Armed Forces have been the target of several attacks this weekend, including in Kassala, Sévaré and Dioura. Attacks attributed to armed groups. This upsurge in violence raises questions about the capacities and objectives of these groups For Dr.",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "armed_group"
+          ],
+          "civilian_targeting_flag": false,
+          "casualty_claims": []
+        },
         {
           "url": "https://malijet.com/actualte_dans_les_regions_du_mali/311972-lutte-antiterroriste-nouvelles-frappes-ciblees-des-fama-a.html",
           "source": "Malijet",
@@ -2069,32 +2430,14 @@
           ],
           "civilian_targeting_flag": false,
           "casualty_claims": []
-        },
-        {
-          "url": "https://bamada.net/fama-loperation-dougoukoloko-se-poursuit-avec-de-nouvelles-frappes-a-sevare-dioura-et-tessalit",
-          "source": "Bamada",
-          "title": "FAMa: Operation Dougoukoloko continues with new strikes in Sévaré, Dioura and Tessalit",
-          "summary": "The FAMa continue the Dougoukoloko operation in Sévaré, Dioura and Tessalit. The General Staff of the Armed Forces reports new surveillance actions and targeted strikes. Sévaré, Dioura, Tessalit: the Malian Armed Forces maintain pressure on armed terrorist groups Bamako, 22 September 2026 – The Malian Armed Forces (FAMa) continue their operations to monitor, control and secure the territory as part of Operation Dougoukoloko.",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "armed_group"
-          ],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
         }
       ],
-      "created_at": "2026-09-22T13:30:20.996068Z",
-      "updated_at": "2026-09-22T14:29:27.016064Z",
-      "extraction_confidence": "moderate",
+      "created_at": "2026-09-21T17:24:40.300675Z",
+      "updated_at": "2026-09-22T13:30:20.996068Z",
+      "extraction_confidence": "low",
       "victim_categories": [
-        "security_force",
-        "armed_group"
+        "armed_group",
+        "security_force"
       ],
       "civilian_targeting_flag": false,
       "casualty_claims": [],
@@ -2108,26 +2451,32 @@
       "casualty_disputed": false,
       "revision_history": [
         {
-          "at": "2026-09-22T13:30:20.996068Z",
+          "at": "2026-09-21T17:24:40.300675Z",
           "type": "event_created",
-          "source": "Malijet"
+          "source": "Studio Tamani"
         },
         {
-          "at": "2026-09-22T14:29:27.016064Z",
+          "at": "2026-09-21T22:27:00.921705Z",
           "type": "corroboration_or_geography_update",
           "source": "Bamada"
+        },
+        {
+          "at": "2026-09-22T13:30:20.996068Z",
+          "type": "corroboration_or_geography_update",
+          "source": "Malijet"
         }
       ],
-      "corroboration": "limited corroboration",
-      "confidence": "moderate",
+      "corroboration": "multi-source",
+      "confidence": "moderate-high",
       "independent_source_domains": [
-        "malijet.com",
-        "bamada.net"
+        "studiotamani.org",
+        "bamada.net",
+        "malijet.com"
       ],
-      "independent_source_count": 2,
+      "independent_source_count": 3,
       "significance": "MAJOR",
       "significance_reasons": [
-        "strategic/severe event pattern",
+        "multi-source corroboration",
         "multi-location activity"
       ]
     },
@@ -2677,67 +3026,71 @@
       ]
     },
     {
-      "id": "dfb3855d3f453b7b84b27c0091ea309c77be105a",
+      "id": "a56b183782140f593d4435ec8c501ce044ce565a",
       "event_date": "2026-09-19",
-      "event_date_confidence": "publication-proxy",
-      "event_date_source": "stored",
-      "published_at": "2026-09-19T19:48:00Z",
+      "event_date_confidence": "explicit-text",
+      "event_date_source": "explicit-date-no-year",
+      "published_at": "2026-09-19T22:13:11Z",
       "published_date_source": "stored",
       "published_time_precision": "datetime",
-      "collected_at": "2026-09-19T20:57:03.747059Z",
-      "actor": "JNIM",
-      "perpetrator": "JNIM",
+      "collected_at": "2026-09-19T22:24:06.230127Z",
+      "actor": "State",
+      "perpetrator": null,
       "target": null,
       "claimant": null,
       "supporting_force": null,
       "mentioned_actors": [
-        "JNIM"
+        "State"
       ],
       "parent_report_id": null,
-      "event_type": "attack",
+      "event_type": "clash",
       "country": "Mali",
-      "city": null,
-      "lat": null,
-      "lng": null,
-      "locations": [],
-      "title": "Al-Qaida-linked JNIM claims a deadly Mali army camp attack and releases video of captured soldiers - AP News",
-      "summary": "Al-Qaida-linked JNIM claims a deadly Mali army camp attack and releases video of captured soldiers AP News",
+      "city": "Dioura",
+      "lat": 14.82528,
+      "lng": -5.25139,
+      "locations": [
+        {
+          "name": "Dioura",
+          "country": "Mali",
+          "lat": 14.82528,
+          "lng": -5.25139,
+          "confidence": "explicit-place"
+        }
+      ],
+      "title": "Operation Dougoukoloko: Heroic evacuation in Dioura, the Malian army pays tribute to its fallen sons",
+      "summary": "After more than a week of fierce fighting in the Dioura sector, the Malian Armed Forces (FAMa) managed to evacuate two companies that stood up to the enemy with exceptional courage. The General Staff of the Armed Forces has drawn up a balance sheet marked by bravery, but also by mourning This Saturday, September 19, targeted strikes were carried out against the residual positions",
       "sources": [
-        "Associated Press Africa"
+        "Malijet"
       ],
       "languages": [
-        "en"
+        "fr"
       ],
       "source_count": 1,
       "report_urls": [
-        "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQSkhLVXZNYXJXaEhjc19Ub1E2R2ZEbkhqcEhDQ1NfbjYyYWlzaG9LbDVOUGR6WVBETEQ5ZG5pZEJEMjAyVV9zd0JqeE9qc0s3bVlTVDA5dEJsWE1vY1U2Q0h1OWpVTkpreVgtYU50ZnRWQlBpM045eG1LTGhZYXZJMEVwVmJocm91a3Vz?oc=5"
+        "https://malijet.com/actualte_dans_les_regions_du_mali/311932-operation-dougoukoloko-evacuation-heroique-a-dioura-larm.html"
       ],
       "report_summaries": [
         {
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQSkhLVXZNYXJXaEhjc19Ub1E2R2ZEbkhqcEhDQ1NfbjYyYWlzaG9LbDVOUGR6WVBETEQ5ZG5pZEJEMjAyVV9zd0JqeE9qc0s3bVlTVDA5dEJsWE1vY1U2Q0h1OWpVTkpreVgtYU50ZnRWQlBpM045eG1LTGhZYXZJMEVwVmJocm91a3Vz?oc=5",
-          "source": "Associated Press Africa",
-          "title": "Al-Qaida-linked JNIM claims a deadly Mali army camp attack and releases video of captured soldiers - AP News",
-          "summary": "Al-Qaida-linked JNIM claims a deadly Mali army camp attack and releases video of captured soldiers AP News",
-          "summary_basis": "source-excerpt",
+          "url": "https://malijet.com/actualte_dans_les_regions_du_mali/311932-operation-dougoukoloko-evacuation-heroique-a-dioura-larm.html",
+          "source": "Malijet",
+          "title": "Operation Dougoukoloko: Heroic evacuation in Dioura, the Malian army pays tribute to its fallen sons",
+          "summary": "After more than a week of fierce fighting in the Dioura sector, the Malian Armed Forces (FAMa) managed to evacuate two companies that stood up to the enemy with exceptional courage. The General Staff of the Armed Forces has drawn up a balance sheet marked by bravery, but also by mourning This Saturday, September 19, targeted strikes were carried out against the residual positions",
+          "summary_basis": "translated-excerpt",
           "fatalities_min": null,
           "fatalities_max": null,
           "injured_min": null,
           "injured_max": null,
           "abducted_min": null,
           "abducted_max": null,
-          "victim_categories": [
-            "security_force"
-          ],
+          "victim_categories": [],
           "civilian_targeting_flag": false,
           "casualty_claims": []
         }
       ],
-      "created_at": "2026-09-19T20:57:03.747059Z",
-      "updated_at": "2026-09-19T20:57:03.747059Z",
-      "extraction_confidence": "moderate",
-      "victim_categories": [
-        "security_force"
-      ],
+      "created_at": "2026-09-19T22:24:06.230127Z",
+      "updated_at": "2026-09-19T22:24:06.230127Z",
+      "extraction_confidence": "low",
+      "victim_categories": [],
       "civilian_targeting_flag": false,
       "casualty_claims": [],
       "fatalities_min": null,
@@ -2750,20 +3103,20 @@
       "casualty_disputed": false,
       "revision_history": [
         {
-          "at": "2026-09-19T20:57:03.747059Z",
+          "at": "2026-09-19T22:24:06.230127Z",
           "type": "event_created",
-          "source": "Associated Press Africa"
+          "source": "Malijet"
         }
       ],
       "corroboration": "single-source",
-      "confidence": "moderate",
+      "confidence": "low",
       "independent_source_domains": [
-        "news.google.com"
+        "malijet.com"
       ],
       "independent_source_count": 1,
-      "significance": "ROUTINE",
+      "significance": "SIGNIFICANT",
       "significance_reasons": [
-        "limited currently observed significance"
+        "operational security event"
       ]
     },
     {
@@ -2991,188 +3344,6 @@
       ]
     },
     {
-      "id": "ecedb77d7e97358a5343f986b38665e5f66e47a5",
-      "event_date": "2026-09-18",
-      "event_date_confidence": "publication-proxy",
-      "event_date_source": "feed",
-      "published_at": "2026-09-18T19:59:25Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-09-21T04:28:31.181790Z",
-      "actor": "Africa Corps/Wagner",
-      "perpetrator": "Africa Corps/Wagner",
-      "target": null,
-      "claimant": null,
-      "supporting_force": null,
-      "mentioned_actors": [
-        "Africa Corps/Wagner"
-      ],
-      "parent_report_id": null,
-      "event_type": "attack",
-      "country": "Mali",
-      "city": null,
-      "lat": null,
-      "lng": null,
-      "locations": [],
-      "title": "In Mali, at least 100 Russian soldiers and five mercenaries killed in a jihadist attack, according to a latest report - Le Monde.fr",
-      "summary": "In Mali, at least 100 Russian soldiers and five mercenaries killed in a jihadist attack, according to a latest report by Le Monde.fr",
-      "sources": [
-        "Le Monde Afrique"
-      ],
-      "languages": [
-        "fr"
-      ],
-      "source_count": 1,
-      "report_urls": [
-        "https://news.google.com/rss/articles/CBMijwJBVV95cUxPVk05UFNXY3k5bnBGRHFhVEktV3NQRTctVG5pQk53U3RLYWhOVjdJbmt2dVl0N1BBeFRhaUdqanI4dG0zYktGWUlUQ2ZGVVBlV3ppSHFhbmROcWMzTXRnV0dFVHdaY29qZDBwUVduRS1welZ1OVBHZ1JjVUhzZ0Q0MGs0QW83V0FxeTV0bF9vQW5wemtTeG00N0hTNG1WRlpsZU9EMFROd1VSQWZXUFNNN0NSSWxTWjJKTEJYWV9mb3RDUlk3WDI0UGdydk1PZTdTT0gyRDhuUzVkWXZTUmVUZU16SkdOTU1tWG42V0xmaVRGVzZnZEtYd2xMTE1rYXMtaGo5SXBqa3UxbnN0ZEJJ?oc=5"
-      ],
-      "report_summaries": [
-        {
-          "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPVk05UFNXY3k5bnBGRHFhVEktV3NQRTctVG5pQk53U3RLYWhOVjdJbmt2dVl0N1BBeFRhaUdqanI4dG0zYktGWUlUQ2ZGVVBlV3ppSHFhbmROcWMzTXRnV0dFVHdaY29qZDBwUVduRS1welZ1OVBHZ1JjVUhzZ0Q0MGs0QW83V0FxeTV0bF9vQW5wemtTeG00N0hTNG1WRlpsZU9EMFROd1VSQWZXUFNNN0NSSWxTWjJKTEJYWV9mb3RDUlk3WDI0UGdydk1PZTdTT0gyRDhuUzVkWXZTUmVUZU16SkdOTU1tWG42V0xmaVRGVzZnZEtYd2xMTE1rYXMtaGo5SXBqa3UxbnN0ZEJJ?oc=5",
-          "source": "Le Monde Afrique",
-          "title": "In Mali, at least 100 Russian soldiers and five mercenaries killed in a jihadist attack, according to a latest report - Le Monde.fr",
-          "summary": "In Mali, at least 100 Russian soldiers and five mercenaries killed in a jihadist attack, according to a latest report by Le Monde.fr",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "security_force",
-            "armed_group"
-          ],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        }
-      ],
-      "created_at": "2026-09-21T04:28:31.181790Z",
-      "updated_at": "2026-09-21T04:28:31.181790Z",
-      "extraction_confidence": "moderate",
-      "victim_categories": [
-        "security_force",
-        "armed_group"
-      ],
-      "civilian_targeting_flag": false,
-      "casualty_claims": [],
-      "fatalities_min": null,
-      "fatalities_max": null,
-      "fatalities_best": null,
-      "injured_min": null,
-      "injured_max": null,
-      "abducted_min": null,
-      "abducted_max": null,
-      "casualty_disputed": false,
-      "revision_history": [
-        {
-          "at": "2026-09-21T04:28:31.181790Z",
-          "type": "event_created",
-          "source": "Le Monde Afrique"
-        }
-      ],
-      "corroboration": "single-source",
-      "confidence": "moderate",
-      "independent_source_domains": [
-        "news.google.com"
-      ],
-      "independent_source_count": 1,
-      "significance": "ROUTINE",
-      "significance_reasons": [
-        "limited currently observed significance"
-      ]
-    },
-    {
-      "id": "de8becd9f70ded6f4621b871d4e289740188ba34",
-      "event_date": "2026-09-17",
-      "event_date_confidence": "publication-proxy",
-      "event_date_source": "feed",
-      "published_at": "2026-09-17T10:01:47Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-09-21T03:56:07.980715Z",
-      "actor": "Africa Corps/Wagner",
-      "perpetrator": "Africa Corps/Wagner",
-      "target": null,
-      "claimant": null,
-      "supporting_force": null,
-      "mentioned_actors": [
-        "Africa Corps/Wagner"
-      ],
-      "parent_report_id": null,
-      "event_type": "security operation",
-      "country": "Mali",
-      "city": null,
-      "lat": null,
-      "lng": null,
-      "locations": [],
-      "title": "Mali’s drone war: ‘They saw the children and still fired’",
-      "summary": "Alongside open-source intelligence group Bellingcat, with the participation of The Sentry, we investigated drone strikes carried out by the Malian army and Russia’s Africa Corps. At least a quarter of these strikes cause civilian casualties. Our infographics reveal the hidden toll of Mali’s campaign to retake territory.",
-      "sources": [
-        "The Africa Report"
-      ],
-      "languages": [
-        "en"
-      ],
-      "source_count": 1,
-      "report_urls": [
-        "https://www.theafricareport.com/430931/malis-drone-war-they-saw-the-children-and-still-fired/"
-      ],
-      "report_summaries": [
-        {
-          "url": "https://www.theafricareport.com/430931/malis-drone-war-they-saw-the-children-and-still-fired/",
-          "source": "The Africa Report",
-          "title": "Mali’s drone war: ‘They saw the children and still fired’",
-          "summary": "Alongside open-source intelligence group Bellingcat, with the participation of The Sentry, we investigated drone strikes carried out by the Malian army and Russia’s Africa Corps. At least a quarter of these strikes cause civilian casualties. Our infographics reveal the hidden toll of Mali’s campaign to retake territory.",
-          "summary_basis": "source-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "civilian"
-          ],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        }
-      ],
-      "created_at": "2026-09-21T03:56:07.980715Z",
-      "updated_at": "2026-09-21T03:56:07.980715Z",
-      "extraction_confidence": "low",
-      "victim_categories": [
-        "civilian"
-      ],
-      "civilian_targeting_flag": false,
-      "casualty_claims": [],
-      "fatalities_min": null,
-      "fatalities_max": null,
-      "fatalities_best": null,
-      "injured_min": null,
-      "injured_max": null,
-      "abducted_min": null,
-      "abducted_max": null,
-      "casualty_disputed": false,
-      "revision_history": [
-        {
-          "at": "2026-09-21T03:56:07.980715Z",
-          "type": "event_created",
-          "source": "The Africa Report"
-        }
-      ],
-      "corroboration": "single-source",
-      "confidence": "low",
-      "independent_source_domains": [
-        "theafricareport.com"
-      ],
-      "independent_source_count": 1,
-      "significance": "SIGNIFICANT",
-      "significance_reasons": [
-        "operational security event"
-      ]
-    },
-    {
       "id": "dc854ef4a52412c4b3c6a93015bd1142e4c3a1f9",
       "event_date": "2026-09-17",
       "event_date_confidence": "explicit-text",
@@ -3284,96 +3455,6 @@
         "strategic/severe event pattern",
         "multi-location activity"
       ]
-    },
-    {
-      "id": "38c4521eeb4bc2760c514e087d6c7ff8a41f8b23",
-      "event_date": "2026-09-17",
-      "event_date_confidence": "explicit-text",
-      "event_date_source": "explicit-calendar-date",
-      "published_at": "2026-09-19T11:26:16Z",
-      "published_date_source": "stored",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-09-19T18:15:03.129399Z",
-      "actor": "State",
-      "perpetrator": "State",
-      "target": null,
-      "claimant": null,
-      "supporting_force": null,
-      "mentioned_actors": [
-        "State"
-      ],
-      "parent_report_id": null,
-      "event_type": "offensive/campaign",
-      "country": "Mali",
-      "city": null,
-      "lat": null,
-      "lng": null,
-      "locations": [],
-      "title": "Terrorist hunt: The FAMa's victorious offensive is accelerating on several fronts",
-      "summary": "The General Staff of the Armed Forces informs the national opinion that the Malian Armed Forces (FAMa), supported by their partners, are continuing their permanent operations to monitor, control and secure the national territory as part of Operation Dougoukoloko. On Thursday, September 17, 2026, the exploitation of precise information made it possible to locate several group concentration points",
-      "sources": [
-        "Bamada"
-      ],
-      "languages": [
-        "fr"
-      ],
-      "source_count": 1,
-      "report_urls": [
-        "https://bamada.net/traque-terroriste-loffensive-victorieuse-des-fama-saccelere-sur-plusieurs-fronts"
-      ],
-      "report_summaries": [
-        {
-          "url": "https://bamada.net/traque-terroriste-loffensive-victorieuse-des-fama-saccelere-sur-plusieurs-fronts",
-          "source": "Bamada",
-          "title": "Terrorist hunt: The FAMa's victorious offensive is accelerating on several fronts",
-          "summary": "The General Staff of the Armed Forces informs the national opinion that the Malian Armed Forces (FAMa), supported by their partners, are continuing their permanent operations to monitor, control and secure the national territory as part of Operation Dougoukoloko. On Thursday, September 17, 2026, the exploitation of precise information made it possible to locate several group concentration points",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "armed_group"
-          ],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        }
-      ],
-      "created_at": "2026-09-19T18:15:03.129399Z",
-      "updated_at": "2026-09-19T18:15:03.129399Z",
-      "extraction_confidence": "moderate",
-      "victim_categories": [
-        "armed_group"
-      ],
-      "civilian_targeting_flag": false,
-      "casualty_claims": [],
-      "fatalities_min": null,
-      "fatalities_max": null,
-      "fatalities_best": null,
-      "injured_min": null,
-      "injured_max": null,
-      "abducted_min": null,
-      "abducted_max": null,
-      "casualty_disputed": false,
-      "revision_history": [
-        {
-          "at": "2026-09-19T18:15:03.129399Z",
-          "type": "event_created",
-          "source": "Bamada"
-        }
-      ],
-      "corroboration": "single-source",
-      "confidence": "moderate",
-      "independent_source_domains": [
-        "bamada.net"
-      ],
-      "independent_source_count": 1,
-      "significance": "MAJOR",
-      "significance_reasons": [
-        "strategic/severe event pattern"
-      ]
     }
   ],
   "latest_reports": [
@@ -3394,6 +3475,24 @@
       "candidate_event": false,
       "title": "Algeria sent fighter jets to Niger to thwart ‘coup attempt’, president says",
       "url": "https://www.aljazeera.com/news/2026/10/3/algeria-sent-fighter-jets-to-niger-to-thwart-coup-attempt-president-says?traffic_source=rss"
+    },
+    {
+      "published_at": "2026-10-03T17:23:38Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-04T05:26:56.391814Z",
+      "discovered_at": "2026-10-04T05:26:56.391814Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0008",
+      "source": "Bamada",
+      "language": "fr",
+      "actor": null,
+      "country": "Mali",
+      "city": "Bamako",
+      "event_type": "law enforcement",
+      "candidate_event": false,
+      "title": "Senou: A dangerous network of inoperable motorcycle robbers",
+      "url": "https://bamada.net/senou-un-dangereux-reseau-de-braqueurs-de-motos-hors-detat-de-nuire"
     },
     {
       "published_at": "2026-10-03T15:27:37Z",
@@ -3624,7 +3723,7 @@
       "actor": "State",
       "country": "Mali",
       "city": "Bamako",
-      "event_type": "clash",
+      "event_type": null,
       "candidate_event": false,
       "title": "PATRIOTIC GESTURE: customs women and wives of customs officers give their blood in favor of the FAMa",
       "url": "https://bamada.net/geste-patriotique-les-femmes-douanieres-et-epouses-de-douaniers-donnent-leur-sang-en-faveur-des-fama"
@@ -3657,11 +3756,11 @@
       "source_code": "SRC-0008",
       "source": "Bamada",
       "language": "fr",
-      "actor": "JNIM",
+      "actor": "State",
       "country": "Mali",
       "city": "Ménaka",
-      "event_type": null,
-      "candidate_event": false,
+      "event_type": "security operation",
+      "candidate_event": true,
       "title": "JOINT PATROL FAMa-MSA-GATIA and AFRICA CORPS: MEMBERS OF the JNIM-FLA COALITION KILLED BETWEEN ANSONGO and MÉNAKA",
       "url": "https://bamada.net/patrouille-conjointe-fama-msa-gatia-et-africa-corps-des-membres-de-la-coalition-jnim-fla-tues-entre-ansongo-et-menaka"
     },
@@ -3714,7 +3813,7 @@
       "actor": "State",
       "country": "Burkina Faso",
       "city": "Ouagadougou",
-      "event_type": null,
+      "event_type": "clash",
       "candidate_event": false,
       "title": "RPP Night: a stopover to replenish energy",
       "url": "https://www.wakatsera.com/nuit-de-la-rpp-une-halte-pour-refaire-le-plein-denergie/"
@@ -3736,24 +3835,6 @@
       "candidate_event": false,
       "title": "Fight against fraud and clandestine gold mining: Condor Authority and its men strike hard",
       "url": "https://www.wakatsera.com/lutte-contre-la-fraude-et-lorpaillage-clandestin-condor-autorite-et-ses-hommes-frappent-fort/"
-    },
-    {
-      "published_at": "2026-10-01T12:03:00Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-02T17:32:11.099116Z",
-      "discovered_at": "2026-10-02T17:32:11.099116Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0084",
-      "source": "Agence Ecofin",
-      "language": "fr",
-      "actor": null,
-      "country": "Niger",
-      "city": null,
-      "event_type": "security operation",
-      "candidate_event": false,
-      "title": "In 3 years, I&P has targeted 18 MSMEs in Niger and Mali for their first fundraising - ECOFIN AGENCY",
-      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNRVctOFBDeTVqRWJkMWdxVjMtZVAyWWpReURjcEIwZ05FUzdvNVdKSmlXYVp4S1ZfM01IS2F2dXNjYXBLV0VHLWxYSXdGYzd6VzFGenRadUx0TnhHengzdXVia05oZ3N3ZklrY2VGR2VYZkZsWFgxRzBPRkx4UWowMklBZEFCRTRPNE81NDQ4VVF0dW5UYW05dHNuTV9yVEN5bGFrLWw2WTZOVGktd1hONFlGUWdHWDZDcFh5TVhNaVVXRXVJRVF3ZWFyT2xNVzVTZUZ0NmdCTQ?oc=5"
     },
     {
       "published_at": "2026-10-01T11:56:30Z",
@@ -3819,13 +3900,31 @@
       "source_code": "SRC-0090",
       "source": "AllAfrica (Édition Française)",
       "language": "fr",
-      "actor": null,
+      "actor": "Other",
       "country": "Burkina Faso",
       "city": "Ouagadougou",
-      "event_type": null,
-      "candidate_event": false,
+      "event_type": "kidnapping",
+      "candidate_event": true,
       "title": "Burkina Faso: Opponents in exile publish a documented list of 86 kidnappings perpetrated by the junta",
       "url": "https://fr.allafrica.com/stories/202610010260.html"
+    },
+    {
+      "published_at": "2026-10-01T09:59:33Z",
+      "published_date_source": "opengraph",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-04T05:26:47.602779Z",
+      "discovered_at": "2026-10-04T05:26:47.602779Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0090",
+      "source": "AllAfrica (Édition Française)",
+      "language": "fr",
+      "actor": "State",
+      "country": "Burkina Faso",
+      "city": null,
+      "event_type": null,
+      "candidate_event": false,
+      "title": "6 Burkina Faso: Night of the People's Progressive Revolution - The main achievements presented to the population",
+      "url": "https://fr.allafrica.com/stories/202610010220.html"
     },
     {
       "published_at": "2026-10-01T09:58:01Z",
@@ -3999,11 +4098,11 @@
       "source_code": "SRC-0001",
       "source": "RFI Afrique",
       "language": "fr",
-      "actor": null,
+      "actor": "Other",
       "country": "Burkina Faso",
       "city": "Ouagadougou",
-      "event_type": null,
-      "candidate_event": false,
+      "event_type": "kidnapping",
+      "candidate_event": true,
       "title": "Burkina Faso: Opponents in exile publish a documented list of 86 kidnappings perpetrated by the junta",
       "url": "https://www.rfi.fr/fr/afrique/20261001-burkina-faso-des-opposants-en-exil-publient-une-liste-document%C3%A9e-de-86-enl%C3%A8vements-perp%C3%A9tr%C3%A9s-par-la-junte"
     },
@@ -4078,24 +4177,6 @@
       "candidate_event": false,
       "title": "Burkina Faso: Le Peuple débout celebrates the four years of the RPP in unity and fervor",
       "url": "https://www.sidwaya.info/burkina-faso-le-peuple-debout-celebre-les-quatre-ans-de-la-rpp-dans-lunite-et-la-ferveur/"
-    },
-    {
-      "published_at": "2026-09-30T19:55:11Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-09-30T23:09:14.351404Z",
-      "discovered_at": "2026-09-30T23:09:14.351404Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0010",
-      "source": "Burkina24",
-      "language": "fr",
-      "actor": "State",
-      "country": "Burkina Faso",
-      "city": "Ouagadougou",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "RPP Night: Strong mobilization at the Place de la Révolution in Ouagadougou",
-      "url": "https://burkina24.com/2026/09/30/nuit-de-la-rpp-forte-mobilisation-a-la-place-de-la-revolution-de-ouagadougou/"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
