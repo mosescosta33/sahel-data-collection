@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-04T18:04:46.190841Z",
+  "generated_at": "2026-10-04T21:17:41.839666Z",
   "window_days": 30,
   "cutoff": "2026-09-04",
-  "reports": 227,
+  "reports": 229,
   "incident_reports": 40,
   "candidate_events": 37,
   "corroborated_events": 3,
   "mapped_events": 33,
   "mapped_locations": 64,
-  "distinct_sources": 63,
+  "distinct_sources": 64,
   "by_actor": {
     "State": 22,
     "JNIM": 7,
@@ -29,7 +29,7 @@
     "kidnapping": 1
   },
   "by_language": {
-    "fr": 167,
+    "fr": 169,
     "en": 51,
     "ar": 9
   },
@@ -258,7 +258,7 @@
     },
     {
       "date": "2026-09-26",
-      "reports": 3,
+      "reports": 4,
       "events": 0
     },
     {
@@ -298,7 +298,7 @@
     },
     {
       "date": "2026-10-04",
-      "reports": 8,
+      "reports": 9,
       "events": 0
     }
   ],
@@ -3441,6 +3441,24 @@
   ],
   "latest_reports": [
     {
+      "published_at": "2026-10-04T19:15:57Z",
+      "published_date_source": "opengraph",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-04T21:17:08.194031Z",
+      "discovered_at": "2026-10-04T21:17:08.194031Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0073",
+      "source": "Ouestaf News",
+      "language": "fr",
+      "actor": "Africa Corps/Wagner",
+      "country": "Mali",
+      "city": "Bamako",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "From Wagner to Africa Corps: the Russian presence in the Sahel in question",
+      "url": "https://www.ouestaf.com/de-wagner-a-africa-corps-la-presence-russe-au-sahel-en-question/"
+    },
+    {
       "published_at": "2026-10-04T14:22:43Z",
       "published_date_source": "jsonld:datePublished",
       "published_time_precision": "datetime",
@@ -4141,24 +4159,6 @@
       "candidate_event": false,
       "title": "Disappearance of Moussa Kaka in Niger: \"Absolutely nothing justifies his arrest\"",
       "url": "https://www.rfi.fr/fr/podcasts/le-grand-invit%C3%A9-afrique/20261001-disparition-de-moussa-kaka-au-niger-absolument-rien-ne-justifie-son-arrestation"
-    },
-    {
-      "published_at": "2026-10-01T04:39:46Z",
-      "published_date_source": "opengraph",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-01T06:14:24.787396Z",
-      "discovered_at": "2026-10-01T06:14:24.787396Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0121",
-      "source": "AllAfrica (English Edition)",
-      "language": "en",
-      "actor": "State",
-      "country": "Burkina Faso",
-      "city": "Ouagadougou",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Burkina Faso: Exiled Burkina Publisher Tells RFI of Repression and Fear Four Years After Coup",
-      "url": "https://allafrica.com/stories/202610010002.html"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
