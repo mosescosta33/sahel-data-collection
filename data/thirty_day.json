@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-05T15:36:57.178458Z",
+  "generated_at": "2026-10-05T16:35:20.184473Z",
   "window_days": 30,
   "cutoff": "2026-09-05",
-  "reports": 243,
+  "reports": 244,
   "incident_reports": 46,
   "candidate_events": 42,
   "corroborated_events": 5,
@@ -31,7 +31,7 @@
   "by_language": {
     "fr": 181,
     "en": 53,
-    "ar": 9
+    "ar": 10
   },
   "by_confidence": {
     "moderate": 22,
@@ -298,7 +298,7 @@
     },
     {
       "date": "2026-10-05",
-      "reports": 13,
+      "reports": 14,
       "events": 1
     }
   ],
@@ -3532,6 +3532,24 @@
   ],
   "latest_reports": [
     {
+      "published_at": "2026-10-05T15:55:00Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-05T16:34:48.125264Z",
+      "discovered_at": "2026-10-05T16:34:48.125264Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0160",
+      "source": "Sahara Medias (صحراء ميديا)",
+      "language": "ar",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Kidal",
+      "event_type": "security operation",
+      "candidate_event": false,
+      "title": "Mali.. The army targets the positions of armed groups in Kidal and other areas",
+      "url": "https://saharamedias.net/266038/"
+    },
+    {
       "published_at": "2026-10-05T14:50:26Z",
       "published_date_source": "feed",
       "published_time_precision": "datetime",
@@ -4232,24 +4250,6 @@
       "candidate_event": false,
       "title": "Operation Dougoukoloko: FAMa shelling terrorist hideouts in Tessalit, Nampala and Sofara",
       "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312122-operation-dougoukoloko-les-fama-pilonnent-des-repaires-ter.html"
-    },
-    {
-      "published_at": "2026-10-01T16:05:21Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-01T17:23:26.279258Z",
-      "discovered_at": "2026-10-01T17:23:26.279258Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0008",
-      "source": "Bamada",
-      "language": "fr",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Ménaka",
-      "event_type": "security operation",
-      "candidate_event": true,
-      "title": "JOINT PATROL FAMa-MSA-GATIA and AFRICA CORPS: MEMBERS OF the JNIM-FLA COALITION KILLED BETWEEN ANSONGO and MÉNAKA",
-      "url": "https://bamada.net/patrouille-conjointe-fama-msa-gatia-et-africa-corps-des-membres-de-la-coalition-jnim-fla-tues-entre-ansongo-et-menaka"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."

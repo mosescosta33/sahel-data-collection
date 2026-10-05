@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "site_patch_version": "3.3.5",
-  "generated_at": "2026-10-05T15:36:58.906679Z",
+  "generated_at": "2026-10-05T16:35:21.372681Z",
   "active_limit": 33,
   "total_briefings": 254,
   "active_count": 33,
@@ -11,7 +11,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-05",
-      "generated_at": "2026-10-05T15:36:58.106104Z",
+      "generated_at": "2026-10-05T16:35:20.957869Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -23,11 +23,11 @@
         "events_occurring_on_date": 1,
         "records_held_for_review": 0,
         "multi_source_events": 0,
-        "reports_collected_on_date": 16,
-        "reports_published_on_date": 13,
+        "reports_collected_on_date": 18,
+        "reports_published_on_date": 14,
         "newly_discovered_older_events": 3,
         "events_awaiting_date_verification": 1,
-        "distinct_sources_collected": 9
+        "distinct_sources_collected": 11
       },
       "executive_assessment": "Reporting dated 2026-10-05 gives the desk 1 incident account to examine in Mali. None has support from a second independent source. The record is provisional; it does not establish the full extent of violence that day.",
       "briefing_sections": [
@@ -37,11 +37,11 @@
         },
         {
           "heading": "Mali",
-          "text": "14 retained reports were collected for Mali. 1 fused candidate event currently carry this reporting date. When Russia Loses, JNIM Gains: Mali’s Security Paradox: Modern Ghana Mali: the army on the move in the Kidal region: 05-10-2026 14:31 - Mali: the armour on the move in the Kidal RFI-Africa region -- In Mali, large convoys of the armour arrived during the weekend. These are the last two camps controlled by the army in the Kidal region, since… Mali: towards a major FAMa offensive in Kidal against the Fla and JNIM: Major troop movements and a series of strikes around Kidal revive questions about the intentions of the Malian Armed Forces in the north of the country. A new operation against the Fla and JNIM positions could emerge, even if… 11 additional Mali reports are summarized individually in the source records."
+          "text": "15 retained reports were collected for Mali. 1 fused candidate event currently carry this reporting date. Mali.. The army targets the positions of armed groups in Kidal and other areas: The Malian army announced the implementation of military operations targeting sites belonging to armed groups, within the framework of surveillance operations and securing national territory within the framework of Operation… When Russia Loses, JNIM Gains: Mali’s Security Paradox: Modern Ghana Mali: the army on the move in the Kidal region: 05-10-2026 14:31 - Mali: the armour on the move in the Kidal RFI-Africa region -- In Mali, large convoys of the armour arrived during the weekend. These are the last two camps controlled by the army in the Kidal region, since… 12 additional Mali reports are summarized individually in the source records."
         },
         {
           "heading": "Burkina Faso",
-          "text": "1 retained report were collected for Burkina Faso. 0 fused candidate events currently carry this reporting date. Back to News: The highlights of the week from 28 September to 4 October 2026: From 28 September to 4 October 2026, Burkinabe news was marked by mobilization around the People's Progressive Revolution, the JEPPC, the start of the judicial year, but also by major announcements in health, road safety and…"
+          "text": "2 retained reports were collected for Burkina Faso. 0 fused candidate events currently carry this reporting date. A hundred supporters of an influential imam, detained in Burkina Faso, have been released: At the end of May, Imam Mohamad Ishaq Kindo was arrested in Burkina Faso after denouncing the adoption of a draft law governing the exercise of religious freedoms in a country where about 60% of the population is Muslim… Back to News: The highlights of the week from 28 September to 4 October 2026: From 28 September to 4 October 2026, Burkinabe news was marked by mobilization around the People's Progressive Revolution, the JEPPC, the start of the judicial year, but also by major announcements in health, road safety and…"
         },
         {
           "heading": "Niger",
@@ -100,7 +100,7 @@
       ],
       "what_changed_since_yesterday": [
         "JNIM: -1 same-day fused event(s) versus 2026-10-04 (1 → 0).",
-        "Collection volume: -23 retained report(s) versus 2026-10-04 (39 → 16)."
+        "Collection volume: -21 retained report(s) versus 2026-10-04 (39 → 18)."
       ],
       "emerging_patterns": [
         "JNIM 7-day activity is higher than the preceding 7-day window (0 → 1).",
@@ -122,8 +122,8 @@
         "Niger": 0
       },
       "country_reporting_counts": {
-        "Mali": 14,
-        "Burkina Faso": 1,
+        "Mali": 15,
+        "Burkina Faso": 2,
         "Niger": 1
       },
       "actor_profiles": {
@@ -165,7 +165,7 @@
       "country_profiles": {
         "Mali": {
           "events": 1,
-          "reports_collected": 14,
+          "reports_collected": 15,
           "actor_counts": {
             "JNIM": 0,
             "IS Sahel": 0,
@@ -181,7 +181,7 @@
         },
         "Burkina Faso": {
           "events": 0,
-          "reports_collected": 1,
+          "reports_collected": 2,
           "actor_counts": {
             "JNIM": 0,
             "IS Sahel": 0,
@@ -204,6 +204,15 @@
       },
       "country_article_summaries": {
         "Mali": [
+          {
+            "id": "b4bc4f9f6d5aa2d4b8ee9037ff283f93e4aca998",
+            "source": "Sahara Medias (صحراء ميديا)",
+            "title": "Mali.. The army targets the positions of armed groups in Kidal and other areas",
+            "summary": "The Malian army announced the implementation of military operations targeting sites belonging to armed groups, within the framework of surveillance operations and securing national territory within the framework of Operation Dogokoloko.",
+            "url": "https://saharamedias.net/266038/",
+            "candidate_event": false,
+            "event_date": "2026-10-05"
+          },
           {
             "id": "f939253cc699e22cb653a6752889099677de6690",
             "source": "Modern Ghana",
@@ -333,6 +342,15 @@
         ],
         "Burkina Faso": [
           {
+            "id": "2cbc134ef93380b01a1abb5655af7e9199408ce4",
+            "source": "Dakaractu",
+            "title": "A hundred supporters of an influential imam, detained in Burkina Faso, have been released",
+            "summary": "At the end of May, Imam Mohamad Ishaq Kindo was arrested in Burkina Faso after denouncing the adoption of a draft law governing the exercise of religious freedoms in a country where about 60% of the population is Muslim Several of his supporters had also been arrested after demonstrating in Ouagadougou to demand his release and the central mosque of the Sunni movement had been closed \"until further notice\" by the authorities.",
+            "url": "https://www.dakaractu.com/Une-centaine-de-partisans-d-un-influent-imam-detenus-au-Burkina-Faso-ont-ete-liberes_a276730.html",
+            "candidate_event": false,
+            "event_date": null
+          },
+          {
             "id": "efc6561059617730322c4b76864ce89ccab3e454",
             "source": "Burkina24",
             "title": "Back to News: The highlights of the week from 28 September to 4 October 2026",
@@ -358,34 +376,35 @@
         "sources_total": 182,
         "sources_success": 156,
         "sources_failed": 26,
-        "sources_degraded": 19,
-        "documents_discovered": 11542,
-        "documents_retained": 1,
+        "sources_degraded": 20,
+        "documents_discovered": 11919,
+        "documents_retained": 2,
         "report_target": 100,
-        "translations_attempted": 0,
-        "translations_success": 0,
+        "translations_attempted": 2,
+        "translations_success": 2,
         "translation_failures": 0,
         "collection_confidence": "LOW",
         "collection_confidence_reasons": [
           "156/182 source paths reached",
           "26 failed source paths",
-          "19 degraded / 26 failed of 182 configured sources"
+          "20 degraded / 26 failed of 182 configured sources"
         ],
-        "reports_collected": 16,
-        "reports_published": 13,
-        "distinct_sources_collected": 9,
+        "reports_collected": 18,
+        "reports_published": 14,
+        "distinct_sources_collected": 11,
         "language_counts": {
-          "en": 2,
-          "fr": 14
+          "fr": 15,
+          "ar": 1,
+          "en": 2
         }
       },
-      "sultana_daily_text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nDaily bottom line for 2026-10-05: Reporting dated 2026-10-05 gives the desk 1 incident account to examine in Mali. None has support from a second independent source. The record is provisional; it does not establish the full extent of violence that day.\n\nMali: 14 retained reports. 1. When Russia Loses, JNIM Gains: Mali’s Security Paradox. Modern Ghana 2. Mali: the army on the move in the Kidal region. 05-10-2026 14:31 - Mali: the armour on the move in the Kidal RFI-Africa region -- In Mali, large convoys of the armour arrived during the weekend. These are the last two camps controlled by the army in the Kidal region, since the Fla and Jnim jihadists, linked to the Qaû₤da, seized Kidal and Tessalit last April. . 3. Mali: towards a major FAMa offensive in Kidal against the Fla and JNIM. Major troop movements and a series of strikes around Kidal revive questions about the intentions of the Malian Armed Forces in the north of the country. A new operation against the Fla and JNIM positions could emerge, even if the army has not yet announced any reconquest offensive . More than 200 vehicles arrived Saturday in Anéfis, Kidal region, while another convoy of about 80 vehicles reached Aguelhoc on Sunday.\n\nBurkina Faso: 1 retained report. 1. Back to News: The highlights of the week from 28 September to 4 October 2026. From 28 September to 4 October 2026, Burkinabe news was marked by mobilization around the People's Progressive Revolution, the JEPPC, the start of the judicial year, but also by major announcements in health, road safety and sport. Review of the facts that marked the week On Wednesday, September 30, the Place de la Révolution in Ouagadougou hosted the first edition of the Night of the People's Progressive Revolution (RPP).\n\nNiger: 1 retained report. 1. 10:10 Night of the People's Progressive Revolution: Burkinabe living in Niger communicate with the homeland. Out of sight, close to the heart! Despite the physical distance of the mother country, the Burkinabe living in Niger met at the Burkina Embassy in Niamey to celebrate, like their compatriots who remained in the country, the Night of the Progressive People's Revolution (RPP), in the evening of September 30, 2026 . In the company of representatives of brotherly and friendly countries of Niger, Mali and Cuba, the Burkinabè followed from beginning to end the events of the Place de la Nation of Ouagadougou through a projection on a giant screen of the live national television.\n\nActor picture: JNIM 0, IS Sahel 0, State 1.\n\nWhat changed: JNIM: -1 same-day fused event(s) versus 2026-10-04 (1 → 0). Collection volume: -23 retained report(s) versus 2026-10-04 (39 → 16).\n\nIntelligence gaps: 1 same-day event(s) lack independent multi-source corroboration. 1 newly collected operational/candidate report(s) have unresolved or publication-proxy event dates. Collection confidence is low, so absence of reporting should not be interpreted as absence of activity.\n\nCollection confidence: LOW. 156/182 source paths reached 26 failed source paths 19 degraded / 26 failed of 182 configured sources\n\nAll retained source reports, including reports not promoted to the map, remain individually summarized in the intelligence feed and source records."
+      "sultana_daily_text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nDaily bottom line for 2026-10-05: Reporting dated 2026-10-05 gives the desk 1 incident account to examine in Mali. None has support from a second independent source. The record is provisional; it does not establish the full extent of violence that day.\n\nMali: 15 retained reports. 1. Mali.. The army targets the positions of armed groups in Kidal and other areas. The Malian army announced the implementation of military operations targeting sites belonging to armed groups, within the framework of surveillance operations and securing national territory within the framework of Operation Dogokoloko. 2. When Russia Loses, JNIM Gains: Mali’s Security Paradox. Modern Ghana 3. Mali: the army on the move in the Kidal region. 05-10-2026 14:31 - Mali: the armour on the move in the Kidal RFI-Africa region -- In Mali, large convoys of the armour arrived during the weekend. These are the last two camps controlled by the army in the Kidal region, since the Fla and Jnim jihadists, linked to the Qaû₤da, seized Kidal and Tessalit last April. .\n\nBurkina Faso: 2 retained reports. 1. A hundred supporters of an influential imam, detained in Burkina Faso, have been released. At the end of May, Imam Mohamad Ishaq Kindo was arrested in Burkina Faso after denouncing the adoption of a draft law governing the exercise of religious freedoms in a country where about 60% of the population is Muslim Several of his supporters had also been arrested after demonstrating in Ouagadougou to demand his release and the central mosque of the Sunni movement had been closed \"until further notice\" by the authorities. 2. Back to News: The highlights of the week from 28 September to 4 October 2026. From 28 September to 4 October 2026, Burkinabe news was marked by mobilization around the People's Progressive Revolution, the JEPPC, the start of the judicial year, but also by major announcements in health, road safety and sport. Review of the facts that marked the week On Wednesday, September 30, the Place de la Révolution in Ouagadougou hosted the first edition of the Night of the People's Progressive Revolution (RPP).\n\nNiger: 1 retained report. 1. 10:10 Night of the People's Progressive Revolution: Burkinabe living in Niger communicate with the homeland. Out of sight, close to the heart! Despite the physical distance of the mother country, the Burkinabe living in Niger met at the Burkina Embassy in Niamey to celebrate, like their compatriots who remained in the country, the Night of the Progressive People's Revolution (RPP), in the evening of September 30, 2026 . In the company of representatives of brotherly and friendly countries of Niger, Mali and Cuba, the Burkinabè followed from beginning to end the events of the Place de la Nation of Ouagadougou through a projection on a giant screen of the live national television.\n\nActor picture: JNIM 0, IS Sahel 0, State 1.\n\nWhat changed: JNIM: -1 same-day fused event(s) versus 2026-10-04 (1 → 0). Collection volume: -21 retained report(s) versus 2026-10-04 (39 → 18).\n\nIntelligence gaps: 1 same-day event(s) lack independent multi-source corroboration. 1 newly collected operational/candidate report(s) have unresolved or publication-proxy event dates. Collection confidence is low, so absence of reporting should not be interpreted as absence of activity.\n\nCollection confidence: LOW. 156/182 source paths reached 26 failed source paths 20 degraded / 26 failed of 182 configured sources\n\nAll retained source reports, including reports not promoted to the map, remain individually summarized in the intelligence feed and source records."
     },
     {
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-04",
-      "generated_at": "2026-10-05T15:36:58.205828Z",
+      "generated_at": "2026-10-05T16:35:21.077338Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -1013,7 +1032,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-03",
-      "generated_at": "2026-10-05T15:36:58.424307Z",
+      "generated_at": "2026-10-05T16:35:21.170833Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -1501,7 +1520,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-02",
-      "generated_at": "2026-10-05T15:36:58.549926Z",
+      "generated_at": "2026-10-05T16:35:20.890747Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -1741,7 +1760,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-01",
-      "generated_at": "2026-10-05T15:36:58.147665Z",
+      "generated_at": "2026-10-05T16:35:21.188349Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -2289,7 +2308,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-30",
-      "generated_at": "2026-10-05T15:36:58.397630Z",
+      "generated_at": "2026-10-05T16:35:20.878718Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -3434,7 +3453,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-29",
-      "generated_at": "2026-10-05T15:36:58.487606Z",
+      "generated_at": "2026-10-05T16:35:20.822923Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -3759,7 +3778,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-28",
-      "generated_at": "2026-10-05T15:36:58.527050Z",
+      "generated_at": "2026-10-05T16:35:20.900480Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -4238,7 +4257,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-27",
-      "generated_at": "2026-10-05T15:36:58.824332Z",
+      "generated_at": "2026-10-05T16:35:21.004760Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -4591,7 +4610,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-26",
-      "generated_at": "2026-10-05T15:36:58.827658Z",
+      "generated_at": "2026-10-05T16:35:21.087093Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -4839,7 +4858,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-25",
-      "generated_at": "2026-10-05T15:36:58.817791Z",
+      "generated_at": "2026-10-05T16:35:21.249190Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -5191,7 +5210,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-24",
-      "generated_at": "2026-10-05T15:36:58.596621Z",
+      "generated_at": "2026-10-05T16:35:21.012148Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -5553,7 +5572,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-23",
-      "generated_at": "2026-10-05T15:36:58.543376Z",
+      "generated_at": "2026-10-05T16:35:21.082251Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -5864,7 +5883,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-22",
-      "generated_at": "2026-10-05T15:36:58.401192Z",
+      "generated_at": "2026-10-05T16:35:20.868755Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -6822,7 +6841,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-21",
-      "generated_at": "2026-10-05T15:36:58.540064Z",
+      "generated_at": "2026-10-05T16:35:20.820414Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -7340,7 +7359,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-20",
-      "generated_at": "2026-10-05T15:36:58.393957Z",
+      "generated_at": "2026-10-05T16:35:21.175922Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -7984,7 +8003,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-19",
-      "generated_at": "2026-10-05T15:36:58.811198Z",
+      "generated_at": "2026-10-05T16:35:21.060142Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -8630,7 +8649,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-18",
-      "generated_at": "2026-10-05T15:36:57.913634Z",
+      "generated_at": "2026-10-05T16:35:20.832629Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -8793,7 +8812,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-17",
-      "generated_at": "2026-10-05T15:36:58.658623Z",
+      "generated_at": "2026-10-05T16:35:20.983008Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -9056,7 +9075,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-16",
-      "generated_at": "2026-10-05T15:36:58.573793Z",
+      "generated_at": "2026-10-05T16:35:21.195683Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -9218,7 +9237,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-15",
-      "generated_at": "2026-10-05T15:36:58.888833Z",
+      "generated_at": "2026-10-05T16:35:21.348669Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -9380,7 +9399,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-14",
-      "generated_at": "2026-10-05T15:36:58.736531Z",
+      "generated_at": "2026-10-05T16:35:21.180747Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -9546,7 +9565,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-13",
-      "generated_at": "2026-10-05T15:36:58.804507Z",
+      "generated_at": "2026-10-05T16:35:21.343882Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -9708,7 +9727,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-12",
-      "generated_at": "2026-10-05T15:36:58.830855Z",
+      "generated_at": "2026-10-05T16:35:21.299811Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -9870,7 +9889,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-11",
-      "generated_at": "2026-10-05T15:36:58.141038Z",
+      "generated_at": "2026-10-05T16:35:20.978188Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -10032,7 +10051,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-10",
-      "generated_at": "2026-10-05T15:36:58.620959Z",
+      "generated_at": "2026-10-05T16:35:21.156328Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -10255,7 +10274,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-08",
-      "generated_at": "2026-10-05T15:36:58.866424Z",
+      "generated_at": "2026-10-05T16:35:20.995021Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -10421,7 +10440,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-07",
-      "generated_at": "2026-10-05T15:36:58.131785Z",
+      "generated_at": "2026-10-05T16:35:20.933844Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -10749,7 +10768,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-04",
-      "generated_at": "2026-10-05T15:36:58.730131Z",
+      "generated_at": "2026-10-05T16:35:21.202930Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -10915,7 +10934,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-03",
-      "generated_at": "2026-10-05T15:36:58.339011Z",
+      "generated_at": "2026-10-05T16:35:21.367787Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -11077,7 +11096,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-02",
-      "generated_at": "2026-10-05T15:36:58.892684Z",
+      "generated_at": "2026-10-05T16:35:21.193166Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -11239,7 +11258,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-01",
-      "generated_at": "2026-10-05T15:36:58.231525Z",
+      "generated_at": "2026-10-05T16:35:20.970987Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
