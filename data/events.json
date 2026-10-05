@@ -1,5 +1,112 @@
 [
   {
+    "id": "108f10b93684b67e69d1cb1127ae6ec56480eef0",
+    "event_date": "2026-10-04",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "explicit-date-no-year",
+    "published_at": "2026-10-05T11:51:25Z",
+    "published_date_source": "jsonld:datePublished",
+    "published_time_precision": "datetime",
+    "collected_at": "2026-10-05T12:39:03.975627Z",
+    "actor": "JNIM",
+    "perpetrator": "JNIM",
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [
+      "JNIM"
+    ],
+    "parent_report_id": null,
+    "event_type": "security operation",
+    "country": "Mali",
+    "city": "Kidal",
+    "lat": 18.4411,
+    "lng": 1.4078,
+    "locations": [
+      {
+        "name": "Kidal",
+        "country": "Mali",
+        "lat": 18.4411,
+        "lng": 1.4078,
+        "confidence": "explicit-place"
+      },
+      {
+        "name": "Gao",
+        "country": "Mali",
+        "lat": 16.2717,
+        "lng": -0.0447,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "Mali: the army on the move in the Kidal region",
+    "summary": "In Mali, large army convoys arrived in Anéfis and Aguelhoc over the weekend. These are the last two camps controlled by the army in the Kidal region, since the Fla separatists and the Jnim jihadists, linked to al-Qaeda, seized Kidal and Tessalit last April On the evening of October 4 and the morning of October 5, air strikes were carried out in the area. The army has not disclosed its intentions, but these movements could foreshadow the beginning of a reconquest operation.",
+    "sources": [
+      "RFI Afrique"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://www.rfi.fr/fr/afrique/20261005-mali-l-arm%C3%A9e-en-mouvement-dans-la-r%C3%A9gion-de-kidal"
+    ],
+    "report_summaries": [
+      {
+        "url": "https://www.rfi.fr/fr/afrique/20261005-mali-l-arm%C3%A9e-en-mouvement-dans-la-r%C3%A9gion-de-kidal",
+        "source": "RFI Afrique",
+        "title": "Mali: the army on the move in the Kidal region",
+        "summary": "In Mali, large army convoys arrived in Anéfis and Aguelhoc over the weekend. These are the last two camps controlled by the army in the Kidal region, since the Fla separatists and the Jnim jihadists, linked to al-Qaeda, seized Kidal and Tessalit last April On the evening of October 4 and the morning of October 5, air strikes were carried out in the area. The army has not disclosed its intentions, but these movements could foreshadow the beginning of a reconquest operation.",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "security_force",
+          "armed_group"
+        ],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      }
+    ],
+    "created_at": "2026-10-05T12:39:03.975627Z",
+    "updated_at": "2026-10-05T12:39:03.975627Z",
+    "extraction_confidence": "low",
+    "victim_categories": [
+      "security_force",
+      "armed_group"
+    ],
+    "civilian_targeting_flag": false,
+    "casualty_claims": [],
+    "fatalities_min": null,
+    "fatalities_max": null,
+    "fatalities_best": null,
+    "injured_min": null,
+    "injured_max": null,
+    "abducted_min": null,
+    "abducted_max": null,
+    "casualty_disputed": false,
+    "revision_history": [
+      {
+        "at": "2026-10-05T12:39:03.975627Z",
+        "type": "event_created",
+        "source": "RFI Afrique"
+      }
+    ],
+    "corroboration": "single-source",
+    "confidence": "low",
+    "independent_source_domains": [
+      "rfi.fr"
+    ],
+    "independent_source_count": 1,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "multi-location activity"
+    ]
+  },
+  {
     "id": "183d4bc7c740d43cdfa6608ee1f8e9393864dce8",
     "event_date": "2026-10-04",
     "event_date_confidence": "explicit-text",
@@ -3605,6 +3712,123 @@
     ]
   },
   {
+    "id": "9e04ce52a5c2ec84037cc99925620fa987df3e60",
+    "event_date": "2026-09-14",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "explicit-calendar-date",
+    "published_at": "2026-10-05T11:56:53Z",
+    "published_date_source": "jsonld:datePublished",
+    "published_time_precision": "datetime",
+    "collected_at": "2026-10-05T12:39:09.754811Z",
+    "actor": "State",
+    "perpetrator": "State",
+    "target": "Africa Corps/Wagner",
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [
+      "JNIM",
+      "State",
+      "Africa Corps/Wagner"
+    ],
+    "parent_report_id": null,
+    "event_type": "ambush",
+    "country": "Mali",
+    "city": "Timbuktu",
+    "lat": 16.7666,
+    "lng": -3.0026,
+    "locations": [
+      {
+        "name": "Timbuktu",
+        "country": "Mali",
+        "lat": 16.7666,
+        "lng": -3.0026,
+        "confidence": "explicit-place"
+      },
+      {
+        "name": "Sévaré",
+        "country": "Mali",
+        "lat": 14.5272,
+        "lng": -4.0934,
+        "confidence": "explicit-place"
+      },
+      {
+        "name": "Dioura",
+        "country": "Mali",
+        "lat": 14.82528,
+        "lng": -5.25139,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "Mali: does the jihadist escalation reveal the limits...",
+    "summary": "Sacré-Coeur 3 – BP 15177 CP 10700 Dakar Fann – SENEGAL. +221 33 827 34 91 / +221 77 637 73 15 contact@timbuktu-institute.org Timbuktu Institute - Week 4 September 2026 At the end of winter, the Al Qaeda-affiliated JNIM multiplies its attacks with increasingly sophisticated operating methods . On September 14, 2026, the main air command post of Sévaré, as well as the base of Kona, were the target of attacks by kamikaze and mortar drones.",
+    "sources": [
+      "Timbuktu Institute (African Center for Peace Studies)"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://timbuktu-institute.org/index.php/toutes-l-actualites/item/1788-mali-l-escalade-jihadiste-revele-elle-les-limites-de-la-strategie-securitaire-de-bamako"
+    ],
+    "report_summaries": [
+      {
+        "url": "https://timbuktu-institute.org/index.php/toutes-l-actualites/item/1788-mali-l-escalade-jihadiste-revele-elle-les-limites-de-la-strategie-securitaire-de-bamako",
+        "source": "Timbuktu Institute (African Center for Peace Studies)",
+        "title": "Mali: does the jihadist escalation reveal the limits...",
+        "summary": "Sacré-Coeur 3 – BP 15177 CP 10700 Dakar Fann – SENEGAL. +221 33 827 34 91 / +221 77 637 73 15 contact@timbuktu-institute.org Timbuktu Institute - Week 4 September 2026 At the end of winter, the Al Qaeda-affiliated JNIM multiplies its attacks with increasingly sophisticated operating methods . On September 14, 2026, the main air command post of Sévaré, as well as the base of Kona, were the target of attacks by kamikaze and mortar drones.",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "security_force",
+          "armed_group"
+        ],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      }
+    ],
+    "created_at": "2026-10-05T12:39:09.754811Z",
+    "updated_at": "2026-10-05T12:39:09.754811Z",
+    "extraction_confidence": "low",
+    "victim_categories": [
+      "security_force",
+      "armed_group"
+    ],
+    "civilian_targeting_flag": false,
+    "casualty_claims": [],
+    "fatalities_min": null,
+    "fatalities_max": null,
+    "fatalities_best": null,
+    "injured_min": null,
+    "injured_max": null,
+    "abducted_min": null,
+    "abducted_max": null,
+    "casualty_disputed": false,
+    "revision_history": [
+      {
+        "at": "2026-10-05T12:39:09.754811Z",
+        "type": "event_created",
+        "source": "Timbuktu Institute (African Center for Peace Studies)"
+      }
+    ],
+    "corroboration": "single-source",
+    "confidence": "low",
+    "independent_source_domains": [
+      "timbuktu-institute.org"
+    ],
+    "independent_source_count": 1,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "strategic/severe event pattern",
+      "multi-location activity"
+    ]
+  },
+  {
     "id": "39b2ccbd079c7b2e312b3576f28563c799161548",
     "event_date": "2026-09-10",
     "event_date_confidence": "explicit-text",
@@ -4070,6 +4294,114 @@
     "significance": "SIGNIFICANT",
     "significance_reasons": [
       "operational security event"
+    ]
+  },
+  {
+    "id": "617ee5a31186e04f4ead248b76f65087df715153",
+    "event_date": "2026-09-04",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "explicit-calendar-date",
+    "published_at": "2026-10-05T11:57:25Z",
+    "published_date_source": "jsonld:datePublished",
+    "published_time_precision": "datetime",
+    "collected_at": "2026-10-05T12:39:09.882726Z",
+    "actor": "JNIM",
+    "perpetrator": "JNIM",
+    "target": "JNIM",
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [
+      "JNIM"
+    ],
+    "parent_report_id": null,
+    "event_type": "ambush",
+    "country": "Mali",
+    "city": "Timbuktu",
+    "lat": 16.7666,
+    "lng": -3.0026,
+    "locations": [
+      {
+        "name": "Timbuktu",
+        "country": "Mali",
+        "lat": 16.7666,
+        "lng": -3.0026,
+        "confidence": "explicit-place"
+      },
+      {
+        "name": "Sévaré",
+        "country": "Mali",
+        "lat": 14.5272,
+        "lng": -4.0934,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "Mali : Does the Jihadist Escalation Reveal the Lim…",
+    "summary": "Sacré-Coeur 3 – BP 15177 CP 10700 Dakar Fann – SENEGAL. +221 33 827 34 91 / +221 77 637 73 15 contact@timbuktu-institute.org Timbuktu Institute - Week 4 September 2026 At the end of this rainy season, the JNIM affiliated with Al-Qaeda is stepping up its attacks with increasingly sophisticated modus operandi. On 14 September 2026, the main air command post in Sévaré, as well as the Kona base, were targeted by kamikaze drone and mortar attacks.",
+    "sources": [
+      "Timbuktu Institute (African Center for Peace Studies)"
+    ],
+    "languages": [
+      "en"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://timbuktu-institute.org/index.php/toutes-l-actualites/item/1789-mali-does-the-jihadist-escalation-reveal-the-limits-of-bamako-s-security-strategy"
+    ],
+    "report_summaries": [
+      {
+        "url": "https://timbuktu-institute.org/index.php/toutes-l-actualites/item/1789-mali-does-the-jihadist-escalation-reveal-the-limits-of-bamako-s-security-strategy",
+        "source": "Timbuktu Institute (African Center for Peace Studies)",
+        "title": "Mali : Does the Jihadist Escalation Reveal the Lim…",
+        "summary": "Sacré-Coeur 3 – BP 15177 CP 10700 Dakar Fann – SENEGAL. +221 33 827 34 91 / +221 77 637 73 15 contact@timbuktu-institute.org Timbuktu Institute - Week 4 September 2026 At the end of this rainy season, the JNIM affiliated with Al-Qaeda is stepping up its attacks with increasingly sophisticated modus operandi. On 14 September 2026, the main air command post in Sévaré, as well as the Kona base, were targeted by kamikaze drone and mortar attacks.",
+        "summary_basis": "source-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "security_force",
+          "armed_group"
+        ],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      }
+    ],
+    "created_at": "2026-10-05T12:39:09.882726Z",
+    "updated_at": "2026-10-05T12:39:09.882726Z",
+    "extraction_confidence": "low",
+    "victim_categories": [
+      "security_force",
+      "armed_group"
+    ],
+    "civilian_targeting_flag": false,
+    "casualty_claims": [],
+    "fatalities_min": null,
+    "fatalities_max": null,
+    "fatalities_best": null,
+    "injured_min": null,
+    "injured_max": null,
+    "abducted_min": null,
+    "abducted_max": null,
+    "casualty_disputed": false,
+    "revision_history": [
+      {
+        "at": "2026-10-05T12:39:09.882726Z",
+        "type": "event_created",
+        "source": "Timbuktu Institute (African Center for Peace Studies)"
+      }
+    ],
+    "corroboration": "single-source",
+    "confidence": "low",
+    "independent_source_domains": [
+      "timbuktu-institute.org"
+    ],
+    "independent_source_count": 1,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "strategic/severe event pattern",
+      "multi-location activity"
     ]
   },
   {
