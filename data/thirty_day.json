@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-10-05T17:30:26.599939Z",
+  "generated_at": "2026-10-05T18:39:44.351611Z",
   "window_days": 30,
   "cutoff": "2026-09-05",
   "reports": 244,
   "incident_reports": 46,
-  "candidate_events": 42,
+  "candidate_events": 43,
   "corroborated_events": 5,
-  "mapped_events": 38,
-  "mapped_locations": 76,
+  "mapped_events": 39,
+  "mapped_locations": 77,
   "distinct_sources": 65,
   "by_actor": {
-    "State": 26,
+    "State": 27,
     "JNIM": 8,
     "Other": 7,
     "Africa Corps/Wagner": 1
   },
   "by_country": {
-    "Mali": 37,
+    "Mali": 38,
     "Niger": 3,
     "Burkina Faso": 2
   },
@@ -26,7 +26,8 @@
     "offensive/campaign": 5,
     "ambush": 4,
     "clash": 3,
-    "kidnapping": 1
+    "kidnapping": 1,
+    "raid": 1
   },
   "by_language": {
     "fr": 181,
@@ -34,7 +35,7 @@
     "ar": 10
   },
   "by_confidence": {
-    "moderate": 22,
+    "moderate": 23,
     "low": 19,
     "moderate-high": 1
   },
@@ -122,11 +123,11 @@
       "count": 9
     },
     {
-      "location": "Djenné",
-      "count": 5
+      "location": "Ségou",
+      "count": 6
     },
     {
-      "location": "Ségou",
+      "location": "Djenné",
       "count": 5
     },
     {
@@ -299,10 +300,108 @@
     {
       "date": "2026-10-05",
       "reports": 14,
-      "events": 1
+      "events": 2
     }
   ],
   "latest_events": [
+    {
+      "id": "ebc90f54b379196e86c4ec7f50b6e67a8817a02f",
+      "event_date": "2026-10-05",
+      "event_date_confidence": "explicit-text",
+      "event_date_source": "explicit-calendar-date",
+      "published_at": null,
+      "published_date_source": "unresolved",
+      "published_time_precision": "unresolved",
+      "collected_at": "2026-10-05T18:39:01.394582Z",
+      "actor": "State",
+      "perpetrator": "State",
+      "target": null,
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [
+        "State"
+      ],
+      "parent_report_id": null,
+      "event_type": "raid",
+      "country": "Mali",
+      "city": "Ségou",
+      "lat": 13.4317,
+      "lng": -6.2157,
+      "locations": [
+        {
+          "name": "Ségou",
+          "country": "Mali",
+          "lat": 13.4317,
+          "lng": -6.2157,
+          "confidence": "explicit-place"
+        }
+      ],
+      "title": "DIABALY IN THE SÉGOU REGION: THE FAMA AND DONSOS COALITION IN SUPPORT OF TERRORIST GROUPS",
+      "summary": "The Malian Armed Forces (FAMa) have taken action against armed terrorist groups in the Diabaly sector, in the Segou Region. According to local sources, these operations inflicted several losses on the attackers and (…)By Mahamane TOURE – NOUVEL HORIZONRETROUVE the REST OF YOUR ARTICLE IN the NEW HORIZON OF MONDAY, OCTOBER 5, 2026 Follow us on Facebook, Telegram, WhatsApp to miss nothing of Malian news Follow us on Facebook, Telegram, WhatsApp to not miss anything of the Malian news",
+      "sources": [
+        "Bamada"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://bamada.net/diabaly-dans-la-region-de-segou-la-coalition-fama-et-donsos-a-lassaut-des-groupes-terroristes"
+      ],
+      "report_summaries": [
+        {
+          "url": "https://bamada.net/diabaly-dans-la-region-de-segou-la-coalition-fama-et-donsos-a-lassaut-des-groupes-terroristes",
+          "source": "Bamada",
+          "title": "DIABALY IN THE SÉGOU REGION: THE FAMA AND DONSOS COALITION IN SUPPORT OF TERRORIST GROUPS",
+          "summary": "The Malian Armed Forces (FAMa) have taken action against armed terrorist groups in the Diabaly sector, in the Segou Region. According to local sources, these operations inflicted several losses on the attackers and (…)By Mahamane TOURE – NOUVEL HORIZONRETROUVE the REST OF YOUR ARTICLE IN the NEW HORIZON OF MONDAY, OCTOBER 5, 2026 Follow us on Facebook, Telegram, WhatsApp to miss nothing of Malian news Follow us on Facebook, Telegram, WhatsApp to not miss anything of the Malian news",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "armed_group"
+          ],
+          "civilian_targeting_flag": false,
+          "casualty_claims": []
+        }
+      ],
+      "created_at": "2026-10-05T18:39:01.394582Z",
+      "updated_at": "2026-10-05T18:39:01.394582Z",
+      "extraction_confidence": "moderate",
+      "victim_categories": [
+        "armed_group"
+      ],
+      "civilian_targeting_flag": false,
+      "casualty_claims": [],
+      "fatalities_min": null,
+      "fatalities_max": null,
+      "fatalities_best": null,
+      "injured_min": null,
+      "injured_max": null,
+      "abducted_min": null,
+      "abducted_max": null,
+      "casualty_disputed": false,
+      "revision_history": [
+        {
+          "at": "2026-10-05T18:39:01.394582Z",
+          "type": "event_created",
+          "source": "Bamada"
+        }
+      ],
+      "corroboration": "single-source",
+      "confidence": "moderate",
+      "independent_source_domains": [
+        "bamada.net"
+      ],
+      "independent_source_count": 1,
+      "significance": "SIGNIFICANT",
+      "significance_reasons": [
+        "operational security event"
+      ]
+    },
     {
       "id": "01bd761171223091c0b7d5b62ccecc78477f6b34",
       "event_date": "2026-10-05",
@@ -3413,119 +3512,6 @@
       "independent_source_count": 1,
       "significance": "MAJOR",
       "significance_reasons": [
-        "multi-location activity"
-      ]
-    },
-    {
-      "id": "5ceb5de2e2ca10f9b11c58b2ea22ccb3f9f32541",
-      "event_date": "2026-09-19",
-      "event_date_confidence": "publication-proxy",
-      "event_date_source": "jsonld:datePublished",
-      "published_at": "2026-09-19T13:29:36Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-09-30T23:28:25.463402Z",
-      "actor": "State",
-      "perpetrator": null,
-      "target": null,
-      "claimant": null,
-      "supporting_force": null,
-      "mentioned_actors": [],
-      "parent_report_id": null,
-      "event_type": "attack",
-      "country": "Mali",
-      "city": "Bamako",
-      "lat": 12.6392,
-      "lng": -8.0029,
-      "locations": [
-        {
-          "name": "Bamako",
-          "country": "Mali",
-          "lat": 12.6392,
-          "lng": -8.0029,
-          "confidence": "explicit-place"
-        },
-        {
-          "name": "Dioura",
-          "country": "Mali",
-          "lat": 14.82528,
-          "lng": -5.25139,
-          "confidence": "explicit-place"
-        },
-        {
-          "name": "Mopti",
-          "country": "Mali",
-          "lat": 14.4843,
-          "lng": -4.1829,
-          "confidence": "explicit-place"
-        }
-      ],
-      "title": "Death toll from Mali attack passes 100: sources",
-      "summary": "The insignia of the Malian Armed Forces appears in the footage during a meeting between members of the Tamuzok Association and Malian authorities, in Bamako, Mali, February 15, 2025. /CFP The number of Malian soldiers that were killed in a militant attack on the Dioura military camp in central Mali last week could have surpassed the 100 mark, according to local sources.",
-      "sources": [
-        "CGTN Africa"
-      ],
-      "languages": [
-        "en"
-      ],
-      "source_count": 1,
-      "report_urls": [
-        "https://newsaf.cgtn.com/news/2026-09-19/Death-toll-from-Mali-attack-passes-100-sources-1Qz68w34K2Y/p.html"
-      ],
-      "report_summaries": [
-        {
-          "url": "https://newsaf.cgtn.com/news/2026-09-19/Death-toll-from-Mali-attack-passes-100-sources-1Qz68w34K2Y/p.html",
-          "source": "CGTN Africa",
-          "title": "Death toll from Mali attack passes 100: sources",
-          "summary": "The insignia of the Malian Armed Forces appears in the footage during a meeting between members of the Tamuzok Association and Malian authorities, in Bamako, Mali, February 15, 2025. /CFP The number of Malian soldiers that were killed in a militant attack on the Dioura military camp in central Mali last week could have surpassed the 100 mark, according to local sources.",
-          "summary_basis": "source-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "security_force",
-            "armed_group"
-          ],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        }
-      ],
-      "created_at": "2026-09-30T23:28:25.463402Z",
-      "updated_at": "2026-09-30T23:28:25.463402Z",
-      "extraction_confidence": "low",
-      "victim_categories": [
-        "security_force",
-        "armed_group"
-      ],
-      "civilian_targeting_flag": false,
-      "casualty_claims": [],
-      "fatalities_min": null,
-      "fatalities_max": null,
-      "fatalities_best": null,
-      "injured_min": null,
-      "injured_max": null,
-      "abducted_min": null,
-      "abducted_max": null,
-      "casualty_disputed": false,
-      "revision_history": [
-        {
-          "at": "2026-09-30T23:28:25.463402Z",
-          "type": "event_created",
-          "source": "CGTN Africa"
-        }
-      ],
-      "corroboration": "single-source",
-      "confidence": "low",
-      "independent_source_domains": [
-        "newsaf.cgtn.com"
-      ],
-      "independent_source_count": 1,
-      "significance": "MAJOR",
-      "significance_reasons": [
-        "strategic/severe event pattern",
         "multi-location activity"
       ]
     }
