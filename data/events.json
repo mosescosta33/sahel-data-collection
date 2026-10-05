@@ -1,5 +1,101 @@
 [
   {
+    "id": "377dcb280e44b3d68c77d1d595e54f0614ab2753",
+    "event_date": "2026-10-05",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "relative-today",
+    "published_at": "2026-10-05T21:14:30Z",
+    "published_date_source": "jsonld:datePublished",
+    "published_time_precision": "datetime",
+    "collected_at": "2026-10-05T21:49:21.371216Z",
+    "actor": "State",
+    "perpetrator": null,
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [],
+    "parent_report_id": null,
+    "event_type": "security operation",
+    "country": "Mali",
+    "city": "Kidal",
+    "lat": 18.4411,
+    "lng": 1.4078,
+    "locations": [
+      {
+        "name": "Kidal",
+        "country": "Mali",
+        "lat": 18.4411,
+        "lng": 1.4078,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "Mali.. The army “eliminates” militants in air and ground strikes in two attacks",
+    "summary": "On Monday evening, the Malian army announced the implementation of \"precise air and ground strikes\" against positions of armed terrorist groups in the town of \"Tinzoaten\" and its neighboring areas in the Kidal sector, the far northeast of the country. He explained in a statement that these operations come as a complement to the ongoing military efforts within Operation Dogokoloko to secure and permanently monitor the national territory.",
+    "sources": [
+      "Sahara Medias (صحراء ميديا)"
+    ],
+    "languages": [
+      "ar"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://saharamedias.net/266064/"
+    ],
+    "report_summaries": [
+      {
+        "url": "https://saharamedias.net/266064/",
+        "source": "Sahara Medias (صحراء ميديا)",
+        "title": "Mali.. The army “eliminates” militants in air and ground strikes in two attacks",
+        "summary": "On Monday evening, the Malian army announced the implementation of \"precise air and ground strikes\" against positions of armed terrorist groups in the town of \"Tinzoaten\" and its neighboring areas in the Kidal sector, the far northeast of the country. He explained in a statement that these operations come as a complement to the ongoing military efforts within Operation Dogokoloko to secure and permanently monitor the national territory.",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "armed_group"
+        ],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      }
+    ],
+    "created_at": "2026-10-05T21:49:21.371216Z",
+    "updated_at": "2026-10-05T21:49:21.371216Z",
+    "extraction_confidence": "low",
+    "victim_categories": [
+      "armed_group"
+    ],
+    "civilian_targeting_flag": false,
+    "casualty_claims": [],
+    "fatalities_min": null,
+    "fatalities_max": null,
+    "fatalities_best": null,
+    "injured_min": null,
+    "injured_max": null,
+    "abducted_min": null,
+    "abducted_max": null,
+    "casualty_disputed": true,
+    "revision_history": [
+      {
+        "at": "2026-10-05T21:49:21.371216Z",
+        "type": "event_created",
+        "source": "Sahara Medias (صحراء ميديا)"
+      }
+    ],
+    "corroboration": "single-source",
+    "confidence": "low",
+    "independent_source_domains": [
+      "saharamedias.net"
+    ],
+    "independent_source_count": 1,
+    "significance": "ROUTINE",
+    "significance_reasons": [
+      "limited currently observed significance"
+    ]
+  },
+  {
     "id": "ebc90f54b379196e86c4ec7f50b6e67a8817a02f",
     "event_date": "2026-10-05",
     "event_date_confidence": "explicit-text",
@@ -227,6 +323,20 @@
         "confidence": "explicit-place"
       },
       {
+        "name": "Anéfis",
+        "country": "Mali",
+        "lat": 18.0667,
+        "lng": 0.6167,
+        "confidence": "explicit-place"
+      },
+      {
+        "name": "Tessalit",
+        "country": "Mali",
+        "lat": 20.2,
+        "lng": 1.0,
+        "confidence": "explicit-place"
+      },
+      {
         "name": "Gao",
         "country": "Mali",
         "lat": 16.2717,
@@ -366,6 +476,13 @@
         "lat": 18.4411,
         "lng": 1.4078,
         "confidence": "explicit-place"
+      },
+      {
+        "name": "Anéfis",
+        "country": "Mali",
+        "lat": 18.0667,
+        "lng": 0.6167,
+        "confidence": "explicit-place"
       }
     ],
     "title": "Koutiala, Anéfif, Djenné, Kidal: FAMa shelling and destroying important terrorist logistics bases",
@@ -468,10 +585,24 @@
         "confidence": "explicit-place"
       },
       {
+        "name": "Anéfis",
+        "country": "Mali",
+        "lat": 18.0667,
+        "lng": 0.6167,
+        "confidence": "explicit-place"
+      },
+      {
         "name": "Gao",
         "country": "Mali",
         "lat": 16.2717,
         "lng": -0.0447,
+        "confidence": "explicit-place"
+      },
+      {
+        "name": "Bourem",
+        "country": "Mali",
+        "lat": 16.9667,
+        "lng": -0.35,
         "confidence": "explicit-place"
       }
     ],
@@ -774,7 +905,7 @@
     ]
   },
   {
-    "id": "6a50b24f236674f12a080267fa21f1479d4dab18",
+    "id": "9293daa62588814d91171870125f7da4f8d10df1",
     "event_date": "2026-09-30",
     "event_date_confidence": "explicit-text",
     "event_date_source": "explicit-calendar-date",
@@ -793,10 +924,18 @@
     "parent_report_id": null,
     "event_type": "security operation",
     "country": "Mali",
-    "city": null,
-    "lat": null,
-    "lng": null,
-    "locations": [],
+    "city": "Tessalit",
+    "lat": 20.2,
+    "lng": 1.0,
+    "locations": [
+      {
+        "name": "Tessalit",
+        "country": "Mali",
+        "lat": 20.2,
+        "lng": 1.0,
+        "confidence": "explicit-place"
+      }
+    ],
     "title": "Under FAMa fire: Several terrorist logistics bases destroyed in Tessalit, Nampala and Sofara",
     "summary": "The General Staff of the Armed Forces informs the national opinion that the Malian Armed Forces (FAMa), supported by their partners, are continuing their permanent operations to monitor, control and secure the national territory as part of Operation Dougoukoloko . On Wednesday, September 30, 2026, the exploitation of precise intelligence made it possible to locate, in the immediate outskirts of Tessalit, several entrenchment points of armed terrorist groups housing war and logistics equipment.",
     "sources": [
@@ -984,7 +1123,7 @@
     ]
   },
   {
-    "id": "2c2e044bc7ede838d4f82c6aeaa6e9bf7177a38b",
+    "id": "c57b8d00e5b43ab08730b7adfe8dc480c3f1927b",
     "event_date": "2026-09-29",
     "event_date_confidence": "explicit-text",
     "event_date_source": "relative-weekday",
@@ -1004,10 +1143,17 @@
     "parent_report_id": null,
     "event_type": "attack",
     "country": "Mali",
-    "city": "Ségou",
-    "lat": 13.4317,
-    "lng": -6.2157,
+    "city": "Niono",
+    "lat": 14.25,
+    "lng": -5.9833,
     "locations": [
+      {
+        "name": "Niono",
+        "country": "Mali",
+        "lat": 14.25,
+        "lng": -5.9833,
+        "confidence": "explicit-place"
+      },
       {
         "name": "Ségou",
         "country": "Mali",
@@ -1079,9 +1225,9 @@
       "seneweb.com"
     ],
     "independent_source_count": 1,
-    "significance": "SIGNIFICANT",
+    "significance": "MAJOR",
     "significance_reasons": [
-      "operational security event"
+      "multi-location activity"
     ]
   },
   {
@@ -1132,6 +1278,13 @@
         "country": "Mali",
         "lat": 16.7666,
         "lng": -3.0026,
+        "confidence": "explicit-place"
+      },
+      {
+        "name": "Diré",
+        "country": "Mali",
+        "lat": 16.2833,
+        "lng": -3.4167,
         "confidence": "explicit-place"
       }
     ],
@@ -1203,7 +1356,7 @@
     ]
   },
   {
-    "id": "6bbd28fac184f9a42f8582ca2a72c1da3e9242d2",
+    "id": "733327a666926edc3227478a10e69a1392758bf5",
     "event_date": "2026-09-28",
     "event_date_confidence": "explicit-text",
     "event_date_source": "explicit-calendar-date",
@@ -1224,10 +1377,17 @@
     "parent_report_id": null,
     "event_type": "security operation",
     "country": "Mali",
-    "city": "Ménaka",
-    "lat": 15.9182,
-    "lng": 2.4022,
+    "city": "Ansongo",
+    "lat": 15.6667,
+    "lng": 0.5,
     "locations": [
+      {
+        "name": "Ansongo",
+        "country": "Mali",
+        "lat": 15.6667,
+        "lng": 0.5,
+        "confidence": "explicit-place"
+      },
       {
         "name": "Ménaka",
         "country": "Mali",
@@ -1306,7 +1466,7 @@
     ]
   },
   {
-    "id": "6125f7848dd32d6b9a93bd88ca5a2f6e60db4c88",
+    "id": "c6963c0e24500ad3a5231f04a8a06028aa8678da",
     "event_date": "2026-09-28",
     "event_date_confidence": "explicit-text",
     "event_date_source": "explicit-calendar-date",
@@ -1326,10 +1486,17 @@
     "parent_report_id": null,
     "event_type": "ambush",
     "country": "Mali",
-    "city": "Ségou",
-    "lat": 13.4317,
-    "lng": -6.2157,
+    "city": "Niono",
+    "lat": 14.25,
+    "lng": -5.9833,
     "locations": [
+      {
+        "name": "Niono",
+        "country": "Mali",
+        "lat": 14.25,
+        "lng": -5.9833,
+        "confidence": "explicit-place"
+      },
       {
         "name": "Ségou",
         "country": "Mali",
@@ -1399,9 +1566,9 @@
       "fr.allafrica.com"
     ],
     "independent_source_count": 1,
-    "significance": "SIGNIFICANT",
+    "significance": "MAJOR",
     "significance_reasons": [
-      "operational security event"
+      "multi-location activity"
     ]
   },
   {
@@ -1906,7 +2073,7 @@
     ]
   },
   {
-    "id": "fb430061113f814b0494991f5380c0b986b53e06",
+    "id": "1411e98b22bf8c76c2c76ecf5dac8d01543f7a70",
     "event_date": "2026-09-27",
     "event_date_confidence": "explicit-text",
     "event_date_source": "explicit-calendar-date",
@@ -1925,10 +2092,17 @@
     "parent_report_id": null,
     "event_type": "security operation",
     "country": "Mali",
-    "city": "Dioura",
-    "lat": 14.82528,
-    "lng": -5.25139,
+    "city": "Niono",
+    "lat": 14.25,
+    "lng": -5.9833,
     "locations": [
+      {
+        "name": "Niono",
+        "country": "Mali",
+        "lat": 14.25,
+        "lng": -5.9833,
+        "confidence": "explicit-place"
+      },
       {
         "name": "Dioura",
         "country": "Mali",
@@ -2024,9 +2198,9 @@
       "malijet.com"
     ],
     "independent_source_count": 2,
-    "significance": "SIGNIFICANT",
+    "significance": "MAJOR",
     "significance_reasons": [
-      "operational security event"
+      "multi-location activity"
     ]
   },
   {
@@ -2058,6 +2232,13 @@
         "country": "Mali",
         "lat": 18.4411,
         "lng": 1.4078,
+        "confidence": "explicit-place"
+      },
+      {
+        "name": "Léré",
+        "country": "Mali",
+        "lat": 15.7167,
+        "lng": -4.8333,
         "confidence": "explicit-place"
       }
     ],
@@ -2124,7 +2305,8 @@
     "independent_source_count": 1,
     "significance": "MAJOR",
     "significance_reasons": [
-      "strategic/severe event pattern"
+      "strategic/severe event pattern",
+      "multi-location activity"
     ]
   },
   {
@@ -2645,6 +2827,13 @@
         "confidence": "explicit-place"
       },
       {
+        "name": "Tessalit",
+        "country": "Mali",
+        "lat": 20.2,
+        "lng": 1.0,
+        "confidence": "explicit-place"
+      },
+      {
         "name": "Bamako",
         "country": "Mali",
         "lat": 12.6392,
@@ -2853,6 +3042,13 @@
         "country": "Mali",
         "lat": 14.82528,
         "lng": -5.25139,
+        "confidence": "explicit-place"
+      },
+      {
+        "name": "Tessalit",
+        "country": "Mali",
+        "lat": 20.2,
+        "lng": 1.0,
         "confidence": "explicit-place"
       }
     ],
@@ -4440,6 +4636,13 @@
         "confidence": "explicit-place"
       },
       {
+        "name": "Kati",
+        "country": "Mali",
+        "lat": 12.75,
+        "lng": -8.0667,
+        "confidence": "explicit-place"
+      },
+      {
         "name": "Gao",
         "country": "Mali",
         "lat": 16.2717,
@@ -4458,6 +4661,13 @@
         "country": "Mali",
         "lat": 14.5272,
         "lng": -4.0934,
+        "confidence": "explicit-place"
+      },
+      {
+        "name": "Anéfis",
+        "country": "Mali",
+        "lat": 18.0667,
+        "lng": 0.6167,
         "confidence": "explicit-place"
       }
     ],
@@ -5159,13 +5369,6 @@
         "lat": 12.6392,
         "lng": -8.0029,
         "confidence": "explicit-place"
-      },
-      {
-        "name": "Kidal",
-        "country": "Mali",
-        "lat": 18.4411,
-        "lng": 1.4078,
-        "confidence": "explicit-place"
       }
     ],
     "title": "Military Command: Lines move after April 25",
@@ -5231,8 +5434,7 @@
     "independent_source_count": 1,
     "significance": "MAJOR",
     "significance_reasons": [
-      "strategic/severe event pattern",
-      "multi-location activity"
+      "strategic/severe event pattern"
     ]
   },
   {
