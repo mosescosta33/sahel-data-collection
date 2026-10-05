@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-05T14:37:40.943587Z",
+  "generated_at": "2026-10-05T15:36:57.178458Z",
   "window_days": 30,
   "cutoff": "2026-09-05",
-  "reports": 242,
+  "reports": 243,
   "incident_reports": 46,
   "candidate_events": 42,
   "corroborated_events": 5,
@@ -30,7 +30,7 @@
   },
   "by_language": {
     "fr": 181,
-    "en": 52,
+    "en": 53,
     "ar": 9
   },
   "by_confidence": {
@@ -298,7 +298,7 @@
     },
     {
       "date": "2026-10-05",
-      "reports": 12,
+      "reports": 13,
       "events": 1
     }
   ],
@@ -3532,6 +3532,24 @@
   ],
   "latest_reports": [
     {
+      "published_at": "2026-10-05T14:50:26Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-05T15:36:37.050655Z",
+      "discovered_at": "2026-10-05T15:36:37.050655Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0130",
+      "source": "Modern Ghana",
+      "language": "en",
+      "actor": "JNIM",
+      "country": "Mali",
+      "city": null,
+      "event_type": null,
+      "candidate_event": false,
+      "title": "When Russia Loses, JNIM Gains: Mali’s Security Paradox",
+      "url": "https://www.modernghana.com/news/1533501/when-russia-loses-jnim-gains-malis-security.html"
+    },
+    {
       "published_at": "2026-10-05T14:22:08Z",
       "published_date_source": "jsonld:datePublished",
       "published_time_precision": "datetime",
@@ -4232,24 +4250,6 @@
       "candidate_event": true,
       "title": "JOINT PATROL FAMa-MSA-GATIA and AFRICA CORPS: MEMBERS OF the JNIM-FLA COALITION KILLED BETWEEN ANSONGO and MÉNAKA",
       "url": "https://bamada.net/patrouille-conjointe-fama-msa-gatia-et-africa-corps-des-membres-de-la-coalition-jnim-fla-tues-entre-ansongo-et-menaka"
-    },
-    {
-      "published_at": "2026-10-01T15:37:07Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-01T16:32:20.339105Z",
-      "discovered_at": "2026-10-01T16:32:20.339105Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0124",
-      "source": "News Central TV (Nigeria)",
-      "language": "en",
-      "actor": "State",
-      "country": "Burkina Faso",
-      "city": "Ouagadougou",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Burkina Faso Holds Rally to Mark Traore Coup Anniversary",
-      "url": "https://newscentraltv.com/burkina-faso-holds-rally-to-mark-traore-coup-anniversary/"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
