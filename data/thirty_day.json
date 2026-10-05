@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-05T08:36:50.308395Z",
+  "generated_at": "2026-10-05T09:36:24.039543Z",
   "window_days": 30,
   "cutoff": "2026-09-05",
-  "reports": 230,
+  "reports": 232,
   "incident_reports": 40,
   "candidate_events": 37,
   "corroborated_events": 3,
@@ -29,7 +29,7 @@
     "kidnapping": 1
   },
   "by_language": {
-    "fr": 170,
+    "fr": 172,
     "en": 51,
     "ar": 9
   },
@@ -42,7 +42,7 @@
     {
       "source_code": "SRC-0008",
       "source": "Bamada",
-      "count": 25
+      "count": 27
     },
     {
       "source_code": "SRC-0006",
@@ -298,7 +298,7 @@
     },
     {
       "date": "2026-10-05",
-      "reports": 0,
+      "reports": 2,
       "events": 0
     }
   ],
@@ -3441,6 +3441,42 @@
   ],
   "latest_reports": [
     {
+      "published_at": "2026-10-05T08:30:56Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-05T09:35:53.501832Z",
+      "discovered_at": "2026-10-05T09:35:53.501832Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0008",
+      "source": "Bamada",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": null,
+      "event_type": "abuses/war crimes",
+      "candidate_event": false,
+      "title": "Fight against terrorism: When Amnesty International considers the victories of the FAMa as war crimes",
+      "url": "https://bamada.net/lutte-contre-le-terrorisme-quand-amnesty-international-considere-les-victoires-des-fama-comme-crimes-de-guerre"
+    },
+    {
+      "published_at": "2026-10-05T08:24:00Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-05T09:35:52.983974Z",
+      "discovered_at": "2026-10-05T09:35:52.983974Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0008",
+      "source": "Bamada",
+      "language": "fr",
+      "actor": null,
+      "country": "Mali",
+      "city": null,
+      "event_type": "security operation",
+      "candidate_event": false,
+      "title": "Illegal gold panning in Mali: A destructive activity of the eco-system",
+      "url": "https://bamada.net/lorpaillage-clandestin-au-mali-une-activite-destructrice-de-leco-systeme"
+    },
+    {
       "published_at": "2026-10-04T23:51:07Z",
       "published_date_source": "opengraph",
       "published_time_precision": "datetime",
@@ -4123,42 +4159,6 @@
       "candidate_event": false,
       "title": "Armed robberies: end of escape for three robbers in Senou",
       "url": "https://malijet.com/les_faits_divers_au_mali/312113-vols-a-main-armee-fin-de-cavale-pour-trois-braqueurs-a-sen.html"
-    },
-    {
-      "published_at": "2026-10-01T09:23:17Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-02T00:38:39.591048Z",
-      "discovered_at": "2026-10-02T00:38:39.591048Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0017",
-      "source": "Le Sahel",
-      "language": "fr",
-      "actor": "State",
-      "country": "Niger",
-      "city": "Niamey",
-      "event_type": "law enforcement",
-      "candidate_event": false,
-      "title": "Road safety: ANISER conducts an extensive roadside control operation",
-      "url": "https://www.lesahel.org/securite-routiere-laniser-mene-une-vaste-operation-de-controle-routier/"
-    },
-    {
-      "published_at": "2026-10-01T09:06:07Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-03T09:31:59.310303Z",
-      "discovered_at": "2026-10-03T09:31:59.310303Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0022",
-      "source": "Africanews",
-      "language": "en",
-      "actor": null,
-      "country": "Mali",
-      "city": null,
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Mali: more than 2,400 schools remain closed as insecurity disrupts new school year",
-      "url": "https://www.africanews.com/2026/10/01/mali-more-than-2400-schools-remain-closed-as-insecurity-disrupts-new-school-year/"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."

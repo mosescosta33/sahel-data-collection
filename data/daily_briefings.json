@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "site_patch_version": "3.3.5",
-  "generated_at": "2026-10-05T08:36:51.560931Z",
+  "generated_at": "2026-10-05T09:36:25.438222Z",
   "active_limit": 33,
   "total_briefings": 254,
   "active_count": 33,
@@ -11,7 +11,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-05",
-      "generated_at": "2026-10-05T08:36:51.280042Z",
+      "generated_at": "2026-10-05T09:36:25.191885Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -23,21 +23,21 @@
         "events_occurring_on_date": 0,
         "records_held_for_review": 0,
         "multi_source_events": 0,
-        "reports_collected_on_date": 0,
-        "reports_published_on_date": 0,
+        "reports_collected_on_date": 2,
+        "reports_published_on_date": 2,
         "newly_discovered_older_events": 0,
-        "events_awaiting_date_verification": 0,
-        "distinct_sources_collected": 0
+        "events_awaiting_date_verification": 1,
+        "distinct_sources_collected": 1
       },
-      "executive_assessment": "The desk has too little reporting from 2026-10-05 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet.",
+      "executive_assessment": "Reporting collected on 2026-10-05 does not yet support a clear account of a new incident in Mali, Burkina Faso, or Niger. The desk received 2 reports from 1 source, but the automated incident record needs further review. This is not evidence of calm on the ground.",
       "briefing_sections": [
         {
           "heading": "Assessment",
-          "text": "The desk has too little reporting from 2026-10-05 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
+          "text": "Reporting collected on 2026-10-05 does not yet support a clear account of a new incident in Mali, Burkina Faso, or Niger. The desk received 2 reports from 1 source, but the automated incident record needs further review. This is not evidence of calm on the ground."
         },
         {
           "heading": "Mali",
-          "text": "No retained Mali report is recorded for this collection date. 0 fused candidate events currently carry this event date."
+          "text": "2 retained reports were collected for Mali. 0 fused candidate events currently carry this reporting date. Fight against terrorism: When Amnesty International considers the victories of the FAMa as war crimes: Mali is not only fighting terrorism. It also faces so-called organizations for the defense and protection of human rights, an instrument of destabilization at the service of the Western powers. Last week, Amnesty International… Illegal gold panning in Mali: A destructive activity of the eco-system: Illegal and mechanized gold mining in Mali poses a major ecological, economic and social threat that requires an urgent takeover of sovereignty over our resources. The Gold Paradox: Blessing or Woe? A vital sector: More than…"
         },
         {
           "heading": "Burkina Faso",
@@ -49,21 +49,23 @@
         },
         {
           "heading": "What remains unclear",
-          "text": "Collection or source checks are incomplete for this date, so relevant reporting may still be missing."
+          "text": "The date of 1 operational report still needs checking. Collection or source checks are incomplete for this date, so relevant reporting may still be missing."
         }
       ],
       "key_judgments": [
-        "No fused candidate event currently has 2026-10-05 as its event date; collection confidence for that date is low."
+        "No fused candidate event currently has 2026-10-05 as its event date; collection confidence for that date is low.",
+        "1 collected operational/candidate report(s) still use an unresolved or proxy event date and require temporal verification."
       ],
       "significant_events": [],
       "what_changed_since_yesterday": [
-        "Collection volume: -39 retained report(s) versus 2026-10-04 (39 → 0).",
+        "Collection volume: -37 retained report(s) versus 2026-10-04 (39 → 2).",
         "Actor-level same-day fused event counts are unchanged from the previous date."
       ],
       "emerging_patterns": [
         "State 7-day activity is lower than the preceding 7-day window (7 → 2)."
       ],
       "intelligence_gaps": [
+        "1 newly collected operational/candidate report(s) have unresolved or publication-proxy event dates.",
         "Collection confidence is low, so absence of reporting should not be interpreted as absence of activity."
       ],
       "actor_counts": {
@@ -77,7 +79,7 @@
         "Niger": 0
       },
       "country_reporting_counts": {
-        "Mali": 0,
+        "Mali": 2,
         "Burkina Faso": 0,
         "Niger": 0
       },
@@ -110,7 +112,7 @@
       "country_profiles": {
         "Mali": {
           "events": 0,
-          "reports_collected": 0,
+          "reports_collected": 2,
           "actor_counts": {
             "JNIM": 0,
             "IS Sahel": 0,
@@ -143,39 +145,60 @@
         }
       },
       "country_article_summaries": {
-        "Mali": [],
+        "Mali": [
+          {
+            "id": "895c902aef25e480f59efdfcfe56646935dbc893",
+            "source": "Bamada",
+            "title": "Fight against terrorism: When Amnesty International considers the victories of the FAMa as war crimes",
+            "summary": "Mali is not only fighting terrorism. It also faces so-called organizations for the defense and protection of human rights, an instrument of destabilization at the service of the Western powers. Last week, Amnesty International used a headless report to smear the reputation of the Malian army, whose mission is to put outlaws out of harm's way.",
+            "url": "https://bamada.net/lutte-contre-le-terrorisme-quand-amnesty-international-considere-les-victoires-des-fama-comme-crimes-de-guerre",
+            "candidate_event": false,
+            "event_date": "2026-09-29"
+          },
+          {
+            "id": "bf6fd673f261c62dbb5404a501b7516f9ed8ee89",
+            "source": "Bamada",
+            "title": "Illegal gold panning in Mali: A destructive activity of the eco-system",
+            "summary": "Illegal and mechanized gold mining in Mali poses a major ecological, economic and social threat that requires an urgent takeover of sovereignty over our resources. The Gold Paradox: Blessing or Woe? A vital sector: More than 400,000 people work directly in artisanal gold panning, supporting millions of Malians in the face of unemployment and poverty Mechanized drift: The arrival of heavy machinery (excavators, bulldozers) and dredges on riverbeds (such as the Falémé and Niger) has transformed a subsistence activity into unregulated industrial looting.",
+            "url": "https://bamada.net/lorpaillage-clandestin-au-mali-une-activite-destructrice-de-leco-systeme",
+            "candidate_event": false,
+            "event_date": "2026-10-05"
+          }
+        ],
         "Burkina Faso": [],
         "Niger": []
       },
       "collection_notes": {
         "sources_total": 182,
-        "sources_success": 154,
-        "sources_failed": 28,
+        "sources_success": 157,
+        "sources_failed": 25,
         "sources_degraded": 19,
-        "documents_discovered": 11506,
-        "documents_retained": 0,
+        "documents_discovered": 12021,
+        "documents_retained": 2,
         "report_target": 100,
-        "translations_attempted": 0,
-        "translations_success": 0,
+        "translations_attempted": 2,
+        "translations_success": 2,
         "translation_failures": 0,
         "collection_confidence": "LOW",
         "collection_confidence_reasons": [
-          "154/182 source paths reached",
-          "28 failed source paths",
-          "19 degraded / 28 failed of 182 configured sources"
+          "157/182 source paths reached",
+          "25 failed source paths",
+          "19 degraded / 25 failed of 182 configured sources"
         ],
-        "reports_collected": 0,
-        "reports_published": 0,
-        "distinct_sources_collected": 0,
-        "language_counts": {}
+        "reports_collected": 2,
+        "reports_published": 2,
+        "distinct_sources_collected": 1,
+        "language_counts": {
+          "fr": 2
+        }
       },
-      "sultana_daily_text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nDaily bottom line for 2026-10-05: The desk has too little reporting from 2026-10-05 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet.\n\nMali: 0 retained reports. No retained country-specific reports were collected for this desk date.\n\nBurkina Faso: 0 retained reports. No retained country-specific reports were collected for this desk date.\n\nNiger: 0 retained reports. No retained country-specific reports were collected for this desk date.\n\nActor picture: no same-day fused candidate events.\n\nWhat changed: Collection volume: -39 retained report(s) versus 2026-10-04 (39 → 0). Actor-level same-day fused event counts are unchanged from the previous date.\n\nIntelligence gaps: Collection confidence is low, so absence of reporting should not be interpreted as absence of activity.\n\nCollection confidence: LOW. 154/182 source paths reached 28 failed source paths 19 degraded / 28 failed of 182 configured sources\n\nAll retained source reports, including reports not promoted to the map, remain individually summarized in the intelligence feed and source records."
+      "sultana_daily_text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nDaily bottom line for 2026-10-05: Reporting collected on 2026-10-05 does not yet support a clear account of a new incident in Mali, Burkina Faso, or Niger. The desk received 2 reports from 1 source, but the automated incident record needs further review. This is not evidence of calm on the ground.\n\nMali: 2 retained reports. 1. Fight against terrorism: When Amnesty International considers the victories of the FAMa as war crimes. Mali is not only fighting terrorism. It also faces so-called organizations for the defense and protection of human rights, an instrument of destabilization at the service of the Western powers. Last week, Amnesty International used a headless report to smear the reputation of the Malian army, whose mission is to put outlaws out of harm's way. 2. Illegal gold panning in Mali: A destructive activity of the eco-system. Illegal and mechanized gold mining in Mali poses a major ecological, economic and social threat that requires an urgent takeover of sovereignty over our resources. The Gold Paradox: Blessing or Woe? A vital sector: More than 400,000 people work directly in artisanal gold panning, supporting millions of Malians in the face of unemployment and poverty Mechanized drift: The arrival of heavy machinery (excavators, bulldozers) and dredges on riverbeds (such as the Falémé and Niger) has transformed a subsistence activity into unregulated industrial looting.\n\nBurkina Faso: 0 retained reports. No retained country-specific reports were collected for this desk date.\n\nNiger: 0 retained reports. No retained country-specific reports were collected for this desk date.\n\nActor picture: no same-day fused candidate events.\n\nWhat changed: Collection volume: -37 retained report(s) versus 2026-10-04 (39 → 2). Actor-level same-day fused event counts are unchanged from the previous date.\n\nIntelligence gaps: 1 newly collected operational/candidate report(s) have unresolved or publication-proxy event dates. Collection confidence is low, so absence of reporting should not be interpreted as absence of activity.\n\nCollection confidence: LOW. 157/182 source paths reached 25 failed source paths 19 degraded / 25 failed of 182 configured sources\n\nAll retained source reports, including reports not promoted to the map, remain individually summarized in the intelligence feed and source records."
     },
     {
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-04",
-      "generated_at": "2026-10-05T08:36:50.960796Z",
+      "generated_at": "2026-10-05T09:36:24.934345Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -696,7 +719,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-03",
-      "generated_at": "2026-10-05T08:36:51.437196Z",
+      "generated_at": "2026-10-05T09:36:24.761561Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -1108,14 +1131,14 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-02",
-      "generated_at": "2026-10-05T08:36:50.896360Z",
+      "generated_at": "2026-10-05T09:36:24.865404Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
         "Niger"
       ],
       "classification": "OPEN SOURCE",
-      "collection_confidence": "MODERATE",
+      "collection_confidence": "LOW",
       "headline_metrics": {
         "events_occurring_on_date": 0,
         "records_held_for_review": 0,
@@ -1150,7 +1173,7 @@
         }
       ],
       "key_judgments": [
-        "No fused candidate event currently has 2026-10-02 as its event date; collection confidence for that date is moderate."
+        "No fused candidate event currently has 2026-10-02 as its event date; collection confidence for that date is low."
       ],
       "significant_events": [],
       "what_changed_since_yesterday": [
@@ -1161,7 +1184,7 @@
         "No actor shows a change in the 7-day versus prior-7-day fused event count in the current archive."
       ],
       "intelligence_gaps": [
-        "Collection confidence is moderate, so absence of reporting should not be interpreted as absence of activity."
+        "Collection confidence is low, so absence of reporting should not be interpreted as absence of activity."
       ],
       "actor_counts": {
         "JNIM": 0,
@@ -1320,20 +1343,19 @@
         ]
       },
       "collection_notes": {
-        "sources_total": 176,
-        "sources_success": 160,
-        "sources_failed": 16,
+        "sources_total": 0,
+        "sources_success": 0,
+        "sources_failed": 0,
         "sources_degraded": null,
-        "documents_discovered": 12689,
-        "documents_retained": 10,
+        "documents_discovered": 0,
+        "documents_retained": 0,
         "report_target": 100,
-        "translations_attempted": 7,
-        "translations_success": 7,
+        "translations_attempted": 0,
+        "translations_success": 0,
         "translation_failures": 0,
-        "collection_confidence": "MODERATE",
+        "collection_confidence": "LOW",
         "collection_confidence_reasons": [
-          "160/176 source paths reached",
-          "16 failed source paths"
+          "no completed collection run recorded for this date"
         ],
         "reports_collected": 8,
         "reports_published": 4,
@@ -1343,13 +1365,13 @@
           "fr": 6
         }
       },
-      "sultana_daily_text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nDaily bottom line for 2026-10-02: Reporting collected on 2026-10-02 does not yet support a clear account of a new incident in Mali, Burkina Faso, or Niger. The desk received 8 reports from 8 sources, but the automated incident record needs further review. This is not evidence of calm on the ground.\n\nMali: 3 retained reports. 1. ARMY MUSEUM: the School of Application and Development of Officers to discover the military heritage of our country. The Army Museum welcomed, this Friday, October 2, 2026, a delegation from the School of Application and Development of Officers (EAPO), as part of the educational activities of the institution. The purpose of this visit was to allow the trainees to learn more about the military history of Mali and to immerse themselves in the immense heritage bequeathed by previous generations of Malian combatants . 2. Celebration of the 66th anniversary of the Malian Army. On October 1, 2026, the Malian Army celebrated its 66th anniversary in Djicoroni-Para, under the theme: \"The Army, 66 years in the service of the Nation: cohesion and resilience for the sovereign defense of Mali\" . Composed in particular of the Infantry, the Artillery and the Armoured Weapon and Cavalry, the Army constitutes the main pillar of the land defence of the country. 3. 01/10/2026 18:45 - Review of 3 years of Russian military presence in the Sahel: Symbolic successes, sure failure?. 01-10-2026 18:45 - Review of 3 years of Russian military presence in the Sahel: Symbolic successes, sure failure? Initiatives News -- From Wagner to the Africa Corps, Russian military engagement in the Sahel went through the due formalization. But three years later, is the Sahel safer £r?\n\nBurkina Faso: 3 retained reports. 1. Protection of asins, camels and horses in Burkina Faso: A new framework to better fight against trafficking. The Directorate General of Veterinary Services (DGSV) organized, on October 2, 2026 in Ouagadougou, a workshop dedicated to the popularization of the new regulatory framework for asins, camels and horses . Administrative, religious and customary authorities, veterinary services, customs, defence and security forces, VDP and breeders' representatives took part in the meeting to take ownership of the new provisions and strengthen their application on the ground . 2. Tribute ceremony to Thomas Sankara: Minister Mathias Traoré invites the Burkinabe to preserve the legacy of the national hero. The authorities gathered at the foot of the statue of Thomas Sankara. The Thomas Sankara Memorial hosted, this Thursday, October 1, 2026 in Ouagadougou, the military ceremony in tribute to Captain Thomas Sankara and his twelve companions, who fell on October 15, 1987 The ceremony brought together several members of the government as well as representatives of international organizations, who came to pay tribute to the memory of the former president of Faso and to recall the scope of his legacy. 3. Burkina Faso opens first gold refinery in push for economic independence. Burkina Faso opened its first gold refinery on Monday, pushing ahead with plans to better organise the commercialisation of the precious metal in one of the continent's top producers. The west African nation is the continent's third leading gold producer, churning out more than 94 tonnes of the precious metal last year, according to the World Gold Council. But authorities traditionally struggle to control the informal gold mining sector, which has been blighted by jihadist violence and smuggling.\n\nNiger: 2 retained reports. 1. Niger Coup: Survival of the Military Regime and Growing Fragility. The attempted coup in Niamey on the night of 28–29 August 2026 exposed a fundamental contradiction at the heart of General Abdourahamane Tiani’s rule. Although the regime survived its serious internal challenge since the July 2023 coup against Mohamed Bazoum, the episode revealed fractures within the armed forces, declining confidence in the government’s ability to improve security, and dependence on foreign military support. 2. Insecurity: several soldiers fell at the front following a terrorist attack on the SDF position in Tessa (Dosso) - actuniger.com. Insecurity: several soldiers fell at the front following a terrorist attack on the SDF position of Tessa (Dosso) actuniger.com\n\nActor picture: no same-day fused candidate events.\n\nWhat changed: Collection volume: -35 retained report(s) versus 2026-10-01 (43 → 8). Actor-level same-day fused event counts are unchanged from the previous date.\n\nIntelligence gaps: Collection confidence is moderate, so absence of reporting should not be interpreted as absence of activity.\n\nCollection confidence: MODERATE. 160/176 source paths reached 16 failed source paths\n\nAll retained source reports, including reports not promoted to the map, remain individually summarized in the intelligence feed and source records."
+      "sultana_daily_text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nDaily bottom line for 2026-10-02: Reporting collected on 2026-10-02 does not yet support a clear account of a new incident in Mali, Burkina Faso, or Niger. The desk received 8 reports from 8 sources, but the automated incident record needs further review. This is not evidence of calm on the ground.\n\nMali: 3 retained reports. 1. ARMY MUSEUM: the School of Application and Development of Officers to discover the military heritage of our country. The Army Museum welcomed, this Friday, October 2, 2026, a delegation from the School of Application and Development of Officers (EAPO), as part of the educational activities of the institution. The purpose of this visit was to allow the trainees to learn more about the military history of Mali and to immerse themselves in the immense heritage bequeathed by previous generations of Malian combatants . 2. Celebration of the 66th anniversary of the Malian Army. On October 1, 2026, the Malian Army celebrated its 66th anniversary in Djicoroni-Para, under the theme: \"The Army, 66 years in the service of the Nation: cohesion and resilience for the sovereign defense of Mali\" . Composed in particular of the Infantry, the Artillery and the Armoured Weapon and Cavalry, the Army constitutes the main pillar of the land defence of the country. 3. 01/10/2026 18:45 - Review of 3 years of Russian military presence in the Sahel: Symbolic successes, sure failure?. 01-10-2026 18:45 - Review of 3 years of Russian military presence in the Sahel: Symbolic successes, sure failure? Initiatives News -- From Wagner to the Africa Corps, Russian military engagement in the Sahel went through the due formalization. But three years later, is the Sahel safer £r?\n\nBurkina Faso: 3 retained reports. 1. Protection of asins, camels and horses in Burkina Faso: A new framework to better fight against trafficking. The Directorate General of Veterinary Services (DGSV) organized, on October 2, 2026 in Ouagadougou, a workshop dedicated to the popularization of the new regulatory framework for asins, camels and horses . Administrative, religious and customary authorities, veterinary services, customs, defence and security forces, VDP and breeders' representatives took part in the meeting to take ownership of the new provisions and strengthen their application on the ground . 2. Tribute ceremony to Thomas Sankara: Minister Mathias Traoré invites the Burkinabe to preserve the legacy of the national hero. The authorities gathered at the foot of the statue of Thomas Sankara. The Thomas Sankara Memorial hosted, this Thursday, October 1, 2026 in Ouagadougou, the military ceremony in tribute to Captain Thomas Sankara and his twelve companions, who fell on October 15, 1987 The ceremony brought together several members of the government as well as representatives of international organizations, who came to pay tribute to the memory of the former president of Faso and to recall the scope of his legacy. 3. Burkina Faso opens first gold refinery in push for economic independence. Burkina Faso opened its first gold refinery on Monday, pushing ahead with plans to better organise the commercialisation of the precious metal in one of the continent's top producers. The west African nation is the continent's third leading gold producer, churning out more than 94 tonnes of the precious metal last year, according to the World Gold Council. But authorities traditionally struggle to control the informal gold mining sector, which has been blighted by jihadist violence and smuggling.\n\nNiger: 2 retained reports. 1. Niger Coup: Survival of the Military Regime and Growing Fragility. The attempted coup in Niamey on the night of 28–29 August 2026 exposed a fundamental contradiction at the heart of General Abdourahamane Tiani’s rule. Although the regime survived its serious internal challenge since the July 2023 coup against Mohamed Bazoum, the episode revealed fractures within the armed forces, declining confidence in the government’s ability to improve security, and dependence on foreign military support. 2. Insecurity: several soldiers fell at the front following a terrorist attack on the SDF position in Tessa (Dosso) - actuniger.com. Insecurity: several soldiers fell at the front following a terrorist attack on the SDF position of Tessa (Dosso) actuniger.com\n\nActor picture: no same-day fused candidate events.\n\nWhat changed: Collection volume: -35 retained report(s) versus 2026-10-01 (43 → 8). Actor-level same-day fused event counts are unchanged from the previous date.\n\nIntelligence gaps: Collection confidence is low, so absence of reporting should not be interpreted as absence of activity.\n\nCollection confidence: LOW. no completed collection run recorded for this date\n\nAll retained source reports, including reports not promoted to the map, remain individually summarized in the intelligence feed and source records."
     },
     {
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-01",
-      "generated_at": "2026-10-05T08:36:51.253301Z",
+      "generated_at": "2026-10-05T09:36:25.096417Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -1897,7 +1919,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-30",
-      "generated_at": "2026-10-05T08:36:51.496500Z",
+      "generated_at": "2026-10-05T09:36:24.756696Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -3042,7 +3064,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-29",
-      "generated_at": "2026-10-05T08:36:51.560850Z",
+      "generated_at": "2026-10-05T09:36:24.944827Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -3367,7 +3389,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-28",
-      "generated_at": "2026-10-05T08:36:51.277508Z",
+      "generated_at": "2026-10-05T09:36:25.226051Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -3846,7 +3868,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-27",
-      "generated_at": "2026-10-05T08:36:51.513371Z",
+      "generated_at": "2026-10-05T09:36:24.771136Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -4199,7 +4221,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-26",
-      "generated_at": "2026-10-05T08:36:51.419295Z",
+      "generated_at": "2026-10-05T09:36:24.939374Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -4447,7 +4469,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-25",
-      "generated_at": "2026-10-05T08:36:51.159061Z",
+      "generated_at": "2026-10-05T09:36:24.751519Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -4799,7 +4821,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-24",
-      "generated_at": "2026-10-05T08:36:51.306475Z",
+      "generated_at": "2026-10-05T09:36:25.210911Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -5161,7 +5183,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-23",
-      "generated_at": "2026-10-05T08:36:50.839409Z",
+      "generated_at": "2026-10-05T09:36:24.766344Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -5472,7 +5494,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-22",
-      "generated_at": "2026-10-05T08:36:51.488927Z",
+      "generated_at": "2026-10-05T09:36:25.274706Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -6430,7 +6452,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-21",
-      "generated_at": "2026-10-05T08:36:51.136368Z",
+      "generated_at": "2026-10-05T09:36:25.387643Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -6948,7 +6970,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-20",
-      "generated_at": "2026-10-05T08:36:51.235836Z",
+      "generated_at": "2026-10-05T09:36:25.042916Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -7592,7 +7614,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-19",
-      "generated_at": "2026-10-05T08:36:50.992208Z",
+      "generated_at": "2026-10-05T09:36:25.261534Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -8238,7 +8260,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-18",
-      "generated_at": "2026-10-05T08:36:51.057851Z",
+      "generated_at": "2026-10-05T09:36:25.152279Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -8401,7 +8423,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-17",
-      "generated_at": "2026-10-05T08:36:51.369635Z",
+      "generated_at": "2026-10-05T09:36:24.936820Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -8664,7 +8686,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-16",
-      "generated_at": "2026-10-05T08:36:50.817544Z",
+      "generated_at": "2026-10-05T09:36:24.941942Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -8826,7 +8848,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-15",
-      "generated_at": "2026-10-05T08:36:51.522856Z",
+      "generated_at": "2026-10-05T09:36:25.427462Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -8988,7 +9010,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-14",
-      "generated_at": "2026-10-05T08:36:51.537058Z",
+      "generated_at": "2026-10-05T09:36:25.306146Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -9150,7 +9172,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-13",
-      "generated_at": "2026-10-05T08:36:51.330786Z",
+      "generated_at": "2026-10-05T09:36:25.268215Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -9312,7 +9334,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-12",
-      "generated_at": "2026-10-05T08:36:51.260516Z",
+      "generated_at": "2026-10-05T09:36:25.381686Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -9474,7 +9496,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-11",
-      "generated_at": "2026-10-05T08:36:51.299214Z",
+      "generated_at": "2026-10-05T09:36:25.295649Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -9636,7 +9658,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-10",
-      "generated_at": "2026-10-05T08:36:51.154095Z",
+      "generated_at": "2026-10-05T09:36:25.130269Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -9859,7 +9881,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-08",
-      "generated_at": "2026-10-05T08:36:51.501448Z",
+      "generated_at": "2026-10-05T09:36:25.200389Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -10025,7 +10047,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-07",
-      "generated_at": "2026-10-05T08:36:51.391438Z",
+      "generated_at": "2026-10-05T09:36:25.363989Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -10353,7 +10375,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-04",
-      "generated_at": "2026-10-05T08:36:51.218682Z",
+      "generated_at": "2026-10-05T09:36:24.845652Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -10515,7 +10537,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-03",
-      "generated_at": "2026-10-05T08:36:51.033638Z",
+      "generated_at": "2026-10-05T09:36:24.953561Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -10677,7 +10699,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-02",
-      "generated_at": "2026-10-05T08:36:51.074783Z",
+      "generated_at": "2026-10-05T09:36:24.723782Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -10839,7 +10861,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-01",
-      "generated_at": "2026-10-05T08:36:51.532321Z",
+      "generated_at": "2026-10-05T09:36:24.983006Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
