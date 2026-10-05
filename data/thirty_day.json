@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-05T10:36:54.792907Z",
+  "generated_at": "2026-10-05T11:33:31.415215Z",
   "window_days": 30,
   "cutoff": "2026-09-05",
-  "reports": 234,
+  "reports": 235,
   "incident_reports": 41,
   "candidate_events": 38,
   "corroborated_events": 4,
@@ -29,7 +29,7 @@
     "kidnapping": 1
   },
   "by_language": {
-    "fr": 174,
+    "fr": 175,
     "en": 51,
     "ar": 9
   },
@@ -42,7 +42,7 @@
     {
       "source_code": "SRC-0008",
       "source": "Bamada",
-      "count": 27
+      "count": 28
     },
     {
       "source_code": "SRC-0006",
@@ -298,7 +298,7 @@
     },
     {
       "date": "2026-10-05",
-      "reports": 4,
+      "reports": 5,
       "events": 0
     }
   ],
@@ -3484,6 +3484,24 @@
   ],
   "latest_reports": [
     {
+      "published_at": "2026-10-05T10:29:06Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-05T11:32:50.316643Z",
+      "discovered_at": "2026-10-05T11:32:50.316643Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0008",
+      "source": "Bamada",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Bamako",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "High tension in Dialakorodji after the sudden death of Salif Sidibé, known as \"Sergeant\": What we know about the tragedy",
+      "url": "https://bamada.net/tension-vive-a-dialakorodji-apres-le-deces-brutal-de-salif-sidibe-dit-sergent-ce-que-lon-sait-du-drame"
+    },
+    {
       "published_at": "2026-10-05T10:22:04Z",
       "published_date_source": "opengraph",
       "published_time_precision": "datetime",
@@ -4184,24 +4202,6 @@
       "candidate_event": true,
       "title": "Burkina Faso: Opponents in exile publish a documented list of 86 kidnappings perpetrated by the junta",
       "url": "https://fr.allafrica.com/stories/202610010260.html"
-    },
-    {
-      "published_at": "2026-10-01T09:59:33Z",
-      "published_date_source": "opengraph",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-04T05:26:47.602779Z",
-      "discovered_at": "2026-10-04T05:26:47.602779Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0090",
-      "source": "AllAfrica (Édition Française)",
-      "language": "fr",
-      "actor": "State",
-      "country": "Burkina Faso",
-      "city": null,
-      "event_type": null,
-      "candidate_event": false,
-      "title": "6 Burkina Faso: Night of the People's Progressive Revolution - The main achievements presented to the population",
-      "url": "https://fr.allafrica.com/stories/202610010220.html"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
