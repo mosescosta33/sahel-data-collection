@@ -1,12 +1,14 @@
 {
-  "generated_at": "2026-10-05T06:45:45.220823Z",
+  "generated_at": "2026-10-05T07:35:58.619019Z",
   "events_30d": 37,
   "date_resolution_pct": 92,
   "precise_geography_pct": 89,
   "actor_attribution_pct": 81,
   "multi_source_corroboration_pct": 8,
-  "collection_blind_spots": [],
-  "collection_status": "NOMINAL",
+  "collection_blind_spots": [
+    "45 configured sources are degraded or failed"
+  ],
+  "collection_status": "DEGRADED",
   "language_reports_30d": {
     "fr": 197,
     "en": 60,
