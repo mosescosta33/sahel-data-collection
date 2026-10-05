@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-05T00:41:24.961575Z",
+  "generated_at": "2026-10-05T01:32:06.936857Z",
   "window_days": 30,
   "cutoff": "2026-09-05",
-  "reports": 229,
+  "reports": 230,
   "incident_reports": 40,
   "candidate_events": 37,
   "corroborated_events": 3,
@@ -29,7 +29,7 @@
     "kidnapping": 1
   },
   "by_language": {
-    "fr": 169,
+    "fr": 170,
     "en": 51,
     "ar": 9
   },
@@ -57,7 +57,7 @@
     {
       "source_code": "SRC-0012",
       "source": "Sidwaya",
-      "count": 10
+      "count": 11
     },
     {
       "source_code": "SRC-0075",
@@ -293,7 +293,7 @@
     },
     {
       "date": "2026-10-04",
-      "reports": 9,
+      "reports": 10,
       "events": 0
     },
     {
@@ -3441,6 +3441,24 @@
   ],
   "latest_reports": [
     {
+      "published_at": "2026-10-04T23:51:07Z",
+      "published_date_source": "opengraph",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-05T01:31:39.916739Z",
+      "discovered_at": "2026-10-05T01:31:39.916739Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0012",
+      "source": "Sidwaya",
+      "language": "fr",
+      "actor": null,
+      "country": "Burkina Faso",
+      "city": "Ouagadougou",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Government exhibition: the achievements of the Ministry of Security presented",
+      "url": "https://www.sidwaya.info/exposition-gouvernementale-les-acquis-du-ministere-de-la-securite-presentes/"
+    },
+    {
       "published_at": "2026-10-04T19:15:57Z",
       "published_date_source": "opengraph",
       "published_time_precision": "datetime",
@@ -4141,24 +4159,6 @@
       "candidate_event": false,
       "title": "Mali: more than 2,400 schools remain closed as insecurity disrupts new school year",
       "url": "https://www.africanews.com/2026/10/01/mali-more-than-2400-schools-remain-closed-as-insecurity-disrupts-new-school-year/"
-    },
-    {
-      "published_at": "2026-10-01T04:54:41Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-01T05:19:28.521952Z",
-      "discovered_at": "2026-10-01T05:19:28.521952Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0001",
-      "source": "RFI Afrique",
-      "language": "fr",
-      "actor": null,
-      "country": "Burkina Faso",
-      "city": "Ouagadougou",
-      "event_type": "law enforcement",
-      "candidate_event": false,
-      "title": "Disappearance of Moussa Kaka in Niger: \"Absolutely nothing justifies his arrest\"",
-      "url": "https://www.rfi.fr/fr/podcasts/le-grand-invit%C3%A9-afrique/20261001-disparition-de-moussa-kaka-au-niger-absolument-rien-ne-justifie-son-arrestation"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
