@@ -1,14 +1,16 @@
 {
-  "generated_at": "2026-10-05T09:36:24.110679Z",
-  "events_30d": 37,
+  "generated_at": "2026-10-05T10:36:54.909486Z",
+  "events_30d": 38,
   "date_resolution_pct": 92,
   "precise_geography_pct": 89,
-  "actor_attribution_pct": 81,
-  "multi_source_corroboration_pct": 8,
-  "collection_blind_spots": [],
-  "collection_status": "NOMINAL",
+  "actor_attribution_pct": 82,
+  "multi_source_corroboration_pct": 11,
+  "collection_blind_spots": [
+    "45 configured sources are degraded or failed"
+  ],
+  "collection_status": "DEGRADED",
   "language_reports_30d": {
-    "fr": 199,
+    "fr": 202,
     "en": 60,
     "ar": 9
   },

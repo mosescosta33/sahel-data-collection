@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-10-05T09:36:24.039543Z",
+  "generated_at": "2026-10-05T10:36:54.792907Z",
   "window_days": 30,
   "cutoff": "2026-09-05",
-  "reports": 232,
-  "incident_reports": 40,
-  "candidate_events": 37,
-  "corroborated_events": 3,
-  "mapped_events": 33,
-  "mapped_locations": 64,
-  "distinct_sources": 64,
+  "reports": 234,
+  "incident_reports": 41,
+  "candidate_events": 38,
+  "corroborated_events": 4,
+  "mapped_events": 34,
+  "mapped_locations": 68,
+  "distinct_sources": 65,
   "by_actor": {
-    "State": 22,
+    "State": 23,
     "JNIM": 7,
     "Other": 7,
     "Africa Corps/Wagner": 1
   },
   "by_country": {
-    "Mali": 32,
+    "Mali": 33,
     "Niger": 3,
     "Burkina Faso": 2
   },
   "by_event_type": {
-    "security operation": 18,
+    "security operation": 19,
     "attack": 8,
     "offensive/campaign": 4,
     "ambush": 3,
@@ -29,13 +29,13 @@
     "kidnapping": 1
   },
   "by_language": {
-    "fr": 172,
+    "fr": 174,
     "en": 51,
     "ar": 9
   },
   "by_confidence": {
-    "low": 19,
-    "moderate": 17,
+    "moderate": 19,
+    "low": 18,
     "moderate-high": 1
   },
   "top_sources": [
@@ -47,7 +47,7 @@
     {
       "source_code": "SRC-0006",
       "source": "Malijet",
-      "count": 22
+      "count": 23
     },
     {
       "source_code": "SRC-0015",
@@ -110,6 +110,10 @@
       "count": 9
     },
     {
+      "location": "Kidal",
+      "count": 9
+    },
+    {
       "location": "Mopti",
       "count": 9
     },
@@ -118,8 +122,8 @@
       "count": 8
     },
     {
-      "location": "Kidal",
-      "count": 7
+      "location": "Djenné",
+      "count": 5
     },
     {
       "location": "Ségou",
@@ -128,10 +132,6 @@
     {
       "location": "Mali",
       "count": 4
-    },
-    {
-      "location": "Djenné",
-      "count": 3
     },
     {
       "location": "Tillabéri",
@@ -294,15 +294,121 @@
     {
       "date": "2026-10-04",
       "reports": 10,
-      "events": 0
+      "events": 1
     },
     {
       "date": "2026-10-05",
-      "reports": 2,
+      "reports": 4,
       "events": 0
     }
   ],
   "latest_events": [
+    {
+      "id": "183d4bc7c740d43cdfa6608ee1f8e9393864dce8",
+      "event_date": "2026-10-04",
+      "event_date_confidence": "explicit-text",
+      "event_date_source": "explicit-calendar-date",
+      "published_at": "2026-10-05T10:21:51Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-05T10:35:40.771903Z",
+      "actor": "State",
+      "perpetrator": "State",
+      "target": null,
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [
+        "State"
+      ],
+      "parent_report_id": null,
+      "event_type": "security operation",
+      "country": "Mali",
+      "city": "Djenné",
+      "lat": 13.9061,
+      "lng": -4.555,
+      "locations": [
+        {
+          "name": "Djenné",
+          "country": "Mali",
+          "lat": 13.9061,
+          "lng": -4.555,
+          "confidence": "explicit-place"
+        },
+        {
+          "name": "Kidal",
+          "country": "Mali",
+          "lat": 18.4411,
+          "lng": 1.4078,
+          "confidence": "explicit-place"
+        }
+      ],
+      "title": "Koutiala, Anéfif, Djenné, Kidal: FAMa shelling and destroying important terrorist logistics bases",
+      "summary": "Koutiala, Anéfif, Djenné, Kidal: The FAMa are shelling and destroying important terrorist logistics bases As part of Operation Dougoukoloko, the Malian armed forces, supported by their partners, carried out targeted strikes on Sunday, October 4, 2026, according to a statement from the General Staff of the Armed Forces. Four areas were simultaneously treated across the national territory .",
+      "sources": [
+        "Malijet"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://malijet.com/actualte_dans_les_regions_du_mali/312176-koutiala-anefif-djenne-kidal-les-fama-pilonnent-et-detr.html"
+      ],
+      "report_summaries": [
+        {
+          "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312176-koutiala-anefif-djenne-kidal-les-fama-pilonnent-et-detr.html",
+          "source": "Malijet",
+          "title": "Koutiala, Anéfif, Djenné, Kidal: FAMa shelling and destroying important terrorist logistics bases",
+          "summary": "Koutiala, Anéfif, Djenné, Kidal: The FAMa are shelling and destroying important terrorist logistics bases As part of Operation Dougoukoloko, the Malian armed forces, supported by their partners, carried out targeted strikes on Sunday, October 4, 2026, according to a statement from the General Staff of the Armed Forces. Four areas were simultaneously treated across the national territory .",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "armed_group"
+          ],
+          "civilian_targeting_flag": false,
+          "casualty_claims": []
+        }
+      ],
+      "created_at": "2026-10-05T10:35:40.771903Z",
+      "updated_at": "2026-10-05T10:35:40.771903Z",
+      "extraction_confidence": "moderate",
+      "victim_categories": [
+        "armed_group"
+      ],
+      "civilian_targeting_flag": false,
+      "casualty_claims": [],
+      "fatalities_min": null,
+      "fatalities_max": null,
+      "fatalities_best": null,
+      "injured_min": null,
+      "injured_max": null,
+      "abducted_min": null,
+      "abducted_max": null,
+      "casualty_disputed": false,
+      "revision_history": [
+        {
+          "at": "2026-10-05T10:35:40.771903Z",
+          "type": "event_created",
+          "source": "Malijet"
+        }
+      ],
+      "corroboration": "single-source",
+      "confidence": "moderate",
+      "independent_source_domains": [
+        "malijet.com"
+      ],
+      "independent_source_count": 1,
+      "significance": "MAJOR",
+      "significance_reasons": [
+        "strategic/severe event pattern",
+        "multi-location activity"
+      ]
+    },
     {
       "id": "01fe8f3c880fa8817a9b99ab1c330a5f64163f36",
       "event_date": "2026-10-03",
@@ -333,19 +439,35 @@
           "lat": 12.6392,
           "lng": -8.0029,
           "confidence": "explicit-place"
+        },
+        {
+          "name": "Kidal",
+          "country": "Mali",
+          "lat": 18.4411,
+          "lng": 1.4078,
+          "confidence": "explicit-place"
+        },
+        {
+          "name": "Djenné",
+          "country": "Mali",
+          "lat": 13.9061,
+          "lng": -4.555,
+          "confidence": "explicit-place"
         }
       ],
       "title": "Koutiala: positions of armed terrorist groups targeted and hit by FAMa",
       "summary": "Bamako, October 04 (AMAP) The Malian Armed Forces (FAMa), supported by their partners, targeted and struck, on Saturday, October 3, 2026, several entrenchment points of armed terrorist groups, located about 40 kilometers south of Koutiala, says a statement from the General Staff of the Armed Forces . According to the same source, the exploitation of precise intelligence has made it possible to locate several positions housing armed terrorist groups as well as war materials, including many armed vehicles.",
       "sources": [
-        "AMAP (Agence Malienne de Presse et de Publicité)"
+        "AMAP (Agence Malienne de Presse et de Publicité)",
+        "Bamada"
       ],
       "languages": [
         "fr"
       ],
-      "source_count": 1,
+      "source_count": 2,
       "report_urls": [
-        "https://amap.ml/2026/10/04/koutiala-des-positions-de-groupes-armes-terroristes-ciblees-et-frappees-par-les-fama/"
+        "https://amap.ml/2026/10/04/koutiala-des-positions-de-groupes-armes-terroristes-ciblees-et-frappees-par-les-fama/",
+        "https://bamada.net/operation-dougoukoloko-les-fama-frappent-plusieurs-positions-terroristes-de-koutiala-a-kidal"
       ],
       "report_summaries": [
         {
@@ -365,10 +487,28 @@
           ],
           "civilian_targeting_flag": false,
           "casualty_claims": []
+        },
+        {
+          "url": "https://bamada.net/operation-dougoukoloko-les-fama-frappent-plusieurs-positions-terroristes-de-koutiala-a-kidal",
+          "source": "Bamada",
+          "title": "Operation Dougoukoloko: the FAMa intensify surveillance and strike several terrorist positions across Mali",
+          "summary": "From Koutiala to Kidal, via Anéfif and Djenné, the Malian Armed Forces are continuing their security operations with determination.",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "armed_group"
+          ],
+          "civilian_targeting_flag": false,
+          "casualty_claims": []
         }
       ],
       "created_at": "2026-10-04T18:03:55.568913Z",
-      "updated_at": "2026-10-04T18:03:55.568913Z",
+      "updated_at": "2026-10-05T10:35:40.477728Z",
       "extraction_confidence": "low",
       "victim_categories": [
         "armed_group"
@@ -388,17 +528,24 @@
           "at": "2026-10-04T18:03:55.568913Z",
           "type": "event_created",
           "source": "AMAP (Agence Malienne de Presse et de Publicité)"
+        },
+        {
+          "at": "2026-10-05T10:35:40.477728Z",
+          "type": "corroboration_or_geography_update",
+          "source": "Bamada"
         }
       ],
-      "corroboration": "single-source",
-      "confidence": "low",
+      "corroboration": "limited corroboration",
+      "confidence": "moderate",
       "independent_source_domains": [
-        "amap.ml"
+        "amap.ml",
+        "bamada.net"
       ],
-      "independent_source_count": 1,
+      "independent_source_count": 2,
       "significance": "MAJOR",
       "significance_reasons": [
-        "strategic/severe event pattern"
+        "strategic/severe event pattern",
+        "multi-location activity"
       ]
     },
     {
@@ -3333,113 +3480,45 @@
       "significance_reasons": [
         "operational security event"
       ]
-    },
-    {
-      "id": "045e201ec819bb2707611660b05da6572820b8ac",
-      "event_date": "2026-09-19",
-      "event_date_confidence": "explicit-text",
-      "event_date_source": "explicit-date-no-year",
-      "published_at": "2026-09-19T20:27:07Z",
-      "published_date_source": "stored",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-09-19T20:56:41.947029Z",
-      "actor": "Other",
-      "perpetrator": null,
-      "target": null,
-      "claimant": null,
-      "supporting_force": null,
-      "mentioned_actors": [],
-      "parent_report_id": null,
-      "event_type": "security operation",
-      "country": "Mali",
-      "city": "Sévaré",
-      "lat": 14.5272,
-      "lng": -4.0934,
-      "locations": [
-        {
-          "name": "Sévaré",
-          "country": "Mali",
-          "lat": 14.5272,
-          "lng": -4.0934,
-          "confidence": "explicit-place"
-        },
-        {
-          "name": "Bamako",
-          "country": "Mali",
-          "lat": 12.6392,
-          "lng": -8.0029,
-          "confidence": "explicit-place"
-        }
-      ],
-      "title": "Mali: Jihadists target Sévaré, a checkpoint near Bamako and multiply strategic attacks",
-      "summary": "Mali has suffered new large-scale jihadist attacks in the last 24 hours. On the night of Friday 18 to Saturday 19 September in the outskirts of Bamako, a security post was attacked by terrorists Then again on Saturday, in the centre of the country, an army drone base was targeted by kamikaze drones. Published on: With our regional correspondent, Serge Daniel A",
-      "sources": [
-        "RFI Afrique"
-      ],
-      "languages": [
-        "fr"
-      ],
-      "source_count": 1,
-      "report_urls": [
-        "https://www.rfi.fr/fr/afrique/20260919-mali-les-jihadistes-ciblent-s%C3%A9var%C3%A9-un-poste-de-contr%C3%B4le-pr%C3%A8s-de-bamako-et-multiplient-les-attaques-strat%C3%A9giques"
-      ],
-      "report_summaries": [
-        {
-          "url": "https://www.rfi.fr/fr/afrique/20260919-mali-les-jihadistes-ciblent-s%C3%A9var%C3%A9-un-poste-de-contr%C3%B4le-pr%C3%A8s-de-bamako-et-multiplient-les-attaques-strat%C3%A9giques",
-          "source": "RFI Afrique",
-          "title": "Mali: Jihadists target Sévaré, a checkpoint near Bamako and multiply strategic attacks",
-          "summary": "Mali has suffered new large-scale jihadist attacks in the last 24 hours. On the night of Friday 18 to Saturday 19 September in the outskirts of Bamako, a security post was attacked by terrorists Then again on Saturday, in the centre of the country, an army drone base was targeted by kamikaze drones. Published on: With our regional correspondent, Serge Daniel A",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "armed_group"
-          ],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        }
-      ],
-      "created_at": "2026-09-19T20:56:41.947029Z",
-      "updated_at": "2026-09-19T20:56:41.947029Z",
-      "extraction_confidence": "low",
-      "victim_categories": [
-        "armed_group"
-      ],
-      "civilian_targeting_flag": false,
-      "casualty_claims": [],
-      "fatalities_min": null,
-      "fatalities_max": null,
-      "fatalities_best": null,
-      "injured_min": null,
-      "injured_max": null,
-      "abducted_min": null,
-      "abducted_max": null,
-      "casualty_disputed": false,
-      "revision_history": [
-        {
-          "at": "2026-09-19T20:56:41.947029Z",
-          "type": "event_created",
-          "source": "RFI Afrique"
-        }
-      ],
-      "corroboration": "single-source",
-      "confidence": "low",
-      "independent_source_domains": [
-        "rfi.fr"
-      ],
-      "independent_source_count": 1,
-      "significance": "MAJOR",
-      "significance_reasons": [
-        "strategic/severe event pattern",
-        "multi-location activity"
-      ]
     }
   ],
   "latest_reports": [
+    {
+      "published_at": "2026-10-05T10:22:04Z",
+      "published_date_source": "opengraph",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-05T10:35:57.293040Z",
+      "discovered_at": "2026-10-05T10:35:57.293040Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0079",
+      "source": "L'Essor",
+      "language": "fr",
+      "actor": null,
+      "country": "Niger",
+      "city": "Niamey",
+      "event_type": "clash",
+      "candidate_event": false,
+      "title": "10:10 Night of the People's Progressive Revolution: Burkinabe living in Niger communicate with the homeland",
+      "url": "https://www.lessor.ml/posts/nuit-de-la-revolution-progressiste-populaire-les-burkinabe-vivant-au-niger-communient-avec-la-patrie-6ac37a4bf0527"
+    },
+    {
+      "published_at": "2026-10-05T10:21:51Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-05T10:35:40.771903Z",
+      "discovered_at": "2026-10-05T10:35:40.771903Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0006",
+      "source": "Malijet",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Djenné",
+      "event_type": "security operation",
+      "candidate_event": true,
+      "title": "Koutiala, Anéfif, Djenné, Kidal: FAMa shelling and destroying important terrorist logistics bases",
+      "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312176-koutiala-anefif-djenne-kidal-les-fama-pilonnent-et-detr.html"
+    },
     {
       "published_at": "2026-10-05T08:30:56Z",
       "published_date_source": "feed",
@@ -4123,42 +4202,6 @@
       "candidate_event": false,
       "title": "6 Burkina Faso: Night of the People's Progressive Revolution - The main achievements presented to the population",
       "url": "https://fr.allafrica.com/stories/202610010220.html"
-    },
-    {
-      "published_at": "2026-10-01T09:58:01Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-01T12:39:09.222452Z",
-      "discovered_at": "2026-10-01T12:39:09.222452Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0028",
-      "source": "The Defense Post Africa",
-      "language": "en",
-      "actor": "Africa Corps/Wagner",
-      "country": "Mali",
-      "city": null,
-      "event_type": "abuses/war crimes",
-      "candidate_event": false,
-      "title": "Amnesty Accuses Malian Forces, Wagner of War Crimes Against Civilians - The Defense Post",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5Sb2JPcmxPLXZhNG9NV0dibmF2RkgzdnNTRGNRMzR3eDNlZFhCbzZQZzlXUlJCQmd1eW1neUJ5Xy1GSTE5Ynl3a3FsbWtrSDJpaHl6STlCQ28tR3BjbDFMaXBHT053aEJHOUtvMlcySXk3Y2NHNkhLdNIBfkFVX3lxTE81Z3J5RE40NFJHRkRDU2NNdzNYdlhUd1JaX2tQcld2bUVjUmQ1UktUbXdWMmVPTGhadzlBOHJWNHF5X2tUMlRwSjZEcXFYVGtwN29leXZ6eHdqeXNNa3dPM29YWEVHMHFCaXg1eHFoUkdkS29WNTV0N3I4bjl3QQ?oc=5"
-    },
-    {
-      "published_at": "2026-10-01T09:26:41Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-01T10:33:51.921827Z",
-      "discovered_at": "2026-10-01T10:33:51.921827Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0006",
-      "source": "Malijet",
-      "language": "fr",
-      "actor": null,
-      "country": "Mali",
-      "city": "Bamako",
-      "event_type": "law enforcement",
-      "candidate_event": false,
-      "title": "Armed robberies: end of escape for three robbers in Senou",
-      "url": "https://malijet.com/les_faits_divers_au_mali/312113-vols-a-main-armee-fin-de-cavale-pour-trois-braqueurs-a-sen.html"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."

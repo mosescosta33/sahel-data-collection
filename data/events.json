@@ -1,5 +1,111 @@
 [
   {
+    "id": "183d4bc7c740d43cdfa6608ee1f8e9393864dce8",
+    "event_date": "2026-10-04",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "explicit-calendar-date",
+    "published_at": "2026-10-05T10:21:51Z",
+    "published_date_source": "jsonld:datePublished",
+    "published_time_precision": "datetime",
+    "collected_at": "2026-10-05T10:35:40.771903Z",
+    "actor": "State",
+    "perpetrator": "State",
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [
+      "State"
+    ],
+    "parent_report_id": null,
+    "event_type": "security operation",
+    "country": "Mali",
+    "city": "Djenné",
+    "lat": 13.9061,
+    "lng": -4.555,
+    "locations": [
+      {
+        "name": "Djenné",
+        "country": "Mali",
+        "lat": 13.9061,
+        "lng": -4.555,
+        "confidence": "explicit-place"
+      },
+      {
+        "name": "Kidal",
+        "country": "Mali",
+        "lat": 18.4411,
+        "lng": 1.4078,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "Koutiala, Anéfif, Djenné, Kidal: FAMa shelling and destroying important terrorist logistics bases",
+    "summary": "Koutiala, Anéfif, Djenné, Kidal: The FAMa are shelling and destroying important terrorist logistics bases As part of Operation Dougoukoloko, the Malian armed forces, supported by their partners, carried out targeted strikes on Sunday, October 4, 2026, according to a statement from the General Staff of the Armed Forces. Four areas were simultaneously treated across the national territory .",
+    "sources": [
+      "Malijet"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://malijet.com/actualte_dans_les_regions_du_mali/312176-koutiala-anefif-djenne-kidal-les-fama-pilonnent-et-detr.html"
+    ],
+    "report_summaries": [
+      {
+        "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312176-koutiala-anefif-djenne-kidal-les-fama-pilonnent-et-detr.html",
+        "source": "Malijet",
+        "title": "Koutiala, Anéfif, Djenné, Kidal: FAMa shelling and destroying important terrorist logistics bases",
+        "summary": "Koutiala, Anéfif, Djenné, Kidal: The FAMa are shelling and destroying important terrorist logistics bases As part of Operation Dougoukoloko, the Malian armed forces, supported by their partners, carried out targeted strikes on Sunday, October 4, 2026, according to a statement from the General Staff of the Armed Forces. Four areas were simultaneously treated across the national territory .",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "armed_group"
+        ],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      }
+    ],
+    "created_at": "2026-10-05T10:35:40.771903Z",
+    "updated_at": "2026-10-05T10:35:40.771903Z",
+    "extraction_confidence": "moderate",
+    "victim_categories": [
+      "armed_group"
+    ],
+    "civilian_targeting_flag": false,
+    "casualty_claims": [],
+    "fatalities_min": null,
+    "fatalities_max": null,
+    "fatalities_best": null,
+    "injured_min": null,
+    "injured_max": null,
+    "abducted_min": null,
+    "abducted_max": null,
+    "casualty_disputed": false,
+    "revision_history": [
+      {
+        "at": "2026-10-05T10:35:40.771903Z",
+        "type": "event_created",
+        "source": "Malijet"
+      }
+    ],
+    "corroboration": "single-source",
+    "confidence": "moderate",
+    "independent_source_domains": [
+      "malijet.com"
+    ],
+    "independent_source_count": 1,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "strategic/severe event pattern",
+      "multi-location activity"
+    ]
+  },
+  {
     "id": "01fe8f3c880fa8817a9b99ab1c330a5f64163f36",
     "event_date": "2026-10-03",
     "event_date_confidence": "explicit-text",
@@ -29,19 +135,35 @@
         "lat": 12.6392,
         "lng": -8.0029,
         "confidence": "explicit-place"
+      },
+      {
+        "name": "Kidal",
+        "country": "Mali",
+        "lat": 18.4411,
+        "lng": 1.4078,
+        "confidence": "explicit-place"
+      },
+      {
+        "name": "Djenné",
+        "country": "Mali",
+        "lat": 13.9061,
+        "lng": -4.555,
+        "confidence": "explicit-place"
       }
     ],
     "title": "Koutiala: positions of armed terrorist groups targeted and hit by FAMa",
     "summary": "Bamako, October 04 (AMAP) The Malian Armed Forces (FAMa), supported by their partners, targeted and struck, on Saturday, October 3, 2026, several entrenchment points of armed terrorist groups, located about 40 kilometers south of Koutiala, says a statement from the General Staff of the Armed Forces . According to the same source, the exploitation of precise intelligence has made it possible to locate several positions housing armed terrorist groups as well as war materials, including many armed vehicles.",
     "sources": [
-      "AMAP (Agence Malienne de Presse et de Publicité)"
+      "AMAP (Agence Malienne de Presse et de Publicité)",
+      "Bamada"
     ],
     "languages": [
       "fr"
     ],
-    "source_count": 1,
+    "source_count": 2,
     "report_urls": [
-      "https://amap.ml/2026/10/04/koutiala-des-positions-de-groupes-armes-terroristes-ciblees-et-frappees-par-les-fama/"
+      "https://amap.ml/2026/10/04/koutiala-des-positions-de-groupes-armes-terroristes-ciblees-et-frappees-par-les-fama/",
+      "https://bamada.net/operation-dougoukoloko-les-fama-frappent-plusieurs-positions-terroristes-de-koutiala-a-kidal"
     ],
     "report_summaries": [
       {
@@ -61,10 +183,28 @@
         ],
         "civilian_targeting_flag": false,
         "casualty_claims": []
+      },
+      {
+        "url": "https://bamada.net/operation-dougoukoloko-les-fama-frappent-plusieurs-positions-terroristes-de-koutiala-a-kidal",
+        "source": "Bamada",
+        "title": "Operation Dougoukoloko: the FAMa intensify surveillance and strike several terrorist positions across Mali",
+        "summary": "From Koutiala to Kidal, via Anéfif and Djenné, the Malian Armed Forces are continuing their security operations with determination.",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "armed_group"
+        ],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
       }
     ],
     "created_at": "2026-10-04T18:03:55.568913Z",
-    "updated_at": "2026-10-04T18:03:55.568913Z",
+    "updated_at": "2026-10-05T10:35:40.477728Z",
     "extraction_confidence": "low",
     "victim_categories": [
       "armed_group"
@@ -84,17 +224,24 @@
         "at": "2026-10-04T18:03:55.568913Z",
         "type": "event_created",
         "source": "AMAP (Agence Malienne de Presse et de Publicité)"
+      },
+      {
+        "at": "2026-10-05T10:35:40.477728Z",
+        "type": "corroboration_or_geography_update",
+        "source": "Bamada"
       }
     ],
-    "corroboration": "single-source",
-    "confidence": "low",
+    "corroboration": "limited corroboration",
+    "confidence": "moderate",
     "independent_source_domains": [
-      "amap.ml"
+      "amap.ml",
+      "bamada.net"
     ],
-    "independent_source_count": 1,
+    "independent_source_count": 2,
     "significance": "MAJOR",
     "significance_reasons": [
-      "strategic/severe event pattern"
+      "strategic/severe event pattern",
+      "multi-location activity"
     ]
   },
   {
