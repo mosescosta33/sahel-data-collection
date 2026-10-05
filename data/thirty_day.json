@@ -1,41 +1,41 @@
 {
-  "generated_at": "2026-10-05T12:40:10.660456Z",
+  "generated_at": "2026-10-05T13:39:09.278023Z",
   "window_days": 30,
   "cutoff": "2026-09-05",
-  "reports": 239,
-  "incident_reports": 44,
-  "candidate_events": 40,
+  "reports": 241,
+  "incident_reports": 46,
+  "candidate_events": 42,
   "corroborated_events": 4,
-  "mapped_events": 36,
-  "mapped_locations": 73,
+  "mapped_events": 38,
+  "mapped_locations": 76,
   "distinct_sources": 65,
   "by_actor": {
-    "State": 24,
+    "State": 26,
     "JNIM": 8,
     "Other": 7,
     "Africa Corps/Wagner": 1
   },
   "by_country": {
-    "Mali": 35,
+    "Mali": 37,
     "Niger": 3,
     "Burkina Faso": 2
   },
   "by_event_type": {
-    "security operation": 20,
+    "security operation": 21,
     "attack": 8,
+    "offensive/campaign": 5,
     "ambush": 4,
-    "offensive/campaign": 4,
     "clash": 3,
     "kidnapping": 1
   },
   "by_language": {
-    "fr": 178,
+    "fr": 180,
     "en": 52,
     "ar": 9
   },
   "by_confidence": {
+    "moderate": 21,
     "low": 20,
-    "moderate": 19,
     "moderate-high": 1
   },
   "top_sources": [
@@ -47,7 +47,7 @@
     {
       "source_code": "SRC-0006",
       "source": "Malijet",
-      "count": 23
+      "count": 24
     },
     {
       "source_code": "SRC-0015",
@@ -107,14 +107,14 @@
     },
     {
       "location": "Kidal",
+      "count": 11
+    },
+    {
+      "location": "Mopti",
       "count": 10
     },
     {
       "location": "Bamako",
-      "count": 9
-    },
-    {
-      "location": "Mopti",
       "count": 9
     },
     {
@@ -130,12 +130,12 @@
       "count": 5
     },
     {
-      "location": "Mali",
+      "location": "Gao",
       "count": 4
     },
     {
-      "location": "Gao",
-      "count": 3
+      "location": "Mali",
+      "count": 4
     },
     {
       "location": "Tillabéri",
@@ -289,7 +289,7 @@
     {
       "date": "2026-10-03",
       "reports": 7,
-      "events": 2
+      "events": 3
     },
     {
       "date": "2026-10-04",
@@ -298,11 +298,109 @@
     },
     {
       "date": "2026-10-05",
-      "reports": 9,
-      "events": 0
+      "reports": 11,
+      "events": 1
     }
   ],
   "latest_events": [
+    {
+      "id": "01bd761171223091c0b7d5b62ccecc78477f6b34",
+      "event_date": "2026-10-05",
+      "event_date_confidence": "explicit-text",
+      "event_date_source": "explicit-calendar-date",
+      "published_at": "2026-10-05T12:38:00Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-05T13:38:38.271295Z",
+      "actor": "State",
+      "perpetrator": "State",
+      "target": null,
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [
+        "State"
+      ],
+      "parent_report_id": null,
+      "event_type": "security operation",
+      "country": "Mali",
+      "city": "Mopti",
+      "lat": 14.4843,
+      "lng": -4.1829,
+      "locations": [
+        {
+          "name": "Mopti",
+          "country": "Mali",
+          "lat": 14.4843,
+          "lng": -4.1829,
+          "confidence": "explicit-place"
+        }
+      ],
+      "title": "Operation Dougoukoloko: The FAMa strike a major terrorist base in Toguerekoumbé and neutralize a dozen fighters in Anéfif",
+      "summary": "Through a press release, the General Staff of the Armed Forces announced that the missions to secure the territory, integrated into Operation Dougoukoloko, would continue The Malian Armed Forces (FAMa), supported by their partners, carried out several targeted strikes on Monday, October 5, 2026. The use of precise intelligence has made it possible to locate, 25 km northwest of the village of Toguerekoumbé, in the Mopti region, several concentration points of armed terrorist groups forming an important base .",
+      "sources": [
+        "Malijet"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://malijet.com/actualte_dans_les_regions_du_mali/312181-operation-dougoukoloko-les-fama-frappent-une-importante-bas.html"
+      ],
+      "report_summaries": [
+        {
+          "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312181-operation-dougoukoloko-les-fama-frappent-une-importante-bas.html",
+          "source": "Malijet",
+          "title": "Operation Dougoukoloko: The FAMa strike a major terrorist base in Toguerekoumbé and neutralize a dozen fighters in Anéfif",
+          "summary": "Through a press release, the General Staff of the Armed Forces announced that the missions to secure the territory, integrated into Operation Dougoukoloko, would continue The Malian Armed Forces (FAMa), supported by their partners, carried out several targeted strikes on Monday, October 5, 2026. The use of precise intelligence has made it possible to locate, 25 km northwest of the village of Toguerekoumbé, in the Mopti region, several concentration points of armed terrorist groups forming an important base .",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "armed_group"
+          ],
+          "civilian_targeting_flag": false,
+          "casualty_claims": []
+        }
+      ],
+      "created_at": "2026-10-05T13:38:38.271295Z",
+      "updated_at": "2026-10-05T13:38:38.271295Z",
+      "extraction_confidence": "moderate",
+      "victim_categories": [
+        "armed_group"
+      ],
+      "civilian_targeting_flag": false,
+      "casualty_claims": [],
+      "fatalities_min": null,
+      "fatalities_max": null,
+      "fatalities_best": null,
+      "injured_min": null,
+      "injured_max": null,
+      "abducted_min": null,
+      "abducted_max": null,
+      "casualty_disputed": false,
+      "revision_history": [
+        {
+          "at": "2026-10-05T13:38:38.271295Z",
+          "type": "event_created",
+          "source": "Malijet"
+        }
+      ],
+      "corroboration": "single-source",
+      "confidence": "moderate",
+      "independent_source_domains": [
+        "malijet.com"
+      ],
+      "independent_source_count": 1,
+      "significance": "MAJOR",
+      "significance_reasons": [
+        "strategic/severe event pattern"
+      ]
+    },
     {
       "id": "108f10b93684b67e69d1cb1127ae6ec56480eef0",
       "event_date": "2026-10-04",
@@ -508,6 +606,115 @@
       "confidence": "moderate",
       "independent_source_domains": [
         "malijet.com"
+      ],
+      "independent_source_count": 1,
+      "significance": "MAJOR",
+      "significance_reasons": [
+        "strategic/severe event pattern",
+        "multi-location activity"
+      ]
+    },
+    {
+      "id": "9901254f2c0ac7d2b5f84ae51fc25d689544ad99",
+      "event_date": "2026-10-03",
+      "event_date_confidence": "explicit-text",
+      "event_date_source": "relative-weekday",
+      "published_at": "2026-10-05T13:24:23Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-05T13:38:38.446762Z",
+      "actor": "State",
+      "perpetrator": "State",
+      "target": null,
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [
+        "State",
+        "JNIM"
+      ],
+      "parent_report_id": null,
+      "event_type": "offensive/campaign",
+      "country": "Mali",
+      "city": "Kidal",
+      "lat": 18.4411,
+      "lng": 1.4078,
+      "locations": [
+        {
+          "name": "Kidal",
+          "country": "Mali",
+          "lat": 18.4411,
+          "lng": 1.4078,
+          "confidence": "explicit-place"
+        },
+        {
+          "name": "Gao",
+          "country": "Mali",
+          "lat": 16.2717,
+          "lng": -0.0447,
+          "confidence": "explicit-place"
+        }
+      ],
+      "title": "Mali: towards a major FAMa offensive in Kidal against the Fla and JNIM",
+      "summary": "Major troop movements and a series of strikes around Kidal revive questions about the intentions of the Malian Armed Forces in the north of the country. A new operation against the Fla and JNIM positions could emerge, even if the army has not yet announced any reconquest offensive . More than 200 vehicles arrived Saturday in Anéfis, Kidal region, while another convoy of about 80 vehicles reached Aguelhoc on Sunday.",
+      "sources": [
+        "La Nouvelle Tribune (Bénin)"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://lanouvelletribune.info/2026/10/mali-vers-une-offensive-majeure-des-fama-a-kidal-face-au-fla-et-jnim/"
+      ],
+      "report_summaries": [
+        {
+          "url": "https://lanouvelletribune.info/2026/10/mali-vers-une-offensive-majeure-des-fama-a-kidal-face-au-fla-et-jnim/",
+          "source": "La Nouvelle Tribune (Bénin)",
+          "title": "Mali: towards a major FAMa offensive in Kidal against the Fla and JNIM",
+          "summary": "Major troop movements and a series of strikes around Kidal revive questions about the intentions of the Malian Armed Forces in the north of the country. A new operation against the Fla and JNIM positions could emerge, even if the army has not yet announced any reconquest offensive . More than 200 vehicles arrived Saturday in Anéfis, Kidal region, while another convoy of about 80 vehicles reached Aguelhoc on Sunday.",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "security_force",
+            "armed_group"
+          ],
+          "civilian_targeting_flag": false,
+          "casualty_claims": []
+        }
+      ],
+      "created_at": "2026-10-05T13:38:38.446762Z",
+      "updated_at": "2026-10-05T13:38:38.446762Z",
+      "extraction_confidence": "moderate",
+      "victim_categories": [
+        "security_force",
+        "armed_group"
+      ],
+      "civilian_targeting_flag": false,
+      "casualty_claims": [],
+      "fatalities_min": null,
+      "fatalities_max": null,
+      "fatalities_best": null,
+      "injured_min": null,
+      "injured_max": null,
+      "abducted_min": null,
+      "abducted_max": null,
+      "casualty_disputed": false,
+      "revision_history": [
+        {
+          "at": "2026-10-05T13:38:38.446762Z",
+          "type": "event_created",
+          "source": "La Nouvelle Tribune (Bénin)"
+        }
+      ],
+      "corroboration": "single-source",
+      "confidence": "moderate",
+      "independent_source_domains": [
+        "lanouvelletribune.info"
       ],
       "independent_source_count": 1,
       "significance": "MAJOR",
@@ -3294,208 +3501,45 @@
         "strategic/severe event pattern",
         "multi-location activity"
       ]
-    },
-    {
-      "id": "1a0ba63571bcbeb260576cfc6c409cb672ff4607",
-      "event_date": "2026-09-19",
-      "event_date_confidence": "explicit-text",
-      "event_date_source": "explicit-calendar-date",
-      "published_at": "2026-09-21T11:30:07Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-09-21T12:30:39.468220Z",
-      "actor": "State",
-      "perpetrator": "State",
-      "target": null,
-      "claimant": null,
-      "supporting_force": null,
-      "mentioned_actors": [
-        "State"
-      ],
-      "parent_report_id": null,
-      "event_type": "security operation",
-      "country": "Mali",
-      "city": "Dioura",
-      "lat": 14.82528,
-      "lng": -5.25139,
-      "locations": [
-        {
-          "name": "Dioura",
-          "country": "Mali",
-          "lat": 14.82528,
-          "lng": -5.25139,
-          "confidence": "explicit-place"
-        },
-        {
-          "name": "Mopti",
-          "country": "Mali",
-          "lat": 14.4843,
-          "lng": -4.1829,
-          "confidence": "explicit-place"
-        }
-      ],
-      "title": "Security: A Ukrainian drone shot down by Malian special forces north of Dioura",
-      "summary": "As part of their sovereign missions to monitor and secure the national territory, the Malian Armed Forces (FAMa) shot down a Ukrainian-made drone on Saturday, September 19, 2026 at 5:30 p.m. . The craft was intercepted and neutralized by special forces about 5 kilometers north of the locality of Dioura, in the Mopti region.",
-      "sources": [
-        "Malijet"
-      ],
-      "languages": [
-        "fr"
-      ],
-      "source_count": 1,
-      "report_urls": [
-        "https://malijet.com/flash-info/311945-securite-un-drone-ukrainien-abattu-par-les-forces-speciale.html"
-      ],
-      "report_summaries": [
-        {
-          "url": "https://malijet.com/flash-info/311945-securite-un-drone-ukrainien-abattu-par-les-forces-speciale.html",
-          "source": "Malijet",
-          "title": "Security: A Ukrainian drone shot down by Malian special forces north of Dioura",
-          "summary": "As part of their sovereign missions to monitor and secure the national territory, the Malian Armed Forces (FAMa) shot down a Ukrainian-made drone on Saturday, September 19, 2026 at 5:30 p.m. . The craft was intercepted and neutralized by special forces about 5 kilometers north of the locality of Dioura, in the Mopti region.",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        }
-      ],
-      "created_at": "2026-09-21T12:30:39.468220Z",
-      "updated_at": "2026-09-21T12:30:39.468220Z",
-      "extraction_confidence": "low",
-      "victim_categories": [],
-      "civilian_targeting_flag": false,
-      "casualty_claims": [],
-      "fatalities_min": null,
-      "fatalities_max": null,
-      "fatalities_best": null,
-      "injured_min": null,
-      "injured_max": null,
-      "abducted_min": null,
-      "abducted_max": null,
-      "casualty_disputed": false,
-      "revision_history": [
-        {
-          "at": "2026-09-21T12:30:39.468220Z",
-          "type": "event_created",
-          "source": "Malijet"
-        }
-      ],
-      "corroboration": "single-source",
-      "confidence": "low",
-      "independent_source_domains": [
-        "malijet.com"
-      ],
-      "independent_source_count": 1,
-      "significance": "MAJOR",
-      "significance_reasons": [
-        "multi-location activity"
-      ]
-    },
-    {
-      "id": "1d7c861813ce9a0fdcdff85ff4ad6f215a415fe3",
-      "event_date": "2026-09-19",
-      "event_date_confidence": "explicit-text",
-      "event_date_source": "explicit-calendar-date",
-      "published_at": "2026-09-20T07:54:51Z",
-      "published_date_source": "stored",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-09-20T08:26:52.057143Z",
-      "actor": "State",
-      "perpetrator": "State",
-      "target": null,
-      "claimant": null,
-      "supporting_force": null,
-      "mentioned_actors": [
-        "State"
-      ],
-      "parent_report_id": null,
-      "event_type": "security operation",
-      "country": "Mali",
-      "city": "Dioura",
-      "lat": 14.82528,
-      "lng": -5.25139,
-      "locations": [
-        {
-          "name": "Dioura",
-          "country": "Mali",
-          "lat": 14.82528,
-          "lng": -5.25139,
-          "confidence": "explicit-place"
-        }
-      ],
-      "title": "Mali: Heavy losses inflicted on terrorist groups during a major operation in Dioura",
-      "summary": "The General Staff of the Armed Forces informs the national opinion that the Malian Armed Forces (FAMa), supported by their partners, are continuing operations to monitor, control and secure the national territory as part of Operation Dougoukoloko This Saturday, September 19, 2026, the units engaged in the Dioura sector continued the targeted strikes against the residual enemy positions on the outskirts of the military garrison and on the outskirts of the city.",
-      "sources": [
-        "Bamada"
-      ],
-      "languages": [
-        "fr"
-      ],
-      "source_count": 1,
-      "report_urls": [
-        "https://bamada.net/mali-lourdes-pertes-infligees-aux-groupes-terroristes-lors-dune-operation-denvergure-a-dioura"
-      ],
-      "report_summaries": [
-        {
-          "url": "https://bamada.net/mali-lourdes-pertes-infligees-aux-groupes-terroristes-lors-dune-operation-denvergure-a-dioura",
-          "source": "Bamada",
-          "title": "Mali: Heavy losses inflicted on terrorist groups during a major operation in Dioura",
-          "summary": "The General Staff of the Armed Forces informs the national opinion that the Malian Armed Forces (FAMa), supported by their partners, are continuing operations to monitor, control and secure the national territory as part of Operation Dougoukoloko This Saturday, September 19, 2026, the units engaged in the Dioura sector continued the targeted strikes against the residual enemy positions on the outskirts of the military garrison and on the outskirts of the city.",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "armed_group"
-          ],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        }
-      ],
-      "created_at": "2026-09-20T08:26:52.057143Z",
-      "updated_at": "2026-09-20T08:26:52.057143Z",
-      "extraction_confidence": "low",
-      "victim_categories": [
-        "armed_group"
-      ],
-      "civilian_targeting_flag": false,
-      "casualty_claims": [],
-      "fatalities_min": null,
-      "fatalities_max": null,
-      "fatalities_best": null,
-      "injured_min": null,
-      "injured_max": null,
-      "abducted_min": null,
-      "abducted_max": null,
-      "casualty_disputed": false,
-      "revision_history": [
-        {
-          "at": "2026-09-20T08:26:52.057143Z",
-          "type": "event_created",
-          "source": "Bamada"
-        }
-      ],
-      "corroboration": "single-source",
-      "confidence": "low",
-      "independent_source_domains": [
-        "bamada.net"
-      ],
-      "independent_source_count": 1,
-      "significance": "ROUTINE",
-      "significance_reasons": [
-        "limited currently observed significance"
-      ]
     }
   ],
   "latest_reports": [
+    {
+      "published_at": "2026-10-05T13:24:23Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-05T13:38:38.446762Z",
+      "discovered_at": "2026-10-05T13:38:38.446762Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0092",
+      "source": "La Nouvelle Tribune (Bénin)",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Kidal",
+      "event_type": "offensive/campaign",
+      "candidate_event": true,
+      "title": "Mali: towards a major FAMa offensive in Kidal against the Fla and JNIM",
+      "url": "https://lanouvelletribune.info/2026/10/mali-vers-une-offensive-majeure-des-fama-a-kidal-face-au-fla-et-jnim/"
+    },
+    {
+      "published_at": "2026-10-05T12:38:00Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-05T13:38:38.271295Z",
+      "discovered_at": "2026-10-05T13:38:38.271295Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0006",
+      "source": "Malijet",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Mopti",
+      "event_type": "security operation",
+      "candidate_event": true,
+      "title": "Operation Dougoukoloko: The FAMa strike a major terrorist base in Toguerekoumbé and neutralize a dozen fighters in Anéfif",
+      "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312181-operation-dougoukoloko-les-fama-frappent-une-importante-bas.html"
+    },
     {
       "published_at": "2026-10-05T11:57:25Z",
       "published_date_source": "jsonld:datePublished",
@@ -4179,42 +4223,6 @@
       "candidate_event": false,
       "title": "Burkina Faso",
       "url": "https://www.africanews.com/country/burkina-faso/"
-    },
-    {
-      "published_at": "2026-10-01T13:12:31Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-01T13:36:54.937265Z",
-      "discovered_at": "2026-10-01T13:36:54.937265Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0013",
-      "source": "Wakat Sera",
-      "language": "fr",
-      "actor": "State",
-      "country": "Burkina Faso",
-      "city": "Ouagadougou",
-      "event_type": "clash",
-      "candidate_event": false,
-      "title": "RPP Night: a stopover to replenish energy",
-      "url": "https://www.wakatsera.com/nuit-de-la-rpp-une-halte-pour-refaire-le-plein-denergie/"
-    },
-    {
-      "published_at": "2026-10-01T12:26:27Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-01T12:39:10.910493Z",
-      "discovered_at": "2026-10-01T12:39:10.910493Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0013",
-      "source": "Wakat Sera",
-      "language": "fr",
-      "actor": null,
-      "country": "Burkina Faso",
-      "city": null,
-      "event_type": "security operation",
-      "candidate_event": false,
-      "title": "Fight against fraud and clandestine gold mining: Condor Authority and its men strike hard",
-      "url": "https://www.wakatsera.com/lutte-contre-la-fraude-et-lorpaillage-clandestin-condor-autorite-et-ses-hommes-frappent-fort/"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
