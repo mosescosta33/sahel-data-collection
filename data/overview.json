@@ -1,8 +1,8 @@
 {
   "status": "LIVE",
   "site_patch_version": "3.3.5",
-  "status_detail": "Last automated GitHub collection completed 2026-10-05T13:39:09.347757Z; 155/182 sources yielded a direct or indexed discovery path.",
-  "last_collection": "2026-10-05T13:39:09.347757Z",
+  "status_detail": "Last automated GitHub collection completed 2026-10-05T14:37:41.064506Z; 156/182 sources yielded a direct or indexed discovery path.",
+  "last_collection": "2026-10-05T14:37:41.064506Z",
   "reports_24h": 14,
   "distinct_sources_24h": 9,
   "candidate_events_24h": 3,
@@ -10,8 +10,8 @@
   "mapped_locations_24h": 5,
   "sources_configured": 182,
   "sources_live": 137,
-  "sources_degraded": 18,
-  "sources_failed": 27,
+  "sources_degraded": 19,
+  "sources_failed": 26,
   "source_onboarding": {
     "candidate_total": 300,
     "verified_or_active": 165,
@@ -31,11 +31,11 @@
   "language_coverage": {
     "fr": {
       "configured_sources": 63,
-      "archive_reports": 292,
-      "reports_30d": 209,
+      "archive_reports": 294,
+      "reports_30d": 211,
       "distinct_sources_30d": 38,
-      "candidate_event_reports_30d": 45,
-      "translations_success_archive": 292,
+      "candidate_event_reports_30d": 46,
+      "translations_success_archive": 294,
       "translations_pending_or_failed": 0
     },
     "en": {
@@ -67,12 +67,12 @@
     }
   },
   "source_type_coverage": {
+    "aggregator": 25,
+    "local_media": 189,
     "international_media": 178,
-    "local_media": 188,
     "research": 48,
     "regional_media": 14,
     "official": 27,
-    "aggregator": 24,
     "humanitarian": 3,
     "analysis_media": 10,
     "defense_media": 16,
@@ -82,7 +82,7 @@
     "unspecified": 1
   },
   "threat": {
-    "generated_at": "2026-10-05T13:39:09.329145Z",
+    "generated_at": "2026-10-05T14:37:41.032181Z",
     "model_version": "0.1-experimental",
     "label": "Experimental Conflict Threat Level",
     "regional": {
@@ -91,7 +91,7 @@
     },
     "countries": {
       "Mali": {
-        "score": 71,
+        "score": 74,
         "level": "HIGH",
         "trend": "STABLE",
         "confidence": "HIGH",
@@ -106,7 +106,7 @@
           "9 significant/major event(s)",
           "activity across 7 named locations"
         ],
-        "independent_domains_7d": 7
+        "independent_domains_7d": 8
       },
       "Burkina Faso": {
         "score": 22,
@@ -144,37 +144,37 @@
     "method_note": "Experimental research indicator derived from fused candidate events, recent country-relative tempo, significance, militant activity, civilian-threat signals, geographic spread and corroboration. It is not a travel advisory, verified incident count, or forecast. Collection gaps reduce confidence rather than automatically reducing threat."
   },
   "data_quality": {
-    "generated_at": "2026-10-05T13:39:09.347222Z",
+    "generated_at": "2026-10-05T14:37:41.063704Z",
     "events_30d": 42,
     "date_resolution_pct": 93,
     "precise_geography_pct": 90,
     "actor_attribution_pct": 83,
-    "multi_source_corroboration_pct": 10,
+    "multi_source_corroboration_pct": 12,
     "collection_blind_spots": [
       "45 configured sources are degraded or failed"
     ],
     "collection_status": "DEGRADED",
     "language_reports_30d": {
-      "fr": 209,
+      "fr": 211,
       "en": 61,
       "ar": 9
     },
     "note": "Quality percentages describe fields present in Sahel Intel fused candidate events; they are not accuracy estimates."
   },
   "last_run": {
-    "started_at": "2026-10-05T13:33:40.650548Z",
-    "finished_at": "2026-10-05T13:39:09.347757Z",
+    "started_at": "2026-10-05T14:33:03.821808Z",
+    "finished_at": "2026-10-05T14:37:41.064506Z",
     "status": "complete",
     "site_patch_version": "3.3.5",
     "sources_total": 182,
-    "sources_success": 155,
-    "sources_failed": 27,
-    "documents_discovered": 11887,
-    "documents_selected": 24,
-    "prefetch_skipped": 11624,
-    "rejected_cache_skipped": 551,
-    "known_url_skipped": 111,
-    "duplicate_url_skipped": 112,
+    "sources_success": 156,
+    "sources_failed": 26,
+    "documents_discovered": 11568,
+    "documents_selected": 30,
+    "prefetch_skipped": 11267,
+    "rejected_cache_skipped": 532,
+    "known_url_skipped": 118,
+    "duplicate_url_skipped": 137,
     "title_duplicates_skipped": 16,
     "source_cap_skipped": 0,
     "documents_retained": 2,
@@ -185,12 +185,12 @@
     "report_target_met": false,
     "country_report_floor": 20,
     "retained_cycle_by_country": {
-      "Mali": 2,
-      "Burkina Faso": 0,
+      "Mali": 1,
+      "Burkina Faso": 1,
       "Niger": 0
     },
     "collection_waves": 2,
-    "fetch_candidates_attempted": 24,
+    "fetch_candidates_attempted": 30,
     "targeted_sources_queried": 36,
     "targeted_links_discovered": 1,
     "dynamic_sources_loaded": 108,
@@ -203,28 +203,28 @@
     "translations_attempted": 2,
     "translations": 2,
     "translation_failures": 0,
-    "archive_reports": 529,
+    "archive_reports": 531,
     "candidate_events_archive": 58,
     "candidate_events_7d": 10,
     "candidate_events_30d": 42,
-    "reports_30d": 241,
+    "reports_30d": 242,
     "sources_30d": 65,
-    "events_added": 2,
+    "events_added": 0,
     "events_removed": 0,
-    "event_changes": 2,
+    "event_changes": 0,
     "indexed_context_archive": 32,
     "research_leads_archive": 179,
     "analytical_context_archive": 23,
     "analytical_child_incidents": 8,
     "event_date_unresolved_reports": 0,
     "event_date_proxy_reports": 4,
-    "reports_missing_publication_timestamp": 38,
+    "reports_missing_publication_timestamp": 39,
     "reports_date_only_publication": 7,
     "reports_missing_collection_timestamp": 0,
     "funnel_unaccounted": 0,
     "selected_by_language": {
-      "fr": 22,
-      "en": 0,
+      "fr": 25,
+      "en": 3,
       "ar": 2,
       "other": 0
     },
@@ -235,9 +235,9 @@
       "other": 0
     },
     "precision_rejects_by_language": {
-      "fr": 18,
-      "en": 0,
-      "ar": 2,
+      "fr": 12,
+      "en": 2,
+      "ar": 1,
       "other": 0
     }
   }

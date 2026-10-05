@@ -139,14 +139,16 @@
     "title": "Mali: the army on the move in the Kidal region",
     "summary": "In Mali, large army convoys arrived in Anéfis and Aguelhoc over the weekend. These are the last two camps controlled by the army in the Kidal region, since the Fla separatists and the Jnim jihadists, linked to al-Qaeda, seized Kidal and Tessalit last April On the evening of October 4 and the morning of October 5, air strikes were carried out in the area. The army has not disclosed its intentions, but these movements could foreshadow the beginning of a reconquest operation.",
     "sources": [
-      "RFI Afrique"
+      "RFI Afrique",
+      "Cridem (Carrefour de la République Democratique)"
     ],
     "languages": [
       "fr"
     ],
-    "source_count": 1,
+    "source_count": 2,
     "report_urls": [
-      "https://www.rfi.fr/fr/afrique/20261005-mali-l-arm%C3%A9e-en-mouvement-dans-la-r%C3%A9gion-de-kidal"
+      "https://www.rfi.fr/fr/afrique/20261005-mali-l-arm%C3%A9e-en-mouvement-dans-la-r%C3%A9gion-de-kidal",
+      "https://cridem.org/C_Info.php?article=797092"
     ],
     "report_summaries": [
       {
@@ -167,10 +169,29 @@
         ],
         "civilian_targeting_flag": false,
         "casualty_claims": []
+      },
+      {
+        "url": "https://cridem.org/C_Info.php?article=797092",
+        "source": "Cridem (Carrefour de la République Democratique)",
+        "title": "Mali: the army on the move in the Kidal region",
+        "summary": "05-10-2026 14:31 - Mali: the armour on the move in the Kidal RFI-Africa region -- In Mali, large convoys of the armour arrived during the weekend. These are the last two camps controlled by the army in the Kidal region, since the Fla and Jnim jihadists, linked to the Qaû₤da, seized Kidal and Tessalit last April. .",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "security_force",
+          "armed_group"
+        ],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
       }
     ],
     "created_at": "2026-10-05T12:39:03.975627Z",
-    "updated_at": "2026-10-05T12:39:03.975627Z",
+    "updated_at": "2026-10-05T14:37:09.326984Z",
     "extraction_confidence": "low",
     "victim_categories": [
       "security_force",
@@ -191,14 +212,20 @@
         "at": "2026-10-05T12:39:03.975627Z",
         "type": "event_created",
         "source": "RFI Afrique"
+      },
+      {
+        "at": "2026-10-05T14:37:09.326984Z",
+        "type": "corroboration_or_geography_update",
+        "source": "Cridem (Carrefour de la République Democratique)"
       }
     ],
-    "corroboration": "single-source",
-    "confidence": "low",
+    "corroboration": "limited corroboration",
+    "confidence": "moderate",
     "independent_source_domains": [
-      "rfi.fr"
+      "rfi.fr",
+      "cridem.org"
     ],
-    "independent_source_count": 1,
+    "independent_source_count": 2,
     "significance": "MAJOR",
     "significance_reasons": [
       "multi-location activity"
