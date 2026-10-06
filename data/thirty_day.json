@@ -1,42 +1,42 @@
 {
-  "generated_at": "2026-10-05T22:28:27.964524Z",
+  "generated_at": "2026-10-06T00:50:07.625632Z",
   "window_days": 30,
-  "cutoff": "2026-09-05",
-  "reports": 244,
-  "incident_reports": 47,
-  "candidate_events": 44,
+  "cutoff": "2026-09-06",
+  "reports": 247,
+  "incident_reports": 49,
+  "candidate_events": 46,
   "corroborated_events": 5,
-  "mapped_events": 41,
-  "mapped_locations": 94,
+  "mapped_events": 42,
+  "mapped_locations": 95,
   "distinct_sources": 64,
   "by_actor": {
-    "State": 28,
+    "State": 29,
     "JNIM": 8,
-    "Other": 7,
+    "Other": 8,
     "Africa Corps/Wagner": 1
   },
   "by_country": {
-    "Mali": 39,
+    "Mali": 41,
     "Niger": 3,
     "Burkina Faso": 2
   },
   "by_event_type": {
-    "security operation": 22,
+    "security operation": 23,
     "attack": 8,
     "offensive/campaign": 5,
     "ambush": 4,
     "clash": 3,
-    "kidnapping": 1,
+    "kidnapping": 2,
     "raid": 1
   },
   "by_language": {
-    "fr": 181,
+    "fr": 184,
     "en": 52,
     "ar": 11
   },
   "by_confidence": {
     "moderate": 23,
-    "low": 20,
+    "low": 22,
     "moderate-high": 1
   },
   "top_sources": [
@@ -48,7 +48,7 @@
     {
       "source_code": "SRC-0006",
       "source": "Malijet",
-      "count": 24
+      "count": 26
     },
     {
       "source_code": "SRC-0015",
@@ -56,14 +56,14 @@
       "count": 12
     },
     {
-      "source_code": "SRC-0012",
-      "source": "Sidwaya",
+      "source_code": "SRC-0001",
+      "source": "RFI Afrique",
       "count": 11
     },
     {
-      "source_code": "SRC-0001",
-      "source": "RFI Afrique",
-      "count": 10
+      "source_code": "SRC-0012",
+      "source": "Sidwaya",
+      "count": 11
     },
     {
       "source_code": "SRC-0075",
@@ -103,11 +103,11 @@
   ],
   "top_locations": [
     {
-      "location": "Dioura",
-      "count": 12
+      "location": "Kidal",
+      "count": 13
     },
     {
-      "location": "Kidal",
+      "location": "Dioura",
       "count": 12
     },
     {
@@ -139,12 +139,12 @@
       "count": 4
     },
     {
-      "location": "Tessalit",
+      "location": "Mali",
       "count": 4
     },
     {
-      "location": "Mali",
-      "count": 3
+      "location": "Tessalit",
+      "count": 4
     },
     {
       "location": "Niono",
@@ -152,11 +152,6 @@
     }
   ],
   "daily": [
-    {
-      "date": "2026-09-06",
-      "reports": 0,
-      "events": 0
-    },
     {
       "date": "2026-09-07",
       "reports": 0,
@@ -299,11 +294,198 @@
     },
     {
       "date": "2026-10-05",
-      "reports": 14,
-      "events": 3
+      "reports": 15,
+      "events": 5
+    },
+    {
+      "date": "2026-10-06",
+      "reports": 2,
+      "events": 0
     }
   ],
   "latest_events": [
+    {
+      "id": "f47295d6058957f39b2b5a1381de226052002f29",
+      "event_date": "2026-10-05",
+      "event_date_confidence": "publication-proxy",
+      "event_date_source": "jsonld:datePublished",
+      "published_at": "2026-10-05T22:34:37Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-06T00:49:29.321015Z",
+      "actor": "Other",
+      "perpetrator": null,
+      "target": null,
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [],
+      "parent_report_id": null,
+      "event_type": "kidnapping",
+      "country": "Mali",
+      "city": null,
+      "lat": null,
+      "lng": null,
+      "locations": [],
+      "title": "Mali: five months after the kidnapping of Mountaga Tall, a former Minister of Justice calls on the authorities",
+      "summary": "In Mali, it has now been more than five months since Mr. Mountaga Tall, a lawyer and former minister, was abducted from his home in early May by hooded men from the State Security. After him, his son and several personalities committed to the defense of democracy were kidnapped by the Malian services .",
+      "sources": [
+        "RFI Afrique"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://www.rfi.fr/fr/afrique/20261005-mali-cinq-mois-apr%C3%A8s-l-enl%C3%A8vement-de-mountaga-tall-un-ex-ministre-de-la-justice-interpelle-les-autorit%C3%A9s"
+      ],
+      "report_summaries": [
+        {
+          "url": "https://www.rfi.fr/fr/afrique/20261005-mali-cinq-mois-apr%C3%A8s-l-enl%C3%A8vement-de-mountaga-tall-un-ex-ministre-de-la-justice-interpelle-les-autorit%C3%A9s",
+          "source": "RFI Afrique",
+          "title": "Mali: five months after the kidnapping of Mountaga Tall, a former Minister of Justice calls on the authorities",
+          "summary": "In Mali, it has now been more than five months since Mr. Mountaga Tall, a lawyer and former minister, was abducted from his home in early May by hooded men from the State Security. After him, his son and several personalities committed to the defense of democracy were kidnapped by the Malian services .",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [],
+          "civilian_targeting_flag": false,
+          "casualty_claims": []
+        }
+      ],
+      "created_at": "2026-10-06T00:49:29.321015Z",
+      "updated_at": "2026-10-06T00:49:29.321015Z",
+      "extraction_confidence": "low",
+      "victim_categories": [],
+      "civilian_targeting_flag": false,
+      "casualty_claims": [],
+      "fatalities_min": null,
+      "fatalities_max": null,
+      "fatalities_best": null,
+      "injured_min": null,
+      "injured_max": null,
+      "abducted_min": null,
+      "abducted_max": null,
+      "casualty_disputed": false,
+      "revision_history": [
+        {
+          "at": "2026-10-06T00:49:29.321015Z",
+          "type": "event_created",
+          "source": "RFI Afrique"
+        }
+      ],
+      "corroboration": "single-source",
+      "confidence": "low",
+      "independent_source_domains": [
+        "rfi.fr"
+      ],
+      "independent_source_count": 1,
+      "significance": "SIGNIFICANT",
+      "significance_reasons": [
+        "operational security event"
+      ]
+    },
+    {
+      "id": "8d462f6b2d4df083fe50bbc68c184332d7779126",
+      "event_date": "2026-10-05",
+      "event_date_confidence": "explicit-text",
+      "event_date_source": "explicit-calendar-date",
+      "published_at": "2026-10-06T00:25:06Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-06T00:49:24.464946Z",
+      "actor": "State",
+      "perpetrator": "State",
+      "target": null,
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [
+        "State"
+      ],
+      "parent_report_id": null,
+      "event_type": "security operation",
+      "country": "Mali",
+      "city": "Kidal",
+      "lat": 18.4411,
+      "lng": 1.4078,
+      "locations": [
+        {
+          "name": "Kidal",
+          "country": "Mali",
+          "lat": 18.4411,
+          "lng": 1.4078,
+          "confidence": "explicit-place"
+        }
+      ],
+      "title": "Operation Dougoukoloko: FAMa inflicts heavy losses on terrorists in Tinzaouatène (Kidal)",
+      "summary": "According to a recent statement from the General Staff of the Armed Forces, air-land maneuvers are continuing in the Kidal area under the aegis of Operation Dougoukoloko. These strikes are a continuation of the actions carried out earlier in the day on Monday, October 5, 2026 Several positions of armed terrorist groups, located in Tinzaouatène and its surroundings, were subjected to precision strikes.",
+      "sources": [
+        "Malijet"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://malijet.com/actualte_dans_les_regions_du_mali/312187-operation-dougoukoloko-les-fama-infligent-de-lourdes-perte-1.html"
+      ],
+      "report_summaries": [
+        {
+          "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312187-operation-dougoukoloko-les-fama-infligent-de-lourdes-perte-1.html",
+          "source": "Malijet",
+          "title": "Operation Dougoukoloko: FAMa inflicts heavy losses on terrorists in Tinzaouatène (Kidal)",
+          "summary": "According to a recent statement from the General Staff of the Armed Forces, air-land maneuvers are continuing in the Kidal area under the aegis of Operation Dougoukoloko. These strikes are a continuation of the actions carried out earlier in the day on Monday, October 5, 2026 Several positions of armed terrorist groups, located in Tinzaouatène and its surroundings, were subjected to precision strikes.",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "armed_group"
+          ],
+          "civilian_targeting_flag": false,
+          "casualty_claims": []
+        }
+      ],
+      "created_at": "2026-10-06T00:49:24.464946Z",
+      "updated_at": "2026-10-06T00:49:24.464946Z",
+      "extraction_confidence": "low",
+      "victim_categories": [
+        "armed_group"
+      ],
+      "civilian_targeting_flag": false,
+      "casualty_claims": [],
+      "fatalities_min": null,
+      "fatalities_max": null,
+      "fatalities_best": null,
+      "injured_min": null,
+      "injured_max": null,
+      "abducted_min": null,
+      "abducted_max": null,
+      "casualty_disputed": false,
+      "revision_history": [
+        {
+          "at": "2026-10-06T00:49:24.464946Z",
+          "type": "event_created",
+          "source": "Malijet"
+        }
+      ],
+      "corroboration": "single-source",
+      "confidence": "low",
+      "independent_source_domains": [
+        "malijet.com"
+      ],
+      "independent_source_count": 1,
+      "significance": "SIGNIFICANT",
+      "significance_reasons": [
+        "operational security event"
+      ]
+    },
     {
       "id": "377dcb280e44b3d68c77d1d595e54f0614ab2753",
       "event_date": "2026-10-05",
@@ -3310,296 +3492,63 @@
       "significance_reasons": [
         "strategic/severe event pattern"
       ]
-    },
-    {
-      "id": "e8c7d153fab7ade8088e457f0ed475f83cdda1fc",
-      "event_date": "2026-09-21",
-      "event_date_confidence": "publication-proxy",
-      "event_date_source": "feed",
-      "published_at": "2026-09-21T16:17:43Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-09-21T17:24:40.300675Z",
-      "actor": "State",
-      "perpetrator": "State",
-      "target": null,
-      "claimant": null,
-      "supporting_force": null,
-      "mentioned_actors": [
-        "State"
-      ],
-      "parent_report_id": null,
-      "event_type": "security operation",
-      "country": "Mali",
-      "city": "Sévaré",
-      "lat": 14.5272,
-      "lng": -4.0934,
-      "locations": [
-        {
-          "name": "Sévaré",
-          "country": "Mali",
-          "lat": 14.5272,
-          "lng": -4.0934,
-          "confidence": "explicit-place"
-        },
-        {
-          "name": "Dioura",
-          "country": "Mali",
-          "lat": 14.82528,
-          "lng": -5.25139,
-          "confidence": "explicit-place"
-        },
-        {
-          "name": "Tessalit",
-          "country": "Mali",
-          "lat": 20.2,
-          "lng": 1.0,
-          "confidence": "explicit-place"
-        }
-      ],
-      "title": "Mali: FAMa targeted in Kassala, Sévaré and Dioura",
-      "summary": "As part of Operation Dougoukoloko, the Malian Armed Forces (FAMa) have stepped up targeted strikes in recent days. Targeting logistical caches and terrorist elements, these actions illustrate the ongoing pressure on armed groups across the country. The Malian army leaves no respite to the armed terrorist groups .",
-      "sources": [
-        "Studio Tamani",
-        "Bamada",
-        "Malijet"
-      ],
-      "languages": [
-        "fr"
-      ],
-      "source_count": 3,
-      "report_urls": [
-        "https://www.studiotamani.org/208003-mali-attaques-fama-kassela-sevare-dioura-strategie-groupes-armes",
-        "https://bamada.net/mali-les-fama-ciblees-a-kassala-sevare-et-dioura",
-        "https://malijet.com/actualte_dans_les_regions_du_mali/311972-lutte-antiterroriste-nouvelles-frappes-ciblees-des-fama-a.html"
-      ],
-      "report_summaries": [
-        {
-          "url": "https://www.studiotamani.org/208003-mali-attaques-fama-kassela-sevare-dioura-strategie-groupes-armes",
-          "source": "Studio Tamani",
-          "title": "Mali: FAMa targeted in Kassala, Sévaré and Dioura",
-          "summary": "The Malian Armed Forces have been the target of several attacks this weekend, including in Kassala, Sévaré and Dioura. Attacks attributed to armed groups. This upsurge in violence raises questions about the capacities and objectives of these groups For Dr.",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "armed_group"
-          ],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        },
-        {
-          "url": "https://bamada.net/mali-les-fama-ciblees-a-kassala-sevare-et-dioura",
-          "source": "Bamada",
-          "title": "Mali: FAMa targeted in Kassala, Sévaré and Dioura",
-          "summary": "The Malian Armed Forces have been the target of several attacks this weekend, including in Kassala, Sévaré and Dioura. Attacks attributed to armed groups. This upsurge in violence raises questions about the capacities and objectives of these groups For Dr.",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "armed_group"
-          ],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        },
-        {
-          "url": "https://malijet.com/actualte_dans_les_regions_du_mali/311972-lutte-antiterroriste-nouvelles-frappes-ciblees-des-fama-a.html",
-          "source": "Malijet",
-          "title": "Counter-terrorism: new targeted FAMa strikes in Sévaré, Dioura and Tessalit",
-          "summary": "As part of Operation Dougoukoloko, the Malian Armed Forces (FAMa) have stepped up targeted strikes in recent days. Targeting logistical caches and terrorist elements, these actions illustrate the ongoing pressure on armed groups across the country. The Malian army leaves no respite to the armed terrorist groups .",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "security_force",
-            "armed_group"
-          ],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        }
-      ],
-      "created_at": "2026-09-21T17:24:40.300675Z",
-      "updated_at": "2026-09-22T13:30:20.996068Z",
-      "extraction_confidence": "low",
-      "victim_categories": [
-        "armed_group",
-        "security_force"
-      ],
-      "civilian_targeting_flag": false,
-      "casualty_claims": [],
-      "fatalities_min": null,
-      "fatalities_max": null,
-      "fatalities_best": null,
-      "injured_min": null,
-      "injured_max": null,
-      "abducted_min": null,
-      "abducted_max": null,
-      "casualty_disputed": false,
-      "revision_history": [
-        {
-          "at": "2026-09-21T17:24:40.300675Z",
-          "type": "event_created",
-          "source": "Studio Tamani"
-        },
-        {
-          "at": "2026-09-21T22:27:00.921705Z",
-          "type": "corroboration_or_geography_update",
-          "source": "Bamada"
-        },
-        {
-          "at": "2026-09-22T13:30:20.996068Z",
-          "type": "corroboration_or_geography_update",
-          "source": "Malijet"
-        }
-      ],
-      "corroboration": "multi-source",
-      "confidence": "moderate-high",
-      "independent_source_domains": [
-        "studiotamani.org",
-        "bamada.net",
-        "malijet.com"
-      ],
-      "independent_source_count": 3,
-      "significance": "MAJOR",
-      "significance_reasons": [
-        "multi-source corroboration",
-        "multi-location activity"
-      ]
-    },
-    {
-      "id": "c340bb5acd8ff9a5ff34f320461c2cdc22ec93b6",
-      "event_date": "2026-09-21",
-      "event_date_confidence": "explicit-text",
-      "event_date_source": "explicit-calendar-date",
-      "published_at": "2026-09-21T17:28:05Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-09-21T18:29:59.485797Z",
-      "actor": "State",
-      "perpetrator": "State",
-      "target": null,
-      "claimant": null,
-      "supporting_force": null,
-      "mentioned_actors": [
-        "State"
-      ],
-      "parent_report_id": null,
-      "event_type": "security operation",
-      "country": "Mali",
-      "city": "Djenné",
-      "lat": 13.9061,
-      "lng": -4.555,
-      "locations": [
-        {
-          "name": "Djenné",
-          "country": "Mali",
-          "lat": 13.9061,
-          "lng": -4.555,
-          "confidence": "explicit-place"
-        },
-        {
-          "name": "Sévaré",
-          "country": "Mali",
-          "lat": 14.5272,
-          "lng": -4.0934,
-          "confidence": "explicit-place"
-        },
-        {
-          "name": "Ber",
-          "country": "Mali",
-          "lat": 16.7667,
-          "lng": -3.0167,
-          "confidence": "explicit-place"
-        },
-        {
-          "name": "Mopti",
-          "country": "Mali",
-          "lat": 14.4843,
-          "lng": -4.1829,
-          "confidence": "explicit-place"
-        }
-      ],
-      "title": "HUNTING AGAINST ARMED TERRORIST GROUPS IN THE SECTORS OF DJENNÉ, SÉVARÉ AND BER: TERRORIST DEPOTS AND BASES HIT BY AIR VECTORS",
-      "summary": "Security operations continue on several fronts in Mali. In this dynamic, the Malian Armed Forces (FAMa) targeted, on September 17 and 18, 2026, several positions of terrorist armed groups in the sectors of Djenné, Sévaré IN Mopti and Ber (...)By Mahamane TOURE – NOUVEL HORIZONRETROUVE the REST OF YOUR ARTICLE IN the NEW HORIZON OF MONDAY, SEPTEMBER 21, 2026 Follow US ON Facebook, Telegram, WhatsApp TO don't miss anything about Malian news Follow us on Facebook, Telegram, WhatsApp so you don't miss anything about Malian news",
-      "sources": [
-        "Bamada"
-      ],
-      "languages": [
-        "fr"
-      ],
-      "source_count": 1,
-      "report_urls": [
-        "https://bamada.net/chasse-contre-les-groupes-armes-terroristes-dans-les-secteurs-de-djenne-sevare-et-ber-des-depots-et-bases-terroristes-frappes-par-les-vecteurs-aeriens"
-      ],
-      "report_summaries": [
-        {
-          "url": "https://bamada.net/chasse-contre-les-groupes-armes-terroristes-dans-les-secteurs-de-djenne-sevare-et-ber-des-depots-et-bases-terroristes-frappes-par-les-vecteurs-aeriens",
-          "source": "Bamada",
-          "title": "HUNTING AGAINST ARMED TERRORIST GROUPS IN THE SECTORS OF DJENNÉ, SÉVARÉ AND BER: TERRORIST DEPOTS AND BASES HIT BY AIR VECTORS",
-          "summary": "Security operations continue on several fronts in Mali. In this dynamic, the Malian Armed Forces (FAMa) targeted, on September 17 and 18, 2026, several positions of terrorist armed groups in the sectors of Djenné, Sévaré IN Mopti and Ber (...)By Mahamane TOURE – NOUVEL HORIZONRETROUVE the REST OF YOUR ARTICLE IN the NEW HORIZON OF MONDAY, SEPTEMBER 21, 2026 Follow US ON Facebook, Telegram, WhatsApp TO don't miss anything about Malian news Follow us on Facebook, Telegram, WhatsApp so you don't miss anything about Malian news",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "armed_group"
-          ],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        }
-      ],
-      "created_at": "2026-09-21T18:29:59.485797Z",
-      "updated_at": "2026-09-21T18:29:59.485797Z",
-      "extraction_confidence": "moderate",
-      "victim_categories": [
-        "armed_group"
-      ],
-      "civilian_targeting_flag": false,
-      "casualty_claims": [],
-      "fatalities_min": null,
-      "fatalities_max": null,
-      "fatalities_best": null,
-      "injured_min": null,
-      "injured_max": null,
-      "abducted_min": null,
-      "abducted_max": null,
-      "casualty_disputed": false,
-      "revision_history": [
-        {
-          "at": "2026-09-21T18:29:59.485797Z",
-          "type": "event_created",
-          "source": "Bamada"
-        }
-      ],
-      "corroboration": "single-source",
-      "confidence": "moderate",
-      "independent_source_domains": [
-        "bamada.net"
-      ],
-      "independent_source_count": 1,
-      "significance": "MAJOR",
-      "significance_reasons": [
-        "strategic/severe event pattern",
-        "multi-location activity"
-      ]
     }
   ],
   "latest_reports": [
+    {
+      "published_at": "2026-10-06T00:34:58Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-06T00:49:30.051675Z",
+      "discovered_at": "2026-10-06T00:49:30.051675Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0006",
+      "source": "Malijet",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Bandiagara",
+      "event_type": "law enforcement",
+      "candidate_event": false,
+      "title": "Keniéba: a suspect arrested in a case of laundering and trafficking of cultural property",
+      "url": "https://malijet.com/les_faits_divers_au_mali/312188-kenieba-un-suspect-interpelle-dans-une-affaire-de-blanchim.html"
+    },
+    {
+      "published_at": "2026-10-06T00:25:06Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-06T00:49:24.464946Z",
+      "discovered_at": "2026-10-06T00:49:24.464946Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0006",
+      "source": "Malijet",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Kidal",
+      "event_type": "security operation",
+      "candidate_event": true,
+      "title": "Operation Dougoukoloko: FAMa inflicts heavy losses on terrorists in Tinzaouatène (Kidal)",
+      "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312187-operation-dougoukoloko-les-fama-infligent-de-lourdes-perte-1.html"
+    },
+    {
+      "published_at": "2026-10-05T22:34:37Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-06T00:49:29.321015Z",
+      "discovered_at": "2026-10-06T00:49:29.321015Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0001",
+      "source": "RFI Afrique",
+      "language": "fr",
+      "actor": "Other",
+      "country": "Mali",
+      "city": null,
+      "event_type": "kidnapping",
+      "candidate_event": true,
+      "title": "Mali: five months after the kidnapping of Mountaga Tall, a former Minister of Justice calls on the authorities",
+      "url": "https://www.rfi.fr/fr/afrique/20261005-mali-cinq-mois-apr%C3%A8s-l-enl%C3%A8vement-de-mountaga-tall-un-ex-ministre-de-la-justice-interpelle-les-autorit%C3%A9s"
+    },
     {
       "published_at": "2026-10-05T21:14:30Z",
       "published_date_source": "jsonld:datePublished",
@@ -4265,60 +4214,6 @@
       "candidate_event": false,
       "title": "Use of motor tricycles: a control operation officially launched",
       "url": "https://www.sidwaya.info/usage-des-tricycles-a-moteur-une-operation-de-controle-officiellement-lancee/"
-    },
-    {
-      "published_at": "2026-10-01T20:39:38Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-05T21:49:54.364860Z",
-      "discovered_at": "2026-10-05T21:49:54.364860Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0081",
-      "source": "Le Pays (Burkina Faso)",
-      "language": "fr",
-      "actor": null,
-      "country": null,
-      "city": null,
-      "event_type": "clash",
-      "candidate_event": false,
-      "title": "ACCUSATIONS AGAINST ASMARA, KARTHOUM and CAIRO: When the Ethiopian crisis is externalized",
-      "url": "https://lepays.bf/accusations-portees-contre-asmara-karthoum-et-le-caire-quand-la-crise-ethiopienne-sexternalise-2/"
-    },
-    {
-      "published_at": "2026-10-01T20:02:12Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-01T20:33:07.326831Z",
-      "discovered_at": "2026-10-01T20:33:07.326831Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0008",
-      "source": "Bamada",
-      "language": "fr",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Kati",
-      "event_type": "political/security policy",
-      "candidate_event": false,
-      "title": "MALIAN ARMED FORCES: the Army celebrates 66 years in the service of the Nation",
-      "url": "https://bamada.net/forces-armees-maliennes-larmee-de-terre-celebre-66-annees-au-service-de-la-nation"
-    },
-    {
-      "published_at": "2026-10-01T17:59:43Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-01T18:37:40.406415Z",
-      "discovered_at": "2026-10-01T18:37:40.406415Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0008",
-      "source": "Bamada",
-      "language": "fr",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Bamako",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "PATRIOTIC GESTURE: customs women and wives of customs officers give their blood in favor of the FAMa",
-      "url": "https://bamada.net/geste-patriotique-les-femmes-douanieres-et-epouses-de-douaniers-donnent-leur-sang-en-faveur-des-fama"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."

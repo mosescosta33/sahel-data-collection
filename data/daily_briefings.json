@@ -1,17 +1,180 @@
 {
   "schema_version": "1.0",
   "site_patch_version": "3.3.5",
-  "generated_at": "2026-10-05T22:28:29.707433Z",
+  "generated_at": "2026-10-06T00:50:09.184739Z",
   "active_limit": 33,
-  "total_briefings": 254,
+  "total_briefings": 255,
   "active_count": 33,
-  "archived_count": 221,
+  "archived_count": 222,
   "briefings": [
     {
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
+      "reporting_date": "2026-10-06",
+      "generated_at": "2026-10-06T00:50:08.468913Z",
+      "coverage": [
+        "Mali",
+        "Burkina Faso",
+        "Niger"
+      ],
+      "classification": "OPEN SOURCE",
+      "collection_confidence": "LOW",
+      "headline_metrics": {
+        "events_occurring_on_date": 0,
+        "records_held_for_review": 0,
+        "multi_source_events": 0,
+        "reports_collected_on_date": 0,
+        "reports_published_on_date": 0,
+        "newly_discovered_older_events": 0,
+        "events_awaiting_date_verification": 0,
+        "distinct_sources_collected": 0
+      },
+      "executive_assessment": "The desk has too little reporting from 2026-10-06 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet.",
+      "briefing_sections": [
+        {
+          "heading": "Assessment",
+          "text": "The desk has too little reporting from 2026-10-06 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
+        },
+        {
+          "heading": "Mali",
+          "text": "No retained Mali report is recorded for this collection date. 0 fused candidate events currently carry this event date."
+        },
+        {
+          "heading": "Burkina Faso",
+          "text": "No retained Burkina Faso report is recorded for this collection date. 0 fused candidate events currently carry this event date."
+        },
+        {
+          "heading": "Niger",
+          "text": "No retained Niger report is recorded for this collection date. 0 fused candidate events currently carry this event date."
+        },
+        {
+          "heading": "What remains unclear",
+          "text": "Collection or source checks are incomplete for this date, so relevant reporting may still be missing."
+        }
+      ],
+      "key_judgments": [
+        "No fused candidate event currently has 2026-10-06 as its event date; collection confidence for that date is low."
+      ],
+      "significant_events": [],
+      "what_changed_since_yesterday": [
+        "State: -2 same-day fused event(s) versus 2026-10-05 (2 → 0).",
+        "Collection volume: -26 retained report(s) versus 2026-10-05 (26 → 0)."
+      ],
+      "emerging_patterns": [
+        "JNIM 7-day activity is higher than the preceding 7-day window (0 → 1).",
+        "State 7-day activity is higher than the preceding 7-day window (6 → 7)."
+      ],
+      "intelligence_gaps": [
+        "Collection confidence is low, so absence of reporting should not be interpreted as absence of activity."
+      ],
+      "actor_counts": {
+        "JNIM": 0,
+        "IS Sahel": 0,
+        "State": 0
+      },
+      "country_counts": {
+        "Mali": 0,
+        "Burkina Faso": 0,
+        "Niger": 0
+      },
+      "country_reporting_counts": {
+        "Mali": 0,
+        "Burkina Faso": 0,
+        "Niger": 0
+      },
+      "actor_profiles": {
+        "JNIM": {
+          "events": 0,
+          "delta_vs_previous_day": 0,
+          "current_7d": 1,
+          "previous_7d": 0,
+          "countries": [],
+          "event_types": []
+        },
+        "IS Sahel": {
+          "events": 0,
+          "delta_vs_previous_day": 0,
+          "current_7d": 0,
+          "previous_7d": 0,
+          "countries": [],
+          "event_types": []
+        },
+        "State": {
+          "events": 0,
+          "delta_vs_previous_day": -2,
+          "current_7d": 7,
+          "previous_7d": 6,
+          "countries": [],
+          "event_types": []
+        }
+      },
+      "country_profiles": {
+        "Mali": {
+          "events": 0,
+          "reports_collected": 0,
+          "actor_counts": {
+            "JNIM": 0,
+            "IS Sahel": 0,
+            "State": 0
+          },
+          "delta_events_vs_previous_day": -2,
+          "top_event_types": []
+        },
+        "Burkina Faso": {
+          "events": 0,
+          "reports_collected": 0,
+          "actor_counts": {
+            "JNIM": 0,
+            "IS Sahel": 0,
+            "State": 0
+          },
+          "delta_events_vs_previous_day": 0,
+          "top_event_types": []
+        },
+        "Niger": {
+          "events": 0,
+          "reports_collected": 0,
+          "actor_counts": {
+            "JNIM": 0,
+            "IS Sahel": 0,
+            "State": 0
+          },
+          "delta_events_vs_previous_day": 0,
+          "top_event_types": []
+        }
+      },
+      "country_article_summaries": {
+        "Mali": [],
+        "Burkina Faso": [],
+        "Niger": []
+      },
+      "collection_notes": {
+        "sources_total": 0,
+        "sources_success": 0,
+        "sources_failed": 0,
+        "sources_degraded": null,
+        "documents_discovered": 0,
+        "documents_retained": 0,
+        "report_target": 100,
+        "translations_attempted": 0,
+        "translations_success": 0,
+        "translation_failures": 0,
+        "collection_confidence": "LOW",
+        "collection_confidence_reasons": [
+          "no completed collection run recorded for this date"
+        ],
+        "reports_collected": 0,
+        "reports_published": 0,
+        "distinct_sources_collected": 0,
+        "language_counts": {}
+      },
+      "sultana_daily_text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nDaily bottom line for 2026-10-06: The desk has too little reporting from 2026-10-06 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet.\n\nMali: 0 retained reports. No retained country-specific reports were collected for this desk date.\n\nBurkina Faso: 0 retained reports. No retained country-specific reports were collected for this desk date.\n\nNiger: 0 retained reports. No retained country-specific reports were collected for this desk date.\n\nActor picture: no same-day fused candidate events.\n\nWhat changed: State: -2 same-day fused event(s) versus 2026-10-05 (2 → 0). Collection volume: -26 retained report(s) versus 2026-10-05 (26 → 0).\n\nIntelligence gaps: Collection confidence is low, so absence of reporting should not be interpreted as absence of activity.\n\nCollection confidence: LOW. no completed collection run recorded for this date\n\nAll retained source reports, including reports not promoted to the map, remain individually summarized in the intelligence feed and source records."
+    },
+    {
+      "schema_version": "1.0",
+      "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-05",
-      "generated_at": "2026-10-05T22:28:29.331007Z",
+      "generated_at": "2026-10-06T00:50:08.540597Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -21,12 +184,12 @@
       "collection_confidence": "LOW",
       "headline_metrics": {
         "events_occurring_on_date": 2,
-        "records_held_for_review": 1,
+        "records_held_for_review": 3,
         "multi_source_events": 0,
-        "reports_collected_on_date": 23,
-        "reports_published_on_date": 14,
+        "reports_collected_on_date": 26,
+        "reports_published_on_date": 17,
         "newly_discovered_older_events": 3,
-        "events_awaiting_date_verification": 2,
+        "events_awaiting_date_verification": 3,
         "distinct_sources_collected": 13
       },
       "executive_assessment": "Reporting dated 2026-10-05 gives the desk 2 incident accounts to examine in Mali. None has support from a second independent source. The record is provisional; it does not establish the full extent of violence that day.",
@@ -37,7 +200,7 @@
         },
         {
           "heading": "Mali",
-          "text": "18 retained reports were collected for Mali. 2 fused candidate events currently carry this reporting date. Mali.. The army “eliminates” militants in air and ground strikes in two attacks: On Monday evening, the Malian army announced the implementation of \"precise air and ground strikes\" against positions of armed terrorist groups in the town of \"Tinzoaten\" and its neighboring areas in the Kidal sector, the far… DIABALY IN THE SÉGOU REGION: THE FAMA AND DONSOS COALITION IN SUPPORT OF TERRORIST GROUPS: The Malian Armed Forces (FAMa) have taken action against armed terrorist groups in the Diabaly sector, in the Segou Region. According to local sources, these operations inflicted several losses on the attackers and (…)By… PROCESS OF RECONQUEST OF THE CITY OF KIDAL: MEMBERS OF THE F.L.A ARE REPORTED TO HAVE TRAVELLED TO…: At a time when several testimonies report movements of the Malian Armed Forces (FAMa) towards Kidal and its surroundings, information relayed in recent days by foreign media (...)By Mahamane TOURE – NOUVEL HORIZONRETROUVE the… 15 additional Mali reports are summarized individually in the source records."
+          "text": "21 retained reports were collected for Mali. 2 fused candidate events currently carry this reporting date. Keniéba: a suspect arrested in a case of laundering and trafficking of cultural property: Kéniéba: a suspect arrested in a case of laundering and trafficking in cultural property The Keniéba gendarmerie has dismantled an international network suspected of money laundering and trafficking in cultural property. The… Operation Dougoukoloko: FAMa inflicts heavy losses on terrorists in Tinzaouatène (Kidal): According to a recent statement from the General Staff of the Armed Forces, air-land maneuvers are continuing in the Kidal area under the aegis of Operation Dougoukoloko. These strikes are a continuation of the actions carried… Mali: five months after the kidnapping of Mountaga Tall, a former Minister of Justice calls on the authorities: In Mali, it has now been more than five months since Mr. Mountaga Tall, a lawyer and former minister, was abducted from his home in early May by hooded men from the State Security. After him, his son and several personalities… 18 additional Mali reports are summarized individually in the source records."
         },
         {
           "heading": "Burkina Faso",
@@ -53,18 +216,18 @@
         },
         {
           "heading": "Reporting in context",
-          "text": "Sahara Medias (صحراء ميديا) published ‘Mali.. The army “eliminates” militants in air and ground strikes in two attacks’. It may provide useful context, but the extracted details do not establish a new incident on this date."
+          "text": "RFI Afrique published ‘Mali: five months after the kidnapping of Mountaga Tall, a former Minister of Justice calls on the authorities’. It may provide useful context, but the extracted details do not establish a new incident on this date. Malijet published ‘Operation Dougoukoloko: FAMa inflicts heavy losses on terrorists in Tinzaouatène (Kidal)’. It may provide useful context, but the extracted details do not establish a new incident on this date. 1 more item await source review."
         },
         {
           "heading": "What remains unclear",
-          "text": "3 newly recorded items concern earlier dates and are kept out of today's incident count. The date of 2 operational reports still needs checking. Collection or source checks are incomplete for this date, so relevant reporting may still be missing."
+          "text": "3 newly recorded items concern earlier dates and are kept out of today's incident count. The date of 3 operational reports still needs checking. Collection or source checks are incomplete for this date, so relevant reporting may still be missing."
         }
       ],
       "key_judgments": [
         "State accounts for the largest share of same-day fused event activity (2 event(s)).",
         "Mali contains the largest same-day event count (2 event(s)).",
         "2 same-day event(s) remain single-source and should be treated as provisional.",
-        "2 collected operational/candidate report(s) still use an unresolved or proxy event date and require temporal verification."
+        "3 collected operational/candidate report(s) still use an unresolved or proxy event date and require temporal verification."
       ],
       "significant_events": [
         {
@@ -139,14 +302,14 @@
       "what_changed_since_yesterday": [
         "JNIM: -1 same-day fused event(s) versus 2026-10-04 (1 → 0).",
         "State: +1 same-day fused event(s) versus 2026-10-04 (1 → 2).",
-        "Collection volume: -14 retained report(s) versus 2026-10-04 (37 → 23)."
+        "Collection volume: -11 retained report(s) versus 2026-10-04 (37 → 26)."
       ],
       "emerging_patterns": [
         "JNIM 7-day activity is higher than the preceding 7-day window (0 → 1)."
       ],
       "intelligence_gaps": [
         "2 same-day event(s) lack independent multi-source corroboration.",
-        "2 newly collected operational/candidate report(s) have unresolved or publication-proxy event dates.",
+        "3 newly collected operational/candidate report(s) have unresolved or publication-proxy event dates.",
         "Collection confidence is low, so absence of reporting should not be interpreted as absence of activity."
       ],
       "actor_counts": {
@@ -160,7 +323,7 @@
         "Niger": 0
       },
       "country_reporting_counts": {
-        "Mali": 18,
+        "Mali": 21,
         "Burkina Faso": 3,
         "Niger": 0
       },
@@ -207,7 +370,7 @@
       "country_profiles": {
         "Mali": {
           "events": 2,
-          "reports_collected": 18,
+          "reports_collected": 21,
           "actor_counts": {
             "JNIM": 0,
             "IS Sahel": 0,
@@ -250,6 +413,33 @@
       },
       "country_article_summaries": {
         "Mali": [
+          {
+            "id": "b23d26b3e4e76ad0ae0926c42b19963a55586362",
+            "source": "Malijet",
+            "title": "Keniéba: a suspect arrested in a case of laundering and trafficking of cultural property",
+            "summary": "Kéniéba: a suspect arrested in a case of laundering and trafficking in cultural property The Keniéba gendarmerie has dismantled an international network suspected of money laundering and trafficking in cultural property. The operation led to the arrest of a resident of Faléa, in the commune of Kéniéba. The gendarmes seized three doors with significant heritage value .",
+            "url": "https://malijet.com/les_faits_divers_au_mali/312188-kenieba-un-suspect-interpelle-dans-une-affaire-de-blanchim.html",
+            "candidate_event": false,
+            "event_date": "2026-10-06"
+          },
+          {
+            "id": "0f7f186fd6f8675da1aa4319ffc7d27ee8f862dd",
+            "source": "Malijet",
+            "title": "Operation Dougoukoloko: FAMa inflicts heavy losses on terrorists in Tinzaouatène (Kidal)",
+            "summary": "According to a recent statement from the General Staff of the Armed Forces, air-land maneuvers are continuing in the Kidal area under the aegis of Operation Dougoukoloko. These strikes are a continuation of the actions carried out earlier in the day on Monday, October 5, 2026 Several positions of armed terrorist groups, located in Tinzaouatène and its surroundings, were subjected to precision strikes.",
+            "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312187-operation-dougoukoloko-les-fama-infligent-de-lourdes-perte-1.html",
+            "candidate_event": true,
+            "event_date": "2026-10-05"
+          },
+          {
+            "id": "5e102d445958e8146f445f306938161ab58a2c49",
+            "source": "RFI Afrique",
+            "title": "Mali: five months after the kidnapping of Mountaga Tall, a former Minister of Justice calls on the authorities",
+            "summary": "In Mali, it has now been more than five months since Mr. Mountaga Tall, a lawyer and former minister, was abducted from his home in early May by hooded men from the State Security. After him, his son and several personalities committed to the defense of democracy were kidnapped by the Malian services .",
+            "url": "https://www.rfi.fr/fr/afrique/20261005-mali-cinq-mois-apr%C3%A8s-l-enl%C3%A8vement-de-mountaga-tall-un-ex-ministre-de-la-justice-interpelle-les-autorit%C3%A9s",
+            "candidate_event": true,
+            "event_date": "2026-10-05"
+          },
           {
             "id": "f26e6ec09801664f96e33b33556f681cb18ce408",
             "source": "Sahara Medias (صحراء ميديا)",
@@ -446,37 +636,37 @@
       },
       "collection_notes": {
         "sources_total": 182,
-        "sources_success": 156,
-        "sources_failed": 26,
+        "sources_success": 157,
+        "sources_failed": 25,
         "sources_degraded": 20,
-        "documents_discovered": 11447,
-        "documents_retained": 2,
+        "documents_discovered": 11486,
+        "documents_retained": 3,
         "report_target": 100,
-        "translations_attempted": 2,
-        "translations_success": 2,
+        "translations_attempted": 3,
+        "translations_success": 3,
         "translation_failures": 0,
         "collection_confidence": "LOW",
         "collection_confidence_reasons": [
-          "156/182 source paths reached",
-          "26 failed source paths",
-          "20 degraded / 26 failed of 182 configured sources"
+          "157/182 source paths reached",
+          "25 failed source paths",
+          "20 degraded / 25 failed of 182 configured sources"
         ],
-        "reports_collected": 23,
-        "reports_published": 14,
+        "reports_collected": 26,
+        "reports_published": 17,
         "distinct_sources_collected": 13,
         "language_counts": {
-          "fr": 19,
+          "fr": 22,
           "ar": 2,
           "en": 2
         }
       },
-      "sultana_daily_text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nDaily bottom line for 2026-10-05: Reporting dated 2026-10-05 gives the desk 2 incident accounts to examine in Mali. None has support from a second independent source. The record is provisional; it does not establish the full extent of violence that day.\n\nMali: 18 retained reports. 1. Mali.. The army “eliminates” militants in air and ground strikes in two attacks. On Monday evening, the Malian army announced the implementation of \"precise air and ground strikes\" against positions of armed terrorist groups in the town of \"Tinzoaten\" and its neighboring areas in the Kidal sector, the far northeast of the country. He explained in a statement that these operations come as a complement to the ongoing military efforts within Operation Dogokoloko to secure and permanently monitor the national territory. 2. DIABALY IN THE SÉGOU REGION: THE FAMA AND DONSOS COALITION IN SUPPORT OF TERRORIST GROUPS. The Malian Armed Forces (FAMa) have taken action against armed terrorist groups in the Diabaly sector, in the Segou Region. According to local sources, these operations inflicted several losses on the attackers and (…)By Mahamane TOURE – NOUVEL HORIZONRETROUVE the REST OF YOUR ARTICLE IN the NEW HORIZON OF MONDAY, OCTOBER 5, 2026 Follow us on Facebook, Telegram, WhatsApp to miss nothing of Malian news Follow us on Facebook, Telegram, WhatsApp to not miss anything of the Malian news 3. PROCESS OF RECONQUEST OF THE CITY OF KIDAL: MEMBERS OF THE F.L.A ARE REPORTED TO HAVE TRAVELLED TO BENGHAZI TO SEEK MILITARY ASSISTANCE FROM LIBYA. At a time when several testimonies report movements of the Malian Armed Forces (FAMa) towards Kidal and its surroundings, information relayed in recent days by foreign media (...)By Mahamane TOURE – NOUVEL HORIZONRETROUVE the REST OF YOUR ARTICLE IN the NEW HORIZON OF MONDAY, OCTOBER 5, 2026 Follow us on Facebook, Telegram, WhatsApp to miss nothing of Malian news Follow us on Facebook, Telegram, WhatsApp so as not to miss anything of the Malian news\n\nBurkina Faso: 3 retained reports. 1. A hundred supporters of an influential imam, detained in Burkina Faso, have been released. At the end of May, Imam Mohamad Ishaq Kindo was arrested in Burkina Faso after denouncing the adoption of a draft law governing the exercise of religious freedoms in a country where about 60% of the population is Muslim Several of his supporters had also been arrested after demonstrating in Ouagadougou to demand his release and the central mosque of the Sunni movement had been closed \"until further notice\" by the authorities. 2. Back to News: The highlights of the week from 28 September to 4 October 2026. From 28 September to 4 October 2026, Burkinabe news was marked by mobilization around the People's Progressive Revolution, the JEPPC, the start of the judicial year, but also by major announcements in health, road safety and sport. Review of the facts that marked the week On Wednesday, September 30, the Place de la Révolution in Ouagadougou hosted the first edition of the Night of the People's Progressive Revolution (RPP). 3. BURKINA FASO: 81st UN General Assembly In full the Declaration of Burkina Faso on behalf of the Confederation of Sahel States, delivered by Comrade Karamoko Jean Marie Traore, Minister of Foreign Affairs. New York, September 28, 2026 Mr. President, Excellencies, Ladies and Gentlemen, I have the great honor to carry, from this rostrum, the voice of Their Excellencies Comrade Captain Ibrahim TRAORÉ, President of Faso, Head of State and President of the Confederation of Sahel States (AES); Army General Assimi GOITA President of the Transition, Head of State of the Republic of Mali and Army General Abdourahamane TIANI, President of the Republic of Niger, Head of State.\n\nNiger: 0 retained reports. No retained country-specific reports were collected for this desk date.\n\nActor picture: JNIM 0, IS Sahel 0, State 2.\n\nWhat changed: JNIM: -1 same-day fused event(s) versus 2026-10-04 (1 → 0). State: +1 same-day fused event(s) versus 2026-10-04 (1 → 2). Collection volume: -14 retained report(s) versus 2026-10-04 (37 → 23).\n\nIntelligence gaps: 2 same-day event(s) lack independent multi-source corroboration. 2 newly collected operational/candidate report(s) have unresolved or publication-proxy event dates. Collection confidence is low, so absence of reporting should not be interpreted as absence of activity.\n\nCollection confidence: LOW. 156/182 source paths reached 26 failed source paths 20 degraded / 26 failed of 182 configured sources\n\nAll retained source reports, including reports not promoted to the map, remain individually summarized in the intelligence feed and source records."
+      "sultana_daily_text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nDaily bottom line for 2026-10-05: Reporting dated 2026-10-05 gives the desk 2 incident accounts to examine in Mali. None has support from a second independent source. The record is provisional; it does not establish the full extent of violence that day.\n\nMali: 21 retained reports. 1. Keniéba: a suspect arrested in a case of laundering and trafficking of cultural property. Kéniéba: a suspect arrested in a case of laundering and trafficking in cultural property The Keniéba gendarmerie has dismantled an international network suspected of money laundering and trafficking in cultural property. The operation led to the arrest of a resident of Faléa, in the commune of Kéniéba. The gendarmes seized three doors with significant heritage value . 2. Operation Dougoukoloko: FAMa inflicts heavy losses on terrorists in Tinzaouatène (Kidal). According to a recent statement from the General Staff of the Armed Forces, air-land maneuvers are continuing in the Kidal area under the aegis of Operation Dougoukoloko. These strikes are a continuation of the actions carried out earlier in the day on Monday, October 5, 2026 Several positions of armed terrorist groups, located in Tinzaouatène and its surroundings, were subjected to precision strikes. 3. Mali: five months after the kidnapping of Mountaga Tall, a former Minister of Justice calls on the authorities. In Mali, it has now been more than five months since Mr. Mountaga Tall, a lawyer and former minister, was abducted from his home in early May by hooded men from the State Security. After him, his son and several personalities committed to the defense of democracy were kidnapped by the Malian services .\n\nBurkina Faso: 3 retained reports. 1. A hundred supporters of an influential imam, detained in Burkina Faso, have been released. At the end of May, Imam Mohamad Ishaq Kindo was arrested in Burkina Faso after denouncing the adoption of a draft law governing the exercise of religious freedoms in a country where about 60% of the population is Muslim Several of his supporters had also been arrested after demonstrating in Ouagadougou to demand his release and the central mosque of the Sunni movement had been closed \"until further notice\" by the authorities. 2. Back to News: The highlights of the week from 28 September to 4 October 2026. From 28 September to 4 October 2026, Burkinabe news was marked by mobilization around the People's Progressive Revolution, the JEPPC, the start of the judicial year, but also by major announcements in health, road safety and sport. Review of the facts that marked the week On Wednesday, September 30, the Place de la Révolution in Ouagadougou hosted the first edition of the Night of the People's Progressive Revolution (RPP). 3. BURKINA FASO: 81st UN General Assembly In full the Declaration of Burkina Faso on behalf of the Confederation of Sahel States, delivered by Comrade Karamoko Jean Marie Traore, Minister of Foreign Affairs. New York, September 28, 2026 Mr. President, Excellencies, Ladies and Gentlemen, I have the great honor to carry, from this rostrum, the voice of Their Excellencies Comrade Captain Ibrahim TRAORÉ, President of Faso, Head of State and President of the Confederation of Sahel States (AES); Army General Assimi GOITA President of the Transition, Head of State of the Republic of Mali and Army General Abdourahamane TIANI, President of the Republic of Niger, Head of State.\n\nNiger: 0 retained reports. No retained country-specific reports were collected for this desk date.\n\nActor picture: JNIM 0, IS Sahel 0, State 2.\n\nWhat changed: JNIM: -1 same-day fused event(s) versus 2026-10-04 (1 → 0). State: +1 same-day fused event(s) versus 2026-10-04 (1 → 2). Collection volume: -11 retained report(s) versus 2026-10-04 (37 → 26).\n\nIntelligence gaps: 2 same-day event(s) lack independent multi-source corroboration. 3 newly collected operational/candidate report(s) have unresolved or publication-proxy event dates. Collection confidence is low, so absence of reporting should not be interpreted as absence of activity.\n\nCollection confidence: LOW. 157/182 source paths reached 25 failed source paths 20 degraded / 25 failed of 182 configured sources\n\nAll retained source reports, including reports not promoted to the map, remain individually summarized in the intelligence feed and source records."
     },
     {
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-04",
-      "generated_at": "2026-10-05T22:28:29.505831Z",
+      "generated_at": "2026-10-06T00:50:08.687828Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -1086,7 +1276,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-03",
-      "generated_at": "2026-10-05T22:28:29.193478Z",
+      "generated_at": "2026-10-06T00:50:08.640100Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -1573,7 +1763,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-02",
-      "generated_at": "2026-10-05T22:28:28.768601Z",
+      "generated_at": "2026-10-06T00:50:08.718434Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -1813,7 +2003,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-01",
-      "generated_at": "2026-10-05T22:28:29.485669Z",
+      "generated_at": "2026-10-06T00:50:08.387669Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -2361,7 +2551,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-30",
-      "generated_at": "2026-10-05T22:28:29.384498Z",
+      "generated_at": "2026-10-06T00:50:09.001840Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -3505,7 +3695,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-29",
-      "generated_at": "2026-10-05T22:28:29.010628Z",
+      "generated_at": "2026-10-06T00:50:08.843650Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -3830,7 +4020,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-28",
-      "generated_at": "2026-10-05T22:28:29.391726Z",
+      "generated_at": "2026-10-06T00:50:08.924494Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -4309,7 +4499,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-27",
-      "generated_at": "2026-10-05T22:28:29.353840Z",
+      "generated_at": "2026-10-06T00:50:08.908551Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -4662,7 +4852,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-26",
-      "generated_at": "2026-10-05T22:28:29.072020Z",
+      "generated_at": "2026-10-06T00:50:09.043157Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -4910,7 +5100,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-25",
-      "generated_at": "2026-10-05T22:28:28.964573Z",
+      "generated_at": "2026-10-06T00:50:08.867552Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -5262,7 +5452,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-24",
-      "generated_at": "2026-10-05T22:28:29.655166Z",
+      "generated_at": "2026-10-06T00:50:08.498595Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -5624,7 +5814,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-23",
-      "generated_at": "2026-10-05T22:28:29.405803Z",
+      "generated_at": "2026-10-06T00:50:08.847046Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -5935,7 +6125,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-22",
-      "generated_at": "2026-10-05T22:28:29.020781Z",
+      "generated_at": "2026-10-06T00:50:08.953350Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -6893,7 +7083,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-21",
-      "generated_at": "2026-10-05T22:28:29.117428Z",
+      "generated_at": "2026-10-06T00:50:08.850484Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -7411,7 +7601,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-20",
-      "generated_at": "2026-10-05T22:28:29.489252Z",
+      "generated_at": "2026-10-06T00:50:08.743936Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -8055,7 +8245,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-19",
-      "generated_at": "2026-10-05T22:28:28.698485Z",
+      "generated_at": "2026-10-06T00:50:08.633539Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -8710,7 +8900,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-18",
-      "generated_at": "2026-10-05T22:28:29.557807Z",
+      "generated_at": "2026-10-06T00:50:08.921135Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -8873,7 +9063,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-17",
-      "generated_at": "2026-10-05T22:28:29.239957Z",
+      "generated_at": "2026-10-06T00:50:08.857879Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -9136,7 +9326,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-16",
-      "generated_at": "2026-10-05T22:28:29.288523Z",
+      "generated_at": "2026-10-06T00:50:08.419403Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -9298,7 +9488,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-15",
-      "generated_at": "2026-10-05T22:28:29.275504Z",
+      "generated_at": "2026-10-06T00:50:08.516240Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -9460,7 +9650,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-14",
-      "generated_at": "2026-10-05T22:28:29.262499Z",
+      "generated_at": "2026-10-06T00:50:08.715165Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -9626,7 +9816,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-13",
-      "generated_at": "2026-10-05T22:28:29.439791Z",
+      "generated_at": "2026-10-06T00:50:08.995114Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -9788,7 +9978,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-12",
-      "generated_at": "2026-10-05T22:28:29.130868Z",
+      "generated_at": "2026-10-06T00:50:08.759701Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -9950,7 +10140,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-11",
-      "generated_at": "2026-10-05T22:28:29.265813Z",
+      "generated_at": "2026-10-06T00:50:08.886488Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -10112,7 +10302,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-10",
-      "generated_at": "2026-10-05T22:28:28.705169Z",
+      "generated_at": "2026-10-06T00:50:09.087122Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -10335,7 +10525,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-08",
-      "generated_at": "2026-10-05T22:28:29.196706Z",
+      "generated_at": "2026-10-06T00:50:08.551084Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -10501,7 +10691,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-07",
-      "generated_at": "2026-10-05T22:28:29.634081Z",
+      "generated_at": "2026-10-06T00:50:08.604120Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -10829,7 +11019,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-04",
-      "generated_at": "2026-10-05T22:28:29.509101Z",
+      "generated_at": "2026-10-06T00:50:08.877070Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -10995,7 +11185,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-03",
-      "generated_at": "2026-10-05T22:28:29.259277Z",
+      "generated_at": "2026-10-06T00:50:09.140478Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -11157,7 +11347,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-02",
-      "generated_at": "2026-10-05T22:28:29.177142Z",
+      "generated_at": "2026-10-06T00:50:08.355692Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -11314,168 +11504,6 @@
         "language_counts": {}
       },
       "sultana_daily_text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nDaily bottom line for 2026-09-02: The desk has too little reporting from 2026-09-02 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet.\n\nMali: 0 retained reports. No retained country-specific reports were collected for this desk date.\n\nBurkina Faso: 0 retained reports. No retained country-specific reports were collected for this desk date.\n\nNiger: 0 retained reports. No retained country-specific reports were collected for this desk date.\n\nActor picture: no same-day fused candidate events.\n\nWhat changed: Collection volume: +0 retained report(s) versus 2026-09-01 (0 → 0). Actor-level same-day fused event counts are unchanged from the previous date.\n\nIntelligence gaps: Collection confidence is low, so absence of reporting should not be interpreted as absence of activity.\n\nCollection confidence: LOW. no completed collection run recorded for this date\n\nAll retained source reports, including reports not promoted to the map, remain individually summarized in the intelligence feed and source records."
-    },
-    {
-      "schema_version": "1.0",
-      "site_patch_version": "3.3.5",
-      "reporting_date": "2026-09-01",
-      "generated_at": "2026-10-05T22:28:29.007235Z",
-      "coverage": [
-        "Mali",
-        "Burkina Faso",
-        "Niger"
-      ],
-      "classification": "OPEN SOURCE",
-      "collection_confidence": "LOW",
-      "headline_metrics": {
-        "events_occurring_on_date": 0,
-        "records_held_for_review": 0,
-        "multi_source_events": 0,
-        "reports_collected_on_date": 0,
-        "reports_published_on_date": 1,
-        "newly_discovered_older_events": 0,
-        "events_awaiting_date_verification": 0,
-        "distinct_sources_collected": 0
-      },
-      "executive_assessment": "The desk has too little reporting from 2026-09-01 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet.",
-      "briefing_sections": [
-        {
-          "heading": "Assessment",
-          "text": "The desk has too little reporting from 2026-09-01 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
-        },
-        {
-          "heading": "Mali",
-          "text": "No retained Mali report is recorded for this collection date. 0 fused candidate events currently carry this event date."
-        },
-        {
-          "heading": "Burkina Faso",
-          "text": "No retained Burkina Faso report is recorded for this collection date. 0 fused candidate events currently carry this event date."
-        },
-        {
-          "heading": "Niger",
-          "text": "No retained Niger report is recorded for this collection date. 0 fused candidate events currently carry this event date."
-        },
-        {
-          "heading": "What remains unclear",
-          "text": "Collection or source checks are incomplete for this date, so relevant reporting may still be missing."
-        }
-      ],
-      "key_judgments": [
-        "No fused candidate event currently has 2026-09-01 as its event date; collection confidence for that date is low."
-      ],
-      "significant_events": [],
-      "what_changed_since_yesterday": [
-        "Collection volume: +0 retained report(s) versus 2026-08-31 (0 → 0).",
-        "Actor-level same-day fused event counts are unchanged from the previous date."
-      ],
-      "emerging_patterns": [
-        "No actor shows a change in the 7-day versus prior-7-day fused event count in the current archive."
-      ],
-      "intelligence_gaps": [
-        "Collection confidence is low, so absence of reporting should not be interpreted as absence of activity."
-      ],
-      "actor_counts": {
-        "JNIM": 0,
-        "IS Sahel": 0,
-        "State": 0
-      },
-      "country_counts": {
-        "Mali": 0,
-        "Burkina Faso": 0,
-        "Niger": 0
-      },
-      "country_reporting_counts": {
-        "Mali": 0,
-        "Burkina Faso": 0,
-        "Niger": 0
-      },
-      "actor_profiles": {
-        "JNIM": {
-          "events": 0,
-          "delta_vs_previous_day": 0,
-          "current_7d": 0,
-          "previous_7d": 0,
-          "countries": [],
-          "event_types": []
-        },
-        "IS Sahel": {
-          "events": 0,
-          "delta_vs_previous_day": 0,
-          "current_7d": 0,
-          "previous_7d": 0,
-          "countries": [],
-          "event_types": []
-        },
-        "State": {
-          "events": 0,
-          "delta_vs_previous_day": 0,
-          "current_7d": 0,
-          "previous_7d": 0,
-          "countries": [],
-          "event_types": []
-        }
-      },
-      "country_profiles": {
-        "Mali": {
-          "events": 0,
-          "reports_collected": 0,
-          "actor_counts": {
-            "JNIM": 0,
-            "IS Sahel": 0,
-            "State": 0
-          },
-          "delta_events_vs_previous_day": 0,
-          "top_event_types": []
-        },
-        "Burkina Faso": {
-          "events": 0,
-          "reports_collected": 0,
-          "actor_counts": {
-            "JNIM": 0,
-            "IS Sahel": 0,
-            "State": 0
-          },
-          "delta_events_vs_previous_day": 0,
-          "top_event_types": []
-        },
-        "Niger": {
-          "events": 0,
-          "reports_collected": 0,
-          "actor_counts": {
-            "JNIM": 0,
-            "IS Sahel": 0,
-            "State": 0
-          },
-          "delta_events_vs_previous_day": 0,
-          "top_event_types": []
-        }
-      },
-      "country_article_summaries": {
-        "Mali": [],
-        "Burkina Faso": [],
-        "Niger": []
-      },
-      "collection_notes": {
-        "sources_total": 0,
-        "sources_success": 0,
-        "sources_failed": 0,
-        "sources_degraded": null,
-        "documents_discovered": 0,
-        "documents_retained": 0,
-        "report_target": 100,
-        "translations_attempted": 0,
-        "translations_success": 0,
-        "translation_failures": 0,
-        "collection_confidence": "LOW",
-        "collection_confidence_reasons": [
-          "no completed collection run recorded for this date"
-        ],
-        "reports_collected": 0,
-        "reports_published": 1,
-        "distinct_sources_collected": 0,
-        "language_counts": {}
-      },
-      "sultana_daily_text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nDaily bottom line for 2026-09-01: The desk has too little reporting from 2026-09-01 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet.\n\nMali: 0 retained reports. No retained country-specific reports were collected for this desk date.\n\nBurkina Faso: 0 retained reports. No retained country-specific reports were collected for this desk date.\n\nNiger: 0 retained reports. No retained country-specific reports were collected for this desk date.\n\nActor picture: no same-day fused candidate events.\n\nWhat changed: Collection volume: +0 retained report(s) versus 2026-08-31 (0 → 0). Actor-level same-day fused event counts are unchanged from the previous date.\n\nIntelligence gaps: Collection confidence is low, so absence of reporting should not be interpreted as absence of activity.\n\nCollection confidence: LOW. no completed collection run recorded for this date\n\nAll retained source reports, including reports not promoted to the map, remain individually summarized in the intelligence feed and source records."
     }
   ]
 }

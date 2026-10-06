@@ -1,5 +1,187 @@
 [
   {
+    "id": "f47295d6058957f39b2b5a1381de226052002f29",
+    "event_date": "2026-10-05",
+    "event_date_confidence": "publication-proxy",
+    "event_date_source": "jsonld:datePublished",
+    "published_at": "2026-10-05T22:34:37Z",
+    "published_date_source": "jsonld:datePublished",
+    "published_time_precision": "datetime",
+    "collected_at": "2026-10-06T00:49:29.321015Z",
+    "actor": "Other",
+    "perpetrator": null,
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [],
+    "parent_report_id": null,
+    "event_type": "kidnapping",
+    "country": "Mali",
+    "city": null,
+    "lat": null,
+    "lng": null,
+    "locations": [],
+    "title": "Mali: five months after the kidnapping of Mountaga Tall, a former Minister of Justice calls on the authorities",
+    "summary": "In Mali, it has now been more than five months since Mr. Mountaga Tall, a lawyer and former minister, was abducted from his home in early May by hooded men from the State Security. After him, his son and several personalities committed to the defense of democracy were kidnapped by the Malian services .",
+    "sources": [
+      "RFI Afrique"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://www.rfi.fr/fr/afrique/20261005-mali-cinq-mois-apr%C3%A8s-l-enl%C3%A8vement-de-mountaga-tall-un-ex-ministre-de-la-justice-interpelle-les-autorit%C3%A9s"
+    ],
+    "report_summaries": [
+      {
+        "url": "https://www.rfi.fr/fr/afrique/20261005-mali-cinq-mois-apr%C3%A8s-l-enl%C3%A8vement-de-mountaga-tall-un-ex-ministre-de-la-justice-interpelle-les-autorit%C3%A9s",
+        "source": "RFI Afrique",
+        "title": "Mali: five months after the kidnapping of Mountaga Tall, a former Minister of Justice calls on the authorities",
+        "summary": "In Mali, it has now been more than five months since Mr. Mountaga Tall, a lawyer and former minister, was abducted from his home in early May by hooded men from the State Security. After him, his son and several personalities committed to the defense of democracy were kidnapped by the Malian services .",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      }
+    ],
+    "created_at": "2026-10-06T00:49:29.321015Z",
+    "updated_at": "2026-10-06T00:49:29.321015Z",
+    "extraction_confidence": "low",
+    "victim_categories": [],
+    "civilian_targeting_flag": false,
+    "casualty_claims": [],
+    "fatalities_min": null,
+    "fatalities_max": null,
+    "fatalities_best": null,
+    "injured_min": null,
+    "injured_max": null,
+    "abducted_min": null,
+    "abducted_max": null,
+    "casualty_disputed": false,
+    "revision_history": [
+      {
+        "at": "2026-10-06T00:49:29.321015Z",
+        "type": "event_created",
+        "source": "RFI Afrique"
+      }
+    ],
+    "corroboration": "single-source",
+    "confidence": "low",
+    "independent_source_domains": [
+      "rfi.fr"
+    ],
+    "independent_source_count": 1,
+    "significance": "SIGNIFICANT",
+    "significance_reasons": [
+      "operational security event"
+    ]
+  },
+  {
+    "id": "8d462f6b2d4df083fe50bbc68c184332d7779126",
+    "event_date": "2026-10-05",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "explicit-calendar-date",
+    "published_at": "2026-10-06T00:25:06Z",
+    "published_date_source": "jsonld:datePublished",
+    "published_time_precision": "datetime",
+    "collected_at": "2026-10-06T00:49:24.464946Z",
+    "actor": "State",
+    "perpetrator": "State",
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [
+      "State"
+    ],
+    "parent_report_id": null,
+    "event_type": "security operation",
+    "country": "Mali",
+    "city": "Kidal",
+    "lat": 18.4411,
+    "lng": 1.4078,
+    "locations": [
+      {
+        "name": "Kidal",
+        "country": "Mali",
+        "lat": 18.4411,
+        "lng": 1.4078,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "Operation Dougoukoloko: FAMa inflicts heavy losses on terrorists in Tinzaouatène (Kidal)",
+    "summary": "According to a recent statement from the General Staff of the Armed Forces, air-land maneuvers are continuing in the Kidal area under the aegis of Operation Dougoukoloko. These strikes are a continuation of the actions carried out earlier in the day on Monday, October 5, 2026 Several positions of armed terrorist groups, located in Tinzaouatène and its surroundings, were subjected to precision strikes.",
+    "sources": [
+      "Malijet"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://malijet.com/actualte_dans_les_regions_du_mali/312187-operation-dougoukoloko-les-fama-infligent-de-lourdes-perte-1.html"
+    ],
+    "report_summaries": [
+      {
+        "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312187-operation-dougoukoloko-les-fama-infligent-de-lourdes-perte-1.html",
+        "source": "Malijet",
+        "title": "Operation Dougoukoloko: FAMa inflicts heavy losses on terrorists in Tinzaouatène (Kidal)",
+        "summary": "According to a recent statement from the General Staff of the Armed Forces, air-land maneuvers are continuing in the Kidal area under the aegis of Operation Dougoukoloko. These strikes are a continuation of the actions carried out earlier in the day on Monday, October 5, 2026 Several positions of armed terrorist groups, located in Tinzaouatène and its surroundings, were subjected to precision strikes.",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "armed_group"
+        ],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      }
+    ],
+    "created_at": "2026-10-06T00:49:24.464946Z",
+    "updated_at": "2026-10-06T00:49:24.464946Z",
+    "extraction_confidence": "low",
+    "victim_categories": [
+      "armed_group"
+    ],
+    "civilian_targeting_flag": false,
+    "casualty_claims": [],
+    "fatalities_min": null,
+    "fatalities_max": null,
+    "fatalities_best": null,
+    "injured_min": null,
+    "injured_max": null,
+    "abducted_min": null,
+    "abducted_max": null,
+    "casualty_disputed": false,
+    "revision_history": [
+      {
+        "at": "2026-10-06T00:49:24.464946Z",
+        "type": "event_created",
+        "source": "Malijet"
+      }
+    ],
+    "corroboration": "single-source",
+    "confidence": "low",
+    "independent_source_domains": [
+      "malijet.com"
+    ],
+    "independent_source_count": 1,
+    "significance": "SIGNIFICANT",
+    "significance_reasons": [
+      "operational security event"
+    ]
+  },
+  {
     "id": "377dcb280e44b3d68c77d1d595e54f0614ab2753",
     "event_date": "2026-10-05",
     "event_date_confidence": "explicit-text",
