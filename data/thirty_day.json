@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-06T04:39:23.968807Z",
+  "generated_at": "2026-10-06T08:39:56.375343Z",
   "window_days": 30,
   "cutoff": "2026-09-06",
-  "reports": 247,
+  "reports": 248,
   "incident_reports": 49,
   "candidate_events": 46,
   "corroborated_events": 5,
@@ -30,7 +30,7 @@
     "raid": 1
   },
   "by_language": {
-    "fr": 184,
+    "fr": 185,
     "en": 52,
     "ar": 11
   },
@@ -299,7 +299,7 @@
     },
     {
       "date": "2026-10-06",
-      "reports": 2,
+      "reports": 3,
       "events": 0
     }
   ],
@@ -3496,6 +3496,24 @@
   ],
   "latest_reports": [
     {
+      "published_at": "2026-10-06T03:00:18Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-06T08:39:25.511834Z",
+      "discovered_at": "2026-10-06T08:39:25.511834Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0095",
+      "source": "Courrier International",
+      "language": "fr",
+      "actor": null,
+      "country": "Niger",
+      "city": "Niamey",
+      "event_type": "political/security policy",
+      "candidate_event": false,
+      "title": "Article reserved for subscribers Analysis. In the Sahel, Algeria has emerged from its doctrine of non-intervention Middle East Eye",
+      "url": "https://www.courrierinternational.com/article/analyse-au-sahel-l-algerie-est-sortie-de-sa-doctrine-de-non-intervention_274602"
+    },
+    {
       "published_at": "2026-10-06T00:34:58Z",
       "published_date_source": "jsonld:datePublished",
       "published_time_precision": "datetime",
@@ -4196,24 +4214,6 @@
       "candidate_event": false,
       "title": "OPERATION DOUGOUKOLOKO: FAMa MAINTAINS PRESSURE ON TERRORIST GROUPS IN TESSALIT, NAMPALA and SOFARA",
       "url": "https://bamada.net/operation-dougoukoloko-les-fama-maintiennent-la-pression-sur-les-groupes-terroristes-a-tessalit-nampala-et-sofara"
-    },
-    {
-      "published_at": "2026-10-01T23:47:58Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-02T00:38:44.062067Z",
-      "discovered_at": "2026-10-02T00:38:44.062067Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0012",
-      "source": "Sidwaya",
-      "language": "fr",
-      "actor": null,
-      "country": "Burkina Faso",
-      "city": "Ouagadougou",
-      "event_type": "security operation",
-      "candidate_event": false,
-      "title": "Use of motor tricycles: a control operation officially launched",
-      "url": "https://www.sidwaya.info/usage-des-tricycles-a-moteur-une-operation-de-controle-officiellement-lancee/"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."

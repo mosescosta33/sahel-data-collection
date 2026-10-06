@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "site_patch_version": "3.3.5",
-  "generated_at": "2026-10-06T04:39:25.278675Z",
+  "generated_at": "2026-10-06T08:39:58.081477Z",
   "active_limit": 33,
   "total_briefings": 255,
   "active_count": 33,
@@ -11,7 +11,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-06",
-      "generated_at": "2026-10-06T04:39:24.911908Z",
+      "generated_at": "2026-10-06T08:39:57.903376Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -23,17 +23,17 @@
         "events_occurring_on_date": 0,
         "records_held_for_review": 0,
         "multi_source_events": 0,
-        "reports_collected_on_date": 0,
+        "reports_collected_on_date": 1,
         "reports_published_on_date": 0,
         "newly_discovered_older_events": 0,
         "events_awaiting_date_verification": 0,
-        "distinct_sources_collected": 0
+        "distinct_sources_collected": 1
       },
-      "executive_assessment": "The desk has too little reporting from 2026-10-06 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet.",
+      "executive_assessment": "Reporting collected on 2026-10-06 does not yet support a clear account of a new incident in Mali, Burkina Faso, or Niger. The desk received 1 report from 1 source, but the automated incident record needs further review. This is not evidence of calm on the ground.",
       "briefing_sections": [
         {
           "heading": "Assessment",
-          "text": "The desk has too little reporting from 2026-10-06 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
+          "text": "Reporting collected on 2026-10-06 does not yet support a clear account of a new incident in Mali, Burkina Faso, or Niger. The desk received 1 report from 1 source, but the automated incident record needs further review. This is not evidence of calm on the ground."
         },
         {
           "heading": "Mali",
@@ -45,7 +45,7 @@
         },
         {
           "heading": "Niger",
-          "text": "No retained Niger report is recorded for this collection date. 0 fused candidate events currently carry this event date."
+          "text": "1 retained report were collected for Niger. 0 fused candidate events currently carry this reporting date. Article reserved for subscribers Analysis. In the Sahel, Algeria has emerged from its doctrine of…: At the request of the Nigerien authorities, Algeria announced, on August 30, the deployment of four Su-30 fighters, a tanker plane and a transport plane to help its neighbor. This support mission was launched in the aftermath…"
         },
         {
           "heading": "What remains unclear",
@@ -58,7 +58,7 @@
       "significant_events": [],
       "what_changed_since_yesterday": [
         "State: -2 same-day fused event(s) versus 2026-10-05 (2 → 0).",
-        "Collection volume: -26 retained report(s) versus 2026-10-05 (26 → 0)."
+        "Collection volume: -25 retained report(s) versus 2026-10-05 (26 → 1)."
       ],
       "emerging_patterns": [
         "JNIM 7-day activity is higher than the preceding 7-day window (0 → 1).",
@@ -80,7 +80,7 @@
       "country_reporting_counts": {
         "Mali": 0,
         "Burkina Faso": 0,
-        "Niger": 0
+        "Niger": 1
       },
       "actor_profiles": {
         "JNIM": {
@@ -133,7 +133,7 @@
         },
         "Niger": {
           "events": 0,
-          "reports_collected": 0,
+          "reports_collected": 1,
           "actor_counts": {
             "JNIM": 0,
             "IS Sahel": 0,
@@ -146,37 +146,49 @@
       "country_article_summaries": {
         "Mali": [],
         "Burkina Faso": [],
-        "Niger": []
+        "Niger": [
+          {
+            "id": "7b6551e4a8efa43b3f0de5287fea53acb24aea99",
+            "source": "Courrier International",
+            "title": "Article reserved for subscribers Analysis. In the Sahel, Algeria has emerged from its doctrine of non-intervention Middle East Eye",
+            "summary": "At the request of the Nigerien authorities, Algeria announced, on August 30, the deployment of four Su-30 fighters, a tanker plane and a transport plane to help its neighbor. This support mission was launched in the aftermath of an abortive coup in Niger, a country led by General Abdourahamane Tiani since his own coup in July 2023. The country, which shares a 950-kilometre border with southern Algeria, is shaken by renewed tensions.",
+            "url": "https://www.courrierinternational.com/article/analyse-au-sahel-l-algerie-est-sortie-de-sa-doctrine-de-non-intervention_274602",
+            "candidate_event": false,
+            "event_date": "2026-08-30"
+          }
+        ]
       },
       "collection_notes": {
         "sources_total": 182,
-        "sources_success": 156,
-        "sources_failed": 26,
-        "sources_degraded": 19,
-        "documents_discovered": 11524,
-        "documents_retained": 0,
+        "sources_success": 157,
+        "sources_failed": 25,
+        "sources_degraded": 18,
+        "documents_discovered": 11603,
+        "documents_retained": 1,
         "report_target": 100,
-        "translations_attempted": 0,
-        "translations_success": 0,
+        "translations_attempted": 1,
+        "translations_success": 1,
         "translation_failures": 0,
         "collection_confidence": "LOW",
         "collection_confidence_reasons": [
-          "156/182 source paths reached",
-          "26 failed source paths",
-          "19 degraded / 26 failed of 182 configured sources"
+          "157/182 source paths reached",
+          "25 failed source paths",
+          "18 degraded / 25 failed of 182 configured sources"
         ],
-        "reports_collected": 0,
+        "reports_collected": 1,
         "reports_published": 0,
-        "distinct_sources_collected": 0,
-        "language_counts": {}
+        "distinct_sources_collected": 1,
+        "language_counts": {
+          "fr": 1
+        }
       },
-      "sultana_daily_text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nDaily bottom line for 2026-10-06: The desk has too little reporting from 2026-10-06 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet.\n\nMali: 0 retained reports. No retained country-specific reports were collected for this desk date.\n\nBurkina Faso: 0 retained reports. No retained country-specific reports were collected for this desk date.\n\nNiger: 0 retained reports. No retained country-specific reports were collected for this desk date.\n\nActor picture: no same-day fused candidate events.\n\nWhat changed: State: -2 same-day fused event(s) versus 2026-10-05 (2 → 0). Collection volume: -26 retained report(s) versus 2026-10-05 (26 → 0).\n\nIntelligence gaps: Collection confidence is low, so absence of reporting should not be interpreted as absence of activity.\n\nCollection confidence: LOW. 156/182 source paths reached 26 failed source paths 19 degraded / 26 failed of 182 configured sources\n\nAll retained source reports, including reports not promoted to the map, remain individually summarized in the intelligence feed and source records."
+      "sultana_daily_text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nDaily bottom line for 2026-10-06: Reporting collected on 2026-10-06 does not yet support a clear account of a new incident in Mali, Burkina Faso, or Niger. The desk received 1 report from 1 source, but the automated incident record needs further review. This is not evidence of calm on the ground.\n\nMali: 0 retained reports. No retained country-specific reports were collected for this desk date.\n\nBurkina Faso: 0 retained reports. No retained country-specific reports were collected for this desk date.\n\nNiger: 1 retained report. 1. Article reserved for subscribers Analysis. In the Sahel, Algeria has emerged from its doctrine of non-intervention Middle East Eye. At the request of the Nigerien authorities, Algeria announced, on August 30, the deployment of four Su-30 fighters, a tanker plane and a transport plane to help its neighbor. This support mission was launched in the aftermath of an abortive coup in Niger, a country led by General Abdourahamane Tiani since his own coup in July 2023. The country, which shares a 950-kilometre border with southern Algeria, is shaken by renewed tensions.\n\nActor picture: no same-day fused candidate events.\n\nWhat changed: State: -2 same-day fused event(s) versus 2026-10-05 (2 → 0). Collection volume: -25 retained report(s) versus 2026-10-05 (26 → 1).\n\nIntelligence gaps: Collection confidence is low, so absence of reporting should not be interpreted as absence of activity.\n\nCollection confidence: LOW. 157/182 source paths reached 25 failed source paths 18 degraded / 25 failed of 182 configured sources\n\nAll retained source reports, including reports not promoted to the map, remain individually summarized in the intelligence feed and source records."
     },
     {
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-05",
-      "generated_at": "2026-10-06T04:39:24.962317Z",
+      "generated_at": "2026-10-06T08:39:57.707708Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -189,7 +201,7 @@
         "records_held_for_review": 3,
         "multi_source_events": 0,
         "reports_collected_on_date": 26,
-        "reports_published_on_date": 17,
+        "reports_published_on_date": 18,
         "newly_discovered_older_events": 3,
         "events_awaiting_date_verification": 3,
         "distinct_sources_collected": 13
@@ -653,7 +665,7 @@
           "25 failed source paths"
         ],
         "reports_collected": 26,
-        "reports_published": 17,
+        "reports_published": 18,
         "distinct_sources_collected": 13,
         "language_counts": {
           "fr": 22,
@@ -667,7 +679,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-04",
-      "generated_at": "2026-10-06T04:39:25.208934Z",
+      "generated_at": "2026-10-06T08:39:57.942907Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -1277,7 +1289,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-03",
-      "generated_at": "2026-10-06T04:39:25.158085Z",
+      "generated_at": "2026-10-06T08:39:57.255705Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -1764,7 +1776,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-02",
-      "generated_at": "2026-10-06T04:39:24.574604Z",
+      "generated_at": "2026-10-06T08:39:57.451185Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -2004,7 +2016,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-01",
-      "generated_at": "2026-10-06T04:39:24.982284Z",
+      "generated_at": "2026-10-06T08:39:57.479883Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -2552,7 +2564,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-30",
-      "generated_at": "2026-10-06T04:39:24.803565Z",
+      "generated_at": "2026-10-06T08:39:57.847370Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -3696,7 +3708,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-29",
-      "generated_at": "2026-10-06T04:39:25.119375Z",
+      "generated_at": "2026-10-06T08:39:57.537644Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -4021,7 +4033,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-28",
-      "generated_at": "2026-10-06T04:39:24.808036Z",
+      "generated_at": "2026-10-06T08:39:57.259182Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -4500,7 +4512,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-27",
-      "generated_at": "2026-10-06T04:39:25.226689Z",
+      "generated_at": "2026-10-06T08:39:58.001812Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -4853,7 +4865,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-26",
-      "generated_at": "2026-10-06T04:39:25.089163Z",
+      "generated_at": "2026-10-06T08:39:58.012055Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -5101,7 +5113,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-25",
-      "generated_at": "2026-10-06T04:39:25.138445Z",
+      "generated_at": "2026-10-06T08:39:57.998095Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -5453,7 +5465,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-24",
-      "generated_at": "2026-10-06T04:39:24.882615Z",
+      "generated_at": "2026-10-06T08:39:57.857218Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -5815,7 +5827,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-23",
-      "generated_at": "2026-10-06T04:39:25.259237Z",
+      "generated_at": "2026-10-06T08:39:57.277310Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -6126,7 +6138,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-22",
-      "generated_at": "2026-10-06T04:39:24.819260Z",
+      "generated_at": "2026-10-06T08:39:57.634026Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -7084,7 +7096,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-21",
-      "generated_at": "2026-10-06T04:39:24.840199Z",
+      "generated_at": "2026-10-06T08:39:57.341095Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -7602,7 +7614,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-20",
-      "generated_at": "2026-10-06T04:39:24.837888Z",
+      "generated_at": "2026-10-06T08:39:58.028858Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -8246,7 +8258,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-19",
-      "generated_at": "2026-10-06T04:39:25.218682Z",
+      "generated_at": "2026-10-06T08:39:57.368850Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -8901,7 +8913,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-18",
-      "generated_at": "2026-10-06T04:39:24.862995Z",
+      "generated_at": "2026-10-06T08:39:57.710972Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -9064,7 +9076,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-17",
-      "generated_at": "2026-10-06T04:39:25.052735Z",
+      "generated_at": "2026-10-06T08:39:57.740414Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -9327,7 +9339,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-16",
-      "generated_at": "2026-10-06T04:39:24.774639Z",
+      "generated_at": "2026-10-06T08:39:57.860448Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -9489,7 +9501,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-15",
-      "generated_at": "2026-10-06T04:39:24.796771Z",
+      "generated_at": "2026-10-06T08:39:57.743643Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -9651,7 +9663,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-14",
-      "generated_at": "2026-10-06T04:39:24.673086Z",
+      "generated_at": "2026-10-06T08:39:57.391767Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -9817,7 +9829,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-13",
-      "generated_at": "2026-10-06T04:39:24.994974Z",
+      "generated_at": "2026-10-06T08:39:57.926453Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -9979,7 +9991,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-12",
-      "generated_at": "2026-10-06T04:39:24.601243Z",
+      "generated_at": "2026-10-06T08:39:57.510205Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -10141,7 +10153,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-11",
-      "generated_at": "2026-10-06T04:39:24.814428Z",
+      "generated_at": "2026-10-06T08:39:57.441262Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -10303,7 +10315,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-10",
-      "generated_at": "2026-10-06T04:39:25.039979Z",
+      "generated_at": "2026-10-06T08:39:57.829173Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -10526,7 +10538,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-08",
-      "generated_at": "2026-10-06T04:39:24.785529Z",
+      "generated_at": "2026-10-06T08:39:57.647177Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -10692,7 +10704,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-07",
-      "generated_at": "2026-10-06T04:39:25.146989Z",
+      "generated_at": "2026-10-06T08:39:58.008744Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -11020,7 +11032,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-04",
-      "generated_at": "2026-10-06T04:39:24.907635Z",
+      "generated_at": "2026-10-06T08:39:57.769588Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -11186,7 +11198,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-03",
-      "generated_at": "2026-10-06T04:39:24.623660Z",
+      "generated_at": "2026-10-06T08:39:58.041948Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -11348,7 +11360,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-02",
-      "generated_at": "2026-10-06T04:39:24.798930Z",
+      "generated_at": "2026-10-06T08:39:57.866852Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
