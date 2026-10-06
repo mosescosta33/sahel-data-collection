@@ -1,5 +1,327 @@
 [
   {
+    "id": "4d02af9c9bfceb0d002b1286a0d34b4a97bf4571",
+    "event_date": "2026-10-06",
+    "event_date_confidence": "publication-proxy",
+    "event_date_source": "jsonld:datePublished",
+    "published_at": "2026-10-06T11:39:08Z",
+    "published_date_source": "jsonld:datePublished",
+    "published_time_precision": "datetime",
+    "collected_at": "2026-10-06T12:44:06.015261Z",
+    "actor": "State",
+    "perpetrator": "State",
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [
+      "State"
+    ],
+    "parent_report_id": null,
+    "event_type": "offensive/campaign",
+    "country": "Mali",
+    "city": "Kidal",
+    "lat": 18.4411,
+    "lng": 1.4078,
+    "locations": [
+      {
+        "name": "Kidal",
+        "country": "Mali",
+        "lat": 18.4411,
+        "lng": 1.4078,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "Kidal: Massive air-land offensive by the FAMa and their Russian allies against terrorist strongholds",
+    "summary": "Kidal: Massive air-terrestrial offensive by the FAMa and their Russian allies against terrorist strongholds The Malian armed forces and their Russian allies have begun major air-terrestrial maneuvers in Kidal, as part of the readjustment of Operation DOUGOUKOLOKO, according to the General Staff of the Armed Forces . These operations are aimed at tracking down and neutralizing armed terrorist groups operating throughout the region, destroying their sanctuaries and supply networks, as well as sustainably restoring the security of the populations and the free movement of people and goods .",
+    "sources": [
+      "Malijet"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://malijet.com/a_la_une_du_mali/312192-kidal-offensive-aeroterrestre-massive-des-fama-et-de-leurs.html"
+    ],
+    "report_summaries": [
+      {
+        "url": "https://malijet.com/a_la_une_du_mali/312192-kidal-offensive-aeroterrestre-massive-des-fama-et-de-leurs.html",
+        "source": "Malijet",
+        "title": "Kidal: Massive air-land offensive by the FAMa and their Russian allies against terrorist strongholds",
+        "summary": "Kidal: Massive air-terrestrial offensive by the FAMa and their Russian allies against terrorist strongholds The Malian armed forces and their Russian allies have begun major air-terrestrial maneuvers in Kidal, as part of the readjustment of Operation DOUGOUKOLOKO, according to the General Staff of the Armed Forces . These operations are aimed at tracking down and neutralizing armed terrorist groups operating throughout the region, destroying their sanctuaries and supply networks, as well as sustainably restoring the security of the populations and the free movement of people and goods .",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "security_force",
+          "armed_group"
+        ],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      }
+    ],
+    "created_at": "2026-10-06T12:44:06.015261Z",
+    "updated_at": "2026-10-06T12:44:06.015261Z",
+    "extraction_confidence": "moderate",
+    "victim_categories": [
+      "security_force",
+      "armed_group"
+    ],
+    "civilian_targeting_flag": false,
+    "casualty_claims": [],
+    "fatalities_min": null,
+    "fatalities_max": null,
+    "fatalities_best": null,
+    "injured_min": null,
+    "injured_max": null,
+    "abducted_min": null,
+    "abducted_max": null,
+    "casualty_disputed": false,
+    "revision_history": [
+      {
+        "at": "2026-10-06T12:44:06.015261Z",
+        "type": "event_created",
+        "source": "Malijet"
+      }
+    ],
+    "corroboration": "single-source",
+    "confidence": "moderate",
+    "independent_source_domains": [
+      "malijet.com"
+    ],
+    "independent_source_count": 1,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "strategic/severe event pattern"
+    ]
+  },
+  {
+    "id": "39087271af0f69408774859454ee747d241e8038",
+    "event_date": "2026-10-05",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "relative-weekday",
+    "published_at": "2026-10-06T09:13:03Z",
+    "published_date_source": "jsonld:datePublished",
+    "published_time_precision": "datetime",
+    "collected_at": "2026-10-06T12:44:06.714870Z",
+    "actor": "JNIM",
+    "perpetrator": "JNIM",
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [
+      "JNIM"
+    ],
+    "parent_report_id": null,
+    "event_type": "offensive/campaign",
+    "country": "Mali",
+    "city": "Kidal",
+    "lat": 18.4411,
+    "lng": 1.4078,
+    "locations": [
+      {
+        "name": "Kidal",
+        "country": "Mali",
+        "lat": 18.4411,
+        "lng": 1.4078,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "Mali's military offensive has begun in the Kidal region",
+    "summary": "Malian social networks favorable to the regime relayed Monday images, filmed the same day, of drone strikes on the city of Tinzawaten, on the Algerian border. These strikes herald the start of the offensive to recapture Kidal and the northern region that was announced for the end of the rainy season . Tinzawaten was until now a military sanctuary of the Azawad Liberation Front, the main target of the offensive to reconquer the north.",
+    "sources": [
+      "Mondafrique"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://mondafrique.com/video/loffensive-militaire-malienne-a-commence-dans-la-region-de-kidal/"
+    ],
+    "report_summaries": [
+      {
+        "url": "https://mondafrique.com/video/loffensive-militaire-malienne-a-commence-dans-la-region-de-kidal/",
+        "source": "Mondafrique",
+        "title": "Mali's military offensive has begun in the Kidal region",
+        "summary": "Malian social networks favorable to the regime relayed Monday images, filmed the same day, of drone strikes on the city of Tinzawaten, on the Algerian border. These strikes herald the start of the offensive to recapture Kidal and the northern region that was announced for the end of the rainy season . Tinzawaten was until now a military sanctuary of the Azawad Liberation Front, the main target of the offensive to reconquer the north.",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "armed_group"
+        ],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      }
+    ],
+    "created_at": "2026-10-06T12:44:06.714870Z",
+    "updated_at": "2026-10-06T12:44:06.714870Z",
+    "extraction_confidence": "moderate",
+    "victim_categories": [
+      "armed_group"
+    ],
+    "civilian_targeting_flag": false,
+    "casualty_claims": [],
+    "fatalities_min": null,
+    "fatalities_max": null,
+    "fatalities_best": null,
+    "injured_min": null,
+    "injured_max": null,
+    "abducted_min": null,
+    "abducted_max": null,
+    "casualty_disputed": false,
+    "revision_history": [
+      {
+        "at": "2026-10-06T12:44:06.714870Z",
+        "type": "event_created",
+        "source": "Mondafrique"
+      }
+    ],
+    "corroboration": "single-source",
+    "confidence": "moderate",
+    "independent_source_domains": [
+      "mondafrique.com"
+    ],
+    "independent_source_count": 1,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "strategic/severe event pattern"
+    ]
+  },
+  {
+    "id": "8d462f6b2d4df083fe50bbc68c184332d7779126",
+    "event_date": "2026-10-05",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "explicit-calendar-date",
+    "published_at": "2026-10-06T00:25:06Z",
+    "published_date_source": "jsonld:datePublished",
+    "published_time_precision": "datetime",
+    "collected_at": "2026-10-06T00:49:24.464946Z",
+    "actor": "State",
+    "perpetrator": "State",
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [
+      "State"
+    ],
+    "parent_report_id": null,
+    "event_type": "security operation",
+    "country": "Mali",
+    "city": "Kidal",
+    "lat": 18.4411,
+    "lng": 1.4078,
+    "locations": [
+      {
+        "name": "Kidal",
+        "country": "Mali",
+        "lat": 18.4411,
+        "lng": 1.4078,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "Operation Dougoukoloko: FAMa inflicts heavy losses on terrorists in Tinzaouatène (Kidal)",
+    "summary": "In a statement published yesterday, Monday, October 5, 2026, the General Staff of the Armed Forces informs that air-land operations have taken place in the Kidal sector. Several positions of armed terrorist groups have occasionally been located and hit in Tinzaouatène and its surroundings \"The provisional balance sheet of these operations shows many terrorists neutralized as well as the destruction of a dozen pick-up vehicles, a truck, several motorcycles and many equipment\" .",
+    "sources": [
+      "Malijet",
+      "Seneweb"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 2,
+    "report_urls": [
+      "https://malijet.com/actualte_dans_les_regions_du_mali/312187-operation-dougoukoloko-les-fama-infligent-de-lourdes-perte-1.html",
+      "https://www.seneweb.com/fr/news/Afrique/mali-les-fama-neutralisent-plusieurs-terroristes-a-tinzaouatene_n_506236.html"
+    ],
+    "report_summaries": [
+      {
+        "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312187-operation-dougoukoloko-les-fama-infligent-de-lourdes-perte-1.html",
+        "source": "Malijet",
+        "title": "Operation Dougoukoloko: FAMa inflicts heavy losses on terrorists in Tinzaouatène (Kidal)",
+        "summary": "According to a recent statement from the General Staff of the Armed Forces, air-land maneuvers are continuing in the Kidal area under the aegis of Operation Dougoukoloko. These strikes are a continuation of the actions carried out earlier in the day on Monday, October 5, 2026 Several positions of armed terrorist groups, located in Tinzaouatène and its surroundings, were subjected to precision strikes.",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "armed_group"
+        ],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      },
+      {
+        "url": "https://www.seneweb.com/fr/news/Afrique/mali-les-fama-neutralisent-plusieurs-terroristes-a-tinzaouatene_n_506236.html",
+        "source": "Seneweb",
+        "title": "Mali: Fama neutralizes several terrorists in Tinzaouatène",
+        "summary": "In a statement published yesterday, Monday, October 5, 2026, the General Staff of the Armed Forces informs that air-land operations have taken place in the Kidal sector. Several positions of armed terrorist groups have occasionally been located and hit in Tinzaouatène and its surroundings \"The provisional balance sheet of these operations shows many terrorists neutralized as well as the destruction of a dozen pick-up vehicles, a truck, several motorcycles and many equipment\" .",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "armed_group"
+        ],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      }
+    ],
+    "created_at": "2026-10-06T00:49:24.464946Z",
+    "updated_at": "2026-10-06T12:44:06.262636Z",
+    "extraction_confidence": "low",
+    "victim_categories": [
+      "armed_group"
+    ],
+    "civilian_targeting_flag": false,
+    "casualty_claims": [],
+    "fatalities_min": null,
+    "fatalities_max": null,
+    "fatalities_best": null,
+    "injured_min": null,
+    "injured_max": null,
+    "abducted_min": null,
+    "abducted_max": null,
+    "casualty_disputed": false,
+    "revision_history": [
+      {
+        "at": "2026-10-06T00:49:24.464946Z",
+        "type": "event_created",
+        "source": "Malijet"
+      },
+      {
+        "at": "2026-10-06T12:44:06.262636Z",
+        "type": "corroboration_or_geography_update",
+        "source": "Seneweb"
+      }
+    ],
+    "corroboration": "limited corroboration",
+    "confidence": "moderate",
+    "independent_source_domains": [
+      "malijet.com",
+      "seneweb.com"
+    ],
+    "independent_source_count": 2,
+    "significance": "SIGNIFICANT",
+    "significance_reasons": [
+      "operational security event"
+    ]
+  },
+  {
     "id": "f47295d6058957f39b2b5a1381de226052002f29",
     "event_date": "2026-10-05",
     "event_date_confidence": "publication-proxy",
@@ -76,104 +398,6 @@
     "confidence": "low",
     "independent_source_domains": [
       "rfi.fr"
-    ],
-    "independent_source_count": 1,
-    "significance": "SIGNIFICANT",
-    "significance_reasons": [
-      "operational security event"
-    ]
-  },
-  {
-    "id": "8d462f6b2d4df083fe50bbc68c184332d7779126",
-    "event_date": "2026-10-05",
-    "event_date_confidence": "explicit-text",
-    "event_date_source": "explicit-calendar-date",
-    "published_at": "2026-10-06T00:25:06Z",
-    "published_date_source": "jsonld:datePublished",
-    "published_time_precision": "datetime",
-    "collected_at": "2026-10-06T00:49:24.464946Z",
-    "actor": "State",
-    "perpetrator": "State",
-    "target": null,
-    "claimant": null,
-    "supporting_force": null,
-    "mentioned_actors": [
-      "State"
-    ],
-    "parent_report_id": null,
-    "event_type": "security operation",
-    "country": "Mali",
-    "city": "Kidal",
-    "lat": 18.4411,
-    "lng": 1.4078,
-    "locations": [
-      {
-        "name": "Kidal",
-        "country": "Mali",
-        "lat": 18.4411,
-        "lng": 1.4078,
-        "confidence": "explicit-place"
-      }
-    ],
-    "title": "Operation Dougoukoloko: FAMa inflicts heavy losses on terrorists in Tinzaouatène (Kidal)",
-    "summary": "According to a recent statement from the General Staff of the Armed Forces, air-land maneuvers are continuing in the Kidal area under the aegis of Operation Dougoukoloko. These strikes are a continuation of the actions carried out earlier in the day on Monday, October 5, 2026 Several positions of armed terrorist groups, located in Tinzaouatène and its surroundings, were subjected to precision strikes.",
-    "sources": [
-      "Malijet"
-    ],
-    "languages": [
-      "fr"
-    ],
-    "source_count": 1,
-    "report_urls": [
-      "https://malijet.com/actualte_dans_les_regions_du_mali/312187-operation-dougoukoloko-les-fama-infligent-de-lourdes-perte-1.html"
-    ],
-    "report_summaries": [
-      {
-        "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312187-operation-dougoukoloko-les-fama-infligent-de-lourdes-perte-1.html",
-        "source": "Malijet",
-        "title": "Operation Dougoukoloko: FAMa inflicts heavy losses on terrorists in Tinzaouatène (Kidal)",
-        "summary": "According to a recent statement from the General Staff of the Armed Forces, air-land maneuvers are continuing in the Kidal area under the aegis of Operation Dougoukoloko. These strikes are a continuation of the actions carried out earlier in the day on Monday, October 5, 2026 Several positions of armed terrorist groups, located in Tinzaouatène and its surroundings, were subjected to precision strikes.",
-        "summary_basis": "translated-excerpt",
-        "fatalities_min": null,
-        "fatalities_max": null,
-        "injured_min": null,
-        "injured_max": null,
-        "abducted_min": null,
-        "abducted_max": null,
-        "victim_categories": [
-          "armed_group"
-        ],
-        "civilian_targeting_flag": false,
-        "casualty_claims": []
-      }
-    ],
-    "created_at": "2026-10-06T00:49:24.464946Z",
-    "updated_at": "2026-10-06T00:49:24.464946Z",
-    "extraction_confidence": "low",
-    "victim_categories": [
-      "armed_group"
-    ],
-    "civilian_targeting_flag": false,
-    "casualty_claims": [],
-    "fatalities_min": null,
-    "fatalities_max": null,
-    "fatalities_best": null,
-    "injured_min": null,
-    "injured_max": null,
-    "abducted_min": null,
-    "abducted_max": null,
-    "casualty_disputed": false,
-    "revision_history": [
-      {
-        "at": "2026-10-06T00:49:24.464946Z",
-        "type": "event_created",
-        "source": "Malijet"
-      }
-    ],
-    "corroboration": "single-source",
-    "confidence": "low",
-    "independent_source_domains": [
-      "malijet.com"
     ],
     "independent_source_count": 1,
     "significance": "SIGNIFICANT",
@@ -1535,6 +1759,106 @@
     "significance_reasons": [
       "strategic/severe event pattern",
       "multi-location activity"
+    ]
+  },
+  {
+    "id": "d9952ea0a649449dbf8a3f670b53b896efbe2e44",
+    "event_date": "2026-09-28",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "explicit-calendar-date",
+    "published_at": "2026-10-06T10:32:15Z",
+    "published_date_source": "jsonld:datePublished",
+    "published_time_precision": "datetime",
+    "collected_at": "2026-10-06T12:44:06.484801Z",
+    "actor": "JNIM",
+    "perpetrator": "JNIM",
+    "target": "State",
+    "claimant": "JNIM",
+    "supporting_force": null,
+    "mentioned_actors": [
+      "JNIM",
+      "State",
+      "Africa Corps/Wagner"
+    ],
+    "parent_report_id": null,
+    "event_type": "ambush",
+    "country": "Mali",
+    "city": "Niono",
+    "lat": 14.25,
+    "lng": -5.9833,
+    "locations": [
+      {
+        "name": "Niono",
+        "country": "Mali",
+        "lat": 14.25,
+        "lng": -5.9833,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "AES: how jihadists learned to strike with drones",
+    "summary": "JNIM, a jihadist group linked to Al-Qaeda, claimed responsibility for an ambush on 28 September 2026 against a convoy of the Malian army and the Russian Africa Corps, near Niono, in central Mali. Drone fire opened the attack before the ground assault, and at least four Russians were killed according to local sources . This is clearly an evolution that the armies of the Confederation of Sahel States (AES), which brings together Mali, Burkina Faso and Niger, have not been able to stop: in three years, armed groups in the region have gone from simple reconnaissance drones to strike weapons.",
+    "sources": [
+      "La Nouvelle Tribune (Bénin)"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://lanouvelletribune.info/2026/10/aes-comment-les-djihadistes-ont-appris-a-frapper-avec-des-drones/"
+    ],
+    "report_summaries": [
+      {
+        "url": "https://lanouvelletribune.info/2026/10/aes-comment-les-djihadistes-ont-appris-a-frapper-avec-des-drones/",
+        "source": "La Nouvelle Tribune (Bénin)",
+        "title": "AES: how jihadists learned to strike with drones",
+        "summary": "JNIM, a jihadist group linked to Al-Qaeda, claimed responsibility for an ambush on 28 September 2026 against a convoy of the Malian army and the Russian Africa Corps, near Niono, in central Mali. Drone fire opened the attack before the ground assault, and at least four Russians were killed according to local sources . This is clearly an evolution that the armies of the Confederation of Sahel States (AES), which brings together Mali, Burkina Faso and Niger, have not been able to stop: in three years, armed groups in the region have gone from simple reconnaissance drones to strike weapons.",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "armed_group"
+        ],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      }
+    ],
+    "created_at": "2026-10-06T12:44:06.484801Z",
+    "updated_at": "2026-10-06T12:44:06.484801Z",
+    "extraction_confidence": "low",
+    "victim_categories": [
+      "armed_group"
+    ],
+    "civilian_targeting_flag": false,
+    "casualty_claims": [],
+    "fatalities_min": null,
+    "fatalities_max": null,
+    "fatalities_best": null,
+    "injured_min": null,
+    "injured_max": null,
+    "abducted_min": null,
+    "abducted_max": null,
+    "casualty_disputed": false,
+    "revision_history": [
+      {
+        "at": "2026-10-06T12:44:06.484801Z",
+        "type": "event_created",
+        "source": "La Nouvelle Tribune (Bénin)"
+      }
+    ],
+    "corroboration": "single-source",
+    "confidence": "low",
+    "independent_source_domains": [
+      "lanouvelletribune.info"
+    ],
+    "independent_source_count": 1,
+    "significance": "SIGNIFICANT",
+    "significance_reasons": [
+      "operational security event"
     ]
   },
   {
