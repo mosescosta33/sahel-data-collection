@@ -222,6 +222,109 @@
     ]
   },
   {
+    "id": "7af275fc8e3d141b7d0c0aa7902f4fc11b380b6d",
+    "event_date": "2026-10-06",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "relative-weekday",
+    "published_at": "2026-10-07T13:09:30Z",
+    "published_date_source": "jsonld:datePublished",
+    "published_time_precision": "datetime",
+    "collected_at": "2026-10-07T16:42:17.365194Z",
+    "actor": "State",
+    "perpetrator": null,
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [],
+    "parent_report_id": null,
+    "event_type": "clash",
+    "country": "Mali",
+    "city": "Kidal",
+    "lat": 18.4411,
+    "lng": 1.4078,
+    "locations": [
+      {
+        "name": "Kidal",
+        "country": "Mali",
+        "lat": 18.4411,
+        "lng": 1.4078,
+        "confidence": "explicit-place"
+      },
+      {
+        "name": "Timbuktu",
+        "country": "Mali",
+        "lat": 16.7666,
+        "lng": -3.0026,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "Mali: Army enters Kidal without fighting with Russian support",
+    "summary": "It was remarkable that the Malian army (Tuesday) entered the city of Kidal, in the far northeast of the country, without any fighting, six months after it fell to the Tuareg rebels, so that the city remains the title of the war that has been raging in this country for more than 15 years The transitional Malian government announced that the army units \"strengthened their positions in Kidal\", hours after the withdrawal of the \"Front for the Liberation of Azawad\", and a statement signed by the Minister of Territorial Administration and the government spokesman, General Issa Othman Coulibaly, said that the armed…",
+    "sources": [
+      "Asharq Al-Awsat"
+    ],
+    "languages": [
+      "ar"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://aawsat.com/%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%A3%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7/5327009-%D9%85%D8%A7%D9%84%D9%8A-%D8%A7%D9%84%D8%AC%D9%8A%D8%B4-%D9%8A%D8%AF%D8%AE%D9%84-%D9%83%D9%8A%D8%AF%D8%A7%D9%84-%D8%AF%D9%88%D9%86-%D9%82%D8%AA%D8%A7%D9%84-%D8%A8%D8%AF%D8%B9%D9%85-%D9%85%D9%86-%D8%B1%D9%88%D8%B3%D9%8A%D8%A7"
+    ],
+    "report_summaries": [
+      {
+        "url": "https://aawsat.com/%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%A3%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7/5327009-%D9%85%D8%A7%D9%84%D9%8A-%D8%A7%D9%84%D8%AC%D9%8A%D8%B4-%D9%8A%D8%AF%D8%AE%D9%84-%D9%83%D9%8A%D8%AF%D8%A7%D9%84-%D8%AF%D9%88%D9%86-%D9%82%D8%AA%D8%A7%D9%84-%D8%A8%D8%AF%D8%B9%D9%85-%D9%85%D9%86-%D8%B1%D9%88%D8%B3%D9%8A%D8%A7",
+        "source": "Asharq Al-Awsat",
+        "title": "Mali: Army enters Kidal without fighting with Russian support",
+        "summary": "It was remarkable that the Malian army (Tuesday) entered the city of Kidal, in the far northeast of the country, without any fighting, six months after it fell to the Tuareg rebels, so that the city remains the title of the war that has been raging in this country for more than 15 years The transitional Malian government announced that the army units \"strengthened their positions in Kidal\", hours after the withdrawal of the \"Front for the Liberation of Azawad\", and a statement signed by the Minister of Territorial Administration and the government spokesman, General Issa Othman Coulibaly, said that the armed…",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "armed_group"
+        ],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      }
+    ],
+    "created_at": "2026-10-07T16:42:17.365194Z",
+    "updated_at": "2026-10-07T16:42:17.365194Z",
+    "extraction_confidence": "low",
+    "victim_categories": [
+      "armed_group"
+    ],
+    "civilian_targeting_flag": false,
+    "casualty_claims": [],
+    "fatalities_min": null,
+    "fatalities_max": null,
+    "fatalities_best": null,
+    "injured_min": null,
+    "injured_max": null,
+    "abducted_min": null,
+    "abducted_max": null,
+    "casualty_disputed": false,
+    "revision_history": [
+      {
+        "at": "2026-10-07T16:42:17.365194Z",
+        "type": "event_created",
+        "source": "Asharq Al-Awsat"
+      }
+    ],
+    "corroboration": "single-source",
+    "confidence": "low",
+    "independent_source_domains": [
+      "aawsat.com"
+    ],
+    "independent_source_count": 1,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "multi-location activity"
+    ]
+  },
+  {
     "id": "fd302db416c8672f20a0f8344b3fc101615f4108",
     "event_date": "2026-10-06",
     "event_date_confidence": "explicit-text",

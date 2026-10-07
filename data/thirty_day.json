@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-10-07T12:47:05.288561Z",
+  "generated_at": "2026-10-07T16:43:27.916040Z",
   "window_days": 30,
   "cutoff": "2026-09-07",
-  "reports": 313,
-  "incident_reports": 72,
-  "candidate_events": 61,
+  "reports": 317,
+  "incident_reports": 73,
+  "candidate_events": 62,
   "corroborated_events": 9,
-  "mapped_events": 57,
-  "mapped_locations": 121,
+  "mapped_events": 58,
+  "mapped_locations": 123,
   "distinct_sources": 71,
   "by_actor": {
-    "State": 37,
+    "State": 38,
     "JNIM": 12,
     "Other": 8,
     "Africa Corps/Wagner": 4
   },
   "by_country": {
-    "Mali": 56,
+    "Mali": 57,
     "Niger": 3,
     "Burkina Faso": 2
   },
@@ -24,18 +24,18 @@
     "security operation": 27,
     "offensive/campaign": 11,
     "attack": 8,
-    "clash": 7,
+    "clash": 8,
     "ambush": 5,
     "kidnapping": 2,
     "raid": 1
   },
   "by_language": {
-    "fr": 233,
+    "fr": 236,
     "en": 63,
-    "ar": 17
+    "ar": 18
   },
   "by_confidence": {
-    "low": 31,
+    "low": 32,
     "moderate": 27,
     "moderate-high": 3
   },
@@ -51,13 +51,13 @@
       "count": 29
     },
     {
-      "source_code": "SRC-0001",
-      "source": "RFI Afrique",
-      "count": 14
-    },
-    {
       "source_code": "SRC-0075",
       "source": "AMAP (Agence Malienne de Presse et de Publicité)",
+      "count": 15
+    },
+    {
+      "source_code": "SRC-0001",
+      "source": "RFI Afrique",
       "count": 14
     },
     {
@@ -104,7 +104,7 @@
   "top_locations": [
     {
       "location": "Kidal",
-      "count": 27
+      "count": 28
     },
     {
       "location": "Bamako",
@@ -131,15 +131,15 @@
       "count": 6
     },
     {
+      "location": "Timbuktu",
+      "count": 6
+    },
+    {
       "location": "Djenné",
       "count": 5
     },
     {
       "location": "Gao",
-      "count": 5
-    },
-    {
-      "location": "Timbuktu",
       "count": 5
     },
     {
@@ -295,11 +295,11 @@
     {
       "date": "2026-10-06",
       "reports": 55,
-      "events": 10
+      "events": 11
     },
     {
       "date": "2026-10-07",
-      "reports": 13,
+      "reports": 17,
       "events": 2
     }
   ],
@@ -524,6 +524,109 @@
       "significance": "ROUTINE",
       "significance_reasons": [
         "limited currently observed significance"
+      ]
+    },
+    {
+      "id": "7af275fc8e3d141b7d0c0aa7902f4fc11b380b6d",
+      "event_date": "2026-10-06",
+      "event_date_confidence": "explicit-text",
+      "event_date_source": "relative-weekday",
+      "published_at": "2026-10-07T13:09:30Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-07T16:42:17.365194Z",
+      "actor": "State",
+      "perpetrator": null,
+      "target": null,
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [],
+      "parent_report_id": null,
+      "event_type": "clash",
+      "country": "Mali",
+      "city": "Kidal",
+      "lat": 18.4411,
+      "lng": 1.4078,
+      "locations": [
+        {
+          "name": "Kidal",
+          "country": "Mali",
+          "lat": 18.4411,
+          "lng": 1.4078,
+          "confidence": "explicit-place"
+        },
+        {
+          "name": "Timbuktu",
+          "country": "Mali",
+          "lat": 16.7666,
+          "lng": -3.0026,
+          "confidence": "explicit-place"
+        }
+      ],
+      "title": "Mali: Army enters Kidal without fighting with Russian support",
+      "summary": "It was remarkable that the Malian army (Tuesday) entered the city of Kidal, in the far northeast of the country, without any fighting, six months after it fell to the Tuareg rebels, so that the city remains the title of the war that has been raging in this country for more than 15 years The transitional Malian government announced that the army units \"strengthened their positions in Kidal\", hours after the withdrawal of the \"Front for the Liberation of Azawad\", and a statement signed by the Minister of Territorial Administration and the government spokesman, General Issa Othman Coulibaly, said that the armed…",
+      "sources": [
+        "Asharq Al-Awsat"
+      ],
+      "languages": [
+        "ar"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://aawsat.com/%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%A3%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7/5327009-%D9%85%D8%A7%D9%84%D9%8A-%D8%A7%D9%84%D8%AC%D9%8A%D8%B4-%D9%8A%D8%AF%D8%AE%D9%84-%D9%83%D9%8A%D8%AF%D8%A7%D9%84-%D8%AF%D9%88%D9%86-%D9%82%D8%AA%D8%A7%D9%84-%D8%A8%D8%AF%D8%B9%D9%85-%D9%85%D9%86-%D8%B1%D9%88%D8%B3%D9%8A%D8%A7"
+      ],
+      "report_summaries": [
+        {
+          "url": "https://aawsat.com/%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%A3%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7/5327009-%D9%85%D8%A7%D9%84%D9%8A-%D8%A7%D9%84%D8%AC%D9%8A%D8%B4-%D9%8A%D8%AF%D8%AE%D9%84-%D9%83%D9%8A%D8%AF%D8%A7%D9%84-%D8%AF%D9%88%D9%86-%D9%82%D8%AA%D8%A7%D9%84-%D8%A8%D8%AF%D8%B9%D9%85-%D9%85%D9%86-%D8%B1%D9%88%D8%B3%D9%8A%D8%A7",
+          "source": "Asharq Al-Awsat",
+          "title": "Mali: Army enters Kidal without fighting with Russian support",
+          "summary": "It was remarkable that the Malian army (Tuesday) entered the city of Kidal, in the far northeast of the country, without any fighting, six months after it fell to the Tuareg rebels, so that the city remains the title of the war that has been raging in this country for more than 15 years The transitional Malian government announced that the army units \"strengthened their positions in Kidal\", hours after the withdrawal of the \"Front for the Liberation of Azawad\", and a statement signed by the Minister of Territorial Administration and the government spokesman, General Issa Othman Coulibaly, said that the armed…",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "armed_group"
+          ],
+          "civilian_targeting_flag": false,
+          "casualty_claims": []
+        }
+      ],
+      "created_at": "2026-10-07T16:42:17.365194Z",
+      "updated_at": "2026-10-07T16:42:17.365194Z",
+      "extraction_confidence": "low",
+      "victim_categories": [
+        "armed_group"
+      ],
+      "civilian_targeting_flag": false,
+      "casualty_claims": [],
+      "fatalities_min": null,
+      "fatalities_max": null,
+      "fatalities_best": null,
+      "injured_min": null,
+      "injured_max": null,
+      "abducted_min": null,
+      "abducted_max": null,
+      "casualty_disputed": false,
+      "revision_history": [
+        {
+          "at": "2026-10-07T16:42:17.365194Z",
+          "type": "event_created",
+          "source": "Asharq Al-Awsat"
+        }
+      ],
+      "corroboration": "single-source",
+      "confidence": "low",
+      "independent_source_domains": [
+        "aawsat.com"
+      ],
+      "independent_source_count": 1,
+      "significance": "MAJOR",
+      "significance_reasons": [
+        "multi-location activity"
       ]
     },
     {
@@ -3603,119 +3706,81 @@
       "significance_reasons": [
         "operational security event"
       ]
-    },
-    {
-      "id": "733327a666926edc3227478a10e69a1392758bf5",
-      "event_date": "2026-09-28",
-      "event_date_confidence": "explicit-text",
-      "event_date_source": "explicit-calendar-date",
-      "published_at": "2026-10-01T16:05:21Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-01T17:23:26.279258Z",
-      "actor": "State",
-      "perpetrator": "State",
-      "target": null,
-      "claimant": null,
-      "supporting_force": "Africa Corps/Wagner",
-      "mentioned_actors": [
-        "State",
-        "Africa Corps/Wagner",
-        "JNIM"
-      ],
-      "parent_report_id": null,
-      "event_type": "security operation",
-      "country": "Mali",
-      "city": "Ansongo",
-      "lat": 15.6667,
-      "lng": 0.5,
-      "locations": [
-        {
-          "name": "Ansongo",
-          "country": "Mali",
-          "lat": 15.6667,
-          "lng": 0.5,
-          "confidence": "explicit-place"
-        },
-        {
-          "name": "Ménaka",
-          "country": "Mali",
-          "lat": 15.9182,
-          "lng": 2.4022,
-          "confidence": "explicit-place"
-        },
-        {
-          "name": "Gao",
-          "country": "Mali",
-          "lat": 16.2717,
-          "lng": -0.0447,
-          "confidence": "explicit-place"
-        }
-      ],
-      "title": "JOINT PATROL FAMa-MSA-GATIA and AFRICA CORPS: MEMBERS OF the JNIM-FLA COALITION KILLED BETWEEN ANSONGO and MÉNAKA",
-      "summary": "Several elements of the JNIM-FLA coalition were neutralized on Monday, September 28, 2026, during an operation led by a patrol of the Malian Armed Forces (FAMa), supported by their partners of the Movement for the Salvation of Azawad (MSA), the Tuareg Self-Defense Group Imghad and Allies (GATIA) and the Africa Corps .",
-      "sources": [
-        "Bamada"
-      ],
-      "languages": [
-        "fr"
-      ],
-      "source_count": 1,
-      "report_urls": [
-        "https://bamada.net/patrouille-conjointe-fama-msa-gatia-et-africa-corps-des-membres-de-la-coalition-jnim-fla-tues-entre-ansongo-et-menaka"
-      ],
-      "report_summaries": [
-        {
-          "url": "https://bamada.net/patrouille-conjointe-fama-msa-gatia-et-africa-corps-des-membres-de-la-coalition-jnim-fla-tues-entre-ansongo-et-menaka",
-          "source": "Bamada",
-          "title": "JOINT PATROL FAMa-MSA-GATIA and AFRICA CORPS: MEMBERS OF the JNIM-FLA COALITION KILLED BETWEEN ANSONGO and MÉNAKA",
-          "summary": "Several elements of the JNIM-FLA coalition were neutralized on Monday, September 28, 2026, during an operation led by a patrol of the Malian Armed Forces (FAMa), supported by their partners of the Movement for the Salvation of Azawad (MSA), the Tuareg Self-Defense Group Imghad and Allies (GATIA) and the Africa Corps .",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        }
-      ],
-      "created_at": "2026-10-01T17:23:26.279258Z",
-      "updated_at": "2026-10-01T17:23:26.279258Z",
-      "extraction_confidence": "low",
-      "victim_categories": [],
-      "civilian_targeting_flag": false,
-      "casualty_claims": [],
-      "fatalities_min": null,
-      "fatalities_max": null,
-      "fatalities_best": null,
-      "injured_min": null,
-      "injured_max": null,
-      "abducted_min": null,
-      "abducted_max": null,
-      "casualty_disputed": false,
-      "revision_history": [
-        {
-          "at": "2026-10-01T17:23:26.279258Z",
-          "type": "event_created",
-          "source": "Bamada"
-        }
-      ],
-      "corroboration": "single-source",
-      "confidence": "low",
-      "independent_source_domains": [
-        "bamada.net"
-      ],
-      "independent_source_count": 1,
-      "significance": "MAJOR",
-      "significance_reasons": [
-        "multi-location activity"
-      ]
     }
   ],
   "latest_reports": [
+    {
+      "published_at": "2026-10-07T14:41:26Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-07T16:42:19.366169Z",
+      "discovered_at": "2026-10-07T16:42:19.366169Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0034",
+      "source": "TV5MONDE Afrique",
+      "language": "fr",
+      "actor": "Africa Corps/Wagner",
+      "country": "Mali",
+      "city": "Kidal",
+      "event_type": "clash",
+      "candidate_event": false,
+      "title": "Image Published on October 7, 2026 Africa Mali: what changes the recapture of Kidal by the army? By retaking the strategic town of Kidal, in northern Mali, on Tuesday, the Malian army supported by the Russian paramilitaries of the Africa Corps has...",
+      "url": "https://information.tv5monde.com/afrique/mali-que-change-la-reprise-de-kidal-par-larmee-2840596"
+    },
+    {
+      "published_at": "2026-10-07T13:30:45Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-07T16:42:20.907752Z",
+      "discovered_at": "2026-10-07T16:42:20.907752Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0095",
+      "source": "Courrier International",
+      "language": "fr",
+      "actor": "JNIM",
+      "country": "Mali",
+      "city": "Kidal",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Article reserved for Sahel subscribers. Mali: in Kidal, taken over by the army, \"the game of cat and mouse\" continues International mail",
+      "url": "https://www.courrierinternational.com/article/sahel-mali-a-kidal-reprise-par-l-armee-le-jeu-du-chat-et-de-la-souris-continue_276708"
+    },
+    {
+      "published_at": "2026-10-07T13:09:30Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-07T16:42:17.365194Z",
+      "discovered_at": "2026-10-07T16:42:17.365194Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0056",
+      "source": "Asharq Al-Awsat",
+      "language": "ar",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Kidal",
+      "event_type": "clash",
+      "candidate_event": true,
+      "title": "Mali: Army enters Kidal without fighting with Russian support",
+      "url": "https://aawsat.com/%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%A3%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7/5327009-%D9%85%D8%A7%D9%84%D9%8A-%D8%A7%D9%84%D8%AC%D9%8A%D8%B4-%D9%8A%D8%AF%D8%AE%D9%84-%D9%83%D9%8A%D8%AF%D8%A7%D9%84-%D8%AF%D9%88%D9%86-%D9%82%D8%AA%D8%A7%D9%84-%D8%A8%D8%AF%D8%B9%D9%85-%D9%85%D9%86-%D8%B1%D9%88%D8%B3%D9%8A%D8%A7"
+    },
+    {
+      "published_at": "2026-10-07T13:04:48Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-07T16:42:18.076501Z",
+      "discovered_at": "2026-10-07T16:42:18.076501Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0075",
+      "source": "AMAP (Agence Malienne de Presse et de Publicité)",
+      "language": "fr",
+      "actor": null,
+      "country": "Mali",
+      "city": "Bamako",
+      "event_type": "clash",
+      "candidate_event": false,
+      "title": "Sudan: 1,770 people displaced in Blue Nile State, according to IOM",
+      "url": "https://amap.ml/2026/10/07/soudan-1-770-personnes-deplacees-dans-letat-du-nil-bleu-selon-loim/"
+    },
     {
       "published_at": "2026-10-07T12:21:55Z",
       "published_date_source": "jsonld:datePublished",
@@ -4363,78 +4428,6 @@
       "candidate_event": true,
       "title": "Image Published on October 6, 2026 Africa Mali: the army retakes the strategic city of Kidal, deserted by the rebels The Malian army, supported by the Russian paramilitaries of Africa Corps, on Tuesday regained control of the strategic city of Kidal, deserted by…",
       "url": "https://information.tv5monde.com/afrique/mali-larmee-reprend-la-ville-strategique-de-kidal-desertee-par-les-rebelles-2840461"
-    },
-    {
-      "published_at": "2026-10-06T16:05:00Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-06T16:41:38.737028Z",
-      "discovered_at": "2026-10-06T16:41:38.737028Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0034",
-      "source": "TV5MONDE Afrique",
-      "language": "fr",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Kidal",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Image Published on October 6, 2026 Africa Mali: The Malian army now occupies Kidal after the withdrawal of the Tuareg rebels of the Fla The Tuareg independence rebels of the Front de libération de l 'Azawad (Fla) have announced that they have withdrawn their forces from Kidal, in northern Mali,...",
-      "url": "https://information.tv5monde.com/afrique/mali-larmee-malienne-occupe-desormais-kidal-apres-le-retrait-des-rebelles-touaregs-du-fla-2840456"
-    },
-    {
-      "published_at": "2026-10-06T15:58:52Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-06T16:41:40.010460Z",
-      "discovered_at": "2026-10-06T16:41:40.010460Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0075",
-      "source": "AMAP (Agence Malienne de Presse et de Publicité)",
-      "language": "fr",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Bandiagara",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Keniéba: A man apprehended with 3 doors of the Museum of Archaeology and 75 packages of 1000 dollars",
-      "url": "https://amap.ml/2026/10/06/kenieba-un-homme-apprehende-avec-3-portes-du-musee-darcheologie-et-75-paquets-de-1000-dollars/"
-    },
-    {
-      "published_at": "2026-10-06T15:55:57Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-06T16:41:37.601098Z",
-      "discovered_at": "2026-10-06T16:41:37.601098Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0004",
-      "source": "Studio Tamani",
-      "language": "fr",
-      "actor": "JNIM",
-      "country": "Mali",
-      "city": "Kidal",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Kidal: the Malian army regains control of the city",
-      "url": "https://www.studiotamani.org/208728-kidal-larmee-malienne-reprend-le-controle-de-la-ville"
-    },
-    {
-      "published_at": "2026-10-06T15:22:36Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-06T16:41:40.114142Z",
-      "discovered_at": "2026-10-06T16:41:40.114142Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0057",
-      "source": "Al-Araby Al-Jadeed",
-      "language": "ar",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Bamako",
-      "event_type": "clash",
-      "candidate_event": false,
-      "title": "Bamako admits bombing Tin Zouatine.. and\"Azawad\" withdraws from Kidal",
-      "url": "https://www.alaraby.co.uk/politics/%D8%A8%D8%A7%D9%85%D8%A7%D9%83%D9%88-%D8%AA%D9%82%D8%B1-%D8%A8%D9%82%D8%B5%D9%81-%D8%AA%D9%8A%D9%86-%D8%B2%D9%88%D8%A7%D8%AA%D9%8A%D9%86-%D9%88%D8%A3%D8%B2%D9%88%D8%A7%D8%AF-%D8%AA%D9%86%D8%B3%D8%AD%D8%A8-%D9%85%D9%86-%D9%83%D9%8A%D8%AF%D8%A7%D9%84"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
