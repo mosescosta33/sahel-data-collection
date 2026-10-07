@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-06T20:42:13.952760Z",
+  "generated_at": "2026-10-07T00:51:40.505800Z",
   "window_days": 30,
-  "cutoff": "2026-09-06",
-  "reports": 291,
-  "incident_reports": 64,
+  "cutoff": "2026-09-07",
+  "reports": 300,
+  "incident_reports": 66,
   "candidate_events": 56,
   "corroborated_events": 8,
   "mapped_events": 52,
-  "mapped_locations": 110,
+  "mapped_locations": 111,
   "distinct_sources": 70,
   "by_actor": {
     "State": 35,
@@ -30,34 +30,34 @@
     "raid": 1
   },
   "by_language": {
-    "fr": 217,
-    "en": 58,
-    "ar": 16
+    "fr": 224,
+    "en": 59,
+    "ar": 17
   },
   "by_confidence": {
     "low": 27,
-    "moderate": 27,
-    "moderate-high": 2
+    "moderate": 26,
+    "moderate-high": 3
   },
   "top_sources": [
     {
       "source_code": "SRC-0008",
       "source": "Bamada",
-      "count": 32
+      "count": 35
     },
     {
       "source_code": "SRC-0006",
       "source": "Malijet",
-      "count": 28
-    },
-    {
-      "source_code": "SRC-0015",
-      "source": "ActuNiger",
-      "count": 13
+      "count": 29
     },
     {
       "source_code": "SRC-0075",
       "source": "AMAP (Agence Malienne de Presse et de Publicité)",
+      "count": 14
+    },
+    {
+      "source_code": "SRC-0015",
+      "source": "ActuNiger",
       "count": 13
     },
     {
@@ -152,11 +152,6 @@
     }
   ],
   "daily": [
-    {
-      "date": "2026-09-07",
-      "reports": 0,
-      "events": 1
-    },
     {
       "date": "2026-09-08",
       "reports": 4,
@@ -299,11 +294,225 @@
     },
     {
       "date": "2026-10-06",
-      "reports": 46,
+      "reports": 54,
       "events": 7
+    },
+    {
+      "date": "2026-10-07",
+      "reports": 1,
+      "events": 0
     }
   ],
   "latest_events": [
+    {
+      "id": "4d02af9c9bfceb0d002b1286a0d34b4a97bf4571",
+      "event_date": "2026-10-06",
+      "event_date_confidence": "publication-proxy",
+      "event_date_source": "jsonld:datePublished",
+      "published_at": "2026-10-06T11:39:08Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-06T12:44:06.015261Z",
+      "actor": "State",
+      "perpetrator": "State",
+      "target": null,
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [
+        "State",
+        "Africa Corps/Wagner",
+        "JNIM"
+      ],
+      "parent_report_id": null,
+      "event_type": "offensive/campaign",
+      "country": "Mali",
+      "city": "Kidal",
+      "lat": 18.4411,
+      "lng": 1.4078,
+      "locations": [
+        {
+          "name": "Kidal",
+          "country": "Mali",
+          "lat": 18.4411,
+          "lng": 1.4078,
+          "confidence": "explicit-place"
+        },
+        {
+          "name": "Anéfis",
+          "country": "Mali",
+          "lat": 18.0667,
+          "lng": 0.6167,
+          "confidence": "explicit-place"
+        },
+        {
+          "name": "Timbuktu",
+          "country": "Mali",
+          "lat": 16.7666,
+          "lng": -3.0026,
+          "confidence": "explicit-place"
+        }
+      ],
+      "title": "Kidal: Massive air-land offensive by the FAMa and their Russian allies against terrorist strongholds",
+      "summary": "The Malian Armed Forces (FAMa) and their allies have taken a position in the city of Kidal, as part of an air-land operation launched several days ago in the region According to the information provided, these operations are aimed in particular at the armed groups present in the region, their supply networks and their positions, with the stated objective of strengthening security and facilitating the free movement of people and goods In a statement released on Tuesday, the Azawad Liberation Front (Fla) announced the withdrawal of its elements from Kidal and reported the presence of Malian forces in the city.",
+      "sources": [
+        "Malijet",
+        "Jeune Afrique",
+        "Bamada"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "source_count": 3,
+      "report_urls": [
+        "https://malijet.com/a_la_une_du_mali/312192-kidal-offensive-aeroterrestre-massive-des-fama-et-de-leurs.html",
+        "https://malijet.com/a_la_une_du_mali/312194-kidal-le-fla-quitte-la-ville-sur-fond-doffensive-des-fama.html",
+        "https://www.jeuneafrique.com/1849497/politique/mali-larmee-a-repris-kidal-le-fla-a-quitte-la-ville/",
+        "https://malijet.com/a_la_une_du_mali/312197-kidal-tombouctou-sofara-offensive-massive-des-fama-contr.html",
+        "https://bamada.net/operation-dougoukoloko-les-fama-et-leurs-partenaires-russes-intensifient-loffensive-dans-les-theatres-est-et-centre"
+      ],
+      "report_summaries": [
+        {
+          "url": "https://malijet.com/a_la_une_du_mali/312192-kidal-offensive-aeroterrestre-massive-des-fama-et-de-leurs.html",
+          "source": "Malijet",
+          "title": "Kidal: Massive air-land offensive by the FAMa and their Russian allies against terrorist strongholds",
+          "summary": "Kidal: Massive air-terrestrial offensive by the FAMa and their Russian allies against terrorist strongholds The Malian armed forces and their Russian allies have begun major air-terrestrial maneuvers in Kidal, as part of the readjustment of Operation DOUGOUKOLOKO, according to the General Staff of the Armed Forces . These operations are aimed at tracking down and neutralizing armed terrorist groups operating throughout the region, destroying their sanctuaries and supply networks, as well as sustainably restoring the security of the populations and the free movement of people and goods .",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "security_force",
+            "armed_group"
+          ],
+          "civilian_targeting_flag": false,
+          "casualty_claims": []
+        },
+        {
+          "url": "https://malijet.com/a_la_une_du_mali/312194-kidal-le-fla-quitte-la-ville-sur-fond-doffensive-des-fama.html",
+          "source": "Malijet",
+          "title": "Kidal: the Fla leaves the city against the backdrop of the FAMa offensive",
+          "summary": "The Malian Armed Forces (FAMa) and their allies have taken a position in the city of Kidal, as part of an air-land operation launched several days ago in the region According to the information provided, these operations are aimed in particular at the armed groups present in the region, their supply networks and their positions, with the stated objective of strengthening security and facilitating the free movement of people and goods In a statement released on Tuesday, the Azawad Liberation Front (Fla) announced the withdrawal of its elements from Kidal and reported the presence of Malian forces in the city.",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [],
+          "civilian_targeting_flag": false,
+          "casualty_claims": []
+        },
+        {
+          "url": "https://www.jeuneafrique.com/1849497/politique/mali-larmee-a-repris-kidal-le-fla-a-quitte-la-ville/",
+          "source": "Jeune Afrique",
+          "title": "Recapture of Kidal by the Malian army: how Assimi Goïta prepared the offensive",
+          "summary": "The Malian Armed Forces and their Russian allies from Africa Corps regained control of Kidal on Tuesday, October 6, just over five months after the fall of this strategic northern city to the Fla and Jnim. Published today at 15:49, modified at 17:40 Reading: 3 minutes . File generated on The Malian army, supported by the Russian military of Africa Corps, took over this Tuesday, October 6, the city of Kidal in northern Mali.",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [],
+          "civilian_targeting_flag": false,
+          "casualty_claims": []
+        },
+        {
+          "url": "https://malijet.com/a_la_une_du_mali/312197-kidal-tombouctou-sofara-offensive-massive-des-fama-contr.html",
+          "source": "Malijet",
+          "title": "Kidal, Timbuktu, Sofara: Massive FAMa offensive against terrorist strongholds in the North and Centre",
+          "summary": "By a new communiqué, the General Staff of the Armed Forces confirmed the continuation of the major offensive started on 6 October 2026 in the Eastern zone, as a continuation of Operation DOUGOUKOLOKO The Malian Armed Forces (FAMa), supported by their Russian partners, carried out simultaneous strikes on several sectors of the country. This operation aims in particular to strengthen the security of the populations living in this part of the national territory, to guarantee the free movement of people and goods, to secure the borders and to stop the criminal economy developed by armed terrorist groups (GAT).",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "armed_group"
+          ],
+          "civilian_targeting_flag": false,
+          "casualty_claims": []
+        },
+        {
+          "url": "https://bamada.net/operation-dougoukoloko-les-fama-et-leurs-partenaires-russes-intensifient-loffensive-dans-les-theatres-est-et-centre",
+          "source": "Bamada",
+          "title": "Operation DOUGOUKOLOKO: The FAMa and their Russian partners intensify the offensive in the Eastern and Central theaters",
+          "summary": "In line with its previous communiqué, the General Staff of the Armed Forces informs the national opinion that the Malian Armed Forces (FAMa), supported by their Russian partners, are continuing the large-scale offensive launched on Tuesday, October 6, 2026 in the Eastern Theater, as part of Operation DOUGOUKOLOKO . This operation aims in particular to strengthen the security of the populations living in this part of the national territory, to guarantee the free movement of people and goods, to secure the borders and to stop the criminal economy developed by the armed terrorist groups (GAT) .",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "armed_group"
+          ],
+          "civilian_targeting_flag": false,
+          "casualty_claims": []
+        }
+      ],
+      "created_at": "2026-10-06T12:44:06.015261Z",
+      "updated_at": "2026-10-07T00:49:28.068771Z",
+      "extraction_confidence": "moderate",
+      "victim_categories": [
+        "security_force",
+        "armed_group"
+      ],
+      "civilian_targeting_flag": false,
+      "casualty_claims": [],
+      "fatalities_min": null,
+      "fatalities_max": null,
+      "fatalities_best": null,
+      "injured_min": null,
+      "injured_max": null,
+      "abducted_min": null,
+      "abducted_max": null,
+      "casualty_disputed": false,
+      "revision_history": [
+        {
+          "at": "2026-10-06T12:44:06.015261Z",
+          "type": "event_created",
+          "source": "Malijet"
+        },
+        {
+          "at": "2026-10-06T16:41:37.002850Z",
+          "type": "corroboration_or_geography_update",
+          "source": "Jeune Afrique"
+        },
+        {
+          "at": "2026-10-07T00:49:28.388540Z",
+          "type": "corroboration_or_geography_update",
+          "source": "Malijet"
+        },
+        {
+          "at": "2026-10-07T00:49:28.068771Z",
+          "type": "corroboration_or_geography_update",
+          "source": "Bamada"
+        }
+      ],
+      "corroboration": "multi-source",
+      "confidence": "moderate-high",
+      "independent_source_domains": [
+        "malijet.com",
+        "jeuneafrique.com",
+        "bamada.net"
+      ],
+      "independent_source_count": 3,
+      "significance": "MAJOR",
+      "significance_reasons": [
+        "strategic/severe event pattern",
+        "multi-source corroboration",
+        "multi-location activity"
+      ]
+    },
     {
       "id": "13ac47600e10dd69779c0096a0d0959415af8e1c",
       "event_date": "2026-10-06",
@@ -976,157 +1185,6 @@
       "independent_source_count": 1,
       "significance": "MAJOR",
       "significance_reasons": [
-        "multi-location activity"
-      ]
-    },
-    {
-      "id": "4d02af9c9bfceb0d002b1286a0d34b4a97bf4571",
-      "event_date": "2026-10-06",
-      "event_date_confidence": "publication-proxy",
-      "event_date_source": "jsonld:datePublished",
-      "published_at": "2026-10-06T11:39:08Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-06T12:44:06.015261Z",
-      "actor": "State",
-      "perpetrator": "State",
-      "target": null,
-      "claimant": null,
-      "supporting_force": null,
-      "mentioned_actors": [
-        "State",
-        "Africa Corps/Wagner",
-        "JNIM"
-      ],
-      "parent_report_id": null,
-      "event_type": "offensive/campaign",
-      "country": "Mali",
-      "city": "Kidal",
-      "lat": 18.4411,
-      "lng": 1.4078,
-      "locations": [
-        {
-          "name": "Kidal",
-          "country": "Mali",
-          "lat": 18.4411,
-          "lng": 1.4078,
-          "confidence": "explicit-place"
-        },
-        {
-          "name": "Anéfis",
-          "country": "Mali",
-          "lat": 18.0667,
-          "lng": 0.6167,
-          "confidence": "explicit-place"
-        }
-      ],
-      "title": "Kidal: Massive air-land offensive by the FAMa and their Russian allies against terrorist strongholds",
-      "summary": "The Malian Armed Forces (FAMa) and their allies have taken a position in the city of Kidal, as part of an air-land operation launched several days ago in the region According to the information provided, these operations are aimed in particular at the armed groups present in the region, their supply networks and their positions, with the stated objective of strengthening security and facilitating the free movement of people and goods In a statement released on Tuesday, the Azawad Liberation Front (Fla) announced the withdrawal of its elements from Kidal and reported the presence of Malian forces in the city.",
-      "sources": [
-        "Malijet",
-        "Jeune Afrique"
-      ],
-      "languages": [
-        "fr"
-      ],
-      "source_count": 2,
-      "report_urls": [
-        "https://malijet.com/a_la_une_du_mali/312192-kidal-offensive-aeroterrestre-massive-des-fama-et-de-leurs.html",
-        "https://malijet.com/a_la_une_du_mali/312194-kidal-le-fla-quitte-la-ville-sur-fond-doffensive-des-fama.html",
-        "https://www.jeuneafrique.com/1849497/politique/mali-larmee-a-repris-kidal-le-fla-a-quitte-la-ville/"
-      ],
-      "report_summaries": [
-        {
-          "url": "https://malijet.com/a_la_une_du_mali/312192-kidal-offensive-aeroterrestre-massive-des-fama-et-de-leurs.html",
-          "source": "Malijet",
-          "title": "Kidal: Massive air-land offensive by the FAMa and their Russian allies against terrorist strongholds",
-          "summary": "Kidal: Massive air-terrestrial offensive by the FAMa and their Russian allies against terrorist strongholds The Malian armed forces and their Russian allies have begun major air-terrestrial maneuvers in Kidal, as part of the readjustment of Operation DOUGOUKOLOKO, according to the General Staff of the Armed Forces . These operations are aimed at tracking down and neutralizing armed terrorist groups operating throughout the region, destroying their sanctuaries and supply networks, as well as sustainably restoring the security of the populations and the free movement of people and goods .",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "security_force",
-            "armed_group"
-          ],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        },
-        {
-          "url": "https://malijet.com/a_la_une_du_mali/312194-kidal-le-fla-quitte-la-ville-sur-fond-doffensive-des-fama.html",
-          "source": "Malijet",
-          "title": "Kidal: the Fla leaves the city against the backdrop of the FAMa offensive",
-          "summary": "The Malian Armed Forces (FAMa) and their allies have taken a position in the city of Kidal, as part of an air-land operation launched several days ago in the region According to the information provided, these operations are aimed in particular at the armed groups present in the region, their supply networks and their positions, with the stated objective of strengthening security and facilitating the free movement of people and goods In a statement released on Tuesday, the Azawad Liberation Front (Fla) announced the withdrawal of its elements from Kidal and reported the presence of Malian forces in the city.",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        },
-        {
-          "url": "https://www.jeuneafrique.com/1849497/politique/mali-larmee-a-repris-kidal-le-fla-a-quitte-la-ville/",
-          "source": "Jeune Afrique",
-          "title": "Recapture of Kidal by the Malian army: how Assimi Goïta prepared the offensive",
-          "summary": "The Malian Armed Forces and their Russian allies from Africa Corps regained control of Kidal on Tuesday, October 6, just over five months after the fall of this strategic northern city to the Fla and Jnim. Published today at 15:49, modified at 17:40 Reading: 3 minutes . File generated on The Malian army, supported by the Russian military of Africa Corps, took over this Tuesday, October 6, the city of Kidal in northern Mali.",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        }
-      ],
-      "created_at": "2026-10-06T12:44:06.015261Z",
-      "updated_at": "2026-10-06T16:41:37.002850Z",
-      "extraction_confidence": "moderate",
-      "victim_categories": [
-        "security_force",
-        "armed_group"
-      ],
-      "civilian_targeting_flag": false,
-      "casualty_claims": [],
-      "fatalities_min": null,
-      "fatalities_max": null,
-      "fatalities_best": null,
-      "injured_min": null,
-      "injured_max": null,
-      "abducted_min": null,
-      "abducted_max": null,
-      "casualty_disputed": false,
-      "revision_history": [
-        {
-          "at": "2026-10-06T12:44:06.015261Z",
-          "type": "event_created",
-          "source": "Malijet"
-        },
-        {
-          "at": "2026-10-06T16:41:37.002850Z",
-          "type": "corroboration_or_geography_update",
-          "source": "Jeune Afrique"
-        }
-      ],
-      "corroboration": "limited corroboration",
-      "confidence": "moderate",
-      "independent_source_domains": [
-        "malijet.com",
-        "jeuneafrique.com"
-      ],
-      "independent_source_count": 2,
-      "significance": "MAJOR",
-      "significance_reasons": [
-        "strategic/severe event pattern",
         "multi-location activity"
       ]
     },
@@ -3619,6 +3677,150 @@
   ],
   "latest_reports": [
     {
+      "published_at": "2026-10-07T00:32:08Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-07T00:49:30.222407Z",
+      "discovered_at": "2026-10-07T00:49:30.222407Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0085",
+      "source": "Seneweb",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Kidal",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Malian army and Russian fighters retake strategic city of Kidal",
+      "url": "https://www.seneweb.com/fr/news/Afrique/larmee-malienne-et-des-combattants-russes-reprennent-la-ville-strategique-de-kidal_n_506295.html"
+    },
+    {
+      "published_at": "2026-10-06T22:57:12Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-07T00:49:29.016841Z",
+      "discovered_at": "2026-10-07T00:49:29.016841Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0091",
+      "source": "SeneNews",
+      "language": "fr",
+      "actor": "JNIM",
+      "country": "Mali",
+      "city": "Kidal",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Mali: The army recaptures Kidal after the withdrawal of the Fla rebels",
+      "url": "https://www.senenews.com/actualites/afrique/mali-larmee-reprend-kidal-apres-le-retrait-des-rebelles-du-fla_602019.html"
+    },
+    {
+      "published_at": "2026-10-06T21:34:50Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-07T00:49:31.797226Z",
+      "discovered_at": "2026-10-07T00:49:31.797226Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0075",
+      "source": "AMAP (Agence Malienne de Presse et de Publicité)",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Kidal",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Securing the national territory: the FAMa are strengthening their system in Kidal",
+      "url": "https://amap.ml/2026/10/06/securisation-du-territoire-national-les-fama-renforcent-leur-dispositif-a-kidal/"
+    },
+    {
+      "published_at": "2026-10-06T21:13:46Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-07T00:49:28.068771Z",
+      "discovered_at": "2026-10-07T00:49:28.068771Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0008",
+      "source": "Bamada",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Kidal",
+      "event_type": "offensive/campaign",
+      "candidate_event": true,
+      "title": "Operation DOUGOUKOLOKO: The FAMa and their Russian partners intensify the offensive in the Eastern and Central theaters",
+      "url": "https://bamada.net/operation-dougoukoloko-les-fama-et-leurs-partenaires-russes-intensifient-loffensive-dans-les-theatres-est-et-centre"
+    },
+    {
+      "published_at": "2026-10-06T21:10:26Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-07T00:49:28.388540Z",
+      "discovered_at": "2026-10-07T00:49:28.388540Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0006",
+      "source": "Malijet",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Kidal",
+      "event_type": "offensive/campaign",
+      "candidate_event": true,
+      "title": "Kidal, Timbuktu, Sofara: Massive FAMa offensive against terrorist strongholds in the North and Centre",
+      "url": "https://malijet.com/a_la_une_du_mali/312197-kidal-tombouctou-sofara-offensive-massive-des-fama-contr.html"
+    },
+    {
+      "published_at": "2026-10-06T21:05:49Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-07T00:49:29.317998Z",
+      "discovered_at": "2026-10-07T00:49:29.317998Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0008",
+      "source": "Bamada",
+      "language": "fr",
+      "actor": null,
+      "country": "Mali",
+      "city": "Kidal",
+      "event_type": "security operation",
+      "candidate_event": false,
+      "title": "Aguelhoc: nearly 8,000 displaced people and host families benefit from WFP food stamps",
+      "url": "https://bamada.net/aguelhoc-pres-de-8-000-deplaces-et-familles-daccueil-beneficient-de-coupons-alimentaires-du-pam"
+    },
+    {
+      "published_at": "2026-10-06T20:31:47Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-07T00:49:28.023699Z",
+      "discovered_at": "2026-10-07T00:49:28.023699Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0008",
+      "source": "Bamada",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Kidal",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Operation Dougoukoloko: the FAMa intensify their operations in Kidal, Abéïbara, Tin-Assalak and In-Tassik",
+      "url": "https://bamada.net/operation-dougoukoloko-les-fama-intensifient-leurs-operations-a-kidal-abeibara-tin-assalak-et-in-tassik"
+    },
+    {
+      "published_at": "2026-10-06T20:29:20Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-07T00:49:35.272122Z",
+      "discovered_at": "2026-10-07T00:49:35.272122Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0029",
+      "source": "Al Jazeera Arabic",
+      "language": "ar",
+      "actor": "JNIM",
+      "country": "Mali",
+      "city": "Kidal",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Mali.. The army announces the entry of the city of Kidal after the withdrawal of the \"Front for the Liberation of Azawad\"",
+      "url": "https://www.aljazeera.net/news/2026/10/6/%d9%85%d8%a7%d9%84%d9%8a-%d8%a7%d9%84%d8%ac%d9%8a%d8%b4-%d9%8a%d8%b9%d9%84%d9%86-%d8%af%d8%ae%d9%88%d9%84-%d9%85%d8%af%d9%8a%d9%86%d8%a9-%d9%83%d9%8a%d8%af%d8%a7%d9%84-%d8%a8%d8%b9%d8%af?traffic_source=rss"
+    },
+    {
       "published_at": "2026-10-06T19:05:33Z",
       "published_date_source": "jsonld:datePublished",
       "published_time_precision": "datetime",
@@ -3867,7 +4069,7 @@
       "city": "Kidal",
       "event_type": null,
       "candidate_event": false,
-      "title": "انسحاب «الانفصاليين» من كيدال.. بداية فك الحصار عن باماكو بدعم روسي",
+      "title": "The withdrawal of «separatists» from Kidal.. The beginning of the lifting of the siege of Bamako with Russian support",
       "url": "https://al-ain.com/article/separatists-kidal-bamako-russian-support"
     },
     {
@@ -4011,7 +4213,7 @@
       "city": "Kidal",
       "event_type": null,
       "candidate_event": false,
-      "title": "Mali: la rébellion touareg du FLA annonce se retirer de Kidal face aux opérations de l'armée",
+      "title": "Mali: the Tuareg rebellion of the Fla announces its withdrawal from Kidal in the face of army operations",
       "url": "https://www.seneweb.com/fr/news/Afrique/mali-la-rebellion-touareg-du-fla-annonce-se-retirer-de-kidal-face-aux-operations-de-larmee_n_506256.html"
     },
     {
@@ -4031,6 +4233,24 @@
       "candidate_event": false,
       "title": "Sudan: at least 10 civilians killed in attack attributed to SRF in Western Kordofan",
       "url": "https://amap.ml/2026/10/06/soudan-au-moins-10-civils-tues-dans-une-attaque-attribuee-aux-fsr-au-kordofan-occidental/"
+    },
+    {
+      "published_at": "2026-10-06T14:41:41Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-07T00:50:05.252435Z",
+      "discovered_at": "2026-10-07T00:50:05.252435Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0113",
+      "source": "CGTN Africa",
+      "language": "en",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Kidal",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Mali army says has entered key city of Kidal, abandoned by rebels: military sources",
+      "url": "https://news.cgtn.com/news/2026-10-06/news-1R1OrJSu8lW/p.html"
     },
     {
       "published_at": "2026-10-06T14:33:18Z",
@@ -4175,168 +4395,6 @@
       "candidate_event": true,
       "title": "Kidal: the Fla leaves the city against the backdrop of the FAMa offensive",
       "url": "https://malijet.com/a_la_une_du_mali/312194-kidal-le-fla-quitte-la-ville-sur-fond-doffensive-des-fama.html"
-    },
-    {
-      "published_at": "2026-10-06T12:47:32Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-06T16:41:39.696695Z",
-      "discovered_at": "2026-10-06T16:41:39.696695Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0075",
-      "source": "AMAP (Agence Malienne de Presse et de Publicité)",
-      "language": "fr",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Kidal",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Kidal: a vast air-land operation launched",
-      "url": "https://amap.ml/2026/10/06/kidal-une-vaste-operation-aeroterrestre-lancee/"
-    },
-    {
-      "published_at": "2026-10-06T12:31:57Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-06T16:41:37.148407Z",
-      "discovered_at": "2026-10-06T16:41:37.148407Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0008",
-      "source": "Bamada",
-      "language": "fr",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Kidal",
-      "event_type": "political/security policy",
-      "candidate_event": false,
-      "title": "Operation Dougoukoloko: the FAMa and their Russian partners intensify air-land operations in the Kidal region",
-      "url": "https://bamada.net/operation-dougoukoloko-les-fama-et-leurs-partenaires-russes-intensifient-les-operations-aeroterrestres-dans-la-region-de-kidal"
-    },
-    {
-      "published_at": "2026-10-06T11:39:08Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-06T12:44:06.015261Z",
-      "discovered_at": "2026-10-06T12:44:06.015261Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0006",
-      "source": "Malijet",
-      "language": "fr",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Kidal",
-      "event_type": "offensive/campaign",
-      "candidate_event": true,
-      "title": "Kidal: Massive air-land offensive by the FAMa and their Russian allies against terrorist strongholds",
-      "url": "https://malijet.com/a_la_une_du_mali/312192-kidal-offensive-aeroterrestre-massive-des-fama-et-de-leurs.html"
-    },
-    {
-      "published_at": "2026-10-06T11:32:50Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-06T12:44:08.917922Z",
-      "discovered_at": "2026-10-06T12:44:08.917922Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0160",
-      "source": "Sahara Medias (صحراء ميديا)",
-      "language": "ar",
-      "actor": "JNIM",
-      "country": "Mali",
-      "city": "Kidal",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Malian army begins' large-scale 'operations in Kidal",
-      "url": "https://saharamedias.net/266081/"
-    },
-    {
-      "published_at": "2026-10-06T11:20:11Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-06T12:44:06.262636Z",
-      "discovered_at": "2026-10-06T12:44:06.262636Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0085",
-      "source": "Seneweb",
-      "language": "fr",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Kidal",
-      "event_type": "security operation",
-      "candidate_event": true,
-      "title": "Mali: Fama neutralizes several terrorists in Tinzaouatène",
-      "url": "https://www.seneweb.com/fr/news/Afrique/mali-les-fama-neutralisent-plusieurs-terroristes-a-tinzaouatene_n_506236.html"
-    },
-    {
-      "published_at": "2026-10-06T10:51:19Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-06T12:44:10.444513Z",
-      "discovered_at": "2026-10-06T12:44:10.444513Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0101",
-      "source": "Timbuktu Institute (African Center for Peace Studies)",
-      "language": "en",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Timbuktu",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Burkina Faso : Captain Traoré Pushes the Sovereign…",
-      "url": "https://timbuktu-institute.org/index.php/toutes-l-actualites/item/1797-burkina-faso-captain-traore-pushes-the-sovereigntist-logic-on-all-fronts"
-    },
-    {
-      "published_at": "2026-10-06T10:50:41Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-06T12:44:10.563527Z",
-      "discovered_at": "2026-10-06T12:44:10.563527Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0101",
-      "source": "Timbuktu Institute (African Center for Peace Studies)",
-      "language": "fr",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Timbuktu",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Burkina Faso: Captain Traoré pushes the logic...",
-      "url": "https://timbuktu-institute.org/index.php/toutes-l-actualites/item/1796-burkina-faso-le-capitaine-traore-pousse-la-logique-souverainiste-sur-tous-les-fronts"
-    },
-    {
-      "published_at": "2026-10-06T10:32:15Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-06T12:44:06.484801Z",
-      "discovered_at": "2026-10-06T12:44:06.484801Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0092",
-      "source": "La Nouvelle Tribune (Bénin)",
-      "language": "fr",
-      "actor": "JNIM",
-      "country": "Mali",
-      "city": "Niono",
-      "event_type": "ambush",
-      "candidate_event": true,
-      "title": "AES: how jihadists learned to strike with drones",
-      "url": "https://lanouvelletribune.info/2026/10/aes-comment-les-djihadistes-ont-appris-a-frapper-avec-des-drones/"
-    },
-    {
-      "published_at": "2026-10-06T09:28:13Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-06T12:44:09.674592Z",
-      "discovered_at": "2026-10-06T12:44:09.674592Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0085",
-      "source": "Seneweb",
-      "language": "fr",
-      "actor": null,
-      "country": "Niger",
-      "city": "Niamey",
-      "event_type": "political/security policy",
-      "candidate_event": false,
-      "title": "Algeria: President Tebboune discusses relations with Niger and Mali",
-      "url": "https://www.seneweb.com/fr/news/Afrique/algerie-le-president-tebboune-evoque-les-relations-avec-le-niger-et-le-mali_n_506230.html"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."

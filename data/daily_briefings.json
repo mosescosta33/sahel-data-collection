@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "site_patch_version": "3.3.5",
-  "generated_at": "2026-10-06T20:42:15.805497Z",
+  "generated_at": "2026-10-07T00:51:42.436971Z",
   "active_limit": 33,
   "total_briefings": 256,
   "active_count": 33,
@@ -11,7 +11,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-06",
-      "generated_at": "2026-10-06T20:42:14.970149Z",
+      "generated_at": "2026-10-07T00:51:41.699665Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -23,11 +23,11 @@
         "events_occurring_on_date": 2,
         "records_held_for_review": 5,
         "multi_source_events": 2,
-        "reports_collected_on_date": 46,
-        "reports_published_on_date": 42,
+        "reports_collected_on_date": 56,
+        "reports_published_on_date": 51,
         "newly_discovered_older_events": 2,
-        "events_awaiting_date_verification": 5,
-        "distinct_sources_collected": 29
+        "events_awaiting_date_verification": 6,
+        "distinct_sources_collected": 32
       },
       "executive_assessment": "Reporting dated 2026-10-06 gives the desk 2 incident accounts to examine in Mali. 2 have support from separate sources. The record is provisional; it does not establish the full extent of violence that day.",
       "briefing_sections": [
@@ -37,7 +37,7 @@
         },
         {
           "heading": "Mali",
-          "text": "42 retained reports were collected for Mali. 2 fused candidate events currently carry this reporting date. Mali: Fla withdraws from Kidal and leaves the field open to the army: About 120 vehicles came out of Aéfis, Mali, in the middle of the morning. On board, Malian soldiers, Russian soldiers from the Africa Corps, and fighters from the MSA and Gatia, Tuareg political-military groups integrated into… Kidal: The Fama launch the reconquest operation: Kidal: Fama launches reconquest operation In Mali, the army announced in a recent press release that it was conducting large-scale air-land operations in the Kidal region, with its Russian partners . This offensive aims to… Generative AI Alters the Battlefield in Mali: There is an information war being fought in Mali online and on social media platforms. A new study outlines how generative artificial intelligence is being used by state, nonstate and foreign entities to push propaganda and… 39 additional Mali reports are summarized individually in the source records."
+          "text": "52 retained reports were collected for Mali. 2 fused candidate events currently carry this reporting date. Mali: the Malian army now occupies Kidal after the withdrawal of the Tuareg rebels of the Fla: 06-10-2026 22:33 - Mali: the Malian armoury now occupies Kidal after the withdrawal of the Tuareg rebels of the Fla TV5 MONDE AFRIQUE - The Tuareg undue 19pendentist rebels of the Front de Libûtion de lãAzawad (Fla) announced… Malian army and Russian fighters retake strategic city of Kidal: The Malian army and Russian fighters retake the strategic city of Kidal The Malian army announced its entry into the strategic city of Kidal, in the north of the country, which had been taken in April by Tuareg separatists who… Mali: The army recaptures Kidal after the withdrawal of the Fla rebels: According to available evidence, by the end of April, the city had come under the control of the Fla and its allies in the Al-Qaeda-affiliated Support Group for Islam and Muslims (JNIM), thanks to a series of coordinated… 49 additional Mali reports are summarized individually in the source records."
         },
         {
           "heading": "Burkina Faso",
@@ -57,14 +57,14 @@
         },
         {
           "heading": "What remains unclear",
-          "text": "2 newly recorded items concern earlier dates and are kept out of today's incident count. The date of 5 operational reports still needs checking. Collection or source checks are incomplete for this date, so relevant reporting may still be missing."
+          "text": "2 newly recorded items concern earlier dates and are kept out of today's incident count. The date of 6 operational reports still needs checking. Collection or source checks are incomplete for this date, so relevant reporting may still be missing."
         }
       ],
       "key_judgments": [
         "State accounts for the largest share of same-day fused event activity (2 event(s)).",
         "Mali contains the largest same-day event count (2 event(s)).",
         "2 of 2 same-day event(s) meet the multi-source corroboration threshold used by this briefing layer.",
-        "5 collected operational/candidate report(s) still use an unresolved or proxy event date and require temporal verification."
+        "6 collected operational/candidate report(s) still use an unresolved or proxy event date and require temporal verification."
       ],
       "significant_events": [
         {
@@ -81,24 +81,28 @@
           "collection_time": "2026-10-06T12:44:06.015261Z",
           "verification_date": "2026-10-06",
           "verification_basis": "multi-source corroboration",
-          "last_evidence_update": "2026-10-06T16:41:37.002850Z",
-          "confidence": "moderate",
-          "corroboration": "limited corroboration",
+          "last_evidence_update": "2026-10-07T00:49:28.068771Z",
+          "confidence": "moderate-high",
+          "corroboration": "multi-source",
           "significance": "MAJOR",
-          "source_count": 2,
-          "independent_source_count": 2,
+          "source_count": 3,
+          "independent_source_count": 3,
           "sources": [
             "Malijet",
-            "Jeune Afrique"
+            "Jeune Afrique",
+            "Bamada"
           ],
           "independent_source_domains": [
             "malijet.com",
-            "jeuneafrique.com"
+            "jeuneafrique.com",
+            "bamada.net"
           ],
           "report_urls": [
             "https://malijet.com/a_la_une_du_mali/312192-kidal-offensive-aeroterrestre-massive-des-fama-et-de-leurs.html",
             "https://malijet.com/a_la_une_du_mali/312194-kidal-le-fla-quitte-la-ville-sur-fond-doffensive-des-fama.html",
-            "https://www.jeuneafrique.com/1849497/politique/mali-larmee-a-repris-kidal-le-fla-a-quitte-la-ville/"
+            "https://www.jeuneafrique.com/1849497/politique/mali-larmee-a-repris-kidal-le-fla-a-quitte-la-ville/",
+            "https://malijet.com/a_la_une_du_mali/312197-kidal-tombouctou-sofara-offensive-massive-des-fama-contr.html",
+            "https://bamada.net/operation-dougoukoloko-les-fama-et-leurs-partenaires-russes-intensifient-loffensive-dans-les-theatres-est-et-centre"
           ],
           "perpetrator": "State",
           "target": null,
@@ -149,14 +153,14 @@
       "what_changed_since_yesterday": [
         "JNIM: -1 same-day fused event(s) versus 2026-10-05 (1 → 0).",
         "State: -2 same-day fused event(s) versus 2026-10-05 (4 → 2).",
-        "Collection volume: +20 retained report(s) versus 2026-10-05 (26 → 46)."
+        "Collection volume: +30 retained report(s) versus 2026-10-05 (26 → 56)."
       ],
       "emerging_patterns": [
         "JNIM 7-day activity is higher than the preceding 7-day window (0 → 2).",
         "State 7-day activity is higher than the preceding 7-day window (6 → 11)."
       ],
       "intelligence_gaps": [
-        "5 newly collected operational/candidate report(s) have unresolved or publication-proxy event dates.",
+        "6 newly collected operational/candidate report(s) have unresolved or publication-proxy event dates.",
         "Collection confidence is low, so absence of reporting should not be interpreted as absence of activity."
       ],
       "actor_counts": {
@@ -170,7 +174,7 @@
         "Niger": 0
       },
       "country_reporting_counts": {
-        "Mali": 42,
+        "Mali": 52,
         "Burkina Faso": 2,
         "Niger": 2
       },
@@ -213,7 +217,7 @@
       "country_profiles": {
         "Mali": {
           "events": 2,
-          "reports_collected": 42,
+          "reports_collected": 52,
           "actor_counts": {
             "JNIM": 0,
             "IS Sahel": 0,
@@ -253,6 +257,69 @@
       "country_article_summaries": {
         "Mali": [
           {
+            "id": "e94340f428d2ad0dcef65a40080343ba729fe498",
+            "source": "Cridem (Carrefour de la République Democratique)",
+            "title": "Mali: the Malian army now occupies Kidal after the withdrawal of the Tuareg rebels of the Fla",
+            "summary": "06-10-2026 22:33 - Mali: the Malian armoury now occupies Kidal after the withdrawal of the Tuareg rebels of the Fla TV5 MONDE AFRIQUE - The Tuareg undue 19pendentist rebels of the Front de Libûtion de lãAzawad (Fla) announced that they had withdrawn their forces from Kidal, in northern Mali, in the face of the operations of the Armoury. They had taken control of this strategic city at the end of April, now occupied by the forces of military power .",
+            "url": "https://cridem.org/C_Info.php?article=797159",
+            "candidate_event": false,
+            "event_date": "2026-10-06"
+          },
+          {
+            "id": "31b722aa9385eee60c349a33939178c82c978222",
+            "source": "Seneweb",
+            "title": "Malian army and Russian fighters retake strategic city of Kidal",
+            "summary": "The Malian army and Russian fighters retake the strategic city of Kidal The Malian army announced its entry into the strategic city of Kidal, in the north of the country, which had been taken in April by Tuareg separatists who announced their withdrawal earlier Tuesday, as the military advanced . “We have just arrived in Kidal ahead of schedule,” a staff officer told AFP, information confirmed by a second officer.",
+            "url": "https://www.seneweb.com/fr/news/Afrique/larmee-malienne-et-des-combattants-russes-reprennent-la-ville-strategique-de-kidal_n_506295.html",
+            "candidate_event": false,
+            "event_date": "2026-10-06"
+          },
+          {
+            "id": "fc921a5100484348a851bff9d03405c9cb9ba4b8",
+            "source": "SeneNews",
+            "title": "Mali: The army recaptures Kidal after the withdrawal of the Fla rebels",
+            "summary": "According to available evidence, by the end of April, the city had come under the control of the Fla and its allies in the Al-Qaeda-affiliated Support Group for Islam and Muslims (JNIM), thanks to a series of coordinated attacks against army positions in several localities in the country Five months after losing it, the Malian army regained its footing in Kidal, in the north of the country.",
+            "url": "https://www.senenews.com/actualites/afrique/mali-larmee-reprend-kidal-apres-le-retrait-des-rebelles-du-fla_602019.html",
+            "candidate_event": false,
+            "event_date": "2026-10-06"
+          },
+          {
+            "id": "e66a4e6368b677b4059a34231c573ed7050aeaef",
+            "source": "AMAP (Agence Malienne de Presse et de Publicité)",
+            "title": "Securing the national territory: the FAMa are strengthening their system in Kidal",
+            "summary": "Bamako, Oct 6 (AMAP)- The Malian Armed Forces (FAMa), supported by their Russian partners, strengthened and consolidated their operations in Kidal on Tuesday, as part of Operation Dougoukoloko, the government announced in a statement issued today. According to the document, this reinforcement follows \"intense air-land neutralization operations\" carried out against a coalition of terrorist groups .",
+            "url": "https://amap.ml/2026/10/06/securisation-du-territoire-national-les-fama-renforcent-leur-dispositif-a-kidal/",
+            "candidate_event": false,
+            "event_date": "2026-10-06"
+          },
+          {
+            "id": "51a6fff1666eafb1127b3856769369f9d175a008",
+            "source": "Bamada",
+            "title": "Operation DOUGOUKOLOKO: The FAMa and their Russian partners intensify the offensive in the Eastern and Central theaters",
+            "summary": "In line with its previous communiqué, the General Staff of the Armed Forces informs the national opinion that the Malian Armed Forces (FAMa), supported by their Russian partners, are continuing the large-scale offensive launched on Tuesday, October 6, 2026 in the Eastern Theater, as part of Operation DOUGOUKOLOKO . This operation aims in particular to strengthen the security of the populations living in this part of the national territory, to guarantee the free movement of people and goods, to secure the borders and to stop the criminal economy developed by the armed terrorist groups (GAT) .",
+            "url": "https://bamada.net/operation-dougoukoloko-les-fama-et-leurs-partenaires-russes-intensifient-loffensive-dans-les-theatres-est-et-centre",
+            "candidate_event": true,
+            "event_date": "2026-10-06"
+          },
+          {
+            "id": "b704a4157593e61c9a4e6f1ac4ca96fb11695730",
+            "source": "Malijet",
+            "title": "Kidal, Timbuktu, Sofara: Massive FAMa offensive against terrorist strongholds in the North and Centre",
+            "summary": "By a new communiqué, the General Staff of the Armed Forces confirmed the continuation of the major offensive started on 6 October 2026 in the Eastern zone, as a continuation of Operation DOUGOUKOLOKO The Malian Armed Forces (FAMa), supported by their Russian partners, carried out simultaneous strikes on several sectors of the country. This operation aims in particular to strengthen the security of the populations living in this part of the national territory, to guarantee the free movement of people and goods, to secure the borders and to stop the criminal economy developed by armed terrorist groups (GAT).",
+            "url": "https://malijet.com/a_la_une_du_mali/312197-kidal-tombouctou-sofara-offensive-massive-des-fama-contr.html",
+            "candidate_event": true,
+            "event_date": "2026-10-06"
+          },
+          {
+            "id": "32d206a7d737036f40817fc67c00336c689d30b5",
+            "source": "Bamada",
+            "title": "Aguelhoc: nearly 8,000 displaced people and host families benefit from WFP food stamps",
+            "summary": "In Aguelhoc, in the Kidal region, the food situation remains a concern for displaced people and host families. To respond to the emergency, the World Food Programme (WFP), with the support of its partners, launched a food voucher distribution operation in early September. Nearly 8,000 people, or about 1,500 households, benefited from this first phase .",
+            "url": "https://bamada.net/aguelhoc-pres-de-8-000-deplaces-et-familles-daccueil-beneficient-de-coupons-alimentaires-du-pam",
+            "candidate_event": false,
+            "event_date": "2026-10-06"
+          },
+          {
             "id": "84863edc39cccc63a6568d8e597ebcb2dd58790c",
             "source": "Dakaractu",
             "title": "Mali: Fla withdraws from Kidal and leaves the field open to the army",
@@ -260,6 +327,24 @@
             "url": "https://www.dakaractu.com/Mali-le-FLA-se-retire-de-Kidal-et-laisse-le-champ-libre-a-l-armee_a276767.html",
             "candidate_event": false,
             "event_date": null
+          },
+          {
+            "id": "f672474cc5d2954f0e0affdda9efe54ca50e235d",
+            "source": "Bamada",
+            "title": "Operation Dougoukoloko: the FAMa intensify their operations in Kidal, Abéïbara, Tin-Assalak and In-Tassik",
+            "summary": "From Kidal to Abéïbara, the Malian Armed Forces continue their air-land operations against armed terrorist groups The Malian Armed Forces (FAMa) continue their mission with determination as part of Operation DOUGOUKOLOKO . After the launch of this new operational phase on Monday, October 5, 2026 in the Eastern Theater, the General Staff of the Armed Forces reported on new actions carried out in several sectors of the north and center of the country .",
+            "url": "https://bamada.net/operation-dougoukoloko-les-fama-intensifient-leurs-operations-a-kidal-abeibara-tin-assalak-et-in-tassik",
+            "candidate_event": false,
+            "event_date": "2026-10-05"
+          },
+          {
+            "id": "386660e1cd03281767372df235c47b044df1e6ca",
+            "source": "Al Jazeera Arabic",
+            "title": "Mali.. The army announces the entry of the city of Kidal after the withdrawal of the \"Front for the Liberation of Azawad\"",
+            "summary": "On Tuesday, the Malian army announced its entry into the strategic city of Kidal in the north of the country, following the announcement of the \"Front for the Liberation of Azawad\" to withdraw from it, about six months after the Front took control of it. AFP quoted a Malian officer as confirming the entry of elements of the Kidal army without facing any resistance, while another indicated that the army arrived in the city \"ahead of schedule\" .",
+            "url": "https://www.aljazeera.net/news/2026/10/6/%d9%85%d8%a7%d9%84%d9%8a-%d8%a7%d9%84%d8%ac%d9%8a%d8%b4-%d9%8a%d8%b9%d9%84%d9%86-%d8%af%d8%ae%d9%88%d9%84-%d9%85%d8%af%d9%8a%d9%86%d8%a9-%d9%83%d9%8a%d8%af%d8%a7%d9%84-%d8%a8%d8%b9%d8%af?traffic_source=rss",
+            "candidate_event": false,
+            "event_date": "2026-10-06"
           },
           {
             "id": "658ba1d5f96718e3ed5e1e4cca5da4631c438426",
@@ -381,8 +466,8 @@
           {
             "id": "96efc5d8b8fdfab850a123682ad77702d9bd0fa4",
             "source": "Al-Ain Arabic",
-            "title": "انسحاب «الانفصاليين» من كيدال.. بداية فك الحصار عن باماكو بدعم روسي",
-            "summary": "تطور ميداني مهم في مالي بعد انسحاب «جبهة تحرير أزواد» الانفصالية، من المدينة الاستراتيجية، كيدال، ما قد يخفف الضغط على العاصمة باماكو. وقالت الجبهة، في بيان، الثلاثاء، إنها \"تنسحب بشكل منظم\" من بلدة استراتيجية في الشمال كانت قد سيطرت عليها مع عناصر مرتبطة بتنظيم القاعدة الإرهابي خلال هجمات شنتها في أنحاء البلاد قبل ستة أشهر. وبحسب البيان فإن \"قرار مغادرة كيدال جاء ردا على الغارات الجوية التي شنها الجيش المالي بدعم من مقاتلين روس\".",
+            "title": "The withdrawal of «separatists» from Kidal.. The beginning of the lifting of the siege of Bamako with Russian support",
+            "summary": "An important field development in Mali after the withdrawal of the separatist Front for the Liberation of Azawad from the strategic city of Kidal, which may ease pressure on the capital, Bamako. In a statement on Tuesday, the Front said it was \"systematically withdrawing\" from a strategic town in the north that it had seized with elements linked to the al-Qaeda terrorist organization during attacks across the country six months ago.",
             "url": "https://al-ain.com/article/separatists-kidal-bamako-russian-support",
             "candidate_event": false,
             "event_date": "2026-10-06"
@@ -444,8 +529,8 @@
           {
             "id": "ffc4099dd8daefcf9c0789fd008ae4fea59d6451",
             "source": "Seneweb",
-            "title": "Mali: la rébellion touareg du FLA annonce se retirer de Kidal face aux opérations de l'armée",
-            "summary": "Les rebelles indépendantistes touareg du Front de libération de l'Azawad (FLA), qui avaient pris le contrôle fin avril de la localité stratégique malienne de Kidal, ont annoncé mardi avoir procédé à \"un repli stratégique\" de leurs forces face aux opérations de l'armée pour reprendre cette ville du nord. La perte du contrôle de Kidal fin avril avait constitué un véritable camouflet pour les militaires au pouvoir.",
+            "title": "Mali: the Tuareg rebellion of the Fla announces its withdrawal from Kidal in the face of army operations",
+            "summary": "The Tuareg independence rebels of the Azawad Liberation Front (Fla), who had taken control at the end of April of the strategic Malian locality of Kidal, announced on Tuesday that they had made a \"strategic withdrawal\" of their forces in the face of army operations to retake this northern city . The loss of control of Kidal at the end of April had been a real slap in the face for the military in power.",
             "url": "https://www.seneweb.com/fr/news/Afrique/mali-la-rebellion-touareg-du-fla-annonce-se-retirer-de-kidal-face-aux-operations-de-larmee_n_506256.html",
             "candidate_event": false,
             "event_date": "2026-10-06"
@@ -456,6 +541,15 @@
             "title": "Sudan: at least 10 civilians killed in attack attributed to SRF in Western Kordofan",
             "summary": "Bamako, Oct. 6 (AMAP) At least ten civilians were killed and several others injured in an attack attributed to the Rapid Support Forces (RSF) on the village of Abu Ajal in West Kordofan state, the Dar Hamar Emergency Committee, a local aid group, said Tuesday. According to a statement from the group, the FSR attacked the village, located in the rural area southeast of En Nahud, killing “more than 10 civilians” and injuring a large number of residents.",
             "url": "https://amap.ml/2026/10/06/soudan-au-moins-10-civils-tues-dans-une-attaque-attribuee-aux-fsr-au-kordofan-occidental/",
+            "candidate_event": false,
+            "event_date": "2026-10-06"
+          },
+          {
+            "id": "41129f2b118e5b678aa8b573f4e2db683a75cc69",
+            "source": "CGTN Africa",
+            "title": "Mali army says has entered key city of Kidal, abandoned by rebels: military sources",
+            "summary": "By continuing to browse our site you agree to our use of cookies, revised Privacy Policy and Terms of Use. You can change your cookie settings through your browser.",
+            "url": "https://news.cgtn.com/news/2026-10-06/news-1R1OrJSu8lW/p.html",
             "candidate_event": false,
             "event_date": "2026-10-06"
           },
@@ -624,8 +718,8 @@
           {
             "id": "873bebbcb2475047c9fdc4c585dde6c94013b10c",
             "source": "Courrier International",
-            "title": "Mali: l'armée reprend la ville stratégique de Kidal, désertée par les rebelles Bamako (AFP)",
-            "summary": "L'armée malienne, appuyée par les paramilitaires russes de Africa Corps, a repris mardi le contrôle de la ville stratégique de Kidal, désertée par les rebelles touareg qui ont effectué \"un repli stratégique\". Cette reprise de Kidal, bastion de la rébellion, représente une victoire pour l'armée malienne, qui en avait été chassée en avril par le Front de libération de l'Azawad (FLA) et ses alliés jihadistes du Groupe de soutien à l'islam et aux musulmans (JNIM), affilié à Al-Qaïda.",
+            "title": "Mali: the army recaptures the strategic city of Kidal, deserted by the Bamako rebels (AFP)",
+            "summary": "The Malian army, supported by Russian Africa Corps paramilitaries, regained control on Tuesday of the strategic town of Kidal, deserted by Tuareg rebels who have made a \"strategic withdrawal\" . This recapture of Kidal, a stronghold of the rebellion, represents a victory for the Malian army, which had been driven out in April by the Azawad Liberation Front (Fla) and its jihadist allies of the Support Group for Islam and Muslims (JNIM), affiliated with Al-Qaeda .",
             "url": "https://www.courrierinternational.com/depeche/mali-l-armee-reprend-la-ville-strategique-de-kidal-desertee-par-les-rebelles.afp.com.20261006.doc.d2eh7cq.xml",
             "candidate_event": false,
             "event_date": "2026-10-06"
@@ -674,37 +768,37 @@
       },
       "collection_notes": {
         "sources_total": 184,
-        "sources_success": 158,
-        "sources_failed": 26,
-        "sources_degraded": 20,
-        "documents_discovered": 11741,
-        "documents_retained": 14,
+        "sources_success": 159,
+        "sources_failed": 25,
+        "sources_degraded": 19,
+        "documents_discovered": 11867,
+        "documents_retained": 10,
         "report_target": 100,
-        "translations_attempted": 17,
-        "translations_success": 14,
-        "translation_failures": 3,
+        "translations_attempted": 12,
+        "translations_success": 12,
+        "translation_failures": 0,
         "collection_confidence": "LOW",
         "collection_confidence_reasons": [
-          "158/184 source paths reached",
-          "26 failed source paths",
-          "20 degraded / 26 failed of 184 configured sources"
+          "159/184 source paths reached",
+          "25 failed source paths",
+          "19 degraded / 25 failed of 184 configured sources"
         ],
-        "reports_collected": 46,
-        "reports_published": 42,
-        "distinct_sources_collected": 29,
+        "reports_collected": 56,
+        "reports_published": 51,
+        "distinct_sources_collected": 32,
         "language_counts": {
-          "fr": 35,
-          "en": 6,
-          "ar": 5
+          "fr": 43,
+          "ar": 6,
+          "en": 7
         }
       },
-      "sultana_daily_text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nDaily bottom line for 2026-10-06: Reporting dated 2026-10-06 gives the desk 2 incident accounts to examine in Mali. 2 have support from separate sources. The record is provisional; it does not establish the full extent of violence that day.\n\nMali: 42 retained reports. 1. Mali: Fla withdraws from Kidal and leaves the field open to the army. About 120 vehicles came out of Aéfis, Mali, in the middle of the morning. On board, Malian soldiers, Russian soldiers from the Africa Corps, and fighters from the MSA and Gatia, Tuareg political-military groups integrated into the Malian army (Fama) In a statement issued at midday this Tuesday, the General Staff claims for the first time \"to have launched large-scale air-land operations in the Kidal region\", with its \"Russian partners\", in order to \"neutralize the armed terrorist groups\", \"destroy their sanctuaries\" and \"permanently restore the security of the populations\" and their \"free movement\". 2. Kidal: The Fama launch the reconquest operation. Kidal: Fama launches reconquest operation In Mali, the army announced in a recent press release that it was conducting large-scale air-land operations in the Kidal region, with its Russian partners . This offensive aims to \"track down and neutralize armed terrorist groups operating throughout the region, destroy their sanctuaries and supply networks and restore lasting security to the populations and the free movement of people and goods\" . 3. Generative AI Alters the Battlefield in Mali. There is an information war being fought in Mali online and on social media platforms. A new study outlines how generative artificial intelligence is being used by state, nonstate and foreign entities to push propaganda and misinformation. A September 9 report by the Dakar-based Timbuktu Institute, titled “Algorithms at War: How Generative AI is Reshaping the Malian Conflict,” examined al-Qaida affiliate Jama’at Nusrat al-Islam wal-Muslimin (JNIM), the Malian government, Russia’s Africa Corps and the Tuareg separatist group Azawad Liberation Front (FLA).\n\nBurkina Faso: 2 retained reports. 1. In Burkina Faso, release of a hundred supporters of Imam Kindo \"trained\" by the military. In Burkina Faso, dozens of supporters of the Burkinabe Sunni preacher Mohamad Ishaq Kindo were released following the release of a hundred followers of Imam Kindo who were \"trained\" by the military, arrested four months ago and \"straightened out\" in a military camp. 2. Burkina: decrease in road accidents in August and September. Burkina Faso recorded a decline in traffic accidents, injuries and fatalities in August and September 2026, with the lowest monthly levels of the year, according to Ministry of Security statistics released Monday. In September, 1,450 accidents were recorded, resulting in 1,055 injuries and 69 deaths, compared to 1,516 accidents, 1,347 injuries and 79 deaths in August In the first nine months of 2026, the country recorded 15,853 traffic accidents, resulting in 12,858 injuries and 910 deaths, the ministry said.\n\nNiger: 2 retained reports. 1. Algeria: President Tebboune discusses relations with Niger and Mali. Members of the Alliance of Sahel States (AES), Niger and Mali have warmed up their relations with Algeria after the Tinzaouatène incident in April 2025. Niamey leads several projects with Algiers in areas such as mining, energy, etc. In his periodic interview broadcast on Saturday, October 3 on Algerian television channels, President Abdelmadjid Tebboune said that his country supports the development of Niger. 2. Article reserved for subscribers Analysis. In the Sahel, Algeria has emerged from its doctrine of non-intervention Middle East Eye. At the request of the Nigerien authorities, Algeria announced, on August 30, the deployment of four Su-30 fighters, a tanker plane and a transport plane to help its neighbor. This support mission was launched in the aftermath of an abortive coup in Niger, a country led by General Abdourahamane Tiani since his own coup in July 2023. The country, which shares a 950-kilometre border with southern Algeria, is shaken by renewed tensions.\n\nActor picture: JNIM 0, IS Sahel 0, State 2.\n\nWhat changed: JNIM: -1 same-day fused event(s) versus 2026-10-05 (1 → 0). State: -2 same-day fused event(s) versus 2026-10-05 (4 → 2). Collection volume: +20 retained report(s) versus 2026-10-05 (26 → 46).\n\nIntelligence gaps: 5 newly collected operational/candidate report(s) have unresolved or publication-proxy event dates. Collection confidence is low, so absence of reporting should not be interpreted as absence of activity.\n\nCollection confidence: LOW. 158/184 source paths reached 26 failed source paths 20 degraded / 26 failed of 184 configured sources\n\nAll retained source reports, including reports not promoted to the map, remain individually summarized in the intelligence feed and source records."
+      "sultana_daily_text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nDaily bottom line for 2026-10-06: Reporting dated 2026-10-06 gives the desk 2 incident accounts to examine in Mali. 2 have support from separate sources. The record is provisional; it does not establish the full extent of violence that day.\n\nMali: 52 retained reports. 1. Mali: the Malian army now occupies Kidal after the withdrawal of the Tuareg rebels of the Fla. 06-10-2026 22:33 - Mali: the Malian armoury now occupies Kidal after the withdrawal of the Tuareg rebels of the Fla TV5 MONDE AFRIQUE - The Tuareg undue 19pendentist rebels of the Front de Libûtion de lãAzawad (Fla) announced that they had withdrawn their forces from Kidal, in northern Mali, in the face of the operations of the Armoury. They had taken control of this strategic city at the end of April, now occupied by the forces of military power . 2. Malian army and Russian fighters retake strategic city of Kidal. The Malian army and Russian fighters retake the strategic city of Kidal The Malian army announced its entry into the strategic city of Kidal, in the north of the country, which had been taken in April by Tuareg separatists who announced their withdrawal earlier Tuesday, as the military advanced . “We have just arrived in Kidal ahead of schedule,” a staff officer told AFP, information confirmed by a second officer. 3. Mali: The army recaptures Kidal after the withdrawal of the Fla rebels. According to available evidence, by the end of April, the city had come under the control of the Fla and its allies in the Al-Qaeda-affiliated Support Group for Islam and Muslims (JNIM), thanks to a series of coordinated attacks against army positions in several localities in the country Five months after losing it, the Malian army regained its footing in Kidal, in the north of the country.\n\nBurkina Faso: 2 retained reports. 1. In Burkina Faso, release of a hundred supporters of Imam Kindo \"trained\" by the military. In Burkina Faso, dozens of supporters of the Burkinabe Sunni preacher Mohamad Ishaq Kindo were released following the release of a hundred followers of Imam Kindo who were \"trained\" by the military, arrested four months ago and \"straightened out\" in a military camp. 2. Burkina: decrease in road accidents in August and September. Burkina Faso recorded a decline in traffic accidents, injuries and fatalities in August and September 2026, with the lowest monthly levels of the year, according to Ministry of Security statistics released Monday. In September, 1,450 accidents were recorded, resulting in 1,055 injuries and 69 deaths, compared to 1,516 accidents, 1,347 injuries and 79 deaths in August In the first nine months of 2026, the country recorded 15,853 traffic accidents, resulting in 12,858 injuries and 910 deaths, the ministry said.\n\nNiger: 2 retained reports. 1. Algeria: President Tebboune discusses relations with Niger and Mali. Members of the Alliance of Sahel States (AES), Niger and Mali have warmed up their relations with Algeria after the Tinzaouatène incident in April 2025. Niamey leads several projects with Algiers in areas such as mining, energy, etc. In his periodic interview broadcast on Saturday, October 3 on Algerian television channels, President Abdelmadjid Tebboune said that his country supports the development of Niger. 2. Article reserved for subscribers Analysis. In the Sahel, Algeria has emerged from its doctrine of non-intervention Middle East Eye. At the request of the Nigerien authorities, Algeria announced, on August 30, the deployment of four Su-30 fighters, a tanker plane and a transport plane to help its neighbor. This support mission was launched in the aftermath of an abortive coup in Niger, a country led by General Abdourahamane Tiani since his own coup in July 2023. The country, which shares a 950-kilometre border with southern Algeria, is shaken by renewed tensions.\n\nActor picture: JNIM 0, IS Sahel 0, State 2.\n\nWhat changed: JNIM: -1 same-day fused event(s) versus 2026-10-05 (1 → 0). State: -2 same-day fused event(s) versus 2026-10-05 (4 → 2). Collection volume: +30 retained report(s) versus 2026-10-05 (26 → 56).\n\nIntelligence gaps: 6 newly collected operational/candidate report(s) have unresolved or publication-proxy event dates. Collection confidence is low, so absence of reporting should not be interpreted as absence of activity.\n\nCollection confidence: LOW. 159/184 source paths reached 25 failed source paths 19 degraded / 25 failed of 184 configured sources\n\nAll retained source reports, including reports not promoted to the map, remain individually summarized in the intelligence feed and source records."
     },
     {
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-05",
-      "generated_at": "2026-10-06T20:42:15.051647Z",
+      "generated_at": "2026-10-07T00:51:41.962903Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -1315,7 +1409,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-04",
-      "generated_at": "2026-10-06T20:42:15.692633Z",
+      "generated_at": "2026-10-07T00:51:41.613136Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -1925,7 +2019,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-03",
-      "generated_at": "2026-10-06T20:42:15.452508Z",
+      "generated_at": "2026-10-07T00:51:41.770579Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -2412,7 +2506,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-02",
-      "generated_at": "2026-10-06T20:42:14.826233Z",
+      "generated_at": "2026-10-07T00:51:41.373934Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -2652,7 +2746,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-01",
-      "generated_at": "2026-10-06T20:42:15.014591Z",
+      "generated_at": "2026-10-07T00:51:41.828268Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -3200,7 +3294,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-30",
-      "generated_at": "2026-10-06T20:42:15.199615Z",
+      "generated_at": "2026-10-07T00:51:42.183736Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -4344,7 +4438,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-29",
-      "generated_at": "2026-10-06T20:42:14.978081Z",
+      "generated_at": "2026-10-07T00:51:42.429672Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -4669,7 +4763,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-28",
-      "generated_at": "2026-10-06T20:42:15.351846Z",
+      "generated_at": "2026-10-07T00:51:41.753345Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -5148,7 +5242,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-27",
-      "generated_at": "2026-10-06T20:42:15.520524Z",
+      "generated_at": "2026-10-07T00:51:41.345520Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -5501,7 +5595,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-26",
-      "generated_at": "2026-10-06T20:42:15.231797Z",
+      "generated_at": "2026-10-07T00:51:42.292021Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -5749,7 +5843,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-25",
-      "generated_at": "2026-10-06T20:42:15.228110Z",
+      "generated_at": "2026-10-07T00:51:41.438420Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -6101,7 +6195,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-24",
-      "generated_at": "2026-10-06T20:42:15.710355Z",
+      "generated_at": "2026-10-07T00:51:42.004215Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -6463,7 +6557,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-23",
-      "generated_at": "2026-10-06T20:42:15.250036Z",
+      "generated_at": "2026-10-07T00:51:42.364876Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -6774,7 +6868,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-22",
-      "generated_at": "2026-10-06T20:42:14.960673Z",
+      "generated_at": "2026-10-07T00:51:41.985314Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -7732,7 +7826,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-21",
-      "generated_at": "2026-10-06T20:42:15.575085Z",
+      "generated_at": "2026-10-07T00:51:41.293702Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -8250,7 +8344,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-20",
-      "generated_at": "2026-10-06T20:42:15.678178Z",
+      "generated_at": "2026-10-07T00:51:41.320296Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -8894,7 +8988,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-19",
-      "generated_at": "2026-10-06T20:42:15.277924Z",
+      "generated_at": "2026-10-07T00:51:41.993163Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -9549,7 +9643,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-18",
-      "generated_at": "2026-10-06T20:42:15.025171Z",
+      "generated_at": "2026-10-07T00:51:42.078025Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -9712,7 +9806,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-17",
-      "generated_at": "2026-10-06T20:42:15.047765Z",
+      "generated_at": "2026-10-07T00:51:41.670805Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -9975,7 +10069,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-16",
-      "generated_at": "2026-10-06T20:42:14.774424Z",
+      "generated_at": "2026-10-07T00:51:41.900574Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -10137,7 +10231,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-15",
-      "generated_at": "2026-10-06T20:42:14.925680Z",
+      "generated_at": "2026-10-07T00:51:41.706965Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -10299,7 +10393,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-14",
-      "generated_at": "2026-10-06T20:42:15.443129Z",
+      "generated_at": "2026-10-07T00:51:42.273899Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -10465,7 +10559,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-13",
-      "generated_at": "2026-10-06T20:42:15.000066Z",
+      "generated_at": "2026-10-07T00:51:42.015241Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -10627,7 +10721,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-12",
-      "generated_at": "2026-10-06T20:42:15.166364Z",
+      "generated_at": "2026-10-07T00:51:42.074345Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -10789,7 +10883,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-11",
-      "generated_at": "2026-10-06T20:42:15.780476Z",
+      "generated_at": "2026-10-07T00:51:42.110797Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -10951,7 +11045,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-10",
-      "generated_at": "2026-10-06T20:42:15.295533Z",
+      "generated_at": "2026-10-07T00:51:41.981254Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -11174,7 +11268,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-09",
-      "generated_at": "2026-10-06T20:42:15.484548Z",
+      "generated_at": "2026-10-07T00:51:41.580462Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -11336,7 +11430,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-08",
-      "generated_at": "2026-10-06T20:42:15.355354Z",
+      "generated_at": "2026-10-07T00:51:41.857222Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -11502,7 +11596,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-07",
-      "generated_at": "2026-10-06T20:42:15.748655Z",
+      "generated_at": "2026-10-07T00:51:42.063021Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -11830,7 +11924,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-04",
-      "generated_at": "2026-10-06T20:42:15.404477Z",
+      "generated_at": "2026-10-07T00:51:42.007932Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -11996,7 +12090,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-03",
-      "generated_at": "2026-10-06T20:42:15.062472Z",
+      "generated_at": "2026-10-07T00:51:41.324978Z",
       "coverage": [
         "Mali",
         "Burkina Faso",

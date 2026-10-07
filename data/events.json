@@ -1,5 +1,214 @@
 [
   {
+    "id": "4d02af9c9bfceb0d002b1286a0d34b4a97bf4571",
+    "event_date": "2026-10-06",
+    "event_date_confidence": "publication-proxy",
+    "event_date_source": "jsonld:datePublished",
+    "published_at": "2026-10-06T11:39:08Z",
+    "published_date_source": "jsonld:datePublished",
+    "published_time_precision": "datetime",
+    "collected_at": "2026-10-06T12:44:06.015261Z",
+    "actor": "State",
+    "perpetrator": "State",
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [
+      "State",
+      "Africa Corps/Wagner",
+      "JNIM"
+    ],
+    "parent_report_id": null,
+    "event_type": "offensive/campaign",
+    "country": "Mali",
+    "city": "Kidal",
+    "lat": 18.4411,
+    "lng": 1.4078,
+    "locations": [
+      {
+        "name": "Kidal",
+        "country": "Mali",
+        "lat": 18.4411,
+        "lng": 1.4078,
+        "confidence": "explicit-place"
+      },
+      {
+        "name": "Anéfis",
+        "country": "Mali",
+        "lat": 18.0667,
+        "lng": 0.6167,
+        "confidence": "explicit-place"
+      },
+      {
+        "name": "Timbuktu",
+        "country": "Mali",
+        "lat": 16.7666,
+        "lng": -3.0026,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "Kidal: Massive air-land offensive by the FAMa and their Russian allies against terrorist strongholds",
+    "summary": "The Malian Armed Forces (FAMa) and their allies have taken a position in the city of Kidal, as part of an air-land operation launched several days ago in the region According to the information provided, these operations are aimed in particular at the armed groups present in the region, their supply networks and their positions, with the stated objective of strengthening security and facilitating the free movement of people and goods In a statement released on Tuesday, the Azawad Liberation Front (Fla) announced the withdrawal of its elements from Kidal and reported the presence of Malian forces in the city.",
+    "sources": [
+      "Malijet",
+      "Jeune Afrique",
+      "Bamada"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 3,
+    "report_urls": [
+      "https://malijet.com/a_la_une_du_mali/312192-kidal-offensive-aeroterrestre-massive-des-fama-et-de-leurs.html",
+      "https://malijet.com/a_la_une_du_mali/312194-kidal-le-fla-quitte-la-ville-sur-fond-doffensive-des-fama.html",
+      "https://www.jeuneafrique.com/1849497/politique/mali-larmee-a-repris-kidal-le-fla-a-quitte-la-ville/",
+      "https://malijet.com/a_la_une_du_mali/312197-kidal-tombouctou-sofara-offensive-massive-des-fama-contr.html",
+      "https://bamada.net/operation-dougoukoloko-les-fama-et-leurs-partenaires-russes-intensifient-loffensive-dans-les-theatres-est-et-centre"
+    ],
+    "report_summaries": [
+      {
+        "url": "https://malijet.com/a_la_une_du_mali/312192-kidal-offensive-aeroterrestre-massive-des-fama-et-de-leurs.html",
+        "source": "Malijet",
+        "title": "Kidal: Massive air-land offensive by the FAMa and their Russian allies against terrorist strongholds",
+        "summary": "Kidal: Massive air-terrestrial offensive by the FAMa and their Russian allies against terrorist strongholds The Malian armed forces and their Russian allies have begun major air-terrestrial maneuvers in Kidal, as part of the readjustment of Operation DOUGOUKOLOKO, according to the General Staff of the Armed Forces . These operations are aimed at tracking down and neutralizing armed terrorist groups operating throughout the region, destroying their sanctuaries and supply networks, as well as sustainably restoring the security of the populations and the free movement of people and goods .",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "security_force",
+          "armed_group"
+        ],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      },
+      {
+        "url": "https://malijet.com/a_la_une_du_mali/312194-kidal-le-fla-quitte-la-ville-sur-fond-doffensive-des-fama.html",
+        "source": "Malijet",
+        "title": "Kidal: the Fla leaves the city against the backdrop of the FAMa offensive",
+        "summary": "The Malian Armed Forces (FAMa) and their allies have taken a position in the city of Kidal, as part of an air-land operation launched several days ago in the region According to the information provided, these operations are aimed in particular at the armed groups present in the region, their supply networks and their positions, with the stated objective of strengthening security and facilitating the free movement of people and goods In a statement released on Tuesday, the Azawad Liberation Front (Fla) announced the withdrawal of its elements from Kidal and reported the presence of Malian forces in the city.",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      },
+      {
+        "url": "https://www.jeuneafrique.com/1849497/politique/mali-larmee-a-repris-kidal-le-fla-a-quitte-la-ville/",
+        "source": "Jeune Afrique",
+        "title": "Recapture of Kidal by the Malian army: how Assimi Goïta prepared the offensive",
+        "summary": "The Malian Armed Forces and their Russian allies from Africa Corps regained control of Kidal on Tuesday, October 6, just over five months after the fall of this strategic northern city to the Fla and Jnim. Published today at 15:49, modified at 17:40 Reading: 3 minutes . File generated on The Malian army, supported by the Russian military of Africa Corps, took over this Tuesday, October 6, the city of Kidal in northern Mali.",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      },
+      {
+        "url": "https://malijet.com/a_la_une_du_mali/312197-kidal-tombouctou-sofara-offensive-massive-des-fama-contr.html",
+        "source": "Malijet",
+        "title": "Kidal, Timbuktu, Sofara: Massive FAMa offensive against terrorist strongholds in the North and Centre",
+        "summary": "By a new communiqué, the General Staff of the Armed Forces confirmed the continuation of the major offensive started on 6 October 2026 in the Eastern zone, as a continuation of Operation DOUGOUKOLOKO The Malian Armed Forces (FAMa), supported by their Russian partners, carried out simultaneous strikes on several sectors of the country. This operation aims in particular to strengthen the security of the populations living in this part of the national territory, to guarantee the free movement of people and goods, to secure the borders and to stop the criminal economy developed by armed terrorist groups (GAT).",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "armed_group"
+        ],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      },
+      {
+        "url": "https://bamada.net/operation-dougoukoloko-les-fama-et-leurs-partenaires-russes-intensifient-loffensive-dans-les-theatres-est-et-centre",
+        "source": "Bamada",
+        "title": "Operation DOUGOUKOLOKO: The FAMa and their Russian partners intensify the offensive in the Eastern and Central theaters",
+        "summary": "In line with its previous communiqué, the General Staff of the Armed Forces informs the national opinion that the Malian Armed Forces (FAMa), supported by their Russian partners, are continuing the large-scale offensive launched on Tuesday, October 6, 2026 in the Eastern Theater, as part of Operation DOUGOUKOLOKO . This operation aims in particular to strengthen the security of the populations living in this part of the national territory, to guarantee the free movement of people and goods, to secure the borders and to stop the criminal economy developed by the armed terrorist groups (GAT) .",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "armed_group"
+        ],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      }
+    ],
+    "created_at": "2026-10-06T12:44:06.015261Z",
+    "updated_at": "2026-10-07T00:49:28.068771Z",
+    "extraction_confidence": "moderate",
+    "victim_categories": [
+      "security_force",
+      "armed_group"
+    ],
+    "civilian_targeting_flag": false,
+    "casualty_claims": [],
+    "fatalities_min": null,
+    "fatalities_max": null,
+    "fatalities_best": null,
+    "injured_min": null,
+    "injured_max": null,
+    "abducted_min": null,
+    "abducted_max": null,
+    "casualty_disputed": false,
+    "revision_history": [
+      {
+        "at": "2026-10-06T12:44:06.015261Z",
+        "type": "event_created",
+        "source": "Malijet"
+      },
+      {
+        "at": "2026-10-06T16:41:37.002850Z",
+        "type": "corroboration_or_geography_update",
+        "source": "Jeune Afrique"
+      },
+      {
+        "at": "2026-10-07T00:49:28.388540Z",
+        "type": "corroboration_or_geography_update",
+        "source": "Malijet"
+      },
+      {
+        "at": "2026-10-07T00:49:28.068771Z",
+        "type": "corroboration_or_geography_update",
+        "source": "Bamada"
+      }
+    ],
+    "corroboration": "multi-source",
+    "confidence": "moderate-high",
+    "independent_source_domains": [
+      "malijet.com",
+      "jeuneafrique.com",
+      "bamada.net"
+    ],
+    "independent_source_count": 3,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "strategic/severe event pattern",
+      "multi-source corroboration",
+      "multi-location activity"
+    ]
+  },
+  {
     "id": "13ac47600e10dd69779c0096a0d0959415af8e1c",
     "event_date": "2026-10-06",
     "event_date_confidence": "explicit-text",
@@ -671,157 +880,6 @@
     "independent_source_count": 1,
     "significance": "MAJOR",
     "significance_reasons": [
-      "multi-location activity"
-    ]
-  },
-  {
-    "id": "4d02af9c9bfceb0d002b1286a0d34b4a97bf4571",
-    "event_date": "2026-10-06",
-    "event_date_confidence": "publication-proxy",
-    "event_date_source": "jsonld:datePublished",
-    "published_at": "2026-10-06T11:39:08Z",
-    "published_date_source": "jsonld:datePublished",
-    "published_time_precision": "datetime",
-    "collected_at": "2026-10-06T12:44:06.015261Z",
-    "actor": "State",
-    "perpetrator": "State",
-    "target": null,
-    "claimant": null,
-    "supporting_force": null,
-    "mentioned_actors": [
-      "State",
-      "Africa Corps/Wagner",
-      "JNIM"
-    ],
-    "parent_report_id": null,
-    "event_type": "offensive/campaign",
-    "country": "Mali",
-    "city": "Kidal",
-    "lat": 18.4411,
-    "lng": 1.4078,
-    "locations": [
-      {
-        "name": "Kidal",
-        "country": "Mali",
-        "lat": 18.4411,
-        "lng": 1.4078,
-        "confidence": "explicit-place"
-      },
-      {
-        "name": "Anéfis",
-        "country": "Mali",
-        "lat": 18.0667,
-        "lng": 0.6167,
-        "confidence": "explicit-place"
-      }
-    ],
-    "title": "Kidal: Massive air-land offensive by the FAMa and their Russian allies against terrorist strongholds",
-    "summary": "The Malian Armed Forces (FAMa) and their allies have taken a position in the city of Kidal, as part of an air-land operation launched several days ago in the region According to the information provided, these operations are aimed in particular at the armed groups present in the region, their supply networks and their positions, with the stated objective of strengthening security and facilitating the free movement of people and goods In a statement released on Tuesday, the Azawad Liberation Front (Fla) announced the withdrawal of its elements from Kidal and reported the presence of Malian forces in the city.",
-    "sources": [
-      "Malijet",
-      "Jeune Afrique"
-    ],
-    "languages": [
-      "fr"
-    ],
-    "source_count": 2,
-    "report_urls": [
-      "https://malijet.com/a_la_une_du_mali/312192-kidal-offensive-aeroterrestre-massive-des-fama-et-de-leurs.html",
-      "https://malijet.com/a_la_une_du_mali/312194-kidal-le-fla-quitte-la-ville-sur-fond-doffensive-des-fama.html",
-      "https://www.jeuneafrique.com/1849497/politique/mali-larmee-a-repris-kidal-le-fla-a-quitte-la-ville/"
-    ],
-    "report_summaries": [
-      {
-        "url": "https://malijet.com/a_la_une_du_mali/312192-kidal-offensive-aeroterrestre-massive-des-fama-et-de-leurs.html",
-        "source": "Malijet",
-        "title": "Kidal: Massive air-land offensive by the FAMa and their Russian allies against terrorist strongholds",
-        "summary": "Kidal: Massive air-terrestrial offensive by the FAMa and their Russian allies against terrorist strongholds The Malian armed forces and their Russian allies have begun major air-terrestrial maneuvers in Kidal, as part of the readjustment of Operation DOUGOUKOLOKO, according to the General Staff of the Armed Forces . These operations are aimed at tracking down and neutralizing armed terrorist groups operating throughout the region, destroying their sanctuaries and supply networks, as well as sustainably restoring the security of the populations and the free movement of people and goods .",
-        "summary_basis": "translated-excerpt",
-        "fatalities_min": null,
-        "fatalities_max": null,
-        "injured_min": null,
-        "injured_max": null,
-        "abducted_min": null,
-        "abducted_max": null,
-        "victim_categories": [
-          "security_force",
-          "armed_group"
-        ],
-        "civilian_targeting_flag": false,
-        "casualty_claims": []
-      },
-      {
-        "url": "https://malijet.com/a_la_une_du_mali/312194-kidal-le-fla-quitte-la-ville-sur-fond-doffensive-des-fama.html",
-        "source": "Malijet",
-        "title": "Kidal: the Fla leaves the city against the backdrop of the FAMa offensive",
-        "summary": "The Malian Armed Forces (FAMa) and their allies have taken a position in the city of Kidal, as part of an air-land operation launched several days ago in the region According to the information provided, these operations are aimed in particular at the armed groups present in the region, their supply networks and their positions, with the stated objective of strengthening security and facilitating the free movement of people and goods In a statement released on Tuesday, the Azawad Liberation Front (Fla) announced the withdrawal of its elements from Kidal and reported the presence of Malian forces in the city.",
-        "summary_basis": "translated-excerpt",
-        "fatalities_min": null,
-        "fatalities_max": null,
-        "injured_min": null,
-        "injured_max": null,
-        "abducted_min": null,
-        "abducted_max": null,
-        "victim_categories": [],
-        "civilian_targeting_flag": false,
-        "casualty_claims": []
-      },
-      {
-        "url": "https://www.jeuneafrique.com/1849497/politique/mali-larmee-a-repris-kidal-le-fla-a-quitte-la-ville/",
-        "source": "Jeune Afrique",
-        "title": "Recapture of Kidal by the Malian army: how Assimi Goïta prepared the offensive",
-        "summary": "The Malian Armed Forces and their Russian allies from Africa Corps regained control of Kidal on Tuesday, October 6, just over five months after the fall of this strategic northern city to the Fla and Jnim. Published today at 15:49, modified at 17:40 Reading: 3 minutes . File generated on The Malian army, supported by the Russian military of Africa Corps, took over this Tuesday, October 6, the city of Kidal in northern Mali.",
-        "summary_basis": "translated-excerpt",
-        "fatalities_min": null,
-        "fatalities_max": null,
-        "injured_min": null,
-        "injured_max": null,
-        "abducted_min": null,
-        "abducted_max": null,
-        "victim_categories": [],
-        "civilian_targeting_flag": false,
-        "casualty_claims": []
-      }
-    ],
-    "created_at": "2026-10-06T12:44:06.015261Z",
-    "updated_at": "2026-10-06T16:41:37.002850Z",
-    "extraction_confidence": "moderate",
-    "victim_categories": [
-      "security_force",
-      "armed_group"
-    ],
-    "civilian_targeting_flag": false,
-    "casualty_claims": [],
-    "fatalities_min": null,
-    "fatalities_max": null,
-    "fatalities_best": null,
-    "injured_min": null,
-    "injured_max": null,
-    "abducted_min": null,
-    "abducted_max": null,
-    "casualty_disputed": false,
-    "revision_history": [
-      {
-        "at": "2026-10-06T12:44:06.015261Z",
-        "type": "event_created",
-        "source": "Malijet"
-      },
-      {
-        "at": "2026-10-06T16:41:37.002850Z",
-        "type": "corroboration_or_geography_update",
-        "source": "Jeune Afrique"
-      }
-    ],
-    "corroboration": "limited corroboration",
-    "confidence": "moderate",
-    "independent_source_domains": [
-      "malijet.com",
-      "jeuneafrique.com"
-    ],
-    "independent_source_count": 2,
-    "significance": "MAJOR",
-    "significance_reasons": [
-      "strategic/severe event pattern",
       "multi-location activity"
     ]
   },
