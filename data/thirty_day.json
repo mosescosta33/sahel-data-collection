@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-07T16:43:27.916040Z",
+  "generated_at": "2026-10-07T20:40:22.537630Z",
   "window_days": 30,
   "cutoff": "2026-09-07",
-  "reports": 317,
-  "incident_reports": 73,
+  "reports": 324,
+  "incident_reports": 74,
   "candidate_events": 62,
-  "corroborated_events": 9,
+  "corroborated_events": 10,
   "mapped_events": 58,
-  "mapped_locations": 123,
+  "mapped_locations": 124,
   "distinct_sources": 71,
   "by_actor": {
     "State": 38,
@@ -30,20 +30,20 @@
     "raid": 1
   },
   "by_language": {
-    "fr": 236,
+    "fr": 243,
     "en": 63,
     "ar": 18
   },
   "by_confidence": {
-    "low": 32,
-    "moderate": 27,
+    "low": 31,
+    "moderate": 28,
     "moderate-high": 3
   },
   "top_sources": [
     {
       "source_code": "SRC-0008",
       "source": "Bamada",
-      "count": 36
+      "count": 38
     },
     {
       "source_code": "SRC-0006",
@@ -76,6 +76,11 @@
       "count": 11
     },
     {
+      "source_code": "SRC-0004",
+      "source": "Studio Tamani",
+      "count": 10
+    },
+    {
       "source_code": "SRC-0090",
       "source": "AllAfrica (Édition Française)",
       "count": 10
@@ -86,19 +91,14 @@
       "count": 9
     },
     {
+      "source_code": "SRC-0013",
+      "source": "Wakat Sera",
+      "count": 9
+    },
+    {
       "source_code": "SRC-0121",
       "source": "AllAfrica (English Edition)",
       "count": 9
-    },
-    {
-      "source_code": "SRC-0160",
-      "source": "Sahara Medias (صحراء ميديا)",
-      "count": 9
-    },
-    {
-      "source_code": "SRC-0004",
-      "source": "Studio Tamani",
-      "count": 8
     }
   ],
   "top_locations": [
@@ -127,6 +127,10 @@
       "count": 8
     },
     {
+      "location": "Gao",
+      "count": 6
+    },
+    {
       "location": "Ségou",
       "count": 6
     },
@@ -136,10 +140,6 @@
     },
     {
       "location": "Djenné",
-      "count": 5
-    },
-    {
-      "location": "Gao",
       "count": 5
     },
     {
@@ -290,16 +290,16 @@
     {
       "date": "2026-10-05",
       "reports": 15,
-      "events": 7
+      "events": 8
     },
     {
       "date": "2026-10-06",
       "reports": 55,
-      "events": 11
+      "events": 10
     },
     {
       "date": "2026-10-07",
-      "reports": 17,
+      "reports": 24,
       "events": 2
     }
   ],
@@ -524,109 +524,6 @@
       "significance": "ROUTINE",
       "significance_reasons": [
         "limited currently observed significance"
-      ]
-    },
-    {
-      "id": "7af275fc8e3d141b7d0c0aa7902f4fc11b380b6d",
-      "event_date": "2026-10-06",
-      "event_date_confidence": "explicit-text",
-      "event_date_source": "relative-weekday",
-      "published_at": "2026-10-07T13:09:30Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-07T16:42:17.365194Z",
-      "actor": "State",
-      "perpetrator": null,
-      "target": null,
-      "claimant": null,
-      "supporting_force": null,
-      "mentioned_actors": [],
-      "parent_report_id": null,
-      "event_type": "clash",
-      "country": "Mali",
-      "city": "Kidal",
-      "lat": 18.4411,
-      "lng": 1.4078,
-      "locations": [
-        {
-          "name": "Kidal",
-          "country": "Mali",
-          "lat": 18.4411,
-          "lng": 1.4078,
-          "confidence": "explicit-place"
-        },
-        {
-          "name": "Timbuktu",
-          "country": "Mali",
-          "lat": 16.7666,
-          "lng": -3.0026,
-          "confidence": "explicit-place"
-        }
-      ],
-      "title": "Mali: Army enters Kidal without fighting with Russian support",
-      "summary": "It was remarkable that the Malian army (Tuesday) entered the city of Kidal, in the far northeast of the country, without any fighting, six months after it fell to the Tuareg rebels, so that the city remains the title of the war that has been raging in this country for more than 15 years The transitional Malian government announced that the army units \"strengthened their positions in Kidal\", hours after the withdrawal of the \"Front for the Liberation of Azawad\", and a statement signed by the Minister of Territorial Administration and the government spokesman, General Issa Othman Coulibaly, said that the armed…",
-      "sources": [
-        "Asharq Al-Awsat"
-      ],
-      "languages": [
-        "ar"
-      ],
-      "source_count": 1,
-      "report_urls": [
-        "https://aawsat.com/%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%A3%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7/5327009-%D9%85%D8%A7%D9%84%D9%8A-%D8%A7%D9%84%D8%AC%D9%8A%D8%B4-%D9%8A%D8%AF%D8%AE%D9%84-%D9%83%D9%8A%D8%AF%D8%A7%D9%84-%D8%AF%D9%88%D9%86-%D9%82%D8%AA%D8%A7%D9%84-%D8%A8%D8%AF%D8%B9%D9%85-%D9%85%D9%86-%D8%B1%D9%88%D8%B3%D9%8A%D8%A7"
-      ],
-      "report_summaries": [
-        {
-          "url": "https://aawsat.com/%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%A3%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7/5327009-%D9%85%D8%A7%D9%84%D9%8A-%D8%A7%D9%84%D8%AC%D9%8A%D8%B4-%D9%8A%D8%AF%D8%AE%D9%84-%D9%83%D9%8A%D8%AF%D8%A7%D9%84-%D8%AF%D9%88%D9%86-%D9%82%D8%AA%D8%A7%D9%84-%D8%A8%D8%AF%D8%B9%D9%85-%D9%85%D9%86-%D8%B1%D9%88%D8%B3%D9%8A%D8%A7",
-          "source": "Asharq Al-Awsat",
-          "title": "Mali: Army enters Kidal without fighting with Russian support",
-          "summary": "It was remarkable that the Malian army (Tuesday) entered the city of Kidal, in the far northeast of the country, without any fighting, six months after it fell to the Tuareg rebels, so that the city remains the title of the war that has been raging in this country for more than 15 years The transitional Malian government announced that the army units \"strengthened their positions in Kidal\", hours after the withdrawal of the \"Front for the Liberation of Azawad\", and a statement signed by the Minister of Territorial Administration and the government spokesman, General Issa Othman Coulibaly, said that the armed…",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "armed_group"
-          ],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        }
-      ],
-      "created_at": "2026-10-07T16:42:17.365194Z",
-      "updated_at": "2026-10-07T16:42:17.365194Z",
-      "extraction_confidence": "low",
-      "victim_categories": [
-        "armed_group"
-      ],
-      "civilian_targeting_flag": false,
-      "casualty_claims": [],
-      "fatalities_min": null,
-      "fatalities_max": null,
-      "fatalities_best": null,
-      "injured_min": null,
-      "injured_max": null,
-      "abducted_min": null,
-      "abducted_max": null,
-      "casualty_disputed": false,
-      "revision_history": [
-        {
-          "at": "2026-10-07T16:42:17.365194Z",
-          "type": "event_created",
-          "source": "Asharq Al-Awsat"
-        }
-      ],
-      "corroboration": "single-source",
-      "confidence": "low",
-      "independent_source_domains": [
-        "aawsat.com"
-      ],
-      "independent_source_count": 1,
-      "significance": "MAJOR",
-      "significance_reasons": [
-        "multi-location activity"
       ]
     },
     {
@@ -1833,6 +1730,146 @@
         "lanouvelletribune.info"
       ],
       "independent_source_count": 1,
+      "significance": "MAJOR",
+      "significance_reasons": [
+        "multi-location activity"
+      ]
+    },
+    {
+      "id": "6f9dd3dea0bff86e7b0c4551952a332378bbb104",
+      "event_date": "2026-10-05",
+      "event_date_confidence": "explicit-text",
+      "event_date_source": "explicit-date-no-year",
+      "published_at": "2026-10-07T18:44:18.152000Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-07T20:38:41.300657Z",
+      "actor": "State",
+      "perpetrator": null,
+      "target": null,
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [
+        "State"
+      ],
+      "parent_report_id": null,
+      "event_type": "clash",
+      "country": "Mali",
+      "city": "Kidal",
+      "lat": 18.4411,
+      "lng": 1.4078,
+      "locations": [
+        {
+          "name": "Kidal",
+          "country": "Mali",
+          "lat": 18.4411,
+          "lng": 1.4078,
+          "confidence": "explicit-place"
+        },
+        {
+          "name": "Gao",
+          "country": "Mali",
+          "lat": 16.2717,
+          "lng": -0.0447,
+          "confidence": "explicit-place"
+        },
+        {
+          "name": "Timbuktu",
+          "country": "Mali",
+          "lat": 16.7666,
+          "lng": -3.0026,
+          "confidence": "explicit-place"
+        }
+      ],
+      "title": "Malians aspire to return to the city of Kidal",
+      "summary": "It was remarkable that the Malian army (Tuesday) entered the city of Kidal, in the far northeast of the country, without any fighting, six months after it fell to the Tuareg rebels, so that the city remains the title of the war that has been raging in this country for more than 15 years The transitional Malian government announced that the army units \"strengthened their positions in Kidal\", hours after the withdrawal of the \"Front for the Liberation of Azawad\", and a statement signed by the Minister of Territorial Administration and the government spokesman, General Issa Othman Coulibaly, said that the armed…",
+      "sources": [
+        "DW Afrique (FR)",
+        "Asharq Al-Awsat"
+      ],
+      "languages": [
+        "fr",
+        "ar"
+      ],
+      "source_count": 2,
+      "report_urls": [
+        "https://www.dw.com/fr/fama-reinvesti-kidal-mains-jnim-des-rebelles-fla-depuis-six-mois-symbole-pour-les-militaires/a-79585745",
+        "https://aawsat.com/%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%A3%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7/5327009-%D9%85%D8%A7%D9%84%D9%8A-%D8%A7%D9%84%D8%AC%D9%8A%D8%B4-%D9%8A%D8%AF%D8%AE%D9%84-%D9%83%D9%8A%D8%AF%D8%A7%D9%84-%D8%AF%D9%88%D9%86-%D9%82%D8%AA%D8%A7%D9%84-%D8%A8%D8%AF%D8%B9%D9%85-%D9%85%D9%86-%D8%B1%D9%88%D8%B3%D9%8A%D8%A7"
+      ],
+      "report_summaries": [
+        {
+          "url": "https://www.dw.com/fr/fama-reinvesti-kidal-mains-jnim-des-rebelles-fla-depuis-six-mois-symbole-pour-les-militaires/a-79585745",
+          "source": "DW Afrique (FR)",
+          "title": "Malians aspire to return to the city of Kidal",
+          "summary": "According to the General Staff of the Armed Forces of Mali, as early as Monday, October 5, \"major airstrikes were carried out by the air force to reduce enemy positions. This favoured the recapture of the city of Kidal the next day by the FAMa, without a fight\". In the nearby town of Gao, thousands of Kidal residents, such as teacher Almoustapha Maiga, found refuge .",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "civilian"
+          ],
+          "civilian_targeting_flag": false,
+          "casualty_claims": []
+        },
+        {
+          "url": "https://aawsat.com/%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%A3%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7/5327009-%D9%85%D8%A7%D9%84%D9%8A-%D8%A7%D9%84%D8%AC%D9%8A%D8%B4-%D9%8A%D8%AF%D8%AE%D9%84-%D9%83%D9%8A%D8%AF%D8%A7%D9%84-%D8%AF%D9%88%D9%86-%D9%82%D8%AA%D8%A7%D9%84-%D8%A8%D8%AF%D8%B9%D9%85-%D9%85%D9%86-%D8%B1%D9%88%D8%B3%D9%8A%D8%A7",
+          "source": "Asharq Al-Awsat",
+          "title": "Mali: Army enters Kidal without fighting with Russian support",
+          "summary": "It was remarkable that the Malian army (Tuesday) entered the city of Kidal, in the far northeast of the country, without any fighting, six months after it fell to the Tuareg rebels, so that the city remains the title of the war that has been raging in this country for more than 15 years The transitional Malian government announced that the army units \"strengthened their positions in Kidal\", hours after the withdrawal of the \"Front for the Liberation of Azawad\", and a statement signed by the Minister of Territorial Administration and the government spokesman, General Issa Othman Coulibaly, said that the armed…",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "armed_group"
+          ],
+          "civilian_targeting_flag": false,
+          "casualty_claims": []
+        }
+      ],
+      "created_at": "2026-10-07T20:38:41.300657Z",
+      "updated_at": "2026-10-07T16:42:17.365194Z",
+      "extraction_confidence": "low",
+      "victim_categories": [
+        "civilian",
+        "armed_group"
+      ],
+      "civilian_targeting_flag": false,
+      "casualty_claims": [],
+      "fatalities_min": null,
+      "fatalities_max": null,
+      "fatalities_best": null,
+      "injured_min": null,
+      "injured_max": null,
+      "abducted_min": null,
+      "abducted_max": null,
+      "casualty_disputed": false,
+      "revision_history": [
+        {
+          "at": "2026-10-07T20:38:41.300657Z",
+          "type": "event_created",
+          "source": "DW Afrique (FR)"
+        },
+        {
+          "at": "2026-10-07T16:42:17.365194Z",
+          "type": "corroboration_or_geography_update",
+          "source": "Asharq Al-Awsat"
+        }
+      ],
+      "corroboration": "limited corroboration",
+      "confidence": "moderate",
+      "independent_source_domains": [
+        "dw.com",
+        "aawsat.com"
+      ],
+      "independent_source_count": 2,
       "significance": "MAJOR",
       "significance_reasons": [
         "multi-location activity"
@@ -3710,6 +3747,132 @@
   ],
   "latest_reports": [
     {
+      "published_at": "2026-10-07T19:16:13Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-07T20:38:38.238281Z",
+      "discovered_at": "2026-10-07T20:38:38.238281Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0008",
+      "source": "Bamada",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Gao",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "GAO: release of the first promotion of Cutting and Sewing of the Training Center of the Branch of the Social Service of the Armed Forces",
+      "url": "https://bamada.net/gao-sortie-de-la-premiere-promotion-de-coupe-et-couture-du-centre-de-formation-de-lantenne-du-service-social-des-armees"
+    },
+    {
+      "published_at": "2026-10-07T19:09:32Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-07T20:38:38.953692Z",
+      "discovered_at": "2026-10-07T20:38:38.953692Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0091",
+      "source": "SeneNews",
+      "language": "fr",
+      "actor": "Africa Corps/Wagner",
+      "country": "Mali",
+      "city": "Kidal",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Kidal taken over by the Malian army, which will change on the Senegalese border",
+      "url": "https://www.senenews.com/actualites/kidal-reprise-par-larmee-malienne-ce-qui-va-changer-a-la-frontiere-senegalaise_602116.html"
+    },
+    {
+      "published_at": "2026-10-07T18:44:18.152000Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-07T20:38:41.300657Z",
+      "discovered_at": "2026-10-07T20:38:41.300657Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0035",
+      "source": "DW Afrique (FR)",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Kidal",
+      "event_type": "clash",
+      "candidate_event": true,
+      "title": "Malians aspire to return to the city of Kidal",
+      "url": "https://www.dw.com/fr/fama-reinvesti-kidal-mains-jnim-des-rebelles-fla-depuis-six-mois-symbole-pour-les-militaires/a-79585745"
+    },
+    {
+      "published_at": "2026-10-07T17:29:12Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-07T20:38:38.784561Z",
+      "discovered_at": "2026-10-07T20:38:38.784561Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0004",
+      "source": "Studio Tamani",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Kidal",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Kidal, what challenges for sustainable stability?",
+      "url": "https://www.studiotamani.org/208771-kidal-quels-defis-pour-une-stabilite-durable"
+    },
+    {
+      "published_at": "2026-10-07T17:09:12Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-07T20:38:39.944521Z",
+      "discovered_at": "2026-10-07T20:38:39.944521Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0013",
+      "source": "Wakat Sera",
+      "language": "fr",
+      "actor": "State",
+      "country": "Niger",
+      "city": "Tahoua",
+      "event_type": "kidnapping",
+      "candidate_event": false,
+      "title": "Kidnapped child in Yaounde: the suspect arrested in Tahoua",
+      "url": "https://www.wakatsera.com/enfant-kidnappe-a-yaounde-la-suspecte-arretee-a-tahoua/"
+    },
+    {
+      "published_at": "2026-10-07T17:06:39Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-07T20:38:38.745685Z",
+      "discovered_at": "2026-10-07T20:38:38.745685Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0004",
+      "source": "Studio Tamani",
+      "language": "fr",
+      "actor": null,
+      "country": "Mali",
+      "city": "Kidal",
+      "event_type": "law enforcement",
+      "candidate_event": false,
+      "title": "THE TITLES OF OCTOBER 7, 2026",
+      "url": "https://www.studiotamani.org/208769-les-titres-du-7-octobre-2026"
+    },
+    {
+      "published_at": "2026-10-07T16:27:42Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-07T20:38:38.285479Z",
+      "discovered_at": "2026-10-07T20:38:38.285479Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0008",
+      "source": "Bamada",
+      "language": "fr",
+      "actor": null,
+      "country": "Mali",
+      "city": "Bamako",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "MILITARY COURT OF BAMAKO: five cases on the list of the correctional hearing",
+      "url": "https://bamada.net/tribunal-militaire-de-bamako-cinq-affaires-inscrites-au-role-de-laudience-correctionnelle"
+    },
+    {
       "published_at": "2026-10-07T14:41:26Z",
       "published_date_source": "jsonld:datePublished",
       "published_time_precision": "datetime",
@@ -4302,132 +4465,6 @@
       "candidate_event": false,
       "title": "Aguelhoc: nearly 8,000 displaced people and host families benefit from WFP food stamps",
       "url": "https://www.studiotamani.org/208733-aguelhoc-pres-de-8-000-deplaces-et-familles-daccueil-beneficient-de-coupons-alimentaires-du-pam"
-    },
-    {
-      "published_at": "2026-10-06T17:14:38Z",
-      "published_date_source": "itemprop",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-06T20:40:03.755293Z",
-      "discovered_at": "2026-10-06T20:40:03.755293Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0015",
-      "source": "ActuNiger",
-      "language": "fr",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Kidal",
-      "event_type": "security operation",
-      "candidate_event": true,
-      "title": "Mali: the army is increasing pressure on Kidal with large-scale military maneuvers supported by airstrikes in the area",
-      "url": "https://www.actuniger.com/international/22426-mali-larmee-fait-monter-la-pression-sur-kidal-avec-des-manoeuvres-militaires-denvergure-appuyees-par-des-frappes-aeriennes-dans-la-zone"
-    },
-    {
-      "published_at": "2026-10-06T17:01:51Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-06T20:40:03.585290Z",
-      "discovered_at": "2026-10-06T20:40:03.585290Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0032",
-      "source": "Sky News Arabia",
-      "language": "ar",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Kidal",
-      "event_type": "offensive/campaign",
-      "candidate_event": true,
-      "title": "The Malian army entered the city of Kidal without resistance. The Malian army announced the entry of the strategic city of Kidal in the north of the country, on Tuesday, after the withdrawal of the fighters of the \"Front for the Liberation of Azawad\" from it, after months of controlling it during a large-scale attack last April.",
-      "url": "https://www.skynewsarabia.com/world/1896716-%D8%A7%D9%84%D8%AC%D9%8A%D8%B4-%D8%A7%D9%84%D9%85%D8%A7%D9%84%D9%8A-%D9%8A%D8%AF%D8%AE%D9%84-%D9%85%D8%AF%D9%8A%D9%86%D8%A9-%D9%83%D9%8A%D8%AF%D8%A7%D9%84-%D9%85%D9%82%D8%A7%D9%88%D9%85%D8%A9"
-    },
-    {
-      "published_at": "2026-10-06T16:46:32.553000Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-06T20:40:05.822471Z",
-      "discovered_at": "2026-10-06T20:40:05.822471Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0106",
-      "source": "TRT World (Africa)",
-      "language": "en",
-      "actor": "Africa Corps/Wagner",
-      "country": "Mali",
-      "city": "Kidal",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Malian army enters strategic northern city of Kidal",
-      "url": "https://www.trtworld.com/article/f256a0124e67"
-    },
-    {
-      "published_at": "2026-10-06T16:41:31Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-06T20:40:03.008211Z",
-      "discovered_at": "2026-10-06T20:40:03.008211Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0099",
-      "source": "La Croix (Afrique)",
-      "language": "fr",
-      "actor": "JNIM",
-      "country": "Mali",
-      "city": "Kidal",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Mali: the army recaptures the strategic city of Kidal, deserted by the rebels",
-      "url": "https://www.la-croix.com/mali-l-armee-reprend-la-ville-strategique-de-kidal-desertee-par-les-rebelles-20261006"
-    },
-    {
-      "published_at": "2026-10-06T16:37:25Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-06T20:40:04.238510Z",
-      "discovered_at": "2026-10-06T20:40:04.238510Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0039",
-      "source": "Afrik.com",
-      "language": "fr",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Kidal",
-      "event_type": "offensive/campaign",
-      "candidate_event": true,
-      "title": "Mali: Kidal falls back into the hands of the FAMa, the Fla announces a \"strategic withdrawal\"",
-      "url": "https://www.afrik.com/mali-kidal-retombe-aux-mains-des-fama-le-fla-annonce-un-repli-strategique"
-    },
-    {
-      "published_at": "2026-10-06T16:23:28Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-06T16:41:43.548728Z",
-      "discovered_at": "2026-10-06T16:41:43.548728Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0059",
-      "source": "Al-Ain Arabic",
-      "language": "ar",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Kidal",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "The withdrawal of «separatists» from Kidal.. The beginning of the lifting of the siege of Bamako with Russian support",
-      "url": "https://al-ain.com/article/separatists-kidal-bamako-russian-support"
-    },
-    {
-      "published_at": "2026-10-06T16:10:49Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-06T16:41:42.080998Z",
-      "discovered_at": "2026-10-06T16:41:42.080998Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0034",
-      "source": "TV5MONDE Afrique",
-      "language": "fr",
-      "actor": "Africa Corps/Wagner",
-      "country": "Mali",
-      "city": "Kidal",
-      "event_type": "clash",
-      "candidate_event": true,
-      "title": "Image Published on October 6, 2026 Africa Mali: the army retakes the strategic city of Kidal, deserted by the rebels The Malian army, supported by the Russian paramilitaries of Africa Corps, on Tuesday regained control of the strategic city of Kidal, deserted by…",
-      "url": "https://information.tv5monde.com/afrique/mali-larmee-reprend-la-ville-strategique-de-kidal-desertee-par-les-rebelles-2840461"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
