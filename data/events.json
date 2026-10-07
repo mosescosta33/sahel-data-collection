@@ -1,5 +1,99 @@
 [
   {
+    "id": "b31da638fa656799b3bfba8326a560831da65325",
+    "event_date": "2026-10-07",
+    "event_date_confidence": "publication-proxy",
+    "event_date_source": "jsonld:datePublished",
+    "published_at": "2026-10-07T02:45:20.596000Z",
+    "published_date_source": "jsonld:datePublished",
+    "published_time_precision": "datetime",
+    "collected_at": "2026-10-07T04:42:09.498071Z",
+    "actor": "Africa Corps/Wagner",
+    "perpetrator": "Africa Corps/Wagner",
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [
+      "Africa Corps/Wagner"
+    ],
+    "parent_report_id": null,
+    "event_type": "offensive/campaign",
+    "country": "Mali",
+    "city": "Kidal",
+    "lat": 18.4411,
+    "lng": 1.4078,
+    "locations": [
+      {
+        "name": "Kidal",
+        "country": "Mali",
+        "lat": 18.4411,
+        "lng": 1.4078,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "Mali: Junta forces retake strategic town of Kidal",
+    "summary": "Mali's army, supported by Russian paramilitary forces, has re-entered the northern town of Kidal, forcing the Tuareg separatists to withdraw from the strategic hold, in a symbolic boost for the country's military government and its Russian allies. The Tuareg separatist Azawad Liberation Front (FLA) said in a statement it had \"decided to carry out a strategic and controlled withdrawal of its forces from the town of Kidal.\" It said the withdrawal took place without direct fighting.",
+    "sources": [
+      "DW Africa (EN)"
+    ],
+    "languages": [
+      "en"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://www.dw.com/en/mali-junta-forces-retake-strategic-town-of-kidal-from-separatists/a-79570617"
+    ],
+    "report_summaries": [
+      {
+        "url": "https://www.dw.com/en/mali-junta-forces-retake-strategic-town-of-kidal-from-separatists/a-79570617",
+        "source": "DW Africa (EN)",
+        "title": "Mali: Junta forces retake strategic town of Kidal",
+        "summary": "Mali's army, supported by Russian paramilitary forces, has re-entered the northern town of Kidal, forcing the Tuareg separatists to withdraw from the strategic hold, in a symbolic boost for the country's military government and its Russian allies. The Tuareg separatist Azawad Liberation Front (FLA) said in a statement it had \"decided to carry out a strategic and controlled withdrawal of its forces from the town of Kidal.\" It said the withdrawal took place without direct fighting.",
+        "summary_basis": "source-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      }
+    ],
+    "created_at": "2026-10-07T04:42:09.498071Z",
+    "updated_at": "2026-10-07T04:42:09.498071Z",
+    "extraction_confidence": "low",
+    "victim_categories": [],
+    "civilian_targeting_flag": false,
+    "casualty_claims": [],
+    "fatalities_min": null,
+    "fatalities_max": null,
+    "fatalities_best": null,
+    "injured_min": null,
+    "injured_max": null,
+    "abducted_min": null,
+    "abducted_max": null,
+    "casualty_disputed": false,
+    "revision_history": [
+      {
+        "at": "2026-10-07T04:42:09.498071Z",
+        "type": "event_created",
+        "source": "DW Africa (EN)"
+      }
+    ],
+    "corroboration": "single-source",
+    "confidence": "low",
+    "independent_source_domains": [
+      "dw.com"
+    ],
+    "independent_source_count": 1,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "strategic/severe event pattern"
+    ]
+  },
+  {
     "id": "4d02af9c9bfceb0d002b1286a0d34b4a97bf4571",
     "event_date": "2026-10-06",
     "event_date_confidence": "publication-proxy",

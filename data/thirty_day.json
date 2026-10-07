@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-07T00:51:40.505800Z",
+  "generated_at": "2026-10-07T04:43:13.134000Z",
   "window_days": 30,
   "cutoff": "2026-09-07",
-  "reports": 300,
-  "incident_reports": 66,
-  "candidate_events": 56,
+  "reports": 302,
+  "incident_reports": 67,
+  "candidate_events": 57,
   "corroborated_events": 8,
-  "mapped_events": 52,
-  "mapped_locations": 111,
-  "distinct_sources": 70,
+  "mapped_events": 53,
+  "mapped_locations": 112,
+  "distinct_sources": 71,
   "by_actor": {
     "State": 35,
     "JNIM": 11,
     "Other": 8,
-    "Africa Corps/Wagner": 2
+    "Africa Corps/Wagner": 3
   },
   "by_country": {
-    "Mali": 51,
+    "Mali": 52,
     "Niger": 3,
     "Burkina Faso": 2
   },
   "by_event_type": {
     "security operation": 26,
-    "offensive/campaign": 10,
+    "offensive/campaign": 11,
     "attack": 8,
     "ambush": 5,
     "clash": 4,
@@ -30,12 +30,12 @@
     "raid": 1
   },
   "by_language": {
-    "fr": 224,
-    "en": 59,
+    "fr": 225,
+    "en": 60,
     "ar": 17
   },
   "by_confidence": {
-    "low": 27,
+    "low": 28,
     "moderate": 26,
     "moderate-high": 3
   },
@@ -43,7 +43,7 @@
     {
       "source_code": "SRC-0008",
       "source": "Bamada",
-      "count": 35
+      "count": 36
     },
     {
       "source_code": "SRC-0006",
@@ -104,7 +104,7 @@
   "top_locations": [
     {
       "location": "Kidal",
-      "count": 22
+      "count": 23
     },
     {
       "location": "Dioura",
@@ -299,11 +299,105 @@
     },
     {
       "date": "2026-10-07",
-      "reports": 1,
-      "events": 0
+      "reports": 3,
+      "events": 1
     }
   ],
   "latest_events": [
+    {
+      "id": "b31da638fa656799b3bfba8326a560831da65325",
+      "event_date": "2026-10-07",
+      "event_date_confidence": "publication-proxy",
+      "event_date_source": "jsonld:datePublished",
+      "published_at": "2026-10-07T02:45:20.596000Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-07T04:42:09.498071Z",
+      "actor": "Africa Corps/Wagner",
+      "perpetrator": "Africa Corps/Wagner",
+      "target": null,
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [
+        "Africa Corps/Wagner"
+      ],
+      "parent_report_id": null,
+      "event_type": "offensive/campaign",
+      "country": "Mali",
+      "city": "Kidal",
+      "lat": 18.4411,
+      "lng": 1.4078,
+      "locations": [
+        {
+          "name": "Kidal",
+          "country": "Mali",
+          "lat": 18.4411,
+          "lng": 1.4078,
+          "confidence": "explicit-place"
+        }
+      ],
+      "title": "Mali: Junta forces retake strategic town of Kidal",
+      "summary": "Mali's army, supported by Russian paramilitary forces, has re-entered the northern town of Kidal, forcing the Tuareg separatists to withdraw from the strategic hold, in a symbolic boost for the country's military government and its Russian allies. The Tuareg separatist Azawad Liberation Front (FLA) said in a statement it had \"decided to carry out a strategic and controlled withdrawal of its forces from the town of Kidal.\" It said the withdrawal took place without direct fighting.",
+      "sources": [
+        "DW Africa (EN)"
+      ],
+      "languages": [
+        "en"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://www.dw.com/en/mali-junta-forces-retake-strategic-town-of-kidal-from-separatists/a-79570617"
+      ],
+      "report_summaries": [
+        {
+          "url": "https://www.dw.com/en/mali-junta-forces-retake-strategic-town-of-kidal-from-separatists/a-79570617",
+          "source": "DW Africa (EN)",
+          "title": "Mali: Junta forces retake strategic town of Kidal",
+          "summary": "Mali's army, supported by Russian paramilitary forces, has re-entered the northern town of Kidal, forcing the Tuareg separatists to withdraw from the strategic hold, in a symbolic boost for the country's military government and its Russian allies. The Tuareg separatist Azawad Liberation Front (FLA) said in a statement it had \"decided to carry out a strategic and controlled withdrawal of its forces from the town of Kidal.\" It said the withdrawal took place without direct fighting.",
+          "summary_basis": "source-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [],
+          "civilian_targeting_flag": false,
+          "casualty_claims": []
+        }
+      ],
+      "created_at": "2026-10-07T04:42:09.498071Z",
+      "updated_at": "2026-10-07T04:42:09.498071Z",
+      "extraction_confidence": "low",
+      "victim_categories": [],
+      "civilian_targeting_flag": false,
+      "casualty_claims": [],
+      "fatalities_min": null,
+      "fatalities_max": null,
+      "fatalities_best": null,
+      "injured_min": null,
+      "injured_max": null,
+      "abducted_min": null,
+      "abducted_max": null,
+      "casualty_disputed": false,
+      "revision_history": [
+        {
+          "at": "2026-10-07T04:42:09.498071Z",
+          "type": "event_created",
+          "source": "DW Africa (EN)"
+        }
+      ],
+      "corroboration": "single-source",
+      "confidence": "low",
+      "independent_source_domains": [
+        "dw.com"
+      ],
+      "independent_source_count": 1,
+      "significance": "MAJOR",
+      "significance_reasons": [
+        "strategic/severe event pattern"
+      ]
+    },
     {
       "id": "4d02af9c9bfceb0d002b1286a0d34b4a97bf4571",
       "event_date": "2026-10-06",
@@ -3575,107 +3669,45 @@
       "significance_reasons": [
         "multi-location activity"
       ]
-    },
-    {
-      "id": "fa6676e72a47cd7ee193f40b12a10b824f677528",
-      "event_date": "2026-09-28",
-      "event_date_confidence": "explicit-text",
-      "event_date_source": "explicit-calendar-date",
-      "published_at": "2026-09-28T17:18:45Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-09-28T18:34:32.985737Z",
-      "actor": "Other",
-      "perpetrator": null,
-      "target": "State",
-      "claimant": null,
-      "supporting_force": null,
-      "mentioned_actors": [
-        "State"
-      ],
-      "parent_report_id": null,
-      "event_type": "attack",
-      "country": "Mali",
-      "city": "Djenné",
-      "lat": 13.9061,
-      "lng": -4.555,
-      "locations": [
-        {
-          "name": "Djenné",
-          "country": "Mali",
-          "lat": 13.9061,
-          "lng": -4.555,
-          "confidence": "explicit-place"
-        }
-      ],
-      "title": "ATTACK AGAINST THE MALIAN ARMED FORCES AT THE CROSSROADS OF DJENNÉ: SEVERAL DOZEN TERRORISTS KILLED AND EQUIPMENT RECOVERED BY THE FAMA",
-      "summary": "The Malian Armed Forces (FAMa) were the target of an attack by an armed terrorist group on Thursday at the Djenné crossroads. Following the intervention of the Army, the terrorists there (...)By Mahamane TOURE – NEW HORIZONRETROUVE the REST OF YOUR ARTICLE IN the NEW HORIZON OF MONDAY, SEPTEMBER 28, 2026 Follow us on Facebook, Telegram, WhatsApp to not miss anything of the Malian news Follow us on Facebook, Telegram, WhatsApp so as not to miss anything of the Malian news",
-      "sources": [
-        "Bamada"
-      ],
-      "languages": [
-        "fr"
-      ],
-      "source_count": 1,
-      "report_urls": [
-        "https://bamada.net/attaque-contre-les-forces-armees-maliennes-au-carrefour-de-djenne-plusieurs-dizaines-de-terroristes-tues-et-du-materiel-recupere-par-les-fama"
-      ],
-      "report_summaries": [
-        {
-          "url": "https://bamada.net/attaque-contre-les-forces-armees-maliennes-au-carrefour-de-djenne-plusieurs-dizaines-de-terroristes-tues-et-du-materiel-recupere-par-les-fama",
-          "source": "Bamada",
-          "title": "ATTACK AGAINST THE MALIAN ARMED FORCES AT THE CROSSROADS OF DJENNÉ: SEVERAL DOZEN TERRORISTS KILLED AND EQUIPMENT RECOVERED BY THE FAMA",
-          "summary": "The Malian Armed Forces (FAMa) were the target of an attack by an armed terrorist group on Thursday at the Djenné crossroads. Following the intervention of the Army, the terrorists there (...)By Mahamane TOURE – NEW HORIZONRETROUVE the REST OF YOUR ARTICLE IN the NEW HORIZON OF MONDAY, SEPTEMBER 28, 2026 Follow us on Facebook, Telegram, WhatsApp to not miss anything of the Malian news Follow us on Facebook, Telegram, WhatsApp so as not to miss anything of the Malian news",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "armed_group"
-          ],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        }
-      ],
-      "created_at": "2026-09-28T18:34:32.985737Z",
-      "updated_at": "2026-09-28T18:34:32.985737Z",
-      "extraction_confidence": "moderate",
-      "victim_categories": [
-        "armed_group"
-      ],
-      "civilian_targeting_flag": false,
-      "casualty_claims": [],
-      "fatalities_min": null,
-      "fatalities_max": null,
-      "fatalities_best": null,
-      "injured_min": null,
-      "injured_max": null,
-      "abducted_min": null,
-      "abducted_max": null,
-      "casualty_disputed": false,
-      "revision_history": [
-        {
-          "at": "2026-09-28T18:34:32.985737Z",
-          "type": "event_created",
-          "source": "Bamada"
-        }
-      ],
-      "corroboration": "single-source",
-      "confidence": "moderate",
-      "independent_source_domains": [
-        "bamada.net"
-      ],
-      "independent_source_count": 1,
-      "significance": "ROUTINE",
-      "significance_reasons": [
-        "limited currently observed significance"
-      ]
     }
   ],
   "latest_reports": [
+    {
+      "published_at": "2026-10-07T02:45:20.596000Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-07T04:42:09.498071Z",
+      "discovered_at": "2026-10-07T04:42:09.498071Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0042",
+      "source": "DW Africa (EN)",
+      "language": "en",
+      "actor": "Africa Corps/Wagner",
+      "country": "Mali",
+      "city": "Kidal",
+      "event_type": "offensive/campaign",
+      "candidate_event": true,
+      "title": "Mali: Junta forces retake strategic town of Kidal",
+      "url": "https://www.dw.com/en/mali-junta-forces-retake-strategic-town-of-kidal-from-separatists/a-79570617"
+    },
+    {
+      "published_at": "2026-10-07T01:06:48Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-07T04:42:02.593020Z",
+      "discovered_at": "2026-10-07T04:42:02.593020Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0008",
+      "source": "Bamada",
+      "language": "fr",
+      "actor": "JNIM",
+      "country": "Mali",
+      "city": "Kidal",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Kidal: the Malian army regains control of the city",
+      "url": "https://bamada.net/kidal-larmee-malienne-reprend-le-controle-de-la-ville"
+    },
     {
       "published_at": "2026-10-07T00:32:08Z",
       "published_date_source": "jsonld:datePublished",
@@ -4359,42 +4391,6 @@
       "candidate_event": true,
       "title": "Recapture of Kidal by the Malian army: how Assimi Goïta prepared the offensive",
       "url": "https://www.jeuneafrique.com/1849497/politique/mali-larmee-a-repris-kidal-le-fla-a-quitte-la-ville/"
-    },
-    {
-      "published_at": "2026-10-06T13:45:09Z",
-      "published_date_source": "opengraph",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-06T16:41:42.888870Z",
-      "discovered_at": "2026-10-06T16:41:42.888870Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0079",
-      "source": "L'Essor",
-      "language": "fr",
-      "actor": null,
-      "country": "Mali",
-      "city": "Kidal",
-      "event_type": "security operation",
-      "candidate_event": false,
-      "title": "koutiala, kidal...",
-      "url": "https://www.lessor.ml/posts/koutiala-kidal-anefif-djenne-et-mopti-larmee-ratisse-6ac4fb6503ff2"
-    },
-    {
-      "published_at": "2026-10-06T13:31:04Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-06T16:41:37.239202Z",
-      "discovered_at": "2026-10-06T16:41:37.239202Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0006",
-      "source": "Malijet",
-      "language": "fr",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Kidal",
-      "event_type": "offensive/campaign",
-      "candidate_event": true,
-      "title": "Kidal: the Fla leaves the city against the backdrop of the FAMa offensive",
-      "url": "https://malijet.com/a_la_une_du_mali/312194-kidal-le-fla-quitte-la-ville-sur-fond-doffensive-des-fama.html"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
