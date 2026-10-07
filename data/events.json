@@ -34,14 +34,16 @@
     "title": "Mali: Junta forces retake strategic town of Kidal",
     "summary": "Mali's army, supported by Russian paramilitary forces, has re-entered the northern town of Kidal, forcing the Tuareg separatists to withdraw from the strategic hold, in a symbolic boost for the country's military government and its Russian allies. The Tuareg separatist Azawad Liberation Front (FLA) said in a statement it had \"decided to carry out a strategic and controlled withdrawal of its forces from the town of Kidal.\" It said the withdrawal took place without direct fighting.",
     "sources": [
-      "DW Africa (EN)"
+      "DW Africa (EN)",
+      "AllAfrica (English Edition)"
     ],
     "languages": [
       "en"
     ],
-    "source_count": 1,
+    "source_count": 2,
     "report_urls": [
-      "https://www.dw.com/en/mali-junta-forces-retake-strategic-town-of-kidal-from-separatists/a-79570617"
+      "https://www.dw.com/en/mali-junta-forces-retake-strategic-town-of-kidal-from-separatists/a-79570617",
+      "https://allafrica.com/stories/202610070174.html"
     ],
     "report_summaries": [
       {
@@ -59,12 +61,32 @@
         "victim_categories": [],
         "civilian_targeting_flag": false,
         "casualty_claims": []
+      },
+      {
+        "url": "https://allafrica.com/stories/202610070174.html",
+        "source": "AllAfrica (English Edition)",
+        "title": "Mali: Junta Forces Retake Strategic Town of Kidal",
+        "summary": "Mali's military regained control of the strategic town of Kidal after forcing Tuareg separatists and al-Qaeda-linked jihadists to withdraw following an offensive backed by Russia's Africa Corps. Mali's army, supported by Russian paramilitary forces, has re-entered the northern town of Kidal, forcing the Tuareg separatists to withdraw from the strategic hold, in a symbolic boost for the country's military government and its Russian allies.",
+        "summary_basis": "source-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "armed_group"
+        ],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
       }
     ],
     "created_at": "2026-10-07T04:42:09.498071Z",
-    "updated_at": "2026-10-07T04:42:09.498071Z",
+    "updated_at": "2026-10-07T08:40:59.641108Z",
     "extraction_confidence": "low",
-    "victim_categories": [],
+    "victim_categories": [
+      "armed_group"
+    ],
     "civilian_targeting_flag": false,
     "casualty_claims": [],
     "fatalities_min": null,
@@ -80,17 +102,345 @@
         "at": "2026-10-07T04:42:09.498071Z",
         "type": "event_created",
         "source": "DW Africa (EN)"
+      },
+      {
+        "at": "2026-10-07T08:40:59.641108Z",
+        "type": "corroboration_or_geography_update",
+        "source": "AllAfrica (English Edition)"
+      }
+    ],
+    "corroboration": "limited corroboration",
+    "confidence": "moderate",
+    "independent_source_domains": [
+      "dw.com",
+      "allafrica.com"
+    ],
+    "independent_source_count": 2,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "strategic/severe event pattern"
+    ]
+  },
+  {
+    "id": "3b09245e2c7db6fb534ea860e9cbc5d6080a0399",
+    "event_date": "2026-10-07",
+    "event_date_confidence": "publication-proxy",
+    "event_date_source": "opengraph",
+    "published_at": "2026-10-07T07:15:41Z",
+    "published_date_source": "opengraph",
+    "published_time_precision": "datetime",
+    "collected_at": "2026-10-07T08:40:59.513704Z",
+    "actor": "Africa Corps/Wagner",
+    "perpetrator": null,
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [
+      "Africa Corps/Wagner"
+    ],
+    "parent_report_id": null,
+    "event_type": "clash",
+    "country": "Mali",
+    "city": "Kidal",
+    "lat": 18.4411,
+    "lng": 1.4078,
+    "locations": [
+      {
+        "name": "Kidal",
+        "country": "Mali",
+        "lat": 18.4411,
+        "lng": 1.4078,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "Mali Army Retakes Kidal With Russian Support",
+    "summary": "Mali's army, backed by Russian paramilitary forces, has retaken the northern town of Kidal after Tuareg separatists announced a \"strategic and controlled withdrawal\" from the area. The Azawad Liberation Front said its forces withdrew without direct fighting, attributing the move to what it described as the disproportionate use of air power by Russia's Africa Corps.",
+    "sources": [
+      "AllAfrica (English Edition)"
+    ],
+    "languages": [
+      "en"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://allafrica.com/view/group/main/main/id/00098364.html"
+    ],
+    "report_summaries": [
+      {
+        "url": "https://allafrica.com/view/group/main/main/id/00098364.html",
+        "source": "AllAfrica (English Edition)",
+        "title": "Mali Army Retakes Kidal With Russian Support",
+        "summary": "Mali's army, backed by Russian paramilitary forces, has retaken the northern town of Kidal after Tuareg separatists announced a \"strategic and controlled withdrawal\" from the area. The Azawad Liberation Front said its forces withdrew without direct fighting, attributing the move to what it described as the disproportionate use of air power by Russia's Africa Corps.",
+        "summary_basis": "source-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "civilian",
+          "armed_group"
+        ],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      }
+    ],
+    "created_at": "2026-10-07T08:40:59.513704Z",
+    "updated_at": "2026-10-07T08:40:59.513704Z",
+    "extraction_confidence": "low",
+    "victim_categories": [
+      "civilian",
+      "armed_group"
+    ],
+    "civilian_targeting_flag": false,
+    "casualty_claims": [],
+    "fatalities_min": null,
+    "fatalities_max": null,
+    "fatalities_best": null,
+    "injured_min": null,
+    "injured_max": null,
+    "abducted_min": null,
+    "abducted_max": null,
+    "casualty_disputed": false,
+    "revision_history": [
+      {
+        "at": "2026-10-07T08:40:59.513704Z",
+        "type": "event_created",
+        "source": "AllAfrica (English Edition)"
       }
     ],
     "corroboration": "single-source",
     "confidence": "low",
     "independent_source_domains": [
-      "dw.com"
+      "allafrica.com"
+    ],
+    "independent_source_count": 1,
+    "significance": "ROUTINE",
+    "significance_reasons": [
+      "limited currently observed significance"
+    ]
+  },
+  {
+    "id": "5867848d4b5da7327585c7e815e846df4621dd16",
+    "event_date": "2026-10-06",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "relative-weekday",
+    "published_at": "2026-10-07T05:10:00Z",
+    "published_date_source": "jsonld:datePublished",
+    "published_time_precision": "datetime",
+    "collected_at": "2026-10-07T08:40:55.513437Z",
+    "actor": "State",
+    "perpetrator": "State",
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [
+      "State"
+    ],
+    "parent_report_id": null,
+    "event_type": "security operation",
+    "country": "Mali",
+    "city": "Kidal",
+    "lat": 18.4411,
+    "lng": 1.4078,
+    "locations": [
+      {
+        "name": "Kidal",
+        "country": "Mali",
+        "lat": 18.4411,
+        "lng": 1.4078,
+        "confidence": "explicit-place"
+      },
+      {
+        "name": "Gao",
+        "country": "Mali",
+        "lat": 16.2717,
+        "lng": -0.0447,
+        "confidence": "explicit-place"
+      },
+      {
+        "name": "Anéfis",
+        "country": "Mali",
+        "lat": 18.0667,
+        "lng": 0.6167,
+        "confidence": "explicit-place"
+      },
+      {
+        "name": "Bamako",
+        "country": "Mali",
+        "lat": 12.6392,
+        "lng": -8.0029,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "The Malian army has regained possession of Kidal",
+    "summary": "After airstrikes in recent days in the Kidal region, an impressive land convoy from Gao, then Anefis, entered the Tuareg rebel stronghold on Tuesday afternoon, without encountering resistance. The Azawad Liberation Front (Fla), which had held the city since April 26, withdrew in front of the advance of the column .",
+    "sources": [
+      "Mondafrique"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://mondafrique.com/politique/larmee-malienne-a-repris-possession-de-kidal/"
+    ],
+    "report_summaries": [
+      {
+        "url": "https://mondafrique.com/politique/larmee-malienne-a-repris-possession-de-kidal/",
+        "source": "Mondafrique",
+        "title": "The Malian army has regained possession of Kidal",
+        "summary": "After airstrikes in recent days in the Kidal region, an impressive land convoy from Gao, then Anefis, entered the Tuareg rebel stronghold on Tuesday afternoon, without encountering resistance. The Azawad Liberation Front (Fla), which had held the city since April 26, withdrew in front of the advance of the column .",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "civilian",
+          "armed_group"
+        ],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      }
+    ],
+    "created_at": "2026-10-07T08:40:55.513437Z",
+    "updated_at": "2026-10-07T08:40:55.513437Z",
+    "extraction_confidence": "low",
+    "victim_categories": [
+      "civilian",
+      "armed_group"
+    ],
+    "civilian_targeting_flag": false,
+    "casualty_claims": [],
+    "fatalities_min": null,
+    "fatalities_max": null,
+    "fatalities_best": null,
+    "injured_min": null,
+    "injured_max": null,
+    "abducted_min": null,
+    "abducted_max": null,
+    "casualty_disputed": false,
+    "revision_history": [
+      {
+        "at": "2026-10-07T08:40:55.513437Z",
+        "type": "event_created",
+        "source": "Mondafrique"
+      }
+    ],
+    "corroboration": "single-source",
+    "confidence": "low",
+    "independent_source_domains": [
+      "mondafrique.com"
     ],
     "independent_source_count": 1,
     "significance": "MAJOR",
     "significance_reasons": [
-      "strategic/severe event pattern"
+      "multi-location activity"
+    ]
+  },
+  {
+    "id": "f65fe664980ce020294877cd4a96b105146f3c3d",
+    "event_date": "2026-10-06",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "relative-yesterday",
+    "published_at": "2026-10-07T04:58:28Z",
+    "published_date_source": "jsonld:datePublished",
+    "published_time_precision": "datetime",
+    "collected_at": "2026-10-07T08:40:55.021947Z",
+    "actor": "State",
+    "perpetrator": null,
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [
+      "State"
+    ],
+    "parent_report_id": null,
+    "event_type": "clash",
+    "country": "Mali",
+    "city": "Kidal",
+    "lat": 18.4411,
+    "lng": 1.4078,
+    "locations": [
+      {
+        "name": "Kidal",
+        "country": "Mali",
+        "lat": 18.4411,
+        "lng": 1.4078,
+        "confidence": "explicit-place"
+      },
+      {
+        "name": "Timbuktu",
+        "country": "Mali",
+        "lat": 16.7666,
+        "lng": -3.0026,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "Mali: in Kidal, \"the army recovered territory, it did not beat its opponent\"",
+    "summary": "In Mali, the junta of General Goïta managed yesterday Tuesday to recapture the city of Kidal, which it had lost six months ago to the Tuareg rebels of the Fla, the Azawad Liberation Front. The Malian Armed Forces and their Russian allies entered the large city in the far north of the country without a fight yesterday afternoon. Is this the end of the war?",
+    "sources": [
+      "RFI Afrique"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://www.rfi.fr/fr/podcasts/le-grand-invit%C3%A9-afrique/20261007-mali-%C3%A0-kidal-l-arm%C3%A9e-a-r%C3%A9cup%C3%A9r%C3%A9-un-territoire-elle-n-a-pas-battu-son-adversaire"
+    ],
+    "report_summaries": [
+      {
+        "url": "https://www.rfi.fr/fr/podcasts/le-grand-invit%C3%A9-afrique/20261007-mali-%C3%A0-kidal-l-arm%C3%A9e-a-r%C3%A9cup%C3%A9r%C3%A9-un-territoire-elle-n-a-pas-battu-son-adversaire",
+        "source": "RFI Afrique",
+        "title": "Mali: in Kidal, \"the army recovered territory, it did not beat its opponent\"",
+        "summary": "In Mali, the junta of General Goïta managed yesterday Tuesday to recapture the city of Kidal, which it had lost six months ago to the Tuareg rebels of the Fla, the Azawad Liberation Front. The Malian Armed Forces and their Russian allies entered the large city in the far north of the country without a fight yesterday afternoon. Is this the end of the war?",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      }
+    ],
+    "created_at": "2026-10-07T08:40:55.021947Z",
+    "updated_at": "2026-10-07T08:40:55.021947Z",
+    "extraction_confidence": "low",
+    "victim_categories": [],
+    "civilian_targeting_flag": false,
+    "casualty_claims": [],
+    "fatalities_min": null,
+    "fatalities_max": null,
+    "fatalities_best": null,
+    "injured_min": null,
+    "injured_max": null,
+    "abducted_min": null,
+    "abducted_max": null,
+    "casualty_disputed": false,
+    "revision_history": [
+      {
+        "at": "2026-10-07T08:40:55.021947Z",
+        "type": "event_created",
+        "source": "RFI Afrique"
+      }
+    ],
+    "corroboration": "single-source",
+    "confidence": "low",
+    "independent_source_domains": [
+      "rfi.fr"
+    ],
+    "independent_source_count": 1,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "multi-location activity"
     ]
   },
   {
