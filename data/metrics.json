@@ -1,11 +1,7 @@
 {
-  "generated_at": "2026-10-07T20:40:22.537618Z",
+  "generated_at": "2026-10-08T00:50:25.512758Z",
   "series": {
     "JNIM": [
-      {
-        "date": "2026-04-11",
-        "count": 0
-      },
       {
         "date": "2026-04-12",
         "count": 0
@@ -720,15 +716,15 @@
       },
       {
         "date": "2026-10-07",
+        "count": 0
+      },
+      {
+        "date": "2026-10-08",
         "count": 0
       }
     ],
     "IS Sahel": [
       {
-        "date": "2026-04-11",
-        "count": 0
-      },
-      {
         "date": "2026-04-12",
         "count": 0
       },
@@ -1443,13 +1439,13 @@
       {
         "date": "2026-10-07",
         "count": 0
+      },
+      {
+        "date": "2026-10-08",
+        "count": 0
       }
     ],
     "State": [
-      {
-        "date": "2026-04-11",
-        "count": 0
-      },
       {
         "date": "2026-04-12",
         "count": 0
@@ -2165,13 +2161,13 @@
       {
         "date": "2026-10-07",
         "count": 0
+      },
+      {
+        "date": "2026-10-08",
+        "count": 0
       }
     ],
     "Africa Corps/Wagner": [
-      {
-        "date": "2026-04-11",
-        "count": 0
-      },
       {
         "date": "2026-04-12",
         "count": 0
@@ -2887,6 +2883,10 @@
       {
         "date": "2026-10-07",
         "count": 2
+      },
+      {
+        "date": "2026-10-08",
+        "count": 0
       }
     ]
   },
@@ -2914,9 +2914,9 @@
   },
   "trends_30d": {
     "JNIM": {
-      "current": 11,
-      "previous": 2,
-      "change_pct": 450.0
+      "current": 10,
+      "previous": 3,
+      "change_pct": 233.3
     },
     "IS Sahel": {
       "current": 0,
@@ -2929,9 +2929,9 @@
       "change_pct": null
     },
     "Africa Corps/Wagner": {
-      "current": 16,
-      "previous": 2,
-      "change_pct": 700.0
+      "current": 15,
+      "previous": 3,
+      "change_pct": 400.0
     }
   },
   "method_note": "Counts are fused candidate events extracted from monitored open-source reporting. Africa Corps/Wagner is an involvement series and can overlap State activity when Russian personnel are coded as a supporting force. These are not independently verified incident counts; changes can reflect both real-world activity and reporting/collection effects."
