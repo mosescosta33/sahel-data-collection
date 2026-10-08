@@ -1,5 +1,103 @@
 [
   {
+    "id": "4bf0802fb82eed243728f34d94b88e3de343bcb4",
+    "event_date": "2026-10-08",
+    "event_date_confidence": "publication-proxy",
+    "event_date_source": "jsonld:datePublished",
+    "published_at": "2026-10-08T12:38:49Z",
+    "published_date_source": "jsonld:datePublished",
+    "published_time_precision": "datetime",
+    "collected_at": "2026-10-08T16:43:11.225993Z",
+    "actor": "State",
+    "perpetrator": "State",
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [
+      "State"
+    ],
+    "parent_report_id": null,
+    "event_type": "security operation",
+    "country": "Mali",
+    "city": "Kidal",
+    "lat": 18.4411,
+    "lng": 1.4078,
+    "locations": [
+      {
+        "name": "Kidal",
+        "country": "Mali",
+        "lat": 18.4411,
+        "lng": 1.4078,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "Operation Dougoukoloko: Malian forces target supply networks in Kidal",
+    "summary": "As part of Operation Dougoukoloko, the Malian Armed Forces (FAMa), supported by their allies, have implemented several strategies to reduce the operational capabilities of opposing armed groups During the preparatory operations for the assault on Kidal, an active reconnaissance made it possible to identify several rear bases, storage facilities and fuel depots used by the armed groups.",
+    "sources": [
+      "Malijet"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://malijet.com/actualte_dans_les_regions_du_mali/312232-operation-dougoukoloko-les-forces-maliennes-ciblent-les-re.html"
+    ],
+    "report_summaries": [
+      {
+        "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312232-operation-dougoukoloko-les-forces-maliennes-ciblent-les-re.html",
+        "source": "Malijet",
+        "title": "Operation Dougoukoloko: Malian forces target supply networks in Kidal",
+        "summary": "As part of Operation Dougoukoloko, the Malian Armed Forces (FAMa), supported by their allies, have implemented several strategies to reduce the operational capabilities of opposing armed groups During the preparatory operations for the assault on Kidal, an active reconnaissance made it possible to identify several rear bases, storage facilities and fuel depots used by the armed groups.",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "armed_group"
+        ],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      }
+    ],
+    "created_at": "2026-10-08T16:43:11.225993Z",
+    "updated_at": "2026-10-08T16:43:11.225993Z",
+    "extraction_confidence": "moderate",
+    "victim_categories": [
+      "armed_group"
+    ],
+    "civilian_targeting_flag": false,
+    "casualty_claims": [],
+    "fatalities_min": null,
+    "fatalities_max": null,
+    "fatalities_best": null,
+    "injured_min": null,
+    "injured_max": null,
+    "abducted_min": null,
+    "abducted_max": null,
+    "casualty_disputed": false,
+    "revision_history": [
+      {
+        "at": "2026-10-08T16:43:11.225993Z",
+        "type": "event_created",
+        "source": "Malijet"
+      }
+    ],
+    "corroboration": "single-source",
+    "confidence": "moderate",
+    "independent_source_domains": [
+      "malijet.com"
+    ],
+    "independent_source_count": 1,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "strategic/severe event pattern"
+    ]
+  },
+  {
     "id": "ed61d8adc324860f5b9162f6c1b7b9fa5e6c2ca4",
     "event_date": "2026-10-08",
     "event_date_confidence": "publication-proxy",
@@ -315,6 +413,133 @@
     "significance": "ROUTINE",
     "significance_reasons": [
       "limited currently observed significance"
+    ]
+  },
+  {
+    "id": "5931414bf71d940aae346d3fcc60b197201d0214",
+    "event_date": "2026-10-06",
+    "event_date_confidence": "publication-proxy",
+    "event_date_source": "jsonld:datePublished",
+    "published_at": "2026-10-06T19:05:33Z",
+    "published_date_source": "jsonld:datePublished",
+    "published_time_precision": "datetime",
+    "collected_at": "2026-10-06T20:40:03.967008Z",
+    "actor": "State",
+    "perpetrator": "State",
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [
+      "State",
+      "JNIM"
+    ],
+    "parent_report_id": null,
+    "event_type": "offensive/campaign",
+    "country": "Mali",
+    "city": "Kidal",
+    "lat": 18.4411,
+    "lng": 1.4078,
+    "locations": [
+      {
+        "name": "Kidal",
+        "country": "Mali",
+        "lat": 18.4411,
+        "lng": 1.4078,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "Kidal: The Fama launch the reconquest operation",
+    "summary": "As part of the large-scale offensive conducted in the Eastern Theater, as part of Operation DOUGOUKOLOKO, the Malian Armed Forces (FAMa) on Wednesday, October 7, 2026, consolidated their operational system in the city of KIDAL This operation comes following a campaign of intense airstrikes and several air-land operations carried out over the last few days, which have made it possible to neutralize several elements belonging to the FLA-JNIM terrorist coalition, while dealing significant blows, in depth, to their logistical capacities and their means of action.",
+    "sources": [
+      "Seneweb",
+      "Bamada"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 2,
+    "report_urls": [
+      "https://www.seneweb.com/fr/news/Afrique/kidal-les-fama-enclenchent-loperation-reconquete_n_506270.html",
+      "https://bamada.net/kidal-les-fama-consolident-leur-dispositif-operationnel-dans-la-ville"
+    ],
+    "report_summaries": [
+      {
+        "url": "https://www.seneweb.com/fr/news/Afrique/kidal-les-fama-enclenchent-loperation-reconquete_n_506270.html",
+        "source": "Seneweb",
+        "title": "Kidal: The Fama launch the reconquest operation",
+        "summary": "Kidal: Fama launches reconquest operation In Mali, the army announced in a recent press release that it was conducting large-scale air-land operations in the Kidal region, with its Russian partners . This offensive aims to \"track down and neutralize armed terrorist groups operating throughout the region, destroy their sanctuaries and supply networks and restore lasting security to the populations and the free movement of people and goods\" .",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "security_force",
+          "armed_group"
+        ],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      },
+      {
+        "url": "https://bamada.net/kidal-les-fama-consolident-leur-dispositif-operationnel-dans-la-ville",
+        "source": "Bamada",
+        "title": "KIDAL: The FAMa consolidate their operational system in the city",
+        "summary": "As part of the large-scale offensive conducted in the Eastern Theater, as part of Operation DOUGOUKOLOKO, the Malian Armed Forces (FAMa) on Wednesday, October 7, 2026, consolidated their operational system in the city of KIDAL This operation comes following a campaign of intense airstrikes and several air-land operations carried out over the last few days, which have made it possible to neutralize several elements belonging to the FLA-JNIM terrorist coalition, while dealing significant blows, in depth, to their logistical capacities and their means of action.",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "armed_group"
+        ],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      }
+    ],
+    "created_at": "2026-10-06T20:40:03.967008Z",
+    "updated_at": "2026-10-08T16:43:11.131462Z",
+    "extraction_confidence": "low",
+    "victim_categories": [
+      "security_force",
+      "armed_group"
+    ],
+    "civilian_targeting_flag": false,
+    "casualty_claims": [],
+    "fatalities_min": null,
+    "fatalities_max": null,
+    "fatalities_best": null,
+    "injured_min": null,
+    "injured_max": null,
+    "abducted_min": null,
+    "abducted_max": null,
+    "casualty_disputed": false,
+    "revision_history": [
+      {
+        "at": "2026-10-06T20:40:03.967008Z",
+        "type": "event_created",
+        "source": "Seneweb"
+      },
+      {
+        "at": "2026-10-08T16:43:11.131462Z",
+        "type": "corroboration_or_geography_update",
+        "source": "Bamada"
+      }
+    ],
+    "corroboration": "limited corroboration",
+    "confidence": "moderate",
+    "independent_source_domains": [
+      "seneweb.com",
+      "bamada.net"
+    ],
+    "independent_source_count": 2,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "strategic/severe event pattern"
     ]
   },
   {
@@ -1321,106 +1546,6 @@
       "strategic/severe event pattern",
       "multi-source corroboration",
       "multi-location activity"
-    ]
-  },
-  {
-    "id": "5931414bf71d940aae346d3fcc60b197201d0214",
-    "event_date": "2026-10-06",
-    "event_date_confidence": "publication-proxy",
-    "event_date_source": "jsonld:datePublished",
-    "published_at": "2026-10-06T19:05:33Z",
-    "published_date_source": "jsonld:datePublished",
-    "published_time_precision": "datetime",
-    "collected_at": "2026-10-06T20:40:03.967008Z",
-    "actor": "State",
-    "perpetrator": "State",
-    "target": null,
-    "claimant": null,
-    "supporting_force": null,
-    "mentioned_actors": [
-      "State"
-    ],
-    "parent_report_id": null,
-    "event_type": "offensive/campaign",
-    "country": "Mali",
-    "city": "Kidal",
-    "lat": 18.4411,
-    "lng": 1.4078,
-    "locations": [
-      {
-        "name": "Kidal",
-        "country": "Mali",
-        "lat": 18.4411,
-        "lng": 1.4078,
-        "confidence": "explicit-place"
-      }
-    ],
-    "title": "Kidal: The Fama launch the reconquest operation",
-    "summary": "Kidal: Fama launches reconquest operation In Mali, the army announced in a recent press release that it was conducting large-scale air-land operations in the Kidal region, with its Russian partners . This offensive aims to \"track down and neutralize armed terrorist groups operating throughout the region, destroy their sanctuaries and supply networks and restore lasting security to the populations and the free movement of people and goods\" .",
-    "sources": [
-      "Seneweb"
-    ],
-    "languages": [
-      "fr"
-    ],
-    "source_count": 1,
-    "report_urls": [
-      "https://www.seneweb.com/fr/news/Afrique/kidal-les-fama-enclenchent-loperation-reconquete_n_506270.html"
-    ],
-    "report_summaries": [
-      {
-        "url": "https://www.seneweb.com/fr/news/Afrique/kidal-les-fama-enclenchent-loperation-reconquete_n_506270.html",
-        "source": "Seneweb",
-        "title": "Kidal: The Fama launch the reconquest operation",
-        "summary": "Kidal: Fama launches reconquest operation In Mali, the army announced in a recent press release that it was conducting large-scale air-land operations in the Kidal region, with its Russian partners . This offensive aims to \"track down and neutralize armed terrorist groups operating throughout the region, destroy their sanctuaries and supply networks and restore lasting security to the populations and the free movement of people and goods\" .",
-        "summary_basis": "translated-excerpt",
-        "fatalities_min": null,
-        "fatalities_max": null,
-        "injured_min": null,
-        "injured_max": null,
-        "abducted_min": null,
-        "abducted_max": null,
-        "victim_categories": [
-          "security_force",
-          "armed_group"
-        ],
-        "civilian_targeting_flag": false,
-        "casualty_claims": []
-      }
-    ],
-    "created_at": "2026-10-06T20:40:03.967008Z",
-    "updated_at": "2026-10-06T20:40:03.967008Z",
-    "extraction_confidence": "low",
-    "victim_categories": [
-      "security_force",
-      "armed_group"
-    ],
-    "civilian_targeting_flag": false,
-    "casualty_claims": [],
-    "fatalities_min": null,
-    "fatalities_max": null,
-    "fatalities_best": null,
-    "injured_min": null,
-    "injured_max": null,
-    "abducted_min": null,
-    "abducted_max": null,
-    "casualty_disputed": false,
-    "revision_history": [
-      {
-        "at": "2026-10-06T20:40:03.967008Z",
-        "type": "event_created",
-        "source": "Seneweb"
-      }
-    ],
-    "corroboration": "single-source",
-    "confidence": "low",
-    "independent_source_domains": [
-      "seneweb.com"
-    ],
-    "independent_source_count": 1,
-    "significance": "MAJOR",
-    "significance_reasons": [
-      "strategic/severe event pattern"
     ]
   },
   {
