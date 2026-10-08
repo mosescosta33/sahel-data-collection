@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T04:41:47.547464Z",
+  "generated_at": "2026-10-08T08:42:07.013989Z",
   "window_days": 30,
   "cutoff": "2026-09-08",
   "reports": 334,
@@ -30,9 +30,9 @@
     "raid": 1
   },
   "by_language": {
-    "fr": 248,
-    "en": 67,
-    "ar": 19
+    "fr": 250,
+    "en": 66,
+    "ar": 18
   },
   "by_confidence": {
     "low": 29,
@@ -48,7 +48,7 @@
     {
       "source_code": "SRC-0006",
       "source": "Malijet",
-      "count": 30
+      "count": 32
     },
     {
       "source_code": "SRC-0075",
@@ -71,13 +71,13 @@
       "count": 11
     },
     {
-      "source_code": "SRC-0064",
-      "source": "Africa Defense Forum (ADF Magazine)",
-      "count": 11
-    },
-    {
       "source_code": "SRC-0004",
       "source": "Studio Tamani",
+      "count": 10
+    },
+    {
+      "source_code": "SRC-0064",
+      "source": "Africa Defense Forum (ADF Magazine)",
       "count": 10
     },
     {
@@ -299,7 +299,7 @@
     },
     {
       "date": "2026-10-08",
-      "reports": 3,
+      "reports": 5,
       "events": 0
     }
   ],
@@ -3812,6 +3812,42 @@
   ],
   "latest_reports": [
     {
+      "published_at": "2026-10-08T08:25:17Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-08T08:41:18.492176Z",
+      "discovered_at": "2026-10-08T08:41:18.492176Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0006",
+      "source": "Malijet",
+      "language": "fr",
+      "actor": null,
+      "country": "Mali",
+      "city": "Bamako",
+      "event_type": "kidnapping",
+      "candidate_event": false,
+      "title": "Me Mountaga Tall: we don't talk about it anymore?",
+      "url": "https://malijet.com/a_la_une_du_mali/312224-me-mountaga-tall-on-nen-parle-plus.html"
+    },
+    {
+      "published_at": "2026-10-08T08:16:13Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-08T08:41:10.372178Z",
+      "discovered_at": "2026-10-08T08:41:10.372178Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0006",
+      "source": "Malijet",
+      "language": "fr",
+      "actor": null,
+      "country": "Mali",
+      "city": "Bamako",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Military justice: Bamako Court sentences military and civilians for arms trafficking",
+      "url": "https://malijet.com/la_societe_malienne_aujourdhui/312222-justice-militaire-le-tribunal-de-bamako-condamne-des-milit.html"
+    },
+    {
       "published_at": "2026-10-08T04:08:27Z",
       "published_date_source": "opengraph",
       "published_time_precision": "datetime",
@@ -4494,42 +4530,6 @@
       "candidate_event": false,
       "title": "Aguelhoc: nearly 8,000 displaced people and host families benefit from WFP food stamps",
       "url": "https://bamada.net/aguelhoc-pres-de-8-000-deplaces-et-familles-daccueil-beneficient-de-coupons-alimentaires-du-pam"
-    },
-    {
-      "published_at": "2026-10-06T20:31:47Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-07T00:49:28.023699Z",
-      "discovered_at": "2026-10-07T00:49:28.023699Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0008",
-      "source": "Bamada",
-      "language": "fr",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Kidal",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Operation Dougoukoloko: the FAMa intensify their operations in Kidal, Abéïbara, Tin-Assalak and In-Tassik",
-      "url": "https://bamada.net/operation-dougoukoloko-les-fama-intensifient-leurs-operations-a-kidal-abeibara-tin-assalak-et-in-tassik"
-    },
-    {
-      "published_at": "2026-10-06T20:29:20Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-07T00:49:35.272122Z",
-      "discovered_at": "2026-10-07T00:49:35.272122Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0029",
-      "source": "Al Jazeera Arabic",
-      "language": "ar",
-      "actor": "JNIM",
-      "country": "Mali",
-      "city": "Kidal",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Mali.. The army announces the entry of the city of Kidal after the withdrawal of the \"Front for the Liberation of Azawad\"",
-      "url": "https://www.aljazeera.net/news/2026/10/6/%d9%85%d8%a7%d9%84%d9%8a-%d8%a7%d9%84%d8%ac%d9%8a%d8%b4-%d9%8a%d8%b9%d9%84%d9%86-%d8%af%d8%ae%d9%88%d9%84-%d9%85%d8%af%d9%8a%d9%86%d8%a9-%d9%83%d9%8a%d8%af%d8%a7%d9%84-%d8%a8%d8%b9%d8%af?traffic_source=rss"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
