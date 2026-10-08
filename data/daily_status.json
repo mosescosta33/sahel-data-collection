@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "site_patch_version": "3.3.5",
   "reporting_date": "2026-10-08",
-  "generated_at": "2026-10-08T16:44:30.275303Z",
+  "generated_at": "2026-10-08T20:41:40.832287Z",
   "coverage": [
     "Mali",
     "Burkina Faso",
@@ -14,11 +14,11 @@
     "events_occurring_on_date": 1,
     "records_held_for_review": 1,
     "multi_source_events": 0,
-    "reports_collected_on_date": 22,
-    "reports_published_on_date": 17,
+    "reports_collected_on_date": 23,
+    "reports_published_on_date": 18,
     "newly_discovered_older_events": 0,
     "events_awaiting_date_verification": 5,
-    "distinct_sources_collected": 13
+    "distinct_sources_collected": 14
   },
   "executive_assessment": "Reporting dated 2026-10-08 gives the desk 1 incident account to examine in Mali. None has support from a second independent source. The record is provisional; it does not establish the full extent of violence that day.",
   "briefing_sections": [
@@ -32,7 +32,7 @@
     },
     {
       "heading": "Burkina Faso",
-      "text": "No retained Burkina Faso report is recorded for this collection date. 0 fused candidate events currently carry this event date."
+      "text": "1 retained report were collected for Burkina Faso. 0 fused candidate events currently carry this reporting date. Road safety: 700 vehicles impounded in one morning in Ouagadougou: This Thursday, October 8, 2026, the Ouagadougou municipal police conducted a vast control operation on the roads of the capital. Between 6:00 am and 10:00 am, this descent focused on compliance with the mandatory helmet…"
     },
     {
       "heading": "Niger",
@@ -95,7 +95,7 @@
   ],
   "what_changed_since_yesterday": [
     "State: +1 same-day fused event(s) versus 2026-10-07 (0 → 1).",
-    "Collection volume: -15 retained report(s) versus 2026-10-07 (37 → 22)."
+    "Collection volume: -14 retained report(s) versus 2026-10-07 (37 → 23)."
   ],
   "emerging_patterns": [
     "JNIM 7-day activity is higher than the preceding 7-day window (0 → 2).",
@@ -118,7 +118,7 @@
   },
   "country_reporting_counts": {
     "Mali": 18,
-    "Burkina Faso": 0,
+    "Burkina Faso": 1,
     "Niger": 4
   },
   "actor_profiles": {
@@ -176,7 +176,7 @@
     },
     "Burkina Faso": {
       "events": 0,
-      "reports_collected": 0,
+      "reports_collected": 1,
       "actor_counts": {
         "JNIM": 0,
         "IS Sahel": 0,
@@ -362,7 +362,17 @@
         "event_date": "2026-10-08"
       }
     ],
-    "Burkina Faso": [],
+    "Burkina Faso": [
+      {
+        "id": "cb734f2b81c0c316cb30e93825605a0250035afc",
+        "source": "Burkina24",
+        "title": "Road safety: 700 vehicles impounded in one morning in Ouagadougou",
+        "summary": "This Thursday, October 8, 2026, the Ouagadougou municipal police conducted a vast control operation on the roads of the capital. Between 6:00 am and 10:00 am, this descent focused on compliance with the mandatory helmet resulted in the impoundment of 700 two-wheeled vehicles and three tricycles . After a two-year nationwide awareness-raising period, municipal and security authorities have resolutely shifted to a phase of repression.",
+        "url": "https://burkina24.com/2026/10/08/securite-routiere-700-engins-mis-en-fourriere-en-une-matinee-a-ouagadougou/",
+        "candidate_event": false,
+        "event_date": "2026-10-08"
+      }
+    ],
     "Niger": [
       {
         "id": "3fa851c265e71ed8b859c9c591fcd4f52576bfa2",
@@ -404,29 +414,29 @@
   },
   "collection_notes": {
     "sources_total": 184,
-    "sources_success": 154,
-    "sources_failed": 30,
-    "sources_degraded": 16,
-    "documents_discovered": 11559,
-    "documents_retained": 8,
+    "sources_success": 155,
+    "sources_failed": 29,
+    "sources_degraded": 19,
+    "documents_discovered": 11435,
+    "documents_retained": 1,
     "report_target": 100,
-    "translations_attempted": 5,
-    "translations_success": 5,
+    "translations_attempted": 1,
+    "translations_success": 1,
     "translation_failures": 0,
     "collection_confidence": "LOW",
     "collection_confidence_reasons": [
-      "154/184 source paths reached",
-      "30 failed source paths",
-      "16 degraded / 30 failed of 184 configured sources"
+      "155/184 source paths reached",
+      "29 failed source paths",
+      "19 degraded / 29 failed of 184 configured sources"
     ],
-    "reports_collected": 22,
-    "reports_published": 17,
-    "distinct_sources_collected": 13,
+    "reports_collected": 23,
+    "reports_published": 18,
+    "distinct_sources_collected": 14,
     "language_counts": {
-      "fr": 15,
+      "fr": 16,
       "en": 6,
       "ar": 1
     }
   },
-  "sultana_daily_text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nDaily bottom line for 2026-10-08: Reporting dated 2026-10-08 gives the desk 1 incident account to examine in Mali. None has support from a second independent source. The record is provisional; it does not establish the full extent of violence that day.\n\nMali: 18 retained reports. 1. When the home becomes a place of death: the series of domestic violence in Mali. The death of Racky Diaby, a young Malian presented in several recent publications as having been killed by her husband by firearms, brings to the fore a reality that is not new in Mali. Over the years, several women have lost their lives in their own homes, victims of violence committed by their spouses . Behind every case, there is a woman, a family and the same question: what to do when violence settles in a couple before it becomes irreversible? 2. Video said to show Mali army in Kidal after retaking city. Recently published video is said to show Mali’s armed forces in Kidal after retaking the strategic northern city from Tuareg separatists. It would be a major symbolic gain for Mali’s military government, which lost the city to separatists six months ago. 3. What Russia’s Africa Corps Is Actually Doing in Mali. - African Arguments, 7 October 2026 On September 14, 2026, more than 900 fuel tankers entered Bamako under military escort, the Malian government announced.\n\nBurkina Faso: 0 retained reports. No retained country-specific reports were collected for this desk date.\n\nNiger: 4 retained reports. 1. No ransom paid for release of abducted corps members, says Imo CP. The Imo State Commissioner of Police, Audu Bosso, has said he is not aware of any ransom payment for the release of 20 prospective National Youth Service Corps members and a civilian abducted along the Owerri-Onitsha Road. The victims, who were abducted on October 1, 2026, were rescued from the Amokohia Uwe Forest in the Owerri West Local Government Area of the state after a coordinated operation by security agencies. 2. PANDEF mourns victims of Ondo Air Force crash, seeks probe. By Henry Umoru ABUJA — The Pan Niger Delta Forum (PANDEF), the apex socio-political body of the South-South geopolitical zone, has mourned the victims of the Nigerian Air Force (NAF) aircraft crash in the Igbokoda area of Ilaje Local Government Area of Ondo State. PANDEF also called for a thorough and comprehensive investigation to determine the circumstances that may have contributed to the crash and similar aviation tragedies. 3. The Nigerien Armed Forces sensitized on the general mobilization. Niamey, 08 Oct(ANP)- The Chief of Staff of the Armed Forces, Brigadier General Mamane Sani KIAOU chaired, on Wednesday, October 07, 2026 at the Palais des Congrès in Niamey, an exchange meeting with the Commission responsible for the organization, preparation and monitoring of the implementation of the General Mobilization (COMOG) .\n\nActor picture: JNIM 0, IS Sahel 0, State 1.\n\nWhat changed: State: +1 same-day fused event(s) versus 2026-10-07 (0 → 1). Collection volume: -15 retained report(s) versus 2026-10-07 (37 → 22).\n\nIntelligence gaps: 1 same-day event(s) lack independent multi-source corroboration. 5 newly collected operational/candidate report(s) have unresolved or publication-proxy event dates. Collection confidence is low, so absence of reporting should not be interpreted as absence of activity.\n\nCollection confidence: LOW. 154/184 source paths reached 30 failed source paths 16 degraded / 30 failed of 184 configured sources\n\nAll retained source reports, including reports not promoted to the map, remain individually summarized in the intelligence feed and source records."
+  "sultana_daily_text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nDaily bottom line for 2026-10-08: Reporting dated 2026-10-08 gives the desk 1 incident account to examine in Mali. None has support from a second independent source. The record is provisional; it does not establish the full extent of violence that day.\n\nMali: 18 retained reports. 1. When the home becomes a place of death: the series of domestic violence in Mali. The death of Racky Diaby, a young Malian presented in several recent publications as having been killed by her husband by firearms, brings to the fore a reality that is not new in Mali. Over the years, several women have lost their lives in their own homes, victims of violence committed by their spouses . Behind every case, there is a woman, a family and the same question: what to do when violence settles in a couple before it becomes irreversible? 2. Video said to show Mali army in Kidal after retaking city. Recently published video is said to show Mali’s armed forces in Kidal after retaking the strategic northern city from Tuareg separatists. It would be a major symbolic gain for Mali’s military government, which lost the city to separatists six months ago. 3. What Russia’s Africa Corps Is Actually Doing in Mali. - African Arguments, 7 October 2026 On September 14, 2026, more than 900 fuel tankers entered Bamako under military escort, the Malian government announced.\n\nBurkina Faso: 1 retained report. 1. Road safety: 700 vehicles impounded in one morning in Ouagadougou. This Thursday, October 8, 2026, the Ouagadougou municipal police conducted a vast control operation on the roads of the capital. Between 6:00 am and 10:00 am, this descent focused on compliance with the mandatory helmet resulted in the impoundment of 700 two-wheeled vehicles and three tricycles . After a two-year nationwide awareness-raising period, municipal and security authorities have resolutely shifted to a phase of repression.\n\nNiger: 4 retained reports. 1. No ransom paid for release of abducted corps members, says Imo CP. The Imo State Commissioner of Police, Audu Bosso, has said he is not aware of any ransom payment for the release of 20 prospective National Youth Service Corps members and a civilian abducted along the Owerri-Onitsha Road. The victims, who were abducted on October 1, 2026, were rescued from the Amokohia Uwe Forest in the Owerri West Local Government Area of the state after a coordinated operation by security agencies. 2. PANDEF mourns victims of Ondo Air Force crash, seeks probe. By Henry Umoru ABUJA — The Pan Niger Delta Forum (PANDEF), the apex socio-political body of the South-South geopolitical zone, has mourned the victims of the Nigerian Air Force (NAF) aircraft crash in the Igbokoda area of Ilaje Local Government Area of Ondo State. PANDEF also called for a thorough and comprehensive investigation to determine the circumstances that may have contributed to the crash and similar aviation tragedies. 3. The Nigerien Armed Forces sensitized on the general mobilization. Niamey, 08 Oct(ANP)- The Chief of Staff of the Armed Forces, Brigadier General Mamane Sani KIAOU chaired, on Wednesday, October 07, 2026 at the Palais des Congrès in Niamey, an exchange meeting with the Commission responsible for the organization, preparation and monitoring of the implementation of the General Mobilization (COMOG) .\n\nActor picture: JNIM 0, IS Sahel 0, State 1.\n\nWhat changed: State: +1 same-day fused event(s) versus 2026-10-07 (0 → 1). Collection volume: -14 retained report(s) versus 2026-10-07 (37 → 23).\n\nIntelligence gaps: 1 same-day event(s) lack independent multi-source corroboration. 5 newly collected operational/candidate report(s) have unresolved or publication-proxy event dates. Collection confidence is low, so absence of reporting should not be interpreted as absence of activity.\n\nCollection confidence: LOW. 155/184 source paths reached 29 failed source paths 19 degraded / 29 failed of 184 configured sources\n\nAll retained source reports, including reports not promoted to the map, remain individually summarized in the intelligence feed and source records."
 }
