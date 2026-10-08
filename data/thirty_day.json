@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-08T00:50:25.512767Z",
+  "generated_at": "2026-10-08T04:41:47.547464Z",
   "window_days": 30,
   "cutoff": "2026-09-08",
-  "reports": 331,
+  "reports": 334,
   "incident_reports": 76,
   "candidate_events": 61,
   "corroborated_events": 11,
@@ -30,8 +30,8 @@
     "raid": 1
   },
   "by_language": {
-    "fr": 246,
-    "en": 66,
+    "fr": 248,
+    "en": 67,
     "ar": 19
   },
   "by_confidence": {
@@ -43,7 +43,7 @@
     {
       "source_code": "SRC-0008",
       "source": "Bamada",
-      "count": 38
+      "count": 40
     },
     {
       "source_code": "SRC-0006",
@@ -86,6 +86,11 @@
       "count": 10
     },
     {
+      "source_code": "SRC-0121",
+      "source": "AllAfrica (English Edition)",
+      "count": 10
+    },
+    {
       "source_code": "SRC-0003",
       "source": "Jeune Afrique",
       "count": 9
@@ -93,11 +98,6 @@
     {
       "source_code": "SRC-0013",
       "source": "Wakat Sera",
-      "count": 9
-    },
-    {
-      "source_code": "SRC-0121",
-      "source": "AllAfrica (English Edition)",
       "count": 9
     }
   ],
@@ -299,7 +299,7 @@
     },
     {
       "date": "2026-10-08",
-      "reports": 0,
+      "reports": 3,
       "events": 0
     }
   ],
@@ -3812,6 +3812,60 @@
   ],
   "latest_reports": [
     {
+      "published_at": "2026-10-08T04:08:27Z",
+      "published_date_source": "opengraph",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-08T04:40:59.339092Z",
+      "discovered_at": "2026-10-08T04:40:59.339092Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0121",
+      "source": "AllAfrica (English Edition)",
+      "language": "en",
+      "actor": "Africa Corps/Wagner",
+      "country": "Mali",
+      "city": "Bamako",
+      "event_type": "territorial seizure/blockade",
+      "candidate_event": false,
+      "title": "Mali: 900 Tankers Under Escort - What Africa Corps Actually Does in Mali",
+      "url": "https://allafrica.com/stories/202610080013.html"
+    },
+    {
+      "published_at": "2026-10-08T02:00:51Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-08T04:40:44.045313Z",
+      "discovered_at": "2026-10-08T04:40:44.045313Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0008",
+      "source": "Bamada",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Kidal",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Kidal: Colonel Attaher Maiga and his men at the heart of the FAMa's takeover and securing of the city",
+      "url": "https://bamada.net/kidal-le-colonel-attaher-maiga-et-ses-hommes-au-coeur-de-la-reprise-et-de-la-securisation-de-la-ville-par-les-fama"
+    },
+    {
+      "published_at": "2026-10-08T00:07:27Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-08T04:40:44.186151Z",
+      "discovered_at": "2026-10-08T04:40:44.186151Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0008",
+      "source": "Bamada",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Kidal",
+      "event_type": "offensive/campaign",
+      "candidate_event": false,
+      "title": "Operation Dougoukoloko: the FAMa intensify their air-land operations in the Talhandak, Kidal and Tessalit sectors",
+      "url": "https://bamada.net/operation-dougoukoloko-les-fama-intensifient-leurs-operations-aeroterrestres-dans-les-secteurs-de-talhandak-kidal-et-tessalit"
+    },
+    {
       "published_at": "2026-10-07T23:00:00Z",
       "published_date_source": "jsonld:datePublished",
       "published_time_precision": "datetime",
@@ -4476,60 +4530,6 @@
       "candidate_event": false,
       "title": "Mali.. The army announces the entry of the city of Kidal after the withdrawal of the \"Front for the Liberation of Azawad\"",
       "url": "https://www.aljazeera.net/news/2026/10/6/%d9%85%d8%a7%d9%84%d9%8a-%d8%a7%d9%84%d8%ac%d9%8a%d8%b4-%d9%8a%d8%b9%d9%84%d9%86-%d8%af%d8%ae%d9%88%d9%84-%d9%85%d8%af%d9%8a%d9%86%d8%a9-%d9%83%d9%8a%d8%af%d8%a7%d9%84-%d8%a8%d8%b9%d8%af?traffic_source=rss"
-    },
-    {
-      "published_at": "2026-10-06T19:05:33Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-06T20:40:03.967008Z",
-      "discovered_at": "2026-10-06T20:40:03.967008Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0085",
-      "source": "Seneweb",
-      "language": "fr",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Kidal",
-      "event_type": "offensive/campaign",
-      "candidate_event": true,
-      "title": "Kidal: The Fama launch the reconquest operation",
-      "url": "https://www.seneweb.com/fr/news/Afrique/kidal-les-fama-enclenchent-loperation-reconquete_n_506270.html"
-    },
-    {
-      "published_at": "2026-10-06T18:50:38Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-06T20:40:08.943715Z",
-      "discovered_at": "2026-10-06T20:40:08.943715Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0064",
-      "source": "Africa Defense Forum (ADF Magazine)",
-      "language": "en",
-      "actor": "JNIM",
-      "country": "Mali",
-      "city": "Timbuktu",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Generative AI Alters the Battlefield in Mali",
-      "url": "https://adf-magazine.com/2026/10/generative-ai-alters-the-battlefield-in-mali/"
-    },
-    {
-      "published_at": "2026-10-06T18:45:58Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-06T20:40:05.086590Z",
-      "discovered_at": "2026-10-06T20:40:05.086590Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0013",
-      "source": "Wakat Sera",
-      "language": "fr",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Kidal",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Mali: Armed forces retake Kidal",
-      "url": "https://www.wakatsera.com/mali-les-forces-armees-reprennent-kidal/"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
