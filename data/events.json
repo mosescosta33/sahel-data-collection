@@ -1,5 +1,106 @@
 [
   {
+    "id": "22c8632729f7c297af51c50d805cad2de5a491b9",
+    "event_date": "2026-10-09",
+    "event_date_confidence": "publication-proxy",
+    "event_date_source": "jsonld:datePublished",
+    "published_at": "2026-10-09T16:57:25Z",
+    "published_date_source": "jsonld:datePublished",
+    "published_time_precision": "datetime",
+    "collected_at": "2026-10-09T20:37:29.790359Z",
+    "actor": "Africa Corps/Wagner",
+    "perpetrator": "Africa Corps/Wagner",
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [
+      "Africa Corps/Wagner",
+      "JNIM"
+    ],
+    "parent_report_id": null,
+    "event_type": "security operation",
+    "country": "Mali",
+    "city": "Kidal",
+    "lat": 18.4411,
+    "lng": 1.4078,
+    "locations": [
+      {
+        "name": "Kidal",
+        "country": "Mali",
+        "lat": 18.4411,
+        "lng": 1.4078,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "Mali: In Kidal, soldiers outnumber locals",
+    "summary": "Mali: in Kidal, the soldiers outnumber the inhabitants Three days after their return to Kidal, the Malian soldiers and their Russian partners of the Africa Corps secure the city and its surroundings. The army conducts daily airstrikes in the area but has not yet continued its ground advance The separatists of the Azawad Liberation Front (Fla) and the jihadists of the Support Group for Islam and Muslims (Jnim), linked to al-Qaeda, were forced to withdraw before the arrival of the army in Kidal.",
+    "sources": [
+      "RFI Afrique"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://www.rfi.fr/fr/afrique/20261009-mali-%C3%A0-kidal-les-soldats-sont-plus-nombreux-que-les-habitants"
+    ],
+    "report_summaries": [
+      {
+        "url": "https://www.rfi.fr/fr/afrique/20261009-mali-%C3%A0-kidal-les-soldats-sont-plus-nombreux-que-les-habitants",
+        "source": "RFI Afrique",
+        "title": "Mali: In Kidal, soldiers outnumber locals",
+        "summary": "Mali: in Kidal, the soldiers outnumber the inhabitants Three days after their return to Kidal, the Malian soldiers and their Russian partners of the Africa Corps secure the city and its surroundings. The army conducts daily airstrikes in the area but has not yet continued its ground advance The separatists of the Azawad Liberation Front (Fla) and the jihadists of the Support Group for Islam and Muslims (Jnim), linked to al-Qaeda, were forced to withdraw before the arrival of the army in Kidal.",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "security_force",
+          "armed_group"
+        ],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      }
+    ],
+    "created_at": "2026-10-09T20:37:29.790359Z",
+    "updated_at": "2026-10-09T20:37:29.790359Z",
+    "extraction_confidence": "low",
+    "victim_categories": [
+      "security_force",
+      "armed_group"
+    ],
+    "civilian_targeting_flag": false,
+    "casualty_claims": [],
+    "fatalities_min": null,
+    "fatalities_max": null,
+    "fatalities_best": null,
+    "injured_min": null,
+    "injured_max": null,
+    "abducted_min": null,
+    "abducted_max": null,
+    "casualty_disputed": false,
+    "revision_history": [
+      {
+        "at": "2026-10-09T20:37:29.790359Z",
+        "type": "event_created",
+        "source": "RFI Afrique"
+      }
+    ],
+    "corroboration": "single-source",
+    "confidence": "low",
+    "independent_source_domains": [
+      "rfi.fr"
+    ],
+    "independent_source_count": 1,
+    "significance": "ROUTINE",
+    "significance_reasons": [
+      "limited currently observed significance"
+    ]
+  },
+  {
     "id": "c40453341e0c08025e2ea593d080a3be9ead2cab",
     "event_date": "2026-10-09",
     "event_date_confidence": "explicit-text",

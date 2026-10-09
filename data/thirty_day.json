@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-10-09T16:40:34.808539Z",
+  "generated_at": "2026-10-09T20:38:18.676875Z",
   "window_days": 30,
   "cutoff": "2026-09-09",
-  "reports": 369,
-  "incident_reports": 84,
-  "candidate_events": 66,
+  "reports": 372,
+  "incident_reports": 85,
+  "candidate_events": 67,
   "corroborated_events": 13,
-  "mapped_events": 60,
-  "mapped_locations": 127,
+  "mapped_events": 61,
+  "mapped_locations": 128,
   "distinct_sources": 75,
   "by_actor": {
     "State": 43,
     "JNIM": 11,
     "Other": 8,
-    "Africa Corps/Wagner": 4
+    "Africa Corps/Wagner": 5
   },
   "by_country": {
-    "Mali": 61,
+    "Mali": 62,
     "Niger": 3,
     "Burkina Faso": 2
   },
   "by_event_type": {
-    "security operation": 30,
+    "security operation": 31,
     "offensive/campaign": 13,
     "clash": 8,
     "attack": 7,
@@ -30,13 +30,13 @@
     "raid": 1
   },
   "by_language": {
-    "fr": 277,
-    "en": 73,
+    "fr": 279,
+    "en": 74,
     "ar": 19
   },
   "by_confidence": {
     "moderate": 34,
-    "low": 29,
+    "low": 30,
     "moderate-high": 3
   },
   "top_sources": [
@@ -58,7 +58,7 @@
     {
       "source_code": "SRC-0001",
       "source": "RFI Afrique",
-      "count": 14
+      "count": 15
     },
     {
       "source_code": "SRC-0015",
@@ -104,7 +104,7 @@
   "top_locations": [
     {
       "location": "Kidal",
-      "count": 30
+      "count": 31
     },
     {
       "location": "Bamako",
@@ -299,11 +299,112 @@
     },
     {
       "date": "2026-10-09",
-      "reports": 16,
-      "events": 1
+      "reports": 19,
+      "events": 2
     }
   ],
   "latest_events": [
+    {
+      "id": "22c8632729f7c297af51c50d805cad2de5a491b9",
+      "event_date": "2026-10-09",
+      "event_date_confidence": "publication-proxy",
+      "event_date_source": "jsonld:datePublished",
+      "published_at": "2026-10-09T16:57:25Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-09T20:37:29.790359Z",
+      "actor": "Africa Corps/Wagner",
+      "perpetrator": "Africa Corps/Wagner",
+      "target": null,
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [
+        "Africa Corps/Wagner",
+        "JNIM"
+      ],
+      "parent_report_id": null,
+      "event_type": "security operation",
+      "country": "Mali",
+      "city": "Kidal",
+      "lat": 18.4411,
+      "lng": 1.4078,
+      "locations": [
+        {
+          "name": "Kidal",
+          "country": "Mali",
+          "lat": 18.4411,
+          "lng": 1.4078,
+          "confidence": "explicit-place"
+        }
+      ],
+      "title": "Mali: In Kidal, soldiers outnumber locals",
+      "summary": "Mali: in Kidal, the soldiers outnumber the inhabitants Three days after their return to Kidal, the Malian soldiers and their Russian partners of the Africa Corps secure the city and its surroundings. The army conducts daily airstrikes in the area but has not yet continued its ground advance The separatists of the Azawad Liberation Front (Fla) and the jihadists of the Support Group for Islam and Muslims (Jnim), linked to al-Qaeda, were forced to withdraw before the arrival of the army in Kidal.",
+      "sources": [
+        "RFI Afrique"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://www.rfi.fr/fr/afrique/20261009-mali-%C3%A0-kidal-les-soldats-sont-plus-nombreux-que-les-habitants"
+      ],
+      "report_summaries": [
+        {
+          "url": "https://www.rfi.fr/fr/afrique/20261009-mali-%C3%A0-kidal-les-soldats-sont-plus-nombreux-que-les-habitants",
+          "source": "RFI Afrique",
+          "title": "Mali: In Kidal, soldiers outnumber locals",
+          "summary": "Mali: in Kidal, the soldiers outnumber the inhabitants Three days after their return to Kidal, the Malian soldiers and their Russian partners of the Africa Corps secure the city and its surroundings. The army conducts daily airstrikes in the area but has not yet continued its ground advance The separatists of the Azawad Liberation Front (Fla) and the jihadists of the Support Group for Islam and Muslims (Jnim), linked to al-Qaeda, were forced to withdraw before the arrival of the army in Kidal.",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "security_force",
+            "armed_group"
+          ],
+          "civilian_targeting_flag": false,
+          "casualty_claims": []
+        }
+      ],
+      "created_at": "2026-10-09T20:37:29.790359Z",
+      "updated_at": "2026-10-09T20:37:29.790359Z",
+      "extraction_confidence": "low",
+      "victim_categories": [
+        "security_force",
+        "armed_group"
+      ],
+      "civilian_targeting_flag": false,
+      "casualty_claims": [],
+      "fatalities_min": null,
+      "fatalities_max": null,
+      "fatalities_best": null,
+      "injured_min": null,
+      "injured_max": null,
+      "abducted_min": null,
+      "abducted_max": null,
+      "casualty_disputed": false,
+      "revision_history": [
+        {
+          "at": "2026-10-09T20:37:29.790359Z",
+          "type": "event_created",
+          "source": "RFI Afrique"
+        }
+      ],
+      "corroboration": "single-source",
+      "confidence": "low",
+      "independent_source_domains": [
+        "rfi.fr"
+      ],
+      "independent_source_count": 1,
+      "significance": "ROUTINE",
+      "significance_reasons": [
+        "limited currently observed significance"
+      ]
+    },
     {
       "id": "c40453341e0c08025e2ea593d080a3be9ead2cab",
       "event_date": "2026-10-09",
@@ -3737,148 +3838,63 @@
         "strategic/severe event pattern",
         "multi-location activity"
       ]
-    },
-    {
-      "id": "01fe8f3c880fa8817a9b99ab1c330a5f64163f36",
-      "event_date": "2026-10-03",
-      "event_date_confidence": "explicit-text",
-      "event_date_source": "explicit-calendar-date",
-      "published_at": "2026-10-04T12:39:37Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-04T18:03:55.568913Z",
-      "actor": "State",
-      "perpetrator": "State",
-      "target": null,
-      "claimant": null,
-      "supporting_force": null,
-      "mentioned_actors": [
-        "State"
-      ],
-      "parent_report_id": null,
-      "event_type": "security operation",
-      "country": "Mali",
-      "city": "Bamako",
-      "lat": 12.6392,
-      "lng": -8.0029,
-      "locations": [
-        {
-          "name": "Bamako",
-          "country": "Mali",
-          "lat": 12.6392,
-          "lng": -8.0029,
-          "confidence": "explicit-place"
-        },
-        {
-          "name": "Kidal",
-          "country": "Mali",
-          "lat": 18.4411,
-          "lng": 1.4078,
-          "confidence": "explicit-place"
-        },
-        {
-          "name": "Djenné",
-          "country": "Mali",
-          "lat": 13.9061,
-          "lng": -4.555,
-          "confidence": "explicit-place"
-        }
-      ],
-      "title": "Koutiala: positions of armed terrorist groups targeted and hit by FAMa",
-      "summary": "Bamako, October 04 (AMAP) The Malian Armed Forces (FAMa), supported by their partners, targeted and struck, on Saturday, October 3, 2026, several entrenchment points of armed terrorist groups, located about 40 kilometers south of Koutiala, says a statement from the General Staff of the Armed Forces . According to the same source, the exploitation of precise intelligence has made it possible to locate several positions housing armed terrorist groups as well as war materials, including many armed vehicles.",
-      "sources": [
-        "AMAP (Agence Malienne de Presse et de Publicité)",
-        "Bamada"
-      ],
-      "languages": [
-        "fr"
-      ],
-      "source_count": 2,
-      "report_urls": [
-        "https://amap.ml/2026/10/04/koutiala-des-positions-de-groupes-armes-terroristes-ciblees-et-frappees-par-les-fama/",
-        "https://bamada.net/operation-dougoukoloko-les-fama-frappent-plusieurs-positions-terroristes-de-koutiala-a-kidal"
-      ],
-      "report_summaries": [
-        {
-          "url": "https://amap.ml/2026/10/04/koutiala-des-positions-de-groupes-armes-terroristes-ciblees-et-frappees-par-les-fama/",
-          "source": "AMAP (Agence Malienne de Presse et de Publicité)",
-          "title": "Koutiala: positions of armed terrorist groups targeted and hit by FAMa",
-          "summary": "Bamako, October 04 (AMAP) The Malian Armed Forces (FAMa), supported by their partners, targeted and struck, on Saturday, October 3, 2026, several entrenchment points of armed terrorist groups, located about 40 kilometers south of Koutiala, says a statement from the General Staff of the Armed Forces . According to the same source, the exploitation of precise intelligence has made it possible to locate several positions housing armed terrorist groups as well as war materials, including many armed vehicles.",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "armed_group"
-          ],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        },
-        {
-          "url": "https://bamada.net/operation-dougoukoloko-les-fama-frappent-plusieurs-positions-terroristes-de-koutiala-a-kidal",
-          "source": "Bamada",
-          "title": "Operation Dougoukoloko: the FAMa intensify surveillance and strike several terrorist positions across Mali",
-          "summary": "From Koutiala to Kidal, via Anéfif and Djenné, the Malian Armed Forces are continuing their security operations with determination.",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "armed_group"
-          ],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        }
-      ],
-      "created_at": "2026-10-04T18:03:55.568913Z",
-      "updated_at": "2026-10-05T10:35:40.477728Z",
-      "extraction_confidence": "low",
-      "victim_categories": [
-        "armed_group"
-      ],
-      "civilian_targeting_flag": false,
-      "casualty_claims": [],
-      "fatalities_min": null,
-      "fatalities_max": null,
-      "fatalities_best": null,
-      "injured_min": null,
-      "injured_max": null,
-      "abducted_min": null,
-      "abducted_max": null,
-      "casualty_disputed": false,
-      "revision_history": [
-        {
-          "at": "2026-10-04T18:03:55.568913Z",
-          "type": "event_created",
-          "source": "AMAP (Agence Malienne de Presse et de Publicité)"
-        },
-        {
-          "at": "2026-10-05T10:35:40.477728Z",
-          "type": "corroboration_or_geography_update",
-          "source": "Bamada"
-        }
-      ],
-      "corroboration": "limited corroboration",
-      "confidence": "moderate",
-      "independent_source_domains": [
-        "amap.ml",
-        "bamada.net"
-      ],
-      "independent_source_count": 2,
-      "significance": "MAJOR",
-      "significance_reasons": [
-        "strategic/severe event pattern",
-        "multi-location activity"
-      ]
     }
   ],
   "latest_reports": [
+    {
+      "published_at": "2026-10-09T18:28:20Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-09T20:37:37.884515Z",
+      "discovered_at": "2026-10-09T20:37:37.884515Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0115",
+      "source": "The Premium Times (Nigeria)",
+      "language": "en",
+      "actor": null,
+      "country": "Niger",
+      "city": null,
+      "event_type": "law enforcement",
+      "candidate_event": false,
+      "title": "Court remands Nigerien man in Abuja for alleged supply of AK-47 ammunition for terrorism",
+      "url": "https://www.premiumtimesng.com/news/top-news/915716-court-remands-nigerien-man-in-abuja-for-alleged-supply-of-ak-47-ammunition-for-terrorism.html"
+    },
+    {
+      "published_at": "2026-10-09T18:08:35Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-09T20:37:30.874250Z",
+      "discovered_at": "2026-10-09T20:37:30.874250Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0178",
+      "source": "Studio Yafa",
+      "language": "fr",
+      "actor": null,
+      "country": null,
+      "city": null,
+      "event_type": "clash",
+      "candidate_event": false,
+      "title": "Nobel Peace Prize 2026: Africa in the spotlight with South Africa's Navi Pillay",
+      "url": "https://www.studioyafa.bf/42249-nobel-de-la-paix-2026-lafrique-a-lhonneur-avec-la-sud-africaine-navi-pillay"
+    },
+    {
+      "published_at": "2026-10-09T16:57:25Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-09T20:37:29.790359Z",
+      "discovered_at": "2026-10-09T20:37:29.790359Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0001",
+      "source": "RFI Afrique",
+      "language": "fr",
+      "actor": "Africa Corps/Wagner",
+      "country": "Mali",
+      "city": "Kidal",
+      "event_type": "security operation",
+      "candidate_event": true,
+      "title": "Mali: In Kidal, soldiers outnumber locals",
+      "url": "https://www.rfi.fr/fr/afrique/20261009-mali-%C3%A0-kidal-les-soldats-sont-plus-nombreux-que-les-habitants"
+    },
     {
       "published_at": "2026-10-09T16:03:23Z",
       "published_date_source": "jsonld:datePublished",
@@ -4544,60 +4560,6 @@
       "candidate_event": false,
       "title": "Military justice: Bamako Court sentences military and civilians for arms trafficking",
       "url": "https://malijet.com/la_societe_malienne_aujourdhui/312222-justice-militaire-le-tribunal-de-bamako-condamne-des-milit.html"
-    },
-    {
-      "published_at": "2026-10-08T04:08:27Z",
-      "published_date_source": "opengraph",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-08T04:40:59.339092Z",
-      "discovered_at": "2026-10-08T04:40:59.339092Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0121",
-      "source": "AllAfrica (English Edition)",
-      "language": "en",
-      "actor": "Africa Corps/Wagner",
-      "country": "Mali",
-      "city": "Bamako",
-      "event_type": "territorial seizure/blockade",
-      "candidate_event": false,
-      "title": "Mali: 900 Tankers Under Escort - What Africa Corps Actually Does in Mali",
-      "url": "https://allafrica.com/stories/202610080013.html"
-    },
-    {
-      "published_at": "2026-10-08T02:00:51Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-08T04:40:44.045313Z",
-      "discovered_at": "2026-10-08T04:40:44.045313Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0008",
-      "source": "Bamada",
-      "language": "fr",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Kidal",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Kidal: Colonel Attaher Maiga and his men at the heart of the FAMa's takeover and securing of the city",
-      "url": "https://bamada.net/kidal-le-colonel-attaher-maiga-et-ses-hommes-au-coeur-de-la-reprise-et-de-la-securisation-de-la-ville-par-les-fama"
-    },
-    {
-      "published_at": "2026-10-08T00:07:27Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-08T04:40:44.186151Z",
-      "discovered_at": "2026-10-08T04:40:44.186151Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0008",
-      "source": "Bamada",
-      "language": "fr",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Kidal",
-      "event_type": "offensive/campaign",
-      "candidate_event": false,
-      "title": "Operation Dougoukoloko: the FAMa intensify their air-land operations in the Talhandak, Kidal and Tessalit sectors",
-      "url": "https://bamada.net/operation-dougoukoloko-les-fama-intensifient-leurs-operations-aeroterrestres-dans-les-secteurs-de-talhandak-kidal-et-tessalit"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
