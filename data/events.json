@@ -694,6 +694,113 @@
     ]
   },
   {
+    "id": "3103808e2cb627e34b5cb59d08583e7808ce1bbc",
+    "event_date": "2026-10-06",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "explicit-date-no-year",
+    "published_at": "2026-10-08T14:30:00Z",
+    "published_date_source": "jsonld:datePublished",
+    "published_time_precision": "datetime",
+    "collected_at": "2026-10-09T12:43:22.572084Z",
+    "actor": "State",
+    "perpetrator": "State",
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [
+      "State",
+      "Africa Corps/Wagner"
+    ],
+    "parent_report_id": null,
+    "event_type": "offensive/campaign",
+    "country": "Mali",
+    "city": "Kidal",
+    "lat": 18.4411,
+    "lng": 1.4078,
+    "locations": [
+      {
+        "name": "Kidal",
+        "country": "Mali",
+        "lat": 18.4411,
+        "lng": 1.4078,
+        "confidence": "explicit-place"
+      },
+      {
+        "name": "Bamako",
+        "country": "Mali",
+        "lat": 12.6392,
+        "lng": -8.0029,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "In Mali, why the takeover of Kidal is a bitter-tasting victory for the junta",
+    "summary": "It had been several days since a scent of reconquest floated in the air. On the morning of Tuesday, October 6, the Malian Armed Forces (FAMa), supported by Russian elements of Africa Corps, retook the city of Kidal In a statement dated the same day, the Malian military authorities announced that they had engaged in \"large-scale air-land operations in the Kidal region\" with a view to \"neutralizing armed terrorist groups\" and \"destroying their sanctuaries\".",
+    "sources": [
+      "Le Point Afrique"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://www.lepoint.fr/afrique/au-mali-pourquoi-la-reprise-de-kidal-est-une-victoire-au-gout-amer-pour-la-junte-7WFJNHQE5ZEYLLHH55R3WVGTGY/"
+    ],
+    "report_summaries": [
+      {
+        "url": "https://www.lepoint.fr/afrique/au-mali-pourquoi-la-reprise-de-kidal-est-une-victoire-au-gout-amer-pour-la-junte-7WFJNHQE5ZEYLLHH55R3WVGTGY/",
+        "source": "Le Point Afrique",
+        "title": "In Mali, why the takeover of Kidal is a bitter-tasting victory for the junta",
+        "summary": "It had been several days since a scent of reconquest floated in the air. On the morning of Tuesday, October 6, the Malian Armed Forces (FAMa), supported by Russian elements of Africa Corps, retook the city of Kidal In a statement dated the same day, the Malian military authorities announced that they had engaged in \"large-scale air-land operations in the Kidal region\" with a view to \"neutralizing armed terrorist groups\" and \"destroying their sanctuaries\".",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "armed_group"
+        ],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      }
+    ],
+    "created_at": "2026-10-09T12:43:22.572084Z",
+    "updated_at": "2026-10-09T12:43:22.572084Z",
+    "extraction_confidence": "low",
+    "victim_categories": [
+      "armed_group"
+    ],
+    "civilian_targeting_flag": false,
+    "casualty_claims": [],
+    "fatalities_min": null,
+    "fatalities_max": null,
+    "fatalities_best": null,
+    "injured_min": null,
+    "injured_max": null,
+    "abducted_min": null,
+    "abducted_max": null,
+    "casualty_disputed": false,
+    "revision_history": [
+      {
+        "at": "2026-10-09T12:43:22.572084Z",
+        "type": "event_created",
+        "source": "Le Point Afrique"
+      }
+    ],
+    "corroboration": "single-source",
+    "confidence": "low",
+    "independent_source_domains": [
+      "lepoint.fr"
+    ],
+    "independent_source_count": 1,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "strategic/severe event pattern",
+      "multi-location activity"
+    ]
+  },
+  {
     "id": "5931414bf71d940aae346d3fcc60b197201d0214",
     "event_date": "2026-10-06",
     "event_date_confidence": "publication-proxy",
@@ -724,6 +831,20 @@
         "lat": 18.4411,
         "lng": 1.4078,
         "confidence": "explicit-place"
+      },
+      {
+        "name": "Koulikoro",
+        "country": "Mali",
+        "lat": 12.8628,
+        "lng": -7.5599,
+        "confidence": "explicit-place"
+      },
+      {
+        "name": "Diré",
+        "country": "Mali",
+        "lat": 16.2833,
+        "lng": -3.4167,
+        "confidence": "explicit-place"
       }
     ],
     "title": "Kidal: The Fama launch the reconquest operation",
@@ -738,6 +859,7 @@
     "source_count": 2,
     "report_urls": [
       "https://www.seneweb.com/fr/news/Afrique/kidal-les-fama-enclenchent-loperation-reconquete_n_506270.html",
+      "https://www.seneweb.com/fr/news/Afrique/prise-de-kidal-par-les-fama-la-reaction-de-choguel-maiga_n_999000199.html",
       "https://bamada.net/kidal-les-fama-consolident-leur-dispositif-operationnel-dans-la-ville"
     ],
     "report_summaries": [
@@ -746,6 +868,25 @@
         "source": "Seneweb",
         "title": "Kidal: The Fama launch the reconquest operation",
         "summary": "Kidal: Fama launches reconquest operation In Mali, the army announced in a recent press release that it was conducting large-scale air-land operations in the Kidal region, with its Russian partners . This offensive aims to \"track down and neutralize armed terrorist groups operating throughout the region, destroy their sanctuaries and supply networks and restore lasting security to the populations and the free movement of people and goods\" .",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "security_force",
+          "armed_group"
+        ],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      },
+      {
+        "url": "https://www.seneweb.com/fr/news/Afrique/prise-de-kidal-par-les-fama-la-reaction-de-choguel-maiga_n_999000199.html",
+        "source": "Seneweb",
+        "title": "Fama takeover of Kidal: Choguel Maiga's reaction",
+        "summary": "Capture of Kidal by the Fama: Choguel Maiga Kidal's reaction is no longer in the hands of the terrorists. This strategic town in northern Mali was recaptured by the Malian Armed Forces (Fama) on October 6, after a vast military offensive carried out with the support of the Russian partners of Africorps. From the prison of Koulikoro, the former Malian Prime Minister Choguel Maiga congratulated the FAMa for their shine .",
         "summary_basis": "translated-excerpt",
         "fatalities_min": null,
         "fatalities_max": null,
@@ -803,6 +944,11 @@
         "source": "Seneweb"
       },
       {
+        "at": "2026-10-09T12:43:21.425059Z",
+        "type": "corroboration_or_geography_update",
+        "source": "Seneweb"
+      },
+      {
         "at": "2026-10-08T16:43:11.131462Z",
         "type": "corroboration_or_geography_update",
         "source": "Bamada"
@@ -817,7 +963,8 @@
     "independent_source_count": 2,
     "significance": "MAJOR",
     "significance_reasons": [
-      "strategic/severe event pattern"
+      "strategic/severe event pattern",
+      "multi-location activity"
     ]
   },
   {
