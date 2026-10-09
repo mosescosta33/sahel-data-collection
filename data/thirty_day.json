@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-09T12:45:39.761746Z",
+  "generated_at": "2026-10-09T16:40:34.808539Z",
   "window_days": 30,
   "cutoff": "2026-09-09",
-  "reports": 366,
-  "incident_reports": 83,
+  "reports": 369,
+  "incident_reports": 84,
   "candidate_events": 66,
-  "corroborated_events": 12,
+  "corroborated_events": 13,
   "mapped_events": 60,
   "mapped_locations": 127,
-  "distinct_sources": 74,
+  "distinct_sources": 75,
   "by_actor": {
     "State": 43,
     "JNIM": 11,
@@ -30,13 +30,13 @@
     "raid": 1
   },
   "by_language": {
-    "fr": 274,
+    "fr": 277,
     "en": 73,
     "ar": 19
   },
   "by_confidence": {
-    "moderate": 33,
-    "low": 30,
+    "moderate": 34,
+    "low": 29,
     "moderate-high": 3
   },
   "top_sources": [
@@ -48,7 +48,7 @@
     {
       "source_code": "SRC-0006",
       "source": "Malijet",
-      "count": 35
+      "count": 36
     },
     {
       "source_code": "SRC-0075",
@@ -299,7 +299,7 @@
     },
     {
       "date": "2026-10-09",
-      "reports": 13,
+      "reports": 16,
       "events": 1
     }
   ],
@@ -1039,16 +1039,18 @@
         }
       ],
       "title": "In Mali, why the takeover of Kidal is a bitter-tasting victory for the junta",
-      "summary": "It had been several days since a scent of reconquest floated in the air. On the morning of Tuesday, October 6, the Malian Armed Forces (FAMa), supported by Russian elements of Africa Corps, retook the city of Kidal In a statement dated the same day, the Malian military authorities announced that they had engaged in \"large-scale air-land operations in the Kidal region\" with a view to \"neutralizing armed terrorist groups\" and \"destroying their sanctuaries\".",
+      "summary": "In Mali, the recapture of the city of Kidal offers a symbolic victory to the junta and its DECRYPTING Russian ally - The Malian Armed Forces (FAMa), supported by Russian mercenaries and Tuareg loyalists, have taken over this rebel-held city since a general offensive in April. Skip adWinners didn't repeat the mistake . On November 14, 2023, during the first conquest of Kidal by the Malian army with the support of Wagner, the Russian mercenaries, enlisted by the ruling junta, had raised their black flag with a death's head.",
       "sources": [
-        "Le Point Afrique"
+        "Le Point Afrique",
+        "Le Figaro (Section Afrique)"
       ],
       "languages": [
         "fr"
       ],
-      "source_count": 1,
+      "source_count": 2,
       "report_urls": [
-        "https://www.lepoint.fr/afrique/au-mali-pourquoi-la-reprise-de-kidal-est-une-victoire-au-gout-amer-pour-la-junte-7WFJNHQE5ZEYLLHH55R3WVGTGY/"
+        "https://www.lepoint.fr/afrique/au-mali-pourquoi-la-reprise-de-kidal-est-une-victoire-au-gout-amer-pour-la-junte-7WFJNHQE5ZEYLLHH55R3WVGTGY/",
+        "https://www.lefigaro.fr/international/au-mali-la-reprise-de-la-ville-de-kidal-offre-une-victoire-symbolique-a-la-junte-et-a-son-allie-russe-20261009"
       ],
       "report_summaries": [
         {
@@ -1068,10 +1070,26 @@
           ],
           "civilian_targeting_flag": false,
           "casualty_claims": []
+        },
+        {
+          "url": "https://www.lefigaro.fr/international/au-mali-la-reprise-de-la-ville-de-kidal-offre-une-victoire-symbolique-a-la-junte-et-a-son-allie-russe-20261009",
+          "source": "Le Figaro (Section Afrique)",
+          "title": "In Mali, the recapture of the city of Kidal offers a symbolic victory to the junta and its Russian ally",
+          "summary": "In Mali, the recapture of the city of Kidal offers a symbolic victory to the junta and its DECRYPTING Russian ally - The Malian Armed Forces (FAMa), supported by Russian mercenaries and Tuareg loyalists, have taken over this rebel-held city since a general offensive in April. Skip adWinners didn't repeat the mistake . On November 14, 2023, during the first conquest of Kidal by the Malian army with the support of Wagner, the Russian mercenaries, enlisted by the ruling junta, had raised their black flag with a death's head.",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [],
+          "civilian_targeting_flag": false,
+          "casualty_claims": []
         }
       ],
       "created_at": "2026-10-09T12:43:22.572084Z",
-      "updated_at": "2026-10-09T12:43:22.572084Z",
+      "updated_at": "2026-10-09T16:39:44.227937Z",
       "extraction_confidence": "low",
       "victim_categories": [
         "armed_group"
@@ -1091,14 +1109,20 @@
           "at": "2026-10-09T12:43:22.572084Z",
           "type": "event_created",
           "source": "Le Point Afrique"
+        },
+        {
+          "at": "2026-10-09T16:39:44.227937Z",
+          "type": "corroboration_or_geography_update",
+          "source": "Le Figaro (Section Afrique)"
         }
       ],
-      "corroboration": "single-source",
-      "confidence": "low",
+      "corroboration": "limited corroboration",
+      "confidence": "moderate",
       "independent_source_domains": [
-        "lepoint.fr"
+        "lepoint.fr",
+        "lefigaro.fr"
       ],
-      "independent_source_count": 1,
+      "independent_source_count": 2,
       "significance": "MAJOR",
       "significance_reasons": [
         "strategic/severe event pattern",
@@ -3856,6 +3880,60 @@
   ],
   "latest_reports": [
     {
+      "published_at": "2026-10-09T16:03:23Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-09T16:39:37.133195Z",
+      "discovered_at": "2026-10-09T16:39:37.133195Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0010",
+      "source": "Burkina24",
+      "language": "fr",
+      "actor": "State",
+      "country": "Burkina Faso",
+      "city": null,
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Burkina Faso: The export of millet, maize and sorghum flour suspended until further notice",
+      "url": "https://burkina24.com/2026/10/09/burkina-faso-lexportation-des-farines-de-mil-de-mais-et-de-sorgho-suspendue-jusqua-nouvel-ordre/"
+    },
+    {
+      "published_at": "2026-10-09T15:42:13Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-09T16:39:44.227937Z",
+      "discovered_at": "2026-10-09T16:39:44.227937Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0096",
+      "source": "Le Figaro (Section Afrique)",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Kidal",
+      "event_type": "offensive/campaign",
+      "candidate_event": true,
+      "title": "In Mali, the recapture of the city of Kidal offers a symbolic victory to the junta and its Russian ally",
+      "url": "https://www.lefigaro.fr/international/au-mali-la-reprise-de-la-ville-de-kidal-offre-une-victoire-symbolique-a-la-junte-et-a-son-allie-russe-20261009"
+    },
+    {
+      "published_at": "2026-10-09T14:33:35Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-09T16:39:34.185273Z",
+      "discovered_at": "2026-10-09T16:39:34.185273Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0006",
+      "source": "Malijet",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Kidal",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Resumption of Kidal: place for the security and effective return of state services",
+      "url": "https://malijet.com/a_la_une_du_mali/312249-reprise-de-kidal-place-a-la-securisation-et-au-retour-effe.html"
+    },
+    {
       "published_at": "2026-10-09T12:11:32Z",
       "published_date_source": "jsonld:datePublished",
       "published_time_precision": "datetime",
@@ -4520,60 +4598,6 @@
       "candidate_event": false,
       "title": "Operation Dougoukoloko: the FAMa intensify their air-land operations in the Talhandak, Kidal and Tessalit sectors",
       "url": "https://bamada.net/operation-dougoukoloko-les-fama-intensifient-leurs-operations-aeroterrestres-dans-les-secteurs-de-talhandak-kidal-et-tessalit"
-    },
-    {
-      "published_at": "2026-10-08T00:00:00Z",
-      "published_date_source": "html:time",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-08T12:47:21.859883Z",
-      "discovered_at": "2026-10-08T12:47:21.859883Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0103",
-      "source": "ACLED (Version Française)",
-      "language": "en",
-      "actor": "JNIM",
-      "country": "Mali",
-      "city": null,
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Militant spillover from Mali raises mining-related security risks in Guinea",
-      "url": "https://acleddata.com/report/militant-spillover-mali-raises-mining-related-security-risks-guinea"
-    },
-    {
-      "published_at": "2026-10-07T23:00:00Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-08T00:49:13.754777Z",
-      "discovered_at": "2026-10-08T00:49:13.754777Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0174",
-      "source": "Youm7 (اليوم السابع)",
-      "language": "ar",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Kidal",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "The Malian army recaptures the strategic city of Kidal from the Tuareg rebels.. The military announces the implementation of large-scale air and ground operations to neutralize armed groups and destroy their strongholds.. and the withdrawal of the Front for the Liberation of Azawad from the city as the forces advance",
-      "url": "https://www.youm7.com/story/2026/10/8/%D8%A7%D9%84%D8%AC%D9%8A%D8%B4-%D8%A7%D9%84%D9%85%D8%A7%D9%84%D9%89-%D9%8A%D8%B3%D8%AA%D8%B9%D9%8A%D8%AF-%D9%85%D8%AF%D9%8A%D9%86%D8%A9-%D9%83%D9%8A%D8%AF%D8%A7%D9%84-%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D8%B1%D8%A7%D8%AA%D9%8A%D8%AC%D9%8A%D8%A9-%D9%85%D9%86-%D9%85%D8%AA%D9%85%D8%B1%D8%AF%D9%89-%D8%A7%D9%84%D8%B7%D9%88%D8%A7%D8%B1%D9%82-%D8%A7%D9%84%D9%85%D8%A4%D8%B3%D8%B3%D8%A9/7571127"
-    },
-    {
-      "published_at": "2026-10-07T22:59:33Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-08T00:49:14.261302Z",
-      "discovered_at": "2026-10-08T00:49:14.261302Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0075",
-      "source": "AMAP (Agence Malienne de Presse et de Publicité)",
-      "language": "fr",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Kidal",
-      "event_type": "security operation",
-      "candidate_event": true,
-      "title": "Talhandak, Kidal and Tessalit: FAMa destroy positions of armed terrorist groups",
-      "url": "https://amap.ml/2026/10/08/talhandak-kidal-et-a-tessalit-les-fama-detruisent-des-positions-de-groupes-armes-terroristes/"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
