@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-10-09T04:39:20.785650Z",
+  "generated_at": "2026-10-09T08:41:45.126207Z",
   "window_days": 30,
   "cutoff": "2026-09-09",
-  "reports": 351,
-  "incident_reports": 80,
-  "candidate_events": 64,
+  "reports": 357,
+  "incident_reports": 81,
+  "candidate_events": 65,
   "corroborated_events": 12,
   "mapped_events": 59,
   "mapped_locations": 123,
   "distinct_sources": 73,
   "by_actor": {
-    "State": 41,
+    "State": 42,
     "JNIM": 11,
     "Other": 8,
     "Africa Corps/Wagner": 4
   },
   "by_country": {
-    "Mali": 59,
+    "Mali": 60,
     "Niger": 3,
     "Burkina Faso": 2
   },
   "by_event_type": {
-    "security operation": 29,
+    "security operation": 30,
     "offensive/campaign": 12,
     "clash": 8,
     "attack": 7,
@@ -30,12 +30,12 @@
     "raid": 1
   },
   "by_language": {
-    "fr": 262,
-    "en": 70,
+    "fr": 266,
+    "en": 72,
     "ar": 19
   },
   "by_confidence": {
-    "moderate": 32,
+    "moderate": 33,
     "low": 29,
     "moderate-high": 3
   },
@@ -43,7 +43,7 @@
     {
       "source_code": "SRC-0008",
       "source": "Bamada",
-      "count": 43
+      "count": 44
     },
     {
       "source_code": "SRC-0006",
@@ -58,7 +58,7 @@
     {
       "source_code": "SRC-0001",
       "source": "RFI Afrique",
-      "count": 13
+      "count": 14
     },
     {
       "source_code": "SRC-0015",
@@ -68,7 +68,12 @@
     {
       "source_code": "SRC-0012",
       "source": "Sidwaya",
-      "count": 11
+      "count": 12
+    },
+    {
+      "source_code": "SRC-0121",
+      "source": "AllAfrica (English Edition)",
+      "count": 12
     },
     {
       "source_code": "SRC-0090",
@@ -76,9 +81,9 @@
       "count": 11
     },
     {
-      "source_code": "SRC-0121",
-      "source": "AllAfrica (English Edition)",
-      "count": 11
+      "source_code": "SRC-0003",
+      "source": "Jeune Afrique",
+      "count": 10
     },
     {
       "source_code": "SRC-0004",
@@ -86,18 +91,13 @@
       "count": 10
     },
     {
-      "source_code": "SRC-0003",
-      "source": "Jeune Afrique",
-      "count": 9
+      "source_code": "SRC-0064",
+      "source": "Africa Defense Forum (ADF Magazine)",
+      "count": 10
     },
     {
       "source_code": "SRC-0013",
       "source": "Wakat Sera",
-      "count": 9
-    },
-    {
-      "source_code": "SRC-0064",
-      "source": "Africa Defense Forum (ADF Magazine)",
       "count": 9
     }
   ],
@@ -131,6 +131,10 @@
       "count": 7
     },
     {
+      "location": "Mali",
+      "count": 6
+    },
+    {
       "location": "Ségou",
       "count": 6
     },
@@ -144,10 +148,6 @@
     },
     {
       "location": "Gao",
-      "count": 5
-    },
-    {
-      "location": "Mali",
       "count": 5
     }
   ],
@@ -284,7 +284,7 @@
     },
     {
       "date": "2026-10-06",
-      "reports": 55,
+      "reports": 56,
       "events": 10
     },
     {
@@ -295,11 +295,11 @@
     {
       "date": "2026-10-08",
       "reports": 23,
-      "events": 3
+      "events": 4
     },
     {
       "date": "2026-10-09",
-      "reports": 1,
+      "reports": 6,
       "events": 1
     }
   ],
@@ -395,6 +395,96 @@
       "confidence": "low",
       "independent_source_domains": [
         "amap.ml"
+      ],
+      "independent_source_count": 1,
+      "significance": "MAJOR",
+      "significance_reasons": [
+        "strategic/severe event pattern"
+      ]
+    },
+    {
+      "id": "30cd3828db371473e49c1fcef4d09a7223bd2d11",
+      "event_date": "2026-10-08",
+      "event_date_confidence": "explicit-text",
+      "event_date_source": "explicit-calendar-date",
+      "published_at": "2026-10-09T07:33:26Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-09T08:40:24.037341Z",
+      "actor": "State",
+      "perpetrator": "State",
+      "target": null,
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [
+        "State"
+      ],
+      "parent_report_id": null,
+      "event_type": "security operation",
+      "country": "Mali",
+      "city": null,
+      "lat": null,
+      "lng": null,
+      "locations": [],
+      "title": "Operation Dougoukoloko: FAMa precision strikes against terrorist bases in San, Takalot and Talhandak",
+      "summary": "The General Staff of the Armed Forces informs the national opinion that the Malian Armed Forces (FAMa), supported by their partners, are continuing the permanent operations of surveillance, control and security of the national territory as part of Operation Dougoukoloko In the continuation of the offensive launched in the Eastern Theater, the air-land operations conducted on Thursday, October 8, 2026 made it possible to target several positions of the armed terrorist groups.",
+      "sources": [
+        "Bamada"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://bamada.net/operation-dougoukoloko-frappes-de-precision-des-fama-contre-des-bases-terroristes-a-san-takalot-et-talhandak"
+      ],
+      "report_summaries": [
+        {
+          "url": "https://bamada.net/operation-dougoukoloko-frappes-de-precision-des-fama-contre-des-bases-terroristes-a-san-takalot-et-talhandak",
+          "source": "Bamada",
+          "title": "Operation Dougoukoloko: FAMa precision strikes against terrorist bases in San, Takalot and Talhandak",
+          "summary": "The General Staff of the Armed Forces informs the national opinion that the Malian Armed Forces (FAMa), supported by their partners, are continuing the permanent operations of surveillance, control and security of the national territory as part of Operation Dougoukoloko In the continuation of the offensive launched in the Eastern Theater, the air-land operations conducted on Thursday, October 8, 2026 made it possible to target several positions of the armed terrorist groups.",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "armed_group"
+          ],
+          "civilian_targeting_flag": false,
+          "casualty_claims": []
+        }
+      ],
+      "created_at": "2026-10-09T08:40:24.037341Z",
+      "updated_at": "2026-10-09T08:40:24.037341Z",
+      "extraction_confidence": "moderate",
+      "victim_categories": [
+        "armed_group"
+      ],
+      "civilian_targeting_flag": false,
+      "casualty_claims": [],
+      "fatalities_min": null,
+      "fatalities_max": null,
+      "fatalities_best": null,
+      "injured_min": null,
+      "injured_max": null,
+      "abducted_min": null,
+      "abducted_max": null,
+      "casualty_disputed": false,
+      "revision_history": [
+        {
+          "at": "2026-10-09T08:40:24.037341Z",
+          "type": "event_created",
+          "source": "Bamada"
+        }
+      ],
+      "corroboration": "single-source",
+      "confidence": "moderate",
+      "independent_source_domains": [
+        "bamada.net"
       ],
       "independent_source_count": 1,
       "significance": "MAJOR",
@@ -3705,107 +3795,81 @@
       "significance_reasons": [
         "strategic/severe event pattern"
       ]
-    },
-    {
-      "id": "9293daa62588814d91171870125f7da4f8d10df1",
-      "event_date": "2026-09-30",
-      "event_date_confidence": "explicit-text",
-      "event_date_source": "explicit-calendar-date",
-      "published_at": null,
-      "published_date_source": "unresolved",
-      "published_time_precision": "unresolved",
-      "collected_at": "2026-10-04T10:24:45.723004Z",
-      "actor": "State",
-      "perpetrator": "State",
-      "target": null,
-      "claimant": null,
-      "supporting_force": null,
-      "mentioned_actors": [
-        "State"
-      ],
-      "parent_report_id": null,
-      "event_type": "security operation",
-      "country": "Mali",
-      "city": "Tessalit",
-      "lat": 20.2,
-      "lng": 1.0,
-      "locations": [
-        {
-          "name": "Tessalit",
-          "country": "Mali",
-          "lat": 20.2,
-          "lng": 1.0,
-          "confidence": "explicit-place"
-        }
-      ],
-      "title": "Under FAMa fire: Several terrorist logistics bases destroyed in Tessalit, Nampala and Sofara",
-      "summary": "The General Staff of the Armed Forces informs the national opinion that the Malian Armed Forces (FAMa), supported by their partners, are continuing their permanent operations to monitor, control and secure the national territory as part of Operation Dougoukoloko . On Wednesday, September 30, 2026, the exploitation of precise intelligence made it possible to locate, in the immediate outskirts of Tessalit, several entrenchment points of armed terrorist groups housing war and logistics equipment.",
-      "sources": [
-        "Bamada"
-      ],
-      "languages": [
-        "fr"
-      ],
-      "source_count": 1,
-      "report_urls": [
-        "https://bamada.net/sous-le-feu-des-fama-plusieurs-bases-logistiques-terroristes-detruites-a-tessalit-nampala-et-sofara"
-      ],
-      "report_summaries": [
-        {
-          "url": "https://bamada.net/sous-le-feu-des-fama-plusieurs-bases-logistiques-terroristes-detruites-a-tessalit-nampala-et-sofara",
-          "source": "Bamada",
-          "title": "Under FAMa fire: Several terrorist logistics bases destroyed in Tessalit, Nampala and Sofara",
-          "summary": "The General Staff of the Armed Forces informs the national opinion that the Malian Armed Forces (FAMa), supported by their partners, are continuing their permanent operations to monitor, control and secure the national territory as part of Operation Dougoukoloko . On Wednesday, September 30, 2026, the exploitation of precise intelligence made it possible to locate, in the immediate outskirts of Tessalit, several entrenchment points of armed terrorist groups housing war and logistics equipment.",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "armed_group"
-          ],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        }
-      ],
-      "created_at": "2026-10-04T10:24:45.723004Z",
-      "updated_at": "2026-10-04T10:24:45.723004Z",
-      "extraction_confidence": "moderate",
-      "victim_categories": [
-        "armed_group"
-      ],
-      "civilian_targeting_flag": false,
-      "casualty_claims": [],
-      "fatalities_min": null,
-      "fatalities_max": null,
-      "fatalities_best": null,
-      "injured_min": null,
-      "injured_max": null,
-      "abducted_min": null,
-      "abducted_max": null,
-      "casualty_disputed": false,
-      "revision_history": [
-        {
-          "at": "2026-10-04T10:24:45.723004Z",
-          "type": "event_created",
-          "source": "Bamada"
-        }
-      ],
-      "corroboration": "single-source",
-      "confidence": "moderate",
-      "independent_source_domains": [
-        "bamada.net"
-      ],
-      "independent_source_count": 1,
-      "significance": "MAJOR",
-      "significance_reasons": [
-        "strategic/severe event pattern"
-      ]
     }
   ],
   "latest_reports": [
+    {
+      "published_at": "2026-10-09T08:34:13Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-09T08:40:34.797319Z",
+      "discovered_at": "2026-10-09T08:40:34.797319Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0001",
+      "source": "RFI Afrique",
+      "language": "fr",
+      "actor": "JNIM",
+      "country": "Mali",
+      "city": "Kidal",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Mali: \"The army has its place in Kidal but regaining it does not end the violence\", for the opposition coalition CFR",
+      "url": "https://www.rfi.fr/fr/afrique/20261009-mali-l-arm%C3%A9e-a-sa-place-%C3%A0-kidal-mais-la-reconqu%C3%A9rir-ne-met-pas-fin-aux-violences-pour-la-coalition-d-opposition-cfr"
+    },
+    {
+      "published_at": "2026-10-09T07:33:26Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-09T08:40:24.037341Z",
+      "discovered_at": "2026-10-09T08:40:24.037341Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0008",
+      "source": "Bamada",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": null,
+      "event_type": "security operation",
+      "candidate_event": true,
+      "title": "Operation Dougoukoloko: FAMa precision strikes against terrorist bases in San, Takalot and Talhandak",
+      "url": "https://bamada.net/operation-dougoukoloko-frappes-de-precision-des-fama-contre-des-bases-terroristes-a-san-takalot-et-talhandak"
+    },
+    {
+      "published_at": "2026-10-09T05:24:45Z",
+      "published_date_source": "opengraph",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-09T08:40:37.089135Z",
+      "discovered_at": "2026-10-09T08:40:37.089135Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0121",
+      "source": "AllAfrica (English Edition)",
+      "language": "en",
+      "actor": "State",
+      "country": "Niger",
+      "city": "Niamey",
+      "event_type": "law enforcement",
+      "candidate_event": false,
+      "title": "Niger: Niger's Junta Tightens Its Grip On Free Expression",
+      "url": "https://allafrica.com/stories/202610090135.html"
+    },
+    {
+      "published_at": "2026-10-09T05:00:00Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-09T08:40:40.497946Z",
+      "discovered_at": "2026-10-09T08:40:40.497946Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0003",
+      "source": "Jeune Afrique",
+      "language": "fr",
+      "actor": null,
+      "country": null,
+      "city": null,
+      "event_type": "kidnapping",
+      "candidate_event": false,
+      "title": "Saddam Haftar: from the Sahel to Chad, the limits of security diplomacy",
+      "url": "https://www.jeuneafrique.com/1849611/politique/saddam-haftar-du-sahel-au-tchad-les-limites-dune-diplomatie-securitaire/"
+    },
     {
       "published_at": "2026-10-09T00:53:29Z",
       "published_date_source": "jsonld:datePublished",
@@ -3823,6 +3887,24 @@
       "candidate_event": true,
       "title": "Takalot, Talhandak and San: Several positions of terrorist groups struck down",
       "url": "https://amap.ml/2026/10/09/takalot-talhandak-et-san-plusieurs-positions-des-groupes-terroristes-foudroyees/"
+    },
+    {
+      "published_at": "2026-10-09T00:42:59Z",
+      "published_date_source": "html:time",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-09T08:40:32.199360Z",
+      "discovered_at": "2026-10-09T08:40:32.199360Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0012",
+      "source": "Sidwaya",
+      "language": "fr",
+      "actor": "State",
+      "country": "Burkina Faso",
+      "city": null,
+      "event_type": null,
+      "candidate_event": false,
+      "title": "No to family war!",
+      "url": "https://www.sidwaya.info/2026/10/09/non-a-la-guerre-familiale/"
     },
     {
       "published_at": "2026-10-08T22:59:46Z",
@@ -4435,96 +4517,6 @@
       "candidate_event": false,
       "title": "Kidnapped child in Yaounde: the suspect arrested in Tahoua",
       "url": "https://www.wakatsera.com/enfant-kidnappe-a-yaounde-la-suspecte-arretee-a-tahoua/"
-    },
-    {
-      "published_at": "2026-10-07T17:06:39Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-07T20:38:38.745685Z",
-      "discovered_at": "2026-10-07T20:38:38.745685Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0004",
-      "source": "Studio Tamani",
-      "language": "fr",
-      "actor": null,
-      "country": "Mali",
-      "city": "Kidal",
-      "event_type": "law enforcement",
-      "candidate_event": false,
-      "title": "THE TITLES OF OCTOBER 7, 2026",
-      "url": "https://www.studiotamani.org/208769-les-titres-du-7-octobre-2026"
-    },
-    {
-      "published_at": "2026-10-07T16:27:42Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-07T20:38:38.285479Z",
-      "discovered_at": "2026-10-07T20:38:38.285479Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0008",
-      "source": "Bamada",
-      "language": "fr",
-      "actor": null,
-      "country": "Mali",
-      "city": "Bamako",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "MILITARY COURT OF BAMAKO: five cases on the list of the correctional hearing",
-      "url": "https://bamada.net/tribunal-militaire-de-bamako-cinq-affaires-inscrites-au-role-de-laudience-correctionnelle"
-    },
-    {
-      "published_at": "2026-10-07T14:41:26Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-07T16:42:19.366169Z",
-      "discovered_at": "2026-10-07T16:42:19.366169Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0034",
-      "source": "TV5MONDE Afrique",
-      "language": "fr",
-      "actor": "Africa Corps/Wagner",
-      "country": "Mali",
-      "city": "Kidal",
-      "event_type": "clash",
-      "candidate_event": false,
-      "title": "Image Published on October 7, 2026 Africa Mali: what changes the recapture of Kidal by the army? By retaking the strategic town of Kidal, in northern Mali, on Tuesday, the Malian army supported by the Russian paramilitaries of the Africa Corps has...",
-      "url": "https://information.tv5monde.com/afrique/mali-que-change-la-reprise-de-kidal-par-larmee-2840596"
-    },
-    {
-      "published_at": "2026-10-07T13:30:45Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-07T16:42:20.907752Z",
-      "discovered_at": "2026-10-07T16:42:20.907752Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0095",
-      "source": "Courrier International",
-      "language": "fr",
-      "actor": "JNIM",
-      "country": "Mali",
-      "city": "Kidal",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Article reserved for Sahel subscribers. Mali: in Kidal, taken over by the army, \"the game of cat and mouse\" continues International mail",
-      "url": "https://www.courrierinternational.com/article/sahel-mali-a-kidal-reprise-par-l-armee-le-jeu-du-chat-et-de-la-souris-continue_276708"
-    },
-    {
-      "published_at": "2026-10-07T13:09:30Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-07T16:42:17.365194Z",
-      "discovered_at": "2026-10-07T16:42:17.365194Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0056",
-      "source": "Asharq Al-Awsat",
-      "language": "ar",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Kidal",
-      "event_type": "clash",
-      "candidate_event": true,
-      "title": "Mali: Army enters Kidal without fighting with Russian support",
-      "url": "https://aawsat.com/%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%A3%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7/5327009-%D9%85%D8%A7%D9%84%D9%8A-%D8%A7%D9%84%D8%AC%D9%8A%D8%B4-%D9%8A%D8%AF%D8%AE%D9%84-%D9%83%D9%8A%D8%AF%D8%A7%D9%84-%D8%AF%D9%88%D9%86-%D9%82%D8%AA%D8%A7%D9%84-%D8%A8%D8%AF%D8%B9%D9%85-%D9%85%D9%86-%D8%B1%D9%88%D8%B3%D9%8A%D8%A7"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
