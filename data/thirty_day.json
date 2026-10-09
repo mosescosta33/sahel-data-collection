@@ -1,27 +1,27 @@
 {
-  "generated_at": "2026-10-09T00:52:25.182366Z",
+  "generated_at": "2026-10-09T04:39:20.785650Z",
   "window_days": 30,
   "cutoff": "2026-09-09",
-  "reports": 350,
-  "incident_reports": 79,
-  "candidate_events": 63,
+  "reports": 351,
+  "incident_reports": 80,
+  "candidate_events": 64,
   "corroborated_events": 12,
-  "mapped_events": 58,
-  "mapped_locations": 122,
+  "mapped_events": 59,
+  "mapped_locations": 123,
   "distinct_sources": 73,
   "by_actor": {
-    "State": 40,
+    "State": 41,
     "JNIM": 11,
     "Other": 8,
     "Africa Corps/Wagner": 4
   },
   "by_country": {
-    "Mali": 58,
+    "Mali": 59,
     "Niger": 3,
     "Burkina Faso": 2
   },
   "by_event_type": {
-    "security operation": 28,
+    "security operation": 29,
     "offensive/campaign": 12,
     "clash": 8,
     "attack": 7,
@@ -30,13 +30,13 @@
     "raid": 1
   },
   "by_language": {
-    "fr": 261,
+    "fr": 262,
     "en": 70,
     "ar": 19
   },
   "by_confidence": {
     "moderate": 32,
-    "low": 28,
+    "low": 29,
     "moderate-high": 3
   },
   "top_sources": [
@@ -53,7 +53,7 @@
     {
       "source_code": "SRC-0075",
       "source": "AMAP (Agence Malienne de Presse et de Publicité)",
-      "count": 16
+      "count": 17
     },
     {
       "source_code": "SRC-0001",
@@ -108,7 +108,7 @@
     },
     {
       "location": "Bamako",
-      "count": 12
+      "count": 13
     },
     {
       "location": "Dioura",
@@ -299,11 +299,109 @@
     },
     {
       "date": "2026-10-09",
-      "reports": 0,
-      "events": 0
+      "reports": 1,
+      "events": 1
     }
   ],
   "latest_events": [
+    {
+      "id": "c40453341e0c08025e2ea593d080a3be9ead2cab",
+      "event_date": "2026-10-09",
+      "event_date_confidence": "explicit-text",
+      "event_date_source": "explicit-date-no-year",
+      "published_at": "2026-10-09T00:53:29Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-09T04:38:50.487537Z",
+      "actor": "State",
+      "perpetrator": "State",
+      "target": null,
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [
+        "State"
+      ],
+      "parent_report_id": null,
+      "event_type": "security operation",
+      "country": "Mali",
+      "city": "Bamako",
+      "lat": 12.6392,
+      "lng": -8.0029,
+      "locations": [
+        {
+          "name": "Bamako",
+          "country": "Mali",
+          "lat": 12.6392,
+          "lng": -8.0029,
+          "confidence": "explicit-place"
+        }
+      ],
+      "title": "Takalot, Talhandak and San: Several positions of terrorist groups struck down",
+      "summary": "Bamako, October 9 (AMAP)– The Malian Armed Forces (FAMa) destroyed a vehicle containing war materiel northeast of Takalot and hit a major logistics point in the Talhandak area, as well as a base housing terrorist elements northeast of San, during air-land operations conducted Thursday, October 8 as part of Operation Dougoukoloko, according to the General Staff of the Armed Forces .",
+      "sources": [
+        "AMAP (Agence Malienne de Presse et de Publicité)"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://amap.ml/2026/10/09/takalot-talhandak-et-san-plusieurs-positions-des-groupes-terroristes-foudroyees/"
+      ],
+      "report_summaries": [
+        {
+          "url": "https://amap.ml/2026/10/09/takalot-talhandak-et-san-plusieurs-positions-des-groupes-terroristes-foudroyees/",
+          "source": "AMAP (Agence Malienne de Presse et de Publicité)",
+          "title": "Takalot, Talhandak and San: Several positions of terrorist groups struck down",
+          "summary": "Bamako, October 9 (AMAP)– The Malian Armed Forces (FAMa) destroyed a vehicle containing war materiel northeast of Takalot and hit a major logistics point in the Talhandak area, as well as a base housing terrorist elements northeast of San, during air-land operations conducted Thursday, October 8 as part of Operation Dougoukoloko, according to the General Staff of the Armed Forces .",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "armed_group"
+          ],
+          "civilian_targeting_flag": false,
+          "casualty_claims": []
+        }
+      ],
+      "created_at": "2026-10-09T04:38:50.487537Z",
+      "updated_at": "2026-10-09T04:38:50.487537Z",
+      "extraction_confidence": "low",
+      "victim_categories": [
+        "armed_group"
+      ],
+      "civilian_targeting_flag": false,
+      "casualty_claims": [],
+      "fatalities_min": null,
+      "fatalities_max": null,
+      "fatalities_best": null,
+      "injured_min": null,
+      "injured_max": null,
+      "abducted_min": null,
+      "abducted_max": null,
+      "casualty_disputed": false,
+      "revision_history": [
+        {
+          "at": "2026-10-09T04:38:50.487537Z",
+          "type": "event_created",
+          "source": "AMAP (Agence Malienne de Presse et de Publicité)"
+        }
+      ],
+      "corroboration": "single-source",
+      "confidence": "low",
+      "independent_source_domains": [
+        "amap.ml"
+      ],
+      "independent_source_count": 1,
+      "significance": "MAJOR",
+      "significance_reasons": [
+        "strategic/severe event pattern"
+      ]
+    },
     {
       "id": "b85cc383ee55c4d78d52cd1f5523a283f6fb2d60",
       "event_date": "2026-10-08",
@@ -3705,129 +3803,27 @@
       "significance_reasons": [
         "strategic/severe event pattern"
       ]
-    },
-    {
-      "id": "15c9cf00d9b38c3ea13f5ff8fe6c11fd8843a803",
-      "event_date": "2026-09-30",
-      "event_date_confidence": "explicit-text",
-      "event_date_source": "explicit-date-no-year",
-      "published_at": "2026-10-01T02:58:20Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-01T06:14:18.563231Z",
-      "actor": "Other",
-      "perpetrator": null,
-      "target": null,
-      "claimant": null,
-      "supporting_force": null,
-      "mentioned_actors": [],
-      "parent_report_id": null,
-      "event_type": "kidnapping",
-      "country": "Burkina Faso",
-      "city": "Ouagadougou",
-      "lat": 12.3714,
-      "lng": -1.5197,
-      "locations": [
-        {
-          "name": "Ouagadougou",
-          "country": "Burkina Faso",
-          "lat": 12.3714,
-          "lng": -1.5197,
-          "confidence": "explicit-place"
-        }
-      ],
-      "title": "Burkina Faso: Opponents in exile publish a documented list of 86 kidnappings perpetrated by the junta",
-      "summary": "Posted on social networks under the title \"The missing of Ibrahim Traoré\" on the occasion of the fourth anniversary of the military coup of September 30, 2022, this trombinoscope intends to denounce the authoritarianism of the junta in power in Ouagadougou and honor the memory of those who were victims of its repression Four years of rule and 86 documented kidnappings: this is the other record of the junta in power in Burkina Faso that a group of Burkinabe opponents in exile, the Anti-Putchist Front (Frap), wanted to highlight, this Wednesday, September 30, while in Ouagadougou, the authorities celebrated the…",
-      "sources": [
-        "RFI Afrique",
-        "AllAfrica (Édition Française)"
-      ],
-      "languages": [
-        "fr"
-      ],
-      "source_count": 2,
-      "report_urls": [
-        "https://www.rfi.fr/fr/afrique/20261001-burkina-faso-des-opposants-en-exil-publient-une-liste-document%C3%A9e-de-86-enl%C3%A8vements-perp%C3%A9tr%C3%A9s-par-la-junte",
-        "https://fr.allafrica.com/stories/202610010260.html"
-      ],
-      "report_summaries": [
-        {
-          "url": "https://www.rfi.fr/fr/afrique/20261001-burkina-faso-des-opposants-en-exil-publient-une-liste-document%C3%A9e-de-86-enl%C3%A8vements-perp%C3%A9tr%C3%A9s-par-la-junte",
-          "source": "RFI Afrique",
-          "title": "Burkina Faso: Opponents in exile publish a documented list of 86 kidnappings perpetrated by the junta",
-          "summary": "Put online on social networks under the title \"The disappeared of Ibrahim Traoré\" on the occasion of the fourth anniversary of the military coup of September 30, 2022, this trombinoscope intends to denounce the authoritarianism of the junta in power in Ouagadougou and honor the memory of those who were victims of its repression .",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        },
-        {
-          "url": "https://fr.allafrica.com/stories/202610010260.html",
-          "source": "AllAfrica (Édition Française)",
-          "title": "Burkina Faso: Opponents in exile publish a documented list of 86 kidnappings perpetrated by the junta",
-          "summary": "Posted on social networks under the title \"The missing of Ibrahim Traoré\" on the occasion of the fourth anniversary of the military coup of September 30, 2022, this trombinoscope intends to denounce the authoritarianism of the junta in power in Ouagadougou and honor the memory of those who were victims of its repression Four years of rule and 86 documented kidnappings: this is the other record of the junta in power in Burkina Faso that a group of Burkinabe opponents in exile, the Anti-Putchist Front (Frap), wanted to highlight, this Wednesday, September 30, while in Ouagadougou, the authorities celebrated the…",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "civilian"
-          ],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        }
-      ],
-      "created_at": "2026-10-01T06:14:18.563231Z",
-      "updated_at": "2026-10-01T11:32:12.506447Z",
-      "extraction_confidence": "low",
-      "victim_categories": [
-        "civilian"
-      ],
-      "civilian_targeting_flag": false,
-      "casualty_claims": [],
-      "fatalities_min": null,
-      "fatalities_max": null,
-      "fatalities_best": null,
-      "injured_min": null,
-      "injured_max": null,
-      "abducted_min": null,
-      "abducted_max": null,
-      "casualty_disputed": false,
-      "revision_history": [
-        {
-          "at": "2026-10-01T06:14:18.563231Z",
-          "type": "event_created",
-          "source": "RFI Afrique"
-        },
-        {
-          "at": "2026-10-01T11:32:12.506447Z",
-          "type": "corroboration_or_geography_update",
-          "source": "AllAfrica (Édition Française)"
-        }
-      ],
-      "corroboration": "limited corroboration",
-      "confidence": "moderate",
-      "independent_source_domains": [
-        "rfi.fr",
-        "fr.allafrica.com"
-      ],
-      "independent_source_count": 2,
-      "significance": "MAJOR",
-      "significance_reasons": [
-        "strategic/severe event pattern"
-      ]
     }
   ],
   "latest_reports": [
+    {
+      "published_at": "2026-10-09T00:53:29Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-09T04:38:50.487537Z",
+      "discovered_at": "2026-10-09T04:38:50.487537Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0075",
+      "source": "AMAP (Agence Malienne de Presse et de Publicité)",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Bamako",
+      "event_type": "security operation",
+      "candidate_event": true,
+      "title": "Takalot, Talhandak and San: Several positions of terrorist groups struck down",
+      "url": "https://amap.ml/2026/10/09/takalot-talhandak-et-san-plusieurs-positions-des-groupes-terroristes-foudroyees/"
+    },
     {
       "published_at": "2026-10-08T22:59:46Z",
       "published_date_source": "jsonld:datePublished",
@@ -4529,24 +4525,6 @@
       "candidate_event": true,
       "title": "Mali: Army enters Kidal without fighting with Russian support",
       "url": "https://aawsat.com/%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%A3%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7/5327009-%D9%85%D8%A7%D9%84%D9%8A-%D8%A7%D9%84%D8%AC%D9%8A%D8%B4-%D9%8A%D8%AF%D8%AE%D9%84-%D9%83%D9%8A%D8%AF%D8%A7%D9%84-%D8%AF%D9%88%D9%86-%D9%82%D8%AA%D8%A7%D9%84-%D8%A8%D8%AF%D8%B9%D9%85-%D9%85%D9%86-%D8%B1%D9%88%D8%B3%D9%8A%D8%A7"
-    },
-    {
-      "published_at": "2026-10-07T13:04:48Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-07T16:42:18.076501Z",
-      "discovered_at": "2026-10-07T16:42:18.076501Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0075",
-      "source": "AMAP (Agence Malienne de Presse et de Publicité)",
-      "language": "fr",
-      "actor": null,
-      "country": "Mali",
-      "city": "Bamako",
-      "event_type": "clash",
-      "candidate_event": false,
-      "title": "Sudan: 1,770 people displaced in Blue Nile State, according to IOM",
-      "url": "https://amap.ml/2026/10/07/soudan-1-770-personnes-deplacees-dans-letat-du-nil-bleu-selon-loim/"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."

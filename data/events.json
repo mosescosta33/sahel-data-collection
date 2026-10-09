@@ -1,5 +1,103 @@
 [
   {
+    "id": "c40453341e0c08025e2ea593d080a3be9ead2cab",
+    "event_date": "2026-10-09",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "explicit-date-no-year",
+    "published_at": "2026-10-09T00:53:29Z",
+    "published_date_source": "jsonld:datePublished",
+    "published_time_precision": "datetime",
+    "collected_at": "2026-10-09T04:38:50.487537Z",
+    "actor": "State",
+    "perpetrator": "State",
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [
+      "State"
+    ],
+    "parent_report_id": null,
+    "event_type": "security operation",
+    "country": "Mali",
+    "city": "Bamako",
+    "lat": 12.6392,
+    "lng": -8.0029,
+    "locations": [
+      {
+        "name": "Bamako",
+        "country": "Mali",
+        "lat": 12.6392,
+        "lng": -8.0029,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "Takalot, Talhandak and San: Several positions of terrorist groups struck down",
+    "summary": "Bamako, October 9 (AMAP)– The Malian Armed Forces (FAMa) destroyed a vehicle containing war materiel northeast of Takalot and hit a major logistics point in the Talhandak area, as well as a base housing terrorist elements northeast of San, during air-land operations conducted Thursday, October 8 as part of Operation Dougoukoloko, according to the General Staff of the Armed Forces .",
+    "sources": [
+      "AMAP (Agence Malienne de Presse et de Publicité)"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://amap.ml/2026/10/09/takalot-talhandak-et-san-plusieurs-positions-des-groupes-terroristes-foudroyees/"
+    ],
+    "report_summaries": [
+      {
+        "url": "https://amap.ml/2026/10/09/takalot-talhandak-et-san-plusieurs-positions-des-groupes-terroristes-foudroyees/",
+        "source": "AMAP (Agence Malienne de Presse et de Publicité)",
+        "title": "Takalot, Talhandak and San: Several positions of terrorist groups struck down",
+        "summary": "Bamako, October 9 (AMAP)– The Malian Armed Forces (FAMa) destroyed a vehicle containing war materiel northeast of Takalot and hit a major logistics point in the Talhandak area, as well as a base housing terrorist elements northeast of San, during air-land operations conducted Thursday, October 8 as part of Operation Dougoukoloko, according to the General Staff of the Armed Forces .",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "armed_group"
+        ],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      }
+    ],
+    "created_at": "2026-10-09T04:38:50.487537Z",
+    "updated_at": "2026-10-09T04:38:50.487537Z",
+    "extraction_confidence": "low",
+    "victim_categories": [
+      "armed_group"
+    ],
+    "civilian_targeting_flag": false,
+    "casualty_claims": [],
+    "fatalities_min": null,
+    "fatalities_max": null,
+    "fatalities_best": null,
+    "injured_min": null,
+    "injured_max": null,
+    "abducted_min": null,
+    "abducted_max": null,
+    "casualty_disputed": false,
+    "revision_history": [
+      {
+        "at": "2026-10-09T04:38:50.487537Z",
+        "type": "event_created",
+        "source": "AMAP (Agence Malienne de Presse et de Publicité)"
+      }
+    ],
+    "corroboration": "single-source",
+    "confidence": "low",
+    "independent_source_domains": [
+      "amap.ml"
+    ],
+    "independent_source_count": 1,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "strategic/severe event pattern"
+    ]
+  },
+  {
     "id": "b85cc383ee55c4d78d52cd1f5523a283f6fb2d60",
     "event_date": "2026-10-08",
     "event_date_confidence": "explicit-text",
