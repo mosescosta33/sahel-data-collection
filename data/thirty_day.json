@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-08T20:41:39.148082Z",
+  "generated_at": "2026-10-09T00:52:25.182366Z",
   "window_days": 30,
-  "cutoff": "2026-09-08",
-  "reports": 348,
-  "incident_reports": 78,
+  "cutoff": "2026-09-09",
+  "reports": 350,
+  "incident_reports": 79,
   "candidate_events": 63,
   "corroborated_events": 12,
-  "mapped_events": 59,
-  "mapped_locations": 129,
+  "mapped_events": 58,
+  "mapped_locations": 122,
   "distinct_sources": 73,
   "by_actor": {
-    "State": 39,
-    "JNIM": 12,
+    "State": 40,
+    "JNIM": 11,
     "Other": 8,
     "Africa Corps/Wagner": 4
   },
@@ -22,21 +22,21 @@
   },
   "by_event_type": {
     "security operation": 28,
-    "offensive/campaign": 11,
-    "attack": 8,
+    "offensive/campaign": 12,
     "clash": 8,
+    "attack": 7,
     "ambush": 5,
     "kidnapping": 2,
     "raid": 1
   },
   "by_language": {
-    "fr": 259,
+    "fr": 261,
     "en": 70,
     "ar": 19
   },
   "by_confidence": {
-    "moderate": 31,
-    "low": 29,
+    "moderate": 32,
+    "low": 28,
     "moderate-high": 3
   },
   "top_sources": [
@@ -48,7 +48,7 @@
     {
       "source_code": "SRC-0006",
       "source": "Malijet",
-      "count": 34
+      "count": 35
     },
     {
       "source_code": "SRC-0075",
@@ -104,11 +104,11 @@
   "top_locations": [
     {
       "location": "Kidal",
-      "count": 30
+      "count": 29
     },
     {
       "location": "Bamako",
-      "count": 13
+      "count": 12
     },
     {
       "location": "Dioura",
@@ -116,23 +116,19 @@
     },
     {
       "location": "Anéfis",
-      "count": 9
+      "count": 8
     },
     {
       "location": "Mopti",
-      "count": 9
+      "count": 8
     },
     {
       "location": "Sévaré",
-      "count": 9
+      "count": 8
     },
     {
       "location": "Tessalit",
       "count": 7
-    },
-    {
-      "location": "Gao",
-      "count": 6
     },
     {
       "location": "Ségou",
@@ -147,16 +143,15 @@
       "count": 5
     },
     {
+      "location": "Gao",
+      "count": 5
+    },
+    {
       "location": "Mali",
-      "count": 4
+      "count": 5
     }
   ],
   "daily": [
-    {
-      "date": "2026-09-09",
-      "reports": 0,
-      "events": 0
-    },
     {
       "date": "2026-09-10",
       "reports": 1,
@@ -299,11 +294,106 @@
     },
     {
       "date": "2026-10-08",
-      "reports": 21,
-      "events": 2
+      "reports": 23,
+      "events": 3
+    },
+    {
+      "date": "2026-10-09",
+      "reports": 0,
+      "events": 0
     }
   ],
   "latest_events": [
+    {
+      "id": "b85cc383ee55c4d78d52cd1f5523a283f6fb2d60",
+      "event_date": "2026-10-08",
+      "event_date_confidence": "explicit-text",
+      "event_date_source": "explicit-calendar-date",
+      "published_at": "2026-10-08T21:02:08Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-09T00:51:39.802795Z",
+      "actor": "State",
+      "perpetrator": "State",
+      "target": null,
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [
+        "State"
+      ],
+      "parent_report_id": null,
+      "event_type": "offensive/campaign",
+      "country": "Mali",
+      "city": null,
+      "lat": null,
+      "lng": null,
+      "locations": [],
+      "title": "Takalot, Talhandak, San: FAMa surgical offensive against terrorist strongholds in the North and Center",
+      "summary": "Takalot, Talhandak, San: FAMa surgical offensive against terrorist strongholds in the North and the Centre The General Staff of the Armed Forces announced, in a statement, the continuation of the offensive in the Eastern Theater as part of Operation Dougoukoloko. New air-land interventions were conducted by the Malian Armed Forces and their partners on Thursday, October 8, 2026 .",
+      "sources": [
+        "Malijet"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://malijet.com/actualte_dans_les_regions_du_mali/312236-takalot-talhandak-san-offensive-chirurgicale-des-fama-co.html"
+      ],
+      "report_summaries": [
+        {
+          "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312236-takalot-talhandak-san-offensive-chirurgicale-des-fama-co.html",
+          "source": "Malijet",
+          "title": "Takalot, Talhandak, San: FAMa surgical offensive against terrorist strongholds in the North and Center",
+          "summary": "Takalot, Talhandak, San: FAMa surgical offensive against terrorist strongholds in the North and the Centre The General Staff of the Armed Forces announced, in a statement, the continuation of the offensive in the Eastern Theater as part of Operation Dougoukoloko. New air-land interventions were conducted by the Malian Armed Forces and their partners on Thursday, October 8, 2026 .",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "armed_group"
+          ],
+          "civilian_targeting_flag": false,
+          "casualty_claims": []
+        }
+      ],
+      "created_at": "2026-10-09T00:51:39.802795Z",
+      "updated_at": "2026-10-09T00:51:39.802795Z",
+      "extraction_confidence": "moderate",
+      "victim_categories": [
+        "armed_group"
+      ],
+      "civilian_targeting_flag": false,
+      "casualty_claims": [],
+      "fatalities_min": null,
+      "fatalities_max": null,
+      "fatalities_best": null,
+      "injured_min": null,
+      "injured_max": null,
+      "abducted_min": null,
+      "abducted_max": null,
+      "casualty_disputed": false,
+      "revision_history": [
+        {
+          "at": "2026-10-09T00:51:39.802795Z",
+          "type": "event_created",
+          "source": "Malijet"
+        }
+      ],
+      "corroboration": "single-source",
+      "confidence": "moderate",
+      "independent_source_domains": [
+        "malijet.com"
+      ],
+      "independent_source_count": 1,
+      "significance": "MAJOR",
+      "significance_reasons": [
+        "strategic/severe event pattern"
+      ]
+    },
     {
       "id": "4bf0802fb82eed243728f34d94b88e3de343bcb4",
       "event_date": "2026-10-08",
@@ -3735,117 +3825,45 @@
       "significance_reasons": [
         "strategic/severe event pattern"
       ]
-    },
-    {
-      "id": "c57b8d00e5b43ab08730b7adfe8dc480c3f1927b",
-      "event_date": "2026-09-29",
-      "event_date_confidence": "explicit-text",
-      "event_date_source": "relative-weekday",
-      "published_at": "2026-09-29T17:22:59Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-09-29T17:29:50.237478Z",
-      "actor": "JNIM",
-      "perpetrator": null,
-      "target": "Africa Corps/Wagner",
-      "claimant": null,
-      "supporting_force": null,
-      "mentioned_actors": [
-        "Africa Corps/Wagner",
-        "JNIM"
-      ],
-      "parent_report_id": null,
-      "event_type": "attack",
-      "country": "Mali",
-      "city": "Niono",
-      "lat": 14.25,
-      "lng": -5.9833,
-      "locations": [
-        {
-          "name": "Niono",
-          "country": "Mali",
-          "lat": 14.25,
-          "lng": -5.9833,
-          "confidence": "explicit-place"
-        },
-        {
-          "name": "Ségou",
-          "country": "Mali",
-          "lat": 13.4317,
-          "lng": -6.2157,
-          "confidence": "explicit-place"
-        }
-      ],
-      "title": "Mali: at least 3 Russian soldiers and 4 paramilitaries killed in a jihadist attack",
-      "summary": "Mali: at least 3 Russian servicemen and 4 paramilitaries killed in jihadist attack At least three Malian servicemen and four Russian paramilitaries of Africa Corps, were killed Sunday when their convoy fell in a jihadist ambush in the center of the country, AFP learned Tuesday from security and local sources This new assault comes amid an upsurge in attacks by jihadists from the Al-Qaeda-affiliated Support Group for Islam and Muslims (JNIM) in the Sahelian country, which has been in conflict since 2012.",
-      "sources": [
-        "Seneweb"
-      ],
-      "languages": [
-        "fr"
-      ],
-      "source_count": 1,
-      "report_urls": [
-        "https://www.seneweb.com/fr/news/Afrique/mali-au-moins-3-militaires-et-4-paramilitaires-russes-tues-dans-une-attaque-jihadiste_n_505606.html"
-      ],
-      "report_summaries": [
-        {
-          "url": "https://www.seneweb.com/fr/news/Afrique/mali-au-moins-3-militaires-et-4-paramilitaires-russes-tues-dans-une-attaque-jihadiste_n_505606.html",
-          "source": "Seneweb",
-          "title": "Mali: at least 3 Russian soldiers and 4 paramilitaries killed in a jihadist attack",
-          "summary": "Mali: at least 3 Russian servicemen and 4 paramilitaries killed in jihadist attack At least three Malian servicemen and four Russian paramilitaries of Africa Corps, were killed Sunday when their convoy fell in a jihadist ambush in the center of the country, AFP learned Tuesday from security and local sources This new assault comes amid an upsurge in attacks by jihadists from the Al-Qaeda-affiliated Support Group for Islam and Muslims (JNIM) in the Sahelian country, which has been in conflict since 2012.",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "security_force",
-            "armed_group"
-          ],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        }
-      ],
-      "created_at": "2026-09-29T17:29:50.237478Z",
-      "updated_at": "2026-09-29T17:29:50.237478Z",
-      "extraction_confidence": "low",
-      "victim_categories": [
-        "security_force",
-        "armed_group"
-      ],
-      "civilian_targeting_flag": false,
-      "casualty_claims": [],
-      "fatalities_min": null,
-      "fatalities_max": null,
-      "fatalities_best": null,
-      "injured_min": null,
-      "injured_max": null,
-      "abducted_min": null,
-      "abducted_max": null,
-      "casualty_disputed": false,
-      "revision_history": [
-        {
-          "at": "2026-09-29T17:29:50.237478Z",
-          "type": "event_created",
-          "source": "Seneweb"
-        }
-      ],
-      "corroboration": "single-source",
-      "confidence": "low",
-      "independent_source_domains": [
-        "seneweb.com"
-      ],
-      "independent_source_count": 1,
-      "significance": "MAJOR",
-      "significance_reasons": [
-        "multi-location activity"
-      ]
     }
   ],
   "latest_reports": [
+    {
+      "published_at": "2026-10-08T22:59:46Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-09T00:51:43.450095Z",
+      "discovered_at": "2026-10-09T00:51:43.450095Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0092",
+      "source": "La Nouvelle Tribune (Bénin)",
+      "language": "fr",
+      "actor": null,
+      "country": "Niger",
+      "city": "Niamey",
+      "event_type": "political/security policy",
+      "candidate_event": false,
+      "title": "Niger: France expels two intelligence agents, one suspected of monitoring opponents",
+      "url": "https://lanouvelletribune.info/2026/10/niger-la-france-expulse-deux-agents-de-renseignement-lun-soupconne-de-surveiller-des-opposants/"
+    },
+    {
+      "published_at": "2026-10-08T21:02:08Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-09T00:51:39.802795Z",
+      "discovered_at": "2026-10-09T00:51:39.802795Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0006",
+      "source": "Malijet",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": null,
+      "event_type": "offensive/campaign",
+      "candidate_event": true,
+      "title": "Takalot, Talhandak, San: FAMa surgical offensive against terrorist strongholds in the North and Center",
+      "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312236-takalot-talhandak-san-offensive-chirurgicale-des-fama-co.html"
+    },
     {
       "published_at": "2026-10-08T18:05:11Z",
       "published_date_source": "jsonld:datePublished",
@@ -4529,42 +4547,6 @@
       "candidate_event": false,
       "title": "Sudan: 1,770 people displaced in Blue Nile State, according to IOM",
       "url": "https://amap.ml/2026/10/07/soudan-1-770-personnes-deplacees-dans-letat-du-nil-bleu-selon-loim/"
-    },
-    {
-      "published_at": "2026-10-07T12:21:55Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-07T12:45:54.565274Z",
-      "discovered_at": "2026-10-07T12:45:54.565274Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0085",
-      "source": "Seneweb",
-      "language": "fr",
-      "actor": null,
-      "country": "Burkina Faso",
-      "city": null,
-      "event_type": "clash",
-      "candidate_event": false,
-      "title": "Maternal mortality, nutrition, HPV: when professional advocacy starts to change practices",
-      "url": "https://www.seneweb.com/fr/news/Societe/mortalite-maternelle-nutrition-hpv-quand-le-plaidoyer-des-professionnels-commence-a-changer-les-pratiques_n_506339.html"
-    },
-    {
-      "published_at": "2026-10-07T11:45:53Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-07T12:45:48.848781Z",
-      "discovered_at": "2026-10-07T12:45:48.848781Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0001",
-      "source": "RFI Afrique",
-      "language": "fr",
-      "actor": "JNIM",
-      "country": "Mali",
-      "city": "Kidal",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "In Mali, the takeover of Kidal \"consolidates\" the Transition",
-      "url": "https://www.rfi.fr/fr/afrique/20261007-au-mali-la-reprise-de-kidal-consolide-la-transition"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."

@@ -1,5 +1,95 @@
 [
   {
+    "id": "b85cc383ee55c4d78d52cd1f5523a283f6fb2d60",
+    "event_date": "2026-10-08",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "explicit-calendar-date",
+    "published_at": "2026-10-08T21:02:08Z",
+    "published_date_source": "jsonld:datePublished",
+    "published_time_precision": "datetime",
+    "collected_at": "2026-10-09T00:51:39.802795Z",
+    "actor": "State",
+    "perpetrator": "State",
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [
+      "State"
+    ],
+    "parent_report_id": null,
+    "event_type": "offensive/campaign",
+    "country": "Mali",
+    "city": null,
+    "lat": null,
+    "lng": null,
+    "locations": [],
+    "title": "Takalot, Talhandak, San: FAMa surgical offensive against terrorist strongholds in the North and Center",
+    "summary": "Takalot, Talhandak, San: FAMa surgical offensive against terrorist strongholds in the North and the Centre The General Staff of the Armed Forces announced, in a statement, the continuation of the offensive in the Eastern Theater as part of Operation Dougoukoloko. New air-land interventions were conducted by the Malian Armed Forces and their partners on Thursday, October 8, 2026 .",
+    "sources": [
+      "Malijet"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://malijet.com/actualte_dans_les_regions_du_mali/312236-takalot-talhandak-san-offensive-chirurgicale-des-fama-co.html"
+    ],
+    "report_summaries": [
+      {
+        "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312236-takalot-talhandak-san-offensive-chirurgicale-des-fama-co.html",
+        "source": "Malijet",
+        "title": "Takalot, Talhandak, San: FAMa surgical offensive against terrorist strongholds in the North and Center",
+        "summary": "Takalot, Talhandak, San: FAMa surgical offensive against terrorist strongholds in the North and the Centre The General Staff of the Armed Forces announced, in a statement, the continuation of the offensive in the Eastern Theater as part of Operation Dougoukoloko. New air-land interventions were conducted by the Malian Armed Forces and their partners on Thursday, October 8, 2026 .",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "armed_group"
+        ],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      }
+    ],
+    "created_at": "2026-10-09T00:51:39.802795Z",
+    "updated_at": "2026-10-09T00:51:39.802795Z",
+    "extraction_confidence": "moderate",
+    "victim_categories": [
+      "armed_group"
+    ],
+    "civilian_targeting_flag": false,
+    "casualty_claims": [],
+    "fatalities_min": null,
+    "fatalities_max": null,
+    "fatalities_best": null,
+    "injured_min": null,
+    "injured_max": null,
+    "abducted_min": null,
+    "abducted_max": null,
+    "casualty_disputed": false,
+    "revision_history": [
+      {
+        "at": "2026-10-09T00:51:39.802795Z",
+        "type": "event_created",
+        "source": "Malijet"
+      }
+    ],
+    "corroboration": "single-source",
+    "confidence": "moderate",
+    "independent_source_domains": [
+      "malijet.com"
+    ],
+    "independent_source_count": 1,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "strategic/severe event pattern"
+    ]
+  },
+  {
     "id": "4bf0802fb82eed243728f34d94b88e3de343bcb4",
     "event_date": "2026-10-08",
     "event_date_confidence": "publication-proxy",
