@@ -424,21 +424,38 @@
     "parent_report_id": null,
     "event_type": "security operation",
     "country": "Mali",
-    "city": null,
-    "lat": null,
-    "lng": null,
-    "locations": [],
+    "city": "Kidal",
+    "lat": 18.4411,
+    "lng": 1.4078,
+    "locations": [
+      {
+        "name": "Kidal",
+        "country": "Mali",
+        "lat": 18.4411,
+        "lng": 1.4078,
+        "confidence": "explicit-place"
+      },
+      {
+        "name": "Timbuktu",
+        "country": "Mali",
+        "lat": 16.7666,
+        "lng": -3.0026,
+        "confidence": "explicit-place"
+      }
+    ],
     "title": "Operation Dougoukoloko: FAMa precision strikes against terrorist bases in San, Takalot and Talhandak",
     "summary": "The General Staff of the Armed Forces informs the national opinion that the Malian Armed Forces (FAMa), supported by their partners, are continuing the permanent operations of surveillance, control and security of the national territory as part of Operation Dougoukoloko In the continuation of the offensive launched in the Eastern Theater, the air-land operations conducted on Thursday, October 8, 2026 made it possible to target several positions of the armed terrorist groups.",
     "sources": [
-      "Bamada"
+      "Bamada",
+      "Malijet"
     ],
     "languages": [
       "fr"
     ],
-    "source_count": 1,
+    "source_count": 2,
     "report_urls": [
-      "https://bamada.net/operation-dougoukoloko-frappes-de-precision-des-fama-contre-des-bases-terroristes-a-san-takalot-et-talhandak"
+      "https://bamada.net/operation-dougoukoloko-frappes-de-precision-des-fama-contre-des-bases-terroristes-a-san-takalot-et-talhandak",
+      "https://malijet.com/actualte_dans_les_regions_du_mali/312261-operation-dougoukoloko-les-fama-frappent-fort-a-kidal-et-t.html"
     ],
     "report_summaries": [
       {
@@ -458,10 +475,28 @@
         ],
         "civilian_targeting_flag": false,
         "casualty_claims": []
+      },
+      {
+        "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312261-operation-dougoukoloko-les-fama-frappent-fort-a-kidal-et-t.html",
+        "source": "Malijet",
+        "title": "Operation Dougoukoloko: FAMa strike hard in Kidal and Timbuktu",
+        "summary": "Operation Dougoukoloko: FAMa strikes hard in Kidal and Timbuktu Two surgical strikes conducted by FAMa, with the support of their partners, neutralized terrorist elements in the Eastern and Central regions as part of Operation Dougoukoloko. Eastern Theater: This Friday, October 9, 2026, two vehicles carrying terrorists were spotted 45 and 46 km southwest of Kidal .",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "armed_group"
+        ],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
       }
     ],
     "created_at": "2026-10-09T08:40:24.037341Z",
-    "updated_at": "2026-10-09T08:40:24.037341Z",
+    "updated_at": "2026-10-10T12:41:27.947476Z",
     "extraction_confidence": "moderate",
     "victim_categories": [
       "armed_group"
@@ -481,17 +516,24 @@
         "at": "2026-10-09T08:40:24.037341Z",
         "type": "event_created",
         "source": "Bamada"
+      },
+      {
+        "at": "2026-10-10T12:41:27.947476Z",
+        "type": "corroboration_or_geography_update",
+        "source": "Malijet"
       }
     ],
-    "corroboration": "single-source",
+    "corroboration": "limited corroboration",
     "confidence": "moderate",
     "independent_source_domains": [
-      "bamada.net"
+      "bamada.net",
+      "malijet.com"
     ],
-    "independent_source_count": 1,
+    "independent_source_count": 2,
     "significance": "MAJOR",
     "significance_reasons": [
-      "strategic/severe event pattern"
+      "strategic/severe event pattern",
+      "multi-location activity"
     ]
   },
   {
@@ -1044,15 +1086,17 @@
     "summary": "In Mali, the recapture of the city of Kidal offers a symbolic victory to the junta and its DECRYPTING Russian ally - The Malian Armed Forces (FAMa), supported by Russian mercenaries and Tuareg loyalists, have taken over this rebel-held city since a general offensive in April. Skip adWinners didn't repeat the mistake . On November 14, 2023, during the first conquest of Kidal by the Malian army with the support of Wagner, the Russian mercenaries, enlisted by the ruling junta, had raised their black flag with a death's head.",
     "sources": [
       "Le Point Afrique",
-      "Le Figaro (Section Afrique)"
+      "Le Figaro (Section Afrique)",
+      "Seneweb"
     ],
     "languages": [
       "fr"
     ],
-    "source_count": 2,
+    "source_count": 3,
     "report_urls": [
       "https://www.lepoint.fr/afrique/au-mali-pourquoi-la-reprise-de-kidal-est-une-victoire-au-gout-amer-pour-la-junte-7WFJNHQE5ZEYLLHH55R3WVGTGY/",
-      "https://www.lefigaro.fr/international/au-mali-la-reprise-de-la-ville-de-kidal-offre-une-victoire-symbolique-a-la-junte-et-a-son-allie-russe-20261009"
+      "https://www.lefigaro.fr/international/au-mali-la-reprise-de-la-ville-de-kidal-offre-une-victoire-symbolique-a-la-junte-et-a-son-allie-russe-20261009",
+      "https://www.seneweb.com/fr/news/Afrique/mali-le-drapeau-national-flotte-desormais-dans-le-ciel-de-kidal_n_999000274.html"
     ],
     "report_summaries": [
       {
@@ -1088,10 +1132,26 @@
         "victim_categories": [],
         "civilian_targeting_flag": false,
         "casualty_claims": []
+      },
+      {
+        "url": "https://www.seneweb.com/fr/news/Afrique/mali-le-drapeau-national-flotte-desormais-dans-le-ciel-de-kidal_n_999000274.html",
+        "source": "Seneweb",
+        "title": "Mali: The national flag now flies in the sky of Kidal",
+        "summary": "Kidal, the strategic city in northern Mali has been back in the fold of the state since Tuesday, October 6, 2026. The Malian Armed Forces (Fama) and their Russian allies have indeed managed to take control of this megalopolis after a major military offensive . To mark the total and entire membership of the Ifoghas city in the Republic of Mali, the national flag was raised on its public buildings.",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
       }
     ],
     "created_at": "2026-10-09T12:43:22.572084Z",
-    "updated_at": "2026-10-09T16:39:44.227937Z",
+    "updated_at": "2026-10-10T12:41:32.839175Z",
     "extraction_confidence": "low",
     "victim_categories": [
       "armed_group"
@@ -1116,18 +1176,25 @@
         "at": "2026-10-09T16:39:44.227937Z",
         "type": "corroboration_or_geography_update",
         "source": "Le Figaro (Section Afrique)"
+      },
+      {
+        "at": "2026-10-10T12:41:32.839175Z",
+        "type": "corroboration_or_geography_update",
+        "source": "Seneweb"
       }
     ],
-    "corroboration": "limited corroboration",
-    "confidence": "moderate",
+    "corroboration": "multi-source",
+    "confidence": "moderate-high",
     "independent_source_domains": [
       "lepoint.fr",
-      "lefigaro.fr"
+      "lefigaro.fr",
+      "seneweb.com"
     ],
-    "independent_source_count": 2,
+    "independent_source_count": 3,
     "significance": "MAJOR",
     "significance_reasons": [
       "strategic/severe event pattern",
+      "multi-source corroboration",
       "multi-location activity"
     ]
   },
@@ -2561,16 +2628,18 @@
     "summary": "It was remarkable that the Malian army (Tuesday) entered the city of Kidal, in the far northeast of the country, without any fighting, six months after it fell to the Tuareg rebels, so that the city remains the title of the war that has been raging in this country for more than 15 years The transitional Malian government announced that the army units \"strengthened their positions in Kidal\", hours after the withdrawal of the \"Front for the Liberation of Azawad\", and a statement signed by the Minister of Territorial Administration and the government spokesman, General Issa Othman Coulibaly, said that the armed…",
     "sources": [
       "DW Afrique (FR)",
-      "Asharq Al-Awsat"
+      "Asharq Al-Awsat",
+      "Malijet"
     ],
     "languages": [
       "fr",
       "ar"
     ],
-    "source_count": 2,
+    "source_count": 3,
     "report_urls": [
       "https://www.dw.com/fr/fama-reinvesti-kidal-mains-jnim-des-rebelles-fla-depuis-six-mois-symbole-pour-les-militaires/a-79585745",
-      "https://aawsat.com/%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%A3%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7/5327009-%D9%85%D8%A7%D9%84%D9%8A-%D8%A7%D9%84%D8%AC%D9%8A%D8%B4-%D9%8A%D8%AF%D8%AE%D9%84-%D9%83%D9%8A%D8%AF%D8%A7%D9%84-%D8%AF%D9%88%D9%86-%D9%82%D8%AA%D8%A7%D9%84-%D8%A8%D8%AF%D8%B9%D9%85-%D9%85%D9%86-%D8%B1%D9%88%D8%B3%D9%8A%D8%A7"
+      "https://aawsat.com/%D8%A7%D9%84%D8%B9%D8%A7%D9%84%D9%85/%D8%A3%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7/5327009-%D9%85%D8%A7%D9%84%D9%8A-%D8%A7%D9%84%D8%AC%D9%8A%D8%B4-%D9%8A%D8%AF%D8%AE%D9%84-%D9%83%D9%8A%D8%AF%D8%A7%D9%84-%D8%AF%D9%88%D9%86-%D9%82%D8%AA%D8%A7%D9%84-%D8%A8%D8%AF%D8%B9%D9%85-%D9%85%D9%86-%D8%B1%D9%88%D8%B3%D9%8A%D8%A7",
+      "https://malijet.com/lettres_ouvertes_mali/312264-goonga-tan-kidal-le-retour-du-drapeau-le-retour.html"
     ],
     "report_summaries": [
       {
@@ -2608,10 +2677,26 @@
         ],
         "civilian_targeting_flag": false,
         "casualty_claims": []
+      },
+      {
+        "url": "https://malijet.com/lettres_ouvertes_mali/312264-goonga-tan-kidal-le-retour-du-drapeau-le-retour.html",
+        "source": "Malijet",
+        "title": "GOONGA TAN: Kidal: the return of the flag, the return",
+        "summary": "Mali finds Kidal. But beyond a military victory, it is a political, historical and symbolic battle that changes its nature. Indeed, this Tuesday, October 6, 2026 will undoubtedly remain as one of the highlights of Mali's recent history .",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
       }
     ],
     "created_at": "2026-10-07T20:38:41.300657Z",
-    "updated_at": "2026-10-07T16:42:17.365194Z",
+    "updated_at": "2026-10-10T12:41:28.817877Z",
     "extraction_confidence": "low",
     "victim_categories": [
       "civilian",
@@ -2637,17 +2722,24 @@
         "at": "2026-10-07T16:42:17.365194Z",
         "type": "corroboration_or_geography_update",
         "source": "Asharq Al-Awsat"
+      },
+      {
+        "at": "2026-10-10T12:41:28.817877Z",
+        "type": "corroboration_or_geography_update",
+        "source": "Malijet"
       }
     ],
-    "corroboration": "limited corroboration",
-    "confidence": "moderate",
+    "corroboration": "multi-source, multilingual",
+    "confidence": "high",
     "independent_source_domains": [
       "dw.com",
-      "aawsat.com"
+      "aawsat.com",
+      "malijet.com"
     ],
-    "independent_source_count": 2,
+    "independent_source_count": 3,
     "significance": "MAJOR",
     "significance_reasons": [
+      "multi-source corroboration",
       "multi-location activity"
     ]
   },
