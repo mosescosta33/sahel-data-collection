@@ -1,11 +1,7 @@
 {
-  "generated_at": "2026-10-09T20:38:18.676865Z",
+  "generated_at": "2026-10-10T00:50:30.430936Z",
   "series": {
     "JNIM": [
-      {
-        "date": "2026-04-13",
-        "count": 0
-      },
       {
         "date": "2026-04-14",
         "count": 0
@@ -720,15 +716,15 @@
       },
       {
         "date": "2026-10-09",
+        "count": 0
+      },
+      {
+        "date": "2026-10-10",
         "count": 0
       }
     ],
     "IS Sahel": [
       {
-        "date": "2026-04-13",
-        "count": 0
-      },
-      {
         "date": "2026-04-14",
         "count": 0
       },
@@ -1443,13 +1439,13 @@
       {
         "date": "2026-10-09",
         "count": 0
+      },
+      {
+        "date": "2026-10-10",
+        "count": 0
       }
     ],
     "State": [
-      {
-        "date": "2026-04-13",
-        "count": 0
-      },
       {
         "date": "2026-04-14",
         "count": 0
@@ -2165,13 +2161,13 @@
       {
         "date": "2026-10-09",
         "count": 1
+      },
+      {
+        "date": "2026-10-10",
+        "count": 0
       }
     ],
     "Africa Corps/Wagner": [
-      {
-        "date": "2026-04-13",
-        "count": 0
-      },
       {
         "date": "2026-04-14",
         "count": 0
@@ -2887,6 +2883,10 @@
       {
         "date": "2026-10-09",
         "count": 1
+      },
+      {
+        "date": "2026-10-10",
+        "count": 0
       }
     ]
   },
@@ -2902,9 +2902,9 @@
       "change_pct": null
     },
     "State": {
-      "current": 22,
-      "previous": 8,
-      "change_pct": 175.0
+      "current": 19,
+      "previous": 11,
+      "change_pct": 72.7
     },
     "Africa Corps/Wagner": {
       "current": 8,
@@ -2914,9 +2914,9 @@
   },
   "trends_30d": {
     "JNIM": {
-      "current": 11,
-      "previous": 3,
-      "change_pct": 266.7
+      "current": 9,
+      "previous": 5,
+      "change_pct": 80.0
     },
     "IS Sahel": {
       "current": 0,
@@ -2929,9 +2929,9 @@
       "change_pct": null
     },
     "Africa Corps/Wagner": {
-      "current": 17,
-      "previous": 3,
-      "change_pct": 466.7
+      "current": 16,
+      "previous": 4,
+      "change_pct": 300.0
     }
   },
   "method_note": "Counts are fused candidate events extracted from monitored open-source reporting. Africa Corps/Wagner is an involvement series and can overlap State activity when Russian personnel are coded as a supporting force. These are not independently verified incident counts; changes can reflect both real-world activity and reporting/collection effects."

@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-09T20:38:18.676875Z",
+  "generated_at": "2026-10-10T00:50:30.430945Z",
   "window_days": 30,
-  "cutoff": "2026-09-09",
-  "reports": 372,
+  "cutoff": "2026-09-10",
+  "reports": 376,
   "incident_reports": 85,
   "candidate_events": 67,
   "corroborated_events": 13,
   "mapped_events": 61,
   "mapped_locations": 128,
-  "distinct_sources": 75,
+  "distinct_sources": 76,
   "by_actor": {
     "State": 43,
     "JNIM": 11,
@@ -30,7 +30,7 @@
     "raid": 1
   },
   "by_language": {
-    "fr": 279,
+    "fr": 283,
     "en": 74,
     "ar": 19
   },
@@ -43,7 +43,7 @@
     {
       "source_code": "SRC-0008",
       "source": "Bamada",
-      "count": 45
+      "count": 48
     },
     {
       "source_code": "SRC-0006",
@@ -152,11 +152,6 @@
     }
   ],
   "daily": [
-    {
-      "date": "2026-09-10",
-      "reports": 1,
-      "events": 2
-    },
     {
       "date": "2026-09-11",
       "reports": 3,
@@ -299,8 +294,13 @@
     },
     {
       "date": "2026-10-09",
-      "reports": 19,
+      "reports": 22,
       "events": 2
+    },
+    {
+      "date": "2026-10-10",
+      "reports": 1,
+      "events": 0
     }
   ],
   "latest_events": [
@@ -3842,6 +3842,60 @@
   ],
   "latest_reports": [
     {
+      "published_at": "2026-10-10T00:08:15Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-10T00:49:18.420493Z",
+      "discovered_at": "2026-10-10T00:49:18.420493Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0008",
+      "source": "Bamada",
+      "language": "fr",
+      "actor": "JNIM",
+      "country": "Mali",
+      "city": "Bamako",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Reconciliation at what cost: and Iyad Ag Ghaly?",
+      "url": "https://bamada.net/reconciliation-a-quel-prix-et-iyad-ag-ghaly"
+    },
+    {
+      "published_at": "2026-10-09T21:02:11Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-10T00:49:18.371606Z",
+      "discovered_at": "2026-10-10T00:49:18.371606Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0008",
+      "source": "Bamada",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Gao",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "GAO: 234 trainees complete their Inter-Arms Certificate (CIA) training",
+      "url": "https://bamada.net/gao-234-stagiaires-achevent-leur-formation-au-certificat-interarmes-cia"
+    },
+    {
+      "published_at": "2026-10-09T20:57:47Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-10T00:49:25.749834Z",
+      "discovered_at": "2026-10-10T00:49:25.749834Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0008",
+      "source": "Bamada",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": null,
+      "event_type": "political/security policy",
+      "candidate_event": false,
+      "title": "DIRECTORATE OF THE ARMED FORCES COMMISSARIAT: The Chief of the General Staff of the Armed Forces on an official visit",
+      "url": "https://bamada.net/direction-du-commissariat-des-armees-le-chef-detat-major-general-des-armees-en-visite-dautorite"
+    },
+    {
       "published_at": "2026-10-09T18:28:20Z",
       "published_date_source": "jsonld:datePublished",
       "published_time_precision": "datetime",
@@ -4184,6 +4238,24 @@
       "url": "https://www.sidwaya.info/2026/10/09/non-a-la-guerre-familiale/"
     },
     {
+      "published_at": "2026-10-09T00:00:00Z",
+      "published_date_source": "visible-publication-label",
+      "published_time_precision": "date-only",
+      "collected_at": "2026-10-10T00:49:24.205214Z",
+      "discovered_at": "2026-10-10T00:49:24.205214Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0011",
+      "source": "LeFaso.net",
+      "language": "fr",
+      "actor": "State",
+      "country": "Burkina Faso",
+      "city": null,
+      "event_type": null,
+      "candidate_event": false,
+      "title": "‎ Burkina Faso: The export of millet, maize and sorghum flour suspended until further notice",
+      "url": "https://lefaso.net/spip.php?article149876="
+    },
+    {
       "published_at": "2026-10-08T22:59:46Z",
       "published_date_source": "jsonld:datePublished",
       "published_time_precision": "datetime",
@@ -4488,78 +4560,6 @@
       "candidate_event": false,
       "title": "The Nigerien Armed Forces sensitized on the general mobilization",
       "url": "https://anp.ne/les-forces-armees-nigeriennes-sensibilisees-sur-la-mobilisation-generale/"
-    },
-    {
-      "published_at": "2026-10-08T09:13:28Z",
-      "published_date_source": "opengraph",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-08T12:47:21.681750Z",
-      "discovered_at": "2026-10-08T12:47:21.681750Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0090",
-      "source": "AllAfrica (Édition Française)",
-      "language": "fr",
-      "actor": "JNIM",
-      "country": "Mali",
-      "city": "Kidal",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Mali: A return in trompe-l'oeil of the Fama in Kidal?",
-      "url": "https://fr.allafrica.com/stories/202610080149.html"
-    },
-    {
-      "published_at": "2026-10-08T09:01:12Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-08T12:47:39.235336Z",
-      "discovered_at": "2026-10-08T12:47:39.235336Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0017",
-      "source": "Le Sahel",
-      "language": "fr",
-      "actor": null,
-      "country": "Niger",
-      "city": "Diffa",
-      "event_type": "security operation",
-      "candidate_event": false,
-      "title": "Diffa/Goudoumaria: 250 t of millet for targeted free distribution in 104 villages",
-      "url": "https://www.lesahel.org/diffa-goudoumaria-250-t-de-mil-pour-une-distribution-gratuite-ciblee-dans-104-villages/"
-    },
-    {
-      "published_at": "2026-10-08T08:25:17Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-08T08:41:18.492176Z",
-      "discovered_at": "2026-10-08T08:41:18.492176Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0006",
-      "source": "Malijet",
-      "language": "fr",
-      "actor": null,
-      "country": "Mali",
-      "city": "Bamako",
-      "event_type": "kidnapping",
-      "candidate_event": false,
-      "title": "Me Mountaga Tall: we don't talk about it anymore?",
-      "url": "https://malijet.com/a_la_une_du_mali/312224-me-mountaga-tall-on-nen-parle-plus.html"
-    },
-    {
-      "published_at": "2026-10-08T08:16:13Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-08T08:41:10.372178Z",
-      "discovered_at": "2026-10-08T08:41:10.372178Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0006",
-      "source": "Malijet",
-      "language": "fr",
-      "actor": null,
-      "country": "Mali",
-      "city": "Bamako",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Military justice: Bamako Court sentences military and civilians for arms trafficking",
-      "url": "https://malijet.com/la_societe_malienne_aujourdhui/312222-justice-militaire-le-tribunal-de-bamako-condamne-des-milit.html"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
