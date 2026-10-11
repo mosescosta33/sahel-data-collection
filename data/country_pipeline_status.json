@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-11T04:39:40.553483Z",
-  "run_id": "e35cf28d64f7455ffcbe459290b62b75d3001ff5",
+  "generated_at": "2026-10-11T06:48:09.297456Z",
+  "run_id": "278a7796494c13de63a458a45d7916ba02920603",
   "pipelines": {
     "Mali": {
       "sources": 11,
       "discovered": 359,
-      "included": 0,
-      "excluded": 13,
+      "included": 1,
+      "excluded": 12,
       "errors": 0,
       "duplicates": 0,
       "pending": 0,
@@ -19,8 +19,8 @@
     "Burkina Faso": {
       "sources": 10,
       "discovered": 553,
-      "included": 1,
-      "excluded": 12,
+      "included": 0,
+      "excluded": 3,
       "errors": 0,
       "duplicates": 0,
       "pending": 0,
@@ -31,9 +31,9 @@
     },
     "Niger": {
       "sources": 8,
-      "discovered": 570,
-      "included": 1,
-      "excluded": 55,
+      "discovered": 568,
+      "included": 0,
+      "excluded": 18,
       "errors": 0,
       "duplicates": 0,
       "pending": 0,
@@ -44,15 +44,15 @@
     },
     "Regional": {
       "sources": 155,
-      "discovered": 10443,
+      "discovered": 9832,
       "included": 0,
-      "excluded": 7,
+      "excluded": 0,
       "errors": 0,
       "duplicates": 0,
       "pending": 0,
       "status": "DEGRADED",
-      "reached_sources": 134,
-      "failed_sources": 21,
+      "reached_sources": 133,
+      "failed_sources": 22,
       "note": "Regional/cross-border lane; 7 priority query terms configured"
     }
   }
