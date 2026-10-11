@@ -1,42 +1,42 @@
 {
-  "generated_at": "2026-10-10T20:36:49.492857Z",
+  "generated_at": "2026-10-11T00:49:55.745151Z",
   "window_days": 30,
-  "cutoff": "2026-09-10",
-  "reports": 386,
+  "cutoff": "2026-09-11",
+  "reports": 388,
   "incident_reports": 90,
-  "candidate_events": 69,
+  "candidate_events": 67,
   "corroborated_events": 14,
-  "mapped_events": 64,
-  "mapped_locations": 133,
+  "mapped_events": 62,
+  "mapped_locations": 126,
   "distinct_sources": 76,
   "by_actor": {
     "State": 45,
-    "JNIM": 11,
+    "JNIM": 9,
     "Other": 8,
     "Africa Corps/Wagner": 5
   },
   "by_country": {
-    "Mali": 64,
+    "Mali": 62,
     "Niger": 3,
     "Burkina Faso": 2
   },
   "by_event_type": {
     "security operation": 32,
     "offensive/campaign": 13,
-    "attack": 8,
     "clash": 8,
-    "ambush": 5,
+    "attack": 7,
+    "ambush": 4,
     "kidnapping": 2,
     "raid": 1
   },
   "by_language": {
-    "fr": 292,
-    "en": 74,
+    "fr": 293,
+    "en": 75,
     "ar": 20
   },
   "by_confidence": {
-    "moderate": 34,
-    "low": 30,
+    "moderate": 33,
+    "low": 29,
     "moderate-high": 4,
     "high": 1
   },
@@ -49,7 +49,7 @@
     {
       "source_code": "SRC-0006",
       "source": "Malijet",
-      "count": 38
+      "count": 39
     },
     {
       "source_code": "SRC-0075",
@@ -67,13 +67,13 @@
       "count": 14
     },
     {
-      "source_code": "SRC-0015",
-      "source": "ActuNiger",
-      "count": 13
-    },
-    {
       "source_code": "SRC-0121",
       "source": "AllAfrica (English Edition)",
+      "count": 14
+    },
+    {
+      "source_code": "SRC-0015",
+      "source": "ActuNiger",
       "count": 13
     },
     {
@@ -105,26 +105,18 @@
   "top_locations": [
     {
       "location": "Kidal",
-      "count": 34
+      "count": 33
     },
     {
       "location": "Bamako",
-      "count": 14
+      "count": 13
     },
     {
       "location": "Dioura",
-      "count": 12
+      "count": 10
     },
     {
       "location": "Anéfis",
-      "count": 8
-    },
-    {
-      "location": "Mopti",
-      "count": 8
-    },
-    {
-      "location": "Sévaré",
       "count": 8
     },
     {
@@ -132,8 +124,16 @@
       "count": 8
     },
     {
+      "location": "Sévaré",
+      "count": 7
+    },
+    {
       "location": "Tessalit",
       "count": 7
+    },
+    {
+      "location": "Mopti",
+      "count": 6
     },
     {
       "location": "Ségou",
@@ -153,11 +153,6 @@
     }
   ],
   "daily": [
-    {
-      "date": "2026-09-11",
-      "reports": 3,
-      "events": 0
-    },
     {
       "date": "2026-09-12",
       "reports": 3,
@@ -300,8 +295,13 @@
     },
     {
       "date": "2026-10-10",
-      "reports": 10,
+      "reports": 12,
       "events": 2
+    },
+    {
+      "date": "2026-10-11",
+      "reports": 0,
+      "events": 0
     }
   ],
   "latest_events": [
@@ -3905,6 +3905,42 @@
   ],
   "latest_reports": [
     {
+      "published_at": "2026-10-10T23:24:38Z",
+      "published_date_source": "opengraph",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-11T00:49:27.369852Z",
+      "discovered_at": "2026-10-11T00:49:27.369852Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0121",
+      "source": "AllAfrica (English Edition)",
+      "language": "en",
+      "actor": "State",
+      "country": "Niger",
+      "city": null,
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Niger: Niger Intelligence Agents Expelled From France in Sign of Diplomatic Strain",
+      "url": "https://allafrica.com/stories/202610100171.html"
+    },
+    {
+      "published_at": "2026-10-10T20:49:14Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-11T00:49:16.223881Z",
+      "discovered_at": "2026-10-11T00:49:16.223881Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0006",
+      "source": "Malijet",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Bamako",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Fuel supply: 5,396 tankers arrived in Bamako since September",
+      "url": "https://malijet.com/flash-info/312267-approvisionnement-en-carburant-5-396-camions-citernes-arri.html"
+    },
+    {
       "published_at": "2026-10-10T20:13:34Z",
       "published_date_source": "feed",
       "published_time_precision": "datetime",
@@ -4587,42 +4623,6 @@
       "candidate_event": false,
       "title": "No ransom paid for release of abducted corps members, says Imo CP",
       "url": "https://punchng.com/no-ransom-paid-for-release-of-abducted-corps-members-says-imo-cp/"
-    },
-    {
-      "published_at": "2026-10-08T15:27:00Z",
-      "published_date_source": "opengraph",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-08T16:43:17.786032Z",
-      "discovered_at": "2026-10-08T16:43:17.786032Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0121",
-      "source": "AllAfrica (English Edition)",
-      "language": "en",
-      "actor": "Africa Corps/Wagner",
-      "country": "Mali",
-      "city": "Bamako",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "What Russia’s Africa Corps Is Actually Doing in Mali",
-      "url": "https://allafrica.com/view/group/main/main/id/00098396.html"
-    },
-    {
-      "published_at": "2026-10-08T15:21:09Z",
-      "published_date_source": "opengraph",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-09T12:43:21.908869Z",
-      "discovered_at": "2026-10-09T12:43:21.908869Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0079",
-      "source": "L'Essor",
-      "language": "fr",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Bamako",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Month of Solidarity: President Assimi GOÏTA with the Dean of Bamako The inhabitants of the Troukabougou sector of Djicoroni Para, in Commune IV of the District of Bamako, woke up this Thursday, October 8, 2026 under an impressive security device.",
-      "url": "https://www.lessor.ml/posts/mois-de-la-solidarite-le-president-assimi-goita-chez-le-doyen-de-bamako-6ac7b4e5ad550"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
