@@ -1,5 +1,95 @@
 [
   {
+    "id": "4acc044be2e6556048e5235e8291c8397070c5db",
+    "event_date": "2026-10-10",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "explicit-date-no-year",
+    "published_at": "2026-10-11T09:19:48Z",
+    "published_date_source": "jsonld:datePublished",
+    "published_time_precision": "datetime",
+    "collected_at": "2026-10-11T12:45:16.579548Z",
+    "actor": "Other",
+    "perpetrator": null,
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [],
+    "parent_report_id": null,
+    "event_type": "kidnapping",
+    "country": "Niger",
+    "city": null,
+    "lat": null,
+    "lng": null,
+    "locations": [],
+    "title": "Suspect arrested over farmer’s killing, kidnapping in Niger",
+    "summary": "The police have arrested a 29-year-old man who allegedly contracted kidnappers to abduct and kill a large-scale farmer in Zawudna village, Munya Local Government Area, and took over the deceased’s farmland. The police said Godwin Yahaya was arrested following allegations by rescued kidnapping victims that he conspired with kidnappers to abduct the farmer, Jonah Isah, and others for ransom.",
+    "sources": [
+      "The Premium Times (Nigeria)"
+    ],
+    "languages": [
+      "en"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://www.premiumtimesng.com/regional/north-central/916103-suspect-arrested-over-farmers-killing-kidnapping-in-niger.html"
+    ],
+    "report_summaries": [
+      {
+        "url": "https://www.premiumtimesng.com/regional/north-central/916103-suspect-arrested-over-farmers-killing-kidnapping-in-niger.html",
+        "source": "The Premium Times (Nigeria)",
+        "title": "Suspect arrested over farmer’s killing, kidnapping in Niger",
+        "summary": "The police have arrested a 29-year-old man who allegedly contracted kidnappers to abduct and kill a large-scale farmer in Zawudna village, Munya Local Government Area, and took over the deceased’s farmland. The police said Godwin Yahaya was arrested following allegations by rescued kidnapping victims that he conspired with kidnappers to abduct the farmer, Jonah Isah, and others for ransom.",
+        "summary_basis": "source-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "civilian",
+          "security_force"
+        ],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      }
+    ],
+    "created_at": "2026-10-11T12:45:16.579548Z",
+    "updated_at": "2026-10-11T12:45:16.579548Z",
+    "extraction_confidence": "low",
+    "victim_categories": [
+      "civilian",
+      "security_force"
+    ],
+    "civilian_targeting_flag": false,
+    "casualty_claims": [],
+    "fatalities_min": null,
+    "fatalities_max": null,
+    "fatalities_best": null,
+    "injured_min": null,
+    "injured_max": null,
+    "abducted_min": null,
+    "abducted_max": null,
+    "casualty_disputed": false,
+    "revision_history": [
+      {
+        "at": "2026-10-11T12:45:16.579548Z",
+        "type": "event_created",
+        "source": "The Premium Times (Nigeria)"
+      }
+    ],
+    "corroboration": "single-source",
+    "confidence": "low",
+    "independent_source_domains": [
+      "premiumtimesng.com"
+    ],
+    "independent_source_count": 1,
+    "significance": "SIGNIFICANT",
+    "significance_reasons": [
+      "operational security event"
+    ]
+  },
+  {
     "id": "b7e59cb9faacbebbf23b120b8515aa26c998487f",
     "event_date": "2026-10-10",
     "event_date_confidence": "publication-proxy",
