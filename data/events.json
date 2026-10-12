@@ -1,5 +1,105 @@
 [
   {
+    "id": "cfb1d6d26ad8cc2dc650e5d875b09db73986610b",
+    "event_date": "2026-10-12",
+    "event_date_confidence": "publication-proxy",
+    "event_date_source": "feed",
+    "published_at": "2026-10-12T10:19:08Z",
+    "published_date_source": "feed",
+    "published_time_precision": "datetime",
+    "collected_at": "2026-10-12T13:02:59.448503Z",
+    "actor": "State",
+    "perpetrator": "State",
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [
+      "State"
+    ],
+    "parent_report_id": null,
+    "event_type": "offensive/campaign",
+    "country": "Mali",
+    "city": "Kidal",
+    "lat": 18.4411,
+    "lng": 1.4078,
+    "locations": [
+      {
+        "name": "Kidal",
+        "country": "Mali",
+        "lat": 18.4411,
+        "lng": 1.4078,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "Focus: Kidal: Victory over evil!",
+    "summary": "By breaking the supposedly impregnable lock of the Northeast, our valiant soldiers not only erased years of humiliation and terrorist diktat, but they also dealt a mortal blow to the obscurantist hydra that fueled sub-regional instability .",
+    "sources": [
+      "Bamada"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://bamada.net/focus-kidal-victoire-sur-le-mal"
+    ],
+    "report_summaries": [
+      {
+        "url": "https://bamada.net/focus-kidal-victoire-sur-le-mal",
+        "source": "Bamada",
+        "title": "Focus: Kidal: Victory over evil!",
+        "summary": "By breaking the supposedly impregnable lock of the Northeast, our valiant soldiers not only erased years of humiliation and terrorist diktat, but they also dealt a mortal blow to the obscurantist hydra that fueled sub-regional instability .",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "security_force",
+          "armed_group"
+        ],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      }
+    ],
+    "created_at": "2026-10-12T13:02:59.448503Z",
+    "updated_at": "2026-10-12T13:02:59.448503Z",
+    "extraction_confidence": "low",
+    "victim_categories": [
+      "security_force",
+      "armed_group"
+    ],
+    "civilian_targeting_flag": false,
+    "casualty_claims": [],
+    "fatalities_min": null,
+    "fatalities_max": null,
+    "fatalities_best": null,
+    "injured_min": null,
+    "injured_max": null,
+    "abducted_min": null,
+    "abducted_max": null,
+    "casualty_disputed": false,
+    "revision_history": [
+      {
+        "at": "2026-10-12T13:02:59.448503Z",
+        "type": "event_created",
+        "source": "Bamada"
+      }
+    ],
+    "corroboration": "single-source",
+    "confidence": "low",
+    "independent_source_domains": [
+      "bamada.net"
+    ],
+    "independent_source_count": 1,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "strategic/severe event pattern"
+    ]
+  },
+  {
     "id": "161ee30c49ef08af351f6615e5727e82a9e06857",
     "event_date": "2026-10-11",
     "event_date_confidence": "explicit-text",
@@ -171,6 +271,110 @@
     "significance": "MAJOR",
     "significance_reasons": [
       "strategic/severe event pattern"
+    ]
+  },
+  {
+    "id": "02cfb16d5e41cc5c6e0cbac8c8b1ae5e67d74eb6",
+    "event_date": "2026-10-10",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "relative-weekday",
+    "published_at": "2026-10-12T11:25:10Z",
+    "published_date_source": "jsonld:datePublished",
+    "published_time_precision": "datetime",
+    "collected_at": "2026-10-12T13:02:59.423073Z",
+    "actor": "Africa Corps/Wagner",
+    "perpetrator": null,
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [],
+    "parent_report_id": null,
+    "event_type": "offensive/campaign",
+    "country": "Mali",
+    "city": "Kidal",
+    "lat": 18.4411,
+    "lng": 1.4078,
+    "locations": [
+      {
+        "name": "Kidal",
+        "country": "Mali",
+        "lat": 18.4411,
+        "lng": 1.4078,
+        "confidence": "explicit-place"
+      },
+      {
+        "name": "Anéfis",
+        "country": "Mali",
+        "lat": 18.0667,
+        "lng": 0.6167,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "Kidal: General Dao announces the continuation of operations beyond the city",
+    "summary": "Major General Jean Élysée Dao, Chief of the General Staff of the Armed Forces, visited Kidal last Saturday and Sunday to assess the security system and pay tribute to the fighters who participated in the recovery of the city. Accompanied by several military officials, he conveyed to them the congratulations and support of the Malian authorities On the spot, he congratulated the heads of the Joint Battlegroups (JTGs) and their men for their commitment to the takeover of Kidal.",
+    "sources": [
+      "Malijet"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://malijet.com/a_la_une_du_mali/312286-kidal-le-general-dao-annonce-la-poursuite-des-operations-a.html"
+    ],
+    "report_summaries": [
+      {
+        "url": "https://malijet.com/a_la_une_du_mali/312286-kidal-le-general-dao-annonce-la-poursuite-des-operations-a.html",
+        "source": "Malijet",
+        "title": "Kidal: General Dao announces the continuation of operations beyond the city",
+        "summary": "Major General Jean Élysée Dao, Chief of the General Staff of the Armed Forces, visited Kidal last Saturday and Sunday to assess the security system and pay tribute to the fighters who participated in the recovery of the city. Accompanied by several military officials, he conveyed to them the congratulations and support of the Malian authorities On the spot, he congratulated the heads of the Joint Battlegroups (JTGs) and their men for their commitment to the takeover of Kidal.",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "armed_group"
+        ],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      }
+    ],
+    "created_at": "2026-10-12T13:02:59.423073Z",
+    "updated_at": "2026-10-12T13:02:59.423073Z",
+    "extraction_confidence": "low",
+    "victim_categories": [
+      "armed_group"
+    ],
+    "civilian_targeting_flag": false,
+    "casualty_claims": [],
+    "fatalities_min": null,
+    "fatalities_max": null,
+    "fatalities_best": null,
+    "injured_min": null,
+    "injured_max": null,
+    "abducted_min": null,
+    "abducted_max": null,
+    "casualty_disputed": false,
+    "revision_history": [
+      {
+        "at": "2026-10-12T13:02:59.423073Z",
+        "type": "event_created",
+        "source": "Malijet"
+      }
+    ],
+    "corroboration": "single-source",
+    "confidence": "low",
+    "independent_source_domains": [
+      "malijet.com"
+    ],
+    "independent_source_count": 1,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "strategic/severe event pattern",
+      "multi-location activity"
     ]
   },
   {
@@ -493,6 +697,133 @@
     "significance": "ROUTINE",
     "significance_reasons": [
       "limited currently observed significance"
+    ]
+  },
+  {
+    "id": "52a943b693dbbc3865318db8000c4c4ed915c5ac",
+    "event_date": "2026-10-09",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "explicit-calendar-date",
+    "published_at": "2026-10-12T08:53:39Z",
+    "published_date_source": "jsonld:datePublished",
+    "published_time_precision": "datetime",
+    "collected_at": "2026-10-12T13:02:59.373840Z",
+    "actor": "State",
+    "perpetrator": "State",
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [
+      "State"
+    ],
+    "parent_report_id": null,
+    "event_type": "attack",
+    "country": "Mali",
+    "city": "Kidal",
+    "lat": 18.4411,
+    "lng": 1.4078,
+    "locations": [
+      {
+        "name": "Kidal",
+        "country": "Mali",
+        "lat": 18.4411,
+        "lng": 1.4078,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "Last minute: The FAMa thwart an attack in Kidal",
+    "summary": "As part of Operation Dougoukolo, the Malian Armed Forces (FAMa), supported by their partners, are stepping up their fight to secure the national territory. On Friday, October 9, 2026, their vigilance and responsiveness made it possible to thwart a threat of attack against an army convoy in the Kidal region . It was southwest of the city of Kidal that the worst was averted.",
+    "sources": [
+      "Malijet",
+      "Bamada"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 2,
+    "report_urls": [
+      "https://malijet.com/actualte_dans_les_regions_du_mali/312276-derniere-minute-les-fama-dejouent-une-attaque-a-kidal.html",
+      "https://bamada.net/derniere-minute-les-fama-dejouent-une-attaque-a-kidal"
+    ],
+    "report_summaries": [
+      {
+        "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312276-derniere-minute-les-fama-dejouent-une-attaque-a-kidal.html",
+        "source": "Malijet",
+        "title": "Last minute: The FAMa thwart an attack in Kidal",
+        "summary": "As part of Operation Dougoukolo, the Malian Armed Forces (FAMa), supported by their partners, are stepping up their fight to secure the national territory. On Friday, October 9, 2026, their vigilance and responsiveness made it possible to thwart a threat of attack against an army convoy in the Kidal region . It was southwest of the city of Kidal that the worst was averted.",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "security_force",
+          "armed_group"
+        ],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      },
+      {
+        "url": "https://bamada.net/derniere-minute-les-fama-dejouent-une-attaque-a-kidal",
+        "source": "Bamada",
+        "title": "Last minute: The FAMa thwart an attack in Kidal",
+        "summary": "As part of Operation Dougoukolo, the Malian Armed Forces (FAMa), supported by their partners, are stepping up their fight to secure the national territory. On Friday, October 9, 2026, their vigilance and responsiveness made it possible to thwart a threat of attack against an army convoy in the Kidal region. It was southwest of the city of Kidal that the worst was averted .",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "security_force",
+          "armed_group"
+        ],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      }
+    ],
+    "created_at": "2026-10-12T13:02:59.373840Z",
+    "updated_at": "2026-10-12T13:02:59.251223Z",
+    "extraction_confidence": "moderate",
+    "victim_categories": [
+      "security_force",
+      "armed_group"
+    ],
+    "civilian_targeting_flag": false,
+    "casualty_claims": [],
+    "fatalities_min": null,
+    "fatalities_max": null,
+    "fatalities_best": null,
+    "injured_min": null,
+    "injured_max": null,
+    "abducted_min": null,
+    "abducted_max": null,
+    "casualty_disputed": false,
+    "revision_history": [
+      {
+        "at": "2026-10-12T13:02:59.373840Z",
+        "type": "event_created",
+        "source": "Malijet"
+      },
+      {
+        "at": "2026-10-12T13:02:59.251223Z",
+        "type": "corroboration_or_geography_update",
+        "source": "Bamada"
+      }
+    ],
+    "corroboration": "limited corroboration",
+    "confidence": "moderate",
+    "independent_source_domains": [
+      "malijet.com",
+      "bamada.net"
+    ],
+    "independent_source_count": 2,
+    "significance": "SIGNIFICANT",
+    "significance_reasons": [
+      "operational security event"
     ]
   },
   {

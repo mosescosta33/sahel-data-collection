@@ -1,42 +1,42 @@
 {
-  "generated_at": "2026-10-12T08:47:13.002394Z",
+  "generated_at": "2026-10-12T13:04:33.583222Z",
   "window_days": 30,
   "cutoff": "2026-09-12",
-  "reports": 394,
-  "incident_reports": 94,
-  "candidate_events": 70,
-  "corroborated_events": 15,
-  "mapped_events": 62,
-  "mapped_locations": 126,
+  "reports": 403,
+  "incident_reports": 98,
+  "candidate_events": 73,
+  "corroborated_events": 16,
+  "mapped_events": 65,
+  "mapped_locations": 130,
   "distinct_sources": 76,
   "by_actor": {
-    "State": 47,
+    "State": 49,
     "JNIM": 9,
     "Other": 9,
-    "Africa Corps/Wagner": 5
+    "Africa Corps/Wagner": 6
   },
   "by_country": {
-    "Mali": 64,
+    "Mali": 67,
     "Niger": 4,
     "Burkina Faso": 2
   },
   "by_event_type": {
     "security operation": 32,
-    "offensive/campaign": 14,
+    "offensive/campaign": 16,
     "clash": 9,
-    "attack": 7,
+    "attack": 8,
     "ambush": 4,
     "kidnapping": 3,
     "raid": 1
   },
   "by_language": {
-    "fr": 297,
+    "fr": 306,
     "en": 76,
     "ar": 21
   },
   "by_confidence": {
-    "moderate": 34,
-    "low": 31,
+    "moderate": 35,
+    "low": 33,
     "moderate-high": 4,
     "high": 1
   },
@@ -44,12 +44,12 @@
     {
       "source_code": "SRC-0008",
       "source": "Bamada",
-      "count": 55
+      "count": 60
     },
     {
       "source_code": "SRC-0006",
       "source": "Malijet",
-      "count": 40
+      "count": 42
     },
     {
       "source_code": "SRC-0075",
@@ -82,6 +82,11 @@
       "count": 12
     },
     {
+      "source_code": "SRC-0092",
+      "source": "La Nouvelle Tribune (Bénin)",
+      "count": 11
+    },
+    {
       "source_code": "SRC-0003",
       "source": "Jeune Afrique",
       "count": 10
@@ -95,17 +100,12 @@
       "source_code": "SRC-0064",
       "source": "Africa Defense Forum (ADF Magazine)",
       "count": 10
-    },
-    {
-      "source_code": "SRC-0085",
-      "source": "Seneweb",
-      "count": 10
     }
   ],
   "top_locations": [
     {
       "location": "Kidal",
-      "count": 33
+      "count": 36
     },
     {
       "location": "Bamako",
@@ -117,7 +117,7 @@
     },
     {
       "location": "Anéfis",
-      "count": 8
+      "count": 9
     },
     {
       "location": "Timbuktu",
@@ -286,12 +286,12 @@
     {
       "date": "2026-10-09",
       "reports": 24,
-      "events": 2
+      "events": 3
     },
     {
       "date": "2026-10-10",
       "reports": 12,
-      "events": 3
+      "events": 4
     },
     {
       "date": "2026-10-11",
@@ -300,11 +300,111 @@
     },
     {
       "date": "2026-10-12",
-      "reports": 3,
-      "events": 0
+      "reports": 13,
+      "events": 1
     }
   ],
   "latest_events": [
+    {
+      "id": "cfb1d6d26ad8cc2dc650e5d875b09db73986610b",
+      "event_date": "2026-10-12",
+      "event_date_confidence": "publication-proxy",
+      "event_date_source": "feed",
+      "published_at": "2026-10-12T10:19:08Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-12T13:02:59.448503Z",
+      "actor": "State",
+      "perpetrator": "State",
+      "target": null,
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [
+        "State"
+      ],
+      "parent_report_id": null,
+      "event_type": "offensive/campaign",
+      "country": "Mali",
+      "city": "Kidal",
+      "lat": 18.4411,
+      "lng": 1.4078,
+      "locations": [
+        {
+          "name": "Kidal",
+          "country": "Mali",
+          "lat": 18.4411,
+          "lng": 1.4078,
+          "confidence": "explicit-place"
+        }
+      ],
+      "title": "Focus: Kidal: Victory over evil!",
+      "summary": "By breaking the supposedly impregnable lock of the Northeast, our valiant soldiers not only erased years of humiliation and terrorist diktat, but they also dealt a mortal blow to the obscurantist hydra that fueled sub-regional instability .",
+      "sources": [
+        "Bamada"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://bamada.net/focus-kidal-victoire-sur-le-mal"
+      ],
+      "report_summaries": [
+        {
+          "url": "https://bamada.net/focus-kidal-victoire-sur-le-mal",
+          "source": "Bamada",
+          "title": "Focus: Kidal: Victory over evil!",
+          "summary": "By breaking the supposedly impregnable lock of the Northeast, our valiant soldiers not only erased years of humiliation and terrorist diktat, but they also dealt a mortal blow to the obscurantist hydra that fueled sub-regional instability .",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "security_force",
+            "armed_group"
+          ],
+          "civilian_targeting_flag": false,
+          "casualty_claims": []
+        }
+      ],
+      "created_at": "2026-10-12T13:02:59.448503Z",
+      "updated_at": "2026-10-12T13:02:59.448503Z",
+      "extraction_confidence": "low",
+      "victim_categories": [
+        "security_force",
+        "armed_group"
+      ],
+      "civilian_targeting_flag": false,
+      "casualty_claims": [],
+      "fatalities_min": null,
+      "fatalities_max": null,
+      "fatalities_best": null,
+      "injured_min": null,
+      "injured_max": null,
+      "abducted_min": null,
+      "abducted_max": null,
+      "casualty_disputed": false,
+      "revision_history": [
+        {
+          "at": "2026-10-12T13:02:59.448503Z",
+          "type": "event_created",
+          "source": "Bamada"
+        }
+      ],
+      "corroboration": "single-source",
+      "confidence": "low",
+      "independent_source_domains": [
+        "bamada.net"
+      ],
+      "independent_source_count": 1,
+      "significance": "MAJOR",
+      "significance_reasons": [
+        "strategic/severe event pattern"
+      ]
+    },
     {
       "id": "161ee30c49ef08af351f6615e5727e82a9e06857",
       "event_date": "2026-10-11",
@@ -477,6 +577,110 @@
       "significance": "MAJOR",
       "significance_reasons": [
         "strategic/severe event pattern"
+      ]
+    },
+    {
+      "id": "02cfb16d5e41cc5c6e0cbac8c8b1ae5e67d74eb6",
+      "event_date": "2026-10-10",
+      "event_date_confidence": "explicit-text",
+      "event_date_source": "relative-weekday",
+      "published_at": "2026-10-12T11:25:10Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-12T13:02:59.423073Z",
+      "actor": "Africa Corps/Wagner",
+      "perpetrator": null,
+      "target": null,
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [],
+      "parent_report_id": null,
+      "event_type": "offensive/campaign",
+      "country": "Mali",
+      "city": "Kidal",
+      "lat": 18.4411,
+      "lng": 1.4078,
+      "locations": [
+        {
+          "name": "Kidal",
+          "country": "Mali",
+          "lat": 18.4411,
+          "lng": 1.4078,
+          "confidence": "explicit-place"
+        },
+        {
+          "name": "Anéfis",
+          "country": "Mali",
+          "lat": 18.0667,
+          "lng": 0.6167,
+          "confidence": "explicit-place"
+        }
+      ],
+      "title": "Kidal: General Dao announces the continuation of operations beyond the city",
+      "summary": "Major General Jean Élysée Dao, Chief of the General Staff of the Armed Forces, visited Kidal last Saturday and Sunday to assess the security system and pay tribute to the fighters who participated in the recovery of the city. Accompanied by several military officials, he conveyed to them the congratulations and support of the Malian authorities On the spot, he congratulated the heads of the Joint Battlegroups (JTGs) and their men for their commitment to the takeover of Kidal.",
+      "sources": [
+        "Malijet"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://malijet.com/a_la_une_du_mali/312286-kidal-le-general-dao-annonce-la-poursuite-des-operations-a.html"
+      ],
+      "report_summaries": [
+        {
+          "url": "https://malijet.com/a_la_une_du_mali/312286-kidal-le-general-dao-annonce-la-poursuite-des-operations-a.html",
+          "source": "Malijet",
+          "title": "Kidal: General Dao announces the continuation of operations beyond the city",
+          "summary": "Major General Jean Élysée Dao, Chief of the General Staff of the Armed Forces, visited Kidal last Saturday and Sunday to assess the security system and pay tribute to the fighters who participated in the recovery of the city. Accompanied by several military officials, he conveyed to them the congratulations and support of the Malian authorities On the spot, he congratulated the heads of the Joint Battlegroups (JTGs) and their men for their commitment to the takeover of Kidal.",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "armed_group"
+          ],
+          "civilian_targeting_flag": false,
+          "casualty_claims": []
+        }
+      ],
+      "created_at": "2026-10-12T13:02:59.423073Z",
+      "updated_at": "2026-10-12T13:02:59.423073Z",
+      "extraction_confidence": "low",
+      "victim_categories": [
+        "armed_group"
+      ],
+      "civilian_targeting_flag": false,
+      "casualty_claims": [],
+      "fatalities_min": null,
+      "fatalities_max": null,
+      "fatalities_best": null,
+      "injured_min": null,
+      "injured_max": null,
+      "abducted_min": null,
+      "abducted_max": null,
+      "casualty_disputed": false,
+      "revision_history": [
+        {
+          "at": "2026-10-12T13:02:59.423073Z",
+          "type": "event_created",
+          "source": "Malijet"
+        }
+      ],
+      "corroboration": "single-source",
+      "confidence": "low",
+      "independent_source_domains": [
+        "malijet.com"
+      ],
+      "independent_source_count": 1,
+      "significance": "MAJOR",
+      "significance_reasons": [
+        "strategic/severe event pattern",
+        "multi-location activity"
       ]
     },
     {
@@ -799,6 +1003,133 @@
       "significance": "ROUTINE",
       "significance_reasons": [
         "limited currently observed significance"
+      ]
+    },
+    {
+      "id": "52a943b693dbbc3865318db8000c4c4ed915c5ac",
+      "event_date": "2026-10-09",
+      "event_date_confidence": "explicit-text",
+      "event_date_source": "explicit-calendar-date",
+      "published_at": "2026-10-12T08:53:39Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-12T13:02:59.373840Z",
+      "actor": "State",
+      "perpetrator": "State",
+      "target": null,
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [
+        "State"
+      ],
+      "parent_report_id": null,
+      "event_type": "attack",
+      "country": "Mali",
+      "city": "Kidal",
+      "lat": 18.4411,
+      "lng": 1.4078,
+      "locations": [
+        {
+          "name": "Kidal",
+          "country": "Mali",
+          "lat": 18.4411,
+          "lng": 1.4078,
+          "confidence": "explicit-place"
+        }
+      ],
+      "title": "Last minute: The FAMa thwart an attack in Kidal",
+      "summary": "As part of Operation Dougoukolo, the Malian Armed Forces (FAMa), supported by their partners, are stepping up their fight to secure the national territory. On Friday, October 9, 2026, their vigilance and responsiveness made it possible to thwart a threat of attack against an army convoy in the Kidal region . It was southwest of the city of Kidal that the worst was averted.",
+      "sources": [
+        "Malijet",
+        "Bamada"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "source_count": 2,
+      "report_urls": [
+        "https://malijet.com/actualte_dans_les_regions_du_mali/312276-derniere-minute-les-fama-dejouent-une-attaque-a-kidal.html",
+        "https://bamada.net/derniere-minute-les-fama-dejouent-une-attaque-a-kidal"
+      ],
+      "report_summaries": [
+        {
+          "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312276-derniere-minute-les-fama-dejouent-une-attaque-a-kidal.html",
+          "source": "Malijet",
+          "title": "Last minute: The FAMa thwart an attack in Kidal",
+          "summary": "As part of Operation Dougoukolo, the Malian Armed Forces (FAMa), supported by their partners, are stepping up their fight to secure the national territory. On Friday, October 9, 2026, their vigilance and responsiveness made it possible to thwart a threat of attack against an army convoy in the Kidal region . It was southwest of the city of Kidal that the worst was averted.",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "security_force",
+            "armed_group"
+          ],
+          "civilian_targeting_flag": false,
+          "casualty_claims": []
+        },
+        {
+          "url": "https://bamada.net/derniere-minute-les-fama-dejouent-une-attaque-a-kidal",
+          "source": "Bamada",
+          "title": "Last minute: The FAMa thwart an attack in Kidal",
+          "summary": "As part of Operation Dougoukolo, the Malian Armed Forces (FAMa), supported by their partners, are stepping up their fight to secure the national territory. On Friday, October 9, 2026, their vigilance and responsiveness made it possible to thwart a threat of attack against an army convoy in the Kidal region. It was southwest of the city of Kidal that the worst was averted .",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "security_force",
+            "armed_group"
+          ],
+          "civilian_targeting_flag": false,
+          "casualty_claims": []
+        }
+      ],
+      "created_at": "2026-10-12T13:02:59.373840Z",
+      "updated_at": "2026-10-12T13:02:59.251223Z",
+      "extraction_confidence": "moderate",
+      "victim_categories": [
+        "security_force",
+        "armed_group"
+      ],
+      "civilian_targeting_flag": false,
+      "casualty_claims": [],
+      "fatalities_min": null,
+      "fatalities_max": null,
+      "fatalities_best": null,
+      "injured_min": null,
+      "injured_max": null,
+      "abducted_min": null,
+      "abducted_max": null,
+      "casualty_disputed": false,
+      "revision_history": [
+        {
+          "at": "2026-10-12T13:02:59.373840Z",
+          "type": "event_created",
+          "source": "Malijet"
+        },
+        {
+          "at": "2026-10-12T13:02:59.251223Z",
+          "type": "corroboration_or_geography_update",
+          "source": "Bamada"
+        }
+      ],
+      "corroboration": "limited corroboration",
+      "confidence": "moderate",
+      "independent_source_domains": [
+        "malijet.com",
+        "bamada.net"
+      ],
+      "independent_source_count": 2,
+      "significance": "SIGNIFICANT",
+      "significance_reasons": [
+        "operational security event"
       ]
     },
     {
@@ -3543,313 +3874,189 @@
       "significance_reasons": [
         "strategic/severe event pattern"
       ]
-    },
-    {
-      "id": "8d462f6b2d4df083fe50bbc68c184332d7779126",
-      "event_date": "2026-10-05",
-      "event_date_confidence": "explicit-text",
-      "event_date_source": "explicit-calendar-date",
-      "published_at": "2026-10-06T00:25:06Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-06T00:49:24.464946Z",
-      "actor": "State",
-      "perpetrator": "State",
-      "target": null,
-      "claimant": null,
-      "supporting_force": null,
-      "mentioned_actors": [
-        "State"
-      ],
-      "parent_report_id": null,
-      "event_type": "security operation",
-      "country": "Mali",
-      "city": "Kidal",
-      "lat": 18.4411,
-      "lng": 1.4078,
-      "locations": [
-        {
-          "name": "Kidal",
-          "country": "Mali",
-          "lat": 18.4411,
-          "lng": 1.4078,
-          "confidence": "explicit-place"
-        }
-      ],
-      "title": "Operation Dougoukoloko: FAMa inflicts heavy losses on terrorists in Tinzaouatène (Kidal)",
-      "summary": "In a statement published yesterday, Monday, October 5, 2026, the General Staff of the Armed Forces informs that air-land operations have taken place in the Kidal sector. Several positions of armed terrorist groups have occasionally been located and hit in Tinzaouatène and its surroundings \"The provisional balance sheet of these operations shows many terrorists neutralized as well as the destruction of a dozen pick-up vehicles, a truck, several motorcycles and many equipment\" .",
-      "sources": [
-        "Malijet",
-        "Seneweb"
-      ],
-      "languages": [
-        "fr"
-      ],
-      "source_count": 2,
-      "report_urls": [
-        "https://malijet.com/actualte_dans_les_regions_du_mali/312187-operation-dougoukoloko-les-fama-infligent-de-lourdes-perte-1.html",
-        "https://www.seneweb.com/fr/news/Afrique/mali-les-fama-neutralisent-plusieurs-terroristes-a-tinzaouatene_n_506236.html"
-      ],
-      "report_summaries": [
-        {
-          "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312187-operation-dougoukoloko-les-fama-infligent-de-lourdes-perte-1.html",
-          "source": "Malijet",
-          "title": "Operation Dougoukoloko: FAMa inflicts heavy losses on terrorists in Tinzaouatène (Kidal)",
-          "summary": "According to a recent statement from the General Staff of the Armed Forces, air-land maneuvers are continuing in the Kidal area under the aegis of Operation Dougoukoloko. These strikes are a continuation of the actions carried out earlier in the day on Monday, October 5, 2026 Several positions of armed terrorist groups, located in Tinzaouatène and its surroundings, were subjected to precision strikes.",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "armed_group"
-          ],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        },
-        {
-          "url": "https://www.seneweb.com/fr/news/Afrique/mali-les-fama-neutralisent-plusieurs-terroristes-a-tinzaouatene_n_506236.html",
-          "source": "Seneweb",
-          "title": "Mali: Fama neutralizes several terrorists in Tinzaouatène",
-          "summary": "In a statement published yesterday, Monday, October 5, 2026, the General Staff of the Armed Forces informs that air-land operations have taken place in the Kidal sector. Several positions of armed terrorist groups have occasionally been located and hit in Tinzaouatène and its surroundings \"The provisional balance sheet of these operations shows many terrorists neutralized as well as the destruction of a dozen pick-up vehicles, a truck, several motorcycles and many equipment\" .",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "armed_group"
-          ],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        }
-      ],
-      "created_at": "2026-10-06T00:49:24.464946Z",
-      "updated_at": "2026-10-06T12:44:06.262636Z",
-      "extraction_confidence": "low",
-      "victim_categories": [
-        "armed_group"
-      ],
-      "civilian_targeting_flag": false,
-      "casualty_claims": [],
-      "fatalities_min": null,
-      "fatalities_max": null,
-      "fatalities_best": null,
-      "injured_min": null,
-      "injured_max": null,
-      "abducted_min": null,
-      "abducted_max": null,
-      "casualty_disputed": false,
-      "revision_history": [
-        {
-          "at": "2026-10-06T00:49:24.464946Z",
-          "type": "event_created",
-          "source": "Malijet"
-        },
-        {
-          "at": "2026-10-06T12:44:06.262636Z",
-          "type": "corroboration_or_geography_update",
-          "source": "Seneweb"
-        }
-      ],
-      "corroboration": "limited corroboration",
-      "confidence": "moderate",
-      "independent_source_domains": [
-        "malijet.com",
-        "seneweb.com"
-      ],
-      "independent_source_count": 2,
-      "significance": "SIGNIFICANT",
-      "significance_reasons": [
-        "operational security event"
-      ]
-    },
-    {
-      "id": "f47295d6058957f39b2b5a1381de226052002f29",
-      "event_date": "2026-10-05",
-      "event_date_confidence": "publication-proxy",
-      "event_date_source": "jsonld:datePublished",
-      "published_at": "2026-10-05T22:34:37Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-06T00:49:29.321015Z",
-      "actor": "Other",
-      "perpetrator": null,
-      "target": null,
-      "claimant": null,
-      "supporting_force": null,
-      "mentioned_actors": [],
-      "parent_report_id": null,
-      "event_type": "kidnapping",
-      "country": "Mali",
-      "city": null,
-      "lat": null,
-      "lng": null,
-      "locations": [],
-      "title": "Mali: five months after the kidnapping of Mountaga Tall, a former Minister of Justice calls on the authorities",
-      "summary": "In Mali, it has now been more than five months since Mr. Mountaga Tall, a lawyer and former minister, was abducted from his home in early May by hooded men from the State Security. After him, his son and several personalities committed to the defense of democracy were kidnapped by the Malian services .",
-      "sources": [
-        "RFI Afrique"
-      ],
-      "languages": [
-        "fr"
-      ],
-      "source_count": 1,
-      "report_urls": [
-        "https://www.rfi.fr/fr/afrique/20261005-mali-cinq-mois-apr%C3%A8s-l-enl%C3%A8vement-de-mountaga-tall-un-ex-ministre-de-la-justice-interpelle-les-autorit%C3%A9s"
-      ],
-      "report_summaries": [
-        {
-          "url": "https://www.rfi.fr/fr/afrique/20261005-mali-cinq-mois-apr%C3%A8s-l-enl%C3%A8vement-de-mountaga-tall-un-ex-ministre-de-la-justice-interpelle-les-autorit%C3%A9s",
-          "source": "RFI Afrique",
-          "title": "Mali: five months after the kidnapping of Mountaga Tall, a former Minister of Justice calls on the authorities",
-          "summary": "In Mali, it has now been more than five months since Mr. Mountaga Tall, a lawyer and former minister, was abducted from his home in early May by hooded men from the State Security. After him, his son and several personalities committed to the defense of democracy were kidnapped by the Malian services .",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        }
-      ],
-      "created_at": "2026-10-06T00:49:29.321015Z",
-      "updated_at": "2026-10-06T00:49:29.321015Z",
-      "extraction_confidence": "low",
-      "victim_categories": [],
-      "civilian_targeting_flag": false,
-      "casualty_claims": [],
-      "fatalities_min": null,
-      "fatalities_max": null,
-      "fatalities_best": null,
-      "injured_min": null,
-      "injured_max": null,
-      "abducted_min": null,
-      "abducted_max": null,
-      "casualty_disputed": false,
-      "revision_history": [
-        {
-          "at": "2026-10-06T00:49:29.321015Z",
-          "type": "event_created",
-          "source": "RFI Afrique"
-        }
-      ],
-      "corroboration": "single-source",
-      "confidence": "low",
-      "independent_source_domains": [
-        "rfi.fr"
-      ],
-      "independent_source_count": 1,
-      "significance": "SIGNIFICANT",
-      "significance_reasons": [
-        "operational security event"
-      ]
-    },
-    {
-      "id": "377dcb280e44b3d68c77d1d595e54f0614ab2753",
-      "event_date": "2026-10-05",
-      "event_date_confidence": "explicit-text",
-      "event_date_source": "relative-today",
-      "published_at": "2026-10-05T21:14:30Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-05T21:49:21.371216Z",
-      "actor": "State",
-      "perpetrator": null,
-      "target": null,
-      "claimant": null,
-      "supporting_force": null,
-      "mentioned_actors": [],
-      "parent_report_id": null,
-      "event_type": "security operation",
-      "country": "Mali",
-      "city": "Kidal",
-      "lat": 18.4411,
-      "lng": 1.4078,
-      "locations": [
-        {
-          "name": "Kidal",
-          "country": "Mali",
-          "lat": 18.4411,
-          "lng": 1.4078,
-          "confidence": "explicit-place"
-        }
-      ],
-      "title": "Mali.. The army “eliminates” militants in air and ground strikes in two attacks",
-      "summary": "On Monday evening, the Malian army announced the implementation of \"precise air and ground strikes\" against positions of armed terrorist groups in the town of \"Tinzoaten\" and its neighboring areas in the Kidal sector, the far northeast of the country. He explained in a statement that these operations come as a complement to the ongoing military efforts within Operation Dogokoloko to secure and permanently monitor the national territory.",
-      "sources": [
-        "Sahara Medias (صحراء ميديا)"
-      ],
-      "languages": [
-        "ar"
-      ],
-      "source_count": 1,
-      "report_urls": [
-        "https://saharamedias.net/266064/"
-      ],
-      "report_summaries": [
-        {
-          "url": "https://saharamedias.net/266064/",
-          "source": "Sahara Medias (صحراء ميديا)",
-          "title": "Mali.. The army “eliminates” militants in air and ground strikes in two attacks",
-          "summary": "On Monday evening, the Malian army announced the implementation of \"precise air and ground strikes\" against positions of armed terrorist groups in the town of \"Tinzoaten\" and its neighboring areas in the Kidal sector, the far northeast of the country. He explained in a statement that these operations come as a complement to the ongoing military efforts within Operation Dogokoloko to secure and permanently monitor the national territory.",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "armed_group"
-          ],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        }
-      ],
-      "created_at": "2026-10-05T21:49:21.371216Z",
-      "updated_at": "2026-10-05T21:49:21.371216Z",
-      "extraction_confidence": "low",
-      "victim_categories": [
-        "armed_group"
-      ],
-      "civilian_targeting_flag": false,
-      "casualty_claims": [],
-      "fatalities_min": null,
-      "fatalities_max": null,
-      "fatalities_best": null,
-      "injured_min": null,
-      "injured_max": null,
-      "abducted_min": null,
-      "abducted_max": null,
-      "casualty_disputed": true,
-      "revision_history": [
-        {
-          "at": "2026-10-05T21:49:21.371216Z",
-          "type": "event_created",
-          "source": "Sahara Medias (صحراء ميديا)"
-        }
-      ],
-      "corroboration": "single-source",
-      "confidence": "low",
-      "independent_source_domains": [
-        "saharamedias.net"
-      ],
-      "independent_source_count": 1,
-      "significance": "ROUTINE",
-      "significance_reasons": [
-        "limited currently observed significance"
-      ]
     }
   ],
   "latest_reports": [
+    {
+      "published_at": "2026-10-12T12:50:42Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-12T13:02:59.587729Z",
+      "discovered_at": "2026-10-12T13:02:59.587729Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0092",
+      "source": "La Nouvelle Tribune (Bénin)",
+      "language": "fr",
+      "actor": null,
+      "country": "Mali",
+      "city": "Bamako",
+      "event_type": "political/security policy",
+      "candidate_event": false,
+      "title": "Mali: a large Ivorian security delegation expected in Bamako, according to Serge Daniel",
+      "url": "https://lanouvelletribune.info/2026/10/mali-une-importante-delegation-securitaire-ivoirienne-attendue-a-bamako-selon-serge-daniel/"
+    },
+    {
+      "published_at": "2026-10-12T12:28:08Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-12T13:03:01.484563Z",
+      "discovered_at": "2026-10-12T13:03:01.484563Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0092",
+      "source": "La Nouvelle Tribune (Bénin)",
+      "language": "fr",
+      "actor": "Africa Corps/Wagner",
+      "country": "Mali",
+      "city": "Kidal",
+      "event_type": "security operation",
+      "candidate_event": false,
+      "title": "Sahel: Africa Corps hits an armed group with a “Lancet” drone",
+      "url": "https://lanouvelletribune.info/2026/10/sahel-africa-corps-frappe-un-groupe-arme-avec-un-drone-lancet/"
+    },
+    {
+      "published_at": "2026-10-12T11:25:10Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-12T13:02:59.423073Z",
+      "discovered_at": "2026-10-12T13:02:59.423073Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0006",
+      "source": "Malijet",
+      "language": "fr",
+      "actor": "Africa Corps/Wagner",
+      "country": "Mali",
+      "city": "Kidal",
+      "event_type": "offensive/campaign",
+      "candidate_event": true,
+      "title": "Kidal: General Dao announces the continuation of operations beyond the city",
+      "url": "https://malijet.com/a_la_une_du_mali/312286-kidal-le-general-dao-annonce-la-poursuite-des-operations-a.html"
+    },
+    {
+      "published_at": "2026-10-12T11:10:24Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-12T13:03:01.640902Z",
+      "discovered_at": "2026-10-12T13:03:01.640902Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0124",
+      "source": "News Central TV (Nigeria)",
+      "language": "en",
+      "actor": null,
+      "country": "Niger",
+      "city": null,
+      "event_type": "ambush",
+      "candidate_event": false,
+      "title": "Gunmen Kill 24 in Zamfara, Niger States",
+      "url": "https://newscentraltv.com/gunmen-kill-24-in-zamfara-niger-states/"
+    },
+    {
+      "published_at": "2026-10-12T10:23:39Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-12T13:02:59.224853Z",
+      "discovered_at": "2026-10-12T13:02:59.224853Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0008",
+      "source": "Bamada",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Kidal",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Resumption of Kidal: The government has spoken out",
+      "url": "https://bamada.net/reprise-de-kidal-le-gouvernement-sest-exprime"
+    },
+    {
+      "published_at": "2026-10-12T10:21:29Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-12T13:03:02.090370Z",
+      "discovered_at": "2026-10-12T13:03:02.090370Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0008",
+      "source": "Bamada",
+      "language": "fr",
+      "actor": null,
+      "country": "Mali",
+      "city": null,
+      "event_type": "law enforcement",
+      "candidate_event": false,
+      "title": "Autopsy of a feminoid: A drama that strongly challenges",
+      "url": "https://bamada.net/autopsie-dun-feminoide-un-drame-qui-interpelle-fortement"
+    },
+    {
+      "published_at": "2026-10-12T10:19:08Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-12T13:02:59.448503Z",
+      "discovered_at": "2026-10-12T13:02:59.448503Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0008",
+      "source": "Bamada",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Kidal",
+      "event_type": "offensive/campaign",
+      "candidate_event": true,
+      "title": "Focus: Kidal: Victory over evil!",
+      "url": "https://bamada.net/focus-kidal-victoire-sur-le-mal"
+    },
+    {
+      "published_at": "2026-10-12T10:12:57Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-12T13:02:59.251223Z",
+      "discovered_at": "2026-10-12T13:02:59.251223Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0008",
+      "source": "Bamada",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Kidal",
+      "event_type": "attack",
+      "candidate_event": true,
+      "title": "Last minute: The FAMa thwart an attack in Kidal",
+      "url": "https://bamada.net/derniere-minute-les-fama-dejouent-une-attaque-a-kidal"
+    },
+    {
+      "published_at": "2026-10-12T10:06:06Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-12T13:02:59.274392Z",
+      "discovered_at": "2026-10-12T13:02:59.274392Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0008",
+      "source": "Bamada",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Kayes",
+      "event_type": "offensive/campaign",
+      "candidate_event": false,
+      "title": "Reconquest of Kayes in Tinzawatene: Kidal: What remains to be done...",
+      "url": "https://bamada.net/reconquete-de-kayes-a-tinzawatene-kidal-ce-qui-reste-a-faire"
+    },
+    {
+      "published_at": "2026-10-12T08:53:39Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-12T13:02:59.373840Z",
+      "discovered_at": "2026-10-12T13:02:59.373840Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0006",
+      "source": "Malijet",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Kidal",
+      "event_type": "attack",
+      "candidate_event": true,
+      "title": "Last minute: The FAMa thwart an attack in Kidal",
+      "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312276-derniere-minute-les-fama-dejouent-une-attaque-a-kidal.html"
+    },
     {
       "published_at": "2026-10-12T08:11:56Z",
       "published_date_source": "feed",
@@ -4389,186 +4596,6 @@
       "candidate_event": true,
       "title": "In Mali, the recapture of the city of Kidal offers a symbolic victory to the junta and its Russian ally",
       "url": "https://www.lefigaro.fr/international/au-mali-la-reprise-de-la-ville-de-kidal-offre-une-victoire-symbolique-a-la-junte-et-a-son-allie-russe-20261009"
-    },
-    {
-      "published_at": "2026-10-09T14:33:35Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-09T16:39:34.185273Z",
-      "discovered_at": "2026-10-09T16:39:34.185273Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0006",
-      "source": "Malijet",
-      "language": "fr",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Kidal",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Resumption of Kidal: place for the security and effective return of state services",
-      "url": "https://malijet.com/a_la_une_du_mali/312249-reprise-de-kidal-place-a-la-securisation-et-au-retour-effe.html"
-    },
-    {
-      "published_at": "2026-10-09T12:11:32Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-09T12:43:21.864241Z",
-      "discovered_at": "2026-10-09T12:43:21.864241Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0075",
-      "source": "AMAP (Agence Malienne de Presse et de Publicité)",
-      "language": "fr",
-      "actor": null,
-      "country": "Mali",
-      "city": "Gao",
-      "event_type": "abuses/war crimes",
-      "candidate_event": false,
-      "title": "Gao: Trial of nine (9) criminal cases involving 11 defendants",
-      "url": "https://amap.ml/2026/10/09/gao-jugement-de-neuf-9-affaires-criminelles-impliquant-11-accuses/"
-    },
-    {
-      "published_at": "2026-10-09T12:07:36Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-09T12:43:21.425059Z",
-      "discovered_at": "2026-10-09T12:43:21.425059Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0085",
-      "source": "Seneweb",
-      "language": "fr",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Kidal",
-      "event_type": "offensive/campaign",
-      "candidate_event": true,
-      "title": "Fama takeover of Kidal: Choguel Maiga's reaction",
-      "url": "https://www.seneweb.com/fr/news/Afrique/prise-de-kidal-par-les-fama-la-reaction-de-choguel-maiga_n_999000199.html"
-    },
-    {
-      "published_at": "2026-10-09T11:56:50Z",
-      "published_date_source": "opengraph",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-09T12:43:31.805260Z",
-      "discovered_at": "2026-10-09T12:43:31.805260Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0121",
-      "source": "AllAfrica (English Edition)",
-      "language": "en",
-      "actor": "JNIM",
-      "country": null,
-      "city": null,
-      "event_type": null,
-      "candidate_event": false,
-      "title": "West Africa: Russia-Ukraine Conflict Finds New Battleground in Africa's Sahel",
-      "url": "https://allafrica.com/stories/202610090408.html"
-    },
-    {
-      "published_at": "2026-10-09T11:27:27Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-09T12:43:30.330902Z",
-      "discovered_at": "2026-10-09T12:43:30.330902Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0008",
-      "source": "Bamada",
-      "language": "fr",
-      "actor": null,
-      "country": null,
-      "city": null,
-      "event_type": "clash",
-      "candidate_event": false,
-      "title": "South Africa: the army deployed after xenophobic violence",
-      "url": "https://bamada.net/afrique-du-sud-larmee-deployee-apres-des-violences-xenophobes"
-    },
-    {
-      "published_at": "2026-10-09T11:21:33Z",
-      "published_date_source": "opengraph",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-09T12:43:27.169607Z",
-      "discovered_at": "2026-10-09T12:43:27.169607Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0090",
-      "source": "AllAfrica (Édition Française)",
-      "language": "fr",
-      "actor": "JNIM",
-      "country": "Mali",
-      "city": "Kidal",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Mali: \"The army has its place in Kidal but regaining it does not end the violence\", for the opposition coalition CFR",
-      "url": "https://fr.allafrica.com/stories/202610090392.html"
-    },
-    {
-      "published_at": "2026-10-09T09:22:04Z",
-      "published_date_source": "opengraph",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-09T12:43:28.802686Z",
-      "discovered_at": "2026-10-09T12:43:28.802686Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0090",
-      "source": "AllAfrica (Édition Française)",
-      "language": "fr",
-      "actor": "JNIM",
-      "country": "Burkina Faso",
-      "city": "Ouagadougou",
-      "event_type": "law enforcement",
-      "candidate_event": false,
-      "title": "Burkina Faso: The junta tries to relax with the Sunnis",
-      "url": "https://fr.allafrica.com/stories/202610090283.html"
-    },
-    {
-      "published_at": "2026-10-09T09:08:22Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-10T04:38:09.046769Z",
-      "discovered_at": "2026-10-10T04:38:09.046769Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0017",
-      "source": "Le Sahel",
-      "language": "fr",
-      "actor": null,
-      "country": "Niger",
-      "city": null,
-      "event_type": "attack",
-      "candidate_event": false,
-      "title": "\"Epic of Niger\", a project by cultural entrepreneur Ibrahima Abdoul-Rachid: \"It is enough for a people to turn to their memory for the future to change\"",
-      "url": "https://www.lesahel.org/epopee-du-niger-un-projet-de-lentrepreneur-culturel-ibrahima-abdoul-rachid-il-suffit-quun-peuple-se-tourne-vers-sa-memoire-pour-que-lavenir-chan/"
-    },
-    {
-      "published_at": "2026-10-09T09:00:30Z",
-      "published_date_source": "opengraph",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-09T12:43:25.479509Z",
-      "discovered_at": "2026-10-09T12:43:25.479509Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0079",
-      "source": "L'Essor",
-      "language": "fr",
-      "actor": null,
-      "country": "Mali",
-      "city": "Kidal",
-      "event_type": "offensive/campaign",
-      "candidate_event": false,
-      "title": "Talhandak, Kidal and Tessalit: Terrorist Positions Targeted and Accurately Addressed",
-      "url": "https://www.lessor.ml/posts/talhandak-kidal-et-tessalit-des-positions-terroristes-ciblees-et-traitees-avec-precision-6ac8ad2ed1cae"
-    },
-    {
-      "published_at": "2026-10-09T08:34:13Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-09T08:40:34.797319Z",
-      "discovered_at": "2026-10-09T08:40:34.797319Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0001",
-      "source": "RFI Afrique",
-      "language": "fr",
-      "actor": "JNIM",
-      "country": "Mali",
-      "city": "Kidal",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Mali: \"The army has its place in Kidal but regaining it does not end the violence\", for the opposition coalition CFR",
-      "url": "https://www.rfi.fr/fr/afrique/20261009-mali-l-arm%C3%A9e-a-sa-place-%C3%A0-kidal-mais-la-reconqu%C3%A9rir-ne-met-pas-fin-aux-violences-pour-la-coalition-d-opposition-cfr"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
