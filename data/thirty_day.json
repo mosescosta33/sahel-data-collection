@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-12T04:43:13.949128Z",
+  "generated_at": "2026-10-12T08:47:13.002394Z",
   "window_days": 30,
   "cutoff": "2026-09-12",
-  "reports": 393,
+  "reports": 394,
   "incident_reports": 94,
   "candidate_events": 70,
   "corroborated_events": 15,
@@ -30,7 +30,7 @@
     "raid": 1
   },
   "by_language": {
-    "fr": 296,
+    "fr": 297,
     "en": 76,
     "ar": 21
   },
@@ -44,7 +44,7 @@
     {
       "source_code": "SRC-0008",
       "source": "Bamada",
-      "count": 53
+      "count": 55
     },
     {
       "source_code": "SRC-0006",
@@ -62,11 +62,6 @@
       "count": 16
     },
     {
-      "source_code": "SRC-0015",
-      "source": "ActuNiger",
-      "count": 14
-    },
-    {
       "source_code": "SRC-0090",
       "source": "AllAfrica (Édition Française)",
       "count": 14
@@ -75,6 +70,11 @@
       "source_code": "SRC-0121",
       "source": "AllAfrica (English Edition)",
       "count": 14
+    },
+    {
+      "source_code": "SRC-0015",
+      "source": "ActuNiger",
+      "count": 13
     },
     {
       "source_code": "SRC-0012",
@@ -300,7 +300,7 @@
     },
     {
       "date": "2026-10-12",
-      "reports": 1,
+      "reports": 3,
       "events": 0
     }
   ],
@@ -3851,6 +3851,42 @@
   ],
   "latest_reports": [
     {
+      "published_at": "2026-10-12T08:11:56Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-12T08:46:24.891024Z",
+      "discovered_at": "2026-10-12T08:46:24.891024Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0008",
+      "source": "Bamada",
+      "language": "fr",
+      "actor": null,
+      "country": "Burkina Faso",
+      "city": "Ouagadougou",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Burkina: 14 suspects arrested for robberies",
+      "url": "https://bamada.net/burkina-14-suspects-arretes-pour-braquages"
+    },
+    {
+      "published_at": "2026-10-12T07:21:12Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-12T08:46:24.340282Z",
+      "discovered_at": "2026-10-12T08:46:24.340282Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0008",
+      "source": "Bamada",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Kidal",
+      "event_type": "clash",
+      "candidate_event": false,
+      "title": "Tribune: Beyond a military victory, the Sahel fights for global security",
+      "url": "https://bamada.net/tribune-au-dela-dune-victoire-militaire-le-sahel-combat-pour-la-securite-mondiale"
+    },
+    {
       "published_at": "2026-10-12T03:31:28Z",
       "published_date_source": "feed",
       "published_time_precision": "datetime",
@@ -4533,42 +4569,6 @@
       "candidate_event": false,
       "title": "Mali: \"The army has its place in Kidal but regaining it does not end the violence\", for the opposition coalition CFR",
       "url": "https://www.rfi.fr/fr/afrique/20261009-mali-l-arm%C3%A9e-a-sa-place-%C3%A0-kidal-mais-la-reconqu%C3%A9rir-ne-met-pas-fin-aux-violences-pour-la-coalition-d-opposition-cfr"
-    },
-    {
-      "published_at": "2026-10-09T07:33:26Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-09T08:40:24.037341Z",
-      "discovered_at": "2026-10-09T08:40:24.037341Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0008",
-      "source": "Bamada",
-      "language": "fr",
-      "actor": "State",
-      "country": "Mali",
-      "city": null,
-      "event_type": "security operation",
-      "candidate_event": true,
-      "title": "Operation Dougoukoloko: FAMa precision strikes against terrorist bases in San, Takalot and Talhandak",
-      "url": "https://bamada.net/operation-dougoukoloko-frappes-de-precision-des-fama-contre-des-bases-terroristes-a-san-takalot-et-talhandak"
-    },
-    {
-      "published_at": "2026-10-09T05:24:45Z",
-      "published_date_source": "opengraph",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-09T08:40:37.089135Z",
-      "discovered_at": "2026-10-09T08:40:37.089135Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0121",
-      "source": "AllAfrica (English Edition)",
-      "language": "en",
-      "actor": "State",
-      "country": "Niger",
-      "city": "Niamey",
-      "event_type": "law enforcement",
-      "candidate_event": false,
-      "title": "Niger: Niger's Junta Tightens Its Grip On Free Expression",
-      "url": "https://allafrica.com/stories/202610090135.html"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
