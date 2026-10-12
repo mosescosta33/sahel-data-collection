@@ -1,8 +1,222 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-12T00:50:47.846955Z",
-  "briefing_count": 10,
+  "generated_at": "2026-10-12T04:43:14.629772Z",
+  "briefing_count": 11,
   "briefings": [
+    {
+      "schema_version": "2.0",
+      "product": "Sultana 24-Hour AES Intelligence Brief",
+      "reporting_date": "2026-10-12",
+      "generated_at": "2026-10-12T04:43:14.629772Z",
+      "window_start": "2026-10-11T04:43:14.629772Z",
+      "window_end": "2026-10-12T04:43:14.629772Z",
+      "window_hours": 24,
+      "method": "Sultana 24-hour all-retained-report intelligence synthesis",
+      "freshness_status": "LIVE",
+      "assessment_confidence": "MODERATE",
+      "coverage": {
+        "retained_articles_reviewed": 7,
+        "retained_articles_in_window": 7,
+        "coverage_complete": true,
+        "distinct_sources": 6,
+        "linked_candidate_events": 4,
+        "multi_source_candidate_events": 1,
+        "countries": {
+          "Mali": 5,
+          "Burkina Faso": 0,
+          "Niger": 2
+        },
+        "actors": {
+          "State": 6,
+          "Other": 1
+        },
+        "event_types": {
+          "attack": 1,
+          "clash": 1,
+          "offensive/campaign": 1,
+          "security operation": 1,
+          "kidnapping": 1,
+          "political/security policy": 1
+        }
+      },
+      "sections": [
+        {
+          "heading": "BOTTOM LINE",
+          "text": "Sultana reviewed all 7 retained reports collected during the 24-hour window from 6 distinct sources. Reporting was heaviest on Mali (5 reports), while State appeared most often in actor-attributed reporting (6 reports). The same source set is linked to 4 fused candidate events, including 1 with at least two independent sources."
+        },
+        {
+          "heading": "KEY JUDGMENTS",
+          "bullets": [
+            "Reporting distribution: Mali 5, Niger 2, Burkina Faso 0 retained reports.",
+            "Actor posture: State dominated actor-attributed reporting in this window; JNIM 0, IS Sahel 0, AES/state forces 6, Africa Corps/Wagner 0.",
+            "Operational pattern: the leading coded report types were attack (1), clash (1), offensive/campaign (1), security operation (1).",
+            "Event fusion: 4 candidate events are tied to reports collected in the window; 1 currently have multi-source support."
+          ]
+        },
+        {
+          "heading": "Mali",
+          "text": "5 retained reports were reviewed for Mali. Mali.. Continuous operations of the army and the Azawad Front enter the line of battles of the sky: The Malian Army announced the implementation of military operations in several areas of the country, which resulted in the targeting of a fuel depot northeast of Infrac, and a site for a gathering of armed elements… FAMa Offensive: Fuel Depot and Terrorist Groupings Precisely Destroyed: The General Staff of the Armed Forces informs the national opinion that the Malian Armed Forces (FAMa), supported by their partners, are continuing the permanent operations of surveillance, control and security of the… Reporting was concentrated on State (5)."
+        },
+        {
+          "heading": "Burkina Faso",
+          "text": "No retained Burkina Faso-specific article was collected in this 24-hour window."
+        },
+        {
+          "heading": "Niger",
+          "text": "2 retained reports were reviewed for Niger. Suspect arrested over farmer’s killing, kidnapping in Niger: The police have arrested a 29-year-old man who allegedly contracted kidnappers to abduct and kill a large-scale farmer in Zawudna village, Munya Local Government Area, and took over the deceased’s farmland. The police… After sending aircraft to Niger… Shangarha confirms that “Algeria does not deal with the crises of the Sahel…: Algeria - “Arab Jerusalem”: The Chief of Staff of the Algerian Army, General Said Shangarha, stressed that Algeria does not deal with the crises of the Sahel as an external actor, but rather as an authentic partner who… Reporting was concentrated on State (1)."
+        },
+        {
+          "heading": "ACTOR POSTURE",
+          "text": "JNIM appears in 0 retained reports; IS Sahel in 0; AES/state forces in 6; Africa Corps/Wagner in 0. JNIM is flat at 3 fused candidate events over the current seven-day window; IS Sahel is flat at 0 fused candidate events over the current seven-day window; State is up to 16 from 12."
+        },
+        {
+          "heading": "WHAT CHANGED VS BASELINE",
+          "text": "JNIM is flat at 3 fused candidate events over the current seven-day window; IS Sahel is flat at 0 fused candidate events over the current seven-day window; State is up to 16 from 12."
+        },
+        {
+          "heading": "INDICATORS TO WATCH — NEXT 24–72 HOURS",
+          "bullets": [
+            "Resolve the reporting gap for Burkina Faso; low collection volume should not be treated as low activity."
+          ]
+        },
+        {
+          "heading": "CONFIDENCE / CAVEATS",
+          "bullets": [
+            "Multiple sources were reviewed, but some developments remain single-source or incompletely corroborated.",
+            "Collection health: 138 sources live, 19 degraded, 27 failed in the latest collector cycle.",
+            "Candidate events and actor attributions remain OSINT-derived analytical records and may change with better sourcing, dates, or geolocation."
+          ]
+        }
+      ],
+      "text": "SULTANA AL-QAHTANI — 24-HOUR AES INTELLIGENCE BRIEF\nReporting date: 2026-10-12\nWindow: 2026-10-11T04:43:14.629772Z to 2026-10-12T04:43:14.629772Z\nAssessment confidence: MODERATE\n\nBOTTOM LINE\nSultana reviewed all 7 retained reports collected during the 24-hour window from 6 distinct sources. Reporting was heaviest on Mali (5 reports), while State appeared most often in actor-attributed reporting (6 reports). The same source set is linked to 4 fused candidate events, including 1 with at least two independent sources.\n\nKEY JUDGMENTS\n• Reporting distribution: Mali 5, Niger 2, Burkina Faso 0 retained reports.\n• Actor posture: State dominated actor-attributed reporting in this window; JNIM 0, IS Sahel 0, AES/state forces 6, Africa Corps/Wagner 0.\n• Operational pattern: the leading coded report types were attack (1), clash (1), offensive/campaign (1), security operation (1).\n• Event fusion: 4 candidate events are tied to reports collected in the window; 1 currently have multi-source support.\n\nMali\n5 retained reports were reviewed for Mali. Mali.. Continuous operations of the army and the Azawad Front enter the line of battles of the sky: The Malian Army announced the implementation of military operations in several areas of the country, which resulted in the targeting of a fuel depot northeast of Infrac, and a site for a gathering of armed elements… FAMa Offensive: Fuel Depot and Terrorist Groupings Precisely Destroyed: The General Staff of the Armed Forces informs the national opinion that the Malian Armed Forces (FAMa), supported by their partners, are continuing the permanent operations of surveillance, control and security of the… Reporting was concentrated on State (5).\n\nBurkina Faso\nNo retained Burkina Faso-specific article was collected in this 24-hour window.\n\nNiger\n2 retained reports were reviewed for Niger. Suspect arrested over farmer’s killing, kidnapping in Niger: The police have arrested a 29-year-old man who allegedly contracted kidnappers to abduct and kill a large-scale farmer in Zawudna village, Munya Local Government Area, and took over the deceased’s farmland. The police… After sending aircraft to Niger… Shangarha confirms that “Algeria does not deal with the crises of the Sahel…: Algeria - “Arab Jerusalem”: The Chief of Staff of the Algerian Army, General Said Shangarha, stressed that Algeria does not deal with the crises of the Sahel as an external actor, but rather as an authentic partner who… Reporting was concentrated on State (1).\n\nACTOR POSTURE\nJNIM appears in 0 retained reports; IS Sahel in 0; AES/state forces in 6; Africa Corps/Wagner in 0. JNIM is flat at 3 fused candidate events over the current seven-day window; IS Sahel is flat at 0 fused candidate events over the current seven-day window; State is up to 16 from 12.\n\nWHAT CHANGED VS BASELINE\nJNIM is flat at 3 fused candidate events over the current seven-day window; IS Sahel is flat at 0 fused candidate events over the current seven-day window; State is up to 16 from 12.\n\nINDICATORS TO WATCH — NEXT 24–72 HOURS\n• Resolve the reporting gap for Burkina Faso; low collection volume should not be treated as low activity.\n\nCONFIDENCE / CAVEATS\n• Multiple sources were reviewed, but some developments remain single-source or incompletely corroborated.\n• Collection health: 138 sources live, 19 degraded, 27 failed in the latest collector cycle.\n• Candidate events and actor attributions remain OSINT-derived analytical records and may change with better sourcing, dates, or geolocation.",
+      "article_manifest": [
+        {
+          "id": "35d93f218c08311ed417d462f506014dc07e9681",
+          "source": "Maliweb",
+          "title": "Last minute: The FAMa thwart an attack in Kidal",
+          "original_title": "Dernière minute : Les FAMa déjouent une attaque à Kidal",
+          "summary": "Maliweb",
+          "url": "https://www.maliweb.net/insecurite/derniere-minute-les-fama-dejouent-une-attaque-a-kidal-3120569.html",
+          "country": "Mali",
+          "language": "fr",
+          "published_at": "2026-10-12T03:31:28Z",
+          "collected_at": "2026-10-12T04:42:38.979116Z",
+          "event_date": "2026-10-12",
+          "actor": "State",
+          "event_type": "attack",
+          "candidate_event": false,
+          "supporting_force": null
+        },
+        {
+          "id": "1c95e7185107dcd83dfde7815d4afa060391e790",
+          "source": "Sahara Medias (صحراء ميديا)",
+          "title": "Mali.. Continuous operations of the army and the Azawad Front enter the line of battles of the sky",
+          "original_title": "مالي.. عمليات مستمرة للجيش وجبهة أزواد تدخل على خطّ معارك السماء",
+          "summary": "The Malian Army announced the implementation of military operations in several areas of the country, which resulted in the targeting of a fuel depot northeast of Infrac, and a site for a gathering of armed elements west of Aguelhok, in addition to neutralizing a group of gunmen on motorcycles in the Dioula region in the south of the country. He said in an official statement on Sunday that the Malian armed forces, with the support of its partners, continue to monitor, sweep and secure the national territory within the framework of Operation Dogokoloko.",
+          "url": "https://saharamedias.net/266617/",
+          "country": "Mali",
+          "language": "ar",
+          "published_at": "2026-10-11T20:39:28Z",
+          "collected_at": "2026-10-12T00:50:14.640447Z",
+          "event_date": "2026-10-11",
+          "actor": "State",
+          "event_type": "clash",
+          "candidate_event": true,
+          "supporting_force": null
+        },
+        {
+          "id": "9239197d66ff30896408d638ea907b752a8770dc",
+          "source": "Bamada",
+          "title": "FAMa Offensive: Fuel Depot and Terrorist Groupings Precisely Destroyed",
+          "original_title": "Offensive des FAMa : Un dépôt de carburant et des regroupements terroristes détruits avec précision",
+          "summary": "The General Staff of the Armed Forces informs the national opinion that the Malian Armed Forces (FAMa), supported by their partners, are continuing the permanent operations of surveillance, control and security of the national territory as part of Operation Dougoukoloko . As a continuation of the offensive in the Eastern Theater, the ongoing sweeping operations have located, 8 km northeast of Inafarak, a fuel depot belonging to the armed terrorist groups.",
+          "url": "https://bamada.net/offensive-des-fama-un-depot-de-carburant-et-des-regroupements-terroristes-detruits-avec-precision",
+          "country": "Mali",
+          "language": "fr",
+          "published_at": "2026-10-11T20:26:31Z",
+          "collected_at": "2026-10-12T00:50:13.683795Z",
+          "event_date": "2026-10-11",
+          "actor": "State",
+          "event_type": "offensive/campaign",
+          "candidate_event": true,
+          "supporting_force": null
+        },
+        {
+          "id": "6f3a4a19b887a023cf6c2fc8b8fdc2dec412ef93",
+          "source": "Malijet",
+          "title": "Operation Dougoukoloko: FAMa neutralize terrorist depots in the East and fighters in the South",
+          "original_title": "Opération Dougoukoloko : Les FAMa neutralisent des dépôts terroristes à l'Est et des combattants au Sud",
+          "summary": "Operation Dougoukoloko: The FAMa neutralize terrorist depots in the East and fighters in the South In coordination with their partners, the FAMa targeted terrorist positions in Sectors East and South, during the operation dubbed Dougoukoloko. Eastern Theater: The ongoing sweeping operations have located, 8 km northeast of Inafarak, a fuel depot belonging to the armed terrorist groups .",
+          "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312270-operation-dougoukoloko-les-fama-neutralisent-des-depots-te.html",
+          "country": "Mali",
+          "language": "fr",
+          "published_at": "2026-10-11T20:21:38Z",
+          "collected_at": "2026-10-11T20:37:13.304687Z",
+          "event_date": "2026-10-11",
+          "actor": "State",
+          "event_type": "security operation",
+          "candidate_event": true,
+          "supporting_force": null
+        },
+        {
+          "id": "8af3c51a7a52542786cefd6927bc9c1d6162153a",
+          "source": "The Premium Times (Nigeria)",
+          "title": "Suspect arrested over farmer’s killing, kidnapping in Niger",
+          "original_title": "Suspect arrested over farmer’s killing, kidnapping in Niger",
+          "summary": "The police have arrested a 29-year-old man who allegedly contracted kidnappers to abduct and kill a large-scale farmer in Zawudna village, Munya Local Government Area, and took over the deceased’s farmland. The police said Godwin Yahaya was arrested following allegations by rescued kidnapping victims that he conspired with kidnappers to abduct the farmer, Jonah Isah, and others for ransom.",
+          "url": "https://www.premiumtimesng.com/regional/north-central/916103-suspect-arrested-over-farmers-killing-kidnapping-in-niger.html",
+          "country": "Niger",
+          "language": "en",
+          "published_at": "2026-10-11T09:19:48Z",
+          "collected_at": "2026-10-11T12:45:16.579548Z",
+          "event_date": "2026-10-10",
+          "actor": "Other",
+          "event_type": "kidnapping",
+          "candidate_event": true,
+          "supporting_force": null
+        },
+        {
+          "id": "9dc6faefa61c5cfd59689c40f060195450ace779",
+          "source": "Al-Quds Al-Arabi",
+          "title": "After sending aircraft to Niger… Shangarha confirms that “Algeria does not deal with the crises of the Sahel as an external actor but as an original partner”",
+          "original_title": "بعد إرسال طائرات للنيجر… شنقريحة يؤكد أن “الجزائر لا تتعامل مع أزمات الساحل كفاعل خارجي بل كشريك أصيل”",
+          "summary": "Algeria - “Arab Jerusalem”: The Chief of Staff of the Algerian Army, General Said Shangarha, stressed that Algeria does not deal with the crises of the Sahel as an external actor, but rather as an authentic partner who realizes that the stability of its neighbors is a prerequisite for its stability, in his first comment after the recent developments related to Algeria sending aircraft to help Niger confront a military coup In a speech during his visit to the third military region in the state of Bashar in southwestern Algeria, Shangarha said that Algeria's efforts to help the Sahel countries economically…",
+          "url": "https://www.alquds.co.uk/%d8%a8%d8%b9%d8%af-%d8%a5%d8%b1%d8%b3%d8%a7%d9%84-%d8%b7%d8%a7%d8%a6%d8%b1%d8%a7%d8%aa-%d9%84%d9%84%d9%86%d9%8a%d8%ac%d8%b1-%d8%b4%d9%86%d9%82%d8%b1%d9%8a%d8%ad%d8%a9-%d9%8a%d8%a4%d9%83%d8%af/",
+          "country": "Niger",
+          "language": "ar",
+          "published_at": "2026-10-11T08:32:59Z",
+          "collected_at": "2026-10-11T08:38:28.820206Z",
+          "event_date": "2026-10-11",
+          "actor": "State",
+          "event_type": "political/security policy",
+          "candidate_event": false,
+          "supporting_force": null
+        },
+        {
+          "id": "d440418e68e387eb1d34e6fed9c2b325a0ac3f98",
+          "source": "Bamada",
+          "title": "Massive Fuel Flow in Bamako: Over 5,300 Tanks Delivered Successfully!",
+          "original_title": "Flux massif de carburant à Bamako : Plus de 5 300 citernes livrées avec succès !",
+          "summary": "More than 5,300 tankers delivered in Bamako since September! This Saturday, October 10, 2026, a new convoy of 957 tankers arrived in the capital, escorted by our valiant Malian Armed Forces (FAMa). The numbers speak for themselves: * September 2026 : 3,796 tankers arrived in Bamako in five convoys, including a record 1,289 tanks .",
+          "url": "https://bamada.net/flux-massif-de-carburant-a-bamako-plus-de-5-300-citernes-livrees-avec-succes",
+          "country": "Mali",
+          "language": "fr",
+          "published_at": "2026-10-11T08:02:33Z",
+          "collected_at": "2026-10-11T08:38:28.715130Z",
+          "event_date": "2026-10-10",
+          "actor": "State",
+          "event_type": null,
+          "candidate_event": false,
+          "supporting_force": null
+        }
+      ],
+      "linked_event_ids": [
+        "161ee30c49ef08af351f6615e5727e82a9e06857",
+        "24b0dae40702d25edbb5117f432996d7103f4b9f",
+        "b7e59cb9faacbebbf23b120b8515aa26c998487f",
+        "4acc044be2e6556048e5235e8291c8397070c5db"
+      ]
+    },
     {
       "schema_version": "2.0",
       "product": "Sultana 24-Hour AES Intelligence Brief",
