@@ -1,29 +1,29 @@
 {
-  "generated_at": "2026-10-11T20:37:53.744447Z",
+  "generated_at": "2026-10-12T00:50:47.430750Z",
   "window_days": 30,
-  "cutoff": "2026-09-11",
-  "reports": 391,
-  "incident_reports": 92,
-  "candidate_events": 68,
+  "cutoff": "2026-09-12",
+  "reports": 392,
+  "incident_reports": 94,
+  "candidate_events": 70,
   "corroborated_events": 15,
   "mapped_events": 62,
   "mapped_locations": 126,
-  "distinct_sources": 76,
+  "distinct_sources": 75,
   "by_actor": {
-    "State": 45,
+    "State": 47,
     "JNIM": 9,
     "Other": 9,
     "Africa Corps/Wagner": 5
   },
   "by_country": {
-    "Mali": 62,
+    "Mali": 64,
     "Niger": 4,
     "Burkina Faso": 2
   },
   "by_event_type": {
     "security operation": 32,
-    "offensive/campaign": 13,
-    "clash": 8,
+    "offensive/campaign": 14,
+    "clash": 9,
     "attack": 7,
     "ambush": 4,
     "kidnapping": 3,
@@ -32,11 +32,11 @@
   "by_language": {
     "fr": 295,
     "en": 76,
-    "ar": 20
+    "ar": 21
   },
   "by_confidence": {
-    "moderate": 33,
-    "low": 30,
+    "moderate": 34,
+    "low": 31,
     "moderate-high": 4,
     "high": 1
   },
@@ -44,7 +44,7 @@
     {
       "source_code": "SRC-0008",
       "source": "Bamada",
-      "count": 52
+      "count": 53
     },
     {
       "source_code": "SRC-0006",
@@ -124,6 +124,10 @@
       "count": 8
     },
     {
+      "location": "Mali",
+      "count": 7
+    },
+    {
       "location": "Sévaré",
       "count": 7
     },
@@ -146,18 +150,9 @@
     {
       "location": "Gao",
       "count": 5
-    },
-    {
-      "location": "Mali",
-      "count": 5
     }
   ],
   "daily": [
-    {
-      "date": "2026-09-12",
-      "reports": 3,
-      "events": 0
-    },
     {
       "date": "2026-09-13",
       "reports": 2,
@@ -300,11 +295,190 @@
     },
     {
       "date": "2026-10-11",
-      "reports": 5,
+      "reports": 7,
+      "events": 2
+    },
+    {
+      "date": "2026-10-12",
+      "reports": 0,
       "events": 0
     }
   ],
   "latest_events": [
+    {
+      "id": "161ee30c49ef08af351f6615e5727e82a9e06857",
+      "event_date": "2026-10-11",
+      "event_date_confidence": "explicit-text",
+      "event_date_source": "relative-today",
+      "published_at": "2026-10-11T20:39:28Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-12T00:50:14.640447Z",
+      "actor": "State",
+      "perpetrator": null,
+      "target": null,
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [],
+      "parent_report_id": null,
+      "event_type": "clash",
+      "country": "Mali",
+      "city": null,
+      "lat": null,
+      "lng": null,
+      "locations": [],
+      "title": "Mali.. Continuous operations of the army and the Azawad Front enter the line of battles of the sky",
+      "summary": "The Malian Army announced the implementation of military operations in several areas of the country, which resulted in the targeting of a fuel depot northeast of Infrac, and a site for a gathering of armed elements west of Aguelhok, in addition to neutralizing a group of gunmen on motorcycles in the Dioula region in the south of the country. He said in an official statement on Sunday that the Malian armed forces, with the support of its partners, continue to monitor, sweep and secure the national territory within the framework of Operation Dogokoloko.",
+      "sources": [
+        "Sahara Medias (صحراء ميديا)"
+      ],
+      "languages": [
+        "ar"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://saharamedias.net/266617/"
+      ],
+      "report_summaries": [
+        {
+          "url": "https://saharamedias.net/266617/",
+          "source": "Sahara Medias (صحراء ميديا)",
+          "title": "Mali.. Continuous operations of the army and the Azawad Front enter the line of battles of the sky",
+          "summary": "The Malian Army announced the implementation of military operations in several areas of the country, which resulted in the targeting of a fuel depot northeast of Infrac, and a site for a gathering of armed elements west of Aguelhok, in addition to neutralizing a group of gunmen on motorcycles in the Dioula region in the south of the country. He said in an official statement on Sunday that the Malian armed forces, with the support of its partners, continue to monitor, sweep and secure the national territory within the framework of Operation Dogokoloko.",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [],
+          "civilian_targeting_flag": false,
+          "casualty_claims": []
+        }
+      ],
+      "created_at": "2026-10-12T00:50:14.640447Z",
+      "updated_at": "2026-10-12T00:50:14.640447Z",
+      "extraction_confidence": "low",
+      "victim_categories": [],
+      "civilian_targeting_flag": false,
+      "casualty_claims": [],
+      "fatalities_min": null,
+      "fatalities_max": null,
+      "fatalities_best": null,
+      "injured_min": null,
+      "injured_max": null,
+      "abducted_min": null,
+      "abducted_max": null,
+      "casualty_disputed": false,
+      "revision_history": [
+        {
+          "at": "2026-10-12T00:50:14.640447Z",
+          "type": "event_created",
+          "source": "Sahara Medias (صحراء ميديا)"
+        }
+      ],
+      "corroboration": "single-source",
+      "confidence": "low",
+      "independent_source_domains": [
+        "saharamedias.net"
+      ],
+      "independent_source_count": 1,
+      "significance": "ROUTINE",
+      "significance_reasons": [
+        "limited currently observed significance"
+      ]
+    },
+    {
+      "id": "24b0dae40702d25edbb5117f432996d7103f4b9f",
+      "event_date": "2026-10-11",
+      "event_date_confidence": "explicit-text",
+      "event_date_source": "explicit-calendar-date",
+      "published_at": "2026-10-11T20:26:31Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-12T00:50:13.683795Z",
+      "actor": "State",
+      "perpetrator": "State",
+      "target": null,
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [
+        "State"
+      ],
+      "parent_report_id": null,
+      "event_type": "offensive/campaign",
+      "country": "Mali",
+      "city": null,
+      "lat": null,
+      "lng": null,
+      "locations": [],
+      "title": "FAMa Offensive: Fuel Depot and Terrorist Groupings Precisely Destroyed",
+      "summary": "The General Staff of the Armed Forces informs the national opinion that the Malian Armed Forces (FAMa), supported by their partners, are continuing the permanent operations of surveillance, control and security of the national territory as part of Operation Dougoukoloko . As a continuation of the offensive in the Eastern Theater, the ongoing sweeping operations have located, 8 km northeast of Inafarak, a fuel depot belonging to the armed terrorist groups.",
+      "sources": [
+        "Bamada"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://bamada.net/offensive-des-fama-un-depot-de-carburant-et-des-regroupements-terroristes-detruits-avec-precision"
+      ],
+      "report_summaries": [
+        {
+          "url": "https://bamada.net/offensive-des-fama-un-depot-de-carburant-et-des-regroupements-terroristes-detruits-avec-precision",
+          "source": "Bamada",
+          "title": "FAMa Offensive: Fuel Depot and Terrorist Groupings Precisely Destroyed",
+          "summary": "The General Staff of the Armed Forces informs the national opinion that the Malian Armed Forces (FAMa), supported by their partners, are continuing the permanent operations of surveillance, control and security of the national territory as part of Operation Dougoukoloko . As a continuation of the offensive in the Eastern Theater, the ongoing sweeping operations have located, 8 km northeast of Inafarak, a fuel depot belonging to the armed terrorist groups.",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "armed_group"
+          ],
+          "civilian_targeting_flag": false,
+          "casualty_claims": []
+        }
+      ],
+      "created_at": "2026-10-12T00:50:13.683795Z",
+      "updated_at": "2026-10-12T00:50:13.683795Z",
+      "extraction_confidence": "moderate",
+      "victim_categories": [
+        "armed_group"
+      ],
+      "civilian_targeting_flag": false,
+      "casualty_claims": [],
+      "fatalities_min": null,
+      "fatalities_max": null,
+      "fatalities_best": null,
+      "injured_min": null,
+      "injured_max": null,
+      "abducted_min": null,
+      "abducted_max": null,
+      "casualty_disputed": false,
+      "revision_history": [
+        {
+          "at": "2026-10-12T00:50:13.683795Z",
+          "type": "event_created",
+          "source": "Bamada"
+        }
+      ],
+      "corroboration": "single-source",
+      "confidence": "moderate",
+      "independent_source_domains": [
+        "bamada.net"
+      ],
+      "independent_source_count": 1,
+      "significance": "MAJOR",
+      "significance_reasons": [
+        "strategic/severe event pattern"
+      ]
+    },
     {
       "id": "b7e59cb9faacbebbf23b120b8515aa26c998487f",
       "event_date": "2026-10-10",
@@ -3673,205 +3847,45 @@
       "significance_reasons": [
         "limited currently observed significance"
       ]
-    },
-    {
-      "id": "ebc90f54b379196e86c4ec7f50b6e67a8817a02f",
-      "event_date": "2026-10-05",
-      "event_date_confidence": "explicit-text",
-      "event_date_source": "explicit-calendar-date",
-      "published_at": null,
-      "published_date_source": "unresolved",
-      "published_time_precision": "unresolved",
-      "collected_at": "2026-10-05T18:39:01.394582Z",
-      "actor": "State",
-      "perpetrator": "State",
-      "target": null,
-      "claimant": null,
-      "supporting_force": null,
-      "mentioned_actors": [
-        "State"
-      ],
-      "parent_report_id": null,
-      "event_type": "raid",
-      "country": "Mali",
-      "city": "Ségou",
-      "lat": 13.4317,
-      "lng": -6.2157,
-      "locations": [
-        {
-          "name": "Ségou",
-          "country": "Mali",
-          "lat": 13.4317,
-          "lng": -6.2157,
-          "confidence": "explicit-place"
-        }
-      ],
-      "title": "DIABALY IN THE SÉGOU REGION: THE FAMA AND DONSOS COALITION IN SUPPORT OF TERRORIST GROUPS",
-      "summary": "The Malian Armed Forces (FAMa) have taken action against armed terrorist groups in the Diabaly sector, in the Segou Region. According to local sources, these operations inflicted several losses on the attackers and (…)By Mahamane TOURE – NOUVEL HORIZONRETROUVE the REST OF YOUR ARTICLE IN the NEW HORIZON OF MONDAY, OCTOBER 5, 2026 Follow us on Facebook, Telegram, WhatsApp to miss nothing of Malian news Follow us on Facebook, Telegram, WhatsApp to not miss anything of the Malian news",
-      "sources": [
-        "Bamada"
-      ],
-      "languages": [
-        "fr"
-      ],
-      "source_count": 1,
-      "report_urls": [
-        "https://bamada.net/diabaly-dans-la-region-de-segou-la-coalition-fama-et-donsos-a-lassaut-des-groupes-terroristes"
-      ],
-      "report_summaries": [
-        {
-          "url": "https://bamada.net/diabaly-dans-la-region-de-segou-la-coalition-fama-et-donsos-a-lassaut-des-groupes-terroristes",
-          "source": "Bamada",
-          "title": "DIABALY IN THE SÉGOU REGION: THE FAMA AND DONSOS COALITION IN SUPPORT OF TERRORIST GROUPS",
-          "summary": "The Malian Armed Forces (FAMa) have taken action against armed terrorist groups in the Diabaly sector, in the Segou Region. According to local sources, these operations inflicted several losses on the attackers and (…)By Mahamane TOURE – NOUVEL HORIZONRETROUVE the REST OF YOUR ARTICLE IN the NEW HORIZON OF MONDAY, OCTOBER 5, 2026 Follow us on Facebook, Telegram, WhatsApp to miss nothing of Malian news Follow us on Facebook, Telegram, WhatsApp to not miss anything of the Malian news",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "armed_group"
-          ],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        }
-      ],
-      "created_at": "2026-10-05T18:39:01.394582Z",
-      "updated_at": "2026-10-05T18:39:01.394582Z",
-      "extraction_confidence": "moderate",
-      "victim_categories": [
-        "armed_group"
-      ],
-      "civilian_targeting_flag": false,
-      "casualty_claims": [],
-      "fatalities_min": null,
-      "fatalities_max": null,
-      "fatalities_best": null,
-      "injured_min": null,
-      "injured_max": null,
-      "abducted_min": null,
-      "abducted_max": null,
-      "casualty_disputed": false,
-      "revision_history": [
-        {
-          "at": "2026-10-05T18:39:01.394582Z",
-          "type": "event_created",
-          "source": "Bamada"
-        }
-      ],
-      "corroboration": "single-source",
-      "confidence": "moderate",
-      "independent_source_domains": [
-        "bamada.net"
-      ],
-      "independent_source_count": 1,
-      "significance": "SIGNIFICANT",
-      "significance_reasons": [
-        "operational security event"
-      ]
-    },
-    {
-      "id": "01bd761171223091c0b7d5b62ccecc78477f6b34",
-      "event_date": "2026-10-05",
-      "event_date_confidence": "explicit-text",
-      "event_date_source": "explicit-calendar-date",
-      "published_at": "2026-10-05T12:38:00Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-05T13:38:38.271295Z",
-      "actor": "State",
-      "perpetrator": "State",
-      "target": null,
-      "claimant": null,
-      "supporting_force": null,
-      "mentioned_actors": [
-        "State"
-      ],
-      "parent_report_id": null,
-      "event_type": "security operation",
-      "country": "Mali",
-      "city": "Mopti",
-      "lat": 14.4843,
-      "lng": -4.1829,
-      "locations": [
-        {
-          "name": "Mopti",
-          "country": "Mali",
-          "lat": 14.4843,
-          "lng": -4.1829,
-          "confidence": "explicit-place"
-        }
-      ],
-      "title": "Operation Dougoukoloko: The FAMa strike a major terrorist base in Toguerekoumbé and neutralize a dozen fighters in Anéfif",
-      "summary": "Through a press release, the General Staff of the Armed Forces announced that the missions to secure the territory, integrated into Operation Dougoukoloko, would continue The Malian Armed Forces (FAMa), supported by their partners, carried out several targeted strikes on Monday, October 5, 2026. The use of precise intelligence has made it possible to locate, 25 km northwest of the village of Toguerekoumbé, in the Mopti region, several concentration points of armed terrorist groups forming an important base .",
-      "sources": [
-        "Malijet"
-      ],
-      "languages": [
-        "fr"
-      ],
-      "source_count": 1,
-      "report_urls": [
-        "https://malijet.com/actualte_dans_les_regions_du_mali/312181-operation-dougoukoloko-les-fama-frappent-une-importante-bas.html"
-      ],
-      "report_summaries": [
-        {
-          "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312181-operation-dougoukoloko-les-fama-frappent-une-importante-bas.html",
-          "source": "Malijet",
-          "title": "Operation Dougoukoloko: The FAMa strike a major terrorist base in Toguerekoumbé and neutralize a dozen fighters in Anéfif",
-          "summary": "Through a press release, the General Staff of the Armed Forces announced that the missions to secure the territory, integrated into Operation Dougoukoloko, would continue The Malian Armed Forces (FAMa), supported by their partners, carried out several targeted strikes on Monday, October 5, 2026. The use of precise intelligence has made it possible to locate, 25 km northwest of the village of Toguerekoumbé, in the Mopti region, several concentration points of armed terrorist groups forming an important base .",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "armed_group"
-          ],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        }
-      ],
-      "created_at": "2026-10-05T13:38:38.271295Z",
-      "updated_at": "2026-10-05T13:38:38.271295Z",
-      "extraction_confidence": "moderate",
-      "victim_categories": [
-        "armed_group"
-      ],
-      "civilian_targeting_flag": false,
-      "casualty_claims": [],
-      "fatalities_min": null,
-      "fatalities_max": null,
-      "fatalities_best": null,
-      "injured_min": null,
-      "injured_max": null,
-      "abducted_min": null,
-      "abducted_max": null,
-      "casualty_disputed": false,
-      "revision_history": [
-        {
-          "at": "2026-10-05T13:38:38.271295Z",
-          "type": "event_created",
-          "source": "Malijet"
-        }
-      ],
-      "corroboration": "single-source",
-      "confidence": "moderate",
-      "independent_source_domains": [
-        "malijet.com"
-      ],
-      "independent_source_count": 1,
-      "significance": "MAJOR",
-      "significance_reasons": [
-        "strategic/severe event pattern"
-      ]
     }
   ],
   "latest_reports": [
+    {
+      "published_at": "2026-10-11T20:39:28Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-12T00:50:14.640447Z",
+      "discovered_at": "2026-10-12T00:50:14.640447Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0160",
+      "source": "Sahara Medias (صحراء ميديا)",
+      "language": "ar",
+      "actor": "State",
+      "country": "Mali",
+      "city": null,
+      "event_type": "clash",
+      "candidate_event": true,
+      "title": "Mali.. Continuous operations of the army and the Azawad Front enter the line of battles of the sky",
+      "url": "https://saharamedias.net/266617/"
+    },
+    {
+      "published_at": "2026-10-11T20:26:31Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-12T00:50:13.683795Z",
+      "discovered_at": "2026-10-12T00:50:13.683795Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0008",
+      "source": "Bamada",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": null,
+      "event_type": "offensive/campaign",
+      "candidate_event": true,
+      "title": "FAMa Offensive: Fuel Depot and Terrorist Groupings Precisely Destroyed",
+      "url": "https://bamada.net/offensive-des-fama-un-depot-de-carburant-et-des-regroupements-terroristes-detruits-avec-precision"
+    },
     {
       "published_at": "2026-10-11T20:21:38Z",
       "published_date_source": "jsonld:datePublished",
@@ -4555,42 +4569,6 @@
       "candidate_event": false,
       "title": "Saddam Haftar: from the Sahel to Chad, the limits of security diplomacy",
       "url": "https://www.jeuneafrique.com/1849611/politique/saddam-haftar-du-sahel-au-tchad-les-limites-dune-diplomatie-securitaire/"
-    },
-    {
-      "published_at": "2026-10-09T00:53:29Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-09T04:38:50.487537Z",
-      "discovered_at": "2026-10-09T04:38:50.487537Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0075",
-      "source": "AMAP (Agence Malienne de Presse et de Publicité)",
-      "language": "fr",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Bamako",
-      "event_type": "security operation",
-      "candidate_event": true,
-      "title": "Takalot, Talhandak and San: Several positions of terrorist groups struck down",
-      "url": "https://amap.ml/2026/10/09/takalot-talhandak-et-san-plusieurs-positions-des-groupes-terroristes-foudroyees/"
-    },
-    {
-      "published_at": "2026-10-09T00:42:59Z",
-      "published_date_source": "html:time",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-09T08:40:32.199360Z",
-      "discovered_at": "2026-10-09T08:40:32.199360Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0012",
-      "source": "Sidwaya",
-      "language": "fr",
-      "actor": "State",
-      "country": "Burkina Faso",
-      "city": null,
-      "event_type": null,
-      "candidate_event": false,
-      "title": "No to family war!",
-      "url": "https://www.sidwaya.info/2026/10/09/non-a-la-guerre-familiale/"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
