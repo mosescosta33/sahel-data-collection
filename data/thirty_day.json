@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-12T13:04:33.583222Z",
+  "generated_at": "2026-10-12T16:42:55.257987Z",
   "window_days": 30,
   "cutoff": "2026-09-12",
-  "reports": 403,
+  "reports": 405,
   "incident_reports": 98,
   "candidate_events": 73,
   "corroborated_events": 16,
@@ -30,7 +30,7 @@
     "raid": 1
   },
   "by_language": {
-    "fr": 306,
+    "fr": 308,
     "en": 76,
     "ar": 21
   },
@@ -44,7 +44,7 @@
     {
       "source_code": "SRC-0008",
       "source": "Bamada",
-      "count": 60
+      "count": 61
     },
     {
       "source_code": "SRC-0006",
@@ -97,8 +97,8 @@
       "count": 10
     },
     {
-      "source_code": "SRC-0064",
-      "source": "Africa Defense Forum (ADF Magazine)",
+      "source_code": "SRC-0013",
+      "source": "Wakat Sera",
       "count": 10
     }
   ],
@@ -300,7 +300,7 @@
     },
     {
       "date": "2026-10-12",
-      "reports": 13,
+      "reports": 15,
       "events": 1
     }
   ],
@@ -3878,6 +3878,42 @@
   ],
   "latest_reports": [
     {
+      "published_at": "2026-10-12T15:17:20Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-12T16:42:07.693961Z",
+      "discovered_at": "2026-10-12T16:42:07.693961Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0013",
+      "source": "Wakat Sera",
+      "language": "fr",
+      "actor": "JNIM",
+      "country": "Mali",
+      "city": "Kidal",
+      "event_type": "political/security policy",
+      "candidate_event": false,
+      "title": "Kidal: the Chief of the General Staff of the Armed Forces in contact with the units involved",
+      "url": "https://www.wakatsera.com/kidal-le-chef-detat-major-general-des-armees-au-contact-des-unites-engagees/"
+    },
+    {
+      "published_at": "2026-10-12T14:06:17Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-12T16:42:06.471621Z",
+      "discovered_at": "2026-10-12T16:42:06.471621Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0008",
+      "source": "Bamada",
+      "language": "fr",
+      "actor": "JNIM",
+      "country": "Mali",
+      "city": "Kidal",
+      "event_type": "political/security policy",
+      "candidate_event": false,
+      "title": "KIDAL: The Chief of the General Staff of the Armed Forces in contact with the units involved",
+      "url": "https://bamada.net/kidal-le-chef-detat-major-general-des-armees-au-contact-des-unites-engagees"
+    },
+    {
       "published_at": "2026-10-12T12:50:42Z",
       "published_date_source": "jsonld:datePublished",
       "published_time_precision": "datetime",
@@ -4560,42 +4596,6 @@
       "candidate_event": true,
       "title": "Mali: In Kidal, soldiers outnumber locals",
       "url": "https://www.rfi.fr/fr/afrique/20261009-mali-%C3%A0-kidal-les-soldats-sont-plus-nombreux-que-les-habitants"
-    },
-    {
-      "published_at": "2026-10-09T16:03:23Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-09T16:39:37.133195Z",
-      "discovered_at": "2026-10-09T16:39:37.133195Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0010",
-      "source": "Burkina24",
-      "language": "fr",
-      "actor": "State",
-      "country": "Burkina Faso",
-      "city": null,
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Burkina Faso: The export of millet, maize and sorghum flour suspended until further notice",
-      "url": "https://burkina24.com/2026/10/09/burkina-faso-lexportation-des-farines-de-mil-de-mais-et-de-sorgho-suspendue-jusqua-nouvel-ordre/"
-    },
-    {
-      "published_at": "2026-10-09T15:42:13Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-09T16:39:44.227937Z",
-      "discovered_at": "2026-10-09T16:39:44.227937Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0096",
-      "source": "Le Figaro (Section Afrique)",
-      "language": "fr",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Kidal",
-      "event_type": "offensive/campaign",
-      "candidate_event": true,
-      "title": "In Mali, the recapture of the city of Kidal offers a symbolic victory to the junta and its Russian ally",
-      "url": "https://www.lefigaro.fr/international/au-mali-la-reprise-de-la-ville-de-kidal-offre-une-victoire-symbolique-a-la-junte-et-a-son-allie-russe-20261009"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
