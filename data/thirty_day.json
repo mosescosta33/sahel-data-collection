@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-12T20:41:30.765169Z",
+  "generated_at": "2026-10-13T00:53:52.323525Z",
   "window_days": 30,
-  "cutoff": "2026-09-12",
-  "reports": 405,
+  "cutoff": "2026-09-13",
+  "reports": 406,
   "incident_reports": 98,
   "candidate_events": 73,
   "corroborated_events": 16,
   "mapped_events": 65,
   "mapped_locations": 130,
-  "distinct_sources": 76,
+  "distinct_sources": 77,
   "by_actor": {
     "State": 49,
     "JNIM": 9,
@@ -31,7 +31,7 @@
   },
   "by_language": {
     "fr": 308,
-    "en": 76,
+    "en": 77,
     "ar": 21
   },
   "by_confidence": {
@@ -154,11 +154,6 @@
   ],
   "daily": [
     {
-      "date": "2026-09-13",
-      "reports": 2,
-      "events": 0
-    },
-    {
       "date": "2026-09-14",
       "reports": 4,
       "events": 1
@@ -250,7 +245,7 @@
     },
     {
       "date": "2026-10-02",
-      "reports": 5,
+      "reports": 6,
       "events": 0
     },
     {
@@ -302,6 +297,11 @@
       "date": "2026-10-12",
       "reports": 15,
       "events": 1
+    },
+    {
+      "date": "2026-10-13",
+      "reports": 0,
+      "events": 0
     }
   ],
   "latest_events": [
