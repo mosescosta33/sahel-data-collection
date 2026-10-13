@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-13T08:43:57.005160Z",
+  "generated_at": "2026-10-13T12:52:32.951868Z",
   "window_days": 30,
   "cutoff": "2026-09-13",
-  "reports": 408,
-  "incident_reports": 98,
-  "candidate_events": 73,
+  "reports": 412,
+  "incident_reports": 99,
+  "candidate_events": 74,
   "corroborated_events": 16,
   "mapped_events": 65,
   "mapped_locations": 130,
   "distinct_sources": 78,
   "by_actor": {
-    "State": 49,
+    "State": 50,
     "JNIM": 9,
     "Other": 9,
     "Africa Corps/Wagner": 6
   },
   "by_country": {
-    "Mali": 67,
+    "Mali": 68,
     "Niger": 4,
     "Burkina Faso": 2
   },
   "by_event_type": {
     "security operation": 32,
-    "offensive/campaign": 16,
+    "offensive/campaign": 17,
     "clash": 9,
     "attack": 8,
     "ambush": 4,
@@ -30,12 +30,12 @@
     "raid": 1
   },
   "by_language": {
-    "fr": 309,
+    "fr": 313,
     "en": 78,
     "ar": 21
   },
   "by_confidence": {
-    "moderate": 35,
+    "moderate": 36,
     "low": 33,
     "moderate-high": 4,
     "high": 1
@@ -49,7 +49,7 @@
     {
       "source_code": "SRC-0006",
       "source": "Malijet",
-      "count": 42
+      "count": 43
     },
     {
       "source_code": "SRC-0075",
@@ -64,7 +64,7 @@
     {
       "source_code": "SRC-0090",
       "source": "AllAfrica (Édition Française)",
-      "count": 14
+      "count": 15
     },
     {
       "source_code": "SRC-0121",
@@ -120,12 +120,12 @@
       "count": 9
     },
     {
-      "location": "Timbuktu",
+      "location": "Mali",
       "count": 8
     },
     {
-      "location": "Mali",
-      "count": 7
+      "location": "Timbuktu",
+      "count": 8
     },
     {
       "location": "Sévaré",
@@ -291,7 +291,7 @@
     {
       "date": "2026-10-11",
       "reports": 7,
-      "events": 2
+      "events": 3
     },
     {
       "date": "2026-10-12",
@@ -300,7 +300,7 @@
     },
     {
       "date": "2026-10-13",
-      "reports": 1,
+      "reports": 5,
       "events": 0
     }
   ],
@@ -398,6 +398,96 @@
       "confidence": "low",
       "independent_source_domains": [
         "bamada.net"
+      ],
+      "independent_source_count": 1,
+      "significance": "MAJOR",
+      "significance_reasons": [
+        "strategic/severe event pattern"
+      ]
+    },
+    {
+      "id": "a974b2227a2c0fc1ad99b34db585d923db8465d6",
+      "event_date": "2026-10-11",
+      "event_date_confidence": "explicit-text",
+      "event_date_source": "explicit-calendar-date",
+      "published_at": "2026-10-13T09:39:47Z",
+      "published_date_source": "opengraph",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-13T12:51:19.454052Z",
+      "actor": "State",
+      "perpetrator": "State",
+      "target": null,
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [
+        "State"
+      ],
+      "parent_report_id": null,
+      "event_type": "offensive/campaign",
+      "country": "Mali",
+      "city": null,
+      "lat": null,
+      "lng": null,
+      "locations": [],
+      "title": "Aguelhock, Dioïla and Inafarak: Flood of fire on terrorists As a continuation of the offensive against...",
+      "summary": "After confirming the information collected, the site has been processed successfully. The announcement was made on Sunday, October 11, 2026, by the General Staff of the Armed Forces, which emphasizes that the Malian Armed Forces (FAMa), supported by their partners, continue the permanent operations of surveillance, control and security of the national territory as part of Operation Dougoukoloko .",
+      "sources": [
+        "L'Essor"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://www.lessor.ml/posts/aguelhock-dioila-et-inafarak-deluge-de-feu-sur-les-terroristes-6acdfc6331868"
+      ],
+      "report_summaries": [
+        {
+          "url": "https://www.lessor.ml/posts/aguelhock-dioila-et-inafarak-deluge-de-feu-sur-les-terroristes-6acdfc6331868",
+          "source": "L'Essor",
+          "title": "Aguelhock, Dioïla and Inafarak: Flood of fire on terrorists As a continuation of the offensive against...",
+          "summary": "After confirming the information collected, the site has been processed successfully. The announcement was made on Sunday, October 11, 2026, by the General Staff of the Armed Forces, which emphasizes that the Malian Armed Forces (FAMa), supported by their partners, continue the permanent operations of surveillance, control and security of the national territory as part of Operation Dougoukoloko .",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "armed_group"
+          ],
+          "civilian_targeting_flag": false,
+          "casualty_claims": []
+        }
+      ],
+      "created_at": "2026-10-13T12:51:19.454052Z",
+      "updated_at": "2026-10-13T12:51:19.454052Z",
+      "extraction_confidence": "moderate",
+      "victim_categories": [
+        "armed_group"
+      ],
+      "civilian_targeting_flag": false,
+      "casualty_claims": [],
+      "fatalities_min": null,
+      "fatalities_max": null,
+      "fatalities_best": null,
+      "injured_min": null,
+      "injured_max": null,
+      "abducted_min": null,
+      "abducted_max": null,
+      "casualty_disputed": false,
+      "revision_history": [
+        {
+          "at": "2026-10-13T12:51:19.454052Z",
+          "type": "event_created",
+          "source": "L'Essor"
+        }
+      ],
+      "corroboration": "single-source",
+      "confidence": "moderate",
+      "independent_source_domains": [
+        "lessor.ml"
       ],
       "independent_source_count": 1,
       "significance": "MAJOR",
@@ -3776,107 +3866,81 @@
       "significance_reasons": [
         "multi-location activity"
       ]
-    },
-    {
-      "id": "39087271af0f69408774859454ee747d241e8038",
-      "event_date": "2026-10-05",
-      "event_date_confidence": "explicit-text",
-      "event_date_source": "relative-weekday",
-      "published_at": "2026-10-06T09:13:03Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-06T12:44:06.714870Z",
-      "actor": "JNIM",
-      "perpetrator": "JNIM",
-      "target": null,
-      "claimant": null,
-      "supporting_force": null,
-      "mentioned_actors": [
-        "JNIM"
-      ],
-      "parent_report_id": null,
-      "event_type": "offensive/campaign",
-      "country": "Mali",
-      "city": "Kidal",
-      "lat": 18.4411,
-      "lng": 1.4078,
-      "locations": [
-        {
-          "name": "Kidal",
-          "country": "Mali",
-          "lat": 18.4411,
-          "lng": 1.4078,
-          "confidence": "explicit-place"
-        }
-      ],
-      "title": "Mali's military offensive has begun in the Kidal region",
-      "summary": "Malian social networks favorable to the regime relayed Monday images, filmed the same day, of drone strikes on the city of Tinzawaten, on the Algerian border. These strikes herald the start of the offensive to recapture Kidal and the northern region that was announced for the end of the rainy season . Tinzawaten was until now a military sanctuary of the Azawad Liberation Front, the main target of the offensive to reconquer the north.",
-      "sources": [
-        "Mondafrique"
-      ],
-      "languages": [
-        "fr"
-      ],
-      "source_count": 1,
-      "report_urls": [
-        "https://mondafrique.com/video/loffensive-militaire-malienne-a-commence-dans-la-region-de-kidal/"
-      ],
-      "report_summaries": [
-        {
-          "url": "https://mondafrique.com/video/loffensive-militaire-malienne-a-commence-dans-la-region-de-kidal/",
-          "source": "Mondafrique",
-          "title": "Mali's military offensive has begun in the Kidal region",
-          "summary": "Malian social networks favorable to the regime relayed Monday images, filmed the same day, of drone strikes on the city of Tinzawaten, on the Algerian border. These strikes herald the start of the offensive to recapture Kidal and the northern region that was announced for the end of the rainy season . Tinzawaten was until now a military sanctuary of the Azawad Liberation Front, the main target of the offensive to reconquer the north.",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "armed_group"
-          ],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        }
-      ],
-      "created_at": "2026-10-06T12:44:06.714870Z",
-      "updated_at": "2026-10-06T12:44:06.714870Z",
-      "extraction_confidence": "moderate",
-      "victim_categories": [
-        "armed_group"
-      ],
-      "civilian_targeting_flag": false,
-      "casualty_claims": [],
-      "fatalities_min": null,
-      "fatalities_max": null,
-      "fatalities_best": null,
-      "injured_min": null,
-      "injured_max": null,
-      "abducted_min": null,
-      "abducted_max": null,
-      "casualty_disputed": false,
-      "revision_history": [
-        {
-          "at": "2026-10-06T12:44:06.714870Z",
-          "type": "event_created",
-          "source": "Mondafrique"
-        }
-      ],
-      "corroboration": "single-source",
-      "confidence": "moderate",
-      "independent_source_domains": [
-        "mondafrique.com"
-      ],
-      "independent_source_count": 1,
-      "significance": "MAJOR",
-      "significance_reasons": [
-        "strategic/severe event pattern"
-      ]
     }
   ],
   "latest_reports": [
+    {
+      "published_at": "2026-10-13T10:37:48Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-13T12:51:16.110682Z",
+      "discovered_at": "2026-10-13T12:51:16.110682Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0014",
+      "source": "Agence Nigérienne de Presse",
+      "language": "fr",
+      "actor": null,
+      "country": "Niger",
+      "city": "Agadez",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "AGADEZ: The Governor chairs an enlarged meeting of the Regional Security Council",
+      "url": "https://anp.ne/agadez-le-gouverneur-preside-une-reunion-elargie-du-conseil-regional-de-securite-2/"
+    },
+    {
+      "published_at": "2026-10-13T09:39:47Z",
+      "published_date_source": "opengraph",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-13T12:51:19.454052Z",
+      "discovered_at": "2026-10-13T12:51:19.454052Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0079",
+      "source": "L'Essor",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": null,
+      "event_type": "offensive/campaign",
+      "candidate_event": true,
+      "title": "Aguelhock, Dioïla and Inafarak: Flood of fire on terrorists As a continuation of the offensive against...",
+      "url": "https://www.lessor.ml/posts/aguelhock-dioila-et-inafarak-deluge-de-feu-sur-les-terroristes-6acdfc6331868"
+    },
+    {
+      "published_at": "2026-10-13T09:04:20Z",
+      "published_date_source": "opengraph",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-13T12:51:17.628443Z",
+      "discovered_at": "2026-10-13T12:51:17.628443Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0090",
+      "source": "AllAfrica (Édition Française)",
+      "language": "fr",
+      "actor": null,
+      "country": "Mali",
+      "city": "Bamako",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Mali: Protesters denounce a police \"blunder\" after the death of a young man in Kourémalé",
+      "url": "https://fr.allafrica.com/stories/202610130177.html"
+    },
+    {
+      "published_at": "2026-10-13T08:46:40Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-13T12:51:16.185741Z",
+      "discovered_at": "2026-10-13T12:51:16.185741Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0006",
+      "source": "Malijet",
+      "language": "fr",
+      "actor": "JNIM",
+      "country": null,
+      "city": null,
+      "event_type": "clash",
+      "candidate_event": false,
+      "title": "Tessit: violent clashes between ISIS in the Sahel and JNIM",
+      "url": "https://malijet.com/flash-info/312297-tessit-violents-affrontements-entre-lei-au-sahel-et-le-jn.html"
+    },
     {
       "published_at": "2026-10-13T04:24:53Z",
       "published_date_source": "jsonld:datePublished",
@@ -4524,78 +4588,6 @@
       "candidate_event": false,
       "title": "GAO: 234 trainees complete their Inter-Arms Certificate (CIA) training",
       "url": "https://bamada.net/gao-234-stagiaires-achevent-leur-formation-au-certificat-interarmes-cia"
-    },
-    {
-      "published_at": "2026-10-09T20:57:47Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-10T00:49:25.749834Z",
-      "discovered_at": "2026-10-10T00:49:25.749834Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0008",
-      "source": "Bamada",
-      "language": "fr",
-      "actor": "State",
-      "country": "Mali",
-      "city": null,
-      "event_type": "political/security policy",
-      "candidate_event": false,
-      "title": "DIRECTORATE OF THE ARMED FORCES COMMISSARIAT: The Chief of the General Staff of the Armed Forces on an official visit",
-      "url": "https://bamada.net/direction-du-commissariat-des-armees-le-chef-detat-major-general-des-armees-en-visite-dautorite"
-    },
-    {
-      "published_at": "2026-10-09T20:54:46Z",
-      "published_date_source": "html:time",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-11T04:38:47.865761Z",
-      "discovered_at": "2026-10-11T04:38:47.865761Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0015",
-      "source": "ActuNiger",
-      "language": "fr",
-      "actor": null,
-      "country": "Niger",
-      "city": "Zinder",
-      "event_type": "law enforcement",
-      "candidate_event": false,
-      "title": "Zinder: eleven suspects arrested after the dismantling of two criminal networks",
-      "url": "https://www.actuniger.com/faits-divers/22437-zinder-onze-suspects-interpelles-apres-le-demantelement-de-deux-reseaux-criminels"
-    },
-    {
-      "published_at": "2026-10-09T18:28:20Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-09T20:37:37.884515Z",
-      "discovered_at": "2026-10-09T20:37:37.884515Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0115",
-      "source": "The Premium Times (Nigeria)",
-      "language": "en",
-      "actor": null,
-      "country": "Niger",
-      "city": null,
-      "event_type": "law enforcement",
-      "candidate_event": false,
-      "title": "Court remands Nigerien man in Abuja for alleged supply of AK-47 ammunition for terrorism",
-      "url": "https://www.premiumtimesng.com/news/top-news/915716-court-remands-nigerien-man-in-abuja-for-alleged-supply-of-ak-47-ammunition-for-terrorism.html"
-    },
-    {
-      "published_at": "2026-10-09T18:08:35Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-09T20:37:30.874250Z",
-      "discovered_at": "2026-10-09T20:37:30.874250Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0178",
-      "source": "Studio Yafa",
-      "language": "fr",
-      "actor": null,
-      "country": null,
-      "city": null,
-      "event_type": "clash",
-      "candidate_event": false,
-      "title": "Nobel Peace Prize 2026: Africa in the spotlight with South Africa's Navi Pillay",
-      "url": "https://www.studioyafa.bf/42249-nobel-de-la-paix-2026-lafrique-a-lhonneur-avec-la-sud-africaine-navi-pillay"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
