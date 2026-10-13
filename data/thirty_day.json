@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-13T12:52:32.951868Z",
+  "generated_at": "2026-10-13T16:45:24.904526Z",
   "window_days": 30,
   "cutoff": "2026-09-13",
-  "reports": 412,
+  "reports": 414,
   "incident_reports": 99,
   "candidate_events": 74,
   "corroborated_events": 16,
   "mapped_events": 65,
   "mapped_locations": 130,
-  "distinct_sources": 78,
+  "distinct_sources": 79,
   "by_actor": {
     "State": 50,
     "JNIM": 9,
@@ -30,7 +30,7 @@
     "raid": 1
   },
   "by_language": {
-    "fr": 313,
+    "fr": 315,
     "en": 78,
     "ar": 21
   },
@@ -82,19 +82,19 @@
       "count": 12
     },
     {
-      "source_code": "SRC-0092",
-      "source": "La Nouvelle Tribune (Bénin)",
-      "count": 11
-    },
-    {
       "source_code": "SRC-0003",
       "source": "Jeune Afrique",
-      "count": 10
+      "count": 11
     },
     {
       "source_code": "SRC-0004",
       "source": "Studio Tamani",
-      "count": 10
+      "count": 11
+    },
+    {
+      "source_code": "SRC-0092",
+      "source": "La Nouvelle Tribune (Bénin)",
+      "count": 11
     },
     {
       "source_code": "SRC-0013",
@@ -300,7 +300,7 @@
     },
     {
       "date": "2026-10-13",
-      "reports": 5,
+      "reports": 8,
       "events": 0
     }
   ],
@@ -3870,6 +3870,60 @@
   ],
   "latest_reports": [
     {
+      "published_at": "2026-10-13T16:15:19Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-13T16:44:33.055294Z",
+      "discovered_at": "2026-10-13T16:44:33.055294Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0004",
+      "source": "Studio Tamani",
+      "language": "fr",
+      "actor": null,
+      "country": "Mali",
+      "city": "Bamako",
+      "event_type": "attack",
+      "candidate_event": false,
+      "title": "THE TITLES OF 13 OCTOBER 2026",
+      "url": "https://www.studiotamani.org/209027-les-titres-du-13-octobre-2026"
+    },
+    {
+      "published_at": "2026-10-13T15:55:51Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-13T16:44:35.817182Z",
+      "discovered_at": "2026-10-13T16:44:35.817182Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0003",
+      "source": "Jeune Afrique",
+      "language": "fr",
+      "actor": null,
+      "country": "Mali",
+      "city": "Bamako",
+      "event_type": "political/security policy",
+      "candidate_event": false,
+      "title": "Ivory Coast-Mali: the boss of Ivorian intelligence expected in Bamako",
+      "url": "https://www.jeuneafrique.com/1851614/politique/cote-divoire-mali-le-patron-des-renseignements-ivoiriens-attendu-a-bamako/"
+    },
+    {
+      "published_at": "2026-10-13T13:07:02Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-13T16:44:36.521190Z",
+      "discovered_at": "2026-10-13T16:44:36.521190Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0164",
+      "source": "Echorouk Online (الشروق أونلاين)",
+      "language": "fr",
+      "actor": null,
+      "country": "Niger",
+      "city": null,
+      "event_type": "political/security policy",
+      "candidate_event": false,
+      "title": "Army General Said Chanegriha receives the Minister of State, Minister of National Defence of Niger",
+      "url": "https://www.echoroukonline.com/le-general-darmee-said-chanegriha-recoit-le-ministre-detat-ministre-de-la-defense-nationale-du-niger"
+    },
+    {
       "published_at": "2026-10-13T10:37:48Z",
       "published_date_source": "jsonld:datePublished",
       "published_time_precision": "datetime",
@@ -4534,60 +4588,6 @@
       "candidate_event": true,
       "title": "Kidal at the heart of Operation \"FAGOWAZAJ\": Attack FAMa under the enlightened leadership of Colonel Attaher A. Maïga, valiant Red Beret",
       "url": "https://bamada.net/kidal-au-coeur-de-loperation-fagowazaj-les-fama-dattaque-sous-le-leadership-eclaire-du-colonel-attaher-a-maiga-vaillant-beret-rouge"
-    },
-    {
-      "published_at": "2026-10-10T00:50:10Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-10T04:38:07.382235Z",
-      "discovered_at": "2026-10-10T04:38:07.382235Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0008",
-      "source": "Bamada",
-      "language": "fr",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Kidal",
-      "event_type": "security operation",
-      "candidate_event": true,
-      "title": "Operation Dougoukoloko: the FAMa hit two terrorist vehicles near Kidal and a base in the Timbuktu region",
-      "url": "https://bamada.net/operation-dougoukoloko-les-fama-frappent-deux-vehicules-terroristes-pres-de-kidal-et-une-base-dans-la-region-de-tombouctou"
-    },
-    {
-      "published_at": "2026-10-10T00:08:15Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-10T00:49:18.420493Z",
-      "discovered_at": "2026-10-10T00:49:18.420493Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0008",
-      "source": "Bamada",
-      "language": "fr",
-      "actor": "JNIM",
-      "country": "Mali",
-      "city": "Bamako",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Reconciliation at what cost: and Iyad Ag Ghaly?",
-      "url": "https://bamada.net/reconciliation-a-quel-prix-et-iyad-ag-ghaly"
-    },
-    {
-      "published_at": "2026-10-09T21:02:11Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-10T00:49:18.371606Z",
-      "discovered_at": "2026-10-10T00:49:18.371606Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0008",
-      "source": "Bamada",
-      "language": "fr",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Gao",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "GAO: 234 trainees complete their Inter-Arms Certificate (CIA) training",
-      "url": "https://bamada.net/gao-234-stagiaires-achevent-leur-formation-au-certificat-interarmes-cia"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
