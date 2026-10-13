@@ -1,8 +1,378 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-13T00:53:52.726597Z",
-  "briefing_count": 11,
+  "generated_at": "2026-10-13T04:45:25.828059Z",
+  "briefing_count": 12,
   "briefings": [
+    {
+      "schema_version": "2.0",
+      "product": "Sultana 24-Hour AES Intelligence Brief",
+      "reporting_date": "2026-10-13",
+      "generated_at": "2026-10-13T04:45:25.828059Z",
+      "window_start": "2026-10-12T04:45:25.828059Z",
+      "window_end": "2026-10-13T04:45:25.828059Z",
+      "window_hours": 24,
+      "method": "Sultana 24-hour all-retained-report intelligence synthesis",
+      "freshness_status": "LIVE",
+      "assessment_confidence": "MODERATE",
+      "coverage": {
+        "retained_articles_reviewed": 16,
+        "retained_articles_in_window": 16,
+        "coverage_complete": true,
+        "distinct_sources": 7,
+        "linked_candidate_events": 3,
+        "multi_source_candidate_events": 1,
+        "countries": {
+          "Mali": 13,
+          "Burkina Faso": 2,
+          "Niger": 1
+        },
+        "actors": {
+          "Other": 6,
+          "JNIM": 2,
+          "Africa Corps/Wagner": 2,
+          "State": 6
+        },
+        "event_types": {
+          "political/security policy": 3,
+          "security operation": 2,
+          "offensive/campaign": 3,
+          "ambush": 1,
+          "law enforcement": 1,
+          "attack": 2,
+          "clash": 1
+        }
+      },
+      "sections": [
+        {
+          "heading": "BOTTOM LINE",
+          "text": "Sultana reviewed all 16 retained reports collected during the 24-hour window from 7 distinct sources. Reporting was heaviest on Mali (13 reports), while State appeared most often in actor-attributed reporting (6 reports). The same source set is linked to 3 fused candidate events, including 1 with at least two independent sources."
+        },
+        {
+          "heading": "KEY JUDGMENTS",
+          "bullets": [
+            "Reporting distribution: Mali 13, Burkina Faso 2, Niger 1 retained reports.",
+            "Actor posture: State dominated actor-attributed reporting in this window; JNIM 2, IS Sahel 0, AES/state forces 6, Africa Corps/Wagner 2.",
+            "Operational pattern: the leading coded report types were political/security policy (3), offensive/campaign (3), security operation (2), attack (2).",
+            "Event fusion: 3 candidate events are tied to reports collected in the window; 1 currently have multi-source support."
+          ]
+        },
+        {
+          "heading": "Mali",
+          "text": "13 retained reports were reviewed for Mali. Kidal: General Dao announces the continuation of operations beyond the city: Major General Jean Élysée Dao, Chief of the General Staff of the Armed Forces, visited Kidal last Saturday and Sunday to assess the security system and pay tribute to the fighters who participated in the recovery of… Focus: Kidal: Victory over evil!: By breaking the supposedly impregnable lock of the Northeast, our valiant soldiers not only erased years of humiliation and terrorist diktat, but they also dealt a mortal blow to the obscurantist hydra that fueled… Reporting was concentrated on State (6), JNIM (2), Africa Corps/Wagner (2)."
+        },
+        {
+          "heading": "Burkina Faso",
+          "text": "2 retained reports were reviewed for Burkina Faso. Burkina: 14 suspects arrested for robberies: Fourteen people suspected of belonging to a network of robbers operating in Burkina Faso and in localities in neighboring countries have been arrested, the National Police said, claiming to have seized several firearms… Burkina Faso: Au mois de août 2026, les partenaires humanitaires ont atteint cumulativement 1 106 912 personnes, soit 41,7 % de la cible intersectorielle (+41K sur le mois), dont 409K personnes vivant dans des... Burkina Faso is…"
+        },
+        {
+          "heading": "Niger",
+          "text": "1 retained report was reviewed for Niger. Gunmen Kill 24 in Zamfara, Niger States: Two separate attacks over the weekend killed 24 people in northwestern and central Nigeria, including eight soldiers and a policeman, according to residents and aid workers. The violence is the latest in a series of…"
+        },
+        {
+          "heading": "ACTOR POSTURE",
+          "text": "JNIM appears in 2 retained reports; IS Sahel in 0; AES/state forces in 6; Africa Corps/Wagner in 2. JNIM is down to 1 from 4; IS Sahel is flat at 0 fused candidate events over the current seven-day window; State is down to 10 from 19."
+        },
+        {
+          "heading": "WHAT CHANGED VS BASELINE",
+          "text": "JNIM is down to 1 from 4; IS Sahel is flat at 0 fused candidate events over the current seven-day window; State is down to 10 from 19."
+        },
+        {
+          "heading": "INDICATORS TO WATCH — NEXT 24–72 HOURS",
+          "bullets": [
+            "Watch for follow-on JNIM claims, geographic spread, and corroboration of newly reported attacks.",
+            "Watch for additional Africa Corps/Wagner-linked deployments, joint operations, logistics activity, or equipment reporting."
+          ]
+        },
+        {
+          "heading": "CONFIDENCE / CAVEATS",
+          "bullets": [
+            "Multiple sources were reviewed, but some developments remain single-source or incompletely corroborated.",
+            "Collection health: 137 sources live, 19 degraded, 28 failed in the latest collector cycle.",
+            "Candidate events and actor attributions remain OSINT-derived analytical records and may change with better sourcing, dates, or geolocation."
+          ]
+        }
+      ],
+      "text": "SULTANA AL-QAHTANI — 24-HOUR AES INTELLIGENCE BRIEF\nReporting date: 2026-10-13\nWindow: 2026-10-12T04:45:25.828059Z to 2026-10-13T04:45:25.828059Z\nAssessment confidence: MODERATE\n\nBOTTOM LINE\nSultana reviewed all 16 retained reports collected during the 24-hour window from 7 distinct sources. Reporting was heaviest on Mali (13 reports), while State appeared most often in actor-attributed reporting (6 reports). The same source set is linked to 3 fused candidate events, including 1 with at least two independent sources.\n\nKEY JUDGMENTS\n• Reporting distribution: Mali 13, Burkina Faso 2, Niger 1 retained reports.\n• Actor posture: State dominated actor-attributed reporting in this window; JNIM 2, IS Sahel 0, AES/state forces 6, Africa Corps/Wagner 2.\n• Operational pattern: the leading coded report types were political/security policy (3), offensive/campaign (3), security operation (2), attack (2).\n• Event fusion: 3 candidate events are tied to reports collected in the window; 1 currently have multi-source support.\n\nMali\n13 retained reports were reviewed for Mali. Kidal: General Dao announces the continuation of operations beyond the city: Major General Jean Élysée Dao, Chief of the General Staff of the Armed Forces, visited Kidal last Saturday and Sunday to assess the security system and pay tribute to the fighters who participated in the recovery of… Focus: Kidal: Victory over evil!: By breaking the supposedly impregnable lock of the Northeast, our valiant soldiers not only erased years of humiliation and terrorist diktat, but they also dealt a mortal blow to the obscurantist hydra that fueled… Reporting was concentrated on State (6), JNIM (2), Africa Corps/Wagner (2).\n\nBurkina Faso\n2 retained reports were reviewed for Burkina Faso. Burkina: 14 suspects arrested for robberies: Fourteen people suspected of belonging to a network of robbers operating in Burkina Faso and in localities in neighboring countries have been arrested, the National Police said, claiming to have seized several firearms… Burkina Faso: Au mois de août 2026, les partenaires humanitaires ont atteint cumulativement 1 106 912 personnes, soit 41,7 % de la cible intersectorielle (+41K sur le mois), dont 409K personnes vivant dans des... Burkina Faso is…\n\nNiger\n1 retained report was reviewed for Niger. Gunmen Kill 24 in Zamfara, Niger States: Two separate attacks over the weekend killed 24 people in northwestern and central Nigeria, including eight soldiers and a policeman, according to residents and aid workers. The violence is the latest in a series of…\n\nACTOR POSTURE\nJNIM appears in 2 retained reports; IS Sahel in 0; AES/state forces in 6; Africa Corps/Wagner in 2. JNIM is down to 1 from 4; IS Sahel is flat at 0 fused candidate events over the current seven-day window; State is down to 10 from 19.\n\nWHAT CHANGED VS BASELINE\nJNIM is down to 1 from 4; IS Sahel is flat at 0 fused candidate events over the current seven-day window; State is down to 10 from 19.\n\nINDICATORS TO WATCH — NEXT 24–72 HOURS\n• Watch for follow-on JNIM claims, geographic spread, and corroboration of newly reported attacks.\n• Watch for additional Africa Corps/Wagner-linked deployments, joint operations, logistics activity, or equipment reporting.\n\nCONFIDENCE / CAVEATS\n• Multiple sources were reviewed, but some developments remain single-source or incompletely corroborated.\n• Collection health: 137 sources live, 19 degraded, 28 failed in the latest collector cycle.\n• Candidate events and actor attributions remain OSINT-derived analytical records and may change with better sourcing, dates, or geolocation.",
+      "article_manifest": [
+        {
+          "id": "5c617cc28411a36c59eff950fd74606320c25f2f",
+          "source": "RFI Afrique",
+          "title": "Mali: Protesters denounce a police \"blunder\" after the death of a young man in Kourémalé",
+          "original_title": "Mali: des manifestants dénoncent une «bavure» policière après la mort d'un jeune homme à Kourémalé",
+          "summary": "Protest movements turned into a riot on Monday, October 12, in Kourémalé, a town on the border with Guinea, after the death, Sunday evening, of a young man during a police check gone wrong Protesters protested against a new “blunder”, according to them, by the police, after a similar incident last week. Published on: The victim is a young man in his thirties, employed as a guard on a gold mining site.",
+          "url": "https://www.rfi.fr/fr/afrique/20261013-mali-des-manifestants-d%C3%A9noncent-une-bavure-polici%C3%A8re-apr%C3%A8s-la-mort-d-un-jeune-homme-%C3%A0-kour%C3%A9mal%C3%A9",
+          "country": "Mali",
+          "language": "fr",
+          "published_at": "2026-10-13T04:24:53Z",
+          "collected_at": "2026-10-13T04:44:38.925025Z",
+          "event_date": "2026-10-12",
+          "actor": "Other",
+          "event_type": null,
+          "candidate_event": false,
+          "supporting_force": null
+        },
+        {
+          "id": "0ccacb27fd5be594809fd1993ec94c24ff822c60",
+          "source": "Wakat Sera",
+          "title": "Kidal: the Chief of the General Staff of the Armed Forces in contact with the units involved",
+          "original_title": "Kidal: le chef d’état-major général des Armées au contact des unités engagées",
+          "summary": "The Chief of the General Staff of the Armed Forces (CEMGA), Major General Elisée Jean DAO, accompanied by a delegation, paid an authority visit from 10 to 11 October 2026 to the units engaged in Anefif and Kidal, as part of the strengthening and consolidation of the security system of the Malian Armed Forces (FAMa) in the 8th administrative region of Mali During these 48 hours spent in contact with the men, the Chief of the General Staff of the Armed Forces and his delegation went to the field to immerse themselves in operational realities, to appreciate the security situation in the area and to see first-hand…",
+          "url": "https://www.wakatsera.com/kidal-le-chef-detat-major-general-des-armees-au-contact-des-unites-engagees/",
+          "country": "Mali",
+          "language": "fr",
+          "published_at": "2026-10-12T15:17:20Z",
+          "collected_at": "2026-10-12T16:42:07.693961Z",
+          "event_date": "2026-10-11",
+          "actor": "JNIM",
+          "event_type": "political/security policy",
+          "candidate_event": false,
+          "supporting_force": null
+        },
+        {
+          "id": "2d4b2e07ed1612d87c3c0b17d996f57f0a999599",
+          "source": "Bamada",
+          "title": "KIDAL: The Chief of the General Staff of the Armed Forces in contact with the units involved",
+          "original_title": "KIDAL : Le Chef d’Etat-major Général des Armées au contact des unités engagées",
+          "summary": "The Chief of the General Staff of the Armed Forces (CEMGA), Major General Elisée Jean DAO, accompanied by a delegation, paid an authority visit from 10 to 11 October 2026 to the units engaged in Anefif and Kidal, as part of the strengthening and consolidation of the security system of the Malian Armed Forces (FAMa) in the 8th administrative region of Mali During these 48 hours spent in contact with the men, the Chief of the General Staff of the Armed Forces and his delegation went to the field to immerse themselves in operational realities, to appreciate the security situation in the area and to see first-hand…",
+          "url": "https://bamada.net/kidal-le-chef-detat-major-general-des-armees-au-contact-des-unites-engagees",
+          "country": "Mali",
+          "language": "fr",
+          "published_at": "2026-10-12T14:06:17Z",
+          "collected_at": "2026-10-12T16:42:06.471621Z",
+          "event_date": "2026-10-11",
+          "actor": "JNIM",
+          "event_type": "political/security policy",
+          "candidate_event": false,
+          "supporting_force": null
+        },
+        {
+          "id": "57ef3ff0c5bf024bff12c7eaef0fdad626867017",
+          "source": "La Nouvelle Tribune (Bénin)",
+          "title": "Mali: a large Ivorian security delegation expected in Bamako, according to Serge Daniel",
+          "original_title": "Mali : une importante délégation sécuritaire ivoirienne attendue à Bamako, selon Serge Daniel",
+          "summary": "A large Ivorian security delegation is announced in Bamako on October 15, 2026, according to journalist Serge Daniel. Last June, Téné Birahima Ouattara had already raised the possibility of resuming security cooperation with Mali and Burkina Faso, believing that no country could fight terrorism alone. .",
+          "url": "https://lanouvelletribune.info/2026/10/mali-une-importante-delegation-securitaire-ivoirienne-attendue-a-bamako-selon-serge-daniel/",
+          "country": "Mali",
+          "language": "fr",
+          "published_at": "2026-10-12T12:50:42Z",
+          "collected_at": "2026-10-12T13:02:59.587729Z",
+          "event_date": "2026-10-15",
+          "actor": "Other",
+          "event_type": "political/security policy",
+          "candidate_event": false,
+          "supporting_force": null
+        },
+        {
+          "id": "a0f4a63f70ff2f6bc2590f9eee70a9ee04e00bfe",
+          "source": "La Nouvelle Tribune (Bénin)",
+          "title": "Sahel: Africa Corps hits an armed group with a “Lancet” drone",
+          "original_title": "Sahel : Africa Corps frappe un groupe armé avec un drone « Lancet »",
+          "summary": "The Russian African Corps claims to have struck an armed group using a “Lancet” kamikaze drone, after a camp was detected during an aerial intelligence operation. Indeed, according to the African Corps, the strike hit a hut where there were men described as terrorists by the Russian force. However, the location of the attack and the number of possible victims were not communicated .",
+          "url": "https://lanouvelletribune.info/2026/10/sahel-africa-corps-frappe-un-groupe-arme-avec-un-drone-lancet/",
+          "country": "Mali",
+          "language": "fr",
+          "published_at": "2026-10-12T12:28:08Z",
+          "collected_at": "2026-10-12T13:03:01.484563Z",
+          "event_date": "2026-10-04",
+          "actor": "Africa Corps/Wagner",
+          "event_type": "security operation",
+          "candidate_event": false,
+          "supporting_force": "Africa Corps/Wagner"
+        },
+        {
+          "id": "4ce6c16b4de3e3a7b54dab1276444b7624d64d3d",
+          "source": "Malijet",
+          "title": "Kidal: General Dao announces the continuation of operations beyond the city",
+          "original_title": "Kidal : le général Dao annonce la poursuite des opérations au-delà de la ville",
+          "summary": "Major General Jean Élysée Dao, Chief of the General Staff of the Armed Forces, visited Kidal last Saturday and Sunday to assess the security system and pay tribute to the fighters who participated in the recovery of the city. Accompanied by several military officials, he conveyed to them the congratulations and support of the Malian authorities On the spot, he congratulated the heads of the Joint Battlegroups (JTGs) and their men for their commitment to the takeover of Kidal.",
+          "url": "https://malijet.com/a_la_une_du_mali/312286-kidal-le-general-dao-annonce-la-poursuite-des-operations-a.html",
+          "country": "Mali",
+          "language": "fr",
+          "published_at": "2026-10-12T11:25:10Z",
+          "collected_at": "2026-10-12T13:02:59.423073Z",
+          "event_date": "2026-10-10",
+          "actor": "Africa Corps/Wagner",
+          "event_type": "offensive/campaign",
+          "candidate_event": true,
+          "supporting_force": null
+        },
+        {
+          "id": "1b0e9e6a7f497ca1178075df7f338b10ae54a4b6",
+          "source": "News Central TV (Nigeria)",
+          "title": "Gunmen Kill 24 in Zamfara, Niger States",
+          "original_title": "Gunmen Kill 24 in Zamfara, Niger States",
+          "summary": "Two separate attacks over the weekend killed 24 people in northwestern and central Nigeria, including eight soldiers and a policeman, according to residents and aid workers. The violence is the latest in a series of raids on communities in both regions, attributed to gangs that carry out kidnapping for ransom and cattle rustling, known locally as bandits, as well as armed groups active in the area.",
+          "url": "https://newscentraltv.com/gunmen-kill-24-in-zamfara-niger-states/",
+          "country": "Niger",
+          "language": "en",
+          "published_at": "2026-10-12T11:10:24Z",
+          "collected_at": "2026-10-12T13:03:01.640902Z",
+          "event_date": "2026-10-11",
+          "actor": "Other",
+          "event_type": "ambush",
+          "candidate_event": false,
+          "supporting_force": null
+        },
+        {
+          "id": "48470f0ec3a8e20a4961c1b5d4f1740ac746c128",
+          "source": "Bamada",
+          "title": "Resumption of Kidal: The government has spoken out",
+          "original_title": "Reprise de Kidal : Le gouvernement s’est exprimé",
+          "summary": "The text stresses that the FAMa, supported by their Russian partners, consolidated their presence in the capital of Mali's eighth administrative region on 6 October 2026. The authorities present this development as the consequence of air-land operations that made it possible to strike the positions of the coalition of opposing armed groups . The government also specifies that after the recent coordinated attacks targeting Malian forces, a tactical redeployment had been carried out around the localities of Anéfis and Aguel-hoc, without questioning the operational presence of FAMa in the region.",
+          "url": "https://bamada.net/reprise-de-kidal-le-gouvernement-sest-exprime",
+          "country": "Mali",
+          "language": "fr",
+          "published_at": "2026-10-12T10:23:39Z",
+          "collected_at": "2026-10-12T13:02:59.224853Z",
+          "event_date": "2026-10-06",
+          "actor": "State",
+          "event_type": null,
+          "candidate_event": false,
+          "supporting_force": null
+        },
+        {
+          "id": "d329c8679f4dfb19ef8019ddee6568ce5ced7aed",
+          "source": "Bamada",
+          "title": "Autopsy of a feminoid: A drama that strongly challenges",
+          "original_title": "Autopsie d’un féminoïde : Un drame qui interpelle fortement",
+          "summary": "This drama is not just about drugs or psychotropic drugs. This tragedy requires the education of boys, the training of families, the strict regulation of firearms and the effective respect of women's right to security and speech in the marital home and Malian society as a whole today, still seriously affected by these repeated femicides. It is the indicator of a crisis in our marital model .",
+          "url": "https://bamada.net/autopsie-dun-feminoide-un-drame-qui-interpelle-fortement",
+          "country": "Mali",
+          "language": "fr",
+          "published_at": "2026-10-12T10:21:29Z",
+          "collected_at": "2026-10-12T13:03:02.090370Z",
+          "event_date": "2026-10-12",
+          "actor": "Other",
+          "event_type": "law enforcement",
+          "candidate_event": false,
+          "supporting_force": null
+        },
+        {
+          "id": "6f35acbdf19f73a68566f231b91ab6f804f940b4",
+          "source": "Bamada",
+          "title": "Focus: Kidal: Victory over evil!",
+          "original_title": "Focus : Kidal : Victoire sur le mal !",
+          "summary": "By breaking the supposedly impregnable lock of the Northeast, our valiant soldiers not only erased years of humiliation and terrorist diktat, but they also dealt a mortal blow to the obscurantist hydra that fueled sub-regional instability .",
+          "url": "https://bamada.net/focus-kidal-victoire-sur-le-mal",
+          "country": "Mali",
+          "language": "fr",
+          "published_at": "2026-10-12T10:19:08Z",
+          "collected_at": "2026-10-12T13:02:59.448503Z",
+          "event_date": "2026-10-12",
+          "actor": "State",
+          "event_type": "offensive/campaign",
+          "candidate_event": true,
+          "supporting_force": null
+        },
+        {
+          "id": "8a3ba22033e875c8f7a8b88ce36c6f46c1c7db79",
+          "source": "Bamada",
+          "title": "Last minute: The FAMa thwart an attack in Kidal",
+          "original_title": "Dernière minute : Les FAMa déjouent une attaque à Kidal",
+          "summary": "As part of Operation Dougoukolo, the Malian Armed Forces (FAMa), supported by their partners, are stepping up their fight to secure the national territory. On Friday, October 9, 2026, their vigilance and responsiveness made it possible to thwart a threat of attack against an army convoy in the Kidal region. It was southwest of the city of Kidal that the worst was averted .",
+          "url": "https://bamada.net/derniere-minute-les-fama-dejouent-une-attaque-a-kidal",
+          "country": "Mali",
+          "language": "fr",
+          "published_at": "2026-10-12T10:12:57Z",
+          "collected_at": "2026-10-12T13:02:59.251223Z",
+          "event_date": "2026-10-09",
+          "actor": "State",
+          "event_type": "attack",
+          "candidate_event": true,
+          "supporting_force": null
+        },
+        {
+          "id": "d0346b115f635bdfcd99105fb0ef085037a80006",
+          "source": "Bamada",
+          "title": "Reconquest of Kayes in Tinzawatene: Kidal: What remains to be done...",
+          "original_title": "Reconquête de Kayes à Tinzawatene : Kidal : Ce qui reste à faire…",
+          "summary": "October 6, 2026 will remain etched as a decisive turning point in Mali's recent history. After days of intense military operations in the North, the Malian Armed Forces (FAMa), supported by their Russian partners, have successfully regained their position in the city of Kidal. This stunning advance is part of the rehabilitation of Operation Dougoukoloko For decades, Kidal crystallized rebellions, fractures, and the state's past inability to fully exercise its authority.",
+          "url": "https://bamada.net/reconquete-de-kayes-a-tinzawatene-kidal-ce-qui-reste-a-faire",
+          "country": "Mali",
+          "language": "fr",
+          "published_at": "2026-10-12T10:06:06Z",
+          "collected_at": "2026-10-12T13:02:59.274392Z",
+          "event_date": "2026-10-06",
+          "actor": "State",
+          "event_type": "offensive/campaign",
+          "candidate_event": false,
+          "supporting_force": null
+        },
+        {
+          "id": "e932225000e843f9526a06e4f983c645f168d024",
+          "source": "Malijet",
+          "title": "Last minute: The FAMa thwart an attack in Kidal",
+          "original_title": "Dernière minute : Les FAMa déjouent une attaque à Kidal",
+          "summary": "As part of Operation Dougoukolo, the Malian Armed Forces (FAMa), supported by their partners, are stepping up their fight to secure the national territory. On Friday, October 9, 2026, their vigilance and responsiveness made it possible to thwart a threat of attack against an army convoy in the Kidal region . It was southwest of the city of Kidal that the worst was averted.",
+          "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312276-derniere-minute-les-fama-dejouent-une-attaque-a-kidal.html",
+          "country": "Mali",
+          "language": "fr",
+          "published_at": "2026-10-12T08:53:39Z",
+          "collected_at": "2026-10-12T13:02:59.373840Z",
+          "event_date": "2026-10-09",
+          "actor": "State",
+          "event_type": "attack",
+          "candidate_event": true,
+          "supporting_force": null
+        },
+        {
+          "id": "2c0dbb22c3f558ed95c9d7c5d245264132117d78",
+          "source": "Bamada",
+          "title": "Burkina: 14 suspects arrested for robberies",
+          "original_title": "Burkina : 14 suspects arrêtés pour braquages",
+          "summary": "Fourteen people suspected of belonging to a network of robbers operating in Burkina Faso and in localities in neighboring countries have been arrested, the National Police said, claiming to have seized several firearms and ammunition. A group of 14 suspected robbers has been arrested, say the Burkinabe authorities . Composed mostly of people already convicted by the courts, it targeted shops, Orange Money shops, foundries and gold buyers, as well as gas stations, according to the police.",
+          "url": "https://bamada.net/burkina-14-suspects-arretes-pour-braquages",
+          "country": "Burkina Faso",
+          "language": "fr",
+          "published_at": "2026-10-12T08:11:56Z",
+          "collected_at": "2026-10-12T08:46:24.891024Z",
+          "event_date": "2026-10-12",
+          "actor": "Other",
+          "event_type": null,
+          "candidate_event": false,
+          "supporting_force": null
+        },
+        {
+          "id": "467e4042e0181fea15debdf8dc4323768a2261eb",
+          "source": "Bamada",
+          "title": "Tribune: Beyond a military victory, the Sahel fights for global security",
+          "original_title": "Tribune : Au-delà d’une victoire militaire, le Sahel combat pour la sécurité mondiale",
+          "summary": "A victory whose scope extends beyond Mali The takeover of Kidal by the Malian Armed Forces (FAMa) in October 2026, after the withdrawal of armed groups from the city, is an important step in Mali's fight to restore its sovereignty, territorial integrity and national security. The courage, determination and sacrifices of Malian soldiers deserve to be recognized .",
+          "url": "https://bamada.net/tribune-au-dela-dune-victoire-militaire-le-sahel-combat-pour-la-securite-mondiale",
+          "country": "Mali",
+          "language": "fr",
+          "published_at": "2026-10-12T07:21:12Z",
+          "collected_at": "2026-10-12T08:46:24.340282Z",
+          "event_date": "2026-10-12",
+          "actor": "State",
+          "event_type": "clash",
+          "candidate_event": false,
+          "supporting_force": null
+        },
+        {
+          "id": "9afe893501f9daf60d5b2e167779c3d2de3a8711",
+          "source": "OCHA Afrique de l'Ouest et du Centre",
+          "title": "Burkina Faso",
+          "original_title": "Burkina Faso",
+          "summary": "Au mois de août 2026, les partenaires humanitaires ont atteint cumulativement 1 106 912 personnes, soit 41,7 % de la cible intersectorielle (+41K sur le mois), dont 409K personnes vivant dans des... Burkina Faso is facing one of the world’s most neglected humanitarian crises, driven by insecurity, amid adverse climatic conditions. These challenges are pushing many people — already living with limited resources — to the brink of survival.",
+          "url": "https://www.unocha.org/burkina-faso",
+          "country": "Burkina Faso",
+          "language": "en",
+          "published_at": "2026-10-02T06:22:59Z",
+          "collected_at": "2026-10-13T00:53:33.156256Z",
+          "event_date": "2026-10-02",
+          "actor": "Other",
+          "event_type": "security operation",
+          "candidate_event": false,
+          "supporting_force": null
+        }
+      ],
+      "linked_event_ids": [
+        "cfb1d6d26ad8cc2dc650e5d875b09db73986610b",
+        "02cfb16d5e41cc5c6e0cbac8c8b1ae5e67d74eb6",
+        "52a943b693dbbc3865318db8000c4c4ed915c5ac"
+      ]
+    },
     {
       "schema_version": "2.0",
       "product": "Sultana 24-Hour AES Intelligence Brief",
