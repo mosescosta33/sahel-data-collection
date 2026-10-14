@@ -1,42 +1,42 @@
 {
-  "generated_at": "2026-10-14T01:04:42.359396Z",
+  "generated_at": "2026-10-14T04:53:52.226108Z",
   "window_days": 30,
   "cutoff": "2026-09-14",
-  "reports": 423,
-  "incident_reports": 99,
-  "candidate_events": 74,
+  "reports": 424,
+  "incident_reports": 100,
+  "candidate_events": 75,
   "corroborated_events": 16,
-  "mapped_events": 65,
-  "mapped_locations": 130,
+  "mapped_events": 66,
+  "mapped_locations": 131,
   "distinct_sources": 80,
   "by_actor": {
     "State": 50,
-    "JNIM": 9,
+    "JNIM": 10,
     "Other": 9,
     "Africa Corps/Wagner": 6
   },
   "by_country": {
-    "Mali": 68,
+    "Mali": 69,
     "Niger": 4,
     "Burkina Faso": 2
   },
   "by_event_type": {
     "security operation": 32,
     "offensive/campaign": 17,
-    "clash": 9,
+    "clash": 10,
     "attack": 8,
     "ambush": 4,
     "kidnapping": 3,
     "raid": 1
   },
   "by_language": {
-    "fr": 322,
+    "fr": 323,
     "en": 79,
     "ar": 22
   },
   "by_confidence": {
     "moderate": 36,
-    "low": 33,
+    "low": 34,
     "moderate-high": 4,
     "high": 1
   },
@@ -59,7 +59,7 @@
     {
       "source_code": "SRC-0001",
       "source": "RFI Afrique",
-      "count": 17
+      "count": 18
     },
     {
       "source_code": "SRC-0090",
@@ -128,6 +128,10 @@
       "count": 8
     },
     {
+      "location": "Ségou",
+      "count": 7
+    },
+    {
       "location": "Sévaré",
       "count": 7
     },
@@ -137,10 +141,6 @@
     },
     {
       "location": "Mopti",
-      "count": 6
-    },
-    {
-      "location": "Ségou",
       "count": 6
     },
     {
@@ -291,7 +291,7 @@
     {
       "date": "2026-10-12",
       "reports": 15,
-      "events": 1
+      "events": 2
     },
     {
       "date": "2026-10-13",
@@ -300,11 +300,112 @@
     },
     {
       "date": "2026-10-14",
-      "reports": 1,
+      "reports": 2,
       "events": 0
     }
   ],
   "latest_events": [
+    {
+      "id": "54bbc88b408a6dcbbc3806a87220f81a83a94e2f",
+      "event_date": "2026-10-12",
+      "event_date_confidence": "explicit-text",
+      "event_date_source": "explicit-calendar-date",
+      "published_at": "2026-10-14T02:25:37Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-14T04:53:26.445433Z",
+      "actor": "JNIM",
+      "perpetrator": null,
+      "target": null,
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [
+        "State",
+        "JNIM"
+      ],
+      "parent_report_id": null,
+      "event_type": "clash",
+      "country": "Mali",
+      "city": "Ségou",
+      "lat": 13.4317,
+      "lng": -6.2157,
+      "locations": [
+        {
+          "name": "Ségou",
+          "country": "Mali",
+          "lat": 13.4317,
+          "lng": -6.2157,
+          "confidence": "explicit-place"
+        }
+      ],
+      "title": "Mali: at least eight women and children killed by army shelling in the Ségou region",
+      "summary": "In Mali, at least eight people, mostly women and children, were killed on Monday, October 12, 2026 in aerial bombardments in Zanakoro, a Fulani village in the Ségou region. The Malian army, which is fighting in this part of the country the jihadists of Jnim, linked to al-Qaeda, did not communicate on these strikes . Published on: On the images broadcast by the villagers, burnt babies lose their skin by shreds.",
+      "sources": [
+        "RFI Afrique"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://www.rfi.fr/fr/afrique/20261014-mali-au-moins-huit-femmes-et-enfants-tu%C3%A9s-par-des-bombardements-de-l-arm%C3%A9e-dans-la-r%C3%A9gion-de-s%C3%A9gou"
+      ],
+      "report_summaries": [
+        {
+          "url": "https://www.rfi.fr/fr/afrique/20261014-mali-au-moins-huit-femmes-et-enfants-tu%C3%A9s-par-des-bombardements-de-l-arm%C3%A9e-dans-la-r%C3%A9gion-de-s%C3%A9gou",
+          "source": "RFI Afrique",
+          "title": "Mali: at least eight women and children killed by army shelling in the Ségou region",
+          "summary": "In Mali, at least eight people, mostly women and children, were killed on Monday, October 12, 2026 in aerial bombardments in Zanakoro, a Fulani village in the Ségou region. The Malian army, which is fighting in this part of the country the jihadists of Jnim, linked to al-Qaeda, did not communicate on these strikes . Published on: On the images broadcast by the villagers, burnt babies lose their skin by shreds.",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "civilian",
+            "armed_group"
+          ],
+          "civilian_targeting_flag": false,
+          "casualty_claims": []
+        }
+      ],
+      "created_at": "2026-10-14T04:53:26.445433Z",
+      "updated_at": "2026-10-14T04:53:26.445433Z",
+      "extraction_confidence": "low",
+      "victim_categories": [
+        "civilian",
+        "armed_group"
+      ],
+      "civilian_targeting_flag": false,
+      "casualty_claims": [],
+      "fatalities_min": null,
+      "fatalities_max": null,
+      "fatalities_best": null,
+      "injured_min": null,
+      "injured_max": null,
+      "abducted_min": null,
+      "abducted_max": null,
+      "casualty_disputed": false,
+      "revision_history": [
+        {
+          "at": "2026-10-14T04:53:26.445433Z",
+          "type": "event_created",
+          "source": "RFI Afrique"
+        }
+      ],
+      "corroboration": "single-source",
+      "confidence": "low",
+      "independent_source_domains": [
+        "rfi.fr"
+      ],
+      "independent_source_count": 1,
+      "significance": "ROUTINE",
+      "significance_reasons": [
+        "limited currently observed significance"
+      ]
+    },
     {
       "id": "cfb1d6d26ad8cc2dc650e5d875b09db73986610b",
       "event_date": "2026-10-12",
@@ -3759,116 +3860,27 @@
         "multi-source corroboration",
         "multi-location activity"
       ]
-    },
-    {
-      "id": "80d3ae6c97314137037e03665d91b3cb8fed5447",
-      "event_date": "2026-10-05",
-      "event_date_confidence": "explicit-text",
-      "event_date_source": "explicit-date-no-year",
-      "published_at": "2026-10-06T17:14:38Z",
-      "published_date_source": "itemprop",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-06T20:40:03.755293Z",
-      "actor": "State",
-      "perpetrator": "State",
-      "target": null,
-      "claimant": null,
-      "supporting_force": null,
-      "mentioned_actors": [
-        "State"
-      ],
-      "parent_report_id": null,
-      "event_type": "security operation",
-      "country": "Mali",
-      "city": "Kidal",
-      "lat": 18.4411,
-      "lng": 1.4078,
-      "locations": [
-        {
-          "name": "Kidal",
-          "country": "Mali",
-          "lat": 18.4411,
-          "lng": 1.4078,
-          "confidence": "explicit-place"
-        },
-        {
-          "name": "Anéfis",
-          "country": "Mali",
-          "lat": 18.0667,
-          "lng": 0.6167,
-          "confidence": "explicit-place"
-        }
-      ],
-      "title": "Mali: the army is increasing pressure on Kidal with large-scale military maneuvers supported by airstrikes in the area",
-      "summary": "The Malian Armed Forces (FAMa), supported by their partners, continue their surveillance and security operations as part of Operation Dougoukoloko, in the centre and north of the country.",
-      "sources": [
-        "ActuNiger"
-      ],
-      "languages": [
-        "fr"
-      ],
-      "source_count": 1,
-      "report_urls": [
-        "https://www.actuniger.com/international/22426-mali-larmee-fait-monter-la-pression-sur-kidal-avec-des-manoeuvres-militaires-denvergure-appuyees-par-des-frappes-aeriennes-dans-la-zone"
-      ],
-      "report_summaries": [
-        {
-          "url": "https://www.actuniger.com/international/22426-mali-larmee-fait-monter-la-pression-sur-kidal-avec-des-manoeuvres-militaires-denvergure-appuyees-par-des-frappes-aeriennes-dans-la-zone",
-          "source": "ActuNiger",
-          "title": "Mali: the army is increasing pressure on Kidal with large-scale military maneuvers supported by airstrikes in the area",
-          "summary": "The Malian Armed Forces (FAMa), supported by their partners, continue their surveillance and security operations as part of Operation Dougoukoloko, in the centre and north of the country.",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "security_force",
-            "armed_group"
-          ],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        }
-      ],
-      "created_at": "2026-10-06T20:40:03.755293Z",
-      "updated_at": "2026-10-06T20:40:03.755293Z",
-      "extraction_confidence": "moderate",
-      "victim_categories": [
-        "security_force",
-        "armed_group"
-      ],
-      "civilian_targeting_flag": false,
-      "casualty_claims": [],
-      "fatalities_min": null,
-      "fatalities_max": null,
-      "fatalities_best": null,
-      "injured_min": null,
-      "injured_max": null,
-      "abducted_min": null,
-      "abducted_max": null,
-      "casualty_disputed": false,
-      "revision_history": [
-        {
-          "at": "2026-10-06T20:40:03.755293Z",
-          "type": "event_created",
-          "source": "ActuNiger"
-        }
-      ],
-      "corroboration": "single-source",
-      "confidence": "moderate",
-      "independent_source_domains": [
-        "actuniger.com"
-      ],
-      "independent_source_count": 1,
-      "significance": "MAJOR",
-      "significance_reasons": [
-        "multi-location activity"
-      ]
     }
   ],
   "latest_reports": [
+    {
+      "published_at": "2026-10-14T02:25:37Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-14T04:53:26.445433Z",
+      "discovered_at": "2026-10-14T04:53:26.445433Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0001",
+      "source": "RFI Afrique",
+      "language": "fr",
+      "actor": "JNIM",
+      "country": "Mali",
+      "city": "Ségou",
+      "event_type": "clash",
+      "candidate_event": true,
+      "title": "Mali: at least eight women and children killed by army shelling in the Ségou region",
+      "url": "https://www.rfi.fr/fr/afrique/20261014-mali-au-moins-huit-femmes-et-enfants-tu%C3%A9s-par-des-bombardements-de-l-arm%C3%A9e-dans-la-r%C3%A9gion-de-s%C3%A9gou"
+    },
     {
       "published_at": "2026-10-14T00:01:40Z",
       "published_date_source": "html:time",
@@ -4570,24 +4582,6 @@
       "candidate_event": false,
       "title": "Massive Fuel Flow in Bamako: Over 5,300 Tanks Delivered Successfully!",
       "url": "https://bamada.net/flux-massif-de-carburant-a-bamako-plus-de-5-300-citernes-livrees-avec-succes"
-    },
-    {
-      "published_at": "2026-10-11T03:02:33Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-11T04:38:47.569253Z",
-      "discovered_at": "2026-10-11T04:38:47.569253Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0001",
-      "source": "RFI Afrique",
-      "language": "fr",
-      "actor": null,
-      "country": "Mali",
-      "city": "Bamako",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Sahel: The number of displaced in Burkina Faso, Mali and Niger has almost doubled since 2020, according to UNHCR",
-      "url": "https://www.rfi.fr/fr/afrique/20261011-sahel-le-nombre-de-d%C3%A9plac%C3%A9s-au-burkina-faso-au-mali-et-au-niger-a-presque-doubl%C3%A9-depuis-2020-selon-le-hcr"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
