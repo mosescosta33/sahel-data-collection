@@ -1,5 +1,199 @@
 [
   {
+    "id": "8f29a1e7fcf283e14ff0cc5d881e0fac396f0804",
+    "event_date": "2026-10-14",
+    "event_date_confidence": "publication-proxy",
+    "event_date_source": "jsonld:datePublished",
+    "published_at": "2026-10-14T16:42:39Z",
+    "published_date_source": "jsonld:datePublished",
+    "published_time_precision": "datetime",
+    "collected_at": "2026-10-14T16:55:43.037642Z",
+    "actor": "State",
+    "perpetrator": null,
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [],
+    "parent_report_id": null,
+    "event_type": "clash",
+    "country": "Burkina Faso",
+    "city": "Ouagadougou",
+    "lat": 12.3714,
+    "lng": -1.5197,
+    "locations": [
+      {
+        "name": "Ouagadougou",
+        "country": "Burkina Faso",
+        "lat": 12.3714,
+        "lng": -1.5197,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "Autism in Burkina Faso: parents' fight against prejudice",
+    "summary": "In Ouagadougou, parents of autistic children face hurtful remarks and rejection from those around them, in addition to difficulties in finding appropriate support. Ari is 20 years old. Tall, soft-looking, he lives in the Zone 1 district of Ouagadougou.",
+    "sources": [
+      "Studio Yafa"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://www.studioyafa.bf/42295-autisme-au-burkina-faso-le-combat-des-parents-contre-les-prejuges"
+    ],
+    "report_summaries": [
+      {
+        "url": "https://www.studioyafa.bf/42295-autisme-au-burkina-faso-le-combat-des-parents-contre-les-prejuges",
+        "source": "Studio Yafa",
+        "title": "Autism in Burkina Faso: parents' fight against prejudice",
+        "summary": "In Ouagadougou, parents of autistic children face hurtful remarks and rejection from those around them, in addition to difficulties in finding appropriate support. Ari is 20 years old. Tall, soft-looking, he lives in the Zone 1 district of Ouagadougou.",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "civilian"
+        ],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      }
+    ],
+    "created_at": "2026-10-14T16:55:43.037642Z",
+    "updated_at": "2026-10-14T16:55:43.037642Z",
+    "extraction_confidence": "low",
+    "victim_categories": [
+      "civilian"
+    ],
+    "civilian_targeting_flag": false,
+    "casualty_claims": [],
+    "fatalities_min": null,
+    "fatalities_max": null,
+    "fatalities_best": null,
+    "injured_min": null,
+    "injured_max": null,
+    "abducted_min": null,
+    "abducted_max": null,
+    "casualty_disputed": false,
+    "revision_history": [
+      {
+        "at": "2026-10-14T16:55:43.037642Z",
+        "type": "event_created",
+        "source": "Studio Yafa"
+      }
+    ],
+    "corroboration": "single-source",
+    "confidence": "low",
+    "independent_source_domains": [
+      "studioyafa.bf"
+    ],
+    "independent_source_count": 1,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "strategic/severe event pattern"
+    ]
+  },
+  {
+    "id": "865489849c4adb98184b18a0ffafeed9720335cf",
+    "event_date": "2026-10-12",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "explicit-date-no-year",
+    "published_at": "2026-10-14T15:33:32Z",
+    "published_date_source": "jsonld:datePublished",
+    "published_time_precision": "datetime",
+    "collected_at": "2026-10-14T16:55:41.830481Z",
+    "actor": "State",
+    "perpetrator": "State",
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [
+      "State"
+    ],
+    "parent_report_id": null,
+    "event_type": "security operation",
+    "country": "Mali",
+    "city": "Ségou",
+    "lat": 13.4317,
+    "lng": -6.2157,
+    "locations": [
+      {
+        "name": "Ségou",
+        "country": "Mali",
+        "lat": 13.4317,
+        "lng": -6.2157,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "In Mali, the army recognizes a half-word blunder",
+    "summary": "A strike in Mali killed nearly ten people, including women and children, on October 12. Usually quick to deny the collateral damage, the Malian army acknowledged without precision a \"tragic incident\". Is this the first sign of a recognition of the cost of war borne by civilians?",
+    "sources": [
+      "Jeune Afrique"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://www.jeuneafrique.com/1852172/politique/au-mali-larmee-reconnait-une-bavure-a-demi-mot/"
+    ],
+    "report_summaries": [
+      {
+        "url": "https://www.jeuneafrique.com/1852172/politique/au-mali-larmee-reconnait-une-bavure-a-demi-mot/",
+        "source": "Jeune Afrique",
+        "title": "In Mali, the army recognizes a half-word blunder",
+        "summary": "A strike in Mali killed nearly ten people, including women and children, on October 12. Usually quick to deny the collateral damage, the Malian army acknowledged without precision a \"tragic incident\". Is this the first sign of a recognition of the cost of war borne by civilians?",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "civilian"
+        ],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      }
+    ],
+    "created_at": "2026-10-14T16:55:41.830481Z",
+    "updated_at": "2026-10-14T16:55:41.830481Z",
+    "extraction_confidence": "low",
+    "victim_categories": [
+      "civilian"
+    ],
+    "civilian_targeting_flag": false,
+    "casualty_claims": [],
+    "fatalities_min": null,
+    "fatalities_max": null,
+    "fatalities_best": null,
+    "injured_min": null,
+    "injured_max": null,
+    "abducted_min": null,
+    "abducted_max": null,
+    "casualty_disputed": false,
+    "revision_history": [
+      {
+        "at": "2026-10-14T16:55:41.830481Z",
+        "type": "event_created",
+        "source": "Jeune Afrique"
+      }
+    ],
+    "corroboration": "single-source",
+    "confidence": "low",
+    "independent_source_domains": [
+      "jeuneafrique.com"
+    ],
+    "independent_source_count": 1,
+    "significance": "ROUTINE",
+    "significance_reasons": [
+      "limited currently observed significance"
+    ]
+  },
+  {
     "id": "54bbc88b408a6dcbbc3806a87220f81a83a94e2f",
     "event_date": "2026-10-12",
     "event_date_confidence": "explicit-text",

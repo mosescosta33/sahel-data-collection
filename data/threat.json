@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T13:04:47.850516Z",
+  "generated_at": "2026-10-14T16:56:36.880162Z",
   "model_version": "0.1-experimental",
   "label": "Experimental Conflict Threat Level",
   "regional": {
@@ -13,32 +13,33 @@
       "trend": "STABLE",
       "confidence": "HIGH",
       "assessment_status": "ASSESSED",
-      "events_7d": 15,
-      "events_30d": 68,
+      "events_7d": 16,
+      "events_30d": 69,
       "baseline_7d_equivalent": 16.1,
-      "tempo_ratio": 0.93,
+      "tempo_ratio": 0.99,
       "drivers": [
-        "15 fused candidate event(s) in 7 days",
+        "16 fused candidate event(s) in 7 days",
         "2 JNIM/IS Sahel-linked event(s)",
         "12 significant/major event(s)",
         "activity across 5 named locations"
       ],
-      "independent_domains_7d": 7
+      "independent_domains_7d": 8
     },
     "Burkina Faso": {
-      "score": 0,
+      "score": 16,
       "level": "INSUFFICIENT DATA",
       "trend": "STABLE",
       "confidence": "LOW",
       "assessment_status": "INSUFFICIENT_DATA",
-      "events_7d": 0,
-      "events_30d": 2,
+      "events_7d": 1,
+      "events_30d": 3,
       "baseline_7d_equivalent": 0.6,
-      "tempo_ratio": 0.62,
+      "tempo_ratio": 1.24,
       "drivers": [
-        "insufficient fused-event evidence for a current 7-day threat classification"
+        "1 fused candidate event(s) in 7 days",
+        "1 significant/major event(s)"
       ],
-      "independent_domains_7d": 0
+      "independent_domains_7d": 1
     },
     "Niger": {
       "score": 12,
