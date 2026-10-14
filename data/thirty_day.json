@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-14T04:53:52.226108Z",
+  "generated_at": "2026-10-14T08:57:38.225747Z",
   "window_days": 30,
   "cutoff": "2026-09-14",
-  "reports": 424,
+  "reports": 429,
   "incident_reports": 100,
   "candidate_events": 75,
   "corroborated_events": 16,
@@ -30,9 +30,9 @@
     "raid": 1
   },
   "by_language": {
-    "fr": 323,
-    "en": 79,
-    "ar": 22
+    "fr": 327,
+    "en": 78,
+    "ar": 24
   },
   "by_confidence": {
     "moderate": 36,
@@ -44,12 +44,12 @@
     {
       "source_code": "SRC-0008",
       "source": "Bamada",
-      "count": 62
+      "count": 63
     },
     {
       "source_code": "SRC-0006",
       "source": "Malijet",
-      "count": 47
+      "count": 48
     },
     {
       "source_code": "SRC-0075",
@@ -82,14 +82,14 @@
       "count": 13
     },
     {
-      "source_code": "SRC-0092",
-      "source": "La Nouvelle Tribune (Bénin)",
+      "source_code": "SRC-0003",
+      "source": "Jeune Afrique",
       "count": 12
     },
     {
-      "source_code": "SRC-0003",
-      "source": "Jeune Afrique",
-      "count": 11
+      "source_code": "SRC-0092",
+      "source": "La Nouvelle Tribune (Bénin)",
+      "count": 12
     },
     {
       "source_code": "SRC-0004",
@@ -295,12 +295,12 @@
     },
     {
       "date": "2026-10-13",
-      "reports": 17,
+      "reports": 18,
       "events": 0
     },
     {
       "date": "2026-10-14",
-      "reports": 2,
+      "reports": 7,
       "events": 0
     }
   ],
@@ -3864,6 +3864,96 @@
   ],
   "latest_reports": [
     {
+      "published_at": "2026-10-14T08:11:54Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-14T08:56:27.184341Z",
+      "discovered_at": "2026-10-14T08:56:27.184341Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0060",
+      "source": "Al-Quds Al-Arabi",
+      "language": "ar",
+      "actor": "State",
+      "country": "Niger",
+      "city": "Niamey",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Weeks after a failed coup attempt in Niamey… Niger's defense minister in Algeria to boost military cooperation between the two countries",
+      "url": "https://www.alquds.co.uk/%d8%a8%d8%b9%d8%af-%d8%a3%d8%b3%d8%a7%d8%a8%d9%8a%d8%b9-%d9%85%d9%86-%d9%85%d8%ad%d8%a7%d9%88%d9%84%d8%a9-%d8%a7%d9%86%d9%82%d9%84%d8%a7%d8%a8%d9%8a%d8%a9-%d9%81%d8%a7%d8%b4%d9%84%d8%a9-%d9%81%d9%8a/"
+    },
+    {
+      "published_at": "2026-10-14T08:11:54Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-14T08:56:27.618801Z",
+      "discovered_at": "2026-10-14T08:56:27.618801Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0003",
+      "source": "Jeune Afrique",
+      "language": "fr",
+      "actor": null,
+      "country": "Niger",
+      "city": "Dosso",
+      "event_type": "security operation",
+      "candidate_event": false,
+      "title": "“Not Sankara who wants to!”",
+      "url": "https://www.jeuneafrique.com/1851442/politique/nest-pas-sankara-qui-veut/"
+    },
+    {
+      "published_at": "2026-10-14T08:04:20Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-14T08:56:27.768680Z",
+      "discovered_at": "2026-10-14T08:56:27.768680Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0006",
+      "source": "Malijet",
+      "language": "fr",
+      "actor": null,
+      "country": "Mali",
+      "city": "Kayes",
+      "event_type": "law enforcement",
+      "candidate_event": false,
+      "title": "Yélimané: three suspects arrested for a fake gold scam",
+      "url": "https://malijet.com/les_faits_divers_au_mali/312313-yelimane-trois-suspects-arretes-pour-une-arnaque-au-faux-o.html"
+    },
+    {
+      "published_at": "2026-10-14T07:56:25Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-14T08:56:27.219806Z",
+      "discovered_at": "2026-10-14T08:56:27.219806Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0008",
+      "source": "Bamada",
+      "language": "fr",
+      "actor": null,
+      "country": "Mali",
+      "city": "Kayes",
+      "event_type": "law enforcement",
+      "candidate_event": false,
+      "title": "Zinc Scam Sold for Gold: Three Suspects Arrested by Yélimané Police",
+      "url": "https://bamada.net/arnaque-au-zinc-vendu-pour-de-lor-trois-suspects-arretes-par-la-police-de-yelimane"
+    },
+    {
+      "published_at": "2026-10-14T05:00:00Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-14T08:56:27.986481Z",
+      "discovered_at": "2026-10-14T08:56:27.986481Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0174",
+      "source": "Youm7 (اليوم السابع)",
+      "language": "ar",
+      "actor": "State",
+      "country": "Niger",
+      "city": null,
+      "event_type": "political/security policy",
+      "candidate_event": false,
+      "title": "Tebboune receives the Minister of Defense of Niger and discusses enhancing security and military cooperation",
+      "url": "https://www.youm7.com/story/2026/10/14/%D8%AA%D8%A8%D9%88%D9%86-%D9%8A%D8%B3%D8%AA%D9%82%D8%A8%D9%84-%D9%88%D8%B2%D9%8A%D8%B1-%D8%AF%D9%81%D8%A7%D8%B9-%D8%A7%D9%84%D9%86%D9%8A%D8%AC%D8%B1-%D9%88%D9%8A%D8%A8%D8%AD%D8%AB-%D8%AA%D8%B9%D8%B2%D9%8A%D8%B2-%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D9%88%D9%86-%D8%A7%D9%84%D8%A3%D9%85%D9%86%D9%8A-%D9%88%D8%A7%D9%84%D8%B9%D8%B3%D9%83%D8%B1%D9%8A/7578996"
+    },
+    {
       "published_at": "2026-10-14T02:25:37Z",
       "published_date_source": "jsonld:datePublished",
       "published_time_precision": "datetime",
@@ -3898,6 +3988,24 @@
       "candidate_event": false,
       "title": "Reversal of alliances",
       "url": "https://www.sidwaya.info/2026/10/14/renversement-dalliances/"
+    },
+    {
+      "published_at": "2026-10-13T22:01:37Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-14T08:56:27.092632Z",
+      "discovered_at": "2026-10-14T08:56:27.092632Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0034",
+      "source": "TV5MONDE Afrique",
+      "language": "fr",
+      "actor": null,
+      "country": "Mali",
+      "city": "Diré",
+      "event_type": "offensive/campaign",
+      "candidate_event": false,
+      "title": "The UN warns the EU against scrapping international aid in its next budget",
+      "url": "https://information.tv5monde.com/international/lonu-met-lue-en-garde-contre-une-aide-internationale-rabotee-dans-son-prochain-budget-2841528"
     },
     {
       "published_at": "2026-10-13T21:38:05Z",
@@ -4474,114 +4582,6 @@
       "candidate_event": false,
       "title": "Last minute: The FAMa thwart an attack in Kidal",
       "url": "https://www.maliweb.net/insecurite/derniere-minute-les-fama-dejouent-une-attaque-a-kidal-3120569.html"
-    },
-    {
-      "published_at": "2026-10-11T20:39:28Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-12T00:50:14.640447Z",
-      "discovered_at": "2026-10-12T00:50:14.640447Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0160",
-      "source": "Sahara Medias (صحراء ميديا)",
-      "language": "ar",
-      "actor": "State",
-      "country": "Mali",
-      "city": null,
-      "event_type": "clash",
-      "candidate_event": true,
-      "title": "Mali.. Continuous operations of the army and the Azawad Front enter the line of battles of the sky",
-      "url": "https://saharamedias.net/266617/"
-    },
-    {
-      "published_at": "2026-10-11T20:26:31Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-12T00:50:13.683795Z",
-      "discovered_at": "2026-10-12T00:50:13.683795Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0008",
-      "source": "Bamada",
-      "language": "fr",
-      "actor": "State",
-      "country": "Mali",
-      "city": null,
-      "event_type": "offensive/campaign",
-      "candidate_event": true,
-      "title": "FAMa Offensive: Fuel Depot and Terrorist Groupings Precisely Destroyed",
-      "url": "https://bamada.net/offensive-des-fama-un-depot-de-carburant-et-des-regroupements-terroristes-detruits-avec-precision"
-    },
-    {
-      "published_at": "2026-10-11T20:21:38Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-11T20:37:13.304687Z",
-      "discovered_at": "2026-10-11T20:37:13.304687Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0006",
-      "source": "Malijet",
-      "language": "fr",
-      "actor": "State",
-      "country": "Mali",
-      "city": null,
-      "event_type": "security operation",
-      "candidate_event": true,
-      "title": "Operation Dougoukoloko: FAMa neutralize terrorist depots in the East and fighters in the South",
-      "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312270-operation-dougoukoloko-les-fama-neutralisent-des-depots-te.html"
-    },
-    {
-      "published_at": "2026-10-11T09:19:48Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-11T12:45:16.579548Z",
-      "discovered_at": "2026-10-11T12:45:16.579548Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0115",
-      "source": "The Premium Times (Nigeria)",
-      "language": "en",
-      "actor": "Other",
-      "country": "Niger",
-      "city": null,
-      "event_type": "kidnapping",
-      "candidate_event": true,
-      "title": "Suspect arrested over farmer’s killing, kidnapping in Niger",
-      "url": "https://www.premiumtimesng.com/regional/north-central/916103-suspect-arrested-over-farmers-killing-kidnapping-in-niger.html"
-    },
-    {
-      "published_at": "2026-10-11T08:32:59Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-11T08:38:28.820206Z",
-      "discovered_at": "2026-10-11T08:38:28.820206Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0060",
-      "source": "Al-Quds Al-Arabi",
-      "language": "ar",
-      "actor": "State",
-      "country": "Niger",
-      "city": null,
-      "event_type": "political/security policy",
-      "candidate_event": false,
-      "title": "After sending aircraft to Niger… Shangarha confirms that “Algeria does not deal with the crises of the Sahel as an external actor but as an original partner”",
-      "url": "https://www.alquds.co.uk/%d8%a8%d8%b9%d8%af-%d8%a5%d8%b1%d8%b3%d8%a7%d9%84-%d8%b7%d8%a7%d8%a6%d8%b1%d8%a7%d8%aa-%d9%84%d9%84%d9%86%d9%8a%d8%ac%d8%b1-%d8%b4%d9%86%d9%82%d8%b1%d9%8a%d8%ad%d8%a9-%d9%8a%d8%a4%d9%83%d8%af/"
-    },
-    {
-      "published_at": "2026-10-11T08:02:33Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-11T08:38:28.715130Z",
-      "discovered_at": "2026-10-11T08:38:28.715130Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0008",
-      "source": "Bamada",
-      "language": "fr",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Bamako",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Massive Fuel Flow in Bamako: Over 5,300 Tanks Delivered Successfully!",
-      "url": "https://bamada.net/flux-massif-de-carburant-a-bamako-plus-de-5-300-citernes-livrees-avec-succes"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
