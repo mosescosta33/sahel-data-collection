@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-15T04:54:01.663091Z",
+  "generated_at": "2026-10-15T08:58:17.937066Z",
   "window_days": 30,
   "cutoff": "2026-09-15",
-  "reports": 446,
+  "reports": 450,
   "incident_reports": 102,
   "candidate_events": 76,
   "corroborated_events": 17,
@@ -30,8 +30,8 @@
     "raid": 1
   },
   "by_language": {
-    "fr": 340,
-    "en": 82,
+    "fr": 342,
+    "en": 84,
     "ar": 24
   },
   "by_confidence": {
@@ -59,12 +59,12 @@
     {
       "source_code": "SRC-0001",
       "source": "RFI Afrique",
-      "count": 18
+      "count": 19
     },
     {
       "source_code": "SRC-0121",
       "source": "AllAfrica (English Edition)",
-      "count": 16
+      "count": 17
     },
     {
       "source_code": "SRC-0090",
@@ -295,12 +295,12 @@
     },
     {
       "date": "2026-10-14",
-      "reports": 27,
+      "reports": 28,
       "events": 1
     },
     {
       "date": "2026-10-15",
-      "reports": 0,
+      "reports": 3,
       "events": 0
     }
   ],
@@ -3813,6 +3813,60 @@
   ],
   "latest_reports": [
     {
+      "published_at": "2026-10-15T06:46:51Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-15T08:57:31.936372Z",
+      "discovered_at": "2026-10-15T08:57:31.936372Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0001",
+      "source": "RFI Afrique",
+      "language": "fr",
+      "actor": null,
+      "country": "Mali",
+      "city": "Diré",
+      "event_type": "attack",
+      "candidate_event": false,
+      "title": "7-October: Benyamin Netanyahu attacked in defamation by the former head of the Shin Beth",
+      "url": "https://www.rfi.fr/fr/moyen-orient/20261015-7-octobre-benyamin-netanyahu-attaqu%C3%A9-en-diffamation-par-l-ancien-chef-du-shin-beth"
+    },
+    {
+      "published_at": "2026-10-15T06:03:36Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-15T08:57:31.728564Z",
+      "discovered_at": "2026-10-15T08:57:31.728564Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0119",
+      "source": "Daily Trust (Nigeria)",
+      "language": "en",
+      "actor": null,
+      "country": "Mali",
+      "city": null,
+      "event_type": "law enforcement",
+      "candidate_event": false,
+      "title": "NSCDC arrest 2 over abortions, trafficking",
+      "url": "https://dailytrust.com/nscdc-arrest-2-over-abortions-trafficking/"
+    },
+    {
+      "published_at": "2026-10-15T05:11:07Z",
+      "published_date_source": "opengraph",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-15T08:57:32.715295Z",
+      "discovered_at": "2026-10-15T08:57:32.715295Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0121",
+      "source": "AllAfrica (English Edition)",
+      "language": "en",
+      "actor": "Africa Corps/Wagner",
+      "country": "Mali",
+      "city": null,
+      "event_type": "abuses/war crimes",
+      "candidate_event": false,
+      "title": "Africa: In Mali, From the Wagner Group to Africa Corps - Will Impunity Continue?",
+      "url": "https://allafrica.com/stories/202610150116.html"
+    },
+    {
       "published_at": "2026-10-14T23:04:11Z",
       "published_date_source": "jsonld:datePublished",
       "published_time_precision": "datetime",
@@ -4137,6 +4191,24 @@
       "url": "https://fr.allafrica.com/stories/202610140178.html"
     },
     {
+      "published_at": "2026-10-14T09:01:32Z",
+      "published_date_source": "opengraph",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-15T08:57:38.939274Z",
+      "discovered_at": "2026-10-15T08:57:38.939274Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0079",
+      "source": "L'Essor",
+      "language": "fr",
+      "actor": null,
+      "country": "Mali",
+      "city": null,
+      "event_type": "political/security policy",
+      "candidate_event": false,
+      "title": "National Youth Service: 2,400 recruits of the 7th cohort ready to serve The ceremony of their presentation to the flag was chaired, yesterday, on the place d 'armes of the Military Engineer, by the President of the Transition, Army General Assimi Goïta . For six months, these men and women followed a demanding program of military and civic training that allowed them to learn how to transform fatigue into endurance, difficulties into courage and constraints into responsibilities",
+      "url": "https://www.lessor.ml/posts/service-national-des-jeunes-2400-recrues-de-la-7e-cohorte-pretes-a-servir-6acf44eaaa460"
+    },
+    {
       "published_at": "2026-10-14T08:11:54Z",
       "published_date_source": "jsonld:datePublished",
       "published_time_precision": "datetime",
@@ -4459,78 +4531,6 @@
       "candidate_event": false,
       "title": "Sudan: Investigation into a strike that reportedly killed 72 gold miners",
       "url": "https://malijet.com/actualite-sur-afrique/312303-soudan-enquete-sur-une-frappe-qui-aurait-tue-72-mineurs-d.html"
-    },
-    {
-      "published_at": "2026-10-13T16:15:19Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-13T16:44:33.055294Z",
-      "discovered_at": "2026-10-13T16:44:33.055294Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0004",
-      "source": "Studio Tamani",
-      "language": "fr",
-      "actor": null,
-      "country": "Mali",
-      "city": "Bamako",
-      "event_type": "attack",
-      "candidate_event": false,
-      "title": "THE TITLES OF 13 OCTOBER 2026",
-      "url": "https://www.studiotamani.org/209027-les-titres-du-13-octobre-2026"
-    },
-    {
-      "published_at": "2026-10-13T15:55:51Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-13T16:44:35.817182Z",
-      "discovered_at": "2026-10-13T16:44:35.817182Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0003",
-      "source": "Jeune Afrique",
-      "language": "fr",
-      "actor": null,
-      "country": "Mali",
-      "city": "Bamako",
-      "event_type": "political/security policy",
-      "candidate_event": false,
-      "title": "Ivory Coast-Mali: the boss of Ivorian intelligence expected in Bamako",
-      "url": "https://www.jeuneafrique.com/1851614/politique/cote-divoire-mali-le-patron-des-renseignements-ivoiriens-attendu-a-bamako/"
-    },
-    {
-      "published_at": "2026-10-13T13:07:02Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-13T16:44:36.521190Z",
-      "discovered_at": "2026-10-13T16:44:36.521190Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0164",
-      "source": "Echorouk Online (الشروق أونلاين)",
-      "language": "fr",
-      "actor": null,
-      "country": "Niger",
-      "city": null,
-      "event_type": "political/security policy",
-      "candidate_event": false,
-      "title": "Army General Said Chanegriha receives the Minister of State, Minister of National Defence of Niger",
-      "url": "https://www.echoroukonline.com/le-general-darmee-said-chanegriha-recoit-le-ministre-detat-ministre-de-la-defense-nationale-du-niger"
-    },
-    {
-      "published_at": "2026-10-13T10:37:48Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-13T12:51:16.110682Z",
-      "discovered_at": "2026-10-13T12:51:16.110682Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0014",
-      "source": "Agence Nigérienne de Presse",
-      "language": "fr",
-      "actor": null,
-      "country": "Niger",
-      "city": "Agadez",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "AGADEZ: The Governor chairs an enlarged meeting of the Regional Security Council",
-      "url": "https://anp.ne/agadez-le-gouverneur-preside-une-reunion-elargie-du-conseil-regional-de-securite-2/"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
