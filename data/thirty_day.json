@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-10-14T20:53:58.194608Z",
+  "generated_at": "2026-10-15T01:03:34.416672Z",
   "window_days": 30,
-  "cutoff": "2026-09-14",
-  "reports": 444,
+  "cutoff": "2026-09-15",
+  "reports": 446,
   "incident_reports": 102,
-  "candidate_events": 77,
+  "candidate_events": 76,
   "corroborated_events": 17,
-  "mapped_events": 68,
-  "mapped_locations": 133,
-  "distinct_sources": 80,
+  "mapped_events": 67,
+  "mapped_locations": 130,
+  "distinct_sources": 81,
   "by_actor": {
-    "State": 52,
+    "State": 51,
     "JNIM": 10,
     "Other": 9,
     "Africa Corps/Wagner": 6
   },
   "by_country": {
-    "Mali": 70,
+    "Mali": 69,
     "Niger": 4,
     "Burkina Faso": 3
   },
@@ -25,18 +25,18 @@
     "offensive/campaign": 17,
     "clash": 11,
     "attack": 8,
-    "ambush": 4,
+    "ambush": 3,
     "kidnapping": 3,
     "raid": 1
   },
   "by_language": {
-    "fr": 339,
-    "en": 81,
+    "fr": 340,
+    "en": 82,
     "ar": 24
   },
   "by_confidence": {
     "moderate": 37,
-    "low": 35,
+    "low": 34,
     "moderate-high": 4,
     "high": 1
   },
@@ -54,7 +54,7 @@
     {
       "source_code": "SRC-0075",
       "source": "AMAP (Agence Malienne de Presse et de Publicité)",
-      "count": 19
+      "count": 20
     },
     {
       "source_code": "SRC-0001",
@@ -112,11 +112,11 @@
       "count": 13
     },
     {
-      "location": "Dioura",
-      "count": 10
+      "location": "Anéfis",
+      "count": 9
     },
     {
-      "location": "Anéfis",
+      "location": "Dioura",
       "count": 9
     },
     {
@@ -128,19 +128,19 @@
       "count": 8
     },
     {
-      "location": "Timbuktu",
-      "count": 8
-    },
-    {
-      "location": "Sévaré",
-      "count": 7
-    },
-    {
       "location": "Tessalit",
       "count": 7
     },
     {
+      "location": "Timbuktu",
+      "count": 7
+    },
+    {
       "location": "Mopti",
+      "count": 6
+    },
+    {
+      "location": "Sévaré",
       "count": 6
     },
     {
@@ -153,11 +153,6 @@
     }
   ],
   "daily": [
-    {
-      "date": "2026-09-15",
-      "reports": 2,
-      "events": 0
-    },
     {
       "date": "2026-09-16",
       "reports": 3,
@@ -300,8 +295,13 @@
     },
     {
       "date": "2026-10-14",
-      "reports": 25,
+      "reports": 27,
       "events": 1
+    },
+    {
+      "date": "2026-10-15",
+      "reports": 0,
+      "events": 0
     }
   ],
   "latest_events": [
@@ -3813,6 +3813,42 @@
   ],
   "latest_reports": [
     {
+      "published_at": "2026-10-14T23:04:11Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-15T01:02:54.524543Z",
+      "discovered_at": "2026-10-15T01:02:54.524543Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0119",
+      "source": "Daily Trust (Nigeria)",
+      "language": "en",
+      "actor": null,
+      "country": "Mali",
+      "city": null,
+      "event_type": "law enforcement",
+      "candidate_event": false,
+      "title": "Kwara: NSCDC arrests man over minor’s trafficking to Mali",
+      "url": "https://dailytrust.com/kwara-nscdc-arrests-man-over-minors-trafficking-to-mali/"
+    },
+    {
+      "published_at": "2026-10-14T22:58:38Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-15T01:02:57.313198Z",
+      "discovered_at": "2026-10-15T01:02:57.313198Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0075",
+      "source": "AMAP (Agence Malienne de Presse et de Publicité)",
+      "language": "fr",
+      "actor": null,
+      "country": "Mali",
+      "city": "Bamako",
+      "event_type": "political/security policy",
+      "candidate_event": false,
+      "title": "Mali: Presentation of the 7th cohort of the National Youth Service, in front of the national flag",
+      "url": "https://amap.ml/2026/10/15/mali-presentation-de-la-7eme-cohorte-du-service-national-des-jeunes-devant-le-drapeau-national/"
+    },
+    {
       "published_at": "2026-10-14T20:17:00Z",
       "published_date_source": "opengraph",
       "published_time_precision": "datetime",
@@ -4495,42 +4531,6 @@
       "candidate_event": false,
       "title": "AGADEZ: The Governor chairs an enlarged meeting of the Regional Security Council",
       "url": "https://anp.ne/agadez-le-gouverneur-preside-une-reunion-elargie-du-conseil-regional-de-securite-2/"
-    },
-    {
-      "published_at": "2026-10-13T10:30:18Z",
-      "published_date_source": "opengraph",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-13T20:55:03.013985Z",
-      "discovered_at": "2026-10-13T20:55:03.013985Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0121",
-      "source": "AllAfrica (English Edition)",
-      "language": "en",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Bamako",
-      "event_type": "political/security policy",
-      "candidate_event": false,
-      "title": "Mali: Nduhungirehe, Mali Foreign Minister Discuss Ties, Regional Security",
-      "url": "https://allafrica.com/stories/202610130263.html"
-    },
-    {
-      "published_at": "2026-10-13T09:39:47Z",
-      "published_date_source": "opengraph",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-13T12:51:19.454052Z",
-      "discovered_at": "2026-10-13T12:51:19.454052Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0079",
-      "source": "L'Essor",
-      "language": "fr",
-      "actor": "State",
-      "country": "Mali",
-      "city": null,
-      "event_type": "offensive/campaign",
-      "candidate_event": true,
-      "title": "Aguelhock, Dioïla and Inafarak: Flood of fire on terrorists As a continuation of the offensive against...",
-      "url": "https://www.lessor.ml/posts/aguelhock-dioila-et-inafarak-deluge-de-feu-sur-les-terroristes-6acdfc6331868"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
