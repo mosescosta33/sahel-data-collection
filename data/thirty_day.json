@@ -1,42 +1,42 @@
 {
-  "generated_at": "2026-10-15T13:09:35.064765Z",
+  "generated_at": "2026-10-15T16:57:47.179968Z",
   "window_days": 30,
   "cutoff": "2026-09-15",
-  "reports": 457,
-  "incident_reports": 103,
-  "candidate_events": 77,
-  "corroborated_events": 17,
-  "mapped_events": 67,
-  "mapped_locations": 130,
+  "reports": 467,
+  "incident_reports": 107,
+  "candidate_events": 80,
+  "corroborated_events": 18,
+  "mapped_events": 70,
+  "mapped_locations": 137,
   "distinct_sources": 81,
   "by_actor": {
-    "State": 51,
+    "State": 53,
     "JNIM": 10,
     "Other": 10,
-    "Africa Corps/Wagner": 6
+    "Africa Corps/Wagner": 7
   },
   "by_country": {
-    "Mali": 69,
+    "Mali": 72,
     "Niger": 5,
     "Burkina Faso": 3
   },
   "by_event_type": {
-    "security operation": 33,
+    "security operation": 35,
     "offensive/campaign": 17,
-    "clash": 11,
+    "clash": 12,
     "attack": 9,
     "ambush": 3,
     "kidnapping": 3,
     "raid": 1
   },
   "by_language": {
-    "fr": 347,
-    "en": 86,
+    "fr": 356,
+    "en": 87,
     "ar": 24
   },
   "by_confidence": {
-    "moderate": 37,
-    "low": 35,
+    "moderate": 39,
+    "low": 36,
     "moderate-high": 4,
     "high": 1
   },
@@ -49,12 +49,12 @@
     {
       "source_code": "SRC-0006",
       "source": "Malijet",
-      "count": 50
+      "count": 51
     },
     {
       "source_code": "SRC-0075",
       "source": "AMAP (Agence Malienne de Presse et de Publicité)",
-      "count": 20
+      "count": 21
     },
     {
       "source_code": "SRC-0001",
@@ -72,14 +72,14 @@
       "count": 15
     },
     {
-      "source_code": "SRC-0015",
-      "source": "ActuNiger",
+      "source_code": "SRC-0003",
+      "source": "Jeune Afrique",
       "count": 14
     },
     {
-      "source_code": "SRC-0003",
-      "source": "Jeune Afrique",
-      "count": 13
+      "source_code": "SRC-0015",
+      "source": "ActuNiger",
+      "count": 14
     },
     {
       "source_code": "SRC-0012",
@@ -97,9 +97,9 @@
       "count": 12
     },
     {
-      "source_code": "SRC-0004",
-      "source": "Studio Tamani",
-      "count": 11
+      "source_code": "SRC-0085",
+      "source": "Seneweb",
+      "count": 12
     }
   ],
   "top_locations": [
@@ -109,22 +109,22 @@
     },
     {
       "location": "Bamako",
-      "count": 13
+      "count": 15
+    },
+    {
+      "location": "Dioura",
+      "count": 11
+    },
+    {
+      "location": "Ségou",
+      "count": 11
     },
     {
       "location": "Anéfis",
       "count": 9
     },
     {
-      "location": "Dioura",
-      "count": 9
-    },
-    {
       "location": "Mali",
-      "count": 8
-    },
-    {
-      "location": "Ségou",
       "count": 8
     },
     {
@@ -296,15 +296,265 @@
     {
       "date": "2026-10-14",
       "reports": 28,
-      "events": 1
+      "events": 2
     },
     {
       "date": "2026-10-15",
-      "reports": 10,
-      "events": 1
+      "reports": 20,
+      "events": 3
     }
   ],
   "latest_events": [
+    {
+      "id": "73ef67a38c393a681f1576df2046767fb42980f3",
+      "event_date": "2026-10-15",
+      "event_date_confidence": "explicit-text",
+      "event_date_source": "explicit-calendar-date",
+      "published_at": "2026-10-15T15:12:52Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-15T16:56:21.478721Z",
+      "actor": "State",
+      "perpetrator": "State",
+      "target": null,
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [
+        "State"
+      ],
+      "parent_report_id": null,
+      "event_type": "security operation",
+      "country": "Mali",
+      "city": "Dioura",
+      "lat": 14.82528,
+      "lng": -5.25139,
+      "locations": [
+        {
+          "name": "Dioura",
+          "country": "Mali",
+          "lat": 14.82528,
+          "lng": -5.25139,
+          "confidence": "explicit-place"
+        },
+        {
+          "name": "Ségou",
+          "country": "Mali",
+          "lat": 13.4317,
+          "lng": -6.2157,
+          "confidence": "explicit-place"
+        },
+        {
+          "name": "Bamako",
+          "country": "Mali",
+          "lat": 12.6392,
+          "lng": -8.0029,
+          "confidence": "explicit-place"
+        }
+      ],
+      "title": "Operation Dougoukoloko: the FAMa strike two terrorist positions",
+      "summary": "Bamako, October 15, 2026 (AMAP) - The Malian Armed Forces (FAMa), supported by their partners, successfully carried out two strikes against positions housing terrorist elements, respectively 12 kilometers northwest of Dioura and near Tongolo-Coura, in the Ségou region, the General Staff of the Armed Forces said in a statement released Thursday. According to the press release, the exploitation of precise intelligence made it possible, on Wednesday, October 14, 2026, to locate a large base housing several terrorist elements as well as war and logistics equipment, 12 kilometers northwest of the city of Dioura.",
+      "sources": [
+        "Malijet",
+        "AMAP (Agence Malienne de Presse et de Publicité)"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "source_count": 2,
+      "report_urls": [
+        "https://malijet.com/actualte_dans_les_regions_du_mali/312341-operation-dougoukoloko-les-fama-frappent-deux-positions-te.html",
+        "https://amap.ml/2026/10/15/operation-dougoukoloko-les-fama-frappent-deux-positions-des-terroristes-a-dioura-et-a-segou/"
+      ],
+      "report_summaries": [
+        {
+          "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312341-operation-dougoukoloko-les-fama-frappent-deux-positions-te.html",
+          "source": "Malijet",
+          "title": "Operation Dougoukoloko: the FAMa strike two terrorist positions",
+          "summary": "The Malian Armed Forces (FAMa), supported by their partners, carried out two strikes against suspected terrorist positions on 14 and 15 October 2026, as part of Operation Dougoukoloko, according to the General Staff of the Armed Forces . On Wednesday, October 14, a base housing combatants and war materiel was located 12 kilometers northwest of Dioura, thanks to intelligence.",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "armed_group"
+          ],
+          "civilian_targeting_flag": false,
+          "casualty_claims": []
+        },
+        {
+          "url": "https://amap.ml/2026/10/15/operation-dougoukoloko-les-fama-frappent-deux-positions-des-terroristes-a-dioura-et-a-segou/",
+          "source": "AMAP (Agence Malienne de Presse et de Publicité)",
+          "title": "Operation Dougoukoloko: The FAMa hit two terrorist positions in Dioura and Ségou",
+          "summary": "Bamako, October 15, 2026 (AMAP) - The Malian Armed Forces (FAMa), supported by their partners, successfully carried out two strikes against positions housing terrorist elements, respectively 12 kilometers northwest of Dioura and near Tongolo-Coura, in the Ségou region, the General Staff of the Armed Forces said in a statement released Thursday. According to the press release, the exploitation of precise intelligence made it possible, on Wednesday, October 14, 2026, to locate a large base housing several terrorist elements as well as war and logistics equipment, 12 kilometers northwest of the city of Dioura.",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "armed_group"
+          ],
+          "civilian_targeting_flag": false,
+          "casualty_claims": []
+        }
+      ],
+      "created_at": "2026-10-15T16:56:21.478721Z",
+      "updated_at": "2026-10-15T16:56:22.984253Z",
+      "extraction_confidence": "moderate",
+      "victim_categories": [
+        "armed_group"
+      ],
+      "civilian_targeting_flag": false,
+      "casualty_claims": [],
+      "fatalities_min": null,
+      "fatalities_max": null,
+      "fatalities_best": null,
+      "injured_min": null,
+      "injured_max": null,
+      "abducted_min": null,
+      "abducted_max": null,
+      "casualty_disputed": false,
+      "revision_history": [
+        {
+          "at": "2026-10-15T16:56:21.478721Z",
+          "type": "event_created",
+          "source": "Malijet"
+        },
+        {
+          "at": "2026-10-15T16:56:22.984253Z",
+          "type": "corroboration_or_geography_update",
+          "source": "AMAP (Agence Malienne de Presse et de Publicité)"
+        }
+      ],
+      "corroboration": "limited corroboration",
+      "confidence": "moderate",
+      "independent_source_domains": [
+        "malijet.com",
+        "amap.ml"
+      ],
+      "independent_source_count": 2,
+      "significance": "MAJOR",
+      "significance_reasons": [
+        "strategic/severe event pattern",
+        "multi-location activity"
+      ]
+    },
+    {
+      "id": "81f152c21ce0d9491570ac3e615cb47e6c48fd5d",
+      "event_date": "2026-10-15",
+      "event_date_confidence": "publication-proxy",
+      "event_date_source": "jsonld:datePublished",
+      "published_at": "2026-10-15T15:43:39Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-15T16:56:21.123617Z",
+      "actor": "Africa Corps/Wagner",
+      "perpetrator": null,
+      "target": null,
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [
+        "Africa Corps/Wagner",
+        "JNIM"
+      ],
+      "parent_report_id": null,
+      "event_type": "clash",
+      "country": "Mali",
+      "city": "Ségou",
+      "lat": 13.4317,
+      "lng": -6.2157,
+      "locations": [
+        {
+          "name": "Ségou",
+          "country": "Mali",
+          "lat": 13.4317,
+          "lng": -6.2157,
+          "confidence": "explicit-place"
+        },
+        {
+          "name": "Bamako",
+          "country": "Mali",
+          "lat": 12.6392,
+          "lng": -8.0029,
+          "confidence": "explicit-place"
+        }
+      ],
+      "title": "Why China won’t build its own Wagner in Africa",
+      "summary": "Attacks on Chinese workers in Mali are testing Beijing’s reliance on African security forces. Russia’s experience there gives China little reason to take on the fighting itself. On 9 May, fighters from Jama’at Nusrat al-Islam wal-Muslimin (JNIM), al-Qaeda’s affiliate in the Sahel, stopped buses and trucks at Zambougou, in the Ségou region of Mali about 60 kilometres from Bamako, ordered the passengers out and burned at least 40 civilian vehicles.",
+      "sources": [
+        "African Arguments"
+      ],
+      "languages": [
+        "en"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://africanarguments.org/2026/10/why-china-wont-build-its-own-wagner-in-africa/"
+      ],
+      "report_summaries": [
+        {
+          "url": "https://africanarguments.org/2026/10/why-china-wont-build-its-own-wagner-in-africa/",
+          "source": "African Arguments",
+          "title": "Why China won’t build its own Wagner in Africa",
+          "summary": "Attacks on Chinese workers in Mali are testing Beijing’s reliance on African security forces. Russia’s experience there gives China little reason to take on the fighting itself. On 9 May, fighters from Jama’at Nusrat al-Islam wal-Muslimin (JNIM), al-Qaeda’s affiliate in the Sahel, stopped buses and trucks at Zambougou, in the Ségou region of Mali about 60 kilometres from Bamako, ordered the passengers out and burned at least 40 civilian vehicles.",
+          "summary_basis": "source-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "civilian",
+            "security_force",
+            "armed_group"
+          ],
+          "civilian_targeting_flag": false,
+          "casualty_claims": []
+        }
+      ],
+      "created_at": "2026-10-15T16:56:21.123617Z",
+      "updated_at": "2026-10-15T16:56:21.123617Z",
+      "extraction_confidence": "low",
+      "victim_categories": [
+        "civilian",
+        "security_force",
+        "armed_group"
+      ],
+      "civilian_targeting_flag": false,
+      "casualty_claims": [],
+      "fatalities_min": null,
+      "fatalities_max": null,
+      "fatalities_best": null,
+      "injured_min": null,
+      "injured_max": null,
+      "abducted_min": null,
+      "abducted_max": null,
+      "casualty_disputed": false,
+      "revision_history": [
+        {
+          "at": "2026-10-15T16:56:21.123617Z",
+          "type": "event_created",
+          "source": "African Arguments"
+        }
+      ],
+      "corroboration": "single-source",
+      "confidence": "low",
+      "independent_source_domains": [
+        "africanarguments.org"
+      ],
+      "independent_source_count": 1,
+      "significance": "MAJOR",
+      "significance_reasons": [
+        "strategic/severe event pattern",
+        "multi-location activity"
+      ]
+    },
     {
       "id": "6a3693592016ec0b515e2165a26bcf24fb9e8ebd",
       "event_date": "2026-10-15",
@@ -387,6 +637,112 @@
       "significance": "ROUTINE",
       "significance_reasons": [
         "limited currently observed significance"
+      ]
+    },
+    {
+      "id": "d43c05ef0f3fa378fba47a382eceedfd8ca2d47f",
+      "event_date": "2026-10-14",
+      "event_date_confidence": "explicit-text",
+      "event_date_source": "explicit-calendar-date",
+      "published_at": "2026-10-15T16:51:59Z",
+      "published_date_source": "opengraph",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-15T16:56:22.352911Z",
+      "actor": "State",
+      "perpetrator": "State",
+      "target": null,
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [
+        "State"
+      ],
+      "parent_report_id": null,
+      "event_type": "security operation",
+      "country": "Mali",
+      "city": "Dioura",
+      "lat": 14.82528,
+      "lng": -5.25139,
+      "locations": [
+        {
+          "name": "Dioura",
+          "country": "Mali",
+          "lat": 14.82528,
+          "lng": -5.25139,
+          "confidence": "explicit-place"
+        },
+        {
+          "name": "Ségou",
+          "country": "Mali",
+          "lat": 13.4317,
+          "lng": -6.2157,
+          "confidence": "explicit-place"
+        }
+      ],
+      "title": "04:10 Counter-terrorism: The FAMa neutralize two important terrorist bases in the regions of Dioura and Ségou",
+      "summary": "A major logistics base northwest of Dioura and a terrorist assembly point near Tongolo Coura have been destroyed, the General Staff of the Armed Forces announced in a statement, while noting that surveillance and research operations continue on the ground . On Wednesday, October 14, 2026, the exploitation of precise intelligence made it possible to locate, 12 kilometers northwest of the city of Dioura, a large base housing several terrorist elements as well as war and logistics equipment.",
+      "sources": [
+        "L'Essor"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://www.lessor.ml/posts/lutte-contre-le-terrorisme-les-fama-neutralisent-deux-importantes-bases-terroristes-dans-les-regions-de-dioura-et-segou-6ad104af1f63f"
+      ],
+      "report_summaries": [
+        {
+          "url": "https://www.lessor.ml/posts/lutte-contre-le-terrorisme-les-fama-neutralisent-deux-importantes-bases-terroristes-dans-les-regions-de-dioura-et-segou-6ad104af1f63f",
+          "source": "L'Essor",
+          "title": "04:10 Counter-terrorism: The FAMa neutralize two important terrorist bases in the regions of Dioura and Ségou",
+          "summary": "A major logistics base northwest of Dioura and a terrorist assembly point near Tongolo Coura have been destroyed, the General Staff of the Armed Forces announced in a statement, while noting that surveillance and research operations continue on the ground . On Wednesday, October 14, 2026, the exploitation of precise intelligence made it possible to locate, 12 kilometers northwest of the city of Dioura, a large base housing several terrorist elements as well as war and logistics equipment.",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "armed_group"
+          ],
+          "civilian_targeting_flag": false,
+          "casualty_claims": []
+        }
+      ],
+      "created_at": "2026-10-15T16:56:22.352911Z",
+      "updated_at": "2026-10-15T16:56:22.352911Z",
+      "extraction_confidence": "moderate",
+      "victim_categories": [
+        "armed_group"
+      ],
+      "civilian_targeting_flag": false,
+      "casualty_claims": [],
+      "fatalities_min": null,
+      "fatalities_max": null,
+      "fatalities_best": null,
+      "injured_min": null,
+      "injured_max": null,
+      "abducted_min": null,
+      "abducted_max": null,
+      "casualty_disputed": false,
+      "revision_history": [
+        {
+          "at": "2026-10-15T16:56:22.352911Z",
+          "type": "event_created",
+          "source": "L'Essor"
+        }
+      ],
+      "corroboration": "single-source",
+      "confidence": "moderate",
+      "independent_source_domains": [
+        "lessor.ml"
+      ],
+      "independent_source_count": 1,
+      "significance": "MAJOR",
+      "significance_reasons": [
+        "strategic/severe event pattern",
+        "multi-location activity"
       ]
     },
     {
@@ -3432,370 +3788,189 @@
         "strategic/severe event pattern",
         "multi-location activity"
       ]
-    },
-    {
-      "id": "f65fe664980ce020294877cd4a96b105146f3c3d",
-      "event_date": "2026-10-06",
-      "event_date_confidence": "explicit-text",
-      "event_date_source": "relative-yesterday",
-      "published_at": "2026-10-07T04:58:28Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-07T08:40:55.021947Z",
-      "actor": "State",
-      "perpetrator": null,
-      "target": null,
-      "claimant": null,
-      "supporting_force": null,
-      "mentioned_actors": [
-        "State"
-      ],
-      "parent_report_id": null,
-      "event_type": "clash",
-      "country": "Mali",
-      "city": "Kidal",
-      "lat": 18.4411,
-      "lng": 1.4078,
-      "locations": [
-        {
-          "name": "Kidal",
-          "country": "Mali",
-          "lat": 18.4411,
-          "lng": 1.4078,
-          "confidence": "explicit-place"
-        },
-        {
-          "name": "Timbuktu",
-          "country": "Mali",
-          "lat": 16.7666,
-          "lng": -3.0026,
-          "confidence": "explicit-place"
-        }
-      ],
-      "title": "Mali: in Kidal, \"the army recovered territory, it did not beat its opponent\"",
-      "summary": "In Mali, the junta of General Goïta managed yesterday Tuesday to recapture the city of Kidal, which it had lost six months ago to the Tuareg rebels of the Fla, the Azawad Liberation Front. The Malian Armed Forces and their Russian allies entered the large city in the far north of the country without a fight yesterday afternoon. Is this the end of the war?",
-      "sources": [
-        "RFI Afrique"
-      ],
-      "languages": [
-        "fr"
-      ],
-      "source_count": 1,
-      "report_urls": [
-        "https://www.rfi.fr/fr/podcasts/le-grand-invit%C3%A9-afrique/20261007-mali-%C3%A0-kidal-l-arm%C3%A9e-a-r%C3%A9cup%C3%A9r%C3%A9-un-territoire-elle-n-a-pas-battu-son-adversaire"
-      ],
-      "report_summaries": [
-        {
-          "url": "https://www.rfi.fr/fr/podcasts/le-grand-invit%C3%A9-afrique/20261007-mali-%C3%A0-kidal-l-arm%C3%A9e-a-r%C3%A9cup%C3%A9r%C3%A9-un-territoire-elle-n-a-pas-battu-son-adversaire",
-          "source": "RFI Afrique",
-          "title": "Mali: in Kidal, \"the army recovered territory, it did not beat its opponent\"",
-          "summary": "In Mali, the junta of General Goïta managed yesterday Tuesday to recapture the city of Kidal, which it had lost six months ago to the Tuareg rebels of the Fla, the Azawad Liberation Front. The Malian Armed Forces and their Russian allies entered the large city in the far north of the country without a fight yesterday afternoon. Is this the end of the war?",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        }
-      ],
-      "created_at": "2026-10-07T08:40:55.021947Z",
-      "updated_at": "2026-10-07T08:40:55.021947Z",
-      "extraction_confidence": "low",
-      "victim_categories": [],
-      "civilian_targeting_flag": false,
-      "casualty_claims": [],
-      "fatalities_min": null,
-      "fatalities_max": null,
-      "fatalities_best": null,
-      "injured_min": null,
-      "injured_max": null,
-      "abducted_min": null,
-      "abducted_max": null,
-      "casualty_disputed": false,
-      "revision_history": [
-        {
-          "at": "2026-10-07T08:40:55.021947Z",
-          "type": "event_created",
-          "source": "RFI Afrique"
-        }
-      ],
-      "corroboration": "single-source",
-      "confidence": "low",
-      "independent_source_domains": [
-        "rfi.fr"
-      ],
-      "independent_source_count": 1,
-      "significance": "MAJOR",
-      "significance_reasons": [
-        "multi-location activity"
-      ]
-    },
-    {
-      "id": "13ac47600e10dd69779c0096a0d0959415af8e1c",
-      "event_date": "2026-10-06",
-      "event_date_confidence": "explicit-text",
-      "event_date_source": "explicit-calendar-date",
-      "published_at": "2026-10-06T18:29:52Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-06T20:40:04.859007Z",
-      "actor": "JNIM",
-      "perpetrator": "JNIM",
-      "target": null,
-      "claimant": null,
-      "supporting_force": null,
-      "mentioned_actors": [
-        "JNIM"
-      ],
-      "parent_report_id": null,
-      "event_type": "security operation",
-      "country": "Mali",
-      "city": "Kidal",
-      "lat": 18.4411,
-      "lng": 1.4078,
-      "locations": [
-        {
-          "name": "Kidal",
-          "country": "Mali",
-          "lat": 18.4411,
-          "lng": 1.4078,
-          "confidence": "explicit-place"
-        }
-      ],
-      "title": "Mali.. The army enters Kidal without resistance",
-      "summary": "The Malian army and its Russian partners entered the northeastern city of Kidal on the afternoon of Tuesday, October 6, as part of a military operation to retake the strategic city, according to local sources.",
-      "sources": [
-        "Sahara Medias (صحراء ميديا)"
-      ],
-      "languages": [
-        "ar"
-      ],
-      "source_count": 1,
-      "report_urls": [
-        "https://saharamedias.net/266143/"
-      ],
-      "report_summaries": [
-        {
-          "url": "https://saharamedias.net/266143/",
-          "source": "Sahara Medias (صحراء ميديا)",
-          "title": "Mali.. The army enters Kidal without resistance",
-          "summary": "The Malian army and its Russian partners entered the northeastern city of Kidal on the afternoon of Tuesday, October 6, as part of a military operation to retake the strategic city, according to local sources.",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        }
-      ],
-      "created_at": "2026-10-06T20:40:04.859007Z",
-      "updated_at": "2026-10-06T20:40:04.859007Z",
-      "extraction_confidence": "low",
-      "victim_categories": [],
-      "civilian_targeting_flag": false,
-      "casualty_claims": [],
-      "fatalities_min": null,
-      "fatalities_max": null,
-      "fatalities_best": null,
-      "injured_min": null,
-      "injured_max": null,
-      "abducted_min": null,
-      "abducted_max": null,
-      "casualty_disputed": false,
-      "revision_history": [
-        {
-          "at": "2026-10-06T20:40:04.859007Z",
-          "type": "event_created",
-          "source": "Sahara Medias (صحراء ميديا)"
-        }
-      ],
-      "corroboration": "single-source",
-      "confidence": "low",
-      "independent_source_domains": [
-        "saharamedias.net"
-      ],
-      "independent_source_count": 1,
-      "significance": "ROUTINE",
-      "significance_reasons": [
-        "limited currently observed significance"
-      ]
-    },
-    {
-      "id": "3363cd1443884343ff42dd201a80c77c744fed63",
-      "event_date": "2026-10-06",
-      "event_date_confidence": "explicit-text",
-      "event_date_source": "explicit-date-no-year",
-      "published_at": "2026-10-06T14:03:30Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-06T16:41:37.536495Z",
-      "actor": "State",
-      "perpetrator": "State",
-      "target": null,
-      "claimant": null,
-      "supporting_force": null,
-      "mentioned_actors": [
-        "State",
-        "JNIM",
-        "Africa Corps/Wagner"
-      ],
-      "parent_report_id": null,
-      "event_type": "offensive/campaign",
-      "country": "Mali",
-      "city": "Kidal",
-      "lat": 18.4411,
-      "lng": 1.4078,
-      "locations": [
-        {
-          "name": "Kidal",
-          "country": "Mali",
-          "lat": 18.4411,
-          "lng": 1.4078,
-          "confidence": "explicit-place"
-        },
-        {
-          "name": "Anéfis",
-          "country": "Mali",
-          "lat": 18.0667,
-          "lng": 0.6167,
-          "confidence": "explicit-place"
-        }
-      ],
-      "title": "Mali: Fla withdraws from Kidal and leaves the field open to the army",
-      "summary": "Mali: le FLA se retire de Kidal et laisse le champ libre à l'armée Au Mali, l'armée malienne et ses partenaires russes sont entrés à Kidal mardi 6 octobre après-midi. L'armée avait renforcé ses positions à Anéfis et Aguelhoc pendant le week-end, dans le cadre d'une offensive pour reconquérir cette ville du Nord, dont les indépendantistes du Front de libération de l'Azawad (FLA) et les jihadistes du (Groupe de soutien à l'islam et aux musulmans (Jnim, lié à al-Qaïda) s'étaient emparés en avril dernier.",
-      "sources": [
-        "RFI Afrique",
-        "Burkina24",
-        "Afrik.com"
-      ],
-      "languages": [
-        "fr"
-      ],
-      "source_count": 3,
-      "report_urls": [
-        "https://www.rfi.fr/fr/afrique/20261006-mali-l-arm%C3%A9e-sur-le-point-d-entrer-%C3%A0-kidal-azawad-jnim-fla-fama",
-        "https://burkina24.com/2026/10/06/mali-lancement-doperations-aeroterrestres-denvergure-dans-la-region-de-kidal/",
-        "https://www.afrik.com/mali-kidal-retombe-aux-mains-des-fama-le-fla-annonce-un-repli-strategique"
-      ],
-      "report_summaries": [
-        {
-          "url": "https://www.rfi.fr/fr/afrique/20261006-mali-l-arm%C3%A9e-sur-le-point-d-entrer-%C3%A0-kidal-azawad-jnim-fla-fama",
-          "source": "RFI Afrique",
-          "title": "Mali: Fla withdraws from Kidal and leaves the field open to the army",
-          "summary": "Mali: le FLA se retire de Kidal et laisse le champ libre à l'armée Au Mali, l'armée malienne et ses partenaires russes sont entrés à Kidal mardi 6 octobre après-midi. L'armée avait renforcé ses positions à Anéfis et Aguelhoc pendant le week-end, dans le cadre d'une offensive pour reconquérir cette ville du Nord, dont les indépendantistes du Front de libération de l'Azawad (FLA) et les jihadistes du (Groupe de soutien à l'islam et aux musulmans (Jnim, lié à al-Qaïda) s'étaient emparés en avril dernier.",
-          "summary_basis": "source-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "security_force",
-            "armed_group"
-          ],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        },
-        {
-          "url": "https://burkina24.com/2026/10/06/mali-lancement-doperations-aeroterrestres-denvergure-dans-la-region-de-kidal/",
-          "source": "Burkina24",
-          "title": "Mali: Launch of major air-land operations in the Kidal region",
-          "summary": "As part of the rehabilitation of Operation DOUGOUKOLOKO, the Malian Armed Forces (FAMa) and their Russian partners have launched large-scale air-land operations in the Kidal region. This military offensive is primarily aimed at tracking down and neutralizing armed terrorist groups operating throughout the region It also aims to destroy their sanctuaries as well as their supply networks, in order to sustainably restore the security of the populations and guarantee the free movement of people and goods.",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "security_force",
-            "armed_group"
-          ],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        },
-        {
-          "url": "https://www.afrik.com/mali-kidal-retombe-aux-mains-des-fama-le-fla-annonce-un-repli-strategique",
-          "source": "Afrik.com",
-          "title": "Mali: Kidal falls back into the hands of the FAMa, the Fla announces a \"strategic withdrawal\"",
-          "summary": "The Malian Armed Forces (FAMa), supported by their Russian partners from Africa Corps, regained control of Kidal, in northern Mali, on Tuesday, October 6, 2026. The Azawad Liberation Front (Fla), which had controlled the city since April, announced its “strategic and controlled retreat” According to several sources consulted on Tuesday, Malian forces, accompanied by their Russian partners, entered the city of Kidal after the withdrawal of Fla fighters.",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "civilian",
-            "armed_group"
-          ],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        }
-      ],
-      "created_at": "2026-10-06T16:41:37.536495Z",
-      "updated_at": "2026-10-06T20:40:04.238510Z",
-      "extraction_confidence": "low",
-      "victim_categories": [
-        "security_force",
-        "armed_group",
-        "civilian"
-      ],
-      "civilian_targeting_flag": false,
-      "casualty_claims": [],
-      "fatalities_min": null,
-      "fatalities_max": null,
-      "fatalities_best": null,
-      "injured_min": null,
-      "injured_max": null,
-      "abducted_min": null,
-      "abducted_max": null,
-      "casualty_disputed": false,
-      "revision_history": [
-        {
-          "at": "2026-10-06T16:41:37.536495Z",
-          "type": "event_created",
-          "source": "RFI Afrique"
-        },
-        {
-          "at": "2026-10-06T16:41:37.309100Z",
-          "type": "corroboration_or_geography_update",
-          "source": "Burkina24"
-        },
-        {
-          "at": "2026-10-06T20:40:04.238510Z",
-          "type": "corroboration_or_geography_update",
-          "source": "Afrik.com"
-        }
-      ],
-      "corroboration": "multi-source",
-      "confidence": "moderate-high",
-      "independent_source_domains": [
-        "rfi.fr",
-        "burkina24.com",
-        "afrik.com"
-      ],
-      "independent_source_count": 3,
-      "significance": "MAJOR",
-      "significance_reasons": [
-        "strategic/severe event pattern",
-        "multi-source corroboration",
-        "multi-location activity"
-      ]
     }
   ],
   "latest_reports": [
+    {
+      "published_at": "2026-10-15T16:51:59Z",
+      "published_date_source": "opengraph",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-15T16:56:22.352911Z",
+      "discovered_at": "2026-10-15T16:56:22.352911Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0079",
+      "source": "L'Essor",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Dioura",
+      "event_type": "security operation",
+      "candidate_event": true,
+      "title": "04:10 Counter-terrorism: The FAMa neutralize two important terrorist bases in the regions of Dioura and Ségou",
+      "url": "https://www.lessor.ml/posts/lutte-contre-le-terrorisme-les-fama-neutralisent-deux-importantes-bases-terroristes-dans-les-regions-de-dioura-et-segou-6ad104af1f63f"
+    },
+    {
+      "published_at": "2026-10-15T16:33:58Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-15T16:56:24.508927Z",
+      "discovered_at": "2026-10-15T16:56:24.508927Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0003",
+      "source": "Jeune Afrique",
+      "language": "fr",
+      "actor": "JNIM",
+      "country": null,
+      "city": null,
+      "event_type": "clash",
+      "candidate_event": false,
+      "title": "Ransom, zakat, territory: the war between Jnim and the Islamic State is intensifying in the Sahel",
+      "url": "https://www.jeuneafrique.com/1852646/politique/rancons-zakat-territoire-la-guerre-entre-le-jnim-et-letat-islamique-sintensifie-au-sahel/"
+    },
+    {
+      "published_at": "2026-10-15T15:43:39Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-15T16:56:21.123617Z",
+      "discovered_at": "2026-10-15T16:56:21.123617Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0069",
+      "source": "African Arguments",
+      "language": "en",
+      "actor": "Africa Corps/Wagner",
+      "country": "Mali",
+      "city": "Ségou",
+      "event_type": "clash",
+      "candidate_event": true,
+      "title": "Why China won’t build its own Wagner in Africa",
+      "url": "https://africanarguments.org/2026/10/why-china-wont-build-its-own-wagner-in-africa/"
+    },
+    {
+      "published_at": "2026-10-15T15:42:41Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-15T16:56:24.397305Z",
+      "discovered_at": "2026-10-15T16:56:24.397305Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0085",
+      "source": "Seneweb",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": null,
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Mali: The Army announces a tragic incident in an Fama area of operations",
+      "url": "https://www.seneweb.com/fr/news/Afrique/mali-larmee-annonce-un-incident-tragique-dans-une-zone-doperations-des-fama_n_999000778.html"
+    },
+    {
+      "published_at": "2026-10-15T15:27:08Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-15T16:56:22.984253Z",
+      "discovered_at": "2026-10-15T16:56:22.984253Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0075",
+      "source": "AMAP (Agence Malienne de Presse et de Publicité)",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Dioura",
+      "event_type": "security operation",
+      "candidate_event": true,
+      "title": "Operation Dougoukoloko: The FAMa hit two terrorist positions in Dioura and Ségou",
+      "url": "https://amap.ml/2026/10/15/operation-dougoukoloko-les-fama-frappent-deux-positions-des-terroristes-a-dioura-et-a-segou/"
+    },
+    {
+      "published_at": "2026-10-15T15:18:29Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-15T16:56:24.639474Z",
+      "discovered_at": "2026-10-15T16:56:24.639474Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0085",
+      "source": "Seneweb",
+      "language": "fr",
+      "actor": "State",
+      "country": "Burkina Faso",
+      "city": "Ouagadougou",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Burkina Faso: Government pays tribute to Thomas Sankara, 39 years after his assassination",
+      "url": "https://www.seneweb.com/fr/news/Afrique/burkina-faso-le-gouvernement-rend-hommage-a-thomas-sankara-39-ans-apres-son-assassinat_n_999000774.html"
+    },
+    {
+      "published_at": "2026-10-15T15:12:52Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-15T16:56:21.478721Z",
+      "discovered_at": "2026-10-15T16:56:21.478721Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0006",
+      "source": "Malijet",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Dioura",
+      "event_type": "security operation",
+      "candidate_event": true,
+      "title": "Operation Dougoukoloko: the FAMa strike two terrorist positions",
+      "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312341-operation-dougoukoloko-les-fama-frappent-deux-positions-te.html"
+    },
+    {
+      "published_at": "2026-10-15T15:10:34Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-15T16:56:21.744148Z",
+      "discovered_at": "2026-10-15T16:56:21.744148Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0007",
+      "source": "Journal du Mali",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Kidal",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Dr. Ahmadou Touré: \"No sustainable development is possible without effective sovereignty\"",
+      "url": "https://journaldumali.com/dr-ahmadou-toure-aucun-developpement-durable-nest-possible-sans-souverainete-effective/"
+    },
+    {
+      "published_at": "2026-10-15T15:09:07Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-15T16:56:21.956344Z",
+      "discovered_at": "2026-10-15T16:56:21.956344Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0007",
+      "source": "Journal du Mali",
+      "language": "fr",
+      "actor": "JNIM",
+      "country": "Mali",
+      "city": "Kidal",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Kidal: After the army, reinstall the state",
+      "url": "https://journaldumali.com/kidal-apres-larmee-reinstaller-letat/"
+    },
+    {
+      "published_at": "2026-10-15T13:34:03Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-15T16:56:23.420678Z",
+      "discovered_at": "2026-10-15T16:56:23.420678Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0010",
+      "source": "Burkina24",
+      "language": "fr",
+      "actor": null,
+      "country": null,
+      "city": null,
+      "event_type": "attack",
+      "candidate_event": false,
+      "title": "Cybersecurity: Côte d 'Ivoire prepares its first national cyber crisis simulation",
+      "url": "https://burkina24.com/2026/10/15/cybersecurite-la-cote-divoire-prepare-sa-premiere-simulation-nationale-de-crise-cyber/"
+    },
     {
       "published_at": "2026-10-15T12:57:52Z",
       "published_date_source": "jsonld:datePublished",
@@ -4335,186 +4510,6 @@
       "candidate_event": false,
       "title": "Weeks after a failed coup attempt in Niamey… Niger's defense minister in Algeria to boost military cooperation between the two countries",
       "url": "https://www.alquds.co.uk/%d8%a8%d8%b9%d8%af-%d8%a3%d8%b3%d8%a7%d8%a8%d9%8a%d8%b9-%d9%85%d9%86-%d9%85%d8%ad%d8%a7%d9%88%d9%84%d8%a9-%d8%a7%d9%86%d9%82%d9%84%d8%a7%d8%a8%d9%8a%d8%a9-%d9%81%d8%a7%d8%b4%d9%84%d8%a9-%d9%81%d9%8a/"
-    },
-    {
-      "published_at": "2026-10-14T08:11:54Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-14T08:56:27.618801Z",
-      "discovered_at": "2026-10-14T08:56:27.618801Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0003",
-      "source": "Jeune Afrique",
-      "language": "fr",
-      "actor": null,
-      "country": "Niger",
-      "city": "Dosso",
-      "event_type": "security operation",
-      "candidate_event": false,
-      "title": "“Not Sankara who wants to!”",
-      "url": "https://www.jeuneafrique.com/1851442/politique/nest-pas-sankara-qui-veut/"
-    },
-    {
-      "published_at": "2026-10-14T08:04:20Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-14T08:56:27.768680Z",
-      "discovered_at": "2026-10-14T08:56:27.768680Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0006",
-      "source": "Malijet",
-      "language": "fr",
-      "actor": null,
-      "country": "Mali",
-      "city": "Kayes",
-      "event_type": "law enforcement",
-      "candidate_event": false,
-      "title": "Yélimané: three suspects arrested for a fake gold scam",
-      "url": "https://malijet.com/les_faits_divers_au_mali/312313-yelimane-trois-suspects-arretes-pour-une-arnaque-au-faux-o.html"
-    },
-    {
-      "published_at": "2026-10-14T07:56:25Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-14T08:56:27.219806Z",
-      "discovered_at": "2026-10-14T08:56:27.219806Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0008",
-      "source": "Bamada",
-      "language": "fr",
-      "actor": null,
-      "country": "Mali",
-      "city": "Kayes",
-      "event_type": "law enforcement",
-      "candidate_event": false,
-      "title": "Zinc Scam Sold for Gold: Three Suspects Arrested by Yélimané Police",
-      "url": "https://bamada.net/arnaque-au-zinc-vendu-pour-de-lor-trois-suspects-arretes-par-la-police-de-yelimane"
-    },
-    {
-      "published_at": "2026-10-14T05:37:29Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-14T13:03:28.739805Z",
-      "discovered_at": "2026-10-14T13:03:28.739805Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0008",
-      "source": "Bamada",
-      "language": "fr",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Ségou",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Road tragedy at the entrance to Ségou: A young officer loses his life in a three-vehicle collision",
-      "url": "https://bamada.net/tragedie-routiere-a-lentree-de-segou-un-jeune-officier-perd-la-vie-dans-une-collision-a-trois-vehicules"
-    },
-    {
-      "published_at": "2026-10-14T05:00:00Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-14T08:56:27.986481Z",
-      "discovered_at": "2026-10-14T08:56:27.986481Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0174",
-      "source": "Youm7 (اليوم السابع)",
-      "language": "ar",
-      "actor": "State",
-      "country": "Niger",
-      "city": null,
-      "event_type": "political/security policy",
-      "candidate_event": false,
-      "title": "Tebboune receives the Minister of Defense of Niger and discusses enhancing security and military cooperation",
-      "url": "https://www.youm7.com/story/2026/10/14/%D8%AA%D8%A8%D9%88%D9%86-%D9%8A%D8%B3%D8%AA%D9%82%D8%A8%D9%84-%D9%88%D8%B2%D9%8A%D8%B1-%D8%AF%D9%81%D8%A7%D8%B9-%D8%A7%D9%84%D9%86%D9%8A%D8%AC%D8%B1-%D9%88%D9%8A%D8%A8%D8%AD%D8%AB-%D8%AA%D8%B9%D8%B2%D9%8A%D8%B2-%D8%A7%D9%84%D8%AA%D8%B9%D8%A7%D9%88%D9%86-%D8%A7%D9%84%D8%A3%D9%85%D9%86%D9%8A-%D9%88%D8%A7%D9%84%D8%B9%D8%B3%D9%83%D8%B1%D9%8A/7578996"
-    },
-    {
-      "published_at": "2026-10-14T04:42:17Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-14T13:03:29.526109Z",
-      "discovered_at": "2026-10-14T13:03:29.526109Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0022",
-      "source": "Africanews",
-      "language": "en",
-      "actor": "State",
-      "country": "Niger",
-      "city": "Niamey",
-      "event_type": "security operation",
-      "candidate_event": false,
-      "title": "'Act of ingratitude': Niger condemns expulsion of security agents from France",
-      "url": "https://www.africanews.com/2026/10/14/act-of-ingratitude-niger-condemns-expulsion-of-security-agents-from-france/"
-    },
-    {
-      "published_at": "2026-10-14T02:25:37Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-14T04:53:26.445433Z",
-      "discovered_at": "2026-10-14T04:53:26.445433Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0001",
-      "source": "RFI Afrique",
-      "language": "fr",
-      "actor": "JNIM",
-      "country": "Mali",
-      "city": "Ségou",
-      "event_type": "clash",
-      "candidate_event": true,
-      "title": "Mali: at least eight women and children killed by army shelling in the Ségou region",
-      "url": "https://www.rfi.fr/fr/afrique/20261014-mali-au-moins-huit-femmes-et-enfants-tu%C3%A9s-par-des-bombardements-de-l-arm%C3%A9e-dans-la-r%C3%A9gion-de-s%C3%A9gou"
-    },
-    {
-      "published_at": "2026-10-14T00:01:40Z",
-      "published_date_source": "html:time",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-14T01:04:05.398407Z",
-      "discovered_at": "2026-10-14T01:04:05.398407Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0012",
-      "source": "Sidwaya",
-      "language": "fr",
-      "actor": null,
-      "country": "Mali",
-      "city": "Diré",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Reversal of alliances",
-      "url": "https://www.sidwaya.info/2026/10/14/renversement-dalliances/"
-    },
-    {
-      "published_at": "2026-10-13T22:01:37Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-14T08:56:27.092632Z",
-      "discovered_at": "2026-10-14T08:56:27.092632Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0034",
-      "source": "TV5MONDE Afrique",
-      "language": "fr",
-      "actor": null,
-      "country": "Mali",
-      "city": "Diré",
-      "event_type": "offensive/campaign",
-      "candidate_event": false,
-      "title": "The UN warns the EU against scrapping international aid in its next budget",
-      "url": "https://information.tv5monde.com/international/lonu-met-lue-en-garde-contre-une-aide-internationale-rabotee-dans-son-prochain-budget-2841528"
-    },
-    {
-      "published_at": "2026-10-13T21:38:05Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-14T01:04:03.937400Z",
-      "discovered_at": "2026-10-14T01:04:03.937400Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0096",
-      "source": "Le Figaro (Section Afrique)",
-      "language": "fr",
-      "actor": null,
-      "country": "Niger",
-      "city": null,
-      "event_type": "security operation",
-      "candidate_event": false,
-      "title": "Niger criticizes a \"serious and unacceptable act of ingratitude\" after the expulsion of two agents by France",
-      "url": "https://www.lefigaro.fr/international/le-niger-fustige-un-acte-d-ingratitude-grave-et-inacceptable-apres-l-expulsion-de-deux-agents-par-la-france-20261013"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."

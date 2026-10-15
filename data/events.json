@@ -1,5 +1,255 @@
 [
   {
+    "id": "73ef67a38c393a681f1576df2046767fb42980f3",
+    "event_date": "2026-10-15",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "explicit-calendar-date",
+    "published_at": "2026-10-15T15:12:52Z",
+    "published_date_source": "jsonld:datePublished",
+    "published_time_precision": "datetime",
+    "collected_at": "2026-10-15T16:56:21.478721Z",
+    "actor": "State",
+    "perpetrator": "State",
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [
+      "State"
+    ],
+    "parent_report_id": null,
+    "event_type": "security operation",
+    "country": "Mali",
+    "city": "Dioura",
+    "lat": 14.82528,
+    "lng": -5.25139,
+    "locations": [
+      {
+        "name": "Dioura",
+        "country": "Mali",
+        "lat": 14.82528,
+        "lng": -5.25139,
+        "confidence": "explicit-place"
+      },
+      {
+        "name": "Ségou",
+        "country": "Mali",
+        "lat": 13.4317,
+        "lng": -6.2157,
+        "confidence": "explicit-place"
+      },
+      {
+        "name": "Bamako",
+        "country": "Mali",
+        "lat": 12.6392,
+        "lng": -8.0029,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "Operation Dougoukoloko: the FAMa strike two terrorist positions",
+    "summary": "Bamako, October 15, 2026 (AMAP) - The Malian Armed Forces (FAMa), supported by their partners, successfully carried out two strikes against positions housing terrorist elements, respectively 12 kilometers northwest of Dioura and near Tongolo-Coura, in the Ségou region, the General Staff of the Armed Forces said in a statement released Thursday. According to the press release, the exploitation of precise intelligence made it possible, on Wednesday, October 14, 2026, to locate a large base housing several terrorist elements as well as war and logistics equipment, 12 kilometers northwest of the city of Dioura.",
+    "sources": [
+      "Malijet",
+      "AMAP (Agence Malienne de Presse et de Publicité)"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 2,
+    "report_urls": [
+      "https://malijet.com/actualte_dans_les_regions_du_mali/312341-operation-dougoukoloko-les-fama-frappent-deux-positions-te.html",
+      "https://amap.ml/2026/10/15/operation-dougoukoloko-les-fama-frappent-deux-positions-des-terroristes-a-dioura-et-a-segou/"
+    ],
+    "report_summaries": [
+      {
+        "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312341-operation-dougoukoloko-les-fama-frappent-deux-positions-te.html",
+        "source": "Malijet",
+        "title": "Operation Dougoukoloko: the FAMa strike two terrorist positions",
+        "summary": "The Malian Armed Forces (FAMa), supported by their partners, carried out two strikes against suspected terrorist positions on 14 and 15 October 2026, as part of Operation Dougoukoloko, according to the General Staff of the Armed Forces . On Wednesday, October 14, a base housing combatants and war materiel was located 12 kilometers northwest of Dioura, thanks to intelligence.",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "armed_group"
+        ],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      },
+      {
+        "url": "https://amap.ml/2026/10/15/operation-dougoukoloko-les-fama-frappent-deux-positions-des-terroristes-a-dioura-et-a-segou/",
+        "source": "AMAP (Agence Malienne de Presse et de Publicité)",
+        "title": "Operation Dougoukoloko: The FAMa hit two terrorist positions in Dioura and Ségou",
+        "summary": "Bamako, October 15, 2026 (AMAP) - The Malian Armed Forces (FAMa), supported by their partners, successfully carried out two strikes against positions housing terrorist elements, respectively 12 kilometers northwest of Dioura and near Tongolo-Coura, in the Ségou region, the General Staff of the Armed Forces said in a statement released Thursday. According to the press release, the exploitation of precise intelligence made it possible, on Wednesday, October 14, 2026, to locate a large base housing several terrorist elements as well as war and logistics equipment, 12 kilometers northwest of the city of Dioura.",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "armed_group"
+        ],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      }
+    ],
+    "created_at": "2026-10-15T16:56:21.478721Z",
+    "updated_at": "2026-10-15T16:56:22.984253Z",
+    "extraction_confidence": "moderate",
+    "victim_categories": [
+      "armed_group"
+    ],
+    "civilian_targeting_flag": false,
+    "casualty_claims": [],
+    "fatalities_min": null,
+    "fatalities_max": null,
+    "fatalities_best": null,
+    "injured_min": null,
+    "injured_max": null,
+    "abducted_min": null,
+    "abducted_max": null,
+    "casualty_disputed": false,
+    "revision_history": [
+      {
+        "at": "2026-10-15T16:56:21.478721Z",
+        "type": "event_created",
+        "source": "Malijet"
+      },
+      {
+        "at": "2026-10-15T16:56:22.984253Z",
+        "type": "corroboration_or_geography_update",
+        "source": "AMAP (Agence Malienne de Presse et de Publicité)"
+      }
+    ],
+    "corroboration": "limited corroboration",
+    "confidence": "moderate",
+    "independent_source_domains": [
+      "malijet.com",
+      "amap.ml"
+    ],
+    "independent_source_count": 2,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "strategic/severe event pattern",
+      "multi-location activity"
+    ]
+  },
+  {
+    "id": "81f152c21ce0d9491570ac3e615cb47e6c48fd5d",
+    "event_date": "2026-10-15",
+    "event_date_confidence": "publication-proxy",
+    "event_date_source": "jsonld:datePublished",
+    "published_at": "2026-10-15T15:43:39Z",
+    "published_date_source": "jsonld:datePublished",
+    "published_time_precision": "datetime",
+    "collected_at": "2026-10-15T16:56:21.123617Z",
+    "actor": "Africa Corps/Wagner",
+    "perpetrator": null,
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [
+      "Africa Corps/Wagner",
+      "JNIM"
+    ],
+    "parent_report_id": null,
+    "event_type": "clash",
+    "country": "Mali",
+    "city": "Ségou",
+    "lat": 13.4317,
+    "lng": -6.2157,
+    "locations": [
+      {
+        "name": "Ségou",
+        "country": "Mali",
+        "lat": 13.4317,
+        "lng": -6.2157,
+        "confidence": "explicit-place"
+      },
+      {
+        "name": "Bamako",
+        "country": "Mali",
+        "lat": 12.6392,
+        "lng": -8.0029,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "Why China won’t build its own Wagner in Africa",
+    "summary": "Attacks on Chinese workers in Mali are testing Beijing’s reliance on African security forces. Russia’s experience there gives China little reason to take on the fighting itself. On 9 May, fighters from Jama’at Nusrat al-Islam wal-Muslimin (JNIM), al-Qaeda’s affiliate in the Sahel, stopped buses and trucks at Zambougou, in the Ségou region of Mali about 60 kilometres from Bamako, ordered the passengers out and burned at least 40 civilian vehicles.",
+    "sources": [
+      "African Arguments"
+    ],
+    "languages": [
+      "en"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://africanarguments.org/2026/10/why-china-wont-build-its-own-wagner-in-africa/"
+    ],
+    "report_summaries": [
+      {
+        "url": "https://africanarguments.org/2026/10/why-china-wont-build-its-own-wagner-in-africa/",
+        "source": "African Arguments",
+        "title": "Why China won’t build its own Wagner in Africa",
+        "summary": "Attacks on Chinese workers in Mali are testing Beijing’s reliance on African security forces. Russia’s experience there gives China little reason to take on the fighting itself. On 9 May, fighters from Jama’at Nusrat al-Islam wal-Muslimin (JNIM), al-Qaeda’s affiliate in the Sahel, stopped buses and trucks at Zambougou, in the Ségou region of Mali about 60 kilometres from Bamako, ordered the passengers out and burned at least 40 civilian vehicles.",
+        "summary_basis": "source-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "civilian",
+          "security_force",
+          "armed_group"
+        ],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      }
+    ],
+    "created_at": "2026-10-15T16:56:21.123617Z",
+    "updated_at": "2026-10-15T16:56:21.123617Z",
+    "extraction_confidence": "low",
+    "victim_categories": [
+      "civilian",
+      "security_force",
+      "armed_group"
+    ],
+    "civilian_targeting_flag": false,
+    "casualty_claims": [],
+    "fatalities_min": null,
+    "fatalities_max": null,
+    "fatalities_best": null,
+    "injured_min": null,
+    "injured_max": null,
+    "abducted_min": null,
+    "abducted_max": null,
+    "casualty_disputed": false,
+    "revision_history": [
+      {
+        "at": "2026-10-15T16:56:21.123617Z",
+        "type": "event_created",
+        "source": "African Arguments"
+      }
+    ],
+    "corroboration": "single-source",
+    "confidence": "low",
+    "independent_source_domains": [
+      "africanarguments.org"
+    ],
+    "independent_source_count": 1,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "strategic/severe event pattern",
+      "multi-location activity"
+    ]
+  },
+  {
     "id": "6a3693592016ec0b515e2165a26bcf24fb9e8ebd",
     "event_date": "2026-10-15",
     "event_date_confidence": "explicit-text",
@@ -81,6 +331,112 @@
     "significance": "ROUTINE",
     "significance_reasons": [
       "limited currently observed significance"
+    ]
+  },
+  {
+    "id": "d43c05ef0f3fa378fba47a382eceedfd8ca2d47f",
+    "event_date": "2026-10-14",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "explicit-calendar-date",
+    "published_at": "2026-10-15T16:51:59Z",
+    "published_date_source": "opengraph",
+    "published_time_precision": "datetime",
+    "collected_at": "2026-10-15T16:56:22.352911Z",
+    "actor": "State",
+    "perpetrator": "State",
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [
+      "State"
+    ],
+    "parent_report_id": null,
+    "event_type": "security operation",
+    "country": "Mali",
+    "city": "Dioura",
+    "lat": 14.82528,
+    "lng": -5.25139,
+    "locations": [
+      {
+        "name": "Dioura",
+        "country": "Mali",
+        "lat": 14.82528,
+        "lng": -5.25139,
+        "confidence": "explicit-place"
+      },
+      {
+        "name": "Ségou",
+        "country": "Mali",
+        "lat": 13.4317,
+        "lng": -6.2157,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "04:10 Counter-terrorism: The FAMa neutralize two important terrorist bases in the regions of Dioura and Ségou",
+    "summary": "A major logistics base northwest of Dioura and a terrorist assembly point near Tongolo Coura have been destroyed, the General Staff of the Armed Forces announced in a statement, while noting that surveillance and research operations continue on the ground . On Wednesday, October 14, 2026, the exploitation of precise intelligence made it possible to locate, 12 kilometers northwest of the city of Dioura, a large base housing several terrorist elements as well as war and logistics equipment.",
+    "sources": [
+      "L'Essor"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://www.lessor.ml/posts/lutte-contre-le-terrorisme-les-fama-neutralisent-deux-importantes-bases-terroristes-dans-les-regions-de-dioura-et-segou-6ad104af1f63f"
+    ],
+    "report_summaries": [
+      {
+        "url": "https://www.lessor.ml/posts/lutte-contre-le-terrorisme-les-fama-neutralisent-deux-importantes-bases-terroristes-dans-les-regions-de-dioura-et-segou-6ad104af1f63f",
+        "source": "L'Essor",
+        "title": "04:10 Counter-terrorism: The FAMa neutralize two important terrorist bases in the regions of Dioura and Ségou",
+        "summary": "A major logistics base northwest of Dioura and a terrorist assembly point near Tongolo Coura have been destroyed, the General Staff of the Armed Forces announced in a statement, while noting that surveillance and research operations continue on the ground . On Wednesday, October 14, 2026, the exploitation of precise intelligence made it possible to locate, 12 kilometers northwest of the city of Dioura, a large base housing several terrorist elements as well as war and logistics equipment.",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "armed_group"
+        ],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      }
+    ],
+    "created_at": "2026-10-15T16:56:22.352911Z",
+    "updated_at": "2026-10-15T16:56:22.352911Z",
+    "extraction_confidence": "moderate",
+    "victim_categories": [
+      "armed_group"
+    ],
+    "civilian_targeting_flag": false,
+    "casualty_claims": [],
+    "fatalities_min": null,
+    "fatalities_max": null,
+    "fatalities_best": null,
+    "injured_min": null,
+    "injured_max": null,
+    "abducted_min": null,
+    "abducted_max": null,
+    "casualty_disputed": false,
+    "revision_history": [
+      {
+        "at": "2026-10-15T16:56:22.352911Z",
+        "type": "event_created",
+        "source": "L'Essor"
+      }
+    ],
+    "corroboration": "single-source",
+    "confidence": "moderate",
+    "independent_source_domains": [
+      "lessor.ml"
+    ],
+    "independent_source_count": 1,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "strategic/severe event pattern",
+      "multi-location activity"
     ]
   },
   {
