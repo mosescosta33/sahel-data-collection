@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-15T16:57:47.179968Z",
+  "generated_at": "2026-10-15T20:54:02.018820Z",
   "window_days": 30,
   "cutoff": "2026-09-15",
   "reports": 467,
-  "incident_reports": 107,
+  "incident_reports": 108,
   "candidate_events": 80,
-  "corroborated_events": 18,
+  "corroborated_events": 19,
   "mapped_events": 70,
   "mapped_locations": 137,
   "distinct_sources": 81,
@@ -30,9 +30,9 @@
     "raid": 1
   },
   "by_language": {
-    "fr": 356,
-    "en": 87,
-    "ar": 24
+    "fr": 357,
+    "en": 85,
+    "ar": 25
   },
   "by_confidence": {
     "moderate": 39,
@@ -44,7 +44,7 @@
     {
       "source_code": "SRC-0008",
       "source": "Bamada",
-      "count": 68
+      "count": 69
     },
     {
       "source_code": "SRC-0006",
@@ -300,7 +300,7 @@
     },
     {
       "date": "2026-10-15",
-      "reports": 20,
+      "reports": 22,
       "events": 3
     }
   ],
@@ -679,16 +679,18 @@
         }
       ],
       "title": "04:10 Counter-terrorism: The FAMa neutralize two important terrorist bases in the regions of Dioura and Ségou",
-      "summary": "A major logistics base northwest of Dioura and a terrorist assembly point near Tongolo Coura have been destroyed, the General Staff of the Armed Forces announced in a statement, while noting that surveillance and research operations continue on the ground . On Wednesday, October 14, 2026, the exploitation of precise intelligence made it possible to locate, 12 kilometers northwest of the city of Dioura, a large base housing several terrorist elements as well as war and logistics equipment.",
+      "summary": "The General Staff of the Armed Forces informs the national opinion that the Malian Armed Forces (FAMa), supported by their partners, are continuing the permanent operations of surveillance, control and security of the national territory as part of Operation Dougoukoloko . On Wednesday, October 14, 2026, the exploitation of precise intelligence made it possible to locate, 12 kilometers northwest of the city of Dioura, a large base housing several terrorist elements as well as war and logistics equipment.",
       "sources": [
-        "L'Essor"
+        "L'Essor",
+        "Bamada"
       ],
       "languages": [
         "fr"
       ],
-      "source_count": 1,
+      "source_count": 2,
       "report_urls": [
-        "https://www.lessor.ml/posts/lutte-contre-le-terrorisme-les-fama-neutralisent-deux-importantes-bases-terroristes-dans-les-regions-de-dioura-et-segou-6ad104af1f63f"
+        "https://www.lessor.ml/posts/lutte-contre-le-terrorisme-les-fama-neutralisent-deux-importantes-bases-terroristes-dans-les-regions-de-dioura-et-segou-6ad104af1f63f",
+        "https://bamada.net/secteurs-de-dioura-et-tongolo-coura-de-nouvelles-bases-terroristes-ciblees-et-detruites-par-les-fama"
       ],
       "report_summaries": [
         {
@@ -708,10 +710,28 @@
           ],
           "civilian_targeting_flag": false,
           "casualty_claims": []
+        },
+        {
+          "url": "https://bamada.net/secteurs-de-dioura-et-tongolo-coura-de-nouvelles-bases-terroristes-ciblees-et-detruites-par-les-fama",
+          "source": "Bamada",
+          "title": "Sectors of Dioura and Tongolo Coura: New terrorist bases targeted and destroyed by FAMa",
+          "summary": "The General Staff of the Armed Forces informs the national opinion that the Malian Armed Forces (FAMa), supported by their partners, are continuing the permanent operations of surveillance, control and security of the national territory as part of Operation Dougoukoloko . On Wednesday, October 14, 2026, the exploitation of precise intelligence made it possible to locate, 12 kilometers northwest of the city of Dioura, a large base housing several terrorist elements as well as war and logistics equipment.",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "armed_group"
+          ],
+          "civilian_targeting_flag": false,
+          "casualty_claims": []
         }
       ],
       "created_at": "2026-10-15T16:56:22.352911Z",
-      "updated_at": "2026-10-15T16:56:22.352911Z",
+      "updated_at": "2026-10-15T20:53:26.769011Z",
       "extraction_confidence": "moderate",
       "victim_categories": [
         "armed_group"
@@ -731,14 +751,20 @@
           "at": "2026-10-15T16:56:22.352911Z",
           "type": "event_created",
           "source": "L'Essor"
+        },
+        {
+          "at": "2026-10-15T20:53:26.769011Z",
+          "type": "corroboration_or_geography_update",
+          "source": "Bamada"
         }
       ],
-      "corroboration": "single-source",
+      "corroboration": "limited corroboration",
       "confidence": "moderate",
       "independent_source_domains": [
-        "lessor.ml"
+        "lessor.ml",
+        "bamada.net"
       ],
-      "independent_source_count": 1,
+      "independent_source_count": 2,
       "significance": "MAJOR",
       "significance_reasons": [
         "strategic/severe event pattern",
@@ -3792,6 +3818,42 @@
   ],
   "latest_reports": [
     {
+      "published_at": "2026-10-15T18:42:55Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-15T20:53:27.219578Z",
+      "discovered_at": "2026-10-15T20:53:27.219578Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0160",
+      "source": "Sahara Medias (صحراء ميديا)",
+      "language": "ar",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Ségou",
+      "event_type": "security operation",
+      "candidate_event": false,
+      "title": "Two military operations targeting two armed positions in central Mali",
+      "url": "https://saharamedias.net/266859/"
+    },
+    {
+      "published_at": "2026-10-15T17:02:52Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-15T20:53:26.769011Z",
+      "discovered_at": "2026-10-15T20:53:26.769011Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0008",
+      "source": "Bamada",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Dioura",
+      "event_type": "security operation",
+      "candidate_event": true,
+      "title": "Sectors of Dioura and Tongolo Coura: New terrorist bases targeted and destroyed by FAMa",
+      "url": "https://bamada.net/secteurs-de-dioura-et-tongolo-coura-de-nouvelles-bases-terroristes-ciblees-et-detruites-par-les-fama"
+    },
+    {
       "published_at": "2026-10-15T16:51:59Z",
       "published_date_source": "opengraph",
       "published_time_precision": "datetime",
@@ -4474,42 +4536,6 @@
       "candidate_event": true,
       "title": "Mali: At least eight women and children killed by army shelling in Ségou region",
       "url": "https://fr.allafrica.com/stories/202610140178.html"
-    },
-    {
-      "published_at": "2026-10-14T09:01:32Z",
-      "published_date_source": "opengraph",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-15T08:57:38.939274Z",
-      "discovered_at": "2026-10-15T08:57:38.939274Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0079",
-      "source": "L'Essor",
-      "language": "fr",
-      "actor": null,
-      "country": "Mali",
-      "city": null,
-      "event_type": "political/security policy",
-      "candidate_event": false,
-      "title": "National Youth Service: 2,400 recruits of the 7th cohort ready to serve The ceremony of their presentation to the flag was chaired, yesterday, on the place d 'armes of the Military Engineer, by the President of the Transition, Army General Assimi Goïta . For six months, these men and women followed a demanding program of military and civic training that allowed them to learn how to transform fatigue into endurance, difficulties into courage and constraints into responsibilities",
-      "url": "https://www.lessor.ml/posts/service-national-des-jeunes-2400-recrues-de-la-7e-cohorte-pretes-a-servir-6acf44eaaa460"
-    },
-    {
-      "published_at": "2026-10-14T08:11:54Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-14T08:56:27.184341Z",
-      "discovered_at": "2026-10-14T08:56:27.184341Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0060",
-      "source": "Al-Quds Al-Arabi",
-      "language": "ar",
-      "actor": "State",
-      "country": "Niger",
-      "city": "Niamey",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Weeks after a failed coup attempt in Niamey… Niger's defense minister in Algeria to boost military cooperation between the two countries",
-      "url": "https://www.alquds.co.uk/%d8%a8%d8%b9%d8%af-%d8%a3%d8%b3%d8%a7%d8%a8%d9%8a%d8%b9-%d9%85%d9%86-%d9%85%d8%ad%d8%a7%d9%88%d9%84%d8%a9-%d8%a7%d9%86%d9%82%d9%84%d8%a7%d8%a8%d9%8a%d8%a9-%d9%81%d8%a7%d8%b4%d9%84%d8%a9-%d9%81%d9%8a/"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."

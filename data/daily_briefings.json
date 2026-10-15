@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "site_patch_version": "3.3.5",
-  "generated_at": "2026-10-15T16:57:48.557688Z",
+  "generated_at": "2026-10-15T20:54:03.307459Z",
   "active_limit": 33,
   "total_briefings": 268,
   "active_count": 33,
@@ -11,7 +11,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-15",
-      "generated_at": "2026-10-15T16:57:48.454497Z",
+      "generated_at": "2026-10-15T20:54:03.022176Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -23,11 +23,11 @@
         "events_occurring_on_date": 1,
         "records_held_for_review": 2,
         "multi_source_events": 1,
-        "reports_collected_on_date": 21,
-        "reports_published_on_date": 20,
+        "reports_collected_on_date": 23,
+        "reports_published_on_date": 22,
         "newly_discovered_older_events": 1,
         "events_awaiting_date_verification": 2,
-        "distinct_sources_collected": 16
+        "distinct_sources_collected": 17
       },
       "executive_assessment": "Reporting dated 2026-10-15 gives the desk 1 incident account to examine in Mali. 1 has support from separate sources. The record is provisional; it does not establish the full extent of violence that day.",
       "briefing_sections": [
@@ -37,7 +37,7 @@
         },
         {
           "heading": "Mali",
-          "text": "14 retained reports were collected for Mali. 1 fused candidate event currently carry this reporting date. 04:10 Counter-terrorism: The FAMa neutralize two important terrorist bases in the regions of Dioura and Ségou: A major logistics base northwest of Dioura and a terrorist assembly point near Tongolo Coura have been destroyed, the General Staff of the Armed Forces announced in a statement, while noting that surveillance and research… Why China won’t build its own Wagner in Africa: Attacks on Chinese workers in Mali are testing Beijing’s reliance on African security forces. Russia’s experience there gives China little reason to take on the fighting itself. On 9 May, fighters from Jama’at Nusrat al-Islam… Mali: The Army announces a tragic incident in an Fama area of operations: In a statement issued yesterday, Wednesday, October 14, 2026, the General Staff of the Armed Forces of Mali said that it had been informed of a \"tragic incident that occurred in an area of operations\". \"Loss of life as well as… 11 additional Mali reports are summarized individually in the source records."
+          "text": "16 retained reports were collected for Mali. 1 fused candidate event currently carry this reporting date. Two military operations targeting two armed positions in central Mali: On Thursday, the Malian army announced the targeting of two sites it said were sheltering armed men, one near the city of Diora and the other in the Ségou area, during two military operations on Wednesday and Thursday, without… Sectors of Dioura and Tongolo Coura: New terrorist bases targeted and destroyed by FAMa: The General Staff of the Armed Forces informs the national opinion that the Malian Armed Forces (FAMa), supported by their partners, are continuing the permanent operations of surveillance, control and security of the national… 04:10 Counter-terrorism: The FAMa neutralize two important terrorist bases in the regions of Dioura and Ségou: A major logistics base northwest of Dioura and a terrorist assembly point near Tongolo Coura have been destroyed, the General Staff of the Armed Forces announced in a statement, while noting that surveillance and research… 13 additional Mali reports are summarized individually in the source records."
         },
         {
           "heading": "Burkina Faso",
@@ -106,7 +106,7 @@
         }
       ],
       "what_changed_since_yesterday": [
-        "Collection volume: -6 retained report(s) versus 2026-10-14 (27 → 21).",
+        "Collection volume: -4 retained report(s) versus 2026-10-14 (27 → 23).",
         "Actor-level same-day fused event counts are unchanged from the previous date."
       ],
       "emerging_patterns": [
@@ -128,7 +128,7 @@
         "Niger": 0
       },
       "country_reporting_counts": {
-        "Mali": 14,
+        "Mali": 16,
         "Burkina Faso": 2,
         "Niger": 3
       },
@@ -171,7 +171,7 @@
       "country_profiles": {
         "Mali": {
           "events": 1,
-          "reports_collected": 14,
+          "reports_collected": 16,
           "actor_counts": {
             "JNIM": 0,
             "IS Sahel": 0,
@@ -210,6 +210,24 @@
       },
       "country_article_summaries": {
         "Mali": [
+          {
+            "id": "2cc131c98966283a78e7bc29337a9de7cdd76780",
+            "source": "Sahara Medias (صحراء ميديا)",
+            "title": "Two military operations targeting two armed positions in central Mali",
+            "summary": "On Thursday, the Malian army announced the targeting of two sites it said were sheltering armed men, one near the city of Diora and the other in the Ségou area, during two military operations on Wednesday and Thursday, without providing a toll of the losses. The army said in a statement that the first operation targeted a base 12 kilometers northwest of Diora, after being monitored based on intelligence information, noting that it included armed elements and military and logistical equipment.",
+            "url": "https://saharamedias.net/266859/",
+            "candidate_event": false,
+            "event_date": "2026-10-15"
+          },
+          {
+            "id": "750a43c69ee8deadd9762bb0ac13f56ca7033fe2",
+            "source": "Bamada",
+            "title": "Sectors of Dioura and Tongolo Coura: New terrorist bases targeted and destroyed by FAMa",
+            "summary": "The General Staff of the Armed Forces informs the national opinion that the Malian Armed Forces (FAMa), supported by their partners, are continuing the permanent operations of surveillance, control and security of the national territory as part of Operation Dougoukoloko . On Wednesday, October 14, 2026, the exploitation of precise intelligence made it possible to locate, 12 kilometers northwest of the city of Dioura, a large base housing several terrorist elements as well as war and logistics equipment.",
+            "url": "https://bamada.net/secteurs-de-dioura-et-tongolo-coura-de-nouvelles-bases-terroristes-ciblees-et-detruites-par-les-fama",
+            "candidate_event": true,
+            "event_date": "2026-10-14"
+          },
           {
             "id": "b54ecdf2b20f501700db4584bd1f9f85b3a15710",
             "source": "L'Essor",
@@ -389,36 +407,37 @@
       },
       "collection_notes": {
         "sources_total": 184,
-        "sources_success": 154,
-        "sources_failed": 30,
-        "sources_degraded": 17,
-        "documents_discovered": 11543,
-        "documents_retained": 10,
+        "sources_success": 152,
+        "sources_failed": 32,
+        "sources_degraded": 18,
+        "documents_discovered": 11385,
+        "documents_retained": 2,
         "report_target": 100,
-        "translations_attempted": 9,
-        "translations_success": 9,
+        "translations_attempted": 2,
+        "translations_success": 2,
         "translation_failures": 0,
         "collection_confidence": "LOW",
         "collection_confidence_reasons": [
-          "154/184 source paths reached",
-          "30 failed source paths",
-          "17 degraded / 30 failed of 184 configured sources"
+          "152/184 source paths reached",
+          "32 failed source paths",
+          "18 degraded / 32 failed of 184 configured sources"
         ],
-        "reports_collected": 21,
-        "reports_published": 20,
-        "distinct_sources_collected": 16,
+        "reports_collected": 23,
+        "reports_published": 22,
+        "distinct_sources_collected": 17,
         "language_counts": {
-          "fr": 16,
+          "ar": 1,
+          "fr": 17,
           "en": 5
         }
       },
-      "sultana_daily_text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nDaily bottom line for 2026-10-15: Reporting dated 2026-10-15 gives the desk 1 incident account to examine in Mali. 1 has support from separate sources. The record is provisional; it does not establish the full extent of violence that day.\n\nMali: 14 retained reports. 1. 04:10 Counter-terrorism: The FAMa neutralize two important terrorist bases in the regions of Dioura and Ségou. A major logistics base northwest of Dioura and a terrorist assembly point near Tongolo Coura have been destroyed, the General Staff of the Armed Forces announced in a statement, while noting that surveillance and research operations continue on the ground . On Wednesday, October 14, 2026, the exploitation of precise intelligence made it possible to locate, 12 kilometers northwest of the city of Dioura, a large base housing several terrorist elements as well as war and logistics equipment. 2. Why China won’t build its own Wagner in Africa. Attacks on Chinese workers in Mali are testing Beijing’s reliance on African security forces. Russia’s experience there gives China little reason to take on the fighting itself. On 9 May, fighters from Jama’at Nusrat al-Islam wal-Muslimin (JNIM), al-Qaeda’s affiliate in the Sahel, stopped buses and trucks at Zambougou, in the Ségou region of Mali about 60 kilometres from Bamako, ordered the passengers out and burned at least 40 civilian vehicles. 3. Mali: The Army announces a tragic incident in an Fama area of operations. In a statement issued yesterday, Wednesday, October 14, 2026, the General Staff of the Armed Forces of Mali said that it had been informed of a \"tragic incident that occurred in an area of operations\". \"Loss of life as well as injuries\" are to be deplored According to the first administrative information available, the victims \"travelled on heavy-duty motorcycles between two localities\".\n\nBurkina Faso: 2 retained reports. 1. Burkina Faso: Government pays tribute to Thomas Sankara, 39 years after his assassination. Burkina Faso: the government pays tribute to Thomas Sankara, 39 years after his assassination Burkina Faso pays tribute, this Thursday, October 15, 2026, to Captain Thomas Isidore Noël Sankara and his 12 companions, murdered on October 15, 1987. The ceremony is held in Ouagadougou, in the presence of members of the government and administrative and customary authorities . 2. Burkina Faso’s junta lays claim to Thomas Sankara’s legacy. A memorial to the assassinated revolutionary, conceived by his followers, is being remade by the Sahel state’s military leader, Ibrahim Traoré, who casts himself as Sankara’s heir.\n\nNiger: 3 retained reports. 1. Diffa: Launch of a yellow fever vaccination campaign for nearly one million people. Diffa, Oct 15 (ANP) – The Secretary General of the Diffa region, Mr. Mahamadou Attahirou Maidouka, on Thursday, October 15, 2026, at the Diffa Urban Integrated Health Center, officially launched the preventive vaccination campaign against yellow fever, scheduled for October 15 to 21 in the six departments of the region . This operation aims to vaccinate more than 95% of the target population, estimated at 999,877 people aged 9 months to 60 years. 2. NIS vows justice after officer killed in Niger attack. The Nigeria Immigration Service (NIS) has vowed to bring the perpetrators of an attack on two of its personnel in Niger to justice, following the death of one officer and serious injury to another. The Service Public Relations Officer, Deputy Comptroller of Immigration (DCI) Akinsola Akinlabi, said this in a statement issued on Thursday in Abuja. He said the incident occurred on Oct. 3. AGADEZ: Regional Security Council meeting extended to members of the National Commission for the Collection and Control of Illicit Weapons. Agadez, Oct 15 (ANP) – The Governor of the Region of Agadez, Major General Ibra Boulama Issa chaired, this Thursday, October 15, 2026 in the meeting room of the Governorate, a meeting of the Regional Security Council (CRS) extended to members of the National Commission for the Collection and Control of Illicit Weapons (CNCCAI) . The CNCCAI plays a strategic role in the Regional Security Council, bringing together the defense forces to coordinate efforts to collect and control illicit weapons, which contributes to peace and security in the region.\n\nActor picture: JNIM 0, IS Sahel 0, State 1.\n\nWhat changed: Collection volume: -6 retained report(s) versus 2026-10-14 (27 → 21). Actor-level same-day fused event counts are unchanged from the previous date.\n\nIntelligence gaps: 2 newly collected operational/candidate report(s) have unresolved or publication-proxy event dates. Collection confidence is low, so absence of reporting should not be interpreted as absence of activity.\n\nCollection confidence: LOW. 154/184 source paths reached 30 failed source paths 17 degraded / 30 failed of 184 configured sources\n\nAll retained source reports, including reports not promoted to the map, remain individually summarized in the intelligence feed and source records."
+      "sultana_daily_text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nDaily bottom line for 2026-10-15: Reporting dated 2026-10-15 gives the desk 1 incident account to examine in Mali. 1 has support from separate sources. The record is provisional; it does not establish the full extent of violence that day.\n\nMali: 16 retained reports. 1. Two military operations targeting two armed positions in central Mali. On Thursday, the Malian army announced the targeting of two sites it said were sheltering armed men, one near the city of Diora and the other in the Ségou area, during two military operations on Wednesday and Thursday, without providing a toll of the losses. The army said in a statement that the first operation targeted a base 12 kilometers northwest of Diora, after being monitored based on intelligence information, noting that it included armed elements and military and logistical equipment. 2. Sectors of Dioura and Tongolo Coura: New terrorist bases targeted and destroyed by FAMa. The General Staff of the Armed Forces informs the national opinion that the Malian Armed Forces (FAMa), supported by their partners, are continuing the permanent operations of surveillance, control and security of the national territory as part of Operation Dougoukoloko . On Wednesday, October 14, 2026, the exploitation of precise intelligence made it possible to locate, 12 kilometers northwest of the city of Dioura, a large base housing several terrorist elements as well as war and logistics equipment. 3. 04:10 Counter-terrorism: The FAMa neutralize two important terrorist bases in the regions of Dioura and Ségou. A major logistics base northwest of Dioura and a terrorist assembly point near Tongolo Coura have been destroyed, the General Staff of the Armed Forces announced in a statement, while noting that surveillance and research operations continue on the ground . On Wednesday, October 14, 2026, the exploitation of precise intelligence made it possible to locate, 12 kilometers northwest of the city of Dioura, a large base housing several terrorist elements as well as war and logistics equipment.\n\nBurkina Faso: 2 retained reports. 1. Burkina Faso: Government pays tribute to Thomas Sankara, 39 years after his assassination. Burkina Faso: the government pays tribute to Thomas Sankara, 39 years after his assassination Burkina Faso pays tribute, this Thursday, October 15, 2026, to Captain Thomas Isidore Noël Sankara and his 12 companions, murdered on October 15, 1987. The ceremony is held in Ouagadougou, in the presence of members of the government and administrative and customary authorities . 2. Burkina Faso’s junta lays claim to Thomas Sankara’s legacy. A memorial to the assassinated revolutionary, conceived by his followers, is being remade by the Sahel state’s military leader, Ibrahim Traoré, who casts himself as Sankara’s heir.\n\nNiger: 3 retained reports. 1. Diffa: Launch of a yellow fever vaccination campaign for nearly one million people. Diffa, Oct 15 (ANP) – The Secretary General of the Diffa region, Mr. Mahamadou Attahirou Maidouka, on Thursday, October 15, 2026, at the Diffa Urban Integrated Health Center, officially launched the preventive vaccination campaign against yellow fever, scheduled for October 15 to 21 in the six departments of the region . This operation aims to vaccinate more than 95% of the target population, estimated at 999,877 people aged 9 months to 60 years. 2. NIS vows justice after officer killed in Niger attack. The Nigeria Immigration Service (NIS) has vowed to bring the perpetrators of an attack on two of its personnel in Niger to justice, following the death of one officer and serious injury to another. The Service Public Relations Officer, Deputy Comptroller of Immigration (DCI) Akinsola Akinlabi, said this in a statement issued on Thursday in Abuja. He said the incident occurred on Oct. 3. AGADEZ: Regional Security Council meeting extended to members of the National Commission for the Collection and Control of Illicit Weapons. Agadez, Oct 15 (ANP) – The Governor of the Region of Agadez, Major General Ibra Boulama Issa chaired, this Thursday, October 15, 2026 in the meeting room of the Governorate, a meeting of the Regional Security Council (CRS) extended to members of the National Commission for the Collection and Control of Illicit Weapons (CNCCAI) . The CNCCAI plays a strategic role in the Regional Security Council, bringing together the defense forces to coordinate efforts to collect and control illicit weapons, which contributes to peace and security in the region.\n\nActor picture: JNIM 0, IS Sahel 0, State 1.\n\nWhat changed: Collection volume: -4 retained report(s) versus 2026-10-14 (27 → 23). Actor-level same-day fused event counts are unchanged from the previous date.\n\nIntelligence gaps: 2 newly collected operational/candidate report(s) have unresolved or publication-proxy event dates. Collection confidence is low, so absence of reporting should not be interpreted as absence of activity.\n\nCollection confidence: LOW. 152/184 source paths reached 32 failed source paths 18 degraded / 32 failed of 184 configured sources\n\nAll retained source reports, including reports not promoted to the map, remain individually summarized in the intelligence feed and source records."
     },
     {
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-14",
-      "generated_at": "2026-10-15T16:57:47.915687Z",
+      "generated_at": "2026-10-15T20:54:03.183343Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -429,18 +448,18 @@
       "headline_metrics": {
         "events_occurring_on_date": 1,
         "records_held_for_review": 1,
-        "multi_source_events": 0,
+        "multi_source_events": 1,
         "reports_collected_on_date": 27,
         "reports_published_on_date": 26,
         "newly_discovered_older_events": 1,
         "events_awaiting_date_verification": 1,
         "distinct_sources_collected": 21
       },
-      "executive_assessment": "Reporting dated 2026-10-14 gives the desk 1 incident account to examine in Mali. None has support from a second independent source. The record is provisional; it does not establish the full extent of violence that day.",
+      "executive_assessment": "Reporting dated 2026-10-14 gives the desk 1 incident account to examine in Mali. 1 has support from separate sources. The record is provisional; it does not establish the full extent of violence that day.",
       "briefing_sections": [
         {
           "heading": "Assessment",
-          "text": "Reporting dated 2026-10-14 gives the desk 1 incident account to examine in Mali. None has support from a second independent source. The record is provisional; it does not establish the full extent of violence that day."
+          "text": "Reporting dated 2026-10-14 gives the desk 1 incident account to examine in Mali. 1 has support from separate sources. The record is provisional; it does not establish the full extent of violence that day."
         },
         {
           "heading": "Mali",
@@ -456,7 +475,7 @@
         },
         {
           "heading": "Reported incidents",
-          "text": "L'Essor reports ‘04:10 Counter-terrorism: The FAMa neutralize two important terrorist bases in the regions of Dioura and Ségou’ in Dioura, Mali. This account still needs independent confirmation."
+          "text": "L'Essor reports ‘04:10 Counter-terrorism: The FAMa neutralize two important terrorist bases in the regions of Dioura and Ségou’ in Dioura, Mali. Separate sources also report the event."
         },
         {
           "heading": "Reporting in context",
@@ -470,14 +489,14 @@
       "key_judgments": [
         "State accounts for the largest share of same-day fused event activity (1 event(s)).",
         "Mali contains the largest same-day event count (1 event(s)).",
-        "1 same-day event(s) remain single-source and should be treated as provisional.",
+        "1 of 1 same-day event(s) meet the multi-source corroboration threshold used by this briefing layer.",
         "1 collected operational/candidate report(s) still use an unresolved or proxy event date and require temporal verification."
       ],
       "significant_events": [
         {
           "id": "d43c05ef0f3fa378fba47a382eceedfd8ca2d47f",
           "title": "04:10 Counter-terrorism: The FAMa neutralize two important terrorist bases in the regions of Dioura and Ségou",
-          "summary": "A major logistics base northwest of Dioura and a terrorist assembly point near Tongolo Coura have been destroyed, the General Staff of the Armed Forces announced in a statement, while noting that surveillance and research operations continue on the ground . On Wednesday, October 14, 2026, the exploitation of precise intelligence made it possible to locate, 12 kilometers northwest of the city of Dioura, a large base housing several terrorist elements as well as war and logistics equipment.",
+          "summary": "The General Staff of the Armed Forces informs the national opinion that the Malian Armed Forces (FAMa), supported by their partners, are continuing the permanent operations of surveillance, control and security of the national territory as part of Operation Dougoukoloko . On Wednesday, October 14, 2026, the exploitation of precise intelligence made it possible to locate, 12 kilometers northwest of the city of Dioura, a large base housing several terrorist elements as well as war and logistics equipment.",
           "actor": "State",
           "event_type": "security operation",
           "country": "Mali",
@@ -486,22 +505,25 @@
           "event_date_confidence": "explicit-text",
           "publication_time": "2026-10-15T16:51:59Z",
           "collection_time": "2026-10-15T16:56:22.352911Z",
-          "verification_date": null,
-          "verification_basis": "not independently corroborated",
-          "last_evidence_update": "2026-10-15T16:56:22.352911Z",
+          "verification_date": "2026-10-15",
+          "verification_basis": "multi-source corroboration",
+          "last_evidence_update": "2026-10-15T20:53:26.769011Z",
           "confidence": "moderate",
-          "corroboration": "single-source",
+          "corroboration": "limited corroboration",
           "significance": "MAJOR",
-          "source_count": 1,
-          "independent_source_count": 1,
+          "source_count": 2,
+          "independent_source_count": 2,
           "sources": [
-            "L'Essor"
+            "L'Essor",
+            "Bamada"
           ],
           "independent_source_domains": [
-            "lessor.ml"
+            "lessor.ml",
+            "bamada.net"
           ],
           "report_urls": [
-            "https://www.lessor.ml/posts/lutte-contre-le-terrorisme-les-fama-neutralisent-deux-importantes-bases-terroristes-dans-les-regions-de-dioura-et-segou-6ad104af1f63f"
+            "https://www.lessor.ml/posts/lutte-contre-le-terrorisme-les-fama-neutralisent-deux-importantes-bases-terroristes-dans-les-regions-de-dioura-et-segou-6ad104af1f63f",
+            "https://bamada.net/secteurs-de-dioura-et-tongolo-coura-de-nouvelles-bases-terroristes-ciblees-et-detruites-par-les-fama"
           ],
           "perpetrator": "State",
           "target": null,
@@ -518,7 +540,6 @@
         "State 7-day activity is lower than the preceding 7-day window (14 → 9)."
       ],
       "intelligence_gaps": [
-        "1 same-day event(s) lack independent multi-source corroboration.",
         "1 newly collected operational/candidate report(s) have unresolved or publication-proxy event dates.",
         "Collection confidence is moderate, so absence of reporting should not be interpreted as absence of activity."
       ],
@@ -889,13 +910,13 @@
           "ar": 2
         }
       },
-      "sultana_daily_text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nDaily bottom line for 2026-10-14: Reporting dated 2026-10-14 gives the desk 1 incident account to examine in Mali. None has support from a second independent source. The record is provisional; it does not establish the full extent of violence that day.\n\nMali: 16 retained reports. 1. Kwara: NSCDC arrests man over minor’s trafficking to Mali. The Nigeria Security and Civil Defence Corps (NSCDC) has arrested a 22-year-old man for allegedly trafficking a 17-year-old girl from Kwara State to Mali after promising to secure her employment in Senegal. The command also arrested a 56-year-old man accused of operating an unauthorised medical facility and performing abortions without recognised medical qualifications or a valid licence. 2. Mali: Presentation of the 7th cohort of the National Youth Service, in front of the national flag. Bamako, October 14 (AMAP) The presentation ceremony at the national flag of the 7th cohort of the National Youth Service, was chaired, on Tuesday in the place of arms of the Military Engineer, by the President of the Transition, Army General Assimi Goïta, noted AMAP . It was in the presence of members of the government, the President of the National Transitional Council (CNT), Lieutenant General Malick N'Diaw, the Chief of the General Staff of the Armed Forces, Brigadier General Élisée Jean Dao, as well as diplomats accredited to Mali. 3. Dougabougou: A municipal councillor murdered in his home by armed men. A communal councillor, named Mohamed Arby, was killed by unidentified armed men on Wednesday, October 7, 2026, at his home in Dougabougou, in the Ségou region.\n\nBurkina Faso: 2 retained reports. 1. Autism in Burkina Faso: parents' fight against prejudice. In Ouagadougou, parents of autistic children face hurtful remarks and rejection from those around them, in addition to difficulties in finding appropriate support. Ari is 20 years old. Tall, soft-looking, he lives in the Zone 1 district of Ouagadougou. 2. Burkina Faso: Captain Ibrahim Traoré appoints new leaders at the head of the Rapid Intervention Groups (GIR). After the establishment of the Rapid Intervention Battalions (BIR), the Head of State, Comrade Captain Ibrahim Traoré, continued the restructuring of the Burkinabe army with the creation of a new counter-terrorism mechanism: the Rapid Intervention Groups (GIR). In a decree signed on 23 September 2026, he appointed new heads of these units Under the authority of the Special and Rapid Intervention Brigade (BSIR), the mission of the Rapid Intervention Groups (GIR) is to strengthen the operational capacities of the armed forces in the fight against terrorism and organized crime in Burkina Faso.\n\nNiger: 9 retained reports. 1. Niger: an ordinance specifies the missions of the Human Rights Observatory. The President of Niger, Army General Abdourahamane Tiani, signed on October 14, 2026 an order relating to the National Observatory for Human Rights and Fundamental Freedoms (ONDH/LF), an institution provided for by Article 72 of the Charter of Refoundation, according to a statement from the General Secretariat of the Government . Responsible for the promotion and protection of human rights, the Observatory will carry out regular, announced or unannounced visits to places of detention, with the exception of the State Security Council. 2. Niger has set up a National Observatory on Human Rights and Fundamental Freedoms. Niamey, October 14 (ANP)- The President of the Republic, Head of State, Army General Abdourahamane Tiani, signed, on Wednesday, October 14, 2026, an order creating a National Observatory of Human Rights and Fundamental Freedoms (ONDH/LF) . The National Observatory for Human Rights and Fundamental Freedoms, it is stated, is an institution provided for in Article 72 of the Charter of the Refoundation and has the mission of protecting and promoting human rights . 3. Niamey denounces the expulsion of two agents by Paris. The Nigerien government strongly criticized, on Tuesday, the expulsion by France of two Nigerien agents declared persona non grata on September 16, 2026. Niamey views this decision as a “serious and unacceptable act of ingratitude,” said Justice Minister Alio Daouda According to the Nigerien Minister of Justice, one of the two agents expelled by Paris, Abdoul-Razak Ibrahim Moussa Toro, was wounded in 2014 during a mission to Diffa, in south-eastern Niger, in cooperation with the French army.\n\nActor picture: JNIM 0, IS Sahel 0, State 1.\n\nWhat changed: State: +1 same-day fused event(s) versus 2026-10-13 (0 → 1). Collection volume: +7 retained report(s) versus 2026-10-13 (20 → 27).\n\nIntelligence gaps: 1 same-day event(s) lack independent multi-source corroboration. 1 newly collected operational/candidate report(s) have unresolved or publication-proxy event dates. Collection confidence is moderate, so absence of reporting should not be interpreted as absence of activity.\n\nCollection confidence: MODERATE. 156/184 source paths reached 28 failed source paths\n\nAll retained source reports, including reports not promoted to the map, remain individually summarized in the intelligence feed and source records."
+      "sultana_daily_text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nDaily bottom line for 2026-10-14: Reporting dated 2026-10-14 gives the desk 1 incident account to examine in Mali. 1 has support from separate sources. The record is provisional; it does not establish the full extent of violence that day.\n\nMali: 16 retained reports. 1. Kwara: NSCDC arrests man over minor’s trafficking to Mali. The Nigeria Security and Civil Defence Corps (NSCDC) has arrested a 22-year-old man for allegedly trafficking a 17-year-old girl from Kwara State to Mali after promising to secure her employment in Senegal. The command also arrested a 56-year-old man accused of operating an unauthorised medical facility and performing abortions without recognised medical qualifications or a valid licence. 2. Mali: Presentation of the 7th cohort of the National Youth Service, in front of the national flag. Bamako, October 14 (AMAP) The presentation ceremony at the national flag of the 7th cohort of the National Youth Service, was chaired, on Tuesday in the place of arms of the Military Engineer, by the President of the Transition, Army General Assimi Goïta, noted AMAP . It was in the presence of members of the government, the President of the National Transitional Council (CNT), Lieutenant General Malick N'Diaw, the Chief of the General Staff of the Armed Forces, Brigadier General Élisée Jean Dao, as well as diplomats accredited to Mali. 3. Dougabougou: A municipal councillor murdered in his home by armed men. A communal councillor, named Mohamed Arby, was killed by unidentified armed men on Wednesday, October 7, 2026, at his home in Dougabougou, in the Ségou region.\n\nBurkina Faso: 2 retained reports. 1. Autism in Burkina Faso: parents' fight against prejudice. In Ouagadougou, parents of autistic children face hurtful remarks and rejection from those around them, in addition to difficulties in finding appropriate support. Ari is 20 years old. Tall, soft-looking, he lives in the Zone 1 district of Ouagadougou. 2. Burkina Faso: Captain Ibrahim Traoré appoints new leaders at the head of the Rapid Intervention Groups (GIR). After the establishment of the Rapid Intervention Battalions (BIR), the Head of State, Comrade Captain Ibrahim Traoré, continued the restructuring of the Burkinabe army with the creation of a new counter-terrorism mechanism: the Rapid Intervention Groups (GIR). In a decree signed on 23 September 2026, he appointed new heads of these units Under the authority of the Special and Rapid Intervention Brigade (BSIR), the mission of the Rapid Intervention Groups (GIR) is to strengthen the operational capacities of the armed forces in the fight against terrorism and organized crime in Burkina Faso.\n\nNiger: 9 retained reports. 1. Niger: an ordinance specifies the missions of the Human Rights Observatory. The President of Niger, Army General Abdourahamane Tiani, signed on October 14, 2026 an order relating to the National Observatory for Human Rights and Fundamental Freedoms (ONDH/LF), an institution provided for by Article 72 of the Charter of Refoundation, according to a statement from the General Secretariat of the Government . Responsible for the promotion and protection of human rights, the Observatory will carry out regular, announced or unannounced visits to places of detention, with the exception of the State Security Council. 2. Niger has set up a National Observatory on Human Rights and Fundamental Freedoms. Niamey, October 14 (ANP)- The President of the Republic, Head of State, Army General Abdourahamane Tiani, signed, on Wednesday, October 14, 2026, an order creating a National Observatory of Human Rights and Fundamental Freedoms (ONDH/LF) . The National Observatory for Human Rights and Fundamental Freedoms, it is stated, is an institution provided for in Article 72 of the Charter of the Refoundation and has the mission of protecting and promoting human rights . 3. Niamey denounces the expulsion of two agents by Paris. The Nigerien government strongly criticized, on Tuesday, the expulsion by France of two Nigerien agents declared persona non grata on September 16, 2026. Niamey views this decision as a “serious and unacceptable act of ingratitude,” said Justice Minister Alio Daouda According to the Nigerien Minister of Justice, one of the two agents expelled by Paris, Abdoul-Razak Ibrahim Moussa Toro, was wounded in 2014 during a mission to Diffa, in south-eastern Niger, in cooperation with the French army.\n\nActor picture: JNIM 0, IS Sahel 0, State 1.\n\nWhat changed: State: +1 same-day fused event(s) versus 2026-10-13 (0 → 1). Collection volume: +7 retained report(s) versus 2026-10-13 (20 → 27).\n\nIntelligence gaps: 1 newly collected operational/candidate report(s) have unresolved or publication-proxy event dates. Collection confidence is moderate, so absence of reporting should not be interpreted as absence of activity.\n\nCollection confidence: MODERATE. 156/184 source paths reached 28 failed source paths\n\nAll retained source reports, including reports not promoted to the map, remain individually summarized in the intelligence feed and source records."
     },
     {
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-13",
-      "generated_at": "2026-10-15T16:57:47.871769Z",
+      "generated_at": "2026-10-15T20:54:02.611323Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -1227,7 +1248,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-12",
-      "generated_at": "2026-10-15T16:57:48.528617Z",
+      "generated_at": "2026-10-15T20:54:03.185972Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -1607,7 +1628,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-11",
-      "generated_at": "2026-10-15T16:57:48.224536Z",
+      "generated_at": "2026-10-15T20:54:02.994513Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -1944,14 +1965,14 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-10",
-      "generated_at": "2026-10-15T16:57:48.216697Z",
+      "generated_at": "2026-10-15T20:54:03.178065Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
         "Niger"
       ],
       "classification": "OPEN SOURCE",
-      "collection_confidence": "MODERATE",
+      "collection_confidence": "LOW",
       "headline_metrics": {
         "events_occurring_on_date": 2,
         "records_held_for_review": 2,
@@ -2084,7 +2105,7 @@
       "intelligence_gaps": [
         "1 same-day event(s) lack independent multi-source corroboration.",
         "2 newly collected operational/candidate report(s) have unresolved or publication-proxy event dates.",
-        "Collection confidence is moderate, so absence of reporting should not be interpreted as absence of activity."
+        "Collection confidence is low, so absence of reporting should not be interpreted as absence of activity."
       ],
       "actor_counts": {
         "JNIM": 0,
@@ -2311,20 +2332,19 @@
         ]
       },
       "collection_notes": {
-        "sources_total": 184,
-        "sources_success": 156,
-        "sources_failed": 28,
+        "sources_total": 0,
+        "sources_success": 0,
+        "sources_failed": 0,
         "sources_degraded": null,
-        "documents_discovered": 11479,
-        "documents_retained": 2,
+        "documents_discovered": 0,
+        "documents_retained": 0,
         "report_target": 100,
-        "translations_attempted": 1,
-        "translations_success": 1,
+        "translations_attempted": 0,
+        "translations_success": 0,
         "translation_failures": 0,
-        "collection_confidence": "MODERATE",
+        "collection_confidence": "LOW",
         "collection_confidence_reasons": [
-          "156/184 source paths reached",
-          "28 failed source paths"
+          "no completed collection run recorded for this date"
         ],
         "reports_collected": 13,
         "reports_published": 10,
@@ -2335,13 +2355,13 @@
           "ar": 1
         }
       },
-      "sultana_daily_text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nDaily bottom line for 2026-10-10: Reporting dated 2026-10-10 gives the desk 2 incident accounts to examine in Mali. 1 has support from separate sources. The record is provisional; it does not establish the full extent of violence that day.\n\nMali: 9 retained reports. 1. Fuel supply: 5,396 tankers arrived in Bamako since September. Fuel supply: 5,396 tanker trucks arrived in Bamako since September A new convoy of 957 tanker trucks arrived in Bamako this Saturday, October 10, 2026, under the escort of the Malian Armed Forces (FAMa), according to the Directorate General of Trade, Consumption and Competition (DGCC). In September, the capital recorded the arrival of 3,796 tanker trucks divided into five convoys . 2. Tenenkou: 14 tons of food will be distributed to 231 vulnerable households. Tenenkou, 10 October (AMAP) A total of 14 tonnes of millet will be distributed to 231 vulnerable households, or 1,389 beneficiaries in the urban commune of Tenenkou, as part of the national food insecurity response plan. The launch ceremony of this operation was held Saturday in front of the town hall, under the chairmanship of the 2nd deputy to the prefect, the Chief Commissioner of Police Ousmane Diamouténé, noted AMAP . 3. Mali.. Army targets two vehicles in Kidal and Timbuktu base. The Malian Army announced the targeting of two vehicles that it said were transporting \"armed elements\" southwest of Kidal city, in addition to carrying out an airstrike that targeted a base that includes armed elements and military and logistical equipment in the Ndaki area in Timbuktu state. He said in a statement issued on Friday evening that the two vehicles were spotted 45 and 46 kilometers southwest of Kidal during the ongoing military operations in the eastern region.\n\nBurkina Faso: 1 retained report. 1. Burkina: suspension of flour exports. Burkina Faso has suspended until further notice the export of millet, maize and sorghum flour, as well as their derivatives, to ensure their availability on the national market, according to an official statement consulted on Saturday . A measure to freeze exports of millet, maize and sorghum flour was announced by the Burkinabe authorities in a press release dated 9 October and signed by the Minister of Industry, Trade and Handicrafts, Serge Gnaniodem Poda.\n\nNiger: 3 retained reports. 1. Niger: Niger Intelligence Agents Expelled From France in Sign of Diplomatic Strain. Two Nigerien intelligence officers were forced to leave France last month, French daily Le Monde has revealed, with one agent suspected of monitoring opposition figures on French soil. It is the latest sign of the deterioration in relations between the two countries since Niger's 2023 military coup. France expelled two Nigerien intelligence officers posted at Niger's embassy in Paris last month, a diplomatic source told French news agency AFP. 2. Traditional chieftaincy: Mr. Bachir Sadou Kalilou elected 16th chief of canton of Sakoira. Tillabéri, 10 Oct (ANP) – Mr. Bachir Sadou Kalilou, was elected this Saturday, October 10, 2026, unanimously by his peers, 16th head of canton of Sakoira, a rural commune attached to the department of Tillabéri . 3. \"Epic of Niger\", a project by cultural entrepreneur Ibrahima Abdoul-Rachid: \"It is enough for a people to turn to their memory for the future to change\". Through the ecological company A.S.I.D., founded in 2020 and continuously active, Mr. Soumaila Ibrahima Abdoul-Rachid, cultural entrepreneur, proposes innovative and multisectoral initiatives combining ecology, digital and culture . This includes waste recovery such as the transformation of used tyres into urban and school furniture, edutainment projects, as well as the production of major cultural and transmedia works that strengthen the memory and intellectual sovereignty of the Nigerien public.\n\nActor picture: JNIM 0, IS Sahel 0, State 2.\n\nWhat changed: State: +1 same-day fused event(s) versus 2026-10-09 (1 → 2). Collection volume: -13 retained report(s) versus 2026-10-09 (26 → 13).\n\nIntelligence gaps: 1 same-day event(s) lack independent multi-source corroboration. 2 newly collected operational/candidate report(s) have unresolved or publication-proxy event dates. Collection confidence is moderate, so absence of reporting should not be interpreted as absence of activity.\n\nCollection confidence: MODERATE. 156/184 source paths reached 28 failed source paths\n\nAll retained source reports, including reports not promoted to the map, remain individually summarized in the intelligence feed and source records."
+      "sultana_daily_text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nDaily bottom line for 2026-10-10: Reporting dated 2026-10-10 gives the desk 2 incident accounts to examine in Mali. 1 has support from separate sources. The record is provisional; it does not establish the full extent of violence that day.\n\nMali: 9 retained reports. 1. Fuel supply: 5,396 tankers arrived in Bamako since September. Fuel supply: 5,396 tanker trucks arrived in Bamako since September A new convoy of 957 tanker trucks arrived in Bamako this Saturday, October 10, 2026, under the escort of the Malian Armed Forces (FAMa), according to the Directorate General of Trade, Consumption and Competition (DGCC). In September, the capital recorded the arrival of 3,796 tanker trucks divided into five convoys . 2. Tenenkou: 14 tons of food will be distributed to 231 vulnerable households. Tenenkou, 10 October (AMAP) A total of 14 tonnes of millet will be distributed to 231 vulnerable households, or 1,389 beneficiaries in the urban commune of Tenenkou, as part of the national food insecurity response plan. The launch ceremony of this operation was held Saturday in front of the town hall, under the chairmanship of the 2nd deputy to the prefect, the Chief Commissioner of Police Ousmane Diamouténé, noted AMAP . 3. Mali.. Army targets two vehicles in Kidal and Timbuktu base. The Malian Army announced the targeting of two vehicles that it said were transporting \"armed elements\" southwest of Kidal city, in addition to carrying out an airstrike that targeted a base that includes armed elements and military and logistical equipment in the Ndaki area in Timbuktu state. He said in a statement issued on Friday evening that the two vehicles were spotted 45 and 46 kilometers southwest of Kidal during the ongoing military operations in the eastern region.\n\nBurkina Faso: 1 retained report. 1. Burkina: suspension of flour exports. Burkina Faso has suspended until further notice the export of millet, maize and sorghum flour, as well as their derivatives, to ensure their availability on the national market, according to an official statement consulted on Saturday . A measure to freeze exports of millet, maize and sorghum flour was announced by the Burkinabe authorities in a press release dated 9 October and signed by the Minister of Industry, Trade and Handicrafts, Serge Gnaniodem Poda.\n\nNiger: 3 retained reports. 1. Niger: Niger Intelligence Agents Expelled From France in Sign of Diplomatic Strain. Two Nigerien intelligence officers were forced to leave France last month, French daily Le Monde has revealed, with one agent suspected of monitoring opposition figures on French soil. It is the latest sign of the deterioration in relations between the two countries since Niger's 2023 military coup. France expelled two Nigerien intelligence officers posted at Niger's embassy in Paris last month, a diplomatic source told French news agency AFP. 2. Traditional chieftaincy: Mr. Bachir Sadou Kalilou elected 16th chief of canton of Sakoira. Tillabéri, 10 Oct (ANP) – Mr. Bachir Sadou Kalilou, was elected this Saturday, October 10, 2026, unanimously by his peers, 16th head of canton of Sakoira, a rural commune attached to the department of Tillabéri . 3. \"Epic of Niger\", a project by cultural entrepreneur Ibrahima Abdoul-Rachid: \"It is enough for a people to turn to their memory for the future to change\". Through the ecological company A.S.I.D., founded in 2020 and continuously active, Mr. Soumaila Ibrahima Abdoul-Rachid, cultural entrepreneur, proposes innovative and multisectoral initiatives combining ecology, digital and culture . This includes waste recovery such as the transformation of used tyres into urban and school furniture, edutainment projects, as well as the production of major cultural and transmedia works that strengthen the memory and intellectual sovereignty of the Nigerien public.\n\nActor picture: JNIM 0, IS Sahel 0, State 2.\n\nWhat changed: State: +1 same-day fused event(s) versus 2026-10-09 (1 → 2). Collection volume: -13 retained report(s) versus 2026-10-09 (26 → 13).\n\nIntelligence gaps: 1 same-day event(s) lack independent multi-source corroboration. 2 newly collected operational/candidate report(s) have unresolved or publication-proxy event dates. Collection confidence is low, so absence of reporting should not be interpreted as absence of activity.\n\nCollection confidence: LOW. no completed collection run recorded for this date\n\nAll retained source reports, including reports not promoted to the map, remain individually summarized in the intelligence feed and source records."
     },
     {
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-09",
-      "generated_at": "2026-10-15T16:57:48.282665Z",
+      "generated_at": "2026-10-15T20:54:02.752262Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -2773,7 +2793,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-08",
-      "generated_at": "2026-10-15T16:57:47.902689Z",
+      "generated_at": "2026-10-15T20:54:02.621388Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -3312,7 +3332,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-07",
-      "generated_at": "2026-10-15T16:57:48.027497Z",
+      "generated_at": "2026-10-15T20:54:03.009596Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -3851,7 +3871,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-06",
-      "generated_at": "2026-10-15T16:57:48.031998Z",
+      "generated_at": "2026-10-15T20:54:03.039789Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -4759,7 +4779,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-05",
-      "generated_at": "2026-10-15T16:57:48.316585Z",
+      "generated_at": "2026-10-15T20:54:03.108995Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -5417,7 +5437,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-04",
-      "generated_at": "2026-10-15T16:57:48.537486Z",
+      "generated_at": "2026-10-15T20:54:02.912423Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -6026,7 +6046,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-03",
-      "generated_at": "2026-10-15T16:57:48.500201Z",
+      "generated_at": "2026-10-15T20:54:02.897373Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -6513,7 +6533,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-02",
-      "generated_at": "2026-10-15T16:57:48.497004Z",
+      "generated_at": "2026-10-15T20:54:02.811017Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -6753,7 +6773,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-01",
-      "generated_at": "2026-10-15T16:57:47.939386Z",
+      "generated_at": "2026-10-15T20:54:02.773869Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -7301,7 +7321,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-30",
-      "generated_at": "2026-10-15T16:57:47.928972Z",
+      "generated_at": "2026-10-15T20:54:02.657158Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -8445,7 +8465,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-29",
-      "generated_at": "2026-10-15T16:57:48.333785Z",
+      "generated_at": "2026-10-15T20:54:03.180677Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -8770,7 +8790,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-28",
-      "generated_at": "2026-10-15T16:57:48.242735Z",
+      "generated_at": "2026-10-15T20:54:03.218288Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -9249,7 +9269,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-27",
-      "generated_at": "2026-10-15T16:57:48.491870Z",
+      "generated_at": "2026-10-15T20:54:02.877475Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -9602,7 +9622,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-26",
-      "generated_at": "2026-10-15T16:57:48.459796Z",
+      "generated_at": "2026-10-15T20:54:02.747233Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -9850,7 +9870,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-25",
-      "generated_at": "2026-10-15T16:57:48.351047Z",
+      "generated_at": "2026-10-15T20:54:03.271430Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -10202,7 +10222,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-24",
-      "generated_at": "2026-10-15T16:57:47.964678Z",
+      "generated_at": "2026-10-15T20:54:02.725151Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -10564,7 +10584,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-23",
-      "generated_at": "2026-10-15T16:57:48.510341Z",
+      "generated_at": "2026-10-15T20:54:02.712997Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -10875,7 +10895,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-22",
-      "generated_at": "2026-10-15T16:57:48.062052Z",
+      "generated_at": "2026-10-15T20:54:03.126791Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -11833,7 +11853,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-21",
-      "generated_at": "2026-10-15T16:57:48.439412Z",
+      "generated_at": "2026-10-15T20:54:03.289771Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -12351,7 +12371,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-20",
-      "generated_at": "2026-10-15T16:57:48.520390Z",
+      "generated_at": "2026-10-15T20:54:03.056398Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -12995,7 +13015,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-19",
-      "generated_at": "2026-10-15T16:57:48.489184Z",
+      "generated_at": "2026-10-15T20:54:02.927467Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -13650,7 +13670,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-18",
-      "generated_at": "2026-10-15T16:57:48.398633Z",
+      "generated_at": "2026-10-15T20:54:03.136686Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -13813,7 +13833,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-17",
-      "generated_at": "2026-10-15T16:57:48.176223Z",
+      "generated_at": "2026-10-15T20:54:02.816103Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -14076,7 +14096,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-16",
-      "generated_at": "2026-10-15T16:57:47.796290Z",
+      "generated_at": "2026-10-15T20:54:02.989457Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -14238,7 +14258,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-15",
-      "generated_at": "2026-10-15T16:57:48.052949Z",
+      "generated_at": "2026-10-15T20:54:03.267021Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -14400,7 +14420,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-14",
-      "generated_at": "2026-10-15T16:57:47.801322Z",
+      "generated_at": "2026-10-15T20:54:03.058882Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -14566,7 +14586,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-13",
-      "generated_at": "2026-10-15T16:57:48.431516Z",
+      "generated_at": "2026-10-15T20:54:02.769375Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
