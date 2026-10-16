@@ -1,42 +1,42 @@
 {
-  "generated_at": "2026-10-16T16:56:02.344437Z",
+  "generated_at": "2026-10-16T20:55:05.437880Z",
   "window_days": 30,
   "cutoff": "2026-09-16",
-  "reports": 474,
-  "incident_reports": 111,
-  "candidate_events": 81,
+  "reports": 478,
+  "incident_reports": 112,
+  "candidate_events": 82,
   "corroborated_events": 20,
   "mapped_events": 70,
   "mapped_locations": 137,
   "distinct_sources": 81,
   "by_actor": {
     "State": 53,
-    "JNIM": 11,
+    "JNIM": 12,
     "Other": 10,
     "Africa Corps/Wagner": 7
   },
   "by_country": {
-    "Mali": 73,
+    "Mali": 74,
     "Niger": 5,
     "Burkina Faso": 3
   },
   "by_event_type": {
     "security operation": 35,
     "offensive/campaign": 17,
-    "clash": 13,
+    "clash": 14,
     "attack": 9,
     "ambush": 3,
     "kidnapping": 3,
     "raid": 1
   },
   "by_language": {
-    "fr": 362,
+    "fr": 366,
     "en": 86,
     "ar": 26
   },
   "by_confidence": {
     "moderate": 39,
-    "low": 36,
+    "low": 37,
     "moderate-high": 5,
     "high": 1
   },
@@ -87,14 +87,14 @@
       "count": 13
     },
     {
-      "source_code": "SRC-0092",
-      "source": "La Nouvelle Tribune (Bénin)",
+      "source_code": "SRC-0014",
+      "source": "Agence Nigérienne de Presse",
       "count": 13
     },
     {
-      "source_code": "SRC-0014",
-      "source": "Agence Nigérienne de Presse",
-      "count": 12
+      "source_code": "SRC-0092",
+      "source": "La Nouvelle Tribune (Bénin)",
+      "count": 13
     },
     {
       "source_code": "SRC-0085",
@@ -120,11 +120,11 @@
       "count": 11
     },
     {
-      "location": "Anéfis",
-      "count": 9
+      "location": "Mali",
+      "count": 10
     },
     {
-      "location": "Mali",
+      "location": "Anéfis",
       "count": 9
     },
     {
@@ -266,7 +266,7 @@
     {
       "date": "2026-10-09",
       "reports": 24,
-      "events": 4
+      "events": 5
     },
     {
       "date": "2026-10-10",
@@ -300,7 +300,7 @@
     },
     {
       "date": "2026-10-16",
-      "reports": 7,
+      "reports": 11,
       "events": 0
     }
   ],
@@ -1903,6 +1903,98 @@
       "confidence": "moderate",
       "independent_source_domains": [
         "bamada.net"
+      ],
+      "independent_source_count": 1,
+      "significance": "ROUTINE",
+      "significance_reasons": [
+        "limited currently observed significance"
+      ]
+    },
+    {
+      "id": "5bdc937802177bbcbb577c8477ad7842268229ca",
+      "event_date": "2026-10-09",
+      "event_date_confidence": "explicit-text",
+      "event_date_source": "explicit-date-no-year",
+      "published_at": "2026-10-16T16:48:22Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-16T20:54:01.165456Z",
+      "actor": "JNIM",
+      "perpetrator": null,
+      "target": null,
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [
+        "JNIM"
+      ],
+      "parent_report_id": null,
+      "event_type": "clash",
+      "country": "Mali",
+      "city": null,
+      "lat": null,
+      "lng": null,
+      "locations": [],
+      "title": "Image Africa Mali, Burkina Faso, Niger: deadly clashes between rival factions in the Sahel of Al-Qaeda and the Islamic State",
+      "summary": "Clashes of unprecedented magnitude have been taking place for several weeks between the Sahelian branches of the jihadists of the Islamic State (IS) and Al-Qaeda (JNIM) in the border area straddling Mali, Burkina Faso and Niger.",
+      "sources": [
+        "TV5MONDE Afrique"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://information.tv5monde.com/afrique/mali-burkina-faso-niger-des-affrontements-meurtriers-entre-les-factions-rivales-au-sahel-dal-qaida-et-de-letat-islamique-2841913"
+      ],
+      "report_summaries": [
+        {
+          "url": "https://information.tv5monde.com/afrique/mali-burkina-faso-niger-des-affrontements-meurtriers-entre-les-factions-rivales-au-sahel-dal-qaida-et-de-letat-islamique-2841913",
+          "source": "TV5MONDE Afrique",
+          "title": "Image Africa Mali, Burkina Faso, Niger: deadly clashes between rival factions in the Sahel of Al-Qaeda and the Islamic State",
+          "summary": "Clashes of unprecedented magnitude have been taking place for several weeks between the Sahelian branches of the jihadists of the Islamic State (IS) and Al-Qaeda (JNIM) in the border area straddling Mali, Burkina Faso and Niger.",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "armed_group",
+            "journalist"
+          ],
+          "civilian_targeting_flag": false,
+          "casualty_claims": []
+        }
+      ],
+      "created_at": "2026-10-16T20:54:01.165456Z",
+      "updated_at": "2026-10-16T20:54:01.165456Z",
+      "extraction_confidence": "low",
+      "victim_categories": [
+        "armed_group",
+        "journalist"
+      ],
+      "civilian_targeting_flag": false,
+      "casualty_claims": [],
+      "fatalities_min": null,
+      "fatalities_max": null,
+      "fatalities_best": null,
+      "injured_min": null,
+      "injured_max": null,
+      "abducted_min": null,
+      "abducted_max": null,
+      "casualty_disputed": false,
+      "revision_history": [
+        {
+          "at": "2026-10-16T20:54:01.165456Z",
+          "type": "event_created",
+          "source": "TV5MONDE Afrique"
+        }
+      ],
+      "corroboration": "single-source",
+      "confidence": "low",
+      "independent_source_domains": [
+        "information.tv5monde.com"
       ],
       "independent_source_count": 1,
       "significance": "ROUTINE",
@@ -3615,249 +3707,63 @@
         "strategic/severe event pattern",
         "multi-location activity"
       ]
-    },
-    {
-      "id": "4d02af9c9bfceb0d002b1286a0d34b4a97bf4571",
-      "event_date": "2026-10-06",
-      "event_date_confidence": "publication-proxy",
-      "event_date_source": "jsonld:datePublished",
-      "published_at": "2026-10-06T11:39:08Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-06T12:44:06.015261Z",
-      "actor": "State",
-      "perpetrator": "State",
-      "target": null,
-      "claimant": null,
-      "supporting_force": null,
-      "mentioned_actors": [
-        "State",
-        "Africa Corps/Wagner",
-        "JNIM"
-      ],
-      "parent_report_id": null,
-      "event_type": "offensive/campaign",
-      "country": "Mali",
-      "city": "Kidal",
-      "lat": 18.4411,
-      "lng": 1.4078,
-      "locations": [
-        {
-          "name": "Kidal",
-          "country": "Mali",
-          "lat": 18.4411,
-          "lng": 1.4078,
-          "confidence": "explicit-place"
-        },
-        {
-          "name": "Anéfis",
-          "country": "Mali",
-          "lat": 18.0667,
-          "lng": 0.6167,
-          "confidence": "explicit-place"
-        },
-        {
-          "name": "Timbuktu",
-          "country": "Mali",
-          "lat": 16.7666,
-          "lng": -3.0026,
-          "confidence": "explicit-place"
-        },
-        {
-          "name": "Tessalit",
-          "country": "Mali",
-          "lat": 20.2,
-          "lng": 1.0,
-          "confidence": "explicit-place"
-        }
-      ],
-      "title": "Kidal: Massive air-land offensive by the FAMa and their Russian allies against terrorist strongholds",
-      "summary": "The Malian Armed Forces (FAMa) and their allies have taken a position in the city of Kidal, as part of an air-land operation launched several days ago in the region According to the information provided, these operations are aimed in particular at the armed groups present in the region, their supply networks and their positions, with the stated objective of strengthening security and facilitating the free movement of people and goods In a statement released on Tuesday, the Azawad Liberation Front (Fla) announced the withdrawal of its elements from Kidal and reported the presence of Malian forces in the city.",
-      "sources": [
-        "Malijet",
-        "Jeune Afrique",
-        "Bamada"
-      ],
-      "languages": [
-        "fr"
-      ],
-      "source_count": 3,
-      "report_urls": [
-        "https://malijet.com/a_la_une_du_mali/312192-kidal-offensive-aeroterrestre-massive-des-fama-et-de-leurs.html",
-        "https://malijet.com/a_la_une_du_mali/312194-kidal-le-fla-quitte-la-ville-sur-fond-doffensive-des-fama.html",
-        "https://www.jeuneafrique.com/1849497/politique/mali-larmee-a-repris-kidal-le-fla-a-quitte-la-ville/",
-        "https://malijet.com/a_la_une_du_mali/312197-kidal-tombouctou-sofara-offensive-massive-des-fama-contr.html",
-        "https://bamada.net/operation-dougoukoloko-les-fama-et-leurs-partenaires-russes-intensifient-loffensive-dans-les-theatres-est-et-centre",
-        "https://malijet.com/actualte_dans_les_regions_du_mali/312219-theatre-est-offensive-chirurgicale-des-fama-vehicules-det.html"
-      ],
-      "report_summaries": [
-        {
-          "url": "https://malijet.com/a_la_une_du_mali/312192-kidal-offensive-aeroterrestre-massive-des-fama-et-de-leurs.html",
-          "source": "Malijet",
-          "title": "Kidal: Massive air-land offensive by the FAMa and their Russian allies against terrorist strongholds",
-          "summary": "Kidal: Massive air-terrestrial offensive by the FAMa and their Russian allies against terrorist strongholds The Malian armed forces and their Russian allies have begun major air-terrestrial maneuvers in Kidal, as part of the readjustment of Operation DOUGOUKOLOKO, according to the General Staff of the Armed Forces . These operations are aimed at tracking down and neutralizing armed terrorist groups operating throughout the region, destroying their sanctuaries and supply networks, as well as sustainably restoring the security of the populations and the free movement of people and goods .",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "security_force",
-            "armed_group"
-          ],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        },
-        {
-          "url": "https://malijet.com/a_la_une_du_mali/312194-kidal-le-fla-quitte-la-ville-sur-fond-doffensive-des-fama.html",
-          "source": "Malijet",
-          "title": "Kidal: the Fla leaves the city against the backdrop of the FAMa offensive",
-          "summary": "The Malian Armed Forces (FAMa) and their allies have taken a position in the city of Kidal, as part of an air-land operation launched several days ago in the region According to the information provided, these operations are aimed in particular at the armed groups present in the region, their supply networks and their positions, with the stated objective of strengthening security and facilitating the free movement of people and goods In a statement released on Tuesday, the Azawad Liberation Front (Fla) announced the withdrawal of its elements from Kidal and reported the presence of Malian forces in the city.",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        },
-        {
-          "url": "https://www.jeuneafrique.com/1849497/politique/mali-larmee-a-repris-kidal-le-fla-a-quitte-la-ville/",
-          "source": "Jeune Afrique",
-          "title": "Recapture of Kidal by the Malian army: how Assimi Goïta prepared the offensive",
-          "summary": "The Malian Armed Forces and their Russian allies from Africa Corps regained control of Kidal on Tuesday, October 6, just over five months after the fall of this strategic northern city to the Fla and Jnim. Published today at 15:49, modified at 17:40 Reading: 3 minutes . File generated on The Malian army, supported by the Russian military of Africa Corps, took over this Tuesday, October 6, the city of Kidal in northern Mali.",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        },
-        {
-          "url": "https://malijet.com/a_la_une_du_mali/312197-kidal-tombouctou-sofara-offensive-massive-des-fama-contr.html",
-          "source": "Malijet",
-          "title": "Kidal, Timbuktu, Sofara: Massive FAMa offensive against terrorist strongholds in the North and Centre",
-          "summary": "By a new communiqué, the General Staff of the Armed Forces confirmed the continuation of the major offensive started on 6 October 2026 in the Eastern zone, as a continuation of Operation DOUGOUKOLOKO The Malian Armed Forces (FAMa), supported by their Russian partners, carried out simultaneous strikes on several sectors of the country. This operation aims in particular to strengthen the security of the populations living in this part of the national territory, to guarantee the free movement of people and goods, to secure the borders and to stop the criminal economy developed by armed terrorist groups (GAT).",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "armed_group"
-          ],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        },
-        {
-          "url": "https://bamada.net/operation-dougoukoloko-les-fama-et-leurs-partenaires-russes-intensifient-loffensive-dans-les-theatres-est-et-centre",
-          "source": "Bamada",
-          "title": "Operation DOUGOUKOLOKO: The FAMa and their Russian partners intensify the offensive in the Eastern and Central theaters",
-          "summary": "In line with its previous communiqué, the General Staff of the Armed Forces informs the national opinion that the Malian Armed Forces (FAMa), supported by their Russian partners, are continuing the large-scale offensive launched on Tuesday, October 6, 2026 in the Eastern Theater, as part of Operation DOUGOUKOLOKO . This operation aims in particular to strengthen the security of the populations living in this part of the national territory, to guarantee the free movement of people and goods, to secure the borders and to stop the criminal economy developed by the armed terrorist groups (GAT) .",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "armed_group"
-          ],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        },
-        {
-          "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312219-theatre-est-offensive-chirurgicale-des-fama-vehicules-det.html",
-          "source": "Malijet",
-          "title": "Eastern Theatre: Surgical FAMa offensive, destroyed vehicles and destroyed terrorist retreats",
-          "summary": "Eastern Theatre: Surgical offensive of the FAMa, destroyed vehicles and destroyed terrorist retreats Operation Dougoukoloko continues on the Eastern Front, according to an official statement from the General Staff of the Armed Forces. The Malian Armed Forces (FAMa), supported by their partners, conducted new air-land operations on Wednesday, October 7, 2026 .",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "armed_group"
-          ],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        }
-      ],
-      "created_at": "2026-10-06T12:44:06.015261Z",
-      "updated_at": "2026-10-08T00:49:12.465299Z",
-      "extraction_confidence": "moderate",
-      "victim_categories": [
-        "security_force",
-        "armed_group"
-      ],
-      "civilian_targeting_flag": false,
-      "casualty_claims": [],
-      "fatalities_min": null,
-      "fatalities_max": null,
-      "fatalities_best": null,
-      "injured_min": null,
-      "injured_max": null,
-      "abducted_min": null,
-      "abducted_max": null,
-      "casualty_disputed": false,
-      "revision_history": [
-        {
-          "at": "2026-10-06T12:44:06.015261Z",
-          "type": "event_created",
-          "source": "Malijet"
-        },
-        {
-          "at": "2026-10-06T16:41:37.002850Z",
-          "type": "corroboration_or_geography_update",
-          "source": "Jeune Afrique"
-        },
-        {
-          "at": "2026-10-07T00:49:28.388540Z",
-          "type": "corroboration_or_geography_update",
-          "source": "Malijet"
-        },
-        {
-          "at": "2026-10-07T00:49:28.068771Z",
-          "type": "corroboration_or_geography_update",
-          "source": "Bamada"
-        },
-        {
-          "at": "2026-10-08T00:49:12.465299Z",
-          "type": "corroboration_or_geography_update",
-          "source": "Malijet"
-        }
-      ],
-      "corroboration": "multi-source",
-      "confidence": "moderate-high",
-      "independent_source_domains": [
-        "malijet.com",
-        "jeuneafrique.com",
-        "bamada.net"
-      ],
-      "independent_source_count": 3,
-      "significance": "MAJOR",
-      "significance_reasons": [
-        "strategic/severe event pattern",
-        "multi-source corroboration",
-        "multi-location activity"
-      ]
     }
   ],
   "latest_reports": [
+    {
+      "published_at": "2026-10-16T19:31:43Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-16T20:54:00.290479Z",
+      "discovered_at": "2026-10-16T20:54:00.290479Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0034",
+      "source": "TV5MONDE Afrique",
+      "language": "fr",
+      "actor": null,
+      "country": "Mali",
+      "city": "Diré",
+      "event_type": "territorial seizure/blockade",
+      "candidate_event": false,
+      "title": "\"Bismillah is darkness\", the cult slogan of student demonstrations in France",
+      "url": "https://information.tv5monde.com/international/video/bismillah-cest-les-tenebres-le-slogan-culte-des-manifestations-etudiantes-en-france-2841915"
+    },
+    {
+      "published_at": "2026-10-16T17:33:23Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-16T20:54:02.116249Z",
+      "discovered_at": "2026-10-16T20:54:02.116249Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0014",
+      "source": "Agence Nigérienne de Presse",
+      "language": "fr",
+      "actor": null,
+      "country": "Niger",
+      "city": "Maradi",
+      "event_type": "clash",
+      "candidate_event": false,
+      "title": "Maradi: Governor Takes Part in Friday Prayer Marking Closing of M62 National Prayer Tour",
+      "url": "https://anp.ne/maradi-le-gouverneur-prend-part-a-la-priere-du-vendredi-marquant-la-cloture-de-la-tournee-nationale-de-prieres-du-m62/"
+    },
+    {
+      "published_at": "2026-10-16T16:48:22Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-16T20:54:01.165456Z",
+      "discovered_at": "2026-10-16T20:54:01.165456Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0034",
+      "source": "TV5MONDE Afrique",
+      "language": "fr",
+      "actor": "JNIM",
+      "country": "Mali",
+      "city": null,
+      "event_type": "clash",
+      "candidate_event": true,
+      "title": "Image Africa Mali, Burkina Faso, Niger: deadly clashes between rival factions in the Sahel of Al-Qaeda and the Islamic State",
+      "url": "https://information.tv5monde.com/afrique/mali-burkina-faso-niger-des-affrontements-meurtriers-entre-les-factions-rivales-au-sahel-dal-qaida-et-de-letat-islamique-2841913"
+    },
     {
       "published_at": "2026-10-16T14:46:44Z",
       "published_date_source": "jsonld:datePublished",
@@ -3983,6 +3889,24 @@
       "candidate_event": true,
       "title": "Sahel: violent fighting between the jihadists of Jnim and those of the ISE at the Mali-Burkina border",
       "url": "https://www.rfi.fr/fr/afrique/20261016-sahel-violents-combats-entre-les-jihadistes-du-jnim-et-ceux-de-l-eis-%C3%A0-la-fronti%C3%A8re-mali-burkina"
+    },
+    {
+      "published_at": "2026-10-16T00:00:00Z",
+      "published_date_source": "title",
+      "published_time_precision": "date-only",
+      "collected_at": "2026-10-16T20:54:08.723821Z",
+      "discovered_at": "2026-10-16T20:54:08.723821Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0161",
+      "source": "Cridem (Carrefour de la République Democratique)",
+      "language": "fr",
+      "actor": "JNIM",
+      "country": null,
+      "city": null,
+      "event_type": "clash",
+      "candidate_event": false,
+      "title": "16/10/2026 15:10 - Sahel: ISIS and Al Qaeda face off in an unprecedented battle",
+      "url": "https://cridem.org/C_Info.php?article=797509"
     },
     {
       "published_at": "2026-10-15T23:24:08Z",
@@ -4505,78 +4429,6 @@
       "candidate_event": false,
       "title": "Niamey denounces the expulsion of two agents by Paris",
       "url": "https://bamada.net/niamey-denonce-lexpulsion-de-deux-agents-par-paris"
-    },
-    {
-      "published_at": "2026-10-14T19:26:06Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-14T20:52:58.546578Z",
-      "discovered_at": "2026-10-14T20:52:58.546578Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0008",
-      "source": "Bamada",
-      "language": "fr",
-      "actor": null,
-      "country": "Mali",
-      "city": "Ségou",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Dougabougou: A municipal councillor murdered in his home by armed men",
-      "url": "https://bamada.net/dougabougou-un-conseiller-communal-assassine-a-son-domicile-par-des-hommes-armes"
-    },
-    {
-      "published_at": "2026-10-14T19:24:14Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-14T20:52:58.772477Z",
-      "discovered_at": "2026-10-14T20:52:58.772477Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0008",
-      "source": "Bamada",
-      "language": "fr",
-      "actor": null,
-      "country": "Niger",
-      "city": null,
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Niger: Tebboune strengthens military contacts in the Sahel",
-      "url": "https://bamada.net/niger-tebboune-renforce-les-contacts-militaires-au-sahel"
-    },
-    {
-      "published_at": "2026-10-14T18:00:01.278000Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-14T20:53:00.431563Z",
-      "discovered_at": "2026-10-14T20:53:00.431563Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0035",
-      "source": "DW Afrique (FR)",
-      "language": "fr",
-      "actor": "JNIM",
-      "country": "Mali",
-      "city": "Bamako",
-      "event_type": "political/security policy",
-      "candidate_event": false,
-      "title": "Mali-Côte d 'Ivoire: relaunch of Security Cooperation",
-      "url": "https://www.dw.com/fr/cote-d-ivoire-securite-mali-jnim-sahel-terrorisme-cooperation-renseignement/a-79663342"
-    },
-    {
-      "published_at": "2026-10-14T16:42:39Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-14T16:55:43.037642Z",
-      "discovered_at": "2026-10-14T16:55:43.037642Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0178",
-      "source": "Studio Yafa",
-      "language": "fr",
-      "actor": "State",
-      "country": "Burkina Faso",
-      "city": "Ouagadougou",
-      "event_type": "clash",
-      "candidate_event": true,
-      "title": "Autism in Burkina Faso: parents' fight against prejudice",
-      "url": "https://www.studioyafa.bf/42295-autisme-au-burkina-faso-le-combat-des-parents-contre-les-prejuges"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
