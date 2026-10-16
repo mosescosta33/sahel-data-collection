@@ -49,15 +49,17 @@
     "summary": "Bamako, October 15, 2026 (AMAP) - The Malian Armed Forces (FAMa), supported by their partners, successfully carried out two strikes against positions housing terrorist elements, respectively 12 kilometers northwest of Dioura and near Tongolo-Coura, in the Ségou region, the General Staff of the Armed Forces said in a statement released Thursday. According to the press release, the exploitation of precise intelligence made it possible, on Wednesday, October 14, 2026, to locate a large base housing several terrorist elements as well as war and logistics equipment, 12 kilometers northwest of the city of Dioura.",
     "sources": [
       "Malijet",
-      "AMAP (Agence Malienne de Presse et de Publicité)"
+      "AMAP (Agence Malienne de Presse et de Publicité)",
+      "Bamada"
     ],
     "languages": [
       "fr"
     ],
-    "source_count": 2,
+    "source_count": 3,
     "report_urls": [
       "https://malijet.com/actualte_dans_les_regions_du_mali/312341-operation-dougoukoloko-les-fama-frappent-deux-positions-te.html",
-      "https://amap.ml/2026/10/15/operation-dougoukoloko-les-fama-frappent-deux-positions-des-terroristes-a-dioura-et-a-segou/"
+      "https://amap.ml/2026/10/15/operation-dougoukoloko-les-fama-frappent-deux-positions-des-terroristes-a-dioura-et-a-segou/",
+      "https://bamada.net/operation-dougoukoloko-les-fama-frappent-deux-positions-terroristes-pres-de-dioura-et-de-tongolo-coura"
     ],
     "report_summaries": [
       {
@@ -95,10 +97,28 @@
         ],
         "civilian_targeting_flag": false,
         "casualty_claims": []
+      },
+      {
+        "url": "https://bamada.net/operation-dougoukoloko-les-fama-frappent-deux-positions-terroristes-pres-de-dioura-et-de-tongolo-coura",
+        "source": "Bamada",
+        "title": "Operation Dougoukoloko: the FAMa strike two terrorist positions near Dioura and Tongolo Coura",
+        "summary": "Through the exploitation of precise intelligence, the Malian Armed Forces targeted two sites attributed to terrorist groups on 14 and 15 October 2026. These actions are part of the dynamics of surveillance, control and security operations in the national territory . Bamada.net-The Malian Armed Forces (FAMa) continue their operations in different theaters of intervention in order to strengthen the security of the national territory and reduce the nuisance capacities of armed terrorist groups .",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "armed_group"
+        ],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
       }
     ],
     "created_at": "2026-10-15T16:56:21.478721Z",
-    "updated_at": "2026-10-15T16:56:22.984253Z",
+    "updated_at": "2026-10-16T08:57:03.436870Z",
     "extraction_confidence": "moderate",
     "victim_categories": [
       "armed_group"
@@ -123,18 +143,25 @@
         "at": "2026-10-15T16:56:22.984253Z",
         "type": "corroboration_or_geography_update",
         "source": "AMAP (Agence Malienne de Presse et de Publicité)"
+      },
+      {
+        "at": "2026-10-16T08:57:03.436870Z",
+        "type": "corroboration_or_geography_update",
+        "source": "Bamada"
       }
     ],
-    "corroboration": "limited corroboration",
-    "confidence": "moderate",
+    "corroboration": "multi-source",
+    "confidence": "moderate-high",
     "independent_source_domains": [
       "malijet.com",
-      "amap.ml"
+      "amap.ml",
+      "bamada.net"
     ],
-    "independent_source_count": 2,
+    "independent_source_count": 3,
     "significance": "MAJOR",
     "significance_reasons": [
       "strategic/severe event pattern",
+      "multi-source corroboration",
       "multi-location activity"
     ]
   },
@@ -1603,16 +1630,18 @@
     "lng": null,
     "locations": [],
     "title": "Sahel: violent fighting between the jihadists of Jnim and those of the ISE at the Mali-Burkina border",
-    "summary": "Sahel: violent fighting between the jihadists of Jnim and those of ISIS at the Mali-Burkina border Major fighting has been taking place since August between the jihadists of Jnim, linked to al-Qaeda, and their rivals the Islamic State in the Sahel (ISIS). These fights are taking place on the border between Mali and Burkina Faso, also not far from the Nigerian border .",
+    "summary": "Since August, there has been significant fighting between the jihadists of Jnim, linked to al-Qaeda, and their rivals the Islamic State in the Sahel (ISIS). These fights are taking place on the border between Mali and Burkina Faso, also not far from the Nigerian border. The last clashes took place at the end of last week, mainly on Friday, October 9 in Gonadaouri, in the Burkinabe province of Oudalan .",
     "sources": [
-      "RFI Afrique"
+      "RFI Afrique",
+      "AllAfrica (Édition Française)"
     ],
     "languages": [
       "fr"
     ],
-    "source_count": 1,
+    "source_count": 2,
     "report_urls": [
-      "https://www.rfi.fr/fr/afrique/20261016-sahel-violents-combats-entre-les-jihadistes-du-jnim-et-ceux-de-l-eis-%C3%A0-la-fronti%C3%A8re-mali-burkina"
+      "https://www.rfi.fr/fr/afrique/20261016-sahel-violents-combats-entre-les-jihadistes-du-jnim-et-ceux-de-l-eis-%C3%A0-la-fronti%C3%A8re-mali-burkina",
+      "https://fr.allafrica.com/stories/202610160142.html"
     ],
     "report_summaries": [
       {
@@ -1632,10 +1661,28 @@
         ],
         "civilian_targeting_flag": false,
         "casualty_claims": []
+      },
+      {
+        "url": "https://fr.allafrica.com/stories/202610160142.html",
+        "source": "AllAfrica (Édition Française)",
+        "title": "West Africa: Sahel - Violent fighting between Jnim and ISIS jihadists on the Mali-Burkina border",
+        "summary": "Since August, there has been significant fighting between the jihadists of Jnim, linked to al-Qaeda, and their rivals the Islamic State in the Sahel (ISIS). These fights are taking place on the border between Mali and Burkina Faso, also not far from the Nigerian border. The last clashes took place at the end of last week, mainly on Friday, October 9 in Gonadaouri, in the Burkinabe province of Oudalan .",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "armed_group"
+        ],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
       }
     ],
     "created_at": "2026-10-16T04:56:05.271586Z",
-    "updated_at": "2026-10-16T04:56:05.271586Z",
+    "updated_at": "2026-10-16T08:57:04.058769Z",
     "extraction_confidence": "moderate",
     "victim_categories": [
       "armed_group"
@@ -1655,17 +1702,23 @@
         "at": "2026-10-16T04:56:05.271586Z",
         "type": "event_created",
         "source": "RFI Afrique"
+      },
+      {
+        "at": "2026-10-16T08:57:04.058769Z",
+        "type": "corroboration_or_geography_update",
+        "source": "AllAfrica (Édition Française)"
       }
     ],
-    "corroboration": "single-source",
+    "corroboration": "limited corroboration",
     "confidence": "moderate",
     "independent_source_domains": [
-      "rfi.fr"
+      "rfi.fr",
+      "fr.allafrica.com"
     ],
-    "independent_source_count": 1,
-    "significance": "ROUTINE",
+    "independent_source_count": 2,
+    "significance": "SIGNIFICANT",
     "significance_reasons": [
-      "limited currently observed significance"
+      "operational security event"
     ]
   },
   {
