@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-16T08:58:01.334371Z",
+  "generated_at": "2026-10-16T13:05:40.522567Z",
   "window_days": 30,
   "cutoff": "2026-09-16",
-  "reports": 474,
+  "reports": 475,
   "incident_reports": 111,
   "candidate_events": 81,
   "corroborated_events": 20,
@@ -31,7 +31,7 @@
   },
   "by_language": {
     "fr": 364,
-    "en": 85,
+    "en": 86,
     "ar": 25
   },
   "by_confidence": {
@@ -300,7 +300,7 @@
     },
     {
       "date": "2026-10-16",
-      "reports": 5,
+      "reports": 6,
       "events": 0
     }
   ],
@@ -3931,6 +3931,24 @@
       "url": "https://bamada.net/operation-dougoukoloko-les-fama-frappent-deux-positions-terroristes-pres-de-dioura-et-de-tongolo-coura"
     },
     {
+      "published_at": "2026-10-16T05:29:19Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-16T13:05:06.026744Z",
+      "discovered_at": "2026-10-16T13:05:06.026744Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0022",
+      "source": "Africanews",
+      "language": "en",
+      "actor": null,
+      "country": "Burkina Faso",
+      "city": "Ouagadougou",
+      "event_type": "clash",
+      "candidate_event": false,
+      "title": "Al-Qaeda and IS rivalry sparks fierce fighting across Sahel",
+      "url": "https://www.africanews.com/2026/10/16/rival-jnim-and-islamic-state-jihadists-clash-in-intensifying-sahel-turf-war/"
+    },
+    {
       "published_at": "2026-10-16T03:55:54Z",
       "published_date_source": "jsonld:datePublished",
       "published_time_precision": "datetime",
@@ -4559,24 +4577,6 @@
       "candidate_event": false,
       "title": "Mali: National Youth Service recruits presented to the flag",
       "url": "https://www.ouestaf.com/mali-les-recrues-du-service-national-des-jeunes-presentees-au-drapeau/"
-    },
-    {
-      "published_at": "2026-10-14T15:33:32Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-14T16:55:41.830481Z",
-      "discovered_at": "2026-10-14T16:55:41.830481Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0003",
-      "source": "Jeune Afrique",
-      "language": "fr",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Ségou",
-      "event_type": "security operation",
-      "candidate_event": true,
-      "title": "In Mali, the army recognizes a half-word blunder",
-      "url": "https://www.jeuneafrique.com/1852172/politique/au-mali-larmee-reconnait-une-bavure-a-demi-mot/"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
