@@ -1578,6 +1578,97 @@
     ]
   },
   {
+    "id": "9ce76bc51b70a1d9b43c802c6680da4325ab6442",
+    "event_date": "2026-10-09",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "explicit-date-no-year",
+    "published_at": "2026-10-16T03:55:54Z",
+    "published_date_source": "jsonld:datePublished",
+    "published_time_precision": "datetime",
+    "collected_at": "2026-10-16T04:56:05.271586Z",
+    "actor": "JNIM",
+    "perpetrator": null,
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [
+      "JNIM",
+      "IS Sahel"
+    ],
+    "parent_report_id": null,
+    "event_type": "clash",
+    "country": "Mali",
+    "city": null,
+    "lat": null,
+    "lng": null,
+    "locations": [],
+    "title": "Sahel: violent fighting between the jihadists of Jnim and those of the ISE at the Mali-Burkina border",
+    "summary": "Sahel: violent fighting between the jihadists of Jnim and those of ISIS at the Mali-Burkina border Major fighting has been taking place since August between the jihadists of Jnim, linked to al-Qaeda, and their rivals the Islamic State in the Sahel (ISIS). These fights are taking place on the border between Mali and Burkina Faso, also not far from the Nigerian border .",
+    "sources": [
+      "RFI Afrique"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://www.rfi.fr/fr/afrique/20261016-sahel-violents-combats-entre-les-jihadistes-du-jnim-et-ceux-de-l-eis-%C3%A0-la-fronti%C3%A8re-mali-burkina"
+    ],
+    "report_summaries": [
+      {
+        "url": "https://www.rfi.fr/fr/afrique/20261016-sahel-violents-combats-entre-les-jihadistes-du-jnim-et-ceux-de-l-eis-%C3%A0-la-fronti%C3%A8re-mali-burkina",
+        "source": "RFI Afrique",
+        "title": "Sahel: violent fighting between the jihadists of Jnim and those of the ISE at the Mali-Burkina border",
+        "summary": "Sahel: violent fighting between the jihadists of Jnim and those of ISIS at the Mali-Burkina border Major fighting has been taking place since August between the jihadists of Jnim, linked to al-Qaeda, and their rivals the Islamic State in the Sahel (ISIS). These fights are taking place on the border between Mali and Burkina Faso, also not far from the Nigerian border .",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "armed_group"
+        ],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      }
+    ],
+    "created_at": "2026-10-16T04:56:05.271586Z",
+    "updated_at": "2026-10-16T04:56:05.271586Z",
+    "extraction_confidence": "moderate",
+    "victim_categories": [
+      "armed_group"
+    ],
+    "civilian_targeting_flag": false,
+    "casualty_claims": [],
+    "fatalities_min": null,
+    "fatalities_max": null,
+    "fatalities_best": null,
+    "injured_min": null,
+    "injured_max": null,
+    "abducted_min": null,
+    "abducted_max": null,
+    "casualty_disputed": false,
+    "revision_history": [
+      {
+        "at": "2026-10-16T04:56:05.271586Z",
+        "type": "event_created",
+        "source": "RFI Afrique"
+      }
+    ],
+    "corroboration": "single-source",
+    "confidence": "moderate",
+    "independent_source_domains": [
+      "rfi.fr"
+    ],
+    "independent_source_count": 1,
+    "significance": "ROUTINE",
+    "significance_reasons": [
+      "limited currently observed significance"
+    ]
+  },
+  {
     "id": "52a943b693dbbc3865318db8000c4c4ed915c5ac",
     "event_date": "2026-10-09",
     "event_date_confidence": "explicit-text",
