@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-15T20:54:02.018820Z",
+  "generated_at": "2026-10-16T01:03:03.225545Z",
   "window_days": 30,
-  "cutoff": "2026-09-15",
-  "reports": 467,
+  "cutoff": "2026-09-16",
+  "reports": 469,
   "incident_reports": 108,
   "candidate_events": 80,
   "corroborated_events": 19,
@@ -30,7 +30,7 @@
     "raid": 1
   },
   "by_language": {
-    "fr": 357,
+    "fr": 359,
     "en": 85,
     "ar": 25
   },
@@ -44,12 +44,12 @@
     {
       "source_code": "SRC-0008",
       "source": "Bamada",
-      "count": 69
+      "count": 70
     },
     {
       "source_code": "SRC-0006",
       "source": "Malijet",
-      "count": 51
+      "count": 52
     },
     {
       "source_code": "SRC-0075",
@@ -153,11 +153,6 @@
     }
   ],
   "daily": [
-    {
-      "date": "2026-09-16",
-      "reports": 3,
-      "events": 0
-    },
     {
       "date": "2026-09-17",
       "reports": 5,
@@ -300,8 +295,13 @@
     },
     {
       "date": "2026-10-15",
-      "reports": 22,
+      "reports": 24,
       "events": 3
+    },
+    {
+      "date": "2026-10-16",
+      "reports": 0,
+      "events": 0
     }
   ],
   "latest_events": [
@@ -3818,6 +3818,24 @@
   ],
   "latest_reports": [
     {
+      "published_at": "2026-10-15T23:24:08Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-16T01:02:17.218739Z",
+      "discovered_at": "2026-10-16T01:02:17.218739Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0008",
+      "source": "Bamada",
+      "language": "fr",
+      "actor": null,
+      "country": "Mali",
+      "city": "Nioro du Sahel",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Nioro: a gesture of solidarity with the poorest",
+      "url": "https://bamada.net/nioro-un-geste-de-solidarite-envers-les-plus-demunis"
+    },
+    {
       "published_at": "2026-10-15T18:42:55Z",
       "published_date_source": "jsonld:datePublished",
       "published_time_precision": "datetime",
@@ -4032,6 +4050,24 @@
       "candidate_event": false,
       "title": "Cybersecurity: Côte d 'Ivoire prepares its first national cyber crisis simulation",
       "url": "https://burkina24.com/2026/10/15/cybersecurite-la-cote-divoire-prepare-sa-premiere-simulation-nationale-de-crise-cyber/"
+    },
+    {
+      "published_at": "2026-10-15T13:15:28Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-16T01:02:17.824591Z",
+      "discovered_at": "2026-10-16T01:02:17.824591Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0006",
+      "source": "Malijet",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Bamako",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Black October in Mali: when fear replaces solidarity",
+      "url": "https://malijet.com/editorial/312336-octobre-noir-au-mali-quand-la-peur-remplace-la-solidarite.html"
     },
     {
       "published_at": "2026-10-15T12:57:52Z",
@@ -4500,42 +4536,6 @@
       "candidate_event": false,
       "title": "Expulsion of Nigerien agents by Paris: Niamey denounces a \"serious and unacceptable act of ingratitude\"",
       "url": "https://www.actuniger.com/societe/22449-expulsion-dagents-nigeriens-par-paris-niamey-denonce-un-acte-dingratitude-grave-et-inacceptable"
-    },
-    {
-      "published_at": "2026-10-14T09:40:05Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-14T13:03:27.803270Z",
-      "discovered_at": "2026-10-14T13:03:27.803270Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0052",
-      "source": "Amnesty West and Central Africa",
-      "language": "en",
-      "actor": "Africa Corps/Wagner",
-      "country": "Mali",
-      "city": null,
-      "event_type": null,
-      "candidate_event": false,
-      "title": "In Mali, from the Wagner Group to Africa Corps: Will Impunity Continue?",
-      "url": "https://www.amnesty.org/en/latest/news/2026/10/mali-wagner-impunity/"
-    },
-    {
-      "published_at": "2026-10-14T09:25:43Z",
-      "published_date_source": "opengraph",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-14T13:03:31.490935Z",
-      "discovered_at": "2026-10-14T13:03:31.490935Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0090",
-      "source": "AllAfrica (Édition Française)",
-      "language": "fr",
-      "actor": "JNIM",
-      "country": "Mali",
-      "city": "Ségou",
-      "event_type": "clash",
-      "candidate_event": true,
-      "title": "Mali: At least eight women and children killed by army shelling in Ségou region",
-      "url": "https://fr.allafrica.com/stories/202610140178.html"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
