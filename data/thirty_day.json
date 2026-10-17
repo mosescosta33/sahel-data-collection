@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-17T08:53:18.149539Z",
+  "generated_at": "2026-10-17T12:57:19.157037Z",
   "window_days": 30,
   "cutoff": "2026-09-17",
-  "reports": 479,
+  "reports": 480,
   "incident_reports": 112,
   "candidate_events": 82,
   "corroborated_events": 20,
   "mapped_events": 70,
   "mapped_locations": 137,
-  "distinct_sources": 81,
+  "distinct_sources": 82,
   "by_actor": {
     "State": 53,
     "JNIM": 12,
@@ -30,9 +30,9 @@
     "raid": 1
   },
   "by_language": {
-    "fr": 367,
-    "en": 86,
-    "ar": 26
+    "fr": 368,
+    "en": 85,
+    "ar": 27
   },
   "by_confidence": {
     "moderate": 39,
@@ -64,7 +64,7 @@
     {
       "source_code": "SRC-0090",
       "source": "AllAfrica (Édition Française)",
-      "count": 17
+      "count": 18
     },
     {
       "source_code": "SRC-0121",
@@ -300,7 +300,7 @@
     },
     {
       "date": "2026-10-17",
-      "reports": 2,
+      "reports": 4,
       "events": 0
     }
   ],
@@ -3711,6 +3711,42 @@
   ],
   "latest_reports": [
     {
+      "published_at": "2026-10-17T11:42:10Z",
+      "published_date_source": "opengraph",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-17T12:56:27.078563Z",
+      "discovered_at": "2026-10-17T12:56:27.078563Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0090",
+      "source": "AllAfrica (Édition Française)",
+      "language": "fr",
+      "actor": null,
+      "country": "Mali",
+      "city": "Bamako",
+      "event_type": "political/security policy",
+      "candidate_event": false,
+      "title": "West Africa: Faced with terrorism, Bamako and Abidjan share a common struggle",
+      "url": "https://fr.allafrica.com/stories/202610170003.html"
+    },
+    {
+      "published_at": "2026-10-17T11:00:54Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-17T12:56:26.506603Z",
+      "discovered_at": "2026-10-17T12:56:26.506603Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0165",
+      "source": "Hespress (هسبريس)",
+      "language": "ar",
+      "actor": "JNIM",
+      "country": "Mali",
+      "city": null,
+      "event_type": "clash",
+      "candidate_event": false,
+      "title": "Bloody battles between al-Qaeda andISIS in the Sahel result in hundreds of deaths",
+      "url": "https://www.hespress.com/%d9%85%d8%b9%d8%a7%d8%b1%d9%83-%d8%af%d8%a7%d9%85%d9%8a%d8%a9-%d8%a8%d9%8a%d9%86-%d8%a7%d9%84%d9%82%d8%a7%d8%b9%d8%af%d8%a9-%d9%88%d8%af%d8%a7%d8%b9%d8%b4-%d9%81%d9%8a-%d8%a7%d9%84%d8%b3%d8%a7-1824356.html"
+    },
+    {
       "published_at": "2026-10-17T07:46:15Z",
       "published_date_source": "feed",
       "published_time_precision": "datetime",
@@ -4393,42 +4429,6 @@
       "candidate_event": false,
       "title": "Africa: In Mali, From the Wagner Group to Africa Corps - Will Impunity Continue?",
       "url": "https://allafrica.com/stories/202610150116.html"
-    },
-    {
-      "published_at": "2026-10-14T23:04:11Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-15T01:02:54.524543Z",
-      "discovered_at": "2026-10-15T01:02:54.524543Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0119",
-      "source": "Daily Trust (Nigeria)",
-      "language": "en",
-      "actor": null,
-      "country": "Mali",
-      "city": null,
-      "event_type": "law enforcement",
-      "candidate_event": false,
-      "title": "Kwara: NSCDC arrests man over minor’s trafficking to Mali",
-      "url": "https://dailytrust.com/kwara-nscdc-arrests-man-over-minors-trafficking-to-mali/"
-    },
-    {
-      "published_at": "2026-10-14T22:58:38Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-15T01:02:57.313198Z",
-      "discovered_at": "2026-10-15T01:02:57.313198Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0075",
-      "source": "AMAP (Agence Malienne de Presse et de Publicité)",
-      "language": "fr",
-      "actor": null,
-      "country": "Mali",
-      "city": "Bamako",
-      "event_type": "political/security policy",
-      "candidate_event": false,
-      "title": "Mali: Presentation of the 7th cohort of the National Youth Service, in front of the national flag",
-      "url": "https://amap.ml/2026/10/15/mali-presentation-de-la-7eme-cohorte-du-service-national-des-jeunes-devant-le-drapeau-national/"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."

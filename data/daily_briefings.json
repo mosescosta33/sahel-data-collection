@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "site_patch_version": "3.3.5",
-  "generated_at": "2026-10-17T08:53:20.570879Z",
+  "generated_at": "2026-10-17T12:57:20.943106Z",
   "active_limit": 33,
   "total_briefings": 270,
   "active_count": 33,
@@ -11,7 +11,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-17",
-      "generated_at": "2026-10-17T08:53:20.192044Z",
+      "generated_at": "2026-10-17T12:57:20.607430Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -23,21 +23,21 @@
         "events_occurring_on_date": 0,
         "records_held_for_review": 0,
         "multi_source_events": 0,
-        "reports_collected_on_date": 2,
-        "reports_published_on_date": 2,
+        "reports_collected_on_date": 6,
+        "reports_published_on_date": 4,
         "newly_discovered_older_events": 0,
         "events_awaiting_date_verification": 0,
-        "distinct_sources_collected": 2
+        "distinct_sources_collected": 4
       },
-      "executive_assessment": "Reporting collected on 2026-10-17 does not yet support a clear account of a new incident in Mali, Burkina Faso, or Niger. The desk received 2 reports from 2 sources, but the automated incident record needs further review. This is not evidence of calm on the ground.",
+      "executive_assessment": "Reporting collected on 2026-10-17 does not yet support a clear account of a new incident in Mali, Burkina Faso, or Niger. The desk received 6 reports from 4 sources, but the automated incident record needs further review. This is not evidence of calm on the ground.",
       "briefing_sections": [
         {
           "heading": "Assessment",
-          "text": "Reporting collected on 2026-10-17 does not yet support a clear account of a new incident in Mali, Burkina Faso, or Niger. The desk received 2 reports from 2 sources, but the automated incident record needs further review. This is not evidence of calm on the ground."
+          "text": "Reporting collected on 2026-10-17 does not yet support a clear account of a new incident in Mali, Burkina Faso, or Niger. The desk received 6 reports from 4 sources, but the automated incident record needs further review. This is not evidence of calm on the ground."
         },
         {
           "heading": "Mali",
-          "text": "1 retained report were collected for Mali. 0 fused candidate events currently carry this reporting date. Islamic State's military victory over its Al Qaeda rivals in Burkina Faso: If the communication war rages between the two jihadist franchises on the balance sheet of the large-scale fighting that has occurred in recent days in the north of Burkina Faso, they attest, in any case, to a level of…"
+          "text": "5 retained reports were collected for Mali. 0 fused candidate events currently carry this reporting date. Sadiola: Four suspects arrested by the police during Operation \"Kokadjè\": The fight against crime and delinquency continues in the Kayes region. As part of the \"Kokadjè\" operation, the Sadiola Police Station, headed by Chief Police Commissioner Ibrahima Abdina GUINDO, arrested four (04) individuals… Refuelling: Bamako welcomes a new record 734 tanker convoy: Fuel supply: the pace does not slow down! This Saturday, October 17, 2026, at around 6 a.m., a new convoy of 734 tanker trucks arrived in Bamako, escorted by our valiant Malian Armed Forces (FAMa). This is the third convoy to… West Africa: Faced with terrorism, Bamako and Abidjan share a common struggle: After Abidjan's outstretched hand to the ESA countries, the Ivorian intelligence chief is staying in Bamako to relaunch security cooperation. The Ivorian National Intelligence Coordinator, Vassiriki Traoré, is currently in… 2 additional Mali reports are summarized individually in the source records."
         },
         {
           "heading": "Burkina Faso",
@@ -57,7 +57,7 @@
       ],
       "significant_events": [],
       "what_changed_since_yesterday": [
-        "Collection volume: -11 retained report(s) versus 2026-10-16 (13 → 2).",
+        "Collection volume: -7 retained report(s) versus 2026-10-16 (13 → 6).",
         "Actor-level same-day fused event counts are unchanged from the previous date."
       ],
       "emerging_patterns": [
@@ -78,7 +78,7 @@
         "Niger": 0
       },
       "country_reporting_counts": {
-        "Mali": 1,
+        "Mali": 5,
         "Burkina Faso": 0,
         "Niger": 0
       },
@@ -111,7 +111,7 @@
       "country_profiles": {
         "Mali": {
           "events": 0,
-          "reports_collected": 1,
+          "reports_collected": 5,
           "actor_counts": {
             "JNIM": 0,
             "IS Sahel": 0,
@@ -146,6 +146,42 @@
       "country_article_summaries": {
         "Mali": [
           {
+            "id": "e12d58977a1bacca73d9e9e3e9b248f94bce5d09",
+            "source": "Bamada",
+            "title": "Sadiola: Four suspects arrested by the police during Operation \"Kokadjè\"",
+            "summary": "The fight against crime and delinquency continues in the Kayes region. As part of the \"Kokadjè\" operation, the Sadiola Police Station, headed by Chief Police Commissioner Ibrahima Abdina GUINDO, arrested four (04) individuals suspected of being involved in several alleged acts of theft to the detriment of gold miners and local populations . This operation, carried out on the night of 6 to 7 October 2026, is part of the dynamic driven by the Regional Director of the National Police of Kayes, the Chief Police Controller Tapa Oury DIOLLO.",
+            "url": "https://bamada.net/sadiola-quatre-suspects-interpelles-par-la-police-lors-de-loperation-kokadje",
+            "candidate_event": false,
+            "event_date": "2026-10-07"
+          },
+          {
+            "id": "7510a2f82a123bc6d7bb35b73528e0b65ed37c60",
+            "source": "Bamada",
+            "title": "Refuelling: Bamako welcomes a new record 734 tanker convoy",
+            "summary": "Fuel supply: the pace does not slow down! This Saturday, October 17, 2026, at around 6 a.m., a new convoy of 734 tanker trucks arrived in Bamako, escorted by our valiant Malian Armed Forces (FAMa). This is the third convoy to reach the capital since the beginning of October, after those of October 3 and 10.",
+            "url": "https://bamada.net/ravitaillement-en-carburant-bamako-accueille-un-nouveau-convoi-record-de-734-camions-citernes",
+            "candidate_event": false,
+            "event_date": "2026-10-17"
+          },
+          {
+            "id": "9200f300c0105c8e9748c1c9c5a40a05d9cb7ae4",
+            "source": "AllAfrica (Édition Française)",
+            "title": "West Africa: Faced with terrorism, Bamako and Abidjan share a common struggle",
+            "summary": "After Abidjan's outstretched hand to the ESA countries, the Ivorian intelligence chief is staying in Bamako to relaunch security cooperation. The Ivorian National Intelligence Coordinator, Vassiriki Traoré, is currently in Bamako at the invitation of his Malian counterpart, General Modibo Koné, Director of the National Agency for State Security (ANSE) . On the agenda of the discussions between the two men, the security issue and in particular the fight against terrorism.",
+            "url": "https://fr.allafrica.com/stories/202610170003.html",
+            "candidate_event": false,
+            "event_date": "2026-10-17"
+          },
+          {
+            "id": "f37d96f8ef238f89ccef470bbc2ecea569b242f4",
+            "source": "Hespress (هسبريس)",
+            "title": "Bloody battles between al-Qaeda andISIS in the Sahel result in hundreds of deaths",
+            "summary": "The joint border area between Mali, Burkina Faso and Niger is witnessing an unprecedented escalation in armed confrontations between ISIS in the Sahel and the group \"Victory of Islam and Muslims\" linked to Al-Qaeda, after the competition between the two parties for areas of influence and supply routes turned into bloody battles that left hundreds dead, amid indications of the spread of fighting to new areas in West Africa Last Monday, ISIS in the Sahel announced the killing of more than 400 fighters of the group \"Victory of Islam and Muslims\", including a number of its leaders, during battles that took place last…",
+            "url": "https://www.hespress.com/%d9%85%d8%b9%d8%a7%d8%b1%d9%83-%d8%af%d8%a7%d9%85%d9%8a%d8%a9-%d8%a8%d9%8a%d9%86-%d8%a7%d9%84%d9%82%d8%a7%d8%b9%d8%af%d8%a9-%d9%88%d8%af%d8%a7%d8%b9%d8%b4-%d9%81%d9%8a-%d8%a7%d9%84%d8%b3%d8%a7-1824356.html",
+            "candidate_event": false,
+            "event_date": "2026-10-12"
+          },
+          {
             "id": "121bad13faac3eeb7741bd2b69d72c0861d0e990",
             "source": "Mondafrique",
             "title": "Islamic State's military victory over its Al Qaeda rivals in Burkina Faso",
@@ -163,11 +199,11 @@
         "sources_success": 156,
         "sources_failed": 28,
         "sources_degraded": 20,
-        "documents_discovered": 11281,
-        "documents_retained": 2,
+        "documents_discovered": 11681,
+        "documents_retained": 4,
         "report_target": 100,
-        "translations_attempted": 2,
-        "translations_success": 2,
+        "translations_attempted": 4,
+        "translations_success": 4,
         "translation_failures": 0,
         "collection_confidence": "LOW",
         "collection_confidence_reasons": [
@@ -175,20 +211,21 @@
           "28 failed source paths",
           "20 degraded / 28 failed of 184 configured sources"
         ],
-        "reports_collected": 2,
-        "reports_published": 2,
-        "distinct_sources_collected": 2,
+        "reports_collected": 6,
+        "reports_published": 4,
+        "distinct_sources_collected": 4,
         "language_counts": {
-          "fr": 2
+          "fr": 5,
+          "ar": 1
         }
       },
-      "sultana_daily_text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nDaily bottom line for 2026-10-17: Reporting collected on 2026-10-17 does not yet support a clear account of a new incident in Mali, Burkina Faso, or Niger. The desk received 2 reports from 2 sources, but the automated incident record needs further review. This is not evidence of calm on the ground.\n\nMali: 1 retained report. 1. Islamic State's military victory over its Al Qaeda rivals in Burkina Faso. If the communication war rages between the two jihadist franchises on the balance sheet of the large-scale fighting that has occurred in recent days in the north of Burkina Faso, they attest, in any case, to a level of violence unprecedented between the two groups in the Sahel since the eruption of their rivalry in 2019 .\n\nBurkina Faso: 0 retained reports. No retained country-specific reports were collected for this desk date.\n\nNiger: 0 retained reports. No retained country-specific reports were collected for this desk date.\n\nActor picture: no same-day fused candidate events.\n\nWhat changed: Collection volume: -11 retained report(s) versus 2026-10-16 (13 → 2). Actor-level same-day fused event counts are unchanged from the previous date.\n\nIntelligence gaps: Collection confidence is low, so absence of reporting should not be interpreted as absence of activity.\n\nCollection confidence: LOW. 156/184 source paths reached 28 failed source paths 20 degraded / 28 failed of 184 configured sources\n\nAll retained source reports, including reports not promoted to the map, remain individually summarized in the intelligence feed and source records."
+      "sultana_daily_text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nDaily bottom line for 2026-10-17: Reporting collected on 2026-10-17 does not yet support a clear account of a new incident in Mali, Burkina Faso, or Niger. The desk received 6 reports from 4 sources, but the automated incident record needs further review. This is not evidence of calm on the ground.\n\nMali: 5 retained reports. 1. Sadiola: Four suspects arrested by the police during Operation \"Kokadjè\". The fight against crime and delinquency continues in the Kayes region. As part of the \"Kokadjè\" operation, the Sadiola Police Station, headed by Chief Police Commissioner Ibrahima Abdina GUINDO, arrested four (04) individuals suspected of being involved in several alleged acts of theft to the detriment of gold miners and local populations . This operation, carried out on the night of 6 to 7 October 2026, is part of the dynamic driven by the Regional Director of the National Police of Kayes, the Chief Police Controller Tapa Oury DIOLLO. 2. Refuelling: Bamako welcomes a new record 734 tanker convoy. Fuel supply: the pace does not slow down! This Saturday, October 17, 2026, at around 6 a.m., a new convoy of 734 tanker trucks arrived in Bamako, escorted by our valiant Malian Armed Forces (FAMa). This is the third convoy to reach the capital since the beginning of October, after those of October 3 and 10. 3. West Africa: Faced with terrorism, Bamako and Abidjan share a common struggle. After Abidjan's outstretched hand to the ESA countries, the Ivorian intelligence chief is staying in Bamako to relaunch security cooperation. The Ivorian National Intelligence Coordinator, Vassiriki Traoré, is currently in Bamako at the invitation of his Malian counterpart, General Modibo Koné, Director of the National Agency for State Security (ANSE) . On the agenda of the discussions between the two men, the security issue and in particular the fight against terrorism.\n\nBurkina Faso: 0 retained reports. No retained country-specific reports were collected for this desk date.\n\nNiger: 0 retained reports. No retained country-specific reports were collected for this desk date.\n\nActor picture: no same-day fused candidate events.\n\nWhat changed: Collection volume: -7 retained report(s) versus 2026-10-16 (13 → 6). Actor-level same-day fused event counts are unchanged from the previous date.\n\nIntelligence gaps: Collection confidence is low, so absence of reporting should not be interpreted as absence of activity.\n\nCollection confidence: LOW. 156/184 source paths reached 28 failed source paths 20 degraded / 28 failed of 184 configured sources\n\nAll retained source reports, including reports not promoted to the map, remain individually summarized in the intelligence feed and source records."
     },
     {
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-16",
-      "generated_at": "2026-10-17T08:53:20.256693Z",
+      "generated_at": "2026-10-17T12:57:19.954496Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -451,7 +488,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-15",
-      "generated_at": "2026-10-17T08:53:20.167493Z",
+      "generated_at": "2026-10-17T12:57:20.784592Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -896,7 +933,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-14",
-      "generated_at": "2026-10-17T08:53:20.251670Z",
+      "generated_at": "2026-10-17T12:57:20.269918Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -1374,7 +1411,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-13",
-      "generated_at": "2026-10-17T08:53:19.523336Z",
+      "generated_at": "2026-10-17T12:57:20.901367Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -1705,7 +1742,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-12",
-      "generated_at": "2026-10-17T08:53:20.546338Z",
+      "generated_at": "2026-10-17T12:57:20.407222Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -2084,7 +2121,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-11",
-      "generated_at": "2026-10-17T08:53:20.246567Z",
+      "generated_at": "2026-10-17T12:57:20.411075Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -2421,7 +2458,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-10",
-      "generated_at": "2026-10-17T08:53:19.753132Z",
+      "generated_at": "2026-10-17T12:57:20.761320Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -2818,7 +2855,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-09",
-      "generated_at": "2026-10-17T08:53:20.439081Z",
+      "generated_at": "2026-10-17T12:57:20.189631Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -3303,7 +3340,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-08",
-      "generated_at": "2026-10-17T08:53:19.841672Z",
+      "generated_at": "2026-10-17T12:57:20.943017Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -3842,7 +3879,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-07",
-      "generated_at": "2026-10-17T08:53:20.394224Z",
+      "generated_at": "2026-10-17T12:57:20.085079Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -4381,7 +4418,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-06",
-      "generated_at": "2026-10-17T08:53:19.428090Z",
+      "generated_at": "2026-10-17T12:57:20.201146Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -5289,7 +5326,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-05",
-      "generated_at": "2026-10-17T08:53:19.969979Z",
+      "generated_at": "2026-10-17T12:57:20.753754Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -5947,7 +5984,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-04",
-      "generated_at": "2026-10-17T08:53:20.088681Z",
+      "generated_at": "2026-10-17T12:57:20.855591Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -6556,7 +6593,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-03",
-      "generated_at": "2026-10-17T08:53:20.123237Z",
+      "generated_at": "2026-10-17T12:57:20.652993Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -7043,7 +7080,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-02",
-      "generated_at": "2026-10-17T08:53:19.182110Z",
+      "generated_at": "2026-10-17T12:57:20.308915Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -7283,7 +7320,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-01",
-      "generated_at": "2026-10-17T08:53:20.142975Z",
+      "generated_at": "2026-10-17T12:57:20.331491Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -7831,7 +7868,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-30",
-      "generated_at": "2026-10-17T08:53:19.774711Z",
+      "generated_at": "2026-10-17T12:57:20.077379Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -8975,7 +9012,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-29",
-      "generated_at": "2026-10-17T08:53:19.328100Z",
+      "generated_at": "2026-10-17T12:57:20.281206Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -9300,7 +9337,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-28",
-      "generated_at": "2026-10-17T08:53:19.763098Z",
+      "generated_at": "2026-10-17T12:57:19.898780Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -9779,7 +9816,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-27",
-      "generated_at": "2026-10-17T08:53:20.216525Z",
+      "generated_at": "2026-10-17T12:57:20.116480Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -10132,7 +10169,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-26",
-      "generated_at": "2026-10-17T08:53:19.518307Z",
+      "generated_at": "2026-10-17T12:57:20.327563Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -10380,7 +10417,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-25",
-      "generated_at": "2026-10-17T08:53:19.959922Z",
+      "generated_at": "2026-10-17T12:57:20.475401Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -10732,7 +10769,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-24",
-      "generated_at": "2026-10-17T08:53:20.177366Z",
+      "generated_at": "2026-10-17T12:57:20.542887Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -11094,7 +11131,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-23",
-      "generated_at": "2026-10-17T08:53:20.497382Z",
+      "generated_at": "2026-10-17T12:57:20.025192Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -11405,7 +11442,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-22",
-      "generated_at": "2026-10-17T08:53:20.241546Z",
+      "generated_at": "2026-10-17T12:57:20.848322Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -12363,7 +12400,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-21",
-      "generated_at": "2026-10-17T08:53:19.738392Z",
+      "generated_at": "2026-10-17T12:57:20.297178Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -12881,7 +12918,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-20",
-      "generated_at": "2026-10-17T08:53:20.108406Z",
+      "generated_at": "2026-10-17T12:57:20.479393Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -13525,7 +13562,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-19",
-      "generated_at": "2026-10-17T08:53:20.399380Z",
+      "generated_at": "2026-10-17T12:57:20.383299Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -14180,7 +14217,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-18",
-      "generated_at": "2026-10-17T08:53:19.810368Z",
+      "generated_at": "2026-10-17T12:57:20.927990Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -14343,7 +14380,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-17",
-      "generated_at": "2026-10-17T08:53:20.468139Z",
+      "generated_at": "2026-10-17T12:57:20.603638Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -14606,7 +14643,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-16",
-      "generated_at": "2026-10-17T08:53:19.533025Z",
+      "generated_at": "2026-10-17T12:57:20.240122Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -14768,7 +14805,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-15",
-      "generated_at": "2026-10-17T08:53:20.344571Z",
+      "generated_at": "2026-10-17T12:57:20.679361Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
