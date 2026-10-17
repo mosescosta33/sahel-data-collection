@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-17T12:57:19.157037Z",
+  "generated_at": "2026-10-17T16:51:05.918790Z",
   "window_days": 30,
   "cutoff": "2026-09-17",
-  "reports": 480,
-  "incident_reports": 112,
+  "reports": 482,
+  "incident_reports": 113,
   "candidate_events": 82,
   "corroborated_events": 20,
-  "mapped_events": 70,
-  "mapped_locations": 137,
+  "mapped_events": 71,
+  "mapped_locations": 139,
   "distinct_sources": 82,
   "by_actor": {
     "State": 53,
@@ -30,7 +30,7 @@
     "raid": 1
   },
   "by_language": {
-    "fr": 368,
+    "fr": 370,
     "en": 85,
     "ar": 27
   },
@@ -49,7 +49,7 @@
     {
       "source_code": "SRC-0006",
       "source": "Malijet",
-      "count": 52
+      "count": 53
     },
     {
       "source_code": "SRC-0075",
@@ -87,14 +87,14 @@
       "count": 13
     },
     {
-      "source_code": "SRC-0014",
-      "source": "Agence Nigérienne de Presse",
-      "count": 13
-    },
-    {
       "source_code": "SRC-0092",
       "source": "La Nouvelle Tribune (Bénin)",
       "count": 13
+    },
+    {
+      "source_code": "SRC-0014",
+      "source": "Agence Nigérienne de Presse",
+      "count": 12
     },
     {
       "source_code": "SRC-0085",
@@ -120,11 +120,11 @@
       "count": 11
     },
     {
-      "location": "Mali",
-      "count": 10
+      "location": "Anéfis",
+      "count": 9
     },
     {
-      "location": "Anéfis",
+      "location": "Mali",
       "count": 9
     },
     {
@@ -295,12 +295,12 @@
     },
     {
       "date": "2026-10-16",
-      "reports": 12,
+      "reports": 13,
       "events": 0
     },
     {
       "date": "2026-10-17",
-      "reports": 4,
+      "reports": 6,
       "events": 0
     }
   ],
@@ -1911,14 +1911,14 @@
       ]
     },
     {
-      "id": "5bdc937802177bbcbb577c8477ad7842268229ca",
+      "id": "b0f437beefc5cd04882b603cc1f788a34cdbb15c",
       "event_date": "2026-10-09",
       "event_date_confidence": "explicit-text",
       "event_date_source": "explicit-date-no-year",
       "published_at": "2026-10-16T16:48:22Z",
-      "published_date_source": "jsonld:datePublished",
+      "published_date_source": "opengraph",
       "published_time_precision": "datetime",
-      "collected_at": "2026-10-16T20:54:01.165456Z",
+      "collected_at": "2026-10-17T16:50:19.817921Z",
       "actor": "JNIM",
       "perpetrator": null,
       "target": null,
@@ -1930,12 +1930,27 @@
       "parent_report_id": null,
       "event_type": "clash",
       "country": "Mali",
-      "city": null,
-      "lat": null,
-      "lng": null,
-      "locations": [],
-      "title": "Image Africa Mali, Burkina Faso, Niger: deadly clashes between rival factions in the Sahel of Al-Qaeda and the Islamic State",
-      "summary": "Clashes of unprecedented magnitude have been taking place for several weeks between the Sahelian branches of the jihadists of the Islamic State (IS) and Al-Qaeda (JNIM) in the border area straddling Mali, Burkina Faso and Niger.",
+      "city": "Ménaka",
+      "lat": 15.9182,
+      "lng": 2.4022,
+      "locations": [
+        {
+          "name": "Ménaka",
+          "country": "Mali",
+          "lat": 15.9182,
+          "lng": 2.4022,
+          "confidence": "explicit-place"
+        },
+        {
+          "name": "Arbinda",
+          "country": "Burkina Faso",
+          "lat": 14.5833,
+          "lng": 0.4667,
+          "confidence": "explicit-place"
+        }
+      ],
+      "title": "Mali, Burkina Faso, Niger: deadly clashes between rival factions in the Sahel of Al-Qaeda and the Islamic State",
+      "summary": "Clashes on an unprecedented scale have been taking place for several weeks between the Sahelian branches of the jihadists of the Islamic State (ISIS) and Al-Qaeda (JNIM) in the border area straddling Mali, Burkina Faso and Niger . These fights are reaching an unprecedented level of violence, with hundreds of deaths claimed on both sides.",
       "sources": [
         "TV5MONDE Afrique"
       ],
@@ -1944,9 +1959,29 @@
       ],
       "source_count": 1,
       "report_urls": [
+        "https://information.tv5monde.com/afrique/mali-burkina-faso-niger-des-affrontements-meurtriers-entre-les-factions-rivales-au-sahel-dal-qaida-et-de-letat-islamique-2841913?amp",
         "https://information.tv5monde.com/afrique/mali-burkina-faso-niger-des-affrontements-meurtriers-entre-les-factions-rivales-au-sahel-dal-qaida-et-de-letat-islamique-2841913"
       ],
       "report_summaries": [
+        {
+          "url": "https://information.tv5monde.com/afrique/mali-burkina-faso-niger-des-affrontements-meurtriers-entre-les-factions-rivales-au-sahel-dal-qaida-et-de-letat-islamique-2841913?amp",
+          "source": "TV5MONDE Afrique",
+          "title": "Mali, Burkina Faso, Niger: deadly clashes between rival factions in the Sahel of Al-Qaeda and the Islamic State",
+          "summary": "Clashes on an unprecedented scale have been taking place for several weeks between the Sahelian branches of the jihadists of the Islamic State (ISIS) and Al-Qaeda (JNIM) in the border area straddling Mali, Burkina Faso and Niger . These fights are reaching an unprecedented level of violence, with hundreds of deaths claimed on both sides.",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "armed_group",
+            "journalist"
+          ],
+          "civilian_targeting_flag": false,
+          "casualty_claims": []
+        },
         {
           "url": "https://information.tv5monde.com/afrique/mali-burkina-faso-niger-des-affrontements-meurtriers-entre-les-factions-rivales-au-sahel-dal-qaida-et-de-letat-islamique-2841913",
           "source": "TV5MONDE Afrique",
@@ -1967,7 +2002,7 @@
           "casualty_claims": []
         }
       ],
-      "created_at": "2026-10-16T20:54:01.165456Z",
+      "created_at": "2026-10-17T16:50:19.817921Z",
       "updated_at": "2026-10-16T20:54:01.165456Z",
       "extraction_confidence": "low",
       "victim_categories": [
@@ -1986,7 +2021,7 @@
       "casualty_disputed": false,
       "revision_history": [
         {
-          "at": "2026-10-16T20:54:01.165456Z",
+          "at": "2026-10-17T16:50:19.817921Z",
           "type": "event_created",
           "source": "TV5MONDE Afrique"
         }
@@ -1997,9 +2032,9 @@
         "information.tv5monde.com"
       ],
       "independent_source_count": 1,
-      "significance": "ROUTINE",
+      "significance": "MAJOR",
       "significance_reasons": [
-        "limited currently observed significance"
+        "multi-location activity"
       ]
     },
     {
@@ -3711,6 +3746,42 @@
   ],
   "latest_reports": [
     {
+      "published_at": "2026-10-17T16:17:26Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-17T16:50:17.818809Z",
+      "discovered_at": "2026-10-17T16:50:17.818809Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0006",
+      "source": "Malijet",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Bamako",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Hydrocarbon refuelling: A third convoy of 734 tankers arrives in Bamako",
+      "url": "https://malijet.com/flash-info/312375-ravitaillement-en-hydrocarbures-un-troisieme-convoi-de-734.html"
+    },
+    {
+      "published_at": "2026-10-17T16:13:11Z",
+      "published_date_source": "opengraph",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-17T16:50:21.367603Z",
+      "discovered_at": "2026-10-17T16:50:21.367603Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0018",
+      "source": "Aïr Info",
+      "language": "fr",
+      "actor": null,
+      "country": "Niger",
+      "city": "Niamey",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Niger: the Human Rights Observatory with investigative powers",
+      "url": "https://airinfoagadez.com/2026/10/17/niger-lobservatoire-des-droits-de-lhomme-dote-de-pouvoirs-denquete/"
+    },
+    {
       "published_at": "2026-10-17T11:42:10Z",
       "published_date_source": "opengraph",
       "published_time_precision": "datetime",
@@ -3835,6 +3906,24 @@
       "candidate_event": false,
       "title": "Maradi: Governor Takes Part in Friday Prayer Marking Closing of M62 National Prayer Tour",
       "url": "https://anp.ne/maradi-le-gouverneur-prend-part-a-la-priere-du-vendredi-marquant-la-cloture-de-la-tournee-nationale-de-prieres-du-m62/"
+    },
+    {
+      "published_at": "2026-10-16T16:48:22Z",
+      "published_date_source": "opengraph",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-17T16:50:19.817921Z",
+      "discovered_at": "2026-10-17T16:50:19.817921Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0034",
+      "source": "TV5MONDE Afrique",
+      "language": "fr",
+      "actor": "JNIM",
+      "country": "Mali",
+      "city": "Ménaka",
+      "event_type": "clash",
+      "candidate_event": true,
+      "title": "Mali, Burkina Faso, Niger: deadly clashes between rival factions in the Sahel of Al-Qaeda and the Islamic State",
+      "url": "https://information.tv5monde.com/afrique/mali-burkina-faso-niger-des-affrontements-meurtriers-entre-les-factions-rivales-au-sahel-dal-qaida-et-de-letat-islamique-2841913?amp"
     },
     {
       "published_at": "2026-10-16T16:48:22Z",
@@ -4375,60 +4464,6 @@
       "candidate_event": false,
       "title": "Dialogue forum: Civil society and security services meet around the same table",
       "url": "https://malijet.com/la_societe_malienne_aujourdhui/312333-forum-de-dialogue-societe-civile-et-services-de-securite-s.html"
-    },
-    {
-      "published_at": "2026-10-15T06:46:51Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-15T08:57:31.936372Z",
-      "discovered_at": "2026-10-15T08:57:31.936372Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0001",
-      "source": "RFI Afrique",
-      "language": "fr",
-      "actor": null,
-      "country": "Mali",
-      "city": "Diré",
-      "event_type": "attack",
-      "candidate_event": false,
-      "title": "7-October: Benyamin Netanyahu attacked in defamation by the former head of the Shin Beth",
-      "url": "https://www.rfi.fr/fr/moyen-orient/20261015-7-octobre-benyamin-netanyahu-attaqu%C3%A9-en-diffamation-par-l-ancien-chef-du-shin-beth"
-    },
-    {
-      "published_at": "2026-10-15T06:03:36Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-15T08:57:31.728564Z",
-      "discovered_at": "2026-10-15T08:57:31.728564Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0119",
-      "source": "Daily Trust (Nigeria)",
-      "language": "en",
-      "actor": null,
-      "country": "Mali",
-      "city": null,
-      "event_type": "law enforcement",
-      "candidate_event": false,
-      "title": "NSCDC arrest 2 over abortions, trafficking",
-      "url": "https://dailytrust.com/nscdc-arrest-2-over-abortions-trafficking/"
-    },
-    {
-      "published_at": "2026-10-15T05:11:07Z",
-      "published_date_source": "opengraph",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-15T08:57:32.715295Z",
-      "discovered_at": "2026-10-15T08:57:32.715295Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0121",
-      "source": "AllAfrica (English Edition)",
-      "language": "en",
-      "actor": "Africa Corps/Wagner",
-      "country": "Mali",
-      "city": null,
-      "event_type": "abuses/war crimes",
-      "candidate_event": false,
-      "title": "Africa: In Mali, From the Wagner Group to Africa Corps - Will Impunity Continue?",
-      "url": "https://allafrica.com/stories/202610150116.html"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
