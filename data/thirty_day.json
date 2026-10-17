@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-16T20:55:05.437880Z",
+  "generated_at": "2026-10-17T01:05:10.613775Z",
   "window_days": 30,
-  "cutoff": "2026-09-16",
+  "cutoff": "2026-09-17",
   "reports": 478,
   "incident_reports": 112,
   "candidate_events": 82,
@@ -154,11 +154,6 @@
   ],
   "daily": [
     {
-      "date": "2026-09-17",
-      "reports": 5,
-      "events": 2
-    },
-    {
       "date": "2026-09-18",
       "reports": 11,
       "events": 0
@@ -300,7 +295,12 @@
     },
     {
       "date": "2026-10-16",
-      "reports": 11,
+      "reports": 12,
+      "events": 0
+    },
+    {
+      "date": "2026-10-17",
+      "reports": 0,
       "events": 0
     }
   ],
@@ -3711,6 +3711,24 @@
   ],
   "latest_reports": [
     {
+      "published_at": "2026-10-16T21:11:20Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-17T01:04:30.722468Z",
+      "discovered_at": "2026-10-17T01:04:30.722468Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0002",
+      "source": "France 24 Afrique (FR)",
+      "language": "fr",
+      "actor": "JNIM",
+      "country": null,
+      "city": null,
+      "event_type": "clash",
+      "candidate_event": false,
+      "title": "War without a mrci in the Sahel between the jihadists of the JNIM and the EIS",
+      "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20261016-guerre-sans-mrci-au-sahel-entre-les-jihadistes-du-jnim-et-de-l-eis"
+    },
+    {
       "published_at": "2026-10-16T19:31:43Z",
       "published_date_source": "jsonld:datePublished",
       "published_time_precision": "datetime",
@@ -4411,24 +4429,6 @@
       "candidate_event": false,
       "title": "Niger has set up a National Observatory on Human Rights and Fundamental Freedoms",
       "url": "https://anp.ne/le-niger-se-dote-dun-observatoire-national-des-droits-de-l-homme-et-des-libertes-fondamentales/"
-    },
-    {
-      "published_at": "2026-10-14T19:28:09Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-14T20:52:59.057426Z",
-      "discovered_at": "2026-10-14T20:52:59.057426Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0008",
-      "source": "Bamada",
-      "language": "fr",
-      "actor": null,
-      "country": "Niger",
-      "city": "Niamey",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Niamey denounces the expulsion of two agents by Paris",
-      "url": "https://bamada.net/niamey-denonce-lexpulsion-de-deux-agents-par-paris"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
