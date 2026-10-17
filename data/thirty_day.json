@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-17T16:51:05.918790Z",
+  "generated_at": "2026-10-17T20:49:10.659066Z",
   "window_days": 30,
   "cutoff": "2026-09-17",
-  "reports": 482,
+  "reports": 483,
   "incident_reports": 113,
   "candidate_events": 82,
   "corroborated_events": 20,
@@ -30,7 +30,7 @@
     "raid": 1
   },
   "by_language": {
-    "fr": 370,
+    "fr": 371,
     "en": 85,
     "ar": 27
   },
@@ -49,7 +49,7 @@
     {
       "source_code": "SRC-0006",
       "source": "Malijet",
-      "count": 53
+      "count": 54
     },
     {
       "source_code": "SRC-0075",
@@ -300,7 +300,7 @@
     },
     {
       "date": "2026-10-17",
-      "reports": 6,
+      "reports": 7,
       "events": 0
     }
   ],
@@ -3746,6 +3746,24 @@
   ],
   "latest_reports": [
     {
+      "published_at": "2026-10-17T16:50:11Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-17T20:48:29.029573Z",
+      "discovered_at": "2026-10-17T20:48:29.029573Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0006",
+      "source": "Malijet",
+      "language": "fr",
+      "actor": null,
+      "country": "Mali",
+      "city": "Kayes",
+      "event_type": "law enforcement",
+      "candidate_event": false,
+      "title": "Kayes: four suspects arrested for theft from gold mining sites",
+      "url": "https://malijet.com/les_faits_divers_au_mali/312377-kayes-quatre-suspects-interpelles-pour-des-vols-sur-des-si.html"
+    },
+    {
       "published_at": "2026-10-17T16:17:26Z",
       "published_date_source": "jsonld:datePublished",
       "published_time_precision": "datetime",
@@ -4446,24 +4464,6 @@
       "candidate_event": false,
       "title": "Between Us: No one is safe",
       "url": "https://bamada.net/entre-nous-nul-nest-a-labri"
-    },
-    {
-      "published_at": "2026-10-15T08:53:39Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-15T13:08:28.648351Z",
-      "discovered_at": "2026-10-15T13:08:28.648351Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0006",
-      "source": "Malijet",
-      "language": "fr",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Bamako",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Dialogue forum: Civil society and security services meet around the same table",
-      "url": "https://malijet.com/la_societe_malienne_aujourdhui/312333-forum-de-dialogue-societe-civile-et-services-de-securite-s.html"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."

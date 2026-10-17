@@ -1,13 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-17T16:51:08.142641Z",
-  "run_id": "d608b5c4a886385493fbdfc83359ab9716b6bbb1",
+  "generated_at": "2026-10-17T20:49:13.266643Z",
+  "run_id": "228b3d74ec20c491a7bb7e9f012b154b2cc5038d",
   "pipelines": {
     "Mali": {
       "sources": 11,
-      "discovered": 384,
-      "included": 2,
-      "excluded": 7,
+      "discovered": 381,
+      "included": 1,
+      "excluded": 3,
       "errors": 0,
       "duplicates": 0,
       "pending": 0,
@@ -18,41 +18,41 @@
     },
     "Burkina Faso": {
       "sources": 10,
-      "discovered": 554,
+      "discovered": 491,
       "included": 0,
-      "excluded": 11,
-      "errors": 0,
-      "duplicates": 0,
-      "pending": 0,
-      "status": "DEGRADED",
-      "reached_sources": 9,
-      "failed_sources": 1,
-      "note": "Burkina Faso lane; 8 priority query terms configured"
-    },
-    "Niger": {
-      "sources": 8,
-      "discovered": 384,
-      "included": 1,
       "excluded": 6,
       "errors": 0,
       "duplicates": 0,
       "pending": 0,
       "status": "DEGRADED",
-      "reached_sources": 5,
-      "failed_sources": 3,
-      "note": "Niger lane; 8 priority query terms configured"
+      "reached_sources": 8,
+      "failed_sources": 2,
+      "note": "Burkina Faso lane; 8 priority query terms configured"
     },
-    "Regional": {
-      "sources": 155,
-      "discovered": 10041,
+    "Niger": {
+      "sources": 8,
+      "discovered": 491,
       "included": 0,
-      "excluded": 2,
+      "excluded": 12,
       "errors": 0,
       "duplicates": 0,
       "pending": 0,
       "status": "DEGRADED",
-      "reached_sources": 131,
-      "failed_sources": 24,
+      "reached_sources": 6,
+      "failed_sources": 2,
+      "note": "Niger lane; 8 priority query terms configured"
+    },
+    "Regional": {
+      "sources": 155,
+      "discovered": 9810,
+      "included": 0,
+      "excluded": 4,
+      "errors": 0,
+      "duplicates": 0,
+      "pending": 0,
+      "status": "DEGRADED",
+      "reached_sources": 129,
+      "failed_sources": 26,
       "note": "Regional/cross-border lane; 7 priority query terms configured"
     }
   }
