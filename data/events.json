@@ -1,5 +1,164 @@
 [
   {
+    "id": "fb19e15cfea19012697e1dfdc35694dc1e7911ae",
+    "event_date": "2026-10-17",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "explicit-calendar-date",
+    "published_at": "2026-10-17T23:13:55Z",
+    "published_date_source": "jsonld:datePublished",
+    "published_time_precision": "datetime",
+    "collected_at": "2026-10-18T01:04:33.263788Z",
+    "actor": "State",
+    "perpetrator": "State",
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [
+      "State"
+    ],
+    "parent_report_id": null,
+    "event_type": "security operation",
+    "country": "Mali",
+    "city": "Ménaka",
+    "lat": 15.9182,
+    "lng": 2.4022,
+    "locations": [
+      {
+        "name": "Ménaka",
+        "country": "Mali",
+        "lat": 15.9182,
+        "lng": 2.4022,
+        "confidence": "explicit-place"
+      },
+      {
+        "name": "Bamako",
+        "country": "Mali",
+        "lat": 12.6392,
+        "lng": -8.0029,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "Operation Dougoukoloko: two terrorist bases targeted near Diafarabé and Menaka",
+    "summary": "The General Staff of the Armed Forces informs the national opinion that the Malian Armed Forces (FAMa), supported by their partners, are continuing the permanent operations of surveillance, control and security of the national territory as part of Operation Dougoukoloko This Saturday, October 17, 2026, the exploitation of precise intelligence made it possible to locate, 40 km north-east of the city of Diafarabé, a major base housing several terrorist elements as well as war and logistics equipment.",
+    "sources": [
+      "Malijet",
+      "AMAP (Agence Malienne de Presse et de Publicité)",
+      "Bamada"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 3,
+    "report_urls": [
+      "https://malijet.com/actualte_dans_les_regions_du_mali/312379-operation-dougoukoloko-deux-bases-terroristes-ciblees-pres.html",
+      "https://amap.ml/2026/10/18/operation-dougoukoloko-les-fama-frappent-deux-bases-abritant-des-groupes-terroristes-a-diarafabe-et-a-menaka/",
+      "https://bamada.net/operation-dougoukoloko-les-fama-frappent-deux-importantes-bases-terroristes-a-diafarabe-et-menaka"
+    ],
+    "report_summaries": [
+      {
+        "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312379-operation-dougoukoloko-deux-bases-terroristes-ciblees-pres.html",
+        "source": "Malijet",
+        "title": "Operation Dougoukoloko: two terrorist bases targeted near Diafarabé and Menaka",
+        "summary": "Operation Dougoukoloko: two targeted terrorist bases near Diafarabé and Menaka The Malian Armed Forces (FAMa), supported by their partners, targeted two bases presented as terrorist in the Diafarabé and Menaka sectors on Saturday, October 17, 2026, as part of Operation Dougoukoloko, according to the General Staff of the Armed Forces According to the press release, the first position was located 40 km northeast of Diafarabé thanks to precise information.",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "armed_group"
+        ],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      },
+      {
+        "url": "https://amap.ml/2026/10/18/operation-dougoukoloko-les-fama-frappent-deux-bases-abritant-des-groupes-terroristes-a-diarafabe-et-a-menaka/",
+        "source": "AMAP (Agence Malienne de Presse et de Publicité)",
+        "title": "Operation Dougoukoloko: FAMa strikes two bases housing terrorist groups in Diarafabé and Menaka",
+        "summary": "Bamako, October 18 (AMAP) The Malian Armed Forces (FAMa), supported by their partners, successfully carried out, on Saturday, October 17, 2026, strikes against two bases housing terrorist elements and war and logistics equipment, as part of Operation Dougoukoloko, announced the General Staff of the Armed Forces . According to the press release, the exploitation of precise information made it possible to locate a large base about 40 km northeast of the city of Diafarabé.",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "armed_group"
+        ],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      },
+      {
+        "url": "https://bamada.net/operation-dougoukoloko-les-fama-frappent-deux-importantes-bases-terroristes-a-diafarabe-et-menaka",
+        "source": "Bamada",
+        "title": "Operation Dougoukoloko: The FAMa strike two important terrorist bases in Diafarabé and Menaka",
+        "summary": "The General Staff of the Armed Forces informs the national opinion that the Malian Armed Forces (FAMa), supported by their partners, are continuing the permanent operations of surveillance, control and security of the national territory as part of Operation Dougoukoloko This Saturday, October 17, 2026, the exploitation of precise intelligence made it possible to locate, 40 km north-east of the city of Diafarabé, a major base housing several terrorist elements as well as war and logistics equipment.",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "armed_group"
+        ],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      }
+    ],
+    "created_at": "2026-10-18T01:04:33.263788Z",
+    "updated_at": "2026-10-18T12:56:37.559660Z",
+    "extraction_confidence": "low",
+    "victim_categories": [
+      "armed_group"
+    ],
+    "civilian_targeting_flag": false,
+    "casualty_claims": [],
+    "fatalities_min": null,
+    "fatalities_max": null,
+    "fatalities_best": null,
+    "injured_min": null,
+    "injured_max": null,
+    "abducted_min": null,
+    "abducted_max": null,
+    "casualty_disputed": false,
+    "revision_history": [
+      {
+        "at": "2026-10-18T01:04:33.263788Z",
+        "type": "event_created",
+        "source": "Malijet"
+      },
+      {
+        "at": "2026-10-18T12:56:39.047329Z",
+        "type": "corroboration_or_geography_update",
+        "source": "AMAP (Agence Malienne de Presse et de Publicité)"
+      },
+      {
+        "at": "2026-10-18T12:56:37.559660Z",
+        "type": "corroboration_or_geography_update",
+        "source": "Bamada"
+      }
+    ],
+    "corroboration": "multi-source",
+    "confidence": "moderate-high",
+    "independent_source_domains": [
+      "malijet.com",
+      "amap.ml",
+      "bamada.net"
+    ],
+    "independent_source_count": 3,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "strategic/severe event pattern",
+      "multi-source corroboration",
+      "multi-location activity"
+    ]
+  },
+  {
     "id": "98d8078e36a293d890098c4ce904f8f7a70568d3",
     "event_date": "2026-10-17",
     "event_date_confidence": "explicit-text",
@@ -103,104 +262,6 @@
     "significance_reasons": [
       "strategic/severe event pattern",
       "multi-location activity"
-    ]
-  },
-  {
-    "id": "fb19e15cfea19012697e1dfdc35694dc1e7911ae",
-    "event_date": "2026-10-17",
-    "event_date_confidence": "explicit-text",
-    "event_date_source": "explicit-calendar-date",
-    "published_at": "2026-10-17T23:13:55Z",
-    "published_date_source": "jsonld:datePublished",
-    "published_time_precision": "datetime",
-    "collected_at": "2026-10-18T01:04:33.263788Z",
-    "actor": "State",
-    "perpetrator": "State",
-    "target": null,
-    "claimant": null,
-    "supporting_force": null,
-    "mentioned_actors": [
-      "State"
-    ],
-    "parent_report_id": null,
-    "event_type": "security operation",
-    "country": "Mali",
-    "city": "Ménaka",
-    "lat": 15.9182,
-    "lng": 2.4022,
-    "locations": [
-      {
-        "name": "Ménaka",
-        "country": "Mali",
-        "lat": 15.9182,
-        "lng": 2.4022,
-        "confidence": "explicit-place"
-      }
-    ],
-    "title": "Operation Dougoukoloko: two terrorist bases targeted near Diafarabé and Menaka",
-    "summary": "Operation Dougoukoloko: two targeted terrorist bases near Diafarabé and Menaka The Malian Armed Forces (FAMa), supported by their partners, targeted two bases presented as terrorist in the Diafarabé and Menaka sectors on Saturday, October 17, 2026, as part of Operation Dougoukoloko, according to the General Staff of the Armed Forces According to the press release, the first position was located 40 km northeast of Diafarabé thanks to precise information.",
-    "sources": [
-      "Malijet"
-    ],
-    "languages": [
-      "fr"
-    ],
-    "source_count": 1,
-    "report_urls": [
-      "https://malijet.com/actualte_dans_les_regions_du_mali/312379-operation-dougoukoloko-deux-bases-terroristes-ciblees-pres.html"
-    ],
-    "report_summaries": [
-      {
-        "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312379-operation-dougoukoloko-deux-bases-terroristes-ciblees-pres.html",
-        "source": "Malijet",
-        "title": "Operation Dougoukoloko: two terrorist bases targeted near Diafarabé and Menaka",
-        "summary": "Operation Dougoukoloko: two targeted terrorist bases near Diafarabé and Menaka The Malian Armed Forces (FAMa), supported by their partners, targeted two bases presented as terrorist in the Diafarabé and Menaka sectors on Saturday, October 17, 2026, as part of Operation Dougoukoloko, according to the General Staff of the Armed Forces According to the press release, the first position was located 40 km northeast of Diafarabé thanks to precise information.",
-        "summary_basis": "translated-excerpt",
-        "fatalities_min": null,
-        "fatalities_max": null,
-        "injured_min": null,
-        "injured_max": null,
-        "abducted_min": null,
-        "abducted_max": null,
-        "victim_categories": [
-          "armed_group"
-        ],
-        "civilian_targeting_flag": false,
-        "casualty_claims": []
-      }
-    ],
-    "created_at": "2026-10-18T01:04:33.263788Z",
-    "updated_at": "2026-10-18T01:04:33.263788Z",
-    "extraction_confidence": "low",
-    "victim_categories": [
-      "armed_group"
-    ],
-    "civilian_targeting_flag": false,
-    "casualty_claims": [],
-    "fatalities_min": null,
-    "fatalities_max": null,
-    "fatalities_best": null,
-    "injured_min": null,
-    "injured_max": null,
-    "abducted_min": null,
-    "abducted_max": null,
-    "casualty_disputed": false,
-    "revision_history": [
-      {
-        "at": "2026-10-18T01:04:33.263788Z",
-        "type": "event_created",
-        "source": "Malijet"
-      }
-    ],
-    "corroboration": "single-source",
-    "confidence": "low",
-    "independent_source_domains": [
-      "malijet.com"
-    ],
-    "independent_source_count": 1,
-    "significance": "MAJOR",
-    "significance_reasons": [
-      "strategic/severe event pattern"
     ]
   },
   {
