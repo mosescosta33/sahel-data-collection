@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-17T20:49:10.659066Z",
+  "generated_at": "2026-10-18T01:05:20.466061Z",
   "window_days": 30,
-  "cutoff": "2026-09-17",
-  "reports": 483,
-  "incident_reports": 113,
+  "cutoff": "2026-09-18",
+  "reports": 484,
+  "incident_reports": 114,
   "candidate_events": 82,
   "corroborated_events": 20,
-  "mapped_events": 71,
+  "mapped_events": 72,
   "mapped_locations": 139,
   "distinct_sources": 82,
   "by_actor": {
@@ -21,8 +21,8 @@
     "Burkina Faso": 3
   },
   "by_event_type": {
-    "security operation": 35,
-    "offensive/campaign": 17,
+    "security operation": 36,
+    "offensive/campaign": 16,
     "clash": 14,
     "attack": 9,
     "ambush": 3,
@@ -30,13 +30,13 @@
     "raid": 1
   },
   "by_language": {
-    "fr": 371,
+    "fr": 372,
     "en": 85,
     "ar": 27
   },
   "by_confidence": {
-    "moderate": 39,
-    "low": 37,
+    "low": 38,
+    "moderate": 38,
     "moderate-high": 5,
     "high": 1
   },
@@ -44,7 +44,7 @@
     {
       "source_code": "SRC-0008",
       "source": "Bamada",
-      "count": 72
+      "count": 73
     },
     {
       "source_code": "SRC-0006",
@@ -72,8 +72,8 @@
       "count": 17
     },
     {
-      "source_code": "SRC-0015",
-      "source": "ActuNiger",
+      "source_code": "SRC-0092",
+      "source": "La Nouvelle Tribune (Bénin)",
       "count": 14
     },
     {
@@ -87,8 +87,8 @@
       "count": 13
     },
     {
-      "source_code": "SRC-0092",
-      "source": "La Nouvelle Tribune (Bénin)",
+      "source_code": "SRC-0015",
+      "source": "ActuNiger",
       "count": 13
     },
     {
@@ -105,19 +105,19 @@
   "top_locations": [
     {
       "location": "Kidal",
-      "count": 36
+      "count": 35
     },
     {
       "location": "Bamako",
-      "count": 15
-    },
-    {
-      "location": "Dioura",
-      "count": 11
+      "count": 16
     },
     {
       "location": "Ségou",
       "count": 11
+    },
+    {
+      "location": "Dioura",
+      "count": 10
     },
     {
       "location": "Anéfis",
@@ -125,7 +125,7 @@
     },
     {
       "location": "Mali",
-      "count": 9
+      "count": 8
     },
     {
       "location": "Tessalit",
@@ -134,10 +134,6 @@
     {
       "location": "Timbuktu",
       "count": 7
-    },
-    {
-      "location": "Mopti",
-      "count": 6
     },
     {
       "location": "Sévaré",
@@ -150,14 +146,13 @@
     {
       "location": "Gao",
       "count": 5
+    },
+    {
+      "location": "Mopti",
+      "count": 5
     }
   ],
   "daily": [
-    {
-      "date": "2026-09-18",
-      "reports": 11,
-      "events": 0
-    },
     {
       "date": "2026-09-19",
       "reports": 16,
@@ -300,11 +295,220 @@
     },
     {
       "date": "2026-10-17",
-      "reports": 7,
+      "reports": 10,
+      "events": 2
+    },
+    {
+      "date": "2026-10-18",
+      "reports": 0,
       "events": 0
     }
   ],
   "latest_events": [
+    {
+      "id": "98d8078e36a293d890098c4ce904f8f7a70568d3",
+      "event_date": "2026-10-17",
+      "event_date_confidence": "explicit-text",
+      "event_date_source": "explicit-calendar-date",
+      "published_at": "2026-10-17T23:50:36Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-18T01:04:33.600030Z",
+      "actor": "State",
+      "perpetrator": "State",
+      "target": null,
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [
+        "State"
+      ],
+      "parent_report_id": null,
+      "event_type": "security operation",
+      "country": "Mali",
+      "city": "Bamako",
+      "lat": 12.6392,
+      "lng": -8.0029,
+      "locations": [
+        {
+          "name": "Bamako",
+          "country": "Mali",
+          "lat": 12.6392,
+          "lng": -8.0029,
+          "confidence": "explicit-place"
+        },
+        {
+          "name": "Ménaka",
+          "country": "Mali",
+          "lat": 15.9182,
+          "lng": 2.4022,
+          "confidence": "explicit-place"
+        }
+      ],
+      "title": "Mali: the army announces that it hit two bases on the same day, localized war material",
+      "summary": "Two strikes in a single day, on two remote areas: the Malian Armed Forces (FAMa) claim to have targeted two bases of armed groups in Mali on Saturday, October 17, 2026. The General Staff of the Armed Forces has announced this since Bamako, specifying that these actions are part of Operation Dougoukoloko. One of the targets is 100 km northwest of Menaka, the capital of an eastern region of the country .",
+      "sources": [
+        "La Nouvelle Tribune (Bénin)"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://lanouvelletribune.info/2026/10/mali-larmee-annonce-avoir-frappe-deux-bases-le-meme-jour-du-materiel-de-guerre-localise/"
+      ],
+      "report_summaries": [
+        {
+          "url": "https://lanouvelletribune.info/2026/10/mali-larmee-annonce-avoir-frappe-deux-bases-le-meme-jour-du-materiel-de-guerre-localise/",
+          "source": "La Nouvelle Tribune (Bénin)",
+          "title": "Mali: the army announces that it hit two bases on the same day, localized war material",
+          "summary": "Two strikes in a single day, on two remote areas: the Malian Armed Forces (FAMa) claim to have targeted two bases of armed groups in Mali on Saturday, October 17, 2026. The General Staff of the Armed Forces has announced this since Bamako, specifying that these actions are part of Operation Dougoukoloko. One of the targets is 100 km northwest of Menaka, the capital of an eastern region of the country .",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "armed_group"
+          ],
+          "civilian_targeting_flag": false,
+          "casualty_claims": []
+        }
+      ],
+      "created_at": "2026-10-18T01:04:33.600030Z",
+      "updated_at": "2026-10-18T01:04:33.600030Z",
+      "extraction_confidence": "moderate",
+      "victim_categories": [
+        "armed_group"
+      ],
+      "civilian_targeting_flag": false,
+      "casualty_claims": [],
+      "fatalities_min": null,
+      "fatalities_max": null,
+      "fatalities_best": null,
+      "injured_min": null,
+      "injured_max": null,
+      "abducted_min": null,
+      "abducted_max": null,
+      "casualty_disputed": false,
+      "revision_history": [
+        {
+          "at": "2026-10-18T01:04:33.600030Z",
+          "type": "event_created",
+          "source": "La Nouvelle Tribune (Bénin)"
+        }
+      ],
+      "corroboration": "single-source",
+      "confidence": "moderate",
+      "independent_source_domains": [
+        "lanouvelletribune.info"
+      ],
+      "independent_source_count": 1,
+      "significance": "MAJOR",
+      "significance_reasons": [
+        "strategic/severe event pattern",
+        "multi-location activity"
+      ]
+    },
+    {
+      "id": "fb19e15cfea19012697e1dfdc35694dc1e7911ae",
+      "event_date": "2026-10-17",
+      "event_date_confidence": "explicit-text",
+      "event_date_source": "explicit-calendar-date",
+      "published_at": "2026-10-17T23:13:55Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-18T01:04:33.263788Z",
+      "actor": "State",
+      "perpetrator": "State",
+      "target": null,
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [
+        "State"
+      ],
+      "parent_report_id": null,
+      "event_type": "security operation",
+      "country": "Mali",
+      "city": "Ménaka",
+      "lat": 15.9182,
+      "lng": 2.4022,
+      "locations": [
+        {
+          "name": "Ménaka",
+          "country": "Mali",
+          "lat": 15.9182,
+          "lng": 2.4022,
+          "confidence": "explicit-place"
+        }
+      ],
+      "title": "Operation Dougoukoloko: two terrorist bases targeted near Diafarabé and Menaka",
+      "summary": "Operation Dougoukoloko: two targeted terrorist bases near Diafarabé and Menaka The Malian Armed Forces (FAMa), supported by their partners, targeted two bases presented as terrorist in the Diafarabé and Menaka sectors on Saturday, October 17, 2026, as part of Operation Dougoukoloko, according to the General Staff of the Armed Forces According to the press release, the first position was located 40 km northeast of Diafarabé thanks to precise information.",
+      "sources": [
+        "Malijet"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://malijet.com/actualte_dans_les_regions_du_mali/312379-operation-dougoukoloko-deux-bases-terroristes-ciblees-pres.html"
+      ],
+      "report_summaries": [
+        {
+          "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312379-operation-dougoukoloko-deux-bases-terroristes-ciblees-pres.html",
+          "source": "Malijet",
+          "title": "Operation Dougoukoloko: two terrorist bases targeted near Diafarabé and Menaka",
+          "summary": "Operation Dougoukoloko: two targeted terrorist bases near Diafarabé and Menaka The Malian Armed Forces (FAMa), supported by their partners, targeted two bases presented as terrorist in the Diafarabé and Menaka sectors on Saturday, October 17, 2026, as part of Operation Dougoukoloko, according to the General Staff of the Armed Forces According to the press release, the first position was located 40 km northeast of Diafarabé thanks to precise information.",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "armed_group"
+          ],
+          "civilian_targeting_flag": false,
+          "casualty_claims": []
+        }
+      ],
+      "created_at": "2026-10-18T01:04:33.263788Z",
+      "updated_at": "2026-10-18T01:04:33.263788Z",
+      "extraction_confidence": "low",
+      "victim_categories": [
+        "armed_group"
+      ],
+      "civilian_targeting_flag": false,
+      "casualty_claims": [],
+      "fatalities_min": null,
+      "fatalities_max": null,
+      "fatalities_best": null,
+      "injured_min": null,
+      "injured_max": null,
+      "abducted_min": null,
+      "abducted_max": null,
+      "casualty_disputed": false,
+      "revision_history": [
+        {
+          "at": "2026-10-18T01:04:33.263788Z",
+          "type": "event_created",
+          "source": "Malijet"
+        }
+      ],
+      "corroboration": "single-source",
+      "confidence": "low",
+      "independent_source_domains": [
+        "malijet.com"
+      ],
+      "independent_source_count": 1,
+      "significance": "MAJOR",
+      "significance_reasons": [
+        "strategic/severe event pattern"
+      ]
+    },
     {
       "id": "73ef67a38c393a681f1576df2046767fb42980f3",
       "event_date": "2026-10-15",
@@ -3440,311 +3644,63 @@
         "strategic/severe event pattern",
         "multi-location activity"
       ]
-    },
-    {
-      "id": "5fe59c299ce9b4bd9b9b7f64591386c5b7ee4c1c",
-      "event_date": "2026-10-06",
-      "event_date_confidence": "explicit-text",
-      "event_date_source": "explicit-calendar-date",
-      "published_at": "2026-10-06T14:22:58Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-06T16:41:38.039431Z",
-      "actor": "State",
-      "perpetrator": "State",
-      "target": null,
-      "claimant": "State",
-      "supporting_force": "Africa Corps/Wagner",
-      "mentioned_actors": [
-        "State",
-        "Africa Corps/Wagner"
-      ],
-      "parent_report_id": null,
-      "event_type": "security operation",
-      "country": "Mali",
-      "city": "Kidal",
-      "lat": 18.4411,
-      "lng": 1.4078,
-      "locations": [
-        {
-          "name": "Kidal",
-          "country": "Mali",
-          "lat": 18.4411,
-          "lng": 1.4078,
-          "confidence": "explicit-place"
-        },
-        {
-          "name": "Bamako",
-          "country": "Mali",
-          "lat": 12.6392,
-          "lng": -8.0029,
-          "confidence": "explicit-place"
-        },
-        {
-          "name": "Anéfis",
-          "country": "Mali",
-          "lat": 18.0667,
-          "lng": 0.6167,
-          "confidence": "explicit-place"
-        },
-        {
-          "name": "Tessalit",
-          "country": "Mali",
-          "lat": 20.2,
-          "lng": 1.0,
-          "confidence": "explicit-place"
-        }
-      ],
-      "title": "Mali: the FAMa regain control of Kidal, the Fla speaks of \"strategic withdrawal\"",
-      "summary": "The Front de libération de l 'Azawad (Fla) announced its withdrawal from Kidal in northern Mali on October 6, 2026, as the Malian Armed Forces (FAMa) regained control of the city. The independence movement speaks of a \"strategic and controlled withdrawal\" of its forces in press release No.022/BE/Fla/2026, signed in Kidal by its spokesman, Mohamed Elmaouloud Ramadane .",
-      "sources": [
-        "La Nouvelle Tribune (Bénin)"
-      ],
-      "languages": [
-        "fr"
-      ],
-      "source_count": 1,
-      "report_urls": [
-        "https://lanouvelletribune.info/2026/10/mali-les-fama-reprennent-le-controle-de-kidal-le-fla-parle-de-repli-strategique/",
-        "https://lanouvelletribune.info/2026/10/mali-apres-la-reprise-de-kidal-les-fama-lancent-une-nouvelle-operation/"
-      ],
-      "report_summaries": [
-        {
-          "url": "https://lanouvelletribune.info/2026/10/mali-les-fama-reprennent-le-controle-de-kidal-le-fla-parle-de-repli-strategique/",
-          "source": "La Nouvelle Tribune (Bénin)",
-          "title": "Mali: the FAMa regain control of Kidal, the Fla speaks of \"strategic withdrawal\"",
-          "summary": "The Front de libération de l 'Azawad (Fla) announced its withdrawal from Kidal in northern Mali on October 6, 2026, as the Malian Armed Forces (FAMa) regained control of the city. The independence movement speaks of a \"strategic and controlled withdrawal\" of its forces in press release No.022/BE/Fla/2026, signed in Kidal by its spokesman, Mohamed Elmaouloud Ramadane .",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "civilian",
-            "armed_group"
-          ],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        },
-        {
-          "url": "https://lanouvelletribune.info/2026/10/mali-apres-la-reprise-de-kidal-les-fama-lancent-une-nouvelle-operation/",
-          "source": "La Nouvelle Tribune (Bénin)",
-          "title": "Mali: after the takeover of Kidal, the FAMa launch a new operation",
-          "summary": "The Malian Armed Forces (FAMa), supported by the Russian Africa Corps, are conducting a sweep operation in southern Kidal, after the city was retaken on October 6. According to the Africa Corps, armed combatants fled in a hurry as troops approached. Indeed, on October 6, the army entered the city of Kidal around 1 p.m., according to Malian security sources .",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "security_force"
-          ],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        }
-      ],
-      "created_at": "2026-10-06T16:41:38.039431Z",
-      "updated_at": "2026-10-08T12:47:17.117104Z",
-      "extraction_confidence": "low",
-      "victim_categories": [
-        "civilian",
-        "armed_group",
-        "security_force"
-      ],
-      "civilian_targeting_flag": false,
-      "casualty_claims": [],
-      "fatalities_min": null,
-      "fatalities_max": null,
-      "fatalities_best": null,
-      "injured_min": null,
-      "injured_max": null,
-      "abducted_min": null,
-      "abducted_max": null,
-      "casualty_disputed": false,
-      "revision_history": [
-        {
-          "at": "2026-10-06T16:41:38.039431Z",
-          "type": "event_created",
-          "source": "La Nouvelle Tribune (Bénin)"
-        },
-        {
-          "at": "2026-10-08T12:47:17.117104Z",
-          "type": "corroboration_or_geography_update",
-          "source": "La Nouvelle Tribune (Bénin)"
-        }
-      ],
-      "corroboration": "single-source",
-      "confidence": "low",
-      "independent_source_domains": [
-        "lanouvelletribune.info"
-      ],
-      "independent_source_count": 1,
-      "significance": "MAJOR",
-      "significance_reasons": [
-        "multi-location activity"
-      ]
-    },
-    {
-      "id": "5867848d4b5da7327585c7e815e846df4621dd16",
-      "event_date": "2026-10-06",
-      "event_date_confidence": "explicit-text",
-      "event_date_source": "relative-weekday",
-      "published_at": "2026-10-07T05:10:00Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-07T08:40:55.513437Z",
-      "actor": "State",
-      "perpetrator": "State",
-      "target": null,
-      "claimant": null,
-      "supporting_force": null,
-      "mentioned_actors": [
-        "State"
-      ],
-      "parent_report_id": null,
-      "event_type": "security operation",
-      "country": "Mali",
-      "city": "Kidal",
-      "lat": 18.4411,
-      "lng": 1.4078,
-      "locations": [
-        {
-          "name": "Kidal",
-          "country": "Mali",
-          "lat": 18.4411,
-          "lng": 1.4078,
-          "confidence": "explicit-place"
-        },
-        {
-          "name": "Gao",
-          "country": "Mali",
-          "lat": 16.2717,
-          "lng": -0.0447,
-          "confidence": "explicit-place"
-        },
-        {
-          "name": "Anéfis",
-          "country": "Mali",
-          "lat": 18.0667,
-          "lng": 0.6167,
-          "confidence": "explicit-place"
-        },
-        {
-          "name": "Bamako",
-          "country": "Mali",
-          "lat": 12.6392,
-          "lng": -8.0029,
-          "confidence": "explicit-place"
-        },
-        {
-          "name": "Tessalit",
-          "country": "Mali",
-          "lat": 20.2,
-          "lng": 1.0,
-          "confidence": "explicit-place"
-        }
-      ],
-      "title": "The Malian army has regained possession of Kidal",
-      "summary": "Bamako, October 7 (AMAP)– The Malian Armed Forces (FAMa), supported by their partners, destroyed several positions of armed terrorist groups as part of Operation Dougoukoloko on Wednesday by conducting air-land operations in Talhandak, Kidal and Tessalit, the General Staff of the Armed Forces announced. In the Eastern Theater, the operations made it possible to neutralize, in Talhandak, terrorist elements .",
-      "sources": [
-        "Mondafrique",
-        "AMAP (Agence Malienne de Presse et de Publicité)"
-      ],
-      "languages": [
-        "fr"
-      ],
-      "source_count": 2,
-      "report_urls": [
-        "https://mondafrique.com/politique/larmee-malienne-a-repris-possession-de-kidal/",
-        "https://amap.ml/2026/10/08/talhandak-kidal-et-a-tessalit-les-fama-detruisent-des-positions-de-groupes-armes-terroristes/"
-      ],
-      "report_summaries": [
-        {
-          "url": "https://mondafrique.com/politique/larmee-malienne-a-repris-possession-de-kidal/",
-          "source": "Mondafrique",
-          "title": "The Malian army has regained possession of Kidal",
-          "summary": "After airstrikes in recent days in the Kidal region, an impressive land convoy from Gao, then Anefis, entered the Tuareg rebel stronghold on Tuesday afternoon, without encountering resistance. The Azawad Liberation Front (Fla), which had held the city since April 26, withdrew in front of the advance of the column .",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "civilian",
-            "armed_group"
-          ],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        },
-        {
-          "url": "https://amap.ml/2026/10/08/talhandak-kidal-et-a-tessalit-les-fama-detruisent-des-positions-de-groupes-armes-terroristes/",
-          "source": "AMAP (Agence Malienne de Presse et de Publicité)",
-          "title": "Talhandak, Kidal and Tessalit: FAMa destroy positions of armed terrorist groups",
-          "summary": "Bamako, October 7 (AMAP)– The Malian Armed Forces (FAMa), supported by their partners, destroyed several positions of armed terrorist groups as part of Operation Dougoukoloko on Wednesday by conducting air-land operations in Talhandak, Kidal and Tessalit, the General Staff of the Armed Forces announced. In the Eastern Theater, the operations made it possible to neutralize, in Talhandak, terrorist elements .",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "armed_group"
-          ],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        }
-      ],
-      "created_at": "2026-10-07T08:40:55.513437Z",
-      "updated_at": "2026-10-08T00:49:14.261302Z",
-      "extraction_confidence": "low",
-      "victim_categories": [
-        "civilian",
-        "armed_group"
-      ],
-      "civilian_targeting_flag": false,
-      "casualty_claims": [],
-      "fatalities_min": null,
-      "fatalities_max": null,
-      "fatalities_best": null,
-      "injured_min": null,
-      "injured_max": null,
-      "abducted_min": null,
-      "abducted_max": null,
-      "casualty_disputed": false,
-      "revision_history": [
-        {
-          "at": "2026-10-07T08:40:55.513437Z",
-          "type": "event_created",
-          "source": "Mondafrique"
-        },
-        {
-          "at": "2026-10-08T00:49:14.261302Z",
-          "type": "corroboration_or_geography_update",
-          "source": "AMAP (Agence Malienne de Presse et de Publicité)"
-        }
-      ],
-      "corroboration": "limited corroboration",
-      "confidence": "moderate",
-      "independent_source_domains": [
-        "mondafrique.com",
-        "amap.ml"
-      ],
-      "independent_source_count": 2,
-      "significance": "MAJOR",
-      "significance_reasons": [
-        "strategic/severe event pattern",
-        "multi-location activity"
-      ]
     }
   ],
   "latest_reports": [
+    {
+      "published_at": "2026-10-17T23:50:36Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-18T01:04:33.600030Z",
+      "discovered_at": "2026-10-18T01:04:33.600030Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0092",
+      "source": "La Nouvelle Tribune (Bénin)",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Bamako",
+      "event_type": "security operation",
+      "candidate_event": true,
+      "title": "Mali: the army announces that it hit two bases on the same day, localized war material",
+      "url": "https://lanouvelletribune.info/2026/10/mali-larmee-annonce-avoir-frappe-deux-bases-le-meme-jour-du-materiel-de-guerre-localise/"
+    },
+    {
+      "published_at": "2026-10-17T23:13:55Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-18T01:04:33.263788Z",
+      "discovered_at": "2026-10-18T01:04:33.263788Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0006",
+      "source": "Malijet",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Ménaka",
+      "event_type": "security operation",
+      "candidate_event": true,
+      "title": "Operation Dougoukoloko: two terrorist bases targeted near Diafarabé and Menaka",
+      "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312379-operation-dougoukoloko-deux-bases-terroristes-ciblees-pres.html"
+    },
+    {
+      "published_at": "2026-10-17T20:05:16Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-18T01:04:34.486105Z",
+      "discovered_at": "2026-10-18T01:04:34.486105Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0008",
+      "source": "Bamada",
+      "language": "fr",
+      "actor": "State",
+      "country": "Niger",
+      "city": null,
+      "event_type": null,
+      "candidate_event": false,
+      "title": "SCHOOL OF NON-COMMISSIONED OFFICERS OF BANANKORO: a new generation of military executives in the service of the nation",
+      "url": "https://bamada.net/ecole-des-sous-officiers-de-banankoro-une-nouvelle-generation-de-cadres-militaires-au-service-de-la-nation"
+    },
     {
       "published_at": "2026-10-17T16:50:11Z",
       "published_date_source": "jsonld:datePublished",
@@ -4410,60 +4366,6 @@
       "candidate_event": true,
       "title": "NIS vows justice after officer killed in Niger attack",
       "url": "https://www.vanguardngr.com/2026/10/nis-vows-justice-after-officer-killed-in-niger-attack/"
-    },
-    {
-      "published_at": "2026-10-15T12:00:00Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-15T13:08:28.287722Z",
-      "discovered_at": "2026-10-15T13:08:28.287722Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0047",
-      "source": "The Africa Report",
-      "language": "en",
-      "actor": "State",
-      "country": "Burkina Faso",
-      "city": null,
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Burkina Faso’s junta lays claim to Thomas Sankara’s legacy",
-      "url": "https://www.theafricareport.com/433645/burkina-fasos-junta-lays-claim-to-thomas-sankaras-legacy/"
-    },
-    {
-      "published_at": "2026-10-15T11:17:07Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-15T13:08:29.706682Z",
-      "discovered_at": "2026-10-15T13:08:29.706682Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0014",
-      "source": "Agence Nigérienne de Presse",
-      "language": "fr",
-      "actor": null,
-      "country": "Niger",
-      "city": "Agadez",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "AGADEZ: Regional Security Council meeting extended to members of the National Commission for the Collection and Control of Illicit Weapons",
-      "url": "https://anp.ne/agadez-reunion-du-conseil-regional-de-securite-elargie-aux-membres-de-la-commission-nationale-pour-la-collecte-et-le-controle-des-armes-illicites/"
-    },
-    {
-      "published_at": "2026-10-15T10:29:07Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-15T13:08:28.242113Z",
-      "discovered_at": "2026-10-15T13:08:28.242113Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0008",
-      "source": "Bamada",
-      "language": "fr",
-      "actor": null,
-      "country": "Mali",
-      "city": null,
-      "event_type": "kidnapping",
-      "candidate_event": false,
-      "title": "Between Us: No one is safe",
-      "url": "https://bamada.net/entre-nous-nul-nest-a-labri"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
