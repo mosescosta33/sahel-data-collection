@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "site_patch_version": "3.3.5",
-  "generated_at": "2026-10-18T12:57:33.569937Z",
+  "generated_at": "2026-10-18T16:50:47.245365Z",
   "active_limit": 33,
   "total_briefings": 271,
   "active_count": 33,
@@ -11,7 +11,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-18",
-      "generated_at": "2026-10-18T12:57:32.578547Z",
+      "generated_at": "2026-10-18T16:50:46.355040Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -23,17 +23,17 @@
         "events_occurring_on_date": 0,
         "records_held_for_review": 0,
         "multi_source_events": 0,
-        "reports_collected_on_date": 3,
-        "reports_published_on_date": 2,
+        "reports_collected_on_date": 4,
+        "reports_published_on_date": 3,
         "newly_discovered_older_events": 0,
         "events_awaiting_date_verification": 0,
-        "distinct_sources_collected": 2
+        "distinct_sources_collected": 3
       },
-      "executive_assessment": "Reporting collected on 2026-10-18 does not yet support a clear account of a new incident in Mali, Burkina Faso, or Niger. The desk received 3 reports from 2 sources, but the automated incident record needs further review. This is not evidence of calm on the ground.",
+      "executive_assessment": "Reporting collected on 2026-10-18 does not yet support a clear account of a new incident in Mali, Burkina Faso, or Niger. The desk received 4 reports from 3 sources, but the automated incident record needs further review. This is not evidence of calm on the ground.",
       "briefing_sections": [
         {
           "heading": "Assessment",
-          "text": "Reporting collected on 2026-10-18 does not yet support a clear account of a new incident in Mali, Burkina Faso, or Niger. The desk received 3 reports from 2 sources, but the automated incident record needs further review. This is not evidence of calm on the ground."
+          "text": "Reporting collected on 2026-10-18 does not yet support a clear account of a new incident in Mali, Burkina Faso, or Niger. The desk received 4 reports from 3 sources, but the automated incident record needs further review. This is not evidence of calm on the ground."
         },
         {
           "heading": "Mali",
@@ -45,7 +45,7 @@
         },
         {
           "heading": "Niger",
-          "text": "No retained Niger report is recorded for this collection date. 0 fused candidate events currently carry this event date."
+          "text": "1 retained report were collected for Niger. 0 fused candidate events currently carry this reporting date. Image Published on October 18, 2026 Africa Niger: the shortage of gasoline extends to the capital Niamey…: Motorcyclists queue at a gas station in Niamey, October 18, 2026 in Niger The fuel shortage affecting several Nigerian cities has reached the capital Niamey where queues lie in front of the gas stations on Sunday. Niger has…"
         },
         {
           "heading": "What remains unclear",
@@ -58,7 +58,7 @@
       "significant_events": [],
       "what_changed_since_yesterday": [
         "State: -2 same-day fused event(s) versus 2026-10-17 (2 → 0).",
-        "Collection volume: -10 retained report(s) versus 2026-10-17 (13 → 3)."
+        "Collection volume: -9 retained report(s) versus 2026-10-17 (13 → 4)."
       ],
       "emerging_patterns": [
         "JNIM 7-day activity is lower than the preceding 7-day window (2 → 1).",
@@ -80,7 +80,7 @@
       "country_reporting_counts": {
         "Mali": 3,
         "Burkina Faso": 0,
-        "Niger": 0
+        "Niger": 1
       },
       "actor_profiles": {
         "JNIM": {
@@ -133,7 +133,7 @@
         },
         "Niger": {
           "events": 0,
-          "reports_collected": 0,
+          "reports_collected": 1,
           "actor_counts": {
             "JNIM": 0,
             "IS Sahel": 0,
@@ -174,18 +174,28 @@
           }
         ],
         "Burkina Faso": [],
-        "Niger": []
+        "Niger": [
+          {
+            "id": "5f074ce5b0b027a6799ebcd7536dd40eac83d7f4",
+            "source": "TV5MONDE Afrique",
+            "title": "Image Published on October 18, 2026 Africa Niger: the shortage of gasoline extends to the capital Niamey The shortage of gasoline that affects several cities in Niger has reached the capital Niamey where queues lie on Sunday in front of the stations...",
+            "summary": "Motorcyclists queue at a gas station in Niamey, October 18, 2026 in Niger The fuel shortage affecting several Nigerian cities has reached the capital Niamey where queues lie in front of the gas stations on Sunday. Niger has been ruled since July 2023 by a military regime that advocates sovereignty, particularly over the country's mineral resources, which is notably an oil producer .",
+            "url": "https://information.tv5monde.com/afrique/niger-la-penurie-dessence-setend-la-capitale-niamey-2842204",
+            "candidate_event": false,
+            "event_date": "2026-10-18"
+          }
+        ]
       },
       "collection_notes": {
         "sources_total": 184,
         "sources_success": 154,
         "sources_failed": 30,
         "sources_degraded": 18,
-        "documents_discovered": 11206,
-        "documents_retained": 3,
+        "documents_discovered": 11382,
+        "documents_retained": 1,
         "report_target": 100,
-        "translations_attempted": 3,
-        "translations_success": 3,
+        "translations_attempted": 1,
+        "translations_success": 1,
         "translation_failures": 0,
         "collection_confidence": "LOW",
         "collection_confidence_reasons": [
@@ -193,20 +203,20 @@
           "30 failed source paths",
           "18 degraded / 30 failed of 184 configured sources"
         ],
-        "reports_collected": 3,
-        "reports_published": 2,
-        "distinct_sources_collected": 2,
+        "reports_collected": 4,
+        "reports_published": 3,
+        "distinct_sources_collected": 3,
         "language_counts": {
-          "fr": 3
+          "fr": 4
         }
       },
-      "sultana_daily_text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nDaily bottom line for 2026-10-18: Reporting collected on 2026-10-18 does not yet support a clear account of a new incident in Mali, Burkina Faso, or Niger. The desk received 3 reports from 2 sources, but the automated incident record needs further review. This is not evidence of calm on the ground.\n\nMali: 3 retained reports. 1. Operation Dougoukoloko: The FAMa strike two important terrorist bases in Diafarabé and Menaka. The General Staff of the Armed Forces informs the national opinion that the Malian Armed Forces (FAMa), supported by their partners, are continuing the permanent operations of surveillance, control and security of the national territory as part of Operation Dougoukoloko This Saturday, October 17, 2026, the exploitation of precise intelligence made it possible to locate, 40 km north-east of the city of Diafarabé, a major base housing several terrorist elements as well as war and logistics equipment. 2. Mali: Prayer Sessions and Sacrifices in Kati in Memory of Civilian and Military Casualties. PRAYER AND SACRIFICE IN MEMORY OF CIVILIAN and MILITARY VICTIMS This Sunday, October 18, 2026, in Kati, the Minister of Religious Affairs, Worship and Customs, Dr. Mahamadou KONE, took part in a prayer and sacrifice session organized by the military hierarchy in memory of the civilian and military victims of the crisis in our country . The ceremony took place in the presence of Major General Oumar DIARRA, Minister Delegate to the Minister of Defence, military leaders and the families of the victims, gathered for this moment of meditation, solidarity and spiritual communion . 3. Operation Dougoukoloko: FAMa strikes two bases housing terrorist groups in Diarafabé and Menaka. Bamako, October 18 (AMAP) The Malian Armed Forces (FAMa), supported by their partners, successfully carried out, on Saturday, October 17, 2026, strikes against two bases housing terrorist elements and war and logistics equipment, as part of Operation Dougoukoloko, announced the General Staff of the Armed Forces . According to the press release, the exploitation of precise information made it possible to locate a large base about 40 km northeast of the city of Diafarabé.\n\nBurkina Faso: 0 retained reports. No retained country-specific reports were collected for this desk date.\n\nNiger: 0 retained reports. No retained country-specific reports were collected for this desk date.\n\nActor picture: no same-day fused candidate events.\n\nWhat changed: State: -2 same-day fused event(s) versus 2026-10-17 (2 → 0). Collection volume: -10 retained report(s) versus 2026-10-17 (13 → 3).\n\nIntelligence gaps: Collection confidence is low, so absence of reporting should not be interpreted as absence of activity.\n\nCollection confidence: LOW. 154/184 source paths reached 30 failed source paths 18 degraded / 30 failed of 184 configured sources\n\nAll retained source reports, including reports not promoted to the map, remain individually summarized in the intelligence feed and source records."
+      "sultana_daily_text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nDaily bottom line for 2026-10-18: Reporting collected on 2026-10-18 does not yet support a clear account of a new incident in Mali, Burkina Faso, or Niger. The desk received 4 reports from 3 sources, but the automated incident record needs further review. This is not evidence of calm on the ground.\n\nMali: 3 retained reports. 1. Operation Dougoukoloko: The FAMa strike two important terrorist bases in Diafarabé and Menaka. The General Staff of the Armed Forces informs the national opinion that the Malian Armed Forces (FAMa), supported by their partners, are continuing the permanent operations of surveillance, control and security of the national territory as part of Operation Dougoukoloko This Saturday, October 17, 2026, the exploitation of precise intelligence made it possible to locate, 40 km north-east of the city of Diafarabé, a major base housing several terrorist elements as well as war and logistics equipment. 2. Mali: Prayer Sessions and Sacrifices in Kati in Memory of Civilian and Military Casualties. PRAYER AND SACRIFICE IN MEMORY OF CIVILIAN and MILITARY VICTIMS This Sunday, October 18, 2026, in Kati, the Minister of Religious Affairs, Worship and Customs, Dr. Mahamadou KONE, took part in a prayer and sacrifice session organized by the military hierarchy in memory of the civilian and military victims of the crisis in our country . The ceremony took place in the presence of Major General Oumar DIARRA, Minister Delegate to the Minister of Defence, military leaders and the families of the victims, gathered for this moment of meditation, solidarity and spiritual communion . 3. Operation Dougoukoloko: FAMa strikes two bases housing terrorist groups in Diarafabé and Menaka. Bamako, October 18 (AMAP) The Malian Armed Forces (FAMa), supported by their partners, successfully carried out, on Saturday, October 17, 2026, strikes against two bases housing terrorist elements and war and logistics equipment, as part of Operation Dougoukoloko, announced the General Staff of the Armed Forces . According to the press release, the exploitation of precise information made it possible to locate a large base about 40 km northeast of the city of Diafarabé.\n\nBurkina Faso: 0 retained reports. No retained country-specific reports were collected for this desk date.\n\nNiger: 1 retained report. 1. Image Published on October 18, 2026 Africa Niger: the shortage of gasoline extends to the capital Niamey The shortage of gasoline that affects several cities in Niger has reached the capital Niamey where queues lie on Sunday in front of the stations.... Motorcyclists queue at a gas station in Niamey, October 18, 2026 in Niger The fuel shortage affecting several Nigerian cities has reached the capital Niamey where queues lie in front of the gas stations on Sunday. Niger has been ruled since July 2023 by a military regime that advocates sovereignty, particularly over the country's mineral resources, which is notably an oil producer .\n\nActor picture: no same-day fused candidate events.\n\nWhat changed: State: -2 same-day fused event(s) versus 2026-10-17 (2 → 0). Collection volume: -9 retained report(s) versus 2026-10-17 (13 → 4).\n\nIntelligence gaps: Collection confidence is low, so absence of reporting should not be interpreted as absence of activity.\n\nCollection confidence: LOW. 154/184 source paths reached 30 failed source paths 18 degraded / 30 failed of 184 configured sources\n\nAll retained source reports, including reports not promoted to the map, remain individually summarized in the intelligence feed and source records."
     },
     {
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-17",
-      "generated_at": "2026-10-18T12:57:33.181411Z",
+      "generated_at": "2026-10-18T16:50:46.986604Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -581,7 +591,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-16",
-      "generated_at": "2026-10-18T12:57:33.470434Z",
+      "generated_at": "2026-10-18T16:50:47.211685Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -844,7 +854,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-15",
-      "generated_at": "2026-10-18T12:57:33.059822Z",
+      "generated_at": "2026-10-18T16:50:46.323366Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -1289,7 +1299,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-14",
-      "generated_at": "2026-10-18T12:57:32.298712Z",
+      "generated_at": "2026-10-18T16:50:46.725674Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -1767,7 +1777,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-13",
-      "generated_at": "2026-10-18T12:57:33.520188Z",
+      "generated_at": "2026-10-18T16:50:46.680384Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -2098,7 +2108,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-12",
-      "generated_at": "2026-10-18T12:57:33.176334Z",
+      "generated_at": "2026-10-18T16:50:46.691704Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -2476,7 +2486,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-11",
-      "generated_at": "2026-10-18T12:57:33.030415Z",
+      "generated_at": "2026-10-18T16:50:46.900379Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -2813,7 +2823,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-10",
-      "generated_at": "2026-10-18T12:57:32.658863Z",
+      "generated_at": "2026-10-18T16:50:46.904316Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -3210,7 +3220,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-09",
-      "generated_at": "2026-10-18T12:57:33.228162Z",
+      "generated_at": "2026-10-18T16:50:46.175627Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -3695,7 +3705,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-08",
-      "generated_at": "2026-10-18T12:57:32.494222Z",
+      "generated_at": "2026-10-18T16:50:46.260746Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -4234,7 +4244,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-07",
-      "generated_at": "2026-10-18T12:57:33.252371Z",
+      "generated_at": "2026-10-18T16:50:46.927297Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -4773,7 +4783,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-06",
-      "generated_at": "2026-10-18T12:57:33.075778Z",
+      "generated_at": "2026-10-18T16:50:46.330806Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -5681,7 +5691,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-05",
-      "generated_at": "2026-10-18T12:57:32.489034Z",
+      "generated_at": "2026-10-18T16:50:47.016959Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -6339,7 +6349,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-04",
-      "generated_at": "2026-10-18T12:57:32.699152Z",
+      "generated_at": "2026-10-18T16:50:46.206304Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -6948,7 +6958,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-03",
-      "generated_at": "2026-10-18T12:57:32.916416Z",
+      "generated_at": "2026-10-18T16:50:46.419479Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -7435,7 +7445,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-02",
-      "generated_at": "2026-10-18T12:57:32.115730Z",
+      "generated_at": "2026-10-18T16:50:47.094994Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -7675,7 +7685,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-01",
-      "generated_at": "2026-10-18T12:57:32.438778Z",
+      "generated_at": "2026-10-18T16:50:47.001748Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -8223,7 +8233,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-30",
-      "generated_at": "2026-10-18T12:57:32.473763Z",
+      "generated_at": "2026-10-18T16:50:47.163236Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -9367,7 +9377,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-29",
-      "generated_at": "2026-10-18T12:57:32.665126Z",
+      "generated_at": "2026-10-18T16:50:46.650316Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -9692,7 +9702,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-28",
-      "generated_at": "2026-10-18T12:57:32.738445Z",
+      "generated_at": "2026-10-18T16:50:47.136630Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -10171,7 +10181,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-27",
-      "generated_at": "2026-10-18T12:57:32.076106Z",
+      "generated_at": "2026-10-18T16:50:46.366387Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -10524,7 +10534,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-26",
-      "generated_at": "2026-10-18T12:57:33.564872Z",
+      "generated_at": "2026-10-18T16:50:46.295585Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -10772,7 +10782,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-25",
-      "generated_at": "2026-10-18T12:57:33.414916Z",
+      "generated_at": "2026-10-18T16:50:46.833896Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -11124,7 +11134,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-24",
-      "generated_at": "2026-10-18T12:57:32.633160Z",
+      "generated_at": "2026-10-18T16:50:46.198318Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -11486,7 +11496,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-23",
-      "generated_at": "2026-10-18T12:57:32.483817Z",
+      "generated_at": "2026-10-18T16:50:46.455017Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -11797,7 +11807,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-22",
-      "generated_at": "2026-10-18T12:57:33.465336Z",
+      "generated_at": "2026-10-18T16:50:46.202350Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -12755,7 +12765,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-21",
-      "generated_at": "2026-10-18T12:57:32.653659Z",
+      "generated_at": "2026-10-18T16:50:47.241511Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -13273,7 +13283,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-20",
-      "generated_at": "2026-10-18T12:57:33.430651Z",
+      "generated_at": "2026-10-18T16:50:46.462601Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -13917,7 +13927,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-19",
-      "generated_at": "2026-10-18T12:57:33.409856Z",
+      "generated_at": "2026-10-18T16:50:46.496300Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -14572,7 +14582,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-18",
-      "generated_at": "2026-10-18T12:57:33.544861Z",
+      "generated_at": "2026-10-18T16:50:46.358706Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -14735,7 +14745,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-17",
-      "generated_at": "2026-10-18T12:57:33.505262Z",
+      "generated_at": "2026-10-18T16:50:46.885356Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -14998,7 +15008,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-16",
-      "generated_at": "2026-10-18T12:57:33.384714Z",
+      "generated_at": "2026-10-18T16:50:46.631067Z",
       "coverage": [
         "Mali",
         "Burkina Faso",

@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-18T12:57:31.139610Z",
+  "generated_at": "2026-10-18T16:50:45.427731Z",
   "window_days": 30,
   "cutoff": "2026-09-18",
-  "reports": 484,
+  "reports": 480,
   "incident_reports": 115,
   "candidate_events": 82,
   "corroborated_events": 21,
@@ -30,8 +30,8 @@
     "raid": 1
   },
   "by_language": {
-    "fr": 372,
-    "en": 85,
+    "fr": 369,
+    "en": 84,
     "ar": 27
   },
   "by_confidence": {
@@ -84,11 +84,6 @@
     {
       "source_code": "SRC-0012",
       "source": "Sidwaya",
-      "count": 13
-    },
-    {
-      "source_code": "SRC-0014",
-      "source": "Agence Nigérienne de Presse",
       "count": 12
     },
     {
@@ -99,6 +94,11 @@
     {
       "source_code": "SRC-0004",
       "source": "Studio Tamani",
+      "count": 11
+    },
+    {
+      "source_code": "SRC-0014",
+      "source": "Agence Nigérienne de Presse",
       "count": 11
     }
   ],
@@ -300,7 +300,7 @@
     },
     {
       "date": "2026-10-18",
-      "reports": 2,
+      "reports": 3,
       "events": 0
     }
   ],
@@ -3709,6 +3709,24 @@
   ],
   "latest_reports": [
     {
+      "published_at": "2026-10-18T14:41:36Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-18T16:50:07.895087Z",
+      "discovered_at": "2026-10-18T16:50:07.895087Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0034",
+      "source": "TV5MONDE Afrique",
+      "language": "fr",
+      "actor": null,
+      "country": "Niger",
+      "city": "Niamey",
+      "event_type": "raid",
+      "candidate_event": false,
+      "title": "Image Published on October 18, 2026 Africa Niger: the shortage of gasoline extends to the capital Niamey The shortage of gasoline that affects several cities in Niger has reached the capital Niamey where queues lie on Sunday in front of the stations...",
+      "url": "https://information.tv5monde.com/afrique/niger-la-penurie-dessence-setend-la-capitale-niamey-2842204"
+    },
+    {
       "published_at": "2026-10-18T12:02:02Z",
       "published_date_source": "feed",
       "published_time_precision": "datetime",
@@ -4409,24 +4427,6 @@
       "candidate_event": false,
       "title": "Black October in Mali: when fear replaces solidarity",
       "url": "https://malijet.com/editorial/312336-octobre-noir-au-mali-quand-la-peur-remplace-la-solidarite.html"
-    },
-    {
-      "published_at": "2026-10-15T12:57:52Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-15T13:08:29.440809Z",
-      "discovered_at": "2026-10-15T13:08:29.440809Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0014",
-      "source": "Agence Nigérienne de Presse",
-      "language": "fr",
-      "actor": null,
-      "country": "Niger",
-      "city": "Diffa",
-      "event_type": "security operation",
-      "candidate_event": false,
-      "title": "Diffa: Launch of a yellow fever vaccination campaign for nearly one million people",
-      "url": "https://anp.ne/diffa-lancement-dune-campagne-de-vaccination-contre-la-fievre-jaune-pour-pres-dun-million-de-personnes/"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
