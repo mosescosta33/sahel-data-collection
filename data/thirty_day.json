@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-10-19T18:50:31.172468Z",
+  "generated_at": "2026-10-19T23:51:13.543468Z",
   "window_days": 30,
   "cutoff": "2026-09-19",
-  "reports": 491,
+  "reports": 493,
   "incident_reports": 121,
-  "candidate_events": 91,
-  "corroborated_events": 21,
-  "mapped_events": 76,
-  "mapped_locations": 146,
-  "distinct_sources": 82,
+  "candidate_events": 92,
+  "corroborated_events": 22,
+  "mapped_events": 77,
+  "mapped_locations": 148,
+  "distinct_sources": 81,
   "by_actor": {
     "State": 57,
     "JNIM": 16,
-    "Other": 11,
+    "Other": 12,
     "Africa Corps/Wagner": 7
   },
   "by_country": {
-    "Mali": 83,
+    "Mali": 84,
     "Niger": 5,
     "Burkina Faso": 3
   },
@@ -27,16 +27,16 @@
     "attack": 11,
     "ambush": 3,
     "kidnapping": 3,
-    "raid": 2,
-    "civilian targeting": 1
+    "civilian targeting": 2,
+    "raid": 2
   },
   "by_language": {
-    "fr": 369,
-    "en": 93,
+    "fr": 370,
+    "en": 94,
     "ar": 29
   },
   "by_confidence": {
-    "low": 44,
+    "low": 45,
     "moderate": 40,
     "moderate-high": 6,
     "high": 1
@@ -50,7 +50,7 @@
     {
       "source_code": "SRC-0006",
       "source": "Malijet",
-      "count": 55
+      "count": 56
     },
     {
       "source_code": "SRC-0075",
@@ -60,7 +60,7 @@
     {
       "source_code": "SRC-0001",
       "source": "RFI Afrique",
-      "count": 21
+      "count": 20
     },
     {
       "source_code": "SRC-0090",
@@ -110,7 +110,7 @@
     },
     {
       "location": "Bamako",
-      "count": 17
+      "count": 18
     },
     {
       "location": "Mali",
@@ -141,15 +141,15 @@
       "count": 7
     },
     {
+      "location": "Ménaka",
+      "count": 6
+    },
+    {
       "location": "Sévaré",
       "count": 6
     },
     {
       "location": "Djenné",
-      "count": 5
-    },
-    {
-      "location": "Mopti",
       "count": 5
     }
   ],
@@ -301,11 +301,133 @@
     },
     {
       "date": "2026-10-19",
-      "reports": 23,
-      "events": 7
+      "reports": 30,
+      "events": 8
     }
   ],
   "latest_events": [
+    {
+      "id": "64d46bb68f014b54932b8177bbc19c2fba957074",
+      "event_date": "2026-10-19",
+      "event_date_confidence": "explicit-text",
+      "event_date_source": "relative-weekday",
+      "published_at": "2026-10-19T21:49:51Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-19T23:49:56.977933Z",
+      "actor": "Other",
+      "perpetrator": null,
+      "target": null,
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [],
+      "parent_report_id": null,
+      "event_type": "civilian targeting",
+      "country": "Mali",
+      "city": "Ménaka",
+      "lat": 15.9182,
+      "lng": 2.4022,
+      "locations": [
+        {
+          "name": "Ménaka",
+          "country": "Mali",
+          "lat": 15.9182,
+          "lng": 2.4022,
+          "confidence": "explicit-place"
+        },
+        {
+          "name": "Bamako",
+          "country": "Mali",
+          "lat": 12.6392,
+          "lng": -8.0029,
+          "confidence": "explicit-place"
+        }
+      ],
+      "title": "Mali: more than forty civilians killed Sunday by armed men",
+      "summary": "Several camps belonging mainly to the Daoussahak community, from which the armed movement \"Movement for the Salvation of Azawad\" (MSA) came, were targeted . Skip the ad Skip the adMore than forty civilians were killed on Sunday in attacks by armed men in the Menaka region of northeastern Mali, causing population displacement, several security, local and community sources reported on Monday.",
+      "sources": [
+        "Le Figaro (Section Afrique)"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://www.lefigaro.fr/flash-actu/mali-plus-de-quarante-civils-tues-dimanche-par-des-hommes-armes-20261019"
+      ],
+      "report_summaries": [
+        {
+          "url": "https://www.lefigaro.fr/flash-actu/mali-plus-de-quarante-civils-tues-dimanche-par-des-hommes-armes-20261019",
+          "source": "Le Figaro (Section Afrique)",
+          "title": "Mali: more than forty civilians killed Sunday by armed men",
+          "summary": "Several camps belonging mainly to the Daoussahak community, from which the armed movement \"Movement for the Salvation of Azawad\" (MSA) came, were targeted . Skip the ad Skip the adMore than forty civilians were killed on Sunday in attacks by armed men in the Menaka region of northeastern Mali, causing population displacement, several security, local and community sources reported on Monday.",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": 40,
+          "fatalities_max": 40,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "civilian"
+          ],
+          "civilian_targeting_flag": true,
+          "casualty_claims": [
+            {
+              "kind": "fatalities",
+              "count": 40,
+              "victim_text": "civilians",
+              "claimant": "Le Figaro (Section Afrique)",
+              "status": "reported",
+              "evidence": "Mali: more than forty civilians killed Sunday by armed men Mali: more than forty civilians killed Sunday by armed men Several camps belong"
+            }
+          ]
+        }
+      ],
+      "created_at": "2026-10-19T23:49:56.977933Z",
+      "updated_at": "2026-10-19T23:49:56.977933Z",
+      "extraction_confidence": "low",
+      "victim_categories": [
+        "civilian"
+      ],
+      "civilian_targeting_flag": true,
+      "casualty_claims": [
+        {
+          "kind": "fatalities",
+          "count": 40,
+          "victim_text": "civilians",
+          "claimant": "Le Figaro (Section Afrique)",
+          "status": "reported",
+          "evidence": "Mali: more than forty civilians killed Sunday by armed men Mali: more than forty civilians killed Sunday by armed men Several camps belong",
+          "source": "Le Figaro (Section Afrique)"
+        }
+      ],
+      "fatalities_min": 40,
+      "fatalities_max": 40,
+      "fatalities_best": 40,
+      "injured_min": null,
+      "injured_max": null,
+      "abducted_min": null,
+      "abducted_max": null,
+      "casualty_disputed": false,
+      "revision_history": [
+        {
+          "at": "2026-10-19T23:49:56.977933Z",
+          "type": "event_created",
+          "source": "Le Figaro (Section Afrique)"
+        }
+      ],
+      "corroboration": "single-source",
+      "confidence": "low",
+      "independent_source_domains": [
+        "lefigaro.fr"
+      ],
+      "independent_source_count": 1,
+      "significance": "MAJOR",
+      "significance_reasons": [
+        "multi-location activity"
+      ]
+    },
     {
       "id": "6cd56dd5769139d7187a5ecb3ffbe9c8b910490a",
       "event_date": "2026-10-19",
@@ -1117,7 +1239,7 @@
       "collected_at": "2026-10-19T18:48:50.914955Z",
       "actor": "State",
       "perpetrator": "State",
-      "target": null,
+      "target": "State",
       "claimant": null,
       "supporting_force": null,
       "mentioned_actors": [
@@ -1148,14 +1270,16 @@
       "title": "Fighting insecurity: FAMa strike at the heart of terrorist networks in the centre and north of the country",
       "summary": "The General Staff of the Armed Forces informs the national opinion that the Malian Armed Forces (FAMa), supported by their partners, are continuing the permanent operations of surveillance, control and security of the national territory as part of Operation Dougoukoloko . On Saturday, October 17, 2026, the exploitation of precise intelligence made it possible to locate, 65 km southwest of the city of Menaka, a large base housing several terrorist elements as well as war and logistics equipment.",
       "sources": [
-        "Bamada"
+        "Bamada",
+        "Malijet"
       ],
       "languages": [
         "fr"
       ],
-      "source_count": 1,
+      "source_count": 2,
       "report_urls": [
-        "https://bamada.net/lutte-contre-linsecurite-les-fama-frappent-au-coeur-des-reseaux-terroristes-dans-le-centre-et-le-nord-du-pays"
+        "https://bamada.net/lutte-contre-linsecurite-les-fama-frappent-au-coeur-des-reseaux-terroristes-dans-le-centre-et-le-nord-du-pays",
+        "https://malijet.com/actualte_dans_les_regions_du_mali/312415-operation-dougoukoloko-les-fama-frappent-deux-positions-de.html"
       ],
       "report_summaries": [
         {
@@ -1175,10 +1299,26 @@
           ],
           "civilian_targeting_flag": false,
           "casualty_claims": []
+        },
+        {
+          "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312415-operation-dougoukoloko-les-fama-frappent-deux-positions-de.html",
+          "source": "Malijet",
+          "title": "Operation Dougoukoloko: the FAMa strike two positions of armed groups in Menaka and Douentza",
+          "summary": "The Malian Armed Forces (FAMa), supported by their partners, carried out strikes against two positions of armed groups in the Menaka and Douentza sectors on 17 and 18 October 2026, as part of Operation Dougoukoloko, according to the General Staff of the Armed Forces . On Saturday, October 17, a base housing armed elements as well as war and logistics equipment was located about 65 km southwest of Menaka, thanks to intelligence.",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [],
+          "civilian_targeting_flag": false,
+          "casualty_claims": []
         }
       ],
       "created_at": "2026-10-19T18:48:50.914955Z",
-      "updated_at": "2026-10-19T18:48:50.914955Z",
+      "updated_at": "2026-10-19T23:49:57.385873Z",
       "extraction_confidence": "moderate",
       "victim_categories": [
         "armed_group"
@@ -1198,14 +1338,20 @@
           "at": "2026-10-19T18:48:50.914955Z",
           "type": "event_created",
           "source": "Bamada"
+        },
+        {
+          "at": "2026-10-19T23:49:57.385873Z",
+          "type": "corroboration_or_geography_update",
+          "source": "Malijet"
         }
       ],
-      "corroboration": "single-source",
+      "corroboration": "limited corroboration",
       "confidence": "moderate",
       "independent_source_domains": [
-        "bamada.net"
+        "bamada.net",
+        "malijet.com"
       ],
-      "independent_source_count": 1,
+      "independent_source_count": 2,
       "significance": "MAJOR",
       "significance_reasons": [
         "strategic/severe event pattern",
@@ -3452,110 +3598,117 @@
       "significance_reasons": [
         "operational security event"
       ]
-    },
-    {
-      "id": "22c8632729f7c297af51c50d805cad2de5a491b9",
-      "event_date": "2026-10-09",
-      "event_date_confidence": "publication-proxy",
-      "event_date_source": "jsonld:datePublished",
-      "published_at": "2026-10-09T16:57:25Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-09T20:37:29.790359Z",
-      "actor": "Africa Corps/Wagner",
-      "perpetrator": "Africa Corps/Wagner",
-      "target": null,
-      "claimant": null,
-      "supporting_force": null,
-      "mentioned_actors": [
-        "Africa Corps/Wagner",
-        "JNIM"
-      ],
-      "parent_report_id": null,
-      "event_type": "security operation",
-      "country": "Mali",
-      "city": "Kidal",
-      "lat": 18.4411,
-      "lng": 1.4078,
-      "locations": [
-        {
-          "name": "Kidal",
-          "country": "Mali",
-          "lat": 18.4411,
-          "lng": 1.4078,
-          "confidence": "explicit-place"
-        }
-      ],
-      "title": "Mali: In Kidal, soldiers outnumber locals",
-      "summary": "Mali: in Kidal, the soldiers outnumber the inhabitants Three days after their return to Kidal, the Malian soldiers and their Russian partners of the Africa Corps secure the city and its surroundings. The army conducts daily airstrikes in the area but has not yet continued its ground advance The separatists of the Azawad Liberation Front (Fla) and the jihadists of the Support Group for Islam and Muslims (Jnim), linked to al-Qaeda, were forced to withdraw before the arrival of the army in Kidal.",
-      "sources": [
-        "RFI Afrique"
-      ],
-      "languages": [
-        "fr"
-      ],
-      "source_count": 1,
-      "report_urls": [
-        "https://www.rfi.fr/fr/afrique/20261009-mali-%C3%A0-kidal-les-soldats-sont-plus-nombreux-que-les-habitants"
-      ],
-      "report_summaries": [
-        {
-          "url": "https://www.rfi.fr/fr/afrique/20261009-mali-%C3%A0-kidal-les-soldats-sont-plus-nombreux-que-les-habitants",
-          "source": "RFI Afrique",
-          "title": "Mali: In Kidal, soldiers outnumber locals",
-          "summary": "Mali: in Kidal, the soldiers outnumber the inhabitants Three days after their return to Kidal, the Malian soldiers and their Russian partners of the Africa Corps secure the city and its surroundings. The army conducts daily airstrikes in the area but has not yet continued its ground advance The separatists of the Azawad Liberation Front (Fla) and the jihadists of the Support Group for Islam and Muslims (Jnim), linked to al-Qaeda, were forced to withdraw before the arrival of the army in Kidal.",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "security_force",
-            "armed_group"
-          ],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        }
-      ],
-      "created_at": "2026-10-09T20:37:29.790359Z",
-      "updated_at": "2026-10-09T20:37:29.790359Z",
-      "extraction_confidence": "low",
-      "victim_categories": [
-        "security_force",
-        "armed_group"
-      ],
-      "civilian_targeting_flag": false,
-      "casualty_claims": [],
-      "fatalities_min": null,
-      "fatalities_max": null,
-      "fatalities_best": null,
-      "injured_min": null,
-      "injured_max": null,
-      "abducted_min": null,
-      "abducted_max": null,
-      "casualty_disputed": false,
-      "revision_history": [
-        {
-          "at": "2026-10-09T20:37:29.790359Z",
-          "type": "event_created",
-          "source": "RFI Afrique"
-        }
-      ],
-      "corroboration": "single-source",
-      "confidence": "low",
-      "independent_source_domains": [
-        "rfi.fr"
-      ],
-      "independent_source_count": 1,
-      "significance": "ROUTINE",
-      "significance_reasons": [
-        "limited currently observed significance"
-      ]
     }
   ],
   "latest_reports": [
+    {
+      "published_at": "2026-10-19T22:50:50Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-19T23:50:00.747446Z",
+      "discovered_at": "2026-10-19T23:50:00.747446Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0124",
+      "source": "News Central TV (Nigeria)",
+      "language": "en",
+      "actor": "State",
+      "country": "Burkina Faso",
+      "city": null,
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Burkina Faso, Mali, Niger Resume Talks with ECOWAS",
+      "url": "https://newscentraltv.com/burkina-faso-mali-niger-resume-talks-with-ecowas/"
+    },
+    {
+      "published_at": "2026-10-19T22:03:35Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-19T23:49:58.970346Z",
+      "discovered_at": "2026-10-19T23:49:58.970346Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0117",
+      "source": "Vanguard News (Nigeria)",
+      "language": "en",
+      "actor": null,
+      "country": "Mali",
+      "city": "Ménaka",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Gunmen kill at least 40 civilians in Mali",
+      "url": "https://www.vanguardngr.com/2026/10/gunmen-kill-at-least-40-civilians-in-mali/"
+    },
+    {
+      "published_at": "2026-10-19T21:49:51Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-19T23:49:56.977933Z",
+      "discovered_at": "2026-10-19T23:49:56.977933Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0096",
+      "source": "Le Figaro (Section Afrique)",
+      "language": "fr",
+      "actor": "Other",
+      "country": "Mali",
+      "city": "Ménaka",
+      "event_type": "civilian targeting",
+      "candidate_event": true,
+      "title": "Mali: more than forty civilians killed Sunday by armed men",
+      "url": "https://www.lefigaro.fr/flash-actu/mali-plus-de-quarante-civils-tues-dimanche-par-des-hommes-armes-20261019"
+    },
+    {
+      "published_at": "2026-10-19T21:33:12Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-19T23:49:57.582615Z",
+      "discovered_at": "2026-10-19T23:49:57.582615Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0081",
+      "source": "Le Pays (Burkina Faso)",
+      "language": "fr",
+      "actor": null,
+      "country": "Burkina Faso",
+      "city": null,
+      "event_type": "law enforcement",
+      "candidate_event": false,
+      "title": "SCREEN ADDICTION: Everyone is questioned",
+      "url": "https://lepays.bf/addiction-aux-ecrans-tout-le-monde-est-interpelle/"
+    },
+    {
+      "published_at": "2026-10-19T20:51:32Z",
+      "published_date_source": "itemprop",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-19T23:50:00.410441Z",
+      "discovered_at": "2026-10-19T23:50:00.410441Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0015",
+      "source": "ActuNiger",
+      "language": "fr",
+      "actor": "State",
+      "country": "Niger",
+      "city": "Niamey",
+      "event_type": "security operation",
+      "candidate_event": false,
+      "title": "Fight against drugs in Niamey: 461 people arrested around schools and on the Niger River",
+      "url": "https://www.actuniger.com/societe/22472-lutte-contre-la-drogue-a-niamey-461-personnes-interpellees-autour-des-ecoles-et-sur-le-fleuve-niger"
+    },
+    {
+      "published_at": "2026-10-19T18:36:53Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-19T23:49:57.385873Z",
+      "discovered_at": "2026-10-19T23:49:57.385873Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0006",
+      "source": "Malijet",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Ménaka",
+      "event_type": "security operation",
+      "candidate_event": true,
+      "title": "Operation Dougoukoloko: the FAMa strike two positions of armed groups in Menaka and Douentza",
+      "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312415-operation-dougoukoloko-les-fama-frappent-deux-positions-de.html"
+    },
     {
       "published_at": "2026-10-19T16:47:31Z",
       "published_date_source": "feed",
@@ -3609,6 +3762,24 @@
       "candidate_event": true,
       "title": "Image Africa Mali: Human Rights Watch accuses the army, its Russian allies and insurgents of committing \"atrocities\"",
       "url": "https://information.tv5monde.com/afrique/mali-long-human-rights-watch-accuse-larmee-ses-allies-russes-et-les-insurges-de-commettre-des-atrocites-2842311"
+    },
+    {
+      "published_at": "2026-10-19T12:23:44Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-19T23:50:00.140076Z",
+      "discovered_at": "2026-10-19T23:50:00.140076Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0006",
+      "source": "Malijet",
+      "language": "fr",
+      "actor": null,
+      "country": "Burkina Faso",
+      "city": null,
+      "event_type": null,
+      "candidate_event": false,
+      "title": "AES-ECOWAS: Ministers exchange with diaspora in Dakar",
+      "url": "https://malijet.com/actualite-sur-aes/312403-aes-cedeao-les-ministres-echangent-avec-la-diaspora-a-daka.html"
     },
     {
       "published_at": "2026-10-19T11:31:11Z",
@@ -4149,132 +4320,6 @@
       "candidate_event": false,
       "title": "Hydrocarbon refuelling: A third convoy of 734 tankers arrives in Bamako",
       "url": "https://malijet.com/flash-info/312375-ravitaillement-en-hydrocarbures-un-troisieme-convoi-de-734.html"
-    },
-    {
-      "published_at": "2026-10-17T16:13:11Z",
-      "published_date_source": "opengraph",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-17T16:50:21.367603Z",
-      "discovered_at": "2026-10-17T16:50:21.367603Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0018",
-      "source": "Aïr Info",
-      "language": "fr",
-      "actor": null,
-      "country": "Niger",
-      "city": "Niamey",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Niger: the Human Rights Observatory with investigative powers",
-      "url": "https://airinfoagadez.com/2026/10/17/niger-lobservatoire-des-droits-de-lhomme-dote-de-pouvoirs-denquete/"
-    },
-    {
-      "published_at": "2026-10-17T11:42:10Z",
-      "published_date_source": "opengraph",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-17T12:56:27.078563Z",
-      "discovered_at": "2026-10-17T12:56:27.078563Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0090",
-      "source": "AllAfrica (Édition Française)",
-      "language": "fr",
-      "actor": null,
-      "country": "Mali",
-      "city": "Bamako",
-      "event_type": "political/security policy",
-      "candidate_event": false,
-      "title": "West Africa: Faced with terrorism, Bamako and Abidjan share a common struggle",
-      "url": "https://fr.allafrica.com/stories/202610170003.html"
-    },
-    {
-      "published_at": "2026-10-17T11:00:54Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-17T12:56:26.506603Z",
-      "discovered_at": "2026-10-17T12:56:26.506603Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0165",
-      "source": "Hespress (هسبريس)",
-      "language": "ar",
-      "actor": "JNIM",
-      "country": "Mali",
-      "city": null,
-      "event_type": "clash",
-      "candidate_event": false,
-      "title": "Bloody battles between al-Qaeda andISIS in the Sahel result in hundreds of deaths",
-      "url": "https://www.hespress.com/%d9%85%d8%b9%d8%a7%d8%b1%d9%83-%d8%af%d8%a7%d9%85%d9%8a%d8%a9-%d8%a8%d9%8a%d9%86-%d8%a7%d9%84%d9%82%d8%a7%d8%b9%d8%af%d8%a9-%d9%88%d8%af%d8%a7%d8%b9%d8%b4-%d9%81%d9%8a-%d8%a7%d9%84%d8%b3%d8%a7-1824356.html"
-    },
-    {
-      "published_at": "2026-10-17T07:46:15Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-17T08:52:32.671311Z",
-      "discovered_at": "2026-10-17T08:52:32.671311Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0008",
-      "source": "Bamada",
-      "language": "fr",
-      "actor": null,
-      "country": null,
-      "city": null,
-      "event_type": "raid",
-      "candidate_event": false,
-      "title": "Putin excludes any peace negotiations with Ukraine on the creation of a safe zone on the Russian border",
-      "url": "https://bamada.net/poutine-exclut-toute-negociation-de-paix-avec-lukraine-sur-la-creation-dune-zone-de-securite-a-la-frontiere-russe"
-    },
-    {
-      "published_at": "2026-10-17T05:00:00Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-17T08:52:33.060360Z",
-      "discovered_at": "2026-10-17T08:52:33.060360Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0040",
-      "source": "Mondafrique",
-      "language": "fr",
-      "actor": "IS Sahel",
-      "country": "Mali",
-      "city": "Kidal",
-      "event_type": "clash",
-      "candidate_event": false,
-      "title": "Islamic State's military victory over its Al Qaeda rivals in Burkina Faso",
-      "url": "https://mondafrique.com/politique/victoire-militaire-de-letat-islamique-contre-ses-rivaux-dal-qaida-au-burkina-faso/"
-    },
-    {
-      "published_at": "2026-10-16T21:11:20Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-17T01:04:30.722468Z",
-      "discovered_at": "2026-10-17T01:04:30.722468Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0002",
-      "source": "France 24 Afrique (FR)",
-      "language": "fr",
-      "actor": "JNIM",
-      "country": null,
-      "city": null,
-      "event_type": "clash",
-      "candidate_event": false,
-      "title": "War without a mrci in the Sahel between the jihadists of the JNIM and the EIS",
-      "url": "https://www.france24.com/fr/%C3%A9missions/journal-de-l-afrique/20261016-guerre-sans-mrci-au-sahel-entre-les-jihadistes-du-jnim-et-de-l-eis"
-    },
-    {
-      "published_at": "2026-10-16T19:31:43Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-16T20:54:00.290479Z",
-      "discovered_at": "2026-10-16T20:54:00.290479Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0034",
-      "source": "TV5MONDE Afrique",
-      "language": "fr",
-      "actor": null,
-      "country": "Mali",
-      "city": "Diré",
-      "event_type": "territorial seizure/blockade",
-      "candidate_event": false,
-      "title": "\"Bismillah is darkness\", the cult slogan of student demonstrations in France",
-      "url": "https://information.tv5monde.com/international/video/bismillah-cest-les-tenebres-le-slogan-culte-des-manifestations-etudiantes-en-france-2841915"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."

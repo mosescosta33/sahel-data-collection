@@ -1,5 +1,127 @@
 [
   {
+    "id": "64d46bb68f014b54932b8177bbc19c2fba957074",
+    "event_date": "2026-10-19",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "relative-weekday",
+    "published_at": "2026-10-19T21:49:51Z",
+    "published_date_source": "jsonld:datePublished",
+    "published_time_precision": "datetime",
+    "collected_at": "2026-10-19T23:49:56.977933Z",
+    "actor": "Other",
+    "perpetrator": null,
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [],
+    "parent_report_id": null,
+    "event_type": "civilian targeting",
+    "country": "Mali",
+    "city": "Ménaka",
+    "lat": 15.9182,
+    "lng": 2.4022,
+    "locations": [
+      {
+        "name": "Ménaka",
+        "country": "Mali",
+        "lat": 15.9182,
+        "lng": 2.4022,
+        "confidence": "explicit-place"
+      },
+      {
+        "name": "Bamako",
+        "country": "Mali",
+        "lat": 12.6392,
+        "lng": -8.0029,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "Mali: more than forty civilians killed Sunday by armed men",
+    "summary": "Several camps belonging mainly to the Daoussahak community, from which the armed movement \"Movement for the Salvation of Azawad\" (MSA) came, were targeted . Skip the ad Skip the adMore than forty civilians were killed on Sunday in attacks by armed men in the Menaka region of northeastern Mali, causing population displacement, several security, local and community sources reported on Monday.",
+    "sources": [
+      "Le Figaro (Section Afrique)"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://www.lefigaro.fr/flash-actu/mali-plus-de-quarante-civils-tues-dimanche-par-des-hommes-armes-20261019"
+    ],
+    "report_summaries": [
+      {
+        "url": "https://www.lefigaro.fr/flash-actu/mali-plus-de-quarante-civils-tues-dimanche-par-des-hommes-armes-20261019",
+        "source": "Le Figaro (Section Afrique)",
+        "title": "Mali: more than forty civilians killed Sunday by armed men",
+        "summary": "Several camps belonging mainly to the Daoussahak community, from which the armed movement \"Movement for the Salvation of Azawad\" (MSA) came, were targeted . Skip the ad Skip the adMore than forty civilians were killed on Sunday in attacks by armed men in the Menaka region of northeastern Mali, causing population displacement, several security, local and community sources reported on Monday.",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": 40,
+        "fatalities_max": 40,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "civilian"
+        ],
+        "civilian_targeting_flag": true,
+        "casualty_claims": [
+          {
+            "kind": "fatalities",
+            "count": 40,
+            "victim_text": "civilians",
+            "claimant": "Le Figaro (Section Afrique)",
+            "status": "reported",
+            "evidence": "Mali: more than forty civilians killed Sunday by armed men Mali: more than forty civilians killed Sunday by armed men Several camps belong"
+          }
+        ]
+      }
+    ],
+    "created_at": "2026-10-19T23:49:56.977933Z",
+    "updated_at": "2026-10-19T23:49:56.977933Z",
+    "extraction_confidence": "low",
+    "victim_categories": [
+      "civilian"
+    ],
+    "civilian_targeting_flag": true,
+    "casualty_claims": [
+      {
+        "kind": "fatalities",
+        "count": 40,
+        "victim_text": "civilians",
+        "claimant": "Le Figaro (Section Afrique)",
+        "status": "reported",
+        "evidence": "Mali: more than forty civilians killed Sunday by armed men Mali: more than forty civilians killed Sunday by armed men Several camps belong",
+        "source": "Le Figaro (Section Afrique)"
+      }
+    ],
+    "fatalities_min": 40,
+    "fatalities_max": 40,
+    "fatalities_best": 40,
+    "injured_min": null,
+    "injured_max": null,
+    "abducted_min": null,
+    "abducted_max": null,
+    "casualty_disputed": false,
+    "revision_history": [
+      {
+        "at": "2026-10-19T23:49:56.977933Z",
+        "type": "event_created",
+        "source": "Le Figaro (Section Afrique)"
+      }
+    ],
+    "corroboration": "single-source",
+    "confidence": "low",
+    "independent_source_domains": [
+      "lefigaro.fr"
+    ],
+    "independent_source_count": 1,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "multi-location activity"
+    ]
+  },
+  {
     "id": "6cd56dd5769139d7187a5ecb3ffbe9c8b910490a",
     "event_date": "2026-10-19",
     "event_date_confidence": "explicit-text",
@@ -810,7 +932,7 @@
     "collected_at": "2026-10-19T18:48:50.914955Z",
     "actor": "State",
     "perpetrator": "State",
-    "target": null,
+    "target": "State",
     "claimant": null,
     "supporting_force": null,
     "mentioned_actors": [
@@ -841,14 +963,16 @@
     "title": "Fighting insecurity: FAMa strike at the heart of terrorist networks in the centre and north of the country",
     "summary": "The General Staff of the Armed Forces informs the national opinion that the Malian Armed Forces (FAMa), supported by their partners, are continuing the permanent operations of surveillance, control and security of the national territory as part of Operation Dougoukoloko . On Saturday, October 17, 2026, the exploitation of precise intelligence made it possible to locate, 65 km southwest of the city of Menaka, a large base housing several terrorist elements as well as war and logistics equipment.",
     "sources": [
-      "Bamada"
+      "Bamada",
+      "Malijet"
     ],
     "languages": [
       "fr"
     ],
-    "source_count": 1,
+    "source_count": 2,
     "report_urls": [
-      "https://bamada.net/lutte-contre-linsecurite-les-fama-frappent-au-coeur-des-reseaux-terroristes-dans-le-centre-et-le-nord-du-pays"
+      "https://bamada.net/lutte-contre-linsecurite-les-fama-frappent-au-coeur-des-reseaux-terroristes-dans-le-centre-et-le-nord-du-pays",
+      "https://malijet.com/actualte_dans_les_regions_du_mali/312415-operation-dougoukoloko-les-fama-frappent-deux-positions-de.html"
     ],
     "report_summaries": [
       {
@@ -868,10 +992,26 @@
         ],
         "civilian_targeting_flag": false,
         "casualty_claims": []
+      },
+      {
+        "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312415-operation-dougoukoloko-les-fama-frappent-deux-positions-de.html",
+        "source": "Malijet",
+        "title": "Operation Dougoukoloko: the FAMa strike two positions of armed groups in Menaka and Douentza",
+        "summary": "The Malian Armed Forces (FAMa), supported by their partners, carried out strikes against two positions of armed groups in the Menaka and Douentza sectors on 17 and 18 October 2026, as part of Operation Dougoukoloko, according to the General Staff of the Armed Forces . On Saturday, October 17, a base housing armed elements as well as war and logistics equipment was located about 65 km southwest of Menaka, thanks to intelligence.",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
       }
     ],
     "created_at": "2026-10-19T18:48:50.914955Z",
-    "updated_at": "2026-10-19T18:48:50.914955Z",
+    "updated_at": "2026-10-19T23:49:57.385873Z",
     "extraction_confidence": "moderate",
     "victim_categories": [
       "armed_group"
@@ -891,14 +1031,20 @@
         "at": "2026-10-19T18:48:50.914955Z",
         "type": "event_created",
         "source": "Bamada"
+      },
+      {
+        "at": "2026-10-19T23:49:57.385873Z",
+        "type": "corroboration_or_geography_update",
+        "source": "Malijet"
       }
     ],
-    "corroboration": "single-source",
+    "corroboration": "limited corroboration",
     "confidence": "moderate",
     "independent_source_domains": [
-      "bamada.net"
+      "bamada.net",
+      "malijet.com"
     ],
-    "independent_source_count": 1,
+    "independent_source_count": 2,
     "significance": "MAJOR",
     "significance_reasons": [
       "strategic/severe event pattern",
