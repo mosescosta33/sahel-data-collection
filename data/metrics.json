@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T09:02:20.174456Z",
+  "generated_at": "2026-10-19T18:50:31.172459Z",
   "series": {
     "JNIM": [
       {
@@ -720,7 +720,7 @@
       },
       {
         "date": "2026-10-19",
-        "count": 2
+        "count": 4
       }
     ],
     "IS Sahel": [
@@ -2156,7 +2156,7 @@
       },
       {
         "date": "2026-10-17",
-        "count": 2
+        "count": 3
       },
       {
         "date": "2026-10-18",
@@ -2164,7 +2164,7 @@
       },
       {
         "date": "2026-10-19",
-        "count": 0
+        "count": 3
       }
     ],
     "Africa Corps/Wagner": [
@@ -2886,15 +2886,15 @@
       },
       {
         "date": "2026-10-19",
-        "count": 1
+        "count": 2
       }
     ]
   },
   "trends_7d": {
     "JNIM": {
-      "current": 2,
+      "current": 4,
       "previous": 6,
-      "change_pct": -66.7
+      "change_pct": -33.3
     },
     "IS Sahel": {
       "current": 0,
@@ -2902,21 +2902,21 @@
       "change_pct": null
     },
     "State": {
-      "current": 5,
+      "current": 9,
       "previous": 20,
-      "change_pct": -75.0
+      "change_pct": -55.0
     },
     "Africa Corps/Wagner": {
-      "current": 2,
+      "current": 3,
       "previous": 9,
-      "change_pct": -77.8
+      "change_pct": -66.7
     }
   },
   "trends_30d": {
     "JNIM": {
-      "current": 14,
+      "current": 16,
       "previous": 5,
-      "change_pct": 180.0
+      "change_pct": 220.0
     },
     "IS Sahel": {
       "current": 0,
@@ -2924,14 +2924,14 @@
       "change_pct": null
     },
     "State": {
-      "current": 48,
+      "current": 52,
       "previous": 8,
-      "change_pct": 500.0
+      "change_pct": 550.0
     },
     "Africa Corps/Wagner": {
-      "current": 18,
+      "current": 19,
       "previous": 5,
-      "change_pct": 260.0
+      "change_pct": 280.0
     }
   },
   "method_note": "Counts are fused candidate events extracted from monitored open-source reporting. Africa Corps/Wagner is an involvement series and can overlap State activity when Russian personnel are coded as a supporting force. These are not independently verified incident counts; changes can reflect both real-world activity and reporting/collection effects."

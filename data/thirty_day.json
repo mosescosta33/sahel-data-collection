@@ -1,43 +1,43 @@
 {
-  "generated_at": "2026-10-19T09:02:20.174465Z",
+  "generated_at": "2026-10-19T18:50:31.172468Z",
   "window_days": 30,
   "cutoff": "2026-09-19",
-  "reports": 486,
-  "incident_reports": 118,
-  "candidate_events": 85,
+  "reports": 491,
+  "incident_reports": 121,
+  "candidate_events": 91,
   "corroborated_events": 21,
-  "mapped_events": 74,
-  "mapped_locations": 143,
+  "mapped_events": 76,
+  "mapped_locations": 146,
   "distinct_sources": 82,
   "by_actor": {
-    "State": 53,
-    "JNIM": 14,
+    "State": 57,
+    "JNIM": 16,
     "Other": 11,
     "Africa Corps/Wagner": 7
   },
   "by_country": {
-    "Mali": 77,
+    "Mali": 83,
     "Niger": 5,
     "Burkina Faso": 3
   },
   "by_event_type": {
-    "security operation": 36,
+    "security operation": 41,
     "offensive/campaign": 16,
     "clash": 14,
-    "attack": 10,
+    "attack": 11,
     "ambush": 3,
     "kidnapping": 3,
     "raid": 2,
     "civilian targeting": 1
   },
   "by_language": {
-    "fr": 368,
-    "en": 91,
-    "ar": 27
+    "fr": 369,
+    "en": 93,
+    "ar": 29
   },
   "by_confidence": {
-    "low": 39,
-    "moderate": 39,
+    "low": 44,
+    "moderate": 40,
     "moderate-high": 6,
     "high": 1
   },
@@ -45,7 +45,7 @@
     {
       "source_code": "SRC-0008",
       "source": "Bamada",
-      "count": 74
+      "count": 75
     },
     {
       "source_code": "SRC-0006",
@@ -65,12 +65,12 @@
     {
       "source_code": "SRC-0090",
       "source": "AllAfrica (Édition Française)",
-      "count": 18
+      "count": 20
     },
     {
       "source_code": "SRC-0121",
       "source": "AllAfrica (English Edition)",
-      "count": 18
+      "count": 19
     },
     {
       "source_code": "SRC-0092",
@@ -113,6 +113,10 @@
       "count": 17
     },
     {
+      "location": "Mali",
+      "count": 13
+    },
+    {
       "location": "Ségou",
       "count": 11
     },
@@ -125,8 +129,8 @@
       "count": 10
     },
     {
-      "location": "Mali",
-      "count": 9
+      "location": "Gao",
+      "count": 7
     },
     {
       "location": "Tessalit",
@@ -135,10 +139,6 @@
     {
       "location": "Timbuktu",
       "count": 7
-    },
-    {
-      "location": "Gao",
-      "count": 6
     },
     {
       "location": "Sévaré",
@@ -281,7 +281,7 @@
     },
     {
       "date": "2026-10-15",
-      "reports": 24,
+      "reports": 25,
       "events": 3
     },
     {
@@ -292,7 +292,7 @@
     {
       "date": "2026-10-17",
       "reports": 10,
-      "events": 2
+      "events": 3
     },
     {
       "date": "2026-10-18",
@@ -301,11 +301,516 @@
     },
     {
       "date": "2026-10-19",
-      "reports": 11,
-      "events": 2
+      "reports": 23,
+      "events": 7
     }
   ],
   "latest_events": [
+    {
+      "id": "6cd56dd5769139d7187a5ecb3ffbe9c8b910490a",
+      "event_date": "2026-10-19",
+      "event_date_confidence": "explicit-text",
+      "event_date_source": "explicit-calendar-date",
+      "published_at": "2026-10-19T10:40:08Z",
+      "published_date_source": "opengraph",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-19T18:48:57.086472Z",
+      "actor": "State",
+      "perpetrator": "State",
+      "target": null,
+      "claimant": null,
+      "supporting_force": "Africa Corps/Wagner",
+      "mentioned_actors": [
+        "State",
+        "Africa Corps/Wagner"
+      ],
+      "parent_report_id": null,
+      "event_type": "security operation",
+      "country": "Mali",
+      "city": "Gao",
+      "lat": 16.2717,
+      "lng": -0.0447,
+      "locations": [
+        {
+          "name": "Gao",
+          "country": "Mali",
+          "lat": 16.2717,
+          "lng": -0.0447,
+          "confidence": "explicit-place"
+        }
+      ],
+      "title": "Military attacks against civilians, abuses committed by insurgents in Mali",
+      "summary": "- HRW, 19 October 2026 African Union should take steps to prevent further atrocities More »In a report published in October 2026, Human Rights Watch accused the Malian armed forces, their Russian allies in the Africa Corps and Islamist and separatist armed groups of serious violations of international humanitarian law The organization documents drone strikes that have resulted in civilian casualties, executions and torture, and calls on the African Union Peace and Security Council to strengthen the protection of civilians and promote independent investigations into abuses by all parties.",
+      "sources": [
+        "AllAfrica (Édition Française)"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://fr.allafrica.com/view/group/main/main/id/00098505.html"
+      ],
+      "report_summaries": [
+        {
+          "url": "https://fr.allafrica.com/view/group/main/main/id/00098505.html",
+          "source": "AllAfrica (Édition Française)",
+          "title": "Military attacks against civilians, abuses committed by insurgents in Mali",
+          "summary": "- HRW, 19 October 2026 African Union should take steps to prevent further atrocities More »In a report published in October 2026, Human Rights Watch accused the Malian armed forces, their Russian allies in the Africa Corps and Islamist and separatist armed groups of serious violations of international humanitarian law The organization documents drone strikes that have resulted in civilian casualties, executions and torture, and calls on the African Union Peace and Security Council to strengthen the protection of civilians and promote independent investigations into abuses by all parties.",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "civilian",
+            "armed_group"
+          ],
+          "civilian_targeting_flag": false,
+          "casualty_claims": []
+        }
+      ],
+      "created_at": "2026-10-19T18:48:57.086472Z",
+      "updated_at": "2026-10-19T18:48:57.086472Z",
+      "extraction_confidence": "low",
+      "victim_categories": [
+        "civilian",
+        "armed_group"
+      ],
+      "civilian_targeting_flag": false,
+      "casualty_claims": [],
+      "fatalities_min": null,
+      "fatalities_max": null,
+      "fatalities_best": null,
+      "injured_min": null,
+      "injured_max": null,
+      "abducted_min": null,
+      "abducted_max": null,
+      "casualty_disputed": false,
+      "revision_history": [
+        {
+          "at": "2026-10-19T18:48:57.086472Z",
+          "type": "event_created",
+          "source": "AllAfrica (Édition Française)"
+        }
+      ],
+      "corroboration": "single-source",
+      "confidence": "low",
+      "independent_source_domains": [
+        "fr.allafrica.com"
+      ],
+      "independent_source_count": 1,
+      "significance": "ROUTINE",
+      "significance_reasons": [
+        "limited currently observed significance"
+      ]
+    },
+    {
+      "id": "efa1069785c94f5ed5debdc2a956417aea669423",
+      "event_date": "2026-10-19",
+      "event_date_confidence": "explicit-text",
+      "event_date_source": "explicit-date-no-year",
+      "published_at": "2026-10-19T14:28:32Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-19T18:48:56.955093Z",
+      "actor": "State",
+      "perpetrator": "State",
+      "target": null,
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [
+        "State"
+      ],
+      "parent_report_id": null,
+      "event_type": "security operation",
+      "country": "Mali",
+      "city": null,
+      "lat": null,
+      "lng": null,
+      "locations": [],
+      "title": "Image Africa Mali: Human Rights Watch accuses the army, its Russian allies and insurgents of committing \"atrocities\"",
+      "summary": "Deadly drone strikes, executions of civilians and captured soldiers... In a report published Monday, October 19, Human Rights Watch denounces serious violations of international humanitarian law and war committed by the Malian army, its Russian allies as well as by insurgent groups. Malian refugees who fled violence in their country, in a makeshift camp in Douankara, Mauritania, on November 9, 2025 .",
+      "sources": [
+        "TV5MONDE Afrique"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://information.tv5monde.com/afrique/mali-long-human-rights-watch-accuse-larmee-ses-allies-russes-et-les-insurges-de-commettre-des-atrocites-2842311"
+      ],
+      "report_summaries": [
+        {
+          "url": "https://information.tv5monde.com/afrique/mali-long-human-rights-watch-accuse-larmee-ses-allies-russes-et-les-insurges-de-commettre-des-atrocites-2842311",
+          "source": "TV5MONDE Afrique",
+          "title": "Image Africa Mali: Human Rights Watch accuses the army, its Russian allies and insurgents of committing \"atrocities\"",
+          "summary": "Deadly drone strikes, executions of civilians and captured soldiers... In a report published Monday, October 19, Human Rights Watch denounces serious violations of international humanitarian law and war committed by the Malian army, its Russian allies as well as by insurgent groups. Malian refugees who fled violence in their country, in a makeshift camp in Douankara, Mauritania, on November 9, 2025 .",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "civilian",
+            "security_force",
+            "armed_group"
+          ],
+          "civilian_targeting_flag": false,
+          "casualty_claims": []
+        }
+      ],
+      "created_at": "2026-10-19T18:48:56.955093Z",
+      "updated_at": "2026-10-19T18:48:56.955093Z",
+      "extraction_confidence": "low",
+      "victim_categories": [
+        "civilian",
+        "security_force",
+        "armed_group"
+      ],
+      "civilian_targeting_flag": false,
+      "casualty_claims": [],
+      "fatalities_min": null,
+      "fatalities_max": null,
+      "fatalities_best": null,
+      "injured_min": null,
+      "injured_max": null,
+      "abducted_min": null,
+      "abducted_max": null,
+      "casualty_disputed": false,
+      "revision_history": [
+        {
+          "at": "2026-10-19T18:48:56.955093Z",
+          "type": "event_created",
+          "source": "TV5MONDE Afrique"
+        }
+      ],
+      "corroboration": "single-source",
+      "confidence": "low",
+      "independent_source_domains": [
+        "information.tv5monde.com"
+      ],
+      "independent_source_count": 1,
+      "significance": "ROUTINE",
+      "significance_reasons": [
+        "limited currently observed significance"
+      ]
+    },
+    {
+      "id": "7728237d072eb5f3ac9fe034a819a34b8f6af169",
+      "event_date": "2026-10-19",
+      "event_date_confidence": "explicit-text",
+      "event_date_source": "relative-today",
+      "published_at": "2026-10-19T11:31:11Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-19T18:48:54.890455Z",
+      "actor": "JNIM",
+      "perpetrator": "JNIM",
+      "target": null,
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [
+        "JNIM"
+      ],
+      "parent_report_id": null,
+      "event_type": "security operation",
+      "country": "Mali",
+      "city": null,
+      "lat": null,
+      "lng": null,
+      "locations": [],
+      "title": "Human Rights Watch accuses Mali's military and its allies of killing dozens of civilians",
+      "summary": "Human Rights Watch accuses the military in Mali and its allies of killing dozens of civilians - the organization has documented attacks targeting civilian sites, such as a livestock market and a health center, and recorded abuses by Nusrat al-Islam wa al-Muslimeen and separatist groups.",
+      "sources": [
+        "Al-Araby Al-Jadeed"
+      ],
+      "languages": [
+        "ar"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://www.alaraby.co.uk/politics/%D9%87%D9%8A%D9%88%D9%85%D9%86-%D8%B1%D8%A7%D9%8A%D8%AA%D8%B3-%D9%88%D9%88%D8%AA%D8%B4-%D8%AA%D8%AA%D9%87%D9%85-%D8%A7%D9%84%D8%AC%D9%8A%D8%B4-%D9%81%D9%8A-%D9%85%D8%A7%D9%84%D9%8A-%D9%88%D8%AD%D9%84%D9%81%D8%A7%D8%A1%D9%87-%D8%A8%D9%82%D8%AA%D9%84-%D8%B9%D8%B4%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%AF%D9%86%D9%8A%D9%8A%D9%86"
+      ],
+      "report_summaries": [
+        {
+          "url": "https://www.alaraby.co.uk/politics/%D9%87%D9%8A%D9%88%D9%85%D9%86-%D8%B1%D8%A7%D9%8A%D8%AA%D8%B3-%D9%88%D9%88%D8%AA%D8%B4-%D8%AA%D8%AA%D9%87%D9%85-%D8%A7%D9%84%D8%AC%D9%8A%D8%B4-%D9%81%D9%8A-%D9%85%D8%A7%D9%84%D9%8A-%D9%88%D8%AD%D9%84%D9%81%D8%A7%D8%A1%D9%87-%D8%A8%D9%82%D8%AA%D9%84-%D8%B9%D8%B4%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%AF%D9%86%D9%8A%D9%8A%D9%86",
+          "source": "Al-Araby Al-Jadeed",
+          "title": "Human Rights Watch accuses Mali's military and its allies of killing dozens of civilians",
+          "summary": "Human Rights Watch accuses the military in Mali and its allies of killing dozens of civilians - the organization has documented attacks targeting civilian sites, such as a livestock market and a health center, and recorded abuses by Nusrat al-Islam wa al-Muslimeen and separatist groups.",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "civilian"
+          ],
+          "civilian_targeting_flag": false,
+          "casualty_claims": []
+        }
+      ],
+      "created_at": "2026-10-19T18:48:54.890455Z",
+      "updated_at": "2026-10-19T18:48:54.890455Z",
+      "extraction_confidence": "low",
+      "victim_categories": [
+        "civilian"
+      ],
+      "civilian_targeting_flag": false,
+      "casualty_claims": [],
+      "fatalities_min": null,
+      "fatalities_max": null,
+      "fatalities_best": null,
+      "injured_min": null,
+      "injured_max": null,
+      "abducted_min": null,
+      "abducted_max": null,
+      "casualty_disputed": false,
+      "revision_history": [
+        {
+          "at": "2026-10-19T18:48:54.890455Z",
+          "type": "event_created",
+          "source": "Al-Araby Al-Jadeed"
+        }
+      ],
+      "corroboration": "single-source",
+      "confidence": "low",
+      "independent_source_domains": [
+        "alaraby.co.uk"
+      ],
+      "independent_source_count": 1,
+      "significance": "ROUTINE",
+      "significance_reasons": [
+        "limited currently observed significance"
+      ]
+    },
+    {
+      "id": "91bcc5c27a92a2a4cb875a4bcb34e048232c2bb7",
+      "event_date": "2026-10-19",
+      "event_date_confidence": "explicit-text",
+      "event_date_source": "relative-today",
+      "published_at": "2026-10-19T15:51:33Z",
+      "published_date_source": "opengraph",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-19T18:48:54.794354Z",
+      "actor": "State",
+      "perpetrator": null,
+      "target": null,
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [],
+      "parent_report_id": null,
+      "event_type": "security operation",
+      "country": "Mali",
+      "city": null,
+      "lat": null,
+      "lng": null,
+      "locations": [],
+      "title": "Report: 'Indiscriminate' drone strikes by Malian and Russian 'Africa Corps' forces",
+      "summary": "Summary Data from the Armed Conflict Location and Event Data Project, a US-based conflict observatory, showed that Malian and Africa Corps forces carried out 47 drone strikes that killed 94 civilians between April and August, up from 22 strikes that killed 44 civilians a year earlier . Human Rights Watch said in a report today, Monday, that the armed forces in Mali and its Russian supporters carried out drone strikes in an apparently \"indiscriminate\" manner, and committed other violations as part of an intensive attack against militants and separatists during the past months, killing dozens of civilians.",
+      "sources": [
+        "Independent Arabia"
+      ],
+      "languages": [
+        "ar"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://www.independentarabia.com/node/660795/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AF%D9%88%D9%84%D9%8A%D8%A7%D8%AA/%D8%AA%D9%82%D8%B1%D9%8A%D8%B1-%D8%B6%D8%B1%D8%A8%D8%A7%D8%AA-%D8%B9%D8%B4%D9%88%D8%A7%D8%A6%D9%8A%D8%A9-%D8%A8%D8%A7%D9%84%D9%85%D8%B3%D9%8A%D8%B1%D8%A7%D8%AA-%D9%86%D9%81%D8%B0%D8%AA%D9%87%D8%A7-%D9%82%D9%88%D8%A7%D8%AA-%D9%85%D8%A7%D9%84%D9%8A-%D9%88%D9%81%D9%8A%D9%84%D9%82-%D8%A3%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7-%D8%A7%D9%84%D8%B1%D9%88%D8%B3%D9%8A"
+      ],
+      "report_summaries": [
+        {
+          "url": "https://www.independentarabia.com/node/660795/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AF%D9%88%D9%84%D9%8A%D8%A7%D8%AA/%D8%AA%D9%82%D8%B1%D9%8A%D8%B1-%D8%B6%D8%B1%D8%A8%D8%A7%D8%AA-%D8%B9%D8%B4%D9%88%D8%A7%D8%A6%D9%8A%D8%A9-%D8%A8%D8%A7%D9%84%D9%85%D8%B3%D9%8A%D8%B1%D8%A7%D8%AA-%D9%86%D9%81%D8%B0%D8%AA%D9%87%D8%A7-%D9%82%D9%88%D8%A7%D8%AA-%D9%85%D8%A7%D9%84%D9%8A-%D9%88%D9%81%D9%8A%D9%84%D9%82-%D8%A3%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7-%D8%A7%D9%84%D8%B1%D9%88%D8%B3%D9%8A",
+          "source": "Independent Arabia",
+          "title": "Report: 'Indiscriminate' drone strikes by Malian and Russian 'Africa Corps' forces",
+          "summary": "Summary Data from the Armed Conflict Location and Event Data Project, a US-based conflict observatory, showed that Malian and Africa Corps forces carried out 47 drone strikes that killed 94 civilians between April and August, up from 22 strikes that killed 44 civilians a year earlier . Human Rights Watch said in a report today, Monday, that the armed forces in Mali and its Russian supporters carried out drone strikes in an apparently \"indiscriminate\" manner, and committed other violations as part of an intensive attack against militants and separatists during the past months, killing dozens of civilians.",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": 44,
+          "fatalities_max": 94,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "civilian",
+            "armed_group"
+          ],
+          "civilian_targeting_flag": true,
+          "casualty_claims": [
+            {
+              "kind": "fatalities",
+              "count": 94,
+              "victim_text": "civilians",
+              "claimant": "Independent Arabia",
+              "status": "reported",
+              "evidence": "conflict observatory, showed that Malian and Africa Corps forces carried out 47 drone strikes that killed 94 civilians between April and August, up from 22 strikes that killed 44 civilians a year earlier . Human Rights"
+            },
+            {
+              "kind": "fatalities",
+              "count": 44,
+              "victim_text": "civilians",
+              "claimant": "ngo/international organization",
+              "status": "reported",
+              "evidence": "ied out 47 drone strikes that killed 94 civilians between April and August, up from 22 strikes that killed 44 civilians a year earlier . Human Rights Watch said in a report today, Monday, that the armed forces in Mali a"
+            }
+          ]
+        }
+      ],
+      "created_at": "2026-10-19T18:48:54.794354Z",
+      "updated_at": "2026-10-19T18:48:54.794354Z",
+      "extraction_confidence": "low",
+      "victim_categories": [
+        "civilian",
+        "armed_group"
+      ],
+      "civilian_targeting_flag": true,
+      "casualty_claims": [
+        {
+          "kind": "fatalities",
+          "count": 94,
+          "victim_text": "civilians",
+          "claimant": "Independent Arabia",
+          "status": "reported",
+          "evidence": "conflict observatory, showed that Malian and Africa Corps forces carried out 47 drone strikes that killed 94 civilians between April and August, up from 22 strikes that killed 44 civilians a year earlier . Human Rights",
+          "source": "Independent Arabia"
+        },
+        {
+          "kind": "fatalities",
+          "count": 44,
+          "victim_text": "civilians",
+          "claimant": "ngo/international organization",
+          "status": "reported",
+          "evidence": "ied out 47 drone strikes that killed 94 civilians between April and August, up from 22 strikes that killed 44 civilians a year earlier . Human Rights Watch said in a report today, Monday, that the armed forces in Mali a",
+          "source": "Independent Arabia"
+        }
+      ],
+      "fatalities_min": 44,
+      "fatalities_max": 94,
+      "fatalities_best": null,
+      "injured_min": null,
+      "injured_max": null,
+      "abducted_min": null,
+      "abducted_max": null,
+      "casualty_disputed": true,
+      "revision_history": [
+        {
+          "at": "2026-10-19T18:48:54.794354Z",
+          "type": "event_created",
+          "source": "Independent Arabia"
+        }
+      ],
+      "corroboration": "single-source",
+      "confidence": "low",
+      "independent_source_domains": [
+        "independentarabia.com"
+      ],
+      "independent_source_count": 1,
+      "significance": "MAJOR",
+      "significance_reasons": [
+        "strategic/severe event pattern"
+      ]
+    },
+    {
+      "id": "6c2a2b90c392c3fbe18ce3aab1e33b44bca7867c",
+      "event_date": "2026-10-19",
+      "event_date_confidence": "explicit-text",
+      "event_date_source": "relative-weekday",
+      "published_at": "2026-10-19T10:13:51Z",
+      "published_date_source": "opengraph",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-19T18:48:54.600630Z",
+      "actor": "JNIM",
+      "perpetrator": "JNIM",
+      "target": null,
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [
+        "JNIM"
+      ],
+      "parent_report_id": null,
+      "event_type": "attack",
+      "country": "Mali",
+      "city": null,
+      "lat": null,
+      "lng": null,
+      "locations": [],
+      "title": "Mali: Malian Army and Rebels Committing Abuses Against Civilians, Rights Group Says",
+      "summary": "The Malian army and its Russian paramilitary allies have killed civilians in violation of international law, Human Rights Watch (HRW) has said in a new report, which also confirms the al-Qaeda-linked jihadist group (JNIM) summarily executed Malian soldiers following an attack on a military convoy in July. \"The Malian military, armed groups and insurgent forces are committing grave laws-of-war violations while international organisations and governments largely stand by,\" the rights watchdog said in a new report published Monday.",
+      "sources": [
+        "AllAfrica (English Edition)"
+      ],
+      "languages": [
+        "en"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://allafrica.com/stories/202610190228.html"
+      ],
+      "report_summaries": [
+        {
+          "url": "https://allafrica.com/stories/202610190228.html",
+          "source": "AllAfrica (English Edition)",
+          "title": "Mali: Malian Army and Rebels Committing Abuses Against Civilians, Rights Group Says",
+          "summary": "The Malian army and its Russian paramilitary allies have killed civilians in violation of international law, Human Rights Watch (HRW) has said in a new report, which also confirms the al-Qaeda-linked jihadist group (JNIM) summarily executed Malian soldiers following an attack on a military convoy in July. \"The Malian military, armed groups and insurgent forces are committing grave laws-of-war violations while international organisations and governments largely stand by,\" the rights watchdog said in a new report published Monday.",
+          "summary_basis": "source-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "civilian",
+            "security_force",
+            "armed_group"
+          ],
+          "civilian_targeting_flag": false,
+          "casualty_claims": []
+        }
+      ],
+      "created_at": "2026-10-19T18:48:54.600630Z",
+      "updated_at": "2026-10-19T18:48:54.600630Z",
+      "extraction_confidence": "low",
+      "victim_categories": [
+        "civilian",
+        "security_force",
+        "armed_group"
+      ],
+      "civilian_targeting_flag": false,
+      "casualty_claims": [],
+      "fatalities_min": null,
+      "fatalities_max": null,
+      "fatalities_best": null,
+      "injured_min": null,
+      "injured_max": null,
+      "abducted_min": null,
+      "abducted_max": null,
+      "casualty_disputed": false,
+      "revision_history": [
+        {
+          "at": "2026-10-19T18:48:54.600630Z",
+          "type": "event_created",
+          "source": "AllAfrica (English Edition)"
+        }
+      ],
+      "corroboration": "single-source",
+      "confidence": "low",
+      "independent_source_domains": [
+        "allafrica.com"
+      ],
+      "independent_source_count": 1,
+      "significance": "SIGNIFICANT",
+      "significance_reasons": [
+        "operational security event"
+      ]
+    },
     {
       "id": "f0de1da6e5814ac66ab482cdceee3a8daee9cdb4",
       "event_date": "2026-10-19",
@@ -599,6 +1104,112 @@
       "significance": "SIGNIFICANT",
       "significance_reasons": [
         "operational security event"
+      ]
+    },
+    {
+      "id": "ec93b4dcf38a1d1f8f529050fa12585416e16faa",
+      "event_date": "2026-10-17",
+      "event_date_confidence": "explicit-text",
+      "event_date_source": "explicit-calendar-date",
+      "published_at": "2026-10-19T16:47:31Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-19T18:48:50.914955Z",
+      "actor": "State",
+      "perpetrator": "State",
+      "target": null,
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [
+        "State"
+      ],
+      "parent_report_id": null,
+      "event_type": "security operation",
+      "country": "Mali",
+      "city": "Ménaka",
+      "lat": 15.9182,
+      "lng": 2.4022,
+      "locations": [
+        {
+          "name": "Ménaka",
+          "country": "Mali",
+          "lat": 15.9182,
+          "lng": 2.4022,
+          "confidence": "explicit-place"
+        },
+        {
+          "name": "Douentza",
+          "country": "Mali",
+          "lat": 15.0014,
+          "lng": -2.9519,
+          "confidence": "explicit-place"
+        }
+      ],
+      "title": "Fighting insecurity: FAMa strike at the heart of terrorist networks in the centre and north of the country",
+      "summary": "The General Staff of the Armed Forces informs the national opinion that the Malian Armed Forces (FAMa), supported by their partners, are continuing the permanent operations of surveillance, control and security of the national territory as part of Operation Dougoukoloko . On Saturday, October 17, 2026, the exploitation of precise intelligence made it possible to locate, 65 km southwest of the city of Menaka, a large base housing several terrorist elements as well as war and logistics equipment.",
+      "sources": [
+        "Bamada"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://bamada.net/lutte-contre-linsecurite-les-fama-frappent-au-coeur-des-reseaux-terroristes-dans-le-centre-et-le-nord-du-pays"
+      ],
+      "report_summaries": [
+        {
+          "url": "https://bamada.net/lutte-contre-linsecurite-les-fama-frappent-au-coeur-des-reseaux-terroristes-dans-le-centre-et-le-nord-du-pays",
+          "source": "Bamada",
+          "title": "Fighting insecurity: FAMa strike at the heart of terrorist networks in the centre and north of the country",
+          "summary": "The General Staff of the Armed Forces informs the national opinion that the Malian Armed Forces (FAMa), supported by their partners, are continuing the permanent operations of surveillance, control and security of the national territory as part of Operation Dougoukoloko . On Saturday, October 17, 2026, the exploitation of precise intelligence made it possible to locate, 65 km southwest of the city of Menaka, a large base housing several terrorist elements as well as war and logistics equipment.",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "armed_group"
+          ],
+          "civilian_targeting_flag": false,
+          "casualty_claims": []
+        }
+      ],
+      "created_at": "2026-10-19T18:48:50.914955Z",
+      "updated_at": "2026-10-19T18:48:50.914955Z",
+      "extraction_confidence": "moderate",
+      "victim_categories": [
+        "armed_group"
+      ],
+      "civilian_targeting_flag": false,
+      "casualty_claims": [],
+      "fatalities_min": null,
+      "fatalities_max": null,
+      "fatalities_best": null,
+      "injured_min": null,
+      "injured_max": null,
+      "abducted_min": null,
+      "abducted_max": null,
+      "casualty_disputed": false,
+      "revision_history": [
+        {
+          "at": "2026-10-19T18:48:50.914955Z",
+          "type": "event_created",
+          "source": "Bamada"
+        }
+      ],
+      "corroboration": "single-source",
+      "confidence": "moderate",
+      "independent_source_domains": [
+        "bamada.net"
+      ],
+      "independent_source_count": 1,
+      "significance": "MAJOR",
+      "significance_reasons": [
+        "strategic/severe event pattern",
+        "multi-location activity"
       ]
     },
     {
@@ -2942,645 +3553,225 @@
       "significance_reasons": [
         "limited currently observed significance"
       ]
-    },
-    {
-      "id": "c40453341e0c08025e2ea593d080a3be9ead2cab",
-      "event_date": "2026-10-09",
-      "event_date_confidence": "explicit-text",
-      "event_date_source": "explicit-date-no-year",
-      "published_at": "2026-10-09T00:53:29Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-09T04:38:50.487537Z",
-      "actor": "State",
-      "perpetrator": "State",
-      "target": null,
-      "claimant": null,
-      "supporting_force": null,
-      "mentioned_actors": [
-        "State"
-      ],
-      "parent_report_id": null,
-      "event_type": "security operation",
-      "country": "Mali",
-      "city": "Bamako",
-      "lat": 12.6392,
-      "lng": -8.0029,
-      "locations": [
-        {
-          "name": "Bamako",
-          "country": "Mali",
-          "lat": 12.6392,
-          "lng": -8.0029,
-          "confidence": "explicit-place"
-        }
-      ],
-      "title": "Takalot, Talhandak and San: Several positions of terrorist groups struck down",
-      "summary": "Bamako, October 9 (AMAP)– The Malian Armed Forces (FAMa) destroyed a vehicle containing war materiel northeast of Takalot and hit a major logistics point in the Talhandak area, as well as a base housing terrorist elements northeast of San, during air-land operations conducted Thursday, October 8 as part of Operation Dougoukoloko, according to the General Staff of the Armed Forces .",
-      "sources": [
-        "AMAP (Agence Malienne de Presse et de Publicité)"
-      ],
-      "languages": [
-        "fr"
-      ],
-      "source_count": 1,
-      "report_urls": [
-        "https://amap.ml/2026/10/09/takalot-talhandak-et-san-plusieurs-positions-des-groupes-terroristes-foudroyees/"
-      ],
-      "report_summaries": [
-        {
-          "url": "https://amap.ml/2026/10/09/takalot-talhandak-et-san-plusieurs-positions-des-groupes-terroristes-foudroyees/",
-          "source": "AMAP (Agence Malienne de Presse et de Publicité)",
-          "title": "Takalot, Talhandak and San: Several positions of terrorist groups struck down",
-          "summary": "Bamako, October 9 (AMAP)– The Malian Armed Forces (FAMa) destroyed a vehicle containing war materiel northeast of Takalot and hit a major logistics point in the Talhandak area, as well as a base housing terrorist elements northeast of San, during air-land operations conducted Thursday, October 8 as part of Operation Dougoukoloko, according to the General Staff of the Armed Forces .",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "armed_group"
-          ],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        }
-      ],
-      "created_at": "2026-10-09T04:38:50.487537Z",
-      "updated_at": "2026-10-09T04:38:50.487537Z",
-      "extraction_confidence": "low",
-      "victim_categories": [
-        "armed_group"
-      ],
-      "civilian_targeting_flag": false,
-      "casualty_claims": [],
-      "fatalities_min": null,
-      "fatalities_max": null,
-      "fatalities_best": null,
-      "injured_min": null,
-      "injured_max": null,
-      "abducted_min": null,
-      "abducted_max": null,
-      "casualty_disputed": false,
-      "revision_history": [
-        {
-          "at": "2026-10-09T04:38:50.487537Z",
-          "type": "event_created",
-          "source": "AMAP (Agence Malienne de Presse et de Publicité)"
-        }
-      ],
-      "corroboration": "single-source",
-      "confidence": "low",
-      "independent_source_domains": [
-        "amap.ml"
-      ],
-      "independent_source_count": 1,
-      "significance": "MAJOR",
-      "significance_reasons": [
-        "strategic/severe event pattern"
-      ]
-    },
-    {
-      "id": "30cd3828db371473e49c1fcef4d09a7223bd2d11",
-      "event_date": "2026-10-08",
-      "event_date_confidence": "explicit-text",
-      "event_date_source": "explicit-calendar-date",
-      "published_at": "2026-10-09T07:33:26Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-09T08:40:24.037341Z",
-      "actor": "State",
-      "perpetrator": "State",
-      "target": null,
-      "claimant": null,
-      "supporting_force": null,
-      "mentioned_actors": [
-        "State"
-      ],
-      "parent_report_id": null,
-      "event_type": "security operation",
-      "country": "Mali",
-      "city": "Kidal",
-      "lat": 18.4411,
-      "lng": 1.4078,
-      "locations": [
-        {
-          "name": "Kidal",
-          "country": "Mali",
-          "lat": 18.4411,
-          "lng": 1.4078,
-          "confidence": "explicit-place"
-        },
-        {
-          "name": "Timbuktu",
-          "country": "Mali",
-          "lat": 16.7666,
-          "lng": -3.0026,
-          "confidence": "explicit-place"
-        }
-      ],
-      "title": "Operation Dougoukoloko: FAMa precision strikes against terrorist bases in San, Takalot and Talhandak",
-      "summary": "The General Staff of the Armed Forces informs the national opinion that the Malian Armed Forces (FAMa), supported by their partners, are continuing the permanent operations of surveillance, control and security of the national territory as part of Operation Dougoukoloko In the continuation of the offensive launched in the Eastern Theater, the air-land operations conducted on Thursday, October 8, 2026 made it possible to target several positions of the armed terrorist groups.",
-      "sources": [
-        "Bamada",
-        "Malijet"
-      ],
-      "languages": [
-        "fr"
-      ],
-      "source_count": 2,
-      "report_urls": [
-        "https://bamada.net/operation-dougoukoloko-frappes-de-precision-des-fama-contre-des-bases-terroristes-a-san-takalot-et-talhandak",
-        "https://malijet.com/actualte_dans_les_regions_du_mali/312261-operation-dougoukoloko-les-fama-frappent-fort-a-kidal-et-t.html"
-      ],
-      "report_summaries": [
-        {
-          "url": "https://bamada.net/operation-dougoukoloko-frappes-de-precision-des-fama-contre-des-bases-terroristes-a-san-takalot-et-talhandak",
-          "source": "Bamada",
-          "title": "Operation Dougoukoloko: FAMa precision strikes against terrorist bases in San, Takalot and Talhandak",
-          "summary": "The General Staff of the Armed Forces informs the national opinion that the Malian Armed Forces (FAMa), supported by their partners, are continuing the permanent operations of surveillance, control and security of the national territory as part of Operation Dougoukoloko In the continuation of the offensive launched in the Eastern Theater, the air-land operations conducted on Thursday, October 8, 2026 made it possible to target several positions of the armed terrorist groups.",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "armed_group"
-          ],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        },
-        {
-          "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312261-operation-dougoukoloko-les-fama-frappent-fort-a-kidal-et-t.html",
-          "source": "Malijet",
-          "title": "Operation Dougoukoloko: FAMa strike hard in Kidal and Timbuktu",
-          "summary": "Operation Dougoukoloko: FAMa strikes hard in Kidal and Timbuktu Two surgical strikes conducted by FAMa, with the support of their partners, neutralized terrorist elements in the Eastern and Central regions as part of Operation Dougoukoloko. Eastern Theater: This Friday, October 9, 2026, two vehicles carrying terrorists were spotted 45 and 46 km southwest of Kidal .",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "armed_group"
-          ],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        }
-      ],
-      "created_at": "2026-10-09T08:40:24.037341Z",
-      "updated_at": "2026-10-10T12:41:27.947476Z",
-      "extraction_confidence": "moderate",
-      "victim_categories": [
-        "armed_group"
-      ],
-      "civilian_targeting_flag": false,
-      "casualty_claims": [],
-      "fatalities_min": null,
-      "fatalities_max": null,
-      "fatalities_best": null,
-      "injured_min": null,
-      "injured_max": null,
-      "abducted_min": null,
-      "abducted_max": null,
-      "casualty_disputed": false,
-      "revision_history": [
-        {
-          "at": "2026-10-09T08:40:24.037341Z",
-          "type": "event_created",
-          "source": "Bamada"
-        },
-        {
-          "at": "2026-10-10T12:41:27.947476Z",
-          "type": "corroboration_or_geography_update",
-          "source": "Malijet"
-        }
-      ],
-      "corroboration": "limited corroboration",
-      "confidence": "moderate",
-      "independent_source_domains": [
-        "bamada.net",
-        "malijet.com"
-      ],
-      "independent_source_count": 2,
-      "significance": "MAJOR",
-      "significance_reasons": [
-        "strategic/severe event pattern",
-        "multi-location activity"
-      ]
-    },
-    {
-      "id": "b85cc383ee55c4d78d52cd1f5523a283f6fb2d60",
-      "event_date": "2026-10-08",
-      "event_date_confidence": "explicit-text",
-      "event_date_source": "explicit-calendar-date",
-      "published_at": "2026-10-08T21:02:08Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-09T00:51:39.802795Z",
-      "actor": "State",
-      "perpetrator": "State",
-      "target": null,
-      "claimant": null,
-      "supporting_force": null,
-      "mentioned_actors": [
-        "State"
-      ],
-      "parent_report_id": null,
-      "event_type": "offensive/campaign",
-      "country": "Mali",
-      "city": null,
-      "lat": null,
-      "lng": null,
-      "locations": [],
-      "title": "Takalot, Talhandak, San: FAMa surgical offensive against terrorist strongholds in the North and Center",
-      "summary": "Takalot, Talhandak, San: FAMa surgical offensive against terrorist strongholds in the North and the Centre The General Staff of the Armed Forces announced, in a statement, the continuation of the offensive in the Eastern Theater as part of Operation Dougoukoloko. New air-land interventions were conducted by the Malian Armed Forces and their partners on Thursday, October 8, 2026 .",
-      "sources": [
-        "Malijet"
-      ],
-      "languages": [
-        "fr"
-      ],
-      "source_count": 1,
-      "report_urls": [
-        "https://malijet.com/actualte_dans_les_regions_du_mali/312236-takalot-talhandak-san-offensive-chirurgicale-des-fama-co.html"
-      ],
-      "report_summaries": [
-        {
-          "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312236-takalot-talhandak-san-offensive-chirurgicale-des-fama-co.html",
-          "source": "Malijet",
-          "title": "Takalot, Talhandak, San: FAMa surgical offensive against terrorist strongholds in the North and Center",
-          "summary": "Takalot, Talhandak, San: FAMa surgical offensive against terrorist strongholds in the North and the Centre The General Staff of the Armed Forces announced, in a statement, the continuation of the offensive in the Eastern Theater as part of Operation Dougoukoloko. New air-land interventions were conducted by the Malian Armed Forces and their partners on Thursday, October 8, 2026 .",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "armed_group"
-          ],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        }
-      ],
-      "created_at": "2026-10-09T00:51:39.802795Z",
-      "updated_at": "2026-10-09T00:51:39.802795Z",
-      "extraction_confidence": "moderate",
-      "victim_categories": [
-        "armed_group"
-      ],
-      "civilian_targeting_flag": false,
-      "casualty_claims": [],
-      "fatalities_min": null,
-      "fatalities_max": null,
-      "fatalities_best": null,
-      "injured_min": null,
-      "injured_max": null,
-      "abducted_min": null,
-      "abducted_max": null,
-      "casualty_disputed": false,
-      "revision_history": [
-        {
-          "at": "2026-10-09T00:51:39.802795Z",
-          "type": "event_created",
-          "source": "Malijet"
-        }
-      ],
-      "corroboration": "single-source",
-      "confidence": "moderate",
-      "independent_source_domains": [
-        "malijet.com"
-      ],
-      "independent_source_count": 1,
-      "significance": "MAJOR",
-      "significance_reasons": [
-        "strategic/severe event pattern"
-      ]
-    },
-    {
-      "id": "4bf0802fb82eed243728f34d94b88e3de343bcb4",
-      "event_date": "2026-10-08",
-      "event_date_confidence": "publication-proxy",
-      "event_date_source": "jsonld:datePublished",
-      "published_at": "2026-10-08T12:38:49Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-08T16:43:11.225993Z",
-      "actor": "State",
-      "perpetrator": "State",
-      "target": null,
-      "claimant": null,
-      "supporting_force": null,
-      "mentioned_actors": [
-        "State"
-      ],
-      "parent_report_id": null,
-      "event_type": "security operation",
-      "country": "Mali",
-      "city": "Kidal",
-      "lat": 18.4411,
-      "lng": 1.4078,
-      "locations": [
-        {
-          "name": "Kidal",
-          "country": "Mali",
-          "lat": 18.4411,
-          "lng": 1.4078,
-          "confidence": "explicit-place"
-        }
-      ],
-      "title": "Operation Dougoukoloko: Malian forces target supply networks in Kidal",
-      "summary": "As part of Operation Dougoukoloko, the Malian Armed Forces (FAMa), supported by their allies, have implemented several strategies to reduce the operational capabilities of opposing armed groups During the preparatory operations for the assault on Kidal, an active reconnaissance made it possible to identify several rear bases, storage facilities and fuel depots used by the armed groups.",
-      "sources": [
-        "Malijet"
-      ],
-      "languages": [
-        "fr"
-      ],
-      "source_count": 1,
-      "report_urls": [
-        "https://malijet.com/actualte_dans_les_regions_du_mali/312232-operation-dougoukoloko-les-forces-maliennes-ciblent-les-re.html"
-      ],
-      "report_summaries": [
-        {
-          "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312232-operation-dougoukoloko-les-forces-maliennes-ciblent-les-re.html",
-          "source": "Malijet",
-          "title": "Operation Dougoukoloko: Malian forces target supply networks in Kidal",
-          "summary": "As part of Operation Dougoukoloko, the Malian Armed Forces (FAMa), supported by their allies, have implemented several strategies to reduce the operational capabilities of opposing armed groups During the preparatory operations for the assault on Kidal, an active reconnaissance made it possible to identify several rear bases, storage facilities and fuel depots used by the armed groups.",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "armed_group"
-          ],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        }
-      ],
-      "created_at": "2026-10-08T16:43:11.225993Z",
-      "updated_at": "2026-10-08T16:43:11.225993Z",
-      "extraction_confidence": "moderate",
-      "victim_categories": [
-        "armed_group"
-      ],
-      "civilian_targeting_flag": false,
-      "casualty_claims": [],
-      "fatalities_min": null,
-      "fatalities_max": null,
-      "fatalities_best": null,
-      "injured_min": null,
-      "injured_max": null,
-      "abducted_min": null,
-      "abducted_max": null,
-      "casualty_disputed": false,
-      "revision_history": [
-        {
-          "at": "2026-10-08T16:43:11.225993Z",
-          "type": "event_created",
-          "source": "Malijet"
-        }
-      ],
-      "corroboration": "single-source",
-      "confidence": "moderate",
-      "independent_source_domains": [
-        "malijet.com"
-      ],
-      "independent_source_count": 1,
-      "significance": "MAJOR",
-      "significance_reasons": [
-        "strategic/severe event pattern"
-      ]
-    },
-    {
-      "id": "ed61d8adc324860f5b9162f6c1b7b9fa5e6c2ca4",
-      "event_date": "2026-10-08",
-      "event_date_confidence": "publication-proxy",
-      "event_date_source": "jsonld:datePublished",
-      "published_at": "2026-10-08T10:23:52Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-08T12:47:15.125714Z",
-      "actor": "JNIM",
-      "perpetrator": null,
-      "target": null,
-      "claimant": null,
-      "supporting_force": null,
-      "mentioned_actors": [],
-      "parent_report_id": null,
-      "event_type": "ambush",
-      "country": "Mali",
-      "city": "Kidal",
-      "lat": 18.4411,
-      "lng": 1.4078,
-      "locations": [
-        {
-          "name": "Kidal",
-          "country": "Mali",
-          "lat": 18.4411,
-          "lng": 1.4078,
-          "confidence": "explicit-place"
-        }
-      ],
-      "title": "Operation Dougoukoloko: Allied Mali-Russian forces thwart terrorist ambushes on the outskirts of Kidal",
-      "summary": "During their advance on Kidal, the joint units of Mali and Russia neutralized several ambush threats during reconnaissance patrols on the outskirts of the city. Several ambush locations were thus identified by the reconnaissance teams . According to the information gathered, the mission assigned to these terrorist groups was to delay the advance of the allied forces while the main forces of the terrorist coalition formed by the Fla (Frame for the Liberation of Azawad) and the JNIM (Group for the Support of Islam and Muslims) withdrew from Kidal.",
-      "sources": [
-        "Malijet"
-      ],
-      "languages": [
-        "fr"
-      ],
-      "source_count": 1,
-      "report_urls": [
-        "https://malijet.com/actualte_dans_les_regions_du_mali/312227-operation-dougoukoloko-les-forces-alliees-mali-russie-dejou.html"
-      ],
-      "report_summaries": [
-        {
-          "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312227-operation-dougoukoloko-les-forces-alliees-mali-russie-dejou.html",
-          "source": "Malijet",
-          "title": "Operation Dougoukoloko: Allied Mali-Russian forces thwart terrorist ambushes on the outskirts of Kidal",
-          "summary": "During their advance on Kidal, the joint units of Mali and Russia neutralized several ambush threats during reconnaissance patrols on the outskirts of the city. Several ambush locations were thus identified by the reconnaissance teams . According to the information gathered, the mission assigned to these terrorist groups was to delay the advance of the allied forces while the main forces of the terrorist coalition formed by the Fla (Frame for the Liberation of Azawad) and the JNIM (Group for the Support of Islam and Muslims) withdrew from Kidal.",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "armed_group"
-          ],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        }
-      ],
-      "created_at": "2026-10-08T12:47:15.125714Z",
-      "updated_at": "2026-10-08T12:47:15.125714Z",
-      "extraction_confidence": "low",
-      "victim_categories": [
-        "armed_group"
-      ],
-      "civilian_targeting_flag": false,
-      "casualty_claims": [],
-      "fatalities_min": null,
-      "fatalities_max": null,
-      "fatalities_best": null,
-      "injured_min": null,
-      "injured_max": null,
-      "abducted_min": null,
-      "abducted_max": null,
-      "casualty_disputed": false,
-      "revision_history": [
-        {
-          "at": "2026-10-08T12:47:15.125714Z",
-          "type": "event_created",
-          "source": "Malijet"
-        }
-      ],
-      "corroboration": "single-source",
-      "confidence": "low",
-      "independent_source_domains": [
-        "malijet.com"
-      ],
-      "independent_source_count": 1,
-      "significance": "SIGNIFICANT",
-      "significance_reasons": [
-        "operational security event"
-      ]
-    },
-    {
-      "id": "b31da638fa656799b3bfba8326a560831da65325",
-      "event_date": "2026-10-07",
-      "event_date_confidence": "publication-proxy",
-      "event_date_source": "jsonld:datePublished",
-      "published_at": "2026-10-07T02:45:20.596000Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-07T04:42:09.498071Z",
-      "actor": "Africa Corps/Wagner",
-      "perpetrator": "Africa Corps/Wagner",
-      "target": null,
-      "claimant": null,
-      "supporting_force": null,
-      "mentioned_actors": [
-        "Africa Corps/Wagner"
-      ],
-      "parent_report_id": null,
-      "event_type": "offensive/campaign",
-      "country": "Mali",
-      "city": "Kidal",
-      "lat": 18.4411,
-      "lng": 1.4078,
-      "locations": [
-        {
-          "name": "Kidal",
-          "country": "Mali",
-          "lat": 18.4411,
-          "lng": 1.4078,
-          "confidence": "explicit-place"
-        }
-      ],
-      "title": "Mali: Junta forces retake strategic town of Kidal",
-      "summary": "Mali's army, supported by Russian paramilitary forces, has re-entered the northern town of Kidal, forcing the Tuareg separatists to withdraw from the strategic hold, in a symbolic boost for the country's military government and its Russian allies. The Tuareg separatist Azawad Liberation Front (FLA) said in a statement it had \"decided to carry out a strategic and controlled withdrawal of its forces from the town of Kidal.\" It said the withdrawal took place without direct fighting.",
-      "sources": [
-        "DW Africa (EN)",
-        "AllAfrica (English Edition)"
-      ],
-      "languages": [
-        "en"
-      ],
-      "source_count": 2,
-      "report_urls": [
-        "https://www.dw.com/en/mali-junta-forces-retake-strategic-town-of-kidal-from-separatists/a-79570617",
-        "https://allafrica.com/stories/202610070174.html"
-      ],
-      "report_summaries": [
-        {
-          "url": "https://www.dw.com/en/mali-junta-forces-retake-strategic-town-of-kidal-from-separatists/a-79570617",
-          "source": "DW Africa (EN)",
-          "title": "Mali: Junta forces retake strategic town of Kidal",
-          "summary": "Mali's army, supported by Russian paramilitary forces, has re-entered the northern town of Kidal, forcing the Tuareg separatists to withdraw from the strategic hold, in a symbolic boost for the country's military government and its Russian allies. The Tuareg separatist Azawad Liberation Front (FLA) said in a statement it had \"decided to carry out a strategic and controlled withdrawal of its forces from the town of Kidal.\" It said the withdrawal took place without direct fighting.",
-          "summary_basis": "source-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        },
-        {
-          "url": "https://allafrica.com/stories/202610070174.html",
-          "source": "AllAfrica (English Edition)",
-          "title": "Mali: Junta Forces Retake Strategic Town of Kidal",
-          "summary": "Mali's military regained control of the strategic town of Kidal after forcing Tuareg separatists and al-Qaeda-linked jihadists to withdraw following an offensive backed by Russia's Africa Corps. Mali's army, supported by Russian paramilitary forces, has re-entered the northern town of Kidal, forcing the Tuareg separatists to withdraw from the strategic hold, in a symbolic boost for the country's military government and its Russian allies.",
-          "summary_basis": "source-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "armed_group"
-          ],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        }
-      ],
-      "created_at": "2026-10-07T04:42:09.498071Z",
-      "updated_at": "2026-10-07T08:40:59.641108Z",
-      "extraction_confidence": "low",
-      "victim_categories": [
-        "armed_group"
-      ],
-      "civilian_targeting_flag": false,
-      "casualty_claims": [],
-      "fatalities_min": null,
-      "fatalities_max": null,
-      "fatalities_best": null,
-      "injured_min": null,
-      "injured_max": null,
-      "abducted_min": null,
-      "abducted_max": null,
-      "casualty_disputed": false,
-      "revision_history": [
-        {
-          "at": "2026-10-07T04:42:09.498071Z",
-          "type": "event_created",
-          "source": "DW Africa (EN)"
-        },
-        {
-          "at": "2026-10-07T08:40:59.641108Z",
-          "type": "corroboration_or_geography_update",
-          "source": "AllAfrica (English Edition)"
-        }
-      ],
-      "corroboration": "limited corroboration",
-      "confidence": "moderate",
-      "independent_source_domains": [
-        "dw.com",
-        "allafrica.com"
-      ],
-      "independent_source_count": 2,
-      "significance": "MAJOR",
-      "significance_reasons": [
-        "strategic/severe event pattern"
-      ]
     }
   ],
   "latest_reports": [
+    {
+      "published_at": "2026-10-19T16:47:31Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-19T18:48:50.914955Z",
+      "discovered_at": "2026-10-19T18:48:50.914955Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0008",
+      "source": "Bamada",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Ménaka",
+      "event_type": "security operation",
+      "candidate_event": true,
+      "title": "Fighting insecurity: FAMa strike at the heart of terrorist networks in the centre and north of the country",
+      "url": "https://bamada.net/lutte-contre-linsecurite-les-fama-frappent-au-coeur-des-reseaux-terroristes-dans-le-centre-et-le-nord-du-pays"
+    },
+    {
+      "published_at": "2026-10-19T15:51:33Z",
+      "published_date_source": "opengraph",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-19T18:48:54.794354Z",
+      "discovered_at": "2026-10-19T18:48:54.794354Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0058",
+      "source": "Independent Arabia",
+      "language": "ar",
+      "actor": "State",
+      "country": "Mali",
+      "city": null,
+      "event_type": "security operation",
+      "candidate_event": true,
+      "title": "Report: 'Indiscriminate' drone strikes by Malian and Russian 'Africa Corps' forces",
+      "url": "https://www.independentarabia.com/node/660795/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AF%D9%88%D9%84%D9%8A%D8%A7%D8%AA/%D8%AA%D9%82%D8%B1%D9%8A%D8%B1-%D8%B6%D8%B1%D8%A8%D8%A7%D8%AA-%D8%B9%D8%B4%D9%88%D8%A7%D8%A6%D9%8A%D8%A9-%D8%A8%D8%A7%D9%84%D9%85%D8%B3%D9%8A%D8%B1%D8%A7%D8%AA-%D9%86%D9%81%D8%B0%D8%AA%D9%87%D8%A7-%D9%82%D9%88%D8%A7%D8%AA-%D9%85%D8%A7%D9%84%D9%8A-%D9%88%D9%81%D9%8A%D9%84%D9%82-%D8%A3%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7-%D8%A7%D9%84%D8%B1%D9%88%D8%B3%D9%8A"
+    },
+    {
+      "published_at": "2026-10-19T14:28:32Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-19T18:48:56.955093Z",
+      "discovered_at": "2026-10-19T18:48:56.955093Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0034",
+      "source": "TV5MONDE Afrique",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": null,
+      "event_type": "security operation",
+      "candidate_event": true,
+      "title": "Image Africa Mali: Human Rights Watch accuses the army, its Russian allies and insurgents of committing \"atrocities\"",
+      "url": "https://information.tv5monde.com/afrique/mali-long-human-rights-watch-accuse-larmee-ses-allies-russes-et-les-insurges-de-commettre-des-atrocites-2842311"
+    },
+    {
+      "published_at": "2026-10-19T11:31:11Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-19T18:48:54.890455Z",
+      "discovered_at": "2026-10-19T18:48:54.890455Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0057",
+      "source": "Al-Araby Al-Jadeed",
+      "language": "ar",
+      "actor": "JNIM",
+      "country": "Mali",
+      "city": null,
+      "event_type": "security operation",
+      "candidate_event": true,
+      "title": "Human Rights Watch accuses Mali's military and its allies of killing dozens of civilians",
+      "url": "https://www.alaraby.co.uk/politics/%D9%87%D9%8A%D9%88%D9%85%D9%86-%D8%B1%D8%A7%D9%8A%D8%AA%D8%B3-%D9%88%D9%88%D8%AA%D8%B4-%D8%AA%D8%AA%D9%87%D9%85-%D8%A7%D9%84%D8%AC%D9%8A%D8%B4-%D9%81%D9%8A-%D9%85%D8%A7%D9%84%D9%8A-%D9%88%D8%AD%D9%84%D9%81%D8%A7%D8%A1%D9%87-%D8%A8%D9%82%D8%AA%D9%84-%D8%B9%D8%B4%D8%B1%D8%A7%D8%AA-%D8%A7%D9%84%D9%85%D8%AF%D9%86%D9%8A%D9%8A%D9%86"
+    },
+    {
+      "published_at": "2026-10-19T10:40:08Z",
+      "published_date_source": "opengraph",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-19T18:48:57.086472Z",
+      "discovered_at": "2026-10-19T18:48:57.086472Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0090",
+      "source": "AllAfrica (Édition Française)",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Gao",
+      "event_type": "security operation",
+      "candidate_event": true,
+      "title": "Military attacks against civilians, abuses committed by insurgents in Mali",
+      "url": "https://fr.allafrica.com/view/group/main/main/id/00098505.html"
+    },
+    {
+      "published_at": "2026-10-19T10:21:26Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-19T18:48:50.592101Z",
+      "discovered_at": "2026-10-19T18:48:50.592101Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0022",
+      "source": "Africanews",
+      "language": "en",
+      "actor": "Africa Corps/Wagner",
+      "country": "Niger",
+      "city": "Niamey",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Mali: Human Rights Watch Denounces Crimes Against Civilians [Africanews Today]",
+      "url": "https://www.africanews.com/2026/10/19/mali-human-rights-watch-denounces-crimes-against-civilians-africanews-today/"
+    },
+    {
+      "published_at": "2026-10-19T10:13:51Z",
+      "published_date_source": "opengraph",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-19T18:48:54.600630Z",
+      "discovered_at": "2026-10-19T18:48:54.600630Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0121",
+      "source": "AllAfrica (English Edition)",
+      "language": "en",
+      "actor": "JNIM",
+      "country": "Mali",
+      "city": null,
+      "event_type": "attack",
+      "candidate_event": true,
+      "title": "Mali: Malian Army and Rebels Committing Abuses Against Civilians, Rights Group Says",
+      "url": "https://allafrica.com/stories/202610190228.html"
+    },
+    {
+      "published_at": "2026-10-19T10:02:52Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-19T18:48:50.863380Z",
+      "discovered_at": "2026-10-19T18:48:50.863380Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0008",
+      "source": "Bamada",
+      "language": "fr",
+      "actor": null,
+      "country": "Mali",
+      "city": "Kidal",
+      "event_type": "political/security policy",
+      "candidate_event": false,
+      "title": "KIDAL: The field responds to speeches",
+      "url": "https://bamada.net/kidal-le-terrain-repond-aux-discours"
+    },
+    {
+      "published_at": "2026-10-19T09:41:19Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-19T18:48:59.667327Z",
+      "discovered_at": "2026-10-19T18:48:59.667327Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0130",
+      "source": "Modern Ghana",
+      "language": "en",
+      "actor": "State",
+      "country": "Mali",
+      "city": null,
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Malian army and rebels committing abuses against civilians, rights group says",
+      "url": "https://www.modernghana.com/news/1537236/malian-army-and-rebels-committing-abuses-against.html"
+    },
+    {
+      "published_at": "2026-10-19T09:14:01Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-19T18:48:50.809416Z",
+      "discovered_at": "2026-10-19T18:48:50.809416Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0006",
+      "source": "Malijet",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Gao",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Gao: FAMa take control of Intahaka gold mine",
+      "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312397-gao-les-fama-prennent-le-controle-de-la-mine-dor-dintaha.html"
+    },
+    {
+      "published_at": "2026-10-19T09:01:09Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-19T18:48:50.728682Z",
+      "discovered_at": "2026-10-19T18:48:50.728682Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0006",
+      "source": "Malijet",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Kidal",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Focus: Common Front",
+      "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312396-focus-front-commun.html"
+    },
+    {
+      "published_at": "2026-10-19T08:58:47Z",
+      "published_date_source": "opengraph",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-19T18:48:57.035554Z",
+      "discovered_at": "2026-10-19T18:48:57.035554Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0090",
+      "source": "AllAfrica (Édition Française)",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": null,
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Mali: Military attacks against civilians, abuses committed by insurgents",
+      "url": "https://fr.allafrica.com/stories/202610190113.html"
+    },
     {
       "published_at": "2026-10-19T08:44:47Z",
       "published_date_source": "jsonld:datePublished",
@@ -4084,222 +4275,6 @@
       "candidate_event": false,
       "title": "\"Bismillah is darkness\", the cult slogan of student demonstrations in France",
       "url": "https://information.tv5monde.com/international/video/bismillah-cest-les-tenebres-le-slogan-culte-des-manifestations-etudiantes-en-france-2841915"
-    },
-    {
-      "published_at": "2026-10-16T17:33:23Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-16T20:54:02.116249Z",
-      "discovered_at": "2026-10-16T20:54:02.116249Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0014",
-      "source": "Agence Nigérienne de Presse",
-      "language": "fr",
-      "actor": null,
-      "country": "Niger",
-      "city": "Maradi",
-      "event_type": "clash",
-      "candidate_event": false,
-      "title": "Maradi: Governor Takes Part in Friday Prayer Marking Closing of M62 National Prayer Tour",
-      "url": "https://anp.ne/maradi-le-gouverneur-prend-part-a-la-priere-du-vendredi-marquant-la-cloture-de-la-tournee-nationale-de-prieres-du-m62/"
-    },
-    {
-      "published_at": "2026-10-16T16:48:22Z",
-      "published_date_source": "opengraph",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-17T16:50:19.817921Z",
-      "discovered_at": "2026-10-17T16:50:19.817921Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0034",
-      "source": "TV5MONDE Afrique",
-      "language": "fr",
-      "actor": "JNIM",
-      "country": "Mali",
-      "city": "Ménaka",
-      "event_type": "clash",
-      "candidate_event": true,
-      "title": "Mali, Burkina Faso, Niger: deadly clashes between rival factions in the Sahel of Al-Qaeda and the Islamic State",
-      "url": "https://information.tv5monde.com/afrique/mali-burkina-faso-niger-des-affrontements-meurtriers-entre-les-factions-rivales-au-sahel-dal-qaida-et-de-letat-islamique-2841913?amp"
-    },
-    {
-      "published_at": "2026-10-16T16:48:22Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-16T20:54:01.165456Z",
-      "discovered_at": "2026-10-16T20:54:01.165456Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0034",
-      "source": "TV5MONDE Afrique",
-      "language": "fr",
-      "actor": "JNIM",
-      "country": "Mali",
-      "city": null,
-      "event_type": "clash",
-      "candidate_event": true,
-      "title": "Image Africa Mali, Burkina Faso, Niger: deadly clashes between rival factions in the Sahel of Al-Qaeda and the Islamic State",
-      "url": "https://information.tv5monde.com/afrique/mali-burkina-faso-niger-des-affrontements-meurtriers-entre-les-factions-rivales-au-sahel-dal-qaida-et-de-letat-islamique-2841913"
-    },
-    {
-      "published_at": "2026-10-16T14:46:44Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-16T16:55:14.816069Z",
-      "discovered_at": "2026-10-16T16:55:14.816069Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0170",
-      "source": "Arabi21 (عربي 21)",
-      "language": "ar",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Kidal",
-      "event_type": "air/drone strike",
-      "candidate_event": false,
-      "title": "From Mali to Niger, how is Algeria regaining influence in the Sahel?",
-      "url": "https://arabi21.com/story/1796289/%D9%85%D9%86-%D9%85%D8%A7%D9%84%D9%8A-%D8%A5%D9%84%D9%89-%D8%A7%D9%84%D9%86%D9%8A%D8%AC%D8%B1-%D9%83%D9%8A%D9%81-%D8%AA%D8%B3%D8%AA%D8%B9%D9%8A%D8%AF-%D8%A7%D9%84%D8%AC%D8%B2%D8%A7%D8%A6%D8%B1-%D9%86%D9%81%D9%88%D8%B0%D9%87%D8%A7-%D9%81%D9%8A-%D9%85%D9%86%D8%B7%D9%82%D8%A9-%D8%A7%D9%84%D8%B3%D8%A7%D8%AD%D9%84"
-    },
-    {
-      "published_at": "2026-10-16T08:42:59Z",
-      "published_date_source": "opengraph",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-16T08:57:04.058769Z",
-      "discovered_at": "2026-10-16T08:57:04.058769Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0090",
-      "source": "AllAfrica (Édition Française)",
-      "language": "fr",
-      "actor": "JNIM",
-      "country": "Mali",
-      "city": null,
-      "event_type": "clash",
-      "candidate_event": true,
-      "title": "West Africa: Sahel - Violent fighting between Jnim and ISIS jihadists on the Mali-Burkina border",
-      "url": "https://fr.allafrica.com/stories/202610160142.html"
-    },
-    {
-      "published_at": "2026-10-16T08:00:57.588000Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-16T08:57:05.674452Z",
-      "discovered_at": "2026-10-16T08:57:05.674452Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0089",
-      "source": "Le360 Afrique",
-      "language": "fr",
-      "actor": "JNIM",
-      "country": null,
-      "city": null,
-      "event_type": "clash",
-      "candidate_event": false,
-      "title": "Sahel: Bloody Battles Between Rival Branches of Al-Qaeda and ISIS",
-      "url": "https://afrique.le360.ma/societe/sahel-batailles-sanglantes-entre-les-branches-rivales-dal-qaida-et-de-letat-islamique_PZKMBAINVFATXBHUBFR5FTK23Y/"
-    },
-    {
-      "published_at": "2026-10-16T07:43:31Z",
-      "published_date_source": "opengraph",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-16T08:57:04.383706Z",
-      "discovered_at": "2026-10-16T08:57:04.383706Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0090",
-      "source": "AllAfrica (Édition Française)",
-      "language": "fr",
-      "actor": "JNIM",
-      "country": "Burkina Faso",
-      "city": "Ouagadougou",
-      "event_type": "clash",
-      "candidate_event": false,
-      "title": "West Africa: A war within a war - The clash between JNIM and the Islamic State in the Sahel",
-      "url": "https://fr.allafrica.com/stories/202610160119.html"
-    },
-    {
-      "published_at": "2026-10-16T06:19:08Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-16T08:57:03.436870Z",
-      "discovered_at": "2026-10-16T08:57:03.436870Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0008",
-      "source": "Bamada",
-      "language": "fr",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Dioura",
-      "event_type": "security operation",
-      "candidate_event": true,
-      "title": "Operation Dougoukoloko: the FAMa strike two terrorist positions near Dioura and Tongolo Coura",
-      "url": "https://bamada.net/operation-dougoukoloko-les-fama-frappent-deux-positions-terroristes-pres-de-dioura-et-de-tongolo-coura"
-    },
-    {
-      "published_at": "2026-10-16T05:29:19Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-16T13:05:06.026744Z",
-      "discovered_at": "2026-10-16T13:05:06.026744Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0022",
-      "source": "Africanews",
-      "language": "en",
-      "actor": null,
-      "country": "Burkina Faso",
-      "city": "Ouagadougou",
-      "event_type": "clash",
-      "candidate_event": false,
-      "title": "Al-Qaeda and IS rivalry sparks fierce fighting across Sahel",
-      "url": "https://www.africanews.com/2026/10/16/rival-jnim-and-islamic-state-jihadists-clash-in-intensifying-sahel-turf-war/"
-    },
-    {
-      "published_at": "2026-10-16T03:55:54Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-16T04:56:05.271586Z",
-      "discovered_at": "2026-10-16T04:56:05.271586Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0001",
-      "source": "RFI Afrique",
-      "language": "fr",
-      "actor": "JNIM",
-      "country": "Mali",
-      "city": null,
-      "event_type": "clash",
-      "candidate_event": true,
-      "title": "Sahel: violent fighting between the jihadists of Jnim and those of the ISE at the Mali-Burkina border",
-      "url": "https://www.rfi.fr/fr/afrique/20261016-sahel-violents-combats-entre-les-jihadistes-du-jnim-et-ceux-de-l-eis-%C3%A0-la-fronti%C3%A8re-mali-burkina"
-    },
-    {
-      "published_at": "2026-10-16T00:00:00Z",
-      "published_date_source": "title",
-      "published_time_precision": "date-only",
-      "collected_at": "2026-10-16T20:54:08.723821Z",
-      "discovered_at": "2026-10-16T20:54:08.723821Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0161",
-      "source": "Cridem (Carrefour de la République Democratique)",
-      "language": "fr",
-      "actor": "JNIM",
-      "country": null,
-      "city": null,
-      "event_type": "clash",
-      "candidate_event": false,
-      "title": "16/10/2026 15:10 - Sahel: ISIS and Al Qaeda face off in an unprecedented battle",
-      "url": "https://cridem.org/C_Info.php?article=797509"
-    },
-    {
-      "published_at": "2026-10-15T23:24:08Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-16T01:02:17.218739Z",
-      "discovered_at": "2026-10-16T01:02:17.218739Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0008",
-      "source": "Bamada",
-      "language": "fr",
-      "actor": null,
-      "country": "Mali",
-      "city": "Nioro du Sahel",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Nioro: a gesture of solidarity with the poorest",
-      "url": "https://bamada.net/nioro-un-geste-de-solidarite-envers-les-plus-demunis"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
