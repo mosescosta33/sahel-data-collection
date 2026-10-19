@@ -1,5 +1,97 @@
 [
   {
+    "id": "f0de1da6e5814ac66ab482cdceee3a8daee9cdb4",
+    "event_date": "2026-10-19",
+    "event_date_confidence": "publication-proxy",
+    "event_date_source": "jsonld:datePublished",
+    "published_at": "2026-10-19T06:05:36Z",
+    "published_date_source": "jsonld:datePublished",
+    "published_time_precision": "datetime",
+    "collected_at": "2026-10-19T09:00:56.702343Z",
+    "actor": "JNIM",
+    "perpetrator": null,
+    "target": "JNIM",
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [
+      "JNIM"
+    ],
+    "parent_report_id": null,
+    "event_type": "raid",
+    "country": "Mali",
+    "city": null,
+    "lat": null,
+    "lng": null,
+    "locations": [],
+    "title": "In Mali, mining companies caught between fiscal vice and logistical headache",
+    "summary": "In Mali, mining companies caught between fiscal stranglehold and logistical headache Faced with rising royalties, deteriorating security conditions or legal disputes with the ruling junta, mining companies navigate an increasingly uncertain environment Burned-out tanker trucks, blocked roads, besieged gas stations… After a particularly turbulent 2025, the numerous blockades imposed in the first half of 2026 by the Group for the Support of Islam and Muslims (JNIM) have weighed heavily on the Malian economy.",
+    "sources": [
+      "Jeune Afrique"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://www.jeuneafrique.com/1849767/economie-entreprises/au-mali-les-compagnies-minieres-prises-entre-etau-fiscal-et-casse-tete-logistique/"
+    ],
+    "report_summaries": [
+      {
+        "url": "https://www.jeuneafrique.com/1849767/economie-entreprises/au-mali-les-compagnies-minieres-prises-entre-etau-fiscal-et-casse-tete-logistique/",
+        "source": "Jeune Afrique",
+        "title": "In Mali, mining companies caught between fiscal vice and logistical headache",
+        "summary": "In Mali, mining companies caught between fiscal stranglehold and logistical headache Faced with rising royalties, deteriorating security conditions or legal disputes with the ruling junta, mining companies navigate an increasingly uncertain environment Burned-out tanker trucks, blocked roads, besieged gas stations… After a particularly turbulent 2025, the numerous blockades imposed in the first half of 2026 by the Group for the Support of Islam and Muslims (JNIM) have weighed heavily on the Malian economy.",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "civilian",
+          "journalist"
+        ],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      }
+    ],
+    "created_at": "2026-10-19T09:00:56.702343Z",
+    "updated_at": "2026-10-19T09:00:56.702343Z",
+    "extraction_confidence": "low",
+    "victim_categories": [
+      "civilian",
+      "journalist"
+    ],
+    "civilian_targeting_flag": false,
+    "casualty_claims": [],
+    "fatalities_min": null,
+    "fatalities_max": null,
+    "fatalities_best": null,
+    "injured_min": null,
+    "injured_max": null,
+    "abducted_min": null,
+    "abducted_max": null,
+    "casualty_disputed": false,
+    "revision_history": [
+      {
+        "at": "2026-10-19T09:00:56.702343Z",
+        "type": "event_created",
+        "source": "Jeune Afrique"
+      }
+    ],
+    "corroboration": "single-source",
+    "confidence": "low",
+    "independent_source_domains": [
+      "jeuneafrique.com"
+    ],
+    "independent_source_count": 1,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "strategic/severe event pattern"
+    ]
+  },
+  {
     "id": "8b42e2c5d360988b1709900cd9a5c9d35b8d3edd",
     "event_date": "2026-10-19",
     "event_date_confidence": "explicit-text",
@@ -106,6 +198,100 @@
     "significance": "MAJOR",
     "significance_reasons": [
       "multi-location activity"
+    ]
+  },
+  {
+    "id": "62d60a91022ca5ce8d9b331507f28dbe8da9aba8",
+    "event_date": "2026-10-18",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "explicit-calendar-date",
+    "published_at": "2026-10-19T08:35:18Z",
+    "published_date_source": "jsonld:datePublished",
+    "published_time_precision": "datetime",
+    "collected_at": "2026-10-19T09:00:54.967408Z",
+    "actor": "Other",
+    "perpetrator": null,
+    "target": "State",
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [
+      "State"
+    ],
+    "parent_report_id": null,
+    "event_type": "attack",
+    "country": "Mali",
+    "city": "Sikasso",
+    "lat": 11.31755,
+    "lng": -5.66654,
+    "locations": [
+      {
+        "name": "Sikasso",
+        "country": "Mali",
+        "lat": 11.31755,
+        "lng": -5.66654,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "Sikasso: a thwarted attack at the Mamassoni checkpoint",
+    "summary": "An attack on the Mamassoni checkpoint in Sikasso was thwarted on the night of Sunday, October 18, 2026, around 9 p.m., according to local reports. The reaction of the Malian Armed Forces (FAMa) would have forced the attackers to abandon their plan. The situation was quickly brought under control, according to the same sources A statement from security authorities is expected to provide more details on the circumstances of the incident.",
+    "sources": [
+      "Malijet"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://malijet.com/actualte_dans_les_regions_du_mali/312393-sikasso-une-attaque-dejouee-au-poste-de-controle-de-mamass.html"
+    ],
+    "report_summaries": [
+      {
+        "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312393-sikasso-une-attaque-dejouee-au-poste-de-controle-de-mamass.html",
+        "source": "Malijet",
+        "title": "Sikasso: a thwarted attack at the Mamassoni checkpoint",
+        "summary": "An attack on the Mamassoni checkpoint in Sikasso was thwarted on the night of Sunday, October 18, 2026, around 9 p.m., according to local reports. The reaction of the Malian Armed Forces (FAMa) would have forced the attackers to abandon their plan. The situation was quickly brought under control, according to the same sources A statement from security authorities is expected to provide more details on the circumstances of the incident.",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      }
+    ],
+    "created_at": "2026-10-19T09:00:54.967408Z",
+    "updated_at": "2026-10-19T09:00:54.967408Z",
+    "extraction_confidence": "low",
+    "victim_categories": [],
+    "civilian_targeting_flag": false,
+    "casualty_claims": [],
+    "fatalities_min": null,
+    "fatalities_max": null,
+    "fatalities_best": null,
+    "injured_min": null,
+    "injured_max": null,
+    "abducted_min": null,
+    "abducted_max": null,
+    "casualty_disputed": false,
+    "revision_history": [
+      {
+        "at": "2026-10-19T09:00:54.967408Z",
+        "type": "event_created",
+        "source": "Malijet"
+      }
+    ],
+    "corroboration": "single-source",
+    "confidence": "low",
+    "independent_source_domains": [
+      "malijet.com"
+    ],
+    "independent_source_count": 1,
+    "significance": "SIGNIFICANT",
+    "significance_reasons": [
+      "operational security event"
     ]
   },
   {
