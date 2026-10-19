@@ -1,5 +1,114 @@
 [
   {
+    "id": "8b42e2c5d360988b1709900cd9a5c9d35b8d3edd",
+    "event_date": "2026-10-19",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "explicit-date-no-year",
+    "published_at": "2026-10-19T04:00:05Z",
+    "published_date_source": "jsonld:datePublished",
+    "published_time_precision": "datetime",
+    "collected_at": "2026-10-19T04:55:22.353789Z",
+    "actor": "JNIM",
+    "perpetrator": "JNIM",
+    "target": "State",
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [
+      "JNIM",
+      "State",
+      "Africa Corps/Wagner"
+    ],
+    "parent_report_id": null,
+    "event_type": "civilian targeting",
+    "country": "Mali",
+    "city": "Gao",
+    "lat": 16.2717,
+    "lng": -0.0447,
+    "locations": [
+      {
+        "name": "Gao",
+        "country": "Mali",
+        "lat": 16.2717,
+        "lng": -0.0447,
+        "confidence": "explicit-place"
+      },
+      {
+        "name": "Anéfis",
+        "country": "Mali",
+        "lat": 18.0667,
+        "lng": 0.6167,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "Mali: HRW confirms the execution of Malian soldiers by Jnim and the death of civilians killed by the army",
+    "summary": "In a new report published on Monday, October 19, the human rights organization claims that the Support Group for Islam and Muslims (Jnim) confirmed to it summary executions of Malian soldiers in Tabrichat, in the Gao region, following the attack on a military convoy from Anefis, last July The NGO Human Rights Watch (HRW) also accuses the Malian army and the Russian Africa Corps of having killed and wounded several dozen civilians during recent military operations.",
+    "sources": [
+      "RFI Afrique"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://www.rfi.fr/fr/afrique/20261019-mali-hrw-confirme-l-ex%C3%A9cution-de-soldats-maliens-par-le-jnim-et-la-mort-de-civils-tu%C3%A9s-par-l-arm%C3%A9e"
+    ],
+    "report_summaries": [
+      {
+        "url": "https://www.rfi.fr/fr/afrique/20261019-mali-hrw-confirme-l-ex%C3%A9cution-de-soldats-maliens-par-le-jnim-et-la-mort-de-civils-tu%C3%A9s-par-l-arm%C3%A9e",
+        "source": "RFI Afrique",
+        "title": "Mali: HRW confirms the execution of Malian soldiers by Jnim and the death of civilians killed by the army",
+        "summary": "In a new report published on Monday, October 19, the human rights organization claims that the Support Group for Islam and Muslims (Jnim) confirmed to it summary executions of Malian soldiers in Tabrichat, in the Gao region, following the attack on a military convoy from Anefis, last July The NGO Human Rights Watch (HRW) also accuses the Malian army and the Russian Africa Corps of having killed and wounded several dozen civilians during recent military operations.",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "civilian",
+          "security_force"
+        ],
+        "civilian_targeting_flag": true,
+        "casualty_claims": []
+      }
+    ],
+    "created_at": "2026-10-19T04:55:22.353789Z",
+    "updated_at": "2026-10-19T04:55:22.353789Z",
+    "extraction_confidence": "moderate",
+    "victim_categories": [
+      "civilian",
+      "security_force"
+    ],
+    "civilian_targeting_flag": true,
+    "casualty_claims": [],
+    "fatalities_min": null,
+    "fatalities_max": null,
+    "fatalities_best": null,
+    "injured_min": null,
+    "injured_max": null,
+    "abducted_min": null,
+    "abducted_max": null,
+    "casualty_disputed": false,
+    "revision_history": [
+      {
+        "at": "2026-10-19T04:55:22.353789Z",
+        "type": "event_created",
+        "source": "RFI Afrique"
+      }
+    ],
+    "corroboration": "single-source",
+    "confidence": "moderate",
+    "independent_source_domains": [
+      "rfi.fr"
+    ],
+    "independent_source_count": 1,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "multi-location activity"
+    ]
+  },
+  {
     "id": "fb19e15cfea19012697e1dfdc35694dc1e7911ae",
     "event_date": "2026-10-17",
     "event_date_confidence": "explicit-text",

@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-10-19T01:05:48.609005Z",
+  "generated_at": "2026-10-19T04:56:04.602617Z",
   "window_days": 30,
   "cutoff": "2026-09-19",
   "reports": 478,
-  "incident_reports": 115,
-  "candidate_events": 82,
+  "incident_reports": 116,
+  "candidate_events": 83,
   "corroborated_events": 21,
-  "mapped_events": 72,
-  "mapped_locations": 140,
-  "distinct_sources": 81,
+  "mapped_events": 73,
+  "mapped_locations": 142,
+  "distinct_sources": 82,
   "by_actor": {
     "State": 53,
-    "JNIM": 12,
+    "JNIM": 13,
     "Other": 10,
     "Africa Corps/Wagner": 7
   },
   "by_country": {
-    "Mali": 74,
+    "Mali": 75,
     "Niger": 5,
     "Burkina Faso": 3
   },
@@ -27,15 +27,16 @@
     "attack": 9,
     "ambush": 3,
     "kidnapping": 3,
+    "civilian targeting": 1,
     "raid": 1
   },
   "by_language": {
-    "fr": 367,
-    "en": 84,
+    "fr": 366,
+    "en": 85,
     "ar": 27
   },
   "by_confidence": {
-    "moderate": 38,
+    "moderate": 39,
     "low": 37,
     "moderate-high": 6,
     "high": 1
@@ -59,7 +60,7 @@
     {
       "source_code": "SRC-0001",
       "source": "RFI Afrique",
-      "count": 20
+      "count": 21
     },
     {
       "source_code": "SRC-0090",
@@ -116,12 +117,12 @@
       "count": 11
     },
     {
-      "location": "Dioura",
+      "location": "Anéfis",
       "count": 10
     },
     {
-      "location": "Anéfis",
-      "count": 9
+      "location": "Dioura",
+      "count": 10
     },
     {
       "location": "Mali",
@@ -136,15 +137,15 @@
       "count": 7
     },
     {
+      "location": "Gao",
+      "count": 6
+    },
+    {
       "location": "Sévaré",
       "count": 6
     },
     {
       "location": "Djenné",
-      "count": 5
-    },
-    {
-      "location": "Gao",
       "count": 5
     },
     {
@@ -300,11 +301,120 @@
     },
     {
       "date": "2026-10-19",
-      "reports": 0,
-      "events": 0
+      "reports": 2,
+      "events": 1
     }
   ],
   "latest_events": [
+    {
+      "id": "8b42e2c5d360988b1709900cd9a5c9d35b8d3edd",
+      "event_date": "2026-10-19",
+      "event_date_confidence": "explicit-text",
+      "event_date_source": "explicit-date-no-year",
+      "published_at": "2026-10-19T04:00:05Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-19T04:55:22.353789Z",
+      "actor": "JNIM",
+      "perpetrator": "JNIM",
+      "target": "State",
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [
+        "JNIM",
+        "State",
+        "Africa Corps/Wagner"
+      ],
+      "parent_report_id": null,
+      "event_type": "civilian targeting",
+      "country": "Mali",
+      "city": "Gao",
+      "lat": 16.2717,
+      "lng": -0.0447,
+      "locations": [
+        {
+          "name": "Gao",
+          "country": "Mali",
+          "lat": 16.2717,
+          "lng": -0.0447,
+          "confidence": "explicit-place"
+        },
+        {
+          "name": "Anéfis",
+          "country": "Mali",
+          "lat": 18.0667,
+          "lng": 0.6167,
+          "confidence": "explicit-place"
+        }
+      ],
+      "title": "Mali: HRW confirms the execution of Malian soldiers by Jnim and the death of civilians killed by the army",
+      "summary": "In a new report published on Monday, October 19, the human rights organization claims that the Support Group for Islam and Muslims (Jnim) confirmed to it summary executions of Malian soldiers in Tabrichat, in the Gao region, following the attack on a military convoy from Anefis, last July The NGO Human Rights Watch (HRW) also accuses the Malian army and the Russian Africa Corps of having killed and wounded several dozen civilians during recent military operations.",
+      "sources": [
+        "RFI Afrique"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://www.rfi.fr/fr/afrique/20261019-mali-hrw-confirme-l-ex%C3%A9cution-de-soldats-maliens-par-le-jnim-et-la-mort-de-civils-tu%C3%A9s-par-l-arm%C3%A9e"
+      ],
+      "report_summaries": [
+        {
+          "url": "https://www.rfi.fr/fr/afrique/20261019-mali-hrw-confirme-l-ex%C3%A9cution-de-soldats-maliens-par-le-jnim-et-la-mort-de-civils-tu%C3%A9s-par-l-arm%C3%A9e",
+          "source": "RFI Afrique",
+          "title": "Mali: HRW confirms the execution of Malian soldiers by Jnim and the death of civilians killed by the army",
+          "summary": "In a new report published on Monday, October 19, the human rights organization claims that the Support Group for Islam and Muslims (Jnim) confirmed to it summary executions of Malian soldiers in Tabrichat, in the Gao region, following the attack on a military convoy from Anefis, last July The NGO Human Rights Watch (HRW) also accuses the Malian army and the Russian Africa Corps of having killed and wounded several dozen civilians during recent military operations.",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "civilian",
+            "security_force"
+          ],
+          "civilian_targeting_flag": true,
+          "casualty_claims": []
+        }
+      ],
+      "created_at": "2026-10-19T04:55:22.353789Z",
+      "updated_at": "2026-10-19T04:55:22.353789Z",
+      "extraction_confidence": "moderate",
+      "victim_categories": [
+        "civilian",
+        "security_force"
+      ],
+      "civilian_targeting_flag": true,
+      "casualty_claims": [],
+      "fatalities_min": null,
+      "fatalities_max": null,
+      "fatalities_best": null,
+      "injured_min": null,
+      "injured_max": null,
+      "abducted_min": null,
+      "abducted_max": null,
+      "casualty_disputed": false,
+      "revision_history": [
+        {
+          "at": "2026-10-19T04:55:22.353789Z",
+          "type": "event_created",
+          "source": "RFI Afrique"
+        }
+      ],
+      "corroboration": "single-source",
+      "confidence": "moderate",
+      "independent_source_domains": [
+        "rfi.fr"
+      ],
+      "independent_source_count": 1,
+      "significance": "MAJOR",
+      "significance_reasons": [
+        "multi-location activity"
+      ]
+    },
     {
       "id": "fb19e15cfea19012697e1dfdc35694dc1e7911ae",
       "event_date": "2026-10-17",
@@ -3538,176 +3648,45 @@
         "multi-source corroboration",
         "multi-location activity"
       ]
-    },
-    {
-      "id": "5931414bf71d940aae346d3fcc60b197201d0214",
-      "event_date": "2026-10-06",
-      "event_date_confidence": "publication-proxy",
-      "event_date_source": "jsonld:datePublished",
-      "published_at": "2026-10-06T19:05:33Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-06T20:40:03.967008Z",
-      "actor": "State",
-      "perpetrator": "State",
-      "target": null,
-      "claimant": null,
-      "supporting_force": null,
-      "mentioned_actors": [
-        "State",
-        "JNIM"
-      ],
-      "parent_report_id": null,
-      "event_type": "offensive/campaign",
-      "country": "Mali",
-      "city": "Kidal",
-      "lat": 18.4411,
-      "lng": 1.4078,
-      "locations": [
-        {
-          "name": "Kidal",
-          "country": "Mali",
-          "lat": 18.4411,
-          "lng": 1.4078,
-          "confidence": "explicit-place"
-        },
-        {
-          "name": "Koulikoro",
-          "country": "Mali",
-          "lat": 12.8628,
-          "lng": -7.5599,
-          "confidence": "explicit-place"
-        },
-        {
-          "name": "Diré",
-          "country": "Mali",
-          "lat": 16.2833,
-          "lng": -3.4167,
-          "confidence": "explicit-place"
-        }
-      ],
-      "title": "Kidal: The Fama launch the reconquest operation",
-      "summary": "As part of the large-scale offensive conducted in the Eastern Theater, as part of Operation DOUGOUKOLOKO, the Malian Armed Forces (FAMa) on Wednesday, October 7, 2026, consolidated their operational system in the city of KIDAL This operation comes following a campaign of intense airstrikes and several air-land operations carried out over the last few days, which have made it possible to neutralize several elements belonging to the FLA-JNIM terrorist coalition, while dealing significant blows, in depth, to their logistical capacities and their means of action.",
-      "sources": [
-        "Seneweb",
-        "Bamada"
-      ],
-      "languages": [
-        "fr"
-      ],
-      "source_count": 2,
-      "report_urls": [
-        "https://www.seneweb.com/fr/news/Afrique/kidal-les-fama-enclenchent-loperation-reconquete_n_506270.html",
-        "https://www.seneweb.com/fr/news/Afrique/prise-de-kidal-par-les-fama-la-reaction-de-choguel-maiga_n_999000199.html",
-        "https://bamada.net/kidal-les-fama-consolident-leur-dispositif-operationnel-dans-la-ville"
-      ],
-      "report_summaries": [
-        {
-          "url": "https://www.seneweb.com/fr/news/Afrique/kidal-les-fama-enclenchent-loperation-reconquete_n_506270.html",
-          "source": "Seneweb",
-          "title": "Kidal: The Fama launch the reconquest operation",
-          "summary": "Kidal: Fama launches reconquest operation In Mali, the army announced in a recent press release that it was conducting large-scale air-land operations in the Kidal region, with its Russian partners . This offensive aims to \"track down and neutralize armed terrorist groups operating throughout the region, destroy their sanctuaries and supply networks and restore lasting security to the populations and the free movement of people and goods\" .",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "security_force",
-            "armed_group"
-          ],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        },
-        {
-          "url": "https://www.seneweb.com/fr/news/Afrique/prise-de-kidal-par-les-fama-la-reaction-de-choguel-maiga_n_999000199.html",
-          "source": "Seneweb",
-          "title": "Fama takeover of Kidal: Choguel Maiga's reaction",
-          "summary": "Capture of Kidal by the Fama: Choguel Maiga Kidal's reaction is no longer in the hands of the terrorists. This strategic town in northern Mali was recaptured by the Malian Armed Forces (Fama) on October 6, after a vast military offensive carried out with the support of the Russian partners of Africorps. From the prison of Koulikoro, the former Malian Prime Minister Choguel Maiga congratulated the FAMa for their shine .",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "security_force",
-            "armed_group"
-          ],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        },
-        {
-          "url": "https://bamada.net/kidal-les-fama-consolident-leur-dispositif-operationnel-dans-la-ville",
-          "source": "Bamada",
-          "title": "KIDAL: The FAMa consolidate their operational system in the city",
-          "summary": "As part of the large-scale offensive conducted in the Eastern Theater, as part of Operation DOUGOUKOLOKO, the Malian Armed Forces (FAMa) on Wednesday, October 7, 2026, consolidated their operational system in the city of KIDAL This operation comes following a campaign of intense airstrikes and several air-land operations carried out over the last few days, which have made it possible to neutralize several elements belonging to the FLA-JNIM terrorist coalition, while dealing significant blows, in depth, to their logistical capacities and their means of action.",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "armed_group"
-          ],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        }
-      ],
-      "created_at": "2026-10-06T20:40:03.967008Z",
-      "updated_at": "2026-10-08T16:43:11.131462Z",
-      "extraction_confidence": "low",
-      "victim_categories": [
-        "security_force",
-        "armed_group"
-      ],
-      "civilian_targeting_flag": false,
-      "casualty_claims": [],
-      "fatalities_min": null,
-      "fatalities_max": null,
-      "fatalities_best": null,
-      "injured_min": null,
-      "injured_max": null,
-      "abducted_min": null,
-      "abducted_max": null,
-      "casualty_disputed": false,
-      "revision_history": [
-        {
-          "at": "2026-10-06T20:40:03.967008Z",
-          "type": "event_created",
-          "source": "Seneweb"
-        },
-        {
-          "at": "2026-10-09T12:43:21.425059Z",
-          "type": "corroboration_or_geography_update",
-          "source": "Seneweb"
-        },
-        {
-          "at": "2026-10-08T16:43:11.131462Z",
-          "type": "corroboration_or_geography_update",
-          "source": "Bamada"
-        }
-      ],
-      "corroboration": "limited corroboration",
-      "confidence": "moderate",
-      "independent_source_domains": [
-        "seneweb.com",
-        "bamada.net"
-      ],
-      "independent_source_count": 2,
-      "significance": "MAJOR",
-      "significance_reasons": [
-        "strategic/severe event pattern",
-        "multi-location activity"
-      ]
     }
   ],
   "latest_reports": [
+    {
+      "published_at": "2026-10-19T04:00:05Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-19T04:55:22.353789Z",
+      "discovered_at": "2026-10-19T04:55:22.353789Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0001",
+      "source": "RFI Afrique",
+      "language": "fr",
+      "actor": "JNIM",
+      "country": "Mali",
+      "city": "Gao",
+      "event_type": "civilian targeting",
+      "candidate_event": true,
+      "title": "Mali: HRW confirms the execution of Malian soldiers by Jnim and the death of civilians killed by the army",
+      "url": "https://www.rfi.fr/fr/afrique/20261019-mali-hrw-confirme-l-ex%C3%A9cution-de-soldats-maliens-par-le-jnim-et-la-mort-de-civils-tu%C3%A9s-par-l-arm%C3%A9e"
+    },
+    {
+      "published_at": "2026-10-19T04:00:00Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-19T04:55:25.167807Z",
+      "discovered_at": "2026-10-19T04:55:25.167807Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0053",
+      "source": "Human Rights Watch Africa",
+      "language": "en",
+      "actor": "State",
+      "country": "Mali",
+      "city": null,
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Mali: Military Attacks on Civilians, Insurgent Abuses",
+      "url": "https://www.hrw.org/news/2026/10/19/mali-military-attacks-on-civilians-insurgent-abuses"
+    },
     {
       "published_at": "2026-10-18T22:51:13Z",
       "published_date_source": "itemprop",
@@ -4391,42 +4370,6 @@
       "candidate_event": true,
       "title": "Operation Dougoukoloko: the FAMa strike two terrorist positions",
       "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312341-operation-dougoukoloko-les-fama-frappent-deux-positions-te.html"
-    },
-    {
-      "published_at": "2026-10-15T15:10:34Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-15T16:56:21.744148Z",
-      "discovered_at": "2026-10-15T16:56:21.744148Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0007",
-      "source": "Journal du Mali",
-      "language": "fr",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Kidal",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Dr. Ahmadou Touré: \"No sustainable development is possible without effective sovereignty\"",
-      "url": "https://journaldumali.com/dr-ahmadou-toure-aucun-developpement-durable-nest-possible-sans-souverainete-effective/"
-    },
-    {
-      "published_at": "2026-10-15T15:09:07Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-15T16:56:21.956344Z",
-      "discovered_at": "2026-10-15T16:56:21.956344Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0007",
-      "source": "Journal du Mali",
-      "language": "fr",
-      "actor": "JNIM",
-      "country": "Mali",
-      "city": "Kidal",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Kidal: After the army, reinstall the state",
-      "url": "https://journaldumali.com/kidal-apres-larmee-reinstaller-letat/"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
