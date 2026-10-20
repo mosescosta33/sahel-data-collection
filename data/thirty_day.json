@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-20T20:08:31.487443Z",
+  "generated_at": "2026-10-20T23:17:30.326465Z",
   "window_days": 30,
   "cutoff": "2026-09-20",
-  "reports": 531,
+  "reports": 529,
   "incident_reports": 136,
   "candidate_events": 94,
   "corroborated_events": 23,
@@ -32,7 +32,7 @@
     "raid": 3
   },
   "by_language": {
-    "fr": 398,
+    "fr": 396,
     "en": 100,
     "ar": 33
   },
@@ -99,8 +99,8 @@
       "count": 13
     },
     {
-      "source_code": "SRC-0012",
-      "source": "Sidwaya",
+      "source_code": "SRC-0022",
+      "source": "Africanews",
       "count": 12
     }
   ],
@@ -302,7 +302,7 @@
     },
     {
       "date": "2026-10-20",
-      "reports": 37,
+      "reports": 38,
       "events": 2
     }
   ],
@@ -4010,6 +4010,24 @@
   ],
   "latest_reports": [
     {
+      "published_at": "2026-10-20T23:07:48Z",
+      "published_date_source": "html:time",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-20T23:16:44.173503Z",
+      "discovered_at": "2026-10-20T23:16:44.173503Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0012",
+      "source": "Sidwaya",
+      "language": "fr",
+      "actor": null,
+      "country": "Burkina Faso",
+      "city": "Ouagadougou",
+      "event_type": "law enforcement",
+      "candidate_event": false,
+      "title": "66th anniversary of the National Armed Forces: the contribution of the military reserve discussed",
+      "url": "https://www.sidwaya.info/2026/10/20/66e-anniversaire-des-forces-armees-nationales-lapport-de-la-reserve-militaire-discute/"
+    },
+    {
       "published_at": "2026-10-20T19:58:39.378000Z",
       "published_date_source": "jsonld:datePublished",
       "published_time_precision": "datetime",
@@ -4710,24 +4728,6 @@
       "candidate_event": false,
       "title": "Burkina Faso, Mali, Niger Resume Talks with ECOWAS",
       "url": "https://newscentraltv.com/burkina-faso-mali-niger-resume-talks-with-ecowas/"
-    },
-    {
-      "published_at": "2026-10-19T22:03:35Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-19T23:49:58.970346Z",
-      "discovered_at": "2026-10-19T23:49:58.970346Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0117",
-      "source": "Vanguard News (Nigeria)",
-      "language": "en",
-      "actor": null,
-      "country": "Mali",
-      "city": "Ménaka",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Gunmen kill at least 40 civilians in Mali",
-      "url": "https://www.vanguardngr.com/2026/10/gunmen-kill-at-least-40-civilians-in-mali/"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
