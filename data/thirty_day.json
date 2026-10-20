@@ -1,22 +1,22 @@
 {
-  "generated_at": "2026-10-20T05:02:22.792481Z",
+  "generated_at": "2026-10-20T13:42:13.871466Z",
   "window_days": 30,
   "cutoff": "2026-09-20",
-  "reports": 501,
-  "incident_reports": 126,
-  "candidate_events": 88,
+  "reports": 515,
+  "incident_reports": 132,
+  "candidate_events": 90,
   "corroborated_events": 23,
-  "mapped_events": 73,
-  "mapped_locations": 141,
-  "distinct_sources": 81,
+  "mapped_events": 75,
+  "mapped_locations": 145,
+  "distinct_sources": 82,
   "by_actor": {
-    "State": 53,
+    "State": 54,
     "JNIM": 16,
-    "Other": 11,
+    "Other": 12,
     "Africa Corps/Wagner": 8
   },
   "by_country": {
-    "Mali": 80,
+    "Mali": 82,
     "Niger": 5,
     "Burkina Faso": 3
   },
@@ -24,19 +24,19 @@
     "security operation": 37,
     "offensive/campaign": 16,
     "clash": 13,
-    "attack": 10,
-    "civilian targeting": 4,
+    "attack": 11,
+    "civilian targeting": 5,
     "ambush": 3,
     "kidnapping": 3,
     "raid": 2
   },
   "by_language": {
-    "fr": 376,
-    "en": 96,
-    "ar": 29
+    "fr": 387,
+    "en": 97,
+    "ar": 31
   },
   "by_confidence": {
-    "low": 41,
+    "low": 43,
     "moderate": 39,
     "moderate-high": 7,
     "high": 1
@@ -50,12 +50,12 @@
     {
       "source_code": "SRC-0006",
       "source": "Malijet",
-      "count": 56
+      "count": 60
     },
     {
       "source_code": "SRC-0075",
       "source": "AMAP (Agence Malienne de Presse et de Publicité)",
-      "count": 22
+      "count": 23
     },
     {
       "source_code": "SRC-0001",
@@ -83,23 +83,23 @@
       "count": 13
     },
     {
+      "source_code": "SRC-0085",
+      "source": "Seneweb",
+      "count": 13
+    },
+    {
       "source_code": "SRC-0012",
       "source": "Sidwaya",
       "count": 12
     },
     {
-      "source_code": "SRC-0085",
-      "source": "Seneweb",
+      "source_code": "SRC-0022",
+      "source": "Africanews",
       "count": 12
     },
     {
       "source_code": "SRC-0004",
       "source": "Studio Tamani",
-      "count": 11
-    },
-    {
-      "source_code": "SRC-0014",
-      "source": "Agence Nigérienne de Presse",
       "count": 11
     }
   ],
@@ -110,7 +110,7 @@
     },
     {
       "location": "Bamako",
-      "count": 15
+      "count": 16
     },
     {
       "location": "Mali",
@@ -126,11 +126,11 @@
     },
     {
       "location": "Gao",
-      "count": 9
+      "count": 10
     },
     {
       "location": "Ménaka",
-      "count": 8
+      "count": 10
     },
     {
       "location": "Tessalit",
@@ -287,34 +287,34 @@
     {
       "date": "2026-10-17",
       "reports": 10,
-      "events": 3
+      "events": 4
     },
     {
       "date": "2026-10-18",
       "reports": 5,
-      "events": 1
+      "events": 2
     },
     {
       "date": "2026-10-19",
       "reports": 33,
-      "events": 9
+      "events": 8
     },
     {
       "date": "2026-10-20",
-      "reports": 5,
-      "events": 0
+      "reports": 20,
+      "events": 1
     }
   ],
   "latest_events": [
     {
-      "id": "64d46bb68f014b54932b8177bbc19c2fba957074",
-      "event_date": "2026-10-19",
-      "event_date_confidence": "explicit-text",
-      "event_date_source": "relative-weekday",
-      "published_at": "2026-10-19T21:49:51Z",
+      "id": "66b939b965faf92593536bc6dad5a28db1a600d0",
+      "event_date": "2026-10-20",
+      "event_date_confidence": "publication-proxy",
+      "event_date_source": "jsonld:datePublished",
+      "published_at": "2026-10-20T10:25:08Z",
       "published_date_source": "jsonld:datePublished",
       "published_time_precision": "datetime",
-      "collected_at": "2026-10-19T23:49:56.977933Z",
+      "collected_at": "2026-10-20T13:40:00.428915Z",
       "actor": "Other",
       "perpetrator": null,
       "target": null,
@@ -322,7 +322,7 @@
       "supporting_force": null,
       "mentioned_actors": [],
       "parent_report_id": null,
-      "event_type": "civilian targeting",
+      "event_type": "attack",
       "country": "Mali",
       "city": "Ménaka",
       "lat": 15.9182,
@@ -341,44 +341,26 @@
           "lat": 12.6392,
           "lng": -8.0029,
           "confidence": "explicit-place"
-        },
-        {
-          "name": "Sikasso",
-          "country": "Mali",
-          "lat": 11.31755,
-          "lng": -5.66654,
-          "confidence": "explicit-place"
-        },
-        {
-          "name": "Gao",
-          "country": "Mali",
-          "lat": 16.2717,
-          "lng": -0.0447,
-          "confidence": "explicit-place"
         }
       ],
-      "title": "Mali: more than forty civilians killed Sunday by armed men",
-      "summary": "More than 40 civilians were killed on Sunday in attacks by armed men in the Menaka region of northeastern Mali, causing population displacement, several security, local and associative sources told AFP on Monday. These bloody attacks, carried out by armed men arrived on motorcycles, targeted, according to these sources, several camps belonging mainly to the Daoussahak community, from which the armed movement \"Movement for the Salvation of Azawad\" (MSA), close to the junta in power in Bamako, came.",
+      "title": "More than 40 civilians killed in armed attack in northeast Mali",
+      "summary": "More than 40 civilians have been killed in attacks by militants on camps in Mali's northeastern Menaka region, AFP quoted security and local sources as saying. The sources reported that the attackers used motorcycles to reach camps inhabited mostly by members of the Dussaq tribe, whose executive body accused the Islamic State of being behind the killings. According to the sources, the Dussac tribe is the cradle of the armed “Movement for the Salvation of Azawad”, allied with the government, in Bamako.",
       "sources": [
-        "Le Figaro (Section Afrique)",
-        "TV5MONDE Afrique",
-        "Courrier International"
+        "Sahara Medias (صحراء ميديا)"
       ],
       "languages": [
-        "fr"
+        "ar"
       ],
-      "source_count": 3,
+      "source_count": 1,
       "report_urls": [
-        "https://www.lefigaro.fr/flash-actu/mali-plus-de-quarante-civils-tues-dimanche-par-des-hommes-armes-20261019",
-        "https://information.tv5monde.com/afrique/mali-plus-dune-quarantaine-de-civils-tues-dimanche-par-des-hommes-armes-sources-securitaires-et-locales-2842368",
-        "https://www.courrierinternational.com/depeche/mali-plus-d-une-quarantaine-de-civils-tues-dimanche-par-des-hommes-armes-sources-securitaires-et-locales.afp.com.20261019.doc.d3rz863.xml"
+        "https://saharamedias.net/267363/"
       ],
       "report_summaries": [
         {
-          "url": "https://www.lefigaro.fr/flash-actu/mali-plus-de-quarante-civils-tues-dimanche-par-des-hommes-armes-20261019",
-          "source": "Le Figaro (Section Afrique)",
-          "title": "Mali: more than forty civilians killed Sunday by armed men",
-          "summary": "Several camps belonging mainly to the Daoussahak community, from which the armed movement \"Movement for the Salvation of Azawad\" (MSA) came, were targeted . Skip the ad Skip the adMore than forty civilians were killed on Sunday in attacks by armed men in the Menaka region of northeastern Mali, causing population displacement, several security, local and community sources reported on Monday.",
+          "url": "https://saharamedias.net/267363/",
+          "source": "Sahara Medias (صحراء ميديا)",
+          "title": "More than 40 civilians killed in armed attack in northeast Mali",
+          "summary": "More than 40 civilians have been killed in attacks by militants on camps in Mali's northeastern Menaka region, AFP quoted security and local sources as saying. The sources reported that the attackers used motorcycles to reach camps inhabited mostly by members of the Dussaq tribe, whose executive body accused the Islamic State of being behind the killings. According to the sources, the Dussac tribe is the cradle of the armed “Movement for the Salvation of Azawad”, allied with the government, in Bamako.",
           "summary_basis": "translated-excerpt",
           "fatalities_min": 40,
           "fatalities_max": 40,
@@ -387,7 +369,8 @@
           "abducted_min": null,
           "abducted_max": null,
           "victim_categories": [
-            "civilian"
+            "civilian",
+            "armed_group"
           ],
           "civilian_targeting_flag": true,
           "casualty_claims": [
@@ -395,72 +378,19 @@
               "kind": "fatalities",
               "count": 40,
               "victim_text": "civilians",
-              "claimant": "Le Figaro (Section Afrique)",
+              "claimant": "Sahara Medias (صحراء ميديا)",
               "status": "reported",
-              "evidence": "Mali: more than forty civilians killed Sunday by armed men Mali: more than forty civilians killed Sunday by armed men Several camps belong"
-            }
-          ]
-        },
-        {
-          "url": "https://information.tv5monde.com/afrique/mali-plus-dune-quarantaine-de-civils-tues-dimanche-par-des-hommes-armes-sources-securitaires-et-locales-2842368",
-          "source": "TV5MONDE Afrique",
-          "title": "Image Published on October 19, 2026 Africa Mali: More than forty civilians killed Sunday by armed men (security and local sources) More than forty civilians were killed Sunday during attacks perpetrated by armed men in the Menaka region, in northeastern Mali…",
-          "summary": "A burning tanker truck is abandoned in the middle of the road leading to Sikasso, Mali's second largest city, on May 26, 2026 More than 40 civilians were killed Sunday in attacks by armed men in the Menaka region of northeastern Mali, causing population displacement, several security, local and community sources told AFP on Monday.",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": 40,
-          "fatalities_max": 40,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "civilian"
-          ],
-          "civilian_targeting_flag": true,
-          "casualty_claims": [
-            {
-              "kind": "fatalities",
-              "count": 40,
-              "victim_text": "civilians",
-              "claimant": "TV5MONDE Afrique",
-              "status": "reported",
-              "evidence": "Image Published on October 19, 2026 Africa Mali: More than forty civilians killed Sunday by armed men (security and local sources) More than forty civilians were killed Sunday durin"
-            }
-          ]
-        },
-        {
-          "url": "https://www.courrierinternational.com/depeche/mali-plus-d-une-quarantaine-de-civils-tues-dimanche-par-des-hommes-armes-sources-securitaires-et-locales.afp.com.20261019.doc.d3rz863.xml",
-          "source": "Courrier International",
-          "title": "Mali: more than forty civilians killed Sunday by armed men (security and local sources)",
-          "summary": "More than 40 civilians were killed on Sunday in attacks by armed men in the Menaka region of northeastern Mali, causing population displacement, several security, local and associative sources told AFP on Monday. These bloody attacks, carried out by armed men arrived on motorcycles, targeted, according to these sources, several camps belonging mainly to the Daoussahak community, from which the armed movement \"Movement for the Salvation of Azawad\" (MSA), close to the junta in power in Bamako, came.",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": 40,
-          "fatalities_max": 40,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "civilian"
-          ],
-          "civilian_targeting_flag": true,
-          "casualty_claims": [
-            {
-              "kind": "fatalities",
-              "count": 40,
-              "victim_text": "civilians",
-              "claimant": "Courrier International",
-              "status": "reported",
-              "evidence": "Mali: more than forty civilians killed Sunday by armed men (security and local sources) More than 40 civilians were killed on Sunday in at"
+              "evidence": "More than 40 civilians killed in armed attack in northeast Mali More than 40 civilians have been killed in attacks by militants o"
             }
           ]
         }
       ],
-      "created_at": "2026-10-19T23:49:56.977933Z",
-      "updated_at": "2026-10-20T05:01:03.695030Z",
+      "created_at": "2026-10-20T13:40:00.428915Z",
+      "updated_at": "2026-10-20T13:40:00.428915Z",
       "extraction_confidence": "low",
       "victim_categories": [
-        "civilian"
+        "civilian",
+        "armed_group"
       ],
       "civilian_targeting_flag": true,
       "casualty_claims": [
@@ -468,28 +398,10 @@
           "kind": "fatalities",
           "count": 40,
           "victim_text": "civilians",
-          "claimant": "Le Figaro (Section Afrique)",
+          "claimant": "Sahara Medias (صحراء ميديا)",
           "status": "reported",
-          "evidence": "Mali: more than forty civilians killed Sunday by armed men Mali: more than forty civilians killed Sunday by armed men Several camps belong",
-          "source": "Le Figaro (Section Afrique)"
-        },
-        {
-          "kind": "fatalities",
-          "count": 40,
-          "victim_text": "civilians",
-          "claimant": "TV5MONDE Afrique",
-          "status": "reported",
-          "evidence": "Image Published on October 19, 2026 Africa Mali: More than forty civilians killed Sunday by armed men (security and local sources) More than forty civilians were killed Sunday durin",
-          "source": "TV5MONDE Afrique"
-        },
-        {
-          "kind": "fatalities",
-          "count": 40,
-          "victim_text": "civilians",
-          "claimant": "Courrier International",
-          "status": "reported",
-          "evidence": "Mali: more than forty civilians killed Sunday by armed men (security and local sources) More than 40 civilians were killed on Sunday in at",
-          "source": "Courrier International"
+          "evidence": "More than 40 civilians killed in armed attack in northeast Mali More than 40 civilians have been killed in attacks by militants o",
+          "source": "Sahara Medias (صحراء ميديا)"
         }
       ],
       "fatalities_min": 40,
@@ -502,33 +414,20 @@
       "casualty_disputed": false,
       "revision_history": [
         {
-          "at": "2026-10-19T23:49:56.977933Z",
+          "at": "2026-10-20T13:40:00.428915Z",
           "type": "event_created",
-          "source": "Le Figaro (Section Afrique)"
-        },
-        {
-          "at": "2026-10-20T05:00:56.162771Z",
-          "type": "corroboration_or_geography_update",
-          "source": "TV5MONDE Afrique"
-        },
-        {
-          "at": "2026-10-20T05:01:03.695030Z",
-          "type": "corroboration_or_geography_update",
-          "source": "Courrier International"
+          "source": "Sahara Medias (صحراء ميديا)"
         }
       ],
-      "corroboration": "multi-source",
-      "confidence": "moderate-high",
+      "corroboration": "single-source",
+      "confidence": "low",
       "independent_source_domains": [
-        "lefigaro.fr",
-        "information.tv5monde.com",
-        "courrierinternational.com"
+        "saharamedias.net"
       ],
-      "independent_source_count": 3,
+      "independent_source_count": 1,
       "significance": "MAJOR",
       "significance_reasons": [
         "strategic/severe event pattern",
-        "multi-source corroboration",
         "multi-location activity"
       ]
     },
@@ -1361,6 +1260,452 @@
       ]
     },
     {
+      "id": "bffdf1bf5f6f2620bd6d484b5fece05b2695fe90",
+      "event_date": "2026-10-18",
+      "event_date_confidence": "explicit-text",
+      "event_date_source": "explicit-date-no-year",
+      "published_at": "2026-10-20T00:39:29Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-20T13:39:59.954851Z",
+      "actor": "Other",
+      "perpetrator": null,
+      "target": null,
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [],
+      "parent_report_id": null,
+      "event_type": "civilian targeting",
+      "country": "Mali",
+      "city": "Ménaka",
+      "lat": 15.9182,
+      "lng": 2.4022,
+      "locations": [
+        {
+          "name": "Ménaka",
+          "country": "Mali",
+          "lat": 15.9182,
+          "lng": 2.4022,
+          "confidence": "explicit-place"
+        },
+        {
+          "name": "Bamako",
+          "country": "Mali",
+          "lat": 12.6392,
+          "lng": -8.0029,
+          "confidence": "explicit-place"
+        },
+        {
+          "name": "Sikasso",
+          "country": "Mali",
+          "lat": 11.31755,
+          "lng": -5.66654,
+          "confidence": "explicit-place"
+        },
+        {
+          "name": "Gao",
+          "country": "Mali",
+          "lat": 16.2717,
+          "lng": -0.0447,
+          "confidence": "explicit-place"
+        }
+      ],
+      "title": "Mali: more than 40 civilians killed in armed attacks in the North-East",
+      "summary": "Mali: more than forty civilians killed on Sunday by armed men More than forty civilians were killed on Sunday during attacks perpetrated by armed men in the Ménaka region, in northeastern Mali, causing population displacements, several security sources, local and associative, told AFP on Monday These bloody attacks, carried out by armed men arrived on motorcycles, targeted, according to these sources, several camps belonging mainly to the Daoussahak community, from which the armed movement \"Movement for the Salvation of Azawad\" (MSA), close to the junta in power in Bamako, came.",
+      "sources": [
+        "France 24 Afrique (FR)",
+        "Malijet",
+        "Bamada",
+        "Le Figaro (Section Afrique)",
+        "TV5MONDE Afrique",
+        "Courrier International",
+        "La Croix (Afrique)",
+        "Seneweb"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "source_count": 8,
+      "report_urls": [
+        "https://www.france24.com/fr/afrique/20261020-mali-plus-de-40-civils-tu%C3%A9s-dans-des-attaques-arm%C3%A9es-dans-le-nord-est-du-pays",
+        "https://malijet.com/actualte_dans_les_regions_du_mali/312419-menaka-la-communaute-idaksahak-fait-etat-de-48-civils-tues.html",
+        "https://bamada.net/menaka-48-civils-tues-dans-des-attaques-de-daesh",
+        "https://www.lefigaro.fr/flash-actu/mali-plus-de-quarante-civils-tues-dimanche-par-des-hommes-armes-20261019",
+        "https://information.tv5monde.com/afrique/mali-plus-dune-quarantaine-de-civils-tues-dimanche-par-des-hommes-armes-sources-securitaires-et-locales-2842368",
+        "https://www.courrierinternational.com/depeche/mali-plus-d-une-quarantaine-de-civils-tues-dimanche-par-des-hommes-armes-sources-securitaires-et-locales.afp.com.20261019.doc.d3rz863.xml",
+        "https://www.la-croix.com/mali-plus-d-une-quarantaine-de-civils-tues-dimanche-par-des-hommes-armes-sources-securitaires-et-locales-20261019",
+        "https://www.seneweb.com/fr/news/Afrique/mali-plus-dune-quarantaine-de-civils-tues-dimanche-par-des-hommes-armes_n_999001222.html"
+      ],
+      "report_summaries": [
+        {
+          "url": "https://www.france24.com/fr/afrique/20261020-mali-plus-de-40-civils-tu%C3%A9s-dans-des-attaques-arm%C3%A9es-dans-le-nord-est-du-pays",
+          "source": "France 24 Afrique (FR)",
+          "title": "Mali: more than 40 civilians killed in armed attacks in the North-East",
+          "summary": "Mali: more than 40 civilians killed in armed attacks in the Northeast On Sunday, armed men on motorcycles targeted several camps belonging mainly to the Daoussahak community, near Menaka, in northeastern Mali.",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": 40,
+          "fatalities_max": 40,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "civilian"
+          ],
+          "civilian_targeting_flag": true,
+          "casualty_claims": [
+            {
+              "kind": "fatalities",
+              "count": 40,
+              "victim_text": "civilians",
+              "claimant": "France 24 Afrique (FR)",
+              "status": "reported",
+              "evidence": "Mali: more than 40 civilians killed in armed attacks in the North-East Mali: more than 40 civilians killed in armed attacks in the Nort"
+            }
+          ]
+        },
+        {
+          "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312419-menaka-la-communaute-idaksahak-fait-etat-de-48-civils-tues.html",
+          "source": "Malijet",
+          "title": "Menaka: Idaksahak community reports 48 civilians killed in Tagadayat",
+          "summary": "Menaka: the Idaksahak community reports 48 civilians killed in Tagadayat The Idaksahak community reports the death of 48 civilians in an attack attributed to Daesh elements on Sunday, October 18, 2026, in the locality of Tagadayat, in the Menaka region. Injuries are also reported, according to a statement from its executive office issued on October 19 According to this organization, the attackers arrived on motorcycles and the violence caused many families to flee.",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": 48,
+          "fatalities_max": 48,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "civilian"
+          ],
+          "civilian_targeting_flag": true,
+          "casualty_claims": [
+            {
+              "kind": "fatalities",
+              "count": 48,
+              "victim_text": "civilians",
+              "claimant": "Malijet",
+              "status": "reported",
+              "evidence": "Menaka: Idaksahak community reports 48 civilians killed in Tagadayat Menaka: the Idaksahak community reports 48 civilians killed in Tagadayat The Idaksahak"
+            }
+          ]
+        },
+        {
+          "url": "https://bamada.net/menaka-48-civils-tues-dans-des-attaques-de-daesh",
+          "source": "Bamada",
+          "title": "MENAKA: 48 civilians killed in Daesh attacks",
+          "summary": "\"At least 48 civilians were killed on Sunday, October 18, 2026, in an armed attack in the locality of Tagadayat, in the region of Menaka\". The information was reported yesterday, Monday, October 19, 2026, by the executive office of the Idaksahak community, which attributes this attack to armed men affiliated with the Islamic State group (Daesh). Source: The Renewal Indicator",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": 48,
+          "fatalities_max": 48,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "civilian"
+          ],
+          "civilian_targeting_flag": true,
+          "casualty_claims": [
+            {
+              "kind": "fatalities",
+              "count": 48,
+              "victim_text": "civilians",
+              "claimant": "Bamada",
+              "status": "reported",
+              "evidence": "MENAKA: 48 civilians killed in Daesh attacks \"At least 48 civilians were killed on Sunday, October 18, 2026, in an armed attack"
+            }
+          ]
+        },
+        {
+          "url": "https://www.lefigaro.fr/flash-actu/mali-plus-de-quarante-civils-tues-dimanche-par-des-hommes-armes-20261019",
+          "source": "Le Figaro (Section Afrique)",
+          "title": "Mali: more than forty civilians killed Sunday by armed men",
+          "summary": "Several camps belonging mainly to the Daoussahak community, from which the armed movement \"Movement for the Salvation of Azawad\" (MSA) came, were targeted . Skip the ad Skip the adMore than forty civilians were killed on Sunday in attacks by armed men in the Menaka region of northeastern Mali, causing population displacement, several security, local and community sources reported on Monday.",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": 40,
+          "fatalities_max": 40,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "civilian"
+          ],
+          "civilian_targeting_flag": true,
+          "casualty_claims": [
+            {
+              "kind": "fatalities",
+              "count": 40,
+              "victim_text": "civilians",
+              "claimant": "Le Figaro (Section Afrique)",
+              "status": "reported",
+              "evidence": "Mali: more than forty civilians killed Sunday by armed men Mali: more than forty civilians killed Sunday by armed men Several camps belong"
+            }
+          ]
+        },
+        {
+          "url": "https://information.tv5monde.com/afrique/mali-plus-dune-quarantaine-de-civils-tues-dimanche-par-des-hommes-armes-sources-securitaires-et-locales-2842368",
+          "source": "TV5MONDE Afrique",
+          "title": "Image Published on October 19, 2026 Africa Mali: More than forty civilians killed Sunday by armed men (security and local sources) More than forty civilians were killed Sunday during attacks perpetrated by armed men in the Menaka region, in northeastern Mali…",
+          "summary": "A burning tanker truck is abandoned in the middle of the road leading to Sikasso, Mali's second largest city, on May 26, 2026 More than 40 civilians were killed Sunday in attacks by armed men in the Menaka region of northeastern Mali, causing population displacement, several security, local and community sources told AFP on Monday.",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": 40,
+          "fatalities_max": 40,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "civilian"
+          ],
+          "civilian_targeting_flag": true,
+          "casualty_claims": [
+            {
+              "kind": "fatalities",
+              "count": 40,
+              "victim_text": "civilians",
+              "claimant": "TV5MONDE Afrique",
+              "status": "reported",
+              "evidence": "Image Published on October 19, 2026 Africa Mali: More than forty civilians killed Sunday by armed men (security and local sources) More than forty civilians were killed Sunday durin"
+            }
+          ]
+        },
+        {
+          "url": "https://www.courrierinternational.com/depeche/mali-plus-d-une-quarantaine-de-civils-tues-dimanche-par-des-hommes-armes-sources-securitaires-et-locales.afp.com.20261019.doc.d3rz863.xml",
+          "source": "Courrier International",
+          "title": "Mali: more than forty civilians killed Sunday by armed men (security and local sources)",
+          "summary": "More than 40 civilians were killed on Sunday in attacks by armed men in the Menaka region of northeastern Mali, causing population displacement, several security, local and associative sources told AFP on Monday. These bloody attacks, carried out by armed men arrived on motorcycles, targeted, according to these sources, several camps belonging mainly to the Daoussahak community, from which the armed movement \"Movement for the Salvation of Azawad\" (MSA), close to the junta in power in Bamako, came.",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": 40,
+          "fatalities_max": 40,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "civilian"
+          ],
+          "civilian_targeting_flag": true,
+          "casualty_claims": [
+            {
+              "kind": "fatalities",
+              "count": 40,
+              "victim_text": "civilians",
+              "claimant": "Courrier International",
+              "status": "reported",
+              "evidence": "Mali: more than forty civilians killed Sunday by armed men (security and local sources) More than 40 civilians were killed on Sunday in at"
+            }
+          ]
+        },
+        {
+          "url": "https://www.la-croix.com/mali-plus-d-une-quarantaine-de-civils-tues-dimanche-par-des-hommes-armes-sources-securitaires-et-locales-20261019",
+          "source": "La Croix (Afrique)",
+          "title": "Mali: more than forty civilians killed Sunday by armed men",
+          "summary": "More than forty civilians were killed on Sunday in attacks by armed men in the Menaka region of northeastern Mali, causing population displacement, several local and associative security sources reported on Monday, October 19. These bloody attacks, carried out by armed men arrived on motorcycles, targeted, according to these sources, several camps belonging mainly to the Daoussahak community, from which the armed movement \"Movement for the Salvation of Azawad\" (MSA), close to the junta in power in Bamako, came.",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": 40,
+          "fatalities_max": 40,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "civilian"
+          ],
+          "civilian_targeting_flag": true,
+          "casualty_claims": [
+            {
+              "kind": "fatalities",
+              "count": 40,
+              "victim_text": "civilians",
+              "claimant": "La Croix (Afrique)",
+              "status": "reported",
+              "evidence": "Mali: more than forty civilians killed Sunday by armed men More than forty civilians were killed on Sunday in attacks by armed men in the"
+            }
+          ]
+        },
+        {
+          "url": "https://www.seneweb.com/fr/news/Afrique/mali-plus-dune-quarantaine-de-civils-tues-dimanche-par-des-hommes-armes_n_999001222.html",
+          "source": "Seneweb",
+          "title": "Mali: more than forty civilians killed Sunday by armed men",
+          "summary": "Mali: more than forty civilians killed on Sunday by armed men More than forty civilians were killed on Sunday during attacks perpetrated by armed men in the Ménaka region, in northeastern Mali, causing population displacements, several security sources, local and associative, told AFP on Monday These bloody attacks, carried out by armed men arrived on motorcycles, targeted, according to these sources, several camps belonging mainly to the Daoussahak community, from which the armed movement \"Movement for the Salvation of Azawad\" (MSA), close to the junta in power in Bamako, came.",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": 40,
+          "fatalities_max": 40,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "civilian"
+          ],
+          "civilian_targeting_flag": true,
+          "casualty_claims": [
+            {
+              "kind": "fatalities",
+              "count": 40,
+              "victim_text": "civilians",
+              "claimant": "Seneweb",
+              "status": "reported",
+              "evidence": "Mali: more than forty civilians killed Sunday by armed men Mali: more than forty civilians killed on Sunday by armed men More than forty c"
+            }
+          ]
+        }
+      ],
+      "created_at": "2026-10-20T13:39:59.954851Z",
+      "updated_at": "2026-10-20T13:39:59.375583Z",
+      "extraction_confidence": "low",
+      "victim_categories": [
+        "civilian"
+      ],
+      "civilian_targeting_flag": true,
+      "casualty_claims": [
+        {
+          "kind": "fatalities",
+          "count": 40,
+          "victim_text": "civilians",
+          "claimant": "France 24 Afrique (FR)",
+          "status": "reported",
+          "evidence": "Mali: more than 40 civilians killed in armed attacks in the North-East Mali: more than 40 civilians killed in armed attacks in the Nort",
+          "source": "France 24 Afrique (FR)"
+        },
+        {
+          "kind": "fatalities",
+          "count": 48,
+          "victim_text": "civilians",
+          "claimant": "Malijet",
+          "status": "reported",
+          "evidence": "Menaka: Idaksahak community reports 48 civilians killed in Tagadayat Menaka: the Idaksahak community reports 48 civilians killed in Tagadayat The Idaksahak",
+          "source": "Malijet"
+        },
+        {
+          "kind": "fatalities",
+          "count": 48,
+          "victim_text": "civilians",
+          "claimant": "Bamada",
+          "status": "reported",
+          "evidence": "MENAKA: 48 civilians killed in Daesh attacks \"At least 48 civilians were killed on Sunday, October 18, 2026, in an armed attack",
+          "source": "Bamada"
+        },
+        {
+          "kind": "fatalities",
+          "count": 40,
+          "victim_text": "civilians",
+          "claimant": "Le Figaro (Section Afrique)",
+          "status": "reported",
+          "evidence": "Mali: more than forty civilians killed Sunday by armed men Mali: more than forty civilians killed Sunday by armed men Several camps belong",
+          "source": "Le Figaro (Section Afrique)"
+        },
+        {
+          "kind": "fatalities",
+          "count": 40,
+          "victim_text": "civilians",
+          "claimant": "TV5MONDE Afrique",
+          "status": "reported",
+          "evidence": "Image Published on October 19, 2026 Africa Mali: More than forty civilians killed Sunday by armed men (security and local sources) More than forty civilians were killed Sunday durin",
+          "source": "TV5MONDE Afrique"
+        },
+        {
+          "kind": "fatalities",
+          "count": 40,
+          "victim_text": "civilians",
+          "claimant": "Courrier International",
+          "status": "reported",
+          "evidence": "Mali: more than forty civilians killed Sunday by armed men (security and local sources) More than 40 civilians were killed on Sunday in at",
+          "source": "Courrier International"
+        },
+        {
+          "kind": "fatalities",
+          "count": 40,
+          "victim_text": "civilians",
+          "claimant": "La Croix (Afrique)",
+          "status": "reported",
+          "evidence": "Mali: more than forty civilians killed Sunday by armed men More than forty civilians were killed on Sunday in attacks by armed men in the",
+          "source": "La Croix (Afrique)"
+        },
+        {
+          "kind": "fatalities",
+          "count": 40,
+          "victim_text": "civilians",
+          "claimant": "Seneweb",
+          "status": "reported",
+          "evidence": "Mali: more than forty civilians killed Sunday by armed men Mali: more than forty civilians killed on Sunday by armed men More than forty c",
+          "source": "Seneweb"
+        }
+      ],
+      "fatalities_min": 40,
+      "fatalities_max": 48,
+      "fatalities_best": null,
+      "injured_min": null,
+      "injured_max": null,
+      "abducted_min": null,
+      "abducted_max": null,
+      "casualty_disputed": true,
+      "revision_history": [
+        {
+          "at": "2026-10-20T13:39:59.954851Z",
+          "type": "event_created",
+          "source": "France 24 Afrique (FR)"
+        },
+        {
+          "at": "2026-10-20T13:39:59.176632Z",
+          "type": "corroboration_or_geography_update",
+          "source": "Malijet"
+        },
+        {
+          "at": "2026-10-20T13:39:59.212160Z",
+          "type": "corroboration_or_geography_update",
+          "source": "Bamada"
+        },
+        {
+          "at": "2026-10-19T23:49:56.977933Z",
+          "type": "corroboration_or_geography_update",
+          "source": "Le Figaro (Section Afrique)"
+        },
+        {
+          "at": "2026-10-20T05:00:56.162771Z",
+          "type": "corroboration_or_geography_update",
+          "source": "TV5MONDE Afrique"
+        },
+        {
+          "at": "2026-10-20T05:01:03.695030Z",
+          "type": "corroboration_or_geography_update",
+          "source": "Courrier International"
+        },
+        {
+          "at": "2026-10-20T13:39:59.655851Z",
+          "type": "corroboration_or_geography_update",
+          "source": "La Croix (Afrique)"
+        },
+        {
+          "at": "2026-10-20T13:39:59.375583Z",
+          "type": "corroboration_or_geography_update",
+          "source": "Seneweb"
+        }
+      ],
+      "corroboration": "multi-source",
+      "confidence": "moderate-high",
+      "independent_source_domains": [
+        "france24.com",
+        "malijet.com",
+        "bamada.net",
+        "lefigaro.fr",
+        "information.tv5monde.com",
+        "courrierinternational.com",
+        "la-croix.com",
+        "seneweb.com"
+      ],
+      "independent_source_count": 8,
+      "significance": "MAJOR",
+      "significance_reasons": [
+        "strategic/severe event pattern",
+        "multi-source corroboration",
+        "multi-location activity"
+      ]
+    },
+    {
       "id": "62d60a91022ca5ce8d9b331507f28dbe8da9aba8",
       "event_date": "2026-10-18",
       "event_date_confidence": "explicit-text",
@@ -1452,6 +1797,130 @@
       "significance": "SIGNIFICANT",
       "significance_reasons": [
         "operational security event"
+      ]
+    },
+    {
+      "id": "51087669c680ae4800b811d9082d46aa9663b6c2",
+      "event_date": "2026-10-17",
+      "event_date_confidence": "explicit-text",
+      "event_date_source": "relative-weekday",
+      "published_at": "2026-10-20T07:52:37Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-20T13:39:58.750878Z",
+      "actor": "State",
+      "perpetrator": null,
+      "target": null,
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [],
+      "parent_report_id": null,
+      "event_type": "civilian targeting",
+      "country": "Mali",
+      "city": "Ménaka",
+      "lat": 15.9182,
+      "lng": 2.4022,
+      "locations": [
+        {
+          "name": "Ménaka",
+          "country": "Mali",
+          "lat": 15.9182,
+          "lng": 2.4022,
+          "confidence": "explicit-place"
+        },
+        {
+          "name": "Gao",
+          "country": "Mali",
+          "lat": 16.2717,
+          "lng": -0.0447,
+          "confidence": "explicit-place"
+        }
+      ],
+      "title": "More than 40 civilians killed in Mali attack blamed on Islamic State",
+      "summary": "Security and community sources in Mali says more than 40 civilians were killed over the weekend in an attack by armed men on camps in the north-eastern Menaka region. They reportedly arrived on motorcycles and targeted camps mainly housing members of the Daoussahak community. The community's executive bureau has blamed the killings on the Islamic State group.",
+      "sources": [
+        "Africanews"
+      ],
+      "languages": [
+        "en"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://www.africanews.com/2026/10/20/more-than-40-civilians-killed-in-mali-attack-blamed-on-islamic-state/"
+      ],
+      "report_summaries": [
+        {
+          "url": "https://www.africanews.com/2026/10/20/more-than-40-civilians-killed-in-mali-attack-blamed-on-islamic-state/",
+          "source": "Africanews",
+          "title": "More than 40 civilians killed in Mali attack blamed on Islamic State",
+          "summary": "Security and community sources in Mali says more than 40 civilians were killed over the weekend in an attack by armed men on camps in the north-eastern Menaka region. They reportedly arrived on motorcycles and targeted camps mainly housing members of the Daoussahak community. The community's executive bureau has blamed the killings on the Islamic State group.",
+          "summary_basis": "source-excerpt",
+          "fatalities_min": 40,
+          "fatalities_max": 40,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "civilian",
+            "armed_group"
+          ],
+          "civilian_targeting_flag": true,
+          "casualty_claims": [
+            {
+              "kind": "fatalities",
+              "count": 40,
+              "victim_text": "civilians",
+              "claimant": "armed-group claim",
+              "status": "reported",
+              "evidence": "More than 40 civilians killed in Mali attack blamed on Islamic State Security and community sources in Mali says more than 40 civ"
+            }
+          ]
+        }
+      ],
+      "created_at": "2026-10-20T13:39:58.750878Z",
+      "updated_at": "2026-10-20T13:39:58.750878Z",
+      "extraction_confidence": "low",
+      "victim_categories": [
+        "civilian",
+        "armed_group"
+      ],
+      "civilian_targeting_flag": true,
+      "casualty_claims": [
+        {
+          "kind": "fatalities",
+          "count": 40,
+          "victim_text": "civilians",
+          "claimant": "armed-group claim",
+          "status": "reported",
+          "evidence": "More than 40 civilians killed in Mali attack blamed on Islamic State Security and community sources in Mali says more than 40 civ",
+          "source": "Africanews"
+        }
+      ],
+      "fatalities_min": 40,
+      "fatalities_max": 40,
+      "fatalities_best": 40,
+      "injured_min": null,
+      "injured_max": null,
+      "abducted_min": null,
+      "abducted_max": null,
+      "casualty_disputed": false,
+      "revision_history": [
+        {
+          "at": "2026-10-20T13:39:58.750878Z",
+          "type": "event_created",
+          "source": "Africanews"
+        }
+      ],
+      "corroboration": "single-source",
+      "confidence": "low",
+      "independent_source_domains": [
+        "africanews.com"
+      ],
+      "independent_source_count": 1,
+      "significance": "MAJOR",
+      "significance_reasons": [
+        "multi-location activity"
       ]
     },
     {
@@ -3499,236 +3968,261 @@
       "significance_reasons": [
         "operational security event"
       ]
-    },
-    {
-      "id": "2022d780699e7305d98140efc4b1779faad42d58",
-      "event_date": "2026-10-10",
-      "event_date_confidence": "explicit-text",
-      "event_date_source": "relative-today",
-      "published_at": "2026-10-10T02:26:49Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-10T04:38:07.224249Z",
-      "actor": "State",
-      "perpetrator": "State",
-      "target": null,
-      "claimant": null,
-      "supporting_force": null,
-      "mentioned_actors": [
-        "State"
-      ],
-      "parent_report_id": null,
-      "event_type": "attack",
-      "country": "Mali",
-      "city": "Kidal",
-      "lat": 18.4411,
-      "lng": 1.4078,
-      "locations": [
-        {
-          "name": "Kidal",
-          "country": "Mali",
-          "lat": 18.4411,
-          "lng": 1.4078,
-          "confidence": "explicit-place"
-        }
-      ],
-      "title": "Kidal at the heart of Operation \"FAGOWAZAJ\": Attack FAMa under the enlightened leadership of Colonel Attaher A. Maïga, valiant Red Beret",
-      "summary": "on the ground, the reality of the facts definitively sweeps away illusions and disinformation campaigns. To those who still doubted the unwavering anchoring of the Republic in the Malian north, the message is now clear: Kidal is indisputably Malian, strong, standing and sovereign . Bamada.net-Today, the Malian Armed Forces (FAMa) display an impressive physical, tactical and protective presence on the sacred land of the 8th military region.",
-      "sources": [
-        "Bamada"
-      ],
-      "languages": [
-        "fr"
-      ],
-      "source_count": 1,
-      "report_urls": [
-        "https://bamada.net/kidal-au-coeur-de-loperation-fagowazaj-les-fama-dattaque-sous-le-leadership-eclaire-du-colonel-attaher-a-maiga-vaillant-beret-rouge"
-      ],
-      "report_summaries": [
-        {
-          "url": "https://bamada.net/kidal-au-coeur-de-loperation-fagowazaj-les-fama-dattaque-sous-le-leadership-eclaire-du-colonel-attaher-a-maiga-vaillant-beret-rouge",
-          "source": "Bamada",
-          "title": "Kidal at the heart of Operation \"FAGOWAZAJ\": Attack FAMa under the enlightened leadership of Colonel Attaher A. Maïga, valiant Red Beret",
-          "summary": "on the ground, the reality of the facts definitively sweeps away illusions and disinformation campaigns. To those who still doubted the unwavering anchoring of the Republic in the Malian north, the message is now clear: Kidal is indisputably Malian, strong, standing and sovereign . Bamada.net-Today, the Malian Armed Forces (FAMa) display an impressive physical, tactical and protective presence on the sacred land of the 8th military region.",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "civilian",
-            "security_force"
-          ],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        }
-      ],
-      "created_at": "2026-10-10T04:38:07.224249Z",
-      "updated_at": "2026-10-10T04:38:07.224249Z",
-      "extraction_confidence": "moderate",
-      "victim_categories": [
-        "civilian",
-        "security_force"
-      ],
-      "civilian_targeting_flag": false,
-      "casualty_claims": [],
-      "fatalities_min": null,
-      "fatalities_max": null,
-      "fatalities_best": null,
-      "injured_min": null,
-      "injured_max": null,
-      "abducted_min": null,
-      "abducted_max": null,
-      "casualty_disputed": false,
-      "revision_history": [
-        {
-          "at": "2026-10-10T04:38:07.224249Z",
-          "type": "event_created",
-          "source": "Bamada"
-        }
-      ],
-      "corroboration": "single-source",
-      "confidence": "moderate",
-      "independent_source_domains": [
-        "bamada.net"
-      ],
-      "independent_source_count": 1,
-      "significance": "ROUTINE",
-      "significance_reasons": [
-        "limited currently observed significance"
-      ]
-    },
-    {
-      "id": "b0f437beefc5cd04882b603cc1f788a34cdbb15c",
-      "event_date": "2026-10-09",
-      "event_date_confidence": "explicit-text",
-      "event_date_source": "explicit-date-no-year",
-      "published_at": "2026-10-16T16:48:22Z",
-      "published_date_source": "opengraph",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-17T16:50:19.817921Z",
-      "actor": "JNIM",
-      "perpetrator": null,
-      "target": null,
-      "claimant": null,
-      "supporting_force": null,
-      "mentioned_actors": [
-        "JNIM"
-      ],
-      "parent_report_id": null,
-      "event_type": "clash",
-      "country": "Mali",
-      "city": "Ménaka",
-      "lat": 15.9182,
-      "lng": 2.4022,
-      "locations": [
-        {
-          "name": "Ménaka",
-          "country": "Mali",
-          "lat": 15.9182,
-          "lng": 2.4022,
-          "confidence": "explicit-place"
-        },
-        {
-          "name": "Arbinda",
-          "country": "Burkina Faso",
-          "lat": 14.5833,
-          "lng": 0.4667,
-          "confidence": "explicit-place"
-        }
-      ],
-      "title": "Mali, Burkina Faso, Niger: deadly clashes between rival factions in the Sahel of Al-Qaeda and the Islamic State",
-      "summary": "Clashes on an unprecedented scale have been taking place for several weeks between the Sahelian branches of the jihadists of the Islamic State (ISIS) and Al-Qaeda (JNIM) in the border area straddling Mali, Burkina Faso and Niger . These fights are reaching an unprecedented level of violence, with hundreds of deaths claimed on both sides.",
-      "sources": [
-        "TV5MONDE Afrique"
-      ],
-      "languages": [
-        "fr"
-      ],
-      "source_count": 1,
-      "report_urls": [
-        "https://information.tv5monde.com/afrique/mali-burkina-faso-niger-des-affrontements-meurtriers-entre-les-factions-rivales-au-sahel-dal-qaida-et-de-letat-islamique-2841913?amp",
-        "https://information.tv5monde.com/afrique/mali-burkina-faso-niger-des-affrontements-meurtriers-entre-les-factions-rivales-au-sahel-dal-qaida-et-de-letat-islamique-2841913"
-      ],
-      "report_summaries": [
-        {
-          "url": "https://information.tv5monde.com/afrique/mali-burkina-faso-niger-des-affrontements-meurtriers-entre-les-factions-rivales-au-sahel-dal-qaida-et-de-letat-islamique-2841913?amp",
-          "source": "TV5MONDE Afrique",
-          "title": "Mali, Burkina Faso, Niger: deadly clashes between rival factions in the Sahel of Al-Qaeda and the Islamic State",
-          "summary": "Clashes on an unprecedented scale have been taking place for several weeks between the Sahelian branches of the jihadists of the Islamic State (ISIS) and Al-Qaeda (JNIM) in the border area straddling Mali, Burkina Faso and Niger . These fights are reaching an unprecedented level of violence, with hundreds of deaths claimed on both sides.",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "armed_group",
-            "journalist"
-          ],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        },
-        {
-          "url": "https://information.tv5monde.com/afrique/mali-burkina-faso-niger-des-affrontements-meurtriers-entre-les-factions-rivales-au-sahel-dal-qaida-et-de-letat-islamique-2841913",
-          "source": "TV5MONDE Afrique",
-          "title": "Image Africa Mali, Burkina Faso, Niger: deadly clashes between rival factions in the Sahel of Al-Qaeda and the Islamic State",
-          "summary": "Clashes of unprecedented magnitude have been taking place for several weeks between the Sahelian branches of the jihadists of the Islamic State (IS) and Al-Qaeda (JNIM) in the border area straddling Mali, Burkina Faso and Niger.",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "armed_group",
-            "journalist"
-          ],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        }
-      ],
-      "created_at": "2026-10-17T16:50:19.817921Z",
-      "updated_at": "2026-10-16T20:54:01.165456Z",
-      "extraction_confidence": "low",
-      "victim_categories": [
-        "armed_group",
-        "journalist"
-      ],
-      "civilian_targeting_flag": false,
-      "casualty_claims": [],
-      "fatalities_min": null,
-      "fatalities_max": null,
-      "fatalities_best": null,
-      "injured_min": null,
-      "injured_max": null,
-      "abducted_min": null,
-      "abducted_max": null,
-      "casualty_disputed": false,
-      "revision_history": [
-        {
-          "at": "2026-10-17T16:50:19.817921Z",
-          "type": "event_created",
-          "source": "TV5MONDE Afrique"
-        }
-      ],
-      "corroboration": "single-source",
-      "confidence": "low",
-      "independent_source_domains": [
-        "information.tv5monde.com"
-      ],
-      "independent_source_count": 1,
-      "significance": "MAJOR",
-      "significance_reasons": [
-        "multi-location activity"
-      ]
     }
   ],
   "latest_reports": [
+    {
+      "published_at": "2026-10-20T12:54:40Z",
+      "published_date_source": "opengraph",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-20T13:40:05.148899Z",
+      "discovered_at": "2026-10-20T13:40:05.148899Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0058",
+      "source": "Independent Arabia",
+      "language": "ar",
+      "actor": null,
+      "country": "Mali",
+      "city": "Ménaka",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Militants Kill 50 Civilians in Mali in Retaliation for 'Azawad Movement'",
+      "url": "https://www.independentarabia.com/node/660858/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D8%B3%D9%84%D8%AD%D9%88%D9%86-%D9%8A%D9%82%D8%AA%D9%84%D9%88%D9%86-50-%D9%85%D8%AF%D9%86%D9%8A%D8%A7-%D9%81%D9%8A-%D9%85%D8%A7%D9%84%D9%8A-%D8%A7%D9%86%D8%AA%D9%82%D8%A7%D9%85%D8%A7-%D9%85%D9%86-%D8%AD%D8%B1%D9%83%D8%A9-%D8%A3%D8%B2%D9%88%D8%A7%D8%AF"
+    },
+    {
+      "published_at": "2026-10-20T11:13:42Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-20T13:40:00.073096Z",
+      "discovered_at": "2026-10-20T13:40:00.073096Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0007",
+      "source": "Journal du Mali",
+      "language": "fr",
+      "actor": null,
+      "country": "Mali",
+      "city": "Ségou",
+      "event_type": "attack",
+      "candidate_event": false,
+      "title": "Macina hosts more than 3,400 displaced people after the September violence",
+      "url": "https://journaldumali.com/macina-accueille-plus-de-3-400-deplaces-apres-les-violences-de-septembre/"
+    },
+    {
+      "published_at": "2026-10-20T10:25:08Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-20T13:40:00.428915Z",
+      "discovered_at": "2026-10-20T13:40:00.428915Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0160",
+      "source": "Sahara Medias (صحراء ميديا)",
+      "language": "ar",
+      "actor": "Other",
+      "country": "Mali",
+      "city": "Ménaka",
+      "event_type": "attack",
+      "candidate_event": true,
+      "title": "More than 40 civilians killed in armed attack in northeast Mali",
+      "url": "https://saharamedias.net/267363/"
+    },
+    {
+      "published_at": "2026-10-20T10:18:20Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-20T13:39:59.375583Z",
+      "discovered_at": "2026-10-20T13:39:59.375583Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0085",
+      "source": "Seneweb",
+      "language": "fr",
+      "actor": "Other",
+      "country": "Mali",
+      "city": "Ménaka",
+      "event_type": "civilian targeting",
+      "candidate_event": true,
+      "title": "Mali: more than forty civilians killed Sunday by armed men",
+      "url": "https://www.seneweb.com/fr/news/Afrique/mali-plus-dune-quarantaine-de-civils-tues-dimanche-par-des-hommes-armes_n_999001222.html"
+    },
+    {
+      "published_at": "2026-10-20T10:16:13Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-20T13:39:59.284609Z",
+      "discovered_at": "2026-10-20T13:39:59.284609Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0006",
+      "source": "Malijet",
+      "language": "fr",
+      "actor": null,
+      "country": "Mali",
+      "city": "Kati",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Kati: a prayer session in memory of the victims of the crisis",
+      "url": "https://malijet.com/actualite_de_la_nation_malienne/312425-kati-une-seance-de-prieres-en-memoire-des-victimes-de-la-c.html"
+    },
+    {
+      "published_at": "2026-10-20T09:34:20Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-20T13:39:59.212160Z",
+      "discovered_at": "2026-10-20T13:39:59.212160Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0008",
+      "source": "Bamada",
+      "language": "fr",
+      "actor": "Other",
+      "country": "Mali",
+      "city": "Ménaka",
+      "event_type": "civilian targeting",
+      "candidate_event": true,
+      "title": "MENAKA: 48 civilians killed in Daesh attacks",
+      "url": "https://bamada.net/menaka-48-civils-tues-dans-des-attaques-de-daesh"
+    },
+    {
+      "published_at": "2026-10-20T09:03:52Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-20T13:40:05.239123Z",
+      "discovered_at": "2026-10-20T13:40:05.239123Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0006",
+      "source": "Malijet",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": null,
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Defence and Security: 678 young soldiers trained and presented to the flag in Koutiala",
+      "url": "https://malijet.com/actualite_de_la_nation_malienne/312424-defense-et-securite-678-jeunes-soldats-formes-et-presentes.html"
+    },
+    {
+      "published_at": "2026-10-20T08:54:40Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-20T13:40:01.044013Z",
+      "discovered_at": "2026-10-20T13:40:01.044013Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0075",
+      "source": "AMAP (Agence Malienne de Presse et de Publicité)",
+      "language": "fr",
+      "actor": null,
+      "country": "Mali",
+      "city": "Mopti",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Justice: Opening of the combined hearings of the correctional and criminal chambers of the Military Court of Mopti",
+      "url": "https://amap.ml/2026/10/20/justice-ouverture-des-audiences-couplees-des-chambres-correctionnelle-et-criminelle-du-tribunal-militaire-de-mopti/"
+    },
+    {
+      "published_at": "2026-10-20T08:25:43Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-20T13:39:59.452974Z",
+      "discovered_at": "2026-10-20T13:39:59.452974Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0006",
+      "source": "Malijet",
+      "language": "fr",
+      "actor": null,
+      "country": "Mali",
+      "city": "Bamako",
+      "event_type": "law enforcement",
+      "candidate_event": false,
+      "title": "Bamako: two suspects arrested in a burglary case involving more than 200 million FCFA",
+      "url": "https://malijet.com/les_faits_divers_au_mali/312423-bamako-deux-suspects-interpelles-dans-une-affaire-de-cambr.html"
+    },
+    {
+      "published_at": "2026-10-20T07:52:37Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-20T13:39:58.750878Z",
+      "discovered_at": "2026-10-20T13:39:58.750878Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0022",
+      "source": "Africanews",
+      "language": "en",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Ménaka",
+      "event_type": "civilian targeting",
+      "candidate_event": true,
+      "title": "More than 40 civilians killed in Mali attack blamed on Islamic State",
+      "url": "https://www.africanews.com/2026/10/20/more-than-40-civilians-killed-in-mali-attack-blamed-on-islamic-state/"
+    },
+    {
+      "published_at": "2026-10-20T07:20:01Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-20T13:39:59.176632Z",
+      "discovered_at": "2026-10-20T13:39:59.176632Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0006",
+      "source": "Malijet",
+      "language": "fr",
+      "actor": "Other",
+      "country": "Mali",
+      "city": "Ménaka",
+      "event_type": "civilian targeting",
+      "candidate_event": true,
+      "title": "Menaka: Idaksahak community reports 48 civilians killed in Tagadayat",
+      "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312419-menaka-la-communaute-idaksahak-fait-etat-de-48-civils-tues.html"
+    },
+    {
+      "published_at": "2026-10-20T05:10:19Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-20T13:39:59.655851Z",
+      "discovered_at": "2026-10-20T13:39:59.655851Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0099",
+      "source": "La Croix (Afrique)",
+      "language": "fr",
+      "actor": "Other",
+      "country": "Mali",
+      "city": "Ménaka",
+      "event_type": "civilian targeting",
+      "candidate_event": true,
+      "title": "Mali: more than forty civilians killed Sunday by armed men",
+      "url": "https://www.la-croix.com/mali-plus-d-une-quarantaine-de-civils-tues-dimanche-par-des-hommes-armes-sources-securitaires-et-locales-20261019"
+    },
+    {
+      "published_at": "2026-10-20T05:00:00Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-20T13:40:00.241742Z",
+      "discovered_at": "2026-10-20T13:40:00.241742Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0040",
+      "source": "Mondafrique",
+      "language": "fr",
+      "actor": "Africa Corps/Wagner",
+      "country": "Mali",
+      "city": null,
+      "event_type": "abuses/war crimes",
+      "candidate_event": false,
+      "title": "Mali. Human Rights Watch denounces war crimes on both sides",
+      "url": "https://mondafrique.com/politique/mali-human-rights-watch-denonce-les-crimes-de-guerre-commis-par-les-deux-parties/"
+    },
+    {
+      "published_at": "2026-10-20T04:09:56Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-20T13:40:07.106907Z",
+      "discovered_at": "2026-10-20T13:40:07.106907Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0038",
+      "source": "APAnews (FR)",
+      "language": "fr",
+      "actor": "Other",
+      "country": "Mali",
+      "city": null,
+      "event_type": "civilian targeting",
+      "candidate_event": false,
+      "title": "Mali: dozens of civilians killed in the northeast",
+      "url": "https://fr.apanews.net/society/mali-des-dizaines-de-civils-tues-dans-le-nord-est/"
+    },
     {
       "published_at": "2026-10-20T03:54:08Z",
       "published_date_source": "jsonld:datePublished",
@@ -3800,6 +4294,24 @@
       "candidate_event": true,
       "title": "Operation Dougoukoloko: FAMa strike near Menaka and Douentza",
       "url": "https://bamada.net/operation-dougoukoloko-les-fama-frappent-pres-de-menaka-et-douentza"
+    },
+    {
+      "published_at": "2026-10-20T00:39:29Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-20T13:39:59.954851Z",
+      "discovered_at": "2026-10-20T13:39:59.954851Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0002",
+      "source": "France 24 Afrique (FR)",
+      "language": "fr",
+      "actor": "Other",
+      "country": "Mali",
+      "city": "Ménaka",
+      "event_type": "civilian targeting",
+      "candidate_event": true,
+      "title": "Mali: more than 40 civilians killed in armed attacks in the North-East",
+      "url": "https://www.france24.com/fr/afrique/20261020-mali-plus-de-40-civils-tu%C3%A9s-dans-des-attaques-arm%C3%A9es-dans-le-nord-est-du-pays"
     },
     {
       "published_at": "2026-10-20T00:00:00Z",
@@ -4178,276 +4690,6 @@
       "candidate_event": false,
       "title": "Focus: Common Front",
       "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312396-focus-front-commun.html"
-    },
-    {
-      "published_at": "2026-10-19T08:58:47Z",
-      "published_date_source": "opengraph",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-19T18:48:57.035554Z",
-      "discovered_at": "2026-10-19T18:48:57.035554Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0090",
-      "source": "AllAfrica (Édition Française)",
-      "language": "fr",
-      "actor": "State",
-      "country": "Mali",
-      "city": null,
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Mali: Military attacks against civilians, abuses committed by insurgents",
-      "url": "https://fr.allafrica.com/stories/202610190113.html"
-    },
-    {
-      "published_at": "2026-10-19T08:44:47Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-19T09:00:59.219642Z",
-      "discovered_at": "2026-10-19T09:00:59.219642Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0101",
-      "source": "Timbuktu Institute (African Center for Peace Studies)",
-      "language": "en",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Timbuktu",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Burkina Faso : four years of Traoré, sovereignty c…",
-      "url": "https://timbuktu-institute.org/index.php/toutes-l-actualites/item/1823-burkina-faso-four-years-of-traore-sovereignty-celebrated-freedoms-in-retreat"
-    },
-    {
-      "published_at": "2026-10-19T08:35:18Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-19T09:00:54.967408Z",
-      "discovered_at": "2026-10-19T09:00:54.967408Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0006",
-      "source": "Malijet",
-      "language": "fr",
-      "actor": "Other",
-      "country": "Mali",
-      "city": "Sikasso",
-      "event_type": "attack",
-      "candidate_event": true,
-      "title": "Sikasso: a thwarted attack at the Mamassoni checkpoint",
-      "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312393-sikasso-une-attaque-dejouee-au-poste-de-controle-de-mamass.html"
-    },
-    {
-      "published_at": "2026-10-19T08:06:22Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-19T09:00:54.772872Z",
-      "discovered_at": "2026-10-19T09:00:54.772872Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0023",
-      "source": "Al Jazeera English",
-      "language": "en",
-      "actor": "State",
-      "country": "Mali",
-      "city": null,
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Mali’s military and armed groups committing abuses against civilians: HRW",
-      "url": "https://www.aljazeera.com/news/2026/10/19/malis-military-and-armed-groups-committing-abuses-against-civilians-hrw?traffic_source=rss"
-    },
-    {
-      "published_at": "2026-10-19T07:08:36.847000Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-19T09:00:56.777921Z",
-      "discovered_at": "2026-10-19T09:00:56.777921Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0089",
-      "source": "Le360 Afrique",
-      "language": "fr",
-      "actor": null,
-      "country": "Niger",
-      "city": "Niamey",
-      "event_type": "raid",
-      "candidate_event": false,
-      "title": "Niger: fuel shortage spreads to capital Niamey",
-      "url": "https://afrique.le360.ma/economie/niger-la-penurie-dessence-setend-a-la-capitale-niamey_4CDWDWIREZA7DCIOLHHM2KTJS4/"
-    },
-    {
-      "published_at": "2026-10-19T06:05:36Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-19T09:00:56.702343Z",
-      "discovered_at": "2026-10-19T09:00:56.702343Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0003",
-      "source": "Jeune Afrique",
-      "language": "fr",
-      "actor": "JNIM",
-      "country": "Mali",
-      "city": null,
-      "event_type": "raid",
-      "candidate_event": true,
-      "title": "In Mali, mining companies caught between fiscal vice and logistical headache",
-      "url": "https://www.jeuneafrique.com/1849767/economie-entreprises/au-mali-les-compagnies-minieres-prises-entre-etau-fiscal-et-casse-tete-logistique/"
-    },
-    {
-      "published_at": "2026-10-19T05:27:33Z",
-      "published_date_source": "opengraph",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-19T09:00:55.379069Z",
-      "discovered_at": "2026-10-19T09:00:55.379069Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0121",
-      "source": "AllAfrica (English Edition)",
-      "language": "en",
-      "actor": "State",
-      "country": "Mali",
-      "city": null,
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Mali: Military Attacks On Civilians, Insurgent Abuses",
-      "url": "https://allafrica.com/stories/202610190078.html"
-    },
-    {
-      "published_at": "2026-10-19T05:11:39Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-19T09:00:54.883337Z",
-      "discovered_at": "2026-10-19T09:00:54.883337Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0124",
-      "source": "News Central TV (Nigeria)",
-      "language": "en",
-      "actor": "State",
-      "country": "Mali",
-      "city": null,
-      "event_type": "clash",
-      "candidate_event": false,
-      "title": "HRW: Malian Army, Rebels Abusing Civilians",
-      "url": "https://newscentraltv.com/malian-army-rebels-committing-abuses-against-civilians-hrw/"
-    },
-    {
-      "published_at": "2026-10-19T04:26:12Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-19T09:00:55.163907Z",
-      "discovered_at": "2026-10-19T09:00:55.163907Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0022",
-      "source": "Africanews",
-      "language": "en",
-      "actor": "State",
-      "country": "Mali",
-      "city": null,
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Mali's army and rebel opponents guilty of human rights violations, new report finds",
-      "url": "https://www.africanews.com/2026/10/19/malis-army-and-rebel-opponents-guilty-of-human-rights-violations-new-report-finds/"
-    },
-    {
-      "published_at": "2026-10-19T04:03:00Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-19T09:00:58.405391Z",
-      "discovered_at": "2026-10-19T09:00:58.405391Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0019",
-      "source": "Reuters Africa",
-      "language": "en",
-      "actor": "Other",
-      "country": "Mali",
-      "city": null,
-      "event_type": "security operation",
-      "candidate_event": false,
-      "title": "Mali forces, Russian backers kill scores of civilians in drone strikes, report says",
-      "url": "https://www.reuters.com/world/africa/mali-forces-russian-backers-kill-scores-civilians-drone-strikes-report-says-2026-10-19/"
-    },
-    {
-      "published_at": "2026-10-19T04:00:05Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-19T04:55:22.353789Z",
-      "discovered_at": "2026-10-19T04:55:22.353789Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0001",
-      "source": "RFI Afrique",
-      "language": "fr",
-      "actor": "JNIM",
-      "country": "Mali",
-      "city": "Gao",
-      "event_type": "civilian targeting",
-      "candidate_event": true,
-      "title": "Mali: HRW confirms the execution of Malian soldiers by Jnim and the death of civilians killed by the army",
-      "url": "https://www.rfi.fr/fr/afrique/20261019-mali-hrw-confirme-l-ex%C3%A9cution-de-soldats-maliens-par-le-jnim-et-la-mort-de-civils-tu%C3%A9s-par-l-arm%C3%A9e"
-    },
-    {
-      "published_at": "2026-10-19T04:00:00Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-19T04:55:25.167807Z",
-      "discovered_at": "2026-10-19T04:55:25.167807Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0053",
-      "source": "Human Rights Watch Africa",
-      "language": "en",
-      "actor": "State",
-      "country": "Mali",
-      "city": null,
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Mali: Military Attacks on Civilians, Insurgent Abuses",
-      "url": "https://www.hrw.org/news/2026/10/19/mali-military-attacks-on-civilians-insurgent-abuses"
-    },
-    {
-      "published_at": "2026-10-19T00:00:00Z",
-      "published_date_source": "visible-publication-label",
-      "published_time_precision": "date-only",
-      "collected_at": "2026-10-20T05:00:57.089852Z",
-      "discovered_at": "2026-10-20T05:00:57.089852Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0011",
-      "source": "LeFaso.net",
-      "language": "fr",
-      "actor": null,
-      "country": "Burkina Faso",
-      "city": "Bobo-Dioulasso",
-      "event_type": "law enforcement",
-      "candidate_event": false,
-      "title": "Bobo-Dioulasso: A 13-year-old child dies on a gold mining site abroad, an alleged trafficker arrested",
-      "url": "https://lefaso.net/spip.php?article150065="
-    },
-    {
-      "published_at": "2026-10-18T22:51:13Z",
-      "published_date_source": "itemprop",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-19T01:05:05.890393Z",
-      "discovered_at": "2026-10-19T01:05:05.890393Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0015",
-      "source": "ActuNiger",
-      "language": "fr",
-      "actor": null,
-      "country": "Niger",
-      "city": "Birni N'Konni",
-      "event_type": "law enforcement",
-      "candidate_event": false,
-      "title": "Fight against crime in Konni: two suspects arrested in a case of attempted extortion of 5 million FCFA",
-      "url": "https://www.actuniger.com/societe/22465-lutte-contre-la-criminalite-a-konni-deux-suspects-interpelles-dans-une-affaire-de-tentative-dextorsion-de-5-millions-de-fcfa"
-    },
-    {
-      "published_at": "2026-10-18T18:21:43Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-18T20:48:05.265131Z",
-      "discovered_at": "2026-10-18T20:48:05.265131Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0014",
-      "source": "Agence Nigérienne de Presse",
-      "language": "fr",
-      "actor": null,
-      "country": "Niger",
-      "city": "Niamey",
-      "event_type": "raid",
-      "candidate_event": false,
-      "title": "Security: A generally calm and controlled situation (CICO)",
-      "url": "https://anp.ne/securite-une-situation-globalement-calme-et-sous-controle-cico/"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
