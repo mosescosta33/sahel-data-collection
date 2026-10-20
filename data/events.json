@@ -34,19 +34,37 @@
         "lat": 12.6392,
         "lng": -8.0029,
         "confidence": "explicit-place"
+      },
+      {
+        "name": "Sikasso",
+        "country": "Mali",
+        "lat": 11.31755,
+        "lng": -5.66654,
+        "confidence": "explicit-place"
+      },
+      {
+        "name": "Gao",
+        "country": "Mali",
+        "lat": 16.2717,
+        "lng": -0.0447,
+        "confidence": "explicit-place"
       }
     ],
     "title": "Mali: more than forty civilians killed Sunday by armed men",
-    "summary": "Several camps belonging mainly to the Daoussahak community, from which the armed movement \"Movement for the Salvation of Azawad\" (MSA) came, were targeted . Skip the ad Skip the adMore than forty civilians were killed on Sunday in attacks by armed men in the Menaka region of northeastern Mali, causing population displacement, several security, local and community sources reported on Monday.",
+    "summary": "More than 40 civilians were killed on Sunday in attacks by armed men in the Menaka region of northeastern Mali, causing population displacement, several security, local and associative sources told AFP on Monday. These bloody attacks, carried out by armed men arrived on motorcycles, targeted, according to these sources, several camps belonging mainly to the Daoussahak community, from which the armed movement \"Movement for the Salvation of Azawad\" (MSA), close to the junta in power in Bamako, came.",
     "sources": [
-      "Le Figaro (Section Afrique)"
+      "Le Figaro (Section Afrique)",
+      "TV5MONDE Afrique",
+      "Courrier International"
     ],
     "languages": [
       "fr"
     ],
-    "source_count": 1,
+    "source_count": 3,
     "report_urls": [
-      "https://www.lefigaro.fr/flash-actu/mali-plus-de-quarante-civils-tues-dimanche-par-des-hommes-armes-20261019"
+      "https://www.lefigaro.fr/flash-actu/mali-plus-de-quarante-civils-tues-dimanche-par-des-hommes-armes-20261019",
+      "https://information.tv5monde.com/afrique/mali-plus-dune-quarantaine-de-civils-tues-dimanche-par-des-hommes-armes-sources-securitaires-et-locales-2842368",
+      "https://www.courrierinternational.com/depeche/mali-plus-d-une-quarantaine-de-civils-tues-dimanche-par-des-hommes-armes-sources-securitaires-et-locales.afp.com.20261019.doc.d3rz863.xml"
     ],
     "report_summaries": [
       {
@@ -75,10 +93,64 @@
             "evidence": "Mali: more than forty civilians killed Sunday by armed men Mali: more than forty civilians killed Sunday by armed men Several camps belong"
           }
         ]
+      },
+      {
+        "url": "https://information.tv5monde.com/afrique/mali-plus-dune-quarantaine-de-civils-tues-dimanche-par-des-hommes-armes-sources-securitaires-et-locales-2842368",
+        "source": "TV5MONDE Afrique",
+        "title": "Image Published on October 19, 2026 Africa Mali: More than forty civilians killed Sunday by armed men (security and local sources) More than forty civilians were killed Sunday during attacks perpetrated by armed men in the Menaka region, in northeastern Mali…",
+        "summary": "A burning tanker truck is abandoned in the middle of the road leading to Sikasso, Mali's second largest city, on May 26, 2026 More than 40 civilians were killed Sunday in attacks by armed men in the Menaka region of northeastern Mali, causing population displacement, several security, local and community sources told AFP on Monday.",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": 40,
+        "fatalities_max": 40,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "civilian"
+        ],
+        "civilian_targeting_flag": true,
+        "casualty_claims": [
+          {
+            "kind": "fatalities",
+            "count": 40,
+            "victim_text": "civilians",
+            "claimant": "TV5MONDE Afrique",
+            "status": "reported",
+            "evidence": "Image Published on October 19, 2026 Africa Mali: More than forty civilians killed Sunday by armed men (security and local sources) More than forty civilians were killed Sunday durin"
+          }
+        ]
+      },
+      {
+        "url": "https://www.courrierinternational.com/depeche/mali-plus-d-une-quarantaine-de-civils-tues-dimanche-par-des-hommes-armes-sources-securitaires-et-locales.afp.com.20261019.doc.d3rz863.xml",
+        "source": "Courrier International",
+        "title": "Mali: more than forty civilians killed Sunday by armed men (security and local sources)",
+        "summary": "More than 40 civilians were killed on Sunday in attacks by armed men in the Menaka region of northeastern Mali, causing population displacement, several security, local and associative sources told AFP on Monday. These bloody attacks, carried out by armed men arrived on motorcycles, targeted, according to these sources, several camps belonging mainly to the Daoussahak community, from which the armed movement \"Movement for the Salvation of Azawad\" (MSA), close to the junta in power in Bamako, came.",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": 40,
+        "fatalities_max": 40,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "civilian"
+        ],
+        "civilian_targeting_flag": true,
+        "casualty_claims": [
+          {
+            "kind": "fatalities",
+            "count": 40,
+            "victim_text": "civilians",
+            "claimant": "Courrier International",
+            "status": "reported",
+            "evidence": "Mali: more than forty civilians killed Sunday by armed men (security and local sources) More than 40 civilians were killed on Sunday in at"
+          }
+        ]
       }
     ],
     "created_at": "2026-10-19T23:49:56.977933Z",
-    "updated_at": "2026-10-19T23:49:56.977933Z",
+    "updated_at": "2026-10-20T05:01:03.695030Z",
     "extraction_confidence": "low",
     "victim_categories": [
       "civilian"
@@ -93,6 +165,24 @@
         "status": "reported",
         "evidence": "Mali: more than forty civilians killed Sunday by armed men Mali: more than forty civilians killed Sunday by armed men Several camps belong",
         "source": "Le Figaro (Section Afrique)"
+      },
+      {
+        "kind": "fatalities",
+        "count": 40,
+        "victim_text": "civilians",
+        "claimant": "TV5MONDE Afrique",
+        "status": "reported",
+        "evidence": "Image Published on October 19, 2026 Africa Mali: More than forty civilians killed Sunday by armed men (security and local sources) More than forty civilians were killed Sunday durin",
+        "source": "TV5MONDE Afrique"
+      },
+      {
+        "kind": "fatalities",
+        "count": 40,
+        "victim_text": "civilians",
+        "claimant": "Courrier International",
+        "status": "reported",
+        "evidence": "Mali: more than forty civilians killed Sunday by armed men (security and local sources) More than 40 civilians were killed on Sunday in at",
+        "source": "Courrier International"
       }
     ],
     "fatalities_min": 40,
@@ -108,12 +198,148 @@
         "at": "2026-10-19T23:49:56.977933Z",
         "type": "event_created",
         "source": "Le Figaro (Section Afrique)"
+      },
+      {
+        "at": "2026-10-20T05:00:56.162771Z",
+        "type": "corroboration_or_geography_update",
+        "source": "TV5MONDE Afrique"
+      },
+      {
+        "at": "2026-10-20T05:01:03.695030Z",
+        "type": "corroboration_or_geography_update",
+        "source": "Courrier International"
+      }
+    ],
+    "corroboration": "multi-source",
+    "confidence": "moderate-high",
+    "independent_source_domains": [
+      "lefigaro.fr",
+      "information.tv5monde.com",
+      "courrierinternational.com"
+    ],
+    "independent_source_count": 3,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "strategic/severe event pattern",
+      "multi-source corroboration",
+      "multi-location activity"
+    ]
+  },
+  {
+    "id": "ee932765f8fcd4dd6c62645eae06312303482a4f",
+    "event_date": "2026-10-19",
+    "event_date_confidence": "publication-proxy",
+    "event_date_source": "jsonld:datePublished",
+    "published_at": "2026-10-19T23:47:34.537000Z",
+    "published_date_source": "jsonld:datePublished",
+    "published_time_precision": "datetime",
+    "collected_at": "2026-10-20T05:00:57.177306Z",
+    "actor": "State",
+    "perpetrator": null,
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [],
+    "parent_report_id": null,
+    "event_type": "civilian targeting",
+    "country": "Mali",
+    "city": "Ménaka",
+    "lat": 15.9182,
+    "lng": 2.4022,
+    "locations": [
+      {
+        "name": "Ménaka",
+        "country": "Mali",
+        "lat": 15.9182,
+        "lng": 2.4022,
+        "confidence": "explicit-place"
+      },
+      {
+        "name": "Gao",
+        "country": "Mali",
+        "lat": 16.2717,
+        "lng": -0.0447,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "40 civilians killed in attacks on camps in Mali's Menaka region Armed men on motorcycles storm camps housing members of Daoussahak community, killing dozens and forcing residents to flee.",
+    "summary": "More than 40 civilians have been killed in weekend assaults by armed men on residential camps across Mali's northeastern Menaka region, security and community sources confirmed. The assailants arrived on motorcycles, storming settlements primarily housing members of the Daoussahak community approximately 50 kilometres from the town of Menaka, in and around the village of Tinabow and the Tagadayat area.",
+    "sources": [
+      "TRT World (Africa)"
+    ],
+    "languages": [
+      "en"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://www.trtworld.com/article/a85f28c4c8fd"
+    ],
+    "report_summaries": [
+      {
+        "url": "https://www.trtworld.com/article/a85f28c4c8fd",
+        "source": "TRT World (Africa)",
+        "title": "40 civilians killed in attacks on camps in Mali's Menaka region Armed men on motorcycles storm camps housing members of Daoussahak community, killing dozens and forcing residents to flee.",
+        "summary": "More than 40 civilians have been killed in weekend assaults by armed men on residential camps across Mali's northeastern Menaka region, security and community sources confirmed. The assailants arrived on motorcycles, storming settlements primarily housing members of the Daoussahak community approximately 50 kilometres from the town of Menaka, in and around the village of Tinabow and the Tagadayat area.",
+        "summary_basis": "source-excerpt",
+        "fatalities_min": 40,
+        "fatalities_max": 40,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "civilian"
+        ],
+        "civilian_targeting_flag": true,
+        "casualty_claims": [
+          {
+            "kind": "fatalities",
+            "count": 40,
+            "victim_text": "civilians",
+            "claimant": "TRT World (Africa)",
+            "status": "reported",
+            "evidence": "40 civilians killed in attacks on camps in Mali's Menaka region Armed men on motorcycles storm camps housing members of"
+          }
+        ]
+      }
+    ],
+    "created_at": "2026-10-20T05:00:57.177306Z",
+    "updated_at": "2026-10-20T05:00:57.177306Z",
+    "extraction_confidence": "low",
+    "victim_categories": [
+      "civilian"
+    ],
+    "civilian_targeting_flag": true,
+    "casualty_claims": [
+      {
+        "kind": "fatalities",
+        "count": 40,
+        "victim_text": "civilians",
+        "claimant": "TRT World (Africa)",
+        "status": "reported",
+        "evidence": "40 civilians killed in attacks on camps in Mali's Menaka region Armed men on motorcycles storm camps housing members of",
+        "source": "TRT World (Africa)"
+      }
+    ],
+    "fatalities_min": 40,
+    "fatalities_max": 40,
+    "fatalities_best": 40,
+    "injured_min": null,
+    "injured_max": null,
+    "abducted_min": null,
+    "abducted_max": null,
+    "casualty_disputed": false,
+    "revision_history": [
+      {
+        "at": "2026-10-20T05:00:57.177306Z",
+        "type": "event_created",
+        "source": "TRT World (Africa)"
       }
     ],
     "corroboration": "single-source",
     "confidence": "low",
     "independent_source_domains": [
-      "lefigaro.fr"
+      "trtworld.com"
     ],
     "independent_source_count": 1,
     "significance": "MAJOR",
@@ -922,6 +1148,196 @@
     ]
   },
   {
+    "id": "fb19e15cfea19012697e1dfdc35694dc1e7911ae",
+    "event_date": "2026-10-17",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "explicit-calendar-date",
+    "published_at": "2026-10-17T23:13:55Z",
+    "published_date_source": "jsonld:datePublished",
+    "published_time_precision": "datetime",
+    "collected_at": "2026-10-18T01:04:33.263788Z",
+    "actor": "State",
+    "perpetrator": "State",
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [
+      "State"
+    ],
+    "parent_report_id": null,
+    "event_type": "security operation",
+    "country": "Mali",
+    "city": "Ménaka",
+    "lat": 15.9182,
+    "lng": 2.4022,
+    "locations": [
+      {
+        "name": "Ménaka",
+        "country": "Mali",
+        "lat": 15.9182,
+        "lng": 2.4022,
+        "confidence": "explicit-place"
+      },
+      {
+        "name": "Bamako",
+        "country": "Mali",
+        "lat": 12.6392,
+        "lng": -8.0029,
+        "confidence": "explicit-place"
+      },
+      {
+        "name": "Douentza",
+        "country": "Mali",
+        "lat": 15.0014,
+        "lng": -2.9519,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "Operation Dougoukoloko: two terrorist bases targeted near Diafarabé and Menaka",
+    "summary": "The General Staff of the Armed Forces informs the national opinion that the Malian Armed Forces (FAMa), supported by their partners, are continuing the permanent operations of surveillance, control and security of the national territory as part of Operation Dougoukoloko This Saturday, October 17, 2026, the exploitation of precise intelligence made it possible to locate, 40 km north-east of the city of Diafarabé, a major base housing several terrorist elements as well as war and logistics equipment.",
+    "sources": [
+      "Malijet",
+      "AMAP (Agence Malienne de Presse et de Publicité)",
+      "Bamada"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 3,
+    "report_urls": [
+      "https://malijet.com/actualte_dans_les_regions_du_mali/312379-operation-dougoukoloko-deux-bases-terroristes-ciblees-pres.html",
+      "https://amap.ml/2026/10/18/operation-dougoukoloko-les-fama-frappent-deux-bases-abritant-des-groupes-terroristes-a-diarafabe-et-a-menaka/",
+      "https://bamada.net/operation-dougoukoloko-les-fama-frappent-deux-importantes-bases-terroristes-a-diafarabe-et-menaka",
+      "https://bamada.net/operation-dougoukoloko-les-fama-frappent-pres-de-menaka-et-douentza"
+    ],
+    "report_summaries": [
+      {
+        "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312379-operation-dougoukoloko-deux-bases-terroristes-ciblees-pres.html",
+        "source": "Malijet",
+        "title": "Operation Dougoukoloko: two terrorist bases targeted near Diafarabé and Menaka",
+        "summary": "Operation Dougoukoloko: two targeted terrorist bases near Diafarabé and Menaka The Malian Armed Forces (FAMa), supported by their partners, targeted two bases presented as terrorist in the Diafarabé and Menaka sectors on Saturday, October 17, 2026, as part of Operation Dougoukoloko, according to the General Staff of the Armed Forces According to the press release, the first position was located 40 km northeast of Diafarabé thanks to precise information.",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "armed_group"
+        ],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      },
+      {
+        "url": "https://amap.ml/2026/10/18/operation-dougoukoloko-les-fama-frappent-deux-bases-abritant-des-groupes-terroristes-a-diarafabe-et-a-menaka/",
+        "source": "AMAP (Agence Malienne de Presse et de Publicité)",
+        "title": "Operation Dougoukoloko: FAMa strikes two bases housing terrorist groups in Diarafabé and Menaka",
+        "summary": "Bamako, October 18 (AMAP) The Malian Armed Forces (FAMa), supported by their partners, successfully carried out, on Saturday, October 17, 2026, strikes against two bases housing terrorist elements and war and logistics equipment, as part of Operation Dougoukoloko, announced the General Staff of the Armed Forces . According to the press release, the exploitation of precise information made it possible to locate a large base about 40 km northeast of the city of Diafarabé.",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "armed_group"
+        ],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      },
+      {
+        "url": "https://bamada.net/operation-dougoukoloko-les-fama-frappent-deux-importantes-bases-terroristes-a-diafarabe-et-menaka",
+        "source": "Bamada",
+        "title": "Operation Dougoukoloko: The FAMa strike two important terrorist bases in Diafarabé and Menaka",
+        "summary": "The General Staff of the Armed Forces informs the national opinion that the Malian Armed Forces (FAMa), supported by their partners, are continuing the permanent operations of surveillance, control and security of the national territory as part of Operation Dougoukoloko This Saturday, October 17, 2026, the exploitation of precise intelligence made it possible to locate, 40 km north-east of the city of Diafarabé, a major base housing several terrorist elements as well as war and logistics equipment.",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "armed_group"
+        ],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      },
+      {
+        "url": "https://bamada.net/operation-dougoukoloko-les-fama-frappent-pres-de-menaka-et-douentza",
+        "source": "Bamada",
+        "title": "Operation Dougoukoloko: FAMa strike near Menaka and Douentza",
+        "summary": "Operation Dougoukoloko: the FAMa strike two terrorist positions near Menaka and Douentza Thanks to the exploitation of precise intelligence, the Malian Armed Forces carried out targeted strikes on 17 and 18 October 2026 against positions of terrorist armed groups. These operations illustrate the continuation of efforts to monitor, recognize and secure the national territory .",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "armed_group"
+        ],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      }
+    ],
+    "created_at": "2026-10-18T01:04:33.263788Z",
+    "updated_at": "2026-10-20T05:00:56.415454Z",
+    "extraction_confidence": "low",
+    "victim_categories": [
+      "armed_group"
+    ],
+    "civilian_targeting_flag": false,
+    "casualty_claims": [],
+    "fatalities_min": null,
+    "fatalities_max": null,
+    "fatalities_best": null,
+    "injured_min": null,
+    "injured_max": null,
+    "abducted_min": null,
+    "abducted_max": null,
+    "casualty_disputed": false,
+    "revision_history": [
+      {
+        "at": "2026-10-18T01:04:33.263788Z",
+        "type": "event_created",
+        "source": "Malijet"
+      },
+      {
+        "at": "2026-10-18T12:56:39.047329Z",
+        "type": "corroboration_or_geography_update",
+        "source": "AMAP (Agence Malienne de Presse et de Publicité)"
+      },
+      {
+        "at": "2026-10-18T12:56:37.559660Z",
+        "type": "corroboration_or_geography_update",
+        "source": "Bamada"
+      },
+      {
+        "at": "2026-10-20T05:00:56.415454Z",
+        "type": "corroboration_or_geography_update",
+        "source": "Bamada"
+      }
+    ],
+    "corroboration": "multi-source",
+    "confidence": "moderate-high",
+    "independent_source_domains": [
+      "malijet.com",
+      "amap.ml",
+      "bamada.net"
+    ],
+    "independent_source_count": 3,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "strategic/severe event pattern",
+      "multi-source corroboration",
+      "multi-location activity"
+    ]
+  },
+  {
     "id": "ec93b4dcf38a1d1f8f529050fa12585416e16faa",
     "event_date": "2026-10-17",
     "event_date_confidence": "explicit-text",
@@ -1052,165 +1468,6 @@
     ]
   },
   {
-    "id": "fb19e15cfea19012697e1dfdc35694dc1e7911ae",
-    "event_date": "2026-10-17",
-    "event_date_confidence": "explicit-text",
-    "event_date_source": "explicit-calendar-date",
-    "published_at": "2026-10-17T23:13:55Z",
-    "published_date_source": "jsonld:datePublished",
-    "published_time_precision": "datetime",
-    "collected_at": "2026-10-18T01:04:33.263788Z",
-    "actor": "State",
-    "perpetrator": "State",
-    "target": null,
-    "claimant": null,
-    "supporting_force": null,
-    "mentioned_actors": [
-      "State"
-    ],
-    "parent_report_id": null,
-    "event_type": "security operation",
-    "country": "Mali",
-    "city": "Ménaka",
-    "lat": 15.9182,
-    "lng": 2.4022,
-    "locations": [
-      {
-        "name": "Ménaka",
-        "country": "Mali",
-        "lat": 15.9182,
-        "lng": 2.4022,
-        "confidence": "explicit-place"
-      },
-      {
-        "name": "Bamako",
-        "country": "Mali",
-        "lat": 12.6392,
-        "lng": -8.0029,
-        "confidence": "explicit-place"
-      }
-    ],
-    "title": "Operation Dougoukoloko: two terrorist bases targeted near Diafarabé and Menaka",
-    "summary": "The General Staff of the Armed Forces informs the national opinion that the Malian Armed Forces (FAMa), supported by their partners, are continuing the permanent operations of surveillance, control and security of the national territory as part of Operation Dougoukoloko This Saturday, October 17, 2026, the exploitation of precise intelligence made it possible to locate, 40 km north-east of the city of Diafarabé, a major base housing several terrorist elements as well as war and logistics equipment.",
-    "sources": [
-      "Malijet",
-      "AMAP (Agence Malienne de Presse et de Publicité)",
-      "Bamada"
-    ],
-    "languages": [
-      "fr"
-    ],
-    "source_count": 3,
-    "report_urls": [
-      "https://malijet.com/actualte_dans_les_regions_du_mali/312379-operation-dougoukoloko-deux-bases-terroristes-ciblees-pres.html",
-      "https://amap.ml/2026/10/18/operation-dougoukoloko-les-fama-frappent-deux-bases-abritant-des-groupes-terroristes-a-diarafabe-et-a-menaka/",
-      "https://bamada.net/operation-dougoukoloko-les-fama-frappent-deux-importantes-bases-terroristes-a-diafarabe-et-menaka"
-    ],
-    "report_summaries": [
-      {
-        "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312379-operation-dougoukoloko-deux-bases-terroristes-ciblees-pres.html",
-        "source": "Malijet",
-        "title": "Operation Dougoukoloko: two terrorist bases targeted near Diafarabé and Menaka",
-        "summary": "Operation Dougoukoloko: two targeted terrorist bases near Diafarabé and Menaka The Malian Armed Forces (FAMa), supported by their partners, targeted two bases presented as terrorist in the Diafarabé and Menaka sectors on Saturday, October 17, 2026, as part of Operation Dougoukoloko, according to the General Staff of the Armed Forces According to the press release, the first position was located 40 km northeast of Diafarabé thanks to precise information.",
-        "summary_basis": "translated-excerpt",
-        "fatalities_min": null,
-        "fatalities_max": null,
-        "injured_min": null,
-        "injured_max": null,
-        "abducted_min": null,
-        "abducted_max": null,
-        "victim_categories": [
-          "armed_group"
-        ],
-        "civilian_targeting_flag": false,
-        "casualty_claims": []
-      },
-      {
-        "url": "https://amap.ml/2026/10/18/operation-dougoukoloko-les-fama-frappent-deux-bases-abritant-des-groupes-terroristes-a-diarafabe-et-a-menaka/",
-        "source": "AMAP (Agence Malienne de Presse et de Publicité)",
-        "title": "Operation Dougoukoloko: FAMa strikes two bases housing terrorist groups in Diarafabé and Menaka",
-        "summary": "Bamako, October 18 (AMAP) The Malian Armed Forces (FAMa), supported by their partners, successfully carried out, on Saturday, October 17, 2026, strikes against two bases housing terrorist elements and war and logistics equipment, as part of Operation Dougoukoloko, announced the General Staff of the Armed Forces . According to the press release, the exploitation of precise information made it possible to locate a large base about 40 km northeast of the city of Diafarabé.",
-        "summary_basis": "translated-excerpt",
-        "fatalities_min": null,
-        "fatalities_max": null,
-        "injured_min": null,
-        "injured_max": null,
-        "abducted_min": null,
-        "abducted_max": null,
-        "victim_categories": [
-          "armed_group"
-        ],
-        "civilian_targeting_flag": false,
-        "casualty_claims": []
-      },
-      {
-        "url": "https://bamada.net/operation-dougoukoloko-les-fama-frappent-deux-importantes-bases-terroristes-a-diafarabe-et-menaka",
-        "source": "Bamada",
-        "title": "Operation Dougoukoloko: The FAMa strike two important terrorist bases in Diafarabé and Menaka",
-        "summary": "The General Staff of the Armed Forces informs the national opinion that the Malian Armed Forces (FAMa), supported by their partners, are continuing the permanent operations of surveillance, control and security of the national territory as part of Operation Dougoukoloko This Saturday, October 17, 2026, the exploitation of precise intelligence made it possible to locate, 40 km north-east of the city of Diafarabé, a major base housing several terrorist elements as well as war and logistics equipment.",
-        "summary_basis": "translated-excerpt",
-        "fatalities_min": null,
-        "fatalities_max": null,
-        "injured_min": null,
-        "injured_max": null,
-        "abducted_min": null,
-        "abducted_max": null,
-        "victim_categories": [
-          "armed_group"
-        ],
-        "civilian_targeting_flag": false,
-        "casualty_claims": []
-      }
-    ],
-    "created_at": "2026-10-18T01:04:33.263788Z",
-    "updated_at": "2026-10-18T12:56:37.559660Z",
-    "extraction_confidence": "low",
-    "victim_categories": [
-      "armed_group"
-    ],
-    "civilian_targeting_flag": false,
-    "casualty_claims": [],
-    "fatalities_min": null,
-    "fatalities_max": null,
-    "fatalities_best": null,
-    "injured_min": null,
-    "injured_max": null,
-    "abducted_min": null,
-    "abducted_max": null,
-    "casualty_disputed": false,
-    "revision_history": [
-      {
-        "at": "2026-10-18T01:04:33.263788Z",
-        "type": "event_created",
-        "source": "Malijet"
-      },
-      {
-        "at": "2026-10-18T12:56:39.047329Z",
-        "type": "corroboration_or_geography_update",
-        "source": "AMAP (Agence Malienne de Presse et de Publicité)"
-      },
-      {
-        "at": "2026-10-18T12:56:37.559660Z",
-        "type": "corroboration_or_geography_update",
-        "source": "Bamada"
-      }
-    ],
-    "corroboration": "multi-source",
-    "confidence": "moderate-high",
-    "independent_source_domains": [
-      "malijet.com",
-      "amap.ml",
-      "bamada.net"
-    ],
-    "independent_source_count": 3,
-    "significance": "MAJOR",
-    "significance_reasons": [
-      "strategic/severe event pattern",
-      "multi-source corroboration",
-      "multi-location activity"
-    ]
-  },
-  {
     "id": "98d8078e36a293d890098c4ce904f8f7a70568d3",
     "event_date": "2026-10-17",
     "event_date_confidence": "explicit-text",
@@ -1314,6 +1571,121 @@
     "significance_reasons": [
       "strategic/severe event pattern",
       "multi-location activity"
+    ]
+  },
+  {
+    "id": "d35d4a83f06d7e8e9a0846674fcbd30b02fe0e3f",
+    "event_date": "2026-10-15",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "explicit-date-no-year",
+    "published_at": "2026-10-20T03:54:08Z",
+    "published_date_source": "jsonld:datePublished",
+    "published_time_precision": "datetime",
+    "collected_at": "2026-10-20T05:01:02.745407Z",
+    "actor": "Africa Corps/Wagner",
+    "perpetrator": null,
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [],
+    "parent_report_id": null,
+    "event_type": "civilian targeting",
+    "country": "Mali",
+    "city": "Ménaka",
+    "lat": 15.9182,
+    "lng": 2.4022,
+    "locations": [
+      {
+        "name": "Ménaka",
+        "country": "Mali",
+        "lat": 15.9182,
+        "lng": 2.4022,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "Mali: about forty civilians killed Sunday by armed men in the Ménaka region",
+    "summary": "Published on: Advertisement In Mali, the Executive Office of the Idaksahak community expressed Monday \"its strong emotion and immense dismay\" after the death of 48 civilians of the community, last Sunday, on the side of Tagadayat, in the Ménaka region According to their statement, \"these defenceless civilian populations were attacked by armed elements of Daesh [Islamic State group, editor's note], arrived on board several motorcycles\".",
+    "sources": [
+      "RFI Afrique"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://www.rfi.fr/fr/en-bref/20261020-mali-une-quarantaine-de-civils-tu%C3%A9s-dimanche-par-des-hommes-arm%C3%A9s-dans-la-r%C3%A9gion-de-m%C3%A9naka"
+    ],
+    "report_summaries": [
+      {
+        "url": "https://www.rfi.fr/fr/en-bref/20261020-mali-une-quarantaine-de-civils-tu%C3%A9s-dimanche-par-des-hommes-arm%C3%A9s-dans-la-r%C3%A9gion-de-m%C3%A9naka",
+        "source": "RFI Afrique",
+        "title": "Mali: about forty civilians killed Sunday by armed men in the Ménaka region",
+        "summary": "Published on: Advertisement In Mali, the Executive Office of the Idaksahak community expressed Monday \"its strong emotion and immense dismay\" after the death of 48 civilians of the community, last Sunday, on the side of Tagadayat, in the Ménaka region According to their statement, \"these defenceless civilian populations were attacked by armed elements of Daesh [Islamic State group, editor's note], arrived on board several motorcycles\".",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": 40,
+        "fatalities_max": 40,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "civilian"
+        ],
+        "civilian_targeting_flag": true,
+        "casualty_claims": [
+          {
+            "kind": "fatalities",
+            "count": 40,
+            "victim_text": "civilians",
+            "claimant": "RFI Afrique",
+            "status": "reported",
+            "evidence": "Mali: about forty civilians killed Sunday by armed men in the Ménaka region Mali: about forty civilians killed Sunday by armed men in"
+          }
+        ]
+      }
+    ],
+    "created_at": "2026-10-20T05:01:02.745407Z",
+    "updated_at": "2026-10-20T05:01:02.745407Z",
+    "extraction_confidence": "low",
+    "victim_categories": [
+      "civilian"
+    ],
+    "civilian_targeting_flag": true,
+    "casualty_claims": [
+      {
+        "kind": "fatalities",
+        "count": 40,
+        "victim_text": "civilians",
+        "claimant": "RFI Afrique",
+        "status": "reported",
+        "evidence": "Mali: about forty civilians killed Sunday by armed men in the Ménaka region Mali: about forty civilians killed Sunday by armed men in",
+        "source": "RFI Afrique"
+      }
+    ],
+    "fatalities_min": 40,
+    "fatalities_max": 40,
+    "fatalities_best": 40,
+    "injured_min": null,
+    "injured_max": null,
+    "abducted_min": null,
+    "abducted_max": null,
+    "casualty_disputed": false,
+    "revision_history": [
+      {
+        "at": "2026-10-20T05:01:02.745407Z",
+        "type": "event_created",
+        "source": "RFI Afrique"
+      }
+    ],
+    "corroboration": "single-source",
+    "confidence": "low",
+    "independent_source_domains": [
+      "rfi.fr"
+    ],
+    "independent_source_count": 1,
+    "significance": "SIGNIFICANT",
+    "significance_reasons": [
+      "operational security event"
     ]
   },
   {

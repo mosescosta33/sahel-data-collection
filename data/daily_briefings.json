@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "site_patch_version": "3.3.5",
-  "generated_at": "2026-10-19T23:51:16.120981Z",
+  "generated_at": "2026-10-20T05:02:25.370198Z",
   "active_limit": 33,
   "total_briefings": 273,
   "active_count": 33,
@@ -11,7 +11,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-20",
-      "generated_at": "2026-10-19T23:51:15.788324Z",
+      "generated_at": "2026-10-20T05:02:24.265003Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -23,25 +23,25 @@
         "events_occurring_on_date": 0,
         "records_held_for_review": 0,
         "multi_source_events": 0,
-        "reports_collected_on_date": 0,
+        "reports_collected_on_date": 8,
         "reports_published_on_date": 0,
         "newly_discovered_older_events": 0,
-        "events_awaiting_date_verification": 0,
-        "distinct_sources_collected": 0
+        "events_awaiting_date_verification": 1,
+        "distinct_sources_collected": 7
       },
-      "executive_assessment": "The desk has too little reporting from 2026-10-20 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet.",
+      "executive_assessment": "Reporting collected on 2026-10-20 does not yet support a clear account of a new incident in Mali, Burkina Faso, or Niger. The desk received 8 reports from 7 sources, but the automated incident record needs further review. This is not evidence of calm on the ground.",
       "briefing_sections": [
         {
           "heading": "Assessment",
-          "text": "The desk has too little reporting from 2026-10-20 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet."
+          "text": "Reporting collected on 2026-10-20 does not yet support a clear account of a new incident in Mali, Burkina Faso, or Niger. The desk received 8 reports from 7 sources, but the automated incident record needs further review. This is not evidence of calm on the ground."
         },
         {
           "heading": "Mali",
-          "text": "No retained Mali report is recorded for this collection date. 0 fused candidate events currently carry this event date."
+          "text": "7 retained reports were collected for Mali. 0 fused candidate events currently carry this reporting date. Mali: about forty civilians killed Sunday by armed men in the Ménaka region: Published on: Advertisement In Mali, the Executive Office of the Idaksahak community expressed Monday \"its strong emotion and immense dismay\" after the death of 48 civilians of the community, last Sunday, on the side of… Gunmen Kill 40 Civilians in Mali: More than 40 civilians have been killed in attacks on settlements in Mali’s northeastern Menaka region, with security and community sources reporting that armed men targeted camps over the weekend. The attackers, reportedly… Geneva: Mali celebrates the 66th anniversary of its independence in a spirit of national solidarity: While in Geneva, Switzerland, as part of the 77th session of the Executive Committee of the Programme of the United Nations High Commissioner for Refugees (UNHCR), the Minister of Territorial Administration and… 4 additional Mali reports are summarized individually in the source records."
         },
         {
           "heading": "Burkina Faso",
-          "text": "No retained Burkina Faso report is recorded for this collection date. 0 fused candidate events currently carry this event date."
+          "text": "1 retained report were collected for Burkina Faso. 0 fused candidate events currently carry this reporting date. Bobo-Dioulasso: A 13-year-old child dies on a gold mining site abroad, an alleged trafficker arrested: Bobo-Dioulasso: A 13-year-old child dies at a gold mining site abroad, an alleged trafficker arrested The Regional Child Protection Brigade (BRPE) of Guiriko presented, on Monday, October 19, 2026, the results of an…"
         },
         {
           "heading": "Niger",
@@ -49,22 +49,24 @@
         },
         {
           "heading": "What remains unclear",
-          "text": "Collection or source checks are incomplete for this date, so relevant reporting may still be missing."
+          "text": "The date of 1 operational report still needs checking. Collection or source checks are incomplete for this date, so relevant reporting may still be missing."
         }
       ],
       "key_judgments": [
-        "No fused candidate event currently has 2026-10-20 as its event date; collection confidence for that date is low."
+        "No fused candidate event currently has 2026-10-20 as its event date; collection confidence for that date is low.",
+        "1 collected operational/candidate report(s) still use an unresolved or proxy event date and require temporal verification."
       ],
       "significant_events": [],
       "what_changed_since_yesterday": [
         "JNIM: -1 same-day fused event(s) versus 2026-10-19 (1 → 0).",
-        "Collection volume: -32 retained report(s) versus 2026-10-19 (32 → 0)."
+        "Collection volume: -24 retained report(s) versus 2026-10-19 (32 → 8)."
       ],
       "emerging_patterns": [
         "JNIM 7-day activity is lower than the preceding 7-day window (2 → 1).",
         "State 7-day activity is lower than the preceding 7-day window (8 → 5)."
       ],
       "intelligence_gaps": [
+        "1 newly collected operational/candidate report(s) have unresolved or publication-proxy event dates.",
         "Collection confidence is low, so absence of reporting should not be interpreted as absence of activity."
       ],
       "actor_counts": {
@@ -78,8 +80,8 @@
         "Niger": 0
       },
       "country_reporting_counts": {
-        "Mali": 0,
-        "Burkina Faso": 0,
+        "Mali": 7,
+        "Burkina Faso": 1,
         "Niger": 0
       },
       "actor_profiles": {
@@ -111,18 +113,18 @@
       "country_profiles": {
         "Mali": {
           "events": 0,
-          "reports_collected": 0,
+          "reports_collected": 7,
           "actor_counts": {
             "JNIM": 0,
             "IS Sahel": 0,
             "State": 0
           },
-          "delta_events_vs_previous_day": -1,
+          "delta_events_vs_previous_day": -2,
           "top_event_types": []
         },
         "Burkina Faso": {
           "events": 0,
-          "reports_collected": 0,
+          "reports_collected": 1,
           "actor_counts": {
             "JNIM": 0,
             "IS Sahel": 0,
@@ -144,63 +146,142 @@
         }
       },
       "country_article_summaries": {
-        "Mali": [],
-        "Burkina Faso": [],
+        "Mali": [
+          {
+            "id": "da5a4f1706babbc900cfad2b4c1a30d18f9d38c9",
+            "source": "RFI Afrique",
+            "title": "Mali: about forty civilians killed Sunday by armed men in the Ménaka region",
+            "summary": "Published on: Advertisement In Mali, the Executive Office of the Idaksahak community expressed Monday \"its strong emotion and immense dismay\" after the death of 48 civilians of the community, last Sunday, on the side of Tagadayat, in the Ménaka region According to their statement, \"these defenceless civilian populations were attacked by armed elements of Daesh [Islamic State group, editor's note], arrived on board several motorcycles\".",
+            "url": "https://www.rfi.fr/fr/en-bref/20261020-mali-une-quarantaine-de-civils-tu%C3%A9s-dimanche-par-des-hommes-arm%C3%A9s-dans-la-r%C3%A9gion-de-m%C3%A9naka",
+            "candidate_event": true,
+            "event_date": "2026-10-15"
+          },
+          {
+            "id": "5b9f50e7a5a95a71326560583afca99aa378feee",
+            "source": "News Central TV (Nigeria)",
+            "title": "Gunmen Kill 40 Civilians in Mali",
+            "summary": "More than 40 civilians have been killed in attacks on settlements in Mali’s northeastern Menaka region, with security and community sources reporting that armed men targeted camps over the weekend. The attackers, reportedly travelling on motorcycles, raided several camps largely inhabited by members of the Daoussahak community. The community’s executive bureau blamed the Islamic State group for the killings.",
+            "url": "https://newscentraltv.com/gunmen-kill-40-civilians-in-mali/",
+            "candidate_event": false,
+            "event_date": "2026-10-19"
+          },
+          {
+            "id": "dd3f531c705a26ea3a40169642b57d745ef1a56b",
+            "source": "Bamada",
+            "title": "Geneva: Mali celebrates the 66th anniversary of its independence in a spirit of national solidarity",
+            "summary": "While in Geneva, Switzerland, as part of the 77th session of the Executive Committee of the Programme of the United Nations High Commissioner for Refugees (UNHCR), the Minister of Territorial Administration and Decentralization, Government Spokesperson, Brigadier General Issa Ousmane COULIBALY, chaired the ceremony to celebrate the 66th anniversary of Mali's independence on October 17, 2026 The ceremony took place in the presence of Mali's Ambassador to Switzerland Sékou dit Gaoussou CISSE, surrounded by his counterparts from Burkina Faso and Niger, as well as members of the Malian community based in Geneva.",
+            "url": "https://bamada.net/geneve-le-mali-celebre-le-66e-anniversaire-de-son-independance-dans-un-esprit-de-solidarite-nationale",
+            "candidate_event": false,
+            "event_date": "2026-10-17"
+          },
+          {
+            "id": "fddeb60ca1562b16fd5e1f2aee617803d0bcda0e",
+            "source": "Bamada",
+            "title": "Operation Dougoukoloko: FAMa strike near Menaka and Douentza",
+            "summary": "Operation Dougoukoloko: the FAMa strike two terrorist positions near Menaka and Douentza Thanks to the exploitation of precise intelligence, the Malian Armed Forces carried out targeted strikes on 17 and 18 October 2026 against positions of terrorist armed groups. These operations illustrate the continuation of efforts to monitor, recognize and secure the national territory .",
+            "url": "https://bamada.net/operation-dougoukoloko-les-fama-frappent-pres-de-menaka-et-douentza",
+            "candidate_event": true,
+            "event_date": "2026-10-18"
+          },
+          {
+            "id": "17007a0c1a54ca314e9f8af4177f8b1a7e33002b",
+            "source": "Courrier International",
+            "title": "Mali: more than forty civilians killed Sunday by armed men (security and local sources)",
+            "summary": "More than 40 civilians were killed on Sunday in attacks by armed men in the Menaka region of northeastern Mali, causing population displacement, several security, local and associative sources told AFP on Monday. These bloody attacks, carried out by armed men arrived on motorcycles, targeted, according to these sources, several camps belonging mainly to the Daoussahak community, from which the armed movement \"Movement for the Salvation of Azawad\" (MSA), close to the junta in power in Bamako, came.",
+            "url": "https://www.courrierinternational.com/depeche/mali-plus-d-une-quarantaine-de-civils-tues-dimanche-par-des-hommes-armes-sources-securitaires-et-locales.afp.com.20261019.doc.d3rz863.xml",
+            "candidate_event": true,
+            "event_date": "2026-10-19"
+          },
+          {
+            "id": "60a9a01adb84ddc887bbbdb1a35f9fa0b596e679",
+            "source": "TRT World (Africa)",
+            "title": "40 civilians killed in attacks on camps in Mali's Menaka region Armed men on motorcycles storm camps housing members of Daoussahak community, killing dozens and forcing residents to flee.",
+            "summary": "More than 40 civilians have been killed in weekend assaults by armed men on residential camps across Mali's northeastern Menaka region, security and community sources confirmed. The assailants arrived on motorcycles, storming settlements primarily housing members of the Daoussahak community approximately 50 kilometres from the town of Menaka, in and around the village of Tinabow and the Tagadayat area.",
+            "url": "https://www.trtworld.com/article/a85f28c4c8fd",
+            "candidate_event": true,
+            "event_date": "2026-10-19"
+          },
+          {
+            "id": "6440e032abce57423321302d2088c77ee74a657f",
+            "source": "TV5MONDE Afrique",
+            "title": "Image Published on October 19, 2026 Africa Mali: More than forty civilians killed Sunday by armed men (security and local sources) More than forty civilians were killed Sunday during attacks perpetrated by armed men in the Menaka region, in northeastern Mali…",
+            "summary": "A burning tanker truck is abandoned in the middle of the road leading to Sikasso, Mali's second largest city, on May 26, 2026 More than 40 civilians were killed Sunday in attacks by armed men in the Menaka region of northeastern Mali, causing population displacement, several security, local and community sources told AFP on Monday.",
+            "url": "https://information.tv5monde.com/afrique/mali-plus-dune-quarantaine-de-civils-tues-dimanche-par-des-hommes-armes-sources-securitaires-et-locales-2842368",
+            "candidate_event": true,
+            "event_date": "2026-10-19"
+          }
+        ],
+        "Burkina Faso": [
+          {
+            "id": "f603a8df402244bf2d822a3c2bfb8356e57023c9",
+            "source": "LeFaso.net",
+            "title": "Bobo-Dioulasso: A 13-year-old child dies on a gold mining site abroad, an alleged trafficker arrested",
+            "summary": "Bobo-Dioulasso: A 13-year-old child dies at a gold mining site abroad, an alleged trafficker arrested The Regional Child Protection Brigade (BRPE) of Guiriko presented, on Monday, October 19, 2026, the results of an investigation into alleged acts of kidnapping and trafficking of three minors conducted at a gold mining site in a neighboring country. One of them, aged 13, lost his life .",
+            "url": "https://lefaso.net/spip.php?article150065=",
+            "candidate_event": false,
+            "event_date": "2026-10-19"
+          }
+        ],
         "Niger": []
       },
       "collection_notes": {
-        "sources_total": 0,
-        "sources_success": 0,
-        "sources_failed": 0,
-        "sources_degraded": null,
-        "documents_discovered": 0,
-        "documents_retained": 0,
+        "sources_total": 184,
+        "sources_success": 158,
+        "sources_failed": 26,
+        "sources_degraded": 20,
+        "documents_discovered": 11697,
+        "documents_retained": 8,
         "report_target": 100,
-        "translations_attempted": 0,
-        "translations_success": 0,
+        "translations_attempted": 6,
+        "translations_success": 6,
         "translation_failures": 0,
         "collection_confidence": "LOW",
         "collection_confidence_reasons": [
-          "no completed collection run recorded for this date"
+          "158/184 source paths reached",
+          "26 failed source paths",
+          "20 degraded / 26 failed of 184 configured sources"
         ],
-        "reports_collected": 0,
+        "reports_collected": 8,
         "reports_published": 0,
-        "distinct_sources_collected": 0,
-        "language_counts": {}
+        "distinct_sources_collected": 7,
+        "language_counts": {
+          "fr": 6,
+          "en": 2
+        }
       },
-      "sultana_daily_text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nDaily bottom line for 2026-10-20: The desk has too little reporting from 2026-10-20 to give a reliable account of activity in Mali, Burkina Faso, or Niger. There is no basis to infer that the region was quiet.\n\nMali: 0 retained reports. No retained country-specific reports were collected for this desk date.\n\nBurkina Faso: 0 retained reports. No retained country-specific reports were collected for this desk date.\n\nNiger: 0 retained reports. No retained country-specific reports were collected for this desk date.\n\nActor picture: no same-day fused candidate events.\n\nWhat changed: JNIM: -1 same-day fused event(s) versus 2026-10-19 (1 → 0). Collection volume: -32 retained report(s) versus 2026-10-19 (32 → 0).\n\nIntelligence gaps: Collection confidence is low, so absence of reporting should not be interpreted as absence of activity.\n\nCollection confidence: LOW. no completed collection run recorded for this date\n\nAll retained source reports, including reports not promoted to the map, remain individually summarized in the intelligence feed and source records."
+      "sultana_daily_text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nDaily bottom line for 2026-10-20: Reporting collected on 2026-10-20 does not yet support a clear account of a new incident in Mali, Burkina Faso, or Niger. The desk received 8 reports from 7 sources, but the automated incident record needs further review. This is not evidence of calm on the ground.\n\nMali: 7 retained reports. 1. Mali: about forty civilians killed Sunday by armed men in the Ménaka region. Published on: Advertisement In Mali, the Executive Office of the Idaksahak community expressed Monday \"its strong emotion and immense dismay\" after the death of 48 civilians of the community, last Sunday, on the side of Tagadayat, in the Ménaka region According to their statement, \"these defenceless civilian populations were attacked by armed elements of Daesh [Islamic State group, editor's note], arrived on board several motorcycles\". 2. Gunmen Kill 40 Civilians in Mali. More than 40 civilians have been killed in attacks on settlements in Mali’s northeastern Menaka region, with security and community sources reporting that armed men targeted camps over the weekend. The attackers, reportedly travelling on motorcycles, raided several camps largely inhabited by members of the Daoussahak community. The community’s executive bureau blamed the Islamic State group for the killings. 3. Geneva: Mali celebrates the 66th anniversary of its independence in a spirit of national solidarity. While in Geneva, Switzerland, as part of the 77th session of the Executive Committee of the Programme of the United Nations High Commissioner for Refugees (UNHCR), the Minister of Territorial Administration and Decentralization, Government Spokesperson, Brigadier General Issa Ousmane COULIBALY, chaired the ceremony to celebrate the 66th anniversary of Mali's independence on October 17, 2026 The ceremony took place in the presence of Mali's Ambassador to Switzerland Sékou dit Gaoussou CISSE, surrounded by his counterparts from Burkina Faso and Niger, as well as members of the Malian community based in Geneva.\n\nBurkina Faso: 1 retained report. 1. Bobo-Dioulasso: A 13-year-old child dies on a gold mining site abroad, an alleged trafficker arrested. Bobo-Dioulasso: A 13-year-old child dies at a gold mining site abroad, an alleged trafficker arrested The Regional Child Protection Brigade (BRPE) of Guiriko presented, on Monday, October 19, 2026, the results of an investigation into alleged acts of kidnapping and trafficking of three minors conducted at a gold mining site in a neighboring country. One of them, aged 13, lost his life .\n\nNiger: 0 retained reports. No retained country-specific reports were collected for this desk date.\n\nActor picture: no same-day fused candidate events.\n\nWhat changed: JNIM: -1 same-day fused event(s) versus 2026-10-19 (1 → 0). Collection volume: -24 retained report(s) versus 2026-10-19 (32 → 8).\n\nIntelligence gaps: 1 newly collected operational/candidate report(s) have unresolved or publication-proxy event dates. Collection confidence is low, so absence of reporting should not be interpreted as absence of activity.\n\nCollection confidence: LOW. 158/184 source paths reached 26 failed source paths 20 degraded / 26 failed of 184 configured sources\n\nAll retained source reports, including reports not promoted to the map, remain individually summarized in the intelligence feed and source records."
     },
     {
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-19",
-      "generated_at": "2026-10-19T23:51:14.670482Z",
+      "generated_at": "2026-10-20T05:02:25.250914Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
         "Niger"
       ],
       "classification": "OPEN SOURCE",
-      "collection_confidence": "LOW",
+      "collection_confidence": "MODERATE",
       "headline_metrics": {
-        "events_occurring_on_date": 1,
+        "events_occurring_on_date": 2,
         "records_held_for_review": 7,
-        "multi_source_events": 0,
+        "multi_source_events": 1,
         "reports_collected_on_date": 32,
-        "reports_published_on_date": 30,
+        "reports_published_on_date": 37,
         "newly_discovered_older_events": 1,
         "events_awaiting_date_verification": 2,
         "distinct_sources_collected": 22
       },
-      "executive_assessment": "Reporting dated 2026-10-19 gives the desk 1 incident account to examine in Mali. None has support from a second independent source. The record is provisional; it does not establish the full extent of violence that day.",
+      "executive_assessment": "Reporting dated 2026-10-19 gives the desk 2 incident accounts to examine in Mali. 1 has support from separate sources. The record is provisional; it does not establish the full extent of violence that day.",
       "briefing_sections": [
         {
           "heading": "Assessment",
-          "text": "Reporting dated 2026-10-19 gives the desk 1 incident account to examine in Mali. None has support from a second independent source. The record is provisional; it does not establish the full extent of violence that day."
+          "text": "Reporting dated 2026-10-19 gives the desk 2 incident accounts to examine in Mali. 1 has support from separate sources. The record is provisional; it does not establish the full extent of violence that day."
         },
         {
           "heading": "Mali",
-          "text": "26 retained reports were collected for Mali. 1 fused candidate event currently carry this reporting date. Mali: HRW confirms the execution of Malian soldiers by Jnim and the death of civilians killed by the army: 19-10-2026 23:15 - Mali: HRW confirms the execution of Malian soldiers by Jnim and the death of civilians killed by the RFI-Africa army -- In a new report published on Monday, October 19, the human rights organization claims… Gunmen kill at least 40 civilians in Mali: More than 40 civilians have been killed in weekend attacks by armed men on camps in Mali’s northeastern Menaka region, security and community sources told AFP on Monday. The assailants reportedly rode in on motorcycles,… Mali: more than forty civilians killed Sunday by armed men: Several camps belonging mainly to the Daoussahak community, from which the armed movement \"Movement for the Salvation of Azawad\" (MSA) came, were targeted . Skip the ad Skip the adMore than forty civilians were killed on… 23 additional Mali reports are summarized individually in the source records."
+          "text": "26 retained reports were collected for Mali. 2 fused candidate events currently carry this reporting date. Mali: HRW confirms the execution of Malian soldiers by Jnim and the death of civilians killed by the army: 19-10-2026 23:15 - Mali: HRW confirms the execution of Malian soldiers by Jnim and the death of civilians killed by the RFI-Africa army -- In a new report published on Monday, October 19, the human rights organization claims… Gunmen kill at least 40 civilians in Mali: More than 40 civilians have been killed in weekend attacks by armed men on camps in Mali’s northeastern Menaka region, security and community sources told AFP on Monday. The assailants reportedly rode in on motorcycles,… Mali: more than forty civilians killed Sunday by armed men: Several camps belonging mainly to the Daoussahak community, from which the armed movement \"Movement for the Salvation of Azawad\" (MSA) came, were targeted . Skip the ad Skip the adMore than forty civilians were killed on… 23 additional Mali reports are summarized individually in the source records."
         },
         {
           "heading": "Burkina Faso",
@@ -212,11 +293,11 @@
         },
         {
           "heading": "Reported incidents",
-          "text": "RFI Afrique reports ‘Mali: HRW confirms the execution of Malian soldiers by Jnim and the death of civilians killed by the army’ in Gao, Mali. This account still needs independent confirmation."
+          "text": "RFI Afrique reports ‘Mali: HRW confirms the execution of Malian soldiers by Jnim and the death of civilians killed by the army’ in Gao, Mali. This account still needs independent confirmation. Le Figaro (Section Afrique) reports ‘Mali: more than forty civilians killed Sunday by armed men’ in Ménaka, Mali. Separate sources also report the event."
         },
         {
           "heading": "Reporting in context",
-          "text": "Le Figaro (Section Afrique) published ‘Mali: more than forty civilians killed Sunday by armed men’. It may provide useful context, but the extracted details do not establish a new incident on this date. AllAfrica (Édition Française) published ‘Military attacks against civilians, abuses committed by insurgents in Mali’. It may provide useful context, but the extracted details do not establish a new incident on this date. 5 more items await source review."
+          "text": "TRT World (Africa) published ‘40 civilians killed in attacks on camps in Mali's Menaka region Armed men on motorcycles storm camps housing members of…’. It may provide useful context, but the extracted details do not establish a new incident on this date. AllAfrica (Édition Française) published ‘Military attacks against civilians, abuses committed by insurgents in Mali’. It may provide useful context, but the extracted details do not establish a new incident on this date. 5 more items await source review."
         },
         {
           "heading": "What remains unclear",
@@ -225,7 +306,8 @@
       ],
       "key_judgments": [
         "JNIM accounts for the largest share of same-day fused event activity (1 event(s)).",
-        "Mali contains the largest same-day event count (1 event(s)).",
+        "Mali contains the largest same-day event count (2 event(s)).",
+        "1 of 2 same-day event(s) meet the multi-source corroboration threshold used by this briefing layer.",
         "1 same-day event(s) remain single-source and should be treated as provisional.",
         "2 collected operational/candidate report(s) still use an unresolved or proxy event date and require temporal verification."
       ],
@@ -263,6 +345,46 @@
           "target": "State",
           "claimant": null,
           "supporting_force": null
+        },
+        {
+          "id": "64d46bb68f014b54932b8177bbc19c2fba957074",
+          "title": "Mali: more than forty civilians killed Sunday by armed men",
+          "summary": "More than 40 civilians were killed on Sunday in attacks by armed men in the Menaka region of northeastern Mali, causing population displacement, several security, local and associative sources told AFP on Monday. These bloody attacks, carried out by armed men arrived on motorcycles, targeted, according to these sources, several camps belonging mainly to the Daoussahak community, from which the armed movement \"Movement for the Salvation of Azawad\" (MSA), close to the junta in power in Bamako, came.",
+          "actor": "Other",
+          "event_type": "civilian targeting",
+          "country": "Mali",
+          "city": "Ménaka",
+          "event_date": "2026-10-19",
+          "event_date_confidence": "explicit-text",
+          "publication_time": "2026-10-19T21:49:51Z",
+          "collection_time": "2026-10-19T23:49:56.977933Z",
+          "verification_date": "2026-10-20",
+          "verification_basis": "multi-source corroboration",
+          "last_evidence_update": "2026-10-20T05:01:03.695030Z",
+          "confidence": "moderate-high",
+          "corroboration": "multi-source",
+          "significance": "MAJOR",
+          "source_count": 3,
+          "independent_source_count": 3,
+          "sources": [
+            "Le Figaro (Section Afrique)",
+            "TV5MONDE Afrique",
+            "Courrier International"
+          ],
+          "independent_source_domains": [
+            "lefigaro.fr",
+            "information.tv5monde.com",
+            "courrierinternational.com"
+          ],
+          "report_urls": [
+            "https://www.lefigaro.fr/flash-actu/mali-plus-de-quarante-civils-tues-dimanche-par-des-hommes-armes-20261019",
+            "https://information.tv5monde.com/afrique/mali-plus-dune-quarantaine-de-civils-tues-dimanche-par-des-hommes-armes-sources-securitaires-et-locales-2842368",
+            "https://www.courrierinternational.com/depeche/mali-plus-d-une-quarantaine-de-civils-tues-dimanche-par-des-hommes-armes-sources-securitaires-et-locales.afp.com.20261019.doc.d3rz863.xml"
+          ],
+          "perpetrator": null,
+          "target": null,
+          "claimant": null,
+          "supporting_force": null
         }
       ],
       "what_changed_since_yesterday": [
@@ -276,7 +398,7 @@
       "intelligence_gaps": [
         "1 same-day event(s) lack independent multi-source corroboration.",
         "2 newly collected operational/candidate report(s) have unresolved or publication-proxy event dates.",
-        "Collection confidence is low, so absence of reporting should not be interpreted as absence of activity."
+        "Collection confidence is moderate, so absence of reporting should not be interpreted as absence of activity."
       ],
       "actor_counts": {
         "JNIM": 1,
@@ -284,7 +406,7 @@
         "State": 0
       },
       "country_counts": {
-        "Mali": 1,
+        "Mali": 2,
         "Burkina Faso": 0,
         "Niger": 0
       },
@@ -331,18 +453,18 @@
       },
       "country_profiles": {
         "Mali": {
-          "events": 1,
+          "events": 2,
           "reports_collected": 26,
           "actor_counts": {
             "JNIM": 1,
             "IS Sahel": 0,
             "State": 0
           },
-          "delta_events_vs_previous_day": 1,
+          "delta_events_vs_previous_day": 2,
           "top_event_types": [
             [
               "civilian targeting",
-              1
+              2
             ]
           ]
         },
@@ -669,21 +791,20 @@
         "sources_total": 184,
         "sources_success": 157,
         "sources_failed": 27,
-        "sources_degraded": 20,
+        "sources_degraded": null,
         "documents_discovered": 11597,
         "documents_retained": 8,
         "report_target": 100,
         "translations_attempted": 6,
         "translations_success": 6,
         "translation_failures": 0,
-        "collection_confidence": "LOW",
+        "collection_confidence": "MODERATE",
         "collection_confidence_reasons": [
           "157/184 source paths reached",
-          "27 failed source paths",
-          "20 degraded / 27 failed of 184 configured sources"
+          "27 failed source paths"
         ],
         "reports_collected": 32,
-        "reports_published": 30,
+        "reports_published": 37,
         "distinct_sources_collected": 22,
         "language_counts": {
           "fr": 18,
@@ -691,13 +812,13 @@
           "ar": 2
         }
       },
-      "sultana_daily_text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nDaily bottom line for 2026-10-19: Reporting dated 2026-10-19 gives the desk 1 incident account to examine in Mali. None has support from a second independent source. The record is provisional; it does not establish the full extent of violence that day.\n\nMali: 26 retained reports. 1. Mali: HRW confirms the execution of Malian soldiers by Jnim and the death of civilians killed by the army. 19-10-2026 23:15 - Mali: HRW confirms the execution of Malian soldiers by Jnim and the death of civilians killed by the RFI-Africa army -- In a new report published on Monday, October 19, the human rights organization claims that the Support Group for Islam and Muslims (Jnim) confirmed to it summary executions of Malian soldiers û Tabrichat, in the Gao region, following the attack on a military convoy left Anefis last July. 2. Gunmen kill at least 40 civilians in Mali. More than 40 civilians have been killed in weekend attacks by armed men on camps in Mali’s northeastern Menaka region, security and community sources told AFP on Monday. The assailants reportedly rode in on motorcycles, targeting camps mainly housing members of the Daoussahak community, whose executive bureau blamed the killings on the Islamic State group. AFP 3. Mali: more than forty civilians killed Sunday by armed men. Several camps belonging mainly to the Daoussahak community, from which the armed movement \"Movement for the Salvation of Azawad\" (MSA) came, were targeted . Skip the ad Skip the adMore than forty civilians were killed on Sunday in attacks by armed men in the Menaka region of northeastern Mali, causing population displacement, several security, local and community sources reported on Monday.\n\nBurkina Faso: 3 retained reports. 1. Burkina Faso, Mali, Niger Resume Talks with ECOWAS. Burkina Faso, Mali and Niger have reopened formal discussions with the Economic Community of West African States (ECOWAS), more than 18 months after leaving the regional organisation. The two sides agreed on Saturday to set up joint working groups to develop a framework for future cooperation, signalling renewed efforts to rebuild relations. The three countries, governed by military juntas, withdrew from ECOWAS in January 2025 after establishing the Alliance of Sahel States (AES), following military coups and growing disagreements with the regional bloc. 2. SCREEN ADDICTION: Everyone is questioned. In Burkina Faso, screens have become full members of the family. Phones, computers, televisions, tablets and consoles grab the eyes, swallow the hours and invite themselves into the rooms . WhatsApp, Facebook, TikTok, videos and online games have installed the permanent connection in our concessions and know how to catch us by the eyes and by curiosity. 3. AES-ECOWAS: Ministers exchange with diaspora in Dakar. AES-ECOWAS: Ministers exchange with the diaspora in Dakar On the sidelines of the first formal negotiations between the Confederation of Sahel States (AES) and ECOWAS, the delegation of the AES met, Sunday, October 18, 2026 in Dakar, with the Burkinabe, Malian and Nigerien communities living in Senegal . The ministers explained the stakes of the discussions with the West African organization and exchanged with their compatriots on the situation in their respective countries.\n\nNiger: 3 retained reports. 1. Fight against drugs in Niamey: 461 people arrested around schools and on the Niger River. A total of 461 people, including 50 minors, were arrested in Niamey during an anti-drug operation conducted on Saturday, October 17, 2026 by OCRTIS and the other Internal Security Forces. Dubbed \"Back to school without drugs\", this operation allowed the seizure of 7,250 tramadol tablets, as well as diazepam and several quantities of cannabis. The operation took place in two simultaneous phases . 2. Mali: Human Rights Watch Denounces Crimes Against Civilians [Africanews Today]. In Mali, Human Rights Watch accuses the army, its Russian allies from Africa Corps, as well as armed and jihadist groups, of committing serious violations of international law against civilians. The NGO is calling for urgent action from the African Union. In Niger, the fuel shortage has now reached Niamey. 3. Niger: fuel shortage spreads to capital Niamey. Niger has been ruled since July 2023 by a military regime that advocates sovereignty, particularly over the country's mineral resources, which is in particular an oil producer. But the national refinery, in Zinder, fails to meet demand. Spared in recent weeks by these shortages, the capital Niamey of two million inhabitants is now affected .\n\nActor picture: JNIM 1, IS Sahel 0, State 0.\n\nWhat changed: JNIM: +1 same-day fused event(s) versus 2026-10-18 (0 → 1). Collection volume: +26 retained report(s) versus 2026-10-18 (6 → 32).\n\nIntelligence gaps: 1 same-day event(s) lack independent multi-source corroboration. 2 newly collected operational/candidate report(s) have unresolved or publication-proxy event dates. Collection confidence is low, so absence of reporting should not be interpreted as absence of activity.\n\nCollection confidence: LOW. 157/184 source paths reached 27 failed source paths 20 degraded / 27 failed of 184 configured sources\n\nAll retained source reports, including reports not promoted to the map, remain individually summarized in the intelligence feed and source records."
+      "sultana_daily_text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nDaily bottom line for 2026-10-19: Reporting dated 2026-10-19 gives the desk 2 incident accounts to examine in Mali. 1 has support from separate sources. The record is provisional; it does not establish the full extent of violence that day.\n\nMali: 26 retained reports. 1. Mali: HRW confirms the execution of Malian soldiers by Jnim and the death of civilians killed by the army. 19-10-2026 23:15 - Mali: HRW confirms the execution of Malian soldiers by Jnim and the death of civilians killed by the RFI-Africa army -- In a new report published on Monday, October 19, the human rights organization claims that the Support Group for Islam and Muslims (Jnim) confirmed to it summary executions of Malian soldiers û Tabrichat, in the Gao region, following the attack on a military convoy left Anefis last July. 2. Gunmen kill at least 40 civilians in Mali. More than 40 civilians have been killed in weekend attacks by armed men on camps in Mali’s northeastern Menaka region, security and community sources told AFP on Monday. The assailants reportedly rode in on motorcycles, targeting camps mainly housing members of the Daoussahak community, whose executive bureau blamed the killings on the Islamic State group. AFP 3. Mali: more than forty civilians killed Sunday by armed men. Several camps belonging mainly to the Daoussahak community, from which the armed movement \"Movement for the Salvation of Azawad\" (MSA) came, were targeted . Skip the ad Skip the adMore than forty civilians were killed on Sunday in attacks by armed men in the Menaka region of northeastern Mali, causing population displacement, several security, local and community sources reported on Monday.\n\nBurkina Faso: 3 retained reports. 1. Burkina Faso, Mali, Niger Resume Talks with ECOWAS. Burkina Faso, Mali and Niger have reopened formal discussions with the Economic Community of West African States (ECOWAS), more than 18 months after leaving the regional organisation. The two sides agreed on Saturday to set up joint working groups to develop a framework for future cooperation, signalling renewed efforts to rebuild relations. The three countries, governed by military juntas, withdrew from ECOWAS in January 2025 after establishing the Alliance of Sahel States (AES), following military coups and growing disagreements with the regional bloc. 2. SCREEN ADDICTION: Everyone is questioned. In Burkina Faso, screens have become full members of the family. Phones, computers, televisions, tablets and consoles grab the eyes, swallow the hours and invite themselves into the rooms . WhatsApp, Facebook, TikTok, videos and online games have installed the permanent connection in our concessions and know how to catch us by the eyes and by curiosity. 3. AES-ECOWAS: Ministers exchange with diaspora in Dakar. AES-ECOWAS: Ministers exchange with the diaspora in Dakar On the sidelines of the first formal negotiations between the Confederation of Sahel States (AES) and ECOWAS, the delegation of the AES met, Sunday, October 18, 2026 in Dakar, with the Burkinabe, Malian and Nigerien communities living in Senegal . The ministers explained the stakes of the discussions with the West African organization and exchanged with their compatriots on the situation in their respective countries.\n\nNiger: 3 retained reports. 1. Fight against drugs in Niamey: 461 people arrested around schools and on the Niger River. A total of 461 people, including 50 minors, were arrested in Niamey during an anti-drug operation conducted on Saturday, October 17, 2026 by OCRTIS and the other Internal Security Forces. Dubbed \"Back to school without drugs\", this operation allowed the seizure of 7,250 tramadol tablets, as well as diazepam and several quantities of cannabis. The operation took place in two simultaneous phases . 2. Mali: Human Rights Watch Denounces Crimes Against Civilians [Africanews Today]. In Mali, Human Rights Watch accuses the army, its Russian allies from Africa Corps, as well as armed and jihadist groups, of committing serious violations of international law against civilians. The NGO is calling for urgent action from the African Union. In Niger, the fuel shortage has now reached Niamey. 3. Niger: fuel shortage spreads to capital Niamey. Niger has been ruled since July 2023 by a military regime that advocates sovereignty, particularly over the country's mineral resources, which is in particular an oil producer. But the national refinery, in Zinder, fails to meet demand. Spared in recent weeks by these shortages, the capital Niamey of two million inhabitants is now affected .\n\nActor picture: JNIM 1, IS Sahel 0, State 0.\n\nWhat changed: JNIM: +1 same-day fused event(s) versus 2026-10-18 (0 → 1). Collection volume: +26 retained report(s) versus 2026-10-18 (6 → 32).\n\nIntelligence gaps: 1 same-day event(s) lack independent multi-source corroboration. 2 newly collected operational/candidate report(s) have unresolved or publication-proxy event dates. Collection confidence is moderate, so absence of reporting should not be interpreted as absence of activity.\n\nCollection confidence: MODERATE. 157/184 source paths reached 27 failed source paths\n\nAll retained source reports, including reports not promoted to the map, remain individually summarized in the intelligence feed and source records."
     },
     {
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-18",
-      "generated_at": "2026-10-19T23:51:16.110630Z",
+      "generated_at": "2026-10-20T05:02:25.277143Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -710,7 +831,7 @@
         "records_held_for_review": 1,
         "multi_source_events": 0,
         "reports_collected_on_date": 6,
-        "reports_published_on_date": 5,
+        "reports_published_on_date": 6,
         "newly_discovered_older_events": 0,
         "events_awaiting_date_verification": 0,
         "distinct_sources_collected": 5
@@ -911,7 +1032,7 @@
           "29 failed source paths"
         ],
         "reports_collected": 6,
-        "reports_published": 5,
+        "reports_published": 6,
         "distinct_sources_collected": 5,
         "language_counts": {
           "fr": 6
@@ -923,7 +1044,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-17",
-      "generated_at": "2026-10-19T23:51:15.518470Z",
+      "generated_at": "2026-10-20T05:02:24.212514Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -1060,7 +1181,7 @@
           "collection_time": "2026-10-18T01:04:33.263788Z",
           "verification_date": "2026-10-18",
           "verification_basis": "multi-source corroboration",
-          "last_evidence_update": "2026-10-18T12:56:37.559660Z",
+          "last_evidence_update": "2026-10-20T05:00:56.415454Z",
           "confidence": "moderate-high",
           "corroboration": "multi-source",
           "significance": "MAJOR",
@@ -1079,7 +1200,8 @@
           "report_urls": [
             "https://malijet.com/actualte_dans_les_regions_du_mali/312379-operation-dougoukoloko-deux-bases-terroristes-ciblees-pres.html",
             "https://amap.ml/2026/10/18/operation-dougoukoloko-les-fama-frappent-deux-bases-abritant-des-groupes-terroristes-a-diarafabe-et-a-menaka/",
-            "https://bamada.net/operation-dougoukoloko-les-fama-frappent-deux-importantes-bases-terroristes-a-diafarabe-et-menaka"
+            "https://bamada.net/operation-dougoukoloko-les-fama-frappent-deux-importantes-bases-terroristes-a-diafarabe-et-menaka",
+            "https://bamada.net/operation-dougoukoloko-les-fama-frappent-pres-de-menaka-et-douentza"
           ],
           "perpetrator": "State",
           "target": null,
@@ -1335,7 +1457,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-16",
-      "generated_at": "2026-10-19T23:51:15.255819Z",
+      "generated_at": "2026-10-20T05:02:24.293509Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -1598,7 +1720,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-15",
-      "generated_at": "2026-10-19T23:51:15.976292Z",
+      "generated_at": "2026-10-20T05:02:25.040955Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -1608,7 +1730,7 @@
       "collection_confidence": "MODERATE",
       "headline_metrics": {
         "events_occurring_on_date": 1,
-        "records_held_for_review": 2,
+        "records_held_for_review": 3,
         "multi_source_events": 1,
         "reports_collected_on_date": 25,
         "reports_published_on_date": 26,
@@ -1640,7 +1762,7 @@
         },
         {
           "heading": "Reporting in context",
-          "text": "African Arguments published ‘Why China won’t build its own Wagner in Africa’. It may provide useful context, but the extracted details do not establish a new incident on this date. Vanguard News (Nigeria) published ‘NIS vows justice after officer killed in Niger attack’. It may provide useful context, but the extracted details do not establish a new incident on this date."
+          "text": "RFI Afrique published ‘Mali: about forty civilians killed Sunday by armed men in the Ménaka region’. It may provide useful context, but the extracted details do not establish a new incident on this date. African Arguments published ‘Why China won’t build its own Wagner in Africa’. It may provide useful context, but the extracted details do not establish a new incident on this date. 1 more item await source review."
         },
         {
           "heading": "What remains unclear",
@@ -2043,7 +2165,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-14",
-      "generated_at": "2026-10-19T23:51:15.867158Z",
+      "generated_at": "2026-10-20T05:02:25.025075Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -2521,7 +2643,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-13",
-      "generated_at": "2026-10-19T23:51:14.659458Z",
+      "generated_at": "2026-10-20T05:02:24.780924Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -2851,7 +2973,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-12",
-      "generated_at": "2026-10-19T23:51:15.940321Z",
+      "generated_at": "2026-10-20T05:02:25.349526Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -3229,7 +3351,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-11",
-      "generated_at": "2026-10-19T23:51:14.968930Z",
+      "generated_at": "2026-10-20T05:02:24.148084Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -3566,7 +3688,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-10",
-      "generated_at": "2026-10-19T23:51:15.574676Z",
+      "generated_at": "2026-10-20T05:02:24.190406Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -3963,7 +4085,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-09",
-      "generated_at": "2026-10-19T23:51:16.012260Z",
+      "generated_at": "2026-10-20T05:02:24.238561Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -4448,7 +4570,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-08",
-      "generated_at": "2026-10-19T23:51:15.003561Z",
+      "generated_at": "2026-10-20T05:02:24.550224Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -4987,7 +5109,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-07",
-      "generated_at": "2026-10-19T23:51:15.605991Z",
+      "generated_at": "2026-10-20T05:02:25.082067Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -5526,7 +5648,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-06",
-      "generated_at": "2026-10-19T23:51:15.296826Z",
+      "generated_at": "2026-10-20T05:02:24.131192Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -6434,7 +6556,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-05",
-      "generated_at": "2026-10-19T23:51:15.327812Z",
+      "generated_at": "2026-10-20T05:02:24.254507Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -7092,7 +7214,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-04",
-      "generated_at": "2026-10-19T23:51:15.461528Z",
+      "generated_at": "2026-10-20T05:02:23.967646Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -7701,7 +7823,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-03",
-      "generated_at": "2026-10-19T23:51:15.633564Z",
+      "generated_at": "2026-10-20T05:02:24.120526Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -8188,7 +8310,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-02",
-      "generated_at": "2026-10-19T23:51:14.712706Z",
+      "generated_at": "2026-10-20T05:02:24.518138Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -8428,7 +8550,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-01",
-      "generated_at": "2026-10-19T23:51:14.933881Z",
+      "generated_at": "2026-10-20T05:02:23.839907Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -8976,7 +9098,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-30",
-      "generated_at": "2026-10-19T23:51:16.017852Z",
+      "generated_at": "2026-10-20T05:02:24.022890Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -10120,7 +10242,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-29",
-      "generated_at": "2026-10-19T23:51:16.089966Z",
+      "generated_at": "2026-10-20T05:02:25.072650Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -10445,7 +10567,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-28",
-      "generated_at": "2026-10-19T23:51:14.760412Z",
+      "generated_at": "2026-10-20T05:02:24.917034Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -10924,7 +11046,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-27",
-      "generated_at": "2026-10-19T23:51:15.914128Z",
+      "generated_at": "2026-10-20T05:02:24.243883Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -11277,7 +11399,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-26",
-      "generated_at": "2026-10-19T23:51:14.824514Z",
+      "generated_at": "2026-10-20T05:02:24.490978Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -11525,7 +11647,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-25",
-      "generated_at": "2026-10-19T23:51:15.420592Z",
+      "generated_at": "2026-10-20T05:02:24.469800Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -11877,7 +11999,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-24",
-      "generated_at": "2026-10-19T23:51:15.590335Z",
+      "generated_at": "2026-10-20T05:02:24.749766Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -12239,7 +12361,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-23",
-      "generated_at": "2026-10-19T23:51:14.627808Z",
+      "generated_at": "2026-10-20T05:02:24.927525Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -12550,7 +12672,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-22",
-      "generated_at": "2026-10-19T23:51:15.357305Z",
+      "generated_at": "2026-10-20T05:02:24.485664Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -13508,7 +13630,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-21",
-      "generated_at": "2026-10-19T23:51:15.066353Z",
+      "generated_at": "2026-10-20T05:02:25.266709Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -14026,7 +14148,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-20",
-      "generated_at": "2026-10-19T23:51:15.898681Z",
+      "generated_at": "2026-10-20T05:02:24.099707Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -14670,7 +14792,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-19",
-      "generated_at": "2026-10-19T23:51:14.998226Z",
+      "generated_at": "2026-10-20T05:02:25.111314Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -15325,7 +15447,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-18",
-      "generated_at": "2026-10-19T23:51:15.903780Z",
+      "generated_at": "2026-10-20T05:02:24.655819Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
