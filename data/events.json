@@ -1,5 +1,103 @@
 [
   {
+    "id": "e993480e95a6d3a6221699815bb6124a3ac0e573",
+    "event_date": "2026-10-20",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "explicit-calendar-date",
+    "published_at": "2026-10-20T16:25:12Z",
+    "published_date_source": "feed",
+    "published_time_precision": "datetime",
+    "collected_at": "2026-10-20T20:06:22.055985Z",
+    "actor": "State",
+    "perpetrator": null,
+    "target": "State",
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [
+      "State"
+    ],
+    "parent_report_id": null,
+    "event_type": "raid",
+    "country": "Mali",
+    "city": "Sikasso",
+    "lat": 11.31755,
+    "lng": -5.66654,
+    "locations": [
+      {
+        "name": "Sikasso",
+        "country": "Mali",
+        "lat": 11.31755,
+        "lng": -5.66654,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "ATTEMPTED TERRORIST ATTACK IN THE CITY OF SIKASSO: THE FAMA FOIL AN ATTACK ON THE POST OF MAMASSONI",
+    "summary": "The security situation in the Sikasso Region remains under surveillance, after an attempted attack on the Mamassoni checkpoint on the Zanadougou road. According to our information, armed individuals opened fire around 9 p.m. on Sunday, October 18 (…)By Mahamane TOURE – NEW HORIZONRETROUVE the REST OF YOUR ARTICLE IN the NEW HORIZON ON TUESDAY, OCTOBER 20, 2026 Follow us on Facebook, Telegram, WhatsApp so you don't miss anything about Malian news Follow us on Facebook, Telegram, WhatsApp so you don't miss anything about Malian news",
+    "sources": [
+      "Bamada"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://bamada.net/tentative-dincursion-terroriste-dans-la-ville-de-sikasso-les-fama-dejouent-une-attaque-contre-le-poste-de-mamassoni"
+    ],
+    "report_summaries": [
+      {
+        "url": "https://bamada.net/tentative-dincursion-terroriste-dans-la-ville-de-sikasso-les-fama-dejouent-une-attaque-contre-le-poste-de-mamassoni",
+        "source": "Bamada",
+        "title": "ATTEMPTED TERRORIST ATTACK IN THE CITY OF SIKASSO: THE FAMA FOIL AN ATTACK ON THE POST OF MAMASSONI",
+        "summary": "The security situation in the Sikasso Region remains under surveillance, after an attempted attack on the Mamassoni checkpoint on the Zanadougou road. According to our information, armed individuals opened fire around 9 p.m. on Sunday, October 18 (…)By Mahamane TOURE – NEW HORIZONRETROUVE the REST OF YOUR ARTICLE IN the NEW HORIZON ON TUESDAY, OCTOBER 20, 2026 Follow us on Facebook, Telegram, WhatsApp so you don't miss anything about Malian news Follow us on Facebook, Telegram, WhatsApp so you don't miss anything about Malian news",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "armed_group"
+        ],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      }
+    ],
+    "created_at": "2026-10-20T20:06:22.055985Z",
+    "updated_at": "2026-10-20T20:06:22.055985Z",
+    "extraction_confidence": "moderate",
+    "victim_categories": [
+      "armed_group"
+    ],
+    "civilian_targeting_flag": false,
+    "casualty_claims": [],
+    "fatalities_min": null,
+    "fatalities_max": null,
+    "fatalities_best": null,
+    "injured_min": null,
+    "injured_max": null,
+    "abducted_min": null,
+    "abducted_max": null,
+    "casualty_disputed": false,
+    "revision_history": [
+      {
+        "at": "2026-10-20T20:06:22.055985Z",
+        "type": "event_created",
+        "source": "Bamada"
+      }
+    ],
+    "corroboration": "single-source",
+    "confidence": "moderate",
+    "independent_source_domains": [
+      "bamada.net"
+    ],
+    "independent_source_count": 1,
+    "significance": "SIGNIFICANT",
+    "significance_reasons": [
+      "operational security event"
+    ]
+  },
+  {
     "id": "66b939b965faf92593536bc6dad5a28db1a600d0",
     "event_date": "2026-10-20",
     "event_date_confidence": "publication-proxy",
@@ -950,6 +1048,244 @@
     "significance": "MAJOR",
     "significance_reasons": [
       "multi-location activity"
+    ]
+  },
+  {
+    "id": "5a8541abc9724c12880132fbb8b2b70b280b0070",
+    "event_date": "2026-10-18",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "explicit-date-no-year",
+    "published_at": "2026-10-20T16:05:03Z",
+    "published_date_source": "jsonld:datePublished",
+    "published_time_precision": "datetime",
+    "collected_at": "2026-10-20T20:06:22.467944Z",
+    "actor": "JNIM",
+    "perpetrator": null,
+    "target": "IS Sahel",
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [
+      "IS Sahel"
+    ],
+    "parent_report_id": null,
+    "event_type": "civilian targeting",
+    "country": "Mali",
+    "city": "Ménaka",
+    "lat": 15.9182,
+    "lng": 2.4022,
+    "locations": [
+      {
+        "name": "Ménaka",
+        "country": "Mali",
+        "lat": 15.9182,
+        "lng": 2.4022,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "Menaka: at least 48 civilians killed in attacks on camps",
+    "summary": "At least 48 civilians were reportedly killed on Sunday, October 18, in attacks on camps near Menaka in northeastern Mali. The Executive Office of the Idaksahak community accuses elements of the Islamic State in the Sahel (ISIS). This violence occurs in the context of clashes between rival armed groups in the region.",
+    "sources": [
+      "Studio Tamani"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://www.studiotamani.org/209304-menaka-au-moins-48-civils-tues-dans-des-attaques-contre-des-campements"
+    ],
+    "report_summaries": [
+      {
+        "url": "https://www.studiotamani.org/209304-menaka-au-moins-48-civils-tues-dans-des-attaques-contre-des-campements",
+        "source": "Studio Tamani",
+        "title": "Menaka: at least 48 civilians killed in attacks on camps",
+        "summary": "At least 48 civilians were reportedly killed on Sunday, October 18, in attacks on camps near Menaka in northeastern Mali. The Executive Office of the Idaksahak community accuses elements of the Islamic State in the Sahel (ISIS). This violence occurs in the context of clashes between rival armed groups in the region.",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": 48,
+        "fatalities_max": 48,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "civilian"
+        ],
+        "civilian_targeting_flag": true,
+        "casualty_claims": [
+          {
+            "kind": "fatalities",
+            "count": 48,
+            "victim_text": "civilians",
+            "claimant": "Studio Tamani",
+            "status": "reported",
+            "evidence": "Menaka: at least 48 civilians killed in attacks on camps At least 48 civilians were reportedly killed on Sunday, October 18, in attacks"
+          }
+        ]
+      }
+    ],
+    "created_at": "2026-10-20T20:06:22.467944Z",
+    "updated_at": "2026-10-20T20:06:22.467944Z",
+    "extraction_confidence": "low",
+    "victim_categories": [
+      "civilian"
+    ],
+    "civilian_targeting_flag": true,
+    "casualty_claims": [
+      {
+        "kind": "fatalities",
+        "count": 48,
+        "victim_text": "civilians",
+        "claimant": "Studio Tamani",
+        "status": "reported",
+        "evidence": "Menaka: at least 48 civilians killed in attacks on camps At least 48 civilians were reportedly killed on Sunday, October 18, in attacks",
+        "source": "Studio Tamani"
+      }
+    ],
+    "fatalities_min": 48,
+    "fatalities_max": 48,
+    "fatalities_best": 48,
+    "injured_min": null,
+    "injured_max": null,
+    "abducted_min": null,
+    "abducted_max": null,
+    "casualty_disputed": false,
+    "revision_history": [
+      {
+        "at": "2026-10-20T20:06:22.467944Z",
+        "type": "event_created",
+        "source": "Studio Tamani"
+      }
+    ],
+    "corroboration": "single-source",
+    "confidence": "low",
+    "independent_source_domains": [
+      "studiotamani.org"
+    ],
+    "independent_source_count": 1,
+    "significance": "SIGNIFICANT",
+    "significance_reasons": [
+      "operational security event"
+    ]
+  },
+  {
+    "id": "e5c63762eda29744a5b4e9ca787e44d9c5095d7a",
+    "event_date": "2026-10-18",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "explicit-date-no-year",
+    "published_at": "2026-10-20T14:10:06Z",
+    "published_date_source": "jsonld:datePublished",
+    "published_time_precision": "datetime",
+    "collected_at": "2026-10-20T20:06:21.561793Z",
+    "actor": "IS Sahel",
+    "perpetrator": null,
+    "target": "IS Sahel",
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [
+      "IS Sahel"
+    ],
+    "parent_report_id": null,
+    "event_type": "attack",
+    "country": "Mali",
+    "city": "Ménaka",
+    "lat": 15.9182,
+    "lng": 2.4022,
+    "locations": [
+      {
+        "name": "Ménaka",
+        "country": "Mali",
+        "lat": 15.9182,
+        "lng": 2.4022,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "Massacre in Mali: Islamic State attacks the Idaksahak community in the Menaka region",
+    "summary": "Massacre in Mali: Islamic State Tackles Idaksahak Community in Menaka Region The Islamic State terrorist attack claimed the lives of at least 48 civilians in the Menaka region of Mali. This massacre, targeting the Idaksahak community and perpetrated in retaliation for military operations, marks a tragic escalation. At least 48 civilians were killed by fighters of the Islamic State in the Sahel (ISS) (ex-Islamic State in the Greater Sahara) on Sunday, October 18, in Tagadayat, in the Menaka region of northeastern Mali.",
+    "sources": [
+      "Jeune Afrique"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://www.jeuneafrique.com/1854056/politique/massacre-au-mali-letat-islamique-sattaque-a-la-communaute-idaksahak-dans-la-region-de-menaka/"
+    ],
+    "report_summaries": [
+      {
+        "url": "https://www.jeuneafrique.com/1854056/politique/massacre-au-mali-letat-islamique-sattaque-a-la-communaute-idaksahak-dans-la-region-de-menaka/",
+        "source": "Jeune Afrique",
+        "title": "Massacre in Mali: Islamic State attacks the Idaksahak community in the Menaka region",
+        "summary": "Massacre in Mali: Islamic State Tackles Idaksahak Community in Menaka Region The Islamic State terrorist attack claimed the lives of at least 48 civilians in the Menaka region of Mali. This massacre, targeting the Idaksahak community and perpetrated in retaliation for military operations, marks a tragic escalation. At least 48 civilians were killed by fighters of the Islamic State in the Sahel (ISS) (ex-Islamic State in the Greater Sahara) on Sunday, October 18, in Tagadayat, in the Menaka region of northeastern Mali.",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": 48,
+        "fatalities_max": 48,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "civilian",
+          "armed_group",
+          "journalist"
+        ],
+        "civilian_targeting_flag": true,
+        "casualty_claims": [
+          {
+            "kind": "fatalities",
+            "count": 48,
+            "victim_text": "civilians",
+            "claimant": "state/official source",
+            "status": "reported",
+            "evidence": "mmunity and perpetrated in retaliation for military operations, marks a tragic escalation. At least 48 civilians were killed by fighters of the Islamic State in the Sahel (ISS) (ex-Islamic State in the Greater Sahara) on Sun"
+          }
+        ]
+      }
+    ],
+    "created_at": "2026-10-20T20:06:21.561793Z",
+    "updated_at": "2026-10-20T20:06:21.561793Z",
+    "extraction_confidence": "low",
+    "victim_categories": [
+      "civilian",
+      "armed_group",
+      "journalist"
+    ],
+    "civilian_targeting_flag": true,
+    "casualty_claims": [
+      {
+        "kind": "fatalities",
+        "count": 48,
+        "victim_text": "civilians",
+        "claimant": "state/official source",
+        "status": "reported",
+        "evidence": "mmunity and perpetrated in retaliation for military operations, marks a tragic escalation. At least 48 civilians were killed by fighters of the Islamic State in the Sahel (ISS) (ex-Islamic State in the Greater Sahara) on Sun",
+        "source": "Jeune Afrique"
+      }
+    ],
+    "fatalities_min": 48,
+    "fatalities_max": 48,
+    "fatalities_best": 48,
+    "injured_min": null,
+    "injured_max": null,
+    "abducted_min": null,
+    "abducted_max": null,
+    "casualty_disputed": false,
+    "revision_history": [
+      {
+        "at": "2026-10-20T20:06:21.561793Z",
+        "type": "event_created",
+        "source": "Jeune Afrique"
+      }
+    ],
+    "corroboration": "single-source",
+    "confidence": "low",
+    "independent_source_domains": [
+      "jeuneafrique.com"
+    ],
+    "independent_source_count": 1,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "strategic/severe event pattern"
     ]
   },
   {
@@ -2739,6 +3075,123 @@
     "confidence": "low",
     "independent_source_domains": [
       "studioyafa.bf"
+    ],
+    "independent_source_count": 1,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "strategic/severe event pattern"
+    ]
+  },
+  {
+    "id": "4df04b13698b7949a1376ecc6f29e9307f15f9b2",
+    "event_date": "2026-10-13",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "relative-weekday",
+    "published_at": "2026-10-19T22:01:31Z",
+    "published_date_source": "jsonld:datePublished",
+    "published_time_precision": "datetime",
+    "collected_at": "2026-10-20T20:06:21.903092Z",
+    "actor": "Other",
+    "perpetrator": null,
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [],
+    "parent_report_id": null,
+    "event_type": "civilian targeting",
+    "country": "Mali",
+    "city": "Ménaka",
+    "lat": 15.9182,
+    "lng": 2.4022,
+    "locations": [
+      {
+        "name": "Ménaka",
+        "country": "Mali",
+        "lat": 15.9182,
+        "lng": 2.4022,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "Image Posted on October 19, 2026 Africa Killing in Mali: At least 48 civilians killed Sunday by jihadists At least 48 civilians were killed Sunday in attacks by jihadists in the Ménaka region of northeastern Mali, provoking…",
+    "summary": "Aerial view of the city of Menaka, November 22, 2020 in Mali At least 48 civilians were killed on Sunday during attacks perpetrated by jihadists in the Menaka region, in northeastern Mali, causing population displacement, according to a new report communicated Tuesday to AFP by concordant sources Since 2012, Mali has been plagued by a deep security crisis fuelled by violence from groups affiliated with Al-Qaeda and the Islamic State (IS) organization, as well as community-based criminal groups and Tuareg independence movements.",
+    "sources": [
+      "TV5MONDE Afrique"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://information.tv5monde.com/afrique/tuerie-au-mali-au-moins-48-civils-tues-dimanche-par-des-jihadistes-2842368"
+    ],
+    "report_summaries": [
+      {
+        "url": "https://information.tv5monde.com/afrique/tuerie-au-mali-au-moins-48-civils-tues-dimanche-par-des-jihadistes-2842368",
+        "source": "TV5MONDE Afrique",
+        "title": "Image Posted on October 19, 2026 Africa Killing in Mali: At least 48 civilians killed Sunday by jihadists At least 48 civilians were killed Sunday in attacks by jihadists in the Ménaka region of northeastern Mali, provoking…",
+        "summary": "Aerial view of the city of Menaka, November 22, 2020 in Mali At least 48 civilians were killed on Sunday during attacks perpetrated by jihadists in the Menaka region, in northeastern Mali, causing population displacement, according to a new report communicated Tuesday to AFP by concordant sources Since 2012, Mali has been plagued by a deep security crisis fuelled by violence from groups affiliated with Al-Qaeda and the Islamic State (IS) organization, as well as community-based criminal groups and Tuareg independence movements.",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": 48,
+        "fatalities_max": 48,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "civilian",
+          "armed_group"
+        ],
+        "civilian_targeting_flag": true,
+        "casualty_claims": [
+          {
+            "kind": "fatalities",
+            "count": 48,
+            "victim_text": "civilians",
+            "claimant": "TV5MONDE Afrique",
+            "status": "reported",
+            "evidence": "Image Posted on October 19, 2026 Africa Killing in Mali: At least 48 civilians killed Sunday by jihadists At least 48 civilians were killed Sunday in attacks by jihadists in the Ménaka"
+          }
+        ]
+      }
+    ],
+    "created_at": "2026-10-20T20:06:21.903092Z",
+    "updated_at": "2026-10-20T20:06:21.903092Z",
+    "extraction_confidence": "low",
+    "victim_categories": [
+      "civilian",
+      "armed_group"
+    ],
+    "civilian_targeting_flag": true,
+    "casualty_claims": [
+      {
+        "kind": "fatalities",
+        "count": 48,
+        "victim_text": "civilians",
+        "claimant": "TV5MONDE Afrique",
+        "status": "reported",
+        "evidence": "Image Posted on October 19, 2026 Africa Killing in Mali: At least 48 civilians killed Sunday by jihadists At least 48 civilians were killed Sunday in attacks by jihadists in the Ménaka",
+        "source": "TV5MONDE Afrique"
+      }
+    ],
+    "fatalities_min": 48,
+    "fatalities_max": 48,
+    "fatalities_best": 48,
+    "injured_min": null,
+    "injured_max": null,
+    "abducted_min": null,
+    "abducted_max": null,
+    "casualty_disputed": false,
+    "revision_history": [
+      {
+        "at": "2026-10-20T20:06:21.903092Z",
+        "type": "event_created",
+        "source": "TV5MONDE Afrique"
+      }
+    ],
+    "corroboration": "single-source",
+    "confidence": "low",
+    "independent_source_domains": [
+      "information.tv5monde.com"
     ],
     "independent_source_count": 1,
     "significance": "MAJOR",
