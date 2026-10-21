@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-21T20:20:34.622173Z",
+  "generated_at": "2026-10-21T23:29:36.015321Z",
   "window_days": 30,
   "cutoff": "2026-09-21",
-  "reports": 561,
-  "incident_reports": 138,
+  "reports": 566,
+  "incident_reports": 137,
   "candidate_events": 96,
   "corroborated_events": 25,
   "mapped_events": 79,
@@ -32,8 +32,8 @@
     "raid": 3
   },
   "by_language": {
-    "fr": 422,
-    "en": 106,
+    "fr": 426,
+    "en": 107,
     "ar": 33
   },
   "by_confidence": {
@@ -46,7 +46,7 @@
     {
       "source_code": "SRC-0008",
       "source": "Bamada",
-      "count": 81
+      "count": 82
     },
     {
       "source_code": "SRC-0006",
@@ -74,19 +74,19 @@
       "count": 19
     },
     {
+      "source_code": "SRC-0092",
+      "source": "La Nouvelle Tribune (Bénin)",
+      "count": 17
+    },
+    {
       "source_code": "SRC-0003",
       "source": "Jeune Afrique",
       "count": 16
     },
     {
-      "source_code": "SRC-0092",
-      "source": "La Nouvelle Tribune (Bénin)",
-      "count": 16
-    },
-    {
       "source_code": "SRC-0034",
       "source": "TV5MONDE Afrique",
-      "count": 14
+      "count": 15
     },
     {
       "source_code": "SRC-0022",
@@ -302,7 +302,7 @@
     },
     {
       "date": "2026-10-21",
-      "reports": 33,
+      "reports": 39,
       "events": 0
     }
   ],
@@ -4111,6 +4111,96 @@
   ],
   "latest_reports": [
     {
+      "published_at": "2026-10-21T22:05:13Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-21T23:28:41.860054Z",
+      "discovered_at": "2026-10-21T23:28:41.860054Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0008",
+      "source": "Bamada",
+      "language": "fr",
+      "actor": null,
+      "country": null,
+      "city": null,
+      "event_type": "territorial seizure/blockade",
+      "candidate_event": false,
+      "title": "Macina: end of the blockade in Tongolo coura",
+      "url": "https://bamada.net/macina-fin-du-blocus-a-tongolo-coura"
+    },
+    {
+      "published_at": "2026-10-21T21:28:01Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-21T23:28:39.191202Z",
+      "discovered_at": "2026-10-21T23:28:39.191202Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0069",
+      "source": "African Arguments",
+      "language": "en",
+      "actor": "Africa Corps/Wagner",
+      "country": "Niger",
+      "city": "Niamey",
+      "event_type": "political/security policy",
+      "candidate_event": false,
+      "title": "The Palace Guard Against the Trenches : What the Mutiny in Niamey Revealed",
+      "url": "https://africanarguments.org/2026/10/the-palace-guard-against-the-trenches-what-the-mutiny-in-niamey-revealed/"
+    },
+    {
+      "published_at": "2026-10-21T20:41:16Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-21T23:28:42.063702Z",
+      "discovered_at": "2026-10-21T23:28:42.063702Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0034",
+      "source": "TV5MONDE Afrique",
+      "language": "fr",
+      "actor": null,
+      "country": "Burkina Faso",
+      "city": null,
+      "event_type": "kidnapping",
+      "candidate_event": false,
+      "title": "Image Published on October 21, 2026 Africa Burkina: Reinstating the death penalty risks being used to \"crack down on dissent\", according to HRW Reinstating the death penalty in Burkina Faso is a \"chilling message\" sent to opponents in this junta-ruled country and risks being...",
+      "url": "https://information.tv5monde.com/afrique/burkina-le-retablissement-de-la-peine-de-mort-risque-de-servir-reprimer-la-dissidence-selon-hrw-2842618"
+    },
+    {
+      "published_at": "2026-10-21T20:27:02Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-21T23:28:38.910658Z",
+      "discovered_at": "2026-10-21T23:28:38.910658Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0008",
+      "source": "Bamada",
+      "language": "fr",
+      "actor": null,
+      "country": "Mali",
+      "city": "Kayes",
+      "event_type": "law enforcement",
+      "candidate_event": false,
+      "title": "KAYES: two alleged fuel suppliers to the Armed Terrorist Groups arrested by the Police",
+      "url": "https://bamada.net/kayes-deux-presumes-fournisseurs-de-carburant-aux-groupes-armes-terroristes-interpelles-par-la-police"
+    },
+    {
+      "published_at": "2026-10-21T20:17:12Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-21T23:28:42.276184Z",
+      "discovered_at": "2026-10-21T23:28:42.276184Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0092",
+      "source": "La Nouvelle Tribune (Bénin)",
+      "language": "fr",
+      "actor": null,
+      "country": "Niger",
+      "city": null,
+      "event_type": "political/security policy",
+      "candidate_event": false,
+      "title": "Military cooperation: Algeria and Niger sign a partnership agreement",
+      "url": "https://lanouvelletribune.info/2026/10/cooperation-militaire-lalgerie-et-le-niger-signent-un-accord-de-partenariat/"
+    },
+    {
       "published_at": "2026-10-21T20:05:45Z",
       "published_date_source": "jsonld:datePublished",
       "published_time_precision": "datetime",
@@ -4417,6 +4507,24 @@
       "url": "https://www.wakatsera.com/dix-suspects-interpelles-dans-une-affaire-presumee-de-reseau-qnet/"
     },
     {
+      "published_at": "2026-10-21T11:25:57Z",
+      "published_date_source": "opengraph",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-21T23:28:42.249002Z",
+      "discovered_at": "2026-10-21T23:28:42.249002Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0073",
+      "source": "Ouestaf News",
+      "language": "fr",
+      "actor": null,
+      "country": "Burkina Faso",
+      "city": null,
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Burkina Faso: Parliament adopts the reinstatement of the death penalty",
+      "url": "https://www.ouestaf.com/burkina-faso-le-parlement-adopte-le-retablissement-de-la-peine-de-mort/"
+    },
+    {
       "published_at": "2026-10-21T11:23:48Z",
       "published_date_source": "jsonld:datePublished",
       "published_time_precision": "datetime",
@@ -4721,114 +4829,6 @@
       "candidate_event": false,
       "title": "66th anniversary of the National Armed Forces: a popular cross-country to kick off the festivities",
       "url": "https://www.sidwaya.info/2026/10/20/66e-anniversaire-des-forces-armees-nationales-un-cross-populaire-pour-lancer-les-festivites/"
-    },
-    {
-      "published_at": "2026-10-20T23:07:48Z",
-      "published_date_source": "html:time",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-20T23:16:44.173503Z",
-      "discovered_at": "2026-10-20T23:16:44.173503Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0012",
-      "source": "Sidwaya",
-      "language": "fr",
-      "actor": null,
-      "country": "Burkina Faso",
-      "city": "Ouagadougou",
-      "event_type": "law enforcement",
-      "candidate_event": false,
-      "title": "66th anniversary of the National Armed Forces: the contribution of the military reserve discussed",
-      "url": "https://www.sidwaya.info/2026/10/20/66e-anniversaire-des-forces-armees-nationales-lapport-de-la-reserve-militaire-discute/"
-    },
-    {
-      "published_at": "2026-10-20T19:58:39.378000Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-20T20:06:27.136941Z",
-      "discovered_at": "2026-10-20T20:06:27.136941Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0089",
-      "source": "Le360 Afrique",
-      "language": "fr",
-      "actor": null,
-      "country": "Burkina Faso",
-      "city": null,
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Burkina Faso: Government reinstates the death penalty",
-      "url": "https://afrique.le360.ma/politique/burkina-faso-le-gouvernement-retablit-la-peine-de-mort_4FQIPGHNIRBY7G7EE7D7X7CEYM/"
-    },
-    {
-      "published_at": "2026-10-20T19:46:39Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-20T20:06:27.023319Z",
-      "discovered_at": "2026-10-20T20:06:27.023319Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0092",
-      "source": "La Nouvelle Tribune (Bénin)",
-      "language": "fr",
-      "actor": null,
-      "country": "Burkina Faso",
-      "city": "Ouagadougou",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Death penalty in Burkina Faso: crimes covered by the new Penal Code",
-      "url": "https://lanouvelletribune.info/2026/10/peine-de-mort-au-burkina-faso-les-crimes-vises-par-le-nouveau-code-penal/"
-    },
-    {
-      "published_at": "2026-10-20T19:24:56Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-20T20:06:22.663119Z",
-      "discovered_at": "2026-10-20T20:06:22.663119Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0118",
-      "source": "Punch Newspapers (Nigeria)",
-      "language": "en",
-      "actor": "State",
-      "country": "Burkina Faso",
-      "city": null,
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Burkina Faso junta reinstates death penalty",
-      "url": "https://punchng.com/burkina-faso-junta-reinstates-death-penalty/"
-    },
-    {
-      "published_at": "2026-10-20T19:24:22Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-20T20:06:26.854986Z",
-      "discovered_at": "2026-10-20T20:06:26.854986Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0124",
-      "source": "News Central TV (Nigeria)",
-      "language": "en",
-      "actor": "State",
-      "country": "Burkina Faso",
-      "city": null,
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Burkina Faso Reinstates Death Penalty",
-      "url": "https://newscentraltv.com/burkina-faso-reinstates-death-penalty/"
-    },
-    {
-      "published_at": "2026-10-20T19:18:49Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-21T05:02:22.228877Z",
-      "discovered_at": "2026-10-21T05:02:22.228877Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0022",
-      "source": "Africanews",
-      "language": "en",
-      "actor": "State",
-      "country": "Burkina Faso",
-      "city": null,
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Burkina Faso reinstates death penalty: Justice ministry",
-      "url": "https://www.africanews.com/2026/10/21/burkina-faso-reinstates-death-penalty-justice-ministry/"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
