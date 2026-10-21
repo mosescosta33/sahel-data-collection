@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-21T05:03:29.160635Z",
+  "generated_at": "2026-10-21T13:58:45.101101Z",
   "window_days": 30,
   "cutoff": "2026-09-21",
-  "reports": 534,
-  "incident_reports": 136,
-  "candidate_events": 93,
-  "corroborated_events": 23,
+  "reports": 551,
+  "incident_reports": 138,
+  "candidate_events": 95,
+  "corroborated_events": 24,
   "mapped_events": 78,
   "mapped_locations": 146,
   "distinct_sources": 83,
   "by_actor": {
-    "State": 55,
+    "State": 57,
     "JNIM": 16,
     "Other": 13,
     "Africa Corps/Wagner": 8,
     "IS Sahel": 1
   },
   "by_country": {
-    "Mali": 85,
+    "Mali": 87,
     "Niger": 5,
     "Burkina Faso": 3
   },
   "by_event_type": {
-    "security operation": 37,
+    "security operation": 39,
     "offensive/campaign": 16,
     "clash": 13,
     "attack": 11,
@@ -32,13 +32,13 @@
     "raid": 3
   },
   "by_language": {
-    "fr": 399,
-    "en": 102,
+    "fr": 415,
+    "en": 103,
     "ar": 33
   },
   "by_confidence": {
-    "low": 45,
-    "moderate": 40,
+    "low": 44,
+    "moderate": 43,
     "moderate-high": 7,
     "high": 1
   },
@@ -46,7 +46,7 @@
     {
       "source_code": "SRC-0008",
       "source": "Bamada",
-      "count": 80
+      "count": 82
     },
     {
       "source_code": "SRC-0006",
@@ -56,16 +56,16 @@
     {
       "source_code": "SRC-0075",
       "source": "AMAP (Agence Malienne de Presse et de Publicité)",
+      "count": 26
+    },
+    {
+      "source_code": "SRC-0090",
+      "source": "AllAfrica (Édition Française)",
       "count": 23
     },
     {
       "source_code": "SRC-0001",
       "source": "RFI Afrique",
-      "count": 21
-    },
-    {
-      "source_code": "SRC-0090",
-      "source": "AllAfrica (Édition Française)",
       "count": 21
     },
     {
@@ -76,11 +76,16 @@
     {
       "source_code": "SRC-0092",
       "source": "La Nouvelle Tribune (Bénin)",
-      "count": 15
+      "count": 16
     },
     {
       "source_code": "SRC-0003",
       "source": "Jeune Afrique",
+      "count": 15
+    },
+    {
+      "source_code": "SRC-0034",
+      "source": "TV5MONDE Afrique",
       "count": 14
     },
     {
@@ -91,11 +96,6 @@
     {
       "source_code": "SRC-0022",
       "source": "Africanews",
-      "count": 13
-    },
-    {
-      "source_code": "SRC-0034",
-      "source": "TV5MONDE Afrique",
       "count": 13
     },
     {
@@ -115,7 +115,7 @@
     },
     {
       "location": "Mali",
-      "count": 13
+      "count": 15
     },
     {
       "location": "Ménaka",
@@ -298,15 +298,195 @@
     {
       "date": "2026-10-20",
       "reports": 42,
-      "events": 2
+      "events": 4
     },
     {
       "date": "2026-10-21",
-      "reports": 1,
+      "reports": 20,
       "events": 0
     }
   ],
   "latest_events": [
+    {
+      "id": "3986a7766c3fd95804a5cd41d27ad448c9455ab0",
+      "event_date": "2026-10-20",
+      "event_date_confidence": "explicit-text",
+      "event_date_source": "explicit-calendar-date",
+      "published_at": "2026-10-21T10:15:18Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-21T13:56:13.790448Z",
+      "actor": "State",
+      "perpetrator": "State",
+      "target": null,
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [
+        "State"
+      ],
+      "parent_report_id": null,
+      "event_type": "security operation",
+      "country": "Mali",
+      "city": null,
+      "lat": null,
+      "lng": null,
+      "locations": [],
+      "title": "Ouagadou Forest: The FAMa neutralize a major terrorist column",
+      "summary": "The General Staff of the Armed Forces informs the national opinion that the Malian Armed Forces (FAMa), supported by their partners, are continuing the permanent operations of surveillance, control and security of the national territory as part of Operation Dougoukoloko . On Tuesday, October 20, 2026, the use of precise information made it possible to detect and follow several columns of motorcyclists moving in the Ouagadou forest, near the village of Ngoma Koura.",
+      "sources": [
+        "Bamada"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://bamada.net/foret-de-ouagadou-les-fama-neutralisent-une-importante-colonne-terroriste"
+      ],
+      "report_summaries": [
+        {
+          "url": "https://bamada.net/foret-de-ouagadou-les-fama-neutralisent-une-importante-colonne-terroriste",
+          "source": "Bamada",
+          "title": "Ouagadou Forest: The FAMa neutralize a major terrorist column",
+          "summary": "The General Staff of the Armed Forces informs the national opinion that the Malian Armed Forces (FAMa), supported by their partners, are continuing the permanent operations of surveillance, control and security of the national territory as part of Operation Dougoukoloko . On Tuesday, October 20, 2026, the use of precise information made it possible to detect and follow several columns of motorcyclists moving in the Ouagadou forest, near the village of Ngoma Koura.",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "armed_group"
+          ],
+          "civilian_targeting_flag": false,
+          "casualty_claims": []
+        }
+      ],
+      "created_at": "2026-10-21T13:56:13.790448Z",
+      "updated_at": "2026-10-21T13:56:13.790448Z",
+      "extraction_confidence": "moderate",
+      "victim_categories": [
+        "armed_group"
+      ],
+      "civilian_targeting_flag": false,
+      "casualty_claims": [],
+      "fatalities_min": null,
+      "fatalities_max": null,
+      "fatalities_best": null,
+      "injured_min": null,
+      "injured_max": null,
+      "abducted_min": null,
+      "abducted_max": null,
+      "casualty_disputed": false,
+      "revision_history": [
+        {
+          "at": "2026-10-21T13:56:13.790448Z",
+          "type": "event_created",
+          "source": "Bamada"
+        }
+      ],
+      "corroboration": "single-source",
+      "confidence": "moderate",
+      "independent_source_domains": [
+        "bamada.net"
+      ],
+      "independent_source_count": 1,
+      "significance": "ROUTINE",
+      "significance_reasons": [
+        "limited currently observed significance"
+      ]
+    },
+    {
+      "id": "8b4addb630b8629939b89d8e70a9e0bfc7733c57",
+      "event_date": "2026-10-20",
+      "event_date_confidence": "explicit-text",
+      "event_date_source": "explicit-calendar-date",
+      "published_at": "2026-10-21T10:31:17Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-21T13:56:13.696378Z",
+      "actor": "State",
+      "perpetrator": "State",
+      "target": null,
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [
+        "State"
+      ],
+      "parent_report_id": null,
+      "event_type": "security operation",
+      "country": "Mali",
+      "city": null,
+      "lat": null,
+      "lng": null,
+      "locations": [],
+      "title": "Operation Dougoukoloko: several fighters neutralized in the Ouagadou forest",
+      "summary": "Operation Dougoukoloko: several neutralized fighters in the forest of Ouagadou On Tuesday, October 20, 2026, the Malian Armed Forces (FAMa) struck a group of motorcyclists spotted in the forest of Ouagadou, near the village of Ngoma Koura. According to the General Staff of the Armed Forces, several terrorist elements were neutralized during this operation . This action is part of Operation Dougoukoloko, conducted to strengthen the surveillance and security of the national territory.",
+      "sources": [
+        "Malijet"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://malijet.com/actualte_dans_les_regions_du_mali/312437-operation-dougoukoloko-plusieurs-combattants-neutralises-d.html"
+      ],
+      "report_summaries": [
+        {
+          "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312437-operation-dougoukoloko-plusieurs-combattants-neutralises-d.html",
+          "source": "Malijet",
+          "title": "Operation Dougoukoloko: several fighters neutralized in the Ouagadou forest",
+          "summary": "Operation Dougoukoloko: several neutralized fighters in the forest of Ouagadou On Tuesday, October 20, 2026, the Malian Armed Forces (FAMa) struck a group of motorcyclists spotted in the forest of Ouagadou, near the village of Ngoma Koura. According to the General Staff of the Armed Forces, several terrorist elements were neutralized during this operation . This action is part of Operation Dougoukoloko, conducted to strengthen the surveillance and security of the national territory.",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "armed_group"
+          ],
+          "civilian_targeting_flag": false,
+          "casualty_claims": []
+        }
+      ],
+      "created_at": "2026-10-21T13:56:13.696378Z",
+      "updated_at": "2026-10-21T13:56:13.696378Z",
+      "extraction_confidence": "moderate",
+      "victim_categories": [
+        "armed_group"
+      ],
+      "civilian_targeting_flag": false,
+      "casualty_claims": [],
+      "fatalities_min": null,
+      "fatalities_max": null,
+      "fatalities_best": null,
+      "injured_min": null,
+      "injured_max": null,
+      "abducted_min": null,
+      "abducted_max": null,
+      "casualty_disputed": false,
+      "revision_history": [
+        {
+          "at": "2026-10-21T13:56:13.696378Z",
+          "type": "event_created",
+          "source": "Malijet"
+        }
+      ],
+      "corroboration": "single-source",
+      "confidence": "moderate",
+      "independent_source_domains": [
+        "malijet.com"
+      ],
+      "independent_source_count": 1,
+      "significance": "ROUTINE",
+      "significance_reasons": [
+        "limited currently observed significance"
+      ]
+    },
     {
       "id": "e993480e95a6d3a6221699815bb6124a3ac0e573",
       "event_date": "2026-10-20",
@@ -568,16 +748,19 @@
         }
       ],
       "title": "40 civilians killed in attacks on camps in Mali's Menaka region Armed men on motorcycles storm camps housing members of Daoussahak community, killing dozens and forcing residents to flee.",
-      "summary": "More than 40 civilians have been killed in weekend assaults by armed men on residential camps across Mali's northeastern Menaka region, security and community sources confirmed. The assailants arrived on motorcycles, storming settlements primarily housing members of the Daoussahak community approximately 50 kilometres from the town of Menaka, in and around the village of Tinabow and the Tagadayat area.",
+      "summary": "In Mali, the Executive Office of the Idaksahak community expressed on Monday \"its strong emotion and its immense dismay\" after the death of 48 civilians of the community, last Sunday, on the side of Tagadayat, in the region of Menaka. According to their statement, \"these defenceless civilian populations were attacked by armed elements of Daesh [Islamic State group, editor's note], arrived on board several motorcycles\" .",
       "sources": [
-        "TRT World (Africa)"
+        "TRT World (Africa)",
+        "AllAfrica (Édition Française)"
       ],
       "languages": [
-        "en"
+        "en",
+        "fr"
       ],
-      "source_count": 1,
+      "source_count": 2,
       "report_urls": [
-        "https://www.trtworld.com/article/a85f28c4c8fd"
+        "https://www.trtworld.com/article/a85f28c4c8fd",
+        "https://fr.allafrica.com/stories/202610210277.html"
       ],
       "report_summaries": [
         {
@@ -606,13 +789,42 @@
               "evidence": "40 civilians killed in attacks on camps in Mali's Menaka region Armed men on motorcycles storm camps housing members of"
             }
           ]
+        },
+        {
+          "url": "https://fr.allafrica.com/stories/202610210277.html",
+          "source": "AllAfrica (Édition Française)",
+          "title": "Mali: About forty civilians killed Sunday by armed men in the Ménaka region",
+          "summary": "In Mali, the Executive Office of the Idaksahak community expressed on Monday \"its strong emotion and its immense dismay\" after the death of 48 civilians of the community, last Sunday, on the side of Tagadayat, in the region of Menaka. According to their statement, \"these defenceless civilian populations were attacked by armed elements of Daesh [Islamic State group, editor's note], arrived on board several motorcycles\" .",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": 40,
+          "fatalities_max": 40,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "civilian",
+            "armed_group"
+          ],
+          "civilian_targeting_flag": true,
+          "casualty_claims": [
+            {
+              "kind": "fatalities",
+              "count": 40,
+              "victim_text": "civilians",
+              "claimant": "AllAfrica (Édition Française)",
+              "status": "reported",
+              "evidence": "Mali: About forty civilians killed Sunday by armed men in the Ménaka region In Mali, the Executive Office of the Idaksahak community e"
+            }
+          ]
         }
       ],
       "created_at": "2026-10-20T05:00:57.177306Z",
-      "updated_at": "2026-10-20T05:00:57.177306Z",
+      "updated_at": "2026-10-21T13:56:22.540285Z",
       "extraction_confidence": "low",
       "victim_categories": [
-        "civilian"
+        "civilian",
+        "armed_group"
       ],
       "civilian_targeting_flag": true,
       "casualty_claims": [
@@ -624,6 +836,15 @@
           "status": "reported",
           "evidence": "40 civilians killed in attacks on camps in Mali's Menaka region Armed men on motorcycles storm camps housing members of",
           "source": "TRT World (Africa)"
+        },
+        {
+          "kind": "fatalities",
+          "count": 40,
+          "victim_text": "civilians",
+          "claimant": "AllAfrica (Édition Française)",
+          "status": "reported",
+          "evidence": "Mali: About forty civilians killed Sunday by armed men in the Ménaka region In Mali, the Executive Office of the Idaksahak community e",
+          "source": "AllAfrica (Édition Française)"
         }
       ],
       "fatalities_min": 40,
@@ -639,14 +860,20 @@
           "at": "2026-10-20T05:00:57.177306Z",
           "type": "event_created",
           "source": "TRT World (Africa)"
+        },
+        {
+          "at": "2026-10-21T13:56:22.540285Z",
+          "type": "corroboration_or_geography_update",
+          "source": "AllAfrica (Édition Française)"
         }
       ],
-      "corroboration": "single-source",
-      "confidence": "low",
+      "corroboration": "limited corroboration",
+      "confidence": "moderate",
       "independent_source_domains": [
-        "trtworld.com"
+        "trtworld.com",
+        "fr.allafrica.com"
       ],
-      "independent_source_count": 1,
+      "independent_source_count": 2,
       "significance": "MAJOR",
       "significance_reasons": [
         "multi-location activity"
@@ -3832,183 +4059,351 @@
       "significance_reasons": [
         "strategic/severe event pattern"
       ]
-    },
-    {
-      "id": "a974b2227a2c0fc1ad99b34db585d923db8465d6",
-      "event_date": "2026-10-11",
-      "event_date_confidence": "explicit-text",
-      "event_date_source": "explicit-calendar-date",
-      "published_at": "2026-10-13T09:39:47Z",
-      "published_date_source": "opengraph",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-13T12:51:19.454052Z",
-      "actor": "State",
-      "perpetrator": "State",
-      "target": null,
-      "claimant": null,
-      "supporting_force": null,
-      "mentioned_actors": [
-        "State"
-      ],
-      "parent_report_id": null,
-      "event_type": "offensive/campaign",
-      "country": "Mali",
-      "city": null,
-      "lat": null,
-      "lng": null,
-      "locations": [],
-      "title": "Aguelhock, Dioïla and Inafarak: Flood of fire on terrorists As a continuation of the offensive against...",
-      "summary": "After confirming the information collected, the site has been processed successfully. The announcement was made on Sunday, October 11, 2026, by the General Staff of the Armed Forces, which emphasizes that the Malian Armed Forces (FAMa), supported by their partners, continue the permanent operations of surveillance, control and security of the national territory as part of Operation Dougoukoloko .",
-      "sources": [
-        "L'Essor"
-      ],
-      "languages": [
-        "fr"
-      ],
-      "source_count": 1,
-      "report_urls": [
-        "https://www.lessor.ml/posts/aguelhock-dioila-et-inafarak-deluge-de-feu-sur-les-terroristes-6acdfc6331868"
-      ],
-      "report_summaries": [
-        {
-          "url": "https://www.lessor.ml/posts/aguelhock-dioila-et-inafarak-deluge-de-feu-sur-les-terroristes-6acdfc6331868",
-          "source": "L'Essor",
-          "title": "Aguelhock, Dioïla and Inafarak: Flood of fire on terrorists As a continuation of the offensive against...",
-          "summary": "After confirming the information collected, the site has been processed successfully. The announcement was made on Sunday, October 11, 2026, by the General Staff of the Armed Forces, which emphasizes that the Malian Armed Forces (FAMa), supported by their partners, continue the permanent operations of surveillance, control and security of the national territory as part of Operation Dougoukoloko .",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "armed_group"
-          ],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        }
-      ],
-      "created_at": "2026-10-13T12:51:19.454052Z",
-      "updated_at": "2026-10-13T12:51:19.454052Z",
-      "extraction_confidence": "moderate",
-      "victim_categories": [
-        "armed_group"
-      ],
-      "civilian_targeting_flag": false,
-      "casualty_claims": [],
-      "fatalities_min": null,
-      "fatalities_max": null,
-      "fatalities_best": null,
-      "injured_min": null,
-      "injured_max": null,
-      "abducted_min": null,
-      "abducted_max": null,
-      "casualty_disputed": false,
-      "revision_history": [
-        {
-          "at": "2026-10-13T12:51:19.454052Z",
-          "type": "event_created",
-          "source": "L'Essor"
-        }
-      ],
-      "corroboration": "single-source",
-      "confidence": "moderate",
-      "independent_source_domains": [
-        "lessor.ml"
-      ],
-      "independent_source_count": 1,
-      "significance": "MAJOR",
-      "significance_reasons": [
-        "strategic/severe event pattern"
-      ]
-    },
-    {
-      "id": "161ee30c49ef08af351f6615e5727e82a9e06857",
-      "event_date": "2026-10-11",
-      "event_date_confidence": "explicit-text",
-      "event_date_source": "relative-today",
-      "published_at": "2026-10-11T20:39:28Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-12T00:50:14.640447Z",
-      "actor": "State",
-      "perpetrator": null,
-      "target": null,
-      "claimant": null,
-      "supporting_force": null,
-      "mentioned_actors": [],
-      "parent_report_id": null,
-      "event_type": "clash",
-      "country": "Mali",
-      "city": null,
-      "lat": null,
-      "lng": null,
-      "locations": [],
-      "title": "Mali.. Continuous operations of the army and the Azawad Front enter the line of battles of the sky",
-      "summary": "The Malian Army announced the implementation of military operations in several areas of the country, which resulted in the targeting of a fuel depot northeast of Infrac, and a site for a gathering of armed elements west of Aguelhok, in addition to neutralizing a group of gunmen on motorcycles in the Dioula region in the south of the country. He said in an official statement on Sunday that the Malian armed forces, with the support of its partners, continue to monitor, sweep and secure the national territory within the framework of Operation Dogokoloko.",
-      "sources": [
-        "Sahara Medias (صحراء ميديا)"
-      ],
-      "languages": [
-        "ar"
-      ],
-      "source_count": 1,
-      "report_urls": [
-        "https://saharamedias.net/266617/"
-      ],
-      "report_summaries": [
-        {
-          "url": "https://saharamedias.net/266617/",
-          "source": "Sahara Medias (صحراء ميديا)",
-          "title": "Mali.. Continuous operations of the army and the Azawad Front enter the line of battles of the sky",
-          "summary": "The Malian Army announced the implementation of military operations in several areas of the country, which resulted in the targeting of a fuel depot northeast of Infrac, and a site for a gathering of armed elements west of Aguelhok, in addition to neutralizing a group of gunmen on motorcycles in the Dioula region in the south of the country. He said in an official statement on Sunday that the Malian armed forces, with the support of its partners, continue to monitor, sweep and secure the national territory within the framework of Operation Dogokoloko.",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        }
-      ],
-      "created_at": "2026-10-12T00:50:14.640447Z",
-      "updated_at": "2026-10-12T00:50:14.640447Z",
-      "extraction_confidence": "low",
-      "victim_categories": [],
-      "civilian_targeting_flag": false,
-      "casualty_claims": [],
-      "fatalities_min": null,
-      "fatalities_max": null,
-      "fatalities_best": null,
-      "injured_min": null,
-      "injured_max": null,
-      "abducted_min": null,
-      "abducted_max": null,
-      "casualty_disputed": false,
-      "revision_history": [
-        {
-          "at": "2026-10-12T00:50:14.640447Z",
-          "type": "event_created",
-          "source": "Sahara Medias (صحراء ميديا)"
-        }
-      ],
-      "corroboration": "single-source",
-      "confidence": "low",
-      "independent_source_domains": [
-        "saharamedias.net"
-      ],
-      "independent_source_count": 1,
-      "significance": "ROUTINE",
-      "significance_reasons": [
-        "limited currently observed significance"
-      ]
     }
   ],
   "latest_reports": [
+    {
+      "published_at": "2026-10-21T13:06:51Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-21T13:56:22.125610Z",
+      "discovered_at": "2026-10-21T13:56:22.125610Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0013",
+      "source": "Wakat Sera",
+      "language": "fr",
+      "actor": null,
+      "country": "Burkina Faso",
+      "city": "Ouagadougou",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Forum: \"Families of victims of crimes, we ask for the lifting of defence secrecy\"",
+      "url": "https://www.wakatsera.com/tribune-familles-de-victimes-de-crimes-nous-demandons-la-levee-du-secret-defense/"
+    },
+    {
+      "published_at": "2026-10-21T12:16:00Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-21T13:56:14.985814Z",
+      "discovered_at": "2026-10-21T13:56:14.985814Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0178",
+      "source": "Studio Yafa",
+      "language": "fr",
+      "actor": null,
+      "country": "Burkina Faso",
+      "city": null,
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Burkina Faso: the new Penal Code provides for the reinstatement of the death penalty",
+      "url": "https://www.studioyafa.bf/42427-burkina-faso-le-nouveau-code-penal-prevoit-le-retablissement-de-la-peine-de-mort"
+    },
+    {
+      "published_at": "2026-10-21T12:12:25Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-21T13:56:16.175736Z",
+      "discovered_at": "2026-10-21T13:56:16.175736Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0164",
+      "source": "Echorouk Online (الشروق أونلاين)",
+      "language": "fr",
+      "actor": null,
+      "country": "Niger",
+      "city": null,
+      "event_type": "political/security policy",
+      "candidate_event": false,
+      "title": "Lieutenant General Said Chanegriha receives the Minister of National Defence of the Republic of Niger",
+      "url": "https://www.echoroukonline.com/le-general-de-corps-darmee-said-chanegriha-recoit-le-ministre-de-la-defense-nationale-de-la-republique-du-niger"
+    },
+    {
+      "published_at": "2026-10-21T11:39:58Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-21T13:56:15.172556Z",
+      "discovered_at": "2026-10-21T13:56:15.172556Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0075",
+      "source": "AMAP (Agence Malienne de Presse et de Publicité)",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Bamako",
+      "event_type": "security operation",
+      "candidate_event": false,
+      "title": "Operation Dougoukoloko: several terrorist elements neutralized in the Ouagadou Forest",
+      "url": "https://amap.ml/2026/10/21/operation-dougoukoloko-plusieurs-elements-terroristes-neutralises-dans-la-foret-de-ouagadou/"
+    },
+    {
+      "published_at": "2026-10-21T11:37:38Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-21T13:56:22.017018Z",
+      "discovered_at": "2026-10-21T13:56:22.017018Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0013",
+      "source": "Wakat Sera",
+      "language": "fr",
+      "actor": "State",
+      "country": "Burkina Faso",
+      "city": null,
+      "event_type": "law enforcement",
+      "candidate_event": false,
+      "title": "Ten suspects arrested in an alleged QNET case",
+      "url": "https://www.wakatsera.com/dix-suspects-interpelles-dans-une-affaire-presumee-de-reseau-qnet/"
+    },
+    {
+      "published_at": "2026-10-21T11:23:48Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-21T13:56:15.041416Z",
+      "discovered_at": "2026-10-21T13:56:15.041416Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0004",
+      "source": "Studio Tamani",
+      "language": "fr",
+      "actor": null,
+      "country": null,
+      "city": null,
+      "event_type": "territorial seizure/blockade",
+      "candidate_event": false,
+      "title": "Macina: end of the blockade in Tongolo coura",
+      "url": "https://www.studiotamani.org/209337-macina-fin-du-blocus-a-tongolo-coura"
+    },
+    {
+      "published_at": "2026-10-21T11:03:04Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-21T13:56:15.299376Z",
+      "discovered_at": "2026-10-21T13:56:15.299376Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0075",
+      "source": "AMAP (Agence Malienne de Presse et de Publicité)",
+      "language": "fr",
+      "actor": null,
+      "country": "Mali",
+      "city": "Bamako",
+      "event_type": "clash",
+      "candidate_event": false,
+      "title": "Germany: Students call for protest on October 31, police fear excesses",
+      "url": "https://amap.ml/2026/10/21/allemagne-des-etudiants-appellent-a-manifester-le-31-octobre-la-police-redoute-des-debordements/"
+    },
+    {
+      "published_at": "2026-10-21T10:31:17Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-21T13:56:13.696378Z",
+      "discovered_at": "2026-10-21T13:56:13.696378Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0006",
+      "source": "Malijet",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": null,
+      "event_type": "security operation",
+      "candidate_event": true,
+      "title": "Operation Dougoukoloko: several fighters neutralized in the Ouagadou forest",
+      "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312437-operation-dougoukoloko-plusieurs-combattants-neutralises-d.html"
+    },
+    {
+      "published_at": "2026-10-21T10:25:37Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-21T13:56:13.227652Z",
+      "discovered_at": "2026-10-21T13:56:13.227652Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0047",
+      "source": "The Africa Report",
+      "language": "en",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Ménaka",
+      "event_type": "attack",
+      "candidate_event": false,
+      "title": "Massacre in Mali: Islamic State militants kill at least 48 civilians in Ménaka",
+      "url": "https://www.theafricareport.com/434067/massacre-in-mali-islamic-state-militants-kill-at-least-48-civilians-in-menaka/"
+    },
+    {
+      "published_at": "2026-10-21T10:15:39.591000Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-21T13:56:19.690006Z",
+      "discovered_at": "2026-10-21T13:56:19.690006Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0035",
+      "source": "DW Afrique (FR)",
+      "language": "fr",
+      "actor": null,
+      "country": "Mali",
+      "city": "Timbuktu",
+      "event_type": "security operation",
+      "candidate_event": false,
+      "title": "Benbere platform fights disinformation in Mali",
+      "url": "https://www.dw.com/fr/benbere-fake-news-mali/a-79721859"
+    },
+    {
+      "published_at": "2026-10-21T10:15:18Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-21T13:56:13.790448Z",
+      "discovered_at": "2026-10-21T13:56:13.790448Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0008",
+      "source": "Bamada",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": null,
+      "event_type": "security operation",
+      "candidate_event": true,
+      "title": "Ouagadou Forest: The FAMa neutralize a major terrorist column",
+      "url": "https://bamada.net/foret-de-ouagadou-les-fama-neutralisent-une-importante-colonne-terroriste"
+    },
+    {
+      "published_at": "2026-10-21T10:14:25Z",
+      "published_date_source": "opengraph",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-21T13:56:22.540285Z",
+      "discovered_at": "2026-10-21T13:56:22.540285Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0090",
+      "source": "AllAfrica (Édition Française)",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Ménaka",
+      "event_type": "civilian targeting",
+      "candidate_event": true,
+      "title": "Mali: About forty civilians killed Sunday by armed men in the Ménaka region",
+      "url": "https://fr.allafrica.com/stories/202610210277.html"
+    },
+    {
+      "published_at": "2026-10-21T09:22:29Z",
+      "published_date_source": "opengraph",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-21T13:56:19.847996Z",
+      "discovered_at": "2026-10-21T13:56:19.847996Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0090",
+      "source": "AllAfrica (Édition Française)",
+      "language": "fr",
+      "actor": null,
+      "country": "Burkina Faso",
+      "city": null,
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Burkina Faso - The ruling junta reinstates the death penalty",
+      "url": "https://fr.allafrica.com/view/group/main/main/id/00098536.html"
+    },
+    {
+      "published_at": "2026-10-21T09:15:42Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-21T13:56:20.209753Z",
+      "discovered_at": "2026-10-21T13:56:20.209753Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0092",
+      "source": "La Nouvelle Tribune (Bénin)",
+      "language": "fr",
+      "actor": null,
+      "country": "Mali",
+      "city": "Mopti",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Mali : 69 militaires comparaissent devant la justice militaire, plusieurs crimes leur sont reprochés",
+      "url": "https://lanouvelletribune.info/2026/10/mali-69-militaires-comparaissent-devant-la-justice-militaire-plusieurs-crimes-leur-sont-reproches/"
+    },
+    {
+      "published_at": "2026-10-21T08:30:08Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-21T13:56:16.108533Z",
+      "discovered_at": "2026-10-21T13:56:16.108533Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0010",
+      "source": "Burkina24",
+      "language": "fr",
+      "actor": null,
+      "country": "Burkina Faso",
+      "city": null,
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Burkina Faso: The new Penal Code reintroduces the death penalty for certain offences",
+      "url": "https://burkina24.com/2026/10/21/burkina-faso-le-nouveau-code-penal-reintroduit-la-peine-de-mort-pour-certaines-infractions/"
+    },
+    {
+      "published_at": "2026-10-21T08:17:01Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-21T13:56:17.503971Z",
+      "discovered_at": "2026-10-21T13:56:17.503971Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0008",
+      "source": "Bamada",
+      "language": "fr",
+      "actor": null,
+      "country": "Burkina Faso",
+      "city": null,
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Burkina Faso adopts a new penal code reinstating the death penalty",
+      "url": "https://bamada.net/le-burkina-faso-adopte-un-nouveau-code-penal-retablissant-la-peine-de-mort"
+    },
+    {
+      "published_at": "2026-10-21T08:11:51Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-21T13:56:15.236627Z",
+      "discovered_at": "2026-10-21T13:56:15.236627Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0075",
+      "source": "AMAP (Agence Malienne de Presse et de Publicité)",
+      "language": "fr",
+      "actor": null,
+      "country": "Mali",
+      "city": "Bamako",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Kenya: Paul Mackenzie and 28 other defendants convicted for the murder of 192 children and one adult",
+      "url": "https://amap.ml/2026/10/21/kenya-paul-mackenzie-et-28-autres-accuses-condamnes-pour-le-meurtre-de-192-enfants-et-dun-adulte/"
+    },
+    {
+      "published_at": "2026-10-21T07:31:25Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-21T13:56:18.769176Z",
+      "discovered_at": "2026-10-21T13:56:18.769176Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0034",
+      "source": "TV5MONDE Afrique",
+      "language": "fr",
+      "actor": null,
+      "country": "Mali",
+      "city": "Bamako",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Image Publié le 21 octobre 2026 Afrique Burkina Faso: la peine de mort rétablie par le gouvernement militaire d'Ibrahim Traoré huit ans après son abolition Le Burkina Faso a rétabli, mardi 21 octobre, la peine de mort, abolie en 2018, dans un nouveau Code pénal, voté à l'unanimité par les 71 membres non…",
+      "url": "https://information.tv5monde.com/afrique/burkina-faso-la-peine-de-mort-retablie-par-le-gouvernement-militaire-dibrahim-traore-huit-ans-apres-son-abolition-2842507"
+    },
+    {
+      "published_at": "2026-10-21T07:20:21Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-21T13:56:17.209948Z",
+      "discovered_at": "2026-10-21T13:56:17.209948Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0003",
+      "source": "Jeune Afrique",
+      "language": "fr",
+      "actor": null,
+      "country": "Burkina Faso",
+      "city": null,
+      "event_type": null,
+      "candidate_event": false,
+      "title": "« Le sentimentalisme, c’est fini » : au Burkina Faso, Ibrahim Traoré rétablit la peine de mort",
+      "url": "https://www.jeuneafrique.com/1854304/politique/le-sentimentalisme-cest-fini-au-burkina-faso-ibrahim-traore-retablit-la-peine-de-mort/"
+    },
     {
       "published_at": "2026-10-21T01:33:15Z",
       "published_date_source": "feed",
@@ -4386,348 +4781,6 @@
       "candidate_event": true,
       "title": "Massacre in Mali: Islamic State attacks the Idaksahak community in the Menaka region",
       "url": "https://www.jeuneafrique.com/1854056/politique/massacre-au-mali-letat-islamique-sattaque-a-la-communaute-idaksahak-dans-la-region-de-menaka/"
-    },
-    {
-      "published_at": "2026-10-20T12:54:40Z",
-      "published_date_source": "opengraph",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-20T13:40:05.148899Z",
-      "discovered_at": "2026-10-20T13:40:05.148899Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0058",
-      "source": "Independent Arabia",
-      "language": "ar",
-      "actor": null,
-      "country": "Mali",
-      "city": "Ménaka",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Militants Kill 50 Civilians in Mali in Retaliation for 'Azawad Movement'",
-      "url": "https://www.independentarabia.com/node/660858/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D9%85%D8%B3%D9%84%D8%AD%D9%88%D9%86-%D9%8A%D9%82%D8%AA%D9%84%D9%88%D9%86-50-%D9%85%D8%AF%D9%86%D9%8A%D8%A7-%D9%81%D9%8A-%D9%85%D8%A7%D9%84%D9%8A-%D8%A7%D9%86%D8%AA%D9%82%D8%A7%D9%85%D8%A7-%D9%85%D9%86-%D8%AD%D8%B1%D9%83%D8%A9-%D8%A3%D8%B2%D9%88%D8%A7%D8%AF"
-    },
-    {
-      "published_at": "2026-10-20T11:13:42Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-20T13:40:00.073096Z",
-      "discovered_at": "2026-10-20T13:40:00.073096Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0007",
-      "source": "Journal du Mali",
-      "language": "fr",
-      "actor": null,
-      "country": "Mali",
-      "city": "Ségou",
-      "event_type": "attack",
-      "candidate_event": false,
-      "title": "Macina hosts more than 3,400 displaced people after the September violence",
-      "url": "https://journaldumali.com/macina-accueille-plus-de-3-400-deplaces-apres-les-violences-de-septembre/"
-    },
-    {
-      "published_at": "2026-10-20T10:25:08Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-20T13:40:00.428915Z",
-      "discovered_at": "2026-10-20T13:40:00.428915Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0160",
-      "source": "Sahara Medias (صحراء ميديا)",
-      "language": "ar",
-      "actor": "Other",
-      "country": "Mali",
-      "city": "Ménaka",
-      "event_type": "attack",
-      "candidate_event": true,
-      "title": "More than 40 civilians killed in armed attack in northeast Mali",
-      "url": "https://saharamedias.net/267363/"
-    },
-    {
-      "published_at": "2026-10-20T10:18:20Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-20T13:39:59.375583Z",
-      "discovered_at": "2026-10-20T13:39:59.375583Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0085",
-      "source": "Seneweb",
-      "language": "fr",
-      "actor": "Other",
-      "country": "Mali",
-      "city": "Ménaka",
-      "event_type": "civilian targeting",
-      "candidate_event": true,
-      "title": "Mali: more than forty civilians killed Sunday by armed men",
-      "url": "https://www.seneweb.com/fr/news/Afrique/mali-plus-dune-quarantaine-de-civils-tues-dimanche-par-des-hommes-armes_n_999001222.html"
-    },
-    {
-      "published_at": "2026-10-20T10:16:13Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-20T13:39:59.284609Z",
-      "discovered_at": "2026-10-20T13:39:59.284609Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0006",
-      "source": "Malijet",
-      "language": "fr",
-      "actor": null,
-      "country": "Mali",
-      "city": "Kati",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Kati: a prayer session in memory of the victims of the crisis",
-      "url": "https://malijet.com/actualite_de_la_nation_malienne/312425-kati-une-seance-de-prieres-en-memoire-des-victimes-de-la-c.html"
-    },
-    {
-      "published_at": "2026-10-20T09:34:20Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-20T13:39:59.212160Z",
-      "discovered_at": "2026-10-20T13:39:59.212160Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0008",
-      "source": "Bamada",
-      "language": "fr",
-      "actor": "Other",
-      "country": "Mali",
-      "city": "Ménaka",
-      "event_type": "civilian targeting",
-      "candidate_event": true,
-      "title": "MENAKA: 48 civilians killed in Daesh attacks",
-      "url": "https://bamada.net/menaka-48-civils-tues-dans-des-attaques-de-daesh"
-    },
-    {
-      "published_at": "2026-10-20T09:03:52Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-20T13:40:05.239123Z",
-      "discovered_at": "2026-10-20T13:40:05.239123Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0006",
-      "source": "Malijet",
-      "language": "fr",
-      "actor": "State",
-      "country": "Mali",
-      "city": null,
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Defence and Security: 678 young soldiers trained and presented to the flag in Koutiala",
-      "url": "https://malijet.com/actualite_de_la_nation_malienne/312424-defense-et-securite-678-jeunes-soldats-formes-et-presentes.html"
-    },
-    {
-      "published_at": "2026-10-20T08:54:40Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-20T13:40:01.044013Z",
-      "discovered_at": "2026-10-20T13:40:01.044013Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0075",
-      "source": "AMAP (Agence Malienne de Presse et de Publicité)",
-      "language": "fr",
-      "actor": null,
-      "country": "Mali",
-      "city": "Mopti",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Justice: Opening of the combined hearings of the correctional and criminal chambers of the Military Court of Mopti",
-      "url": "https://amap.ml/2026/10/20/justice-ouverture-des-audiences-couplees-des-chambres-correctionnelle-et-criminelle-du-tribunal-militaire-de-mopti/"
-    },
-    {
-      "published_at": "2026-10-20T08:25:43Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-20T13:39:59.452974Z",
-      "discovered_at": "2026-10-20T13:39:59.452974Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0006",
-      "source": "Malijet",
-      "language": "fr",
-      "actor": null,
-      "country": "Mali",
-      "city": "Bamako",
-      "event_type": "law enforcement",
-      "candidate_event": false,
-      "title": "Bamako: two suspects arrested in a burglary case involving more than 200 million FCFA",
-      "url": "https://malijet.com/les_faits_divers_au_mali/312423-bamako-deux-suspects-interpelles-dans-une-affaire-de-cambr.html"
-    },
-    {
-      "published_at": "2026-10-20T07:52:37Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-20T13:39:58.750878Z",
-      "discovered_at": "2026-10-20T13:39:58.750878Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0022",
-      "source": "Africanews",
-      "language": "en",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Ménaka",
-      "event_type": "civilian targeting",
-      "candidate_event": true,
-      "title": "More than 40 civilians killed in Mali attack blamed on Islamic State",
-      "url": "https://www.africanews.com/2026/10/20/more-than-40-civilians-killed-in-mali-attack-blamed-on-islamic-state/"
-    },
-    {
-      "published_at": "2026-10-20T07:23:44Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-21T05:02:24.767201Z",
-      "discovered_at": "2026-10-21T05:02:24.767201Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0010",
-      "source": "Burkina24",
-      "language": "fr",
-      "actor": null,
-      "country": null,
-      "city": null,
-      "event_type": "attack",
-      "candidate_event": false,
-      "title": "Uganda: Rwandan opponent in exile, Robert Kabera, found dead",
-      "url": "https://burkina24.com/2026/10/20/ouganda-lopposant-rwandais-en-exil-robert-kabera-a-ete-retrouve-mort/"
-    },
-    {
-      "published_at": "2026-10-20T07:20:01Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-20T13:39:59.176632Z",
-      "discovered_at": "2026-10-20T13:39:59.176632Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0006",
-      "source": "Malijet",
-      "language": "fr",
-      "actor": "Other",
-      "country": "Mali",
-      "city": "Ménaka",
-      "event_type": "civilian targeting",
-      "candidate_event": true,
-      "title": "Menaka: Idaksahak community reports 48 civilians killed in Tagadayat",
-      "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312419-menaka-la-communaute-idaksahak-fait-etat-de-48-civils-tues.html"
-    },
-    {
-      "published_at": "2026-10-20T05:10:19Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-20T13:39:59.655851Z",
-      "discovered_at": "2026-10-20T13:39:59.655851Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0099",
-      "source": "La Croix (Afrique)",
-      "language": "fr",
-      "actor": "Other",
-      "country": "Mali",
-      "city": "Ménaka",
-      "event_type": "civilian targeting",
-      "candidate_event": true,
-      "title": "Mali: more than forty civilians killed Sunday by armed men",
-      "url": "https://www.la-croix.com/mali-plus-d-une-quarantaine-de-civils-tues-dimanche-par-des-hommes-armes-sources-securitaires-et-locales-20261019"
-    },
-    {
-      "published_at": "2026-10-20T05:00:00Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-20T13:40:00.241742Z",
-      "discovered_at": "2026-10-20T13:40:00.241742Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0040",
-      "source": "Mondafrique",
-      "language": "fr",
-      "actor": "Africa Corps/Wagner",
-      "country": "Mali",
-      "city": null,
-      "event_type": "abuses/war crimes",
-      "candidate_event": false,
-      "title": "Mali. Human Rights Watch denounces war crimes on both sides",
-      "url": "https://mondafrique.com/politique/mali-human-rights-watch-denonce-les-crimes-de-guerre-commis-par-les-deux-parties/"
-    },
-    {
-      "published_at": "2026-10-20T04:09:56Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-20T13:40:07.106907Z",
-      "discovered_at": "2026-10-20T13:40:07.106907Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0038",
-      "source": "APAnews (FR)",
-      "language": "fr",
-      "actor": "Other",
-      "country": "Mali",
-      "city": null,
-      "event_type": "civilian targeting",
-      "candidate_event": false,
-      "title": "Mali: dozens of civilians killed in the northeast",
-      "url": "https://fr.apanews.net/society/mali-des-dizaines-de-civils-tues-dans-le-nord-est/"
-    },
-    {
-      "published_at": "2026-10-20T03:54:08Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-20T05:01:02.745407Z",
-      "discovered_at": "2026-10-20T05:01:02.745407Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0001",
-      "source": "RFI Afrique",
-      "language": "fr",
-      "actor": "Africa Corps/Wagner",
-      "country": "Mali",
-      "city": "Ménaka",
-      "event_type": "civilian targeting",
-      "candidate_event": true,
-      "title": "Mali: about forty civilians killed Sunday by armed men in the Ménaka region",
-      "url": "https://www.rfi.fr/fr/en-bref/20261020-mali-une-quarantaine-de-civils-tu%C3%A9s-dimanche-par-des-hommes-arm%C3%A9s-dans-la-r%C3%A9gion-de-m%C3%A9naka"
-    },
-    {
-      "published_at": "2026-10-20T02:34:13Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-20T05:00:57.896647Z",
-      "discovered_at": "2026-10-20T05:00:57.896647Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0124",
-      "source": "News Central TV (Nigeria)",
-      "language": "en",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Ménaka",
-      "event_type": "raid",
-      "candidate_event": false,
-      "title": "Gunmen Kill 40 Civilians in Mali",
-      "url": "https://newscentraltv.com/gunmen-kill-40-civilians-in-mali/"
-    },
-    {
-      "published_at": "2026-10-20T02:31:17Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-20T05:00:56.628576Z",
-      "discovered_at": "2026-10-20T05:00:56.628576Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0008",
-      "source": "Bamada",
-      "language": "fr",
-      "actor": null,
-      "country": "Mali",
-      "city": null,
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Geneva: Mali celebrates the 66th anniversary of its independence in a spirit of national solidarity",
-      "url": "https://bamada.net/geneve-le-mali-celebre-le-66e-anniversaire-de-son-independance-dans-un-esprit-de-solidarite-nationale"
-    },
-    {
-      "published_at": "2026-10-20T02:23:05Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-20T05:00:56.415454Z",
-      "discovered_at": "2026-10-20T05:00:56.415454Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0008",
-      "source": "Bamada",
-      "language": "fr",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Ménaka",
-      "event_type": "security operation",
-      "candidate_event": true,
-      "title": "Operation Dougoukoloko: FAMa strike near Menaka and Douentza",
-      "url": "https://bamada.net/operation-dougoukoloko-les-fama-frappent-pres-de-menaka-et-douentza"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."

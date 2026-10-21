@@ -1,5 +1,185 @@
 [
   {
+    "id": "3986a7766c3fd95804a5cd41d27ad448c9455ab0",
+    "event_date": "2026-10-20",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "explicit-calendar-date",
+    "published_at": "2026-10-21T10:15:18Z",
+    "published_date_source": "feed",
+    "published_time_precision": "datetime",
+    "collected_at": "2026-10-21T13:56:13.790448Z",
+    "actor": "State",
+    "perpetrator": "State",
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [
+      "State"
+    ],
+    "parent_report_id": null,
+    "event_type": "security operation",
+    "country": "Mali",
+    "city": null,
+    "lat": null,
+    "lng": null,
+    "locations": [],
+    "title": "Ouagadou Forest: The FAMa neutralize a major terrorist column",
+    "summary": "The General Staff of the Armed Forces informs the national opinion that the Malian Armed Forces (FAMa), supported by their partners, are continuing the permanent operations of surveillance, control and security of the national territory as part of Operation Dougoukoloko . On Tuesday, October 20, 2026, the use of precise information made it possible to detect and follow several columns of motorcyclists moving in the Ouagadou forest, near the village of Ngoma Koura.",
+    "sources": [
+      "Bamada"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://bamada.net/foret-de-ouagadou-les-fama-neutralisent-une-importante-colonne-terroriste"
+    ],
+    "report_summaries": [
+      {
+        "url": "https://bamada.net/foret-de-ouagadou-les-fama-neutralisent-une-importante-colonne-terroriste",
+        "source": "Bamada",
+        "title": "Ouagadou Forest: The FAMa neutralize a major terrorist column",
+        "summary": "The General Staff of the Armed Forces informs the national opinion that the Malian Armed Forces (FAMa), supported by their partners, are continuing the permanent operations of surveillance, control and security of the national territory as part of Operation Dougoukoloko . On Tuesday, October 20, 2026, the use of precise information made it possible to detect and follow several columns of motorcyclists moving in the Ouagadou forest, near the village of Ngoma Koura.",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "armed_group"
+        ],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      }
+    ],
+    "created_at": "2026-10-21T13:56:13.790448Z",
+    "updated_at": "2026-10-21T13:56:13.790448Z",
+    "extraction_confidence": "moderate",
+    "victim_categories": [
+      "armed_group"
+    ],
+    "civilian_targeting_flag": false,
+    "casualty_claims": [],
+    "fatalities_min": null,
+    "fatalities_max": null,
+    "fatalities_best": null,
+    "injured_min": null,
+    "injured_max": null,
+    "abducted_min": null,
+    "abducted_max": null,
+    "casualty_disputed": false,
+    "revision_history": [
+      {
+        "at": "2026-10-21T13:56:13.790448Z",
+        "type": "event_created",
+        "source": "Bamada"
+      }
+    ],
+    "corroboration": "single-source",
+    "confidence": "moderate",
+    "independent_source_domains": [
+      "bamada.net"
+    ],
+    "independent_source_count": 1,
+    "significance": "ROUTINE",
+    "significance_reasons": [
+      "limited currently observed significance"
+    ]
+  },
+  {
+    "id": "8b4addb630b8629939b89d8e70a9e0bfc7733c57",
+    "event_date": "2026-10-20",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "explicit-calendar-date",
+    "published_at": "2026-10-21T10:31:17Z",
+    "published_date_source": "jsonld:datePublished",
+    "published_time_precision": "datetime",
+    "collected_at": "2026-10-21T13:56:13.696378Z",
+    "actor": "State",
+    "perpetrator": "State",
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [
+      "State"
+    ],
+    "parent_report_id": null,
+    "event_type": "security operation",
+    "country": "Mali",
+    "city": null,
+    "lat": null,
+    "lng": null,
+    "locations": [],
+    "title": "Operation Dougoukoloko: several fighters neutralized in the Ouagadou forest",
+    "summary": "Operation Dougoukoloko: several neutralized fighters in the forest of Ouagadou On Tuesday, October 20, 2026, the Malian Armed Forces (FAMa) struck a group of motorcyclists spotted in the forest of Ouagadou, near the village of Ngoma Koura. According to the General Staff of the Armed Forces, several terrorist elements were neutralized during this operation . This action is part of Operation Dougoukoloko, conducted to strengthen the surveillance and security of the national territory.",
+    "sources": [
+      "Malijet"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://malijet.com/actualte_dans_les_regions_du_mali/312437-operation-dougoukoloko-plusieurs-combattants-neutralises-d.html"
+    ],
+    "report_summaries": [
+      {
+        "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312437-operation-dougoukoloko-plusieurs-combattants-neutralises-d.html",
+        "source": "Malijet",
+        "title": "Operation Dougoukoloko: several fighters neutralized in the Ouagadou forest",
+        "summary": "Operation Dougoukoloko: several neutralized fighters in the forest of Ouagadou On Tuesday, October 20, 2026, the Malian Armed Forces (FAMa) struck a group of motorcyclists spotted in the forest of Ouagadou, near the village of Ngoma Koura. According to the General Staff of the Armed Forces, several terrorist elements were neutralized during this operation . This action is part of Operation Dougoukoloko, conducted to strengthen the surveillance and security of the national territory.",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "armed_group"
+        ],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      }
+    ],
+    "created_at": "2026-10-21T13:56:13.696378Z",
+    "updated_at": "2026-10-21T13:56:13.696378Z",
+    "extraction_confidence": "moderate",
+    "victim_categories": [
+      "armed_group"
+    ],
+    "civilian_targeting_flag": false,
+    "casualty_claims": [],
+    "fatalities_min": null,
+    "fatalities_max": null,
+    "fatalities_best": null,
+    "injured_min": null,
+    "injured_max": null,
+    "abducted_min": null,
+    "abducted_max": null,
+    "casualty_disputed": false,
+    "revision_history": [
+      {
+        "at": "2026-10-21T13:56:13.696378Z",
+        "type": "event_created",
+        "source": "Malijet"
+      }
+    ],
+    "corroboration": "single-source",
+    "confidence": "moderate",
+    "independent_source_domains": [
+      "malijet.com"
+    ],
+    "independent_source_count": 1,
+    "significance": "ROUTINE",
+    "significance_reasons": [
+      "limited currently observed significance"
+    ]
+  },
+  {
     "id": "e993480e95a6d3a6221699815bb6124a3ac0e573",
     "event_date": "2026-10-20",
     "event_date_confidence": "explicit-text",
@@ -260,16 +440,19 @@
       }
     ],
     "title": "40 civilians killed in attacks on camps in Mali's Menaka region Armed men on motorcycles storm camps housing members of Daoussahak community, killing dozens and forcing residents to flee.",
-    "summary": "More than 40 civilians have been killed in weekend assaults by armed men on residential camps across Mali's northeastern Menaka region, security and community sources confirmed. The assailants arrived on motorcycles, storming settlements primarily housing members of the Daoussahak community approximately 50 kilometres from the town of Menaka, in and around the village of Tinabow and the Tagadayat area.",
+    "summary": "In Mali, the Executive Office of the Idaksahak community expressed on Monday \"its strong emotion and its immense dismay\" after the death of 48 civilians of the community, last Sunday, on the side of Tagadayat, in the region of Menaka. According to their statement, \"these defenceless civilian populations were attacked by armed elements of Daesh [Islamic State group, editor's note], arrived on board several motorcycles\" .",
     "sources": [
-      "TRT World (Africa)"
+      "TRT World (Africa)",
+      "AllAfrica (Édition Française)"
     ],
     "languages": [
-      "en"
+      "en",
+      "fr"
     ],
-    "source_count": 1,
+    "source_count": 2,
     "report_urls": [
-      "https://www.trtworld.com/article/a85f28c4c8fd"
+      "https://www.trtworld.com/article/a85f28c4c8fd",
+      "https://fr.allafrica.com/stories/202610210277.html"
     ],
     "report_summaries": [
       {
@@ -298,13 +481,42 @@
             "evidence": "40 civilians killed in attacks on camps in Mali's Menaka region Armed men on motorcycles storm camps housing members of"
           }
         ]
+      },
+      {
+        "url": "https://fr.allafrica.com/stories/202610210277.html",
+        "source": "AllAfrica (Édition Française)",
+        "title": "Mali: About forty civilians killed Sunday by armed men in the Ménaka region",
+        "summary": "In Mali, the Executive Office of the Idaksahak community expressed on Monday \"its strong emotion and its immense dismay\" after the death of 48 civilians of the community, last Sunday, on the side of Tagadayat, in the region of Menaka. According to their statement, \"these defenceless civilian populations were attacked by armed elements of Daesh [Islamic State group, editor's note], arrived on board several motorcycles\" .",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": 40,
+        "fatalities_max": 40,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "civilian",
+          "armed_group"
+        ],
+        "civilian_targeting_flag": true,
+        "casualty_claims": [
+          {
+            "kind": "fatalities",
+            "count": 40,
+            "victim_text": "civilians",
+            "claimant": "AllAfrica (Édition Française)",
+            "status": "reported",
+            "evidence": "Mali: About forty civilians killed Sunday by armed men in the Ménaka region In Mali, the Executive Office of the Idaksahak community e"
+          }
+        ]
       }
     ],
     "created_at": "2026-10-20T05:00:57.177306Z",
-    "updated_at": "2026-10-20T05:00:57.177306Z",
+    "updated_at": "2026-10-21T13:56:22.540285Z",
     "extraction_confidence": "low",
     "victim_categories": [
-      "civilian"
+      "civilian",
+      "armed_group"
     ],
     "civilian_targeting_flag": true,
     "casualty_claims": [
@@ -316,6 +528,15 @@
         "status": "reported",
         "evidence": "40 civilians killed in attacks on camps in Mali's Menaka region Armed men on motorcycles storm camps housing members of",
         "source": "TRT World (Africa)"
+      },
+      {
+        "kind": "fatalities",
+        "count": 40,
+        "victim_text": "civilians",
+        "claimant": "AllAfrica (Édition Française)",
+        "status": "reported",
+        "evidence": "Mali: About forty civilians killed Sunday by armed men in the Ménaka region In Mali, the Executive Office of the Idaksahak community e",
+        "source": "AllAfrica (Édition Française)"
       }
     ],
     "fatalities_min": 40,
@@ -331,14 +552,20 @@
         "at": "2026-10-20T05:00:57.177306Z",
         "type": "event_created",
         "source": "TRT World (Africa)"
+      },
+      {
+        "at": "2026-10-21T13:56:22.540285Z",
+        "type": "corroboration_or_geography_update",
+        "source": "AllAfrica (Édition Française)"
       }
     ],
-    "corroboration": "single-source",
-    "confidence": "low",
+    "corroboration": "limited corroboration",
+    "confidence": "moderate",
     "independent_source_domains": [
-      "trtworld.com"
+      "trtworld.com",
+      "fr.allafrica.com"
     ],
-    "independent_source_count": 1,
+    "independent_source_count": 2,
     "significance": "MAJOR",
     "significance_reasons": [
       "multi-location activity"
