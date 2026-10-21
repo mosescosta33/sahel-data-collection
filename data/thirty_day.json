@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-10-20T23:17:30.326465Z",
+  "generated_at": "2026-10-21T05:03:29.160635Z",
   "window_days": 30,
-  "cutoff": "2026-09-20",
-  "reports": 529,
+  "cutoff": "2026-09-21",
+  "reports": 534,
   "incident_reports": 136,
-  "candidate_events": 94,
+  "candidate_events": 93,
   "corroborated_events": 23,
-  "mapped_events": 79,
-  "mapped_locations": 149,
+  "mapped_events": 78,
+  "mapped_locations": 146,
   "distinct_sources": 83,
   "by_actor": {
     "State": 55,
-    "JNIM": 17,
+    "JNIM": 16,
     "Other": 13,
     "Africa Corps/Wagner": 8,
     "IS Sahel": 1
   },
   "by_country": {
-    "Mali": 86,
+    "Mali": 85,
     "Niger": 5,
     "Burkina Faso": 3
   },
@@ -25,19 +25,19 @@
     "security operation": 37,
     "offensive/campaign": 16,
     "clash": 13,
-    "attack": 12,
+    "attack": 11,
     "civilian targeting": 7,
     "ambush": 3,
     "kidnapping": 3,
     "raid": 3
   },
   "by_language": {
-    "fr": 396,
-    "en": 100,
+    "fr": 399,
+    "en": 102,
     "ar": 33
   },
   "by_confidence": {
-    "low": 46,
+    "low": 45,
     "moderate": 40,
     "moderate-high": 7,
     "high": 1
@@ -46,7 +46,7 @@
     {
       "source_code": "SRC-0008",
       "source": "Bamada",
-      "count": 79
+      "count": 80
     },
     {
       "source_code": "SRC-0006",
@@ -89,6 +89,11 @@
       "count": 13
     },
     {
+      "source_code": "SRC-0022",
+      "source": "Africanews",
+      "count": 13
+    },
+    {
       "source_code": "SRC-0034",
       "source": "TV5MONDE Afrique",
       "count": 13
@@ -97,11 +102,6 @@
       "source_code": "SRC-0085",
       "source": "Seneweb",
       "count": 13
-    },
-    {
-      "source_code": "SRC-0022",
-      "source": "Africanews",
-      "count": 12
     }
   ],
   "top_locations": [
@@ -111,7 +111,7 @@
     },
     {
       "location": "Bamako",
-      "count": 16
+      "count": 15
     },
     {
       "location": "Mali",
@@ -143,7 +143,7 @@
     },
     {
       "location": "Dioura",
-      "count": 6
+      "count": 5
     },
     {
       "location": "Djenné",
@@ -155,11 +155,6 @@
     }
   ],
   "daily": [
-    {
-      "date": "2026-09-21",
-      "reports": 8,
-      "events": 3
-    },
     {
       "date": "2026-09-22",
       "reports": 15,
@@ -302,8 +297,13 @@
     },
     {
       "date": "2026-10-20",
-      "reports": 38,
+      "reports": 42,
       "events": 2
+    },
+    {
+      "date": "2026-10-21",
+      "reports": 1,
+      "events": 0
     }
   ],
   "latest_events": [
@@ -4010,6 +4010,42 @@
   ],
   "latest_reports": [
     {
+      "published_at": "2026-10-21T01:33:15Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-21T05:02:25.528647Z",
+      "discovered_at": "2026-10-21T05:02:25.528647Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0008",
+      "source": "Bamada",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": null,
+      "event_type": "clash",
+      "candidate_event": false,
+      "title": "MALI: 724 NEW RECRUITS UNDER THE FLAG AT SÉNOU AIR BASE 101, THE 2025 CONTINGENT READY TO PROTECT THE NATION",
+      "url": "https://bamada.net/mali-724-nouvelles-recrues-sous-le-drapeau-a-la-base-aerienne-101-de-senou-le-contingent-2025-pret-a-proteger-la-nation"
+    },
+    {
+      "published_at": "2026-10-20T23:35:46Z",
+      "published_date_source": "html:time",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-21T05:02:23.365310Z",
+      "discovered_at": "2026-10-21T05:02:23.365310Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0012",
+      "source": "Sidwaya",
+      "language": "fr",
+      "actor": null,
+      "country": "Burkina Faso",
+      "city": "Ouagadougou",
+      "event_type": "political/security policy",
+      "candidate_event": false,
+      "title": "66th anniversary of the National Armed Forces: a popular cross-country to kick off the festivities",
+      "url": "https://www.sidwaya.info/2026/10/20/66e-anniversaire-des-forces-armees-nationales-un-cross-populaire-pour-lancer-les-festivites/"
+    },
+    {
       "published_at": "2026-10-20T23:07:48Z",
       "published_date_source": "html:time",
       "published_time_precision": "datetime",
@@ -4100,6 +4136,24 @@
       "url": "https://newscentraltv.com/burkina-faso-reinstates-death-penalty/"
     },
     {
+      "published_at": "2026-10-20T19:18:49Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-21T05:02:22.228877Z",
+      "discovered_at": "2026-10-21T05:02:22.228877Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0022",
+      "source": "Africanews",
+      "language": "en",
+      "actor": "State",
+      "country": "Burkina Faso",
+      "city": null,
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Burkina Faso reinstates death penalty: Justice ministry",
+      "url": "https://www.africanews.com/2026/10/21/burkina-faso-reinstates-death-penalty-justice-ministry/"
+    },
+    {
       "published_at": "2026-10-20T19:00:00Z",
       "published_date_source": "jsonld:datePublished",
       "published_time_precision": "datetime",
@@ -4152,6 +4206,24 @@
       "candidate_event": false,
       "title": "Burkina Faso: the death penalty reinstated by the junta eight years after its abolition",
       "url": "https://www.la-croix.com/international/burkina-faso-la-peine-de-mort-retablie-par-la-junte-huit-ans-apres-son-abolition-20261020"
+    },
+    {
+      "published_at": "2026-10-20T17:27:13Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-21T05:02:24.539722Z",
+      "discovered_at": "2026-10-21T05:02:24.539722Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0064",
+      "source": "Africa Defense Forum (ADF Magazine)",
+      "language": "en",
+      "actor": "Africa Corps/Wagner",
+      "country": "Niger",
+      "city": "Niamey",
+      "event_type": "political/security policy",
+      "candidate_event": false,
+      "title": "Algeria Deploys Military to Bolster Sahel Security",
+      "url": "https://adf-magazine.com/2026/10/algeria-deploys-military-to-bolster-sahel-security/"
     },
     {
       "published_at": "2026-10-20T17:25:19Z",
@@ -4496,6 +4568,24 @@
       "url": "https://www.africanews.com/2026/10/20/more-than-40-civilians-killed-in-mali-attack-blamed-on-islamic-state/"
     },
     {
+      "published_at": "2026-10-20T07:23:44Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-21T05:02:24.767201Z",
+      "discovered_at": "2026-10-21T05:02:24.767201Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0010",
+      "source": "Burkina24",
+      "language": "fr",
+      "actor": null,
+      "country": null,
+      "city": null,
+      "event_type": "attack",
+      "candidate_event": false,
+      "title": "Uganda: Rwandan opponent in exile, Robert Kabera, found dead",
+      "url": "https://burkina24.com/2026/10/20/ouganda-lopposant-rwandais-en-exil-robert-kabera-a-ete-retrouve-mort/"
+    },
+    {
       "published_at": "2026-10-20T07:20:01Z",
       "published_date_source": "jsonld:datePublished",
       "published_time_precision": "datetime",
@@ -4638,96 +4728,6 @@
       "candidate_event": true,
       "title": "Operation Dougoukoloko: FAMa strike near Menaka and Douentza",
       "url": "https://bamada.net/operation-dougoukoloko-les-fama-frappent-pres-de-menaka-et-douentza"
-    },
-    {
-      "published_at": "2026-10-20T00:39:29Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-20T13:39:59.954851Z",
-      "discovered_at": "2026-10-20T13:39:59.954851Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0002",
-      "source": "France 24 Afrique (FR)",
-      "language": "fr",
-      "actor": "Other",
-      "country": "Mali",
-      "city": "Ménaka",
-      "event_type": "civilian targeting",
-      "candidate_event": true,
-      "title": "Mali: more than 40 civilians killed in armed attacks in the North-East",
-      "url": "https://www.france24.com/fr/afrique/20261020-mali-plus-de-40-civils-tu%C3%A9s-dans-des-attaques-arm%C3%A9es-dans-le-nord-est-du-pays"
-    },
-    {
-      "published_at": "2026-10-20T00:00:00Z",
-      "published_date_source": "visible-publication-label",
-      "published_time_precision": "date-only",
-      "collected_at": "2026-10-20T20:06:29.840976Z",
-      "discovered_at": "2026-10-20T20:06:29.840976Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0011",
-      "source": "LeFaso.net",
-      "language": "fr",
-      "actor": null,
-      "country": "Burkina Faso",
-      "city": null,
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Burkina/Justice: The death penalty reintroduced in the Penal Code, penalties increased",
-      "url": "https://lefaso.net/spip.php?article150084="
-    },
-    {
-      "published_at": "2026-10-20T00:00:00Z",
-      "published_date_source": "visible-publication-label",
-      "published_time_precision": "date-only",
-      "collected_at": "2026-10-20T05:01:03.695030Z",
-      "discovered_at": "2026-10-20T05:01:03.695030Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0095",
-      "source": "Courrier International",
-      "language": "fr",
-      "actor": "Other",
-      "country": "Mali",
-      "city": "Ménaka",
-      "event_type": "civilian targeting",
-      "candidate_event": true,
-      "title": "Mali: more than forty civilians killed Sunday by armed men (security and local sources)",
-      "url": "https://www.courrierinternational.com/depeche/mali-plus-d-une-quarantaine-de-civils-tues-dimanche-par-des-hommes-armes-sources-securitaires-et-locales.afp.com.20261019.doc.d3rz863.xml"
-    },
-    {
-      "published_at": "2026-10-19T23:47:34.537000Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-20T05:00:57.177306Z",
-      "discovered_at": "2026-10-20T05:00:57.177306Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0106",
-      "source": "TRT World (Africa)",
-      "language": "en",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Ménaka",
-      "event_type": "civilian targeting",
-      "candidate_event": true,
-      "title": "40 civilians killed in attacks on camps in Mali's Menaka region Armed men on motorcycles storm camps housing members of Daoussahak community, killing dozens and forcing residents to flee.",
-      "url": "https://www.trtworld.com/article/a85f28c4c8fd"
-    },
-    {
-      "published_at": "2026-10-19T22:50:50Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-19T23:50:00.747446Z",
-      "discovered_at": "2026-10-19T23:50:00.747446Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0124",
-      "source": "News Central TV (Nigeria)",
-      "language": "en",
-      "actor": "State",
-      "country": "Burkina Faso",
-      "city": null,
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Burkina Faso, Mali, Niger Resume Talks with ECOWAS",
-      "url": "https://newscentraltv.com/burkina-faso-mali-niger-resume-talks-with-ecowas/"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
