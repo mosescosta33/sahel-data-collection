@@ -1,5 +1,153 @@
 [
   {
+    "id": "e797b05d6a5b56164863f21770a5133e03be85f6",
+    "event_date": "2026-10-20",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "explicit-calendar-date",
+    "published_at": "2026-10-21T16:48:36Z",
+    "published_date_source": "itemprop",
+    "published_time_precision": "datetime",
+    "collected_at": "2026-10-21T20:18:19.472183Z",
+    "actor": "Other",
+    "perpetrator": null,
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [],
+    "parent_report_id": null,
+    "event_type": "attack",
+    "country": "Niger",
+    "city": "Agadez",
+    "lat": 16.9733,
+    "lng": 7.9911,
+    "locations": [
+      {
+        "name": "Agadez",
+        "country": "Niger",
+        "lat": 16.9733,
+        "lng": 7.9911,
+        "confidence": "explicit-place"
+      },
+      {
+        "name": "Arlit",
+        "country": "Niger",
+        "lat": 18.73694,
+        "lng": 7.38528,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "Insecurity: the authorities of Agadez on maximum alert after an armed attack that killed twelve people on the Tchiro-Agadez axis",
+    "summary": "The Governor of the Agadez region, Major General Ibra Boulama Issa, chaired an emergency meeting of the Regional Security Council (CRS) on Wednesday, 21 October 2026. Several items were on the agenda of the forum, including, among others, the examination and analysis of the security situation in the region, with a particular focus on the attack on the two SONITRAV buses, which occurred on Tuesday, October 20, 2026, on the Tchirozérine-Agadez.",
+    "sources": [
+      "ActuNiger",
+      "Agence Nigérienne de Presse"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 2,
+    "report_urls": [
+      "https://www.actuniger.com/societe/22481-insecurite-les-autorites-dagadez-en-etat-dalerte-maximale-apres-une-attaque-armee-qui-a-fait-douze-morts-sur-laxe-tchiro-agadez",
+      "https://anp.ne/agadez-inhumation-des-corps-dune-douzaine-de-victimes-de-lattaque-armee-sur-laxe-arlit-agadez/"
+    ],
+    "report_summaries": [
+      {
+        "url": "https://www.actuniger.com/societe/22481-insecurite-les-autorites-dagadez-en-etat-dalerte-maximale-apres-une-attaque-armee-qui-a-fait-douze-morts-sur-laxe-tchiro-agadez",
+        "source": "ActuNiger",
+        "title": "Insecurity: the authorities of Agadez on maximum alert after an armed attack that killed twelve people on the Tchiro-Agadez axis",
+        "summary": "The Governor of the Agadez region, Major General Ibra Boulama Issa, chaired an emergency meeting of the Regional Security Council (CRS) on Wednesday, 21 October 2026. Several items were on the agenda of the forum, including, among others, the examination and analysis of the security situation in the region, with a particular focus on the attack on the two SONITRAV buses, which occurred on Tuesday, October 20, 2026, on the Tchirozérine-Agadez.",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": 12,
+        "fatalities_max": 12,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "civilian"
+        ],
+        "civilian_targeting_flag": true,
+        "casualty_claims": [
+          {
+            "kind": "fatalities",
+            "count": 12,
+            "victim_text": "people",
+            "claimant": "state/official source",
+            "status": "reported",
+            "evidence": "Insecurity: the authorities of Agadez on maximum alert after an armed attack that killed twelve people on the Tchiro-Agadez axis The Governor of the Agadez region, Major General Ibra Boulama Issa, chair"
+          }
+        ]
+      },
+      {
+        "url": "https://anp.ne/agadez-inhumation-des-corps-dune-douzaine-de-victimes-de-lattaque-armee-sur-laxe-arlit-agadez/",
+        "source": "Agence Nigérienne de Presse",
+        "title": "Agadez: Burial of the bodies of a dozen victims of the armed attack on the Arlit-Agadez axis",
+        "summary": "Agadez, Oct. 21 (ANP) – The Governor of the Agadez Region, Major General Ibra Boulama Issa attended, on Wednesday, October 21, 2026, the removal of the bodies, followed by the burial of the victims of the attack against the SONITRAV buses on the Arlit–Agadez axis.",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "civilian"
+        ],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      }
+    ],
+    "created_at": "2026-10-21T20:18:19.472183Z",
+    "updated_at": "2026-10-21T20:18:20.879549Z",
+    "extraction_confidence": "low",
+    "victim_categories": [
+      "civilian"
+    ],
+    "civilian_targeting_flag": true,
+    "casualty_claims": [
+      {
+        "kind": "fatalities",
+        "count": 12,
+        "victim_text": "people",
+        "claimant": "state/official source",
+        "status": "reported",
+        "evidence": "Insecurity: the authorities of Agadez on maximum alert after an armed attack that killed twelve people on the Tchiro-Agadez axis The Governor of the Agadez region, Major General Ibra Boulama Issa, chair",
+        "source": "ActuNiger"
+      }
+    ],
+    "fatalities_min": 12,
+    "fatalities_max": 12,
+    "fatalities_best": 12,
+    "injured_min": null,
+    "injured_max": null,
+    "abducted_min": null,
+    "abducted_max": null,
+    "casualty_disputed": false,
+    "revision_history": [
+      {
+        "at": "2026-10-21T20:18:19.472183Z",
+        "type": "event_created",
+        "source": "ActuNiger"
+      },
+      {
+        "at": "2026-10-21T20:18:20.879549Z",
+        "type": "corroboration_or_geography_update",
+        "source": "Agence Nigérienne de Presse"
+      }
+    ],
+    "corroboration": "limited corroboration",
+    "confidence": "moderate",
+    "independent_source_domains": [
+      "actuniger.com",
+      "anp.ne"
+    ],
+    "independent_source_count": 2,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "multi-location activity"
+    ]
+  },
+  {
     "id": "3986a7766c3fd95804a5cd41d27ad448c9455ab0",
     "event_date": "2026-10-20",
     "event_date_confidence": "explicit-text",

@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-21T13:58:45.272566Z",
+  "generated_at": "2026-10-21T20:20:34.720780Z",
   "model_version": "0.1-experimental",
   "label": "Experimental Conflict Threat Level",
   "regional": {
     "level": "HIGH",
-    "confidence": "LOW"
+    "confidence": "MODERATE"
   },
   "countries": {
     "Mali": {
@@ -42,19 +42,22 @@
       "independent_domains_7d": 0
     },
     "Niger": {
-      "score": 6,
-      "level": "INSUFFICIENT DATA",
-      "trend": "STABLE",
-      "confidence": "LOW",
-      "assessment_status": "INSUFFICIENT_DATA",
-      "events_7d": 1,
-      "events_30d": 5,
+      "score": 31,
+      "level": "LOW",
+      "trend": "DETERIORATING",
+      "confidence": "MODERATE",
+      "assessment_status": "ASSESSED",
+      "events_7d": 2,
+      "events_30d": 6,
       "baseline_7d_equivalent": 1.2,
-      "tempo_ratio": 0.9,
+      "tempo_ratio": 1.35,
       "drivers": [
-        "1 fused candidate event(s) in 7 days"
+        "2 fused candidate event(s) in 7 days",
+        "1 significant/major event(s)",
+        "activity across 2 named locations",
+        "7-day tempo above recent country baseline"
       ],
-      "independent_domains_7d": 1
+      "independent_domains_7d": 3
     }
   },
   "method_note": "Experimental research indicator derived from fused candidate events, recent country-relative tempo, significance, militant activity, civilian-threat signals, geographic spread and corroboration. It is not a travel advisory, verified incident count, or forecast. Collection gaps reduce confidence rather than automatically reducing threat."
