@@ -1,5 +1,202 @@
 [
   {
+    "id": "20ab2628f39ea4048cd411b7eb5c482964420fd3",
+    "event_date": "2026-10-22",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "explicit-calendar-date",
+    "published_at": "2026-10-22T10:12:42Z",
+    "published_date_source": "itemprop",
+    "published_time_precision": "datetime",
+    "collected_at": "2026-10-22T13:54:59.967732Z",
+    "actor": "IS Sahel",
+    "perpetrator": null,
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [],
+    "parent_report_id": null,
+    "event_type": "kidnapping",
+    "country": "Niger",
+    "city": "Agadez",
+    "lat": 16.9733,
+    "lng": 7.9911,
+    "locations": [
+      {
+        "name": "Agadez",
+        "country": "Niger",
+        "lat": 16.9733,
+        "lng": 7.9911,
+        "confidence": "explicit-place"
+      },
+      {
+        "name": "Niamey",
+        "country": "Niger",
+        "lat": 13.5116,
+        "lng": 2.1254,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "Niger: the two European hostages kidnapped by EIGS in Agadez now free after several months of captivity",
+    "summary": "Announced as free for a few days, it was on Wednesday 21 October that the two (02) European hostages, Eva Gretzmacher and Claudia Abbt, kidnapped in 2025 in Agadez by the EIGs, reappeared after several months of captivity. They were handed over to the authorities in Benghazi, Libya, before their scheduled return to the country this Thursday, October 22, 2026 .",
+    "sources": [
+      "ActuNiger"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://www.actuniger.com/societe/22484-niger-les-deux-otages-europeennes-enlevees-par-leigs-a-agadez-desormais-libres-apres-plusieurs-mois-de-captivite"
+    ],
+    "report_summaries": [
+      {
+        "url": "https://www.actuniger.com/societe/22484-niger-les-deux-otages-europeennes-enlevees-par-leigs-a-agadez-desormais-libres-apres-plusieurs-mois-de-captivite",
+        "source": "ActuNiger",
+        "title": "Niger: the two European hostages kidnapped by EIGS in Agadez now free after several months of captivity",
+        "summary": "Announced as free for a few days, it was on Wednesday 21 October that the two (02) European hostages, Eva Gretzmacher and Claudia Abbt, kidnapped in 2025 in Agadez by the EIGs, reappeared after several months of captivity. They were handed over to the authorities in Benghazi, Libya, before their scheduled return to the country this Thursday, October 22, 2026 .",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      }
+    ],
+    "created_at": "2026-10-22T13:54:59.967732Z",
+    "updated_at": "2026-10-22T13:54:59.967732Z",
+    "extraction_confidence": "low",
+    "victim_categories": [],
+    "civilian_targeting_flag": false,
+    "casualty_claims": [],
+    "fatalities_min": null,
+    "fatalities_max": null,
+    "fatalities_best": null,
+    "injured_min": null,
+    "injured_max": null,
+    "abducted_min": null,
+    "abducted_max": null,
+    "casualty_disputed": false,
+    "revision_history": [
+      {
+        "at": "2026-10-22T13:54:59.967732Z",
+        "type": "event_created",
+        "source": "ActuNiger"
+      }
+    ],
+    "corroboration": "single-source",
+    "confidence": "low",
+    "independent_source_domains": [
+      "actuniger.com"
+    ],
+    "independent_source_count": 1,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "multi-location activity"
+    ]
+  },
+  {
+    "id": "2157928719fac011a81d69f2e121278810f9c764",
+    "event_date": "2026-10-22",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "explicit-calendar-date",
+    "published_at": "2026-10-22T11:23:01Z",
+    "published_date_source": "opengraph",
+    "published_time_precision": "datetime",
+    "collected_at": "2026-10-22T13:54:55.969818Z",
+    "actor": "State",
+    "perpetrator": "State",
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [
+      "State"
+    ],
+    "parent_report_id": null,
+    "event_type": "security operation",
+    "country": "Mali",
+    "city": "Ménaka",
+    "lat": 15.9182,
+    "lng": 2.4022,
+    "locations": [
+      {
+        "name": "Ménaka",
+        "country": "Mali",
+        "lat": 15.9182,
+        "lng": 2.4022,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "Talhandak and Menaka. Targeted FAMa strikes neutralize several terrorists The General Staff of the Armed Forces informs the public...",
+    "summary": "In a press release published this Thursday, October 22, 2026, the General Staff of the Armed Forces informs that on Tuesday, October 20, 2026, in the Talhandak sector, the tracking of two motorcyclists made it possible to identify, about 3 km northwest of Talhandak, a point of regroupment of terrorist individuals with several motorcycles and trying to hide under a vegetal cover .",
+    "sources": [
+      "L'Essor"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://www.lessor.ml/posts/talhandak-et-menaka-des-frappes-ciblees-des-fama-neutralisent-plusieurs-terroristes-6ad9f214eafd5"
+    ],
+    "report_summaries": [
+      {
+        "url": "https://www.lessor.ml/posts/talhandak-et-menaka-des-frappes-ciblees-des-fama-neutralisent-plusieurs-terroristes-6ad9f214eafd5",
+        "source": "L'Essor",
+        "title": "Talhandak and Menaka. Targeted FAMa strikes neutralize several terrorists The General Staff of the Armed Forces informs the public...",
+        "summary": "In a press release published this Thursday, October 22, 2026, the General Staff of the Armed Forces informs that on Tuesday, October 20, 2026, in the Talhandak sector, the tracking of two motorcyclists made it possible to identify, about 3 km northwest of Talhandak, a point of regroupment of terrorist individuals with several motorcycles and trying to hide under a vegetal cover .",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "armed_group"
+        ],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      }
+    ],
+    "created_at": "2026-10-22T13:54:55.969818Z",
+    "updated_at": "2026-10-22T13:54:55.969818Z",
+    "extraction_confidence": "moderate",
+    "victim_categories": [
+      "armed_group"
+    ],
+    "civilian_targeting_flag": false,
+    "casualty_claims": [],
+    "fatalities_min": null,
+    "fatalities_max": null,
+    "fatalities_best": null,
+    "injured_min": null,
+    "injured_max": null,
+    "abducted_min": null,
+    "abducted_max": null,
+    "casualty_disputed": false,
+    "revision_history": [
+      {
+        "at": "2026-10-22T13:54:55.969818Z",
+        "type": "event_created",
+        "source": "L'Essor"
+      }
+    ],
+    "corroboration": "single-source",
+    "confidence": "moderate",
+    "independent_source_domains": [
+      "lessor.ml"
+    ],
+    "independent_source_count": 1,
+    "significance": "ROUTINE",
+    "significance_reasons": [
+      "limited currently observed significance"
+    ]
+  },
+  {
     "id": "539658491851ae2bd07705e1e53296dd259f1ce9",
     "event_date": "2026-10-22",
     "event_date_confidence": "explicit-text",
@@ -89,6 +286,310 @@
     "significance": "SIGNIFICANT",
     "significance_reasons": [
       "operational security event"
+    ]
+  },
+  {
+    "id": "b0bfdc9859d8b74cadfe09b63a27cee7709f656c",
+    "event_date": "2026-10-21",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "explicit-calendar-date",
+    "published_at": "2026-10-22T10:13:36Z",
+    "published_date_source": "jsonld:datePublished",
+    "published_time_precision": "datetime",
+    "collected_at": "2026-10-22T13:54:54.712896Z",
+    "actor": "State",
+    "perpetrator": "State",
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [
+      "State"
+    ],
+    "parent_report_id": null,
+    "event_type": "security operation",
+    "country": "Mali",
+    "city": "Ménaka",
+    "lat": 15.9182,
+    "lng": 2.4022,
+    "locations": [
+      {
+        "name": "Ménaka",
+        "country": "Mali",
+        "lat": 15.9182,
+        "lng": 2.4022,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "Operation Dougoukoloko: two targeted strikes in Talhandak and Menaka",
+    "summary": "SECURING the NATIONAL TERRITORY: THE FAMa STRIKE TWO TERRORIST TARGETS IN TALHANDAK and the MENAKA SECTOR Operation Dougoukoloko: the Malian Armed Forces continue their missions of surveillance and neutralization of threats with method, precision and determination. BAMADA.NET – The dynamics of securing the national territory continues in Mali . As part of Operation Dougoukoloko, the Malian Armed Forces (FAMa), with the support of their partners, maintain their surveillance, control and reconnaissance missions in several areas of the country .",
+    "sources": [
+      "Malijet",
+      "Bamada"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 2,
+    "report_urls": [
+      "https://malijet.com/actualte_dans_les_regions_du_mali/312449-operation-dougoukoloko-deux-frappes-ciblees-a-talhandak-et.html",
+      "https://bamada.net/mali-fama-frappes-talhandak-menaka-operation-dougoukoloko-octobre-2026"
+    ],
+    "report_summaries": [
+      {
+        "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312449-operation-dougoukoloko-deux-frappes-ciblees-a-talhandak-et.html",
+        "source": "Malijet",
+        "title": "Operation Dougoukoloko: two targeted strikes in Talhandak and Menaka",
+        "summary": "According to the General Staff, the FAMa and their allies carried out two surgical strikes in Talhandak and Menaka on 20 and 21 October 2026, as part of Operation Dougoukoloko . On Tuesday, October 20, the tracking of two motorcyclists made it possible to spot a group of individuals presented as terrorists, with several motorcycles, about three kilometers northwest of Talhandak.",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "armed_group"
+        ],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      },
+      {
+        "url": "https://bamada.net/mali-fama-frappes-talhandak-menaka-operation-dougoukoloko-octobre-2026",
+        "source": "Bamada",
+        "title": "Mali: FAMa strikes two terrorist targets in Talhandak and Menaka",
+        "summary": "SECURING the NATIONAL TERRITORY: THE FAMa STRIKE TWO TERRORIST TARGETS IN TALHANDAK and the MENAKA SECTOR Operation Dougoukoloko: the Malian Armed Forces continue their missions of surveillance and neutralization of threats with method, precision and determination. BAMADA.NET – The dynamics of securing the national territory continues in Mali . As part of Operation Dougoukoloko, the Malian Armed Forces (FAMa), with the support of their partners, maintain their surveillance, control and reconnaissance missions in several areas of the country .",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "armed_group"
+        ],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      }
+    ],
+    "created_at": "2026-10-22T13:54:54.712896Z",
+    "updated_at": "2026-10-22T13:54:55.155413Z",
+    "extraction_confidence": "moderate",
+    "victim_categories": [
+      "armed_group"
+    ],
+    "civilian_targeting_flag": false,
+    "casualty_claims": [],
+    "fatalities_min": null,
+    "fatalities_max": null,
+    "fatalities_best": null,
+    "injured_min": null,
+    "injured_max": null,
+    "abducted_min": null,
+    "abducted_max": null,
+    "casualty_disputed": false,
+    "revision_history": [
+      {
+        "at": "2026-10-22T13:54:54.712896Z",
+        "type": "event_created",
+        "source": "Malijet"
+      },
+      {
+        "at": "2026-10-22T13:54:55.155413Z",
+        "type": "corroboration_or_geography_update",
+        "source": "Bamada"
+      }
+    ],
+    "corroboration": "limited corroboration",
+    "confidence": "moderate",
+    "independent_source_domains": [
+      "malijet.com",
+      "bamada.net"
+    ],
+    "independent_source_count": 2,
+    "significance": "SIGNIFICANT",
+    "significance_reasons": [
+      "operational security event"
+    ]
+  },
+  {
+    "id": "b73127298a81d913c14f5d3fab0638b02931e96c",
+    "event_date": "2026-10-20",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "explicit-calendar-date",
+    "published_at": "2026-10-22T00:00:00Z",
+    "published_date_source": "visible-publication-label",
+    "published_time_precision": "date-only",
+    "collected_at": "2026-10-22T13:54:55.681935Z",
+    "actor": "State",
+    "perpetrator": "State",
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [
+      "State"
+    ],
+    "parent_report_id": null,
+    "event_type": "security operation",
+    "country": "Mali",
+    "city": null,
+    "lat": null,
+    "lng": null,
+    "locations": [],
+    "title": "Mali: The FAMa hit a group of motorcyclists in the Ouagadou forest",
+    "summary": "Mali: The FAMa hit a group of motorcyclists in the forest of Ouagadou The Malian Armed Forces (FAMa) announce that they carried out a targeted strike on Tuesday, October 20, 2026, against a group of more than a dozen motorcyclists spotted in the forest of Ouagadou, near the village of Ngoma Koura According to our colleagues in Maliweb who cite the General Staff of the Armed Forces, several terrorist elements were neutralized during this operation carried out as part of Operation Dougoukoloko.",
+    "sources": [
+      "LeFaso.net"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://lefaso.net/spip.php?article150124="
+    ],
+    "report_summaries": [
+      {
+        "url": "https://lefaso.net/spip.php?article150124=",
+        "source": "LeFaso.net",
+        "title": "Mali: The FAMa hit a group of motorcyclists in the Ouagadou forest",
+        "summary": "Mali: The FAMa hit a group of motorcyclists in the forest of Ouagadou The Malian Armed Forces (FAMa) announce that they carried out a targeted strike on Tuesday, October 20, 2026, against a group of more than a dozen motorcyclists spotted in the forest of Ouagadou, near the village of Ngoma Koura According to our colleagues in Maliweb who cite the General Staff of the Armed Forces, several terrorist elements were neutralized during this operation carried out as part of Operation Dougoukoloko.",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "armed_group"
+        ],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      }
+    ],
+    "created_at": "2026-10-22T13:54:55.681935Z",
+    "updated_at": "2026-10-22T13:54:55.681935Z",
+    "extraction_confidence": "moderate",
+    "victim_categories": [
+      "armed_group"
+    ],
+    "civilian_targeting_flag": false,
+    "casualty_claims": [],
+    "fatalities_min": null,
+    "fatalities_max": null,
+    "fatalities_best": null,
+    "injured_min": null,
+    "injured_max": null,
+    "abducted_min": null,
+    "abducted_max": null,
+    "casualty_disputed": false,
+    "revision_history": [
+      {
+        "at": "2026-10-22T13:54:55.681935Z",
+        "type": "event_created",
+        "source": "LeFaso.net"
+      }
+    ],
+    "corroboration": "single-source",
+    "confidence": "moderate",
+    "independent_source_domains": [
+      "lefaso.net"
+    ],
+    "independent_source_count": 1,
+    "significance": "SIGNIFICANT",
+    "significance_reasons": [
+      "operational security event"
+    ]
+  },
+  {
+    "id": "75b53fc07d4b150d0b461cfec3faca22feace149",
+    "event_date": "2026-10-20",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "explicit-calendar-date",
+    "published_at": "2026-10-22T09:25:10Z",
+    "published_date_source": "jsonld:datePublished",
+    "published_time_precision": "datetime",
+    "collected_at": "2026-10-22T13:54:55.210649Z",
+    "actor": "State",
+    "perpetrator": "State",
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [
+      "State"
+    ],
+    "parent_report_id": null,
+    "event_type": "security operation",
+    "country": "Mali",
+    "city": null,
+    "lat": null,
+    "lng": null,
+    "locations": [],
+    "title": "Mali: military operation targets' terrorists' near Ngoma Koura",
+    "summary": "A strike by the Malian Armed Forces targeted a gathering of motorcyclists in the Ouagadou forest. In addition, the Malian army is continuing its reconnaissance to establish the toll of the strike. The Malian Armed Forces (FAMa) announced that they had neutralized several fighters in a strike on Tuesday, October 20, 2026 near Ngoma Koura Indeed, according to the General Staff of the Armed Forces, the target was a group gathered under a tree in the forest of Ouagadou.",
+    "sources": [
+      "La Nouvelle Tribune (Bénin)"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://lanouvelletribune.info/2026/10/mali-une-operation-militaire-cible-des-terroristes-pres-de-ngoma-koura/"
+    ],
+    "report_summaries": [
+      {
+        "url": "https://lanouvelletribune.info/2026/10/mali-une-operation-militaire-cible-des-terroristes-pres-de-ngoma-koura/",
+        "source": "La Nouvelle Tribune (Bénin)",
+        "title": "Mali: military operation targets' terrorists' near Ngoma Koura",
+        "summary": "A strike by the Malian Armed Forces targeted a gathering of motorcyclists in the Ouagadou forest. In addition, the Malian army is continuing its reconnaissance to establish the toll of the strike. The Malian Armed Forces (FAMa) announced that they had neutralized several fighters in a strike on Tuesday, October 20, 2026 near Ngoma Koura Indeed, according to the General Staff of the Armed Forces, the target was a group gathered under a tree in the forest of Ouagadou.",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "armed_group"
+        ],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      }
+    ],
+    "created_at": "2026-10-22T13:54:55.210649Z",
+    "updated_at": "2026-10-22T13:54:55.210649Z",
+    "extraction_confidence": "moderate",
+    "victim_categories": [
+      "armed_group"
+    ],
+    "civilian_targeting_flag": false,
+    "casualty_claims": [],
+    "fatalities_min": null,
+    "fatalities_max": null,
+    "fatalities_best": null,
+    "injured_min": null,
+    "injured_max": null,
+    "abducted_min": null,
+    "abducted_max": null,
+    "casualty_disputed": false,
+    "revision_history": [
+      {
+        "at": "2026-10-22T13:54:55.210649Z",
+        "type": "event_created",
+        "source": "La Nouvelle Tribune (Bénin)"
+      }
+    ],
+    "corroboration": "single-source",
+    "confidence": "moderate",
+    "independent_source_domains": [
+      "lanouvelletribune.info"
+    ],
+    "independent_source_count": 1,
+    "significance": "ROUTINE",
+    "significance_reasons": [
+      "limited currently observed significance"
     ]
   },
   {
