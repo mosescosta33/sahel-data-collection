@@ -1,5 +1,95 @@
 [
   {
+    "id": "7348301dc5223f2c4906a9afd362a128634a2a4b",
+    "event_date": "2026-10-22",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "relative-weekday",
+    "published_at": "2026-10-22T09:23:21Z",
+    "published_date_source": "jsonld:datePublished",
+    "published_time_precision": "datetime",
+    "collected_at": "2026-10-22T20:16:55.373588Z",
+    "actor": "State",
+    "perpetrator": null,
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [],
+    "parent_report_id": null,
+    "event_type": "kidnapping",
+    "country": "Niger",
+    "city": null,
+    "lat": null,
+    "lng": null,
+    "locations": [],
+    "title": "Swiss and Austrian women in Libya after release from Niger kidnap ordeal",
+    "summary": "An Austrian and a Swiss women kidnapped in Niger more than a year and a half ago have been freed and are in Libya, Bern and Vienna announced Thursday. Sixty-nine-year-old Swiss national Claudia Abbt and 76-year-old Eva Gretzmacher arrived in the eastern city of Benghazi where they received medical treatment. Their release follows an intervention by Libyan military commander Khalifa Haftar, who controls the east and parts of the south of the country.",
+    "sources": [
+      "Africanews"
+    ],
+    "languages": [
+      "en"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://www.africanews.com/2026/10/22/swiss-and-austrian-women-in-libya-after-release-from-niger-kidnap-ordeal/"
+    ],
+    "report_summaries": [
+      {
+        "url": "https://www.africanews.com/2026/10/22/swiss-and-austrian-women-in-libya-after-release-from-niger-kidnap-ordeal/",
+        "source": "Africanews",
+        "title": "Swiss and Austrian women in Libya after release from Niger kidnap ordeal",
+        "summary": "An Austrian and a Swiss women kidnapped in Niger more than a year and a half ago have been freed and are in Libya, Bern and Vienna announced Thursday. Sixty-nine-year-old Swiss national Claudia Abbt and 76-year-old Eva Gretzmacher arrived in the eastern city of Benghazi where they received medical treatment. Their release follows an intervention by Libyan military commander Khalifa Haftar, who controls the east and parts of the south of the country.",
+        "summary_basis": "source-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "civilian",
+          "armed_group"
+        ],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      }
+    ],
+    "created_at": "2026-10-22T20:16:55.373588Z",
+    "updated_at": "2026-10-22T20:16:55.373588Z",
+    "extraction_confidence": "low",
+    "victim_categories": [
+      "civilian",
+      "armed_group"
+    ],
+    "civilian_targeting_flag": false,
+    "casualty_claims": [],
+    "fatalities_min": null,
+    "fatalities_max": null,
+    "fatalities_best": null,
+    "injured_min": null,
+    "injured_max": null,
+    "abducted_min": null,
+    "abducted_max": null,
+    "casualty_disputed": false,
+    "revision_history": [
+      {
+        "at": "2026-10-22T20:16:55.373588Z",
+        "type": "event_created",
+        "source": "Africanews"
+      }
+    ],
+    "corroboration": "single-source",
+    "confidence": "low",
+    "independent_source_domains": [
+      "africanews.com"
+    ],
+    "independent_source_count": 1,
+    "significance": "SIGNIFICANT",
+    "significance_reasons": [
+      "operational security event"
+    ]
+  },
+  {
     "id": "20ab2628f39ea4048cd411b7eb5c482964420fd3",
     "event_date": "2026-10-22",
     "event_date_confidence": "explicit-text",
@@ -3370,6 +3460,100 @@
     "significance_reasons": [
       "strategic/severe event pattern",
       "multi-location activity"
+    ]
+  },
+  {
+    "id": "6b387ef019e9ee48ee14f0c05d5a0d82a3ffdc17",
+    "event_date": "2026-10-16",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "explicit-calendar-date",
+    "published_at": "2026-10-22T14:56:09Z",
+    "published_date_source": "feed",
+    "published_time_precision": "datetime",
+    "collected_at": "2026-10-22T20:16:53.028229Z",
+    "actor": "State",
+    "perpetrator": null,
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [
+      "State"
+    ],
+    "parent_report_id": null,
+    "event_type": "clash",
+    "country": "Mali",
+    "city": "Bamako",
+    "lat": 12.6392,
+    "lng": -8.0029,
+    "locations": [
+      {
+        "name": "Bamako",
+        "country": "Mali",
+        "lat": 12.6392,
+        "lng": -8.0029,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "Arm of iron in Bamako: Seydou \"Solution\" against Mohamed \"Lil Bougou\", a contract signed on October 16",
+    "summary": "The Malian sports arm wrestling federation recorded, on October 16, 2026, the signing of the contract for a fight between Seydou, known as \"Solution\", and Mohamed, known as \"Lil Bougou\". The two practitioners received a preparation bonus of 500,000 CFA francs each. The meeting, the date of which remains to be communicated, also provides for a bonus for the winner, the amount of which has not been made public .",
+    "sources": [
+      "Bamada"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://bamada.net/bras-de-fer-a-bamako-seydou-solution-face-a-mohamed-lil-bougou-un-contrat-signe-le-16-octobre"
+    ],
+    "report_summaries": [
+      {
+        "url": "https://bamada.net/bras-de-fer-a-bamako-seydou-solution-face-a-mohamed-lil-bougou-un-contrat-signe-le-16-octobre",
+        "source": "Bamada",
+        "title": "Arm of iron in Bamako: Seydou \"Solution\" against Mohamed \"Lil Bougou\", a contract signed on October 16",
+        "summary": "The Malian sports arm wrestling federation recorded, on October 16, 2026, the signing of the contract for a fight between Seydou, known as \"Solution\", and Mohamed, known as \"Lil Bougou\". The two practitioners received a preparation bonus of 500,000 CFA francs each. The meeting, the date of which remains to be communicated, also provides for a bonus for the winner, the amount of which has not been made public .",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      }
+    ],
+    "created_at": "2026-10-22T20:16:53.028229Z",
+    "updated_at": "2026-10-22T20:16:53.028229Z",
+    "extraction_confidence": "low",
+    "victim_categories": [],
+    "civilian_targeting_flag": false,
+    "casualty_claims": [],
+    "fatalities_min": null,
+    "fatalities_max": null,
+    "fatalities_best": null,
+    "injured_min": null,
+    "injured_max": null,
+    "abducted_min": null,
+    "abducted_max": null,
+    "casualty_disputed": false,
+    "revision_history": [
+      {
+        "at": "2026-10-22T20:16:53.028229Z",
+        "type": "event_created",
+        "source": "Bamada"
+      }
+    ],
+    "corroboration": "single-source",
+    "confidence": "low",
+    "independent_source_domains": [
+      "bamada.net"
+    ],
+    "independent_source_count": 1,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "strategic/severe event pattern"
     ]
   },
   {
