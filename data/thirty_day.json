@@ -1,52 +1,52 @@
 {
-  "generated_at": "2026-10-21T23:29:36.015321Z",
+  "generated_at": "2026-10-22T05:01:37.964908Z",
   "window_days": 30,
-  "cutoff": "2026-09-21",
-  "reports": 566,
-  "incident_reports": 137,
-  "candidate_events": 96,
+  "cutoff": "2026-09-22",
+  "reports": 572,
+  "incident_reports": 139,
+  "candidate_events": 94,
   "corroborated_events": 25,
-  "mapped_events": 79,
-  "mapped_locations": 148,
+  "mapped_events": 77,
+  "mapped_locations": 141,
   "distinct_sources": 84,
   "by_actor": {
-    "State": 57,
+    "State": 54,
     "JNIM": 16,
     "Other": 14,
     "Africa Corps/Wagner": 8,
-    "IS Sahel": 1
+    "IS Sahel": 2
   },
   "by_country": {
-    "Mali": 87,
-    "Niger": 6,
+    "Mali": 84,
+    "Niger": 7,
     "Burkina Faso": 3
   },
   "by_event_type": {
-    "security operation": 39,
-    "offensive/campaign": 16,
+    "security operation": 37,
+    "offensive/campaign": 15,
     "clash": 13,
     "attack": 12,
     "civilian targeting": 7,
+    "kidnapping": 4,
     "ambush": 3,
-    "kidnapping": 3,
     "raid": 3
   },
   "by_language": {
-    "fr": 426,
-    "en": 107,
+    "fr": 431,
+    "en": 108,
     "ar": 33
   },
   "by_confidence": {
-    "low": 44,
-    "moderate": 44,
-    "moderate-high": 7,
+    "low": 45,
+    "moderate": 42,
+    "moderate-high": 6,
     "high": 1
   },
   "top_sources": [
     {
       "source_code": "SRC-0008",
       "source": "Bamada",
-      "count": 82
+      "count": 85
     },
     {
       "source_code": "SRC-0006",
@@ -71,7 +71,7 @@
     {
       "source_code": "SRC-0121",
       "source": "AllAfrica (English Edition)",
-      "count": 19
+      "count": 20
     },
     {
       "source_code": "SRC-0092",
@@ -107,7 +107,7 @@
   "top_locations": [
     {
       "location": "Kidal",
-      "count": 35
+      "count": 34
     },
     {
       "location": "Bamako",
@@ -134,32 +134,27 @@
       "count": 10
     },
     {
-      "location": "Tessalit",
-      "count": 7
-    },
-    {
       "location": "Timbuktu",
       "count": 7
     },
     {
-      "location": "Dioura",
-      "count": 5
+      "location": "Tessalit",
+      "count": 6
     },
     {
-      "location": "Djenné",
+      "location": "Dioura",
       "count": 4
     },
     {
       "location": "Niono",
       "count": 4
+    },
+    {
+      "location": "Djenné",
+      "count": 3
     }
   ],
   "daily": [
-    {
-      "date": "2026-09-22",
-      "reports": 15,
-      "events": 1
-    },
     {
       "date": "2026-09-23",
       "reports": 6,
@@ -302,11 +297,224 @@
     },
     {
       "date": "2026-10-21",
-      "reports": 39,
+      "reports": 40,
       "events": 0
+    },
+    {
+      "date": "2026-10-22",
+      "reports": 6,
+      "events": 1
     }
   ],
   "latest_events": [
+    {
+      "id": "539658491851ae2bd07705e1e53296dd259f1ce9",
+      "event_date": "2026-10-22",
+      "event_date_confidence": "explicit-text",
+      "event_date_source": "explicit-date-no-year",
+      "published_at": "2026-10-21T23:25:46Z",
+      "published_date_source": "opengraph",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-22T05:00:29.603739Z",
+      "actor": "IS Sahel",
+      "perpetrator": null,
+      "target": null,
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [],
+      "parent_report_id": null,
+      "event_type": "kidnapping",
+      "country": "Niger",
+      "city": "Agadez",
+      "lat": 16.9733,
+      "lng": 7.9911,
+      "locations": [
+        {
+          "name": "Agadez",
+          "country": "Niger",
+          "lat": 16.9733,
+          "lng": 7.9911,
+          "confidence": "explicit-place"
+        }
+      ],
+      "title": "Niger-Libya: Eva Gretzmacher and Claudia Abbt released and arrived in Benghazi",
+      "summary": "Austria's Eva Gretzmacher and Switzerland's Claudia Abbt, kidnapped separately in Agadez in 2025, were released and arrived in Benghazi, eastern Libya, on Wednesday, 21 October. Their submission to the Austrian and Swiss authorities must take place after the completion of the necessary formalities . According to our information, a plane was to leave Benghazi on Thursday, October 22, stop in Vienna to hand over Eva Gretzmacher to the Austrian authorities, then continue to Switzerland with Claudia Abbt.",
+      "sources": [
+        "Aïr Info"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://airinfoagadez.com/2026/10/22/niger-libye-eva-gretzmacher-et-claudia-abbt-liberees-et-arrivees-a-benghazi/"
+      ],
+      "report_summaries": [
+        {
+          "url": "https://airinfoagadez.com/2026/10/22/niger-libye-eva-gretzmacher-et-claudia-abbt-liberees-et-arrivees-a-benghazi/",
+          "source": "Aïr Info",
+          "title": "Niger-Libya: Eva Gretzmacher and Claudia Abbt released and arrived in Benghazi",
+          "summary": "Austria's Eva Gretzmacher and Switzerland's Claudia Abbt, kidnapped separately in Agadez in 2025, were released and arrived in Benghazi, eastern Libya, on Wednesday, 21 October. Their submission to the Austrian and Swiss authorities must take place after the completion of the necessary formalities . According to our information, a plane was to leave Benghazi on Thursday, October 22, stop in Vienna to hand over Eva Gretzmacher to the Austrian authorities, then continue to Switzerland with Claudia Abbt.",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [],
+          "civilian_targeting_flag": false,
+          "casualty_claims": []
+        }
+      ],
+      "created_at": "2026-10-22T05:00:29.603739Z",
+      "updated_at": "2026-10-22T05:00:29.603739Z",
+      "extraction_confidence": "low",
+      "victim_categories": [],
+      "civilian_targeting_flag": false,
+      "casualty_claims": [],
+      "fatalities_min": null,
+      "fatalities_max": null,
+      "fatalities_best": null,
+      "injured_min": null,
+      "injured_max": null,
+      "abducted_min": null,
+      "abducted_max": null,
+      "casualty_disputed": false,
+      "revision_history": [
+        {
+          "at": "2026-10-22T05:00:29.603739Z",
+          "type": "event_created",
+          "source": "Aïr Info"
+        }
+      ],
+      "corroboration": "single-source",
+      "confidence": "low",
+      "independent_source_domains": [
+        "airinfoagadez.com"
+      ],
+      "independent_source_count": 1,
+      "significance": "SIGNIFICANT",
+      "significance_reasons": [
+        "operational security event"
+      ]
+    },
+    {
+      "id": "8b4addb630b8629939b89d8e70a9e0bfc7733c57",
+      "event_date": "2026-10-20",
+      "event_date_confidence": "explicit-text",
+      "event_date_source": "explicit-calendar-date",
+      "published_at": "2026-10-21T10:31:17Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-21T13:56:13.696378Z",
+      "actor": "State",
+      "perpetrator": "State",
+      "target": null,
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [
+        "State"
+      ],
+      "parent_report_id": null,
+      "event_type": "security operation",
+      "country": "Mali",
+      "city": null,
+      "lat": null,
+      "lng": null,
+      "locations": [],
+      "title": "Operation Dougoukoloko: several fighters neutralized in the Ouagadou forest",
+      "summary": "Thanks to the use of precise intelligence, the Malian Armed Forces continue their missions of surveillance and security of the national territory image illustration The Malian Armed Forces (FAMa) continue their operations of surveillance, reconnaissance and security of the national territory as part of Operation Dougoukoloko . On Tuesday, October 20, 2026, the exploitation of precise information allowed the units involved to locate a group of motorcyclists in the Ouagadou forest, near the village of Ngoma Koura.",
+      "sources": [
+        "Malijet",
+        "Bamada"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "source_count": 2,
+      "report_urls": [
+        "https://malijet.com/actualte_dans_les_regions_du_mali/312437-operation-dougoukoloko-plusieurs-combattants-neutralises-d.html",
+        "https://bamada.net/operation-dougoukoloko-les-fama-frappent-une-position-terroriste-dans-la-foret-de-ouagadou"
+      ],
+      "report_summaries": [
+        {
+          "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312437-operation-dougoukoloko-plusieurs-combattants-neutralises-d.html",
+          "source": "Malijet",
+          "title": "Operation Dougoukoloko: several fighters neutralized in the Ouagadou forest",
+          "summary": "Operation Dougoukoloko: several neutralized fighters in the forest of Ouagadou On Tuesday, October 20, 2026, the Malian Armed Forces (FAMa) struck a group of motorcyclists spotted in the forest of Ouagadou, near the village of Ngoma Koura. According to the General Staff of the Armed Forces, several terrorist elements were neutralized during this operation . This action is part of Operation Dougoukoloko, conducted to strengthen the surveillance and security of the national territory.",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "armed_group"
+          ],
+          "civilian_targeting_flag": false,
+          "casualty_claims": []
+        },
+        {
+          "url": "https://bamada.net/operation-dougoukoloko-les-fama-frappent-une-position-terroriste-dans-la-foret-de-ouagadou",
+          "source": "Bamada",
+          "title": "Operation Dougoukoloko: the FAMa strike a terrorist position in the Ouagadou forest",
+          "summary": "Thanks to the use of precise intelligence, the Malian Armed Forces continue their missions of surveillance and security of the national territory image illustration The Malian Armed Forces (FAMa) continue their operations of surveillance, reconnaissance and security of the national territory as part of Operation Dougoukoloko . On Tuesday, October 20, 2026, the exploitation of precise information allowed the units involved to locate a group of motorcyclists in the Ouagadou forest, near the village of Ngoma Koura.",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "armed_group"
+          ],
+          "civilian_targeting_flag": false,
+          "casualty_claims": []
+        }
+      ],
+      "created_at": "2026-10-21T13:56:13.696378Z",
+      "updated_at": "2026-10-22T05:00:25.941370Z",
+      "extraction_confidence": "moderate",
+      "victim_categories": [
+        "armed_group"
+      ],
+      "civilian_targeting_flag": false,
+      "casualty_claims": [],
+      "fatalities_min": null,
+      "fatalities_max": null,
+      "fatalities_best": null,
+      "injured_min": null,
+      "injured_max": null,
+      "abducted_min": null,
+      "abducted_max": null,
+      "casualty_disputed": false,
+      "revision_history": [
+        {
+          "at": "2026-10-21T13:56:13.696378Z",
+          "type": "event_created",
+          "source": "Malijet"
+        },
+        {
+          "at": "2026-10-22T05:00:25.941370Z",
+          "type": "corroboration_or_geography_update",
+          "source": "Bamada"
+        }
+      ],
+      "corroboration": "limited corroboration",
+      "confidence": "moderate",
+      "independent_source_domains": [
+        "malijet.com",
+        "bamada.net"
+      ],
+      "independent_source_count": 2,
+      "significance": "SIGNIFICANT",
+      "significance_reasons": [
+        "operational security event"
+      ]
+    },
     {
       "id": "e797b05d6a5b56164863f21770a5133e03be85f6",
       "event_date": "2026-10-20",
@@ -538,96 +746,6 @@
       "confidence": "moderate",
       "independent_source_domains": [
         "bamada.net"
-      ],
-      "independent_source_count": 1,
-      "significance": "ROUTINE",
-      "significance_reasons": [
-        "limited currently observed significance"
-      ]
-    },
-    {
-      "id": "8b4addb630b8629939b89d8e70a9e0bfc7733c57",
-      "event_date": "2026-10-20",
-      "event_date_confidence": "explicit-text",
-      "event_date_source": "explicit-calendar-date",
-      "published_at": "2026-10-21T10:31:17Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-21T13:56:13.696378Z",
-      "actor": "State",
-      "perpetrator": "State",
-      "target": null,
-      "claimant": null,
-      "supporting_force": null,
-      "mentioned_actors": [
-        "State"
-      ],
-      "parent_report_id": null,
-      "event_type": "security operation",
-      "country": "Mali",
-      "city": null,
-      "lat": null,
-      "lng": null,
-      "locations": [],
-      "title": "Operation Dougoukoloko: several fighters neutralized in the Ouagadou forest",
-      "summary": "Operation Dougoukoloko: several neutralized fighters in the forest of Ouagadou On Tuesday, October 20, 2026, the Malian Armed Forces (FAMa) struck a group of motorcyclists spotted in the forest of Ouagadou, near the village of Ngoma Koura. According to the General Staff of the Armed Forces, several terrorist elements were neutralized during this operation . This action is part of Operation Dougoukoloko, conducted to strengthen the surveillance and security of the national territory.",
-      "sources": [
-        "Malijet"
-      ],
-      "languages": [
-        "fr"
-      ],
-      "source_count": 1,
-      "report_urls": [
-        "https://malijet.com/actualte_dans_les_regions_du_mali/312437-operation-dougoukoloko-plusieurs-combattants-neutralises-d.html"
-      ],
-      "report_summaries": [
-        {
-          "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312437-operation-dougoukoloko-plusieurs-combattants-neutralises-d.html",
-          "source": "Malijet",
-          "title": "Operation Dougoukoloko: several fighters neutralized in the Ouagadou forest",
-          "summary": "Operation Dougoukoloko: several neutralized fighters in the forest of Ouagadou On Tuesday, October 20, 2026, the Malian Armed Forces (FAMa) struck a group of motorcyclists spotted in the forest of Ouagadou, near the village of Ngoma Koura. According to the General Staff of the Armed Forces, several terrorist elements were neutralized during this operation . This action is part of Operation Dougoukoloko, conducted to strengthen the surveillance and security of the national territory.",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "armed_group"
-          ],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        }
-      ],
-      "created_at": "2026-10-21T13:56:13.696378Z",
-      "updated_at": "2026-10-21T13:56:13.696378Z",
-      "extraction_confidence": "moderate",
-      "victim_categories": [
-        "armed_group"
-      ],
-      "civilian_targeting_flag": false,
-      "casualty_claims": [],
-      "fatalities_min": null,
-      "fatalities_max": null,
-      "fatalities_best": null,
-      "injured_min": null,
-      "injured_max": null,
-      "abducted_min": null,
-      "abducted_max": null,
-      "casualty_disputed": false,
-      "revision_history": [
-        {
-          "at": "2026-10-21T13:56:13.696378Z",
-          "type": "event_created",
-          "source": "Malijet"
-        }
-      ],
-      "corroboration": "single-source",
-      "confidence": "moderate",
-      "independent_source_domains": [
-        "malijet.com"
       ],
       "independent_source_count": 1,
       "significance": "ROUTINE",
@@ -3979,137 +4097,135 @@
       "significance_reasons": [
         "limited currently observed significance"
       ]
-    },
-    {
-      "id": "54bbc88b408a6dcbbc3806a87220f81a83a94e2f",
-      "event_date": "2026-10-12",
-      "event_date_confidence": "explicit-text",
-      "event_date_source": "explicit-calendar-date",
-      "published_at": "2026-10-14T02:25:37Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-14T04:53:26.445433Z",
-      "actor": "JNIM",
-      "perpetrator": null,
-      "target": null,
-      "claimant": null,
-      "supporting_force": null,
-      "mentioned_actors": [
-        "State",
-        "JNIM"
-      ],
-      "parent_report_id": null,
-      "event_type": "clash",
-      "country": "Mali",
-      "city": "Ségou",
-      "lat": 13.4317,
-      "lng": -6.2157,
-      "locations": [
-        {
-          "name": "Ségou",
-          "country": "Mali",
-          "lat": 13.4317,
-          "lng": -6.2157,
-          "confidence": "explicit-place"
-        }
-      ],
-      "title": "Mali: at least eight women and children killed by army shelling in the Ségou region",
-      "summary": "In Mali, at least eight people, mostly women and children, were killed on Monday, October 12, 2026 in aerial bombardments in Zanakoro, a Fulani village in the Ségou region. The Malian army, which is fighting in this part of the country the jihadists of Jnim, linked to al-Qaeda, did not communicate on these strikes . Published on: On the images broadcast by the villagers, burnt babies lose their skin by shreds.",
-      "sources": [
-        "RFI Afrique",
-        "AllAfrica (Édition Française)"
-      ],
-      "languages": [
-        "fr"
-      ],
-      "source_count": 2,
-      "report_urls": [
-        "https://www.rfi.fr/fr/afrique/20261014-mali-au-moins-huit-femmes-et-enfants-tu%C3%A9s-par-des-bombardements-de-l-arm%C3%A9e-dans-la-r%C3%A9gion-de-s%C3%A9gou",
-        "https://fr.allafrica.com/stories/202610140178.html"
-      ],
-      "report_summaries": [
-        {
-          "url": "https://www.rfi.fr/fr/afrique/20261014-mali-au-moins-huit-femmes-et-enfants-tu%C3%A9s-par-des-bombardements-de-l-arm%C3%A9e-dans-la-r%C3%A9gion-de-s%C3%A9gou",
-          "source": "RFI Afrique",
-          "title": "Mali: at least eight women and children killed by army shelling in the Ségou region",
-          "summary": "In Mali, at least eight people, mostly women and children, were killed on Monday, October 12, 2026 in aerial bombardments in Zanakoro, a Fulani village in the Ségou region. The Malian army, which is fighting in this part of the country the jihadists of Jnim, linked to al-Qaeda, did not communicate on these strikes . Published on: On the images broadcast by the villagers, burnt babies lose their skin by shreds.",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "civilian",
-            "armed_group"
-          ],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        },
-        {
-          "url": "https://fr.allafrica.com/stories/202610140178.html",
-          "source": "AllAfrica (Édition Française)",
-          "title": "Mali: At least eight women and children killed by army shelling in Ségou region",
-          "summary": "In Mali, at least eight people, mostly women and children, were killed on Monday, October 12, 2026 in aerial bombardments in Zanakoro, a Fulani village in the Ségou region. The Malian army, which is fighting in this part of the country the jihadists of Jnim, linked to al-Qaeda, did not communicate about these strikes. On the images broadcast by the villagers, burnt babies lose their skin by shreds .",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "civilian",
-            "armed_group"
-          ],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        }
-      ],
-      "created_at": "2026-10-14T04:53:26.445433Z",
-      "updated_at": "2026-10-14T13:03:31.490935Z",
-      "extraction_confidence": "low",
-      "victim_categories": [
-        "civilian",
-        "armed_group"
-      ],
-      "civilian_targeting_flag": false,
-      "casualty_claims": [],
-      "fatalities_min": null,
-      "fatalities_max": null,
-      "fatalities_best": null,
-      "injured_min": null,
-      "injured_max": null,
-      "abducted_min": null,
-      "abducted_max": null,
-      "casualty_disputed": false,
-      "revision_history": [
-        {
-          "at": "2026-10-14T04:53:26.445433Z",
-          "type": "event_created",
-          "source": "RFI Afrique"
-        },
-        {
-          "at": "2026-10-14T13:03:31.490935Z",
-          "type": "corroboration_or_geography_update",
-          "source": "AllAfrica (Édition Française)"
-        }
-      ],
-      "corroboration": "limited corroboration",
-      "confidence": "moderate",
-      "independent_source_domains": [
-        "rfi.fr",
-        "fr.allafrica.com"
-      ],
-      "independent_source_count": 2,
-      "significance": "SIGNIFICANT",
-      "significance_reasons": [
-        "operational security event"
-      ]
     }
   ],
   "latest_reports": [
+    {
+      "published_at": "2026-10-22T04:52:32Z",
+      "published_date_source": "opengraph",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-22T05:00:29.275869Z",
+      "discovered_at": "2026-10-22T05:00:29.275869Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0121",
+      "source": "AllAfrica (English Edition)",
+      "language": "en",
+      "actor": "Africa Corps/Wagner",
+      "country": "Niger",
+      "city": "Niamey",
+      "event_type": "political/security policy",
+      "candidate_event": false,
+      "title": "Mali: The Palace Guard Against the Trenches - What the Mutiny in Niamey Revealed (African Arguments)",
+      "url": "https://allafrica.com/stories/202610220013.html"
+    },
+    {
+      "published_at": "2026-10-22T01:22:41Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-22T05:00:25.941370Z",
+      "discovered_at": "2026-10-22T05:00:25.941370Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0008",
+      "source": "Bamada",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": null,
+      "event_type": "security operation",
+      "candidate_event": true,
+      "title": "Operation Dougoukoloko: the FAMa strike a terrorist position in the Ouagadou forest",
+      "url": "https://bamada.net/operation-dougoukoloko-les-fama-frappent-une-position-terroriste-dans-la-foret-de-ouagadou"
+    },
+    {
+      "published_at": "2026-10-22T01:19:02Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-22T05:00:25.694646Z",
+      "discovered_at": "2026-10-22T05:00:25.694646Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0008",
+      "source": "Bamada",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Bandiagara",
+      "event_type": "political/security policy",
+      "candidate_event": false,
+      "title": "Mali: Youssouf Toloba and Dan Na Ambassagou reaffirm their commitment to the homeland, peace and national unity",
+      "url": "https://bamada.net/youssouf-toloba-dan-na-ambassagou-paix-securite-mali"
+    },
+    {
+      "published_at": "2026-10-22T01:15:49Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-22T05:00:29.558266Z",
+      "discovered_at": "2026-10-22T05:00:29.558266Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0124",
+      "source": "News Central TV (Nigeria)",
+      "language": "en",
+      "actor": "State",
+      "country": "Niger",
+      "city": null,
+      "event_type": "kidnapping",
+      "candidate_event": false,
+      "title": "Two European Hostages Freed in Niger",
+      "url": "https://newscentraltv.com/two-european-hostages-freed-in-niger/"
+    },
+    {
+      "published_at": "2026-10-22T00:59:56Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-22T05:00:26.133899Z",
+      "discovered_at": "2026-10-22T05:00:26.133899Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0008",
+      "source": "Bamada",
+      "language": "fr",
+      "actor": null,
+      "country": "Niger",
+      "city": "Niamey",
+      "event_type": "political/security policy",
+      "candidate_event": false,
+      "title": "Niger-Algeria military cooperation: a new strategic partnership for the security of the Sahel and regional sovereignty",
+      "url": "https://bamada.net/cooperation-militaire-niger-algerie-securite-sahel-copier-le-slug"
+    },
+    {
+      "published_at": "2026-10-22T00:01:46Z",
+      "published_date_source": "html:time",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-22T05:00:27.349266Z",
+      "discovered_at": "2026-10-22T05:00:27.349266Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0012",
+      "source": "Sidwaya",
+      "language": "fr",
+      "actor": "State",
+      "country": "Burkina Faso",
+      "city": "Ouagadougou",
+      "event_type": "political/security policy",
+      "candidate_event": false,
+      "title": "Military cooperation: a delegation of the Turkish gendarmerie in immersion at the gendarmerie of Burkina",
+      "url": "https://www.sidwaya.info/2026/10/22/cooperation-militaire-une-delegation-de-la-gendarmerie-turque-en-immersion-a-la-gendarmerie-du-burkina/"
+    },
+    {
+      "published_at": "2026-10-21T23:25:46Z",
+      "published_date_source": "opengraph",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-22T05:00:29.603739Z",
+      "discovered_at": "2026-10-22T05:00:29.603739Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0018",
+      "source": "Aïr Info",
+      "language": "fr",
+      "actor": "IS Sahel",
+      "country": "Niger",
+      "city": "Agadez",
+      "event_type": "kidnapping",
+      "candidate_event": true,
+      "title": "Niger-Libya: Eva Gretzmacher and Claudia Abbt released and arrived in Benghazi",
+      "url": "https://airinfoagadez.com/2026/10/22/niger-libye-eva-gretzmacher-et-claudia-abbt-liberees-et-arrivees-a-benghazi/"
+    },
     {
       "published_at": "2026-10-21T22:05:13Z",
       "published_date_source": "feed",
@@ -4703,132 +4819,6 @@
       "candidate_event": false,
       "title": "Burkina Faso: The new Penal Code reintroduces the death penalty for certain offences",
       "url": "https://burkina24.com/2026/10/21/burkina-faso-le-nouveau-code-penal-reintroduit-la-peine-de-mort-pour-certaines-infractions/"
-    },
-    {
-      "published_at": "2026-10-21T08:17:01Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-21T13:56:17.503971Z",
-      "discovered_at": "2026-10-21T13:56:17.503971Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0008",
-      "source": "Bamada",
-      "language": "fr",
-      "actor": null,
-      "country": "Burkina Faso",
-      "city": null,
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Burkina Faso adopts a new penal code reinstating the death penalty",
-      "url": "https://bamada.net/le-burkina-faso-adopte-un-nouveau-code-penal-retablissant-la-peine-de-mort"
-    },
-    {
-      "published_at": "2026-10-21T08:11:51Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-21T13:56:15.236627Z",
-      "discovered_at": "2026-10-21T13:56:15.236627Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0075",
-      "source": "AMAP (Agence Malienne de Presse et de Publicité)",
-      "language": "fr",
-      "actor": null,
-      "country": "Mali",
-      "city": "Bamako",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Kenya: Paul Mackenzie and 28 other defendants convicted for the murder of 192 children and one adult",
-      "url": "https://amap.ml/2026/10/21/kenya-paul-mackenzie-et-28-autres-accuses-condamnes-pour-le-meurtre-de-192-enfants-et-dun-adulte/"
-    },
-    {
-      "published_at": "2026-10-21T07:31:25Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-21T13:56:18.769176Z",
-      "discovered_at": "2026-10-21T13:56:18.769176Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0034",
-      "source": "TV5MONDE Afrique",
-      "language": "fr",
-      "actor": null,
-      "country": "Mali",
-      "city": "Bamako",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Image Published on October 21, 2026 Africa Burkina Faso: the death penalty reinstated by the military government of Ibrahim Traoré eight years after its abolition Burkina Faso reinstated, on Tuesday, October 21, the death penalty, abolished in 2018, in a new Penal Code, voted unanimously by the 71 non-member...",
-      "url": "https://information.tv5monde.com/afrique/burkina-faso-la-peine-de-mort-retablie-par-le-gouvernement-militaire-dibrahim-traore-huit-ans-apres-son-abolition-2842507"
-    },
-    {
-      "published_at": "2026-10-21T07:20:21Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-21T13:56:17.209948Z",
-      "discovered_at": "2026-10-21T13:56:17.209948Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0003",
-      "source": "Jeune Afrique",
-      "language": "fr",
-      "actor": null,
-      "country": "Burkina Faso",
-      "city": null,
-      "event_type": null,
-      "candidate_event": false,
-      "title": "\"Sentimentalism is over\": in Burkina Faso, Ibrahim Traoré reinstates the death penalty",
-      "url": "https://www.jeuneafrique.com/1854304/politique/le-sentimentalisme-cest-fini-au-burkina-faso-ibrahim-traore-retablit-la-peine-de-mort/"
-    },
-    {
-      "published_at": "2026-10-21T01:33:15Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-21T05:02:25.528647Z",
-      "discovered_at": "2026-10-21T05:02:25.528647Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0008",
-      "source": "Bamada",
-      "language": "fr",
-      "actor": "State",
-      "country": "Mali",
-      "city": null,
-      "event_type": "clash",
-      "candidate_event": false,
-      "title": "MALI: 724 NEW RECRUITS UNDER THE FLAG AT SÉNOU AIR BASE 101, THE 2025 CONTINGENT READY TO PROTECT THE NATION",
-      "url": "https://bamada.net/mali-724-nouvelles-recrues-sous-le-drapeau-a-la-base-aerienne-101-de-senou-le-contingent-2025-pret-a-proteger-la-nation"
-    },
-    {
-      "published_at": "2026-10-21T00:00:00Z",
-      "published_date_source": "visible-publication-label",
-      "published_time_precision": "date-only",
-      "collected_at": "2026-10-21T20:18:21.098871Z",
-      "discovered_at": "2026-10-21T20:18:21.098871Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0011",
-      "source": "LeFaso.net",
-      "language": "fr",
-      "actor": "State",
-      "country": "Burkina Faso",
-      "city": "Ouagadougou",
-      "event_type": "political/security policy",
-      "candidate_event": false,
-      "title": "Military cooperation: Burkina Faso and Türkiye explore new avenues for collaboration between their gendarmeries",
-      "url": "https://lefaso.net/spip.php?article150104="
-    },
-    {
-      "published_at": "2026-10-20T23:35:46Z",
-      "published_date_source": "html:time",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-21T05:02:23.365310Z",
-      "discovered_at": "2026-10-21T05:02:23.365310Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0012",
-      "source": "Sidwaya",
-      "language": "fr",
-      "actor": null,
-      "country": "Burkina Faso",
-      "city": "Ouagadougou",
-      "event_type": "political/security policy",
-      "candidate_event": false,
-      "title": "66th anniversary of the National Armed Forces: a popular cross-country to kick off the festivities",
-      "url": "https://www.sidwaya.info/2026/10/20/66e-anniversaire-des-forces-armees-nationales-un-cross-populaire-pour-lancer-les-festivites/"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
