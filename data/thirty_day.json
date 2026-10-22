@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-22T20:18:40.683148Z",
+  "generated_at": "2026-10-22T23:30:53.071401Z",
   "window_days": 30,
   "cutoff": "2026-09-22",
-  "reports": 590,
+  "reports": 592,
   "incident_reports": 145,
   "candidate_events": 101,
   "corroborated_events": 26,
@@ -33,7 +33,7 @@
   },
   "by_language": {
     "fr": 448,
-    "en": 109,
+    "en": 111,
     "ar": 33
   },
   "by_confidence": {
@@ -46,12 +46,12 @@
     {
       "source_code": "SRC-0008",
       "source": "Bamada",
-      "count": 88
+      "count": 89
     },
     {
       "source_code": "SRC-0006",
       "source": "Malijet",
-      "count": 63
+      "count": 64
     },
     {
       "source_code": "SRC-0090",
@@ -59,14 +59,14 @@
       "count": 24
     },
     {
-      "source_code": "SRC-0075",
-      "source": "AMAP (Agence Malienne de Presse et de Publicité)",
-      "count": 23
-    },
-    {
       "source_code": "SRC-0001",
       "source": "RFI Afrique",
       "count": 22
+    },
+    {
+      "source_code": "SRC-0075",
+      "source": "AMAP (Agence Malienne de Presse et de Publicité)",
+      "count": 21
     },
     {
       "source_code": "SRC-0121",
@@ -292,7 +292,7 @@
     },
     {
       "date": "2026-10-20",
-      "reports": 42,
+      "reports": 43,
       "events": 7
     },
     {
@@ -302,7 +302,7 @@
     },
     {
       "date": "2026-10-22",
-      "reports": 36,
+      "reports": 39,
       "events": 4
     }
   ],
@@ -3982,6 +3982,42 @@
   ],
   "latest_reports": [
     {
+      "published_at": "2026-10-22T22:10:18Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-22T23:30:04.636879Z",
+      "discovered_at": "2026-10-22T23:30:04.636879Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0124",
+      "source": "News Central TV (Nigeria)",
+      "language": "en",
+      "actor": null,
+      "country": "Niger",
+      "city": "Agadez",
+      "event_type": "kidnapping",
+      "candidate_event": false,
+      "title": "Two European Women Freed After Kidnap in Niger",
+      "url": "https://newscentraltv.com/two-european-women-freed-after-kidnap-in-niger/"
+    },
+    {
+      "published_at": "2026-10-22T20:08:20Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-22T23:30:02.823471Z",
+      "discovered_at": "2026-10-22T23:30:02.823471Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0008",
+      "source": "Bamada",
+      "language": "fr",
+      "actor": null,
+      "country": "Burkina Faso",
+      "city": null,
+      "event_type": "kidnapping",
+      "candidate_event": false,
+      "title": "Burkina: what the new Penal Code says",
+      "url": "https://bamada.net/burkina-ce-que-dit-le-nouveau-code-penal"
+    },
+    {
       "published_at": "2026-10-22T17:58:29Z",
       "published_date_source": "jsonld:datePublished",
       "published_time_precision": "datetime",
@@ -3998,6 +4034,24 @@
       "candidate_event": false,
       "title": "Niger and Algeria sign a memorandum of understanding in the field of military cooperation",
       "url": "https://www.seneweb.com/fr/news/Afrique/le-niger-et-lalgerie-signent-un-protocole-daccord-dans-le-domaine-de-la-cooperation-militaire_n_999001457.html"
+    },
+    {
+      "published_at": "2026-10-22T17:38:30Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-22T23:29:57.925484Z",
+      "discovered_at": "2026-10-22T23:29:57.925484Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0006",
+      "source": "Malijet",
+      "language": "fr",
+      "actor": null,
+      "country": "Mali",
+      "city": "Bamako",
+      "event_type": "security operation",
+      "candidate_event": false,
+      "title": "Solidarity Month: Minister Assa Badiallo Touré and PAHO women alongside the 220 vulnerable people",
+      "url": "https://malijet.com/a_la_une_du_mali/312460-mois-de-la-solidarite-le-ministre-assa-badiallo-toure-et-le.html"
     },
     {
       "published_at": "2026-10-22T16:35:04Z",
@@ -4646,60 +4700,6 @@
       "candidate_event": true,
       "title": "Niger-Libya: Eva Gretzmacher and Claudia Abbt released and arrived in Benghazi",
       "url": "https://airinfoagadez.com/2026/10/22/niger-libye-eva-gretzmacher-et-claudia-abbt-liberees-et-arrivees-a-benghazi/"
-    },
-    {
-      "published_at": "2026-10-21T22:05:13Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-21T23:28:41.860054Z",
-      "discovered_at": "2026-10-21T23:28:41.860054Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0008",
-      "source": "Bamada",
-      "language": "fr",
-      "actor": null,
-      "country": null,
-      "city": null,
-      "event_type": "territorial seizure/blockade",
-      "candidate_event": false,
-      "title": "Macina: end of the blockade in Tongolo coura",
-      "url": "https://bamada.net/macina-fin-du-blocus-a-tongolo-coura"
-    },
-    {
-      "published_at": "2026-10-21T21:28:01Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-21T23:28:39.191202Z",
-      "discovered_at": "2026-10-21T23:28:39.191202Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0069",
-      "source": "African Arguments",
-      "language": "en",
-      "actor": "Africa Corps/Wagner",
-      "country": "Niger",
-      "city": "Niamey",
-      "event_type": "political/security policy",
-      "candidate_event": false,
-      "title": "The Palace Guard Against the Trenches : What the Mutiny in Niamey Revealed",
-      "url": "https://africanarguments.org/2026/10/the-palace-guard-against-the-trenches-what-the-mutiny-in-niamey-revealed/"
-    },
-    {
-      "published_at": "2026-10-21T20:41:16Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-21T23:28:42.063702Z",
-      "discovered_at": "2026-10-21T23:28:42.063702Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0034",
-      "source": "TV5MONDE Afrique",
-      "language": "fr",
-      "actor": null,
-      "country": "Burkina Faso",
-      "city": null,
-      "event_type": "kidnapping",
-      "candidate_event": false,
-      "title": "Image Published on October 21, 2026 Africa Burkina: Reinstating the death penalty risks being used to \"crack down on dissent\", according to HRW Reinstating the death penalty in Burkina Faso is a \"chilling message\" sent to opponents in this junta-ruled country and risks being...",
-      "url": "https://information.tv5monde.com/afrique/burkina-le-retablissement-de-la-peine-de-mort-risque-de-servir-reprimer-la-dissidence-selon-hrw-2842618"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
