@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-10-23T20:05:43.920254Z",
+  "generated_at": "2026-10-23T23:17:10.349076Z",
   "window_days": 30,
   "cutoff": "2026-09-23",
-  "reports": 608,
-  "incident_reports": 152,
-  "candidate_events": 103,
+  "reports": 611,
+  "incident_reports": 153,
+  "candidate_events": 105,
   "corroborated_events": 25,
-  "mapped_events": 83,
-  "mapped_locations": 146,
+  "mapped_events": 84,
+  "mapped_locations": 150,
   "distinct_sources": 85,
   "by_actor": {
-    "State": 61,
+    "State": 62,
     "JNIM": 16,
     "Other": 15,
-    "Africa Corps/Wagner": 8,
+    "Africa Corps/Wagner": 9,
     "IS Sahel": 3
   },
   "by_country": {
-    "Mali": 91,
+    "Mali": 93,
     "Niger": 9,
     "Burkina Faso": 3
   },
   "by_event_type": {
     "security operation": 42,
+    "clash": 16,
     "offensive/campaign": 15,
-    "clash": 14,
     "attack": 13,
     "civilian targeting": 7,
     "kidnapping": 6,
@@ -32,13 +32,13 @@
     "raid": 3
   },
   "by_language": {
-    "fr": 460,
+    "fr": 463,
     "en": 115,
     "ar": 33
   },
   "by_confidence": {
-    "low": 50,
-    "moderate": 46,
+    "low": 51,
+    "moderate": 47,
     "moderate-high": 5,
     "high": 2
   },
@@ -46,7 +46,7 @@
     {
       "source_code": "SRC-0008",
       "source": "Bamada",
-      "count": 92
+      "count": 93
     },
     {
       "source_code": "SRC-0006",
@@ -76,7 +76,7 @@
     {
       "source_code": "SRC-0092",
       "source": "La Nouvelle Tribune (Bénin)",
-      "count": 18
+      "count": 19
     },
     {
       "source_code": "SRC-0003",
@@ -107,11 +107,11 @@
   "top_locations": [
     {
       "location": "Kidal",
-      "count": 36
+      "count": 37
     },
     {
       "location": "Mali",
-      "count": 17
+      "count": 18
     },
     {
       "location": "Bamako",
@@ -122,16 +122,16 @@
       "count": 15
     },
     {
-      "location": "Ségou",
+      "location": "Anéfis",
       "count": 11
     },
     {
-      "location": "Anéfis",
-      "count": 10
+      "location": "Gao",
+      "count": 11
     },
     {
-      "location": "Gao",
-      "count": 10
+      "location": "Ségou",
+      "count": 11
     },
     {
       "location": "Timbuktu",
@@ -302,11 +302,224 @@
     },
     {
       "date": "2026-10-23",
-      "reports": 19,
-      "events": 1
+      "reports": 23,
+      "events": 3
     }
   ],
   "latest_events": [
+    {
+      "id": "5707824484a51795ed98d1e2c1b16411015266ca",
+      "event_date": "2026-10-23",
+      "event_date_confidence": "explicit-text",
+      "event_date_source": "explicit-calendar-date",
+      "published_at": "2026-10-23T21:49:12Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-23T23:16:17.458698Z",
+      "actor": "Africa Corps/Wagner",
+      "perpetrator": null,
+      "target": null,
+      "claimant": null,
+      "supporting_force": "Africa Corps/Wagner",
+      "mentioned_actors": [
+        "State",
+        "Africa Corps/Wagner"
+      ],
+      "parent_report_id": null,
+      "event_type": "clash",
+      "country": "Mali",
+      "city": "Kidal",
+      "lat": 18.4411,
+      "lng": 1.4078,
+      "locations": [
+        {
+          "name": "Kidal",
+          "country": "Mali",
+          "lat": 18.4411,
+          "lng": 1.4078,
+          "confidence": "explicit-place"
+        },
+        {
+          "name": "Anéfis",
+          "country": "Mali",
+          "lat": 18.0667,
+          "lng": 0.6167,
+          "confidence": "explicit-place"
+        },
+        {
+          "name": "Gao",
+          "country": "Mali",
+          "lat": 16.2717,
+          "lng": -0.0447,
+          "confidence": "explicit-place"
+        },
+        {
+          "name": "Sévaré",
+          "country": "Mali",
+          "lat": 14.5272,
+          "lng": -4.0934,
+          "confidence": "explicit-place"
+        }
+      ],
+      "title": "Mali: 4,880 terrorists put out of action in five months, the army reveals the scale of operations",
+      "summary": "The Malian army continues its offensive against armed groups. During his monthly press briefing on Friday, October 23, 2026, Colonel-Major Bakary Bocar Maiga, Director of Information and Public Relations of the Armed Forces, took stock of the operations carried out by the Malian Armed Forces (FAMa) According to this report, 4,880 fighters of terrorist armed groups were put out of action between May and October 20, and more than 162 bases, 315 pick-ups and 1,300 motorcycles were destroyed.",
+      "sources": [
+        "La Nouvelle Tribune (Bénin)"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://lanouvelletribune.info/2026/10/mali-4-880-terroristes-mis-hors-de-combat-en-cinq-mois-larmee-revele-lampleur-des-operations/"
+      ],
+      "report_summaries": [
+        {
+          "url": "https://lanouvelletribune.info/2026/10/mali-4-880-terroristes-mis-hors-de-combat-en-cinq-mois-larmee-revele-lampleur-des-operations/",
+          "source": "La Nouvelle Tribune (Bénin)",
+          "title": "Mali: 4,880 terrorists put out of action in five months, the army reveals the scale of operations",
+          "summary": "The Malian army continues its offensive against armed groups. During his monthly press briefing on Friday, October 23, 2026, Colonel-Major Bakary Bocar Maiga, Director of Information and Public Relations of the Armed Forces, took stock of the operations carried out by the Malian Armed Forces (FAMa) According to this report, 4,880 fighters of terrorist armed groups were put out of action between May and October 20, and more than 162 bases, 315 pick-ups and 1,300 motorcycles were destroyed.",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "armed_group"
+          ],
+          "civilian_targeting_flag": false,
+          "casualty_claims": []
+        }
+      ],
+      "created_at": "2026-10-23T23:16:17.458698Z",
+      "updated_at": "2026-10-23T23:16:17.458698Z",
+      "extraction_confidence": "low",
+      "victim_categories": [
+        "armed_group"
+      ],
+      "civilian_targeting_flag": false,
+      "casualty_claims": [],
+      "fatalities_min": null,
+      "fatalities_max": null,
+      "fatalities_best": null,
+      "injured_min": null,
+      "injured_max": null,
+      "abducted_min": null,
+      "abducted_max": null,
+      "casualty_disputed": false,
+      "revision_history": [
+        {
+          "at": "2026-10-23T23:16:17.458698Z",
+          "type": "event_created",
+          "source": "La Nouvelle Tribune (Bénin)"
+        }
+      ],
+      "corroboration": "single-source",
+      "confidence": "low",
+      "independent_source_domains": [
+        "lanouvelletribune.info"
+      ],
+      "independent_source_count": 1,
+      "significance": "MAJOR",
+      "significance_reasons": [
+        "strategic/severe event pattern",
+        "multi-location activity"
+      ]
+    },
+    {
+      "id": "b3b40a83e74de206fd9d1c486d7161a274f16098",
+      "event_date": "2026-10-23",
+      "event_date_confidence": "explicit-text",
+      "event_date_source": "explicit-calendar-date",
+      "published_at": "2026-10-23T20:11:11Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-23T23:16:16.986424Z",
+      "actor": "State",
+      "perpetrator": null,
+      "target": null,
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [
+        "State"
+      ],
+      "parent_report_id": null,
+      "event_type": "clash",
+      "country": "Mali",
+      "city": null,
+      "lat": null,
+      "lng": null,
+      "locations": [],
+      "title": "PRESS BRIEFING: DIRPA reports 4,880 fighters of the Armed Terrorist Groups put out of action during the period from May to 20 October 2026",
+      "summary": "Faithful to its meeting with the media, the Directorate of Information and Public Relations of the Armed Forces (DIRPA) held its traditional monthly press briefing, this Friday, October 23, 2026, at its premises. The meeting was moderated by the Director of Information and Public Relations of the Armed Forces, Colonel-Major Bakary Bocar MAIGA, in the presence of an audience of journalists and media professionals .",
+      "sources": [
+        "Bamada"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://bamada.net/point-de-presse-la-dirpa-fait-etat-de-4-880-combattants-des-groupes-armes-terroristes-mis-hors-de-combat-durant-la-periode-allant-du-mois-de-mai-au-20-octobre-2026"
+      ],
+      "report_summaries": [
+        {
+          "url": "https://bamada.net/point-de-presse-la-dirpa-fait-etat-de-4-880-combattants-des-groupes-armes-terroristes-mis-hors-de-combat-durant-la-periode-allant-du-mois-de-mai-au-20-octobre-2026",
+          "source": "Bamada",
+          "title": "PRESS BRIEFING: DIRPA reports 4,880 fighters of the Armed Terrorist Groups put out of action during the period from May to 20 October 2026",
+          "summary": "Faithful to its meeting with the media, the Directorate of Information and Public Relations of the Armed Forces (DIRPA) held its traditional monthly press briefing, this Friday, October 23, 2026, at its premises. The meeting was moderated by the Director of Information and Public Relations of the Armed Forces, Colonel-Major Bakary Bocar MAIGA, in the presence of an audience of journalists and media professionals .",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "armed_group",
+            "journalist"
+          ],
+          "civilian_targeting_flag": false,
+          "casualty_claims": []
+        }
+      ],
+      "created_at": "2026-10-23T23:16:16.986424Z",
+      "updated_at": "2026-10-23T23:16:16.986424Z",
+      "extraction_confidence": "moderate",
+      "victim_categories": [
+        "armed_group",
+        "journalist"
+      ],
+      "civilian_targeting_flag": false,
+      "casualty_claims": [],
+      "fatalities_min": null,
+      "fatalities_max": null,
+      "fatalities_best": null,
+      "injured_min": null,
+      "injured_max": null,
+      "abducted_min": null,
+      "abducted_max": null,
+      "casualty_disputed": false,
+      "revision_history": [
+        {
+          "at": "2026-10-23T23:16:16.986424Z",
+          "type": "event_created",
+          "source": "Bamada"
+        }
+      ],
+      "corroboration": "single-source",
+      "confidence": "moderate",
+      "independent_source_domains": [
+        "bamada.net"
+      ],
+      "independent_source_count": 1,
+      "significance": "ROUTINE",
+      "significance_reasons": [
+        "limited currently observed significance"
+      ]
+    },
     {
       "id": "99995ea14a16cd01a845cafde1f59091b6e17983",
       "event_date": "2026-10-23",
@@ -3780,245 +3993,81 @@
         "multi-source corroboration",
         "multi-location activity"
       ]
-    },
-    {
-      "id": "ec93b4dcf38a1d1f8f529050fa12585416e16faa",
-      "event_date": "2026-10-17",
-      "event_date_confidence": "explicit-text",
-      "event_date_source": "explicit-calendar-date",
-      "published_at": "2026-10-19T16:47:31Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-19T18:48:50.914955Z",
-      "actor": "State",
-      "perpetrator": "State",
-      "target": "State",
-      "claimant": null,
-      "supporting_force": null,
-      "mentioned_actors": [
-        "State"
-      ],
-      "parent_report_id": null,
-      "event_type": "security operation",
-      "country": "Mali",
-      "city": "Ménaka",
-      "lat": 15.9182,
-      "lng": 2.4022,
-      "locations": [
-        {
-          "name": "Ménaka",
-          "country": "Mali",
-          "lat": 15.9182,
-          "lng": 2.4022,
-          "confidence": "explicit-place"
-        },
-        {
-          "name": "Douentza",
-          "country": "Mali",
-          "lat": 15.0014,
-          "lng": -2.9519,
-          "confidence": "explicit-place"
-        }
-      ],
-      "title": "Fighting insecurity: FAMa strike at the heart of terrorist networks in the centre and north of the country",
-      "summary": "The General Staff of the Armed Forces informs the national opinion that the Malian Armed Forces (FAMa), supported by their partners, are continuing the permanent operations of surveillance, control and security of the national territory as part of Operation Dougoukoloko . On Saturday, October 17, 2026, the exploitation of precise intelligence made it possible to locate, 65 km southwest of the city of Menaka, a large base housing several terrorist elements as well as war and logistics equipment.",
-      "sources": [
-        "Bamada",
-        "Malijet"
-      ],
-      "languages": [
-        "fr"
-      ],
-      "source_count": 2,
-      "report_urls": [
-        "https://bamada.net/lutte-contre-linsecurite-les-fama-frappent-au-coeur-des-reseaux-terroristes-dans-le-centre-et-le-nord-du-pays",
-        "https://malijet.com/actualte_dans_les_regions_du_mali/312415-operation-dougoukoloko-les-fama-frappent-deux-positions-de.html"
-      ],
-      "report_summaries": [
-        {
-          "url": "https://bamada.net/lutte-contre-linsecurite-les-fama-frappent-au-coeur-des-reseaux-terroristes-dans-le-centre-et-le-nord-du-pays",
-          "source": "Bamada",
-          "title": "Fighting insecurity: FAMa strike at the heart of terrorist networks in the centre and north of the country",
-          "summary": "The General Staff of the Armed Forces informs the national opinion that the Malian Armed Forces (FAMa), supported by their partners, are continuing the permanent operations of surveillance, control and security of the national territory as part of Operation Dougoukoloko . On Saturday, October 17, 2026, the exploitation of precise intelligence made it possible to locate, 65 km southwest of the city of Menaka, a large base housing several terrorist elements as well as war and logistics equipment.",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "armed_group"
-          ],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        },
-        {
-          "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312415-operation-dougoukoloko-les-fama-frappent-deux-positions-de.html",
-          "source": "Malijet",
-          "title": "Operation Dougoukoloko: the FAMa strike two positions of armed groups in Menaka and Douentza",
-          "summary": "The Malian Armed Forces (FAMa), supported by their partners, carried out strikes against two positions of armed groups in the Menaka and Douentza sectors on 17 and 18 October 2026, as part of Operation Dougoukoloko, according to the General Staff of the Armed Forces . On Saturday, October 17, a base housing armed elements as well as war and logistics equipment was located about 65 km southwest of Menaka, thanks to intelligence.",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        }
-      ],
-      "created_at": "2026-10-19T18:48:50.914955Z",
-      "updated_at": "2026-10-19T23:49:57.385873Z",
-      "extraction_confidence": "moderate",
-      "victim_categories": [
-        "armed_group"
-      ],
-      "civilian_targeting_flag": false,
-      "casualty_claims": [],
-      "fatalities_min": null,
-      "fatalities_max": null,
-      "fatalities_best": null,
-      "injured_min": null,
-      "injured_max": null,
-      "abducted_min": null,
-      "abducted_max": null,
-      "casualty_disputed": false,
-      "revision_history": [
-        {
-          "at": "2026-10-19T18:48:50.914955Z",
-          "type": "event_created",
-          "source": "Bamada"
-        },
-        {
-          "at": "2026-10-19T23:49:57.385873Z",
-          "type": "corroboration_or_geography_update",
-          "source": "Malijet"
-        }
-      ],
-      "corroboration": "limited corroboration",
-      "confidence": "moderate",
-      "independent_source_domains": [
-        "bamada.net",
-        "malijet.com"
-      ],
-      "independent_source_count": 2,
-      "significance": "MAJOR",
-      "significance_reasons": [
-        "strategic/severe event pattern",
-        "multi-location activity"
-      ]
-    },
-    {
-      "id": "98d8078e36a293d890098c4ce904f8f7a70568d3",
-      "event_date": "2026-10-17",
-      "event_date_confidence": "explicit-text",
-      "event_date_source": "explicit-calendar-date",
-      "published_at": "2026-10-17T23:50:36Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-18T01:04:33.600030Z",
-      "actor": "State",
-      "perpetrator": "State",
-      "target": null,
-      "claimant": null,
-      "supporting_force": null,
-      "mentioned_actors": [
-        "State"
-      ],
-      "parent_report_id": null,
-      "event_type": "security operation",
-      "country": "Mali",
-      "city": "Bamako",
-      "lat": 12.6392,
-      "lng": -8.0029,
-      "locations": [
-        {
-          "name": "Bamako",
-          "country": "Mali",
-          "lat": 12.6392,
-          "lng": -8.0029,
-          "confidence": "explicit-place"
-        },
-        {
-          "name": "Ménaka",
-          "country": "Mali",
-          "lat": 15.9182,
-          "lng": 2.4022,
-          "confidence": "explicit-place"
-        }
-      ],
-      "title": "Mali: the army announces that it hit two bases on the same day, localized war material",
-      "summary": "Two strikes in a single day, on two remote areas: the Malian Armed Forces (FAMa) claim to have targeted two bases of armed groups in Mali on Saturday, October 17, 2026. The General Staff of the Armed Forces has announced this since Bamako, specifying that these actions are part of Operation Dougoukoloko. One of the targets is 100 km northwest of Menaka, the capital of an eastern region of the country .",
-      "sources": [
-        "La Nouvelle Tribune (Bénin)"
-      ],
-      "languages": [
-        "fr"
-      ],
-      "source_count": 1,
-      "report_urls": [
-        "https://lanouvelletribune.info/2026/10/mali-larmee-annonce-avoir-frappe-deux-bases-le-meme-jour-du-materiel-de-guerre-localise/"
-      ],
-      "report_summaries": [
-        {
-          "url": "https://lanouvelletribune.info/2026/10/mali-larmee-annonce-avoir-frappe-deux-bases-le-meme-jour-du-materiel-de-guerre-localise/",
-          "source": "La Nouvelle Tribune (Bénin)",
-          "title": "Mali: the army announces that it hit two bases on the same day, localized war material",
-          "summary": "Two strikes in a single day, on two remote areas: the Malian Armed Forces (FAMa) claim to have targeted two bases of armed groups in Mali on Saturday, October 17, 2026. The General Staff of the Armed Forces has announced this since Bamako, specifying that these actions are part of Operation Dougoukoloko. One of the targets is 100 km northwest of Menaka, the capital of an eastern region of the country .",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "armed_group"
-          ],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        }
-      ],
-      "created_at": "2026-10-18T01:04:33.600030Z",
-      "updated_at": "2026-10-18T01:04:33.600030Z",
-      "extraction_confidence": "moderate",
-      "victim_categories": [
-        "armed_group"
-      ],
-      "civilian_targeting_flag": false,
-      "casualty_claims": [],
-      "fatalities_min": null,
-      "fatalities_max": null,
-      "fatalities_best": null,
-      "injured_min": null,
-      "injured_max": null,
-      "abducted_min": null,
-      "abducted_max": null,
-      "casualty_disputed": false,
-      "revision_history": [
-        {
-          "at": "2026-10-18T01:04:33.600030Z",
-          "type": "event_created",
-          "source": "La Nouvelle Tribune (Bénin)"
-        }
-      ],
-      "corroboration": "single-source",
-      "confidence": "moderate",
-      "independent_source_domains": [
-        "lanouvelletribune.info"
-      ],
-      "independent_source_count": 1,
-      "significance": "MAJOR",
-      "significance_reasons": [
-        "strategic/severe event pattern",
-        "multi-location activity"
-      ]
     }
   ],
   "latest_reports": [
+    {
+      "published_at": "2026-10-23T21:49:12Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-23T23:16:17.458698Z",
+      "discovered_at": "2026-10-23T23:16:17.458698Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0092",
+      "source": "La Nouvelle Tribune (Bénin)",
+      "language": "fr",
+      "actor": "Africa Corps/Wagner",
+      "country": "Mali",
+      "city": "Kidal",
+      "event_type": "clash",
+      "candidate_event": true,
+      "title": "Mali: 4,880 terrorists put out of action in five months, the army reveals the scale of operations",
+      "url": "https://lanouvelletribune.info/2026/10/mali-4-880-terroristes-mis-hors-de-combat-en-cinq-mois-larmee-revele-lampleur-des-operations/"
+    },
+    {
+      "published_at": "2026-10-23T21:31:23Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-23T23:16:18.544873Z",
+      "discovered_at": "2026-10-23T23:16:18.544873Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0014",
+      "source": "Agence Nigérienne de Presse",
+      "language": "fr",
+      "actor": null,
+      "country": "Niger",
+      "city": "Tillabéri",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "illabéri: the Minister of Equipment and Infrastructure visits the rehabilitation site of the Farié-Téra axis",
+      "url": "https://anp.ne/illaberi-le-ministre-de-lequipement-et-des-infrastructures-en-visite-sur-le-chantier-de-rehabilitation-de-laxe-farie-tera/"
+    },
+    {
+      "published_at": "2026-10-23T20:28:07Z",
+      "published_date_source": "itemprop",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-23T23:16:20.270177Z",
+      "discovered_at": "2026-10-23T23:16:20.270177Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0015",
+      "source": "ActuNiger",
+      "language": "fr",
+      "actor": null,
+      "country": "Niger",
+      "city": "Dosso",
+      "event_type": "raid",
+      "candidate_event": false,
+      "title": "Defense: In the field of military operations, the SDF continues to maintain pressure on armed terrorist groups",
+      "url": "https://www.actuniger.com/societe/22489-defense-sur-le-terrain-des-operations-militaires-les-fds-continuent-de-maintenir-la-pression-sur-les-groupes-armes-terroristes"
+    },
+    {
+      "published_at": "2026-10-23T20:11:11Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-23T23:16:16.986424Z",
+      "discovered_at": "2026-10-23T23:16:16.986424Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0008",
+      "source": "Bamada",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": null,
+      "event_type": "clash",
+      "candidate_event": true,
+      "title": "PRESS BRIEFING: DIRPA reports 4,880 fighters of the Armed Terrorist Groups put out of action during the period from May to 20 October 2026",
+      "url": "https://bamada.net/point-de-presse-la-dirpa-fait-etat-de-4-880-combattants-des-groupes-armes-terroristes-mis-hors-de-combat-durant-la-periode-allant-du-mois-de-mai-au-20-octobre-2026"
+    },
     {
       "published_at": "2026-10-23T19:27:41Z",
       "published_date_source": "feed",
@@ -4666,78 +4715,6 @@
       "candidate_event": false,
       "title": "Niger: 12 dead in an armed attack on two passenger buses on the Arlit-Agadez axis (governor)",
       "url": "https://www.maliweb.net/insecurite/niger-12-morts-dans-une-attaque-armee-contre-deux-bus-de-voyageurs-3120859.html"
-    },
-    {
-      "published_at": "2026-10-22T10:40:06Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-22T13:55:01.864776Z",
-      "discovered_at": "2026-10-22T13:55:01.864776Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0008",
-      "source": "Bamada",
-      "language": "fr",
-      "actor": null,
-      "country": null,
-      "city": null,
-      "event_type": "kidnapping",
-      "candidate_event": false,
-      "title": "Cap de Yangasso: Fani 1st cycle school principal kidnapped by armed men",
-      "url": "https://bamada.net/cap-de-yangasso-le-directeur-decole-de-fani-1er-cycle-enleve-par-des-hommes-armes"
-    },
-    {
-      "published_at": "2026-10-22T10:24:28Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-22T13:55:13.769136Z",
-      "discovered_at": "2026-10-22T13:55:13.769136Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0005",
-      "source": "Maliweb",
-      "language": "fr",
-      "actor": null,
-      "country": "Niger",
-      "city": null,
-      "event_type": "political/security policy",
-      "candidate_event": false,
-      "title": "Algeria and Niger sign a memorandum of military cooperation",
-      "url": "https://www.maliweb.net/international/lalgerie-et-le-niger-signent-un-memorandum-de-cooperation-militaire-3120856.html"
-    },
-    {
-      "published_at": "2026-10-22T10:13:36Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-22T13:54:54.712896Z",
-      "discovered_at": "2026-10-22T13:54:54.712896Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0006",
-      "source": "Malijet",
-      "language": "fr",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Ménaka",
-      "event_type": "security operation",
-      "candidate_event": true,
-      "title": "Operation Dougoukoloko: two targeted strikes in Talhandak and Menaka",
-      "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312449-operation-dougoukoloko-deux-frappes-ciblees-a-talhandak-et.html"
-    },
-    {
-      "published_at": "2026-10-22T10:13:36Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-22T13:54:59.735482Z",
-      "discovered_at": "2026-10-22T13:54:59.735482Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0085",
-      "source": "Seneweb",
-      "language": "fr",
-      "actor": null,
-      "country": "Burkina Faso",
-      "city": null,
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Burkina: The new Penal Code prohibits funerals for death row inmates, polyandry is now prohibited",
-      "url": "https://www.seneweb.com/fr/news/Afrique/burkina-le-nouveau-code-penal-proscrit-les-funerailles-pour-les-condamnes-a-mort-executes-la-polyandrie-desormais-interdite_n_999001418.html"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."

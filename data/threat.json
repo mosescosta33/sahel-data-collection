@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T20:05:44.025676Z",
+  "generated_at": "2026-10-23T23:17:10.426799Z",
   "model_version": "0.1-experimental",
   "label": "Experimental Conflict Threat Level",
   "regional": {
@@ -8,21 +8,21 @@
   },
   "countries": {
     "Mali": {
-      "score": 95,
+      "score": 98,
       "level": "HIGH",
-      "trend": "STABLE",
+      "trend": "DETERIORATING",
       "confidence": "HIGH",
       "assessment_status": "ASSESSED",
-      "events_7d": 26,
-      "events_30d": 90,
+      "events_7d": 28,
+      "events_30d": 92,
       "baseline_7d_equivalent": 19.5,
-      "tempo_ratio": 1.32,
+      "tempo_ratio": 1.42,
       "drivers": [
-        "26 fused candidate event(s) in 7 days",
+        "28 fused candidate event(s) in 7 days",
         "6 JNIM/IS Sahel-linked event(s)",
-        "20 significant/major event(s)",
+        "21 significant/major event(s)",
         "9 civilian-threat indicator(s)",
-        "activity across 8 named locations"
+        "activity across 9 named locations"
       ],
       "independent_domains_7d": 22
     },
