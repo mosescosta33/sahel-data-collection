@@ -1,5 +1,195 @@
 [
   {
+    "id": "99995ea14a16cd01a845cafde1f59091b6e17983",
+    "event_date": "2026-10-23",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "explicit-calendar-date",
+    "published_at": "2026-10-23T14:59:44Z",
+    "published_date_source": "jsonld:datePublished",
+    "published_time_precision": "datetime",
+    "collected_at": "2026-10-23T20:04:07.620762Z",
+    "actor": "State",
+    "perpetrator": "State",
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [
+      "State"
+    ],
+    "parent_report_id": null,
+    "event_type": "security operation",
+    "country": "Mali",
+    "city": "Kidal",
+    "lat": 18.4411,
+    "lng": 1.4078,
+    "locations": [
+      {
+        "name": "Kidal",
+        "country": "Mali",
+        "lat": 18.4411,
+        "lng": 1.4078,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "Press briefing: the FAMa announce more than 4,880 neutralized terrorist fighters",
+    "summary": "The Director of Information and Public Relations of the Armed Forces (DIRPA), Colonel-Major Bakary Bocar Maïga, presented, on October 23, 2026, the results of the operations of the Malian Armed Forces (FAMa) According to the figures provided, more than 4,880 terrorist fighters were put out of action and 162 bases destroyed during the period from 10 September to 20 October.",
+    "sources": [
+      "Malijet"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://malijet.com/a_la_une_du_mali/312478-point-de-presse-les-fama-annoncent-plus-de-4-880-combattant.html"
+    ],
+    "report_summaries": [
+      {
+        "url": "https://malijet.com/a_la_une_du_mali/312478-point-de-presse-les-fama-annoncent-plus-de-4-880-combattant.html",
+        "source": "Malijet",
+        "title": "Press briefing: the FAMa announce more than 4,880 neutralized terrorist fighters",
+        "summary": "The Director of Information and Public Relations of the Armed Forces (DIRPA), Colonel-Major Bakary Bocar Maïga, presented, on October 23, 2026, the results of the operations of the Malian Armed Forces (FAMa) According to the figures provided, more than 4,880 terrorist fighters were put out of action and 162 bases destroyed during the period from 10 September to 20 October.",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "armed_group"
+        ],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      }
+    ],
+    "created_at": "2026-10-23T20:04:07.620762Z",
+    "updated_at": "2026-10-23T20:04:07.620762Z",
+    "extraction_confidence": "moderate",
+    "victim_categories": [
+      "armed_group"
+    ],
+    "civilian_targeting_flag": false,
+    "casualty_claims": [],
+    "fatalities_min": null,
+    "fatalities_max": null,
+    "fatalities_best": null,
+    "injured_min": null,
+    "injured_max": null,
+    "abducted_min": null,
+    "abducted_max": null,
+    "casualty_disputed": false,
+    "revision_history": [
+      {
+        "at": "2026-10-23T20:04:07.620762Z",
+        "type": "event_created",
+        "source": "Malijet"
+      }
+    ],
+    "corroboration": "single-source",
+    "confidence": "moderate",
+    "independent_source_domains": [
+      "malijet.com"
+    ],
+    "independent_source_count": 1,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "strategic/severe event pattern"
+    ]
+  },
+  {
+    "id": "885d47981c0ffe16aa8653baccadf7b234216a12",
+    "event_date": "2026-10-22",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "explicit-date-no-year",
+    "published_at": "2026-10-23T13:49:18Z",
+    "published_date_source": "jsonld:datePublished",
+    "published_time_precision": "datetime",
+    "collected_at": "2026-10-23T20:04:08.526625Z",
+    "actor": "Other",
+    "perpetrator": null,
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [],
+    "parent_report_id": null,
+    "event_type": "attack",
+    "country": "Mali",
+    "city": "Bandiagara",
+    "lat": 14.35,
+    "lng": -3.61,
+    "locations": [
+      {
+        "name": "Bandiagara",
+        "country": "Mali",
+        "lat": 14.35,
+        "lng": -3.61,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "Bandiagara: one dead and one injured in an attack in Danlekanda",
+    "summary": "One dead and one wounded by gunfire, this is the result of an attack perpetrated Thursday, October 22 by unidentified armed individuals against the village of Danlekanda, in the commune of Muétoumou, Bandiagara circle. The injured person was on his way to the Bandiagara referral health center. Last week, the village of Dôolo, in the same commune, recorded three deaths in another attack .",
+    "sources": [
+      "Studio Tamani"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://www.studiotamani.org/209428-bandiagara-un-mort-et-un-blesse-dans-une-attaque-a-danlekanda"
+    ],
+    "report_summaries": [
+      {
+        "url": "https://www.studiotamani.org/209428-bandiagara-un-mort-et-un-blesse-dans-une-attaque-a-danlekanda",
+        "source": "Studio Tamani",
+        "title": "Bandiagara: one dead and one injured in an attack in Danlekanda",
+        "summary": "One dead and one wounded by gunfire, this is the result of an attack perpetrated Thursday, October 22 by unidentified armed individuals against the village of Danlekanda, in the commune of Muétoumou, Bandiagara circle. The injured person was on his way to the Bandiagara referral health center. Last week, the village of Dôolo, in the same commune, recorded three deaths in another attack .",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      }
+    ],
+    "created_at": "2026-10-23T20:04:08.526625Z",
+    "updated_at": "2026-10-23T20:04:08.526625Z",
+    "extraction_confidence": "low",
+    "victim_categories": [],
+    "civilian_targeting_flag": false,
+    "casualty_claims": [],
+    "fatalities_min": null,
+    "fatalities_max": null,
+    "fatalities_best": null,
+    "injured_min": null,
+    "injured_max": null,
+    "abducted_min": null,
+    "abducted_max": null,
+    "casualty_disputed": false,
+    "revision_history": [
+      {
+        "at": "2026-10-23T20:04:08.526625Z",
+        "type": "event_created",
+        "source": "Studio Tamani"
+      }
+    ],
+    "corroboration": "single-source",
+    "confidence": "low",
+    "independent_source_domains": [
+      "studiotamani.org"
+    ],
+    "independent_source_count": 1,
+    "significance": "SIGNIFICANT",
+    "significance_reasons": [
+      "operational security event"
+    ]
+  },
+  {
     "id": "7348301dc5223f2c4906a9afd362a128634a2a4b",
     "event_date": "2026-10-22",
     "event_date_confidence": "explicit-text",
@@ -7129,14 +7319,14 @@
     ]
   },
   {
-    "id": "5867848d4b5da7327585c7e815e846df4621dd16",
+    "id": "4b761d975f55e60bf43509c0eeebb1d83297246c",
     "event_date": "2026-10-06",
     "event_date_confidence": "explicit-text",
-    "event_date_source": "relative-weekday",
-    "published_at": "2026-10-07T05:10:00Z",
+    "event_date_source": "explicit-calendar-date",
+    "published_at": "2026-10-23T17:28:08Z",
     "published_date_source": "jsonld:datePublished",
     "published_time_precision": "datetime",
-    "collected_at": "2026-10-07T08:40:55.513437Z",
+    "collected_at": "2026-10-23T20:04:09.651512Z",
     "actor": "State",
     "perpetrator": "State",
     "target": null,
@@ -7148,36 +7338,22 @@
     "parent_report_id": null,
     "event_type": "security operation",
     "country": "Mali",
-    "city": "Kidal",
-    "lat": 18.4411,
-    "lng": 1.4078,
+    "city": "Bamako",
+    "lat": 12.6392,
+    "lng": -8.0029,
     "locations": [
-      {
-        "name": "Kidal",
-        "country": "Mali",
-        "lat": 18.4411,
-        "lng": 1.4078,
-        "confidence": "explicit-place"
-      },
-      {
-        "name": "Gao",
-        "country": "Mali",
-        "lat": 16.2717,
-        "lng": -0.0447,
-        "confidence": "explicit-place"
-      },
-      {
-        "name": "Anéfis",
-        "country": "Mali",
-        "lat": 18.0667,
-        "lng": 0.6167,
-        "confidence": "explicit-place"
-      },
       {
         "name": "Bamako",
         "country": "Mali",
         "lat": 12.6392,
         "lng": -8.0029,
+        "confidence": "explicit-place"
+      },
+      {
+        "name": "Kidal",
+        "country": "Mali",
+        "lat": 18.4411,
+        "lng": 1.4078,
         "confidence": "explicit-place"
       },
       {
@@ -7188,26 +7364,25 @@
         "confidence": "explicit-place"
       }
     ],
-    "title": "The Malian army has regained possession of Kidal",
-    "summary": "Bamako, October 7 (AMAP)– The Malian Armed Forces (FAMa), supported by their partners, destroyed several positions of armed terrorist groups as part of Operation Dougoukoloko on Wednesday by conducting air-land operations in Talhandak, Kidal and Tessalit, the General Staff of the Armed Forces announced. In the Eastern Theater, the operations made it possible to neutralize, in Talhandak, terrorist elements .",
+    "title": "Security situation: More than 4,880 terrorists neutralized and 162 bases destroyed by FAMa",
+    "summary": "Bamako, 23 October (AMAP) Faced with the press, Friday, 23 October 2026, at the premises of the Directorate of Information and Public Relations of the Armed Forces (DIRPA), Colonel-Major Bakary Bocar Maiga presented the results of the operations carried out by the Malian Armed Forces (FAMa). It reported more than 4,880 terrorists neutralized and 162 bases destroyed over the entire period from May to 20 October .",
     "sources": [
-      "Mondafrique",
       "AMAP (Agence Malienne de Presse et de Publicité)"
     ],
     "languages": [
       "fr"
     ],
-    "source_count": 2,
+    "source_count": 1,
     "report_urls": [
-      "https://mondafrique.com/politique/larmee-malienne-a-repris-possession-de-kidal/",
+      "https://amap.ml/2026/10/23/situation-securitaire-plus-de-4-880-terroristes-neutralises-et-162-bases-detruites-par-les-fama/",
       "https://amap.ml/2026/10/08/talhandak-kidal-et-a-tessalit-les-fama-detruisent-des-positions-de-groupes-armes-terroristes/"
     ],
     "report_summaries": [
       {
-        "url": "https://mondafrique.com/politique/larmee-malienne-a-repris-possession-de-kidal/",
-        "source": "Mondafrique",
-        "title": "The Malian army has regained possession of Kidal",
-        "summary": "After airstrikes in recent days in the Kidal region, an impressive land convoy from Gao, then Anefis, entered the Tuareg rebel stronghold on Tuesday afternoon, without encountering resistance. The Azawad Liberation Front (Fla), which had held the city since April 26, withdrew in front of the advance of the column .",
+        "url": "https://amap.ml/2026/10/23/situation-securitaire-plus-de-4-880-terroristes-neutralises-et-162-bases-detruites-par-les-fama/",
+        "source": "AMAP (Agence Malienne de Presse et de Publicité)",
+        "title": "Security situation: More than 4,880 terrorists neutralized and 162 bases destroyed by FAMa",
+        "summary": "Bamako, 23 October (AMAP) Faced with the press, Friday, 23 October 2026, at the premises of the Directorate of Information and Public Relations of the Armed Forces (DIRPA), Colonel-Major Bakary Bocar Maiga presented the results of the operations carried out by the Malian Armed Forces (FAMa). It reported more than 4,880 terrorists neutralized and 162 bases destroyed over the entire period from May to 20 October .",
         "summary_basis": "translated-excerpt",
         "fatalities_min": null,
         "fatalities_max": null,
@@ -7216,7 +7391,6 @@
         "abducted_min": null,
         "abducted_max": null,
         "victim_categories": [
-          "civilian",
           "armed_group"
         ],
         "civilian_targeting_flag": false,
@@ -7241,11 +7415,10 @@
         "casualty_claims": []
       }
     ],
-    "created_at": "2026-10-07T08:40:55.513437Z",
+    "created_at": "2026-10-23T20:04:09.651512Z",
     "updated_at": "2026-10-08T00:49:14.261302Z",
-    "extraction_confidence": "low",
+    "extraction_confidence": "moderate",
     "victim_categories": [
-      "civilian",
       "armed_group"
     ],
     "civilian_targeting_flag": false,
@@ -7260,9 +7433,9 @@
     "casualty_disputed": false,
     "revision_history": [
       {
-        "at": "2026-10-07T08:40:55.513437Z",
+        "at": "2026-10-23T20:04:09.651512Z",
         "type": "event_created",
-        "source": "Mondafrique"
+        "source": "AMAP (Agence Malienne de Presse et de Publicité)"
       },
       {
         "at": "2026-10-08T00:49:14.261302Z",
@@ -7270,13 +7443,12 @@
         "source": "AMAP (Agence Malienne de Presse et de Publicité)"
       }
     ],
-    "corroboration": "limited corroboration",
+    "corroboration": "single-source",
     "confidence": "moderate",
     "independent_source_domains": [
-      "mondafrique.com",
       "amap.ml"
     ],
-    "independent_source_count": 2,
+    "independent_source_count": 1,
     "significance": "MAJOR",
     "significance_reasons": [
       "strategic/severe event pattern",
@@ -7623,6 +7795,127 @@
     "significance": "MAJOR",
     "significance_reasons": [
       "strategic/severe event pattern",
+      "multi-location activity"
+    ]
+  },
+  {
+    "id": "5867848d4b5da7327585c7e815e846df4621dd16",
+    "event_date": "2026-10-06",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "relative-weekday",
+    "published_at": "2026-10-07T05:10:00Z",
+    "published_date_source": "jsonld:datePublished",
+    "published_time_precision": "datetime",
+    "collected_at": "2026-10-07T08:40:55.513437Z",
+    "actor": "State",
+    "perpetrator": "State",
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [
+      "State"
+    ],
+    "parent_report_id": null,
+    "event_type": "security operation",
+    "country": "Mali",
+    "city": "Kidal",
+    "lat": 18.4411,
+    "lng": 1.4078,
+    "locations": [
+      {
+        "name": "Kidal",
+        "country": "Mali",
+        "lat": 18.4411,
+        "lng": 1.4078,
+        "confidence": "explicit-place"
+      },
+      {
+        "name": "Gao",
+        "country": "Mali",
+        "lat": 16.2717,
+        "lng": -0.0447,
+        "confidence": "explicit-place"
+      },
+      {
+        "name": "Anéfis",
+        "country": "Mali",
+        "lat": 18.0667,
+        "lng": 0.6167,
+        "confidence": "explicit-place"
+      },
+      {
+        "name": "Bamako",
+        "country": "Mali",
+        "lat": 12.6392,
+        "lng": -8.0029,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "The Malian army has regained possession of Kidal",
+    "summary": "After airstrikes in recent days in the Kidal region, an impressive land convoy from Gao, then Anefis, entered the Tuareg rebel stronghold on Tuesday afternoon, without encountering resistance. The Azawad Liberation Front (Fla), which had held the city since April 26, withdrew in front of the advance of the column .",
+    "sources": [
+      "Mondafrique"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://mondafrique.com/politique/larmee-malienne-a-repris-possession-de-kidal/"
+    ],
+    "report_summaries": [
+      {
+        "url": "https://mondafrique.com/politique/larmee-malienne-a-repris-possession-de-kidal/",
+        "source": "Mondafrique",
+        "title": "The Malian army has regained possession of Kidal",
+        "summary": "After airstrikes in recent days in the Kidal region, an impressive land convoy from Gao, then Anefis, entered the Tuareg rebel stronghold on Tuesday afternoon, without encountering resistance. The Azawad Liberation Front (Fla), which had held the city since April 26, withdrew in front of the advance of the column .",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "civilian",
+          "armed_group"
+        ],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      }
+    ],
+    "created_at": "2026-10-07T08:40:55.513437Z",
+    "updated_at": "2026-10-07T08:40:55.513437Z",
+    "extraction_confidence": "low",
+    "victim_categories": [
+      "civilian",
+      "armed_group"
+    ],
+    "civilian_targeting_flag": false,
+    "casualty_claims": [],
+    "fatalities_min": null,
+    "fatalities_max": null,
+    "fatalities_best": null,
+    "injured_min": null,
+    "injured_max": null,
+    "abducted_min": null,
+    "abducted_max": null,
+    "casualty_disputed": false,
+    "revision_history": [
+      {
+        "at": "2026-10-07T08:40:55.513437Z",
+        "type": "event_created",
+        "source": "Mondafrique"
+      }
+    ],
+    "corroboration": "single-source",
+    "confidence": "low",
+    "independent_source_domains": [
+      "mondafrique.com"
+    ],
+    "independent_source_count": 1,
+    "significance": "MAJOR",
+    "significance_reasons": [
       "multi-location activity"
     ]
   },
