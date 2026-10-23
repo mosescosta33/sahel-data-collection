@@ -2445,6 +2445,7 @@
       "https://bamada.net/menaka-48-civils-tues-dans-des-attaques-de-daesh",
       "https://www.lefigaro.fr/flash-actu/mali-plus-de-quarante-civils-tues-dimanche-par-des-hommes-armes-20261019",
       "https://information.tv5monde.com/afrique/mali-plus-dune-quarantaine-de-civils-tues-dimanche-par-des-hommes-armes-sources-securitaires-et-locales-2842368",
+      "https://www.courrierinternational.com/depeche/mali-plus-d-une-quarantaine-de-civils-tues-dimanche-par-des-hommes-armes-selon-des-sources-securitaires-et-locales.afp.com.20261019.doc.d3rz863.xml",
       "https://www.courrierinternational.com/depeche/mali-plus-d-une-quarantaine-de-civils-tues-dimanche-par-des-hommes-armes-sources-securitaires-et-locales.afp.com.20261019.doc.d3rz863.xml",
       "https://www.la-croix.com/mali-plus-d-une-quarantaine-de-civils-tues-dimanche-par-des-hommes-armes-sources-securitaires-et-locales-20261019",
       "https://www.seneweb.com/fr/news/Afrique/mali-plus-dune-quarantaine-de-civils-tues-dimanche-par-des-hommes-armes_n_999001222.html"
@@ -2582,6 +2583,33 @@
             "claimant": "TV5MONDE Afrique",
             "status": "reported",
             "evidence": "Image Published on October 19, 2026 Africa Mali: More than forty civilians killed Sunday by armed men (security and local sources) More than forty civilians were killed Sunday durin"
+          }
+        ]
+      },
+      {
+        "url": "https://www.courrierinternational.com/depeche/mali-plus-d-une-quarantaine-de-civils-tues-dimanche-par-des-hommes-armes-selon-des-sources-securitaires-et-locales.afp.com.20261019.doc.d3rz863.xml",
+        "source": "Courrier International",
+        "title": "Mali: more than forty civilians killed Sunday by armed men, according to security and local sources",
+        "summary": "More than 40 civilians were killed on Sunday in attacks by armed men in the Menaka region of northeastern Mali, causing population displacement, several security, local and associative sources told AFP on Monday. These bloody attacks, carried out by armed men arrived on motorcycles, targeted, according to these sources, several camps belonging mainly to the Daoussahak community, from which the armed movement \"Movement for the Salvation of Azawad\" (MSA), close to the junta in power in Bamako, came.",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": 40,
+        "fatalities_max": 40,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "civilian"
+        ],
+        "civilian_targeting_flag": true,
+        "casualty_claims": [
+          {
+            "kind": "fatalities",
+            "count": 40,
+            "victim_text": "civilians",
+            "claimant": "Courrier International",
+            "status": "reported",
+            "evidence": "Mali: more than forty civilians killed Sunday by armed men, according to security and local sources More than 40 civilians were killed on"
           }
         ]
       },
@@ -2726,7 +2754,7 @@
         "victim_text": "civilians",
         "claimant": "Courrier International",
         "status": "reported",
-        "evidence": "Mali: more than forty civilians killed Sunday by armed men (security and local sources) More than 40 civilians were killed on Sunday in at",
+        "evidence": "Mali: more than forty civilians killed Sunday by armed men, according to security and local sources More than 40 civilians were killed on",
         "source": "Courrier International"
       },
       {
@@ -2783,7 +2811,7 @@
         "source": "TV5MONDE Afrique"
       },
       {
-        "at": "2026-10-20T05:01:03.695030Z",
+        "at": "2026-10-23T05:03:25.741638Z",
         "type": "corroboration_or_geography_update",
         "source": "Courrier International"
       },
