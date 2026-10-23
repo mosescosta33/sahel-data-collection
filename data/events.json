@@ -2424,7 +2424,7 @@
       }
     ],
     "title": "Mali: more than 40 civilians killed in armed attacks in the North-East",
-    "summary": "Mali: more than forty civilians killed on Sunday by armed men More than forty civilians were killed on Sunday during attacks perpetrated by armed men in the Ménaka region, in northeastern Mali, causing population displacements, several security sources, local and associative, told AFP on Monday These bloody attacks, carried out by armed men arrived on motorcycles, targeted, according to these sources, several camps belonging mainly to the Daoussahak community, from which the armed movement \"Movement for the Salvation of Azawad\" (MSA), close to the junta in power in Bamako, came.",
+    "summary": "Mali : plus d'une quarantaine de civils tués dimanche par des hommes armés More than 40 civilians were killed on Sunday in attacks carried out by armed men in the Ménaka region of northeastern Mali, causing population displacements, several security, local and civil society sources told AFP on Monday. These bloody attacks, carried out by armed men arriving on motorcycles, targeted, according to these sources, several camps belonging mainly to the Daoussahak community, from which the armed movement \"Movement for the Salvation of Azawad\" (MSA), close to the junta in power in Bamako, originates.",
     "sources": [
       "France 24 Afrique (FR)",
       "Malijet",
@@ -2436,7 +2436,8 @@
       "Seneweb"
     ],
     "languages": [
-      "fr"
+      "fr",
+      "en"
     ],
     "source_count": 8,
     "report_urls": [
@@ -2448,6 +2449,7 @@
       "https://www.courrierinternational.com/depeche/mali-plus-d-une-quarantaine-de-civils-tues-dimanche-par-des-hommes-armes-selon-des-sources-securitaires-et-locales.afp.com.20261019.doc.d3rz863.xml",
       "https://www.courrierinternational.com/depeche/mali-plus-d-une-quarantaine-de-civils-tues-dimanche-par-des-hommes-armes-sources-securitaires-et-locales.afp.com.20261019.doc.d3rz863.xml",
       "https://www.la-croix.com/mali-plus-d-une-quarantaine-de-civils-tues-dimanche-par-des-hommes-armes-sources-securitaires-et-locales-20261019",
+      "https://www.seneweb.com/en/news/Afrique/mali-plus-dune-quarantaine-de-civils-tues-dimanche-par-des-hommes-armes_n_999001222.html",
       "https://www.seneweb.com/fr/news/Afrique/mali-plus-dune-quarantaine-de-civils-tues-dimanche-par-des-hommes-armes_n_999001222.html"
     ],
     "report_summaries": [
@@ -2668,6 +2670,33 @@
         ]
       },
       {
+        "url": "https://www.seneweb.com/en/news/Afrique/mali-plus-dune-quarantaine-de-civils-tues-dimanche-par-des-hommes-armes_n_999001222.html",
+        "source": "Seneweb",
+        "title": "Mali: More than forty civilians killed on Sunday by armed men",
+        "summary": "Mali : plus d'une quarantaine de civils tués dimanche par des hommes armés More than 40 civilians were killed on Sunday in attacks carried out by armed men in the Ménaka region of northeastern Mali, causing population displacements, several security, local and civil society sources told AFP on Monday. These bloody attacks, carried out by armed men arriving on motorcycles, targeted, according to these sources, several camps belonging mainly to the Daoussahak community, from which the armed movement \"Movement for the Salvation of Azawad\" (MSA), close to the junta in power in Bamako, originates.",
+        "summary_basis": "source-excerpt",
+        "fatalities_min": 40,
+        "fatalities_max": 40,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "civilian"
+        ],
+        "civilian_targeting_flag": true,
+        "casualty_claims": [
+          {
+            "kind": "fatalities",
+            "count": 40,
+            "victim_text": "civilians",
+            "claimant": "Seneweb",
+            "status": "reported",
+            "evidence": "Mali: More than forty civilians killed on Sunday by armed men Mali : plus d'une quarantaine de civils tués dimanche par des hommes armés M"
+          }
+        ]
+      },
+      {
         "url": "https://www.seneweb.com/fr/news/Afrique/mali-plus-dune-quarantaine-de-civils-tues-dimanche-par-des-hommes-armes_n_999001222.html",
         "source": "Seneweb",
         "title": "Mali: more than forty civilians killed Sunday by armed men",
@@ -2772,7 +2801,7 @@
         "victim_text": "civilians",
         "claimant": "Seneweb",
         "status": "reported",
-        "evidence": "Mali: more than forty civilians killed Sunday by armed men Mali: more than forty civilians killed on Sunday by armed men More than forty c",
+        "evidence": "Mali: More than forty civilians killed on Sunday by armed men Mali : plus d'une quarantaine de civils tués dimanche par des hommes armés M",
         "source": "Seneweb"
       }
     ],
@@ -2821,13 +2850,13 @@
         "source": "La Croix (Afrique)"
       },
       {
-        "at": "2026-10-20T13:39:59.375583Z",
+        "at": "2026-10-23T13:36:11.381608Z",
         "type": "corroboration_or_geography_update",
         "source": "Seneweb"
       }
     ],
-    "corroboration": "multi-source",
-    "confidence": "moderate-high",
+    "corroboration": "multi-source, multilingual",
+    "confidence": "high",
     "independent_source_domains": [
       "france24.com",
       "malijet.com",
@@ -13081,6 +13110,256 @@
     "significance": "MAJOR",
     "significance_reasons": [
       "strategic/severe event pattern"
+    ]
+  },
+  {
+    "id": "3e5e74e976957836ba989b34d8dba1cff71fca01",
+    "event_date": "2026-09-16",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "explicit-calendar-date",
+    "published_at": "2026-10-23T05:08:26Z",
+    "published_date_source": "opengraph",
+    "published_time_precision": "datetime",
+    "collected_at": "2026-10-23T13:36:08.401117Z",
+    "actor": "Africa Corps/Wagner",
+    "perpetrator": "Africa Corps/Wagner",
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [
+      "Africa Corps/Wagner"
+    ],
+    "parent_report_id": null,
+    "event_type": "air/drone strike",
+    "country": "Mali",
+    "city": "Mopti",
+    "lat": 14.4843,
+    "lng": -4.1829,
+    "locations": [
+      {
+        "name": "Mopti",
+        "country": "Mali",
+        "lat": 14.4843,
+        "lng": -4.1829,
+        "confidence": "explicit-place"
+      },
+      {
+        "name": "Sévaré",
+        "country": "Mali",
+        "lat": 14.5272,
+        "lng": -4.0934,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "Mali: Army, Russia's 'Africa Corps' Commit New Abuses",
+    "summary": "Nairobi — Unlawful Drone Strike, Torture of Civilians in Mopti Region Mali's armed forces and the allied Russia-controlled Africa Corps have committed new atrocities against civilians in central Mali during renewed fighting, Human Rights Watch said today. On September 16, 2026, an apparent military drone strike in Guélédié village, Mopti region, killed eight civilians and injured at least six others.",
+    "sources": [
+      "AllAfrica (English Edition)"
+    ],
+    "languages": [
+      "en"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://allafrica.com/stories/202610230063.html"
+    ],
+    "report_summaries": [
+      {
+        "url": "https://allafrica.com/stories/202610230063.html",
+        "source": "AllAfrica (English Edition)",
+        "title": "Mali: Army, Russia's 'Africa Corps' Commit New Abuses",
+        "summary": "Nairobi — Unlawful Drone Strike, Torture of Civilians in Mopti Region Mali's armed forces and the allied Russia-controlled Africa Corps have committed new atrocities against civilians in central Mali during renewed fighting, Human Rights Watch said today. On September 16, 2026, an apparent military drone strike in Guélédié village, Mopti region, killed eight civilians and injured at least six others.",
+        "summary_basis": "source-excerpt",
+        "fatalities_min": 8,
+        "fatalities_max": 8,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "civilian"
+        ],
+        "civilian_targeting_flag": true,
+        "casualty_claims": [
+          {
+            "kind": "fatalities",
+            "count": 8,
+            "victim_text": "civilians",
+            "claimant": "state/official source",
+            "status": "reported",
+            "evidence": "today. On September 16, 2026, an apparent military drone strike in Guélédié village, Mopti region, killed eight civilians and injured at least six others. Between May and August, Malian and Africa Corps forces held numero"
+          }
+        ]
+      }
+    ],
+    "created_at": "2026-10-23T13:36:08.401117Z",
+    "updated_at": "2026-10-23T13:36:08.401117Z",
+    "extraction_confidence": "low",
+    "victim_categories": [
+      "civilian"
+    ],
+    "civilian_targeting_flag": true,
+    "casualty_claims": [
+      {
+        "kind": "fatalities",
+        "count": 8,
+        "victim_text": "civilians",
+        "claimant": "state/official source",
+        "status": "reported",
+        "evidence": "today. On September 16, 2026, an apparent military drone strike in Guélédié village, Mopti region, killed eight civilians and injured at least six others. Between May and August, Malian and Africa Corps forces held numero",
+        "source": "AllAfrica (English Edition)"
+      }
+    ],
+    "fatalities_min": 8,
+    "fatalities_max": 8,
+    "fatalities_best": 8,
+    "injured_min": null,
+    "injured_max": null,
+    "abducted_min": null,
+    "abducted_max": null,
+    "casualty_disputed": false,
+    "revision_history": [
+      {
+        "at": "2026-10-23T13:36:08.401117Z",
+        "type": "event_created",
+        "source": "AllAfrica (English Edition)"
+      }
+    ],
+    "corroboration": "single-source",
+    "confidence": "low",
+    "independent_source_domains": [
+      "allafrica.com"
+    ],
+    "independent_source_count": 1,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "multi-location activity"
+    ]
+  },
+  {
+    "id": "50160d5d2f0391b49938c55d7eed4882762d1826",
+    "event_date": "2026-09-16",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "explicit-date-no-year",
+    "published_at": "2026-10-23T08:25:29Z",
+    "published_date_source": "opengraph",
+    "published_time_precision": "datetime",
+    "collected_at": "2026-10-23T13:36:05.689599Z",
+    "actor": "Africa Corps/Wagner",
+    "perpetrator": null,
+    "target": "Africa Corps/Wagner",
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [
+      "Africa Corps/Wagner"
+    ],
+    "parent_report_id": null,
+    "event_type": "civilian targeting",
+    "country": "Mali",
+    "city": "Mopti",
+    "lat": 14.4843,
+    "lng": -4.1829,
+    "locations": [
+      {
+        "name": "Mopti",
+        "country": "Mali",
+        "lat": 14.4843,
+        "lng": -4.1829,
+        "confidence": "explicit-place"
+      },
+      {
+        "name": "Sévaré",
+        "country": "Mali",
+        "lat": 14.5272,
+        "lng": -4.0934,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "Mali Army, Russian Fighters Accused of Civilian Killings",
+    "summary": "Human Rights Watch has accused Mali's armed forces and Russia-controlled Africa Corps of committing serious abuses against civilians in the central Mopti region during renewed fighting. The organisation said an apparent military drone strike on September 16 killed eight civilians and injured at least six others in Guélédié village. Witnesses reported that the strike hit an area where residents had gathered to access satellite internet, although armed fighters linked to al-Qaeda were reportedly present in the village.",
+    "sources": [
+      "AllAfrica (English Edition)"
+    ],
+    "languages": [
+      "en"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://allafrica.com/view/group/main/main/id/00098566.html"
+    ],
+    "report_summaries": [
+      {
+        "url": "https://allafrica.com/view/group/main/main/id/00098566.html",
+        "source": "AllAfrica (English Edition)",
+        "title": "Mali Army, Russian Fighters Accused of Civilian Killings",
+        "summary": "Human Rights Watch has accused Mali's armed forces and Russia-controlled Africa Corps of committing serious abuses against civilians in the central Mopti region during renewed fighting. The organisation said an apparent military drone strike on September 16 killed eight civilians and injured at least six others in Guélédié village. Witnesses reported that the strike hit an area where residents had gathered to access satellite internet, although armed fighters linked to al-Qaeda were reportedly present in the village.",
+        "summary_basis": "source-excerpt",
+        "fatalities_min": 8,
+        "fatalities_max": 8,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "civilian",
+          "armed_group"
+        ],
+        "civilian_targeting_flag": true,
+        "casualty_claims": [
+          {
+            "kind": "fatalities",
+            "count": 8,
+            "victim_text": "civilians",
+            "claimant": "state/official source",
+            "status": "reported",
+            "evidence": "on during renewed fighting. The organisation said an apparent military drone strike on September 16 killed eight civilians and injured at least six others in Guélédié village. Witnesses reported that the strike hit an area"
+          }
+        ]
+      }
+    ],
+    "created_at": "2026-10-23T13:36:05.689599Z",
+    "updated_at": "2026-10-23T13:36:05.689599Z",
+    "extraction_confidence": "low",
+    "victim_categories": [
+      "civilian",
+      "armed_group"
+    ],
+    "civilian_targeting_flag": true,
+    "casualty_claims": [
+      {
+        "kind": "fatalities",
+        "count": 8,
+        "victim_text": "civilians",
+        "claimant": "state/official source",
+        "status": "reported",
+        "evidence": "on during renewed fighting. The organisation said an apparent military drone strike on September 16 killed eight civilians and injured at least six others in Guélédié village. Witnesses reported that the strike hit an area",
+        "source": "AllAfrica (English Edition)"
+      }
+    ],
+    "fatalities_min": 8,
+    "fatalities_max": 8,
+    "fatalities_best": 8,
+    "injured_min": null,
+    "injured_max": null,
+    "abducted_min": null,
+    "abducted_max": null,
+    "casualty_disputed": false,
+    "revision_history": [
+      {
+        "at": "2026-10-23T13:36:05.689599Z",
+        "type": "event_created",
+        "source": "AllAfrica (English Edition)"
+      }
+    ],
+    "corroboration": "single-source",
+    "confidence": "low",
+    "independent_source_domains": [
+      "allafrica.com"
+    ],
+    "independent_source_count": 1,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "multi-location activity"
     ]
   },
   {
