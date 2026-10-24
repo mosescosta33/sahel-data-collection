@@ -343,14 +343,16 @@
     "title": "Bandiagara: one dead and one injured in an attack in Danlekanda",
     "summary": "One dead and one wounded by gunfire, this is the result of an attack perpetrated Thursday, October 22 by unidentified armed individuals against the village of Danlekanda, in the commune of Muétoumou, Bandiagara circle. The injured person was on his way to the Bandiagara referral health center. Last week, the village of Dôolo, in the same commune, recorded three deaths in another attack .",
     "sources": [
-      "Studio Tamani"
+      "Studio Tamani",
+      "Bamada"
     ],
     "languages": [
       "fr"
     ],
-    "source_count": 1,
+    "source_count": 2,
     "report_urls": [
-      "https://www.studiotamani.org/209428-bandiagara-un-mort-et-un-blesse-dans-une-attaque-a-danlekanda"
+      "https://www.studiotamani.org/209428-bandiagara-un-mort-et-un-blesse-dans-une-attaque-a-danlekanda",
+      "https://bamada.net/bandiagara-un-mort-et-un-blesse-dans-une-attaque-a-danlekanda"
     ],
     "report_summaries": [
       {
@@ -368,10 +370,26 @@
         "victim_categories": [],
         "civilian_targeting_flag": false,
         "casualty_claims": []
+      },
+      {
+        "url": "https://bamada.net/bandiagara-un-mort-et-un-blesse-dans-une-attaque-a-danlekanda",
+        "source": "Bamada",
+        "title": "Bandiagara: one dead and one injured in an attack in Danlekanda",
+        "summary": "One dead and one wounded by gunfire, this is the result of an attack perpetrated Thursday, October 22 by unidentified armed individuals against the village of Danlekanda, in the commune of Muétoumou, Bandiagara circle. The injured person was on his way to the Bandiagara referral health center. Last week, the village of Dôolo, in the same commune, recorded three deaths in another attack .",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
       }
     ],
     "created_at": "2026-10-23T20:04:08.526625Z",
-    "updated_at": "2026-10-23T20:04:08.526625Z",
+    "updated_at": "2026-10-24T04:47:28.013417Z",
     "extraction_confidence": "low",
     "victim_categories": [],
     "civilian_targeting_flag": false,
@@ -389,14 +407,20 @@
         "at": "2026-10-23T20:04:08.526625Z",
         "type": "event_created",
         "source": "Studio Tamani"
+      },
+      {
+        "at": "2026-10-24T04:47:28.013417Z",
+        "type": "corroboration_or_geography_update",
+        "source": "Bamada"
       }
     ],
-    "corroboration": "single-source",
-    "confidence": "low",
+    "corroboration": "limited corroboration",
+    "confidence": "moderate",
     "independent_source_domains": [
-      "studiotamani.org"
+      "studiotamani.org",
+      "bamada.net"
     ],
-    "independent_source_count": 1,
+    "independent_source_count": 2,
     "significance": "SIGNIFICANT",
     "significance_reasons": [
       "operational security event"

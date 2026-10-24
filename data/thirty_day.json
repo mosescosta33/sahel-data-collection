@@ -1,44 +1,44 @@
 {
-  "generated_at": "2026-10-23T23:17:10.349076Z",
+  "generated_at": "2026-10-24T04:48:43.197164Z",
   "window_days": 30,
-  "cutoff": "2026-09-23",
-  "reports": 611,
-  "incident_reports": 153,
-  "candidate_events": 105,
-  "corroborated_events": 25,
-  "mapped_events": 84,
-  "mapped_locations": 150,
+  "cutoff": "2026-09-24",
+  "reports": 616,
+  "incident_reports": 154,
+  "candidate_events": 101,
+  "corroborated_events": 26,
+  "mapped_events": 81,
+  "mapped_locations": 147,
   "distinct_sources": 85,
   "by_actor": {
     "State": 62,
     "JNIM": 16,
-    "Other": 15,
-    "Africa Corps/Wagner": 9,
+    "Other": 12,
+    "Africa Corps/Wagner": 8,
     "IS Sahel": 3
   },
   "by_country": {
-    "Mali": 93,
-    "Niger": 9,
+    "Mali": 92,
+    "Niger": 6,
     "Burkina Faso": 3
   },
   "by_event_type": {
     "security operation": 42,
-    "clash": 16,
     "offensive/campaign": 15,
-    "attack": 13,
+    "clash": 14,
+    "attack": 11,
     "civilian targeting": 7,
     "kidnapping": 6,
     "ambush": 3,
     "raid": 3
   },
   "by_language": {
-    "fr": 463,
+    "fr": 468,
     "en": 115,
     "ar": 33
   },
   "by_confidence": {
-    "low": 51,
-    "moderate": 47,
+    "moderate": 48,
+    "low": 46,
     "moderate-high": 5,
     "high": 2
   },
@@ -46,7 +46,7 @@
     {
       "source_code": "SRC-0008",
       "source": "Bamada",
-      "count": 93
+      "count": 97
     },
     {
       "source_code": "SRC-0006",
@@ -111,7 +111,7 @@
     },
     {
       "location": "Mali",
-      "count": 18
+      "count": 17
     },
     {
       "location": "Bamako",
@@ -155,11 +155,6 @@
     }
   ],
   "daily": [
-    {
-      "date": "2026-09-24",
-      "reports": 7,
-      "events": 1
-    },
     {
       "date": "2026-09-25",
       "reports": 7,
@@ -302,8 +297,13 @@
     },
     {
       "date": "2026-10-23",
-      "reports": 23,
+      "reports": 24,
       "events": 3
+    },
+    {
+      "date": "2026-10-24",
+      "reports": 4,
+      "events": 0
     }
   ],
   "latest_events": [
@@ -651,14 +651,16 @@
       "title": "Bandiagara: one dead and one injured in an attack in Danlekanda",
       "summary": "One dead and one wounded by gunfire, this is the result of an attack perpetrated Thursday, October 22 by unidentified armed individuals against the village of Danlekanda, in the commune of Muétoumou, Bandiagara circle. The injured person was on his way to the Bandiagara referral health center. Last week, the village of Dôolo, in the same commune, recorded three deaths in another attack .",
       "sources": [
-        "Studio Tamani"
+        "Studio Tamani",
+        "Bamada"
       ],
       "languages": [
         "fr"
       ],
-      "source_count": 1,
+      "source_count": 2,
       "report_urls": [
-        "https://www.studiotamani.org/209428-bandiagara-un-mort-et-un-blesse-dans-une-attaque-a-danlekanda"
+        "https://www.studiotamani.org/209428-bandiagara-un-mort-et-un-blesse-dans-une-attaque-a-danlekanda",
+        "https://bamada.net/bandiagara-un-mort-et-un-blesse-dans-une-attaque-a-danlekanda"
       ],
       "report_summaries": [
         {
@@ -676,10 +678,26 @@
           "victim_categories": [],
           "civilian_targeting_flag": false,
           "casualty_claims": []
+        },
+        {
+          "url": "https://bamada.net/bandiagara-un-mort-et-un-blesse-dans-une-attaque-a-danlekanda",
+          "source": "Bamada",
+          "title": "Bandiagara: one dead and one injured in an attack in Danlekanda",
+          "summary": "One dead and one wounded by gunfire, this is the result of an attack perpetrated Thursday, October 22 by unidentified armed individuals against the village of Danlekanda, in the commune of Muétoumou, Bandiagara circle. The injured person was on his way to the Bandiagara referral health center. Last week, the village of Dôolo, in the same commune, recorded three deaths in another attack .",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [],
+          "civilian_targeting_flag": false,
+          "casualty_claims": []
         }
       ],
       "created_at": "2026-10-23T20:04:08.526625Z",
-      "updated_at": "2026-10-23T20:04:08.526625Z",
+      "updated_at": "2026-10-24T04:47:28.013417Z",
       "extraction_confidence": "low",
       "victim_categories": [],
       "civilian_targeting_flag": false,
@@ -697,14 +715,20 @@
           "at": "2026-10-23T20:04:08.526625Z",
           "type": "event_created",
           "source": "Studio Tamani"
+        },
+        {
+          "at": "2026-10-24T04:47:28.013417Z",
+          "type": "corroboration_or_geography_update",
+          "source": "Bamada"
         }
       ],
-      "corroboration": "single-source",
-      "confidence": "low",
+      "corroboration": "limited corroboration",
+      "confidence": "moderate",
       "independent_source_domains": [
-        "studiotamani.org"
+        "studiotamani.org",
+        "bamada.net"
       ],
-      "independent_source_count": 1,
+      "independent_source_count": 2,
       "significance": "SIGNIFICANT",
       "significance_reasons": [
         "operational security event"
@@ -3997,6 +4021,96 @@
   ],
   "latest_reports": [
     {
+      "published_at": "2026-10-24T05:47:00Z",
+      "published_date_source": "html:time",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-24T04:47:32.037452Z",
+      "discovered_at": "2026-10-24T04:47:32.037452Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0017",
+      "source": "Le Sahel",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Diré",
+      "event_type": "raid",
+      "candidate_event": false,
+      "title": "Ticket: France on a war footing against itself!",
+      "url": "https://www.lesahel.org/billet-la-france-sur-le-pied-de-guerre-contre-elle-meme/"
+    },
+    {
+      "published_at": "2026-10-24T02:58:39Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-24T04:47:28.274642Z",
+      "discovered_at": "2026-10-24T04:47:28.274642Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0008",
+      "source": "Bamada",
+      "language": "fr",
+      "actor": null,
+      "country": "Mali",
+      "city": "Mopti",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Military Court of Mopti: 43 cases involving 72 defendants, including 69 soldiers on the docket",
+      "url": "https://bamada.net/tribunal-militaire-de-mopti-43-dossiers-impliquant-72-prevenus-dont-69-militaires-inscrits-au-role"
+    },
+    {
+      "published_at": "2026-10-24T02:33:17Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-24T04:47:28.078895Z",
+      "discovered_at": "2026-10-24T04:47:28.078895Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0008",
+      "source": "Bamada",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Bandiagara",
+      "event_type": "political/security policy",
+      "candidate_event": false,
+      "title": "RUMOURS ABOUT YOUSSOUF TOLOBA: DAN NA AMBASSAGOU STEPS UP AND CALLS FOR VIGILANCE",
+      "url": "https://bamada.net/rumeurs-sur-youssouf-toloba-dan-na-ambassagou-monte-au-creneau-et-appelle-a-la-vigilance"
+    },
+    {
+      "published_at": "2026-10-24T01:58:51Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-24T04:47:29.985504Z",
+      "discovered_at": "2026-10-24T04:47:29.985504Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0008",
+      "source": "Bamada",
+      "language": "fr",
+      "actor": null,
+      "country": "Mali",
+      "city": null,
+      "event_type": "attack",
+      "candidate_event": false,
+      "title": "Dana Ambassagou: “Toloba is neither hunted, nor surrounded, nor attacked…”",
+      "url": "https://bamada.net/dana-ambassagou-toloba-nest-ni-traque-ni-encercle-ni-attaque"
+    },
+    {
+      "published_at": "2026-10-23T23:50:27Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-24T04:47:28.013417Z",
+      "discovered_at": "2026-10-24T04:47:28.013417Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0008",
+      "source": "Bamada",
+      "language": "fr",
+      "actor": "Other",
+      "country": "Mali",
+      "city": "Bandiagara",
+      "event_type": "attack",
+      "candidate_event": true,
+      "title": "Bandiagara: one dead and one injured in an attack in Danlekanda",
+      "url": "https://bamada.net/bandiagara-un-mort-et-un-blesse-dans-une-attaque-a-danlekanda"
+    },
+    {
       "published_at": "2026-10-23T21:49:12Z",
       "published_date_source": "jsonld:datePublished",
       "published_time_precision": "datetime",
@@ -4625,96 +4739,6 @@
       "candidate_event": true,
       "title": "Arm of iron in Bamako: Seydou \"Solution\" against Mohamed \"Lil Bougou\", a contract signed on October 16",
       "url": "https://bamada.net/bras-de-fer-a-bamako-seydou-solution-face-a-mohamed-lil-bougou-un-contrat-signe-le-16-octobre"
-    },
-    {
-      "published_at": "2026-10-22T11:23:01Z",
-      "published_date_source": "opengraph",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-22T13:54:55.969818Z",
-      "discovered_at": "2026-10-22T13:54:55.969818Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0079",
-      "source": "L'Essor",
-      "language": "fr",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Ménaka",
-      "event_type": "security operation",
-      "candidate_event": true,
-      "title": "Talhandak and Menaka. Targeted FAMa strikes neutralize several terrorists The General Staff of the Armed Forces informs the public...",
-      "url": "https://www.lessor.ml/posts/talhandak-et-menaka-des-frappes-ciblees-des-fama-neutralisent-plusieurs-terroristes-6ad9f214eafd5"
-    },
-    {
-      "published_at": "2026-10-22T11:18:41Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-22T13:54:54.824005Z",
-      "discovered_at": "2026-10-22T13:54:54.824005Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0006",
-      "source": "Malijet",
-      "language": "fr",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Kayes",
-      "event_type": "law enforcement",
-      "candidate_event": false,
-      "title": "Kayes: two suspects arrested for alleged supply of terrorist armed groups",
-      "url": "https://malijet.com/les_faits_divers_au_mali/312452-kayes-deux-suspects-arretes-pour-un-presume-ravitaillement.html"
-    },
-    {
-      "published_at": "2026-10-22T10:57:02Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-22T13:54:55.522166Z",
-      "discovered_at": "2026-10-22T13:54:55.522166Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0160",
-      "source": "Sahara Medias (صحراء ميديا)",
-      "language": "ar",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Ménaka",
-      "event_type": "security operation",
-      "candidate_event": false,
-      "title": "Mali.. Militants targeted in Tahandalek and Menaka during army operations",
-      "url": "https://saharamedias.net/267493/"
-    },
-    {
-      "published_at": "2026-10-22T10:44:02Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-22T13:54:54.922234Z",
-      "discovered_at": "2026-10-22T13:54:54.922234Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0006",
-      "source": "Malijet",
-      "language": "fr",
-      "actor": null,
-      "country": "Niger",
-      "city": null,
-      "event_type": "political/security policy",
-      "candidate_event": false,
-      "title": "Algeria-Niger: a memorandum of understanding to strengthen military cooperation",
-      "url": "https://malijet.com/actualite-sur-afrique/312451-algerie-niger-un-protocole-daccord-pour-renforcer-la-coop.html"
-    },
-    {
-      "published_at": "2026-10-22T10:42:11Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-22T13:55:03.847974Z",
-      "discovered_at": "2026-10-22T13:55:03.847974Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0005",
-      "source": "Maliweb",
-      "language": "fr",
-      "actor": "Other",
-      "country": "Niger",
-      "city": "Arlit",
-      "event_type": "attack",
-      "candidate_event": false,
-      "title": "Niger: 12 dead in an armed attack on two passenger buses on the Arlit-Agadez axis (governor)",
-      "url": "https://www.maliweb.net/insecurite/niger-12-morts-dans-une-attaque-armee-contre-deux-bus-de-voyageurs-3120859.html"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."

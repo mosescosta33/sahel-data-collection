@@ -1,17 +1,17 @@
 {
   "status": "LIVE",
   "site_patch_version": "3.3.5",
-  "status_detail": "Last automated GitHub collection completed 2026-10-23T23:17:10.453967Z; 155/184 sources yielded a direct or indexed discovery path.",
-  "last_collection": "2026-10-23T23:17:10.453967Z",
-  "reports_24h": 23,
+  "status_detail": "Last automated GitHub collection completed 2026-10-24T04:48:43.453140Z; 157/184 sources yielded a direct or indexed discovery path.",
+  "last_collection": "2026-10-24T04:48:43.453140Z",
+  "reports_24h": 26,
   "distinct_sources_24h": 15,
-  "candidate_events_24h": 8,
-  "mapped_events_24h": 6,
-  "mapped_locations_24h": 10,
+  "candidate_events_24h": 3,
+  "mapped_events_24h": 2,
+  "mapped_locations_24h": 5,
   "sources_configured": 184,
-  "sources_live": 135,
-  "sources_degraded": 20,
-  "sources_failed": 29,
+  "sources_live": 136,
+  "sources_degraded": 21,
+  "sources_failed": 27,
   "source_onboarding": {
     "candidate_total": 300,
     "verified_or_active": 167,
@@ -31,11 +31,11 @@
   "language_coverage": {
     "fr": {
       "configured_sources": 63,
-      "archive_reports": 670,
-      "reports_30d": 508,
+      "archive_reports": 675,
+      "reports_30d": 513,
       "distinct_sources_30d": 44,
-      "candidate_event_reports_30d": 135,
-      "translations_success_archive": 670,
+      "candidate_event_reports_30d": 136,
+      "translations_success_archive": 675,
       "translations_pending_or_failed": 0
     },
     "en": {
@@ -67,8 +67,8 @@
     }
   },
   "source_type_coverage": {
+    "local_media": 412,
     "international_media": 351,
-    "local_media": 407,
     "official": 47,
     "aggregator": 61,
     "regional_media": 28,
@@ -82,7 +82,7 @@
     "unspecified": 1
   },
   "threat": {
-    "generated_at": "2026-10-23T23:17:10.426799Z",
+    "generated_at": "2026-10-24T04:48:43.389654Z",
     "model_version": "0.1-experimental",
     "label": "Experimental Conflict Threat Level",
     "regional": {
@@ -91,23 +91,23 @@
     },
     "countries": {
       "Mali": {
-        "score": 98,
+        "score": 95,
         "level": "HIGH",
-        "trend": "DETERIORATING",
+        "trend": "STABLE",
         "confidence": "HIGH",
         "assessment_status": "ASSESSED",
-        "events_7d": 28,
+        "events_7d": 24,
         "events_30d": 92,
-        "baseline_7d_equivalent": 19.5,
-        "tempo_ratio": 1.42,
+        "baseline_7d_equivalent": 20.7,
+        "tempo_ratio": 1.15,
         "drivers": [
-          "28 fused candidate event(s) in 7 days",
+          "24 fused candidate event(s) in 7 days",
           "6 JNIM/IS Sahel-linked event(s)",
-          "21 significant/major event(s)",
-          "9 civilian-threat indicator(s)",
-          "activity across 9 named locations"
+          "17 significant/major event(s)",
+          "8 civilian-threat indicator(s)",
+          "activity across 8 named locations"
         ],
-        "independent_domains_7d": 22
+        "independent_domains_7d": 20
       },
       "Burkina Faso": {
         "score": 0,
@@ -116,9 +116,9 @@
         "confidence": "LOW",
         "assessment_status": "INSUFFICIENT_DATA",
         "events_7d": 0,
-        "events_30d": 3,
-        "baseline_7d_equivalent": 0.9,
-        "tempo_ratio": 0.52,
+        "events_30d": 2,
+        "baseline_7d_equivalent": 0.6,
+        "tempo_ratio": 0.62,
         "drivers": [
           "insufficient fused-event evidence for a current 7-day threat classification"
         ],
@@ -147,53 +147,53 @@
     "method_note": "Experimental research indicator derived from fused candidate events, recent country-relative tempo, significance, militant activity, civilian-threat signals, geographic spread and corroboration. It is not a travel advisory, verified incident count, or forecast. Collection gaps reduce confidence rather than automatically reducing threat."
   },
   "data_quality": {
-    "generated_at": "2026-10-23T23:17:10.453039Z",
-    "events_30d": 101,
+    "generated_at": "2026-10-24T04:48:43.452082Z",
+    "events_30d": 100,
     "date_resolution_pct": 85,
     "precise_geography_pct": 80,
-    "actor_attribution_pct": 88,
-    "multi_source_corroboration_pct": 25,
+    "actor_attribution_pct": 89,
+    "multi_source_corroboration_pct": 26,
     "collection_blind_spots": [
-      "49 configured sources are degraded or failed"
+      "48 configured sources are degraded or failed"
     ],
     "collection_status": "DEGRADED",
     "language_reports_30d": {
-      "fr": 508,
+      "fr": 513,
       "en": 124,
       "ar": 33
     },
     "note": "Quality percentages describe fields present in Sahel Intel fused candidate events; they are not accuracy estimates."
   },
   "last_run": {
-    "started_at": "2026-10-23T23:11:40.589208Z",
-    "finished_at": "2026-10-23T23:17:10.453967Z",
+    "started_at": "2026-10-24T04:42:52.004452Z",
+    "finished_at": "2026-10-24T04:48:43.453140Z",
     "status": "complete",
     "site_patch_version": "3.3.5",
     "sources_total": 184,
-    "sources_success": 155,
-    "sources_failed": 29,
-    "documents_discovered": 12007,
-    "documents_selected": 42,
-    "prefetch_skipped": 11646,
-    "rejected_cache_skipped": 500,
-    "known_url_skipped": 149,
-    "duplicate_url_skipped": 138,
-    "title_duplicates_skipped": 32,
+    "sources_success": 157,
+    "sources_failed": 27,
+    "documents_discovered": 11635,
+    "documents_selected": 44,
+    "prefetch_skipped": 11270,
+    "rejected_cache_skipped": 516,
+    "known_url_skipped": 153,
+    "duplicate_url_skipped": 135,
+    "title_duplicates_skipped": 33,
     "source_cap_skipped": 0,
-    "documents_retained": 4,
-    "new_reports": 4,
-    "postfetch_duplicates": 2,
+    "documents_retained": 5,
+    "new_reports": 5,
+    "postfetch_duplicates": 3,
     "report_target": 100,
-    "report_target_progress": 4,
+    "report_target_progress": 5,
     "report_target_met": false,
     "country_report_floor": 20,
     "retained_cycle_by_country": {
-      "Mali": 2,
+      "Mali": 5,
       "Burkina Faso": 0,
-      "Niger": 2
+      "Niger": 0
     },
     "collection_waves": 1,
-    "fetch_candidates_attempted": 42,
+    "fetch_candidates_attempted": 44,
     "targeted_sources_queried": 36,
     "targeted_links_discovered": 0,
     "dynamic_sources_loaded": 110,
@@ -203,18 +203,18 @@
     "archive_rejected_by_precision_rules": 0,
     "archive_rescreened": 0,
     "archive_duplicates_removed": 0,
-    "translations_attempted": 4,
-    "translations": 4,
+    "translations_attempted": 5,
+    "translations": 5,
     "translation_failures": 0,
-    "archive_reports": 1013,
+    "archive_reports": 1018,
     "candidate_events_archive": 141,
-    "candidate_events_7d": 32,
-    "candidate_events_30d": 105,
-    "reports_30d": 611,
+    "candidate_events_7d": 28,
+    "candidate_events_30d": 101,
+    "reports_30d": 616,
     "sources_30d": 85,
-    "events_added": 2,
+    "events_added": 0,
     "events_removed": 0,
-    "event_changes": 2,
+    "event_changes": 0,
     "indexed_context_archive": 34,
     "research_leads_archive": 192,
     "analytical_context_archive": 27,
@@ -226,20 +226,20 @@
     "reports_missing_collection_timestamp": 0,
     "funnel_unaccounted": 0,
     "selected_by_language": {
-      "fr": 34,
+      "fr": 35,
       "en": 8,
-      "ar": 0,
+      "ar": 1,
       "other": 0
     },
     "retained_cycle_by_language": {
-      "fr": 4,
+      "fr": 5,
       "en": 0,
       "ar": 0,
       "other": 0
     },
     "precision_rejects_by_language": {
-      "fr": 28,
-      "en": 2,
+      "fr": 21,
+      "en": 1,
       "ar": 0,
       "other": 0
     }
