@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "site_patch_version": "3.3.5",
-  "generated_at": "2026-10-24T12:49:59.693401Z",
+  "generated_at": "2026-10-24T18:54:18.927888Z",
   "active_limit": 33,
   "total_briefings": 277,
   "active_count": 33,
@@ -11,7 +11,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-24",
-      "generated_at": "2026-10-24T12:49:59.256958Z",
+      "generated_at": "2026-10-24T18:54:18.387074Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -20,24 +20,24 @@
       "classification": "OPEN SOURCE",
       "collection_confidence": "LOW",
       "headline_metrics": {
-        "events_occurring_on_date": 0,
+        "events_occurring_on_date": 1,
         "records_held_for_review": 1,
         "multi_source_events": 0,
-        "reports_collected_on_date": 10,
-        "reports_published_on_date": 6,
+        "reports_collected_on_date": 16,
+        "reports_published_on_date": 12,
         "newly_discovered_older_events": 0,
-        "events_awaiting_date_verification": 1,
-        "distinct_sources_collected": 6
+        "events_awaiting_date_verification": 2,
+        "distinct_sources_collected": 9
       },
-      "executive_assessment": "Reporting collected on 2026-10-24 does not yet support a clear account of a new incident in Mali, Burkina Faso, or Niger. The desk received 10 reports from 6 sources, but the automated incident record needs further review. This is not evidence of calm on the ground.",
+      "executive_assessment": "Reporting dated 2026-10-24 gives the desk 1 incident account to examine in Mali. None has support from a second independent source. The record is provisional; it does not establish the full extent of violence that day.",
       "briefing_sections": [
         {
           "heading": "Assessment",
-          "text": "Reporting collected on 2026-10-24 does not yet support a clear account of a new incident in Mali, Burkina Faso, or Niger. The desk received 10 reports from 6 sources, but the automated incident record needs further review. This is not evidence of calm on the ground."
+          "text": "Reporting dated 2026-10-24 gives the desk 1 incident account to examine in Mali. None has support from a second independent source. The record is provisional; it does not establish the full extent of violence that day."
         },
         {
           "heading": "Mali",
-          "text": "7 retained reports were collected for Mali. 0 fused candidate events currently carry this reporting date. The news factory: the underside of the investigation into the drone war in Mali: The Factory of Info: the underside of the investigation into the drone war in Mali Jeune Afrique reveals the backstage of its investigation into the drone attacks in Mali, the strikes carried out by the army and the Russians… Gourma Rharous: launch of local polio vaccination days: Gourma Rharous, October 23, 2026 (AMAP)– The official launch of the second passage of the Local Days of Vaccination (JLV) against polio took place on Friday, in the Touré family, in the Boya district, in Rharous, the capital… Ticket: France on a war footing against itself!: France is on a war footing against itself. This is to say the least, on the eve of the events planned by several socio-professional organizations in the country tomorrow, Saturday, October 24, 2026. Following the damage caused… 4 additional Mali reports are summarized individually in the source records."
+          "text": "12 retained reports were collected for Mali. 1 fused candidate event currently carry this reporting date. Menaka: 54 bodies discovered in a camp in Tagadayat: Fifty-four dead bodies were discovered in a camp in Tagadayat, about 35 km southeast of Menaka, following reports of an attack on civilians. The announcement was made by the General Staff of the Armed Forces . A joint patrol… Operation Dougoukoloko: the FAMa strike several terrorist positions in Menaka, Mopti and Segou: The Malian Armed Forces (FAMa) carried out several strikes against terrorist groups in the regions of Menaka, Mopti and Segou, on 22 October 2026, as part of Operation Dougoukoloko According to the General Staff of the Armed… Mali.. The army announces the killing of militants in the framework of Operation Dogokoloko: The Malian army announced carrying out strikes targeting two gatherings of armed elements in the areas of Menaka and Mopti, in the east and center of the country, and confirmed the neutralization of three other militants after… 9 additional Mali reports are summarized individually in the source records."
         },
         {
           "heading": "Burkina Faso",
@@ -48,42 +48,84 @@
           "text": "1 retained report were collected for Niger. 0 fused candidate events currently carry this reporting date. Sahel: Algeria arms Niger and courts Mali to regain control: More than eighteen months after the case of the downed drone, Algeria changes its method in the Sahel. Indeed, on 21 October 2026, in Algiers, Chief of Staff Said Chanegriha signed a protocol of military cooperation with the…"
         },
         {
+          "heading": "Reported incidents",
+          "text": "La Nouvelle Tribune (Bénin) reports ‘Mali: FAMa strike several terrorist positions in three regions’ in Ménaka, Mali. This account still needs independent confirmation."
+        },
+        {
           "heading": "Reporting in context",
           "text": "Jeune Afrique published ‘The news factory: the underside of the investigation into the drone war in Mali’. It may provide useful context, but the extracted details do not establish a new incident on this date."
         },
         {
           "heading": "What remains unclear",
-          "text": "The date of 1 operational report still needs checking. Collection or source checks are incomplete for this date, so relevant reporting may still be missing."
+          "text": "The date of 2 operational reports still needs checking. Collection or source checks are incomplete for this date, so relevant reporting may still be missing."
         }
       ],
       "key_judgments": [
-        "No fused candidate event currently has 2026-10-24 as its event date; collection confidence for that date is low.",
-        "1 collected operational/candidate report(s) still use an unresolved or proxy event date and require temporal verification."
+        "State accounts for the largest share of same-day fused event activity (1 event(s)).",
+        "Mali contains the largest same-day event count (1 event(s)).",
+        "1 same-day event(s) remain single-source and should be treated as provisional.",
+        "2 collected operational/candidate report(s) still use an unresolved or proxy event date and require temporal verification."
       ],
-      "significant_events": [],
+      "significant_events": [
+        {
+          "id": "a972699a5222fc3223e2f5d0773ce384927b4669",
+          "title": "Mali: FAMa strike several terrorist positions in three regions",
+          "summary": "The Malian army announces that it has targeted several groups of individuals presented as terrorists in the regions of Menaka, Mopti and Segou. These operations, carried out on 22 October 2026, are part of Operation Dougoukoloko, according to the General Staff of the Armed Forces.",
+          "actor": "State",
+          "event_type": "security operation",
+          "country": "Mali",
+          "city": "Ménaka",
+          "event_date": "2026-10-24",
+          "event_date_confidence": "explicit-text",
+          "publication_time": "2026-10-24T13:52:53Z",
+          "collection_time": "2026-10-24T18:53:00.136048Z",
+          "verification_date": null,
+          "verification_basis": "not independently corroborated",
+          "last_evidence_update": "2026-10-24T18:53:00.136048Z",
+          "confidence": "moderate",
+          "corroboration": "single-source",
+          "significance": "MAJOR",
+          "source_count": 1,
+          "independent_source_count": 1,
+          "sources": [
+            "La Nouvelle Tribune (Bénin)"
+          ],
+          "independent_source_domains": [
+            "lanouvelletribune.info"
+          ],
+          "report_urls": [
+            "https://lanouvelletribune.info/2026/10/mali-les-fama-frappent-plusieurs-positions-terroristes-dans-trois-regions/"
+          ],
+          "perpetrator": "State",
+          "target": null,
+          "claimant": null,
+          "supporting_force": null
+        }
+      ],
       "what_changed_since_yesterday": [
-        "State: -2 same-day fused event(s) versus 2026-10-23 (2 → 0).",
-        "Collection volume: -16 retained report(s) versus 2026-10-23 (26 → 10)."
+        "State: -1 same-day fused event(s) versus 2026-10-23 (2 → 1).",
+        "Collection volume: -10 retained report(s) versus 2026-10-23 (26 → 16)."
       ],
       "emerging_patterns": [
-        "State 7-day activity is higher than the preceding 7-day window (7 → 10)."
+        "State 7-day activity is higher than the preceding 7-day window (7 → 11)."
       ],
       "intelligence_gaps": [
-        "1 newly collected operational/candidate report(s) have unresolved or publication-proxy event dates.",
+        "1 same-day event(s) lack independent multi-source corroboration.",
+        "2 newly collected operational/candidate report(s) have unresolved or publication-proxy event dates.",
         "Collection confidence is low, so absence of reporting should not be interpreted as absence of activity."
       ],
       "actor_counts": {
         "JNIM": 0,
         "IS Sahel": 0,
-        "State": 0
+        "State": 1
       },
       "country_counts": {
-        "Mali": 0,
+        "Mali": 1,
         "Burkina Faso": 0,
         "Niger": 0
       },
       "country_reporting_counts": {
-        "Mali": 7,
+        "Mali": 12,
         "Burkina Faso": 0,
         "Niger": 1
       },
@@ -105,25 +147,40 @@
           "event_types": []
         },
         "State": {
-          "events": 0,
-          "delta_vs_previous_day": -2,
-          "current_7d": 10,
+          "events": 1,
+          "delta_vs_previous_day": -1,
+          "current_7d": 11,
           "previous_7d": 7,
-          "countries": [],
-          "event_types": []
+          "countries": [
+            [
+              "Mali",
+              1
+            ]
+          ],
+          "event_types": [
+            [
+              "security operation",
+              1
+            ]
+          ]
         }
       },
       "country_profiles": {
         "Mali": {
-          "events": 0,
-          "reports_collected": 7,
+          "events": 1,
+          "reports_collected": 12,
           "actor_counts": {
             "JNIM": 0,
             "IS Sahel": 0,
-            "State": 0
+            "State": 1
           },
-          "delta_events_vs_previous_day": -2,
-          "top_event_types": []
+          "delta_events_vs_previous_day": -1,
+          "top_event_types": [
+            [
+              "security operation",
+              1
+            ]
+          ]
         },
         "Burkina Faso": {
           "events": 0,
@@ -150,6 +207,51 @@
       },
       "country_article_summaries": {
         "Mali": [
+          {
+            "id": "26d579c1d73db8c987271970c9dfa06227b0535c",
+            "source": "Malijet",
+            "title": "Menaka: 54 bodies discovered in a camp in Tagadayat",
+            "summary": "Fifty-four dead bodies were discovered in a camp in Tagadayat, about 35 km southeast of Menaka, following reports of an attack on civilians. The announcement was made by the General Staff of the Armed Forces . A joint patrol of the Malian Armed Forces (FAMa) and their partners was deployed to conduct field research.",
+            "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312492-menaka-54-corps-decouverts-dans-un-campement-a-tagadayat.html",
+            "candidate_event": false,
+            "event_date": "2026-10-24"
+          },
+          {
+            "id": "97afd1a39426ada73da37e18efa63218678a2ad5",
+            "source": "Malijet",
+            "title": "Operation Dougoukoloko: the FAMa strike several terrorist positions in Menaka, Mopti and Segou",
+            "summary": "The Malian Armed Forces (FAMa) carried out several strikes against terrorist groups in the regions of Menaka, Mopti and Segou, on 22 October 2026, as part of Operation Dougoukoloko According to the General Staff of the Armed Forces, precise information made it possible to locate a large group of terrorist elements about 50 km south of Menaka. The position, where there were also officials and logistical equipment, was hit after observation and confirmation of the target .",
+            "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312491-operation-dougoukoloko-les-fama-frappent-plusieurs-positio.html",
+            "candidate_event": true,
+            "event_date": "2026-10-22"
+          },
+          {
+            "id": "cac20a590d5b3da572e84c00e6ec775a52e008a8",
+            "source": "Sahara Medias (صحراء ميديا)",
+            "title": "Mali.. The army announces the killing of militants in the framework of Operation Dogokoloko",
+            "summary": "The Malian army announced carrying out strikes targeting two gatherings of armed elements in the areas of Menaka and Mopti, in the east and center of the country, and confirmed the neutralization of three other militants after they were tracked in several areas, as part of Operation Dogokoloko. It said in a statement on Saturday that accurate intelligence enabled the Malian armed forces, with the support of its partners on October 22, to locate a large gathering of elements it described as terrorist, about fifty kilometers south of the city of Menaka.",
+            "url": "https://saharamedias.net/267661/",
+            "candidate_event": false,
+            "event_date": "2026-10-22"
+          },
+          {
+            "id": "7045f55800baf11b6a6cfc1f222fdac3cc3ba175",
+            "source": "Bamada",
+            "title": "Ménaka, Mopti and Ségou: The Malian Armed Forces accurately hit several terrorist bases",
+            "summary": "The General Staff of the Armed Forces informs the national opinion that the Malian Armed Forces (FAMa), supported by their partners, are continuing the permanent operations of surveillance, control and security of the national territory as part of Operation Dougoukoloko . On October 22, 2026, the exploitation of precise intelligence made it possible to locate, about 50 km south of the city of Menaka, a major gathering point of terrorist elements, among which were officials, as well as several rolling means and logistical equipment.",
+            "url": "https://bamada.net/menaka-mopti-et-segou-les-forces-armees-maliennes-frappent-avec-precision-plusieurs-bases-terroristes",
+            "candidate_event": true,
+            "event_date": "2026-10-22"
+          },
+          {
+            "id": "f928bce8c7366c89e53c302dd26c09a8315762b6",
+            "source": "La Nouvelle Tribune (Bénin)",
+            "title": "Mali: FAMa strike several terrorist positions in three regions",
+            "summary": "The Malian army announces that it has targeted several groups of individuals presented as terrorists in the regions of Menaka, Mopti and Segou. These operations, carried out on 22 October 2026, are part of Operation Dougoukoloko, according to the General Staff of the Armed Forces.",
+            "url": "https://lanouvelletribune.info/2026/10/mali-les-fama-frappent-plusieurs-positions-terroristes-dans-trois-regions/",
+            "candidate_event": true,
+            "event_date": "2026-10-24"
+          },
           {
             "id": "e7cd2aa54ed8721e42718655bd82a23db3788635",
             "source": "Jeune Afrique",
@@ -229,35 +331,36 @@
       },
       "collection_notes": {
         "sources_total": 184,
-        "sources_success": 157,
-        "sources_failed": 27,
+        "sources_success": 158,
+        "sources_failed": 26,
         "sources_degraded": 21,
-        "documents_discovered": 11743,
-        "documents_retained": 5,
+        "documents_discovered": 12204,
+        "documents_retained": 6,
         "report_target": 100,
-        "translations_attempted": 5,
-        "translations_success": 5,
+        "translations_attempted": 6,
+        "translations_success": 6,
         "translation_failures": 0,
         "collection_confidence": "LOW",
         "collection_confidence_reasons": [
-          "157/184 source paths reached",
-          "27 failed source paths",
-          "21 degraded / 27 failed of 184 configured sources"
+          "158/184 source paths reached",
+          "26 failed source paths",
+          "21 degraded / 26 failed of 184 configured sources"
         ],
-        "reports_collected": 10,
-        "reports_published": 6,
-        "distinct_sources_collected": 6,
+        "reports_collected": 16,
+        "reports_published": 12,
+        "distinct_sources_collected": 9,
         "language_counts": {
-          "fr": 10
+          "fr": 15,
+          "ar": 1
         }
       },
-      "sultana_daily_text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nDaily bottom line for 2026-10-24: Reporting collected on 2026-10-24 does not yet support a clear account of a new incident in Mali, Burkina Faso, or Niger. The desk received 10 reports from 6 sources, but the automated incident record needs further review. This is not evidence of calm on the ground.\n\nMali: 7 retained reports. 1. The news factory: the underside of the investigation into the drone war in Mali. The Factory of Info: the underside of the investigation into the drone war in Mali Jeune Afrique reveals the backstage of its investigation into the drone attacks in Mali, the strikes carried out by the army and the Russians of Africa Corps. For six months, evidence was gathered to try to meticulously verify each of these bombings, at least a quarter of which resulted in civilian casualties. 2. Gourma Rharous: launch of local polio vaccination days. Gourma Rharous, October 23, 2026 (AMAP)– The official launch of the second passage of the Local Days of Vaccination (JLV) against polio took place on Friday, in the Touré family, in the Boya district, in Rharous, the capital of the circle. The ceremony was presided over by the central sub-prefect, Captain Ousmane Coulibaly, representing the prefect of the circle, noted AMAP The ceremony took place in the presence of the second deputy mayor of the commune of Rharous, Souleymane Aguissa Maïga, the chief medical officer of the health district, Dr. 3. Ticket: France on a war footing against itself!. France is on a war footing against itself. This is to say the least, on the eve of the events planned by several socio-professional organizations in the country tomorrow, Saturday, October 24, 2026. Following the damage caused during the high school demonstrations of October 17, Macron's government decided to mobilize large resources .\n\nBurkina Faso: 0 retained reports. No retained country-specific reports were collected for this desk date.\n\nNiger: 1 retained report. 1. Sahel: Algeria arms Niger and courts Mali to regain control. More than eighteen months after the case of the downed drone, Algeria changes its method in the Sahel. Indeed, on 21 October 2026, in Algiers, Chief of Staff Said Chanegriha signed a protocol of military cooperation with the Nigerien Minister of Defence, Salifou Modi, affirming \"the full willingness of the National People's Army to examine any Nigerien proposal likely to strengthen our military and security cooperation\" According to the statement of the Algerian Ministry of Defense, Modi welcomed the multidimensional coordination between the two armies, but the content of the text was not made public.\n\nActor picture: no same-day fused candidate events.\n\nWhat changed: State: -2 same-day fused event(s) versus 2026-10-23 (2 → 0). Collection volume: -16 retained report(s) versus 2026-10-23 (26 → 10).\n\nIntelligence gaps: 1 newly collected operational/candidate report(s) have unresolved or publication-proxy event dates. Collection confidence is low, so absence of reporting should not be interpreted as absence of activity.\n\nCollection confidence: LOW. 157/184 source paths reached 27 failed source paths 21 degraded / 27 failed of 184 configured sources\n\nAll retained source reports, including reports not promoted to the map, remain individually summarized in the intelligence feed and source records."
+      "sultana_daily_text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nDaily bottom line for 2026-10-24: Reporting dated 2026-10-24 gives the desk 1 incident account to examine in Mali. None has support from a second independent source. The record is provisional; it does not establish the full extent of violence that day.\n\nMali: 12 retained reports. 1. Menaka: 54 bodies discovered in a camp in Tagadayat. Fifty-four dead bodies were discovered in a camp in Tagadayat, about 35 km southeast of Menaka, following reports of an attack on civilians. The announcement was made by the General Staff of the Armed Forces . A joint patrol of the Malian Armed Forces (FAMa) and their partners was deployed to conduct field research. 2. Operation Dougoukoloko: the FAMa strike several terrorist positions in Menaka, Mopti and Segou. The Malian Armed Forces (FAMa) carried out several strikes against terrorist groups in the regions of Menaka, Mopti and Segou, on 22 October 2026, as part of Operation Dougoukoloko According to the General Staff of the Armed Forces, precise information made it possible to locate a large group of terrorist elements about 50 km south of Menaka. The position, where there were also officials and logistical equipment, was hit after observation and confirmation of the target . 3. Mali.. The army announces the killing of militants in the framework of Operation Dogokoloko. The Malian army announced carrying out strikes targeting two gatherings of armed elements in the areas of Menaka and Mopti, in the east and center of the country, and confirmed the neutralization of three other militants after they were tracked in several areas, as part of Operation Dogokoloko. It said in a statement on Saturday that accurate intelligence enabled the Malian armed forces, with the support of its partners on October 22, to locate a large gathering of elements it described as terrorist, about fifty kilometers south of the city of Menaka.\n\nBurkina Faso: 0 retained reports. No retained country-specific reports were collected for this desk date.\n\nNiger: 1 retained report. 1. Sahel: Algeria arms Niger and courts Mali to regain control. More than eighteen months after the case of the downed drone, Algeria changes its method in the Sahel. Indeed, on 21 October 2026, in Algiers, Chief of Staff Said Chanegriha signed a protocol of military cooperation with the Nigerien Minister of Defence, Salifou Modi, affirming \"the full willingness of the National People's Army to examine any Nigerien proposal likely to strengthen our military and security cooperation\" According to the statement of the Algerian Ministry of Defense, Modi welcomed the multidimensional coordination between the two armies, but the content of the text was not made public.\n\nActor picture: JNIM 0, IS Sahel 0, State 1.\n\nWhat changed: State: -1 same-day fused event(s) versus 2026-10-23 (2 → 1). Collection volume: -10 retained report(s) versus 2026-10-23 (26 → 16).\n\nIntelligence gaps: 1 same-day event(s) lack independent multi-source corroboration. 2 newly collected operational/candidate report(s) have unresolved or publication-proxy event dates. Collection confidence is low, so absence of reporting should not be interpreted as absence of activity.\n\nCollection confidence: LOW. 158/184 source paths reached 26 failed source paths 21 degraded / 26 failed of 184 configured sources\n\nAll retained source reports, including reports not promoted to the map, remain individually summarized in the intelligence feed and source records."
     },
     {
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-23",
-      "generated_at": "2026-10-24T12:49:58.998001Z",
+      "generated_at": "2026-10-24T18:54:17.935770Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -757,7 +860,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-22",
-      "generated_at": "2026-10-24T12:49:58.672413Z",
+      "generated_at": "2026-10-24T18:54:17.928599Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -768,18 +871,18 @@
       "headline_metrics": {
         "events_occurring_on_date": 2,
         "records_held_for_review": 3,
-        "multi_source_events": 1,
+        "multi_source_events": 2,
         "reports_collected_on_date": 42,
         "reports_published_on_date": 33,
         "newly_discovered_older_events": 3,
         "events_awaiting_date_verification": 4,
         "distinct_sources_collected": 26
       },
-      "executive_assessment": "Reporting dated 2026-10-22 gives the desk 2 incident accounts to examine in Mali. 1 has support from separate sources. The record is provisional; it does not establish the full extent of violence that day.",
+      "executive_assessment": "Reporting dated 2026-10-22 gives the desk 2 incident accounts to examine in Mali. 2 have support from separate sources. The record is provisional; it does not establish the full extent of violence that day.",
       "briefing_sections": [
         {
           "heading": "Assessment",
-          "text": "Reporting dated 2026-10-22 gives the desk 2 incident accounts to examine in Mali. 1 has support from separate sources. The record is provisional; it does not establish the full extent of violence that day."
+          "text": "Reporting dated 2026-10-22 gives the desk 2 incident accounts to examine in Mali. 2 have support from separate sources. The record is provisional; it does not establish the full extent of violence that day."
         },
         {
           "heading": "Mali",
@@ -795,7 +898,7 @@
         },
         {
           "heading": "Reported incidents",
-          "text": "Studio Tamani reports ‘Bandiagara: one dead and one injured in an attack in Danlekanda’ in Bandiagara, Mali. Separate sources also report the event. L'Essor reports ‘Talhandak and Menaka. Targeted FAMa strikes neutralize several terrorists The General Staff of the Armed Forces informs the public...’ in Ménaka, Mali. This account still needs independent confirmation."
+          "text": "L'Essor reports ‘Talhandak and Menaka. Targeted FAMa strikes neutralize several terrorists The General Staff of the Armed Forces informs the public...’ in Ménaka, Mali. Separate sources also report the event. Studio Tamani reports ‘Bandiagara: one dead and one injured in an attack in Danlekanda’ in Bandiagara, Mali. Separate sources also report the event."
         },
         {
           "heading": "Reporting in context",
@@ -809,11 +912,50 @@
       "key_judgments": [
         "State accounts for the largest share of same-day fused event activity (1 event(s)).",
         "Mali contains the largest same-day event count (2 event(s)).",
-        "1 of 2 same-day event(s) meet the multi-source corroboration threshold used by this briefing layer.",
-        "1 same-day event(s) remain single-source and should be treated as provisional.",
+        "2 of 2 same-day event(s) meet the multi-source corroboration threshold used by this briefing layer.",
         "4 collected operational/candidate report(s) still use an unresolved or proxy event date and require temporal verification."
       ],
       "significant_events": [
+        {
+          "id": "2157928719fac011a81d69f2e121278810f9c764",
+          "title": "Talhandak and Menaka. Targeted FAMa strikes neutralize several terrorists The General Staff of the Armed Forces informs the public...",
+          "summary": "The General Staff of the Armed Forces informs the national opinion that the Malian Armed Forces (FAMa), supported by their partners, are continuing the permanent operations of surveillance, control and security of the national territory as part of Operation Dougoukoloko . On October 22, 2026, the exploitation of precise intelligence made it possible to locate, about 50 km south of the city of Menaka, a major gathering point of terrorist elements, among which were officials, as well as several rolling means and logistical equipment.",
+          "actor": "State",
+          "event_type": "security operation",
+          "country": "Mali",
+          "city": "Ménaka",
+          "event_date": "2026-10-22",
+          "event_date_confidence": "explicit-text",
+          "publication_time": "2026-10-22T11:23:01Z",
+          "collection_time": "2026-10-22T13:54:55.969818Z",
+          "verification_date": "2026-10-24",
+          "verification_basis": "multi-source corroboration",
+          "last_evidence_update": "2026-10-24T18:52:59.736736Z",
+          "confidence": "moderate-high",
+          "corroboration": "multi-source",
+          "significance": "MAJOR",
+          "source_count": 3,
+          "independent_source_count": 3,
+          "sources": [
+            "L'Essor",
+            "Bamada",
+            "Malijet"
+          ],
+          "independent_source_domains": [
+            "lessor.ml",
+            "bamada.net",
+            "malijet.com"
+          ],
+          "report_urls": [
+            "https://www.lessor.ml/posts/talhandak-et-menaka-des-frappes-ciblees-des-fama-neutralisent-plusieurs-terroristes-6ad9f214eafd5",
+            "https://bamada.net/menaka-mopti-et-segou-les-forces-armees-maliennes-frappent-avec-precision-plusieurs-bases-terroristes",
+            "https://malijet.com/actualte_dans_les_regions_du_mali/312491-operation-dougoukoloko-les-fama-frappent-plusieurs-positio.html"
+          ],
+          "perpetrator": "State",
+          "target": null,
+          "claimant": null,
+          "supporting_force": null
+        },
         {
           "id": "885d47981c0ffe16aa8653baccadf7b234216a12",
           "title": "Bandiagara: one dead and one injured in an attack in Danlekanda",
@@ -850,40 +992,6 @@
           "target": null,
           "claimant": null,
           "supporting_force": null
-        },
-        {
-          "id": "2157928719fac011a81d69f2e121278810f9c764",
-          "title": "Talhandak and Menaka. Targeted FAMa strikes neutralize several terrorists The General Staff of the Armed Forces informs the public...",
-          "summary": "In a press release published this Thursday, October 22, 2026, the General Staff of the Armed Forces informs that on Tuesday, October 20, 2026, in the Talhandak sector, the tracking of two motorcyclists made it possible to identify, about 3 km northwest of Talhandak, a point of regroupment of terrorist individuals with several motorcycles and trying to hide under a vegetal cover .",
-          "actor": "State",
-          "event_type": "security operation",
-          "country": "Mali",
-          "city": "Ménaka",
-          "event_date": "2026-10-22",
-          "event_date_confidence": "explicit-text",
-          "publication_time": "2026-10-22T11:23:01Z",
-          "collection_time": "2026-10-22T13:54:55.969818Z",
-          "verification_date": null,
-          "verification_basis": "not independently corroborated",
-          "last_evidence_update": "2026-10-22T13:54:55.969818Z",
-          "confidence": "moderate",
-          "corroboration": "single-source",
-          "significance": "ROUTINE",
-          "source_count": 1,
-          "independent_source_count": 1,
-          "sources": [
-            "L'Essor"
-          ],
-          "independent_source_domains": [
-            "lessor.ml"
-          ],
-          "report_urls": [
-            "https://www.lessor.ml/posts/talhandak-et-menaka-des-frappes-ciblees-des-fama-neutralisent-plusieurs-terroristes-6ad9f214eafd5"
-          ],
-          "perpetrator": "State",
-          "target": null,
-          "claimant": null,
-          "supporting_force": null
         }
       ],
       "what_changed_since_yesterday": [
@@ -895,7 +1003,6 @@
         "State 7-day activity is higher than the preceding 7-day window (7 → 11)."
       ],
       "intelligence_gaps": [
-        "1 same-day event(s) lack independent multi-source corroboration.",
         "4 newly collected operational/candidate report(s) have unresolved or publication-proxy event dates.",
         "Collection confidence is moderate, so absence of reporting should not be interpreted as absence of activity."
       ],
@@ -962,11 +1069,11 @@
           "delta_events_vs_previous_day": 1,
           "top_event_types": [
             [
-              "attack",
+              "security operation",
               1
             ],
             [
-              "security operation",
+              "attack",
               1
             ]
           ]
@@ -1387,13 +1494,13 @@
           "ar": 1
         }
       },
-      "sultana_daily_text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nDaily bottom line for 2026-10-22: Reporting dated 2026-10-22 gives the desk 2 incident accounts to examine in Mali. 1 has support from separate sources. The record is provisional; it does not establish the full extent of violence that day.\n\nMali: 16 retained reports. 1. Impact of the security degradation in Mali on the border areas: Mauritania - SÃĐnÃĐgal - GuinÃĐe (GRANITE) (January to June 2026). 22-10-2026 19:16 - Impact of the security degradation in Mali on the border areas: Mauritania - SÃĐnÃĐgal - GuinÃĐe (GRANITE) (January to June 2026) RELIEF WEB - In the first half of 2026, Mali experienced a major security escalation, with coordinated attacks on 25 April by non-state armed groups (NSAGs) against several military garrisons, including Kidal, Gao, Mopti, Bamako and Kati, as well as an attempted blockade of the capital. 2. Solidarity Month: Minister Assa Badiallo Touré and PAHO women alongside the 220 vulnerable people. Solidarity Month: Minister Assa Badiallo Touré and women from PAHO alongside 220 vulnerable people Food donations, non-food kits and income-generating activities financing, the Minister of Health and Social Development and women from Social Welfare Organizations (PAHO) joined forces to support 220 vulnerable people, this Thursday, October 22, 2026, in Bamako . 3. Image Published on October 22, 2026 Africa Mali: Human Rights Watch accuses the army and its Russian allies of \"new atrocities\" against civilians Human Rights Watch (HRW) claims that the Malian army and its Russian paramilitary allies have committed \"new atrocities\" against civilians in.... Human Rights Watch (HRW) claims that the Malian army and its Russian paramilitary allies have committed \"new atrocities\" against civilians in central Mali Human Rights Watch (HRW) claims that the Malian army and its Russian paramilitary allies have committed \"new atrocities\" against civilians in central Mali, in a report released Thursday .\n\nBurkina Faso: 7 retained reports. 1. Burkina: what the new Penal Code says. Burkina Faso reinstates the death penalty in its new Penal Code, adopted unanimously. The Ministry of Justice detailed the main innovations. The Burkinabe Ministry of Justice published on its Facebook page on Wednesday a table of the innovations of the new Penal Code, adopted the day before by the 71 members of the People's Legislative Assembly. 2. Burkina Faso: The country reinstates the death penalty (HRW). A scary message for critics of the junta in a context of widespread repression Burkina Faso's unelected parliament unanimously adopted a new penal code that reinstates the death penalty for high treason, terrorism, acts of espionage, parricide and import of expired or prohibited products The country had abolished the death penalty for common crimes in 2018, while its last known judicial execution was in 1988. 3. Burkina: The new Penal Code prohibits funerals for death row inmates, polyandry is now prohibited. Burkina : Le nouveau Code pénal proscrit les funérailles pour les condamnés à mort exécutés, la polyandrie désormais interdite Au Burkina Faso, l’Assemblée législative du Peuple (ALP) a adopté lors de sa plénière d’hier mardi 20 octobre, le projet de loi portant Code pénal. Ce nouveau texte comprend neuf livres, 33 titres et 97 chapitres, pour un total de plus de 900 articles.\n\nNiger: 17 retained reports. 1. Two European Women Freed After Kidnap in Niger. A Swiss woman and an Austrian woman kidnapped in Niger in 2025 have been released after spending more than a year in captivity, their respective governments have confirmed. The women, identified as 69-year-old Swiss national Claudia Abbt and 76-year-old Austrian citizen Eva Gretzmacher, arrived in Benghazi, eastern Libya, following their release, according to local media reports. 2. Niger and Algeria sign a memorandum of understanding in the field of military cooperation. The Nigerien Minister of National Defence, Army General Salifou Modi is on a working visit to Algiers. It was yesterday Wednesday, October 21, at the headquarters of the General Staff of the People's National Army (ANP) . After saluting the national flag, listening to the two national anthems and presenting military honours, the Nigerien official had a meeting with Said Chanegriha, Minister Delegate to the Algerian Minister of National Defence, Chief of Staff of the National People's Army . 3. Haftar stages the release in Benghazi of two hostages kidnapped in Niger. The two women abducted in 2025 in Agadez, the capital of northern Niger, were released on Wednesday by their captors from the Islamic State in the Sahel (ISIS), thanks to the good offices of Libyan Marshal and Eastern strongman Khalifa Haftar. Austria's Eva Gretzmacher and Switzerland's Claudia Abbt thank Haftar father and son in the video below, broadcast by al-Masar TV, a Benghazi TV, on platform X .\n\nActor picture: JNIM 0, IS Sahel 0, State 1.\n\nWhat changed: Collection volume: -3 retained report(s) versus 2026-10-21 (45 → 42). Actor-level same-day fused event counts are unchanged from the previous date.\n\nIntelligence gaps: 1 same-day event(s) lack independent multi-source corroboration. 4 newly collected operational/candidate report(s) have unresolved or publication-proxy event dates. Collection confidence is moderate, so absence of reporting should not be interpreted as absence of activity.\n\nCollection confidence: MODERATE. 154/184 source paths reached 30 failed source paths\n\nAll retained source reports, including reports not promoted to the map, remain individually summarized in the intelligence feed and source records."
+      "sultana_daily_text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nDaily bottom line for 2026-10-22: Reporting dated 2026-10-22 gives the desk 2 incident accounts to examine in Mali. 2 have support from separate sources. The record is provisional; it does not establish the full extent of violence that day.\n\nMali: 16 retained reports. 1. Impact of the security degradation in Mali on the border areas: Mauritania - SÃĐnÃĐgal - GuinÃĐe (GRANITE) (January to June 2026). 22-10-2026 19:16 - Impact of the security degradation in Mali on the border areas: Mauritania - SÃĐnÃĐgal - GuinÃĐe (GRANITE) (January to June 2026) RELIEF WEB - In the first half of 2026, Mali experienced a major security escalation, with coordinated attacks on 25 April by non-state armed groups (NSAGs) against several military garrisons, including Kidal, Gao, Mopti, Bamako and Kati, as well as an attempted blockade of the capital. 2. Solidarity Month: Minister Assa Badiallo Touré and PAHO women alongside the 220 vulnerable people. Solidarity Month: Minister Assa Badiallo Touré and women from PAHO alongside 220 vulnerable people Food donations, non-food kits and income-generating activities financing, the Minister of Health and Social Development and women from Social Welfare Organizations (PAHO) joined forces to support 220 vulnerable people, this Thursday, October 22, 2026, in Bamako . 3. Image Published on October 22, 2026 Africa Mali: Human Rights Watch accuses the army and its Russian allies of \"new atrocities\" against civilians Human Rights Watch (HRW) claims that the Malian army and its Russian paramilitary allies have committed \"new atrocities\" against civilians in.... Human Rights Watch (HRW) claims that the Malian army and its Russian paramilitary allies have committed \"new atrocities\" against civilians in central Mali Human Rights Watch (HRW) claims that the Malian army and its Russian paramilitary allies have committed \"new atrocities\" against civilians in central Mali, in a report released Thursday .\n\nBurkina Faso: 7 retained reports. 1. Burkina: what the new Penal Code says. Burkina Faso reinstates the death penalty in its new Penal Code, adopted unanimously. The Ministry of Justice detailed the main innovations. The Burkinabe Ministry of Justice published on its Facebook page on Wednesday a table of the innovations of the new Penal Code, adopted the day before by the 71 members of the People's Legislative Assembly. 2. Burkina Faso: The country reinstates the death penalty (HRW). A scary message for critics of the junta in a context of widespread repression Burkina Faso's unelected parliament unanimously adopted a new penal code that reinstates the death penalty for high treason, terrorism, acts of espionage, parricide and import of expired or prohibited products The country had abolished the death penalty for common crimes in 2018, while its last known judicial execution was in 1988. 3. Burkina: The new Penal Code prohibits funerals for death row inmates, polyandry is now prohibited. Burkina : Le nouveau Code pénal proscrit les funérailles pour les condamnés à mort exécutés, la polyandrie désormais interdite Au Burkina Faso, l’Assemblée législative du Peuple (ALP) a adopté lors de sa plénière d’hier mardi 20 octobre, le projet de loi portant Code pénal. Ce nouveau texte comprend neuf livres, 33 titres et 97 chapitres, pour un total de plus de 900 articles.\n\nNiger: 17 retained reports. 1. Two European Women Freed After Kidnap in Niger. A Swiss woman and an Austrian woman kidnapped in Niger in 2025 have been released after spending more than a year in captivity, their respective governments have confirmed. The women, identified as 69-year-old Swiss national Claudia Abbt and 76-year-old Austrian citizen Eva Gretzmacher, arrived in Benghazi, eastern Libya, following their release, according to local media reports. 2. Niger and Algeria sign a memorandum of understanding in the field of military cooperation. The Nigerien Minister of National Defence, Army General Salifou Modi is on a working visit to Algiers. It was yesterday Wednesday, October 21, at the headquarters of the General Staff of the People's National Army (ANP) . After saluting the national flag, listening to the two national anthems and presenting military honours, the Nigerien official had a meeting with Said Chanegriha, Minister Delegate to the Algerian Minister of National Defence, Chief of Staff of the National People's Army . 3. Haftar stages the release in Benghazi of two hostages kidnapped in Niger. The two women abducted in 2025 in Agadez, the capital of northern Niger, were released on Wednesday by their captors from the Islamic State in the Sahel (ISIS), thanks to the good offices of Libyan Marshal and Eastern strongman Khalifa Haftar. Austria's Eva Gretzmacher and Switzerland's Claudia Abbt thank Haftar father and son in the video below, broadcast by al-Masar TV, a Benghazi TV, on platform X .\n\nActor picture: JNIM 0, IS Sahel 0, State 1.\n\nWhat changed: Collection volume: -3 retained report(s) versus 2026-10-21 (45 → 42). Actor-level same-day fused event counts are unchanged from the previous date.\n\nIntelligence gaps: 4 newly collected operational/candidate report(s) have unresolved or publication-proxy event dates. Collection confidence is moderate, so absence of reporting should not be interpreted as absence of activity.\n\nCollection confidence: MODERATE. 154/184 source paths reached 30 failed source paths\n\nAll retained source reports, including reports not promoted to the map, remain individually summarized in the intelligence feed and source records."
     },
     {
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-21",
-      "generated_at": "2026-10-24T12:49:58.691027Z",
+      "generated_at": "2026-10-24T18:54:18.610617Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -1993,7 +2100,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-20",
-      "generated_at": "2026-10-24T12:49:59.689670Z",
+      "generated_at": "2026-10-24T18:54:18.300649Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -2805,7 +2912,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-19",
-      "generated_at": "2026-10-24T12:49:59.525065Z",
+      "generated_at": "2026-10-24T18:54:18.434785Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -3376,7 +3483,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-18",
-      "generated_at": "2026-10-24T12:49:58.783526Z",
+      "generated_at": "2026-10-24T18:54:18.721001Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -3670,7 +3777,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-17",
-      "generated_at": "2026-10-24T12:49:59.591144Z",
+      "generated_at": "2026-10-24T18:54:18.482296Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -4087,7 +4194,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-16",
-      "generated_at": "2026-10-24T12:49:58.775558Z",
+      "generated_at": "2026-10-24T18:54:18.531776Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -4353,7 +4460,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-15",
-      "generated_at": "2026-10-24T12:49:58.654518Z",
+      "generated_at": "2026-10-24T18:54:18.851725Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -4797,7 +4904,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-14",
-      "generated_at": "2026-10-24T12:49:58.891640Z",
+      "generated_at": "2026-10-24T18:54:18.671631Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -5274,7 +5381,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-13",
-      "generated_at": "2026-10-24T12:49:59.598546Z",
+      "generated_at": "2026-10-24T18:54:18.633107Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -5608,7 +5715,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-12",
-      "generated_at": "2026-10-24T12:49:59.065969Z",
+      "generated_at": "2026-10-24T18:54:18.148626Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -5986,7 +6093,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-11",
-      "generated_at": "2026-10-24T12:49:59.173496Z",
+      "generated_at": "2026-10-24T18:54:18.780573Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -6323,7 +6430,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-10",
-      "generated_at": "2026-10-24T12:49:59.547229Z",
+      "generated_at": "2026-10-24T18:54:18.756234Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -6720,7 +6827,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-09",
-      "generated_at": "2026-10-24T12:49:58.876837Z",
+      "generated_at": "2026-10-24T18:54:18.092355Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -7205,7 +7312,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-08",
-      "generated_at": "2026-10-24T12:49:59.309064Z",
+      "generated_at": "2026-10-24T18:54:18.142854Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -7744,7 +7851,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-07",
-      "generated_at": "2026-10-24T12:49:58.666359Z",
+      "generated_at": "2026-10-24T18:54:18.009559Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -8283,7 +8390,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-06",
-      "generated_at": "2026-10-24T12:49:58.758492Z",
+      "generated_at": "2026-10-24T18:54:18.460965Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -9191,7 +9298,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-05",
-      "generated_at": "2026-10-24T12:49:58.975784Z",
+      "generated_at": "2026-10-24T18:54:18.675330Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -9849,7 +9956,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-04",
-      "generated_at": "2026-10-24T12:49:58.779760Z",
+      "generated_at": "2026-10-24T18:54:17.921362Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -10458,7 +10565,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-03",
-      "generated_at": "2026-10-24T12:49:58.701987Z",
+      "generated_at": "2026-10-24T18:54:18.204948Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -10945,7 +11052,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-02",
-      "generated_at": "2026-10-24T12:49:58.678315Z",
+      "generated_at": "2026-10-24T18:54:18.880178Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -11185,7 +11292,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-01",
-      "generated_at": "2026-10-24T12:49:58.791971Z",
+      "generated_at": "2026-10-24T18:54:18.475199Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -11733,7 +11840,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-30",
-      "generated_at": "2026-10-24T12:49:59.092306Z",
+      "generated_at": "2026-10-24T18:54:17.914129Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -12877,7 +12984,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-29",
-      "generated_at": "2026-10-24T12:49:58.764530Z",
+      "generated_at": "2026-10-24T18:54:18.517230Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -13202,7 +13309,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-28",
-      "generated_at": "2026-10-24T12:49:59.510008Z",
+      "generated_at": "2026-10-24T18:54:18.538917Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -13681,7 +13788,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-27",
-      "generated_at": "2026-10-24T12:49:59.379868Z",
+      "generated_at": "2026-10-24T18:54:18.060128Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -14034,7 +14141,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-26",
-      "generated_at": "2026-10-24T12:49:59.140499Z",
+      "generated_at": "2026-10-24T18:54:18.366341Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -14282,7 +14389,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-25",
-      "generated_at": "2026-10-24T12:49:58.611923Z",
+      "generated_at": "2026-10-24T18:54:18.077660Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -14634,7 +14741,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-24",
-      "generated_at": "2026-10-24T12:49:59.136737Z",
+      "generated_at": "2026-10-24T18:54:18.471544Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -14996,7 +15103,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-23",
-      "generated_at": "2026-10-24T12:49:59.457647Z",
+      "generated_at": "2026-10-24T18:54:18.005797Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -15307,7 +15414,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-22",
-      "generated_at": "2026-10-24T12:49:58.956974Z",
+      "generated_at": "2026-10-24T18:54:18.640345Z",
       "coverage": [
         "Mali",
         "Burkina Faso",

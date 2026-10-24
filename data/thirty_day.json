@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-24T12:49:57.945579Z",
+  "generated_at": "2026-10-24T18:54:17.221239Z",
   "window_days": 30,
   "cutoff": "2026-09-24",
-  "reports": 619,
-  "incident_reports": 154,
-  "candidate_events": 102,
-  "corroborated_events": 26,
-  "mapped_events": 81,
-  "mapped_locations": 147,
+  "reports": 621,
+  "incident_reports": 155,
+  "candidate_events": 103,
+  "corroborated_events": 27,
+  "mapped_events": 82,
+  "mapped_locations": 152,
   "distinct_sources": 85,
   "by_actor": {
-    "State": 62,
+    "State": 63,
     "JNIM": 16,
     "Other": 12,
     "Africa Corps/Wagner": 9,
     "IS Sahel": 3
   },
   "by_country": {
-    "Mali": 93,
+    "Mali": 94,
     "Niger": 6,
     "Burkina Faso": 3
   },
   "by_event_type": {
-    "security operation": 42,
+    "security operation": 43,
     "offensive/campaign": 15,
     "clash": 14,
     "attack": 11,
@@ -33,26 +33,26 @@
     "air/drone strike": 1
   },
   "by_language": {
-    "fr": 471,
-    "en": 115,
-    "ar": 33
+    "fr": 473,
+    "en": 114,
+    "ar": 34
   },
   "by_confidence": {
     "moderate": 48,
     "low": 47,
-    "moderate-high": 5,
+    "moderate-high": 6,
     "high": 2
   },
   "top_sources": [
     {
       "source_code": "SRC-0008",
       "source": "Bamada",
-      "count": 98
+      "count": 99
     },
     {
       "source_code": "SRC-0006",
       "source": "Malijet",
-      "count": 66
+      "count": 68
     },
     {
       "source_code": "SRC-0090",
@@ -77,12 +77,7 @@
     {
       "source_code": "SRC-0092",
       "source": "La Nouvelle Tribune (Bénin)",
-      "count": 20
-    },
-    {
-      "source_code": "SRC-0003",
-      "source": "Jeune Afrique",
-      "count": 16
+      "count": 21
     },
     {
       "source_code": "SRC-0034",
@@ -93,6 +88,11 @@
       "source_code": "SRC-0085",
       "source": "Seneweb",
       "count": 16
+    },
+    {
+      "source_code": "SRC-0003",
+      "source": "Jeune Afrique",
+      "count": 15
     },
     {
       "source_code": "SRC-0022",
@@ -120,7 +120,11 @@
     },
     {
       "location": "Ménaka",
-      "count": 15
+      "count": 16
+    },
+    {
+      "location": "Ségou",
+      "count": 13
     },
     {
       "location": "Anéfis",
@@ -128,10 +132,6 @@
     },
     {
       "location": "Gao",
-      "count": 11
-    },
-    {
-      "location": "Ségou",
       "count": 11
     },
     {
@@ -143,15 +143,15 @@
       "count": 5
     },
     {
+      "location": "Mopti",
+      "count": 4
+    },
+    {
       "location": "Niono",
       "count": 4
     },
     {
       "location": "Agadez",
-      "count": 3
-    },
-    {
-      "location": "Dioura",
       "count": 3
     }
   ],
@@ -303,11 +303,123 @@
     },
     {
       "date": "2026-10-24",
-      "reports": 9,
-      "events": 1
+      "reports": 15,
+      "events": 2
     }
   ],
   "latest_events": [
+    {
+      "id": "a972699a5222fc3223e2f5d0773ce384927b4669",
+      "event_date": "2026-10-24",
+      "event_date_confidence": "explicit-text",
+      "event_date_source": "explicit-calendar-date",
+      "published_at": "2026-10-24T13:52:53Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-24T18:53:00.136048Z",
+      "actor": "State",
+      "perpetrator": "State",
+      "target": null,
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [
+        "State"
+      ],
+      "parent_report_id": null,
+      "event_type": "security operation",
+      "country": "Mali",
+      "city": "Ménaka",
+      "lat": 15.9182,
+      "lng": 2.4022,
+      "locations": [
+        {
+          "name": "Ménaka",
+          "country": "Mali",
+          "lat": 15.9182,
+          "lng": 2.4022,
+          "confidence": "explicit-place"
+        },
+        {
+          "name": "Mopti",
+          "country": "Mali",
+          "lat": 14.4843,
+          "lng": -4.1829,
+          "confidence": "explicit-place"
+        },
+        {
+          "name": "Ségou",
+          "country": "Mali",
+          "lat": 13.4317,
+          "lng": -6.2157,
+          "confidence": "explicit-place"
+        }
+      ],
+      "title": "Mali: FAMa strike several terrorist positions in three regions",
+      "summary": "The Malian army announces that it has targeted several groups of individuals presented as terrorists in the regions of Menaka, Mopti and Segou. These operations, carried out on 22 October 2026, are part of Operation Dougoukoloko, according to the General Staff of the Armed Forces.",
+      "sources": [
+        "La Nouvelle Tribune (Bénin)"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://lanouvelletribune.info/2026/10/mali-les-fama-frappent-plusieurs-positions-terroristes-dans-trois-regions/"
+      ],
+      "report_summaries": [
+        {
+          "url": "https://lanouvelletribune.info/2026/10/mali-les-fama-frappent-plusieurs-positions-terroristes-dans-trois-regions/",
+          "source": "La Nouvelle Tribune (Bénin)",
+          "title": "Mali: FAMa strike several terrorist positions in three regions",
+          "summary": "The Malian army announces that it has targeted several groups of individuals presented as terrorists in the regions of Menaka, Mopti and Segou. These operations, carried out on 22 October 2026, are part of Operation Dougoukoloko, according to the General Staff of the Armed Forces.",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "armed_group"
+          ],
+          "civilian_targeting_flag": false,
+          "casualty_claims": []
+        }
+      ],
+      "created_at": "2026-10-24T18:53:00.136048Z",
+      "updated_at": "2026-10-24T18:53:00.136048Z",
+      "extraction_confidence": "moderate",
+      "victim_categories": [
+        "armed_group"
+      ],
+      "civilian_targeting_flag": false,
+      "casualty_claims": [],
+      "fatalities_min": null,
+      "fatalities_max": null,
+      "fatalities_best": null,
+      "injured_min": null,
+      "injured_max": null,
+      "abducted_min": null,
+      "abducted_max": null,
+      "casualty_disputed": false,
+      "revision_history": [
+        {
+          "at": "2026-10-24T18:53:00.136048Z",
+          "type": "event_created",
+          "source": "La Nouvelle Tribune (Bénin)"
+        }
+      ],
+      "corroboration": "single-source",
+      "confidence": "moderate",
+      "independent_source_domains": [
+        "lanouvelletribune.info"
+      ],
+      "independent_source_count": 1,
+      "significance": "MAJOR",
+      "significance_reasons": [
+        "multi-location activity"
+      ]
+    },
     {
       "id": "1c34e23166b454e972a258f3b14f13959defda28",
       "event_date": "2026-10-24",
@@ -710,6 +822,171 @@
       ]
     },
     {
+      "id": "2157928719fac011a81d69f2e121278810f9c764",
+      "event_date": "2026-10-22",
+      "event_date_confidence": "explicit-text",
+      "event_date_source": "explicit-calendar-date",
+      "published_at": "2026-10-22T11:23:01Z",
+      "published_date_source": "opengraph",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-22T13:54:55.969818Z",
+      "actor": "State",
+      "perpetrator": "State",
+      "target": null,
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [
+        "State"
+      ],
+      "parent_report_id": null,
+      "event_type": "security operation",
+      "country": "Mali",
+      "city": "Ménaka",
+      "lat": 15.9182,
+      "lng": 2.4022,
+      "locations": [
+        {
+          "name": "Ménaka",
+          "country": "Mali",
+          "lat": 15.9182,
+          "lng": 2.4022,
+          "confidence": "explicit-place"
+        },
+        {
+          "name": "Mopti",
+          "country": "Mali",
+          "lat": 14.4843,
+          "lng": -4.1829,
+          "confidence": "explicit-place"
+        },
+        {
+          "name": "Ségou",
+          "country": "Mali",
+          "lat": 13.4317,
+          "lng": -6.2157,
+          "confidence": "explicit-place"
+        }
+      ],
+      "title": "Talhandak and Menaka. Targeted FAMa strikes neutralize several terrorists The General Staff of the Armed Forces informs the public...",
+      "summary": "The General Staff of the Armed Forces informs the national opinion that the Malian Armed Forces (FAMa), supported by their partners, are continuing the permanent operations of surveillance, control and security of the national territory as part of Operation Dougoukoloko . On October 22, 2026, the exploitation of precise intelligence made it possible to locate, about 50 km south of the city of Menaka, a major gathering point of terrorist elements, among which were officials, as well as several rolling means and logistical equipment.",
+      "sources": [
+        "L'Essor",
+        "Bamada",
+        "Malijet"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "source_count": 3,
+      "report_urls": [
+        "https://www.lessor.ml/posts/talhandak-et-menaka-des-frappes-ciblees-des-fama-neutralisent-plusieurs-terroristes-6ad9f214eafd5",
+        "https://bamada.net/menaka-mopti-et-segou-les-forces-armees-maliennes-frappent-avec-precision-plusieurs-bases-terroristes",
+        "https://malijet.com/actualte_dans_les_regions_du_mali/312491-operation-dougoukoloko-les-fama-frappent-plusieurs-positio.html"
+      ],
+      "report_summaries": [
+        {
+          "url": "https://www.lessor.ml/posts/talhandak-et-menaka-des-frappes-ciblees-des-fama-neutralisent-plusieurs-terroristes-6ad9f214eafd5",
+          "source": "L'Essor",
+          "title": "Talhandak and Menaka. Targeted FAMa strikes neutralize several terrorists The General Staff of the Armed Forces informs the public...",
+          "summary": "In a press release published this Thursday, October 22, 2026, the General Staff of the Armed Forces informs that on Tuesday, October 20, 2026, in the Talhandak sector, the tracking of two motorcyclists made it possible to identify, about 3 km northwest of Talhandak, a point of regroupment of terrorist individuals with several motorcycles and trying to hide under a vegetal cover .",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "armed_group"
+          ],
+          "civilian_targeting_flag": false,
+          "casualty_claims": []
+        },
+        {
+          "url": "https://bamada.net/menaka-mopti-et-segou-les-forces-armees-maliennes-frappent-avec-precision-plusieurs-bases-terroristes",
+          "source": "Bamada",
+          "title": "Ménaka, Mopti and Ségou: The Malian Armed Forces accurately hit several terrorist bases",
+          "summary": "The General Staff of the Armed Forces informs the national opinion that the Malian Armed Forces (FAMa), supported by their partners, are continuing the permanent operations of surveillance, control and security of the national territory as part of Operation Dougoukoloko . On October 22, 2026, the exploitation of precise intelligence made it possible to locate, about 50 km south of the city of Menaka, a major gathering point of terrorist elements, among which were officials, as well as several rolling means and logistical equipment.",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "armed_group"
+          ],
+          "civilian_targeting_flag": false,
+          "casualty_claims": []
+        },
+        {
+          "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312491-operation-dougoukoloko-les-fama-frappent-plusieurs-positio.html",
+          "source": "Malijet",
+          "title": "Operation Dougoukoloko: the FAMa strike several terrorist positions in Menaka, Mopti and Segou",
+          "summary": "The Malian Armed Forces (FAMa) carried out several strikes against terrorist groups in the regions of Menaka, Mopti and Segou, on 22 October 2026, as part of Operation Dougoukoloko According to the General Staff of the Armed Forces, precise information made it possible to locate a large group of terrorist elements about 50 km south of Menaka. The position, where there were also officials and logistical equipment, was hit after observation and confirmation of the target .",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "armed_group"
+          ],
+          "civilian_targeting_flag": false,
+          "casualty_claims": []
+        }
+      ],
+      "created_at": "2026-10-22T13:54:55.969818Z",
+      "updated_at": "2026-10-24T18:52:59.736736Z",
+      "extraction_confidence": "moderate",
+      "victim_categories": [
+        "armed_group"
+      ],
+      "civilian_targeting_flag": false,
+      "casualty_claims": [],
+      "fatalities_min": null,
+      "fatalities_max": null,
+      "fatalities_best": null,
+      "injured_min": null,
+      "injured_max": null,
+      "abducted_min": null,
+      "abducted_max": null,
+      "casualty_disputed": false,
+      "revision_history": [
+        {
+          "at": "2026-10-22T13:54:55.969818Z",
+          "type": "event_created",
+          "source": "L'Essor"
+        },
+        {
+          "at": "2026-10-24T18:52:59.829271Z",
+          "type": "corroboration_or_geography_update",
+          "source": "Bamada"
+        },
+        {
+          "at": "2026-10-24T18:52:59.736736Z",
+          "type": "corroboration_or_geography_update",
+          "source": "Malijet"
+        }
+      ],
+      "corroboration": "multi-source",
+      "confidence": "moderate-high",
+      "independent_source_domains": [
+        "lessor.ml",
+        "bamada.net",
+        "malijet.com"
+      ],
+      "independent_source_count": 3,
+      "significance": "MAJOR",
+      "significance_reasons": [
+        "multi-source corroboration",
+        "multi-location activity"
+      ]
+    },
+    {
       "id": "885d47981c0ffe16aa8653baccadf7b234216a12",
       "event_date": "2026-10-22",
       "event_date_confidence": "explicit-text",
@@ -1012,104 +1289,6 @@
       "significance": "MAJOR",
       "significance_reasons": [
         "multi-location activity"
-      ]
-    },
-    {
-      "id": "2157928719fac011a81d69f2e121278810f9c764",
-      "event_date": "2026-10-22",
-      "event_date_confidence": "explicit-text",
-      "event_date_source": "explicit-calendar-date",
-      "published_at": "2026-10-22T11:23:01Z",
-      "published_date_source": "opengraph",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-22T13:54:55.969818Z",
-      "actor": "State",
-      "perpetrator": "State",
-      "target": null,
-      "claimant": null,
-      "supporting_force": null,
-      "mentioned_actors": [
-        "State"
-      ],
-      "parent_report_id": null,
-      "event_type": "security operation",
-      "country": "Mali",
-      "city": "Ménaka",
-      "lat": 15.9182,
-      "lng": 2.4022,
-      "locations": [
-        {
-          "name": "Ménaka",
-          "country": "Mali",
-          "lat": 15.9182,
-          "lng": 2.4022,
-          "confidence": "explicit-place"
-        }
-      ],
-      "title": "Talhandak and Menaka. Targeted FAMa strikes neutralize several terrorists The General Staff of the Armed Forces informs the public...",
-      "summary": "In a press release published this Thursday, October 22, 2026, the General Staff of the Armed Forces informs that on Tuesday, October 20, 2026, in the Talhandak sector, the tracking of two motorcyclists made it possible to identify, about 3 km northwest of Talhandak, a point of regroupment of terrorist individuals with several motorcycles and trying to hide under a vegetal cover .",
-      "sources": [
-        "L'Essor"
-      ],
-      "languages": [
-        "fr"
-      ],
-      "source_count": 1,
-      "report_urls": [
-        "https://www.lessor.ml/posts/talhandak-et-menaka-des-frappes-ciblees-des-fama-neutralisent-plusieurs-terroristes-6ad9f214eafd5"
-      ],
-      "report_summaries": [
-        {
-          "url": "https://www.lessor.ml/posts/talhandak-et-menaka-des-frappes-ciblees-des-fama-neutralisent-plusieurs-terroristes-6ad9f214eafd5",
-          "source": "L'Essor",
-          "title": "Talhandak and Menaka. Targeted FAMa strikes neutralize several terrorists The General Staff of the Armed Forces informs the public...",
-          "summary": "In a press release published this Thursday, October 22, 2026, the General Staff of the Armed Forces informs that on Tuesday, October 20, 2026, in the Talhandak sector, the tracking of two motorcyclists made it possible to identify, about 3 km northwest of Talhandak, a point of regroupment of terrorist individuals with several motorcycles and trying to hide under a vegetal cover .",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "armed_group"
-          ],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        }
-      ],
-      "created_at": "2026-10-22T13:54:55.969818Z",
-      "updated_at": "2026-10-22T13:54:55.969818Z",
-      "extraction_confidence": "moderate",
-      "victim_categories": [
-        "armed_group"
-      ],
-      "civilian_targeting_flag": false,
-      "casualty_claims": [],
-      "fatalities_min": null,
-      "fatalities_max": null,
-      "fatalities_best": null,
-      "injured_min": null,
-      "injured_max": null,
-      "abducted_min": null,
-      "abducted_max": null,
-      "casualty_disputed": false,
-      "revision_history": [
-        {
-          "at": "2026-10-22T13:54:55.969818Z",
-          "type": "event_created",
-          "source": "L'Essor"
-        }
-      ],
-      "corroboration": "single-source",
-      "confidence": "moderate",
-      "independent_source_domains": [
-        "lessor.ml"
-      ],
-      "independent_source_count": 1,
-      "significance": "ROUTINE",
-      "significance_reasons": [
-        "limited currently observed significance"
       ]
     },
     {
@@ -3794,133 +3973,117 @@
       "significance_reasons": [
         "operational security event"
       ]
-    },
-    {
-      "id": "51087669c680ae4800b811d9082d46aa9663b6c2",
-      "event_date": "2026-10-17",
-      "event_date_confidence": "explicit-text",
-      "event_date_source": "relative-weekday",
-      "published_at": "2026-10-20T07:52:37Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-20T13:39:58.750878Z",
-      "actor": "State",
-      "perpetrator": null,
-      "target": null,
-      "claimant": null,
-      "supporting_force": null,
-      "mentioned_actors": [],
-      "parent_report_id": null,
-      "event_type": "civilian targeting",
-      "country": "Mali",
-      "city": "Ménaka",
-      "lat": 15.9182,
-      "lng": 2.4022,
-      "locations": [
-        {
-          "name": "Ménaka",
-          "country": "Mali",
-          "lat": 15.9182,
-          "lng": 2.4022,
-          "confidence": "explicit-place"
-        },
-        {
-          "name": "Gao",
-          "country": "Mali",
-          "lat": 16.2717,
-          "lng": -0.0447,
-          "confidence": "explicit-place"
-        }
-      ],
-      "title": "More than 40 civilians killed in Mali attack blamed on Islamic State",
-      "summary": "Security and community sources in Mali says more than 40 civilians were killed over the weekend in an attack by armed men on camps in the north-eastern Menaka region. They reportedly arrived on motorcycles and targeted camps mainly housing members of the Daoussahak community. The community's executive bureau has blamed the killings on the Islamic State group.",
-      "sources": [
-        "Africanews"
-      ],
-      "languages": [
-        "en"
-      ],
-      "source_count": 1,
-      "report_urls": [
-        "https://www.africanews.com/2026/10/20/more-than-40-civilians-killed-in-mali-attack-blamed-on-islamic-state/"
-      ],
-      "report_summaries": [
-        {
-          "url": "https://www.africanews.com/2026/10/20/more-than-40-civilians-killed-in-mali-attack-blamed-on-islamic-state/",
-          "source": "Africanews",
-          "title": "More than 40 civilians killed in Mali attack blamed on Islamic State",
-          "summary": "Security and community sources in Mali says more than 40 civilians were killed over the weekend in an attack by armed men on camps in the north-eastern Menaka region. They reportedly arrived on motorcycles and targeted camps mainly housing members of the Daoussahak community. The community's executive bureau has blamed the killings on the Islamic State group.",
-          "summary_basis": "source-excerpt",
-          "fatalities_min": 40,
-          "fatalities_max": 40,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "civilian",
-            "armed_group"
-          ],
-          "civilian_targeting_flag": true,
-          "casualty_claims": [
-            {
-              "kind": "fatalities",
-              "count": 40,
-              "victim_text": "civilians",
-              "claimant": "armed-group claim",
-              "status": "reported",
-              "evidence": "More than 40 civilians killed in Mali attack blamed on Islamic State Security and community sources in Mali says more than 40 civ"
-            }
-          ]
-        }
-      ],
-      "created_at": "2026-10-20T13:39:58.750878Z",
-      "updated_at": "2026-10-20T13:39:58.750878Z",
-      "extraction_confidence": "low",
-      "victim_categories": [
-        "civilian",
-        "armed_group"
-      ],
-      "civilian_targeting_flag": true,
-      "casualty_claims": [
-        {
-          "kind": "fatalities",
-          "count": 40,
-          "victim_text": "civilians",
-          "claimant": "armed-group claim",
-          "status": "reported",
-          "evidence": "More than 40 civilians killed in Mali attack blamed on Islamic State Security and community sources in Mali says more than 40 civ",
-          "source": "Africanews"
-        }
-      ],
-      "fatalities_min": 40,
-      "fatalities_max": 40,
-      "fatalities_best": 40,
-      "injured_min": null,
-      "injured_max": null,
-      "abducted_min": null,
-      "abducted_max": null,
-      "casualty_disputed": false,
-      "revision_history": [
-        {
-          "at": "2026-10-20T13:39:58.750878Z",
-          "type": "event_created",
-          "source": "Africanews"
-        }
-      ],
-      "corroboration": "single-source",
-      "confidence": "low",
-      "independent_source_domains": [
-        "africanews.com"
-      ],
-      "independent_source_count": 1,
-      "significance": "MAJOR",
-      "significance_reasons": [
-        "multi-location activity"
-      ]
     }
   ],
   "latest_reports": [
+    {
+      "published_at": "2026-10-24T18:24:27Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-24T18:52:59.285751Z",
+      "discovered_at": "2026-10-24T18:52:59.285751Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0006",
+      "source": "Malijet",
+      "language": "fr",
+      "actor": "IS Sahel",
+      "country": "Mali",
+      "city": "Ménaka",
+      "event_type": "attack",
+      "candidate_event": false,
+      "title": "Menaka: 54 bodies discovered in a camp in Tagadayat",
+      "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312492-menaka-54-corps-decouverts-dans-un-campement-a-tagadayat.html"
+    },
+    {
+      "published_at": "2026-10-24T17:14:13Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-24T18:53:00.221815Z",
+      "discovered_at": "2026-10-24T18:53:00.221815Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0010",
+      "source": "Burkina24",
+      "language": "fr",
+      "actor": null,
+      "country": null,
+      "city": null,
+      "event_type": "clash",
+      "candidate_event": false,
+      "title": "France: New day of mobilization in the face of expensive life and social tensions",
+      "url": "https://burkina24.com/2026/10/24/france-nouvelle-journee-de-mobilisation-face-a-la-vie-chere-et-aux-tensions-sociales/"
+    },
+    {
+      "published_at": "2026-10-24T16:11:28Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-24T18:52:59.736736Z",
+      "discovered_at": "2026-10-24T18:52:59.736736Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0006",
+      "source": "Malijet",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Ménaka",
+      "event_type": "security operation",
+      "candidate_event": true,
+      "title": "Operation Dougoukoloko: the FAMa strike several terrorist positions in Menaka, Mopti and Segou",
+      "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312491-operation-dougoukoloko-les-fama-frappent-plusieurs-positio.html"
+    },
+    {
+      "published_at": "2026-10-24T14:32:05Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-24T18:53:00.438464Z",
+      "discovered_at": "2026-10-24T18:53:00.438464Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0160",
+      "source": "Sahara Medias (صحراء ميديا)",
+      "language": "ar",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Ménaka",
+      "event_type": "security operation",
+      "candidate_event": false,
+      "title": "Mali.. The army announces the killing of militants in the framework of Operation Dogokoloko",
+      "url": "https://saharamedias.net/267661/"
+    },
+    {
+      "published_at": "2026-10-24T14:10:45Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-24T18:52:59.829271Z",
+      "discovered_at": "2026-10-24T18:52:59.829271Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0008",
+      "source": "Bamada",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Ménaka",
+      "event_type": "security operation",
+      "candidate_event": true,
+      "title": "Ménaka, Mopti and Ségou: The Malian Armed Forces accurately hit several terrorist bases",
+      "url": "https://bamada.net/menaka-mopti-et-segou-les-forces-armees-maliennes-frappent-avec-precision-plusieurs-bases-terroristes"
+    },
+    {
+      "published_at": "2026-10-24T13:52:53Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-24T18:53:00.136048Z",
+      "discovered_at": "2026-10-24T18:53:00.136048Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0092",
+      "source": "La Nouvelle Tribune (Bénin)",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Ménaka",
+      "event_type": "security operation",
+      "candidate_event": true,
+      "title": "Mali: FAMa strike several terrorist positions in three regions",
+      "url": "https://lanouvelletribune.info/2026/10/mali-les-fama-frappent-plusieurs-positions-terroristes-dans-trois-regions/"
+    },
     {
       "published_at": "2026-10-24T09:58:43Z",
       "published_date_source": "jsonld:datePublished",
@@ -4532,114 +4695,6 @@
       "candidate_event": false,
       "title": "Two European Women Freed After Kidnap in Niger",
       "url": "https://newscentraltv.com/two-european-women-freed-after-kidnap-in-niger/"
-    },
-    {
-      "published_at": "2026-10-22T20:08:20Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-22T23:30:02.823471Z",
-      "discovered_at": "2026-10-22T23:30:02.823471Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0008",
-      "source": "Bamada",
-      "language": "fr",
-      "actor": null,
-      "country": "Burkina Faso",
-      "city": null,
-      "event_type": "kidnapping",
-      "candidate_event": false,
-      "title": "Burkina: what the new Penal Code says",
-      "url": "https://bamada.net/burkina-ce-que-dit-le-nouveau-code-penal"
-    },
-    {
-      "published_at": "2026-10-22T17:58:29Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-22T20:16:54.703351Z",
-      "discovered_at": "2026-10-22T20:16:54.703351Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0085",
-      "source": "Seneweb",
-      "language": "fr",
-      "actor": null,
-      "country": "Niger",
-      "city": null,
-      "event_type": "political/security policy",
-      "candidate_event": false,
-      "title": "Niger and Algeria sign a memorandum of understanding in the field of military cooperation",
-      "url": "https://www.seneweb.com/fr/news/Afrique/le-niger-et-lalgerie-signent-un-protocole-daccord-dans-le-domaine-de-la-cooperation-militaire_n_999001457.html"
-    },
-    {
-      "published_at": "2026-10-22T17:38:30Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-22T23:29:57.925484Z",
-      "discovered_at": "2026-10-22T23:29:57.925484Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0006",
-      "source": "Malijet",
-      "language": "fr",
-      "actor": null,
-      "country": "Mali",
-      "city": "Bamako",
-      "event_type": "security operation",
-      "candidate_event": false,
-      "title": "Solidarity Month: Minister Assa Badiallo Touré and PAHO women alongside the 220 vulnerable people",
-      "url": "https://malijet.com/a_la_une_du_mali/312460-mois-de-la-solidarite-le-ministre-assa-badiallo-toure-et-le.html"
-    },
-    {
-      "published_at": "2026-10-22T16:35:04Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-22T20:16:52.656363Z",
-      "discovered_at": "2026-10-22T20:16:52.656363Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0004",
-      "source": "Studio Tamani",
-      "language": "fr",
-      "actor": null,
-      "country": null,
-      "city": null,
-      "event_type": "kidnapping",
-      "candidate_event": false,
-      "title": "TITLES OF OCTOBER 22, 2026",
-      "url": "https://www.studiotamani.org/209397-les-titres-du-22-octobre-2026"
-    },
-    {
-      "published_at": "2026-10-22T16:25:56Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-22T20:16:54.992379Z",
-      "discovered_at": "2026-10-22T20:16:54.992379Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0034",
-      "source": "TV5MONDE Afrique",
-      "language": "fr",
-      "actor": "Africa Corps/Wagner",
-      "country": "Mali",
-      "city": null,
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Image Published on October 22, 2026 Africa Mali: Human Rights Watch accuses the army and its Russian allies of \"new atrocities\" against civilians Human Rights Watch (HRW) claims that the Malian army and its Russian paramilitary allies have committed \"new atrocities\" against civilians in...",
-      "url": "https://information.tv5monde.com/afrique/mali-human-rights-watch-accuse-larmee-et-ses-allies-russes-de-nouvelles-atrocites-contre-des-civils-2842728"
-    },
-    {
-      "published_at": "2026-10-22T16:00:32Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-22T20:16:52.889996Z",
-      "discovered_at": "2026-10-22T20:16:52.889996Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0006",
-      "source": "Malijet",
-      "language": "fr",
-      "actor": null,
-      "country": "Mali",
-      "city": null,
-      "event_type": "offensive/campaign",
-      "candidate_event": false,
-      "title": "Border coup: Algerian army shuts down Tinzaouaten and Timiaouine to track down traffickers",
-      "url": "https://malijet.com/flash-info/312459-coup-de-force-a-la-frontiere-larmee-algerienne-ferme-tinz.html"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."

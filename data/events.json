@@ -1,5 +1,117 @@
 [
   {
+    "id": "a972699a5222fc3223e2f5d0773ce384927b4669",
+    "event_date": "2026-10-24",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "explicit-calendar-date",
+    "published_at": "2026-10-24T13:52:53Z",
+    "published_date_source": "jsonld:datePublished",
+    "published_time_precision": "datetime",
+    "collected_at": "2026-10-24T18:53:00.136048Z",
+    "actor": "State",
+    "perpetrator": "State",
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [
+      "State"
+    ],
+    "parent_report_id": null,
+    "event_type": "security operation",
+    "country": "Mali",
+    "city": "Ménaka",
+    "lat": 15.9182,
+    "lng": 2.4022,
+    "locations": [
+      {
+        "name": "Ménaka",
+        "country": "Mali",
+        "lat": 15.9182,
+        "lng": 2.4022,
+        "confidence": "explicit-place"
+      },
+      {
+        "name": "Mopti",
+        "country": "Mali",
+        "lat": 14.4843,
+        "lng": -4.1829,
+        "confidence": "explicit-place"
+      },
+      {
+        "name": "Ségou",
+        "country": "Mali",
+        "lat": 13.4317,
+        "lng": -6.2157,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "Mali: FAMa strike several terrorist positions in three regions",
+    "summary": "The Malian army announces that it has targeted several groups of individuals presented as terrorists in the regions of Menaka, Mopti and Segou. These operations, carried out on 22 October 2026, are part of Operation Dougoukoloko, according to the General Staff of the Armed Forces.",
+    "sources": [
+      "La Nouvelle Tribune (Bénin)"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://lanouvelletribune.info/2026/10/mali-les-fama-frappent-plusieurs-positions-terroristes-dans-trois-regions/"
+    ],
+    "report_summaries": [
+      {
+        "url": "https://lanouvelletribune.info/2026/10/mali-les-fama-frappent-plusieurs-positions-terroristes-dans-trois-regions/",
+        "source": "La Nouvelle Tribune (Bénin)",
+        "title": "Mali: FAMa strike several terrorist positions in three regions",
+        "summary": "The Malian army announces that it has targeted several groups of individuals presented as terrorists in the regions of Menaka, Mopti and Segou. These operations, carried out on 22 October 2026, are part of Operation Dougoukoloko, according to the General Staff of the Armed Forces.",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "armed_group"
+        ],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      }
+    ],
+    "created_at": "2026-10-24T18:53:00.136048Z",
+    "updated_at": "2026-10-24T18:53:00.136048Z",
+    "extraction_confidence": "moderate",
+    "victim_categories": [
+      "armed_group"
+    ],
+    "civilian_targeting_flag": false,
+    "casualty_claims": [],
+    "fatalities_min": null,
+    "fatalities_max": null,
+    "fatalities_best": null,
+    "injured_min": null,
+    "injured_max": null,
+    "abducted_min": null,
+    "abducted_max": null,
+    "casualty_disputed": false,
+    "revision_history": [
+      {
+        "at": "2026-10-24T18:53:00.136048Z",
+        "type": "event_created",
+        "source": "La Nouvelle Tribune (Bénin)"
+      }
+    ],
+    "corroboration": "single-source",
+    "confidence": "moderate",
+    "independent_source_domains": [
+      "lanouvelletribune.info"
+    ],
+    "independent_source_count": 1,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "multi-location activity"
+    ]
+  },
+  {
     "id": "1c34e23166b454e972a258f3b14f13959defda28",
     "event_date": "2026-10-24",
     "event_date_confidence": "explicit-text",
@@ -401,6 +513,171 @@
     ]
   },
   {
+    "id": "2157928719fac011a81d69f2e121278810f9c764",
+    "event_date": "2026-10-22",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "explicit-calendar-date",
+    "published_at": "2026-10-22T11:23:01Z",
+    "published_date_source": "opengraph",
+    "published_time_precision": "datetime",
+    "collected_at": "2026-10-22T13:54:55.969818Z",
+    "actor": "State",
+    "perpetrator": "State",
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [
+      "State"
+    ],
+    "parent_report_id": null,
+    "event_type": "security operation",
+    "country": "Mali",
+    "city": "Ménaka",
+    "lat": 15.9182,
+    "lng": 2.4022,
+    "locations": [
+      {
+        "name": "Ménaka",
+        "country": "Mali",
+        "lat": 15.9182,
+        "lng": 2.4022,
+        "confidence": "explicit-place"
+      },
+      {
+        "name": "Mopti",
+        "country": "Mali",
+        "lat": 14.4843,
+        "lng": -4.1829,
+        "confidence": "explicit-place"
+      },
+      {
+        "name": "Ségou",
+        "country": "Mali",
+        "lat": 13.4317,
+        "lng": -6.2157,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "Talhandak and Menaka. Targeted FAMa strikes neutralize several terrorists The General Staff of the Armed Forces informs the public...",
+    "summary": "The General Staff of the Armed Forces informs the national opinion that the Malian Armed Forces (FAMa), supported by their partners, are continuing the permanent operations of surveillance, control and security of the national territory as part of Operation Dougoukoloko . On October 22, 2026, the exploitation of precise intelligence made it possible to locate, about 50 km south of the city of Menaka, a major gathering point of terrorist elements, among which were officials, as well as several rolling means and logistical equipment.",
+    "sources": [
+      "L'Essor",
+      "Bamada",
+      "Malijet"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 3,
+    "report_urls": [
+      "https://www.lessor.ml/posts/talhandak-et-menaka-des-frappes-ciblees-des-fama-neutralisent-plusieurs-terroristes-6ad9f214eafd5",
+      "https://bamada.net/menaka-mopti-et-segou-les-forces-armees-maliennes-frappent-avec-precision-plusieurs-bases-terroristes",
+      "https://malijet.com/actualte_dans_les_regions_du_mali/312491-operation-dougoukoloko-les-fama-frappent-plusieurs-positio.html"
+    ],
+    "report_summaries": [
+      {
+        "url": "https://www.lessor.ml/posts/talhandak-et-menaka-des-frappes-ciblees-des-fama-neutralisent-plusieurs-terroristes-6ad9f214eafd5",
+        "source": "L'Essor",
+        "title": "Talhandak and Menaka. Targeted FAMa strikes neutralize several terrorists The General Staff of the Armed Forces informs the public...",
+        "summary": "In a press release published this Thursday, October 22, 2026, the General Staff of the Armed Forces informs that on Tuesday, October 20, 2026, in the Talhandak sector, the tracking of two motorcyclists made it possible to identify, about 3 km northwest of Talhandak, a point of regroupment of terrorist individuals with several motorcycles and trying to hide under a vegetal cover .",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "armed_group"
+        ],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      },
+      {
+        "url": "https://bamada.net/menaka-mopti-et-segou-les-forces-armees-maliennes-frappent-avec-precision-plusieurs-bases-terroristes",
+        "source": "Bamada",
+        "title": "Ménaka, Mopti and Ségou: The Malian Armed Forces accurately hit several terrorist bases",
+        "summary": "The General Staff of the Armed Forces informs the national opinion that the Malian Armed Forces (FAMa), supported by their partners, are continuing the permanent operations of surveillance, control and security of the national territory as part of Operation Dougoukoloko . On October 22, 2026, the exploitation of precise intelligence made it possible to locate, about 50 km south of the city of Menaka, a major gathering point of terrorist elements, among which were officials, as well as several rolling means and logistical equipment.",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "armed_group"
+        ],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      },
+      {
+        "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312491-operation-dougoukoloko-les-fama-frappent-plusieurs-positio.html",
+        "source": "Malijet",
+        "title": "Operation Dougoukoloko: the FAMa strike several terrorist positions in Menaka, Mopti and Segou",
+        "summary": "The Malian Armed Forces (FAMa) carried out several strikes against terrorist groups in the regions of Menaka, Mopti and Segou, on 22 October 2026, as part of Operation Dougoukoloko According to the General Staff of the Armed Forces, precise information made it possible to locate a large group of terrorist elements about 50 km south of Menaka. The position, where there were also officials and logistical equipment, was hit after observation and confirmation of the target .",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "armed_group"
+        ],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      }
+    ],
+    "created_at": "2026-10-22T13:54:55.969818Z",
+    "updated_at": "2026-10-24T18:52:59.736736Z",
+    "extraction_confidence": "moderate",
+    "victim_categories": [
+      "armed_group"
+    ],
+    "civilian_targeting_flag": false,
+    "casualty_claims": [],
+    "fatalities_min": null,
+    "fatalities_max": null,
+    "fatalities_best": null,
+    "injured_min": null,
+    "injured_max": null,
+    "abducted_min": null,
+    "abducted_max": null,
+    "casualty_disputed": false,
+    "revision_history": [
+      {
+        "at": "2026-10-22T13:54:55.969818Z",
+        "type": "event_created",
+        "source": "L'Essor"
+      },
+      {
+        "at": "2026-10-24T18:52:59.829271Z",
+        "type": "corroboration_or_geography_update",
+        "source": "Bamada"
+      },
+      {
+        "at": "2026-10-24T18:52:59.736736Z",
+        "type": "corroboration_or_geography_update",
+        "source": "Malijet"
+      }
+    ],
+    "corroboration": "multi-source",
+    "confidence": "moderate-high",
+    "independent_source_domains": [
+      "lessor.ml",
+      "bamada.net",
+      "malijet.com"
+    ],
+    "independent_source_count": 3,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "multi-source corroboration",
+      "multi-location activity"
+    ]
+  },
+  {
     "id": "885d47981c0ffe16aa8653baccadf7b234216a12",
     "event_date": "2026-10-22",
     "event_date_confidence": "explicit-text",
@@ -703,104 +980,6 @@
     "significance": "MAJOR",
     "significance_reasons": [
       "multi-location activity"
-    ]
-  },
-  {
-    "id": "2157928719fac011a81d69f2e121278810f9c764",
-    "event_date": "2026-10-22",
-    "event_date_confidence": "explicit-text",
-    "event_date_source": "explicit-calendar-date",
-    "published_at": "2026-10-22T11:23:01Z",
-    "published_date_source": "opengraph",
-    "published_time_precision": "datetime",
-    "collected_at": "2026-10-22T13:54:55.969818Z",
-    "actor": "State",
-    "perpetrator": "State",
-    "target": null,
-    "claimant": null,
-    "supporting_force": null,
-    "mentioned_actors": [
-      "State"
-    ],
-    "parent_report_id": null,
-    "event_type": "security operation",
-    "country": "Mali",
-    "city": "Ménaka",
-    "lat": 15.9182,
-    "lng": 2.4022,
-    "locations": [
-      {
-        "name": "Ménaka",
-        "country": "Mali",
-        "lat": 15.9182,
-        "lng": 2.4022,
-        "confidence": "explicit-place"
-      }
-    ],
-    "title": "Talhandak and Menaka. Targeted FAMa strikes neutralize several terrorists The General Staff of the Armed Forces informs the public...",
-    "summary": "In a press release published this Thursday, October 22, 2026, the General Staff of the Armed Forces informs that on Tuesday, October 20, 2026, in the Talhandak sector, the tracking of two motorcyclists made it possible to identify, about 3 km northwest of Talhandak, a point of regroupment of terrorist individuals with several motorcycles and trying to hide under a vegetal cover .",
-    "sources": [
-      "L'Essor"
-    ],
-    "languages": [
-      "fr"
-    ],
-    "source_count": 1,
-    "report_urls": [
-      "https://www.lessor.ml/posts/talhandak-et-menaka-des-frappes-ciblees-des-fama-neutralisent-plusieurs-terroristes-6ad9f214eafd5"
-    ],
-    "report_summaries": [
-      {
-        "url": "https://www.lessor.ml/posts/talhandak-et-menaka-des-frappes-ciblees-des-fama-neutralisent-plusieurs-terroristes-6ad9f214eafd5",
-        "source": "L'Essor",
-        "title": "Talhandak and Menaka. Targeted FAMa strikes neutralize several terrorists The General Staff of the Armed Forces informs the public...",
-        "summary": "In a press release published this Thursday, October 22, 2026, the General Staff of the Armed Forces informs that on Tuesday, October 20, 2026, in the Talhandak sector, the tracking of two motorcyclists made it possible to identify, about 3 km northwest of Talhandak, a point of regroupment of terrorist individuals with several motorcycles and trying to hide under a vegetal cover .",
-        "summary_basis": "translated-excerpt",
-        "fatalities_min": null,
-        "fatalities_max": null,
-        "injured_min": null,
-        "injured_max": null,
-        "abducted_min": null,
-        "abducted_max": null,
-        "victim_categories": [
-          "armed_group"
-        ],
-        "civilian_targeting_flag": false,
-        "casualty_claims": []
-      }
-    ],
-    "created_at": "2026-10-22T13:54:55.969818Z",
-    "updated_at": "2026-10-22T13:54:55.969818Z",
-    "extraction_confidence": "moderate",
-    "victim_categories": [
-      "armed_group"
-    ],
-    "civilian_targeting_flag": false,
-    "casualty_claims": [],
-    "fatalities_min": null,
-    "fatalities_max": null,
-    "fatalities_best": null,
-    "injured_min": null,
-    "injured_max": null,
-    "abducted_min": null,
-    "abducted_max": null,
-    "casualty_disputed": false,
-    "revision_history": [
-      {
-        "at": "2026-10-22T13:54:55.969818Z",
-        "type": "event_created",
-        "source": "L'Essor"
-      }
-    ],
-    "corroboration": "single-source",
-    "confidence": "moderate",
-    "independent_source_domains": [
-      "lessor.ml"
-    ],
-    "independent_source_count": 1,
-    "significance": "ROUTINE",
-    "significance_reasons": [
-      "limited currently observed significance"
     ]
   },
   {
