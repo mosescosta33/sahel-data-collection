@@ -1,5 +1,206 @@
 [
   {
+    "id": "5709a07050390df9218d4afe1cab57829d87d4cc",
+    "event_date": "2026-10-24",
+    "event_date_confidence": "publication-proxy",
+    "event_date_source": "jsonld:datePublished",
+    "published_at": "2026-10-24T22:15:35Z",
+    "published_date_source": "jsonld:datePublished",
+    "published_time_precision": "datetime",
+    "collected_at": "2026-10-24T22:36:18.109562Z",
+    "actor": "IS Sahel",
+    "perpetrator": null,
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [
+      "IS Sahel",
+      "State"
+    ],
+    "parent_report_id": null,
+    "event_type": "attack",
+    "country": "Mali",
+    "city": "Ménaka",
+    "lat": 15.9182,
+    "lng": 2.4022,
+    "locations": [
+      {
+        "name": "Ménaka",
+        "country": "Mali",
+        "lat": 15.9182,
+        "lng": 2.4022,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "Mali: 54 dead bodies discovered in a camp, EIGs implicated",
+    "summary": "A massacre of civilian populations was reported in the region of Menaka, Mali. Fifty-four dead bodies were discovered in a camp located about 35 kilometers southeast of the city. The Islamic State in the Greater Sahara (EIGs) is implicated in these killings, according to the first testimonies collected by the Malian army In a statement seen by Seneweb, the General Staff of the Armed Forces indicates that a joint patrol of the Malian Armed Forces (FAMa) and their partners was deployed on the ground after reports of a terrorist attack against civilian populations in the operational sub-sector of Menaka.",
+    "sources": [
+      "Seneweb"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://www.seneweb.com/fr/news/Afrique/mali-54-corps-sans-vie-decouverts-dans-un-campement-leigs-mis-en-cause_n_999001644.html"
+    ],
+    "report_summaries": [
+      {
+        "url": "https://www.seneweb.com/fr/news/Afrique/mali-54-corps-sans-vie-decouverts-dans-un-campement-leigs-mis-en-cause_n_999001644.html",
+        "source": "Seneweb",
+        "title": "Mali: 54 dead bodies discovered in a camp, EIGs implicated",
+        "summary": "A massacre of civilian populations was reported in the region of Menaka, Mali. Fifty-four dead bodies were discovered in a camp located about 35 kilometers southeast of the city. The Islamic State in the Greater Sahara (EIGs) is implicated in these killings, according to the first testimonies collected by the Malian army In a statement seen by Seneweb, the General Staff of the Armed Forces indicates that a joint patrol of the Malian Armed Forces (FAMa) and their partners was deployed on the ground after reports of a terrorist attack against civilian populations in the operational sub-sector of Menaka.",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "civilian",
+          "armed_group"
+        ],
+        "civilian_targeting_flag": true,
+        "casualty_claims": []
+      }
+    ],
+    "created_at": "2026-10-24T22:36:18.109562Z",
+    "updated_at": "2026-10-24T22:36:18.109562Z",
+    "extraction_confidence": "low",
+    "victim_categories": [
+      "civilian",
+      "armed_group"
+    ],
+    "civilian_targeting_flag": true,
+    "casualty_claims": [],
+    "fatalities_min": null,
+    "fatalities_max": null,
+    "fatalities_best": null,
+    "injured_min": null,
+    "injured_max": null,
+    "abducted_min": null,
+    "abducted_max": null,
+    "casualty_disputed": false,
+    "revision_history": [
+      {
+        "at": "2026-10-24T22:36:18.109562Z",
+        "type": "event_created",
+        "source": "Seneweb"
+      }
+    ],
+    "corroboration": "single-source",
+    "confidence": "low",
+    "independent_source_domains": [
+      "seneweb.com"
+    ],
+    "independent_source_count": 1,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "strategic/severe event pattern"
+    ]
+  },
+  {
+    "id": "4c1c33c8f29bc1d0c17363c440b38ee820afda7b",
+    "event_date": "2026-10-24",
+    "event_date_confidence": "publication-proxy",
+    "event_date_source": "feed",
+    "published_at": "2026-10-24T20:29:40Z",
+    "published_date_source": "feed",
+    "published_time_precision": "datetime",
+    "collected_at": "2026-10-24T22:36:16.818274Z",
+    "actor": "IS Sahel",
+    "perpetrator": null,
+    "target": "State",
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [
+      "State"
+    ],
+    "parent_report_id": null,
+    "event_type": "civilian targeting",
+    "country": "Mali",
+    "city": "Ménaka",
+    "lat": 15.9182,
+    "lng": 2.4022,
+    "locations": [
+      {
+        "name": "Ménaka",
+        "country": "Mali",
+        "lat": 15.9182,
+        "lng": 2.4022,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "Massacre of civilians in Tagadayat (Menaka): 54 victims buried on the spot according to the General Staff",
+    "summary": "The General Staff of the Armed Forces informs the national opinion that on the basis of reports of a terrorist attack on civilian populations in the Menaka operational sub-sector, a joint Fama-Partners patrol has been launched on the ground. During its search, the patrol discovered, about 35 kilometers southeast of the city of Menaka, fifty-four (54) lifeless bodies in a camp in Tagadayat .",
+    "sources": [
+      "Bamada"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://bamada.net/massacre-de-civils-a-tagadayat-menaka-54-victimes-inhumees-sur-place-selon-letat-major"
+    ],
+    "report_summaries": [
+      {
+        "url": "https://bamada.net/massacre-de-civils-a-tagadayat-menaka-54-victimes-inhumees-sur-place-selon-letat-major",
+        "source": "Bamada",
+        "title": "Massacre of civilians in Tagadayat (Menaka): 54 victims buried on the spot according to the General Staff",
+        "summary": "The General Staff of the Armed Forces informs the national opinion that on the basis of reports of a terrorist attack on civilian populations in the Menaka operational sub-sector, a joint Fama-Partners patrol has been launched on the ground. During its search, the patrol discovered, about 35 kilometers southeast of the city of Menaka, fifty-four (54) lifeless bodies in a camp in Tagadayat .",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "civilian",
+          "armed_group"
+        ],
+        "civilian_targeting_flag": true,
+        "casualty_claims": []
+      }
+    ],
+    "created_at": "2026-10-24T22:36:16.818274Z",
+    "updated_at": "2026-10-24T22:36:16.818274Z",
+    "extraction_confidence": "low",
+    "victim_categories": [
+      "civilian",
+      "armed_group"
+    ],
+    "civilian_targeting_flag": true,
+    "casualty_claims": [],
+    "fatalities_min": null,
+    "fatalities_max": null,
+    "fatalities_best": null,
+    "injured_min": null,
+    "injured_max": null,
+    "abducted_min": null,
+    "abducted_max": null,
+    "casualty_disputed": false,
+    "revision_history": [
+      {
+        "at": "2026-10-24T22:36:16.818274Z",
+        "type": "event_created",
+        "source": "Bamada"
+      }
+    ],
+    "corroboration": "single-source",
+    "confidence": "low",
+    "independent_source_domains": [
+      "bamada.net"
+    ],
+    "independent_source_count": 1,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "strategic/severe event pattern"
+    ]
+  },
+  {
     "id": "a972699a5222fc3223e2f5d0773ce384927b4669",
     "event_date": "2026-10-24",
     "event_date_confidence": "explicit-text",
