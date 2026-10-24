@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-24T04:48:43.197164Z",
+  "generated_at": "2026-10-24T12:49:57.945579Z",
   "window_days": 30,
   "cutoff": "2026-09-24",
-  "reports": 616,
+  "reports": 619,
   "incident_reports": 154,
-  "candidate_events": 101,
+  "candidate_events": 102,
   "corroborated_events": 26,
   "mapped_events": 81,
   "mapped_locations": 147,
@@ -13,11 +13,11 @@
     "State": 62,
     "JNIM": 16,
     "Other": 12,
-    "Africa Corps/Wagner": 8,
+    "Africa Corps/Wagner": 9,
     "IS Sahel": 3
   },
   "by_country": {
-    "Mali": 92,
+    "Mali": 93,
     "Niger": 6,
     "Burkina Faso": 3
   },
@@ -29,16 +29,17 @@
     "civilian targeting": 7,
     "kidnapping": 6,
     "ambush": 3,
-    "raid": 3
+    "raid": 3,
+    "air/drone strike": 1
   },
   "by_language": {
-    "fr": 468,
+    "fr": 471,
     "en": 115,
     "ar": 33
   },
   "by_confidence": {
     "moderate": 48,
-    "low": 46,
+    "low": 47,
     "moderate-high": 5,
     "high": 2
   },
@@ -46,7 +47,7 @@
     {
       "source_code": "SRC-0008",
       "source": "Bamada",
-      "count": 97
+      "count": 98
     },
     {
       "source_code": "SRC-0006",
@@ -71,12 +72,12 @@
     {
       "source_code": "SRC-0075",
       "source": "AMAP (Agence Malienne de Presse et de Publicité)",
-      "count": 20
+      "count": 21
     },
     {
       "source_code": "SRC-0092",
       "source": "La Nouvelle Tribune (Bénin)",
-      "count": 19
+      "count": 20
     },
     {
       "source_code": "SRC-0003",
@@ -94,14 +95,14 @@
       "count": 16
     },
     {
-      "source_code": "SRC-0015",
-      "source": "ActuNiger",
-      "count": 14
-    },
-    {
       "source_code": "SRC-0022",
       "source": "Africanews",
       "count": 14
+    },
+    {
+      "source_code": "SRC-0004",
+      "source": "Studio Tamani",
+      "count": 13
     }
   ],
   "top_locations": [
@@ -111,7 +112,7 @@
     },
     {
       "location": "Mali",
-      "count": 17
+      "count": 18
     },
     {
       "location": "Bamako",
@@ -302,11 +303,101 @@
     },
     {
       "date": "2026-10-24",
-      "reports": 4,
-      "events": 0
+      "reports": 9,
+      "events": 1
     }
   ],
   "latest_events": [
+    {
+      "id": "1c34e23166b454e972a258f3b14f13959defda28",
+      "event_date": "2026-10-24",
+      "event_date_confidence": "explicit-text",
+      "event_date_source": "relative-today",
+      "published_at": "2026-10-24T09:47:45Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-24T12:48:53.677146Z",
+      "actor": "Africa Corps/Wagner",
+      "perpetrator": "Africa Corps/Wagner",
+      "target": null,
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [
+        "Africa Corps/Wagner"
+      ],
+      "parent_report_id": null,
+      "event_type": "air/drone strike",
+      "country": "Mali",
+      "city": null,
+      "lat": null,
+      "lng": null,
+      "locations": [],
+      "title": "The news factory: the underside of the investigation into the drone war in Mali",
+      "summary": "The Factory of Info: the underside of the investigation into the drone war in Mali Jeune Afrique reveals the backstage of its investigation into the drone attacks in Mali, the strikes carried out by the army and the Russians of Africa Corps. For six months, evidence was gathered to try to meticulously verify each of these bombings, at least a quarter of which resulted in civilian casualties.",
+      "sources": [
+        "Jeune Afrique"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://www.jeuneafrique.com/1854823/politique/la-fabrique-de-linfo-les-dessous-de-lenquete-sur-la-guerre-des-drones-au-mali/"
+      ],
+      "report_summaries": [
+        {
+          "url": "https://www.jeuneafrique.com/1854823/politique/la-fabrique-de-linfo-les-dessous-de-lenquete-sur-la-guerre-des-drones-au-mali/",
+          "source": "Jeune Afrique",
+          "title": "The news factory: the underside of the investigation into the drone war in Mali",
+          "summary": "The Factory of Info: the underside of the investigation into the drone war in Mali Jeune Afrique reveals the backstage of its investigation into the drone attacks in Mali, the strikes carried out by the army and the Russians of Africa Corps. For six months, evidence was gathered to try to meticulously verify each of these bombings, at least a quarter of which resulted in civilian casualties.",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "civilian"
+          ],
+          "civilian_targeting_flag": false,
+          "casualty_claims": []
+        }
+      ],
+      "created_at": "2026-10-24T12:48:53.677146Z",
+      "updated_at": "2026-10-24T12:48:53.677146Z",
+      "extraction_confidence": "low",
+      "victim_categories": [
+        "civilian"
+      ],
+      "civilian_targeting_flag": false,
+      "casualty_claims": [],
+      "fatalities_min": null,
+      "fatalities_max": null,
+      "fatalities_best": null,
+      "injured_min": null,
+      "injured_max": null,
+      "abducted_min": null,
+      "abducted_max": null,
+      "casualty_disputed": false,
+      "revision_history": [
+        {
+          "at": "2026-10-24T12:48:53.677146Z",
+          "type": "event_created",
+          "source": "Jeune Afrique"
+        }
+      ],
+      "corroboration": "single-source",
+      "confidence": "low",
+      "independent_source_domains": [
+        "jeuneafrique.com"
+      ],
+      "independent_source_count": 1,
+      "significance": "SIGNIFICANT",
+      "significance_reasons": [
+        "operational security event"
+      ]
+    },
     {
       "id": "5707824484a51795ed98d1e2c1b16411015266ca",
       "event_date": "2026-10-23",
@@ -3827,199 +3918,81 @@
       "significance_reasons": [
         "multi-location activity"
       ]
-    },
-    {
-      "id": "fb19e15cfea19012697e1dfdc35694dc1e7911ae",
-      "event_date": "2026-10-17",
-      "event_date_confidence": "explicit-text",
-      "event_date_source": "explicit-calendar-date",
-      "published_at": "2026-10-17T23:13:55Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-18T01:04:33.263788Z",
-      "actor": "State",
-      "perpetrator": "State",
-      "target": null,
-      "claimant": null,
-      "supporting_force": null,
-      "mentioned_actors": [
-        "State"
-      ],
-      "parent_report_id": null,
-      "event_type": "security operation",
-      "country": "Mali",
-      "city": "Ménaka",
-      "lat": 15.9182,
-      "lng": 2.4022,
-      "locations": [
-        {
-          "name": "Ménaka",
-          "country": "Mali",
-          "lat": 15.9182,
-          "lng": 2.4022,
-          "confidence": "explicit-place"
-        },
-        {
-          "name": "Bamako",
-          "country": "Mali",
-          "lat": 12.6392,
-          "lng": -8.0029,
-          "confidence": "explicit-place"
-        },
-        {
-          "name": "Douentza",
-          "country": "Mali",
-          "lat": 15.0014,
-          "lng": -2.9519,
-          "confidence": "explicit-place"
-        }
-      ],
-      "title": "Operation Dougoukoloko: two terrorist bases targeted near Diafarabé and Menaka",
-      "summary": "The General Staff of the Armed Forces informs the national opinion that the Malian Armed Forces (FAMa), supported by their partners, are continuing the permanent operations of surveillance, control and security of the national territory as part of Operation Dougoukoloko This Saturday, October 17, 2026, the exploitation of precise intelligence made it possible to locate, 40 km north-east of the city of Diafarabé, a major base housing several terrorist elements as well as war and logistics equipment.",
-      "sources": [
-        "Malijet",
-        "AMAP (Agence Malienne de Presse et de Publicité)",
-        "Bamada"
-      ],
-      "languages": [
-        "fr"
-      ],
-      "source_count": 3,
-      "report_urls": [
-        "https://malijet.com/actualte_dans_les_regions_du_mali/312379-operation-dougoukoloko-deux-bases-terroristes-ciblees-pres.html",
-        "https://amap.ml/2026/10/18/operation-dougoukoloko-les-fama-frappent-deux-bases-abritant-des-groupes-terroristes-a-diarafabe-et-a-menaka/",
-        "https://bamada.net/operation-dougoukoloko-les-fama-frappent-deux-importantes-bases-terroristes-a-diafarabe-et-menaka",
-        "https://bamada.net/operation-dougoukoloko-les-fama-frappent-pres-de-menaka-et-douentza"
-      ],
-      "report_summaries": [
-        {
-          "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312379-operation-dougoukoloko-deux-bases-terroristes-ciblees-pres.html",
-          "source": "Malijet",
-          "title": "Operation Dougoukoloko: two terrorist bases targeted near Diafarabé and Menaka",
-          "summary": "Operation Dougoukoloko: two targeted terrorist bases near Diafarabé and Menaka The Malian Armed Forces (FAMa), supported by their partners, targeted two bases presented as terrorist in the Diafarabé and Menaka sectors on Saturday, October 17, 2026, as part of Operation Dougoukoloko, according to the General Staff of the Armed Forces According to the press release, the first position was located 40 km northeast of Diafarabé thanks to precise information.",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "armed_group"
-          ],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        },
-        {
-          "url": "https://amap.ml/2026/10/18/operation-dougoukoloko-les-fama-frappent-deux-bases-abritant-des-groupes-terroristes-a-diarafabe-et-a-menaka/",
-          "source": "AMAP (Agence Malienne de Presse et de Publicité)",
-          "title": "Operation Dougoukoloko: FAMa strikes two bases housing terrorist groups in Diarafabé and Menaka",
-          "summary": "Bamako, October 18 (AMAP) The Malian Armed Forces (FAMa), supported by their partners, successfully carried out, on Saturday, October 17, 2026, strikes against two bases housing terrorist elements and war and logistics equipment, as part of Operation Dougoukoloko, announced the General Staff of the Armed Forces . According to the press release, the exploitation of precise information made it possible to locate a large base about 40 km northeast of the city of Diafarabé.",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "armed_group"
-          ],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        },
-        {
-          "url": "https://bamada.net/operation-dougoukoloko-les-fama-frappent-deux-importantes-bases-terroristes-a-diafarabe-et-menaka",
-          "source": "Bamada",
-          "title": "Operation Dougoukoloko: The FAMa strike two important terrorist bases in Diafarabé and Menaka",
-          "summary": "The General Staff of the Armed Forces informs the national opinion that the Malian Armed Forces (FAMa), supported by their partners, are continuing the permanent operations of surveillance, control and security of the national territory as part of Operation Dougoukoloko This Saturday, October 17, 2026, the exploitation of precise intelligence made it possible to locate, 40 km north-east of the city of Diafarabé, a major base housing several terrorist elements as well as war and logistics equipment.",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "armed_group"
-          ],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        },
-        {
-          "url": "https://bamada.net/operation-dougoukoloko-les-fama-frappent-pres-de-menaka-et-douentza",
-          "source": "Bamada",
-          "title": "Operation Dougoukoloko: FAMa strike near Menaka and Douentza",
-          "summary": "Operation Dougoukoloko: the FAMa strike two terrorist positions near Menaka and Douentza Thanks to the exploitation of precise intelligence, the Malian Armed Forces carried out targeted strikes on 17 and 18 October 2026 against positions of terrorist armed groups. These operations illustrate the continuation of efforts to monitor, recognize and secure the national territory .",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "armed_group"
-          ],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        }
-      ],
-      "created_at": "2026-10-18T01:04:33.263788Z",
-      "updated_at": "2026-10-20T05:00:56.415454Z",
-      "extraction_confidence": "low",
-      "victim_categories": [
-        "armed_group"
-      ],
-      "civilian_targeting_flag": false,
-      "casualty_claims": [],
-      "fatalities_min": null,
-      "fatalities_max": null,
-      "fatalities_best": null,
-      "injured_min": null,
-      "injured_max": null,
-      "abducted_min": null,
-      "abducted_max": null,
-      "casualty_disputed": false,
-      "revision_history": [
-        {
-          "at": "2026-10-18T01:04:33.263788Z",
-          "type": "event_created",
-          "source": "Malijet"
-        },
-        {
-          "at": "2026-10-18T12:56:39.047329Z",
-          "type": "corroboration_or_geography_update",
-          "source": "AMAP (Agence Malienne de Presse et de Publicité)"
-        },
-        {
-          "at": "2026-10-18T12:56:37.559660Z",
-          "type": "corroboration_or_geography_update",
-          "source": "Bamada"
-        },
-        {
-          "at": "2026-10-20T05:00:56.415454Z",
-          "type": "corroboration_or_geography_update",
-          "source": "Bamada"
-        }
-      ],
-      "corroboration": "multi-source",
-      "confidence": "moderate-high",
-      "independent_source_domains": [
-        "malijet.com",
-        "amap.ml",
-        "bamada.net"
-      ],
-      "independent_source_count": 3,
-      "significance": "MAJOR",
-      "significance_reasons": [
-        "strategic/severe event pattern",
-        "multi-source corroboration",
-        "multi-location activity"
-      ]
     }
   ],
   "latest_reports": [
+    {
+      "published_at": "2026-10-24T09:58:43Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-24T12:48:54.157984Z",
+      "discovered_at": "2026-10-24T12:48:54.157984Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0092",
+      "source": "La Nouvelle Tribune (Bénin)",
+      "language": "fr",
+      "actor": null,
+      "country": "Niger",
+      "city": "Niamey",
+      "event_type": "political/security policy",
+      "candidate_event": false,
+      "title": "Sahel: Algeria arms Niger and courts Mali to regain control",
+      "url": "https://lanouvelletribune.info/2026/10/sahel-lalgerie-arme-le-niger-et-courtise-le-mali-pour-reprendre-la-main/"
+    },
+    {
+      "published_at": "2026-10-24T09:47:45Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-24T12:48:53.677146Z",
+      "discovered_at": "2026-10-24T12:48:53.677146Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0003",
+      "source": "Jeune Afrique",
+      "language": "fr",
+      "actor": "Africa Corps/Wagner",
+      "country": "Mali",
+      "city": null,
+      "event_type": "air/drone strike",
+      "candidate_event": true,
+      "title": "The news factory: the underside of the investigation into the drone war in Mali",
+      "url": "https://www.jeuneafrique.com/1854823/politique/la-fabrique-de-linfo-les-dessous-de-lenquete-sur-la-guerre-des-drones-au-mali/"
+    },
+    {
+      "published_at": "2026-10-24T08:34:35Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-24T12:48:56.903349Z",
+      "discovered_at": "2026-10-24T12:48:56.903349Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0075",
+      "source": "AMAP (Agence Malienne de Presse et de Publicité)",
+      "language": "fr",
+      "actor": null,
+      "country": "Mali",
+      "city": "Gourma-Rharous",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Gourma Rharous: launch of local polio vaccination days",
+      "url": "https://amap.ml/2026/10/24/gourma-rharous-lancement-des-journees-locales-de-vaccination-contre-la-poliomyelite/"
+    },
+    {
+      "published_at": "2026-10-24T08:08:04Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-24T12:48:57.131445Z",
+      "discovered_at": "2026-10-24T12:48:57.131445Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0008",
+      "source": "Bamada",
+      "language": "fr",
+      "actor": null,
+      "country": null,
+      "city": null,
+      "event_type": "clash",
+      "candidate_event": false,
+      "title": "France: security arrangements mobilised for the gatherings on 24 October",
+      "url": "https://bamada.net/france-les-dispositifs-de-securite-mobilises-pour-les-rassemblements-du-24-octobre"
+    },
     {
       "published_at": "2026-10-24T05:47:00Z",
       "published_date_source": "html:time",
@@ -4037,6 +4010,24 @@
       "candidate_event": false,
       "title": "Ticket: France on a war footing against itself!",
       "url": "https://www.lesahel.org/billet-la-france-sur-le-pied-de-guerre-contre-elle-meme/"
+    },
+    {
+      "published_at": "2026-10-24T04:10:00Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-24T12:48:56.497754Z",
+      "discovered_at": "2026-10-24T12:48:56.497754Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0040",
+      "source": "Mondafrique",
+      "language": "fr",
+      "actor": "IS Sahel",
+      "country": null,
+      "city": null,
+      "event_type": "kidnapping",
+      "candidate_event": false,
+      "title": "Kidnappings in the Sahel: The Conversation Analysis",
+      "url": "https://mondafrique.com/decryptage/enlevements-au-sahel-lanalyse-de-the-conversation/"
     },
     {
       "published_at": "2026-10-24T02:58:39Z",
@@ -4649,96 +4640,6 @@
       "candidate_event": false,
       "title": "Border coup: Algerian army shuts down Tinzaouaten and Timiaouine to track down traffickers",
       "url": "https://malijet.com/flash-info/312459-coup-de-force-a-la-frontiere-larmee-algerienne-ferme-tinz.html"
-    },
-    {
-      "published_at": "2026-10-22T15:39:25Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-22T20:16:55.181851Z",
-      "discovered_at": "2026-10-22T20:16:55.181851Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0040",
-      "source": "Mondafrique",
-      "language": "fr",
-      "actor": "IS Sahel",
-      "country": "Niger",
-      "city": "Agadez",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Haftar stages the release in Benghazi of two hostages kidnapped in Niger",
-      "url": "https://mondafrique.com/politique/haftar-met-en-scene-la-liberation-a-benghazi-de-deux-otages-enlevees-au-niger/"
-    },
-    {
-      "published_at": "2026-10-22T15:30:35Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-22T20:16:56.843636Z",
-      "discovered_at": "2026-10-22T20:16:56.843636Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0003",
-      "source": "Jeune Afrique",
-      "language": "fr",
-      "actor": null,
-      "country": "Niger",
-      "city": null,
-      "event_type": "political/security policy",
-      "candidate_event": false,
-      "title": "Algeria and Niger sign \"a security pact\"",
-      "url": "https://www.jeuneafrique.com/1854738/politique/lalgerie-et-le-niger-signent-un-pacte-securitaire/"
-    },
-    {
-      "published_at": "2026-10-22T15:27:08Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-22T20:16:52.802088Z",
-      "discovered_at": "2026-10-22T20:16:52.802088Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0007",
-      "source": "Journal du Mali",
-      "language": "fr",
-      "actor": null,
-      "country": "Mali",
-      "city": "Bamako",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "AES – ECOWAS: What future for cooperation?",
-      "url": "https://journaldumali.com/aes-cedeao-quel-avenir-pour-la-cooperation/"
-    },
-    {
-      "published_at": "2026-10-22T15:07:27Z",
-      "published_date_source": "opengraph",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-22T20:16:56.982305Z",
-      "discovered_at": "2026-10-22T20:16:56.982305Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0090",
-      "source": "AllAfrica (Édition Française)",
-      "language": "fr",
-      "actor": null,
-      "country": "Burkina Faso",
-      "city": null,
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Burkina Faso: The country reinstates the death penalty (HRW)",
-      "url": "https://fr.allafrica.com/stories/202610220451.html"
-    },
-    {
-      "published_at": "2026-10-22T14:56:09Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-22T20:16:53.028229Z",
-      "discovered_at": "2026-10-22T20:16:53.028229Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0008",
-      "source": "Bamada",
-      "language": "fr",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Bamako",
-      "event_type": "clash",
-      "candidate_event": true,
-      "title": "Arm of iron in Bamako: Seydou \"Solution\" against Mohamed \"Lil Bougou\", a contract signed on October 16",
-      "url": "https://bamada.net/bras-de-fer-a-bamako-seydou-solution-face-a-mohamed-lil-bougou-un-contrat-signe-le-16-octobre"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
