@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-24T22:37:11.974636Z",
+  "generated_at": "2026-10-25T04:55:34.068998Z",
   "window_days": 30,
-  "cutoff": "2026-09-24",
-  "reports": 623,
+  "cutoff": "2026-09-25",
+  "reports": 622,
   "incident_reports": 157,
-  "candidate_events": 105,
+  "candidate_events": 104,
   "corroborated_events": 27,
-  "mapped_events": 84,
-  "mapped_locations": 154,
+  "mapped_events": 83,
+  "mapped_locations": 153,
   "distinct_sources": 85,
   "by_actor": {
     "State": 63,
     "JNIM": 16,
-    "Other": 12,
+    "Other": 11,
     "Africa Corps/Wagner": 9,
     "IS Sahel": 5
   },
   "by_country": {
     "Mali": 96,
     "Niger": 6,
-    "Burkina Faso": 3
+    "Burkina Faso": 2
   },
   "by_event_type": {
-    "security operation": 43,
+    "security operation": 42,
     "offensive/campaign": 15,
     "clash": 14,
     "attack": 12,
@@ -34,11 +34,11 @@
   },
   "by_language": {
     "fr": 475,
-    "en": 114,
+    "en": 113,
     "ar": 34
   },
   "by_confidence": {
-    "low": 49,
+    "low": 48,
     "moderate": 48,
     "moderate-high": 6,
     "high": 2
@@ -47,12 +47,12 @@
     {
       "source_code": "SRC-0008",
       "source": "Bamada",
-      "count": 100
+      "count": 101
     },
     {
       "source_code": "SRC-0006",
       "source": "Malijet",
-      "count": 68
+      "count": 67
     },
     {
       "source_code": "SRC-0090",
@@ -156,11 +156,6 @@
     }
   ],
   "daily": [
-    {
-      "date": "2026-09-25",
-      "reports": 7,
-      "events": 1
-    },
     {
       "date": "2026-09-26",
       "reports": 4,
@@ -305,6 +300,11 @@
       "date": "2026-10-24",
       "reports": 17,
       "events": 4
+    },
+    {
+      "date": "2026-10-25",
+      "reports": 1,
+      "events": 0
     }
   ],
   "latest_events": [
@@ -3581,6 +3581,24 @@
   ],
   "latest_reports": [
     {
+      "published_at": "2026-10-25T01:37:12Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-25T04:54:44.042384Z",
+      "discovered_at": "2026-10-25T04:54:44.042384Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0008",
+      "source": "Bamada",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Kidal",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "KIDAL: the FAMa provide care and comfort to the populations of the camps",
+      "url": "https://bamada.net/kidal-les-fama-apportent-soins-et-reconfort-aux-populations-des-campements"
+    },
+    {
       "published_at": "2026-10-24T22:15:35Z",
       "published_date_source": "jsonld:datePublished",
       "published_time_precision": "datetime",
@@ -4281,24 +4299,6 @@
       "candidate_event": true,
       "title": "Mali: Army, Russia's 'Africa Corps' Commit New Abuses",
       "url": "https://allafrica.com/stories/202610230063.html"
-    },
-    {
-      "published_at": "2026-10-23T00:00:00Z",
-      "published_date_source": "visible-publication-label",
-      "published_time_precision": "date-only",
-      "collected_at": "2026-10-23T20:04:14.324025Z",
-      "discovered_at": "2026-10-23T20:04:14.324025Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0011",
-      "source": "LeFaso.net",
-      "language": "fr",
-      "actor": null,
-      "country": "Burkina Faso",
-      "city": "Ouagadougou",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Burkina/Solidarity: A member of the diaspora provides support to widows and orphans who are victims of the war",
-      "url": "https://lefaso.net/spip.php?article150174="
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."

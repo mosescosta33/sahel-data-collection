@@ -1,8 +1,347 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-24T22:37:12.884648Z",
-  "briefing_count": 23,
+  "generated_at": "2026-10-25T04:55:35.033560Z",
+  "briefing_count": 24,
   "briefings": [
+    {
+      "schema_version": "2.0",
+      "product": "Sultana 24-Hour AES Intelligence Brief",
+      "reporting_date": "2026-10-25",
+      "generated_at": "2026-10-25T04:55:35.033560Z",
+      "window_start": "2026-10-24T04:55:35.033560Z",
+      "window_end": "2026-10-25T04:55:35.033560Z",
+      "window_hours": 24,
+      "method": "Sultana 24-hour all-retained-report intelligence synthesis",
+      "freshness_status": "LIVE",
+      "assessment_confidence": "MODERATE",
+      "coverage": {
+        "retained_articles_reviewed": 14,
+        "retained_articles_in_window": 14,
+        "coverage_complete": true,
+        "distinct_sources": 9,
+        "linked_candidate_events": 5,
+        "multi_source_candidate_events": 1,
+        "countries": {
+          "Mali": 10,
+          "Burkina Faso": 0,
+          "Niger": 1
+        },
+        "actors": {
+          "State": 5,
+          "IS Sahel": 4,
+          "Other": 4,
+          "Africa Corps/Wagner": 1
+        },
+        "event_types": {
+          "attack": 2,
+          "civilian targeting": 1,
+          "clash": 2,
+          "security operation": 4,
+          "political/security policy": 1,
+          "air/drone strike": 1,
+          "kidnapping": 1
+        }
+      },
+      "sections": [
+        {
+          "heading": "BOTTOM LINE",
+          "text": "Sultana reviewed all 14 retained reports collected during the 24-hour window from 9 distinct sources. Reporting was heaviest on Mali (10 reports), while State appeared most often in actor-attributed reporting (5 reports). The same source set is linked to 5 fused candidate events, including 1 with at least two independent sources."
+        },
+        {
+          "heading": "KEY JUDGMENTS",
+          "bullets": [
+            "Reporting distribution: Mali 10, Niger 1, Burkina Faso 0 retained reports.",
+            "Actor posture: State dominated actor-attributed reporting in this window; JNIM 0, IS Sahel 4, AES/state forces 5, Africa Corps/Wagner 1.",
+            "Operational pattern: the leading coded report types were security operation (4), attack (2), clash (2), civilian targeting (1).",
+            "Event fusion: 5 candidate events are tied to reports collected in the window; 1 currently have multi-source support."
+          ]
+        },
+        {
+          "heading": "Mali",
+          "text": "10 retained reports were reviewed for Mali. Mali: 54 dead bodies discovered in a camp, EIGs implicated: A massacre of civilian populations was reported in the region of Menaka, Mali. Fifty-four dead bodies were discovered in a camp located about 35 kilometers southeast of the city. The Islamic State in the Greater Sahara… Massacre of civilians in Tagadayat (Menaka): 54 victims buried on the spot according to the General Staff: The General Staff of the Armed Forces informs the national opinion that on the basis of reports of a terrorist attack on civilian populations in the Menaka operational sub-sector, a joint Fama-Partners patrol has been… Reporting was concentrated on State (5), IS Sahel (3), Africa Corps/Wagner (1)."
+        },
+        {
+          "heading": "Burkina Faso",
+          "text": "No retained Burkina Faso-specific article was collected in this 24-hour window."
+        },
+        {
+          "heading": "Niger",
+          "text": "1 retained report was reviewed for Niger. Sahel: Algeria arms Niger and courts Mali to regain control: More than eighteen months after the case of the downed drone, Algeria changes its method in the Sahel. Indeed, on 21 October 2026, in Algiers, Chief of Staff Said Chanegriha signed a protocol of military cooperation…"
+        },
+        {
+          "heading": "ACTOR POSTURE",
+          "text": "JNIM appears in 0 retained reports; IS Sahel in 4; AES/state forces in 5; Africa Corps/Wagner in 1. JNIM is up to 4 from 2; IS Sahel is up to 4 from 1; State is up to 15 from 10."
+        },
+        {
+          "heading": "WHAT CHANGED VS BASELINE",
+          "text": "JNIM is up to 4 from 2; IS Sahel is up to 4 from 1; State is up to 15 from 10."
+        },
+        {
+          "heading": "INDICATORS TO WATCH — NEXT 24–72 HOURS",
+          "bullets": [
+            "Watch for IS Sahel claims, cross-border movement indicators, and changes in attack concentration.",
+            "Watch for additional Africa Corps/Wagner-linked deployments, joint operations, logistics activity, or equipment reporting.",
+            "Resolve the reporting gap for Burkina Faso; low collection volume should not be treated as low activity."
+          ]
+        },
+        {
+          "heading": "CONFIDENCE / CAVEATS",
+          "bullets": [
+            "Multiple sources were reviewed, but some developments remain single-source or incompletely corroborated.",
+            "Collection health: 136 sources live, 21 degraded, 27 failed in the latest collector cycle.",
+            "Candidate events and actor attributions remain OSINT-derived analytical records and may change with better sourcing, dates, or geolocation."
+          ]
+        }
+      ],
+      "text": "SULTANA AL-QAHTANI — 24-HOUR AES INTELLIGENCE BRIEF\nReporting date: 2026-10-25\nWindow: 2026-10-24T04:55:35.033560Z to 2026-10-25T04:55:35.033560Z\nAssessment confidence: MODERATE\n\nBOTTOM LINE\nSultana reviewed all 14 retained reports collected during the 24-hour window from 9 distinct sources. Reporting was heaviest on Mali (10 reports), while State appeared most often in actor-attributed reporting (5 reports). The same source set is linked to 5 fused candidate events, including 1 with at least two independent sources.\n\nKEY JUDGMENTS\n• Reporting distribution: Mali 10, Niger 1, Burkina Faso 0 retained reports.\n• Actor posture: State dominated actor-attributed reporting in this window; JNIM 0, IS Sahel 4, AES/state forces 5, Africa Corps/Wagner 1.\n• Operational pattern: the leading coded report types were security operation (4), attack (2), clash (2), civilian targeting (1).\n• Event fusion: 5 candidate events are tied to reports collected in the window; 1 currently have multi-source support.\n\nMali\n10 retained reports were reviewed for Mali. Mali: 54 dead bodies discovered in a camp, EIGs implicated: A massacre of civilian populations was reported in the region of Menaka, Mali. Fifty-four dead bodies were discovered in a camp located about 35 kilometers southeast of the city. The Islamic State in the Greater Sahara… Massacre of civilians in Tagadayat (Menaka): 54 victims buried on the spot according to the General Staff: The General Staff of the Armed Forces informs the national opinion that on the basis of reports of a terrorist attack on civilian populations in the Menaka operational sub-sector, a joint Fama-Partners patrol has been… Reporting was concentrated on State (5), IS Sahel (3), Africa Corps/Wagner (1).\n\nBurkina Faso\nNo retained Burkina Faso-specific article was collected in this 24-hour window.\n\nNiger\n1 retained report was reviewed for Niger. Sahel: Algeria arms Niger and courts Mali to regain control: More than eighteen months after the case of the downed drone, Algeria changes its method in the Sahel. Indeed, on 21 October 2026, in Algiers, Chief of Staff Said Chanegriha signed a protocol of military cooperation…\n\nACTOR POSTURE\nJNIM appears in 0 retained reports; IS Sahel in 4; AES/state forces in 5; Africa Corps/Wagner in 1. JNIM is up to 4 from 2; IS Sahel is up to 4 from 1; State is up to 15 from 10.\n\nWHAT CHANGED VS BASELINE\nJNIM is up to 4 from 2; IS Sahel is up to 4 from 1; State is up to 15 from 10.\n\nINDICATORS TO WATCH — NEXT 24–72 HOURS\n• Watch for IS Sahel claims, cross-border movement indicators, and changes in attack concentration.\n• Watch for additional Africa Corps/Wagner-linked deployments, joint operations, logistics activity, or equipment reporting.\n• Resolve the reporting gap for Burkina Faso; low collection volume should not be treated as low activity.\n\nCONFIDENCE / CAVEATS\n• Multiple sources were reviewed, but some developments remain single-source or incompletely corroborated.\n• Collection health: 136 sources live, 21 degraded, 27 failed in the latest collector cycle.\n• Candidate events and actor attributions remain OSINT-derived analytical records and may change with better sourcing, dates, or geolocation.",
+      "article_manifest": [
+        {
+          "id": "b5a8c205e0703cc1b4861e3fb37e8522c99738c4",
+          "source": "Bamada",
+          "title": "KIDAL: the FAMa provide care and comfort to the populations of the camps",
+          "original_title": "KIDAL : les FAMa apportent soins et réconfort aux populations des campements",
+          "summary": "The Malian Armed Forces (FAMa), through the Directorate of the Armed Forces Health Service (DSSA) and their Russian partner, conducted, on Friday, October 23, 2026, a medical assistance operation for the benefit of the populations living in the localities located on the outskirts of the city of Kidal .",
+          "url": "https://bamada.net/kidal-les-fama-apportent-soins-et-reconfort-aux-populations-des-campements",
+          "country": "Mali",
+          "language": "fr",
+          "published_at": "2026-10-25T01:37:12Z",
+          "collected_at": "2026-10-25T04:54:44.042384Z",
+          "event_date": "2026-10-23",
+          "actor": "State",
+          "event_type": null,
+          "candidate_event": false,
+          "supporting_force": null
+        },
+        {
+          "id": "5dadf28eb270c26ba850578fe73bd01d9eaa5f1c",
+          "source": "Seneweb",
+          "title": "Mali: 54 dead bodies discovered in a camp, EIGs implicated",
+          "original_title": "Mali : 54 corps sans vie découverts dans un campement, l’EIGS mis en cause",
+          "summary": "A massacre of civilian populations was reported in the region of Menaka, Mali. Fifty-four dead bodies were discovered in a camp located about 35 kilometers southeast of the city. The Islamic State in the Greater Sahara (EIGs) is implicated in these killings, according to the first testimonies collected by the Malian army In a statement seen by Seneweb, the General Staff of the Armed Forces indicates that a joint patrol of the Malian Armed Forces (FAMa) and their partners was deployed on the ground after reports of a terrorist attack against civilian populations in the operational sub-sector of Menaka.",
+          "url": "https://www.seneweb.com/fr/news/Afrique/mali-54-corps-sans-vie-decouverts-dans-un-campement-leigs-mis-en-cause_n_999001644.html",
+          "country": "Mali",
+          "language": "fr",
+          "published_at": "2026-10-24T22:15:35Z",
+          "collected_at": "2026-10-24T22:36:18.109562Z",
+          "event_date": "2026-10-24",
+          "actor": "IS Sahel",
+          "event_type": "attack",
+          "candidate_event": true,
+          "supporting_force": null
+        },
+        {
+          "id": "da56028d7a797cb7462e9dfddb9d56d6797654e7",
+          "source": "Bamada",
+          "title": "Massacre of civilians in Tagadayat (Menaka): 54 victims buried on the spot according to the General Staff",
+          "original_title": "Massacre de civils à Tagadayat (Ménaka) : 54 victimes inhumées sur place selon l’État-Major",
+          "summary": "The General Staff of the Armed Forces informs the national opinion that on the basis of reports of a terrorist attack on civilian populations in the Menaka operational sub-sector, a joint Fama-Partners patrol has been launched on the ground. During its search, the patrol discovered, about 35 kilometers southeast of the city of Menaka, fifty-four (54) lifeless bodies in a camp in Tagadayat .",
+          "url": "https://bamada.net/massacre-de-civils-a-tagadayat-menaka-54-victimes-inhumees-sur-place-selon-letat-major",
+          "country": "Mali",
+          "language": "fr",
+          "published_at": "2026-10-24T20:29:40Z",
+          "collected_at": "2026-10-24T22:36:16.818274Z",
+          "event_date": "2026-10-24",
+          "actor": "IS Sahel",
+          "event_type": "civilian targeting",
+          "candidate_event": true,
+          "supporting_force": null
+        },
+        {
+          "id": "26d579c1d73db8c987271970c9dfa06227b0535c",
+          "source": "Malijet",
+          "title": "Menaka: 54 bodies discovered in a camp in Tagadayat",
+          "original_title": "Ménaka : 54 corps découverts dans un campement à Tagadayat",
+          "summary": "Fifty-four dead bodies were discovered in a camp in Tagadayat, about 35 km southeast of Menaka, following reports of an attack on civilians. The announcement was made by the General Staff of the Armed Forces . A joint patrol of the Malian Armed Forces (FAMa) and their partners was deployed to conduct field research.",
+          "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312492-menaka-54-corps-decouverts-dans-un-campement-a-tagadayat.html",
+          "country": "Mali",
+          "language": "fr",
+          "published_at": "2026-10-24T18:24:27Z",
+          "collected_at": "2026-10-24T18:52:59.285751Z",
+          "event_date": "2026-10-24",
+          "actor": "IS Sahel",
+          "event_type": "attack",
+          "candidate_event": false,
+          "supporting_force": null
+        },
+        {
+          "id": "27959d3d7eed1e5682bae90afd3d90e2eb384934",
+          "source": "Burkina24",
+          "title": "France: New day of mobilization in the face of expensive life and social tensions",
+          "original_title": "France : Nouvelle journée de mobilisation face à la vie chère et aux tensions sociales",
+          "summary": "This Saturday, October 24, 2026, France was the scene of a new day of protests marking another act of social anger. According to the Ministry of the Interior, 410,000 people have marched in France, including 110,000 in Paris, while the CGT claims 800,000 demonstrators. The processions brought together citizens denouncing the high cost of living and demanding the defense of public services .",
+          "url": "https://burkina24.com/2026/10/24/france-nouvelle-journee-de-mobilisation-face-a-la-vie-chere-et-aux-tensions-sociales/",
+          "country": null,
+          "language": "fr",
+          "published_at": "2026-10-24T17:14:13Z",
+          "collected_at": "2026-10-24T18:53:00.221815Z",
+          "event_date": "2026-10-24",
+          "actor": "Other",
+          "event_type": "clash",
+          "candidate_event": false,
+          "supporting_force": null
+        },
+        {
+          "id": "97afd1a39426ada73da37e18efa63218678a2ad5",
+          "source": "Malijet",
+          "title": "Operation Dougoukoloko: the FAMa strike several terrorist positions in Menaka, Mopti and Segou",
+          "original_title": "Opération Dougoukoloko : les FAMa frappent plusieurs positions terroristes à Ménaka, Mopti et Ségou",
+          "summary": "The Malian Armed Forces (FAMa) carried out several strikes against terrorist groups in the regions of Menaka, Mopti and Segou, on 22 October 2026, as part of Operation Dougoukoloko According to the General Staff of the Armed Forces, precise information made it possible to locate a large group of terrorist elements about 50 km south of Menaka. The position, where there were also officials and logistical equipment, was hit after observation and confirmation of the target .",
+          "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312491-operation-dougoukoloko-les-fama-frappent-plusieurs-positio.html",
+          "country": "Mali",
+          "language": "fr",
+          "published_at": "2026-10-24T16:11:28Z",
+          "collected_at": "2026-10-24T18:52:59.736736Z",
+          "event_date": "2026-10-22",
+          "actor": "State",
+          "event_type": "security operation",
+          "candidate_event": true,
+          "supporting_force": null
+        },
+        {
+          "id": "cac20a590d5b3da572e84c00e6ec775a52e008a8",
+          "source": "Sahara Medias (صحراء ميديا)",
+          "title": "Mali.. The army announces the killing of militants in the framework of Operation Dogokoloko",
+          "original_title": "مالي.. الجيش يعلن مقتل مسلحين في إطار عملية «دوغوكولوكو»",
+          "summary": "The Malian army announced carrying out strikes targeting two gatherings of armed elements in the areas of Menaka and Mopti, in the east and center of the country, and confirmed the neutralization of three other militants after they were tracked in several areas, as part of Operation Dogokoloko. It said in a statement on Saturday that accurate intelligence enabled the Malian armed forces, with the support of its partners on October 22, to locate a large gathering of elements it described as terrorist, about fifty kilometers south of the city of Menaka.",
+          "url": "https://saharamedias.net/267661/",
+          "country": "Mali",
+          "language": "ar",
+          "published_at": "2026-10-24T14:32:05Z",
+          "collected_at": "2026-10-24T18:53:00.438464Z",
+          "event_date": "2026-10-22",
+          "actor": "State",
+          "event_type": "security operation",
+          "candidate_event": false,
+          "supporting_force": null
+        },
+        {
+          "id": "7045f55800baf11b6a6cfc1f222fdac3cc3ba175",
+          "source": "Bamada",
+          "title": "Ménaka, Mopti and Ségou: The Malian Armed Forces accurately hit several terrorist bases",
+          "original_title": "Ménaka, Mopti et Ségou : Les Forces armées maliennes frappent avec précision plusieurs bases terroristes",
+          "summary": "The General Staff of the Armed Forces informs the national opinion that the Malian Armed Forces (FAMa), supported by their partners, are continuing the permanent operations of surveillance, control and security of the national territory as part of Operation Dougoukoloko . On October 22, 2026, the exploitation of precise intelligence made it possible to locate, about 50 km south of the city of Menaka, a major gathering point of terrorist elements, among which were officials, as well as several rolling means and logistical equipment.",
+          "url": "https://bamada.net/menaka-mopti-et-segou-les-forces-armees-maliennes-frappent-avec-precision-plusieurs-bases-terroristes",
+          "country": "Mali",
+          "language": "fr",
+          "published_at": "2026-10-24T14:10:45Z",
+          "collected_at": "2026-10-24T18:52:59.829271Z",
+          "event_date": "2026-10-22",
+          "actor": "State",
+          "event_type": "security operation",
+          "candidate_event": true,
+          "supporting_force": null
+        },
+        {
+          "id": "f928bce8c7366c89e53c302dd26c09a8315762b6",
+          "source": "La Nouvelle Tribune (Bénin)",
+          "title": "Mali: FAMa strike several terrorist positions in three regions",
+          "original_title": "Mali : les FAMa frappent plusieurs positions terroristes dans trois régions",
+          "summary": "The Malian army announces that it has targeted several groups of individuals presented as terrorists in the regions of Menaka, Mopti and Segou. These operations, carried out on 22 October 2026, are part of Operation Dougoukoloko, according to the General Staff of the Armed Forces.",
+          "url": "https://lanouvelletribune.info/2026/10/mali-les-fama-frappent-plusieurs-positions-terroristes-dans-trois-regions/",
+          "country": "Mali",
+          "language": "fr",
+          "published_at": "2026-10-24T13:52:53Z",
+          "collected_at": "2026-10-24T18:53:00.136048Z",
+          "event_date": "2026-10-24",
+          "actor": "State",
+          "event_type": "security operation",
+          "candidate_event": true,
+          "supporting_force": null
+        },
+        {
+          "id": "1c781a9d3276e61f3026208825a8c681f38c332b",
+          "source": "La Nouvelle Tribune (Bénin)",
+          "title": "Sahel: Algeria arms Niger and courts Mali to regain control",
+          "original_title": "Sahel : l'Algérie arme le Niger et courtise le Mali pour reprendre la main",
+          "summary": "More than eighteen months after the case of the downed drone, Algeria changes its method in the Sahel. Indeed, on 21 October 2026, in Algiers, Chief of Staff Said Chanegriha signed a protocol of military cooperation with the Nigerien Minister of Defence, Salifou Modi, affirming \"the full willingness of the National People's Army to examine any Nigerien proposal likely to strengthen our military and security cooperation\" According to the statement of the Algerian Ministry of Defense, Modi welcomed the multidimensional coordination between the two armies, but the content of the text was not made public.",
+          "url": "https://lanouvelletribune.info/2026/10/sahel-lalgerie-arme-le-niger-et-courtise-le-mali-pour-reprendre-la-main/",
+          "country": "Niger",
+          "language": "fr",
+          "published_at": "2026-10-24T09:58:43Z",
+          "collected_at": "2026-10-24T12:48:54.157984Z",
+          "event_date": "2026-10-21",
+          "actor": "Other",
+          "event_type": "political/security policy",
+          "candidate_event": false,
+          "supporting_force": null
+        },
+        {
+          "id": "e7cd2aa54ed8721e42718655bd82a23db3788635",
+          "source": "Jeune Afrique",
+          "title": "The news factory: the underside of the investigation into the drone war in Mali",
+          "original_title": "La fabrique de l’info : les dessous de l’enquête sur la guerre des drones au Mali",
+          "summary": "The Factory of Info: the underside of the investigation into the drone war in Mali Jeune Afrique reveals the backstage of its investigation into the drone attacks in Mali, the strikes carried out by the army and the Russians of Africa Corps. For six months, evidence was gathered to try to meticulously verify each of these bombings, at least a quarter of which resulted in civilian casualties.",
+          "url": "https://www.jeuneafrique.com/1854823/politique/la-fabrique-de-linfo-les-dessous-de-lenquete-sur-la-guerre-des-drones-au-mali/",
+          "country": "Mali",
+          "language": "fr",
+          "published_at": "2026-10-24T09:47:45Z",
+          "collected_at": "2026-10-24T12:48:53.677146Z",
+          "event_date": "2026-10-24",
+          "actor": "Africa Corps/Wagner",
+          "event_type": "air/drone strike",
+          "candidate_event": true,
+          "supporting_force": null
+        },
+        {
+          "id": "a889aac697cd41f4b2e7e69d32a0c4051b1ab1b3",
+          "source": "AMAP (Agence Malienne de Presse et de Publicité)",
+          "title": "Gourma Rharous: launch of local polio vaccination days",
+          "original_title": "Gourma Rharous : lancement des journées locales de vaccination contre la poliomyélite",
+          "summary": "Gourma Rharous, October 23, 2026 (AMAP)– The official launch of the second passage of the Local Days of Vaccination (JLV) against polio took place on Friday, in the Touré family, in the Boya district, in Rharous, the capital of the circle. The ceremony was presided over by the central sub-prefect, Captain Ousmane Coulibaly, representing the prefect of the circle, noted AMAP The ceremony took place in the presence of the second deputy mayor of the commune of Rharous, Souleymane Aguissa Maïga, the chief medical officer of the health district, Dr.",
+          "url": "https://amap.ml/2026/10/24/gourma-rharous-lancement-des-journees-locales-de-vaccination-contre-la-poliomyelite/",
+          "country": "Mali",
+          "language": "fr",
+          "published_at": "2026-10-24T08:34:35Z",
+          "collected_at": "2026-10-24T12:48:56.903349Z",
+          "event_date": "2026-10-23",
+          "actor": "Other",
+          "event_type": null,
+          "candidate_event": false,
+          "supporting_force": null
+        },
+        {
+          "id": "0195d9a01230a073907c94b696ed05153e31a73e",
+          "source": "Bamada",
+          "title": "France: security arrangements mobilised for the gatherings on 24 October",
+          "original_title": "France : les dispositifs de sécurité mobilisés pour les rassemblements du 24 octobre",
+          "summary": "Beyond the equipment deployed on the ground, the security forces can also count on aerial means to monitor the gatherings and better assess the risks. French law enforcement has several ground and aerial means to secure the gatherings scheduled for Saturday, including Centaure armored vehicles of the gendarmerie, trucks equipped with water cannons, helicopters and drones of surveillance, explained General Jérôme Pellistrandi, BFMTV's defence and security consultant, on Saturday.",
+          "url": "https://bamada.net/france-les-dispositifs-de-securite-mobilises-pour-les-rassemblements-du-24-octobre",
+          "country": null,
+          "language": "fr",
+          "published_at": "2026-10-24T08:08:04Z",
+          "collected_at": "2026-10-24T12:48:57.131445Z",
+          "event_date": "2026-10-24",
+          "actor": "Other",
+          "event_type": "clash",
+          "candidate_event": false,
+          "supporting_force": null
+        },
+        {
+          "id": "d68d5bfbe10c0db460b92b7a4b43070f50c1ec54",
+          "source": "Mondafrique",
+          "title": "Kidnappings in the Sahel: The Conversation Analysis",
+          "original_title": "Enlèvements au Sahel : l’analyse de « The Conversation »",
+          "summary": "In the aftermath of the release of two Austrian and Swiss hostages kidnapped in Niger by the Islamic State in the Sahel, we reproduce here, with the agreement of The Conversation (Africa), an article published in English on December 11, 2025 and updated on May 13, 2026, signed by Alexander M. Laskaris, visiting researcher at the University of Florida and Olivier Walther, lecturer in geography at the same university.",
+          "url": "https://mondafrique.com/decryptage/enlevements-au-sahel-lanalyse-de-the-conversation/",
+          "country": null,
+          "language": "fr",
+          "published_at": "2026-10-24T04:10:00Z",
+          "collected_at": "2026-10-24T12:48:56.497754Z",
+          "event_date": "2026-10-24",
+          "actor": "IS Sahel",
+          "event_type": "kidnapping",
+          "candidate_event": false,
+          "supporting_force": null
+        }
+      ],
+      "linked_event_ids": [
+        "5709a07050390df9218d4afe1cab57829d87d4cc",
+        "4c1c33c8f29bc1d0c17363c440b38ee820afda7b",
+        "a972699a5222fc3223e2f5d0773ce384927b4669",
+        "1c34e23166b454e972a258f3b14f13959defda28",
+        "2157928719fac011a81d69f2e121278810f9c764"
+      ]
+    },
     {
       "schema_version": "2.0",
       "product": "Sultana 24-Hour AES Intelligence Brief",

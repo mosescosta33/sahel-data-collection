@@ -1,17 +1,17 @@
 {
   "schema_version": "1.0",
   "site_patch_version": "3.3.5",
-  "generated_at": "2026-10-24T22:37:14.891307Z",
+  "generated_at": "2026-10-25T04:55:37.631705Z",
   "active_limit": 33,
-  "total_briefings": 277,
+  "total_briefings": 278,
   "active_count": 33,
-  "archived_count": 244,
+  "archived_count": 245,
   "briefings": [
     {
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
-      "reporting_date": "2026-10-24",
-      "generated_at": "2026-10-24T22:37:14.003047Z",
+      "reporting_date": "2026-10-25",
+      "generated_at": "2026-10-25T04:55:35.896223Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -20,11 +20,187 @@
       "classification": "OPEN SOURCE",
       "collection_confidence": "LOW",
       "headline_metrics": {
+        "events_occurring_on_date": 0,
+        "records_held_for_review": 0,
+        "multi_source_events": 0,
+        "reports_collected_on_date": 1,
+        "reports_published_on_date": 0,
+        "newly_discovered_older_events": 0,
+        "events_awaiting_date_verification": 0,
+        "distinct_sources_collected": 1
+      },
+      "executive_assessment": "Reporting collected on 2026-10-25 does not yet support a clear account of a new incident in Mali, Burkina Faso, or Niger. The desk received 1 report from 1 source, but the automated incident record needs further review. This is not evidence of calm on the ground.",
+      "briefing_sections": [
+        {
+          "heading": "Assessment",
+          "text": "Reporting collected on 2026-10-25 does not yet support a clear account of a new incident in Mali, Burkina Faso, or Niger. The desk received 1 report from 1 source, but the automated incident record needs further review. This is not evidence of calm on the ground."
+        },
+        {
+          "heading": "Mali",
+          "text": "1 retained report were collected for Mali. 0 fused candidate events currently carry this reporting date. KIDAL: the FAMa provide care and comfort to the populations of the camps: The Malian Armed Forces (FAMa), through the Directorate of the Armed Forces Health Service (DSSA) and their Russian partner, conducted, on Friday, October 23, 2026, a medical assistance operation for the benefit of the…"
+        },
+        {
+          "heading": "Burkina Faso",
+          "text": "No retained Burkina Faso report is recorded for this collection date. 0 fused candidate events currently carry this event date."
+        },
+        {
+          "heading": "Niger",
+          "text": "No retained Niger report is recorded for this collection date. 0 fused candidate events currently carry this event date."
+        },
+        {
+          "heading": "What remains unclear",
+          "text": "Collection or source checks are incomplete for this date, so relevant reporting may still be missing."
+        }
+      ],
+      "key_judgments": [
+        "No fused candidate event currently has 2026-10-25 as its event date; collection confidence for that date is low."
+      ],
+      "significant_events": [],
+      "what_changed_since_yesterday": [
+        "State: -1 same-day fused event(s) versus 2026-10-24 (1 → 0).",
+        "Collection volume: -17 retained report(s) versus 2026-10-24 (18 → 1)."
+      ],
+      "emerging_patterns": [
+        "State 7-day activity is higher than the preceding 7-day window (5 → 11)."
+      ],
+      "intelligence_gaps": [
+        "Collection confidence is low, so absence of reporting should not be interpreted as absence of activity."
+      ],
+      "actor_counts": {
+        "JNIM": 0,
+        "IS Sahel": 0,
+        "State": 0
+      },
+      "country_counts": {
+        "Mali": 0,
+        "Burkina Faso": 0,
+        "Niger": 0
+      },
+      "country_reporting_counts": {
+        "Mali": 1,
+        "Burkina Faso": 0,
+        "Niger": 0
+      },
+      "actor_profiles": {
+        "JNIM": {
+          "events": 0,
+          "delta_vs_previous_day": 0,
+          "current_7d": 1,
+          "previous_7d": 1,
+          "countries": [],
+          "event_types": []
+        },
+        "IS Sahel": {
+          "events": 0,
+          "delta_vs_previous_day": 0,
+          "current_7d": 0,
+          "previous_7d": 0,
+          "countries": [],
+          "event_types": []
+        },
+        "State": {
+          "events": 0,
+          "delta_vs_previous_day": -1,
+          "current_7d": 11,
+          "previous_7d": 5,
+          "countries": [],
+          "event_types": []
+        }
+      },
+      "country_profiles": {
+        "Mali": {
+          "events": 0,
+          "reports_collected": 1,
+          "actor_counts": {
+            "JNIM": 0,
+            "IS Sahel": 0,
+            "State": 0
+          },
+          "delta_events_vs_previous_day": -1,
+          "top_event_types": []
+        },
+        "Burkina Faso": {
+          "events": 0,
+          "reports_collected": 0,
+          "actor_counts": {
+            "JNIM": 0,
+            "IS Sahel": 0,
+            "State": 0
+          },
+          "delta_events_vs_previous_day": 0,
+          "top_event_types": []
+        },
+        "Niger": {
+          "events": 0,
+          "reports_collected": 0,
+          "actor_counts": {
+            "JNIM": 0,
+            "IS Sahel": 0,
+            "State": 0
+          },
+          "delta_events_vs_previous_day": 0,
+          "top_event_types": []
+        }
+      },
+      "country_article_summaries": {
+        "Mali": [
+          {
+            "id": "b5a8c205e0703cc1b4861e3fb37e8522c99738c4",
+            "source": "Bamada",
+            "title": "KIDAL: the FAMa provide care and comfort to the populations of the camps",
+            "summary": "The Malian Armed Forces (FAMa), through the Directorate of the Armed Forces Health Service (DSSA) and their Russian partner, conducted, on Friday, October 23, 2026, a medical assistance operation for the benefit of the populations living in the localities located on the outskirts of the city of Kidal .",
+            "url": "https://bamada.net/kidal-les-fama-apportent-soins-et-reconfort-aux-populations-des-campements",
+            "candidate_event": false,
+            "event_date": "2026-10-23"
+          }
+        ],
+        "Burkina Faso": [],
+        "Niger": []
+      },
+      "collection_notes": {
+        "sources_total": 184,
+        "sources_success": 157,
+        "sources_failed": 27,
+        "sources_degraded": 21,
+        "documents_discovered": 12027,
+        "documents_retained": 1,
+        "report_target": 100,
+        "translations_attempted": 1,
+        "translations_success": 1,
+        "translation_failures": 0,
+        "collection_confidence": "LOW",
+        "collection_confidence_reasons": [
+          "157/184 source paths reached",
+          "27 failed source paths",
+          "21 degraded / 27 failed of 184 configured sources"
+        ],
+        "reports_collected": 1,
+        "reports_published": 0,
+        "distinct_sources_collected": 1,
+        "language_counts": {
+          "fr": 1
+        }
+      },
+      "sultana_daily_text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nDaily bottom line for 2026-10-25: Reporting collected on 2026-10-25 does not yet support a clear account of a new incident in Mali, Burkina Faso, or Niger. The desk received 1 report from 1 source, but the automated incident record needs further review. This is not evidence of calm on the ground.\n\nMali: 1 retained report. 1. KIDAL: the FAMa provide care and comfort to the populations of the camps. The Malian Armed Forces (FAMa), through the Directorate of the Armed Forces Health Service (DSSA) and their Russian partner, conducted, on Friday, October 23, 2026, a medical assistance operation for the benefit of the populations living in the localities located on the outskirts of the city of Kidal .\n\nBurkina Faso: 0 retained reports. No retained country-specific reports were collected for this desk date.\n\nNiger: 0 retained reports. No retained country-specific reports were collected for this desk date.\n\nActor picture: no same-day fused candidate events.\n\nWhat changed: State: -1 same-day fused event(s) versus 2026-10-24 (1 → 0). Collection volume: -17 retained report(s) versus 2026-10-24 (18 → 1).\n\nIntelligence gaps: Collection confidence is low, so absence of reporting should not be interpreted as absence of activity.\n\nCollection confidence: LOW. 157/184 source paths reached 27 failed source paths 21 degraded / 27 failed of 184 configured sources\n\nAll retained source reports, including reports not promoted to the map, remain individually summarized in the intelligence feed and source records."
+    },
+    {
+      "schema_version": "1.0",
+      "site_patch_version": "3.3.5",
+      "reporting_date": "2026-10-24",
+      "generated_at": "2026-10-25T04:55:35.951102Z",
+      "coverage": [
+        "Mali",
+        "Burkina Faso",
+        "Niger"
+      ],
+      "classification": "OPEN SOURCE",
+      "collection_confidence": "MODERATE",
+      "headline_metrics": {
         "events_occurring_on_date": 1,
         "records_held_for_review": 3,
         "multi_source_events": 0,
         "reports_collected_on_date": 18,
-        "reports_published_on_date": 14,
+        "reports_published_on_date": 15,
         "newly_discovered_older_events": 0,
         "events_awaiting_date_verification": 4,
         "distinct_sources_collected": 10
@@ -112,7 +288,7 @@
       "intelligence_gaps": [
         "1 same-day event(s) lack independent multi-source corroboration.",
         "4 newly collected operational/candidate report(s) have unresolved or publication-proxy event dates.",
-        "Collection confidence is low, so absence of reporting should not be interpreted as absence of activity."
+        "Collection confidence is moderate, so absence of reporting should not be interpreted as absence of activity."
       ],
       "actor_counts": {
         "JNIM": 0,
@@ -351,34 +527,33 @@
         "sources_total": 184,
         "sources_success": 157,
         "sources_failed": 27,
-        "sources_degraded": 21,
+        "sources_degraded": null,
         "documents_discovered": 11722,
         "documents_retained": 2,
         "report_target": 100,
         "translations_attempted": 2,
         "translations_success": 2,
         "translation_failures": 0,
-        "collection_confidence": "LOW",
+        "collection_confidence": "MODERATE",
         "collection_confidence_reasons": [
           "157/184 source paths reached",
-          "27 failed source paths",
-          "21 degraded / 27 failed of 184 configured sources"
+          "27 failed source paths"
         ],
         "reports_collected": 18,
-        "reports_published": 14,
+        "reports_published": 15,
         "distinct_sources_collected": 10,
         "language_counts": {
           "fr": 17,
           "ar": 1
         }
       },
-      "sultana_daily_text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nDaily bottom line for 2026-10-24: Reporting dated 2026-10-24 gives the desk 1 incident account to examine in Mali. None has support from a second independent source. The record is provisional; it does not establish the full extent of violence that day.\n\nMali: 14 retained reports. 1. Mali: 54 dead bodies discovered in a camp, EIGs implicated. A massacre of civilian populations was reported in the region of Menaka, Mali. Fifty-four dead bodies were discovered in a camp located about 35 kilometers southeast of the city. The Islamic State in the Greater Sahara (EIGs) is implicated in these killings, according to the first testimonies collected by the Malian army In a statement seen by Seneweb, the General Staff of the Armed Forces indicates that a joint patrol of the Malian Armed Forces (FAMa) and their partners was deployed on the ground after reports of a terrorist attack against civilian populations in the operational sub-sector of Menaka. 2. Massacre of civilians in Tagadayat (Menaka): 54 victims buried on the spot according to the General Staff. The General Staff of the Armed Forces informs the national opinion that on the basis of reports of a terrorist attack on civilian populations in the Menaka operational sub-sector, a joint Fama-Partners patrol has been launched on the ground. During its search, the patrol discovered, about 35 kilometers southeast of the city of Menaka, fifty-four (54) lifeless bodies in a camp in Tagadayat . 3. Menaka: 54 bodies discovered in a camp in Tagadayat. Fifty-four dead bodies were discovered in a camp in Tagadayat, about 35 km southeast of Menaka, following reports of an attack on civilians. The announcement was made by the General Staff of the Armed Forces . A joint patrol of the Malian Armed Forces (FAMa) and their partners was deployed to conduct field research.\n\nBurkina Faso: 0 retained reports. No retained country-specific reports were collected for this desk date.\n\nNiger: 1 retained report. 1. Sahel: Algeria arms Niger and courts Mali to regain control. More than eighteen months after the case of the downed drone, Algeria changes its method in the Sahel. Indeed, on 21 October 2026, in Algiers, Chief of Staff Said Chanegriha signed a protocol of military cooperation with the Nigerien Minister of Defence, Salifou Modi, affirming \"the full willingness of the National People's Army to examine any Nigerien proposal likely to strengthen our military and security cooperation\" According to the statement of the Algerian Ministry of Defense, Modi welcomed the multidimensional coordination between the two armies, but the content of the text was not made public.\n\nActor picture: JNIM 0, IS Sahel 0, State 1.\n\nWhat changed: State: -1 same-day fused event(s) versus 2026-10-23 (2 → 1). Collection volume: -8 retained report(s) versus 2026-10-23 (26 → 18).\n\nIntelligence gaps: 1 same-day event(s) lack independent multi-source corroboration. 4 newly collected operational/candidate report(s) have unresolved or publication-proxy event dates. Collection confidence is low, so absence of reporting should not be interpreted as absence of activity.\n\nCollection confidence: LOW. 157/184 source paths reached 27 failed source paths 21 degraded / 27 failed of 184 configured sources\n\nAll retained source reports, including reports not promoted to the map, remain individually summarized in the intelligence feed and source records."
+      "sultana_daily_text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nDaily bottom line for 2026-10-24: Reporting dated 2026-10-24 gives the desk 1 incident account to examine in Mali. None has support from a second independent source. The record is provisional; it does not establish the full extent of violence that day.\n\nMali: 14 retained reports. 1. Mali: 54 dead bodies discovered in a camp, EIGs implicated. A massacre of civilian populations was reported in the region of Menaka, Mali. Fifty-four dead bodies were discovered in a camp located about 35 kilometers southeast of the city. The Islamic State in the Greater Sahara (EIGs) is implicated in these killings, according to the first testimonies collected by the Malian army In a statement seen by Seneweb, the General Staff of the Armed Forces indicates that a joint patrol of the Malian Armed Forces (FAMa) and their partners was deployed on the ground after reports of a terrorist attack against civilian populations in the operational sub-sector of Menaka. 2. Massacre of civilians in Tagadayat (Menaka): 54 victims buried on the spot according to the General Staff. The General Staff of the Armed Forces informs the national opinion that on the basis of reports of a terrorist attack on civilian populations in the Menaka operational sub-sector, a joint Fama-Partners patrol has been launched on the ground. During its search, the patrol discovered, about 35 kilometers southeast of the city of Menaka, fifty-four (54) lifeless bodies in a camp in Tagadayat . 3. Menaka: 54 bodies discovered in a camp in Tagadayat. Fifty-four dead bodies were discovered in a camp in Tagadayat, about 35 km southeast of Menaka, following reports of an attack on civilians. The announcement was made by the General Staff of the Armed Forces . A joint patrol of the Malian Armed Forces (FAMa) and their partners was deployed to conduct field research.\n\nBurkina Faso: 0 retained reports. No retained country-specific reports were collected for this desk date.\n\nNiger: 1 retained report. 1. Sahel: Algeria arms Niger and courts Mali to regain control. More than eighteen months after the case of the downed drone, Algeria changes its method in the Sahel. Indeed, on 21 October 2026, in Algiers, Chief of Staff Said Chanegriha signed a protocol of military cooperation with the Nigerien Minister of Defence, Salifou Modi, affirming \"the full willingness of the National People's Army to examine any Nigerien proposal likely to strengthen our military and security cooperation\" According to the statement of the Algerian Ministry of Defense, Modi welcomed the multidimensional coordination between the two armies, but the content of the text was not made public.\n\nActor picture: JNIM 0, IS Sahel 0, State 1.\n\nWhat changed: State: -1 same-day fused event(s) versus 2026-10-23 (2 → 1). Collection volume: -8 retained report(s) versus 2026-10-23 (26 → 18).\n\nIntelligence gaps: 1 same-day event(s) lack independent multi-source corroboration. 4 newly collected operational/candidate report(s) have unresolved or publication-proxy event dates. Collection confidence is moderate, so absence of reporting should not be interpreted as absence of activity.\n\nCollection confidence: MODERATE. 157/184 source paths reached 27 failed source paths\n\nAll retained source reports, including reports not promoted to the map, remain individually summarized in the intelligence feed and source records."
     },
     {
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-23",
-      "generated_at": "2026-10-24T22:37:14.040829Z",
+      "generated_at": "2026-10-25T04:55:37.082291Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -878,7 +1053,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-22",
-      "generated_at": "2026-10-24T22:37:13.928622Z",
+      "generated_at": "2026-10-25T04:55:36.264589Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -1518,7 +1693,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-21",
-      "generated_at": "2026-10-24T22:37:14.632530Z",
+      "generated_at": "2026-10-25T04:55:37.004262Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -2118,7 +2293,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-20",
-      "generated_at": "2026-10-24T22:37:14.151825Z",
+      "generated_at": "2026-10-25T04:55:36.688553Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -2930,7 +3105,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-19",
-      "generated_at": "2026-10-24T22:37:13.131170Z",
+      "generated_at": "2026-10-25T04:55:37.433371Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -3501,7 +3676,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-18",
-      "generated_at": "2026-10-24T22:37:14.532231Z",
+      "generated_at": "2026-10-25T04:55:35.497033Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -3795,7 +3970,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-17",
-      "generated_at": "2026-10-24T22:37:14.525957Z",
+      "generated_at": "2026-10-25T04:55:36.325681Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -4211,7 +4386,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-16",
-      "generated_at": "2026-10-24T22:37:14.299110Z",
+      "generated_at": "2026-10-25T04:55:37.189427Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -4477,7 +4652,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-15",
-      "generated_at": "2026-10-24T22:37:14.078075Z",
+      "generated_at": "2026-10-25T04:55:36.774723Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -4921,7 +5096,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-14",
-      "generated_at": "2026-10-24T22:37:13.638059Z",
+      "generated_at": "2026-10-25T04:55:36.128568Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -5398,7 +5573,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-13",
-      "generated_at": "2026-10-24T22:37:13.297230Z",
+      "generated_at": "2026-10-25T04:55:36.447175Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -5732,7 +5907,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-12",
-      "generated_at": "2026-10-24T22:37:14.415112Z",
+      "generated_at": "2026-10-25T04:55:36.905107Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -6110,7 +6285,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-11",
-      "generated_at": "2026-10-24T22:37:14.446124Z",
+      "generated_at": "2026-10-25T04:55:36.310368Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -6447,7 +6622,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-10",
-      "generated_at": "2026-10-24T22:37:14.811174Z",
+      "generated_at": "2026-10-25T04:55:37.066214Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -6844,7 +7019,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-09",
-      "generated_at": "2026-10-24T22:37:13.737499Z",
+      "generated_at": "2026-10-25T04:55:37.456633Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -7329,7 +7504,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-08",
-      "generated_at": "2026-10-24T22:37:13.478719Z",
+      "generated_at": "2026-10-25T04:55:36.424039Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -7868,7 +8043,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-07",
-      "generated_at": "2026-10-24T22:37:13.361055Z",
+      "generated_at": "2026-10-25T04:55:35.368515Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -8407,7 +8582,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-06",
-      "generated_at": "2026-10-24T22:37:13.670002Z",
+      "generated_at": "2026-10-25T04:55:36.712970Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -9315,7 +9490,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-05",
-      "generated_at": "2026-10-24T22:37:13.586267Z",
+      "generated_at": "2026-10-25T04:55:36.080769Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -9973,7 +10148,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-04",
-      "generated_at": "2026-10-24T22:37:14.015595Z",
+      "generated_at": "2026-10-25T04:55:37.151328Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -10582,7 +10757,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-03",
-      "generated_at": "2026-10-24T22:37:13.433269Z",
+      "generated_at": "2026-10-25T04:55:36.696580Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -11069,7 +11244,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-02",
-      "generated_at": "2026-10-24T22:37:13.848394Z",
+      "generated_at": "2026-10-25T04:55:37.540921Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -11309,7 +11484,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-01",
-      "generated_at": "2026-10-24T22:37:13.394124Z",
+      "generated_at": "2026-10-25T04:55:36.828612Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -11857,7 +12032,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-30",
-      "generated_at": "2026-10-24T22:37:13.805100Z",
+      "generated_at": "2026-10-25T04:55:37.601884Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -13001,7 +13176,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-29",
-      "generated_at": "2026-10-24T22:37:13.149691Z",
+      "generated_at": "2026-10-25T04:55:36.507457Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -13326,7 +13501,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-28",
-      "generated_at": "2026-10-24T22:37:14.607672Z",
+      "generated_at": "2026-10-25T04:55:35.729144Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -13805,7 +13980,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-27",
-      "generated_at": "2026-10-24T22:37:13.254602Z",
+      "generated_at": "2026-10-25T04:55:36.088632Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -14158,7 +14333,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-26",
-      "generated_at": "2026-10-24T22:37:14.700673Z",
+      "generated_at": "2026-10-25T04:55:37.127618Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -14406,7 +14581,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-25",
-      "generated_at": "2026-10-24T22:37:14.268407Z",
+      "generated_at": "2026-10-25T04:55:37.631583Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -14758,7 +14933,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-24",
-      "generated_at": "2026-10-24T22:37:14.127098Z",
+      "generated_at": "2026-10-25T04:55:36.205655Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -15120,7 +15295,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-23",
-      "generated_at": "2026-10-24T22:37:13.725024Z",
+      "generated_at": "2026-10-25T04:55:35.513244Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -15426,964 +15601,6 @@
         }
       },
       "sultana_daily_text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nDaily bottom line for 2026-09-23: Reporting collected on 2026-09-23 does not yet support a clear account of a new incident in Mali, Burkina Faso, or Niger. The desk received 15 reports from 11 sources, but the automated incident record needs further review. This is not evidence of calm on the ground.\n\nMali: 9 retained reports. 1. Nioro: a colourful celebration of the National Day. Nioro, 23 September (AMAP) The Nioro region did not remain on the sidelines of the celebration of the 66th anniversary of Mali's accession to independence, AMAP noted. 2. Mali – United States: Why Ukraine's support for the Fla upsets the Trump administration. Ukrainian drone operators are actively supporting Fla separatists and their Jnim allies against Assimi Goïta. An embarrassing revelation for Washington, theoretically close to Kiev but eager to reconnect with Bamako . Allies in Europe but enemies in the Sahel? 3. Mali: Arrival of a historic convoy of 1,289 tankers in Bamako. A historic convoy of 1,289 tankers arrived in the capital on Wednesday, September 23, 2026, around 8 a.m. Escorted at night by the valiant Malian Armed Forces (FAMa), this record-breaking convoy arrived the day after Independence Day . In the wake of the FAMa, Customs, the DGCC and the National Police remain fully mobilized to take over and ensure a continuous supply in order to meet the needs of the populations and economic actors.\n\nBurkina Faso: 4 retained reports. 1. In Burkina Faso, Sky Dragon 30 missiles point to China’s military export inroads - South China Morning Post. In Burkina Faso, Sky Dragon 30 missiles point to China’s military export inroads South China Morning Post 2. Burkina Faso says leader discussed possible military cooperation with Russian delegation - Reuters. Burkina Faso says leader discussed possible military cooperation with Russian delegation Reuters 3. Burkina Faso Ratings Lowered To ‘CCC+/C’ And Put On CreditWatch Developing Following Military Coup - S&P Global. Burkina Faso Ratings Lowered To ‘CCC+/C’ And Put On CreditWatch Developing Following Military Coup S&P Global\n\nNiger: 2 retained reports. 1. After foiling a military rebellion, Algeria sends fighter jets to support the Niger-East Army. After foiling a military rebellion, Algeria sends fighter jets to support the eastern Niger Army for news 2. Attack on Niamey Airport: Algeria condemns this terrorist act and reaffirms its solidarity with Niger - Nigerien News Agency. Attack on Niamey Airport: Algeria condemns this terrorist act and reaffirms its solidarity with Niger Agence Nigerienne de Presse\n\nActor picture: no same-day fused candidate events.\n\nWhat changed: State: -1 same-day fused event(s) versus 2026-09-22 (1 → 0). Collection volume: -67 retained report(s) versus 2026-09-22 (82 → 15).\n\nIntelligence gaps: 1 newly collected operational/candidate report(s) have unresolved or publication-proxy event dates. Collection confidence is low, so absence of reporting should not be interpreted as absence of activity.\n\nCollection confidence: LOW. no completed collection run recorded for this date\n\nAll retained source reports, including reports not promoted to the map, remain individually summarized in the intelligence feed and source records."
-    },
-    {
-      "schema_version": "1.0",
-      "site_patch_version": "3.3.5",
-      "reporting_date": "2026-09-22",
-      "generated_at": "2026-10-24T22:37:13.972348Z",
-      "coverage": [
-        "Mali",
-        "Burkina Faso",
-        "Niger"
-      ],
-      "classification": "OPEN SOURCE",
-      "collection_confidence": "LOW",
-      "headline_metrics": {
-        "events_occurring_on_date": 1,
-        "records_held_for_review": 0,
-        "multi_source_events": 0,
-        "reports_collected_on_date": 82,
-        "reports_published_on_date": 14,
-        "newly_discovered_older_events": 0,
-        "events_awaiting_date_verification": 2,
-        "distinct_sources_collected": 41
-      },
-      "executive_assessment": "Reporting dated 2026-09-22 gives the desk 1 incident account to examine in Mali. None has support from a second independent source. The record is provisional; it does not establish the full extent of violence that day.",
-      "briefing_sections": [
-        {
-          "heading": "Assessment",
-          "text": "Reporting dated 2026-09-22 gives the desk 1 incident account to examine in Mali. None has support from a second independent source. The record is provisional; it does not establish the full extent of violence that day."
-        },
-        {
-          "heading": "Mali",
-          "text": "52 retained reports were collected for Mali. 1 fused candidate event currently carry this reporting date. Tenenkou: National Day in Cohesion: Ténenkou, September 22 (AMAP)– The 66th anniversary of Mali's independence was celebrated on Tuesday in Ténenkou, in communion, culminating in the final of the Social Cohesion Cup, organized by the FAMOC II project through… Mali: Assimi Goïta calls for unity around the Republic and support for FAMa: Bamako, September 22 (AMAP)– The President of the Transition, Lieutenant General Assimi Goïta, on Tuesday called for \"the sacred union around the Republic\" and support for the Malian Armed Forces (FAMa), on the occasion of the… In Macina and Bamako, displaced people are asking for more assistance.: In Macina, in the Ségou region, displaced people from the village of Souleye, who fled an attack in early September, are asking for more assistance. Arriving with very few possessions, some say they lost their identity… 49 additional Mali reports are summarized individually in the source records."
-        },
-        {
-          "heading": "Burkina Faso",
-          "text": "13 retained reports were collected for Burkina Faso. 0 fused candidate events currently carry this reporting date. Ouagadougou: terrorist attack simulation exercise this Saturday - wakatsera.com: Ouagadougou: terrorist attack simulation exercise this Saturday wakatsera.com Working meeting in Ouagadougou on Mali-Burkina Faso military cooperation - amap.ml: Working meeting in Ouagadougou on Mali-Burkina Faso military cooperation amap.ml Massacre in Burkina Faso left 600 dead, double previous estimates, according to French security assessment…: Massacre in Burkina Faso left 600 dead, double previous estimates, according to French security assessment CNN 10 additional Burkina Faso reports are summarized individually in the source records."
-        },
-        {
-          "heading": "Niger",
-          "text": "16 retained reports were collected for Niger. 0 fused candidate events currently carry this reporting date. Niger Mutiny Highlights Russia’s Regime Protection Role: The sound of gunfire and explosions began about 1 a.m. on August 29, setting off a night of intense fighting at Air Base 101, a military installation at Diori Hamani International Airport in Niger’s capital. The third attack… Guarding and security: the Nigerienne des Eaux launches a call for tenders for the recruitment of 536…: Republic OF NIGER ------------- Ministry of Hydraulics, Environment and Sanitation - This Invitation to Tender follows the Provisional Procurement Plan (PPM) published in the newspaper Le Sahel Dimanche N° 2185 of 20 February… 33 months unpaid rent threatens war against oil bunkering: By Jimitota Onoyume, Assistant News Editor The war against illegal oil bunkering in the Niger Delta may be facing an unlikely, yet potent, enemy from a massive backlog of unpaid rent for House boats used to combat illegal… 13 additional Niger reports are summarized individually in the source records."
-        },
-        {
-          "heading": "Reported incidents",
-          "text": "Bamada reports ‘FAMa: Operation Dougoukoloko continues with new strikes in Sévaré, Dioura and Tessalit’ in Sévaré, Mali. This account still needs independent confirmation."
-        },
-        {
-          "heading": "What remains unclear",
-          "text": "The date of 2 operational reports still needs checking. Collection or source checks are incomplete for this date, so relevant reporting may still be missing."
-        }
-      ],
-      "key_judgments": [
-        "State accounts for the largest share of same-day fused event activity (1 event(s)).",
-        "Mali contains the largest same-day event count (1 event(s)).",
-        "1 same-day event(s) remain single-source and should be treated as provisional.",
-        "2 collected operational/candidate report(s) still use an unresolved or proxy event date and require temporal verification."
-      ],
-      "significant_events": [
-        {
-          "id": "9da763384f09122cba23cdfb57a898857985a438",
-          "title": "FAMa: Operation Dougoukoloko continues with new strikes in Sévaré, Dioura and Tessalit",
-          "summary": "The FAMa continue the Dougoukoloko operation in Sévaré, Dioura and Tessalit. The General Staff of the Armed Forces reports new surveillance actions and targeted strikes. Sévaré, Dioura, Tessalit: the Malian Armed Forces maintain pressure on armed terrorist groups Bamako, 22 September 2026 – The Malian Armed Forces (FAMa) continue their operations to monitor, control and secure the territory as part of Operation Dougoukoloko.",
-          "actor": "State",
-          "event_type": "security operation",
-          "country": "Mali",
-          "city": "Sévaré",
-          "event_date": "2026-09-22",
-          "event_date_confidence": "explicit-text",
-          "publication_time": null,
-          "collection_time": "2026-09-22T14:29:27.016064Z",
-          "verification_date": null,
-          "verification_basis": "not independently corroborated",
-          "last_evidence_update": "2026-09-22T14:29:27.016064Z",
-          "confidence": "moderate",
-          "corroboration": "single-source",
-          "significance": "MAJOR",
-          "source_count": 1,
-          "independent_source_count": 1,
-          "sources": [
-            "Bamada"
-          ],
-          "independent_source_domains": [
-            "bamada.net"
-          ],
-          "report_urls": [
-            "https://bamada.net/fama-loperation-dougoukoloko-se-poursuit-avec-de-nouvelles-frappes-a-sevare-dioura-et-tessalit"
-          ],
-          "perpetrator": "State",
-          "target": null,
-          "claimant": null,
-          "supporting_force": null
-        }
-      ],
-      "what_changed_since_yesterday": [
-        "State: -2 same-day fused event(s) versus 2026-09-21 (3 → 1).",
-        "Collection volume: +59 retained report(s) versus 2026-09-21 (23 → 82)."
-      ],
-      "emerging_patterns": [
-        "JNIM 7-day activity is lower than the preceding 7-day window (1 → 0).",
-        "State 7-day activity is higher than the preceding 7-day window (0 → 7)."
-      ],
-      "intelligence_gaps": [
-        "1 same-day event(s) lack independent multi-source corroboration.",
-        "2 newly collected operational/candidate report(s) have unresolved or publication-proxy event dates.",
-        "Collection confidence is low, so absence of reporting should not be interpreted as absence of activity."
-      ],
-      "actor_counts": {
-        "JNIM": 0,
-        "IS Sahel": 0,
-        "State": 1
-      },
-      "country_counts": {
-        "Mali": 1,
-        "Burkina Faso": 0,
-        "Niger": 0
-      },
-      "country_reporting_counts": {
-        "Mali": 52,
-        "Burkina Faso": 13,
-        "Niger": 16
-      },
-      "actor_profiles": {
-        "JNIM": {
-          "events": 0,
-          "delta_vs_previous_day": 0,
-          "current_7d": 0,
-          "previous_7d": 1,
-          "countries": [],
-          "event_types": []
-        },
-        "IS Sahel": {
-          "events": 0,
-          "delta_vs_previous_day": 0,
-          "current_7d": 0,
-          "previous_7d": 0,
-          "countries": [],
-          "event_types": []
-        },
-        "State": {
-          "events": 1,
-          "delta_vs_previous_day": -2,
-          "current_7d": 7,
-          "previous_7d": 0,
-          "countries": [
-            [
-              "Mali",
-              1
-            ]
-          ],
-          "event_types": [
-            [
-              "security operation",
-              1
-            ]
-          ]
-        }
-      },
-      "country_profiles": {
-        "Mali": {
-          "events": 1,
-          "reports_collected": 52,
-          "actor_counts": {
-            "JNIM": 0,
-            "IS Sahel": 0,
-            "State": 1
-          },
-          "delta_events_vs_previous_day": -2,
-          "top_event_types": [
-            [
-              "security operation",
-              1
-            ]
-          ]
-        },
-        "Burkina Faso": {
-          "events": 0,
-          "reports_collected": 13,
-          "actor_counts": {
-            "JNIM": 0,
-            "IS Sahel": 0,
-            "State": 0
-          },
-          "delta_events_vs_previous_day": 0,
-          "top_event_types": []
-        },
-        "Niger": {
-          "events": 0,
-          "reports_collected": 16,
-          "actor_counts": {
-            "JNIM": 0,
-            "IS Sahel": 0,
-            "State": 0
-          },
-          "delta_events_vs_previous_day": 0,
-          "top_event_types": []
-        }
-      },
-      "country_article_summaries": {
-        "Mali": [
-          {
-            "id": "8f9108da279040aeb8508886e0ec777fb8c10757",
-            "source": "AMAP (Agence Malienne de Presse et de Publicité)",
-            "title": "Tenenkou: National Day in Cohesion",
-            "summary": "Ténenkou, September 22 (AMAP)– The 66th anniversary of Mali's independence was celebrated on Tuesday in Ténenkou, in communion, culminating in the final of the Social Cohesion Cup, organized by the FAMOC II project through Active Citizen, noted AMAP The ceremony took place at the Afourou Gourdo Djigandé stadium, in the presence of the second deputy to the prefect, the Chief Commissioner of Police Ousmane Diamouténé, the second deputy to the mayor, Soumaïla B.",
-            "url": "https://amap.ml/2026/09/23/tenenkou-la-fete-nationale-dans-la-cohesion/",
-            "candidate_event": false,
-            "event_date": "2026-09-22"
-          },
-          {
-            "id": "7621a4d53304fee76dece69881c7cd4dcbd0305f",
-            "source": "AMAP (Agence Malienne de Presse et de Publicité)",
-            "title": "Mali: Assimi Goïta calls for unity around the Republic and support for FAMa",
-            "summary": "Bamako, September 22 (AMAP)– The President of the Transition, Lieutenant General Assimi Goïta, on Tuesday called for \"the sacred union around the Republic\" and support for the Malian Armed Forces (FAMa), on the occasion of the celebration of the 66th anniversary of Mali's independence, to the Military Engineer, noted AMAP In his message, the Head of State called on Malians to maintain their determination in the face of the challenges facing the country, believing that these include compromising social cohesion, living together and peace \"Mali has never shied away from adversity, and we will face all these…",
-            "url": "https://amap.ml/2026/09/22/mali-assimi-goita-appelle-a-lunion-autour-de-la-republique-et-au-soutien-aux-fama/",
-            "candidate_event": false,
-            "event_date": "2026-09-22"
-          },
-          {
-            "id": "f742c12af4a38bf4f634e24587d1916d5c55205d",
-            "source": "Studio Tamani",
-            "title": "In Macina and Bamako, displaced people are asking for more assistance.",
-            "summary": "In Macina, in the Ségou region, displaced people from the village of Souleye, who fled an attack in early September, are asking for more assistance. Arriving with very few possessions, some say they lost their identity documents in their flight. On the outskirts of Bamako, other displaced people are also facing food difficulties, housing costs and back-to-school expenses .",
-            "url": "https://www.studiotamani.org/208049-a-macina-et-bamako-des-deplaces-demandent-davantage-dassistance",
-            "candidate_event": false,
-            "event_date": "2026-09-22"
-          },
-          {
-            "id": "48ead802b5c0fa185e2593a1b72d5b6b490acba9",
-            "source": "AMAP (Agence Malienne de Presse et de Publicité)",
-            "title": "Tominian: Independence Day marked by the rise of colours",
-            "summary": "Tominian, September 22 (AMAP)– The ceremony of rising colors marked, Tuesday, in Tominian, the celebration of the 66th anniversary of Mali's accession to national and international sovereignty. It was chaired by the prefect of the circle, Kalifala Coulibaly, noted AMAP .",
-            "url": "https://amap.ml/2026/09/22/tominian-la-fete-de-lindependance-marquee-par-la-montee-des-couleurs/",
-            "candidate_event": false,
-            "event_date": "2026-09-22"
-          },
-          {
-            "id": "99f7483b7c768cb9c7383e2cff0f2d8513ac8d64",
-            "source": "Bamada",
-            "title": "FAMa: Operation Dougoukoloko continues with new strikes in Sévaré, Dioura and Tessalit",
-            "summary": "The FAMa continue the Dougoukoloko operation in Sévaré, Dioura and Tessalit. The General Staff of the Armed Forces reports new surveillance actions and targeted strikes. Sévaré, Dioura, Tessalit: the Malian Armed Forces maintain pressure on armed terrorist groups Bamako, 22 September 2026 – The Malian Armed Forces (FAMa) continue their operations to monitor, control and secure the territory as part of Operation Dougoukoloko.",
-            "url": "https://bamada.net/fama-loperation-dougoukoloko-se-poursuit-avec-de-nouvelles-frappes-a-sevare-dioura-et-tessalit",
-            "candidate_event": true,
-            "event_date": "2026-09-22"
-          },
-          {
-            "id": "4a8a57c01e891c992c3779b1a5e587b45b540820",
-            "source": "AMAP (Agence Malienne de Presse et de Publicité)",
-            "title": "Bafoulabé: September 22nd under the sign of resilience",
-            "summary": "Bafoulabé, September 22 (AMAP)– The authorities and the people of the Bafoulabé circle reaffirmed, on Tuesday, their support for the Defence and Security Forces (FDS) and their commitment to the reforms of the Transition, on the occasion of the celebration of the 66th anniversary of Mali's independence, noted AMAP The ceremony, presided over by the prefect of the circle, Siaka Souleymane Sanogo, took place at the Mali-Sadio roundabout, in the presence of administrative, political, military and customary authorities.",
-            "url": "https://amap.ml/2026/09/22/bafoulabe-le-22-septembre-place-sous-le-signe-de-la-resilience/",
-            "candidate_event": false,
-            "event_date": "2026-09-22"
-          },
-          {
-            "id": "76c4d486aab822cb5ddc4c653869194df8fb6176",
-            "source": "Malijet",
-            "title": "Counter-terrorism: new targeted FAMa strikes in Sévaré, Dioura and Tessalit",
-            "summary": "As part of Operation Dougoukoloko, the Malian Armed Forces (FAMa) have stepped up targeted strikes in recent days. Targeting logistical caches and terrorist elements, these actions illustrate the ongoing pressure on armed groups across the country. The Malian army leaves no respite to the armed terrorist groups .",
-            "url": "https://malijet.com/actualte_dans_les_regions_du_mali/311972-lutte-antiterroriste-nouvelles-frappes-ciblees-des-fama-a.html",
-            "candidate_event": true,
-            "event_date": "2026-09-21"
-          },
-          {
-            "id": "7d91181a59cfd756d5bace6b5bae978da58afe24",
-            "source": "AMAP (Agence Malienne de Presse et de Publicité)",
-            "title": "66th anniversary of independence: Governor of Kayes calls for commitment to national construction",
-            "summary": "Kayes, 22 September (AMAP)– The governor of the Kayes Region, Brigadier General Moussa Soumaré, on Tuesday called on the region's sons and daughters to make their daily commitment a contribution to national construction.",
-            "url": "https://amap.ml/2026/09/22/66e-anniversaire-de-lindependance-le-gouverneur-de-kayes-appelle-a-lengagement-pour-la-construction-nationale/",
-            "candidate_event": false,
-            "event_date": "2026-09-22"
-          },
-          {
-            "id": "162a32416ff11a04186c44734393c11f51fae441",
-            "source": "AMAP (Agence Malienne de Presse et de Publicité)",
-            "title": "66th anniversary of independence in Koutiala:Governor calls on populations to \"healthy collaboration\" with FAMa",
-            "summary": "Koutiala, September 22 (AMAP)– The Koutiala region celebrates this Tuesday, September 22, 2026, the 66th anniversary of Mali's independence. Chaired by the governor, Brigadier General Harouna Samaké, at the Zanga Coulibaly roundabout, the ceremony was marked by the laying of a wreath in memory of the pioneers of independence, followed by a military and civilian parade, noted AMAP .",
-            "url": "https://amap.ml/2026/09/22/66e-anniversaire-de-lindependance-a-koutiala-le-gouverneur-appelle-les-populations-a-une-saine-collaboration-avec-fama/",
-            "candidate_event": false,
-            "event_date": "2026-09-22"
-          },
-          {
-            "id": "388bc46ff2587fe5c2d64c094dad30d8708d7ed4",
-            "source": "France 24 Afrique (FR)",
-            "title": "Mali: 150 dead after several JNIM attacks",
-            "summary": "Mali: 150 dead after multiple JNIM attacks To view this YouTube content, it is necessary to allow audience measurement and advertising cookies. A browser extension appears to be blocking the video player from loading. To be able to watch this content, you must disable or uninstall it .",
-            "url": "https://www.france24.com/fr/%C3%A9missions/le-rendez-vous-afrique/20260922-mali-150-morts-apr%C3%A8s-plusieurs-attaques-du-jnim",
-            "candidate_event": true,
-            "event_date": "2026-09-20"
-          },
-          {
-            "id": "1c13e1523438b1525e0c3410e2d135d1ecd7ec88",
-            "source": "La Croix (Afrique)",
-            "title": "In central Mali, jihadists inflict heavy losses on the army: \"A drama of unprecedented magnitude\"",
-            "summary": "As Mali's rainy season draws to a close, attacks by the Islam and Muslim Support Group (Jnim, Arabic acronym) are on the rise in the centre of the country. Trap on a convoy of Russian mercenaries Sunday, September 20, takeover of a military post the day before... The Al-Qaida-affiliated Islamist group, very active in the Sahel, has been particularly offensive in the epicenter of its activity for ten years and which concentrates a high population density.",
-            "url": "https://www.la-croix.com/international/dans-le-centre-du-mali-les-djihadistes-infligent-de-lourdes-pertes-a-l-armee-un-drame-dune-ampleur-inedite-20260921",
-            "candidate_event": false,
-            "event_date": "2026-09-20"
-          },
-          {
-            "id": "a35af30478e9383f289da3fc76e697ab750f8840",
-            "source": "Courrier International",
-            "title": "Mali: after the jihadist attack in Dioura, the state “refuses to count its dead” - International Courier",
-            "summary": "Mali: after the jihadist attack in Dioura, the State \"refuses to count its dead\"",
-            "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQcVZ3RlZHMjZaVDBta09kYjdMSnZGeHBMRnY1cklyWUNmeXFlNTd0czFpVm9URGx3QnlJd3NhR0tIRV9YeTJQeDMzRHY2UGdPLWh0WnhBR0k2b0VaWjYtMFAwRkZZdG9jSGNfSGJtbjBjZjFob3pQUE1zRGVqblUxZW9FODFtVGVmZ05ydlZBajV3Ry1zaVZmSk80aC1yM056VURKeTZQRlF4Sy11dkpNMTFhR0pqRmhkb014enhzb0EySWVjTGI0emd1Tjd2YmFtYzk4UUJn?oc=5",
-            "candidate_event": false,
-            "event_date": "2026-09-21"
-          },
-          {
-            "id": "835f17649cff06ff6ff8af2c78c352a494ada593",
-            "source": "Dakaractu",
-            "title": "Mali: the toll of the attack by Jnim jihadists in Dioura rises to a hundred soldiers killed - DAKARACTU.COM",
-            "summary": "Mali: the death toll of the attack by Jnim jihadists in Dioura rises to a hundred soldiers killed DAKARACTU.COM",
-            "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPRkF4Tjhpb1U0N2RmQVdoQ19nb0lVUEFkOFNvZnFMOXZVZ2tpXzd1dWtSRDJWbjZwM0lkQ3VuNktDUUdCNnBGaG9iaVZMaGR5aVVERXJVaVZfczRMaTE4ODY2bGx1bUkzRk5qN2NjNDFBZmxja0t2NU5KMjhzWHBYYXhUaW03aE1tcFJSNzJlZDRXU3VpN1lWOWF2eW1iSUNEZlczaGUtSHQyb2xrcTZ5a01jWDk2dlAtbExvWHV2RGtCenJkbHFSWkJJYlg5XzhFTUJTdC00Sk55cm5TQnVj?oc=5",
-            "candidate_event": false,
-            "event_date": "2026-09-19"
-          },
-          {
-            "id": "71e1d60002628b3ed53844f18604338ec2196ee0",
-            "source": "Studio Tamani",
-            "title": "Mopti: the explosion of a metal tank killed 4 people - Studio Tamani",
-            "summary": "Mopti: explosion of a metal tank kills 4 Studio Tamani",
-            "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNOWJhcl9zRmZoTmpiejBPdTZSVDVTNG5RTEJxdEE1LWx0MGJhNGhOQnJaSl90eWNjWXhWN2I4ZHhxM2oweWl0SHhUM2F1MFBaSi1rbUpSbmlmbmRCZEx6R0RibzZuYkMwUzFiV3BZUkFhVkUxOVFWSUdkLU42dXdDb3BwWUhqdWV5U0taOGlTMA?oc=5",
-            "candidate_event": false,
-            "event_date": "2026-09-14"
-          },
-          {
-            "id": "421e0d0745eb6c1f0979341d6b12df481146b807",
-            "source": "Sahara Medias (صحراء ميديا)",
-            "title": "An attack on the Dura camp in central Mali and the killing of dozens of soldiers - the desert of Medea",
-            "summary": "An attack on the Dura camp in central Mali and the killing of dozens of soldiers in the desert of Medea",
-            "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5rOU5QQ0o1Um1iQUZmWUJZQUZoelE1Sko1VXRkMmpseDRfYk1xYXh6d0xmeFhXYmlIRFhuWElqd09FS2dNZkNB?oc=5",
-            "candidate_event": false,
-            "event_date": "2026-09-11"
-          },
-          {
-            "id": "3d8a91cc4b01d9ce2d381778717a6ba9608e6d9e",
-            "source": "Libération (CheckNews/Afrique)",
-            "title": "In Mali, the Dioura garrison again submerged by the Jnim jihadists - Liberation",
-            "summary": "In Mali, the Dioura garrison is again overwhelmed by the jihadists of Jnim Libération",
-            "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPalNuVXhESUJaeUVCMC11Q3BnREV0dlVuWkhQdHdZZXNhejhSaFVFQ3ZGRGpjZmVNZFFWY3J4SS15OERUN3V3bElfci1PMElROEYzaU00bG1oVXJxMzZQY3pjSS16U2lITWVjWjNGWmdRNC1nSDh2NjJpR19vc290bHE5cGRRdWpwX2NRd1N0UzVUZEUyOWtqQlZpbkZ2NTNTbjhTUTJzYWwxQlpNSTdEQWxLOUdlNmpnWThTOTZuZjNvN0lJRC15ZU04NE1xZ3pYVTFMS2tkbkFZVGNNdURKRlE0SVJjcFRiMzdUUVE3LWx3MlU?oc=5",
-            "candidate_event": false,
-            "event_date": "2026-09-11"
-          },
-          {
-            "id": "df1a36e093e9598bbe4386a95e212b31e0b6cf1b",
-            "source": "Timbuktu Institute (African Center for Peace Studies)",
-            "title": "Artificial intelligence, JNIM's new propaganda lever in Mali? - Timbuktu Institute",
-            "summary": "Artificial intelligence, JNIM's new propaganda lever in Mali? Timbuktu Institute",
-            "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPWGtKSWQ1Y1BkclphREFzTi0tZ1F2bHhKcWJjMHAxVkRSbXpfbkM3MHNzNXAzMDdtY2xob1F0SkZhcVhkeU5jYmpkS0JqSXQ4UTh1a09EbW9kbk8wQUJ2QmFub3E0V1RuS1lKc2hCMVRfbFdiYnNMZG16RkFYQjJvYi16QVBJd01fQTR4SGo1RTUwRHJzWGhHNFJfQXVNV3YzNFRZMkdBenFZeEtldHpTZDlpcUxhM0xtYVp0ZUxzVDluM0UxZmFEZG5walA0TVdoSmg3VjI3RUxOMFE?oc=5",
-            "candidate_event": false,
-            "event_date": "2026-09-11"
-          },
-          {
-            "id": "37e1b7cadf1b2eea9e3bc76bf1dd953816e68e4d",
-            "source": "Sahara Medias (صحراء ميديا)",
-            "title": "Including Russian soldiers.. 11 people were killed in an ambush in central Mali - the desert of Medea",
-            "summary": "Among them were Russian soldiers.. 11 people were killed in an ambush in central Mali, the desert of Medea",
-            "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE96VUZWWlRjaTJjTzdSSklXUGU5Z2lhT0Zac211Y2tUdk9tX014TDRVeG16cTl1T2p6djFZTjZqT1BsLWdsdXBN?oc=5",
-            "candidate_event": false,
-            "event_date": "2026-09-08"
-          },
-          {
-            "id": "801f5ff8e6bc05f06d3905d3058fdd0300afef56",
-            "source": "Timbuktu Institute (African Center for Peace Studies)",
-            "title": "Mutiny of 29 August in Niger : a consolidation of Russian security dependence? - Timbuktu Institute",
-            "summary": "Mutiny of 29 August in Niger : a consolidation of Russian security dependence? Timbuktu Institute",
-            "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxONWVQQkt0dFNXTnZCV3ZlOFdwSk9FcERhcUlvV1p1d1lrdndFY1lSQW8xbzJ4V1AzQkxDTHNOWkpTaDVtZTRIUjY0OEtpSFA3aW1pMEVUUlBiUnZOcTd2MFp3X29qZTJma2FrOE1JYUk1YkpQRDNSYVFTZlhFSHNFYmIxT1RmZ09ZM1BfUFRuWFZNMWJ4WUt4RzQ2NkdXdElvZVQwZ3JxcUFrSVVSajRpUjVkWUk3Rl9Oc1lqM3dzVkpINDh2M18wNGY4OGNxZFY3dkx5TlRR?oc=5",
-            "candidate_event": false,
-            "event_date": "2026-08-29"
-          },
-          {
-            "id": "4871b74349648cc4b1d36c620e8dde8ded2d4610",
-            "source": "Bamada",
-            "title": "LOCALITY OF KÉ-MACINA IN SÉGOU: AN EXPLOSION OF EEI LEAVES A DOZEN VICTIMS IN BERTHA - Bamada.net",
-            "summary": "TOWN OF KÉ-MACINA IN SÉGOU: AN EXPLOSION AT BERTHA Bamada.net KILLED ABOUT A DOZEN PEOPLE",
-            "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOVURkYzJOWTItR2tHanNFRUZQS21tanNLWHltc2xNenE2Ykp0Sk1veV9zT3l4bl9ncHYtVkxKMlNJYWVjbEYwalZDc0dhdXBoMmlXemFZa0R6LVUwaGJoc016UFRfM2NoMnNlc1gtaXc2Wm9oY1BRMkdoTzdmcTZrNjZVc2FEZGh1SVN4QmhrQjBNdnNrVGFtQzJKQ3NPemlfMmQzSV81UDY?oc=5",
-            "candidate_event": false,
-            "event_date": "2026-08-09"
-          },
-          {
-            "id": "be776a663b5d8207ae9741772da50ce964991dec",
-            "source": "France 24 Africa (EN)",
-            "title": "Mounting violence in Mali poses threat to military-led government - France 24",
-            "summary": "Mounting violence in Mali poses threat to military-led government France 24",
-            "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNdW85d3ZrLUw1aVNqZVU0bFZtR2hWZUo0b1h0eHlMVWkxUWhhaDc3WTdSblY1eWh4dzl2MWFlM1p2REVLeEdtdkdGM0dhRE1vSnBHdnQ3Sk1fMHVtRklkV1R1RVlCNjlsSTBaTjhSX3M2clJyb21pTDVkM2JSUEdldnhsWURFSkd4ZTVfbkxUVEJieUQ4TENRdW9B?oc=5",
-            "candidate_event": false,
-            "event_date": "2026-07-22"
-          },
-          {
-            "id": "c2d7792a97c02fb3c1fcbea67eb59b377db5fd30",
-            "source": "The Washington Post (Africa)",
-            "title": "Trump administration weighing military options in Mali, officials say - The Washington Post",
-            "summary": "Trump administration weighing military options in Mali, officials say The Washington Post",
-            "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNVUJVUWJPbm4xb0s0Y0pLUTdRM1VINjFCNmUzVEI2bS12UjdkV1VEamgzdE9nclZBZ3AybFFaSndHWlVuVkdFRlRhTGZ1WmpiMUJLQmJXTUw0M1NSODhGX2JxM2dVcXM2T0VGRF9yVzZVbkJfUlpKMTVuSjhvUzB1SHN4dUZ3VVVyNkZjOEdmWGVqS09VZkRuZllZaUhVVVFpT0Y2TlJvdzJ3TzAweHFMbVcwYlFvTlVjQmYxbW5TWk8yQQ?oc=5",
-            "candidate_event": false,
-            "event_date": "2026-07-22"
-          },
-          {
-            "id": "24dfee3f3c1e8d2335bf58690e81cfa39a8ed8c2",
-            "source": "Channels Television (Nigeria)",
-            "title": "Rebels Attack Mali Army Convoy - Channels Television",
-            "summary": "Rebels Attack Mali Army Convoy Channels Television",
-            "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5WaUZXWEtMTmMxS2hVYXZvSFZvdkQ4aDZjYnRDbTYxbGpaZ2RMMm9mTjU1aElnQ3JWSFN1OGtQVTBoV2ZQNVI5SmhQSjNDY2ZiSFU1SUdIRlZlQ09UY19INnY3WXQ4ajBwSnBYU2VpdEE2LWFUNkd6bg?oc=5",
-            "candidate_event": false,
-            "event_date": "2026-07-18"
-          },
-          {
-            "id": "1c87c2a3370af3cad2341a08cbe00ffd8feaa387",
-            "source": "The Washington Post (Africa)",
-            "title": "Mali's military says it's broken a rebel blockade around a strategic northern base - The Washington Post",
-            "summary": "Mali's military says it's broken a rebel blockade around a strategic northern base The Washington Post",
-            "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQU1Yxckd1Y0xzWHc4ZzhHQTZZYjJmejZGS2RjTk9veUdPYzlQOXlpTWxWOG5jMEtNdVdHT2k2bTFKTHViVWVMR0JvRUFBbFZWcENtaHBXdUJuc2hDR19XM1hKQ203dVRrV0hZU085VEllNHZPUzhLNDhwSUNEdEZDd0lQcUpCZzVrUnJMeXNXSkVudU1fbDA0dHhoSThORTlVb2Z5LUI4YWtvNVJpek11V0NYYXVWaTY5VTZFQ09rVnNybjVtY2w1UlhROTg?oc=5",
-            "candidate_event": false,
-            "event_date": "2026-07-10"
-          },
-          {
-            "id": "cc7a18765dc468f7720a8916cfc37db181448938",
-            "source": "France 24 Africa (EN)",
-            "title": "Mali insurgents attack multiple towns and a prison, army says - France 24",
-            "summary": "Mali insurgents attack multiple towns and a prison, army says France 24",
-            "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNbmlJTVdDT1hMTGVzR1k3V2cxSlp6THY5aDE0VTctRmtjdUZtRGJVOEFaaUt2N1BOaWhRZmQ3eWVmeUJCeE1fam93Y2ZLenBHZ1gwbTFVZkk3RjVGWEp3dFZoakNLZGpKSXJfcDl4XzByRXZ2RFFaTW9mN2Vha3FyWl96YzBjN3FkZExGcVFpTndjS2x3UlJOcjZuOVhDbG0wbGs4Mw?oc=5",
-            "candidate_event": false,
-            "event_date": "2026-07-04"
-          },
-          {
-            "id": "f504ab34ad4e7aad9ce2c8d559e2be77a64df68e",
-            "source": "Bamada",
-            "title": "BAMAKO: the 3rd class of the General Staff School of the Security Forces of Mali visits the Ministry of Security and Civil Protection (MSPC) - Bamada.net",
-            "summary": "BAMAKO: the 3rd class of the General Staff School of the Security Forces of Mali visits the Ministry of Security and Civil Protection (MSPC) Bamada.net",
-            "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPcEZuYV9CRkVva2MzZnp6b3V0Yl9qRmpPNmYzcjlNTGxCekFSWE5fdUFXYVJxc3d5VW1Hb1piWGFwWjNYZHkySmFDM1ZuTjBURXFnU0xtNzRWOTVrXzJrT0F4dDZoS1JYQWlWa1AxOFM1QVd1NHNrdmd0ZlBJdlQzbURLcndKMGU3Rl9rd2J3TWV2QjhfMHdPT2ViMERlZXNkX1A4NDlkc1A2dHYwWmdIeW5LRDFMVm9RUWpjbTJaYTdvQTRvRk5YVlRIdzNld2wwYVVST3dIdkJKMm9qeDJHazVKbXU2N2VWblFUbzMzaVdWV3hzV1hCV2ZR?oc=5",
-            "candidate_event": false,
-            "event_date": "2026-06-21"
-          },
-          {
-            "id": "73c45ccc6115a6a5de78d61da219e6f1fcd3b323",
-            "source": "Bamada",
-            "title": "MILITARY OFFENSIVE IN KIDAL: NEW AIRSTRIKE AGAINST TERRORIST SAFE HOUSE REPORTED SUNDAY - Bamada.net",
-            "summary": "MILITARY OFFENSIVE IN KIDAL: NEW AIRSTRIKE AGAINST TERRORIST SAFE HOUSE REPORTED SUNDAY BAMADA.NET",
-            "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQM19MZEJuNXk2UmZka1dJbXc4dnNiczhEclJjZkdfaTFFUkpRcFlCTWQ0QVZqWGxRU0hyYTBLejRJYjlkNDh5NjRoNW0xLUJZVDdOd19NS2RyT2RYREhXUXVkSHRPLWdrRUlCSDhSRHVDNFV1WDBGWkJKYXpOQmNFQ3hYVmM5N2N1Z1lkX1JhaUh1VjItN3hxUHlHcWVScjFmaXVnb0twcW1zbTdBNXNMTXREdU9fQXJQNEtndjlB?oc=5",
-            "candidate_event": false,
-            "event_date": "2026-06-14"
-          },
-          {
-            "id": "308dbefbb7a547471d6eb9f7e7f0ef0657cb4b40",
-            "source": "Journal du Mali",
-            "title": "\"Blockade\" around Bamako: Attempts at paralysis and military response - Journal du Mali",
-            "summary": "\"Blockade\" around Bamako: Attempts at paralysis and military response Journal du Mali",
-            "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQRXhwZW9OakswUXRadXI4M05QOWRrUzN5T2hTWVd4SGtZX3JFRmFjQUpsRnBDN3RsQnhWQWtibjgxRVhmMW53akZXcWUyeURQVlNiTENZeHJrd2NfaFV6blMtZUxwTkRxdWlsbks3R0Ytc1lSaWpLaGRONjJ4dUNNazVaRGdURnBkblFveS1nLVZWVEdGd3N2UUh2OA?oc=5",
-            "candidate_event": false,
-            "event_date": "2026-05-14"
-          },
-          {
-            "id": "8bee22062bc916dffecf2c70bcaf680a3b7384ea",
-            "source": "Financial Times (Africa)",
-            "title": "Jihadis blockade Malian capital as offensive gathers pace - Financial Times",
-            "summary": "Jihadis blockade Malian capital as offensive gathers pace Financial Times",
-            "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPYkF0ZGhudkUwdEpVVC10OU54S2JJTXljSS1BSE5iT2xVUFBDbThfNUFHM3ZuOGItN0lIOGh3aGdNd2djOTNpcm5UM2NhTm9QdlZhQlhiV2FaX2ZQWmlJaHpqU0syeXJ1TWloWGZNYnpiTVlkVmJPQ1hrUzY2eFN0NW54eko?oc=5",
-            "candidate_event": false,
-            "event_date": "2026-05-01"
-          },
-          {
-            "id": "fcb6b36b923d811a9a062fce3b0c18dbdf07178b",
-            "source": "Critical Threats Project - Africa File",
-            "title": "Israel Recognizes Somaliland; US ISIS Strikes in Nigeria; JNIM Attacks US Gold Mine in Mali: Africa File, January 8, 2026",
-            "summary": "January 08, 2026 Israel Recognizes Somaliland; US ISIS Strikes in Nigeria; JNIM Attacks US Gold Mine in Mali: Africa File, January 8, 2026 Key Takeaways: - Somaliland. Israel became the first state to formally recognize the Somali breakaway region Somaliland. Israel’s controversial move is likely intended to develop Israeli strategic depth in the Red Sea region and furthers the divide between the Israeli-Emirati axis and Egypt, Saudi Arabia, and Turkey.",
-            "url": "https://www.criticalthreats.org/analysis/israel-recognizes-somaliland-us-isis-strikes-nigeria-jnim-attacks-us-gold-mine-mali-rsf-breakthroughs-south-central-sudan-m23-holds-uvira-touadera-wins-another-term-africa-file-january-8-2026",
-            "candidate_event": false,
-            "event_date": null
-          },
-          {
-            "id": "39a14c1e62e05c7f16274401a3b8e9d88d93cb35",
-            "source": "Le360 Afrique",
-            "title": "Mali: JNIM requires the wearing of the veil and the separation of men and women in transport - Le360 Afrique",
-            "summary": "Mali: JNIM requires the wearing of the veil and the separation of men and women in transport Le360 Africa",
-            "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPTFpUV2tib3dmTmo2QVBCV1otUVNPWlpxN3lZQldobi1jUkF2bFNfVktoZDUwNmVGdU5KcHQ0MXJ6Um1acXBxaXNhaTlKNGVBd0tSRFo5SENTU29mUEYwS2FoUFRKSDFiUVJHdEpvMFFJUWtjTWxfN2xKbW8xaklhd25OSDFTMVZpLXo4dEE4SWNEMmlKLVVPUW9KOUE1QjZNWlJwaE1PZ1pNV0Y4b2pJQ2NFRHI5VnZ2bDk1emtCWWJFdGJ4NnZ6OEk2Q2hWRnZzR1RUZVJfMmVVa3V4eVM0eA?oc=5",
-            "candidate_event": false,
-            "event_date": "2025-10-20"
-          },
-          {
-            "id": "73c13bc3315f38e3414087462abaddc10f07cb47",
-            "source": "Institute for the Study of War (ISW - Sahel Tracking)",
-            "title": "Jnim Increases Attacks in Western Mali’s Kayes Region - Institute for the Study of War",
-            "summary": "Jnim Increases Attacks in Western Mali’s Kayes Region Institute for the Study of War",
-            "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOQkc5M0FYVTNuQWhDckwtcjI5akRqYkF6NHM5ZTFOTzJlU250M3ljRnlFMTlxUEpnSjZwY2s0WWJsYnpxNnlVbGo2eE1YSkRTQnNFRFJmLXBzNUNMUjZGa3Q2Skg4aU05MEtSUENPMEQ0RTJVdVJlYW45WmVNSVNiYjVZWlcwMjgxOHJjOHcwYw?oc=5",
-            "candidate_event": false,
-            "event_date": "2025-09-07"
-          },
-          {
-            "id": "225b04fba0957c501bceca94fc07c06bd62d79d5",
-            "source": "The Defense Post Africa",
-            "title": "Mali Army Camp in Timbuktu Under Attack: Residents and Officials - thedefensepost.com",
-            "summary": "Mali Army Camp in Timbuktu Under Attack: Residents and Officials thedefensepost.com",
-            "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE05c081RURTZzQ5NlZqWXRNNlUzdzY0a0M4MWc5MlItS3VFZTNPdFJKU0huYWR5d0JTNW81ZGZUaklZX1g1VnRkQnJqazh2Q0IySmM4VW44UzNuS3l0M3VWNW5HU0NUeFZBR3hNVWZmQ08tVWNQdXlzQVJR0gF_QVVfeXFMTzliSXc0ZEUtaV90NmY2R041dTdibGVkSV9qLVJlMVl3MWozVEpuX3FlWmMzU2Y3ZVVZeTEtOTE3TERYQ0ZWTVdhLXo4clc2LXdjR19RM2hzQUhQYzhoNnJnTkJPNkc5dExDZENxanNSX293bHRmYzNvZEVHM2ZRWQ?oc=5",
-            "candidate_event": false,
-            "event_date": "2025-06-02"
-          },
-          {
-            "id": "b8106355ef5f4b407910d335d1713752afde6105",
-            "source": "CNN International (Africa)",
-            "title": "Dozens of Russian mercenaries killed in rebel ambush in Mali, in their worst known loss in Africa - CNN",
-            "summary": "Dozens of Russian mercenaries killed in rebel ambush in Mali, in their worst known loss in Africa CNN",
-            "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPY2diMGZOUFFRbTZla1JpS1lLMG82azVuNmJYcHp2elREOXlzaXZLcU9SWXBwdUN6SjZScG1BT0ZNZ3JnY0dqQ1VwU3h5bi1LMGwxeDdHMjNrU2llTHVod3R4a2xJX3NhOUpEcmVOSE1IUXk0RW53allRcTVseXVWRTFiLUNZTE1DOXVrMGZUNmQ?oc=5",
-            "candidate_event": false,
-            "event_date": "2024-07-29"
-          },
-          {
-            "id": "b5eca653df98e65e052e1b505714f6a9925d700f",
-            "source": "Financial Times (Africa)",
-            "title": "Russia’s Wagner Group sustains losses in ‘fierce’ Mali fighting - Financial Times",
-            "summary": "Russia’s Wagner Group sustains losses in ‘fierce’ Mali fighting Financial Times",
-            "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMVVqZEZ4al8xQy1IYWdiZm12OC0wTnZIWXd1bG16VXRBVGF3LUZwY0h5djJLNTZEekRoTnF2dUtmWUgtSEtRb21BbnVNZlZpaWcwVXQzRXdhbWNEX3VueUV4aUtXejB6MldJaE9keXl6SXlkeEEzcE5LeWRENEt5a3dpOEQ?oc=5",
-            "candidate_event": false,
-            "event_date": "2024-07-29"
-          },
-          {
-            "id": "3190425ec6c5e6b1539de38bf97c1014d9e9a45d",
-            "source": "Le360 Afrique",
-            "title": "Mali: the Malian army announces that it has killed a senior jihadist official - Le360 Afrique",
-            "summary": "Mali: the Malian army announces that it has killed a senior jihadist official Le360 Afrique",
-            "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQTngzdUdsM0ViV3dLTkozN2FUZEhmMUJjZHpfM1ZIQTRNaGZBNjZ4RnZLR09kZnF5V0pNMEdrd1ZWNXZ2WkNwX21ma0Y0Zk9tVFREUVk3aEd6VW5feTBrRDVsUTR0ak1oMWwzSzNPdFAxenp5dVd4SlVGd2s2ckVqOXFlNkd3TUdTNV9IWUpqQUg3bHpGVjV4VURuVkVSWkFCNVZrcGg1dl9vY3FhcmdCeDkzbVB3NUF4UThGbUk3WnJEeW12T3RGU2Y1VQ?oc=5",
-            "candidate_event": false,
-            "event_date": "2024-04-30"
-          },
-          {
-            "id": "8af5f16a39c7205b0944c4f7e0440169f41ece57",
-            "source": "The Cable (Nigeria)",
-            "title": "Mali’s military leader invites ECOWAS to dialogue, says new sanctions ‘inhumane’ - thecable.ng",
-            "summary": "Mali’s military leader invites ECOWAS to dialogue, says new sanctions ‘inhumane’ thecable.ng",
-            "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZGVCYno5MVI4OFlib29uY0FCZVdxMEgyUlE3SXZheF9PeFFBa3d0Qm4wU1htZjRTcWNCbTdoMHQwNHFOcnNfclAxNkExa1pNR19aaVFSUGNYQjFvWmcyOFNzQnVtYVoxbE5fTXZUNTFYSjNWMUlES3oyVXN4VDFOMkJjMmRBeU9BaHVqRFIxdl9FTzlvODN5YURFVGtYOWR1enFJ?oc=5",
-            "candidate_event": false,
-            "event_date": "2024-04-15"
-          },
-          {
-            "id": "23f37e3962dca248c5c0325feae1314d8e5262a6",
-            "source": "South China Morning Post (Africa)",
-            "title": "China tipped to keep Mali dealings non-military with UN peacekeeping done - South China Morning Post",
-            "summary": "China tipped to keep Mali dealings non-military with UN peacekeeping done South China Morning Post",
-            "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQNko5Q2VwejRWVHNpWEh3Z1YzblNYWjJPN3lHS01ZZzFSUEtmN1ltejVVX0Z6RUVsTzdwb1UwbVFfOElGeGlsYmN6RGVYRmFtR0ktUlVtaWE3ZmEtNHRUNlk1Nm5UQldCSkR6MFV3Vy1RTUEtNkdtVmxuWHBrSnpncHMyajZQbi1tZ0liMnFBRUhnWDJrRTVBaDRRZWZJNExMZWdnMWR4cm9GV0FTUUZKcDVkdUVmS3ZRWHNJaTFNb2VtQ1hrS2puZXZVdFNLZ9IBzgFBVV95cUxPakI0SHotYzl6a2FNOGpHV0hEV2JHN2J1dC1uZ2RoSm9VV2NyRmM1MjVva1NQWXJFV2RfY241NjU0RGlYWEZGblRxczRiVmpUWG4tdWdxX1c0dk5JUjVwUTFWUkl0aWRZOXA4a3JET3FTZTRYRmM2M0pKQTFwTTFabzVYQUE4dzZ0UUowSUFSOE9URVhDYjVpWXVRY0RxWlNTbkcxbktMS183azFQd0hDOTVXMVlHUXBzcjNhcGd0cmllT0RzaklsNjBYOEtPQQ?oc=5",
-            "candidate_event": false,
-            "event_date": "2024-02-11"
-          },
-          {
-            "id": "ef88fa757488787a0bc8955d6cf45ed450ac76d4",
-            "source": "Studio Tamani",
-            "title": "An attack on a boat killed one person between Mopti and Timbuktu - Studio Tamani",
-            "summary": "An attack on a boat killed one person between Mopti and Timbuktu Studio Tamani",
-            "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOa0hDeUlKNDlqVkVuNW1XNXRnZ0QwSXQyOXRTakc2ck1BUERha1hHSXBTTFFIcE1rM21NUXpXbnhfVDdYaXItZHE3S3RKcjRRQ0x2cTdpd2d4VHBNRnJXRGc4TnVaTG1YV3lnaEZpdmdiVnBzZFlXSWRGLUw2RjRvQXBCV3JWNE4zWk9yM2FTZEMtS1dHNkgtUVM5ZnFIUUxzM2NaR1d3?oc=5",
-            "candidate_event": false,
-            "event_date": "2023-09-04"
-          },
-          {
-            "id": "df899b427a182ace070de6485ae7b1de2c2c1baa",
-            "source": "CNN International (Africa)",
-            "title": "Mali and Burkina Faso warn that any military intervention in Niger will be considered an act of war - CNN",
-            "summary": "Mali and Burkina Faso warn that any military intervention in Niger will be considered an act of war CNN",
-            "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQYV9BSE1TS3lvTldmcnRoMVdKOFdnWFhrT2pDSEJ1X2FpOEJhTkNLOGdxYnVFeEFKSS1fbTVoOUhFcENhNUJHMFdIM0pMZE1wai1uUHVQcFR0Y2NvZ1RhVXItOXE4d1RHdm1FdHY4ZTFxeVpTTzVJOUJVZnJjR0JEVmtUR25abGxXRUJWWUhVWlNCZ2VWOGY5YU9BdG5taG5jeFNUbEpjVmpETGU0NnpybE1idXVlUzd4VF9fQmMyclpBTjVyMmpB?oc=5",
-            "candidate_event": false,
-            "event_date": "2023-08-01"
-          },
-          {
-            "id": "2b441d6f670c4a4de06dacc217b2a7eb416ef12d",
-            "source": "The Defense Post Africa",
-            "title": "Russia’s Wagner, Malian Army Kill 13 Civilians: Local Sources - The Defense Post",
-            "summary": "Russia’s Wagner, Malian Army Kill 13 Civilians: Local Sources The Defense Post",
-            "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1US0tSUGUwZE9RXzNlYmtYMlg1dzNxM2wtLUJCTXpWQVpNTTJRN1g4Zks4WF8yejY4MnZleHNVbF84bWxQMklKcWdqcm1oaE83dWhEY19kUHA1a2dDS2tudTlzNDNzN3dleDVVaV9EZEdCUl9hV0tweGRB0gF_QVVfeXFMTWI4TXpIQ05MdmdyV1JBNFBfak1od0ZkUmQyaU9Xay1qRDNoZGt5M0U4SmVMQlhPWGdVRVk2MGRkWlppcUhxVEZtRkNCMER0ZUtreFdOYm1NZzdfQVZwaFFZa0o0THREdW1CTVgzdTZ0WDM0Zjh5Q1QwZ0YzRTFXTQ?oc=5",
-            "candidate_event": false,
-            "event_date": "2022-11-02"
-          },
-          {
-            "id": "6858c930df2ea16e37ae929d546098ebfc6379c3",
-            "source": "The EastAfrican",
-            "title": "Mali terminates military agreements with France - The EastAfrican",
-            "summary": "Mali terminates military agreements with France The EastAfrican",
-            "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQZzFxdlh6RUdBNlZhRnpPWmFvS3RfWWk5VTRQUkFpa2RGOXJsLXdaSDFmb2dOY2hUSkUtTXVHQkpnRFgwVm1UN0xheE1uVzNheDVfaUhDWWJnSDdILUJ1clRGdkhISEEzMThURUUyWThCWm1feUo0RV9mRHFSNmxTZWxVcS1STnBaSmlGQUdRSzM5bG5BbHE2Ui1JVVhOR3I5UGcza1gxSjdFZmQ5dWc?oc=5",
-            "candidate_event": false,
-            "event_date": "2022-05-04"
-          },
-          {
-            "id": "5cb99428ba0807f3b18cb3a3c13fb62269da6ea4",
-            "source": "European Council on Foreign Relations (ECFR Africa)",
-            "title": "The Islamic State in the Greater Sahara (ISGS) - Mapping armed groups in Mali and the Sahel - European Council on Foreign Relations",
-            "summary": "The Islamic State in the Greater Sahara (ISGS) - Mapping armed groups in Mali and the Sahel European Council on Foreign Relations",
-            "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBDdGFKTkZBTGI0ejJMNmNQeVR0anBfM1JBOElNN3RUMVJXZmJudHFVQ25rYmhTanBIWnd3Rzg5Zm9YMVliRHlGZFFQSlpJQVVRWmxJMw?oc=5",
-            "candidate_event": false,
-            "event_date": "2020-10-27"
-          },
-          {
-            "id": "5a58b1a5345465c4eb15e6960b2afbe277fefa27",
-            "source": "Channels Television (Nigeria)",
-            "title": "Ex-Defence Minister Appointed Mali’s Transition Leader - Channels Television",
-            "summary": "Ex-Defence Minister Appointed Mali’s Transition Leader Channels Television",
-            "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQcnFEODY5bUdLbjJqUzVfR2tyRzNITTFCaGlFRjB6bUxWSmFqRkNxZTBmejRsd3ZXMTkwY1plRnBNTGxkUHhFUDE3WENScWNyUTZ4WUgzd2hPSlJFdlM3WHMxRW9TeWF0ZlN5TERXMFhqbzlxdnFiOTV1cVU1eW1ibm9OQkhRVW9pakpBXzFLOWtxcmRheEJv?oc=5",
-            "candidate_event": false,
-            "event_date": "2020-09-21"
-          },
-          {
-            "id": "698d8994ce0eaf4e76d7d1a867ac3f05c0e0d62b",
-            "source": "The Cable (Nigeria)",
-            "title": "Mali: Military, ECOWAS fail to reach agreement on transitional government - thecable.ng",
-            "summary": "Mali: Military, ECOWAS fail to reach agreement on transitional government thecable.ng",
-            "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQQW9ENVpobUVJQmo0TjlwWURiSkVETFdmLWc3d0F6QlE2a3IwVEp0MDBuX2JhclJERVFKS29FV3FOSHR3NF93NnpCSnNJdXh0MWR0NUFpWnh0R0M4OUxZMUNUV1lwMVV6M2lpbUZLZVNJSEZkczNjX2FwbVFpMDByZ3B2b1Y1SGtsdVBrbDN5RndPeDVOWHVlUE52dw?oc=5",
-            "candidate_event": false,
-            "event_date": "2020-08-24"
-          },
-          {
-            "id": "86dc4652e7b9f1bee3ed1e30a4f22e7195f8a0e2",
-            "source": "The Washington Post (Africa)",
-            "title": "Mali coup leader was trained by U.S. military - The Washington Post",
-            "summary": "Mali coup leader was trained by U.S. military The Washington Post",
-            "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNQWhSZVBhSEhwdkJLcGF6NTgwSGNiYmd1NDhqZzVodjVISUhTX1J5bnp4SkViY0FveVJLNWVxR011ZFlaWFYxUzRXQmlGNlFXMlBVai1ubVBmNnVsSlVqT1E0TVJ3WHdJdjdQUzdGVTJVSkg0NDdZdEc0WVdBdDhuSzVtdEUxWVVXb3NueFhBeGEtOHZGMXdiaF84MVpCcU1menVjLUczMVl4am9GYzd6d3ZZaEphY0VHT0VLQ2Zpd00wNlJ4NFFrM3drTDJxSzVjdWpONVBYMS1keXlfbjg4Qy1jQWxPaFYxRXNsc1hISmdoOE9VRGNHYW9KWGlzZw?oc=5",
-            "candidate_event": false,
-            "event_date": "2020-08-21"
-          },
-          {
-            "id": "91f7c01ee20a6853a1d15b4cca01cbfec44ebfcd",
-            "source": "The Defense Post Africa",
-            "title": "Three Irish soldiers injured in IED blast east of Gao in Mali - The Defense Post",
-            "summary": "Three Irish soldiers injured in IED blast east of Gao in Mali The Defense Post",
-            "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNUlhYeUVhZWpuLXJ4bS1ieDBHOG9SeGZFbVB4V0xHOXpSWFVpWkZPWXhWeUF1czJZczdrM2JlMGRHR2lfMk5TWE51U2p4dUVQaDRQcWlCeEEtb2paYkx5anREcG5wVTVCY2ZESnNRSkRmeGRXNzI3V1ZrRVU3TXZ6VGNaRDQxVUdFZHotQtIBkgFBVV95cUxOM2pSOE9WVmlhXzNiZWVFRDFiLXQ0QnBUNDJsN0ZacWNvQmFTVGtYN3Zod1Q2RENnTkdnRVNzQ1JoQ3hEZ0RYSnpXQzAtQU5LMjh3V3VvZTZLeDlPR3BzSXBnRnhGQWtsZEkxOEdWUFk5UWc2NmtXQWdtSjM1bFgtMEhvQVEtX29IMkNvcU5fU2lndw?oc=5",
-            "candidate_event": false,
-            "event_date": "2020-02-25"
-          },
-          {
-            "id": "9384bd84b9a5e4fd21822273b56581e7e9bddaae",
-            "source": "The Defense Post Africa",
-            "title": "Mali: At least 18 UN peacekeepers, 2 civilians injured in Tessalit mortar attack - The Defense Post",
-            "summary": "Mali: At least 18 UN peacekeepers, 2 civilians injured in Tessalit mortar attack The Defense Post",
-            "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPLXBUOWlKQUUxVnhidHFsNkRTdUNSTFI5VkRiRVpyUUFNZmVZZnBoM002R3RQa215ME14Y3lNai1tVDVyWjZDeldLSnBwTWpqdXpLdXRDOWF3YzZVem53SUZUd3hqUDYxQjg3VUQzMDJGZEluZHpKSnI3VkJOTTJzOEs3Zm8wMENrYkRV0gGQAUFVX3lxTE84WE14eXZpNlQwR3pUZXM1RUluOW9FX25CTkZBQkgzWlBtWGFHVDdzNlVvLVgyU2czV002WS10X0hHQ1JMM1luTzRnQm9RenkwVjhRYkpIVVktdHp2djA4WVE0ZWRJbjRFQndIUFY2TzR6dHlvTnNIamNlZkEyZmpMMTRsbmREZEF3dE9waVNCMg?oc=5",
-            "candidate_event": false,
-            "event_date": "2020-01-09"
-          },
-          {
-            "id": "2b84987ea23d755eacc85e56389f7c41f611028f",
-            "source": "FDD Long War Journal",
-            "title": "JNIM and allied rebels surge across Mali, take several cities, pressure capital - FDD's Long War Journal",
-            "summary": "JNIM and allied rebels surge across Mali, take several cities, pressure capital FDD's Long War Journal",
-            "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBtYTU1eW9zZjNIS1V2MFBiNW1SSWk0NHM0Rjk2bHl5QzZFUmwwY3k1QTFBcmNkX2F4T3Q1cG4tYmw1TEI3eHRCWTl0SmktNmhwS1E?oc=5",
-            "candidate_event": false,
-            "event_date": "2017-09-16"
-          },
-          {
-            "id": "50f33a59813675cc327a08bfba74f09d4d16f83f",
-            "source": "L'Indépendant (Mali)",
-            "title": "Guard soldier killed on July 14 in Mali: victim of a \"suicide attack\" - The Independent",
-            "summary": "Guard soldier killed on July 14 in Mali: victim of a \"suicide attack\" The Independent",
-            "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOcG5FSGw3ZUs4ZEhMU255elVVMWgxYmxRWDBMMm5JZFkzSkZMYWxHMU9OajNrLXFGTUtKTXZEODA0aVE2em1tbVRvTHM0cU1kNDdLNVBuM0RadXh0ZTR0Y1kxU3hYZVpReFZwOGVUMFk2VHN2TUY4WVhqZnE1bWU2SFJrb0pEWDR3R0xZ?oc=5",
-            "candidate_event": false,
-            "event_date": "2014-07-14"
-          },
-          {
-            "id": "1a61bbf70ef35153cb5f8bf5c8ed994c04fcfbd7",
-            "source": "Le Républicain (Mali)",
-            "title": "Mali: a second terrorist leader was reportedly killed - Le Republicain-Lorrain",
-            "summary": "Mali: a second terrorist leader was killed Le Republicain-Lorrain",
-            "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZEZZV1JUdktZNFYyY0w3V0FDZktsSGpGVFA3M3pkLWcxZEI5Ykw3c2hvc1p2WWY5ZEFPVExJRWNiNVhsQTNQTHdrRTdlVGxoWGxGeXNlWmRuOWlYOEtNUjBDaHp1UU1oUi16Yl92RVVzZ19kZVdNVm1MUTNPVmhJQjJkZlJ5STkxbjdoMm56bm00ZTZKRVlFc3QyVHRzZENYMFBjdUhob1l3QQ?oc=5",
-            "candidate_event": false,
-            "event_date": "2013-03-03"
-          },
-          {
-            "id": "324f1c41684e160dd199ba83f7c9a23c5f1229ea",
-            "source": "The New York Times (Africa)",
-            "title": "Qaddafi’s Weapons, Taken by Old Allies, Reinvigorate an Insurgent Army in Mali (Published 2012) - The New York Times",
-            "summary": "Qaddafi’s Weapons, Taken by Old Allies, Reinvigorate an Insurgent Army in Mali (Published 2012) The New York Times",
-            "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdmY1QkN4emd6UVBya0Y5ekE3RDAzQzRPY3dOVmpsemlVY3o2THQ2QngwLWhWNktnQXFMRGlYWFIxZGhldkVkckZnOG5VUVd2WHptRUJ4VkozX1J6SlJLSGZPZ295TmtpaTFuMFNOb285NDRaX1lBc05vbHo0S0RROE1pT0F4STVDUy04Q2U5QkFQWll6RmdLQ2R1M0x2NWkwdHc?oc=5",
-            "candidate_event": false,
-            "event_date": "2012-02-05"
-          }
-        ],
-        "Burkina Faso": [
-          {
-            "id": "7198be30f7d9a6a0326e890e7998742522e27ea8",
-            "source": "Wakat Sera",
-            "title": "Ouagadougou: terrorist attack simulation exercise this Saturday - wakatsera.com",
-            "summary": "Ouagadougou: terrorist attack simulation exercise this Saturday wakatsera.com",
-            "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPQ0VGRUNTLTlGcEg2bXJnWW1mWTFCRnF0eUlYN0h1MXRIa2NObmd6TEVXTy1WRGxNRXA1RjJPWDFqSUtNVUQ4NDRqWXdaSWVjLVRFUHpqUUZxS09ScE40SzZhdlVhVzNyQ1ZEN3llaGd1X08zcnoxYjRRMkh6TlBtc2RrbW9IQ0lYekJGZzhQWTRhZy1wbFE?oc=5",
-            "candidate_event": false,
-            "event_date": "2026-03-28"
-          },
-          {
-            "id": "a271ed19cde833fb2ac1ec3a3e0d36964f29bf42",
-            "source": "AMAP (Agence Malienne de Presse et de Publicité)",
-            "title": "Working meeting in Ouagadougou on Mali-Burkina Faso military cooperation - amap.ml",
-            "summary": "Working meeting in Ouagadougou on Mali-Burkina Faso military cooperation amap.ml",
-            "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOV3Zhc25OaFNqMmZDclJ3NXNDQl9IV3pzc2tjV29MV3BMU2wwR0ZVc2o5Qk1zd29CT3M0V1RfczV4MEgtV3p2RnFiLTNkRGNWNEtqVGdMOEpxOEw2WlVBSWVLeUwteS1XY2hOZE5qSDdaMHFwSmRncGtfNERjaGU2d25yelhuU2otdzgwNmN4QjRmQ182TVYybUJpeUt1bmM?oc=5",
-            "candidate_event": false,
-            "event_date": "2024-12-26"
-          },
-          {
-            "id": "cdf4885e1345bbdddfa6df18484218bfb1707354",
-            "source": "CNN International (Africa)",
-            "title": "Massacre in Burkina Faso left 600 dead, double previous estimates, according to French security assessment - CNN",
-            "summary": "Massacre in Burkina Faso left 600 dead, double previous estimates, according to French security assessment CNN",
-            "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNSFJWQlNmQVE3V2VRZjlIOEtqVlRhV1RjeUplRjVRT0MybGk2emJ3eUJwVlN5LTAzMUNVSDFqSlNNNTZMdWh2QkF1X1YzQ19SWVNpbjI1NDltaHRIRkRkbjlhTHEyWjVuY3lBOUZrMjh5VlkyZFphNzEtam1iUngwYUZ1U3EtZEhPdGpEbkNlaw?oc=5",
-            "candidate_event": false,
-            "event_date": "2024-10-04"
-          },
-          {
-            "id": "8c88f12a76c190022af833a225530e0b17662d43",
-            "source": "FDD Long War Journal",
-            "title": "JNIM documents training camp in Burkina Faso - FDD's Long War Journal",
-            "summary": "JNIM documents training camp in Burkina Faso FDD's Long War Journal",
-            "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPeXZDZVFVbVJud0NibU9QMnV0WkVJbzF2MnJQMjBpZHlhQ3loWFl0d1k1ZTRzZ2RTbjRKS2V5OFYwTHFoNVhSVzlmcHU4M0pSTjhfWlRjaU9ZZFY4YzYzUXQwZ1U5NHN5dm96SjhmUFdpU05QS0FvODV2WkJ2WlJnR0ZHVnl2OUFWZ3dmb3RrUlN3cVV2ZHR6cWpsd1k?oc=5",
-            "candidate_event": false,
-            "event_date": "2024-05-25"
-          },
-          {
-            "id": "078445579573095534184b0e7bd804e839bd2331",
-            "source": "France 24 Africa (EN)",
-            "title": "Burkina Faso’s army summarily executed 223 civilians, says Human Rights Watch - France 24",
-            "summary": "Burkina Faso’s army summarily executed 223 civilians, says Human Rights Watch France 24",
-            "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOQUd1TVY2eTlDMHl1Zy1iSVlXbmV5dUNCMW8xU3ZoM2tkZzREUGI2Y2JDdjJzU1pzNkpKMmVUbnJrbDhfWUtMazhBdmwySFZiOHdXT3VKckpiVlVTcjRtbnF1T1NOajRmYXNVYXQtRl9PV0JnQzZtNnQzMGVQdzNUU1NRSzdOeUxjVWtKbzBuOFpiZ05nVVFyYTVEN0tZaG50bnptREk3LVBHbkZYalFqMFFRME84LWtCREZTd3pKekxHNGRubkE?oc=5",
-            "candidate_event": false,
-            "event_date": "2024-04-25"
-          },
-          {
-            "id": "bc42c39f3a6d72f2352f405b4f168c62494f6cbd",
-            "source": "The Cable (Nigeria)",
-            "title": "At least 70, mostly children, killed in attack on Burkina Faso village - thecable.ng",
-            "summary": "At least 70, mostly children, killed in attack on Burkina Faso village thecable.ng",
-            "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNV1l0Mi1CMlFmZDc3VlgzckhCYVVnS0I3M01lblNoQjdFMnROYkpUbkR4RWRLYjk5M3A2UUdrakFtWFA2aUYtYlFqWk9LbDl1bEhPY2JTdGZNc1hvc0I1S2xLQ0dwR3VVNm9jcWozZVJ3eTlGc1I3VFRfX1pQeDZDa3VwallzMms5eU50M1FrZ2tlWWRRcDd3Yw?oc=5",
-            "candidate_event": false,
-            "event_date": "2023-11-16"
-          },
-          {
-            "id": "c6190714a3c110e828466d8da29bcddb6bce9d29",
-            "source": "VOA Africa",
-            "title": "Burkina Faso Leader Discusses Military Cooperation with Russian Delegation - VOA Africa",
-            "summary": "Burkina Faso Leader Discusses Military Cooperation with Russian Delegation VOA Africa",
-            "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUXp1Yno2X0hiNndEZFpwMmwtS2hWT1QxN3BObUx6a2ZoMXRHTE02b1l6N2JGdTU5Q0RSZ3VYN2dSV0NRQ1dRbGJiVVhHWVZVWU1ERHprSU1HYkRhdG0yaEtXYjlnUHBpb3hlY0Exa1N6UnhvZ3VZQW4teXFkUkJTN2dlUzJGTG5KV002dE1hbUZ5VmFQLU1SalJqeTJ0MEVHMzBXMHpiSkptY0x0RmwyOHBDUmVLd9IBuAFBVV95cUxOMkhUU0RualI1U1A5WU1DR0VaN2c1SUdjLXpsX2JjQ24tZ0pkVU91WmlNY3dwbDZUZGpMMWxVQzlQSzJoeGU2XzA0SlBISU5qMVJELW9Ta2RDWVNtZmktTTZRU0YxMVBBNzVQX1psdGpfSnZqQnN5QzRvWXFiTjRqOVNfejYwc0tmaXpfUU5IWk1uMmZ0ek9PRkFvRE1EMUpzTGlmVE01ZTRvOGxqaWI1eGpxZU5rVVZo?oc=5",
-            "candidate_event": false,
-            "event_date": "2023-09-01"
-          },
-          {
-            "id": "8dc04f6231a6b6334e2b129dd0bf6d49d7664cc0",
-            "source": "France 24 Africa (EN)",
-            "title": "At least 14 members of Burkina Faso security forces killed in terror attack - France 24",
-            "summary": "At least 14 members of Burkina Faso security forces killed in terror attack France 24",
-            "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxORkp4MGlCTjZoNFY0OVd1N2U0UW51dkdoUTdjY3Myam12UVZ1akt0cDIzMXBfT2dvZjhlNmZRRDVJdHdJYWRVRVZIT0RPRHNYUkdNRXRLbDBhUHQyV09xZ25WSjNGNDl0RlV5UEhBeXdRNEVWUlA0bkRISmU4RWhGSUhXeHZnbjgwQUdPUzlCc1pwVGtxVmlWancwUzVRT3J3V2ExcHpBNWowS0RlYUdsRWxfbE1lZkRoazJz?oc=5",
-            "candidate_event": false,
-            "event_date": "2023-03-23"
-          },
-          {
-            "id": "f1d85fa5411479e6f3e347d9f3d6beed98f28d0f",
-            "source": "Wakat Sera",
-            "title": "Burkina: GSIM claims responsibility for Djibo attack - wakatsera.com",
-            "summary": "Burkina: GSIM claims responsibility for the attack on Djibo wakatsera.com",
-            "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5zeDJabWd2c1JseTJ2aUlqaDJsYXVpdW1YeVltZWxQUTlKYnFVU3N0UWRXcmdFMGZjV2phaGJGa1JSRkZVNk5od0l4OGJlOWh4Z0Y2SFZwZGtHelFvNFhGb3A2aHhfQkNRRnNyOUx6eS02dU9KVld6dHozSQ?oc=5",
-            "candidate_event": false,
-            "event_date": "2022-10-28"
-          },
-          {
-            "id": "7ed6b5a990b190331c5a292d702972f5ae0ced5f",
-            "source": "VOA Africa",
-            "title": "Burkina Faso Military to Uphold 24-Months Civilian Rule Agreement - VOA Africa",
-            "summary": "Burkina Faso Military to Uphold 24-Months Civilian Rule Agreement VOA Africa",
-            "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPSmNqLTRCNS1abERSNzFQMmhJZ0FienZFSEEyZVBHeGF5STBXaTg1cGk0QVNxVFNLMlE3TFdmNVBteVZmT1N4YkdaNGhTcEU5QjRjLWdxZWZsUVE0RVNYX0xLQUZMcW9WVUpFQ0tZbXA5ODVnWkxsXzlvZ2RQbmhQZkJJUUJQWlZPOUZsOU41R0haamJIRVljbU8yYmFJdUdwbjFvaXhOSjhiUdIBrAFBVV95cUxNYnY5VmdNUFRNaXF6QmdOWmtmNXJKQnAtSzRNZVZSZnpJSkFUOXBocVV5NHUzaEY5UG82QnRxUXdXQWxxTXM5TEJnSW13dEpYN2NkMzM3dGJCTEt3UFZkQU5uMm1JNUkydXpkVnNOS0hTRXJVZWxFemgtQ1FnV2c3aVJ2ZnVNQTVBSEJsRVEwTktqY2I2dVk4LWo3TlAwNXl4dmtuNjlxd3pMWXA3?oc=5",
-            "candidate_event": false,
-            "event_date": "2022-10-05"
-          },
-          {
-            "id": "648f8a8a80dd701cf56f56256431dd2bce40361b",
-            "source": "Le360 Afrique",
-            "title": "Burkina Faso: a terrorist group claims responsibility for the deadly attack on a military convoy - Le360 Afrique",
-            "summary": "Burkina Faso: Terrorist group claims responsibility for deadly attack on Le360 Africa military convoy",
-            "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNMzU3SG5tUlZvSU5vM3NYdU5YSWFfS0pnM240QTVTYjFLVENreERBRFVTSFhkZTBkTkU2a2wzOXRHdXE4S3VJcm40RVVPdFlSNkJlR1JYR1hnVmxNRDhuTGFqUVhwXzB1Z084aWdkS2pXbVJBRGJMX1Q3QzdXYThCTVpRbUMtTVpqQjVzYXhFM3p4a0pvUlg5NGJ5cTJleWh0OFVyeHhBRGliZGc2X2ZRX2VwZ1dIajZsdmtZaFFXbW44T2NnY3BhNVpjTFA2U1p0RkFLQ1hXUDRCc2o5cFNucw?oc=5",
-            "candidate_event": false,
-            "event_date": "2019-08-22"
-          },
-          {
-            "id": "bb6513cd71d0199c9bdba681e19a29de800b538b",
-            "source": "Agence Nigérienne de Presse",
-            "title": "Communiqué on a terrorist attack in Ouagadougou - anp.ne",
-            "summary": "Communiqué on a terrorist attack in Ouagadougou anp.ne",
-            "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1lUDFsaGZCRnF5aG9MOWtyR0ZqTGNhWVpmR284QjRid095T2JSMjBmVV9kRC1WX0JjS0RIXzdKekdpeXZIX1lXR3R6NlptYXhSZG9MVEttT3RUWnVWamNKTVJkZk9zOGRfNU1FZFNaQWFSZVRiT2c?oc=5",
-            "candidate_event": false,
-            "event_date": "2017-08-15"
-          },
-          {
-            "id": "4904ff12e8135b90a6da77839bd274407b76fd17",
-            "source": "The Cable (Nigeria)",
-            "title": "Military dissolves transitional govt in Burkina Faso - thecable.ng",
-            "summary": "Military dissolves transitional govt in Burkina Faso thecable.ng",
-            "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE42VUhCSHRtYm9VZ3htMkMzMlRMWUpQelVYOFhpNHd6YU9DdUNWeFlUMmZsR3lJNUY1TzZkWHZiaXNFRk9jWW9OZ09jLXlWd2tVeFlxSWJmQmNSZ1dKMDhqbzA1Z3ppU0FUTWxEYnRyVWM?oc=5",
-            "candidate_event": false,
-            "event_date": "2015-09-17"
-          }
-        ],
-        "Niger": [
-          {
-            "id": "54bf2f751c4b26988805f8f8e38b3aa1cd31829e",
-            "source": "Africa Defense Forum (ADF Magazine)",
-            "title": "Niger Mutiny Highlights Russia’s Regime Protection Role",
-            "summary": "The sound of gunfire and explosions began about 1 a.m. on August 29, setting off a night of intense fighting at Air Base 101, a military installation at Diori Hamani International Airport in Niger’s capital. The third attack of the year on Niamey, after one in January by an Islamic State group affiliate and another in June by al-Qaida’s Jama’at Nusrat al-Islam wal-Muslimin, was different.",
-            "url": "https://adf-magazine.com/2026/09/niger-mutiny-highlights-russias-regime-protection-role/",
-            "candidate_event": false,
-            "event_date": "2026-08-29"
-          },
-          {
-            "id": "d3ffe2546c0969de17de6a0da2873146c05fcb12",
-            "source": "ActuNiger",
-            "title": "Guarding and security: the Nigerienne des Eaux launches a call for tenders for the recruitment of 536 guards in eight regions",
-            "summary": "Republic OF NIGER ------------- Ministry of Hydraulics, Environment and Sanitation - This Invitation to Tender follows the Provisional Procurement Plan (PPM) published in the newspaper Le Sahel Dimanche N° 2185 of 20 February 2026, the newspaper Niger Times N° 439 of 20 February 2026, and published on the website of the NDE www.nde-niger.com, Niger Marché www.nigermarches.com, Actu Niger www.actuniger.com and in the SIGMAP.",
-            "url": "https://www.actuniger.com/societe/22368-gardiennage-et-securite-la-nigerienne-des-eaux-lance-un-appel-doffres-pour-le-recrutement-de-536-vigiles-dans-huit-regions.html",
-            "candidate_event": false,
-            "event_date": "2026-09-20"
-          },
-          {
-            "id": "5b236a9f0e94b6662b82d8380b91fab3967475cf",
-            "source": "Vanguard News (Nigeria)",
-            "title": "33 months unpaid rent threatens war against oil bunkering",
-            "summary": "By Jimitota Onoyume, Assistant News Editor The war against illegal oil bunkering in the Niger Delta may be facing an unlikely, yet potent, enemy from a massive backlog of unpaid rent for House boats used to combat illegal bunkering activities and related maritime crimes The Nigerian Army and three indigenous houseboat contractors in the Niger Delta have been at the Federal High Court in Port Harcourt, over 33-month-long disputes on allegedly unpaid rental services.",
-            "url": "https://www.vanguardngr.com/2026/09/33-months-unpaid-rent-threatens-war-against-oil-bunkering/",
-            "candidate_event": false,
-            "event_date": "2026-09-22"
-          },
-          {
-            "id": "a22f56ecbc66c2c9d71bf1b9c3ec7d42f6734d74",
-            "source": "ActuNiger",
-            "title": "Defence: General Tiani reshuffles the military command after the Niamey mutiny",
-            "summary": "Two weeks to the day after the Niamey mutiny, the President of the Republic and Supreme Chief of the Armed Forces, General Abdourahamane Tiani, Supreme Chief of the Armed Forces, carried out a reshuffle at the head of the Nigerien army on Friday, September 11, 2026. According to a statement from the Ministry of National Defence read in the evening on public television, the post of Chief of the Armed Forces Staff (CEMA), Major General Moussa Salaou Barmou, a member of the CNSP and in office since the military coup of July 2026, has been terminated.",
-            "url": "https://www.actuniger.com/politique/22342-defense-le-general-tiani-remanie-le-commandement-militaire-apres-la-mutinerie-de-niamey.html",
-            "candidate_event": false,
-            "event_date": "2026-09-11"
-          },
-          {
-            "id": "8cb5dd668d3ebe4f1f954ddead57eb76f51ec76e",
-            "source": "The Cable (Nigeria)",
-            "title": "Thousands rally in Niger capital to back military leader after failed coup - thecable.ng",
-            "summary": "Thousands rally in Niger capital to back military leader after failed coup thecable.ng",
-            "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWWF0dHNmUWx4TEdWNjZmc3BFM0xXN3hCMGRwbDBrcEJOU0ZUWTBGQnJZS3FRWEwxMTdsTXl2YVhubVk1eUtSRXBMRnNva2Fsal9GQ19fcDE5Q203N2ZodGJrckc2Z0RuVm9tY0wydzVKeERTYXRWdUc4bTVkdjZFeDJVdElvRi1MOGhWZVNsOWRkajVYTXdFS243elJRUkZD?oc=5",
-            "candidate_event": false,
-            "event_date": "2026-09-02"
-          },
-          {
-            "id": "25b22640dd2c602bf8177c3013decfe485f56bb9",
-            "source": "Asharq News Arabic",
-            "title": "Niger: Army recaptures major airbase after rebel soldiers attack - East News",
-            "summary": "Niger: Army Recovers Major Air Base After Eastern Rebel Soldiers Attack",
-            "url": "https://news.google.com/rss/articles/CBMivwNBVV95cUxNM2NLOVlNaXh5V2hzMEtQN05zSG91VFg5VGF5UFNvdk9tbXl0SHk0SzVlZm4xYmJFQVhOa0c4NjcyNlQ5Wm5WYWd4UHZURXVZME5IS2lWQ3ZQYzVlUkNpUzZEU0E4eG9tRGkwZ20xdlo1ckx3ajZ4LTVYSzlZdVc0QmJfbks4aW5YcE1sUE5MODYxU3NYRU1yNVpna3JKOUJ5TlNtR1ZnYlV2MXQzTjZLY0I4QlJqbVA1WVdrSXZOTUh5TGtYRHIzUnd2N2dYd19WTWhrMXlVM1EwbEtfWHd1dmhQNHJubU1HZHJrZkJKZlFfMGFWWEpvM2JPbHVSQUhudXNiWnpBbVhrOW9ya0Y0WHFGTzQ5b2hJTzc4Z2NrQ2VCZWJrd0lFNUszVXZmbXlHRXpEU2x2SzV1ZktxZ3N0OXNjTUQ3RFJPdktWNTlKMUJ1U0N6YUM5alJKenJnZGMwLU1pbFcxancwOHhEVlh4cW1EcWplUXA1dHAzWFI2SVlCd0lfV3BmR0FMOURWMUtKRmUwbEpXWUI5Q3lJUlFRcEJFal9IMFNHbl9oRGZZZ2xoVzlRT09pUWpYeDZDMmM?oc=5",
-            "candidate_event": false,
-            "event_date": "2026-08-30"
-          },
-          {
-            "id": "e1e68713c44a49d32dcfc8fd8be8166f2b782b30",
-            "source": "Channels Television (Nigeria)",
-            "title": "Clashes In Niamey As 'Insurgents Within Armed Forces' Attempt To Storm Presidential Palace - Channels Television",
-            "summary": "Clashes In Niamey As 'Insurgents Within Armed Forces' Attempt To Storm Presidential Palace Channels Television",
-            "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQa3ZSN1pfR1BIalVzTmpueG03S1hfa2lMYi15QXc2cjIyV2dKaUtzRGFTOEM0T2NTZGhjbE1uUUlpT2p6U19CaHlNSWJUdGIteVo2Z2VZSWFzRUlvUzFMU1o3VGJtRGpjUUJjbkNfMmVzbHdMWXZhaGpFX2luZDh1VWswd1JyY1ZiUmNRdHJXMmVZX093cGZjcUNlb3MyX3kwbmk5VDU0N0o2MG1HaUhpUmFlbUw4WUY3TEtXYlVBSVh3RkRY?oc=5",
-            "candidate_event": false,
-            "event_date": "2026-08-29"
-          },
-          {
-            "id": "a8077a58f164a8855882c0d4f80adf8060fef62e",
-            "source": "Sahara Medias (صحراء ميديا)",
-            "title": "Niger.. The Ministry of Defense announces the containment of an armed movement in Niamey - the desert of Medea",
-            "summary": "Niger.. The Ministry of Defense announces the containment of an armed movement in Niamey, the desert of Medea",
-            "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5WSTBaX3Yteld5UWhBaTVjak1ZdHpuSGlVenBCY1o1UTBaYndYZmlPY1I1NDB1VWFta1c1UEVYMTNzWkdqYXow?oc=5",
-            "candidate_event": false,
-            "event_date": "2026-08-29"
-          },
-          {
-            "id": "43d8e51385c93884e3df815c01992ec855a19f92",
-            "source": "Financial Afrik",
-            "title": "Niger offers 82 hydrocarbon tanks to Mali to break the blockade imposed by the jihadists - Financial Afrik",
-            "summary": "Niger offers 82 hydrocarbon tanks to Mali to break the blockade imposed by jihadists Financial Afrik",
-            "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOTmpKZUQ4SGZNZWxiWGRnUG1QX3poTllxc3ZUZmlQS0JHdEphV08xRFVtWVprUXQwRG5fVmo5WVFiY09qdXN5VjFSa0pETFVRTzhJb25MQWFxVnZFZGZLNzFjMVdlMnpLUTlCVGxrY000T3pzeDNZbnlnNjZ5dTJxNlZGNWhkc1Y1Y083T0dONGlsWDYxSlBRdnVjR3F3dnFQLTE1dGxjQXZNb3ZBcjlEWVdkTW5DOGkzMy00UHpSVDlKN2xrRnlqYjRWa3B4NnVRR1Jrd0RGTQ?oc=5",
-            "candidate_event": false,
-            "event_date": "2025-11-25"
-          },
-          {
-            "id": "1b3423d50994af8b9958f4d51d89eb4ee0376a8d",
-            "source": "FDD Long War Journal",
-            "title": "American abducted by suspected jihadists in Niger - FDD's Long War Journal",
-            "summary": "American abducted by suspected jihadists in Niger FDD's Long War Journal",
-            "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNYTZycE5NMmoxX1I5ZzcydzlEdDMySFZhWDk4Wk44Uk82ZE15NFBfMDkwYlF4UnNXZXdDYm5Md0twcUx3ZUNJcDBORjRmbTlaMExrZFpsMGlSSUxQYnRlcnBoVW10dGt0X0dZTW1CZ0twOWExMWVEY0praW42ZU1LRVB0SHVKUVhGVnh3V1dmdzVQUWFzUi0wZF9kek9tS2l6Uk1Z?oc=5",
-            "candidate_event": false,
-            "event_date": "2025-10-23"
-          },
-          {
-            "id": "56a40a24113d34cffe1ed9f9ff74a31343d7a2f2",
-            "source": "Aïr Info",
-            "title": "Niger – Diffa: 12 assailants arrested after an armed attack on the village of Jagada - Aïr Info",
-            "summary": "Niger – Diffa: 12 assailants arrested after an armed attack on the village of Jagada Aïr Info",
-            "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPanhfNWxBbVV5dDktVmhFRlR6cnpCU1lpVzFRNjQ3ZFNHMzVfTnA3Ui12RElqMmlBVmpEZmhudWRGeXdtbF9uQmxSY0V3VE14TjkzUWxYRk9kdVB3Z1ZwcVp2ZnZRUVBRVlVCaFNfcmVOZEZQeXNkWXBiWnBFNTc1V3YtdGJFYl9uVklUMTNfMzRZUDlLem96UVFvaWJSd1dZa2VSR0dtU0NYRXRTZEJHNEdIMlRQQ0ZuMkdMQmd6NFR1RXdnOG0w?oc=5",
-            "candidate_event": false,
-            "event_date": "2025-04-13"
-          },
-          {
-            "id": "b468bb3625c099c083f5369d3e4831a85e7b639f",
-            "source": "Les Échos (Mali)",
-            "title": "After Niger and Chad, Ivory Coast: new French military withdrawal in Africa - Les Echos",
-            "summary": "After Niger and Chad, Côte d 'Ivoire: new French military withdrawal in Africa Les Echos",
-            "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOUnVsUHo1aDBRcFd2MmtfemczaFNzRmxEbFpjWm9xSEh0X19samdUMU5CaUdNVmNNMkF0VWJXNDNXUTZtZHZEM2l1NzVFY0RtMFlha2lqdWtXZzI0UUlBcUFuZFZpTTdTc0Z6SXlweVVJLXgzQ3A3TXNNbzh5SDFjM05nUS0tcTJvNXNOSDkyYTRCa3c0ZDBNZjlGZTJ6cE85dlFVbUhia2JHcjlSWkZIdW1xQW9QaU8wNVNLQUxvb3FOa2dMdklyQmdmU1BMckpWNDJsWjgybDZSTmc2RnpmZw?oc=5",
-            "candidate_event": false,
-            "event_date": "2025-01-01"
-          },
-          {
-            "id": "2c520bc601f2158db5bda2c91380248e552ddb49",
-            "source": "VOA Africa",
-            "title": "Alliance of Sahel States holds military exercises in Niger - VOA Africa",
-            "summary": "Alliance of Sahel States holds military exercises in Niger VOA Africa",
-            "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNc2hOdGtNdEtCTTlsOGlUU0FCdGVtdUpXVjJMZ3dSNGtsRTdVZDVwbTBsX0p4YUhteXgyekp3QUtRTHpqZ2wxbGQ0dHVjcVhSU3dOalhBdVZEUENHTHM4OW9LVU5INTFaNURFOWs3c0U1cjV1NnBPblMzeDlVRndIMnVON2VpYmFqM3lDZ0padVdMZ0pjZFdxakVsLVc0Qzg30gGjAUFVX3lxTE1NbExYV1lBZWlmSVY1WU5FOG8zLUtSSl90MnFodk1SUXlCV1pHUEpLS3lQVzN2eFVYR2dDTjFxXzBzbFRQNnVuYThBOFVyalJiNEQ2bmxmRHROR3RQWTVzR1dVMjlNUFZKNkhtOW1YbnlwZ0YxM2t4clY4MjA3WFluZXpRcVpaZnoxNzFfUVN2XzVzZlNhRjVsR3p4c1FnTXc0UTQ?oc=5",
-            "candidate_event": false,
-            "event_date": "2024-05-27"
-          },
-          {
-            "id": "9c85d37ba0b27d789b52dd134876452d8948ef48",
-            "source": "France 24 Africa (EN)",
-            "title": "US military operations across the Sahel at risk as Niger breaks off military cooperation - France 24",
-            "summary": "US military operations across the Sahel at risk as Niger breaks off military cooperation France 24",
-            "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNakdkWXlSd21fazA1LXBLVzFLc2xIcndJQW5SNFhYOUhsMmxlX3FfbzJvR1V2MV9MenBMWGJNZG9DbjhOd05BeWVwREJ6cmJCaWVYb2dqMzlQdnYwLUtRTnZTaUpQMEpyQVRNeTNGaVVBOU9TR2pDNXFfRk1LdG14OGNaNk84TmQ4MEJpYnc4Zw?oc=5",
-            "candidate_event": false,
-            "event_date": "2024-03-17"
-          },
-          {
-            "id": "1bc526093235cf7d7cd298576cb5ed423b2af31e",
-            "source": "Modern Ghana",
-            "title": "Niger: 10 Reasons why there shouldn’t be a military intervention - Modern Ghana",
-            "summary": "Niger: 10 Reasons why there shouldn’t be a military intervention Modern Ghana",
-            "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQVXJvV013SmtMeEthalJobXdyWURUSlI4aWFiSkNDN1JhNHNkSnBfbnk2MGRGTnFxMkhDN3FqbWdxeVlWSXpjbjFHMlNKbkNpVTFYbWc0bURKalh0ZTFiZHFrakNNSXdFNFprSFNkWVVQRUN1cFAwYzJhdUR3RVRRblk2eS1jOVhOcXp2YkJkMFJnNFVqN2RYN3pR0gGYAUFVX3lxTE4xWXk3T1h5YXd3eDk2TkM5dE9pLVl4QkpOY1lyc09jcXdfYkIwVTlEcnBicjZTalliSXIyZTdkODMtbE1kaHlMaVRMcVFyVk5tNUhpRUlwd0stRnplUW9lNzdkWG9ndlNmekY4SlFla1VsUWEzR0c2cWF6TTZEbW94MGhaZVVIQTJIX3FYLUQ5SWdnaFRRZVM0?oc=5",
-            "candidate_event": false,
-            "event_date": "2023-08-09"
-          },
-          {
-            "id": "13825669eb2144e09ce53342317d50ffbce4d1df",
-            "source": "VOA Afrique (FR)",
-            "title": "Attack kills 17 and injures 5 in Niger - VOA Africa",
-            "summary": "Attack kills 17 and injures 5 in Niger VOA Africa",
-            "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQWkx1bG9fMGtRLUJVVzdZX05FcWNweGdpcWpXR0tYMFRIWjJKTWRlel90MU5XbmZUSnptTDh0Y3p5LUJXUHJKTjhkTWtnVTdYU3FhVUtTOTZBSkFvMF90WmRoSm5PLUtkZk9lNGl1a05ybHFEcmJmOUVTTjFQSDZ4X0dlQkl4dzVrODl3VFZVR3NEcEw0TnBObUd30gGcAUFVX3lxTE5ncllBd1VrQkZ0dHJ1MEsxaW9wZjZEWkVsajFqQVBSSTVMRXJOVko4OFhBY0kxVi1ZSy14VWdfLVFwTjV3RWNqWUJMV1QzU1MzNDZqSFVOalFXa1VKelFfMldYTGx2MmVQbGVNZkdPdmhiSmZ3NHctMEoxSGxocWJDVnFNd3hDQ0x3MUg1dkRJZ3UtSWVZaE9SVUxoTw?oc=5",
-            "candidate_event": false,
-            "event_date": "2021-08-21"
-          }
-        ]
-      },
-      "collection_notes": {
-        "sources_total": 0,
-        "sources_success": 0,
-        "sources_failed": 0,
-        "sources_degraded": null,
-        "documents_discovered": 0,
-        "documents_retained": 0,
-        "report_target": 100,
-        "translations_attempted": 0,
-        "translations_success": 0,
-        "translation_failures": 0,
-        "collection_confidence": "LOW",
-        "collection_confidence_reasons": [
-          "no completed collection run recorded for this date"
-        ],
-        "reports_collected": 82,
-        "reports_published": 14,
-        "distinct_sources_collected": 41,
-        "language_counts": {
-          "fr": 36,
-          "en": 42,
-          "ar": 4
-        }
-      },
-      "sultana_daily_text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nDaily bottom line for 2026-09-22: Reporting dated 2026-09-22 gives the desk 1 incident account to examine in Mali. None has support from a second independent source. The record is provisional; it does not establish the full extent of violence that day.\n\nMali: 52 retained reports. 1. Tenenkou: National Day in Cohesion. Ténenkou, September 22 (AMAP)– The 66th anniversary of Mali's independence was celebrated on Tuesday in Ténenkou, in communion, culminating in the final of the Social Cohesion Cup, organized by the FAMOC II project through Active Citizen, noted AMAP The ceremony took place at the Afourou Gourdo Djigandé stadium, in the presence of the second deputy to the prefect, the Chief Commissioner of Police Ousmane Diamouténé, the second deputy to the mayor, Soumaïla B. 2. Mali: Assimi Goïta calls for unity around the Republic and support for FAMa. Bamako, September 22 (AMAP)– The President of the Transition, Lieutenant General Assimi Goïta, on Tuesday called for \"the sacred union around the Republic\" and support for the Malian Armed Forces (FAMa), on the occasion of the celebration of the 66th anniversary of Mali's independence, to the Military Engineer, noted AMAP In his message, the Head of State called on Malians to maintain their determination in the face of the challenges facing the country, believing that these include compromising social cohesion, living together and peace \"Mali has never shied away from adversity, and we will face all these… 3. In Macina and Bamako, displaced people are asking for more assistance.. In Macina, in the Ségou region, displaced people from the village of Souleye, who fled an attack in early September, are asking for more assistance. Arriving with very few possessions, some say they lost their identity documents in their flight. On the outskirts of Bamako, other displaced people are also facing food difficulties, housing costs and back-to-school expenses .\n\nBurkina Faso: 13 retained reports. 1. Ouagadougou: terrorist attack simulation exercise this Saturday - wakatsera.com. Ouagadougou: terrorist attack simulation exercise this Saturday wakatsera.com 2. Working meeting in Ouagadougou on Mali-Burkina Faso military cooperation - amap.ml. Working meeting in Ouagadougou on Mali-Burkina Faso military cooperation amap.ml 3. Massacre in Burkina Faso left 600 dead, double previous estimates, according to French security assessment - CNN. Massacre in Burkina Faso left 600 dead, double previous estimates, according to French security assessment CNN\n\nNiger: 16 retained reports. 1. Niger Mutiny Highlights Russia’s Regime Protection Role. The sound of gunfire and explosions began about 1 a.m. on August 29, setting off a night of intense fighting at Air Base 101, a military installation at Diori Hamani International Airport in Niger’s capital. The third attack of the year on Niamey, after one in January by an Islamic State group affiliate and another in June by al-Qaida’s Jama’at Nusrat al-Islam wal-Muslimin, was different. 2. Guarding and security: the Nigerienne des Eaux launches a call for tenders for the recruitment of 536 guards in eight regions. Republic OF NIGER ------------- Ministry of Hydraulics, Environment and Sanitation - This Invitation to Tender follows the Provisional Procurement Plan (PPM) published in the newspaper Le Sahel Dimanche N° 2185 of 20 February 2026, the newspaper Niger Times N° 439 of 20 February 2026, and published on the website of the NDE www.nde-niger.com, Niger Marché www.nigermarches.com, Actu Niger www.actuniger.com and in the SIGMAP. 3. 33 months unpaid rent threatens war against oil bunkering. By Jimitota Onoyume, Assistant News Editor The war against illegal oil bunkering in the Niger Delta may be facing an unlikely, yet potent, enemy from a massive backlog of unpaid rent for House boats used to combat illegal bunkering activities and related maritime crimes The Nigerian Army and three indigenous houseboat contractors in the Niger Delta have been at the Federal High Court in Port Harcourt, over 33-month-long disputes on allegedly unpaid rental services.\n\nActor picture: JNIM 0, IS Sahel 0, State 1.\n\nWhat changed: State: -2 same-day fused event(s) versus 2026-09-21 (3 → 1). Collection volume: +59 retained report(s) versus 2026-09-21 (23 → 82).\n\nIntelligence gaps: 1 same-day event(s) lack independent multi-source corroboration. 2 newly collected operational/candidate report(s) have unresolved or publication-proxy event dates. Collection confidence is low, so absence of reporting should not be interpreted as absence of activity.\n\nCollection confidence: LOW. no completed collection run recorded for this date\n\nAll retained source reports, including reports not promoted to the map, remain individually summarized in the intelligence feed and source records."
     }
   ]
 }
