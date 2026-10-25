@@ -2247,6 +2247,135 @@
     ]
   },
   {
+    "id": "bc25449a1ea045ee945049016821ef2cf88ffef2",
+    "event_date": "2026-10-19",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "explicit-date-no-year",
+    "published_at": "2026-10-19T10:48:52Z",
+    "published_date_source": "jsonld:datePublished",
+    "published_time_precision": "datetime",
+    "collected_at": "2026-10-25T19:09:47.707752Z",
+    "actor": "State",
+    "perpetrator": "State",
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [
+      "JNIM",
+      "State"
+    ],
+    "parent_report_id": null,
+    "event_type": "security operation",
+    "country": "Mali",
+    "city": "Bandiagara",
+    "lat": 14.35,
+    "lng": -3.61,
+    "locations": [
+      {
+        "name": "Bandiagara",
+        "country": "Mali",
+        "lat": 14.35,
+        "lng": -3.61,
+        "confidence": "explicit-place"
+      },
+      {
+        "name": "Sévaré",
+        "country": "Mali",
+        "lat": 14.5272,
+        "lng": -4.0934,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "Mali: HRW accuses army of beating civilians, JNIM refuses to punish execution of prisoners",
+    "summary": "Human Rights Watch (HRW) published an investigation into abuses since July in central and northern Mali on Monday, October 19. The NGO documents indiscriminate drone strikes by the Malian army and the execution of soldiers captured by JNIM and the Fla. HRW turns to the African Union, for lack of other interlocutor .",
+    "sources": [
+      "Afrik.com"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://www.afrik.com/mali-hrw-accuse-l-armee-de-frapper-des-civils-le-jnim-refuse-de-punir-l-execution-de-prisonniers"
+    ],
+    "report_summaries": [
+      {
+        "url": "https://www.afrik.com/mali-hrw-accuse-l-armee-de-frapper-des-civils-le-jnim-refuse-de-punir-l-execution-de-prisonniers",
+        "source": "Afrik.com",
+        "title": "Mali: HRW accuses army of beating civilians, JNIM refuses to punish execution of prisoners",
+        "summary": "Human Rights Watch (HRW) published an investigation into abuses since July in central and northern Mali on Monday, October 19. The NGO documents indiscriminate drone strikes by the Malian army and the execution of soldiers captured by JNIM and the Fla. HRW turns to the African Union, for lack of other interlocutor .",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": 20,
+        "injured_max": 20,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "civilian",
+          "security_force",
+          "armed_group"
+        ],
+        "civilian_targeting_flag": true,
+        "casualty_claims": [
+          {
+            "kind": "injured",
+            "count": 20,
+            "victim_text": "people",
+            "claimant": "armed-group claim",
+            "status": "reported",
+            "evidence": "Bandiagara, before dropping its ammunition, on the morning of August 19. Six men were killed, about twenty people injured, including two amputees in Sévaré. According to witnesses, no JNIM fighter, who controls the surrou"
+          }
+        ]
+      }
+    ],
+    "created_at": "2026-10-25T19:09:47.707752Z",
+    "updated_at": "2026-10-25T19:09:47.707752Z",
+    "extraction_confidence": "low",
+    "victim_categories": [
+      "civilian",
+      "security_force",
+      "armed_group"
+    ],
+    "civilian_targeting_flag": true,
+    "casualty_claims": [
+      {
+        "kind": "injured",
+        "count": 20,
+        "victim_text": "people",
+        "claimant": "armed-group claim",
+        "status": "reported",
+        "evidence": "Bandiagara, before dropping its ammunition, on the morning of August 19. Six men were killed, about twenty people injured, including two amputees in Sévaré. According to witnesses, no JNIM fighter, who controls the surrou",
+        "source": "Afrik.com"
+      }
+    ],
+    "fatalities_min": null,
+    "fatalities_max": null,
+    "fatalities_best": null,
+    "injured_min": 20,
+    "injured_max": 20,
+    "abducted_min": null,
+    "abducted_max": null,
+    "casualty_disputed": false,
+    "revision_history": [
+      {
+        "at": "2026-10-25T19:09:47.707752Z",
+        "type": "event_created",
+        "source": "Afrik.com"
+      }
+    ],
+    "corroboration": "single-source",
+    "confidence": "low",
+    "independent_source_domains": [
+      "afrik.com"
+    ],
+    "independent_source_count": 1,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "multi-location activity"
+    ]
+  },
+  {
     "id": "ee932765f8fcd4dd6c62645eae06312303482a4f",
     "event_date": "2026-10-19",
     "event_date_confidence": "publication-proxy",

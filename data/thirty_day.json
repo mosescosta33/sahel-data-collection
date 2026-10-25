@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-25T13:20:33.279120Z",
+  "generated_at": "2026-10-25T19:10:50.457744Z",
   "window_days": 30,
   "cutoff": "2026-09-25",
-  "reports": 631,
+  "reports": 632,
   "incident_reports": 158,
-  "candidate_events": 105,
+  "candidate_events": 106,
   "corroborated_events": 27,
-  "mapped_events": 83,
-  "mapped_locations": 153,
+  "mapped_events": 84,
+  "mapped_locations": 155,
   "distinct_sources": 86,
   "by_actor": {
-    "State": 64,
+    "State": 65,
     "JNIM": 16,
     "Other": 11,
     "Africa Corps/Wagner": 9,
     "IS Sahel": 5
   },
   "by_country": {
-    "Mali": 96,
+    "Mali": 97,
     "Niger": 7,
     "Burkina Faso": 2
   },
   "by_event_type": {
-    "security operation": 42,
+    "security operation": 43,
     "offensive/campaign": 15,
     "clash": 14,
     "attack": 12,
@@ -33,12 +33,12 @@
     "air/drone strike": 1
   },
   "by_language": {
-    "fr": 479,
-    "en": 116,
+    "fr": 478,
+    "en": 118,
     "ar": 36
   },
   "by_confidence": {
-    "low": 49,
+    "low": 50,
     "moderate": 48,
     "moderate-high": 6,
     "high": 2
@@ -47,12 +47,12 @@
     {
       "source_code": "SRC-0008",
       "source": "Bamada",
-      "count": 102
+      "count": 101
     },
     {
       "source_code": "SRC-0006",
       "source": "Malijet",
-      "count": 68
+      "count": 67
     },
     {
       "source_code": "SRC-0090",
@@ -100,9 +100,9 @@
       "count": 15
     },
     {
-      "source_code": "SRC-0004",
-      "source": "Studio Tamani",
-      "count": 13
+      "source_code": "SRC-0015",
+      "source": "ActuNiger",
+      "count": 14
     }
   ],
   "top_locations": [
@@ -273,8 +273,8 @@
     },
     {
       "date": "2026-10-19",
-      "reports": 35,
-      "events": 8
+      "reports": 36,
+      "events": 9
     },
     {
       "date": "2026-10-20",
@@ -303,7 +303,7 @@
     },
     {
       "date": "2026-10-25",
-      "reports": 9,
+      "reports": 14,
       "events": 0
     }
   ],
@@ -2556,6 +2556,135 @@
       ]
     },
     {
+      "id": "bc25449a1ea045ee945049016821ef2cf88ffef2",
+      "event_date": "2026-10-19",
+      "event_date_confidence": "explicit-text",
+      "event_date_source": "explicit-date-no-year",
+      "published_at": "2026-10-19T10:48:52Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-25T19:09:47.707752Z",
+      "actor": "State",
+      "perpetrator": "State",
+      "target": null,
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [
+        "JNIM",
+        "State"
+      ],
+      "parent_report_id": null,
+      "event_type": "security operation",
+      "country": "Mali",
+      "city": "Bandiagara",
+      "lat": 14.35,
+      "lng": -3.61,
+      "locations": [
+        {
+          "name": "Bandiagara",
+          "country": "Mali",
+          "lat": 14.35,
+          "lng": -3.61,
+          "confidence": "explicit-place"
+        },
+        {
+          "name": "Sévaré",
+          "country": "Mali",
+          "lat": 14.5272,
+          "lng": -4.0934,
+          "confidence": "explicit-place"
+        }
+      ],
+      "title": "Mali: HRW accuses army of beating civilians, JNIM refuses to punish execution of prisoners",
+      "summary": "Human Rights Watch (HRW) published an investigation into abuses since July in central and northern Mali on Monday, October 19. The NGO documents indiscriminate drone strikes by the Malian army and the execution of soldiers captured by JNIM and the Fla. HRW turns to the African Union, for lack of other interlocutor .",
+      "sources": [
+        "Afrik.com"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://www.afrik.com/mali-hrw-accuse-l-armee-de-frapper-des-civils-le-jnim-refuse-de-punir-l-execution-de-prisonniers"
+      ],
+      "report_summaries": [
+        {
+          "url": "https://www.afrik.com/mali-hrw-accuse-l-armee-de-frapper-des-civils-le-jnim-refuse-de-punir-l-execution-de-prisonniers",
+          "source": "Afrik.com",
+          "title": "Mali: HRW accuses army of beating civilians, JNIM refuses to punish execution of prisoners",
+          "summary": "Human Rights Watch (HRW) published an investigation into abuses since July in central and northern Mali on Monday, October 19. The NGO documents indiscriminate drone strikes by the Malian army and the execution of soldiers captured by JNIM and the Fla. HRW turns to the African Union, for lack of other interlocutor .",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": 20,
+          "injured_max": 20,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "civilian",
+            "security_force",
+            "armed_group"
+          ],
+          "civilian_targeting_flag": true,
+          "casualty_claims": [
+            {
+              "kind": "injured",
+              "count": 20,
+              "victim_text": "people",
+              "claimant": "armed-group claim",
+              "status": "reported",
+              "evidence": "Bandiagara, before dropping its ammunition, on the morning of August 19. Six men were killed, about twenty people injured, including two amputees in Sévaré. According to witnesses, no JNIM fighter, who controls the surrou"
+            }
+          ]
+        }
+      ],
+      "created_at": "2026-10-25T19:09:47.707752Z",
+      "updated_at": "2026-10-25T19:09:47.707752Z",
+      "extraction_confidence": "low",
+      "victim_categories": [
+        "civilian",
+        "security_force",
+        "armed_group"
+      ],
+      "civilian_targeting_flag": true,
+      "casualty_claims": [
+        {
+          "kind": "injured",
+          "count": 20,
+          "victim_text": "people",
+          "claimant": "armed-group claim",
+          "status": "reported",
+          "evidence": "Bandiagara, before dropping its ammunition, on the morning of August 19. Six men were killed, about twenty people injured, including two amputees in Sévaré. According to witnesses, no JNIM fighter, who controls the surrou",
+          "source": "Afrik.com"
+        }
+      ],
+      "fatalities_min": null,
+      "fatalities_max": null,
+      "fatalities_best": null,
+      "injured_min": 20,
+      "injured_max": 20,
+      "abducted_min": null,
+      "abducted_max": null,
+      "casualty_disputed": false,
+      "revision_history": [
+        {
+          "at": "2026-10-25T19:09:47.707752Z",
+          "type": "event_created",
+          "source": "Afrik.com"
+        }
+      ],
+      "corroboration": "single-source",
+      "confidence": "low",
+      "independent_source_domains": [
+        "afrik.com"
+      ],
+      "independent_source_count": 1,
+      "significance": "MAJOR",
+      "significance_reasons": [
+        "multi-location activity"
+      ]
+    },
+    {
       "id": "ee932765f8fcd4dd6c62645eae06312303482a4f",
       "event_date": "2026-10-19",
       "event_date_confidence": "publication-proxy",
@@ -3429,126 +3558,99 @@
       "significance_reasons": [
         "multi-location activity"
       ]
-    },
-    {
-      "id": "5a8541abc9724c12880132fbb8b2b70b280b0070",
-      "event_date": "2026-10-18",
-      "event_date_confidence": "explicit-text",
-      "event_date_source": "explicit-date-no-year",
-      "published_at": "2026-10-20T16:05:03Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-20T20:06:22.467944Z",
-      "actor": "JNIM",
-      "perpetrator": null,
-      "target": "IS Sahel",
-      "claimant": null,
-      "supporting_force": null,
-      "mentioned_actors": [
-        "IS Sahel"
-      ],
-      "parent_report_id": null,
-      "event_type": "civilian targeting",
-      "country": "Mali",
-      "city": "Ménaka",
-      "lat": 15.9182,
-      "lng": 2.4022,
-      "locations": [
-        {
-          "name": "Ménaka",
-          "country": "Mali",
-          "lat": 15.9182,
-          "lng": 2.4022,
-          "confidence": "explicit-place"
-        }
-      ],
-      "title": "Menaka: at least 48 civilians killed in attacks on camps",
-      "summary": "At least 48 civilians were reportedly killed on Sunday, October 18, in attacks on camps near Menaka in northeastern Mali. The Executive Office of the Idaksahak community accuses elements of the Islamic State in the Sahel (ISIS). This violence occurs in the context of clashes between rival armed groups in the region.",
-      "sources": [
-        "Studio Tamani"
-      ],
-      "languages": [
-        "fr"
-      ],
-      "source_count": 1,
-      "report_urls": [
-        "https://www.studiotamani.org/209304-menaka-au-moins-48-civils-tues-dans-des-attaques-contre-des-campements"
-      ],
-      "report_summaries": [
-        {
-          "url": "https://www.studiotamani.org/209304-menaka-au-moins-48-civils-tues-dans-des-attaques-contre-des-campements",
-          "source": "Studio Tamani",
-          "title": "Menaka: at least 48 civilians killed in attacks on camps",
-          "summary": "At least 48 civilians were reportedly killed on Sunday, October 18, in attacks on camps near Menaka in northeastern Mali. The Executive Office of the Idaksahak community accuses elements of the Islamic State in the Sahel (ISIS). This violence occurs in the context of clashes between rival armed groups in the region.",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": 48,
-          "fatalities_max": 48,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "civilian"
-          ],
-          "civilian_targeting_flag": true,
-          "casualty_claims": [
-            {
-              "kind": "fatalities",
-              "count": 48,
-              "victim_text": "civilians",
-              "claimant": "Studio Tamani",
-              "status": "reported",
-              "evidence": "Menaka: at least 48 civilians killed in attacks on camps At least 48 civilians were reportedly killed on Sunday, October 18, in attacks"
-            }
-          ]
-        }
-      ],
-      "created_at": "2026-10-20T20:06:22.467944Z",
-      "updated_at": "2026-10-20T20:06:22.467944Z",
-      "extraction_confidence": "low",
-      "victim_categories": [
-        "civilian"
-      ],
-      "civilian_targeting_flag": true,
-      "casualty_claims": [
-        {
-          "kind": "fatalities",
-          "count": 48,
-          "victim_text": "civilians",
-          "claimant": "Studio Tamani",
-          "status": "reported",
-          "evidence": "Menaka: at least 48 civilians killed in attacks on camps At least 48 civilians were reportedly killed on Sunday, October 18, in attacks",
-          "source": "Studio Tamani"
-        }
-      ],
-      "fatalities_min": 48,
-      "fatalities_max": 48,
-      "fatalities_best": 48,
-      "injured_min": null,
-      "injured_max": null,
-      "abducted_min": null,
-      "abducted_max": null,
-      "casualty_disputed": false,
-      "revision_history": [
-        {
-          "at": "2026-10-20T20:06:22.467944Z",
-          "type": "event_created",
-          "source": "Studio Tamani"
-        }
-      ],
-      "corroboration": "single-source",
-      "confidence": "low",
-      "independent_source_domains": [
-        "studiotamani.org"
-      ],
-      "independent_source_count": 1,
-      "significance": "SIGNIFICANT",
-      "significance_reasons": [
-        "operational security event"
-      ]
     }
   ],
   "latest_reports": [
+    {
+      "published_at": "2026-10-25T18:13:42Z",
+      "published_date_source": "itemprop",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-25T19:09:38.763245Z",
+      "discovered_at": "2026-10-25T19:09:38.763245Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0015",
+      "source": "ActuNiger",
+      "language": "fr",
+      "actor": null,
+      "country": "Niger",
+      "city": "Niamey",
+      "event_type": "political/security policy",
+      "candidate_event": false,
+      "title": "Military cooperation: at the request of Niamey, Algeria will deploy soldiers in Niger",
+      "url": "https://www.actuniger.com/societe/22496-cooperation-militaire-a-la-demande-de-niamey-lalgerie-va-deployer-des-soldats-au-niger"
+    },
+    {
+      "published_at": "2026-10-25T16:44:23Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-25T19:09:41.571702Z",
+      "discovered_at": "2026-10-25T19:09:41.571702Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0168",
+      "source": "Tchadinfos (النسخة العربية)",
+      "language": "fr",
+      "actor": null,
+      "country": "Niger",
+      "city": null,
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Algeria: Senate approves sending troops to Niger",
+      "url": "https://tchadinfos.com/2026/10/25/algerie-le-senat-approuve-lenvoi-de-troupes-au-niger/"
+    },
+    {
+      "published_at": "2026-10-25T15:32:23.578000Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-25T19:09:42.963817Z",
+      "discovered_at": "2026-10-25T19:09:42.963817Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0106",
+      "source": "TRT World (Africa)",
+      "language": "en",
+      "actor": "State",
+      "country": "Niger",
+      "city": "Niamey",
+      "event_type": "security operation",
+      "candidate_event": false,
+      "title": "Algeria moves to send troops to Niger to protect energy assets in historic policy shift The upper house of parliament backs a proposed overseas deployment as Algiers deepens security ties with Niamey and seeks to safeguard strategic projects, including a planned gas pipeline linking Nigeria to European markets.",
+      "url": "https://www.trtworld.com/article/c2a46e6f8831"
+    },
+    {
+      "published_at": "2026-10-25T13:31:02.355000Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-25T19:09:40.721311Z",
+      "discovered_at": "2026-10-25T19:09:40.721311Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0094",
+      "source": "TRT Français",
+      "language": "fr",
+      "actor": null,
+      "country": "Niger",
+      "city": "Niamey",
+      "event_type": "political/security policy",
+      "candidate_event": false,
+      "title": "Algeria: Parliament unanimously votes on a decision to send army units to Niger The decision to send Algerian troops to Niger came four days after the signing of a memorandum of understanding to strengthen military cooperation between Algiers and Niamey.",
+      "url": "https://www.trtfrancais.com/article/baeffae25783"
+    },
+    {
+      "published_at": "2026-10-25T13:27:03Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-25T19:09:43.595420Z",
+      "discovered_at": "2026-10-25T19:09:43.595420Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0124",
+      "source": "News Central TV (Nigeria)",
+      "language": "en",
+      "actor": "State",
+      "country": "Niger",
+      "city": null,
+      "event_type": "political/security policy",
+      "candidate_event": false,
+      "title": "Algeria Senate Approves Troop Deployment to Niger",
+      "url": "https://newscentraltv.com/algeria-senate-approves-troop-deployment-to-niger/"
+    },
     {
       "published_at": "2026-10-25T12:49:22Z",
       "published_date_source": "jsonld:datePublished",
@@ -4178,96 +4280,6 @@
       "candidate_event": true,
       "title": "Security situation: More than 4,880 terrorists neutralized and 162 bases destroyed by FAMa",
       "url": "https://amap.ml/2026/10/23/situation-securitaire-plus-de-4-880-terroristes-neutralises-et-162-bases-detruites-par-les-fama/"
-    },
-    {
-      "published_at": "2026-10-23T14:59:44Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-23T20:04:07.620762Z",
-      "discovered_at": "2026-10-23T20:04:07.620762Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0006",
-      "source": "Malijet",
-      "language": "fr",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Kidal",
-      "event_type": "security operation",
-      "candidate_event": true,
-      "title": "Press briefing: the FAMa announce more than 4,880 neutralized terrorist fighters",
-      "url": "https://malijet.com/a_la_une_du_mali/312478-point-de-presse-les-fama-annoncent-plus-de-4-880-combattant.html"
-    },
-    {
-      "published_at": "2026-10-23T14:34:36Z",
-      "published_date_source": "opengraph",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-23T20:04:10.684066Z",
-      "discovered_at": "2026-10-23T20:04:10.684066Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0090",
-      "source": "AllAfrica (Édition Française)",
-      "language": "fr",
-      "actor": null,
-      "country": "Niger",
-      "city": "Niamey",
-      "event_type": "political/security policy",
-      "candidate_event": false,
-      "title": "Africa: Algeria and Niger sign \"a memorandum of understanding\" to strengthen their military cooperation",
-      "url": "https://fr.allafrica.com/stories/202610230432.html"
-    },
-    {
-      "published_at": "2026-10-23T13:49:18Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-23T20:04:08.526625Z",
-      "discovered_at": "2026-10-23T20:04:08.526625Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0004",
-      "source": "Studio Tamani",
-      "language": "fr",
-      "actor": "Other",
-      "country": "Mali",
-      "city": "Bandiagara",
-      "event_type": "attack",
-      "candidate_event": true,
-      "title": "Bandiagara: one dead and one injured in an attack in Danlekanda",
-      "url": "https://www.studiotamani.org/209428-bandiagara-un-mort-et-un-blesse-dans-une-attaque-a-danlekanda"
-    },
-    {
-      "published_at": "2026-10-23T13:05:40Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-23T13:36:09.181130Z",
-      "discovered_at": "2026-10-23T13:36:09.181130Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0001",
-      "source": "RFI Afrique",
-      "language": "fr",
-      "actor": null,
-      "country": "Niger",
-      "city": "Niamey",
-      "event_type": "political/security policy",
-      "candidate_event": false,
-      "title": "Algeria and Niger sign 'Memorandum of Understanding' to strengthen military cooperation",
-      "url": "https://www.rfi.fr/fr/afrique/20261023-l-alg%C3%A9rie-et-le-niger-signent-un-protocole-d-accord-pour-renforcer-leur-coop%C3%A9ration-militaire"
-    },
-    {
-      "published_at": "2026-10-23T12:31:17Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-23T13:36:05.914896Z",
-      "discovered_at": "2026-10-23T13:36:05.914896Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0040",
-      "source": "Mondafrique",
-      "language": "fr",
-      "actor": null,
-      "country": "Mali",
-      "city": null,
-      "event_type": "security operation",
-      "candidate_event": false,
-      "title": "Speculations on Mali-Algeria border cooperation",
-      "url": "https://mondafrique.com/decryptage/speculations-sur-une-cooperation-frontaliere-mali-algerie/"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
