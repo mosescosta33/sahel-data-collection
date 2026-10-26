@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-10-26T15:22:20.989465Z",
+  "generated_at": "2026-10-26T21:10:04.939491Z",
   "window_days": 30,
   "cutoff": "2026-09-26",
-  "reports": 662,
-  "incident_reports": 162,
-  "candidate_events": 107,
-  "corroborated_events": 29,
-  "mapped_events": 85,
-  "mapped_locations": 160,
+  "reports": 679,
+  "incident_reports": 164,
+  "candidate_events": 109,
+  "corroborated_events": 30,
+  "mapped_events": 87,
+  "mapped_locations": 163,
   "distinct_sources": 87,
   "by_actor": {
-    "State": 65,
+    "State": 67,
     "JNIM": 17,
     "Other": 11,
     "Africa Corps/Wagner": 9,
     "IS Sahel": 5
   },
   "by_country": {
-    "Mali": 98,
+    "Mali": 100,
     "Niger": 7,
     "Burkina Faso": 2
   },
@@ -26,20 +26,20 @@
     "offensive/campaign": 15,
     "clash": 14,
     "attack": 12,
-    "civilian targeting": 8,
+    "civilian targeting": 9,
     "kidnapping": 7,
     "raid": 4,
     "ambush": 3,
-    "air/drone strike": 1
+    "air/drone strike": 2
   },
   "by_language": {
-    "fr": 500,
-    "en": 125,
-    "ar": 37
+    "fr": 511,
+    "en": 128,
+    "ar": 40
   },
   "by_confidence": {
     "low": 51,
-    "moderate": 47,
+    "moderate": 49,
     "moderate-high": 7,
     "high": 2
   },
@@ -52,7 +52,7 @@
     {
       "source_code": "SRC-0006",
       "source": "Malijet",
-      "count": 70
+      "count": 69
     },
     {
       "source_code": "SRC-0090",
@@ -62,12 +62,12 @@
     {
       "source_code": "SRC-0075",
       "source": "AMAP (Agence Malienne de Presse et de Publicité)",
-      "count": 24
+      "count": 25
     },
     {
       "source_code": "SRC-0001",
       "source": "RFI Afrique",
-      "count": 23
+      "count": 24
     },
     {
       "source_code": "SRC-0092",
@@ -90,19 +90,19 @@
       "count": 16
     },
     {
+      "source_code": "SRC-0022",
+      "source": "Africanews",
+      "count": 16
+    },
+    {
       "source_code": "SRC-0034",
       "source": "TV5MONDE Afrique",
       "count": 16
     },
     {
-      "source_code": "SRC-0022",
-      "source": "Africanews",
+      "source_code": "SRC-0015",
+      "source": "ActuNiger",
       "count": 15
-    },
-    {
-      "source_code": "SRC-0013",
-      "source": "Wakat Sera",
-      "count": 14
     }
   ],
   "top_locations": [
@@ -112,7 +112,7 @@
     },
     {
       "location": "Ménaka",
-      "count": 19
+      "count": 20
     },
     {
       "location": "Mali",
@@ -136,7 +136,7 @@
     },
     {
       "location": "Timbuktu",
-      "count": 7
+      "count": 8
     },
     {
       "location": "Tessalit",
@@ -289,7 +289,7 @@
     {
       "date": "2026-10-23",
       "reports": 24,
-      "events": 3
+      "events": 4
     },
     {
       "date": "2026-10-24",
@@ -303,11 +303,138 @@
     },
     {
       "date": "2026-10-26",
-      "reports": 31,
-      "events": 1
+      "reports": 51,
+      "events": 2
     }
   ],
   "latest_events": [
+    {
+      "id": "f4ca6f5cf67fa370bb934627250c377458694bb5",
+      "event_date": "2026-10-26",
+      "event_date_confidence": "explicit-text",
+      "event_date_source": "explicit-date-no-year",
+      "published_at": "2026-10-26T17:45:31Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-26T21:07:33.816825Z",
+      "actor": "State",
+      "perpetrator": "State",
+      "target": "State",
+      "claimant": null,
+      "supporting_force": "Africa Corps/Wagner",
+      "mentioned_actors": [
+        "State",
+        "Africa Corps/Wagner"
+      ],
+      "parent_report_id": null,
+      "event_type": "air/drone strike",
+      "country": "Mali",
+      "city": "Timbuktu",
+      "lat": 16.7666,
+      "lng": -3.0026,
+      "locations": [
+        {
+          "name": "Timbuktu",
+          "country": "Mali",
+          "lat": 16.7666,
+          "lng": -3.0026,
+          "confidence": "explicit-place"
+        },
+        {
+          "name": "Goundam",
+          "country": "Mali",
+          "lat": 16.4167,
+          "lng": -3.6667,
+          "confidence": "explicit-place"
+        }
+      ],
+      "title": "Mali: thirteen civilians killed by an army drone strike, in the Timbuktu region",
+      "summary": "In Mali, thirteen civilians, including six children, were killed, on the night of Sunday to Monday, October 26, by a drone strike by the Malian army, near Lerneb, in the Timbuktu region, according to information verified by RFI from many local sources. The General Staff did not communicate about this strike . Published on: The Malian army is fighting, with its Russian partners in the Africa Corps, jihadist or pro-independence groups active in the country.",
+      "sources": [
+        "RFI Afrique"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://www.rfi.fr/fr/afrique/20261026-mali-treize-civils-tu%C3%A9s-par-une-frappe-de-drone-de-l-arm%C3%A9e-dans-la-r%C3%A9gion-de-tombouctou"
+      ],
+      "report_summaries": [
+        {
+          "url": "https://www.rfi.fr/fr/afrique/20261026-mali-treize-civils-tu%C3%A9s-par-une-frappe-de-drone-de-l-arm%C3%A9e-dans-la-r%C3%A9gion-de-tombouctou",
+          "source": "RFI Afrique",
+          "title": "Mali: thirteen civilians killed by an army drone strike, in the Timbuktu region",
+          "summary": "In Mali, thirteen civilians, including six children, were killed, on the night of Sunday to Monday, October 26, by a drone strike by the Malian army, near Lerneb, in the Timbuktu region, according to information verified by RFI from many local sources. The General Staff did not communicate about this strike . Published on: The Malian army is fighting, with its Russian partners in the Africa Corps, jihadist or pro-independence groups active in the country.",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": 13,
+          "fatalities_max": 13,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "civilian",
+            "armed_group"
+          ],
+          "civilian_targeting_flag": true,
+          "casualty_claims": [
+            {
+              "kind": "fatalities",
+              "count": 13,
+              "victim_text": "civilians",
+              "claimant": "state/official source",
+              "status": "reported",
+              "evidence": "Mali: thirteen civilians killed by an army drone strike, in the Timbuktu region Mali: thirteen civilians killed by an army drone st"
+            }
+          ]
+        }
+      ],
+      "created_at": "2026-10-26T21:07:33.816825Z",
+      "updated_at": "2026-10-26T21:07:33.816825Z",
+      "extraction_confidence": "moderate",
+      "victim_categories": [
+        "civilian",
+        "armed_group"
+      ],
+      "civilian_targeting_flag": true,
+      "casualty_claims": [
+        {
+          "kind": "fatalities",
+          "count": 13,
+          "victim_text": "civilians",
+          "claimant": "state/official source",
+          "status": "reported",
+          "evidence": "Mali: thirteen civilians killed by an army drone strike, in the Timbuktu region Mali: thirteen civilians killed by an army drone st",
+          "source": "RFI Afrique"
+        }
+      ],
+      "fatalities_min": 13,
+      "fatalities_max": 13,
+      "fatalities_best": 13,
+      "injured_min": null,
+      "injured_max": null,
+      "abducted_min": null,
+      "abducted_max": null,
+      "casualty_disputed": false,
+      "revision_history": [
+        {
+          "at": "2026-10-26T21:07:33.816825Z",
+          "type": "event_created",
+          "source": "RFI Afrique"
+        }
+      ],
+      "corroboration": "single-source",
+      "confidence": "moderate",
+      "independent_source_domains": [
+        "rfi.fr"
+      ],
+      "independent_source_count": 1,
+      "significance": "MAJOR",
+      "significance_reasons": [
+        "multi-location activity"
+      ]
+    },
     {
       "id": "1e59685b4411597a69520b30f389abfb4cbcad7a",
       "event_date": "2026-10-26",
@@ -901,6 +1028,130 @@
       "significance": "SIGNIFICANT",
       "significance_reasons": [
         "operational security event"
+      ]
+    },
+    {
+      "id": "ac897c56b96e4d6649426203ef85ba126d57b966",
+      "event_date": "2026-10-23",
+      "event_date_confidence": "explicit-text",
+      "event_date_source": "relative-weekday",
+      "published_at": "2026-10-26T17:30:18Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-26T21:07:33.856277Z",
+      "actor": "State",
+      "perpetrator": "State",
+      "target": null,
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [
+        "State"
+      ],
+      "parent_report_id": null,
+      "event_type": "civilian targeting",
+      "country": "Mali",
+      "city": "Ménaka",
+      "lat": 15.9182,
+      "lng": 2.4022,
+      "locations": [
+        {
+          "name": "Ménaka",
+          "country": "Mali",
+          "lat": 15.9182,
+          "lng": 2.4022,
+          "confidence": "explicit-place"
+        }
+      ],
+      "title": "The CNDH condemns the killings in Menaka and calls for investigations",
+      "summary": "Nearly 60 bodies were discovered in a mass grave at a camp near Menaka. The information was announced last Friday by the Directorate of Information and Public Relations of the Armed Forces (DIRPA), after attacks on several camps around the city. According to local sources, a massacre of civilians of such magnitude had not been reported in the region since 2020 .",
+      "sources": [
+        "Studio Tamani",
+        "Bamada"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "source_count": 2,
+      "report_urls": [
+        "https://www.studiotamani.org/209519-la-cndh-condamne-les-tueries-a-menaka-et-reclame-des-enquetes",
+        "https://bamada.net/la-cndh-condamne-les-tueries-a-menaka-et-reclame-des-enquetes"
+      ],
+      "report_summaries": [
+        {
+          "url": "https://www.studiotamani.org/209519-la-cndh-condamne-les-tueries-a-menaka-et-reclame-des-enquetes",
+          "source": "Studio Tamani",
+          "title": "The CNDH condemns the killings in Menaka and calls for investigations",
+          "summary": "Nearly 60 bodies were discovered in a mass grave at a camp near Menaka. The information was announced last Friday by the Directorate of Information and Public Relations of the Armed Forces (DIRPA), after attacks on several camps around the city. According to local sources, a massacre of civilians of such magnitude had not been reported in the region since 2020 .",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "civilian"
+          ],
+          "civilian_targeting_flag": true,
+          "casualty_claims": []
+        },
+        {
+          "url": "https://bamada.net/la-cndh-condamne-les-tueries-a-menaka-et-reclame-des-enquetes",
+          "source": "Bamada",
+          "title": "The CNDH condemns the killings in Menaka and calls for investigations",
+          "summary": "Nearly 60 bodies were discovered in a mass grave at a camp near Menaka. The information was announced last Friday by the Directorate of Information and Public Relations of the Armed Forces (DIRPA), after attacks on several camps around the city. According to local sources, a massacre of civilians of such magnitude had not been reported in the region since 2020 .",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "civilian"
+          ],
+          "civilian_targeting_flag": true,
+          "casualty_claims": []
+        }
+      ],
+      "created_at": "2026-10-26T21:07:33.856277Z",
+      "updated_at": "2026-10-26T21:07:33.367217Z",
+      "extraction_confidence": "low",
+      "victim_categories": [
+        "civilian"
+      ],
+      "civilian_targeting_flag": true,
+      "casualty_claims": [],
+      "fatalities_min": null,
+      "fatalities_max": null,
+      "fatalities_best": null,
+      "injured_min": null,
+      "injured_max": null,
+      "abducted_min": null,
+      "abducted_max": null,
+      "casualty_disputed": false,
+      "revision_history": [
+        {
+          "at": "2026-10-26T21:07:33.856277Z",
+          "type": "event_created",
+          "source": "Studio Tamani"
+        },
+        {
+          "at": "2026-10-26T21:07:33.367217Z",
+          "type": "corroboration_or_geography_update",
+          "source": "Bamada"
+        }
+      ],
+      "corroboration": "limited corroboration",
+      "confidence": "moderate",
+      "independent_source_domains": [
+        "studiotamani.org",
+        "bamada.net"
+      ],
+      "independent_source_count": 2,
+      "significance": "MAJOR",
+      "significance_reasons": [
+        "strategic/severe event pattern"
       ]
     },
     {
@@ -3455,195 +3706,279 @@
       "significance_reasons": [
         "strategic/severe event pattern"
       ]
-    },
-    {
-      "id": "6c2a2b90c392c3fbe18ce3aab1e33b44bca7867c",
-      "event_date": "2026-10-19",
-      "event_date_confidence": "explicit-text",
-      "event_date_source": "relative-weekday",
-      "published_at": "2026-10-19T10:13:51Z",
-      "published_date_source": "opengraph",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-19T18:48:54.600630Z",
-      "actor": "JNIM",
-      "perpetrator": "JNIM",
-      "target": null,
-      "claimant": null,
-      "supporting_force": null,
-      "mentioned_actors": [
-        "JNIM"
-      ],
-      "parent_report_id": null,
-      "event_type": "attack",
-      "country": "Mali",
-      "city": null,
-      "lat": null,
-      "lng": null,
-      "locations": [],
-      "title": "Mali: Malian Army and Rebels Committing Abuses Against Civilians, Rights Group Says",
-      "summary": "The Malian army and its Russian paramilitary allies have killed civilians in violation of international law, Human Rights Watch (HRW) has said in a new report, which also confirms the al-Qaeda-linked jihadist group (JNIM) summarily executed Malian soldiers following an attack on a military convoy in July. \"The Malian military, armed groups and insurgent forces are committing grave laws-of-war violations while international organisations and governments largely stand by,\" the rights watchdog said in a new report published Monday.",
-      "sources": [
-        "AllAfrica (English Edition)"
-      ],
-      "languages": [
-        "en"
-      ],
-      "source_count": 1,
-      "report_urls": [
-        "https://allafrica.com/stories/202610190228.html"
-      ],
-      "report_summaries": [
-        {
-          "url": "https://allafrica.com/stories/202610190228.html",
-          "source": "AllAfrica (English Edition)",
-          "title": "Mali: Malian Army and Rebels Committing Abuses Against Civilians, Rights Group Says",
-          "summary": "The Malian army and its Russian paramilitary allies have killed civilians in violation of international law, Human Rights Watch (HRW) has said in a new report, which also confirms the al-Qaeda-linked jihadist group (JNIM) summarily executed Malian soldiers following an attack on a military convoy in July. \"The Malian military, armed groups and insurgent forces are committing grave laws-of-war violations while international organisations and governments largely stand by,\" the rights watchdog said in a new report published Monday.",
-          "summary_basis": "source-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "civilian",
-            "security_force",
-            "armed_group"
-          ],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        }
-      ],
-      "created_at": "2026-10-19T18:48:54.600630Z",
-      "updated_at": "2026-10-19T18:48:54.600630Z",
-      "extraction_confidence": "low",
-      "victim_categories": [
-        "civilian",
-        "security_force",
-        "armed_group"
-      ],
-      "civilian_targeting_flag": false,
-      "casualty_claims": [],
-      "fatalities_min": null,
-      "fatalities_max": null,
-      "fatalities_best": null,
-      "injured_min": null,
-      "injured_max": null,
-      "abducted_min": null,
-      "abducted_max": null,
-      "casualty_disputed": false,
-      "revision_history": [
-        {
-          "at": "2026-10-19T18:48:54.600630Z",
-          "type": "event_created",
-          "source": "AllAfrica (English Edition)"
-        }
-      ],
-      "corroboration": "single-source",
-      "confidence": "low",
-      "independent_source_domains": [
-        "allafrica.com"
-      ],
-      "independent_source_count": 1,
-      "significance": "SIGNIFICANT",
-      "significance_reasons": [
-        "operational security event"
-      ]
-    },
-    {
-      "id": "f0de1da6e5814ac66ab482cdceee3a8daee9cdb4",
-      "event_date": "2026-10-19",
-      "event_date_confidence": "publication-proxy",
-      "event_date_source": "jsonld:datePublished",
-      "published_at": "2026-10-19T06:05:36Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-19T09:00:56.702343Z",
-      "actor": "JNIM",
-      "perpetrator": null,
-      "target": "JNIM",
-      "claimant": null,
-      "supporting_force": null,
-      "mentioned_actors": [
-        "JNIM"
-      ],
-      "parent_report_id": null,
-      "event_type": "raid",
-      "country": "Mali",
-      "city": null,
-      "lat": null,
-      "lng": null,
-      "locations": [],
-      "title": "In Mali, mining companies caught between fiscal vice and logistical headache",
-      "summary": "In Mali, mining companies caught between fiscal stranglehold and logistical headache Faced with rising royalties, deteriorating security conditions or legal disputes with the ruling junta, mining companies navigate an increasingly uncertain environment Burned-out tanker trucks, blocked roads, besieged gas stations… After a particularly turbulent 2025, the numerous blockades imposed in the first half of 2026 by the Group for the Support of Islam and Muslims (JNIM) have weighed heavily on the Malian economy.",
-      "sources": [
-        "Jeune Afrique"
-      ],
-      "languages": [
-        "fr"
-      ],
-      "source_count": 1,
-      "report_urls": [
-        "https://www.jeuneafrique.com/1849767/economie-entreprises/au-mali-les-compagnies-minieres-prises-entre-etau-fiscal-et-casse-tete-logistique/"
-      ],
-      "report_summaries": [
-        {
-          "url": "https://www.jeuneafrique.com/1849767/economie-entreprises/au-mali-les-compagnies-minieres-prises-entre-etau-fiscal-et-casse-tete-logistique/",
-          "source": "Jeune Afrique",
-          "title": "In Mali, mining companies caught between fiscal vice and logistical headache",
-          "summary": "In Mali, mining companies caught between fiscal stranglehold and logistical headache Faced with rising royalties, deteriorating security conditions or legal disputes with the ruling junta, mining companies navigate an increasingly uncertain environment Burned-out tanker trucks, blocked roads, besieged gas stations… After a particularly turbulent 2025, the numerous blockades imposed in the first half of 2026 by the Group for the Support of Islam and Muslims (JNIM) have weighed heavily on the Malian economy.",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "civilian",
-            "journalist"
-          ],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        }
-      ],
-      "created_at": "2026-10-19T09:00:56.702343Z",
-      "updated_at": "2026-10-19T09:00:56.702343Z",
-      "extraction_confidence": "low",
-      "victim_categories": [
-        "civilian",
-        "journalist"
-      ],
-      "civilian_targeting_flag": false,
-      "casualty_claims": [],
-      "fatalities_min": null,
-      "fatalities_max": null,
-      "fatalities_best": null,
-      "injured_min": null,
-      "injured_max": null,
-      "abducted_min": null,
-      "abducted_max": null,
-      "casualty_disputed": false,
-      "revision_history": [
-        {
-          "at": "2026-10-19T09:00:56.702343Z",
-          "type": "event_created",
-          "source": "Jeune Afrique"
-        }
-      ],
-      "corroboration": "single-source",
-      "confidence": "low",
-      "independent_source_domains": [
-        "jeuneafrique.com"
-      ],
-      "independent_source_count": 1,
-      "significance": "MAJOR",
-      "significance_reasons": [
-        "strategic/severe event pattern"
-      ]
     }
   ],
   "latest_reports": [
+    {
+      "published_at": "2026-10-26T20:01:26Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-26T21:07:33.367217Z",
+      "discovered_at": "2026-10-26T21:07:33.367217Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0008",
+      "source": "Bamada",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Ménaka",
+      "event_type": "civilian targeting",
+      "candidate_event": true,
+      "title": "The CNDH condemns the killings in Menaka and calls for investigations",
+      "url": "https://bamada.net/la-cndh-condamne-les-tueries-a-menaka-et-reclame-des-enquetes"
+    },
+    {
+      "published_at": "2026-10-26T19:45:46Z",
+      "published_date_source": "opengraph",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-26T21:07:35.057020Z",
+      "discovered_at": "2026-10-26T21:07:35.057020Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0126",
+      "source": "The Heritage Times",
+      "language": "en",
+      "actor": null,
+      "country": "Niger",
+      "city": null,
+      "event_type": "political/security policy",
+      "candidate_event": false,
+      "title": "Algeria To Deploy Troops To Niger In First Foreign Mission In 53 Years",
+      "url": "https://www.theheritagetimes.com/algeria-to-deploy-troops-to-niger-in-first-foreign-mission-in-53-years/"
+    },
+    {
+      "published_at": "2026-10-26T18:39:50.136000Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-26T21:07:38.007406Z",
+      "discovered_at": "2026-10-26T21:07:38.007406Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0035",
+      "source": "DW Afrique (FR)",
+      "language": "fr",
+      "actor": null,
+      "country": "Niger",
+      "city": "Niamey",
+      "event_type": "political/security policy",
+      "candidate_event": false,
+      "title": "Algérie-Niger : un premier déploiement militaire algérien à l'étranger",
+      "url": "https://www.dw.com/fr/lalg%C3%A9rie-autorise-le-d%C3%A9ploiement-de-ses-troupes-au-niger/a-79770158"
+    },
+    {
+      "published_at": "2026-10-26T18:18:03Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-26T21:07:39.138151Z",
+      "discovered_at": "2026-10-26T21:07:39.138151Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0164",
+      "source": "Echorouk Online (الشروق أونلاين)",
+      "language": "ar",
+      "actor": "State",
+      "country": "Niger",
+      "city": null,
+      "event_type": null,
+      "candidate_event": false,
+      "title": "الجزائر الجيش الجزائري في النيجر… دلالات وأبعاد استراتيجية للقرار يرى الدكتور محمد الصالح جمّال، أستاذ العلوم السياسية والعلاقات الدولية أن مصادقة البرلمان على التماس إرسال مفرزة من الجيش الوطني الشعبي إلى النيجر، يعكس توجها استراتيجيا للرئيس عبد المجيد تبون، بصفته رئيسا… 2026/10/26",
+      "url": "https://www.echoroukonline.com/%d8%a7%d9%84%d8%ac%d9%8a%d8%b4-%d8%a7%d9%84%d8%ac%d8%b2%d8%a7%d8%a6%d8%b1%d9%8a-%d9%81%d9%8a-%d8%a7%d9%84%d9%86%d9%8a%d8%ac%d8%b1-%d8%af%d9%84%d8%a7%d9%84%d8%a7%d8%aa-%d9%88%d8%a3%d8%a8%d8%b9%d8%a7"
+    },
+    {
+      "published_at": "2026-10-26T18:06:34.523000Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-26T21:07:39.428504Z",
+      "discovered_at": "2026-10-26T21:07:39.428504Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0035",
+      "source": "DW Afrique (FR)",
+      "language": "fr",
+      "actor": null,
+      "country": "Mali",
+      "city": "Bamako",
+      "event_type": "clash",
+      "candidate_event": false,
+      "title": "Contre la Russie à tout prix : l‘Ukraine et les Touaregs du Mali",
+      "url": "https://www.dw.com/fr/le-soutien-plausible-de-lukraine-%C3%A0-des-groupes-arm%C3%A9s-au-mali/a-79768886"
+    },
+    {
+      "published_at": "2026-10-26T17:55:47Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-26T21:07:38.597708Z",
+      "discovered_at": "2026-10-26T21:07:38.597708Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0023",
+      "source": "Al Jazeera English",
+      "language": "en",
+      "actor": "State",
+      "country": "Niger",
+      "city": null,
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Algeria’s president orders troop deployment to neighbouring Niger",
+      "url": "https://www.aljazeera.com/news/2026/10/26/algerias-president-orders-troop-deployment-to-neighbouring-niger?traffic_source=rss"
+    },
+    {
+      "published_at": "2026-10-26T17:45:31Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-26T21:07:33.816825Z",
+      "discovered_at": "2026-10-26T21:07:33.816825Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0001",
+      "source": "RFI Afrique",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Timbuktu",
+      "event_type": "air/drone strike",
+      "candidate_event": true,
+      "title": "Mali: thirteen civilians killed by an army drone strike, in the Timbuktu region",
+      "url": "https://www.rfi.fr/fr/afrique/20261026-mali-treize-civils-tu%C3%A9s-par-une-frappe-de-drone-de-l-arm%C3%A9e-dans-la-r%C3%A9gion-de-tombouctou"
+    },
+    {
+      "published_at": "2026-10-26T17:30:18Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-26T21:07:33.856277Z",
+      "discovered_at": "2026-10-26T21:07:33.856277Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0004",
+      "source": "Studio Tamani",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Ménaka",
+      "event_type": "civilian targeting",
+      "candidate_event": true,
+      "title": "The CNDH condemns the killings in Menaka and calls for investigations",
+      "url": "https://www.studiotamani.org/209519-la-cndh-condamne-les-tueries-a-menaka-et-reclame-des-enquetes"
+    },
+    {
+      "published_at": "2026-10-26T17:27:31Z",
+      "published_date_source": "opengraph",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-26T21:07:36.967046Z",
+      "discovered_at": "2026-10-26T21:07:36.967046Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0079",
+      "source": "L'Essor",
+      "language": "fr",
+      "actor": null,
+      "country": "Mali",
+      "city": "Bamako",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "bamako: a conv...",
+      "url": "https://www.lessor.ml/posts/bamako-un-convoi-record-de-1107-camions-citernes-arrive-pour-renforcer-les-stocks-de-carburant-6adf8d832b90a"
+    },
+    {
+      "published_at": "2026-10-26T17:25:46Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-26T21:07:35.863459Z",
+      "discovered_at": "2026-10-26T21:07:35.863459Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0178",
+      "source": "Studio Yafa",
+      "language": "fr",
+      "actor": null,
+      "country": "Burkina Faso",
+      "city": null,
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Burkina Faso: death penalty, road traffic, embezzlement... the main changes to the new Penal Code",
+      "url": "https://www.studioyafa.bf/42487-burkina-faso-peine-de-mort-circulation-routiere-detournement-de-fonds-les-principaux-changements-du-nouveau-code-penal"
+    },
+    {
+      "published_at": "2026-10-26T17:21:16Z",
+      "published_date_source": "opengraph",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-26T21:07:38.720731Z",
+      "discovered_at": "2026-10-26T21:07:38.720731Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0079",
+      "source": "L'Essor",
+      "language": "fr",
+      "actor": null,
+      "country": "Mali",
+      "city": null,
+      "event_type": "political/security policy",
+      "candidate_event": false,
+      "title": "05:10 Diplomacy: MALI and GHANA SEAL A STRATEGIC and SECURITY PARTNERSHIP",
+      "url": "https://www.lessor.ml/posts/diplomatie-le-mali-et-le-ghana-scellent-un-partenariat-strategique-et-securitaire-6adf8c0c4507b"
+    },
+    {
+      "published_at": "2026-10-26T17:04:38Z",
+      "published_date_source": "itemprop",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-26T21:07:42.494516Z",
+      "discovered_at": "2026-10-26T21:07:42.494516Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0015",
+      "source": "ActuNiger",
+      "language": "fr",
+      "actor": "State",
+      "country": "Niger",
+      "city": null,
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Homeland security: 120 4×4 pickups and 100 motorcycles handed over to security forces",
+      "url": "https://www.actuniger.com/societe/22501-securite-interieure-120-pick-up-4-4-et-100-motos-remis-aux-forces-de-securite"
+    },
+    {
+      "published_at": "2026-10-26T16:58:39Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-26T21:07:39.051158Z",
+      "discovered_at": "2026-10-26T21:07:39.051158Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0057",
+      "source": "Al-Araby Al-Jadeed",
+      "language": "ar",
+      "actor": "State",
+      "country": "Niger",
+      "city": null,
+      "event_type": null,
+      "candidate_event": false,
+      "title": "تبون يصدر مرسوماً بإرسال قوات جزائرية إلى النيجر",
+      "url": "https://www.alaraby.co.uk/politics/%D8%AA%D8%A8%D9%88%D9%86-%D9%8A%D8%B5%D8%AF%D8%B1-%D9%85%D8%B1%D8%B3%D9%88%D9%85%D8%A7%D9%8B-%D8%A8%D8%A5%D8%B1%D8%B3%D8%A7%D9%84-%D9%82%D9%88%D8%A7%D8%AA-%D8%AC%D8%B2%D8%A7%D8%A6%D8%B1%D9%8A%D8%A9-%D8%A5%D9%84%D9%89-%D8%A7%D9%84%D9%86%D9%8A%D8%AC%D8%B1"
+    },
+    {
+      "published_at": "2026-10-26T16:55:52Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-26T21:07:35.719273Z",
+      "discovered_at": "2026-10-26T21:07:35.719273Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0175",
+      "source": "Ultra Sawt (ألترا صوت)",
+      "language": "ar",
+      "actor": "State",
+      "country": "Niger",
+      "city": null,
+      "event_type": null,
+      "candidate_event": false,
+      "title": "\"جيل جديد\" يعلّق على إرسال وحدات من الجيش إلى النيجر.. ما موقفه؟",
+      "url": "https://ultraalgeria.ultrasawt.com/%D8%AC%D9%8A%D9%84-%D8%AC%D8%AF%D9%8A%D8%AF-%D9%8A%D8%B9%D9%84%D9%91%D9%82-%D8%B9%D9%84%D9%89-%D8%A5%D8%B1%D8%B3%D8%A7%D9%84-%D9%88%D8%AD%D8%AF%D8%A7%D8%AA-%D9%85%D9%86-%D8%A7%D9%84%D8%AC%D9%8A%D8%B4-%D8%A5%D9%84%D9%89-%D8%A7%D9%84%D9%86%D9%8A%D8%AC%D8%B1-%D9%85%D8%A7-%D9%85%D9%88%D9%82%D9%81%D9%87%D8%9F/%D9%81%D8%B1%D9%8A%D9%82-%D8%A7%D9%84%D8%AA%D8%AD%D8%B1%D9%8A%D8%B1/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1"
+    },
+    {
+      "published_at": "2026-10-26T16:44:26Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-26T21:07:34.935596Z",
+      "discovered_at": "2026-10-26T21:07:34.935596Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0014",
+      "source": "Agence Nigérienne de Presse",
+      "language": "fr",
+      "actor": "State",
+      "country": "Niger",
+      "city": "Niamey",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Niger: 120 4×4 vehicles and 100 motorcycles approved for the benefit of the National Guard and the Road Police",
+      "url": "https://anp.ne/niger-120-vehicules-4x4-et-100-motos-receptionnes-au-profit-de-la-garde-nationale-et-de-la-police-routiere/"
+    },
     {
       "published_at": "2026-10-26T16:19:00Z",
       "published_date_source": "html:time",
@@ -3681,6 +4016,42 @@
       "url": "https://www.lesahel.org/tillaberi-infrastructures-le-ministre-salissou-mahaman-salissou-evalue-les-travaux-de-la-route-farie-tera-et-limpact-de-louvrage-de-garbougna/"
     },
     {
+      "published_at": "2026-10-26T16:12:22Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-26T21:07:34.055316Z",
+      "discovered_at": "2026-10-26T21:07:34.055316Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0010",
+      "source": "Burkina24",
+      "language": "fr",
+      "actor": "State",
+      "country": "Burkina Faso",
+      "city": null,
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Back to News: The highlights of the week of October 19 to 25, 2026 in Burkina Faso",
+      "url": "https://burkina24.com/2026/10/26/retour-sur-actu-les-faits-marquants-de-la-semaine-du-19-au-25-octobre-2026-au-burkina-faso/"
+    },
+    {
+      "published_at": "2026-10-26T15:18:55Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-26T21:07:35.773961Z",
+      "discovered_at": "2026-10-26T21:07:35.773961Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0075",
+      "source": "AMAP (Agence Malienne de Presse et de Publicité)",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Bamako",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Bamako: Strengthening of fuel stocks with the arrival of a convoy of 1107 tanker trucks on Monday",
+      "url": "https://amap.ml/2026/10/26/bamako-renforcement-des-stocks-de-carburant-avec-larrivee-dun-convoi-de-1107-camions-citernes-ce-lundi/"
+    },
+    {
       "published_at": "2026-10-26T15:14:04Z",
       "published_date_source": "jsonld:datePublished",
       "published_time_precision": "datetime",
@@ -3695,7 +4066,7 @@
       "city": null,
       "event_type": "law enforcement",
       "candidate_event": false,
-      "title": "Kombissiri: 25 jeunes interpellés pour incivisme routier et perturbation des cours",
+      "title": "Kombissiri: 25 young people arrested for road incivility and disruption of classes",
       "url": "https://www.wakatsera.com/kombissiri-25-jeunes-interpelles-pour-incivisme-routier-et-perturbation-des-cours/"
     },
     {
@@ -4023,6 +4394,24 @@
       "url": "https://fr.allafrica.com/stories/202610260186.html"
     },
     {
+      "published_at": "2026-10-26T09:19:37Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-26T21:07:38.072650Z",
+      "discovered_at": "2026-10-26T21:07:38.072650Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0010",
+      "source": "Burkina24",
+      "language": "fr",
+      "actor": null,
+      "country": "Niger",
+      "city": null,
+      "event_type": "political/security policy",
+      "candidate_event": false,
+      "title": "Algeria: Parliament approves deployment of troops to Niger",
+      "url": "https://burkina24.com/2026/10/26/algerie-le-parlement-approuve-le-deploiement-de-troupes-au-niger/"
+    },
+    {
       "published_at": "2026-10-26T08:04:29Z",
       "published_date_source": "feed",
       "published_time_precision": "datetime",
@@ -4039,330 +4428,6 @@
       "candidate_event": false,
       "title": "Sahel: Algerian parliament authorizes sending troops to Niger",
       "url": "https://bamada.net/sahel-le-parlement-algerien-autorise-lenvoi-de-troupes-au-niger"
-    },
-    {
-      "published_at": "2026-10-26T08:00:43Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-26T15:19:44.101476Z",
-      "discovered_at": "2026-10-26T15:19:44.101476Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0165",
-      "source": "Hespress (هسبريس)",
-      "language": "ar",
-      "actor": "State",
-      "country": "Niger",
-      "city": null,
-      "event_type": null,
-      "candidate_event": false,
-      "title": "مغامرة عسكرية في النيجر تهدد الجزائر بالغرق في \"مستنقع الساحل\"",
-      "url": "https://www.hespress.com/%d9%85%d8%ba%d8%a7%d9%85%d8%b1%d8%a9-%d8%b9%d8%b3%d9%83%d8%b1%d9%8a%d8%a9-%d9%81%d9%8a-%d8%a7%d9%84%d9%86%d9%8a%d8%ac%d8%b1-%d8%aa%d9%87%d8%af%d8%af-%d8%a7%d9%84%d8%ac%d8%b2%d8%a7%d8%a6%d8%b1-%d8%a8-1828915.html"
-    },
-    {
-      "published_at": "2026-10-26T07:57:12Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-26T15:19:33.334301Z",
-      "discovered_at": "2026-10-26T15:19:33.334301Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0008",
-      "source": "Bamada",
-      "language": "fr",
-      "actor": "Africa Corps/Wagner",
-      "country": "Mali",
-      "city": "Kidal",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "After Kidal: The hunt for terrorists is open",
-      "url": "https://bamada.net/apres-kidal-la-chasse-aux-terroristes-est-ouverte"
-    },
-    {
-      "published_at": "2026-10-26T06:57:39Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-26T15:19:36.738911Z",
-      "discovered_at": "2026-10-26T15:19:36.738911Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0003",
-      "source": "Jeune Afrique",
-      "language": "fr",
-      "actor": "JNIM",
-      "country": "Mali",
-      "city": "Kidal",
-      "event_type": "raid",
-      "candidate_event": true,
-      "title": "Mali: for Assimi Goïta, the difficult challenge of reconquest",
-      "url": "https://www.jeuneafrique.com/1853158/politique/mali-pour-assimi-goita-le-difficile-pari-de-la-reconquete/"
-    },
-    {
-      "published_at": "2026-10-26T05:45:00Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-26T15:19:42.319740Z",
-      "discovered_at": "2026-10-26T15:19:42.319740Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0040",
-      "source": "Mondafrique",
-      "language": "fr",
-      "actor": null,
-      "country": "Niger",
-      "city": null,
-      "event_type": "political/security policy",
-      "candidate_event": false,
-      "title": "Le parlement algérien vote l’envoi de soldats au Niger voisin",
-      "url": "https://mondafrique.com/politique/le-parlement-algerien-vote-lenvoi-de-soldats-au-niger-voisin/"
-    },
-    {
-      "published_at": "2026-10-26T02:42:25Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-26T04:57:01.357376Z",
-      "discovered_at": "2026-10-26T04:57:01.357376Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0061",
-      "source": "Asharq News Arabic",
-      "language": "ar",
-      "actor": "State",
-      "country": "Niger",
-      "city": "Niamey",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Border security and energy interests.. What is behind Algeria's decision to send troops to Niger?",
-      "url": "https://asharq.com/politics/200829/%D9%85%D8%A7%D8%B0%D8%A7-%D9%88%D8%B1%D8%A7%D8%A1-%D9%82%D8%B1%D8%A7%D8%B1-%D8%A7%D9%84%D8%AC%D8%B2%D8%A7%D8%A6%D8%B1-%D8%A5%D8%B1%D8%B3%D8%A7%D9%84-%D9%82%D9%88%D8%A7%D8%AA-%D8%A5%D9%84%D9%89-%D8%A7%D9%84%D9%86%D9%8A%D8%AC%D8%B1/"
-    },
-    {
-      "published_at": "2026-10-26T02:11:07Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-26T04:57:01.270412Z",
-      "discovered_at": "2026-10-26T04:57:01.270412Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0119",
-      "source": "Daily Trust (Nigeria)",
-      "language": "en",
-      "actor": null,
-      "country": "Niger",
-      "city": null,
-      "event_type": "law enforcement",
-      "candidate_event": false,
-      "title": "Nigerien, 3 others nabbed over guard’s killing, theft",
-      "url": "https://dailytrust.com/nigerien-3-others-nabbed-over-guards-killing-theft/"
-    },
-    {
-      "published_at": "2026-10-26T00:00:00Z",
-      "published_date_source": "visible-publication-label",
-      "published_time_precision": "date-only",
-      "collected_at": "2026-10-26T15:19:46.638729Z",
-      "discovered_at": "2026-10-26T15:19:46.638729Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0079",
-      "source": "L'Essor",
-      "language": "fr",
-      "actor": "State",
-      "country": "Mali",
-      "city": null,
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Recruitment of a firm for the development of the manual of administrative, accounting and financial procedures of Tafouk tv Monday, October 26, 2026 at 13:02 Read",
-      "url": "https://www.lessor.ml/pub-annonce/81"
-    },
-    {
-      "published_at": "2026-10-26T00:00:00Z",
-      "published_date_source": "visible-publication-label",
-      "published_time_precision": "date-only",
-      "collected_at": "2026-10-26T15:19:46.420131Z",
-      "discovered_at": "2026-10-26T15:19:46.420131Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0079",
-      "source": "L'Essor",
-      "language": "fr",
-      "actor": "State",
-      "country": "Mali",
-      "city": null,
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Recrutement d’un cabinet pour la fourniture, l’installation et le paramétrage d’un logiciel intégré de gestion financière et de paie au profit de Tafouk tv lundi 26 octobre 2026 à 13:00 Lire",
-      "url": "https://www.lessor.ml/pub-annonce/80"
-    },
-    {
-      "published_at": "2026-10-26T00:00:00Z",
-      "published_date_source": "visible-publication-label",
-      "published_time_precision": "date-only",
-      "collected_at": "2026-10-26T15:19:46.482552Z",
-      "discovered_at": "2026-10-26T15:19:46.482552Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0079",
-      "source": "L'Essor",
-      "language": "fr",
-      "actor": "State",
-      "country": "Mali",
-      "city": null,
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Recrutement d’un cabinet spécialisé pour l’élaboration du manuel technique d’utilisation et de maintenance des équipements de Tafouk tv lundi 26 octobre 2026 à 12:57 Lire",
-      "url": "https://www.lessor.ml/pub-annonce/79"
-    },
-    {
-      "published_at": "2026-10-25T23:43:50Z",
-      "published_date_source": "html:time",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-26T04:57:02.667062Z",
-      "discovered_at": "2026-10-26T04:57:02.667062Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0012",
-      "source": "Sidwaya",
-      "language": "fr",
-      "actor": null,
-      "country": "Burkina Faso",
-      "city": "Dédougou",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "66th anniversary of the national armed forces: The garrison of Dédougou begins its preparations with a popular cross-country",
-      "url": "https://www.sidwaya.info/2026/10/25/66e-anniversaire-des-forces-armees-nationales-la-garnison-de-dedougou-debute-ses-preparatifs-avec-un-cross-populaire/"
-    },
-    {
-      "published_at": "2026-10-25T18:13:42Z",
-      "published_date_source": "itemprop",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-25T19:09:38.763245Z",
-      "discovered_at": "2026-10-25T19:09:38.763245Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0015",
-      "source": "ActuNiger",
-      "language": "fr",
-      "actor": null,
-      "country": "Niger",
-      "city": "Niamey",
-      "event_type": "political/security policy",
-      "candidate_event": false,
-      "title": "Military cooperation: at the request of Niamey, Algeria will deploy soldiers in Niger",
-      "url": "https://www.actuniger.com/societe/22496-cooperation-militaire-a-la-demande-de-niamey-lalgerie-va-deployer-des-soldats-au-niger"
-    },
-    {
-      "published_at": "2026-10-25T16:44:23Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-25T19:09:41.571702Z",
-      "discovered_at": "2026-10-25T19:09:41.571702Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0168",
-      "source": "Tchadinfos (النسخة العربية)",
-      "language": "fr",
-      "actor": null,
-      "country": "Niger",
-      "city": null,
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Algeria: Senate approves sending troops to Niger",
-      "url": "https://tchadinfos.com/2026/10/25/algerie-le-senat-approuve-lenvoi-de-troupes-au-niger/"
-    },
-    {
-      "published_at": "2026-10-25T15:32:23.578000Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-25T19:09:42.963817Z",
-      "discovered_at": "2026-10-25T19:09:42.963817Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0106",
-      "source": "TRT World (Africa)",
-      "language": "en",
-      "actor": "State",
-      "country": "Niger",
-      "city": "Niamey",
-      "event_type": "security operation",
-      "candidate_event": false,
-      "title": "Algeria moves to send troops to Niger to protect energy assets in historic policy shift The upper house of parliament backs a proposed overseas deployment as Algiers deepens security ties with Niamey and seeks to safeguard strategic projects, including a planned gas pipeline linking Nigeria to European markets.",
-      "url": "https://www.trtworld.com/article/c2a46e6f8831"
-    },
-    {
-      "published_at": "2026-10-25T13:31:02.355000Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-25T19:09:40.721311Z",
-      "discovered_at": "2026-10-25T19:09:40.721311Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0094",
-      "source": "TRT Français",
-      "language": "fr",
-      "actor": null,
-      "country": "Niger",
-      "city": "Niamey",
-      "event_type": "political/security policy",
-      "candidate_event": false,
-      "title": "Algeria: Parliament unanimously votes on a decision to send army units to Niger The decision to send Algerian troops to Niger came four days after the signing of a memorandum of understanding to strengthen military cooperation between Algiers and Niamey.",
-      "url": "https://www.trtfrancais.com/article/baeffae25783"
-    },
-    {
-      "published_at": "2026-10-25T13:27:03Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-25T19:09:43.595420Z",
-      "discovered_at": "2026-10-25T19:09:43.595420Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0124",
-      "source": "News Central TV (Nigeria)",
-      "language": "en",
-      "actor": "State",
-      "country": "Niger",
-      "city": null,
-      "event_type": "political/security policy",
-      "candidate_event": false,
-      "title": "Algeria Senate Approves Troop Deployment to Niger",
-      "url": "https://newscentraltv.com/algeria-senate-approves-troop-deployment-to-niger/"
-    },
-    {
-      "published_at": "2026-10-25T12:49:22Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-25T13:19:01.976235Z",
-      "discovered_at": "2026-10-25T13:19:01.976235Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0092",
-      "source": "La Nouvelle Tribune (Bénin)",
-      "language": "fr",
-      "actor": null,
-      "country": "Niger",
-      "city": null,
-      "event_type": "political/security policy",
-      "candidate_event": false,
-      "title": "Algeria will deploy soldiers to Niger after a unanimous vote in the Senate",
-      "url": "https://lanouvelletribune.info/2026/10/lalgerie-va-deployer-des-soldats-au-niger-apres-un-vote-unanime-du-senat/"
-    },
-    {
-      "published_at": "2026-10-25T12:19:41Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-25T13:18:58.290496Z",
-      "discovered_at": "2026-10-25T13:18:58.290496Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0023",
-      "source": "Al Jazeera English",
-      "language": "en",
-      "actor": "State",
-      "country": "Niger",
-      "city": null,
-      "event_type": "clash",
-      "candidate_event": false,
-      "title": "Algerian parliament’s upper house approves troop deployment to Niger",
-      "url": "https://www.aljazeera.com/news/2026/10/25/algerian-parliaments-upper-house-approves-troop-deployment-to-niger?traffic_source=rss"
-    },
-    {
-      "published_at": "2026-10-25T11:39:17Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-25T13:18:57.338078Z",
-      "discovered_at": "2026-10-25T13:18:57.338078Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0006",
-      "source": "Malijet",
-      "language": "fr",
-      "actor": "State",
-      "country": "Mali",
-      "city": null,
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Mali: the Directorate of Human Resources of the Armed Forces towards a new status",
-      "url": "https://malijet.com/actualite_de_la_nation_malienne/312496-mali-la-direction-des-ressources-humaines-des-armees-vers.html"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
