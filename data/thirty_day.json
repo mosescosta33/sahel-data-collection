@@ -1,30 +1,30 @@
 {
-  "generated_at": "2026-10-25T22:41:27.242434Z",
+  "generated_at": "2026-10-26T04:57:46.334694Z",
   "window_days": 30,
-  "cutoff": "2026-09-25",
-  "reports": 631,
+  "cutoff": "2026-09-26",
+  "reports": 634,
   "incident_reports": 158,
-  "candidate_events": 106,
+  "candidate_events": 105,
   "corroborated_events": 27,
-  "mapped_events": 84,
-  "mapped_locations": 155,
+  "mapped_events": 83,
+  "mapped_locations": 153,
   "distinct_sources": 86,
   "by_actor": {
-    "State": 65,
+    "State": 64,
     "JNIM": 16,
     "Other": 11,
     "Africa Corps/Wagner": 9,
     "IS Sahel": 5
   },
   "by_country": {
-    "Mali": 97,
+    "Mali": 96,
     "Niger": 7,
     "Burkina Faso": 2
   },
   "by_event_type": {
     "security operation": 43,
-    "offensive/campaign": 15,
     "clash": 14,
+    "offensive/campaign": 14,
     "attack": 12,
     "civilian targeting": 8,
     "kidnapping": 7,
@@ -33,13 +33,13 @@
     "air/drone strike": 1
   },
   "by_language": {
-    "fr": 478,
-    "en": 118,
-    "ar": 35
+    "fr": 479,
+    "en": 119,
+    "ar": 36
   },
   "by_confidence": {
     "low": 50,
-    "moderate": 48,
+    "moderate": 47,
     "moderate-high": 6,
     "high": 2
   },
@@ -108,7 +108,7 @@
   "top_locations": [
     {
       "location": "Kidal",
-      "count": 37
+      "count": 36
     },
     {
       "location": "Mali",
@@ -156,11 +156,6 @@
     }
   ],
   "daily": [
-    {
-      "date": "2026-09-26",
-      "reports": 4,
-      "events": 0
-    },
     {
       "date": "2026-09-27",
       "reports": 7,
@@ -303,7 +298,12 @@
     },
     {
       "date": "2026-10-25",
-      "reports": 14,
+      "reports": 15,
+      "events": 0
+    },
+    {
+      "date": "2026-10-26",
+      "reports": 2,
       "events": 0
     }
   ],
@@ -3562,6 +3562,60 @@
   ],
   "latest_reports": [
     {
+      "published_at": "2026-10-26T02:42:25Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-26T04:57:01.357376Z",
+      "discovered_at": "2026-10-26T04:57:01.357376Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0061",
+      "source": "Asharq News Arabic",
+      "language": "ar",
+      "actor": "State",
+      "country": "Niger",
+      "city": "Niamey",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Border security and energy interests.. What is behind Algeria's decision to send troops to Niger?",
+      "url": "https://asharq.com/politics/200829/%D9%85%D8%A7%D8%B0%D8%A7-%D9%88%D8%B1%D8%A7%D8%A1-%D9%82%D8%B1%D8%A7%D8%B1-%D8%A7%D9%84%D8%AC%D8%B2%D8%A7%D8%A6%D8%B1-%D8%A5%D8%B1%D8%B3%D8%A7%D9%84-%D9%82%D9%88%D8%A7%D8%AA-%D8%A5%D9%84%D9%89-%D8%A7%D9%84%D9%86%D9%8A%D8%AC%D8%B1/"
+    },
+    {
+      "published_at": "2026-10-26T02:11:07Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-26T04:57:01.270412Z",
+      "discovered_at": "2026-10-26T04:57:01.270412Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0119",
+      "source": "Daily Trust (Nigeria)",
+      "language": "en",
+      "actor": null,
+      "country": "Niger",
+      "city": null,
+      "event_type": "law enforcement",
+      "candidate_event": false,
+      "title": "Nigerien, 3 others nabbed over guard’s killing, theft",
+      "url": "https://dailytrust.com/nigerien-3-others-nabbed-over-guards-killing-theft/"
+    },
+    {
+      "published_at": "2026-10-25T23:43:50Z",
+      "published_date_source": "html:time",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-26T04:57:02.667062Z",
+      "discovered_at": "2026-10-26T04:57:02.667062Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0012",
+      "source": "Sidwaya",
+      "language": "fr",
+      "actor": null,
+      "country": "Burkina Faso",
+      "city": "Dédougou",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "66th anniversary of the national armed forces: The garrison of Dédougou begins its preparations with a popular cross-country",
+      "url": "https://www.sidwaya.info/2026/10/25/66e-anniversaire-des-forces-armees-nationales-la-garnison-de-dedougou-debute-ses-preparatifs-avec-un-cross-populaire/"
+    },
+    {
       "published_at": "2026-10-25T18:13:42Z",
       "published_date_source": "itemprop",
       "published_time_precision": "datetime",
@@ -4226,60 +4280,6 @@
       "candidate_event": false,
       "title": "Jordan: Antonio Guterres strongly condemns the terrorist attack on a funeral ceremony in a church",
       "url": "https://bamada.net/jordanie-antonio-guterres-condamne-fermement-lattaque-terroriste-contre-une-ceremonie-funeraire-dans-une-eglise"
-    },
-    {
-      "published_at": "2026-10-23T19:24:47Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-23T20:04:12.648422Z",
-      "discovered_at": "2026-10-23T20:04:12.648422Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0008",
-      "source": "Bamada",
-      "language": "fr",
-      "actor": null,
-      "country": null,
-      "city": null,
-      "event_type": "attack",
-      "candidate_event": false,
-      "title": "France: Macron denounces a \"racist terrorist attack\" in the Yvelines and calls for unity",
-      "url": "https://bamada.net/france-macron-denonce-un-attentat-terroriste-raciste-dans-les-yvelines-et-appelle-a-lunite"
-    },
-    {
-      "published_at": "2026-10-23T19:03:04Z",
-      "published_date_source": "itemprop",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-23T20:04:10.818219Z",
-      "discovered_at": "2026-10-23T20:04:10.818219Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0015",
-      "source": "ActuNiger",
-      "language": "fr",
-      "actor": null,
-      "country": "Niger",
-      "city": "Tillabéri",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Tillabéri: the Minister of Equipment notes the progress of the work on the Farié-Téra road",
-      "url": "https://www.actuniger.com/societe/22488-tillaberi-le-ministre-de-lequipement-constate-lavancement-des-travaux-de-la-route-farie-tera"
-    },
-    {
-      "published_at": "2026-10-23T17:28:08Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-23T20:04:09.651512Z",
-      "discovered_at": "2026-10-23T20:04:09.651512Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0075",
-      "source": "AMAP (Agence Malienne de Presse et de Publicité)",
-      "language": "fr",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Bamako",
-      "event_type": "security operation",
-      "candidate_event": true,
-      "title": "Security situation: More than 4,880 terrorists neutralized and 162 bases destroyed by FAMa",
-      "url": "https://amap.ml/2026/10/23/situation-securitaire-plus-de-4-880-terroristes-neutralises-et-162-bases-detruites-par-les-fama/"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
