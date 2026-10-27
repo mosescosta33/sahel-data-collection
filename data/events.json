@@ -1,5 +1,128 @@
 [
   {
+    "id": "4fd8fc77ec0ebb03922dd1759966c638c5d7a629",
+    "event_date": "2026-10-26",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "explicit-date-no-year",
+    "published_at": "2026-10-27T05:22:11Z",
+    "published_date_source": "jsonld:datePublished",
+    "published_time_precision": "datetime",
+    "collected_at": "2026-10-27T05:39:05.266385Z",
+    "actor": "Other",
+    "perpetrator": null,
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [],
+    "parent_report_id": null,
+    "event_type": "attack",
+    "country": "Niger",
+    "city": "Niamey",
+    "lat": 13.5116,
+    "lng": 2.1254,
+    "locations": [
+      {
+        "name": "Niamey",
+        "country": "Niger",
+        "lat": 13.5116,
+        "lng": 2.1254,
+        "confidence": "explicit-place"
+      },
+      {
+        "name": "Agadez",
+        "country": "Niger",
+        "lat": 16.9733,
+        "lng": 7.9911,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "Niger denounces a drone attack by Chad with \"the support of France\"",
+    "summary": "Niger summons the ambassador of Chad following a drone strike on its territory. In a statement read on national television on Monday, October 26, the Nigerien government denounced \"a drone airstrike carried out from the territory of Chad\" and in which, according to it, France participated. .",
+    "sources": [
+      "RFI Afrique"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://www.rfi.fr/fr/afrique/20261027-le-niger-d%C3%A9nonce-une-attaque-de-drone-du-tchad-avec-l-appui-de-la-france"
+    ],
+    "report_summaries": [
+      {
+        "url": "https://www.rfi.fr/fr/afrique/20261027-le-niger-d%C3%A9nonce-une-attaque-de-drone-du-tchad-avec-l-appui-de-la-france",
+        "source": "RFI Afrique",
+        "title": "Niger denounces a drone attack by Chad with \"the support of France\"",
+        "summary": "Niger summons the ambassador of Chad following a drone strike on its territory. In a statement read on national television on Monday, October 26, the Nigerien government denounced \"a drone airstrike carried out from the territory of Chad\" and in which, according to it, France participated. .",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": 2,
+        "fatalities_max": 2,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "civilian"
+        ],
+        "civilian_targeting_flag": true,
+        "casualty_claims": [
+          {
+            "kind": "fatalities",
+            "count": 2,
+            "victim_text": "civilians",
+            "claimant": "state/official source",
+            "status": "reported",
+            "evidence": "carried out \"from Chad\" with \"the support of France\", according to the Nigerien government and left two civilians dead and wounded . Niamey speaks of an act of aggression, a violation of his national sovereignty and an"
+          }
+        ]
+      }
+    ],
+    "created_at": "2026-10-27T05:39:05.266385Z",
+    "updated_at": "2026-10-27T05:39:05.266385Z",
+    "extraction_confidence": "low",
+    "victim_categories": [
+      "civilian"
+    ],
+    "civilian_targeting_flag": true,
+    "casualty_claims": [
+      {
+        "kind": "fatalities",
+        "count": 2,
+        "victim_text": "civilians",
+        "claimant": "state/official source",
+        "status": "reported",
+        "evidence": "carried out \"from Chad\" with \"the support of France\", according to the Nigerien government and left two civilians dead and wounded . Niamey speaks of an act of aggression, a violation of his national sovereignty and an",
+        "source": "RFI Afrique"
+      }
+    ],
+    "fatalities_min": 2,
+    "fatalities_max": 2,
+    "fatalities_best": 2,
+    "injured_min": null,
+    "injured_max": null,
+    "abducted_min": null,
+    "abducted_max": null,
+    "casualty_disputed": false,
+    "revision_history": [
+      {
+        "at": "2026-10-27T05:39:05.266385Z",
+        "type": "event_created",
+        "source": "RFI Afrique"
+      }
+    ],
+    "corroboration": "single-source",
+    "confidence": "low",
+    "independent_source_domains": [
+      "rfi.fr"
+    ],
+    "independent_source_count": 1,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "strategic/severe event pattern",
+      "multi-location activity"
+    ]
+  },
+  {
     "id": "f4ca6f5cf67fa370bb934627250c377458694bb5",
     "event_date": "2026-10-26",
     "event_date_confidence": "explicit-text",

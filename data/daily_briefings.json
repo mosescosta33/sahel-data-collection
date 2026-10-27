@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "site_patch_version": "3.3.5",
-  "generated_at": "2026-10-27T05:18:30.797319Z",
+  "generated_at": "2026-10-27T05:40:49.510768Z",
   "active_limit": 33,
   "total_briefings": 282,
   "active_count": 33,
@@ -11,7 +11,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-29",
-      "generated_at": "2026-10-27T05:18:30.645509Z",
+      "generated_at": "2026-10-27T05:40:49.401713Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -175,7 +175,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-27",
-      "generated_at": "2026-10-27T05:18:29.224158Z",
+      "generated_at": "2026-10-27T05:40:47.542594Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -187,17 +187,17 @@
         "events_occurring_on_date": 0,
         "records_held_for_review": 0,
         "multi_source_events": 0,
-        "reports_collected_on_date": 7,
-        "reports_published_on_date": 0,
+        "reports_collected_on_date": 9,
+        "reports_published_on_date": 2,
         "newly_discovered_older_events": 1,
         "events_awaiting_date_verification": 0,
-        "distinct_sources_collected": 7
+        "distinct_sources_collected": 8
       },
-      "executive_assessment": "Reporting collected on 2026-10-27 does not yet support a clear account of a new incident in Mali, Burkina Faso, or Niger. The desk received 7 reports from 7 sources, but the automated incident record needs further review. This is not evidence of calm on the ground.",
+      "executive_assessment": "Reporting collected on 2026-10-27 does not yet support a clear account of a new incident in Mali, Burkina Faso, or Niger. The desk received 9 reports from 8 sources, but the automated incident record needs further review. This is not evidence of calm on the ground.",
       "briefing_sections": [
         {
           "heading": "Assessment",
-          "text": "Reporting collected on 2026-10-27 does not yet support a clear account of a new incident in Mali, Burkina Faso, or Niger. The desk received 7 reports from 7 sources, but the automated incident record needs further review. This is not evidence of calm on the ground."
+          "text": "Reporting collected on 2026-10-27 does not yet support a clear account of a new incident in Mali, Burkina Faso, or Niger. The desk received 9 reports from 8 sources, but the automated incident record needs further review. This is not evidence of calm on the ground."
         },
         {
           "heading": "Mali",
@@ -209,7 +209,7 @@
         },
         {
           "heading": "Niger",
-          "text": "4 retained reports were collected for Niger. 0 fused candidate events currently carry this reporting date. Algeria: Why Parliament voted to send military units to Niger: Algeria: why the Parliament voted to send military units to Niger The Algerian Parliament approved Sunday, October 25, the sending of troops to Niger to protect energy facilities that Algeria financed, paving the way for the… Niger accuses Chad and France after drone strike on its territory: For some time now, relations between Niger and Chad have been experiencing friction and this is not about to be resolved in the immediate future. Indeed, relations between Niamey and N 'djamena are experiencing new tensions… Niger: Niamey accuses Chad of a deadly drone strike with the support of France: The Nigerien government has accused Chad of having carried out, with the support of France, a drone strike on its territory that killed two people and injured several civilians, according to an official statement in which… 1 additional Niger report is summarized individually in the source records."
+          "text": "6 retained reports were collected for Niger. 0 fused candidate events currently carry this reporting date. Solar energy and clean cooking in Maradi: Solar lights up maternity wards and transforms household lives: From Lili, in the department of Madarounfa, to the homes of Maradi, the energy solutions supported by the HASKE project improve living conditions. At the Integrated Health Center (CSI) in Lili, a 15 kVA solar installation… Niger denounces a drone attack by Chad with \"the support of France\": Niger summons the ambassador of Chad following a drone strike on its territory. In a statement read on national television on Monday, October 26, the Nigerien government denounced \"a drone airstrike carried out from the… Algeria: Why Parliament voted to send military units to Niger: Algeria: why the Parliament voted to send military units to Niger The Algerian Parliament approved Sunday, October 25, the sending of troops to Niger to protect energy facilities that Algeria financed, paving the way for the… 3 additional Niger reports are summarized individually in the source records."
         },
         {
           "heading": "What remains unclear",
@@ -222,7 +222,7 @@
       "significant_events": [],
       "what_changed_since_yesterday": [
         "State: -1 same-day fused event(s) versus 2026-10-26 (1 → 0).",
-        "Collection volume: -47 retained report(s) versus 2026-10-26 (54 → 7)."
+        "Collection volume: -45 retained report(s) versus 2026-10-26 (54 → 9)."
       ],
       "emerging_patterns": [
         "JNIM 7-day activity is lower than the preceding 7-day window (1 → 0).",
@@ -245,7 +245,7 @@
       "country_reporting_counts": {
         "Mali": 2,
         "Burkina Faso": 1,
-        "Niger": 4
+        "Niger": 6
       },
       "actor_profiles": {
         "JNIM": {
@@ -298,7 +298,7 @@
         },
         "Niger": {
           "events": 0,
-          "reports_collected": 4,
+          "reports_collected": 6,
           "actor_counts": {
             "JNIM": 0,
             "IS Sahel": 0,
@@ -342,6 +342,24 @@
         ],
         "Niger": [
           {
+            "id": "44c7831b0dece82ea80744d817276570a1269d0a",
+            "source": "Le Sahel",
+            "title": "Solar energy and clean cooking in Maradi: Solar lights up maternity wards and transforms household lives",
+            "summary": "From Lili, in the department of Madarounfa, to the homes of Maradi, the energy solutions supported by the HASKE project improve living conditions. At the Integrated Health Center (CSI) in Lili, a 15 kVA solar installation carried out by the National Solar Energy Agency (ANERSOL) with funding from the World Bank improves the working conditions of caregivers and strengthens the safety of women who give birth to overnight.",
+            "url": "https://www.lesahel.org/energie-solaire-et-cuisson-propre-a-maradi-le-solaire-eclaire-les-maternites-et-transforme-la-vie-des-menages/",
+            "candidate_event": false,
+            "event_date": "2026-09-09"
+          },
+          {
+            "id": "4ec0b8759bb87c3ae3bab37f5f5dae2e81877737",
+            "source": "RFI Afrique",
+            "title": "Niger denounces a drone attack by Chad with \"the support of France\"",
+            "summary": "Niger summons the ambassador of Chad following a drone strike on its territory. In a statement read on national television on Monday, October 26, the Nigerien government denounced \"a drone airstrike carried out from the territory of Chad\" and in which, according to it, France participated. .",
+            "url": "https://www.rfi.fr/fr/afrique/20261027-le-niger-d%C3%A9nonce-une-attaque-de-drone-du-tchad-avec-l-appui-de-la-france",
+            "candidate_event": true,
+            "event_date": "2026-10-26"
+          },
+          {
             "id": "4c0d5bb0f8f73d97563684a4912d17945feb9af0",
             "source": "RFI Afrique",
             "title": "Algeria: Why Parliament voted to send military units to Niger",
@@ -381,35 +399,35 @@
       },
       "collection_notes": {
         "sources_total": 184,
-        "sources_success": 154,
-        "sources_failed": 30,
+        "sources_success": 153,
+        "sources_failed": 31,
         "sources_degraded": 18,
-        "documents_discovered": 12216,
-        "documents_retained": 7,
+        "documents_discovered": 12084,
+        "documents_retained": 2,
         "report_target": 100,
-        "translations_attempted": 20,
-        "translations_success": 13,
-        "translation_failures": 7,
+        "translations_attempted": 9,
+        "translations_success": 9,
+        "translation_failures": 0,
         "collection_confidence": "LOW",
         "collection_confidence_reasons": [
-          "154/184 source paths reached",
-          "30 failed source paths",
-          "18 degraded / 30 failed of 184 configured sources"
+          "153/184 source paths reached",
+          "31 failed source paths",
+          "18 degraded / 31 failed of 184 configured sources"
         ],
-        "reports_collected": 7,
-        "reports_published": 0,
-        "distinct_sources_collected": 7,
+        "reports_collected": 9,
+        "reports_published": 2,
+        "distinct_sources_collected": 8,
         "language_counts": {
-          "fr": 7
+          "fr": 9
         }
       },
-      "sultana_daily_text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nDaily bottom line for 2026-10-27: Reporting collected on 2026-10-27 does not yet support a clear account of a new incident in Mali, Burkina Faso, or Niger. The desk received 7 reports from 7 sources, but the automated incident record needs further review. This is not evidence of calm on the ground.\n\nMali: 2 retained reports. 1. Cooperation: Accra and Bamako consolidate their strategic and economic partnership. Bamako, October 27 (AMAP) Ghana's new ambassador to Mali, Lieutenant-Colonel Umar Sanda Ahmed, who was received in audience on Monday by the Prime Minister, Major General Abdoulaye Maïga, placed his mission under the sign of security cooperation, the opening up of Mali via Ghanaian ports and respect for the sovereignty and principles of the Confederation of Sahel States (AES), noted AMAP The Ghanaian diplomat reaffirmed his country's commitment to regional security as well as its firm commitment alongside Mali in the fight against insecurity and violent extremism . 2. Menaka: CNDH condemns attacks on civilians in Tagadayat. The National Human Rights Commission (CNDH) has condemned attacks on civilian populations in a camp in Tagadayat, in the Menaka region. In a statement, she said she is deeply concerned about these serious human rights violations, offers her condolences to the families of the victims and wishes a speedy recovery to the injured . The CNDH calls on the authorities to search for and bring to justice the perpetrators, sponsors and accomplices of these attacks.\n\nBurkina Faso: 1 retained report. 1. Road safety: The agent's gesture takes precedence over the traffic light. Road safety: The gesture of the agent takes precedence over the traffic light In road traffic, signs, traffic lights and ground markings play an essential role in the organization of travel. But when an agent authorized to regulate traffic intervenes, his instructions may prevail over the indications of the automatic devices . A rule sometimes unknown to some users, as illustrated by a scene observed in Ouagadougou, not far from the palace of Larlé Naaba.\n\nNiger: 4 retained reports. 1. Algeria: Why Parliament voted to send military units to Niger. Algeria: why the Parliament voted to send military units to Niger The Algerian Parliament approved Sunday, October 25, the sending of troops to Niger to protect energy facilities that Algeria financed, paving the way for the first official deployment of Algerian troops abroad since the 1973 Arab-Israeli War. Algerian-Nigerian cooperation goes up a notch After economic agreements, the two countries recently signed a military cooperation treaty. 2. Niger accuses Chad and France after drone strike on its territory. For some time now, relations between Niger and Chad have been experiencing friction and this is not about to be resolved in the immediate future. Indeed, relations between Niamey and N 'djamena are experiencing new tensions after a drone strike that the Nigerien authorities attribute to Chad in collaboration with France . The Nigerien authorities claim that the strike claimed the lives of two civilians and left several injured. 3. Niger: Niamey accuses Chad of a deadly drone strike with the support of France. The Nigerien government has accused Chad of having carried out, with the support of France, a drone strike on its territory that killed two people and injured several civilians, according to an official statement in which Niamey announces the referral to the United Nations and the African Union. According to the Nigerien authorities, the attack occurred on October 24, around 01:00, in the Emiloulou area, in the Agadez region (north) .\n\nActor picture: no same-day fused candidate events.\n\nWhat changed: State: -1 same-day fused event(s) versus 2026-10-26 (1 → 0). Collection volume: -47 retained report(s) versus 2026-10-26 (54 → 7).\n\nIntelligence gaps: Collection confidence is low, so absence of reporting should not be interpreted as absence of activity.\n\nCollection confidence: LOW. 154/184 source paths reached 30 failed source paths 18 degraded / 30 failed of 184 configured sources\n\nAll retained source reports, including reports not promoted to the map, remain individually summarized in the intelligence feed and source records."
+      "sultana_daily_text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nDaily bottom line for 2026-10-27: Reporting collected on 2026-10-27 does not yet support a clear account of a new incident in Mali, Burkina Faso, or Niger. The desk received 9 reports from 8 sources, but the automated incident record needs further review. This is not evidence of calm on the ground.\n\nMali: 2 retained reports. 1. Cooperation: Accra and Bamako consolidate their strategic and economic partnership. Bamako, October 27 (AMAP) Ghana's new ambassador to Mali, Lieutenant-Colonel Umar Sanda Ahmed, who was received in audience on Monday by the Prime Minister, Major General Abdoulaye Maïga, placed his mission under the sign of security cooperation, the opening up of Mali via Ghanaian ports and respect for the sovereignty and principles of the Confederation of Sahel States (AES), noted AMAP The Ghanaian diplomat reaffirmed his country's commitment to regional security as well as its firm commitment alongside Mali in the fight against insecurity and violent extremism . 2. Menaka: CNDH condemns attacks on civilians in Tagadayat. The National Human Rights Commission (CNDH) has condemned attacks on civilian populations in a camp in Tagadayat, in the Menaka region. In a statement, she said she is deeply concerned about these serious human rights violations, offers her condolences to the families of the victims and wishes a speedy recovery to the injured . The CNDH calls on the authorities to search for and bring to justice the perpetrators, sponsors and accomplices of these attacks.\n\nBurkina Faso: 1 retained report. 1. Road safety: The agent's gesture takes precedence over the traffic light. Road safety: The gesture of the agent takes precedence over the traffic light In road traffic, signs, traffic lights and ground markings play an essential role in the organization of travel. But when an agent authorized to regulate traffic intervenes, his instructions may prevail over the indications of the automatic devices . A rule sometimes unknown to some users, as illustrated by a scene observed in Ouagadougou, not far from the palace of Larlé Naaba.\n\nNiger: 6 retained reports. 1. Solar energy and clean cooking in Maradi: Solar lights up maternity wards and transforms household lives. From Lili, in the department of Madarounfa, to the homes of Maradi, the energy solutions supported by the HASKE project improve living conditions. At the Integrated Health Center (CSI) in Lili, a 15 kVA solar installation carried out by the National Solar Energy Agency (ANERSOL) with funding from the World Bank improves the working conditions of caregivers and strengthens the safety of women who give birth to overnight. 2. Niger denounces a drone attack by Chad with \"the support of France\". Niger summons the ambassador of Chad following a drone strike on its territory. In a statement read on national television on Monday, October 26, the Nigerien government denounced \"a drone airstrike carried out from the territory of Chad\" and in which, according to it, France participated. . 3. Algeria: Why Parliament voted to send military units to Niger. Algeria: why the Parliament voted to send military units to Niger The Algerian Parliament approved Sunday, October 25, the sending of troops to Niger to protect energy facilities that Algeria financed, paving the way for the first official deployment of Algerian troops abroad since the 1973 Arab-Israeli War. Algerian-Nigerian cooperation goes up a notch After economic agreements, the two countries recently signed a military cooperation treaty.\n\nActor picture: no same-day fused candidate events.\n\nWhat changed: State: -1 same-day fused event(s) versus 2026-10-26 (1 → 0). Collection volume: -45 retained report(s) versus 2026-10-26 (54 → 9).\n\nIntelligence gaps: Collection confidence is low, so absence of reporting should not be interpreted as absence of activity.\n\nCollection confidence: LOW. 153/184 source paths reached 31 failed source paths 18 degraded / 31 failed of 184 configured sources\n\nAll retained source reports, including reports not promoted to the map, remain individually summarized in the intelligence feed and source records."
     },
     {
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-26",
-      "generated_at": "2026-10-27T05:18:30.153017Z",
+      "generated_at": "2026-10-27T05:40:48.442664Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -419,7 +437,7 @@
       "collection_confidence": "MODERATE",
       "headline_metrics": {
         "events_occurring_on_date": 1,
-        "records_held_for_review": 1,
+        "records_held_for_review": 2,
         "multi_source_events": 0,
         "reports_collected_on_date": 54,
         "reports_published_on_date": 51,
@@ -443,7 +461,7 @@
         },
         {
           "heading": "Niger",
-          "text": "22 retained reports were collected for Niger. 0 fused candidate events currently carry this reporting date. Algeria To Deploy Troops To Niger In First Foreign Mission In 53 Years: By Enyichukwu Enemanna Algeria is to send troops to Niger in its first foreign deployment since sending forces to Egypt during the Arab-Israeli war in 1973. The deployment follows a visit to Algiers by Niger’s defence… Algeria-Niger: a first Algerian military deployment abroad: Pour la première fois de son histoire, l'Algérie s'apprête à déployer des troupes hors de ses frontières. Le Parlement algérien a approuvé l'envoi de militaires au Niger, pays voisin confronté à une insécurité persistante due… الجزائر الجيش الجزائري في النيجر… دلالات وأبعاد استراتيجية للقرار يرى الدكتور محمد الصالح جمّال، أستاذ…: الجيش الجزائري في النيجر… دلالات وأبعاد استراتيجية للقرار يرى الدكتور محمد الصالح جمّال، أستاذ العلوم السياسية والعلاقات الدولية أن مصادقة البرلمان على التماس إرسال مفرزة من الجيش الوطني الشعبي إلى النيجر، يعكس توجها… 19 additional Niger reports are summarized individually in the source records."
+          "text": "22 retained reports were collected for Niger. 0 fused candidate events currently carry this reporting date. Algeria To Deploy Troops To Niger In First Foreign Mission In 53 Years: By Enyichukwu Enemanna Algeria is to send troops to Niger in its first foreign deployment since sending forces to Egypt during the Arab-Israeli war in 1973. The deployment follows a visit to Algiers by Niger’s defence… Algeria-Niger: a first Algerian military deployment abroad: Pour la première fois de son histoire, l'Algérie s'apprête à déployer des troupes hors de ses frontières. Le Parlement algérien a approuvé l'envoi de militaires au Niger, pays voisin confronté à une insécurité persistante due… Algeria The Algerian army in Niger… Significance and strategic dimensions of the decision Dr. Mohamed…: The Algerian army in Niger… Significance and strategic dimensions of the decision Dr. 19 additional Niger reports are summarized individually in the source records."
         },
         {
           "heading": "Reported incidents",
@@ -451,7 +469,7 @@
         },
         {
           "heading": "Reporting in context",
-          "text": "Jeune Afrique published ‘Mali: for Assimi Goïta, the difficult challenge of reconquest’. It may provide useful context, but the extracted details do not establish a new incident on this date."
+          "text": "RFI Afrique published ‘Niger denounces a drone attack by Chad with \"the support of France\"’. It may provide useful context, but the extracted details do not establish a new incident on this date. Jeune Afrique published ‘Mali: for Assimi Goïta, the difficult challenge of reconquest’. It may provide useful context, but the extracted details do not establish a new incident on this date."
         },
         {
           "heading": "What remains unclear",
@@ -884,8 +902,8 @@
           {
             "id": "6c3c8bb12f71ff80f1534f3fc391f0f3393cf678",
             "source": "Echorouk Online (الشروق أونلاين)",
-            "title": "الجزائر الجيش الجزائري في النيجر… دلالات وأبعاد استراتيجية للقرار يرى الدكتور محمد الصالح جمّال، أستاذ العلوم السياسية والعلاقات الدولية أن مصادقة البرلمان على التماس إرسال مفرزة من الجيش الوطني الشعبي إلى النيجر، يعكس توجها استراتيجيا للرئيس عبد المجيد تبون، بصفته رئيسا… 2026/10/26",
-            "summary": "الجيش الجزائري في النيجر… دلالات وأبعاد استراتيجية للقرار يرى الدكتور محمد الصالح جمّال، أستاذ العلوم السياسية والعلاقات الدولية أن مصادقة البرلمان على التماس إرسال مفرزة من الجيش الوطني الشعبي إلى النيجر، يعكس توجها استراتيجيا للرئيس عبد المجيد تبون، بصفته رئيسا للجمهورية والقائد الأعلى للقوات المسلحة ووزير الدفاع الوطني، يقوم على تعزيز قدرة الجزائر على حماية مصالحها الحيوية، وتطوير شراكاتها الإفريقية وفق رؤية تجمع بين السيادة الوطنية والمسؤولية الإقليمية.",
+            "title": "Algeria The Algerian army in Niger… Significance and strategic dimensions of the decision Dr. Mohamed Saleh Jamal, Professor of Political Science and International Relations, believes that the parliament's approval of a petition to send a detachment of the People's National Army to Niger, reflects a strategic orientation of President Abdelmadjid Tebboune, in his capacity as President… 26/10/2026",
+            "summary": "The Algerian army in Niger… Significance and strategic dimensions of the decision Dr.",
             "url": "https://www.echoroukonline.com/%d8%a7%d9%84%d8%ac%d9%8a%d8%b4-%d8%a7%d9%84%d8%ac%d8%b2%d8%a7%d8%a6%d8%b1%d9%8a-%d9%81%d9%8a-%d8%a7%d9%84%d9%86%d9%8a%d8%ac%d8%b1-%d8%af%d9%84%d8%a7%d9%84%d8%a7%d8%aa-%d9%88%d8%a3%d8%a8%d8%b9%d8%a7",
             "candidate_event": false,
             "event_date": "2026-10-26"
@@ -911,8 +929,8 @@
           {
             "id": "7cfd85c398e4d0662bf593d4c6a9428a84d0e847",
             "source": "Al-Araby Al-Jadeed",
-            "title": "تبون يصدر مرسوماً بإرسال قوات جزائرية إلى النيجر",
-            "summary": "- التعاون العسكري بين الجزائر والنيجر: القرار جاء بعد توقيع اتفاق عسكري مشترك، وصوت البرلمان الجزائري لصالحه، مما يعكس مرحلة جديدة من التعاون الأمني والدفاعي لتأمين المشاريع المشتركة في ظل التهديدات الأمنية. - الجانب العملياتي والترتيبات اللوجيستية: القرار فتح الباب للترتيبات العملياتية واللوجيستية مع النيجر، بما في ذلك تحديد منطقة تمركز الوحدات، ويمثل أول إرسال لقوات جزائرية إلى الخارج منذ الاستقلال.",
+            "title": "Tebboune issues decree to send Algerian troops to Niger",
+            "summary": "- Military cooperation between Algeria and Niger: The decision came after the signing of a joint military agreement, and the Algerian parliament voted in favor of it, reflecting a new stage of security and defense cooperation to secure joint projects in light of security threats.",
             "url": "https://www.alaraby.co.uk/politics/%D8%AA%D8%A8%D9%88%D9%86-%D9%8A%D8%B5%D8%AF%D8%B1-%D9%85%D8%B1%D8%B3%D9%88%D9%85%D8%A7%D9%8B-%D8%A8%D8%A5%D8%B1%D8%B3%D8%A7%D9%84-%D9%82%D9%88%D8%A7%D8%AA-%D8%AC%D8%B2%D8%A7%D8%A6%D8%B1%D9%8A%D8%A9-%D8%A5%D9%84%D9%89-%D8%A7%D9%84%D9%86%D9%8A%D8%AC%D8%B1",
             "candidate_event": false,
             "event_date": "2026-10-26"
@@ -920,8 +938,8 @@
           {
             "id": "77785a4c52020e181b7e1f6f21e406a80428f291",
             "source": "Ultra Sawt (ألترا صوت)",
-            "title": "\"جيل جديد\" يعلّق على إرسال وحدات من الجيش إلى النيجر.. ما موقفه؟",
-            "summary": "26 أكتوبر 2026دعا حزب \"جيل جديد\" إلى ضبط أهداف ومجال مهمة وحدات من الجيش الوطني الشعبي في النيجر، وتحديد مدتها وشروط إنهائها بوضوح، مؤكدة أن حماية المصالح الاستراتيجية والطاقوية للجزائر لا ينبغي أن تقود إلى انخراط عسكري مفتوح خارج الحدود. وجاء موقف الحركة في بيان صدر عقب مصادقة غرفتي البرلمان، المجلس الشعبي الوطني ومجلس الأمة، يوم الأحد (أمس)، على قرار إرسال وحدات من الجيش الوطني الشعبي إلى النيجر، قبل أن تصدر رئاسة الجمهورية بيانًا بشأن القرار اليوم الاثنين.",
+            "title": "\"A new generation\" comments on sending units of the army to Niger. What is its position?",
+            "summary": "A New Generation commenting on the dispatch of army units to Niger. What is its position?",
             "url": "https://ultraalgeria.ultrasawt.com/%D8%AC%D9%8A%D9%84-%D8%AC%D8%AF%D9%8A%D8%AF-%D9%8A%D8%B9%D9%84%D9%91%D9%82-%D8%B9%D9%84%D9%89-%D8%A5%D8%B1%D8%B3%D8%A7%D9%84-%D9%88%D8%AD%D8%AF%D8%A7%D8%AA-%D9%85%D9%86-%D8%A7%D9%84%D8%AC%D9%8A%D8%B4-%D8%A5%D9%84%D9%89-%D8%A7%D9%84%D9%86%D9%8A%D8%AC%D8%B1-%D9%85%D8%A7-%D9%85%D9%88%D9%82%D9%81%D9%87%D8%9F/%D9%81%D8%B1%D9%8A%D9%82-%D8%A7%D9%84%D8%AA%D8%AD%D8%B1%D9%8A%D8%B1/%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1",
             "candidate_event": false,
             "event_date": "2026-10-26"
@@ -1001,8 +1019,8 @@
           {
             "id": "716f944907d6afd15983d3a3f109a93af01d98e8",
             "source": "AllAfrica (Édition Française)",
-            "title": "Afrique: Des soldats algériens au Niger",
-            "summary": "Le Parlement algérien a approuvé dimanche à l'unanimité le déploiement d'unités de l'Armée nationale populaire au Niger. Ce serait la première intervention militaire de l'Algérie à l'étranger depuis l'envoi de troupes en soutien à l'Égypte lors de la guerre de 1973. Les soldats algériens doivent s'installer à Madama, dans le nord du Niger, près de la frontière libyenne, sur le site d'une ancienne base française utilisée lors de l'opération Barkhane.",
+            "title": "Africa: Algerian soldiers in Niger",
+            "summary": "The Algerian Parliament unanimously approved on Sunday the deployment of units of the National People's Army in Niger. This would be Algeria's first military intervention abroad since sending troops in support of Egypt during the 1973 war . Algerian soldiers are to settle in Madama, in northern Niger, near the Libyan border, on the site of a former French base used during Operation Barkhane.",
             "url": "https://fr.allafrica.com/stories/202610260186.html",
             "candidate_event": false,
             "event_date": "2026-10-25"
@@ -1028,8 +1046,8 @@
           {
             "id": "04d72de402e8b450a45b9e40058c8a2869889a47",
             "source": "Hespress (هسبريس)",
-            "title": "مغامرة عسكرية في النيجر تهدد الجزائر بالغرق في \"مستنقع الساحل\"",
-            "summary": "تغامر الجزائر بالدخول في واحدة من أكثر البيئات الأمنية اضطرابا في إفريقيا، بعدما فتحت الموافقة البرلمانية المعلن عنها، أمس الأحد، الباب أمام إرسال وحدات من الجيش إلى النيجر، في خطوة يصعب فصلها عن تراجع نفوذها الدبلوماسي في منطقة الساحل، ومحاولتها استعادة موقع إقليمي بات عرضة لتغير التحالفات وتصاعد المنافسة بين القوى الخارجية.",
+            "title": "Military Adventure in Niger Threatens Algeria with Drowning in 'Swamp Coast'",
+            "summary": "Algeria is venturing into one of the most volatile security environments in Africa, after the parliamentary approval announced on Sunday opened the door to sending army units to Niger, in a move that is difficult to separate from the decline of its diplomatic influence in the Sahel region, and its attempt to restore a regional position that has become vulnerable to changing alliances and escalating competition among external powers.",
             "url": "https://www.hespress.com/%d9%85%d8%ba%d8%a7%d9%85%d8%b1%d8%a9-%d8%b9%d8%b3%d9%83%d8%b1%d9%8a%d8%a9-%d9%81%d9%8a-%d8%a7%d9%84%d9%86%d9%8a%d8%ac%d8%b1-%d8%aa%d9%87%d8%af%d8%af-%d8%a7%d9%84%d8%ac%d8%b2%d8%a7%d8%a6%d8%b1-%d8%a8-1828915.html",
             "candidate_event": false,
             "event_date": "2026-10-25"
@@ -1037,8 +1055,8 @@
           {
             "id": "ed514fc842791f5a3904abbcf33727686d0a8a2d",
             "source": "Mondafrique",
-            "title": "Le parlement algérien vote l’envoi de soldats au Niger voisin",
-            "summary": "Le Conseil de la Nation, la chambre haute, puis l’Assemblée populaire nationale, la chambre basse, ont toutes les deux voté dimanche l’envoi de troupes militaires au Niger. Par Nathalie Prévost Le scrutin avait été convoqué par le président de la République dans le cadre de séances plénières extraordinaires à huis-clos dont l’ordre du jour n’avait pas officiellement été communiqué.",
+            "title": "Algerian parliament votes to send soldiers to neighboring Niger",
+            "summary": "The Council of the Nation, the upper house, and then the National People's Assembly, the lower house, both voted on Sunday to send military troops to Niger.",
             "url": "https://mondafrique.com/politique/le-parlement-algerien-vote-lenvoi-de-soldats-au-niger-voisin/",
             "candidate_event": false,
             "event_date": "2026-10-21"
@@ -1088,13 +1106,13 @@
           "ar": 5
         }
       },
-      "sultana_daily_text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nDaily bottom line for 2026-10-26: Reporting dated 2026-10-26 gives the desk 1 incident account to examine in Mali. None has support from a second independent source. The record is provisional; it does not establish the full extent of violence that day.\n\nMali: 23 retained reports. 1. The CNDH condemns the killings in Menaka and calls for investigations. Nearly 60 bodies were discovered in a mass grave at a camp near Menaka. The information was announced last Friday by the Directorate of Information and Public Relations of the Armed Forces (DIRPA), after attacks on several camps around the city. According to local sources, a massacre of civilians of such magnitude had not been reported in the region since 2020 . 2. Against Russia at all costs: Ukraine and the Tuaregs of Mali. Ukraine is fighting Russia, perhaps even in the Sahara. According to an investigation by the American channel CNN, published in September 2026, about fifteen Ukrainian drone specialists support Tuareg rebels in northern Mali. Their common enemy: the military in power in Bamako and their Russian allies . 3. Mali: thirteen civilians killed by an army drone strike, in the Timbuktu region. In Mali, thirteen civilians, including six children, were killed, on the night of Sunday to Monday, October 26, by a drone strike by the Malian army, near Lerneb, in the Timbuktu region, according to information verified by RFI from many local sources. The General Staff did not communicate about this strike . Published on: The Malian army is fighting, with its Russian partners in the Africa Corps, jihadist or pro-independence groups active in the country.\n\nBurkina Faso: 5 retained reports. 1. Burkina Faso: death penalty, road traffic, embezzlement... the main changes to the new Penal Code. Burkina Faso adopted a new Penal Code on 20 October 2026. Reinstatement of the death penalty for certain offences, toughening of road penalties, penalties proportional to the amounts embezzled, new offences related to telephone communications, etc. The text introduces several changes in Burkina Faso's criminal legislation. 2. Back to News: The highlights of the week of October 19 to 25, 2026 in Burkina Faso. Agriculture, energy, road safety and culture: the week of 19 to 25 October 2026 was marked by several decisions and initiatives in Burkina Faso. Back to the highlights. Burkina Faso accelerates its march towards food sovereignty . 3. Kombissiri: 25 young people arrested for road incivility and disruption of classes. La Police nationale burkinabè a interpellé, le vendredi 23 octobre 2026, vingt-cinq jeunes, dont cinq filles, à Kombissiri, pour des faits d’incivisme routier et de perturbation des cours. Menées dans un lycée de la ville et aux abords du marché de Tuili, ces interpellations ont été déclenchées grâce aux signalements des populations. Les comportements inciviques sont dans le viseur de la Police nationale à Kombissiri.\n\nNiger: 22 retained reports. 1. Algeria To Deploy Troops To Niger In First Foreign Mission In 53 Years. By Enyichukwu Enemanna Algeria is to send troops to Niger in its first foreign deployment since sending forces to Egypt during the Arab-Israeli war in 1973. The deployment follows a visit to Algiers by Niger’s defence minister, as the country seeks support against armed groups, some of which are linked to al-Qaeda and Islamic State. Algeria has economic interests in Niger, including a planned gas pipeline that would carry Nigerian gas through Niger to Algeria. 2. Algeria-Niger: a first Algerian military deployment abroad. Pour la première fois de son histoire, l'Algérie s'apprête à déployer des troupes hors de ses frontières. Le Parlement algérien a approuvé l'envoi de militaires au Niger, pays voisin confronté à une insécurité persistante due aux attaques de groupes djihadistes et à l'instabilité dans plusieurs régions du nord. Cette décision marque un tournant majeur dans la doctrine de défense algérienne et ouvre un nouveau chapitre dans les relations entre Alger et Niamey. 3. الجزائر الجيش الجزائري في النيجر… دلالات وأبعاد استراتيجية للقرار يرى الدكتور محمد الصالح جمّال، أستاذ العلوم السياسية والعلاقات الدولية أن مصادقة البرلمان على التماس إرسال مفرزة من الجيش الوطني الشعبي إلى النيجر، يعكس توجها استراتيجيا للرئيس عبد المجيد تبون، بصفته رئيسا… 2026/10/26. الجيش الجزائري في النيجر… دلالات وأبعاد استراتيجية للقرار يرى الدكتور محمد الصالح جمّال، أستاذ العلوم السياسية والعلاقات الدولية أن مصادقة البرلمان على التماس إرسال مفرزة من الجيش الوطني الشعبي إلى النيجر، يعكس توجها استراتيجيا للرئيس عبد المجيد تبون، بصفته رئيسا للجمهورية والقائد الأعلى للقوات المسلحة ووزير الدفاع الوطني، يقوم على تعزيز قدرة الجزائر على حماية مصالحها الحيوية، وتطوير شراكاتها الإفريقية وفق رؤية تجمع بين السيادة الوطنية والمسؤولية الإقليمية.\n\nActor picture: JNIM 0, IS Sahel 0, State 1.\n\nWhat changed: State: +1 same-day fused event(s) versus 2026-10-25 (0 → 1). Collection volume: +35 retained report(s) versus 2026-10-25 (19 → 54).\n\nIntelligence gaps: 1 same-day event(s) lack independent multi-source corroboration. 3 newly collected operational/candidate report(s) have unresolved or publication-proxy event dates. Collection confidence is moderate, so absence of reporting should not be interpreted as absence of activity.\n\nCollection confidence: MODERATE. 155/184 source paths reached 29 failed source paths\n\nAll retained source reports, including reports not promoted to the map, remain individually summarized in the intelligence feed and source records."
+      "sultana_daily_text": "Good day. This is Sultana Al-Qahtani with the Sahel Desk.\n\nDaily bottom line for 2026-10-26: Reporting dated 2026-10-26 gives the desk 1 incident account to examine in Mali. None has support from a second independent source. The record is provisional; it does not establish the full extent of violence that day.\n\nMali: 23 retained reports. 1. The CNDH condemns the killings in Menaka and calls for investigations. Nearly 60 bodies were discovered in a mass grave at a camp near Menaka. The information was announced last Friday by the Directorate of Information and Public Relations of the Armed Forces (DIRPA), after attacks on several camps around the city. According to local sources, a massacre of civilians of such magnitude had not been reported in the region since 2020 . 2. Against Russia at all costs: Ukraine and the Tuaregs of Mali. Ukraine is fighting Russia, perhaps even in the Sahara. According to an investigation by the American channel CNN, published in September 2026, about fifteen Ukrainian drone specialists support Tuareg rebels in northern Mali. Their common enemy: the military in power in Bamako and their Russian allies . 3. Mali: thirteen civilians killed by an army drone strike, in the Timbuktu region. In Mali, thirteen civilians, including six children, were killed, on the night of Sunday to Monday, October 26, by a drone strike by the Malian army, near Lerneb, in the Timbuktu region, according to information verified by RFI from many local sources. The General Staff did not communicate about this strike . Published on: The Malian army is fighting, with its Russian partners in the Africa Corps, jihadist or pro-independence groups active in the country.\n\nBurkina Faso: 5 retained reports. 1. Burkina Faso: death penalty, road traffic, embezzlement... the main changes to the new Penal Code. Burkina Faso adopted a new Penal Code on 20 October 2026. Reinstatement of the death penalty for certain offences, toughening of road penalties, penalties proportional to the amounts embezzled, new offences related to telephone communications, etc. The text introduces several changes in Burkina Faso's criminal legislation. 2. Back to News: The highlights of the week of October 19 to 25, 2026 in Burkina Faso. Agriculture, energy, road safety and culture: the week of 19 to 25 October 2026 was marked by several decisions and initiatives in Burkina Faso. Back to the highlights. Burkina Faso accelerates its march towards food sovereignty . 3. Kombissiri: 25 young people arrested for road incivility and disruption of classes. La Police nationale burkinabè a interpellé, le vendredi 23 octobre 2026, vingt-cinq jeunes, dont cinq filles, à Kombissiri, pour des faits d’incivisme routier et de perturbation des cours. Menées dans un lycée de la ville et aux abords du marché de Tuili, ces interpellations ont été déclenchées grâce aux signalements des populations. Les comportements inciviques sont dans le viseur de la Police nationale à Kombissiri.\n\nNiger: 22 retained reports. 1. Algeria To Deploy Troops To Niger In First Foreign Mission In 53 Years. By Enyichukwu Enemanna Algeria is to send troops to Niger in its first foreign deployment since sending forces to Egypt during the Arab-Israeli war in 1973. The deployment follows a visit to Algiers by Niger’s defence minister, as the country seeks support against armed groups, some of which are linked to al-Qaeda and Islamic State. Algeria has economic interests in Niger, including a planned gas pipeline that would carry Nigerian gas through Niger to Algeria. 2. Algeria-Niger: a first Algerian military deployment abroad. Pour la première fois de son histoire, l'Algérie s'apprête à déployer des troupes hors de ses frontières. Le Parlement algérien a approuvé l'envoi de militaires au Niger, pays voisin confronté à une insécurité persistante due aux attaques de groupes djihadistes et à l'instabilité dans plusieurs régions du nord. Cette décision marque un tournant majeur dans la doctrine de défense algérienne et ouvre un nouveau chapitre dans les relations entre Alger et Niamey. 3. Algeria The Algerian army in Niger… Significance and strategic dimensions of the decision Dr. Mohamed Saleh Jamal, Professor of Political Science and International Relations, believes that the parliament's approval of a petition to send a detachment of the People's National Army to Niger, reflects a strategic orientation of President Abdelmadjid Tebboune, in his capacity as President… 26/10/2026. The Algerian army in Niger… Significance and strategic dimensions of the decision Dr.\n\nActor picture: JNIM 0, IS Sahel 0, State 1.\n\nWhat changed: State: +1 same-day fused event(s) versus 2026-10-25 (0 → 1). Collection volume: +35 retained report(s) versus 2026-10-25 (19 → 54).\n\nIntelligence gaps: 1 same-day event(s) lack independent multi-source corroboration. 3 newly collected operational/candidate report(s) have unresolved or publication-proxy event dates. Collection confidence is moderate, so absence of reporting should not be interpreted as absence of activity.\n\nCollection confidence: MODERATE. 155/184 source paths reached 29 failed source paths\n\nAll retained source reports, including reports not promoted to the map, remain individually summarized in the intelligence feed and source records."
     },
     {
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-25",
-      "generated_at": "2026-10-27T05:18:29.181317Z",
+      "generated_at": "2026-10-27T05:40:48.092170Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -1429,7 +1447,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-24",
-      "generated_at": "2026-10-27T05:18:29.827272Z",
+      "generated_at": "2026-10-27T05:40:48.398371Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -1895,7 +1913,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-23",
-      "generated_at": "2026-10-27T05:18:29.084915Z",
+      "generated_at": "2026-10-27T05:40:48.009441Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -2441,7 +2459,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-22",
-      "generated_at": "2026-10-27T05:18:29.880700Z",
+      "generated_at": "2026-10-27T05:40:49.431174Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -3081,7 +3099,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-21",
-      "generated_at": "2026-10-27T05:18:29.700128Z",
+      "generated_at": "2026-10-27T05:40:49.278462Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -3681,7 +3699,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-20",
-      "generated_at": "2026-10-27T05:18:29.386779Z",
+      "generated_at": "2026-10-27T05:40:47.518748Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -4493,7 +4511,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-19",
-      "generated_at": "2026-10-27T05:18:29.091914Z",
+      "generated_at": "2026-10-27T05:40:49.445786Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -5064,7 +5082,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-18",
-      "generated_at": "2026-10-27T05:18:30.519230Z",
+      "generated_at": "2026-10-27T05:40:49.481965Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -5357,7 +5375,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-17",
-      "generated_at": "2026-10-27T05:18:29.459945Z",
+      "generated_at": "2026-10-27T05:40:49.423510Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -5773,7 +5791,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-16",
-      "generated_at": "2026-10-27T05:18:29.167229Z",
+      "generated_at": "2026-10-27T05:40:48.061914Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -6039,7 +6057,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-15",
-      "generated_at": "2026-10-27T05:18:29.653411Z",
+      "generated_at": "2026-10-27T05:40:48.450297Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -6483,7 +6501,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-14",
-      "generated_at": "2026-10-27T05:18:28.971762Z",
+      "generated_at": "2026-10-27T05:40:48.017448Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -6960,7 +6978,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-13",
-      "generated_at": "2026-10-27T05:18:29.973609Z",
+      "generated_at": "2026-10-27T05:40:48.280050Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -7294,7 +7312,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-12",
-      "generated_at": "2026-10-27T05:18:29.407156Z",
+      "generated_at": "2026-10-27T05:40:47.499334Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -7672,7 +7690,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-11",
-      "generated_at": "2026-10-27T05:18:30.638843Z",
+      "generated_at": "2026-10-27T05:40:49.453035Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -8009,7 +8027,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-10",
-      "generated_at": "2026-10-27T05:18:30.367013Z",
+      "generated_at": "2026-10-27T05:40:48.251170Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -8406,7 +8424,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-09",
-      "generated_at": "2026-10-27T05:18:29.493421Z",
+      "generated_at": "2026-10-27T05:40:48.229537Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -8891,7 +8909,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-08",
-      "generated_at": "2026-10-27T05:18:29.140443Z",
+      "generated_at": "2026-10-27T05:40:49.300700Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -9430,7 +9448,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-07",
-      "generated_at": "2026-10-27T05:18:29.479931Z",
+      "generated_at": "2026-10-27T05:40:47.969193Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -9969,7 +9987,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-06",
-      "generated_at": "2026-10-27T05:18:30.193768Z",
+      "generated_at": "2026-10-27T05:40:49.117739Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -10877,7 +10895,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-05",
-      "generated_at": "2026-10-27T05:18:29.933773Z",
+      "generated_at": "2026-10-27T05:40:48.729399Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -11535,7 +11553,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-04",
-      "generated_at": "2026-10-27T05:18:30.612269Z",
+      "generated_at": "2026-10-27T05:40:48.486343Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -12144,7 +12162,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-03",
-      "generated_at": "2026-10-27T05:18:29.201341Z",
+      "generated_at": "2026-10-27T05:40:47.939254Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -12631,7 +12649,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-02",
-      "generated_at": "2026-10-27T05:18:30.526004Z",
+      "generated_at": "2026-10-27T05:40:47.312887Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -12871,7 +12889,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-10-01",
-      "generated_at": "2026-10-27T05:18:29.613519Z",
+      "generated_at": "2026-10-27T05:40:48.681356Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -13419,7 +13437,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-30",
-      "generated_at": "2026-10-27T05:18:29.593376Z",
+      "generated_at": "2026-10-27T05:40:48.177922Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -14563,7 +14581,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-29",
-      "generated_at": "2026-10-27T05:18:29.800201Z",
+      "generated_at": "2026-10-27T05:40:48.779534Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -14888,7 +14906,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-28",
-      "generated_at": "2026-10-27T05:18:29.160472Z",
+      "generated_at": "2026-10-27T05:40:49.270678Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -15367,7 +15385,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-27",
-      "generated_at": "2026-10-27T05:18:29.960328Z",
+      "generated_at": "2026-10-27T05:40:49.146415Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
@@ -15720,7 +15738,7 @@
       "schema_version": "1.0",
       "site_patch_version": "3.3.5",
       "reporting_date": "2026-09-26",
-      "generated_at": "2026-10-27T05:18:29.706795Z",
+      "generated_at": "2026-10-27T05:40:49.103295Z",
       "coverage": [
         "Mali",
         "Burkina Faso",
