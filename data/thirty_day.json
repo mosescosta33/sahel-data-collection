@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-10-26T21:10:04.939491Z",
+  "generated_at": "2026-10-27T05:18:27.797311Z",
   "window_days": 30,
-  "cutoff": "2026-09-26",
-  "reports": 679,
-  "incident_reports": 164,
-  "candidate_events": 109,
-  "corroborated_events": 30,
-  "mapped_events": 87,
-  "mapped_locations": 163,
+  "cutoff": "2026-09-27",
+  "reports": 686,
+  "incident_reports": 166,
+  "candidate_events": 110,
+  "corroborated_events": 31,
+  "mapped_events": 88,
+  "mapped_locations": 165,
   "distinct_sources": 87,
   "by_actor": {
     "State": 67,
     "JNIM": 17,
-    "Other": 11,
+    "Other": 12,
     "Africa Corps/Wagner": 9,
     "IS Sahel": 5
   },
   "by_country": {
     "Mali": 100,
-    "Niger": 7,
+    "Niger": 8,
     "Burkina Faso": 2
   },
   "by_event_type": {
@@ -29,17 +29,17 @@
     "civilian targeting": 9,
     "kidnapping": 7,
     "raid": 4,
-    "ambush": 3,
-    "air/drone strike": 2
+    "air/drone strike": 3,
+    "ambush": 3
   },
   "by_language": {
-    "fr": 511,
+    "fr": 518,
     "en": 128,
     "ar": 40
   },
   "by_confidence": {
     "low": 51,
-    "moderate": 49,
+    "moderate": 50,
     "moderate-high": 7,
     "high": 2
   },
@@ -52,7 +52,12 @@
     {
       "source_code": "SRC-0006",
       "source": "Malijet",
-      "count": 69
+      "count": 70
+    },
+    {
+      "source_code": "SRC-0075",
+      "source": "AMAP (Agence Malienne de Presse et de Publicité)",
+      "count": 26
     },
     {
       "source_code": "SRC-0090",
@@ -60,19 +65,14 @@
       "count": 26
     },
     {
-      "source_code": "SRC-0075",
-      "source": "AMAP (Agence Malienne de Presse et de Publicité)",
-      "count": 25
-    },
-    {
       "source_code": "SRC-0001",
       "source": "RFI Afrique",
-      "count": 24
+      "count": 25
     },
     {
       "source_code": "SRC-0092",
       "source": "La Nouvelle Tribune (Bénin)",
-      "count": 23
+      "count": 24
     },
     {
       "source_code": "SRC-0121",
@@ -90,6 +90,11 @@
       "count": 16
     },
     {
+      "source_code": "SRC-0015",
+      "source": "ActuNiger",
+      "count": 16
+    },
+    {
       "source_code": "SRC-0022",
       "source": "Africanews",
       "count": 16
@@ -98,11 +103,6 @@
       "source_code": "SRC-0034",
       "source": "TV5MONDE Afrique",
       "count": 16
-    },
-    {
-      "source_code": "SRC-0015",
-      "source": "ActuNiger",
-      "count": 15
     }
   ],
   "top_locations": [
@@ -143,24 +143,19 @@
       "count": 6
     },
     {
+      "location": "Agadez",
+      "count": 4
+    },
+    {
       "location": "Mopti",
       "count": 4
     },
     {
       "location": "Niger",
       "count": 4
-    },
-    {
-      "location": "Niono",
-      "count": 4
     }
   ],
   "daily": [
-    {
-      "date": "2026-09-27",
-      "reports": 7,
-      "events": 2
-    },
     {
       "date": "2026-09-28",
       "reports": 14,
@@ -294,7 +289,7 @@
     {
       "date": "2026-10-24",
       "reports": 17,
-      "events": 4
+      "events": 5
     },
     {
       "date": "2026-10-25",
@@ -303,8 +298,13 @@
     },
     {
       "date": "2026-10-26",
-      "reports": 51,
+      "reports": 55,
       "events": 2
+    },
+    {
+      "date": "2026-10-27",
+      "reports": 3,
+      "events": 0
     }
   ],
   "latest_events": [
@@ -538,6 +538,157 @@
       "independent_source_count": 1,
       "significance": "MAJOR",
       "significance_reasons": [
+        "multi-location activity"
+      ]
+    },
+    {
+      "id": "650b78cc2599595d82288c663ad05e0045ebe5e2",
+      "event_date": "2026-10-24",
+      "event_date_confidence": "explicit-text",
+      "event_date_source": "explicit-date-no-year",
+      "published_at": "2026-10-26T22:08:30Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-27T05:16:11.158904Z",
+      "actor": "Other",
+      "perpetrator": null,
+      "target": null,
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [],
+      "parent_report_id": null,
+      "event_type": "air/drone strike",
+      "country": "Niger",
+      "city": "Niamey",
+      "lat": 13.5116,
+      "lng": 2.1254,
+      "locations": [
+        {
+          "name": "Niamey",
+          "country": "Niger",
+          "lat": 13.5116,
+          "lng": 2.1254,
+          "confidence": "explicit-place"
+        },
+        {
+          "name": "Agadez",
+          "country": "Niger",
+          "lat": 16.9733,
+          "lng": 7.9911,
+          "confidence": "explicit-place"
+        }
+      ],
+      "title": "Niger: Niamey accuses Chad of a deadly drone strike with the support of France",
+      "summary": "The Nigerien government has accused Chad of having carried out, with the support of France, a drone strike on its territory that killed two people and injured several civilians, according to an official statement in which Niamey announces the referral to the United Nations and the African Union. According to the Nigerien authorities, the attack occurred on October 24, around 01:00, in the Emiloulou area, in the Agadez region (north) .",
+      "sources": [
+        "Tchadinfos (النسخة العربية)",
+        "La Nouvelle Tribune (Bénin)"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "source_count": 2,
+      "report_urls": [
+        "https://tchadinfos.com/2026/10/26/niger-niamey-accuse-le-tchad-dune-frappe-de-drone-meurtriere-avec-lappui-de-la-france/",
+        "https://lanouvelletribune.info/2026/10/le-niger-accuse-le-tchad-et-la-france-apres-une-frappe-de-drone-sur-son-territoire/"
+      ],
+      "report_summaries": [
+        {
+          "url": "https://tchadinfos.com/2026/10/26/niger-niamey-accuse-le-tchad-dune-frappe-de-drone-meurtriere-avec-lappui-de-la-france/",
+          "source": "Tchadinfos (النسخة العربية)",
+          "title": "Niger: Niamey accuses Chad of a deadly drone strike with the support of France",
+          "summary": "The Nigerien government has accused Chad of having carried out, with the support of France, a drone strike on its territory that killed two people and injured several civilians, according to an official statement in which Niamey announces the referral to the United Nations and the African Union. According to the Nigerien authorities, the attack occurred on October 24, around 01:00, in the Emiloulou area, in the Agadez region (north) .",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": 2,
+          "fatalities_max": 2,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "civilian",
+            "security_force"
+          ],
+          "civilian_targeting_flag": true,
+          "casualty_claims": [
+            {
+              "kind": "fatalities",
+              "count": 2,
+              "victim_text": "people",
+              "claimant": "Tchadinfos (النسخة العربية)",
+              "status": "reported",
+              "evidence": "ccused Chad of having carried out, with the support of France, a drone strike on its territory that killed two people and injured several civilians, according to an official statement in which Niamey announces the ref"
+            }
+          ]
+        },
+        {
+          "url": "https://lanouvelletribune.info/2026/10/le-niger-accuse-le-tchad-et-la-france-apres-une-frappe-de-drone-sur-son-territoire/",
+          "source": "La Nouvelle Tribune (Bénin)",
+          "title": "Niger accuses Chad and France after drone strike on its territory",
+          "summary": "For some time now, relations between Niger and Chad have been experiencing friction and this is not about to be resolved in the immediate future. Indeed, relations between Niamey and N 'djamena are experiencing new tensions after a drone strike that the Nigerien authorities attribute to Chad in collaboration with France . The Nigerien authorities claim that the strike claimed the lives of two civilians and left several injured.",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "civilian"
+          ],
+          "civilian_targeting_flag": false,
+          "casualty_claims": []
+        }
+      ],
+      "created_at": "2026-10-27T05:16:11.158904Z",
+      "updated_at": "2026-10-27T05:16:12.513153Z",
+      "extraction_confidence": "low",
+      "victim_categories": [
+        "civilian",
+        "security_force"
+      ],
+      "civilian_targeting_flag": true,
+      "casualty_claims": [
+        {
+          "kind": "fatalities",
+          "count": 2,
+          "victim_text": "people",
+          "claimant": "Tchadinfos (النسخة العربية)",
+          "status": "reported",
+          "evidence": "ccused Chad of having carried out, with the support of France, a drone strike on its territory that killed two people and injured several civilians, according to an official statement in which Niamey announces the ref",
+          "source": "Tchadinfos (النسخة العربية)"
+        }
+      ],
+      "fatalities_min": 2,
+      "fatalities_max": 2,
+      "fatalities_best": 2,
+      "injured_min": null,
+      "injured_max": null,
+      "abducted_min": null,
+      "abducted_max": null,
+      "casualty_disputed": false,
+      "revision_history": [
+        {
+          "at": "2026-10-27T05:16:11.158904Z",
+          "type": "event_created",
+          "source": "Tchadinfos (النسخة العربية)"
+        },
+        {
+          "at": "2026-10-27T05:16:12.513153Z",
+          "type": "corroboration_or_geography_update",
+          "source": "La Nouvelle Tribune (Bénin)"
+        }
+      ],
+      "corroboration": "limited corroboration",
+      "confidence": "moderate",
+      "independent_source_domains": [
+        "tchadinfos.com",
+        "lanouvelletribune.info"
+      ],
+      "independent_source_count": 2,
+      "significance": "MAJOR",
+      "significance_reasons": [
+        "strategic/severe event pattern",
         "multi-location activity"
       ]
     },
@@ -3580,135 +3731,117 @@
       "significance_reasons": [
         "limited currently observed significance"
       ]
-    },
-    {
-      "id": "91bcc5c27a92a2a4cb875a4bcb34e048232c2bb7",
-      "event_date": "2026-10-19",
-      "event_date_confidence": "explicit-text",
-      "event_date_source": "relative-today",
-      "published_at": "2026-10-19T15:51:33Z",
-      "published_date_source": "opengraph",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-19T18:48:54.794354Z",
-      "actor": "State",
-      "perpetrator": null,
-      "target": null,
-      "claimant": null,
-      "supporting_force": null,
-      "mentioned_actors": [],
-      "parent_report_id": null,
-      "event_type": "security operation",
-      "country": "Mali",
-      "city": null,
-      "lat": null,
-      "lng": null,
-      "locations": [],
-      "title": "Report: 'Indiscriminate' drone strikes by Malian and Russian 'Africa Corps' forces",
-      "summary": "Summary Data from the Armed Conflict Location and Event Data Project, a US-based conflict observatory, showed that Malian and Africa Corps forces carried out 47 drone strikes that killed 94 civilians between April and August, up from 22 strikes that killed 44 civilians a year earlier . Human Rights Watch said in a report today, Monday, that the armed forces in Mali and its Russian supporters carried out drone strikes in an apparently \"indiscriminate\" manner, and committed other violations as part of an intensive attack against militants and separatists during the past months, killing dozens of civilians.",
-      "sources": [
-        "Independent Arabia"
-      ],
-      "languages": [
-        "ar"
-      ],
-      "source_count": 1,
-      "report_urls": [
-        "https://www.independentarabia.com/node/660795/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AF%D9%88%D9%84%D9%8A%D8%A7%D8%AA/%D8%AA%D9%82%D8%B1%D9%8A%D8%B1-%D8%B6%D8%B1%D8%A8%D8%A7%D8%AA-%D8%B9%D8%B4%D9%88%D8%A7%D8%A6%D9%8A%D8%A9-%D8%A8%D8%A7%D9%84%D9%85%D8%B3%D9%8A%D8%B1%D8%A7%D8%AA-%D9%86%D9%81%D8%B0%D8%AA%D9%87%D8%A7-%D9%82%D9%88%D8%A7%D8%AA-%D9%85%D8%A7%D9%84%D9%8A-%D9%88%D9%81%D9%8A%D9%84%D9%82-%D8%A3%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7-%D8%A7%D9%84%D8%B1%D9%88%D8%B3%D9%8A"
-      ],
-      "report_summaries": [
-        {
-          "url": "https://www.independentarabia.com/node/660795/%D8%A7%D9%84%D8%A3%D8%AE%D8%A8%D8%A7%D8%B1/%D8%AF%D9%88%D9%84%D9%8A%D8%A7%D8%AA/%D8%AA%D9%82%D8%B1%D9%8A%D8%B1-%D8%B6%D8%B1%D8%A8%D8%A7%D8%AA-%D8%B9%D8%B4%D9%88%D8%A7%D8%A6%D9%8A%D8%A9-%D8%A8%D8%A7%D9%84%D9%85%D8%B3%D9%8A%D8%B1%D8%A7%D8%AA-%D9%86%D9%81%D8%B0%D8%AA%D9%87%D8%A7-%D9%82%D9%88%D8%A7%D8%AA-%D9%85%D8%A7%D9%84%D9%8A-%D9%88%D9%81%D9%8A%D9%84%D9%82-%D8%A3%D9%81%D8%B1%D9%8A%D9%82%D9%8A%D8%A7-%D8%A7%D9%84%D8%B1%D9%88%D8%B3%D9%8A",
-          "source": "Independent Arabia",
-          "title": "Report: 'Indiscriminate' drone strikes by Malian and Russian 'Africa Corps' forces",
-          "summary": "Summary Data from the Armed Conflict Location and Event Data Project, a US-based conflict observatory, showed that Malian and Africa Corps forces carried out 47 drone strikes that killed 94 civilians between April and August, up from 22 strikes that killed 44 civilians a year earlier . Human Rights Watch said in a report today, Monday, that the armed forces in Mali and its Russian supporters carried out drone strikes in an apparently \"indiscriminate\" manner, and committed other violations as part of an intensive attack against militants and separatists during the past months, killing dozens of civilians.",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": 44,
-          "fatalities_max": 94,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "civilian",
-            "armed_group"
-          ],
-          "civilian_targeting_flag": true,
-          "casualty_claims": [
-            {
-              "kind": "fatalities",
-              "count": 94,
-              "victim_text": "civilians",
-              "claimant": "Independent Arabia",
-              "status": "reported",
-              "evidence": "conflict observatory, showed that Malian and Africa Corps forces carried out 47 drone strikes that killed 94 civilians between April and August, up from 22 strikes that killed 44 civilians a year earlier . Human Rights"
-            },
-            {
-              "kind": "fatalities",
-              "count": 44,
-              "victim_text": "civilians",
-              "claimant": "ngo/international organization",
-              "status": "reported",
-              "evidence": "ied out 47 drone strikes that killed 94 civilians between April and August, up from 22 strikes that killed 44 civilians a year earlier . Human Rights Watch said in a report today, Monday, that the armed forces in Mali a"
-            }
-          ]
-        }
-      ],
-      "created_at": "2026-10-19T18:48:54.794354Z",
-      "updated_at": "2026-10-19T18:48:54.794354Z",
-      "extraction_confidence": "low",
-      "victim_categories": [
-        "civilian",
-        "armed_group"
-      ],
-      "civilian_targeting_flag": true,
-      "casualty_claims": [
-        {
-          "kind": "fatalities",
-          "count": 94,
-          "victim_text": "civilians",
-          "claimant": "Independent Arabia",
-          "status": "reported",
-          "evidence": "conflict observatory, showed that Malian and Africa Corps forces carried out 47 drone strikes that killed 94 civilians between April and August, up from 22 strikes that killed 44 civilians a year earlier . Human Rights",
-          "source": "Independent Arabia"
-        },
-        {
-          "kind": "fatalities",
-          "count": 44,
-          "victim_text": "civilians",
-          "claimant": "ngo/international organization",
-          "status": "reported",
-          "evidence": "ied out 47 drone strikes that killed 94 civilians between April and August, up from 22 strikes that killed 44 civilians a year earlier . Human Rights Watch said in a report today, Monday, that the armed forces in Mali a",
-          "source": "Independent Arabia"
-        }
-      ],
-      "fatalities_min": 44,
-      "fatalities_max": 94,
-      "fatalities_best": null,
-      "injured_min": null,
-      "injured_max": null,
-      "abducted_min": null,
-      "abducted_max": null,
-      "casualty_disputed": true,
-      "revision_history": [
-        {
-          "at": "2026-10-19T18:48:54.794354Z",
-          "type": "event_created",
-          "source": "Independent Arabia"
-        }
-      ],
-      "corroboration": "single-source",
-      "confidence": "low",
-      "independent_source_domains": [
-        "independentarabia.com"
-      ],
-      "independent_source_count": 1,
-      "significance": "MAJOR",
-      "significance_reasons": [
-        "strategic/severe event pattern"
-      ]
     }
   ],
   "latest_reports": [
+    {
+      "published_at": "2026-10-27T03:40:49Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-27T05:16:14.594067Z",
+      "discovered_at": "2026-10-27T05:16:14.594067Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0001",
+      "source": "RFI Afrique",
+      "language": "fr",
+      "actor": null,
+      "country": "Niger",
+      "city": null,
+      "event_type": "political/security policy",
+      "candidate_event": false,
+      "title": "Algeria: Why Parliament voted to send military units to Niger",
+      "url": "https://www.rfi.fr/fr/afrique/20261027-alg%C3%A9rie-pourquoi-le-parlement-a-vot%C3%A9-pour-l-envoi-d-unit%C3%A9s-militaires-au-niger"
+    },
+    {
+      "published_at": "2026-10-27T00:40:36Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-27T05:16:13.500305Z",
+      "discovered_at": "2026-10-27T05:16:13.500305Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0075",
+      "source": "AMAP (Agence Malienne de Presse et de Publicité)",
+      "language": "fr",
+      "actor": null,
+      "country": "Mali",
+      "city": "Bamako",
+      "event_type": "political/security policy",
+      "candidate_event": false,
+      "title": "Cooperation: Accra and Bamako consolidate their strategic and economic partnership",
+      "url": "https://amap.ml/2026/10/27/cooperation-accra-et-bamako-consolident-leur-partenariat-strategique-et-economique/"
+    },
+    {
+      "published_at": "2026-10-27T00:26:58Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-27T05:16:12.513153Z",
+      "discovered_at": "2026-10-27T05:16:12.513153Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0092",
+      "source": "La Nouvelle Tribune (Bénin)",
+      "language": "fr",
+      "actor": "Other",
+      "country": "Niger",
+      "city": "Niamey",
+      "event_type": "air/drone strike",
+      "candidate_event": true,
+      "title": "Niger accuses Chad and France after drone strike on its territory",
+      "url": "https://lanouvelletribune.info/2026/10/le-niger-accuse-le-tchad-et-la-france-apres-une-frappe-de-drone-sur-son-territoire/"
+    },
+    {
+      "published_at": "2026-10-26T22:08:30Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-27T05:16:11.158904Z",
+      "discovered_at": "2026-10-27T05:16:11.158904Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0168",
+      "source": "Tchadinfos (النسخة العربية)",
+      "language": "fr",
+      "actor": "Other",
+      "country": "Niger",
+      "city": "Niamey",
+      "event_type": "air/drone strike",
+      "candidate_event": true,
+      "title": "Niger: Niamey accuses Chad of a deadly drone strike with the support of France",
+      "url": "https://tchadinfos.com/2026/10/26/niger-niamey-accuse-le-tchad-dune-frappe-de-drone-meurtriere-avec-lappui-de-la-france/"
+    },
+    {
+      "published_at": "2026-10-26T21:59:37Z",
+      "published_date_source": "itemprop",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-27T05:16:13.166258Z",
+      "discovered_at": "2026-10-27T05:16:13.166258Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0015",
+      "source": "ActuNiger",
+      "language": "fr",
+      "actor": null,
+      "country": "Niger",
+      "city": "Niamey",
+      "event_type": "air/drone strike",
+      "candidate_event": false,
+      "title": "Niger: Niamey accuses N’Djamena, in complicity with France, of\"hostile acts\"",
+      "url": "https://www.actuniger.com/societe/22502-niger-niamey-accuse-ndjamena-en-complicite-avec-la-france-d-actes-hostiles"
+    },
+    {
+      "published_at": "2026-10-26T21:23:51Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-27T05:16:11.637673Z",
+      "discovered_at": "2026-10-27T05:16:11.637673Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0006",
+      "source": "Malijet",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Ménaka",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Menaka: CNDH condemns attacks on civilians in Tagadayat",
+      "url": "https://malijet.com/la_societe_malienne_aujourdhui/312516-menaka-la-cndh-condamne-les-attaques-contre-des-civils-a-t.html"
+    },
     {
       "published_at": "2026-10-26T20:01:26Z",
       "published_date_source": "feed",
@@ -3760,7 +3893,7 @@
       "city": "Niamey",
       "event_type": "political/security policy",
       "candidate_event": false,
-      "title": "Algérie-Niger : un premier déploiement militaire algérien à l'étranger",
+      "title": "Algeria-Niger: a first Algerian military deployment abroad",
       "url": "https://www.dw.com/fr/lalg%C3%A9rie-autorise-le-d%C3%A9ploiement-de-ses-troupes-au-niger/a-79770158"
     },
     {
@@ -3796,7 +3929,7 @@
       "city": "Bamako",
       "event_type": "clash",
       "candidate_event": false,
-      "title": "Contre la Russie à tout prix : l‘Ukraine et les Touaregs du Mali",
+      "title": "Against Russia at all costs: Ukraine and the Tuaregs of Mali",
       "url": "https://www.dw.com/fr/le-soutien-plausible-de-lukraine-%C3%A0-des-groupes-arm%C3%A9s-au-mali/a-79768886"
     },
     {
@@ -4120,7 +4253,7 @@
       "city": null,
       "event_type": "security operation",
       "candidate_event": false,
-      "title": "24 morts dans une collision entre un bus et un camion",
+      "title": "24 dead in a collision between a bus and a truck",
       "url": "https://www.wakatsera.com/24-morts-dans-une-collision-entre-un-bus-et-un-camion/"
     },
     {
@@ -4192,7 +4325,7 @@
       "city": null,
       "event_type": null,
       "candidate_event": false,
-      "title": "AVIS À MANIFESTATION D’INTÉRÊT N°003/CA/TAFOUK TV/2026 RECRUTEMENT D’UN CABINET POUR L’ÉLABORATION DU MANUEL DE PROCÉDURES ADMINISTRATIVES, COMPTABLES ET FINANCIÈRES DE TAFOUK TV.",
+      "title": "EXPRESSION OF INTEREST NOTICE N°003/CA/TAFOUK TV/2026 RECRUITMENT OF A FIRM FOR THE DEVELOPMENT OF TAFOUK TV 'S ADMINISTRATIVE, ACCOUNTING AND FINANCIAL PROCEDURES MANUAL.",
       "url": "https://amap.ml/2026/10/26/avis-a-manifestation-dinteret-n003-ca-tafouk-tv-2026-recrutement-dun-cabinet-pour-lelaboration-du-manuel-de-procedures-administratives-comptables-et-financieres-de/"
     },
     {
@@ -4210,7 +4343,7 @@
       "city": null,
       "event_type": null,
       "candidate_event": false,
-      "title": "AVIS DE MANIFESTATION D’INTÉRÊT N°001/CA/TAFOUK TV/2026 RECRUTEMENT D’UN CABINET SPÉCIALISÉ POUR L’ÉLABORATION DU MANUEL TECHNIQUE D’UTILISATION ET DE MAINTENANCE DES ÉQUIPEMENTS DE TAFOUK TV",
+      "title": "NOTICE OF EXPRESSION OF INTEREST N°001/CA/TAFOUK TV/2026 RECRUITMENT OF A SPECIALIZED FIRM FOR THE DEVELOPMENT OF THE TECHNICAL MANUAL FOR THE USE AND MAINTENANCE OF TAFOUK TV EQUIPMENT",
       "url": "https://amap.ml/2026/10/26/avis-de-manifestation-dinteret-n001-ca-tafouk-tv-2026-recrutement-dun-cabinet-specialise-pour-lelaboration-du-manuel-technique-dutilisation-et-de-maintenance/"
     },
     {
@@ -4246,7 +4379,7 @@
       "city": "Ouagadougou",
       "event_type": null,
       "candidate_event": false,
-      "title": "Burkina : 30 militaires et volontaires blessés bénéficient d’un programme spécial pendant leur convalescence",
+      "title": "Burkina: 30 injured soldiers and volunteers benefit from a special program during their recovery",
       "url": "https://lanouvelletribune.info/2026/10/burkina-30-militaires-et-volontaires-blesses-beneficient-dun-programme-special-pendant-leur-convalescence/"
     },
     {
@@ -4320,114 +4453,6 @@
       "candidate_event": false,
       "title": "Algeria to send troops to Niger in first foreign deployment in over 50 years",
       "url": "https://www.france24.com/en/africa/20261026-algeria-to-send-troops-to-niger-in-first-foreign-deployment-in-over-50-years"
-    },
-    {
-      "published_at": "2026-10-26T09:58:59Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-26T15:19:34.223197Z",
-      "discovered_at": "2026-10-26T15:19:34.223197Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0007",
-      "source": "Journal du Mali",
-      "language": "fr",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Kidal",
-      "event_type": "offensive/campaign",
-      "candidate_event": true,
-      "title": "Security situation: the army draws up a new inventory",
-      "url": "https://journaldumali.com/situation-securitaire-larmee-dresse-un-nouvel-etat-des-lieux/"
-    },
-    {
-      "published_at": "2026-10-26T09:52:11Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-26T15:19:32.672544Z",
-      "discovered_at": "2026-10-26T15:19:32.672544Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0023",
-      "source": "Al Jazeera English",
-      "language": "en",
-      "actor": "State",
-      "country": "Niger",
-      "city": null,
-      "event_type": "political/security policy",
-      "candidate_event": false,
-      "title": "Algeria’s military deployment to Niger: What’s behind the move?",
-      "url": "https://www.aljazeera.com/news/2026/10/26/algerias-military-deployment-to-niger-whats-behind-the-move?traffic_source=rss"
-    },
-    {
-      "published_at": "2026-10-26T09:49:04Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-26T15:19:32.765256Z",
-      "discovered_at": "2026-10-26T15:19:32.765256Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0006",
-      "source": "Malijet",
-      "language": "fr",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Bamako",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Mali: a convoy of 1,107 tankers arrives in Bamako",
-      "url": "https://malijet.com/actualite_economique_du_mali/312508-mali-un-convoi-de-1-107-camions-citernes-arrive-a-bamako.html"
-    },
-    {
-      "published_at": "2026-10-26T09:22:08Z",
-      "published_date_source": "opengraph",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-26T15:19:42.876193Z",
-      "discovered_at": "2026-10-26T15:19:42.876193Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0090",
-      "source": "AllAfrica (Édition Française)",
-      "language": "fr",
-      "actor": null,
-      "country": "Niger",
-      "city": "Dirkou",
-      "event_type": "political/security policy",
-      "candidate_event": false,
-      "title": "Afrique: Des soldats algériens au Niger",
-      "url": "https://fr.allafrica.com/stories/202610260186.html"
-    },
-    {
-      "published_at": "2026-10-26T09:19:37Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-26T21:07:38.072650Z",
-      "discovered_at": "2026-10-26T21:07:38.072650Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0010",
-      "source": "Burkina24",
-      "language": "fr",
-      "actor": null,
-      "country": "Niger",
-      "city": null,
-      "event_type": "political/security policy",
-      "candidate_event": false,
-      "title": "Algeria: Parliament approves deployment of troops to Niger",
-      "url": "https://burkina24.com/2026/10/26/algerie-le-parlement-approuve-le-deploiement-de-troupes-au-niger/"
-    },
-    {
-      "published_at": "2026-10-26T08:04:29Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-26T15:19:39.507756Z",
-      "discovered_at": "2026-10-26T15:19:39.507756Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0008",
-      "source": "Bamada",
-      "language": "fr",
-      "actor": null,
-      "country": "Niger",
-      "city": "Niamey",
-      "event_type": "political/security policy",
-      "candidate_event": false,
-      "title": "Sahel: Algerian parliament authorizes sending troops to Niger",
-      "url": "https://bamada.net/sahel-le-parlement-algerien-autorise-lenvoi-de-troupes-au-niger"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."

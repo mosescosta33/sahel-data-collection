@@ -233,6 +233,157 @@
     ]
   },
   {
+    "id": "650b78cc2599595d82288c663ad05e0045ebe5e2",
+    "event_date": "2026-10-24",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "explicit-date-no-year",
+    "published_at": "2026-10-26T22:08:30Z",
+    "published_date_source": "jsonld:datePublished",
+    "published_time_precision": "datetime",
+    "collected_at": "2026-10-27T05:16:11.158904Z",
+    "actor": "Other",
+    "perpetrator": null,
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [],
+    "parent_report_id": null,
+    "event_type": "air/drone strike",
+    "country": "Niger",
+    "city": "Niamey",
+    "lat": 13.5116,
+    "lng": 2.1254,
+    "locations": [
+      {
+        "name": "Niamey",
+        "country": "Niger",
+        "lat": 13.5116,
+        "lng": 2.1254,
+        "confidence": "explicit-place"
+      },
+      {
+        "name": "Agadez",
+        "country": "Niger",
+        "lat": 16.9733,
+        "lng": 7.9911,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "Niger: Niamey accuses Chad of a deadly drone strike with the support of France",
+    "summary": "The Nigerien government has accused Chad of having carried out, with the support of France, a drone strike on its territory that killed two people and injured several civilians, according to an official statement in which Niamey announces the referral to the United Nations and the African Union. According to the Nigerien authorities, the attack occurred on October 24, around 01:00, in the Emiloulou area, in the Agadez region (north) .",
+    "sources": [
+      "Tchadinfos (النسخة العربية)",
+      "La Nouvelle Tribune (Bénin)"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 2,
+    "report_urls": [
+      "https://tchadinfos.com/2026/10/26/niger-niamey-accuse-le-tchad-dune-frappe-de-drone-meurtriere-avec-lappui-de-la-france/",
+      "https://lanouvelletribune.info/2026/10/le-niger-accuse-le-tchad-et-la-france-apres-une-frappe-de-drone-sur-son-territoire/"
+    ],
+    "report_summaries": [
+      {
+        "url": "https://tchadinfos.com/2026/10/26/niger-niamey-accuse-le-tchad-dune-frappe-de-drone-meurtriere-avec-lappui-de-la-france/",
+        "source": "Tchadinfos (النسخة العربية)",
+        "title": "Niger: Niamey accuses Chad of a deadly drone strike with the support of France",
+        "summary": "The Nigerien government has accused Chad of having carried out, with the support of France, a drone strike on its territory that killed two people and injured several civilians, according to an official statement in which Niamey announces the referral to the United Nations and the African Union. According to the Nigerien authorities, the attack occurred on October 24, around 01:00, in the Emiloulou area, in the Agadez region (north) .",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": 2,
+        "fatalities_max": 2,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "civilian",
+          "security_force"
+        ],
+        "civilian_targeting_flag": true,
+        "casualty_claims": [
+          {
+            "kind": "fatalities",
+            "count": 2,
+            "victim_text": "people",
+            "claimant": "Tchadinfos (النسخة العربية)",
+            "status": "reported",
+            "evidence": "ccused Chad of having carried out, with the support of France, a drone strike on its territory that killed two people and injured several civilians, according to an official statement in which Niamey announces the ref"
+          }
+        ]
+      },
+      {
+        "url": "https://lanouvelletribune.info/2026/10/le-niger-accuse-le-tchad-et-la-france-apres-une-frappe-de-drone-sur-son-territoire/",
+        "source": "La Nouvelle Tribune (Bénin)",
+        "title": "Niger accuses Chad and France after drone strike on its territory",
+        "summary": "For some time now, relations between Niger and Chad have been experiencing friction and this is not about to be resolved in the immediate future. Indeed, relations between Niamey and N 'djamena are experiencing new tensions after a drone strike that the Nigerien authorities attribute to Chad in collaboration with France . The Nigerien authorities claim that the strike claimed the lives of two civilians and left several injured.",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "civilian"
+        ],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      }
+    ],
+    "created_at": "2026-10-27T05:16:11.158904Z",
+    "updated_at": "2026-10-27T05:16:12.513153Z",
+    "extraction_confidence": "low",
+    "victim_categories": [
+      "civilian",
+      "security_force"
+    ],
+    "civilian_targeting_flag": true,
+    "casualty_claims": [
+      {
+        "kind": "fatalities",
+        "count": 2,
+        "victim_text": "people",
+        "claimant": "Tchadinfos (النسخة العربية)",
+        "status": "reported",
+        "evidence": "ccused Chad of having carried out, with the support of France, a drone strike on its territory that killed two people and injured several civilians, according to an official statement in which Niamey announces the ref",
+        "source": "Tchadinfos (النسخة العربية)"
+      }
+    ],
+    "fatalities_min": 2,
+    "fatalities_max": 2,
+    "fatalities_best": 2,
+    "injured_min": null,
+    "injured_max": null,
+    "abducted_min": null,
+    "abducted_max": null,
+    "casualty_disputed": false,
+    "revision_history": [
+      {
+        "at": "2026-10-27T05:16:11.158904Z",
+        "type": "event_created",
+        "source": "Tchadinfos (النسخة العربية)"
+      },
+      {
+        "at": "2026-10-27T05:16:12.513153Z",
+        "type": "corroboration_or_geography_update",
+        "source": "La Nouvelle Tribune (Bénin)"
+      }
+    ],
+    "corroboration": "limited corroboration",
+    "confidence": "moderate",
+    "independent_source_domains": [
+      "tchadinfos.com",
+      "lanouvelletribune.info"
+    ],
+    "independent_source_count": 2,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "strategic/severe event pattern",
+      "multi-location activity"
+    ]
+  },
+  {
     "id": "5709a07050390df9218d4afe1cab57829d87d4cc",
     "event_date": "2026-10-24",
     "event_date_confidence": "publication-proxy",
