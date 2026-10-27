@@ -1,13 +1,13 @@
 [
   {
-    "id": "4fd8fc77ec0ebb03922dd1759966c638c5d7a629",
-    "event_date": "2026-10-26",
+    "id": "d2c610d8d1ef3f295751222456900e77053f787c",
+    "event_date": "2026-10-27",
     "event_date_confidence": "explicit-text",
-    "event_date_source": "explicit-date-no-year",
-    "published_at": "2026-10-27T05:22:11Z",
+    "event_date_source": "explicit-calendar-date",
+    "published_at": "2026-10-27T12:52:07Z",
     "published_date_source": "jsonld:datePublished",
     "published_time_precision": "datetime",
-    "collected_at": "2026-10-27T05:39:05.266385Z",
+    "collected_at": "2026-10-27T14:40:21.126054Z",
     "actor": "Other",
     "perpetrator": null,
     "target": null,
@@ -15,7 +15,7 @@
     "supporting_force": null,
     "mentioned_actors": [],
     "parent_report_id": null,
-    "event_type": "attack",
+    "event_type": "air/drone strike",
     "country": "Niger",
     "city": "Niamey",
     "lat": 13.5116,
@@ -36,24 +36,24 @@
         "confidence": "explicit-place"
       }
     ],
-    "title": "Niger denounces a drone attack by Chad with \"the support of France\"",
-    "summary": "Niger summons the ambassador of Chad following a drone strike on its territory. In a statement read on national television on Monday, October 26, the Nigerien government denounced \"a drone airstrike carried out from the territory of Chad\" and in which, according to it, France participated. .",
+    "title": "Territorial aggression in Niger: Niamey accuses Chad and France after a drone strike and seizes the UN",
+    "summary": "In an official statement issued on Tuesday, October 27, 2026, the Government of the Republic of Niger denounced an airstrike that targeted its national territory on the night of October 24. Balance sheet, two civilians killed and several wounded. Directly accusing Chad and France, the Nigerien authorities announced a battery of diplomatic, judicial and security responses .",
     "sources": [
-      "RFI Afrique"
+      "Burkina24"
     ],
     "languages": [
       "fr"
     ],
     "source_count": 1,
     "report_urls": [
-      "https://www.rfi.fr/fr/afrique/20261027-le-niger-d%C3%A9nonce-une-attaque-de-drone-du-tchad-avec-l-appui-de-la-france"
+      "https://burkina24.com/2026/10/27/agression-territoriale-au-niger-niamey-accuse-le-tchad-et-la-france-apres-une-frappe-de-drone-et-saisit-lonu/"
     ],
     "report_summaries": [
       {
-        "url": "https://www.rfi.fr/fr/afrique/20261027-le-niger-d%C3%A9nonce-une-attaque-de-drone-du-tchad-avec-l-appui-de-la-france",
-        "source": "RFI Afrique",
-        "title": "Niger denounces a drone attack by Chad with \"the support of France\"",
-        "summary": "Niger summons the ambassador of Chad following a drone strike on its territory. In a statement read on national television on Monday, October 26, the Nigerien government denounced \"a drone airstrike carried out from the territory of Chad\" and in which, according to it, France participated. .",
+        "url": "https://burkina24.com/2026/10/27/agression-territoriale-au-niger-niamey-accuse-le-tchad-et-la-france-apres-une-frappe-de-drone-et-saisit-lonu/",
+        "source": "Burkina24",
+        "title": "Territorial aggression in Niger: Niamey accuses Chad and France after a drone strike and seizes the UN",
+        "summary": "In an official statement issued on Tuesday, October 27, 2026, the Government of the Republic of Niger denounced an airstrike that targeted its national territory on the night of October 24. Balance sheet, two civilians killed and several wounded. Directly accusing Chad and France, the Nigerien authorities announced a battery of diplomatic, judicial and security responses .",
         "summary_basis": "translated-excerpt",
         "fatalities_min": 2,
         "fatalities_max": 2,
@@ -72,13 +72,13 @@
             "victim_text": "civilians",
             "claimant": "state/official source",
             "status": "reported",
-            "evidence": "carried out \"from Chad\" with \"the support of France\", according to the Nigerien government and left two civilians dead and wounded . Niamey speaks of an act of aggression, a violation of his national sovereignty and an"
+            "evidence": "ounced an airstrike that targeted its national territory on the night of October 24. Balance sheet, two civilians killed and several wounded. Directly accusing Chad and France, the Nigerien authorities announced a batter"
           }
         ]
       }
     ],
-    "created_at": "2026-10-27T05:39:05.266385Z",
-    "updated_at": "2026-10-27T05:39:05.266385Z",
+    "created_at": "2026-10-27T14:40:21.126054Z",
+    "updated_at": "2026-10-27T14:40:21.126054Z",
     "extraction_confidence": "low",
     "victim_categories": [
       "civilian"
@@ -91,8 +91,8 @@
         "victim_text": "civilians",
         "claimant": "state/official source",
         "status": "reported",
-        "evidence": "carried out \"from Chad\" with \"the support of France\", according to the Nigerien government and left two civilians dead and wounded . Niamey speaks of an act of aggression, a violation of his national sovereignty and an",
-        "source": "RFI Afrique"
+        "evidence": "ounced an airstrike that targeted its national territory on the night of October 24. Balance sheet, two civilians killed and several wounded. Directly accusing Chad and France, the Nigerien authorities announced a batter",
+        "source": "Burkina24"
       }
     ],
     "fatalities_min": 2,
@@ -105,15 +105,15 @@
     "casualty_disputed": false,
     "revision_history": [
       {
-        "at": "2026-10-27T05:39:05.266385Z",
+        "at": "2026-10-27T14:40:21.126054Z",
         "type": "event_created",
-        "source": "RFI Afrique"
+        "source": "Burkina24"
       }
     ],
     "corroboration": "single-source",
     "confidence": "low",
     "independent_source_domains": [
-      "rfi.fr"
+      "burkina24.com"
     ],
     "independent_source_count": 1,
     "significance": "MAJOR",
@@ -165,14 +165,16 @@
     "title": "Mali: thirteen civilians killed by an army drone strike, in the Timbuktu region",
     "summary": "In Mali, thirteen civilians, including six children, were killed, on the night of Sunday to Monday, October 26, by a drone strike by the Malian army, near Lerneb, in the Timbuktu region, according to information verified by RFI from many local sources. The General Staff did not communicate about this strike . Published on: The Malian army is fighting, with its Russian partners in the Africa Corps, jihadist or pro-independence groups active in the country.",
     "sources": [
-      "RFI Afrique"
+      "RFI Afrique",
+      "AllAfrica (Édition Française)"
     ],
     "languages": [
       "fr"
     ],
-    "source_count": 1,
+    "source_count": 2,
     "report_urls": [
-      "https://www.rfi.fr/fr/afrique/20261026-mali-treize-civils-tu%C3%A9s-par-une-frappe-de-drone-de-l-arm%C3%A9e-dans-la-r%C3%A9gion-de-tombouctou"
+      "https://www.rfi.fr/fr/afrique/20261026-mali-treize-civils-tu%C3%A9s-par-une-frappe-de-drone-de-l-arm%C3%A9e-dans-la-r%C3%A9gion-de-tombouctou",
+      "https://fr.allafrica.com/stories/202610270196.html"
     ],
     "report_summaries": [
       {
@@ -202,10 +204,38 @@
             "evidence": "Mali: thirteen civilians killed by an army drone strike, in the Timbuktu region Mali: thirteen civilians killed by an army drone st"
           }
         ]
+      },
+      {
+        "url": "https://fr.allafrica.com/stories/202610270196.html",
+        "source": "AllAfrica (Édition Française)",
+        "title": "Mali: Thirteen civilians killed by an army drone strike, in the Timbuktu region",
+        "summary": "In Mali, thirteen civilians, including six children, were killed on the night of Sunday to Monday, October 26, by a drone strike by the Malian army, near Lerneb, in the Timbuktu region, according to information verified by RFI from many local sources. The General Staff did not communicate about this strike . The Malian army, together with its Russian partners in the Africa Corps, is fighting jihadist or pro-independence groups active in the country.",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": 13,
+        "fatalities_max": 13,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "civilian",
+          "armed_group"
+        ],
+        "civilian_targeting_flag": true,
+        "casualty_claims": [
+          {
+            "kind": "fatalities",
+            "count": 13,
+            "victim_text": "civilians",
+            "claimant": "state/official source",
+            "status": "reported",
+            "evidence": "Mali: Thirteen civilians killed by an army drone strike, in the Timbuktu region In Mali, thirteen civilians, including six children"
+          }
+        ]
       }
     ],
     "created_at": "2026-10-26T21:07:33.816825Z",
-    "updated_at": "2026-10-26T21:07:33.816825Z",
+    "updated_at": "2026-10-27T14:40:30.346098Z",
     "extraction_confidence": "moderate",
     "victim_categories": [
       "civilian",
@@ -221,6 +251,15 @@
         "status": "reported",
         "evidence": "Mali: thirteen civilians killed by an army drone strike, in the Timbuktu region Mali: thirteen civilians killed by an army drone st",
         "source": "RFI Afrique"
+      },
+      {
+        "kind": "fatalities",
+        "count": 13,
+        "victim_text": "civilians",
+        "claimant": "state/official source",
+        "status": "reported",
+        "evidence": "Mali: Thirteen civilians killed by an army drone strike, in the Timbuktu region In Mali, thirteen civilians, including six children",
+        "source": "AllAfrica (Édition Française)"
       }
     ],
     "fatalities_min": 13,
@@ -236,17 +275,307 @@
         "at": "2026-10-26T21:07:33.816825Z",
         "type": "event_created",
         "source": "RFI Afrique"
+      },
+      {
+        "at": "2026-10-27T14:40:30.346098Z",
+        "type": "corroboration_or_geography_update",
+        "source": "AllAfrica (Édition Française)"
+      }
+    ],
+    "corroboration": "limited corroboration",
+    "confidence": "moderate",
+    "independent_source_domains": [
+      "rfi.fr",
+      "fr.allafrica.com"
+    ],
+    "independent_source_count": 2,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "multi-location activity"
+    ]
+  },
+  {
+    "id": "4fd8fc77ec0ebb03922dd1759966c638c5d7a629",
+    "event_date": "2026-10-26",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "explicit-date-no-year",
+    "published_at": "2026-10-27T05:22:11Z",
+    "published_date_source": "jsonld:datePublished",
+    "published_time_precision": "datetime",
+    "collected_at": "2026-10-27T05:39:05.266385Z",
+    "actor": "Other",
+    "perpetrator": null,
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [],
+    "parent_report_id": null,
+    "event_type": "attack",
+    "country": "Niger",
+    "city": "Niamey",
+    "lat": 13.5116,
+    "lng": 2.1254,
+    "locations": [
+      {
+        "name": "Niamey",
+        "country": "Niger",
+        "lat": 13.5116,
+        "lng": 2.1254,
+        "confidence": "explicit-place"
+      },
+      {
+        "name": "Agadez",
+        "country": "Niger",
+        "lat": 16.9733,
+        "lng": 7.9911,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "Niger denounces a drone attack by Chad with \"the support of France\"",
+    "summary": "Niger summons Chad's ambassador following a drone strike on its territory. In a statement read on national television on Monday, October 26, the Nigerien government denounced \"a drone airstrike carried out from the territory of Chad\" and in which, according to it, France participated. The incident comes as relations continue to deteriorate between Niamey and Ndjamena The facts date back to 24 October at 1am in the Emi Lulu area, in the Agadez region, not far from the Algerian border.",
+    "sources": [
+      "RFI Afrique",
+      "AllAfrica (Édition Française)"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 2,
+    "report_urls": [
+      "https://www.rfi.fr/fr/afrique/20261027-le-niger-d%C3%A9nonce-une-attaque-de-drone-du-tchad-avec-l-appui-de-la-france",
+      "https://fr.allafrica.com/stories/202610270200.html"
+    ],
+    "report_summaries": [
+      {
+        "url": "https://www.rfi.fr/fr/afrique/20261027-le-niger-d%C3%A9nonce-une-attaque-de-drone-du-tchad-avec-l-appui-de-la-france",
+        "source": "RFI Afrique",
+        "title": "Niger denounces a drone attack by Chad with \"the support of France\"",
+        "summary": "Niger summons the ambassador of Chad following a drone strike on its territory. In a statement read on national television on Monday, October 26, the Nigerien government denounced \"a drone airstrike carried out from the territory of Chad\" and in which, according to it, France participated. .",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": 2,
+        "fatalities_max": 2,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "civilian"
+        ],
+        "civilian_targeting_flag": true,
+        "casualty_claims": [
+          {
+            "kind": "fatalities",
+            "count": 2,
+            "victim_text": "civilians",
+            "claimant": "state/official source",
+            "status": "reported",
+            "evidence": "carried out \"from Chad\" with \"the support of France\", according to the Nigerien government and left two civilians dead and wounded . Niamey speaks of an act of aggression, a violation of his national sovereignty and an"
+          }
+        ]
+      },
+      {
+        "url": "https://fr.allafrica.com/stories/202610270200.html",
+        "source": "AllAfrica (Édition Française)",
+        "title": "Niger: The country denounces a drone attack by Chad with \"the support of France\"",
+        "summary": "Niger summons Chad's ambassador following a drone strike on its territory. In a statement read on national television on Monday, October 26, the Nigerien government denounced \"a drone airstrike carried out from the territory of Chad\" and in which, according to it, France participated. The incident comes as relations continue to deteriorate between Niamey and Ndjamena The facts date back to 24 October at 1am in the Emi Lulu area, in the Agadez region, not far from the Algerian border.",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": 2,
+        "fatalities_max": 2,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "civilian"
+        ],
+        "civilian_targeting_flag": true,
+        "casualty_claims": [
+          {
+            "kind": "fatalities",
+            "count": 2,
+            "victim_text": "civilians",
+            "claimant": "state/official source",
+            "status": "reported",
+            "evidence": "carried out \"from Chad\" with \"the support of France\", according to the Nigerien government and left two civilians dead and wounded . Niamey speaks of an act of aggression, a violation of his national sovereignty and an"
+          }
+        ]
+      }
+    ],
+    "created_at": "2026-10-27T05:39:05.266385Z",
+    "updated_at": "2026-10-27T14:40:25.114410Z",
+    "extraction_confidence": "low",
+    "victim_categories": [
+      "civilian"
+    ],
+    "civilian_targeting_flag": true,
+    "casualty_claims": [
+      {
+        "kind": "fatalities",
+        "count": 2,
+        "victim_text": "civilians",
+        "claimant": "state/official source",
+        "status": "reported",
+        "evidence": "carried out \"from Chad\" with \"the support of France\", according to the Nigerien government and left two civilians dead and wounded . Niamey speaks of an act of aggression, a violation of his national sovereignty and an",
+        "source": "RFI Afrique"
+      },
+      {
+        "kind": "fatalities",
+        "count": 2,
+        "victim_text": "civilians",
+        "claimant": "state/official source",
+        "status": "reported",
+        "evidence": "carried out \"from Chad\" with \"the support of France\", according to the Nigerien government and left two civilians dead and wounded . Niamey speaks of an act of aggression, a violation of his national sovereignty and an",
+        "source": "AllAfrica (Édition Française)"
+      }
+    ],
+    "fatalities_min": 2,
+    "fatalities_max": 2,
+    "fatalities_best": 2,
+    "injured_min": null,
+    "injured_max": null,
+    "abducted_min": null,
+    "abducted_max": null,
+    "casualty_disputed": false,
+    "revision_history": [
+      {
+        "at": "2026-10-27T05:39:05.266385Z",
+        "type": "event_created",
+        "source": "RFI Afrique"
+      },
+      {
+        "at": "2026-10-27T14:40:25.114410Z",
+        "type": "corroboration_or_geography_update",
+        "source": "AllAfrica (Édition Française)"
+      }
+    ],
+    "corroboration": "limited corroboration",
+    "confidence": "moderate",
+    "independent_source_domains": [
+      "rfi.fr",
+      "fr.allafrica.com"
+    ],
+    "independent_source_count": 2,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "strategic/severe event pattern",
+      "multi-location activity"
+    ]
+  },
+  {
+    "id": "9fa7ddf372fa9c911142400b5a03de6103529100",
+    "event_date": "2026-10-26",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "relative-weekday",
+    "published_at": "2026-10-27T07:24:55Z",
+    "published_date_source": "jsonld:datePublished",
+    "published_time_precision": "datetime",
+    "collected_at": "2026-10-27T14:40:20.434238Z",
+    "actor": "State",
+    "perpetrator": null,
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [],
+    "parent_report_id": null,
+    "event_type": "air/drone strike",
+    "country": "Niger",
+    "city": "Niamey",
+    "lat": 13.5116,
+    "lng": 2.1254,
+    "locations": [
+      {
+        "name": "Niamey",
+        "country": "Niger",
+        "lat": 13.5116,
+        "lng": 2.1254,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "Niger accuses Chad of deadly drone attack in which two civilians died",
+    "summary": "As their relations continue to deteriorate, Niger’s military government on Monday accused Chad of carrying out a deadly drone strike in which two civilians were killed and others wounded. In a statement by the authorities read on national television, it said it had summoned the Chadian ambassador following the incident. Niamey also demanded an immediate end to \"hostile actions\" and compensation for the damage caused.",
+    "sources": [
+      "Africanews"
+    ],
+    "languages": [
+      "en"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://www.africanews.com/2026/10/27/niger-accuses-chad-of-deadly-drone-attack-in-which-two-civilians-died/"
+    ],
+    "report_summaries": [
+      {
+        "url": "https://www.africanews.com/2026/10/27/niger-accuses-chad-of-deadly-drone-attack-in-which-two-civilians-died/",
+        "source": "Africanews",
+        "title": "Niger accuses Chad of deadly drone attack in which two civilians died",
+        "summary": "As their relations continue to deteriorate, Niger’s military government on Monday accused Chad of carrying out a deadly drone strike in which two civilians were killed and others wounded. In a statement by the authorities read on national television, it said it had summoned the Chadian ambassador following the incident. Niamey also demanded an immediate end to \"hostile actions\" and compensation for the damage caused.",
+        "summary_basis": "source-excerpt",
+        "fatalities_min": 2,
+        "fatalities_max": 2,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "civilian",
+          "armed_group"
+        ],
+        "civilian_targeting_flag": true,
+        "casualty_claims": [
+          {
+            "kind": "fatalities",
+            "count": 2,
+            "victim_text": "civilians",
+            "claimant": "state/official source",
+            "status": "reported",
+            "evidence": ", Niger’s military government on Monday accused Chad of carrying out a deadly drone strike in which two civilians were killed and others wounded. In a statement by the authorities read on national television, it said it had s"
+          }
+        ]
+      }
+    ],
+    "created_at": "2026-10-27T14:40:20.434238Z",
+    "updated_at": "2026-10-27T14:40:20.434238Z",
+    "extraction_confidence": "low",
+    "victim_categories": [
+      "civilian",
+      "armed_group"
+    ],
+    "civilian_targeting_flag": true,
+    "casualty_claims": [
+      {
+        "kind": "fatalities",
+        "count": 2,
+        "victim_text": "civilians",
+        "claimant": "state/official source",
+        "status": "reported",
+        "evidence": ", Niger’s military government on Monday accused Chad of carrying out a deadly drone strike in which two civilians were killed and others wounded. In a statement by the authorities read on national television, it said it had s",
+        "source": "Africanews"
+      }
+    ],
+    "fatalities_min": 2,
+    "fatalities_max": 2,
+    "fatalities_best": 2,
+    "injured_min": null,
+    "injured_max": null,
+    "abducted_min": null,
+    "abducted_max": null,
+    "casualty_disputed": false,
+    "revision_history": [
+      {
+        "at": "2026-10-27T14:40:20.434238Z",
+        "type": "event_created",
+        "source": "Africanews"
       }
     ],
     "corroboration": "single-source",
-    "confidence": "moderate",
+    "confidence": "low",
     "independent_source_domains": [
-      "rfi.fr"
+      "africanews.com"
     ],
     "independent_source_count": 1,
     "significance": "MAJOR",
     "significance_reasons": [
-      "multi-location activity"
+      "strategic/severe event pattern"
     ]
   },
   {
@@ -356,6 +685,243 @@
     ]
   },
   {
+    "id": "6f747bfbe7220ec5d03987c312902f25f36033a7",
+    "event_date": "2026-10-24",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "explicit-calendar-date",
+    "published_at": "2026-10-27T07:08:00Z",
+    "published_date_source": "jsonld:datePublished",
+    "published_time_precision": "datetime",
+    "collected_at": "2026-10-27T14:40:21.798902Z",
+    "actor": "Other",
+    "perpetrator": null,
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [],
+    "parent_report_id": null,
+    "event_type": "security operation",
+    "country": "Niger",
+    "city": "Niamey",
+    "lat": 13.5116,
+    "lng": 2.1254,
+    "locations": [
+      {
+        "name": "Niamey",
+        "country": "Niger",
+        "lat": 13.5116,
+        "lng": 2.1254,
+        "confidence": "explicit-place"
+      },
+      {
+        "name": "Agadez",
+        "country": "Niger",
+        "lat": 16.9733,
+        "lng": 7.9911,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "Chadian drone strikes on Nigerian territory: Niamey condemns this action and announces diplomatic and security measures",
+    "summary": "Niamey, Oct 26 (ANP) – The Nigerien government has condemned in the strongest terms an airstrike carried out by drone, on October 24, 2026, around one o'clock in the morning, in the Emi Loulou area, Agadez region, which it attributes to the Chadian state with the support of France. According to the Nigerien authorities, this strike caused the death of two civilians, injured people and damaged vehicles In a statement, the government says that this attack targeted the national territory and deplores the loss of life as well as the material damage recorded.",
+    "sources": [
+      "Agence Nigérienne de Presse",
+      "Le Sahel"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 2,
+    "report_urls": [
+      "https://anp.ne/frappes-de-drones-tchadiens-sur-le-territoire-nigerien-niamey-condamne-cette-action-et-annonce-des-mesures-diplomatiques-et-securitaires/",
+      "https://www.lesahel.org/communique-officiel-du-gouvernement-suite-a-une-frappe-par-drone-en-territoire-nigerien-par-le-tchad/"
+    ],
+    "report_summaries": [
+      {
+        "url": "https://anp.ne/frappes-de-drones-tchadiens-sur-le-territoire-nigerien-niamey-condamne-cette-action-et-annonce-des-mesures-diplomatiques-et-securitaires/",
+        "source": "Agence Nigérienne de Presse",
+        "title": "Chadian drone strikes on Nigerian territory: Niamey condemns this action and announces diplomatic and security measures",
+        "summary": "Niamey, Oct 26 (ANP) – The Nigerien government has condemned in the strongest terms an airstrike carried out by drone, on October 24, 2026, around one o'clock in the morning, in the Emi Loulou area, Agadez region, which it attributes to the Chadian state with the support of France. According to the Nigerien authorities, this strike caused the death of two civilians, injured people and damaged vehicles In a statement, the government says that this attack targeted the national territory and deplores the loss of life as well as the material damage recorded.",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "civilian",
+          "security_force"
+        ],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      },
+      {
+        "url": "https://www.lesahel.org/communique-officiel-du-gouvernement-suite-a-une-frappe-par-drone-en-territoire-nigerien-par-le-tchad/",
+        "source": "Le Sahel",
+        "title": "Official statement of the government following a drone strike in Nigerian territory by Chad",
+        "summary": "The Government informs national and international opinion that on October 24, 2026, at around 1 a.m., the national territory was the target of a drone airstrike carried out from the territory of Chad in the Emiloulou area, Agadez region, with the support of a foreign power, France. This strike resulted in the death of two civilians and injuries. It also damaged vehicles .",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "civilian",
+          "security_force"
+        ],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      }
+    ],
+    "created_at": "2026-10-27T14:40:21.798902Z",
+    "updated_at": "2026-10-27T14:40:28.268567Z",
+    "extraction_confidence": "low",
+    "victim_categories": [
+      "civilian",
+      "security_force"
+    ],
+    "civilian_targeting_flag": false,
+    "casualty_claims": [],
+    "fatalities_min": null,
+    "fatalities_max": null,
+    "fatalities_best": null,
+    "injured_min": null,
+    "injured_max": null,
+    "abducted_min": null,
+    "abducted_max": null,
+    "casualty_disputed": false,
+    "revision_history": [
+      {
+        "at": "2026-10-27T14:40:21.798902Z",
+        "type": "event_created",
+        "source": "Agence Nigérienne de Presse"
+      },
+      {
+        "at": "2026-10-27T14:40:28.268567Z",
+        "type": "corroboration_or_geography_update",
+        "source": "Le Sahel"
+      }
+    ],
+    "corroboration": "limited corroboration",
+    "confidence": "moderate",
+    "independent_source_domains": [
+      "anp.ne",
+      "lesahel.org"
+    ],
+    "independent_source_count": 2,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "strategic/severe event pattern",
+      "multi-location activity"
+    ]
+  },
+  {
+    "id": "b2c78eb2178c800c1ff378667b0e773fe8d0e8a1",
+    "event_date": "2026-10-24",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "explicit-date-no-year",
+    "published_at": "2026-10-27T13:02:47Z",
+    "published_date_source": "jsonld:datePublished",
+    "published_time_precision": "datetime",
+    "collected_at": "2026-10-27T14:40:27.250730Z",
+    "actor": "Other",
+    "perpetrator": null,
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [],
+    "parent_report_id": null,
+    "event_type": "security operation",
+    "country": "Niger",
+    "city": "Niamey",
+    "lat": 13.5116,
+    "lng": 2.1254,
+    "locations": [
+      {
+        "name": "Niamey",
+        "country": "Niger",
+        "lat": 13.5116,
+        "lng": 2.1254,
+        "confidence": "explicit-place"
+      },
+      {
+        "name": "Agadez",
+        "country": "Niger",
+        "lat": 16.9733,
+        "lng": 7.9911,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "Accusations of strikes in Niger: Chad denies and demands proof of Niamey",
+    "summary": "The tone rises between N’Djamena and Niamey. The Chadian government on Tuesday rejected accusations by the Nigerien authorities that a drone strike carried out from Chadian territory targeted an area of the Agadez region on the night of 24 October, causing the death of two civilians and injuring several others, according to the toll announced by Niamey In a statement read on national television, the Minister of Communication and government spokesman, Gassim Chérif Mahamat, assured that Chad had \"in no way ordered, conducted or supported\" an air military operation against Niger.",
+    "sources": [
+      "Tchadinfos (النسخة العربية)"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://tchadinfos.com/2026/10/27/accusations-de-frappes-au-niger-le-tchad-dement-et-exige-des-preuves-de-niamey/"
+    ],
+    "report_summaries": [
+      {
+        "url": "https://tchadinfos.com/2026/10/27/accusations-de-frappes-au-niger-le-tchad-dement-et-exige-des-preuves-de-niamey/",
+        "source": "Tchadinfos (النسخة العربية)",
+        "title": "Accusations of strikes in Niger: Chad denies and demands proof of Niamey",
+        "summary": "The tone rises between N’Djamena and Niamey. The Chadian government on Tuesday rejected accusations by the Nigerien authorities that a drone strike carried out from Chadian territory targeted an area of the Agadez region on the night of 24 October, causing the death of two civilians and injuring several others, according to the toll announced by Niamey In a statement read on national television, the Minister of Communication and government spokesman, Gassim Chérif Mahamat, assured that Chad had \"in no way ordered, conducted or supported\" an air military operation against Niger.",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "civilian"
+        ],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      }
+    ],
+    "created_at": "2026-10-27T14:40:27.250730Z",
+    "updated_at": "2026-10-27T14:40:27.250730Z",
+    "extraction_confidence": "low",
+    "victim_categories": [
+      "civilian"
+    ],
+    "civilian_targeting_flag": false,
+    "casualty_claims": [],
+    "fatalities_min": null,
+    "fatalities_max": null,
+    "fatalities_best": null,
+    "injured_min": null,
+    "injured_max": null,
+    "abducted_min": null,
+    "abducted_max": null,
+    "casualty_disputed": true,
+    "revision_history": [
+      {
+        "at": "2026-10-27T14:40:27.250730Z",
+        "type": "event_created",
+        "source": "Tchadinfos (النسخة العربية)"
+      }
+    ],
+    "corroboration": "single-source",
+    "confidence": "low",
+    "independent_source_domains": [
+      "tchadinfos.com"
+    ],
+    "independent_source_count": 1,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "strategic/severe event pattern",
+      "multi-location activity"
+    ]
+  },
+  {
     "id": "650b78cc2599595d82288c663ad05e0045ebe5e2",
     "event_date": "2026-10-24",
     "event_date_confidence": "explicit-text",
@@ -393,18 +959,24 @@
       }
     ],
     "title": "Niger: Niamey accuses Chad of a deadly drone strike with the support of France",
-    "summary": "The Nigerien government has accused Chad of having carried out, with the support of France, a drone strike on its territory that killed two people and injured several civilians, according to an official statement in which Niamey announces the referral to the United Nations and the African Union. According to the Nigerien authorities, the attack occurred on October 24, around 01:00, in the Emiloulou area, in the Agadez region (north) .",
+    "summary": "The Nigerien government accused Chad and France of being involved in a drone airstrike that left two civilians dead and several injured on October 24 in the Emi Lulu area, in the Agadez region, announcing a series of diplomatic measures and the referral to international bodies According to a government statement, the strike occurred around 1:00 am and was allegedly carried out from Chadian territory \"with the support of a foreign power, France\".",
     "sources": [
       "Tchadinfos (النسخة العربية)",
-      "La Nouvelle Tribune (Bénin)"
+      "La Nouvelle Tribune (Bénin)",
+      "Bamada",
+      "Malijet",
+      "Seneweb"
     ],
     "languages": [
       "fr"
     ],
-    "source_count": 2,
+    "source_count": 5,
     "report_urls": [
       "https://tchadinfos.com/2026/10/26/niger-niamey-accuse-le-tchad-dune-frappe-de-drone-meurtriere-avec-lappui-de-la-france/",
-      "https://lanouvelletribune.info/2026/10/le-niger-accuse-le-tchad-et-la-france-apres-une-frappe-de-drone-sur-son-territoire/"
+      "https://lanouvelletribune.info/2026/10/le-niger-accuse-le-tchad-et-la-france-apres-une-frappe-de-drone-sur-son-territoire/",
+      "https://bamada.net/niger-deux-civils-tues-dans-une-frappe-de-drone-niamey-accuse-le-tchad-et-la-france",
+      "https://malijet.com/actualite-sur-afrique/312520-niger-niamey-accuse-le-tchad-dune-frappe-de-drone-ayant-f.html",
+      "https://www.seneweb.com/fr/news/Afrique/niger-niamey-accuse-le-tchad-et-la-france-apres-une-frappe-de-drone-meurtriere_n_999001878.html"
     ],
     "report_summaries": [
       {
@@ -452,10 +1024,91 @@
         ],
         "civilian_targeting_flag": false,
         "casualty_claims": []
+      },
+      {
+        "url": "https://bamada.net/niger-deux-civils-tues-dans-une-frappe-de-drone-niamey-accuse-le-tchad-et-la-france",
+        "source": "Bamada",
+        "title": "Niger: two civilians killed in drone strike, Niamey accuses Chad and France",
+        "summary": "The Nigerien government accused Chad and France of being involved in a drone airstrike that left two civilians dead and several injured on October 24 in the Emi Lulu area, in the Agadez region, announcing a series of diplomatic measures and the referral to international bodies According to a government statement, the strike occurred around 1:00 am and was allegedly carried out from Chadian territory \"with the support of a foreign power, France\".",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": 2,
+        "fatalities_max": 2,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "civilian",
+          "security_force"
+        ],
+        "civilian_targeting_flag": true,
+        "casualty_claims": [
+          {
+            "kind": "fatalities",
+            "count": 2,
+            "victim_text": "civilians",
+            "claimant": "state/official source",
+            "status": "reported",
+            "evidence": "Niger: two civilians killed in drone strike, Niamey accuses Chad and France The Nigerien government accused Chad and France of"
+          }
+        ]
+      },
+      {
+        "url": "https://malijet.com/actualite-sur-afrique/312520-niger-niamey-accuse-le-tchad-dune-frappe-de-drone-ayant-f.html",
+        "source": "Malijet",
+        "title": "Niger: Niamey accuses Chad of a drone strike that killed two people",
+        "summary": "The Nigerien government accuses Chad of having carried out a drone strike against the Emiloulou area, in the Agadez region, on October 24, 2026, around 1 a.m. According to a statement broadcast on national television, the attack left two civilians dead, several wounded and damaged vehicles . Niamey claims that the drone left Chadian territory with the support of France.",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": 2,
+        "fatalities_max": 2,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "civilian"
+        ],
+        "civilian_targeting_flag": true,
+        "casualty_claims": [
+          {
+            "kind": "fatalities",
+            "count": 2,
+            "victim_text": "civilians",
+            "claimant": "Malijet",
+            "status": "reported",
+            "evidence": "24, 2026, around 1 a.m. According to a statement broadcast on national television, the attack left two civilians dead, several wounded and damaged vehicles . Niamey claims that the drone left Chadian territory with th"
+          },
+          {
+            "kind": "fatalities",
+            "count": 2,
+            "victim_text": "people",
+            "claimant": "state/official source",
+            "status": "reported",
+            "evidence": "Niger: Niamey accuses Chad of a drone strike that killed two people Niger: Niamey accuses Chad of a drone strike that killed two people The Nigerien government accuses"
+          }
+        ]
+      },
+      {
+        "url": "https://www.seneweb.com/fr/news/Afrique/niger-niamey-accuse-le-tchad-et-la-france-apres-une-frappe-de-drone-meurtriere_n_999001878.html",
+        "source": "Seneweb",
+        "title": "Niger : Niamey accuse le Tchad et la France après une frappe de drone meurtrière",
+        "summary": "Le gouvernement nigérien affirme que son territoire a été visé, samedi vers 00h00 GMT, par une frappe aérienne menée par drone depuis le Tchad, avec le soutien présumé de la France. L’attaque aurait eu lieu dans la zone d’Emi Lulu, dans la région d’Agadez, près de la frontière algérienne. Selon les autorités de Niamey, la frappe a fait deux morts parmi les civils, plusieurs blessés et endommagé des véhicules.",
+        "summary_basis": "source-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "civilian"
+        ],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
       }
     ],
     "created_at": "2026-10-27T05:16:11.158904Z",
-    "updated_at": "2026-10-27T05:16:12.513153Z",
+    "updated_at": "2026-10-27T14:40:23.172980Z",
     "extraction_confidence": "low",
     "victim_categories": [
       "civilian",
@@ -471,6 +1124,33 @@
         "status": "reported",
         "evidence": "ccused Chad of having carried out, with the support of France, a drone strike on its territory that killed two people and injured several civilians, according to an official statement in which Niamey announces the ref",
         "source": "Tchadinfos (النسخة العربية)"
+      },
+      {
+        "kind": "fatalities",
+        "count": 2,
+        "victim_text": "civilians",
+        "claimant": "state/official source",
+        "status": "reported",
+        "evidence": "Niger: two civilians killed in drone strike, Niamey accuses Chad and France The Nigerien government accused Chad and France of",
+        "source": "Bamada"
+      },
+      {
+        "kind": "fatalities",
+        "count": 2,
+        "victim_text": "civilians",
+        "claimant": "Malijet",
+        "status": "reported",
+        "evidence": "24, 2026, around 1 a.m. According to a statement broadcast on national television, the attack left two civilians dead, several wounded and damaged vehicles . Niamey claims that the drone left Chadian territory with th",
+        "source": "Malijet"
+      },
+      {
+        "kind": "fatalities",
+        "count": 2,
+        "victim_text": "people",
+        "claimant": "state/official source",
+        "status": "reported",
+        "evidence": "Niger: Niamey accuses Chad of a drone strike that killed two people Niger: Niamey accuses Chad of a drone strike that killed two people The Nigerien government accuses",
+        "source": "Malijet"
       }
     ],
     "fatalities_min": 2,
@@ -491,18 +1171,37 @@
         "at": "2026-10-27T05:16:12.513153Z",
         "type": "corroboration_or_geography_update",
         "source": "La Nouvelle Tribune (Bénin)"
+      },
+      {
+        "at": "2026-10-27T14:40:20.943807Z",
+        "type": "corroboration_or_geography_update",
+        "source": "Bamada"
+      },
+      {
+        "at": "2026-10-27T14:40:20.741219Z",
+        "type": "corroboration_or_geography_update",
+        "source": "Malijet"
+      },
+      {
+        "at": "2026-10-27T14:40:23.172980Z",
+        "type": "corroboration_or_geography_update",
+        "source": "Seneweb"
       }
     ],
-    "corroboration": "limited corroboration",
-    "confidence": "moderate",
+    "corroboration": "multi-source",
+    "confidence": "moderate-high",
     "independent_source_domains": [
       "tchadinfos.com",
-      "lanouvelletribune.info"
+      "lanouvelletribune.info",
+      "bamada.net",
+      "malijet.com",
+      "seneweb.com"
     ],
-    "independent_source_count": 2,
+    "independent_source_count": 5,
     "significance": "MAJOR",
     "significance_reasons": [
       "strategic/severe event pattern",
+      "multi-source corroboration",
       "multi-location activity"
     ]
   },
@@ -2080,6 +2779,105 @@
     "significance": "SIGNIFICANT",
     "significance_reasons": [
       "operational security event"
+    ]
+  },
+  {
+    "id": "1dd2180e9c714b4653d65eaadeb057187023c471",
+    "event_date": "2026-10-21",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "explicit-calendar-date",
+    "published_at": "2026-10-27T15:40:00Z",
+    "published_date_source": "html:time",
+    "published_time_precision": "datetime",
+    "collected_at": "2026-10-27T14:40:28.048649Z",
+    "actor": "Other",
+    "perpetrator": null,
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [],
+    "parent_report_id": null,
+    "event_type": "attack",
+    "country": "Niger",
+    "city": "Agadez",
+    "lat": 16.9733,
+    "lng": 7.9911,
+    "locations": [
+      {
+        "name": "Agadez",
+        "country": "Niger",
+        "lat": 16.9733,
+        "lng": 7.9911,
+        "confidence": "explicit-place"
+      },
+      {
+        "name": "Arlit",
+        "country": "Niger",
+        "lat": 18.73694,
+        "lng": 7.38528,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "Agadez: The governor chairs the regular meeting of the CRS and visits the wounded from the attack on two SONITRAV buses",
+    "summary": "The Governor of the Agadez region, Major General Ibra Boulama Issa, chaired, on October 21, 2026, the regular meeting of the Regional Security Council (CRS) devoted to the review of the security situation in the region and the events following the attack perpetrated on Tuesday, October 20, 2026 by armed bandits against two SONITRAV buses, on the Tchirozérine-Agadez axis At the end of this meeting, the governor, accompanied by the members of the CRS, went to the Regional Hospital Center (CHR) of Agadez to inquire about the state of health of the wounded and to show the compassion of the country's authorities to…",
+    "sources": [
+      "Le Sahel"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://www.lesahel.org/agadez-le-gouverneur-preside-la-reunion-ordinaire-du-crs-et-rend-visite-aux-blesses-de-lattaque-contre-deux-bus-sonitrav/"
+    ],
+    "report_summaries": [
+      {
+        "url": "https://www.lesahel.org/agadez-le-gouverneur-preside-la-reunion-ordinaire-du-crs-et-rend-visite-aux-blesses-de-lattaque-contre-deux-bus-sonitrav/",
+        "source": "Le Sahel",
+        "title": "Agadez: The governor chairs the regular meeting of the CRS and visits the wounded from the attack on two SONITRAV buses",
+        "summary": "The Governor of the Agadez region, Major General Ibra Boulama Issa, chaired, on October 21, 2026, the regular meeting of the Regional Security Council (CRS) devoted to the review of the security situation in the region and the events following the attack perpetrated on Tuesday, October 20, 2026 by armed bandits against two SONITRAV buses, on the Tchirozérine-Agadez axis At the end of this meeting, the governor, accompanied by the members of the CRS, went to the Regional Hospital Center (CHR) of Agadez to inquire about the state of health of the wounded and to show the compassion of the country's authorities to…",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      }
+    ],
+    "created_at": "2026-10-27T14:40:28.048649Z",
+    "updated_at": "2026-10-27T14:40:28.048649Z",
+    "extraction_confidence": "low",
+    "victim_categories": [],
+    "civilian_targeting_flag": false,
+    "casualty_claims": [],
+    "fatalities_min": null,
+    "fatalities_max": null,
+    "fatalities_best": null,
+    "injured_min": null,
+    "injured_max": null,
+    "abducted_min": null,
+    "abducted_max": null,
+    "casualty_disputed": false,
+    "revision_history": [
+      {
+        "at": "2026-10-27T14:40:28.048649Z",
+        "type": "event_created",
+        "source": "Le Sahel"
+      }
+    ],
+    "corroboration": "single-source",
+    "confidence": "low",
+    "independent_source_domains": [
+      "lesahel.org"
+    ],
+    "independent_source_count": 1,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "multi-location activity"
     ]
   },
   {
