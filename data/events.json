@@ -1,5 +1,306 @@
 [
   {
+    "id": "8dec849a689660d7b4ecdf537db0f1355b6738ac",
+    "event_date": "2026-10-27",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "explicit-calendar-date",
+    "published_at": "2026-10-27T20:49:45Z",
+    "published_date_source": "itemprop",
+    "published_time_precision": "datetime",
+    "collected_at": "2026-10-28T05:52:59.343390Z",
+    "actor": "Other",
+    "perpetrator": null,
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [],
+    "parent_report_id": null,
+    "event_type": "air/drone strike",
+    "country": "Niger",
+    "city": "Agadez",
+    "lat": 16.9733,
+    "lng": 7.9911,
+    "locations": [
+      {
+        "name": "Agadez",
+        "country": "Niger",
+        "lat": 16.9733,
+        "lng": 7.9911,
+        "confidence": "explicit-place"
+      },
+      {
+        "name": "Niamey",
+        "country": "Niger",
+        "lat": 13.5116,
+        "lng": 2.1254,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "Drone strike in Agadez: Chad's ambassador summoned to the Ministry of Foreign Affairs",
+    "summary": "Ouestafnews – On Tuesday, October 27, 2026, the Chadian government rejected Niger's accusations of being behind a drone strike that occurred on October 24, 2026 in the Agadez region. He denies any involvement in this military operation and demands the publication of material evidence from Niamey. He also supports the opening of an independent international investigation The Chadian authorities describe these accusations as \"serious and repetitive\" and reject any responsibility, according to a government statement issued on October 27, 2026.",
+    "sources": [
+      "ActuNiger",
+      "Ouestaf News",
+      "Seneweb"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 3,
+    "report_urls": [
+      "https://www.actuniger.com/societe/22511-frappe-de-drone-a-agadez-lambassadeur-du-tchad-convoque-au-ministere-des-affaires-etrangeres",
+      "https://www.ouestaf.com/frappe-de-drone-a-agadez-le-niger-accuse-le-tchad-recuse/",
+      "https://www.seneweb.com/fr/news/Afrique/niger-lambassadeur-du-tchad-convoque-apres-une-frappe-de-drone_n_999002010.html"
+    ],
+    "report_summaries": [
+      {
+        "url": "https://www.actuniger.com/societe/22511-frappe-de-drone-a-agadez-lambassadeur-du-tchad-convoque-au-ministere-des-affaires-etrangeres",
+        "source": "ActuNiger",
+        "title": "Drone strike in Agadez: Chad's ambassador summoned to the Ministry of Foreign Affairs",
+        "summary": "The Minister of Justice, Keeper of the Seals, Mr. Alio Daouda, acting Minister of Foreign Affairs, Cooperation and Nigeriens Abroad, H.E. Bakary Yaou Sangaré, received on Tuesday, October 27, 2026 the Ambassador of the Republic of Chad in Niger, as part of the summons relating to the drone strike in the Agadez region This measure follows a drone airstrike that occurred on October 24, 2026, around 1 a.m., in the Emiloulou area, Agadez region.",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "civilian"
+        ],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      },
+      {
+        "url": "https://www.ouestaf.com/frappe-de-drone-a-agadez-le-niger-accuse-le-tchad-recuse/",
+        "source": "Ouestaf News",
+        "title": "Drone strike in Agadez: Niger accuses, Chad rejects",
+        "summary": "Ouestafnews – On Tuesday, October 27, 2026, the Chadian government rejected Niger's accusations of being behind a drone strike that occurred on October 24, 2026 in the Agadez region. He denies any involvement in this military operation and demands the publication of material evidence from Niamey. He also supports the opening of an independent international investigation The Chadian authorities describe these accusations as \"serious and repetitive\" and reject any responsibility, according to a government statement issued on October 27, 2026.",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      },
+      {
+        "url": "https://www.seneweb.com/fr/news/Afrique/niger-lambassadeur-du-tchad-convoque-apres-une-frappe-de-drone_n_999002010.html",
+        "source": "Seneweb",
+        "title": "Niger: Chad's ambassador summoned after drone strike",
+        "summary": "Niger: the ambassador of Chad summoned after a drone strike The Nigerien authorities summoned, on Tuesday, October 27, 2026, the ambassador of Chad in Niamey, following a drone strike that occurred on October 24 in the Agadez region. According to the Nigerien government, this attack, which was allegedly carried out from Chadian territory with the support of a foreign power, caused the death of two civilians and injured several others.",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "civilian"
+        ],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      }
+    ],
+    "created_at": "2026-10-28T05:52:59.343390Z",
+    "updated_at": "2026-10-28T21:13:33.192294Z",
+    "extraction_confidence": "low",
+    "victim_categories": [
+      "civilian"
+    ],
+    "civilian_targeting_flag": false,
+    "casualty_claims": [],
+    "fatalities_min": null,
+    "fatalities_max": null,
+    "fatalities_best": null,
+    "injured_min": null,
+    "injured_max": null,
+    "abducted_min": null,
+    "abducted_max": null,
+    "casualty_disputed": false,
+    "revision_history": [
+      {
+        "at": "2026-10-28T05:52:59.343390Z",
+        "type": "event_created",
+        "source": "ActuNiger"
+      },
+      {
+        "at": "2026-10-28T15:16:24.530998Z",
+        "type": "corroboration_or_geography_update",
+        "source": "Ouestaf News"
+      },
+      {
+        "at": "2026-10-28T21:13:33.192294Z",
+        "type": "corroboration_or_geography_update",
+        "source": "Seneweb"
+      }
+    ],
+    "corroboration": "multi-source",
+    "confidence": "moderate-high",
+    "independent_source_domains": [
+      "actuniger.com",
+      "ouestaf.com",
+      "seneweb.com"
+    ],
+    "independent_source_count": 3,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "strategic/severe event pattern",
+      "multi-source corroboration",
+      "multi-location activity"
+    ]
+  },
+  {
+    "id": "98f88378204de73c7705d1fedeb4c8d7b13bb5a3",
+    "event_date": "2026-10-27",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "explicit-calendar-date",
+    "published_at": "2026-10-28T10:43:45Z",
+    "published_date_source": "jsonld:datePublished",
+    "published_time_precision": "datetime",
+    "collected_at": "2026-10-28T15:16:24.894543Z",
+    "actor": "State",
+    "perpetrator": "State",
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [
+      "State"
+    ],
+    "parent_report_id": null,
+    "event_type": "security operation",
+    "country": "Mali",
+    "city": "Léré",
+    "lat": 15.7167,
+    "lng": -4.8333,
+    "locations": [
+      {
+        "name": "Léré",
+        "country": "Mali",
+        "lat": 15.7167,
+        "lng": -4.8333,
+        "confidence": "explicit-place"
+      },
+      {
+        "name": "Timbuktu",
+        "country": "Mali",
+        "lat": 16.7666,
+        "lng": -3.0026,
+        "confidence": "explicit-place"
+      },
+      {
+        "name": "Ségou",
+        "country": "Mali",
+        "lat": 13.4317,
+        "lng": -6.2157,
+        "confidence": "explicit-place"
+      },
+      {
+        "name": "Bamako",
+        "country": "Mali",
+        "lat": 12.6392,
+        "lng": -8.0029,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "Operation Dougoukoloko: the FAMa strike two terrorist positions in Léré and Diabaly",
+    "summary": "Bamako, October 28 (AMAP) The Malian Armed Forces (FAMa), supported by their partners, neutralized two positions of regroupment of terrorist elements on October 26 and 27, 2026, as part of Operation Dougoukoloko, announced Wednesday the General Staff of the Armed Forces According to the statement, the surveillance and reconnaissance operations carried out on October 26 made it possible to locate, about 75 kilometers northwest of Léré, in the Timbuktu region, about fifteen terrorist elements grouped under a shelter.",
+    "sources": [
+      "Malijet",
+      "AMAP (Agence Malienne de Presse et de Publicité)"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 2,
+    "report_urls": [
+      "https://malijet.com/actualte_dans_les_regions_du_mali/312549-operation-dougoukoloko-les-fama-frappent-deux-positions-ter.html",
+      "https://amap.ml/2026/10/28/operation-dougoukoloko-deux-positions-terroristes-neutralisees-dans-les-regions-de-tombouctou-et-de-segou/"
+    ],
+    "report_summaries": [
+      {
+        "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312549-operation-dougoukoloko-les-fama-frappent-deux-positions-ter.html",
+        "source": "Malijet",
+        "title": "Operation Dougoukoloko: the FAMa strike two terrorist positions in Léré and Diabaly",
+        "summary": "According to the General Staff of the Armed Forces, Operation Dougoukoloko allowed the FAMa and their allies to target terrorist positions in two strikes on 26 and 27 October 2026. On October 26, about fifteen armed individuals grouped under a shelter were spotted about 75 kilometers northwest of Léré, in the Timbuktu region . After confirming the target, the position was hit.",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "armed_group"
+        ],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      },
+      {
+        "url": "https://amap.ml/2026/10/28/operation-dougoukoloko-deux-positions-terroristes-neutralisees-dans-les-regions-de-tombouctou-et-de-segou/",
+        "source": "AMAP (Agence Malienne de Presse et de Publicité)",
+        "title": "Operation Dougoukoloko: two terrorist positions neutralized in the Timbuktu and Segou regions",
+        "summary": "Bamako, October 28 (AMAP) The Malian Armed Forces (FAMa), supported by their partners, neutralized two positions of regroupment of terrorist elements on October 26 and 27, 2026, as part of Operation Dougoukoloko, announced Wednesday the General Staff of the Armed Forces According to the statement, the surveillance and reconnaissance operations carried out on October 26 made it possible to locate, about 75 kilometers northwest of Léré, in the Timbuktu region, about fifteen terrorist elements grouped under a shelter.",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "armed_group"
+        ],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      }
+    ],
+    "created_at": "2026-10-28T15:16:24.894543Z",
+    "updated_at": "2026-10-28T21:13:32.084826Z",
+    "extraction_confidence": "moderate",
+    "victim_categories": [
+      "armed_group"
+    ],
+    "civilian_targeting_flag": false,
+    "casualty_claims": [],
+    "fatalities_min": null,
+    "fatalities_max": null,
+    "fatalities_best": null,
+    "injured_min": null,
+    "injured_max": null,
+    "abducted_min": null,
+    "abducted_max": null,
+    "casualty_disputed": false,
+    "revision_history": [
+      {
+        "at": "2026-10-28T15:16:24.894543Z",
+        "type": "event_created",
+        "source": "Malijet"
+      },
+      {
+        "at": "2026-10-28T21:13:32.084826Z",
+        "type": "corroboration_or_geography_update",
+        "source": "AMAP (Agence Malienne de Presse et de Publicité)"
+      }
+    ],
+    "corroboration": "limited corroboration",
+    "confidence": "moderate",
+    "independent_source_domains": [
+      "malijet.com",
+      "amap.ml"
+    ],
+    "independent_source_count": 2,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "strategic/severe event pattern",
+      "multi-location activity"
+    ]
+  },
+  {
     "id": "c35a586d3264c2a7f572b9c64d3bfa9994fa238c",
     "event_date": "2026-10-27",
     "event_date_confidence": "explicit-text",
@@ -208,246 +509,6 @@
     "independent_source_count": 1,
     "significance": "MAJOR",
     "significance_reasons": [
-      "multi-location activity"
-    ]
-  },
-  {
-    "id": "98f88378204de73c7705d1fedeb4c8d7b13bb5a3",
-    "event_date": "2026-10-27",
-    "event_date_confidence": "explicit-text",
-    "event_date_source": "explicit-calendar-date",
-    "published_at": "2026-10-28T10:43:45Z",
-    "published_date_source": "jsonld:datePublished",
-    "published_time_precision": "datetime",
-    "collected_at": "2026-10-28T15:16:24.894543Z",
-    "actor": "State",
-    "perpetrator": "State",
-    "target": null,
-    "claimant": null,
-    "supporting_force": null,
-    "mentioned_actors": [
-      "State"
-    ],
-    "parent_report_id": null,
-    "event_type": "security operation",
-    "country": "Mali",
-    "city": "Léré",
-    "lat": 15.7167,
-    "lng": -4.8333,
-    "locations": [
-      {
-        "name": "Léré",
-        "country": "Mali",
-        "lat": 15.7167,
-        "lng": -4.8333,
-        "confidence": "explicit-place"
-      },
-      {
-        "name": "Timbuktu",
-        "country": "Mali",
-        "lat": 16.7666,
-        "lng": -3.0026,
-        "confidence": "explicit-place"
-      },
-      {
-        "name": "Ségou",
-        "country": "Mali",
-        "lat": 13.4317,
-        "lng": -6.2157,
-        "confidence": "explicit-place"
-      }
-    ],
-    "title": "Operation Dougoukoloko: the FAMa strike two terrorist positions in Léré and Diabaly",
-    "summary": "According to the General Staff of the Armed Forces, Operation Dougoukoloko allowed the FAMa and their allies to target terrorist positions in two strikes on 26 and 27 October 2026. On October 26, about fifteen armed individuals grouped under a shelter were spotted about 75 kilometers northwest of Léré, in the Timbuktu region . After confirming the target, the position was hit.",
-    "sources": [
-      "Malijet"
-    ],
-    "languages": [
-      "fr"
-    ],
-    "source_count": 1,
-    "report_urls": [
-      "https://malijet.com/actualte_dans_les_regions_du_mali/312549-operation-dougoukoloko-les-fama-frappent-deux-positions-ter.html"
-    ],
-    "report_summaries": [
-      {
-        "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312549-operation-dougoukoloko-les-fama-frappent-deux-positions-ter.html",
-        "source": "Malijet",
-        "title": "Operation Dougoukoloko: the FAMa strike two terrorist positions in Léré and Diabaly",
-        "summary": "According to the General Staff of the Armed Forces, Operation Dougoukoloko allowed the FAMa and their allies to target terrorist positions in two strikes on 26 and 27 October 2026. On October 26, about fifteen armed individuals grouped under a shelter were spotted about 75 kilometers northwest of Léré, in the Timbuktu region . After confirming the target, the position was hit.",
-        "summary_basis": "translated-excerpt",
-        "fatalities_min": null,
-        "fatalities_max": null,
-        "injured_min": null,
-        "injured_max": null,
-        "abducted_min": null,
-        "abducted_max": null,
-        "victim_categories": [
-          "armed_group"
-        ],
-        "civilian_targeting_flag": false,
-        "casualty_claims": []
-      }
-    ],
-    "created_at": "2026-10-28T15:16:24.894543Z",
-    "updated_at": "2026-10-28T15:16:24.894543Z",
-    "extraction_confidence": "moderate",
-    "victim_categories": [
-      "armed_group"
-    ],
-    "civilian_targeting_flag": false,
-    "casualty_claims": [],
-    "fatalities_min": null,
-    "fatalities_max": null,
-    "fatalities_best": null,
-    "injured_min": null,
-    "injured_max": null,
-    "abducted_min": null,
-    "abducted_max": null,
-    "casualty_disputed": false,
-    "revision_history": [
-      {
-        "at": "2026-10-28T15:16:24.894543Z",
-        "type": "event_created",
-        "source": "Malijet"
-      }
-    ],
-    "corroboration": "single-source",
-    "confidence": "moderate",
-    "independent_source_domains": [
-      "malijet.com"
-    ],
-    "independent_source_count": 1,
-    "significance": "MAJOR",
-    "significance_reasons": [
-      "multi-location activity"
-    ]
-  },
-  {
-    "id": "8dec849a689660d7b4ecdf537db0f1355b6738ac",
-    "event_date": "2026-10-27",
-    "event_date_confidence": "explicit-text",
-    "event_date_source": "explicit-calendar-date",
-    "published_at": "2026-10-27T20:49:45Z",
-    "published_date_source": "itemprop",
-    "published_time_precision": "datetime",
-    "collected_at": "2026-10-28T05:52:59.343390Z",
-    "actor": "Other",
-    "perpetrator": null,
-    "target": null,
-    "claimant": null,
-    "supporting_force": null,
-    "mentioned_actors": [],
-    "parent_report_id": null,
-    "event_type": "air/drone strike",
-    "country": "Niger",
-    "city": "Agadez",
-    "lat": 16.9733,
-    "lng": 7.9911,
-    "locations": [
-      {
-        "name": "Agadez",
-        "country": "Niger",
-        "lat": 16.9733,
-        "lng": 7.9911,
-        "confidence": "explicit-place"
-      },
-      {
-        "name": "Niamey",
-        "country": "Niger",
-        "lat": 13.5116,
-        "lng": 2.1254,
-        "confidence": "explicit-place"
-      }
-    ],
-    "title": "Drone strike in Agadez: Chad's ambassador summoned to the Ministry of Foreign Affairs",
-    "summary": "Ouestafnews – On Tuesday, October 27, 2026, the Chadian government rejected Niger's accusations of being behind a drone strike that occurred on October 24, 2026 in the Agadez region. He denies any involvement in this military operation and demands the publication of material evidence from Niamey. He also supports the opening of an independent international investigation The Chadian authorities describe these accusations as \"serious and repetitive\" and reject any responsibility, according to a government statement issued on October 27, 2026.",
-    "sources": [
-      "ActuNiger",
-      "Ouestaf News"
-    ],
-    "languages": [
-      "fr"
-    ],
-    "source_count": 2,
-    "report_urls": [
-      "https://www.actuniger.com/societe/22511-frappe-de-drone-a-agadez-lambassadeur-du-tchad-convoque-au-ministere-des-affaires-etrangeres",
-      "https://www.ouestaf.com/frappe-de-drone-a-agadez-le-niger-accuse-le-tchad-recuse/"
-    ],
-    "report_summaries": [
-      {
-        "url": "https://www.actuniger.com/societe/22511-frappe-de-drone-a-agadez-lambassadeur-du-tchad-convoque-au-ministere-des-affaires-etrangeres",
-        "source": "ActuNiger",
-        "title": "Drone strike in Agadez: Chad's ambassador summoned to the Ministry of Foreign Affairs",
-        "summary": "The Minister of Justice, Keeper of the Seals, Mr. Alio Daouda, acting Minister of Foreign Affairs, Cooperation and Nigeriens Abroad, H.E. Bakary Yaou Sangaré, received on Tuesday, October 27, 2026 the Ambassador of the Republic of Chad in Niger, as part of the summons relating to the drone strike in the Agadez region This measure follows a drone airstrike that occurred on October 24, 2026, around 1 a.m., in the Emiloulou area, Agadez region.",
-        "summary_basis": "translated-excerpt",
-        "fatalities_min": null,
-        "fatalities_max": null,
-        "injured_min": null,
-        "injured_max": null,
-        "abducted_min": null,
-        "abducted_max": null,
-        "victim_categories": [
-          "civilian"
-        ],
-        "civilian_targeting_flag": false,
-        "casualty_claims": []
-      },
-      {
-        "url": "https://www.ouestaf.com/frappe-de-drone-a-agadez-le-niger-accuse-le-tchad-recuse/",
-        "source": "Ouestaf News",
-        "title": "Drone strike in Agadez: Niger accuses, Chad rejects",
-        "summary": "Ouestafnews – On Tuesday, October 27, 2026, the Chadian government rejected Niger's accusations of being behind a drone strike that occurred on October 24, 2026 in the Agadez region. He denies any involvement in this military operation and demands the publication of material evidence from Niamey. He also supports the opening of an independent international investigation The Chadian authorities describe these accusations as \"serious and repetitive\" and reject any responsibility, according to a government statement issued on October 27, 2026.",
-        "summary_basis": "translated-excerpt",
-        "fatalities_min": null,
-        "fatalities_max": null,
-        "injured_min": null,
-        "injured_max": null,
-        "abducted_min": null,
-        "abducted_max": null,
-        "victim_categories": [],
-        "civilian_targeting_flag": false,
-        "casualty_claims": []
-      }
-    ],
-    "created_at": "2026-10-28T05:52:59.343390Z",
-    "updated_at": "2026-10-28T15:16:24.530998Z",
-    "extraction_confidence": "low",
-    "victim_categories": [
-      "civilian"
-    ],
-    "civilian_targeting_flag": false,
-    "casualty_claims": [],
-    "fatalities_min": null,
-    "fatalities_max": null,
-    "fatalities_best": null,
-    "injured_min": null,
-    "injured_max": null,
-    "abducted_min": null,
-    "abducted_max": null,
-    "casualty_disputed": false,
-    "revision_history": [
-      {
-        "at": "2026-10-28T05:52:59.343390Z",
-        "type": "event_created",
-        "source": "ActuNiger"
-      },
-      {
-        "at": "2026-10-28T15:16:24.530998Z",
-        "type": "corroboration_or_geography_update",
-        "source": "Ouestaf News"
-      }
-    ],
-    "corroboration": "limited corroboration",
-    "confidence": "moderate",
-    "independent_source_domains": [
-      "actuniger.com",
-      "ouestaf.com"
-    ],
-    "independent_source_count": 2,
-    "significance": "MAJOR",
-    "significance_reasons": [
-      "strategic/severe event pattern",
       "multi-location activity"
     ]
   },
