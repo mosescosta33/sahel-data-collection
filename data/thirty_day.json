@@ -1,45 +1,45 @@
 {
-  "generated_at": "2026-10-27T20:52:25.191359Z",
+  "generated_at": "2026-10-28T05:55:14.550143Z",
   "window_days": 30,
-  "cutoff": "2026-09-27",
-  "reports": 723,
-  "incident_reports": 182,
+  "cutoff": "2026-09-28",
+  "reports": 726,
+  "incident_reports": 185,
   "candidate_events": 118,
-  "corroborated_events": 35,
+  "corroborated_events": 34,
   "mapped_events": 96,
   "mapped_locations": 179,
   "distinct_sources": 87,
   "by_actor": {
-    "State": 68,
-    "Other": 19,
+    "State": 66,
+    "Other": 21,
     "JNIM": 17,
     "Africa Corps/Wagner": 9,
     "IS Sahel": 5
   },
   "by_country": {
-    "Mali": 100,
-    "Niger": 16,
+    "Mali": 98,
+    "Niger": 18,
     "Burkina Faso": 2
   },
   "by_event_type": {
-    "security operation": 47,
+    "security operation": 46,
     "offensive/campaign": 15,
     "attack": 14,
     "clash": 14,
     "civilian targeting": 9,
     "kidnapping": 7,
-    "air/drone strike": 5,
+    "air/drone strike": 6,
     "raid": 4,
     "ambush": 3
   },
   "by_language": {
-    "fr": 550,
+    "fr": 553,
     "en": 131,
     "ar": 42
   },
   "by_confidence": {
-    "low": 56,
-    "moderate": 52,
+    "low": 58,
+    "moderate": 50,
     "moderate-high": 8,
     "high": 2
   },
@@ -52,17 +52,17 @@
     {
       "source_code": "SRC-0006",
       "source": "Malijet",
-      "count": 71
+      "count": 70
+    },
+    {
+      "source_code": "SRC-0001",
+      "source": "RFI Afrique",
+      "count": 28
     },
     {
       "source_code": "SRC-0090",
       "source": "AllAfrica (Édition Française)",
       "count": 27
-    },
-    {
-      "source_code": "SRC-0001",
-      "source": "RFI Afrique",
-      "count": 26
     },
     {
       "source_code": "SRC-0075",
@@ -72,7 +72,7 @@
     {
       "source_code": "SRC-0092",
       "source": "La Nouvelle Tribune (Bénin)",
-      "count": 26
+      "count": 25
     },
     {
       "source_code": "SRC-0121",
@@ -85,6 +85,11 @@
       "count": 20
     },
     {
+      "source_code": "SRC-0015",
+      "source": "ActuNiger",
+      "count": 18
+    },
+    {
       "source_code": "SRC-0034",
       "source": "TV5MONDE Afrique",
       "count": 18
@@ -95,13 +100,8 @@
       "count": 17
     },
     {
-      "source_code": "SRC-0015",
-      "source": "ActuNiger",
-      "count": 17
-    },
-    {
-      "source_code": "SRC-0022",
-      "source": "Africanews",
+      "source_code": "SRC-0014",
+      "source": "Agence Nigérienne de Presse",
       "count": 17
     }
   ],
@@ -123,11 +123,15 @@
       "count": 16
     },
     {
-      "location": "Ségou",
-      "count": 13
+      "location": "Agadez",
+      "count": 12
     },
     {
       "location": "Anéfis",
+      "count": 12
+    },
+    {
+      "location": "Ségou",
       "count": 12
     },
     {
@@ -135,12 +139,8 @@
       "count": 11
     },
     {
-      "location": "Agadez",
-      "count": 10
-    },
-    {
       "location": "Niamey",
-      "count": 9
+      "count": 10
     },
     {
       "location": "Timbuktu",
@@ -156,11 +156,6 @@
     }
   ],
   "daily": [
-    {
-      "date": "2026-09-28",
-      "reports": 14,
-      "events": 7
-    },
     {
       "date": "2026-09-29",
       "reports": 36,
@@ -299,15 +294,320 @@
     {
       "date": "2026-10-26",
       "reports": 55,
-      "events": 5
+      "events": 4
     },
     {
       "date": "2026-10-27",
-      "reports": 44,
-      "events": 2
+      "reports": 47,
+      "events": 5
+    },
+    {
+      "date": "2026-10-28",
+      "reports": 3,
+      "events": 0
     }
   ],
   "latest_events": [
+    {
+      "id": "61a2247337f0bca21ef26eeff9776106bc0aaa3b",
+      "event_date": "2026-10-27",
+      "event_date_confidence": "explicit-text",
+      "event_date_source": "explicit-calendar-date",
+      "published_at": "2026-10-28T21:55:00Z",
+      "published_date_source": "html:time",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-28T05:53:00.204496Z",
+      "actor": "Other",
+      "perpetrator": null,
+      "target": null,
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [],
+      "parent_report_id": null,
+      "event_type": "security operation",
+      "country": "Niger",
+      "city": "Agadez",
+      "lat": 16.9733,
+      "lng": 7.9911,
+      "locations": [
+        {
+          "name": "Agadez",
+          "country": "Niger",
+          "lat": 16.9733,
+          "lng": 7.9911,
+          "confidence": "explicit-place"
+        },
+        {
+          "name": "Niamey",
+          "country": "Niger",
+          "lat": 13.5116,
+          "lng": 2.1254,
+          "confidence": "explicit-place"
+        }
+      ],
+      "title": "Chadian drone strike in the Agadez region: Chadian ambassador to Niger summoned to the office of the Minister of Foreign Affairs",
+      "summary": "Niamey, Oct 27 (ANP)- The Minister of Justice, Keeper of the Seals, Mr. Alio Daouda, acting Minister of Foreign Affairs, Cooperation and Nigeriens Abroad, received this Tuesday, October 27, 2026, the Ambassador of the Republic of Chad in Niger, after the drone strike of his country occurred in the region of Agadez (Niger) This measure follows a drone airstrike that occurred on October 24, 2026, around 1 a.m., in the Emiloulou area, Agadez region.",
+      "sources": [
+        "Agence Nigérienne de Presse"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://anp.ne/frappe-de-drones-tchadiens-dans-la-region-dagadez-lambassadeur-tchadien-au-niger-convoque-au-cabinet-du-ministre-des-affaires-etrangeres/"
+      ],
+      "report_summaries": [
+        {
+          "url": "https://anp.ne/frappe-de-drones-tchadiens-dans-la-region-dagadez-lambassadeur-tchadien-au-niger-convoque-au-cabinet-du-ministre-des-affaires-etrangeres/",
+          "source": "Agence Nigérienne de Presse",
+          "title": "Chadian drone strike in the Agadez region: Chadian ambassador to Niger summoned to the office of the Minister of Foreign Affairs",
+          "summary": "Niamey, Oct 27 (ANP)- The Minister of Justice, Keeper of the Seals, Mr. Alio Daouda, acting Minister of Foreign Affairs, Cooperation and Nigeriens Abroad, received this Tuesday, October 27, 2026, the Ambassador of the Republic of Chad in Niger, after the drone strike of his country occurred in the region of Agadez (Niger) This measure follows a drone airstrike that occurred on October 24, 2026, around 1 a.m., in the Emiloulou area, Agadez region.",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "civilian"
+          ],
+          "civilian_targeting_flag": false,
+          "casualty_claims": []
+        }
+      ],
+      "created_at": "2026-10-28T05:53:00.204496Z",
+      "updated_at": "2026-10-28T05:53:00.204496Z",
+      "extraction_confidence": "low",
+      "victim_categories": [
+        "civilian"
+      ],
+      "civilian_targeting_flag": false,
+      "casualty_claims": [],
+      "fatalities_min": null,
+      "fatalities_max": null,
+      "fatalities_best": null,
+      "injured_min": null,
+      "injured_max": null,
+      "abducted_min": null,
+      "abducted_max": null,
+      "casualty_disputed": false,
+      "revision_history": [
+        {
+          "at": "2026-10-28T05:53:00.204496Z",
+          "type": "event_created",
+          "source": "Agence Nigérienne de Presse"
+        }
+      ],
+      "corroboration": "single-source",
+      "confidence": "low",
+      "independent_source_domains": [
+        "anp.ne"
+      ],
+      "independent_source_count": 1,
+      "significance": "MAJOR",
+      "significance_reasons": [
+        "strategic/severe event pattern",
+        "multi-location activity"
+      ]
+    },
+    {
+      "id": "8dec849a689660d7b4ecdf537db0f1355b6738ac",
+      "event_date": "2026-10-27",
+      "event_date_confidence": "explicit-text",
+      "event_date_source": "explicit-calendar-date",
+      "published_at": "2026-10-27T20:49:45Z",
+      "published_date_source": "itemprop",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-28T05:52:59.343390Z",
+      "actor": "Other",
+      "perpetrator": null,
+      "target": null,
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [],
+      "parent_report_id": null,
+      "event_type": "air/drone strike",
+      "country": "Niger",
+      "city": "Agadez",
+      "lat": 16.9733,
+      "lng": 7.9911,
+      "locations": [
+        {
+          "name": "Agadez",
+          "country": "Niger",
+          "lat": 16.9733,
+          "lng": 7.9911,
+          "confidence": "explicit-place"
+        }
+      ],
+      "title": "Drone strike in Agadez: Chad's ambassador summoned to the Ministry of Foreign Affairs",
+      "summary": "The Minister of Justice, Keeper of the Seals, Mr. Alio Daouda, acting Minister of Foreign Affairs, Cooperation and Nigeriens Abroad, H.E. Bakary Yaou Sangaré, received on Tuesday, October 27, 2026 the Ambassador of the Republic of Chad in Niger, as part of the summons relating to the drone strike in the Agadez region This measure follows a drone airstrike that occurred on October 24, 2026, around 1 a.m., in the Emiloulou area, Agadez region.",
+      "sources": [
+        "ActuNiger"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://www.actuniger.com/societe/22511-frappe-de-drone-a-agadez-lambassadeur-du-tchad-convoque-au-ministere-des-affaires-etrangeres"
+      ],
+      "report_summaries": [
+        {
+          "url": "https://www.actuniger.com/societe/22511-frappe-de-drone-a-agadez-lambassadeur-du-tchad-convoque-au-ministere-des-affaires-etrangeres",
+          "source": "ActuNiger",
+          "title": "Drone strike in Agadez: Chad's ambassador summoned to the Ministry of Foreign Affairs",
+          "summary": "The Minister of Justice, Keeper of the Seals, Mr. Alio Daouda, acting Minister of Foreign Affairs, Cooperation and Nigeriens Abroad, H.E. Bakary Yaou Sangaré, received on Tuesday, October 27, 2026 the Ambassador of the Republic of Chad in Niger, as part of the summons relating to the drone strike in the Agadez region This measure follows a drone airstrike that occurred on October 24, 2026, around 1 a.m., in the Emiloulou area, Agadez region.",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "civilian"
+          ],
+          "civilian_targeting_flag": false,
+          "casualty_claims": []
+        }
+      ],
+      "created_at": "2026-10-28T05:52:59.343390Z",
+      "updated_at": "2026-10-28T05:52:59.343390Z",
+      "extraction_confidence": "low",
+      "victim_categories": [
+        "civilian"
+      ],
+      "civilian_targeting_flag": false,
+      "casualty_claims": [],
+      "fatalities_min": null,
+      "fatalities_max": null,
+      "fatalities_best": null,
+      "injured_min": null,
+      "injured_max": null,
+      "abducted_min": null,
+      "abducted_max": null,
+      "casualty_disputed": false,
+      "revision_history": [
+        {
+          "at": "2026-10-28T05:52:59.343390Z",
+          "type": "event_created",
+          "source": "ActuNiger"
+        }
+      ],
+      "corroboration": "single-source",
+      "confidence": "low",
+      "independent_source_domains": [
+        "actuniger.com"
+      ],
+      "independent_source_count": 1,
+      "significance": "ROUTINE",
+      "significance_reasons": [
+        "limited currently observed significance"
+      ]
+    },
+    {
+      "id": "303ae87d221c50ece442e2babb092c29d4982401",
+      "event_date": "2026-10-27",
+      "event_date_confidence": "explicit-text",
+      "event_date_source": "explicit-date-no-year",
+      "published_at": "2026-10-27T16:56:30Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-27T20:49:49.865751Z",
+      "actor": "Other",
+      "perpetrator": null,
+      "target": null,
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [],
+      "parent_report_id": null,
+      "event_type": "security operation",
+      "country": "Niger",
+      "city": "Niamey",
+      "lat": 13.5116,
+      "lng": 2.1254,
+      "locations": [
+        {
+          "name": "Niamey",
+          "country": "Niger",
+          "lat": 13.5116,
+          "lng": 2.1254,
+          "confidence": "explicit-place"
+        },
+        {
+          "name": "Agadez",
+          "country": "Niger",
+          "lat": 16.9733,
+          "lng": 7.9911,
+          "confidence": "explicit-place"
+        }
+      ],
+      "title": "Niger Strike: Chad Denies Involvement and Demands Evidence",
+      "summary": "Relations between Chad and Niger escalated on 26 October. Niamey accused his neighbor of carrying out a drone strike in the Agadez region with the complicity of France. The reaction of the Chadian government was not long in coming Indeed, on Tuesday, October 27, N 'djamena denied any involvement in this operation and asked the Nigerien authorities to present the elements on which their accusations are based.",
+      "sources": [
+        "La Nouvelle Tribune (Bénin)"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://lanouvelletribune.info/2026/10/frappe-au-niger-le-tchad-nie-etre-implique-et-reclame-des-preuves/"
+      ],
+      "report_summaries": [
+        {
+          "url": "https://lanouvelletribune.info/2026/10/frappe-au-niger-le-tchad-nie-etre-implique-et-reclame-des-preuves/",
+          "source": "La Nouvelle Tribune (Bénin)",
+          "title": "Niger Strike: Chad Denies Involvement and Demands Evidence",
+          "summary": "Relations between Chad and Niger escalated on 26 October. Niamey accused his neighbor of carrying out a drone strike in the Agadez region with the complicity of France. The reaction of the Chadian government was not long in coming Indeed, on Tuesday, October 27, N 'djamena denied any involvement in this operation and asked the Nigerien authorities to present the elements on which their accusations are based.",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [],
+          "civilian_targeting_flag": false,
+          "casualty_claims": []
+        }
+      ],
+      "created_at": "2026-10-27T20:49:49.865751Z",
+      "updated_at": "2026-10-27T20:49:49.865751Z",
+      "extraction_confidence": "low",
+      "victim_categories": [],
+      "civilian_targeting_flag": false,
+      "casualty_claims": [],
+      "fatalities_min": null,
+      "fatalities_max": null,
+      "fatalities_best": null,
+      "injured_min": null,
+      "injured_max": null,
+      "abducted_min": null,
+      "abducted_max": null,
+      "casualty_disputed": true,
+      "revision_history": [
+        {
+          "at": "2026-10-27T20:49:49.865751Z",
+          "type": "event_created",
+          "source": "La Nouvelle Tribune (Bénin)"
+        }
+      ],
+      "corroboration": "single-source",
+      "confidence": "low",
+      "independent_source_domains": [
+        "lanouvelletribune.info"
+      ],
+      "independent_source_count": 1,
+      "significance": "MAJOR",
+      "significance_reasons": [
+        "strategic/severe event pattern",
+        "multi-location activity"
+      ]
+    },
     {
       "id": "d2c610d8d1ef3f295751222456900e77053f787c",
       "event_date": "2026-10-27",
@@ -565,110 +865,6 @@
       "significance": "MAJOR",
       "significance_reasons": [
         "strategic/severe event pattern"
-      ]
-    },
-    {
-      "id": "12d63e45f084062d3d776c0e5b03da6f2a69206f",
-      "event_date": "2026-10-26",
-      "event_date_confidence": "explicit-text",
-      "event_date_source": "explicit-date-no-year",
-      "published_at": "2026-10-27T16:56:30Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-27T20:49:49.865751Z",
-      "actor": "Other",
-      "perpetrator": null,
-      "target": null,
-      "claimant": null,
-      "supporting_force": null,
-      "mentioned_actors": [],
-      "parent_report_id": null,
-      "event_type": "security operation",
-      "country": "Niger",
-      "city": "Niamey",
-      "lat": 13.5116,
-      "lng": 2.1254,
-      "locations": [
-        {
-          "name": "Niamey",
-          "country": "Niger",
-          "lat": 13.5116,
-          "lng": 2.1254,
-          "confidence": "explicit-place"
-        },
-        {
-          "name": "Agadez",
-          "country": "Niger",
-          "lat": 16.9733,
-          "lng": 7.9911,
-          "confidence": "explicit-place"
-        }
-      ],
-      "title": "Frappe au Niger: le Tchad nie être impliqué et réclame des preuves",
-      "summary": "Les relations entre le Tchad et le Niger ont connu une montée de tensions ce 26 octobre. Niamey a accusé son voisin d’avoir effectué une frappe de drone dans la région d’Agadez avec la complicité de la France. La réaction du gouvernement tchadien ne s’est pas fait attendre.",
-      "sources": [
-        "La Nouvelle Tribune (Bénin)"
-      ],
-      "languages": [
-        "fr"
-      ],
-      "source_count": 1,
-      "report_urls": [
-        "https://lanouvelletribune.info/2026/10/frappe-au-niger-le-tchad-nie-etre-implique-et-reclame-des-preuves/"
-      ],
-      "report_summaries": [
-        {
-          "url": "https://lanouvelletribune.info/2026/10/frappe-au-niger-le-tchad-nie-etre-implique-et-reclame-des-preuves/",
-          "source": "La Nouvelle Tribune (Bénin)",
-          "title": "Frappe au Niger: le Tchad nie être impliqué et réclame des preuves",
-          "summary": "Les relations entre le Tchad et le Niger ont connu une montée de tensions ce 26 octobre. Niamey a accusé son voisin d’avoir effectué une frappe de drone dans la région d’Agadez avec la complicité de la France. La réaction du gouvernement tchadien ne s’est pas fait attendre.",
-          "summary_basis": "source-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "security_force"
-          ],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        }
-      ],
-      "created_at": "2026-10-27T20:49:49.865751Z",
-      "updated_at": "2026-10-27T20:49:49.865751Z",
-      "extraction_confidence": "low",
-      "victim_categories": [
-        "security_force"
-      ],
-      "civilian_targeting_flag": false,
-      "casualty_claims": [],
-      "fatalities_min": null,
-      "fatalities_max": null,
-      "fatalities_best": null,
-      "injured_min": null,
-      "injured_max": null,
-      "abducted_min": null,
-      "abducted_max": null,
-      "casualty_disputed": true,
-      "revision_history": [
-        {
-          "at": "2026-10-27T20:49:49.865751Z",
-          "type": "event_created",
-          "source": "La Nouvelle Tribune (Bénin)"
-        }
-      ],
-      "corroboration": "single-source",
-      "confidence": "low",
-      "independent_source_domains": [
-        "lanouvelletribune.info"
-      ],
-      "independent_source_count": 1,
-      "significance": "MAJOR",
-      "significance_reasons": [
-        "strategic/severe event pattern",
-        "multi-location activity"
       ]
     },
     {
@@ -1291,7 +1487,8 @@
         "https://malijet.com/actualite-sur-afrique/312520-niger-niamey-accuse-le-tchad-dune-frappe-de-drone-ayant-f.html",
         "https://www.seneweb.com/fr/news/Afrique/niger-niamey-accuse-le-tchad-et-la-france-apres-une-frappe-de-drone-meurtriere_n_999001878.html",
         "https://www.ouestaf.com/niger-niamey-accuse-le-tchad-et-la-france-apres-une-frappe-de-drone/",
-        "https://www.seneweb.com/fr/news/Afrique/frappe-de-drone-sur-agadez-le-tchad-reagit-aux-accusations-du-niger_n_999001906.html"
+        "https://www.seneweb.com/fr/news/Afrique/frappe-de-drone-sur-agadez-le-tchad-reagit-aux-accusations-du-niger_n_999001906.html",
+        "https://malijet.com/actualite-sur-afrique/312537-tchad-niger-ndjamena-rejette-les-accusations-de-frappe-de.html"
       ],
       "report_summaries": [
         {
@@ -1472,10 +1669,26 @@
           "victim_categories": [],
           "civilian_targeting_flag": false,
           "casualty_claims": []
+        },
+        {
+          "url": "https://malijet.com/actualite-sur-afrique/312537-tchad-niger-ndjamena-rejette-les-accusations-de-frappe-de.html",
+          "source": "Malijet",
+          "title": "Chad-Niger: N’Djamena rejects accusations of drone strikes in Agadez",
+          "summary": "The Chadian government firmly rejects the accusations of Niger, which attributes to him a drone strike that occurred on October 24, 2026, at around 1 a.m., in the Emiloulou area, in the Agadez region. In a statement, N’Djamena denies having ordered, conducted or supported an air military operation against Nigerian territory The Chadian authorities also deny any assistance given to a foreign power to carry out hostile action against Niger.",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [],
+          "civilian_targeting_flag": false,
+          "casualty_claims": []
         }
       ],
       "created_at": "2026-10-27T05:16:11.158904Z",
-      "updated_at": "2026-10-27T20:49:46.611216Z",
+      "updated_at": "2026-10-28T05:52:58.857382Z",
       "extraction_confidence": "low",
       "victim_categories": [
         "civilian",
@@ -3811,273 +4024,81 @@
       "significance_reasons": [
         "limited currently observed significance"
       ]
-    },
-    {
-      "id": "8b4addb630b8629939b89d8e70a9e0bfc7733c57",
-      "event_date": "2026-10-20",
-      "event_date_confidence": "explicit-text",
-      "event_date_source": "explicit-calendar-date",
-      "published_at": "2026-10-21T10:31:17Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-21T13:56:13.696378Z",
-      "actor": "State",
-      "perpetrator": "State",
-      "target": null,
-      "claimant": null,
-      "supporting_force": null,
-      "mentioned_actors": [
-        "State"
-      ],
-      "parent_report_id": null,
-      "event_type": "security operation",
-      "country": "Mali",
-      "city": null,
-      "lat": null,
-      "lng": null,
-      "locations": [],
-      "title": "Operation Dougoukoloko: several fighters neutralized in the Ouagadou forest",
-      "summary": "Thanks to the use of precise intelligence, the Malian Armed Forces continue their missions of surveillance and security of the national territory image illustration The Malian Armed Forces (FAMa) continue their operations of surveillance, reconnaissance and security of the national territory as part of Operation Dougoukoloko . On Tuesday, October 20, 2026, the exploitation of precise information allowed the units involved to locate a group of motorcyclists in the Ouagadou forest, near the village of Ngoma Koura.",
-      "sources": [
-        "Malijet",
-        "Bamada"
-      ],
-      "languages": [
-        "fr"
-      ],
-      "source_count": 2,
-      "report_urls": [
-        "https://malijet.com/actualte_dans_les_regions_du_mali/312437-operation-dougoukoloko-plusieurs-combattants-neutralises-d.html",
-        "https://bamada.net/operation-dougoukoloko-les-fama-frappent-une-position-terroriste-dans-la-foret-de-ouagadou"
-      ],
-      "report_summaries": [
-        {
-          "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312437-operation-dougoukoloko-plusieurs-combattants-neutralises-d.html",
-          "source": "Malijet",
-          "title": "Operation Dougoukoloko: several fighters neutralized in the Ouagadou forest",
-          "summary": "Operation Dougoukoloko: several neutralized fighters in the forest of Ouagadou On Tuesday, October 20, 2026, the Malian Armed Forces (FAMa) struck a group of motorcyclists spotted in the forest of Ouagadou, near the village of Ngoma Koura. According to the General Staff of the Armed Forces, several terrorist elements were neutralized during this operation . This action is part of Operation Dougoukoloko, conducted to strengthen the surveillance and security of the national territory.",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "armed_group"
-          ],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        },
-        {
-          "url": "https://bamada.net/operation-dougoukoloko-les-fama-frappent-une-position-terroriste-dans-la-foret-de-ouagadou",
-          "source": "Bamada",
-          "title": "Operation Dougoukoloko: the FAMa strike a terrorist position in the Ouagadou forest",
-          "summary": "Thanks to the use of precise intelligence, the Malian Armed Forces continue their missions of surveillance and security of the national territory image illustration The Malian Armed Forces (FAMa) continue their operations of surveillance, reconnaissance and security of the national territory as part of Operation Dougoukoloko . On Tuesday, October 20, 2026, the exploitation of precise information allowed the units involved to locate a group of motorcyclists in the Ouagadou forest, near the village of Ngoma Koura.",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "armed_group"
-          ],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        }
-      ],
-      "created_at": "2026-10-21T13:56:13.696378Z",
-      "updated_at": "2026-10-22T05:00:25.941370Z",
-      "extraction_confidence": "moderate",
-      "victim_categories": [
-        "armed_group"
-      ],
-      "civilian_targeting_flag": false,
-      "casualty_claims": [],
-      "fatalities_min": null,
-      "fatalities_max": null,
-      "fatalities_best": null,
-      "injured_min": null,
-      "injured_max": null,
-      "abducted_min": null,
-      "abducted_max": null,
-      "casualty_disputed": false,
-      "revision_history": [
-        {
-          "at": "2026-10-21T13:56:13.696378Z",
-          "type": "event_created",
-          "source": "Malijet"
-        },
-        {
-          "at": "2026-10-22T05:00:25.941370Z",
-          "type": "corroboration_or_geography_update",
-          "source": "Bamada"
-        }
-      ],
-      "corroboration": "limited corroboration",
-      "confidence": "moderate",
-      "independent_source_domains": [
-        "malijet.com",
-        "bamada.net"
-      ],
-      "independent_source_count": 2,
-      "significance": "SIGNIFICANT",
-      "significance_reasons": [
-        "operational security event"
-      ]
-    },
-    {
-      "id": "e797b05d6a5b56164863f21770a5133e03be85f6",
-      "event_date": "2026-10-20",
-      "event_date_confidence": "explicit-text",
-      "event_date_source": "explicit-calendar-date",
-      "published_at": "2026-10-21T16:48:36Z",
-      "published_date_source": "itemprop",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-21T20:18:19.472183Z",
-      "actor": "Other",
-      "perpetrator": null,
-      "target": null,
-      "claimant": null,
-      "supporting_force": null,
-      "mentioned_actors": [],
-      "parent_report_id": null,
-      "event_type": "attack",
-      "country": "Niger",
-      "city": "Agadez",
-      "lat": 16.9733,
-      "lng": 7.9911,
-      "locations": [
-        {
-          "name": "Agadez",
-          "country": "Niger",
-          "lat": 16.9733,
-          "lng": 7.9911,
-          "confidence": "explicit-place"
-        },
-        {
-          "name": "Arlit",
-          "country": "Niger",
-          "lat": 18.73694,
-          "lng": 7.38528,
-          "confidence": "explicit-place"
-        }
-      ],
-      "title": "Insecurity: the authorities of Agadez on maximum alert after an armed attack that killed twelve people on the Tchiro-Agadez axis",
-      "summary": "The Governor of the Agadez region, Major General Ibra Boulama Issa, chaired an emergency meeting of the Regional Security Council (CRS) on Wednesday, 21 October 2026. Several items were on the agenda of the forum, including, among others, the examination and analysis of the security situation in the region, with a particular focus on the attack on the two SONITRAV buses, which occurred on Tuesday, October 20, 2026, on the Tchirozérine-Agadez.",
-      "sources": [
-        "ActuNiger",
-        "Agence Nigérienne de Presse"
-      ],
-      "languages": [
-        "fr"
-      ],
-      "source_count": 2,
-      "report_urls": [
-        "https://www.actuniger.com/societe/22481-insecurite-les-autorites-dagadez-en-etat-dalerte-maximale-apres-une-attaque-armee-qui-a-fait-douze-morts-sur-laxe-tchiro-agadez",
-        "https://anp.ne/agadez-inhumation-des-corps-dune-douzaine-de-victimes-de-lattaque-armee-sur-laxe-arlit-agadez/"
-      ],
-      "report_summaries": [
-        {
-          "url": "https://www.actuniger.com/societe/22481-insecurite-les-autorites-dagadez-en-etat-dalerte-maximale-apres-une-attaque-armee-qui-a-fait-douze-morts-sur-laxe-tchiro-agadez",
-          "source": "ActuNiger",
-          "title": "Insecurity: the authorities of Agadez on maximum alert after an armed attack that killed twelve people on the Tchiro-Agadez axis",
-          "summary": "The Governor of the Agadez region, Major General Ibra Boulama Issa, chaired an emergency meeting of the Regional Security Council (CRS) on Wednesday, 21 October 2026. Several items were on the agenda of the forum, including, among others, the examination and analysis of the security situation in the region, with a particular focus on the attack on the two SONITRAV buses, which occurred on Tuesday, October 20, 2026, on the Tchirozérine-Agadez.",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": 12,
-          "fatalities_max": 12,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "civilian"
-          ],
-          "civilian_targeting_flag": true,
-          "casualty_claims": [
-            {
-              "kind": "fatalities",
-              "count": 12,
-              "victim_text": "people",
-              "claimant": "state/official source",
-              "status": "reported",
-              "evidence": "Insecurity: the authorities of Agadez on maximum alert after an armed attack that killed twelve people on the Tchiro-Agadez axis The Governor of the Agadez region, Major General Ibra Boulama Issa, chair"
-            }
-          ]
-        },
-        {
-          "url": "https://anp.ne/agadez-inhumation-des-corps-dune-douzaine-de-victimes-de-lattaque-armee-sur-laxe-arlit-agadez/",
-          "source": "Agence Nigérienne de Presse",
-          "title": "Agadez: Burial of the bodies of a dozen victims of the armed attack on the Arlit-Agadez axis",
-          "summary": "Agadez, Oct. 21 (ANP) – The Governor of the Agadez Region, Major General Ibra Boulama Issa attended, on Wednesday, October 21, 2026, the removal of the bodies, followed by the burial of the victims of the attack against the SONITRAV buses on the Arlit–Agadez axis.",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "civilian"
-          ],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        }
-      ],
-      "created_at": "2026-10-21T20:18:19.472183Z",
-      "updated_at": "2026-10-21T20:18:20.879549Z",
-      "extraction_confidence": "low",
-      "victim_categories": [
-        "civilian"
-      ],
-      "civilian_targeting_flag": true,
-      "casualty_claims": [
-        {
-          "kind": "fatalities",
-          "count": 12,
-          "victim_text": "people",
-          "claimant": "state/official source",
-          "status": "reported",
-          "evidence": "Insecurity: the authorities of Agadez on maximum alert after an armed attack that killed twelve people on the Tchiro-Agadez axis The Governor of the Agadez region, Major General Ibra Boulama Issa, chair",
-          "source": "ActuNiger"
-        }
-      ],
-      "fatalities_min": 12,
-      "fatalities_max": 12,
-      "fatalities_best": 12,
-      "injured_min": null,
-      "injured_max": null,
-      "abducted_min": null,
-      "abducted_max": null,
-      "casualty_disputed": false,
-      "revision_history": [
-        {
-          "at": "2026-10-21T20:18:19.472183Z",
-          "type": "event_created",
-          "source": "ActuNiger"
-        },
-        {
-          "at": "2026-10-21T20:18:20.879549Z",
-          "type": "corroboration_or_geography_update",
-          "source": "Agence Nigérienne de Presse"
-        }
-      ],
-      "corroboration": "limited corroboration",
-      "confidence": "moderate",
-      "independent_source_domains": [
-        "actuniger.com",
-        "anp.ne"
-      ],
-      "independent_source_count": 2,
-      "significance": "MAJOR",
-      "significance_reasons": [
-        "multi-location activity"
-      ]
     }
   ],
   "latest_reports": [
+    {
+      "published_at": "2026-10-28T21:55:00Z",
+      "published_date_source": "html:time",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-28T05:53:00.204496Z",
+      "discovered_at": "2026-10-28T05:53:00.204496Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0014",
+      "source": "Agence Nigérienne de Presse",
+      "language": "fr",
+      "actor": "Other",
+      "country": "Niger",
+      "city": "Agadez",
+      "event_type": "security operation",
+      "candidate_event": true,
+      "title": "Chadian drone strike in the Agadez region: Chadian ambassador to Niger summoned to the office of the Minister of Foreign Affairs",
+      "url": "https://anp.ne/frappe-de-drones-tchadiens-dans-la-region-dagadez-lambassadeur-tchadien-au-niger-convoque-au-cabinet-du-ministre-des-affaires-etrangeres/"
+    },
+    {
+      "published_at": "2026-10-28T03:50:46Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-28T05:52:59.615071Z",
+      "discovered_at": "2026-10-28T05:52:59.615071Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0001",
+      "source": "RFI Afrique",
+      "language": "fr",
+      "actor": null,
+      "country": "Niger",
+      "city": null,
+      "event_type": "air/drone strike",
+      "candidate_event": false,
+      "title": "Chad rejects Niger's accusations after drone strike",
+      "url": "https://www.rfi.fr/fr/afrique/20261028-le-tchad-rejette-les-accusations-du-niger-apr%C3%A8s-une-frappe-de-drone"
+    },
+    {
+      "published_at": "2026-10-28T03:38:04Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-28T05:52:58.763535Z",
+      "discovered_at": "2026-10-28T05:52:58.763535Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0001",
+      "source": "RFI Afrique",
+      "language": "fr",
+      "actor": null,
+      "country": "Mali",
+      "city": "Bamako",
+      "event_type": "kidnapping",
+      "candidate_event": false,
+      "title": "Mali: Four pro-democracy activists brought to justice after almost six months in detention",
+      "url": "https://www.rfi.fr/fr/afrique/20261028-mali-quatre-militants-pro-d%C3%A9mocratie-pr%C3%A9sent%C3%A9s-%C3%A0-la-justice-apr%C3%A8s-presque-six-mois-de-d%C3%A9tention"
+    },
+    {
+      "published_at": "2026-10-27T22:11:57Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-28T05:52:58.857382Z",
+      "discovered_at": "2026-10-28T05:52:58.857382Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0006",
+      "source": "Malijet",
+      "language": "fr",
+      "actor": "Other",
+      "country": "Niger",
+      "city": "Agadez",
+      "event_type": "air/drone strike",
+      "candidate_event": true,
+      "title": "Chad-Niger: N’Djamena rejects accusations of drone strikes in Agadez",
+      "url": "https://malijet.com/actualite-sur-afrique/312537-tchad-niger-ndjamena-rejette-les-accusations-de-frappe-de.html"
+    },
     {
       "published_at": "2026-10-27T21:50:00Z",
       "published_date_source": "html:time",
@@ -4115,6 +4136,24 @@
       "url": "https://www.lesahel.org/avis-de-manifestation-dinteret-n001-ca-tafouk-tv-2026-recrutement-dun-cabinet-specialise-pour-lelaboration-du-manuel-technique-dutilisation-et-de-maintenanc/"
     },
     {
+      "published_at": "2026-10-27T20:49:45Z",
+      "published_date_source": "itemprop",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-28T05:52:59.343390Z",
+      "discovered_at": "2026-10-28T05:52:59.343390Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0015",
+      "source": "ActuNiger",
+      "language": "fr",
+      "actor": "Other",
+      "country": "Niger",
+      "city": "Agadez",
+      "event_type": "air/drone strike",
+      "candidate_event": true,
+      "title": "Drone strike in Agadez: Chad's ambassador summoned to the Ministry of Foreign Affairs",
+      "url": "https://www.actuniger.com/societe/22511-frappe-de-drone-a-agadez-lambassadeur-du-tchad-convoque-au-ministere-des-affaires-etrangeres"
+    },
+    {
       "published_at": "2026-10-27T20:31:07Z",
       "published_date_source": "jsonld:datePublished",
       "published_time_precision": "datetime",
@@ -4147,7 +4186,7 @@
       "city": null,
       "event_type": "law enforcement",
       "candidate_event": false,
-      "title": "Burkina Faso : 12 Béninois interpellés dans une affaire d’escroquerie présumée",
+      "title": "Burkina Faso: 12 Beninese arrested in an alleged fraud case",
       "url": "https://lanouvelletribune.info/2026/10/burkina-faso-12-beninois-interpelles-dans-une-affaire-descroquerie-presumee/"
     },
     {
@@ -4183,7 +4222,7 @@
       "city": "Bamako",
       "event_type": null,
       "candidate_event": false,
-      "title": "Mali : Un convoi de 1107 camions-citernes remplis de carburant débarque à Bamako",
+      "title": "Mali: A convoy of 1107 tankers filled with fuel arrives in Bamako",
       "url": "https://www.seneweb.com/fr/news/Afrique/mali-un-convoi-de-1107-camions-citernes-remplis-de-carburant-debarque-a-bamako_n_999001921.html"
     },
     {
@@ -4219,7 +4258,7 @@
       "city": "Niamey",
       "event_type": "raid",
       "candidate_event": false,
-      "title": "شرخ جديد في الساحل.. أزمة بين نيامي ونجامينا تتشابك فيها خيوط باريس",
+      "title": "A new rift in the coast.. A crisis between Niamey and N'Djamena in which the threads of Paris are intertwined",
       "url": "https://arabi21.com/story/1798891/%D8%B4%D8%B1%D8%AE-%D8%AC%D8%AF%D9%8A%D8%AF-%D9%81%D9%8A-%D8%A7%D9%84%D8%B3%D8%A7%D8%AD%D9%84-%D8%A3%D8%B2%D9%85%D8%A9-%D8%A8%D9%8A%D9%86-%D9%86%D9%8A%D8%A7%D9%85%D9%8A-%D9%88%D9%86%D8%AC%D8%A7%D9%85%D9%8A%D9%86%D8%A7-%D8%AA%D8%AA%D8%B4%D8%A7%D8%A8%D9%83-%D9%81%D9%8A%D9%87%D8%A7-%D8%AE%D9%8A%D9%88%D8%B7-%D8%A8%D8%A7%D8%B1%D9%8A%D8%B3"
     },
     {
@@ -4241,6 +4280,24 @@
       "url": "https://www.studiotamani.org/209565-macina-lurgence-humanitaire-saccentue-pour-542-deplaces-de-souleye"
     },
     {
+      "published_at": "2026-10-27T17:10:11Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-28T05:53:02.284942Z",
+      "discovered_at": "2026-10-28T05:53:02.284942Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0095",
+      "source": "Courrier International",
+      "language": "fr",
+      "actor": null,
+      "country": "Niger",
+      "city": "Agadez",
+      "event_type": "air/drone strike",
+      "candidate_event": false,
+      "title": "Analysis. Chad-Niger tensions: how the Sahel is becoming a proxy conflict terrain Sahel Horizon",
+      "url": "https://www.courrierinternational.com/article/analyse-tensions-tchad-niger-comment-le-sahel-devient-un-terrain-de-conflits-par-procuration_282063"
+    },
+    {
       "published_at": "2026-10-27T16:56:30Z",
       "published_date_source": "jsonld:datePublished",
       "published_time_precision": "datetime",
@@ -4255,7 +4312,7 @@
       "city": "Niamey",
       "event_type": "security operation",
       "candidate_event": true,
-      "title": "Frappe au Niger: le Tchad nie être impliqué et réclame des preuves",
+      "title": "Niger Strike: Chad Denies Involvement and Demands Evidence",
       "url": "https://lanouvelletribune.info/2026/10/frappe-au-niger-le-tchad-nie-etre-implique-et-reclame-des-preuves/"
     },
     {
@@ -4399,7 +4456,7 @@
       "city": null,
       "event_type": "law enforcement",
       "candidate_event": false,
-      "title": "Burkina: 12 présumés escrocs interpellés à Gaoua",
+      "title": "Burkina Faso: 12 suspected crooks arrested in Gaoua",
       "url": "https://www.wakatsera.com/burkina-12-presumes-escrocs-interpelles-a-gaoua/"
     },
     {
@@ -4471,7 +4528,7 @@
       "city": null,
       "event_type": null,
       "candidate_event": false,
-      "title": "Justice. Au Burkina Faso, un nouveau Code pénal rétablit la peine de mort Courrier international",
+      "title": "Justice. In Burkina Faso, a new Penal Code reinstates the death penalty International mail",
       "url": "https://www.courrierinternational.com/article/justice-au-burkina-faso-un-nouveau-code-penal-retablit-la-peine-de-mort_282003"
     },
     {
@@ -4561,7 +4618,7 @@
       "city": null,
       "event_type": null,
       "candidate_event": false,
-      "title": "Image Afrique Soldats algériens déployés au Niger: l'histoire française de la base militaire de Madama",
+      "title": "Image Africa Algerian soldiers deployed in Niger: the French history of the Madama military base",
       "url": "https://information.tv5monde.com/afrique/soldats-algeriens-deployes-au-niger-lhistoire-francaise-de-la-base-militaire-de-madama-2843305"
     },
     {
@@ -4689,114 +4746,6 @@
       "candidate_event": false,
       "title": "Bamako: when violent death and disappearances become a worrying reality",
       "url": "https://bamada.net/bamako-quand-la-mort-violente-et-les-disparitions-deviennent-une-inquietante-realite"
-    },
-    {
-      "published_at": "2026-10-27T07:24:55Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-27T14:40:20.434238Z",
-      "discovered_at": "2026-10-27T14:40:20.434238Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0022",
-      "source": "Africanews",
-      "language": "en",
-      "actor": "State",
-      "country": "Niger",
-      "city": "Niamey",
-      "event_type": "air/drone strike",
-      "candidate_event": true,
-      "title": "Niger accuses Chad of deadly drone attack in which two civilians died",
-      "url": "https://www.africanews.com/2026/10/27/niger-accuses-chad-of-deadly-drone-attack-in-which-two-civilians-died/"
-    },
-    {
-      "published_at": "2026-10-27T07:08:00Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-27T14:40:21.798902Z",
-      "discovered_at": "2026-10-27T14:40:21.798902Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0014",
-      "source": "Agence Nigérienne de Presse",
-      "language": "fr",
-      "actor": "Other",
-      "country": "Niger",
-      "city": "Niamey",
-      "event_type": "security operation",
-      "candidate_event": true,
-      "title": "Chadian drone strikes on Nigerian territory: Niamey condemns this action and announces diplomatic and security measures",
-      "url": "https://anp.ne/frappes-de-drones-tchadiens-sur-le-territoire-nigerien-niamey-condamne-cette-action-et-annonce-des-mesures-diplomatiques-et-securitaires/"
-    },
-    {
-      "published_at": "2026-10-27T06:46:00Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-27T14:40:38.065196Z",
-      "discovered_at": "2026-10-27T14:40:38.065196Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0005",
-      "source": "Maliweb",
-      "language": "fr",
-      "actor": "Other",
-      "country": "Niger",
-      "city": "Niamey",
-      "event_type": "air/drone strike",
-      "candidate_event": false,
-      "title": "Niger: two civilians killed in drone strike, Niamey accuses Chad and France",
-      "url": "https://www.maliweb.net/international/niger-deux-civils-tues-dans-une-frappe-de-drone-niamey-accuse-le-3120982.html"
-    },
-    {
-      "published_at": "2026-10-27T06:39:00Z",
-      "published_date_source": "html:time",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-27T05:39:08.416107Z",
-      "discovered_at": "2026-10-27T05:39:08.416107Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0017",
-      "source": "Le Sahel",
-      "language": "fr",
-      "actor": null,
-      "country": "Niger",
-      "city": "Maradi",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Solar energy and clean cooking in Maradi: Solar lights up maternity wards and transforms household lives",
-      "url": "https://www.lesahel.org/energie-solaire-et-cuisson-propre-a-maradi-le-solaire-eclaire-les-maternites-et-transforme-la-vie-des-menages/"
-    },
-    {
-      "published_at": "2026-10-27T06:22:56Z",
-      "published_date_source": "opengraph",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-27T14:40:27.503914Z",
-      "discovered_at": "2026-10-27T14:40:27.503914Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0121",
-      "source": "AllAfrica (English Edition)",
-      "language": "en",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Bamako",
-      "event_type": "clash",
-      "candidate_event": false,
-      "title": "Mali: Why Ukraine May Be Involved in Mali's Conflict",
-      "url": "https://allafrica.com/stories/202610270132.html"
-    },
-    {
-      "published_at": "2026-10-27T05:22:11Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-27T05:39:05.266385Z",
-      "discovered_at": "2026-10-27T05:39:05.266385Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0001",
-      "source": "RFI Afrique",
-      "language": "fr",
-      "actor": "Other",
-      "country": "Niger",
-      "city": "Niamey",
-      "event_type": "attack",
-      "candidate_event": true,
-      "title": "Niger denounces a drone attack by Chad with \"the support of France\"",
-      "url": "https://www.rfi.fr/fr/afrique/20261027-le-niger-d%C3%A9nonce-une-attaque-de-drone-du-tchad-avec-l-appui-de-la-france"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."

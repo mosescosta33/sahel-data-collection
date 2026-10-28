@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T20:52:25.312753Z",
+  "generated_at": "2026-10-28T05:55:14.641643Z",
   "model_version": "0.1-experimental",
   "label": "Experimental Conflict Threat Level",
   "regional": {
@@ -13,14 +13,14 @@
       "trend": "IMPROVING",
       "confidence": "HIGH",
       "assessment_status": "ASSESSED",
-      "events_7d": 13,
-      "events_30d": 98,
-      "baseline_7d_equivalent": 25.9,
+      "events_7d": 12,
+      "events_30d": 91,
+      "baseline_7d_equivalent": 24.0,
       "tempo_ratio": 0.52,
       "drivers": [
-        "13 fused candidate event(s) in 7 days",
+        "12 fused candidate event(s) in 7 days",
         "3 JNIM/IS Sahel-linked event(s)",
-        "12 significant/major event(s)",
+        "11 significant/major event(s)",
         "3 civilian-threat indicator(s)",
         "activity across 12 named locations"
       ],
@@ -42,21 +42,21 @@
       "independent_domains_7d": 0
     },
     "Niger": {
-      "score": 85,
+      "score": 82,
       "level": "HIGH",
       "trend": "DETERIORATING",
       "confidence": "HIGH",
       "assessment_status": "ASSESSED",
-      "events_7d": 13,
-      "events_30d": 16,
-      "baseline_7d_equivalent": 0.9,
-      "tempo_ratio": 7.32,
+      "events_7d": 14,
+      "events_30d": 18,
+      "baseline_7d_equivalent": 1.2,
+      "tempo_ratio": 6.76,
       "drivers": [
-        "13 fused candidate event(s) in 7 days",
+        "14 fused candidate event(s) in 7 days",
         "2 JNIM/IS Sahel-linked event(s)",
         "13 significant/major event(s)",
         "1 civilian-threat indicator(s)",
-        "activity across 3 named locations"
+        "activity across 2 named locations"
       ],
       "independent_domains_7d": 15
     }
