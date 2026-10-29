@@ -1,23 +1,23 @@
 {
-  "generated_at": "2026-10-29T06:00:36.055974Z",
+  "generated_at": "2026-10-29T15:24:12.731506Z",
   "window_days": 30,
   "cutoff": "2026-09-29",
-  "reports": 754,
-  "incident_reports": 200,
-  "candidate_events": 118,
+  "reports": 745,
+  "incident_reports": 197,
+  "candidate_events": 119,
   "corroborated_events": 39,
-  "mapped_events": 95,
-  "mapped_locations": 184,
+  "mapped_events": 96,
+  "mapped_locations": 186,
   "distinct_sources": 86,
   "by_actor": {
-    "State": 66,
+    "State": 67,
     "Other": 22,
     "JNIM": 15,
     "Africa Corps/Wagner": 10,
     "IS Sahel": 5
   },
   "by_country": {
-    "Mali": 97,
+    "Mali": 98,
     "Niger": 19,
     "Burkina Faso": 2
   },
@@ -30,15 +30,16 @@
     "kidnapping": 7,
     "air/drone strike": 6,
     "raid": 4,
-    "ambush": 1
+    "ambush": 1,
+    "territorial seizure/blockade": 1
   },
   "by_language": {
-    "fr": 583,
-    "en": 129,
-    "ar": 42
+    "fr": 581,
+    "en": 123,
+    "ar": 41
   },
   "by_confidence": {
-    "low": 55,
+    "low": 56,
     "moderate": 49,
     "moderate-high": 12,
     "high": 2
@@ -47,27 +48,27 @@
     {
       "source_code": "SRC-0008",
       "source": "Bamada",
-      "count": 106
+      "count": 105
     },
     {
       "source_code": "SRC-0006",
       "source": "Malijet",
-      "count": 72
+      "count": 73
     },
     {
       "source_code": "SRC-0075",
       "source": "AMAP (Agence Malienne de Presse et de Publicité)",
-      "count": 29
-    },
-    {
-      "source_code": "SRC-0001",
-      "source": "RFI Afrique",
-      "count": 28
+      "count": 31
     },
     {
       "source_code": "SRC-0090",
       "source": "AllAfrica (Édition Française)",
       "count": 28
+    },
+    {
+      "source_code": "SRC-0001",
+      "source": "RFI Afrique",
+      "count": 27
     },
     {
       "source_code": "SRC-0092",
@@ -77,7 +78,7 @@
     {
       "source_code": "SRC-0121",
       "source": "AllAfrica (English Edition)",
-      "count": 25
+      "count": 23
     },
     {
       "source_code": "SRC-0085",
@@ -90,18 +91,18 @@
       "count": 19
     },
     {
-      "source_code": "SRC-0034",
-      "source": "TV5MONDE Afrique",
-      "count": 19
-    },
-    {
       "source_code": "SRC-0003",
       "source": "Jeune Afrique",
       "count": 18
     },
     {
-      "source_code": "SRC-0014",
-      "source": "Agence Nigérienne de Presse",
+      "source_code": "SRC-0034",
+      "source": "TV5MONDE Afrique",
+      "count": 18
+    },
+    {
+      "source_code": "SRC-0079",
+      "source": "L'Essor",
       "count": 18
     }
   ],
@@ -152,7 +153,7 @@
     },
     {
       "location": "Mopti",
-      "count": 4
+      "count": 5
     }
   ],
   "daily": [
@@ -303,11 +304,120 @@
     },
     {
       "date": "2026-10-29",
-      "reports": 3,
-      "events": 0
+      "reports": 12,
+      "events": 1
     }
   ],
   "latest_events": [
+    {
+      "id": "393b2ebc6d1cf329ee4e6f7f9361bae6e6aafd81",
+      "event_date": "2026-10-29",
+      "event_date_confidence": "publication-proxy",
+      "event_date_source": "opengraph",
+      "published_at": "2026-10-29T13:31:08Z",
+      "published_date_source": "opengraph",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-29T15:22:11.924027Z",
+      "actor": "State",
+      "perpetrator": "State",
+      "target": "JNIM",
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [
+        "JNIM",
+        "State"
+      ],
+      "parent_report_id": null,
+      "event_type": "territorial seizure/blockade",
+      "country": "Mali",
+      "city": "Djenné",
+      "lat": 13.9061,
+      "lng": -4.555,
+      "locations": [
+        {
+          "name": "Djenné",
+          "country": "Mali",
+          "lat": 13.9061,
+          "lng": -4.555,
+          "confidence": "explicit-place"
+        },
+        {
+          "name": "Mopti",
+          "country": "Mali",
+          "lat": 14.4843,
+          "lng": -4.1829,
+          "confidence": "explicit-place"
+        }
+      ],
+      "title": "Mali: Dozo hunters and jihadists clash for a village near Djenné",
+      "summary": "In Mali, the village of Sounga, which belongs to the commune of Mougna, near Djenné in the Mopti region, continues to resist the jihadists of Jnim, linked to al-Qaeda. While the surrounding villages have bowed to the domination of the jihadists, Sounga refuses to submit, provoking violent clashes last week between the Jnim jihadists and the traditional Dozo hunters, who strive to protect the population in this part of the territory where the Malian army is not present.",
+      "sources": [
+        "AllAfrica (Édition Française)"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://fr.allafrica.com/stories/202610290493.html"
+      ],
+      "report_summaries": [
+        {
+          "url": "https://fr.allafrica.com/stories/202610290493.html",
+          "source": "AllAfrica (Édition Française)",
+          "title": "Mali: Dozo hunters and jihadists clash for a village near Djenné",
+          "summary": "In Mali, the village of Sounga, which belongs to the commune of Mougna, near Djenné in the Mopti region, continues to resist the jihadists of Jnim, linked to al-Qaeda. While the surrounding villages have bowed to the domination of the jihadists, Sounga refuses to submit, provoking violent clashes last week between the Jnim jihadists and the traditional Dozo hunters, who strive to protect the population in this part of the territory where the Malian army is not present.",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "civilian",
+            "armed_group"
+          ],
+          "civilian_targeting_flag": false,
+          "casualty_claims": []
+        }
+      ],
+      "created_at": "2026-10-29T15:22:11.924027Z",
+      "updated_at": "2026-10-29T15:22:11.924027Z",
+      "extraction_confidence": "low",
+      "victim_categories": [
+        "civilian",
+        "armed_group"
+      ],
+      "civilian_targeting_flag": false,
+      "casualty_claims": [],
+      "fatalities_min": null,
+      "fatalities_max": null,
+      "fatalities_best": null,
+      "injured_min": null,
+      "injured_max": null,
+      "abducted_min": null,
+      "abducted_max": null,
+      "casualty_disputed": false,
+      "revision_history": [
+        {
+          "at": "2026-10-29T15:22:11.924027Z",
+          "type": "event_created",
+          "source": "AllAfrica (Édition Française)"
+        }
+      ],
+      "corroboration": "single-source",
+      "confidence": "low",
+      "independent_source_domains": [
+        "fr.allafrica.com"
+      ],
+      "independent_source_count": 1,
+      "significance": "MAJOR",
+      "significance_reasons": [
+        "strategic/severe event pattern",
+        "multi-location activity"
+      ]
+    },
     {
       "id": "8dec849a689660d7b4ecdf537db0f1355b6738ac",
       "event_date": "2026-10-27",
@@ -4189,108 +4299,171 @@
       "significance_reasons": [
         "operational security event"
       ]
-    },
-    {
-      "id": "20ab2628f39ea4048cd411b7eb5c482964420fd3",
-      "event_date": "2026-10-22",
-      "event_date_confidence": "explicit-text",
-      "event_date_source": "explicit-calendar-date",
-      "published_at": "2026-10-22T10:12:42Z",
-      "published_date_source": "itemprop",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-22T13:54:59.967732Z",
-      "actor": "IS Sahel",
-      "perpetrator": null,
-      "target": null,
-      "claimant": null,
-      "supporting_force": null,
-      "mentioned_actors": [],
-      "parent_report_id": null,
-      "event_type": "kidnapping",
-      "country": "Niger",
-      "city": "Agadez",
-      "lat": 16.9733,
-      "lng": 7.9911,
-      "locations": [
-        {
-          "name": "Agadez",
-          "country": "Niger",
-          "lat": 16.9733,
-          "lng": 7.9911,
-          "confidence": "explicit-place"
-        },
-        {
-          "name": "Niamey",
-          "country": "Niger",
-          "lat": 13.5116,
-          "lng": 2.1254,
-          "confidence": "explicit-place"
-        }
-      ],
-      "title": "Niger: the two European hostages kidnapped by EIGS in Agadez now free after several months of captivity",
-      "summary": "Announced as free for a few days, it was on Wednesday 21 October that the two (02) European hostages, Eva Gretzmacher and Claudia Abbt, kidnapped in 2025 in Agadez by the EIGs, reappeared after several months of captivity. They were handed over to the authorities in Benghazi, Libya, before their scheduled return to the country this Thursday, October 22, 2026 .",
-      "sources": [
-        "ActuNiger"
-      ],
-      "languages": [
-        "fr"
-      ],
-      "source_count": 1,
-      "report_urls": [
-        "https://www.actuniger.com/societe/22484-niger-les-deux-otages-europeennes-enlevees-par-leigs-a-agadez-desormais-libres-apres-plusieurs-mois-de-captivite"
-      ],
-      "report_summaries": [
-        {
-          "url": "https://www.actuniger.com/societe/22484-niger-les-deux-otages-europeennes-enlevees-par-leigs-a-agadez-desormais-libres-apres-plusieurs-mois-de-captivite",
-          "source": "ActuNiger",
-          "title": "Niger: the two European hostages kidnapped by EIGS in Agadez now free after several months of captivity",
-          "summary": "Announced as free for a few days, it was on Wednesday 21 October that the two (02) European hostages, Eva Gretzmacher and Claudia Abbt, kidnapped in 2025 in Agadez by the EIGs, reappeared after several months of captivity. They were handed over to the authorities in Benghazi, Libya, before their scheduled return to the country this Thursday, October 22, 2026 .",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        }
-      ],
-      "created_at": "2026-10-22T13:54:59.967732Z",
-      "updated_at": "2026-10-22T13:54:59.967732Z",
-      "extraction_confidence": "low",
-      "victim_categories": [],
-      "civilian_targeting_flag": false,
-      "casualty_claims": [],
-      "fatalities_min": null,
-      "fatalities_max": null,
-      "fatalities_best": null,
-      "injured_min": null,
-      "injured_max": null,
-      "abducted_min": null,
-      "abducted_max": null,
-      "casualty_disputed": false,
-      "revision_history": [
-        {
-          "at": "2026-10-22T13:54:59.967732Z",
-          "type": "event_created",
-          "source": "ActuNiger"
-        }
-      ],
-      "corroboration": "single-source",
-      "confidence": "low",
-      "independent_source_domains": [
-        "actuniger.com"
-      ],
-      "independent_source_count": 1,
-      "significance": "MAJOR",
-      "significance_reasons": [
-        "multi-location activity"
-      ]
     }
   ],
   "latest_reports": [
+    {
+      "published_at": "2026-10-29T13:47:44Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-29T15:22:05.861760Z",
+      "discovered_at": "2026-10-29T15:22:05.861760Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0006",
+      "source": "Malijet",
+      "language": "fr",
+      "actor": null,
+      "country": "Mali",
+      "city": "Bamako",
+      "event_type": "political/security policy",
+      "candidate_event": false,
+      "title": "Mali War School: the 6th class is back in school",
+      "url": "https://malijet.com/actualite_de_la_nation_malienne/312572-ecole-de-guerre-du-mali-la-6e-promotion-fait-sa-rentree.html"
+    },
+    {
+      "published_at": "2026-10-29T13:31:08Z",
+      "published_date_source": "opengraph",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-29T15:22:11.924027Z",
+      "discovered_at": "2026-10-29T15:22:11.924027Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0090",
+      "source": "AllAfrica (Édition Française)",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": "Djenné",
+      "event_type": "territorial seizure/blockade",
+      "candidate_event": true,
+      "title": "Mali: Dozo hunters and jihadists clash for a village near Djenné",
+      "url": "https://fr.allafrica.com/stories/202610290493.html"
+    },
+    {
+      "published_at": "2026-10-29T13:15:23Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-29T15:22:07.067006Z",
+      "discovered_at": "2026-10-29T15:22:07.067006Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0004",
+      "source": "Studio Tamani",
+      "language": "fr",
+      "actor": null,
+      "country": null,
+      "city": null,
+      "event_type": "kidnapping",
+      "candidate_event": false,
+      "title": "San: Release of abducted teachers",
+      "url": "https://www.studiotamani.org/209642-san-liberation-des-enseignants-enleves"
+    },
+    {
+      "published_at": "2026-10-29T12:30:00Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-29T15:22:08.016206Z",
+      "discovered_at": "2026-10-29T15:22:08.016206Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0047",
+      "source": "The Africa Report",
+      "language": "en",
+      "actor": "State",
+      "country": "Niger",
+      "city": "Niamey",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Algeria prepares troop deployment in Niger to protect oil assets and expand influence",
+      "url": "https://www.theafricareport.com/434864/algeria-prepares-troop-deployment-in-niger-to-protect-oil-assets-and-expand-influence/"
+    },
+    {
+      "published_at": "2026-10-29T12:28:52Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-29T15:22:07.816748Z",
+      "discovered_at": "2026-10-29T15:22:07.816748Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0013",
+      "source": "Wakat Sera",
+      "language": "fr",
+      "actor": null,
+      "country": "Burkina Faso",
+      "city": "Ouagadougou",
+      "event_type": "political/security policy",
+      "candidate_event": false,
+      "title": "Military cooperation: opening of the second session of the Joint Monitoring Committee Burkina Faso-Egypt",
+      "url": "https://www.wakatsera.com/cooperation-militaire-ouverture-de-la-deuxieme-session-de-comite-mixte-de-suivi-burkina-faso-egypte/"
+    },
+    {
+      "published_at": "2026-10-29T11:16:34Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-29T15:22:06.975200Z",
+      "discovered_at": "2026-10-29T15:22:06.975200Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0075",
+      "source": "AMAP (Agence Malienne de Presse et de Publicité)",
+      "language": "fr",
+      "actor": null,
+      "country": "Mali",
+      "city": "Bamako",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Russia-Africa: Moscow says it is ready to help the continent against terrorism",
+      "url": "https://amap.ml/2026/10/29/russie-afrique-moscou-se-dit-pret-a-aider-le-continent-contre-le-terrorisme/"
+    },
+    {
+      "published_at": "2026-10-29T10:38:14Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-29T15:22:07.034699Z",
+      "discovered_at": "2026-10-29T15:22:07.034699Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0075",
+      "source": "AMAP (Agence Malienne de Presse et de Publicité)",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": null,
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Macina: meeting of the local watch committee coupled with that of crises and disasters",
+      "url": "https://amap.ml/2026/10/29/macina-reunion-du-comite-local-de-veille-couplee-a-celle-des-crises-et-catastrophes/"
+    },
+    {
+      "published_at": "2026-10-29T09:17:56Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-29T15:22:05.948428Z",
+      "discovered_at": "2026-10-29T15:22:05.948428Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0006",
+      "source": "Malijet",
+      "language": "fr",
+      "actor": null,
+      "country": "Mali",
+      "city": "Bamako",
+      "event_type": "law enforcement",
+      "candidate_event": false,
+      "title": "Bamako: twelve suspects arrested in three criminal cases",
+      "url": "https://malijet.com/la_societe_malienne_aujourdhui/312564-bamako-douze-suspects-interpelles-dans-trois-affaires-crim.html"
+    },
+    {
+      "published_at": "2026-10-29T06:00:00Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-29T15:22:09.835168Z",
+      "discovered_at": "2026-10-29T15:22:09.835168Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0040",
+      "source": "Mondafrique",
+      "language": "fr",
+      "actor": null,
+      "country": "Niger",
+      "city": null,
+      "event_type": "air/drone strike",
+      "candidate_event": false,
+      "title": "Chad and Niger squabble over drone strike",
+      "url": "https://mondafrique.com/international/tchad-et-niger-se-querellent-autour-dune-frappe-de-drone/"
+    },
     {
       "published_at": "2026-10-29T03:24:19Z",
       "published_date_source": "jsonld:datePublished",
@@ -4848,168 +5021,6 @@
       "candidate_event": false,
       "title": "Call for applications for the recruitment of Tafouk TV staff Wednesday, October 28, 2026 at 3:38 p.m. Read",
       "url": "https://www.lessor.ml/pub-annonce/85"
-    },
-    {
-      "published_at": "2026-10-27T22:11:57Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-28T05:52:58.857382Z",
-      "discovered_at": "2026-10-28T05:52:58.857382Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0006",
-      "source": "Malijet",
-      "language": "fr",
-      "actor": "Other",
-      "country": "Niger",
-      "city": "Agadez",
-      "event_type": "air/drone strike",
-      "candidate_event": true,
-      "title": "Chad-Niger: N’Djamena rejects accusations of drone strikes in Agadez",
-      "url": "https://malijet.com/actualite-sur-afrique/312537-tchad-niger-ndjamena-rejette-les-accusations-de-frappe-de.html"
-    },
-    {
-      "published_at": "2026-10-27T21:50:00Z",
-      "published_date_source": "html:time",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-27T20:50:01.743075Z",
-      "discovered_at": "2026-10-27T20:50:01.743075Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0017",
-      "source": "Le Sahel",
-      "language": "fr",
-      "actor": null,
-      "country": null,
-      "city": null,
-      "event_type": null,
-      "candidate_event": false,
-      "title": "NOTICE OF EXPRESSION OF INTEREST NO.004/CA/TAFOUK TV/2026",
-      "url": "https://www.lesahel.org/avis-a-manifestation-dinteret-n004-ca-tafouk-tv-2026/"
-    },
-    {
-      "published_at": "2026-10-27T21:50:00Z",
-      "published_date_source": "html:time",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-27T20:50:01.927696Z",
-      "discovered_at": "2026-10-27T20:50:01.927696Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0017",
-      "source": "Le Sahel",
-      "language": "fr",
-      "actor": null,
-      "country": null,
-      "city": null,
-      "event_type": null,
-      "candidate_event": false,
-      "title": "NOTICE OF EXPRESSION OF INTEREST NO.001/CA/TAFOUK TV/2026",
-      "url": "https://www.lesahel.org/avis-de-manifestation-dinteret-n001-ca-tafouk-tv-2026-recrutement-dun-cabinet-specialise-pour-lelaboration-du-manuel-technique-dutilisation-et-de-maintenanc/"
-    },
-    {
-      "published_at": "2026-10-27T20:53:00Z",
-      "published_date_source": "opengraph",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-28T15:16:24.530998Z",
-      "discovered_at": "2026-10-28T15:16:24.530998Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0073",
-      "source": "Ouestaf News",
-      "language": "fr",
-      "actor": "Other",
-      "country": "Niger",
-      "city": "Agadez",
-      "event_type": "air/drone strike",
-      "candidate_event": true,
-      "title": "Drone strike in Agadez: Niger accuses, Chad rejects",
-      "url": "https://www.ouestaf.com/frappe-de-drone-a-agadez-le-niger-accuse-le-tchad-recuse/"
-    },
-    {
-      "published_at": "2026-10-27T20:49:45Z",
-      "published_date_source": "itemprop",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-28T05:52:59.343390Z",
-      "discovered_at": "2026-10-28T05:52:59.343390Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0015",
-      "source": "ActuNiger",
-      "language": "fr",
-      "actor": "Other",
-      "country": "Niger",
-      "city": "Agadez",
-      "event_type": "air/drone strike",
-      "candidate_event": true,
-      "title": "Drone strike in Agadez: Chad's ambassador summoned to the Ministry of Foreign Affairs",
-      "url": "https://www.actuniger.com/societe/22511-frappe-de-drone-a-agadez-lambassadeur-du-tchad-convoque-au-ministere-des-affaires-etrangeres"
-    },
-    {
-      "published_at": "2026-10-27T20:31:07Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-27T20:49:45.159987Z",
-      "discovered_at": "2026-10-27T20:49:45.159987Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0014",
-      "source": "Agence Nigérienne de Presse",
-      "language": "fr",
-      "actor": "Other",
-      "country": "Niger",
-      "city": "Niamey",
-      "event_type": "security operation",
-      "candidate_event": true,
-      "title": "Chadian drone strikes in Niger: CODDAE calls for increased vigilance at national level",
-      "url": "https://anp.ne/frappes-de-drones-tchadiens-au-niger-le-coddae-appelle-au-renforcement-de-la-vigilance-au-plan-national/"
-    },
-    {
-      "published_at": "2026-10-27T19:56:05Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-27T20:49:50.036499Z",
-      "discovered_at": "2026-10-27T20:49:50.036499Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0092",
-      "source": "La Nouvelle Tribune (Bénin)",
-      "language": "fr",
-      "actor": null,
-      "country": "Burkina Faso",
-      "city": null,
-      "event_type": "law enforcement",
-      "candidate_event": false,
-      "title": "Burkina Faso: 12 Beninese arrested in an alleged fraud case",
-      "url": "https://lanouvelletribune.info/2026/10/burkina-faso-12-beninois-interpelles-dans-une-affaire-descroquerie-presumee/"
-    },
-    {
-      "published_at": "2026-10-27T18:19:51Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-28T15:16:29.679198Z",
-      "discovered_at": "2026-10-28T15:16:29.679198Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0034",
-      "source": "TV5MONDE Afrique",
-      "language": "fr",
-      "actor": "Other",
-      "country": "Niger",
-      "city": "Niamey",
-      "event_type": "air/drone strike",
-      "candidate_event": true,
-      "title": "Image Africa Niger: Chad denies any involvement in a \"drone strike\" on its soil with the \"support\" of France",
-      "url": "https://information.tv5monde.com/afrique/niger-le-tchad-dement-toute-implication-dans-une-frappe-de-drone-sur-son-sol-avec-lappui-de-la-france-2843353"
-    },
-    {
-      "published_at": "2026-10-27T18:19:51Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-27T20:49:49.704048Z",
-      "discovered_at": "2026-10-27T20:49:49.704048Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0034",
-      "source": "TV5MONDE Afrique",
-      "language": "fr",
-      "actor": "Other",
-      "country": "Niger",
-      "city": "Niamey",
-      "event_type": "air/drone strike",
-      "candidate_event": true,
-      "title": "Image Africa Niger: Chad denies any involvement in \"drone strikes\" on its soil with the \"support\" of France",
-      "url": "https://information.tv5monde.com/afrique/niger-le-tchad-dement-toute-implication-dans-frappe-de-drone-sur-son-sol-avec-lappui-de-la-france-2843353"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
