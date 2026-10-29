@@ -2409,14 +2409,16 @@
     "summary": "A massacre of civilian populations was reported in the region of Menaka, Mali. Fifty-four dead bodies were discovered in a camp located about 35 kilometers southeast of the city. The Islamic State in the Greater Sahara (EIGs) is implicated in these killings, according to the first testimonies collected by the Malian army In a statement seen by Seneweb, the General Staff of the Armed Forces indicates that a joint patrol of the Malian Armed Forces (FAMa) and their partners was deployed on the ground after reports of a terrorist attack against civilian populations in the operational sub-sector of Menaka.",
     "sources": [
       "Seneweb",
+      "Maliweb",
       "Journal du Mali"
     ],
     "languages": [
       "fr"
     ],
-    "source_count": 2,
+    "source_count": 3,
     "report_urls": [
       "https://www.seneweb.com/fr/news/Afrique/mali-54-corps-sans-vie-decouverts-dans-un-campement-leigs-mis-en-cause_n_999001644.html",
+      "https://www.maliweb.net/insecurite/menaka-54-corps-decouverts-dans-un-campement-a-tagadeyat-3120932.html",
       "https://journaldumali.com/tagadayat-larmee-annonce-la-decouverte-de-54-corps/"
     ],
     "report_summaries": [
@@ -2437,6 +2439,25 @@
           "armed_group"
         ],
         "civilian_targeting_flag": true,
+        "casualty_claims": []
+      },
+      {
+        "url": "https://www.maliweb.net/insecurite/menaka-54-corps-decouverts-dans-un-campement-a-tagadeyat-3120932.html",
+        "source": "Maliweb",
+        "title": "Menaka: 54 bodies discovered in a...",
+        "summary": "Menaka: 54 bodies discovered in a camp in Tagadeyat The General Staff of the Armed Forces announced, in a statement, the macabre discovery of 54 lifeless bodies about 35 kilometers south-east of Menaka. Nine survivors were also found and evacuated to the city. The first testimonies attribute these killings to the Islamic State in the Greater Sahara (EIGS).",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "civilian",
+          "armed_group"
+        ],
+        "civilian_targeting_flag": false,
         "casualty_claims": []
       },
       {
@@ -2482,21 +2503,28 @@
         "source": "Seneweb"
       },
       {
+        "at": "2026-10-29T21:17:19.565142Z",
+        "type": "corroboration_or_geography_update",
+        "source": "Maliweb"
+      },
+      {
         "at": "2026-10-26T15:19:34.084935Z",
         "type": "corroboration_or_geography_update",
         "source": "Journal du Mali"
       }
     ],
-    "corroboration": "limited corroboration",
-    "confidence": "moderate",
+    "corroboration": "multi-source",
+    "confidence": "moderate-high",
     "independent_source_domains": [
       "seneweb.com",
+      "maliweb.net",
       "journaldumali.com"
     ],
-    "independent_source_count": 2,
+    "independent_source_count": 3,
     "significance": "MAJOR",
     "significance_reasons": [
-      "strategic/severe event pattern"
+      "strategic/severe event pattern",
+      "multi-source corroboration"
     ]
   },
   {

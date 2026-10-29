@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-29T15:24:12.731506Z",
+  "generated_at": "2026-10-29T21:19:09.661346Z",
   "window_days": 30,
   "cutoff": "2026-09-29",
-  "reports": 745,
-  "incident_reports": 197,
+  "reports": 739,
+  "incident_reports": 195,
   "candidate_events": 119,
   "corroborated_events": 39,
   "mapped_events": 96,
@@ -34,21 +34,21 @@
     "territorial seizure/blockade": 1
   },
   "by_language": {
-    "fr": 581,
-    "en": 123,
+    "fr": 578,
+    "en": 120,
     "ar": 41
   },
   "by_confidence": {
     "low": 56,
-    "moderate": 49,
-    "moderate-high": 12,
+    "moderate": 48,
+    "moderate-high": 13,
     "high": 2
   },
   "top_sources": [
     {
       "source_code": "SRC-0008",
       "source": "Bamada",
-      "count": 105
+      "count": 104
     },
     {
       "source_code": "SRC-0006",
@@ -63,12 +63,12 @@
     {
       "source_code": "SRC-0090",
       "source": "AllAfrica (Édition Française)",
-      "count": 28
+      "count": 27
     },
     {
       "source_code": "SRC-0001",
       "source": "RFI Afrique",
-      "count": 27
+      "count": 26
     },
     {
       "source_code": "SRC-0092",
@@ -83,16 +83,16 @@
     {
       "source_code": "SRC-0085",
       "source": "Seneweb",
-      "count": 21
-    },
-    {
-      "source_code": "SRC-0015",
-      "source": "ActuNiger",
-      "count": 19
+      "count": 20
     },
     {
       "source_code": "SRC-0003",
       "source": "Jeune Afrique",
+      "count": 18
+    },
+    {
+      "source_code": "SRC-0015",
+      "source": "ActuNiger",
       "count": 18
     },
     {
@@ -284,7 +284,7 @@
     },
     {
       "date": "2026-10-25",
-      "reports": 15,
+      "reports": 16,
       "events": 0
     },
     {
@@ -304,7 +304,7 @@
     },
     {
       "date": "2026-10-29",
-      "reports": 12,
+      "reports": 18,
       "events": 1
     }
   ],
@@ -2719,14 +2719,16 @@
       "summary": "A massacre of civilian populations was reported in the region of Menaka, Mali. Fifty-four dead bodies were discovered in a camp located about 35 kilometers southeast of the city. The Islamic State in the Greater Sahara (EIGs) is implicated in these killings, according to the first testimonies collected by the Malian army In a statement seen by Seneweb, the General Staff of the Armed Forces indicates that a joint patrol of the Malian Armed Forces (FAMa) and their partners was deployed on the ground after reports of a terrorist attack against civilian populations in the operational sub-sector of Menaka.",
       "sources": [
         "Seneweb",
+        "Maliweb",
         "Journal du Mali"
       ],
       "languages": [
         "fr"
       ],
-      "source_count": 2,
+      "source_count": 3,
       "report_urls": [
         "https://www.seneweb.com/fr/news/Afrique/mali-54-corps-sans-vie-decouverts-dans-un-campement-leigs-mis-en-cause_n_999001644.html",
+        "https://www.maliweb.net/insecurite/menaka-54-corps-decouverts-dans-un-campement-a-tagadeyat-3120932.html",
         "https://journaldumali.com/tagadayat-larmee-annonce-la-decouverte-de-54-corps/"
       ],
       "report_summaries": [
@@ -2747,6 +2749,25 @@
             "armed_group"
           ],
           "civilian_targeting_flag": true,
+          "casualty_claims": []
+        },
+        {
+          "url": "https://www.maliweb.net/insecurite/menaka-54-corps-decouverts-dans-un-campement-a-tagadeyat-3120932.html",
+          "source": "Maliweb",
+          "title": "Menaka: 54 bodies discovered in a...",
+          "summary": "Menaka: 54 bodies discovered in a camp in Tagadeyat The General Staff of the Armed Forces announced, in a statement, the macabre discovery of 54 lifeless bodies about 35 kilometers south-east of Menaka. Nine survivors were also found and evacuated to the city. The first testimonies attribute these killings to the Islamic State in the Greater Sahara (EIGS).",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "civilian",
+            "armed_group"
+          ],
+          "civilian_targeting_flag": false,
           "casualty_claims": []
         },
         {
@@ -2792,21 +2813,28 @@
           "source": "Seneweb"
         },
         {
+          "at": "2026-10-29T21:17:19.565142Z",
+          "type": "corroboration_or_geography_update",
+          "source": "Maliweb"
+        },
+        {
           "at": "2026-10-26T15:19:34.084935Z",
           "type": "corroboration_or_geography_update",
           "source": "Journal du Mali"
         }
       ],
-      "corroboration": "limited corroboration",
-      "confidence": "moderate",
+      "corroboration": "multi-source",
+      "confidence": "moderate-high",
       "independent_source_domains": [
         "seneweb.com",
+        "maliweb.net",
         "journaldumali.com"
       ],
-      "independent_source_count": 2,
+      "independent_source_count": 3,
       "significance": "MAJOR",
       "significance_reasons": [
-        "strategic/severe event pattern"
+        "strategic/severe event pattern",
+        "multi-source corroboration"
       ]
     },
     {
@@ -4303,6 +4331,114 @@
   ],
   "latest_reports": [
     {
+      "published_at": "2026-10-29T20:32:28Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-29T21:17:14.985660Z",
+      "discovered_at": "2026-10-29T21:17:14.985660Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0008",
+      "source": "Bamada",
+      "language": "fr",
+      "actor": null,
+      "country": "Mali",
+      "city": "Bamako",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "DIRECTORATE OF MILITARY JUSTICE: seven cases scheduled for the correctional hearing",
+      "url": "https://bamada.net/direction-de-la-justice-militaire-sept-affaires-inscrites-au-role-de-laudience-correctionnelle"
+    },
+    {
+      "published_at": "2026-10-29T18:40:48Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-29T21:17:17.669519Z",
+      "discovered_at": "2026-10-29T21:17:17.669519Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0075",
+      "source": "AMAP (Agence Malienne de Presse et de Publicité)",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": null,
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Macina: The closing of Solidarity and Social Exclusion Month at the centre of a meeting",
+      "url": "https://amap.ml/2026/10/29/macina-la-cloture-du-mois-de-la-solidarite-et-de-lexclusion-sociale-au-centre-dune-rencontre/"
+    },
+    {
+      "published_at": "2026-10-29T18:40:32Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-29T21:17:18.229915Z",
+      "discovered_at": "2026-10-29T21:17:18.229915Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0008",
+      "source": "Bamada",
+      "language": "fr",
+      "actor": null,
+      "country": "Mali",
+      "city": null,
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Mali: General Amadou Haya Sanogo appointed as head of the Board of Directors of the National Office of Veterans Affairs",
+      "url": "https://bamada.net/mali-amadou-haya-sanogo-president-conseil-administration-onac"
+    },
+    {
+      "published_at": "2026-10-29T18:27:41Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-29T21:17:21.056981Z",
+      "discovered_at": "2026-10-29T21:17:21.056981Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0168",
+      "source": "Tchadinfos (النسخة العربية)",
+      "language": "fr",
+      "actor": null,
+      "country": "Niger",
+      "city": "Niamey",
+      "event_type": "political/security policy",
+      "candidate_event": false,
+      "title": "Niger: Journalist Moussa Kaka 'Enforced Disappearance', Denounces Human Rights Watch",
+      "url": "https://tchadinfos.com/2026/10/29/niger-le-journaliste-moussa-kaka-est-victime-dune-disparition-forcee-denonce-human-rights-watch/"
+    },
+    {
+      "published_at": "2026-10-29T16:12:10Z",
+      "published_date_source": "jsonld:uploadDate",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-29T21:17:18.807333Z",
+      "discovered_at": "2026-10-29T21:17:18.807333Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0002",
+      "source": "France 24 Afrique (FR)",
+      "language": "fr",
+      "actor": null,
+      "country": "Niger",
+      "city": null,
+      "event_type": "air/drone strike",
+      "candidate_event": false,
+      "title": "Chad: the country denies Niger's accusations of a drone strike",
+      "url": "https://www.france24.com/fr/vid%C3%A9o/20261029-tchad-le-pays-d%C3%A9ment-les-accusations-du-niger-concernant-une-frappe-de-drone"
+    },
+    {
+      "published_at": "2026-10-29T15:33:55Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-29T21:17:20.818525Z",
+      "discovered_at": "2026-10-29T21:17:20.818525Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0057",
+      "source": "Al-Araby Al-Jadeed",
+      "language": "ar",
+      "actor": "State",
+      "country": "Niger",
+      "city": null,
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Algeria Starts Arrangements to Send Troops to Niger to Protect Energy Projects",
+      "url": "https://www.alaraby.co.uk/politics/%D8%A7%D9%84%D8%AC%D8%B2%D8%A7%D8%A6%D8%B1-%D8%AA%D8%A8%D8%AF%D8%A3-%D8%AA%D8%B1%D8%AA%D9%8A%D8%A8%D8%A7%D8%AA-%D8%A5%D8%B1%D8%B3%D8%A7%D9%84-%D9%82%D9%88%D8%A7%D8%AA-%D8%A5%D9%84%D9%89-%D8%A7%D9%84%D9%86%D9%8A%D8%AC%D8%B1-%D9%84%D8%AD%D9%85%D8%A7%D9%8A%D8%A9-%D9%85%D8%B4%D8%B1%D9%88%D8%B9%D8%A7%D8%AA-%D8%A7%D9%84%D8%B7%D8%A7%D9%82%D8%A9"
+    },
+    {
       "published_at": "2026-10-29T13:47:44Z",
       "published_date_source": "jsonld:datePublished",
       "published_time_precision": "datetime",
@@ -4913,114 +5049,6 @@
       "candidate_event": false,
       "title": "Bamako: one dead and several injured in an accident on the Koulouba-Kati axis",
       "url": "https://malijet.com/les_faits_divers_au_mali/312546-bamako-un-mort-et-plusieurs-blesses-dans-un-accident-sur-l.html"
-    },
-    {
-      "published_at": "2026-10-28T09:58:39Z",
-      "published_date_source": "opengraph",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-28T15:16:29.548617Z",
-      "discovered_at": "2026-10-28T15:16:29.548617Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0090",
-      "source": "AllAfrica (Édition Française)",
-      "language": "fr",
-      "actor": null,
-      "country": "Niger",
-      "city": null,
-      "event_type": "air/drone strike",
-      "candidate_event": false,
-      "title": "Africa: Chad rejects Niger's accusations after drone strike",
-      "url": "https://fr.allafrica.com/stories/202610280257.html"
-    },
-    {
-      "published_at": "2026-10-28T09:30:22Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-29T05:59:02.026739Z",
-      "discovered_at": "2026-10-29T05:59:02.026739Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0039",
-      "source": "Afrik.com",
-      "language": "fr",
-      "actor": null,
-      "country": "Niger",
-      "city": "Niamey",
-      "event_type": "attack",
-      "candidate_event": false,
-      "title": "Drone in Niger: Algeria, the future aerial shield of Niamey?",
-      "url": "https://www.afrik.com/drone-au-niger-l-algerie-futur-bouclier-aerien-de-niamey"
-    },
-    {
-      "published_at": "2026-10-28T08:12:46Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-28T15:16:28.279108Z",
-      "discovered_at": "2026-10-28T15:16:28.279108Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0006",
-      "source": "Malijet",
-      "language": "fr",
-      "actor": "State",
-      "country": "Mali",
-      "city": null,
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Corner of the law: The criminal chain in Mali.",
-      "url": "https://malijet.com/lettres_ouvertes_mali/312541-coin-du-droit-la-chaine-penale-au-mali.html"
-    },
-    {
-      "published_at": "2026-10-28T03:50:46Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-28T05:52:59.615071Z",
-      "discovered_at": "2026-10-28T05:52:59.615071Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0001",
-      "source": "RFI Afrique",
-      "language": "fr",
-      "actor": null,
-      "country": "Niger",
-      "city": null,
-      "event_type": "air/drone strike",
-      "candidate_event": false,
-      "title": "Chad rejects Niger's accusations after drone strike",
-      "url": "https://www.rfi.fr/fr/afrique/20261028-le-tchad-rejette-les-accusations-du-niger-apr%C3%A8s-une-frappe-de-drone"
-    },
-    {
-      "published_at": "2026-10-28T03:38:04Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-28T05:52:58.763535Z",
-      "discovered_at": "2026-10-28T05:52:58.763535Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0001",
-      "source": "RFI Afrique",
-      "language": "fr",
-      "actor": null,
-      "country": "Mali",
-      "city": "Bamako",
-      "event_type": "kidnapping",
-      "candidate_event": false,
-      "title": "Mali: Four pro-democracy activists brought to justice after almost six months in detention",
-      "url": "https://www.rfi.fr/fr/afrique/20261028-mali-quatre-militants-pro-d%C3%A9mocratie-pr%C3%A9sent%C3%A9s-%C3%A0-la-justice-apr%C3%A8s-presque-six-mois-de-d%C3%A9tention"
-    },
-    {
-      "published_at": "2026-10-28T00:00:00Z",
-      "published_date_source": "visible-publication-label",
-      "published_time_precision": "date-only",
-      "collected_at": "2026-10-28T21:13:39.948841Z",
-      "discovered_at": "2026-10-28T21:13:39.948841Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0079",
-      "source": "L'Essor",
-      "language": "fr",
-      "actor": null,
-      "country": "Mali",
-      "city": null,
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Call for applications for the recruitment of Tafouk TV staff Wednesday, October 28, 2026 at 3:38 p.m. Read",
-      "url": "https://www.lessor.ml/pub-annonce/85"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
