@@ -1,5 +1,5 @@
 const SITE_UI_VERSION='4.3.1';
-const state={overview:null,reports:[],events:[],metrics:null,thirty:null,sources:[],runs:[],briefing:null,sultanaArchive:{briefings:[]},russianLogistics:null,actorFilter:'all',mapDays:7,langFilter:'all',countryFilter:'all',range:30,voices:[],speaking:false,readerRunning:false,readerPaused:false,readerIndex:0,readerCycle:0,readerRange:30,readerQueue:[],readerSession:0,timelineDate:null,savedReports:[],savedViewMode:'all'};
+const state={overview:null,reports:[],events:[],metrics:null,thirty:null,sources:[],runs:[],briefing:null,sultanaArchive:{briefings:[]},actorFilter:'all',mapDays:7,langFilter:'all',countryFilter:'all',range:30,voices:[],speaking:false,readerRunning:false,readerPaused:false,readerIndex:0,readerCycle:0,readerRange:30,readerQueue:[],readerSession:0,timelineDate:null,savedReports:[],savedViewMode:'all'};
 const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
 const esc=s=>String(s??'').replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
 const fmtTime=v=>{if(!v)return '—'; const d=new Date(v); return isNaN(d)?'—':d.toLocaleString()};
@@ -150,13 +150,12 @@ window.SAHEL_APP={state,esc,fmtTimestampUTC,reportKey,isReportSaved,reportSnapsh
 
 async function refresh(){
   try{
-    const [overview,reports,events,metrics,sources,runs,briefing,thirty,sultanaArchive,russianLogistics]=await Promise.all([
+    const [overview,reports,events,metrics,sources,runs,briefing,thirty,sultanaArchive]=await Promise.all([
       data('overview'),data('reports'),data('events'),data('metrics'),data('sources'),data('runs'),data('briefing'),
       data('thirty_day').catch(()=>null),
-      data('sultana_briefing_archive').catch(()=>({briefings:[]})),
-      data('russian_logistics').catch(()=>null)
+      data('sultana_briefing_archive').catch(()=>({briefings:[]}))
     ]);
-    Object.assign(state,{overview,reports,events,metrics,sources,runs,briefing,thirty,sultanaArchive,russianLogistics});
+    Object.assign(state,{overview,reports,events,metrics,sources,runs,briefing,thirty,sultanaArchive});
     renderOverview();renderThreat();renderMap();renderActors();renderFeeds();renderSavedReports();renderBriefing();renderThirty();updateReaderStatus();window.SAHEL_EVENT_DRAWER?.openHash?.();
     const active=$('.view.active')?.id;
     if(active==='view-quant')renderQuant();
@@ -415,8 +414,6 @@ function chartPointContext(series,date,value){
   }else if(series==='Candidate events'){
     events=(state.events||[]).filter(e=>String(e.event_date||'').slice(0,10)===day);
     reports=linkedReportsForEvents(events);
-  }else if(series==='Aggregated logistics observations'){
-    note='This logistics series is aggregate-only. No observation-level aircraft identifiers, routes, or source records are published.';
   }else{
     events=(state.events||[]).filter(e=>String(e.event_date||'').slice(0,10)===day&&String(e.actor||'')===String(series||''));
     reports=linkedReportsForEvents(events);
@@ -545,20 +542,6 @@ function chartDataTable(labels,seriesList){
   const body=Array.from({length:n},(_,i)=>'<tr><td>'+esc(labels[i]||'—')+'</td>'+seriesList.map(x=>'<td>'+esc((x.values||[])[i]??0)+'</td>').join('')+'</tr>').join('');
   return '<table class="numeric-data-table">'+head+'<tbody>'+body+'</tbody></table>';
 }
-function renderRussianLogistics(){
-  const r=state.russianLogistics||{};
-  setText('rlogStatus',r.configured?'ACTIVE AGGREGATE':'NOT CONFIGURED');
-  setText('rlog24',r.last_24h??0);
-  setText('rlog7',r.current_7d??0);
-  setText('rlog30',r.current_30d??0);
-  const ch=$('#rlogChange');
-  if(ch){if(r.change_7d_pct===null||r.change_7d_pct===undefined){ch.textContent=(r.current_7d??0)>0?'NEW':'—';ch.className='flat'}else{const n=Number(r.change_7d_pct)||0;ch.textContent=`${n>0?'+':''}${n.toFixed(1)}%`;ch.className=n>0?'up':n<0?'down':'flat';}}
-  const rows=Array.isArray(r.daily)?r.daily.slice(-30):[];
-  const labels=rows.map(x=>x.date),values=rows.map(x=>Number(x.count)||0);
-  const host=$('#rlogChart');
-  if(host){host.innerHTML=rows.length?lineSVG([{label:'Aggregated logistics observations',values,color:actorColor('Africa Corps/Wagner')}],{height:150,showAxes:true,labels,pointLabels:true})+'<div class="mini-chart-readout">'+esc(chartDateLabel(labels[0]))+' → '+esc(chartDateLabel(labels.at(-1)))+' • 30D total '+values.reduce((a,b)=>a+b,0)+'</div>':'<div class="runbox">No compliant flight-log observations have been ingested yet.</div>';bindChartPoints(host);}
-  setText('rlogNote',(r.method_note||'Flight-log observations are a logistics proxy, not a confirmed troop count.')+' '+(r.public_redaction||''));
-}
 function renderActors(){
   const m=state.metrics;if(!m)return;
   const ids={'JNIM':['jnim7','jnimChange','jnimSpark'],'IS Sahel':['is7','isChange','isSpark'],'State':['state7','stateChange','stateSpark'],'Africa Corps/Wagner':['africa7','africaChange','africaSpark']};
@@ -572,7 +555,6 @@ function renderActors(){
       '<div class="mini-chart-readout">'+esc(chartDateLabel(labels[0]))+' → '+esc(chartDateLabel(labels.at(-1)))+' • latest '+latest+' • 30D total '+total+' • max/day '+max+'</div>';
     bindChartPoints($('#'+sparkId));
   });
-  renderRussianLogistics();
 }
 function renderQuant(){
   const m=state.metrics;if(!m)return;

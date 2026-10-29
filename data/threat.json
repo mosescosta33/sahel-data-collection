@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T21:15:26.106663Z",
+  "generated_at": "2026-10-29T03:09:09.445598Z",
   "model_version": "0.1-experimental",
   "label": "Experimental Conflict Threat Level",
   "regional": {
@@ -14,17 +14,17 @@
       "confidence": "HIGH",
       "assessment_status": "ASSESSED",
       "events_7d": 14,
-      "events_30d": 93,
-      "baseline_7d_equivalent": 24.0,
-      "tempo_ratio": 0.6,
+      "events_30d": 96,
+      "baseline_7d_equivalent": 25.0,
+      "tempo_ratio": 0.58,
       "drivers": [
         "14 fused candidate event(s) in 7 days",
         "3 JNIM/IS Sahel-linked event(s)",
         "13 significant/major event(s)",
         "3 civilian-threat indicator(s)",
-        "activity across 14 named locations"
+        "activity across 13 named locations"
       ],
-      "independent_domains_7d": 11
+      "independent_domains_7d": 13
     },
     "Burkina Faso": {
       "score": 0,
@@ -42,23 +42,23 @@
       "independent_domains_7d": 0
     },
     "Niger": {
-      "score": 82,
+      "score": 72,
       "level": "HIGH",
       "trend": "DETERIORATING",
       "confidence": "HIGH",
       "assessment_status": "ASSESSED",
-      "events_7d": 15,
+      "events_7d": 11,
       "events_30d": 19,
-      "baseline_7d_equivalent": 1.2,
-      "tempo_ratio": 7.22,
+      "baseline_7d_equivalent": 2.4,
+      "tempo_ratio": 3.49,
       "drivers": [
-        "15 fused candidate event(s) in 7 days",
-        "2 JNIM/IS Sahel-linked event(s)",
-        "15 significant/major event(s)",
+        "11 fused candidate event(s) in 7 days",
+        "11 significant/major event(s)",
         "1 civilian-threat indicator(s)",
-        "activity across 2 named locations"
+        "activity across 2 named locations",
+        "7-day tempo above recent country baseline"
       ],
-      "independent_domains_7d": 15
+      "independent_domains_7d": 14
     }
   },
   "method_note": "Experimental research indicator derived from fused candidate events, recent country-relative tempo, significance, militant activity, civilian-threat signals, geographic spread and corroboration. It is not a travel advisory, verified incident count, or forecast. Collection gaps reduce confidence rather than automatically reducing threat."

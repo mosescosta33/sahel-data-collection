@@ -91,7 +91,7 @@ html[data-theme] .report-top{flex-wrap:wrap;gap:8px}
 html[data-theme] .original{border-top:1px solid var(--edge);padding-top:12px;margin-top:14px}
 html[data-theme] .timeline-row{padding:16px;border-bottom:1px solid var(--edge)}
 html[data-theme] .timeline-row p{color:var(--ink)!important;line-height:1.6}
-html[data-theme] :is(.threat-country,.threat-regional,.integrity-card,.quality-card,.civilian-case,.civilian-metrics>div,.russian-logistics-panel){background:var(--surface-soft)!important;border-color:var(--edge)!important;border-radius:10px;padding:20px}
+html[data-theme] :is(.threat-country,.threat-regional,.integrity-card,.quality-card,.civilian-case,.civilian-metrics>div){background:var(--surface-soft)!important;border-color:var(--edge)!important;border-radius:10px;padding:20px}
 html[data-theme] :is(.ql-shell,.ql-shell p,.ql-field,.ql-check,.ql-hint){font-size:14px;line-height:1.65}
 html[data-theme] .ql-heading{margin-bottom:28px}.ql-heading h2{font-size:34px}
 html[data-theme] :is(.ql-setup,.ql-content,.ql-card){background:var(--surface);border:1px solid var(--edge);border-radius:14px;padding:24px}
