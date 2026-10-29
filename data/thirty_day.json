@@ -1,28 +1,28 @@
 {
-  "generated_at": "2026-10-29T03:09:09.226367Z",
+  "generated_at": "2026-10-29T06:00:36.055974Z",
   "window_days": 30,
   "cutoff": "2026-09-29",
-  "reports": 753,
-  "incident_reports": 199,
-  "candidate_events": 119,
-  "corroborated_events": 38,
-  "mapped_events": 96,
-  "mapped_locations": 187,
-  "distinct_sources": 87,
+  "reports": 754,
+  "incident_reports": 200,
+  "candidate_events": 118,
+  "corroborated_events": 39,
+  "mapped_events": 95,
+  "mapped_locations": 184,
+  "distinct_sources": 86,
   "by_actor": {
-    "State": 67,
+    "State": 66,
     "Other": 22,
     "JNIM": 15,
     "Africa Corps/Wagner": 10,
     "IS Sahel": 5
   },
   "by_country": {
-    "Mali": 98,
+    "Mali": 97,
     "Niger": 19,
     "Burkina Faso": 2
   },
   "by_event_type": {
-    "security operation": 48,
+    "security operation": 47,
     "clash": 15,
     "attack": 14,
     "offensive/campaign": 14,
@@ -33,13 +33,13 @@
     "ambush": 1
   },
   "by_language": {
-    "fr": 579,
-    "en": 132,
+    "fr": 583,
+    "en": 129,
     "ar": 42
   },
   "by_confidence": {
     "low": 55,
-    "moderate": 50,
+    "moderate": 49,
     "moderate-high": 12,
     "high": 2
   },
@@ -127,10 +127,6 @@
       "count": 13
     },
     {
-      "location": "Ségou",
-      "count": 13
-    },
-    {
       "location": "Anéfis",
       "count": 12
     },
@@ -139,12 +135,16 @@
       "count": 12
     },
     {
+      "location": "Ségou",
+      "count": 12
+    },
+    {
       "location": "Gao",
       "count": 11
     },
     {
       "location": "Timbuktu",
-      "count": 10
+      "count": 9
     },
     {
       "location": "Tessalit",
@@ -263,12 +263,12 @@
     },
     {
       "date": "2026-10-21",
-      "reports": 43,
+      "reports": 44,
       "events": 2
     },
     {
       "date": "2026-10-22",
-      "reports": 43,
+      "reports": 44,
       "events": 7
     },
     {
@@ -289,21 +289,21 @@
     {
       "date": "2026-10-26",
       "reports": 56,
-      "events": 5
+      "events": 6
     },
     {
       "date": "2026-10-27",
       "reports": 50,
-      "events": 8
+      "events": 6
     },
     {
       "date": "2026-10-28",
-      "reports": 26,
+      "reports": 28,
       "events": 0
     },
     {
       "date": "2026-10-29",
-      "reports": 2,
+      "reports": 3,
       "events": 0
     }
   ],
@@ -464,126 +464,6 @@
       ]
     },
     {
-      "id": "554ec4397450dcebafb913a77afc71b76b2ac687",
-      "event_date": "2026-10-27",
-      "event_date_confidence": "explicit-text",
-      "event_date_source": "explicit-calendar-date",
-      "published_at": "2026-10-28T18:20:19Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-28T21:13:32.084826Z",
-      "actor": "State",
-      "perpetrator": "State",
-      "target": null,
-      "claimant": null,
-      "supporting_force": null,
-      "mentioned_actors": [
-        "State"
-      ],
-      "parent_report_id": null,
-      "event_type": "security operation",
-      "country": "Mali",
-      "city": "Timbuktu",
-      "lat": 16.7666,
-      "lng": -3.0026,
-      "locations": [
-        {
-          "name": "Timbuktu",
-          "country": "Mali",
-          "lat": 16.7666,
-          "lng": -3.0026,
-          "confidence": "explicit-place"
-        },
-        {
-          "name": "Ségou",
-          "country": "Mali",
-          "lat": 13.4317,
-          "lng": -6.2157,
-          "confidence": "explicit-place"
-        },
-        {
-          "name": "Bamako",
-          "country": "Mali",
-          "lat": 12.6392,
-          "lng": -8.0029,
-          "confidence": "explicit-place"
-        },
-        {
-          "name": "Léré",
-          "country": "Mali",
-          "lat": 15.7167,
-          "lng": -4.8333,
-          "confidence": "explicit-place"
-        }
-      ],
-      "title": "Operation Dougoukoloko: two terrorist positions neutralized in the Timbuktu and Segou regions",
-      "summary": "Bamako, October 28 (AMAP) The Malian Armed Forces (FAMa), supported by their partners, neutralized two positions of regroupment of terrorist elements on October 26 and 27, 2026, as part of Operation Dougoukoloko, announced Wednesday the General Staff of the Armed Forces According to the statement, the surveillance and reconnaissance operations carried out on October 26 made it possible to locate, about 75 kilometers northwest of Léré, in the Timbuktu region, about fifteen terrorist elements grouped under a shelter.",
-      "sources": [
-        "AMAP (Agence Malienne de Presse et de Publicité)"
-      ],
-      "languages": [
-        "fr"
-      ],
-      "source_count": 1,
-      "report_urls": [
-        "https://amap.ml/2026/10/28/operation-dougoukoloko-deux-positions-terroristes-neutralisees-dans-les-regions-de-tombouctou-et-de-segou/"
-      ],
-      "report_summaries": [
-        {
-          "url": "https://amap.ml/2026/10/28/operation-dougoukoloko-deux-positions-terroristes-neutralisees-dans-les-regions-de-tombouctou-et-de-segou/",
-          "source": "AMAP (Agence Malienne de Presse et de Publicité)",
-          "title": "Operation Dougoukoloko: two terrorist positions neutralized in the Timbuktu and Segou regions",
-          "summary": "Bamako, October 28 (AMAP) The Malian Armed Forces (FAMa), supported by their partners, neutralized two positions of regroupment of terrorist elements on October 26 and 27, 2026, as part of Operation Dougoukoloko, announced Wednesday the General Staff of the Armed Forces According to the statement, the surveillance and reconnaissance operations carried out on October 26 made it possible to locate, about 75 kilometers northwest of Léré, in the Timbuktu region, about fifteen terrorist elements grouped under a shelter.",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "armed_group"
-          ],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        }
-      ],
-      "created_at": "2026-10-28T21:13:32.084826Z",
-      "updated_at": "2026-10-28T21:13:32.084826Z",
-      "extraction_confidence": "moderate",
-      "victim_categories": [
-        "armed_group"
-      ],
-      "civilian_targeting_flag": false,
-      "casualty_claims": [],
-      "fatalities_min": null,
-      "fatalities_max": null,
-      "fatalities_best": null,
-      "injured_min": null,
-      "injured_max": null,
-      "abducted_min": null,
-      "abducted_max": null,
-      "casualty_disputed": false,
-      "revision_history": [
-        {
-          "at": "2026-10-28T21:13:32.084826Z",
-          "type": "event_created",
-          "source": "AMAP (Agence Malienne de Presse et de Publicité)"
-        }
-      ],
-      "corroboration": "single-source",
-      "confidence": "moderate",
-      "independent_source_domains": [
-        "amap.ml"
-      ],
-      "independent_source_count": 1,
-      "significance": "MAJOR",
-      "significance_reasons": [
-        "strategic/severe event pattern",
-        "multi-location activity"
-      ]
-    },
-    {
       "id": "c35a586d3264c2a7f572b9c64d3bfa9994fa238c",
       "event_date": "2026-10-27",
       "event_date_confidence": "explicit-text",
@@ -680,171 +560,6 @@
       "significance": "MAJOR",
       "significance_reasons": [
         "strategic/severe event pattern",
-        "multi-location activity"
-      ]
-    },
-    {
-      "id": "24b499923a1683aad401c88bf1d84acb62097366",
-      "event_date": "2026-10-27",
-      "event_date_confidence": "explicit-text",
-      "event_date_source": "explicit-date-no-year",
-      "published_at": "2026-10-28T10:35:00Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-29T03:06:52.193326Z",
-      "actor": "State",
-      "perpetrator": "State",
-      "target": null,
-      "claimant": null,
-      "supporting_force": null,
-      "mentioned_actors": [
-        "State"
-      ],
-      "parent_report_id": null,
-      "event_type": "security operation",
-      "country": "Mali",
-      "city": "Timbuktu",
-      "lat": 16.7666,
-      "lng": -3.0026,
-      "locations": [
-        {
-          "name": "Timbuktu",
-          "country": "Mali",
-          "lat": 16.7666,
-          "lng": -3.0026,
-          "confidence": "explicit-place"
-        },
-        {
-          "name": "Ségou",
-          "country": "Mali",
-          "lat": 13.4317,
-          "lng": -6.2157,
-          "confidence": "explicit-place"
-        },
-        {
-          "name": "Léré",
-          "country": "Mali",
-          "lat": 15.7167,
-          "lng": -4.8333,
-          "confidence": "explicit-place"
-        }
-      ],
-      "title": "Mali : les FAMa frappent deux positions terroristes",
-      "summary": "The Malian Armed Forces (FAMa) announced that they had struck a suspected terrorist group on October 26, about 75 kilometers northwest of Léré, in the Timbuktu region. In addition, a second strike was carried out the next day in the Ségou region. The Malian Armed Forces (FAMa) continue their operations against armed groups in the north and centre of the country Indeed, according to a statement from the General Staff of the Armed Forces, two strikes were carried out on 26 and 27 October 2026 as part of Operation Dougoukoloko, with the support of military partners.",
-      "sources": [
-        "APAnews (FR)",
-        "Malijet",
-        "La Nouvelle Tribune (Bénin)"
-      ],
-      "languages": [
-        "fr"
-      ],
-      "source_count": 3,
-      "report_urls": [
-        "https://fr.apanews.net/society/mali-les-fama-frappent-deux-positions-terroristes/",
-        "https://malijet.com/actualte_dans_les_regions_du_mali/312549-operation-dougoukoloko-les-fama-frappent-deux-positions-ter.html",
-        "https://lanouvelletribune.info/2026/10/mali-les-fama-frappent-un-regroupement-presume-terroriste-pres-de-tombouctou/"
-      ],
-      "report_summaries": [
-        {
-          "url": "https://fr.apanews.net/society/mali-les-fama-frappent-deux-positions-terroristes/",
-          "source": "APAnews (FR)",
-          "title": "Mali : les FAMa frappent deux positions terroristes",
-          "summary": "Les Forces armées maliennes (FAMa), appuyées par leurs partenaires, ont mené avec succès deux frappes contre des regroupements présumés terroristes dans les régions de Tombouctou et de Ségou, les 26 et 27 octobre, dans le cadre de l’opération Dougoukoloko, selon un communiqué de l’état-major général des Armées. D’après la même source, la première opération a été conduite le 26 octobre, à environ 75 kilomètres au nord-ouest de Léré, dans la région de Tombouctou.",
-          "summary_basis": "source-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "armed_group"
-          ],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        },
-        {
-          "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312549-operation-dougoukoloko-les-fama-frappent-deux-positions-ter.html",
-          "source": "Malijet",
-          "title": "Operation Dougoukoloko: the FAMa strike two terrorist positions in Léré and Diabaly",
-          "summary": "According to the General Staff of the Armed Forces, Operation Dougoukoloko allowed the FAMa and their allies to target terrorist positions in two strikes on 26 and 27 October 2026. On October 26, about fifteen armed individuals grouped under a shelter were spotted about 75 kilometers northwest of Léré, in the Timbuktu region . After confirming the target, the position was hit.",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "armed_group"
-          ],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        },
-        {
-          "url": "https://lanouvelletribune.info/2026/10/mali-les-fama-frappent-un-regroupement-presume-terroriste-pres-de-tombouctou/",
-          "source": "La Nouvelle Tribune (Bénin)",
-          "title": "Mali: FAMa strikes an alleged terrorist group near Timbuktu",
-          "summary": "The Malian Armed Forces (FAMa) announced that they had struck a suspected terrorist group on October 26, about 75 kilometers northwest of Léré, in the Timbuktu region. In addition, a second strike was carried out the next day in the Ségou region. The Malian Armed Forces (FAMa) continue their operations against armed groups in the north and centre of the country Indeed, according to a statement from the General Staff of the Armed Forces, two strikes were carried out on 26 and 27 October 2026 as part of Operation Dougoukoloko, with the support of military partners.",
-          "summary_basis": "translated-excerpt",
-          "fatalities_min": null,
-          "fatalities_max": null,
-          "injured_min": null,
-          "injured_max": null,
-          "abducted_min": null,
-          "abducted_max": null,
-          "victim_categories": [
-            "armed_group"
-          ],
-          "civilian_targeting_flag": false,
-          "casualty_claims": []
-        }
-      ],
-      "created_at": "2026-10-29T03:06:52.193326Z",
-      "updated_at": "2026-10-28T15:16:25.151661Z",
-      "extraction_confidence": "moderate",
-      "victim_categories": [
-        "armed_group"
-      ],
-      "civilian_targeting_flag": false,
-      "casualty_claims": [],
-      "fatalities_min": null,
-      "fatalities_max": null,
-      "fatalities_best": null,
-      "injured_min": null,
-      "injured_max": null,
-      "abducted_min": null,
-      "abducted_max": null,
-      "casualty_disputed": false,
-      "revision_history": [
-        {
-          "at": "2026-10-29T03:06:52.193326Z",
-          "type": "event_created",
-          "source": "APAnews (FR)"
-        },
-        {
-          "at": "2026-10-28T15:16:24.894543Z",
-          "type": "corroboration_or_geography_update",
-          "source": "Malijet"
-        },
-        {
-          "at": "2026-10-28T15:16:25.151661Z",
-          "type": "corroboration_or_geography_update",
-          "source": "La Nouvelle Tribune (Bénin)"
-        }
-      ],
-      "corroboration": "multi-source",
-      "confidence": "moderate-high",
-      "independent_source_domains": [
-        "fr.apanews.net",
-        "malijet.com",
-        "lanouvelletribune.info"
-      ],
-      "independent_source_count": 3,
-      "significance": "MAJOR",
-      "significance_reasons": [
-        "multi-source corroboration",
         "multi-location activity"
       ]
     },
@@ -1340,6 +1055,178 @@
       ]
     },
     {
+      "id": "fc73d186a51ce77b3a0cde565fa123e8205faca0",
+      "event_date": "2026-10-26",
+      "event_date_confidence": "explicit-text",
+      "event_date_source": "explicit-date-no-year",
+      "published_at": "2026-10-28T10:35:00Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-29T03:06:52.193326Z",
+      "actor": "State",
+      "perpetrator": "State",
+      "target": null,
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [
+        "State"
+      ],
+      "parent_report_id": null,
+      "event_type": "security operation",
+      "country": "Mali",
+      "city": "Timbuktu",
+      "lat": 16.7666,
+      "lng": -3.0026,
+      "locations": [
+        {
+          "name": "Timbuktu",
+          "country": "Mali",
+          "lat": 16.7666,
+          "lng": -3.0026,
+          "confidence": "explicit-place"
+        },
+        {
+          "name": "Ségou",
+          "country": "Mali",
+          "lat": 13.4317,
+          "lng": -6.2157,
+          "confidence": "explicit-place"
+        },
+        {
+          "name": "Léré",
+          "country": "Mali",
+          "lat": 15.7167,
+          "lng": -4.8333,
+          "confidence": "explicit-place"
+        },
+        {
+          "name": "Bamako",
+          "country": "Mali",
+          "lat": 12.6392,
+          "lng": -8.0029,
+          "confidence": "explicit-place"
+        }
+      ],
+      "title": "Mali: FAMa strike two terrorist positions",
+      "summary": "The Malian Armed Forces (FAMa) announced that they had struck a suspected terrorist group on October 26, about 75 kilometers northwest of Léré, in the Timbuktu region. In addition, a second strike was carried out the next day in the Ségou region. The Malian Armed Forces (FAMa) continue their operations against armed groups in the north and centre of the country Indeed, according to a statement from the General Staff of the Armed Forces, two strikes were carried out on 26 and 27 October 2026 as part of Operation Dougoukoloko, with the support of military partners.",
+      "sources": [
+        "APAnews (FR)",
+        "La Nouvelle Tribune (Bénin)",
+        "AMAP (Agence Malienne de Presse et de Publicité)"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "source_count": 3,
+      "report_urls": [
+        "https://fr.apanews.net/society/mali-les-fama-frappent-deux-positions-terroristes/",
+        "https://lanouvelletribune.info/2026/10/mali-les-fama-frappent-un-regroupement-presume-terroriste-pres-de-tombouctou/",
+        "https://amap.ml/2026/10/28/operation-dougoukoloko-deux-positions-terroristes-neutralisees-dans-les-regions-de-tombouctou-et-de-segou/"
+      ],
+      "report_summaries": [
+        {
+          "url": "https://fr.apanews.net/society/mali-les-fama-frappent-deux-positions-terroristes/",
+          "source": "APAnews (FR)",
+          "title": "Mali: FAMa strike two terrorist positions",
+          "summary": "The Malian Armed Forces (FAMa), supported by their partners, successfully carried out two strikes against suspected terrorist groups in the Timbuktu and Segou regions on 26 and 27 October, as part of Operation Dougoukoloko, according to a statement from the General Staff of the Armed Forces According to the same source, the first operation was conducted on October 26, about 75 kilometers northwest of Léré, in the Timbuktu region.",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "armed_group"
+          ],
+          "civilian_targeting_flag": false,
+          "casualty_claims": []
+        },
+        {
+          "url": "https://lanouvelletribune.info/2026/10/mali-les-fama-frappent-un-regroupement-presume-terroriste-pres-de-tombouctou/",
+          "source": "La Nouvelle Tribune (Bénin)",
+          "title": "Mali: FAMa strikes an alleged terrorist group near Timbuktu",
+          "summary": "The Malian Armed Forces (FAMa) announced that they had struck a suspected terrorist group on October 26, about 75 kilometers northwest of Léré, in the Timbuktu region. In addition, a second strike was carried out the next day in the Ségou region. The Malian Armed Forces (FAMa) continue their operations against armed groups in the north and centre of the country Indeed, according to a statement from the General Staff of the Armed Forces, two strikes were carried out on 26 and 27 October 2026 as part of Operation Dougoukoloko, with the support of military partners.",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "armed_group"
+          ],
+          "civilian_targeting_flag": false,
+          "casualty_claims": []
+        },
+        {
+          "url": "https://amap.ml/2026/10/28/operation-dougoukoloko-deux-positions-terroristes-neutralisees-dans-les-regions-de-tombouctou-et-de-segou/",
+          "source": "AMAP (Agence Malienne de Presse et de Publicité)",
+          "title": "Operation Dougoukoloko: two terrorist positions neutralized in the Timbuktu and Segou regions",
+          "summary": "Bamako, October 28 (AMAP) The Malian Armed Forces (FAMa), supported by their partners, neutralized two positions of regroupment of terrorist elements on October 26 and 27, 2026, as part of Operation Dougoukoloko, announced Wednesday the General Staff of the Armed Forces According to the statement, the surveillance and reconnaissance operations carried out on October 26 made it possible to locate, about 75 kilometers northwest of Léré, in the Timbuktu region, about fifteen terrorist elements grouped under a shelter.",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "armed_group"
+          ],
+          "civilian_targeting_flag": false,
+          "casualty_claims": []
+        }
+      ],
+      "created_at": "2026-10-29T03:06:52.193326Z",
+      "updated_at": "2026-10-28T21:13:32.084826Z",
+      "extraction_confidence": "moderate",
+      "victim_categories": [
+        "armed_group"
+      ],
+      "civilian_targeting_flag": false,
+      "casualty_claims": [],
+      "fatalities_min": null,
+      "fatalities_max": null,
+      "fatalities_best": null,
+      "injured_min": null,
+      "injured_max": null,
+      "abducted_min": null,
+      "abducted_max": null,
+      "casualty_disputed": false,
+      "revision_history": [
+        {
+          "at": "2026-10-29T03:06:52.193326Z",
+          "type": "event_created",
+          "source": "APAnews (FR)"
+        },
+        {
+          "at": "2026-10-28T15:16:25.151661Z",
+          "type": "corroboration_or_geography_update",
+          "source": "La Nouvelle Tribune (Bénin)"
+        },
+        {
+          "at": "2026-10-28T21:13:32.084826Z",
+          "type": "corroboration_or_geography_update",
+          "source": "AMAP (Agence Malienne de Presse et de Publicité)"
+        }
+      ],
+      "corroboration": "multi-source",
+      "confidence": "moderate-high",
+      "independent_source_domains": [
+        "fr.apanews.net",
+        "lanouvelletribune.info",
+        "amap.ml"
+      ],
+      "independent_source_count": 3,
+      "significance": "MAJOR",
+      "significance_reasons": [
+        "multi-source corroboration",
+        "multi-location activity"
+      ]
+    },
+    {
       "id": "5d01f0128ec747bd8371f7e6b5a6b99717219170",
       "event_date": "2026-10-26",
       "event_date_confidence": "explicit-text",
@@ -1388,14 +1275,16 @@
       "title": "Léré and Diabaly: the FAMa strike...",
       "summary": "Léré and Diabaly: the FAMa strike about fifteen terrorists under a shelter and a regroupment point In a press release dated 28 October 2026, the General Staff of the Armed Forces announced two strikes carried out on 26 and 27 October in the regions of Timbuktu and Segou, as part of Operation Dougoukoloko. Operations to secure the territory continue The General Staff of the Armed Forces informed the opinion that the Malian Armed Forces, supported by their partners, carried out two new strikes as part of Operation Dougoukoloko.",
       "sources": [
-        "Maliweb"
+        "Maliweb",
+        "Malijet"
       ],
       "languages": [
         "fr"
       ],
-      "source_count": 1,
+      "source_count": 2,
       "report_urls": [
-        "https://www.maliweb.net/insecurite/lere-et-diabaly-les-fama-frappent-une-quinzaine-de-terroristes-sous-3121010.html"
+        "https://www.maliweb.net/insecurite/lere-et-diabaly-les-fama-frappent-une-quinzaine-de-terroristes-sous-3121010.html",
+        "https://malijet.com/actualte_dans_les_regions_du_mali/312549-operation-dougoukoloko-les-fama-frappent-deux-positions-ter.html"
       ],
       "report_summaries": [
         {
@@ -1415,10 +1304,28 @@
           ],
           "civilian_targeting_flag": false,
           "casualty_claims": []
+        },
+        {
+          "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312549-operation-dougoukoloko-les-fama-frappent-deux-positions-ter.html",
+          "source": "Malijet",
+          "title": "Operation Dougoukoloko: the FAMa strike two terrorist positions in Léré and Diabaly",
+          "summary": "According to the General Staff of the Armed Forces, Operation Dougoukoloko allowed the FAMa and their allies to target terrorist positions in two strikes on 26 and 27 October 2026. On October 26, about fifteen armed individuals grouped under a shelter were spotted about 75 kilometers northwest of Léré, in the Timbuktu region . After confirming the target, the position was hit.",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [
+            "armed_group"
+          ],
+          "civilian_targeting_flag": false,
+          "casualty_claims": []
         }
       ],
       "created_at": "2026-10-29T03:06:50.857774Z",
-      "updated_at": "2026-10-29T03:06:50.857774Z",
+      "updated_at": "2026-10-28T15:16:24.894543Z",
       "extraction_confidence": "moderate",
       "victim_categories": [
         "armed_group"
@@ -1438,14 +1345,20 @@
           "at": "2026-10-29T03:06:50.857774Z",
           "type": "event_created",
           "source": "Maliweb"
+        },
+        {
+          "at": "2026-10-28T15:16:24.894543Z",
+          "type": "corroboration_or_geography_update",
+          "source": "Malijet"
         }
       ],
-      "corroboration": "single-source",
+      "corroboration": "limited corroboration",
       "confidence": "moderate",
       "independent_source_domains": [
-        "maliweb.net"
+        "maliweb.net",
+        "malijet.com"
       ],
-      "independent_source_count": 1,
+      "independent_source_count": 2,
       "significance": "MAJOR",
       "significance_reasons": [
         "multi-location activity"
@@ -4276,9 +4189,126 @@
       "significance_reasons": [
         "operational security event"
       ]
+    },
+    {
+      "id": "20ab2628f39ea4048cd411b7eb5c482964420fd3",
+      "event_date": "2026-10-22",
+      "event_date_confidence": "explicit-text",
+      "event_date_source": "explicit-calendar-date",
+      "published_at": "2026-10-22T10:12:42Z",
+      "published_date_source": "itemprop",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-22T13:54:59.967732Z",
+      "actor": "IS Sahel",
+      "perpetrator": null,
+      "target": null,
+      "claimant": null,
+      "supporting_force": null,
+      "mentioned_actors": [],
+      "parent_report_id": null,
+      "event_type": "kidnapping",
+      "country": "Niger",
+      "city": "Agadez",
+      "lat": 16.9733,
+      "lng": 7.9911,
+      "locations": [
+        {
+          "name": "Agadez",
+          "country": "Niger",
+          "lat": 16.9733,
+          "lng": 7.9911,
+          "confidence": "explicit-place"
+        },
+        {
+          "name": "Niamey",
+          "country": "Niger",
+          "lat": 13.5116,
+          "lng": 2.1254,
+          "confidence": "explicit-place"
+        }
+      ],
+      "title": "Niger: the two European hostages kidnapped by EIGS in Agadez now free after several months of captivity",
+      "summary": "Announced as free for a few days, it was on Wednesday 21 October that the two (02) European hostages, Eva Gretzmacher and Claudia Abbt, kidnapped in 2025 in Agadez by the EIGs, reappeared after several months of captivity. They were handed over to the authorities in Benghazi, Libya, before their scheduled return to the country this Thursday, October 22, 2026 .",
+      "sources": [
+        "ActuNiger"
+      ],
+      "languages": [
+        "fr"
+      ],
+      "source_count": 1,
+      "report_urls": [
+        "https://www.actuniger.com/societe/22484-niger-les-deux-otages-europeennes-enlevees-par-leigs-a-agadez-desormais-libres-apres-plusieurs-mois-de-captivite"
+      ],
+      "report_summaries": [
+        {
+          "url": "https://www.actuniger.com/societe/22484-niger-les-deux-otages-europeennes-enlevees-par-leigs-a-agadez-desormais-libres-apres-plusieurs-mois-de-captivite",
+          "source": "ActuNiger",
+          "title": "Niger: the two European hostages kidnapped by EIGS in Agadez now free after several months of captivity",
+          "summary": "Announced as free for a few days, it was on Wednesday 21 October that the two (02) European hostages, Eva Gretzmacher and Claudia Abbt, kidnapped in 2025 in Agadez by the EIGs, reappeared after several months of captivity. They were handed over to the authorities in Benghazi, Libya, before their scheduled return to the country this Thursday, October 22, 2026 .",
+          "summary_basis": "translated-excerpt",
+          "fatalities_min": null,
+          "fatalities_max": null,
+          "injured_min": null,
+          "injured_max": null,
+          "abducted_min": null,
+          "abducted_max": null,
+          "victim_categories": [],
+          "civilian_targeting_flag": false,
+          "casualty_claims": []
+        }
+      ],
+      "created_at": "2026-10-22T13:54:59.967732Z",
+      "updated_at": "2026-10-22T13:54:59.967732Z",
+      "extraction_confidence": "low",
+      "victim_categories": [],
+      "civilian_targeting_flag": false,
+      "casualty_claims": [],
+      "fatalities_min": null,
+      "fatalities_max": null,
+      "fatalities_best": null,
+      "injured_min": null,
+      "injured_max": null,
+      "abducted_min": null,
+      "abducted_max": null,
+      "casualty_disputed": false,
+      "revision_history": [
+        {
+          "at": "2026-10-22T13:54:59.967732Z",
+          "type": "event_created",
+          "source": "ActuNiger"
+        }
+      ],
+      "corroboration": "single-source",
+      "confidence": "low",
+      "independent_source_domains": [
+        "actuniger.com"
+      ],
+      "independent_source_count": 1,
+      "significance": "MAJOR",
+      "significance_reasons": [
+        "multi-location activity"
+      ]
     }
   ],
   "latest_reports": [
+    {
+      "published_at": "2026-10-29T03:24:19Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-29T05:58:59.744809Z",
+      "discovered_at": "2026-10-29T05:58:59.744809Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0001",
+      "source": "RFI Afrique",
+      "language": "fr",
+      "actor": "JNIM",
+      "country": "Mali",
+      "city": "Djenné",
+      "event_type": "territorial seizure/blockade",
+      "candidate_event": false,
+      "title": "Mali: Dozo hunters and jihadists clash for a village near Djenné",
+      "url": "https://www.rfi.fr/fr/afrique/20261029-mali-chasseurs-dozos-et-jihadistes-s-affrontent-pour-un-village-pr%C3%A8s-de-djenn%C3%A9"
+    },
     {
       "published_at": "2026-10-29T00:43:32Z",
       "published_date_source": "feed",
@@ -4368,6 +4398,24 @@
       "candidate_event": false,
       "title": "Bamako: three murder cases solved by the police",
       "url": "https://amap.ml/2026/10/28/bamako-trois-affaires-de-meurtres-elucidees-par-la-police/"
+    },
+    {
+      "published_at": "2026-10-28T19:30:21Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-29T05:59:01.982801Z",
+      "discovered_at": "2026-10-29T05:59:01.982801Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0039",
+      "source": "Afrik.com",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": null,
+      "event_type": "security operation",
+      "candidate_event": true,
+      "title": "Mali: Turkish drones and Russian command, the responsibilities behind the deadly strikes",
+      "url": "https://www.afrik.com/mali-drones-turcs-et-commandement-russe-les-responsabilites-derriere-les-frappes-meurtrieres"
     },
     {
       "published_at": "2026-10-28T19:22:24Z",
@@ -4672,7 +4720,7 @@
       "city": "Timbuktu",
       "event_type": "security operation",
       "candidate_event": true,
-      "title": "Mali : les FAMa frappent deux positions terroristes",
+      "title": "Mali: FAMa strike two terrorist positions",
       "url": "https://fr.apanews.net/society/mali-les-fama-frappent-deux-positions-terroristes/"
     },
     {
@@ -4710,6 +4758,24 @@
       "candidate_event": false,
       "title": "Africa: Chad rejects Niger's accusations after drone strike",
       "url": "https://fr.allafrica.com/stories/202610280257.html"
+    },
+    {
+      "published_at": "2026-10-28T09:30:22Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-29T05:59:02.026739Z",
+      "discovered_at": "2026-10-29T05:59:02.026739Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0039",
+      "source": "Afrik.com",
+      "language": "fr",
+      "actor": null,
+      "country": "Niger",
+      "city": "Niamey",
+      "event_type": "attack",
+      "candidate_event": false,
+      "title": "Drone in Niger: Algeria, the future aerial shield of Niamey?",
+      "url": "https://www.afrik.com/drone-au-niger-l-algerie-futur-bouclier-aerien-de-niamey"
     },
     {
       "published_at": "2026-10-28T08:12:46Z",
@@ -4944,60 +5010,6 @@
       "candidate_event": true,
       "title": "Image Africa Niger: Chad denies any involvement in \"drone strikes\" on its soil with the \"support\" of France",
       "url": "https://information.tv5monde.com/afrique/niger-le-tchad-dement-toute-implication-dans-frappe-de-drone-sur-son-sol-avec-lappui-de-la-france-2843353"
-    },
-    {
-      "published_at": "2026-10-27T18:16:03Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-27T20:49:50.932345Z",
-      "discovered_at": "2026-10-27T20:49:50.932345Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0085",
-      "source": "Seneweb",
-      "language": "fr",
-      "actor": null,
-      "country": "Mali",
-      "city": "Bamako",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Mali: A convoy of 1107 tankers filled with fuel arrives in Bamako",
-      "url": "https://www.seneweb.com/fr/news/Afrique/mali-un-convoi-de-1107-camions-citernes-remplis-de-carburant-debarque-a-bamako_n_999001921.html"
-    },
-    {
-      "published_at": "2026-10-27T18:00:40.185000Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-27T20:49:50.755132Z",
-      "discovered_at": "2026-10-27T20:49:50.755132Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0035",
-      "source": "DW Afrique (FR)",
-      "language": "fr",
-      "actor": null,
-      "country": "Niger",
-      "city": "Niamey",
-      "event_type": "air/drone strike",
-      "candidate_event": false,
-      "title": "Why relations are deteriorating between Niger and Chad",
-      "url": "https://www.dw.com/fr/niger-tchad-pourquoi-leurs-relations-se-d%C3%A9t%C3%A9riorent/a-79781272"
-    },
-    {
-      "published_at": "2026-10-27T17:30:14Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-27T20:49:59.126006Z",
-      "discovered_at": "2026-10-27T20:49:59.126006Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0170",
-      "source": "Arabi21 (عربي 21)",
-      "language": "ar",
-      "actor": null,
-      "country": "Niger",
-      "city": "Niamey",
-      "event_type": "raid",
-      "candidate_event": false,
-      "title": "A new rift in the coast.. A crisis between Niamey and N'Djamena in which the threads of Paris are intertwined",
-      "url": "https://arabi21.com/story/1798891/%D8%B4%D8%B1%D8%AE-%D8%AC%D8%AF%D9%8A%D8%AF-%D9%81%D9%8A-%D8%A7%D9%84%D8%B3%D8%A7%D8%AD%D9%84-%D8%A3%D8%B2%D9%85%D8%A9-%D8%A8%D9%8A%D9%86-%D9%86%D9%8A%D8%A7%D9%85%D9%8A-%D9%88%D9%86%D8%AC%D8%A7%D9%85%D9%8A%D9%86%D8%A7-%D8%AA%D8%AA%D8%B4%D8%A7%D8%A8%D9%83-%D9%81%D9%8A%D9%87%D8%A7-%D8%AE%D9%8A%D9%88%D8%B7-%D8%A8%D8%A7%D8%B1%D9%8A%D8%B3"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
