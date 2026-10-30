@@ -109,6 +109,358 @@
     ]
   },
   {
+    "id": "7e727199e1600ee1b1593f782c641bf78ede0085",
+    "event_date": "2026-10-28",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "explicit-calendar-date",
+    "published_at": "2026-10-30T10:37:52Z",
+    "published_date_source": "jsonld:datePublished",
+    "published_time_precision": "datetime",
+    "collected_at": "2026-10-30T15:10:18.817829Z",
+    "actor": "State",
+    "perpetrator": "State",
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [
+      "State"
+    ],
+    "parent_report_id": null,
+    "event_type": "security operation",
+    "country": "Mali",
+    "city": "Djenné",
+    "lat": 13.9061,
+    "lng": -4.555,
+    "locations": [
+      {
+        "name": "Djenné",
+        "country": "Mali",
+        "lat": 13.9061,
+        "lng": -4.555,
+        "confidence": "explicit-place"
+      },
+      {
+        "name": "Bamako",
+        "country": "Mali",
+        "lat": 12.6392,
+        "lng": -8.0029,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "Operation Dougoukoloko: the FAMa strike terrorist positions in several localities",
+    "summary": "Bamako, October 30 (AMAP) The Malian Armed Forces (FAMa), supported by their partners, are continuing their operations to monitor, control and secure the national territory as part of Operation Dougoukoloko, the General Staff of the Armed Forces said in a statement on Friday. According to the same source, the exploitation of precise information on Wednesday, October 28, 2026, made it possible to locate, north of the village of Talhandak, a strategic regroupment point housing armed terrorist groups as well as war material and logistics.",
+    "sources": [
+      "Malijet",
+      "AMAP (Agence Malienne de Presse et de Publicité)"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 2,
+    "report_urls": [
+      "https://malijet.com/actualte_dans_les_regions_du_mali/312588-operation-dougoukoloko-les-fama-frappent-des-positions-ter-2.html",
+      "https://amap.ml/2026/10/30/operation-dougoukoloko-les-fama-frappent-plusieurs-cibles-terroristes-dans-les-zones-de-doila-et-de-djenne/"
+    ],
+    "report_summaries": [
+      {
+        "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312588-operation-dougoukoloko-les-fama-frappent-des-positions-ter-2.html",
+        "source": "Malijet",
+        "title": "Operation Dougoukoloko: the FAMa strike terrorist positions in several localities",
+        "summary": "The Malian Armed Forces (FAMa), supported by their partners, continue their operations to monitor and secure the territory as part of Operation Dougoukoloko. The General Staff of the Armed Forces gave an update on several strikes carried out on Wednesday, October 28, 2026 . North of the village of Talhandak, precise information made it possible to locate a major terrorist assembly point, where war materiel and logistics were stored.",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "armed_group"
+        ],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      },
+      {
+        "url": "https://amap.ml/2026/10/30/operation-dougoukoloko-les-fama-frappent-plusieurs-cibles-terroristes-dans-les-zones-de-doila-et-de-djenne/",
+        "source": "AMAP (Agence Malienne de Presse et de Publicité)",
+        "title": "Operation Dougoukoloko: Fama strikes several terrorist targets in the Doïla and Djénné areas",
+        "summary": "Bamako, October 30 (AMAP) The Malian Armed Forces (FAMa), supported by their partners, are continuing their operations to monitor, control and secure the national territory as part of Operation Dougoukoloko, the General Staff of the Armed Forces said in a statement on Friday. According to the same source, the exploitation of precise information on Wednesday, October 28, 2026, made it possible to locate, north of the village of Talhandak, a strategic regroupment point housing armed terrorist groups as well as war material and logistics.",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "armed_group"
+        ],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      }
+    ],
+    "created_at": "2026-10-30T15:10:18.817829Z",
+    "updated_at": "2026-10-30T15:10:21.090274Z",
+    "extraction_confidence": "moderate",
+    "victim_categories": [
+      "armed_group"
+    ],
+    "civilian_targeting_flag": false,
+    "casualty_claims": [],
+    "fatalities_min": null,
+    "fatalities_max": null,
+    "fatalities_best": null,
+    "injured_min": null,
+    "injured_max": null,
+    "abducted_min": null,
+    "abducted_max": null,
+    "casualty_disputed": false,
+    "revision_history": [
+      {
+        "at": "2026-10-30T15:10:18.817829Z",
+        "type": "event_created",
+        "source": "Malijet"
+      },
+      {
+        "at": "2026-10-30T15:10:21.090274Z",
+        "type": "corroboration_or_geography_update",
+        "source": "AMAP (Agence Malienne de Presse et de Publicité)"
+      }
+    ],
+    "corroboration": "limited corroboration",
+    "confidence": "moderate",
+    "independent_source_domains": [
+      "malijet.com",
+      "amap.ml"
+    ],
+    "independent_source_count": 2,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "strategic/severe event pattern",
+      "multi-location activity"
+    ]
+  },
+  {
+    "id": "3a54923f27f6f61bd81e9efcf19078732eb31f40",
+    "event_date": "2026-10-28",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "explicit-calendar-date",
+    "published_at": "2026-10-30T11:07:24Z",
+    "published_date_source": "jsonld:datePublished",
+    "published_time_precision": "datetime",
+    "collected_at": "2026-10-30T15:10:24.579061Z",
+    "actor": "State",
+    "perpetrator": "State",
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [
+      "State"
+    ],
+    "parent_report_id": null,
+    "event_type": "security operation",
+    "country": "Mali",
+    "city": "Bamako",
+    "lat": 12.6392,
+    "lng": -8.0029,
+    "locations": [
+      {
+        "name": "Bamako",
+        "country": "Mali",
+        "lat": 12.6392,
+        "lng": -8.0029,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "Mali: Targeted army strikes against terrorist logistics",
+    "summary": "The Malian Armed Forces (FAMa), supported by their partners, carried out on Wednesday, October 28, 2026 a series of targeted strikes against several terrorist groups in the North, Southeast and Center of the country, announced the General Staff of the Armed Forces in a statement released Friday in Bamako These combined interventions are part of the Dougoukoloko operation, dedicated to the surveillance, control and security of the national territory, reported Friday the general staff of the Malian army.",
+    "sources": [
+      "APAnews (FR)",
+      "SeneNews"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 2,
+    "report_urls": [
+      "https://fr.apanews.net/security/mali-serie-de-frappes-ciblees-de-larmee-contre-des-logistiques-terroristes/",
+      "https://www.senenews.com/actualites/afrique/mali-afrique/mali-les-fama-revendiquent-une-serie-de-frappes-contre-des-groupes-armes-dans-trois-zones-du-pays_604693.html"
+    ],
+    "report_summaries": [
+      {
+        "url": "https://fr.apanews.net/security/mali-serie-de-frappes-ciblees-de-larmee-contre-des-logistiques-terroristes/",
+        "source": "APAnews (FR)",
+        "title": "Mali: Targeted army strikes against terrorist logistics",
+        "summary": "The Malian Armed Forces (FAMa), supported by their partners, carried out on Wednesday, October 28, 2026 a series of targeted strikes against several terrorist groups in the North, Southeast and Center of the country, announced the General Staff of the Armed Forces in a statement released Friday in Bamako These combined interventions are part of the Dougoukoloko operation, dedicated to the surveillance, control and security of the national territory, reported Friday the general staff of the Malian army.",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "armed_group"
+        ],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      },
+      {
+        "url": "https://www.senenews.com/actualites/afrique/mali-afrique/mali-les-fama-revendiquent-une-serie-de-frappes-contre-des-groupes-armes-dans-trois-zones-du-pays_604693.html",
+        "source": "SeneNews",
+        "title": "Mali: Army conducts targeted strikes against armed groups in several regions",
+        "summary": "Mali: the army carries out targeted strikes against armed groups in several regions These interventions are part of Operation Dougoukoloko, dedicated to the surveillance, control and security of the national territory, specifies the military command.",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      }
+    ],
+    "created_at": "2026-10-30T15:10:24.579061Z",
+    "updated_at": "2026-10-30T15:10:19.603532Z",
+    "extraction_confidence": "moderate",
+    "victim_categories": [
+      "armed_group"
+    ],
+    "civilian_targeting_flag": false,
+    "casualty_claims": [],
+    "fatalities_min": null,
+    "fatalities_max": null,
+    "fatalities_best": null,
+    "injured_min": null,
+    "injured_max": null,
+    "abducted_min": null,
+    "abducted_max": null,
+    "casualty_disputed": false,
+    "revision_history": [
+      {
+        "at": "2026-10-30T15:10:24.579061Z",
+        "type": "event_created",
+        "source": "APAnews (FR)"
+      },
+      {
+        "at": "2026-10-30T15:10:19.603532Z",
+        "type": "corroboration_or_geography_update",
+        "source": "SeneNews"
+      }
+    ],
+    "corroboration": "limited corroboration",
+    "confidence": "moderate",
+    "independent_source_domains": [
+      "fr.apanews.net",
+      "senenews.com"
+    ],
+    "independent_source_count": 2,
+    "significance": "MAJOR",
+    "significance_reasons": [
+      "strategic/severe event pattern"
+    ]
+  },
+  {
+    "id": "0defde11e7a5b642c78a8ae949023f5ea86a0c31",
+    "event_date": "2026-10-28",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "explicit-calendar-date",
+    "published_at": "2026-10-30T10:38:53Z",
+    "published_date_source": "feed",
+    "published_time_precision": "datetime",
+    "collected_at": "2026-10-30T15:10:18.854744Z",
+    "actor": "State",
+    "perpetrator": "State",
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [
+      "State"
+    ],
+    "parent_report_id": null,
+    "event_type": "security operation",
+    "country": "Mali",
+    "city": "Djenné",
+    "lat": 13.9061,
+    "lng": -4.555,
+    "locations": [
+      {
+        "name": "Djenné",
+        "country": "Mali",
+        "lat": 13.9061,
+        "lng": -4.555,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "Terrorism tracked and neutralized: FAMa successfully strikes in Talhandak, Nangola and Djenné",
+    "summary": "The General Staff of the Armed Forces informs the national opinion that the Malian Armed Forces (FAMa), supported by their partners, are continuing the permanent operations of surveillance, control and security of the national territory as part of Operation Dougoukoloko . On Wednesday, October 28, 2026, the exploitation of precise intelligence made it possible to locate, north of the village of Talhandak, a strategic regroupment point housing armed terrorist groups as well as war and logistics equipment.",
+    "sources": [
+      "Bamada"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://bamada.net/terrorisme-traque-et-neutralise-les-fama-frappent-avec-succes-a-talhandak-nangola-et-djenne"
+    ],
+    "report_summaries": [
+      {
+        "url": "https://bamada.net/terrorisme-traque-et-neutralise-les-fama-frappent-avec-succes-a-talhandak-nangola-et-djenne",
+        "source": "Bamada",
+        "title": "Terrorism tracked and neutralized: FAMa successfully strikes in Talhandak, Nangola and Djenné",
+        "summary": "The General Staff of the Armed Forces informs the national opinion that the Malian Armed Forces (FAMa), supported by their partners, are continuing the permanent operations of surveillance, control and security of the national territory as part of Operation Dougoukoloko . On Wednesday, October 28, 2026, the exploitation of precise intelligence made it possible to locate, north of the village of Talhandak, a strategic regroupment point housing armed terrorist groups as well as war and logistics equipment.",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "armed_group"
+        ],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      }
+    ],
+    "created_at": "2026-10-30T15:10:18.854744Z",
+    "updated_at": "2026-10-30T15:10:18.854744Z",
+    "extraction_confidence": "moderate",
+    "victim_categories": [
+      "armed_group"
+    ],
+    "civilian_targeting_flag": false,
+    "casualty_claims": [],
+    "fatalities_min": null,
+    "fatalities_max": null,
+    "fatalities_best": null,
+    "injured_min": null,
+    "injured_max": null,
+    "abducted_min": null,
+    "abducted_max": null,
+    "casualty_disputed": false,
+    "revision_history": [
+      {
+        "at": "2026-10-30T15:10:18.854744Z",
+        "type": "event_created",
+        "source": "Bamada"
+      }
+    ],
+    "corroboration": "single-source",
+    "confidence": "moderate",
+    "independent_source_domains": [
+      "bamada.net"
+    ],
+    "independent_source_count": 1,
+    "significance": "ROUTINE",
+    "significance_reasons": [
+      "limited currently observed significance"
+    ]
+  },
+  {
     "id": "8dec849a689660d7b4ecdf537db0f1355b6738ac",
     "event_date": "2026-10-27",
     "event_date_confidence": "explicit-text",
