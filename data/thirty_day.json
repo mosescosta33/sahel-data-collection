@@ -1,31 +1,31 @@
 {
-  "generated_at": "2026-10-29T21:19:09.661346Z",
+  "generated_at": "2026-10-30T06:02:01.481379Z",
   "window_days": 30,
-  "cutoff": "2026-09-29",
-  "reports": 739,
+  "cutoff": "2026-09-30",
+  "reports": 738,
   "incident_reports": 195,
-  "candidate_events": 119,
+  "candidate_events": 117,
   "corroborated_events": 39,
-  "mapped_events": 96,
-  "mapped_locations": 186,
+  "mapped_events": 94,
+  "mapped_locations": 179,
   "distinct_sources": 86,
   "by_actor": {
-    "State": 67,
+    "State": 66,
     "Other": 22,
-    "JNIM": 15,
+    "JNIM": 14,
     "Africa Corps/Wagner": 10,
     "IS Sahel": 5
   },
   "by_country": {
-    "Mali": 98,
+    "Mali": 96,
     "Niger": 19,
     "Burkina Faso": 2
   },
   "by_event_type": {
-    "security operation": 47,
+    "security operation": 46,
     "clash": 15,
-    "attack": 14,
     "offensive/campaign": 14,
+    "attack": 13,
     "civilian targeting": 10,
     "kidnapping": 7,
     "air/drone strike": 6,
@@ -34,12 +34,12 @@
     "territorial seizure/blockade": 1
   },
   "by_language": {
-    "fr": 578,
-    "en": 120,
+    "fr": 580,
+    "en": 117,
     "ar": 41
   },
   "by_confidence": {
-    "low": 56,
+    "low": 54,
     "moderate": 48,
     "moderate-high": 13,
     "high": 2
@@ -48,7 +48,7 @@
     {
       "source_code": "SRC-0008",
       "source": "Bamada",
-      "count": 104
+      "count": 106
     },
     {
       "source_code": "SRC-0006",
@@ -61,14 +61,14 @@
       "count": 31
     },
     {
-      "source_code": "SRC-0090",
-      "source": "AllAfrica (Édition Française)",
+      "source_code": "SRC-0001",
+      "source": "RFI Afrique",
       "count": 27
     },
     {
-      "source_code": "SRC-0001",
-      "source": "RFI Afrique",
-      "count": 26
+      "source_code": "SRC-0090",
+      "source": "AllAfrica (Édition Française)",
+      "count": 27
     },
     {
       "source_code": "SRC-0092",
@@ -78,7 +78,7 @@
     {
       "source_code": "SRC-0121",
       "source": "AllAfrica (English Edition)",
-      "count": 23
+      "count": 21
     },
     {
       "source_code": "SRC-0085",
@@ -121,7 +121,7 @@
     },
     {
       "location": "Bamako",
-      "count": 18
+      "count": 17
     },
     {
       "location": "Agadez",
@@ -136,16 +136,16 @@
       "count": 12
     },
     {
-      "location": "Ségou",
-      "count": 12
-    },
-    {
       "location": "Gao",
       "count": 11
     },
     {
+      "location": "Ségou",
+      "count": 10
+    },
+    {
       "location": "Timbuktu",
-      "count": 9
+      "count": 8
     },
     {
       "location": "Tessalit",
@@ -153,15 +153,10 @@
     },
     {
       "location": "Mopti",
-      "count": 5
+      "count": 4
     }
   ],
   "daily": [
-    {
-      "date": "2026-09-30",
-      "reports": 17,
-      "events": 2
-    },
     {
       "date": "2026-10-01",
       "reports": 28,
@@ -304,8 +299,13 @@
     },
     {
       "date": "2026-10-29",
-      "reports": 18,
+      "reports": 19,
       "events": 1
+    },
+    {
+      "date": "2026-10-30",
+      "reports": 2,
+      "events": 0
     }
   ],
   "latest_events": [
@@ -4331,6 +4331,60 @@
   ],
   "latest_reports": [
     {
+      "published_at": "2026-10-30T03:04:13Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-30T06:00:51.086099Z",
+      "discovered_at": "2026-10-30T06:00:51.086099Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0001",
+      "source": "RFI Afrique",
+      "language": "fr",
+      "actor": "Africa Corps/Wagner",
+      "country": "Mali",
+      "city": "Nioro du Sahel",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Mali: Russian army and Africa Corps decimate more than 200 head of cattle near Diéma",
+      "url": "https://www.rfi.fr/fr/afrique/20261030-mali-l-arm%C3%A9e-et-l-africa-corps-russe-d%C3%A9ciment-plus-de-200-t%C3%AAtes-de-b%C3%A9tail-pr%C3%A8s-de-di%C3%A9ma"
+    },
+    {
+      "published_at": "2026-10-30T01:48:23Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-30T06:00:52.502884Z",
+      "discovered_at": "2026-10-30T06:00:52.502884Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0008",
+      "source": "Bamada",
+      "language": "fr",
+      "actor": "State",
+      "country": "Mali",
+      "city": null,
+      "event_type": "political/security policy",
+      "candidate_event": false,
+      "title": "Dem/DSMIL: The Chief of the General Staff of the Armed Forces on an authority visit to both structures",
+      "url": "https://bamada.net/dem-dsmil-le-chef-detat-major-general-des-armees-en-visite-dautorite-au-sein-des-deux-structures"
+    },
+    {
+      "published_at": "2026-10-29T23:56:34Z",
+      "published_date_source": "feed",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-30T06:00:52.124971Z",
+      "discovered_at": "2026-10-30T06:00:52.124971Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0008",
+      "source": "Bamada",
+      "language": "fr",
+      "actor": null,
+      "country": null,
+      "city": null,
+      "event_type": "kidnapping",
+      "candidate_event": false,
+      "title": "San: Release of abducted teachers",
+      "url": "https://bamada.net/san-liberation-des-enseignants-enleves"
+    },
+    {
       "published_at": "2026-10-29T20:32:28Z",
       "published_date_source": "feed",
       "published_time_precision": "datetime",
@@ -4995,60 +5049,6 @@
       "candidate_event": false,
       "title": "Fight against terrorism: Success of the Malian army's air operations in Léré and Diabaly",
       "url": "https://bamada.net/lutte-contre-le-terrorisme-succes-des-operations-aeriennes-de-larmee-malienne-a-lere-et-diabaly"
-    },
-    {
-      "published_at": "2026-10-28T10:43:45Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-28T15:16:24.894543Z",
-      "discovered_at": "2026-10-28T15:16:24.894543Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0006",
-      "source": "Malijet",
-      "language": "fr",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Léré",
-      "event_type": "security operation",
-      "candidate_event": true,
-      "title": "Operation Dougoukoloko: the FAMa strike two terrorist positions in Léré and Diabaly",
-      "url": "https://malijet.com/actualte_dans_les_regions_du_mali/312549-operation-dougoukoloko-les-fama-frappent-deux-positions-ter.html"
-    },
-    {
-      "published_at": "2026-10-28T10:35:00Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-29T03:06:52.193326Z",
-      "discovered_at": "2026-10-29T03:06:52.193326Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0038",
-      "source": "APAnews (FR)",
-      "language": "fr",
-      "actor": "State",
-      "country": "Mali",
-      "city": "Timbuktu",
-      "event_type": "security operation",
-      "candidate_event": true,
-      "title": "Mali: FAMa strike two terrorist positions",
-      "url": "https://fr.apanews.net/society/mali-les-fama-frappent-deux-positions-terroristes/"
-    },
-    {
-      "published_at": "2026-10-28T09:58:44Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-28T15:16:25.242284Z",
-      "discovered_at": "2026-10-28T15:16:25.242284Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0006",
-      "source": "Malijet",
-      "language": "fr",
-      "actor": null,
-      "country": "Mali",
-      "city": "Bamako",
-      "event_type": "security operation",
-      "candidate_event": false,
-      "title": "Bamako: one dead and several injured in an accident on the Koulouba-Kati axis",
-      "url": "https://malijet.com/les_faits_divers_au_mali/312546-bamako-un-mort-et-plusieurs-blesses-dans-un-accident-sur-l.html"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."

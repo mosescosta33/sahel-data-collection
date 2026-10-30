@@ -1,38 +1,38 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-29T21:19:13.259427Z",
-  "run_id": "164453d8c194888c93395983945f43cdb3c28471",
+  "generated_at": "2026-10-30T06:02:05.228705Z",
+  "run_id": "449558998ca8ab23536c8f56c5b58c2a98af777a",
   "pipelines": {
     "Mali": {
       "sources": 11,
-      "discovered": 583,
-      "included": 5,
-      "excluded": 27,
-      "errors": 0,
-      "duplicates": 0,
-      "pending": 0,
-      "status": "DEGRADED",
-      "reached_sources": 9,
-      "failed_sources": 2,
-      "note": "Mali lane; 10 priority query terms configured"
-    },
-    "Burkina Faso": {
-      "sources": 10,
-      "discovered": 514,
-      "included": 0,
-      "excluded": 18,
+      "discovered": 617,
+      "included": 3,
+      "excluded": 20,
       "errors": 0,
       "duplicates": 0,
       "pending": 0,
       "status": "DEGRADED",
       "reached_sources": 8,
-      "failed_sources": 2,
+      "failed_sources": 3,
+      "note": "Mali lane; 10 priority query terms configured"
+    },
+    "Burkina Faso": {
+      "sources": 10,
+      "discovered": 552,
+      "included": 0,
+      "excluded": 19,
+      "errors": 0,
+      "duplicates": 0,
+      "pending": 0,
+      "status": "DEGRADED",
+      "reached_sources": 9,
+      "failed_sources": 1,
       "note": "Burkina Faso lane; 8 priority query terms configured"
     },
     "Niger": {
       "sources": 8,
-      "discovered": 585,
-      "included": 6,
+      "discovered": 604,
+      "included": 3,
       "excluded": 17,
       "errors": 0,
       "duplicates": 0,
@@ -44,15 +44,15 @@
     },
     "Regional": {
       "sources": 155,
-      "discovered": 10968,
+      "discovered": 11469,
       "included": 0,
       "excluded": 4,
       "errors": 0,
       "duplicates": 0,
       "pending": 0,
       "status": "DEGRADED",
-      "reached_sources": 133,
-      "failed_sources": 22,
+      "reached_sources": 134,
+      "failed_sources": 21,
       "note": "Regional/cross-border lane; 7 priority query terms configured"
     }
   }
