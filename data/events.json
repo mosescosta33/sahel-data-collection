@@ -461,6 +461,102 @@
     ]
   },
   {
+    "id": "a04ddf0542df99d0ba801a86be5c0abf83a528b8",
+    "event_date": "2026-10-27",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "explicit-calendar-date",
+    "published_at": "2026-10-30T21:55:00Z",
+    "published_date_source": "html:time",
+    "published_time_precision": "datetime",
+    "collected_at": "2026-10-30T20:55:34.404097Z",
+    "actor": "Other",
+    "perpetrator": null,
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [],
+    "parent_report_id": null,
+    "event_type": "air/drone strike",
+    "country": "Niger",
+    "city": "Agadez",
+    "lat": 16.9733,
+    "lng": 7.9911,
+    "locations": [
+      {
+        "name": "Agadez",
+        "country": "Niger",
+        "lat": 16.9733,
+        "lng": 7.9911,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "Press release following the drone strike in the Agadez region: the CDTN reaffirms its commitment to the sovereignty of Niger and the defence of the fundamental interests of the Nigerien people",
+    "summary": "The Democratic Confederation of Niger Workers (CDTN) has taken note of the official communiqué of the Government dated 27 October 2026, relating to the drone strike that occurred on 24 October 2026 in the Emiloulou area, Agadez region, which, according to the authorities, resulted in the death of two civilians, injuries and material damage.",
+    "sources": [
+      "Le Sahel"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://www.lesahel.org/communique-de-presse-suite-a-la-frappe-de-drone-survenue-dans-la-region-dagadez-la-cdtn-reaffirme-son-attachement-a-la-souverainete-du-niger-et-a-la-defense-des-interets-fondamentaux-du-peuple-nig/"
+    ],
+    "report_summaries": [
+      {
+        "url": "https://www.lesahel.org/communique-de-presse-suite-a-la-frappe-de-drone-survenue-dans-la-region-dagadez-la-cdtn-reaffirme-son-attachement-a-la-souverainete-du-niger-et-a-la-defense-des-interets-fondamentaux-du-peuple-nig/",
+        "source": "Le Sahel",
+        "title": "Press release following the drone strike in the Agadez region: the CDTN reaffirms its commitment to the sovereignty of Niger and the defence of the fundamental interests of the Nigerien people",
+        "summary": "The Democratic Confederation of Niger Workers (CDTN) has taken note of the official communiqué of the Government dated 27 October 2026, relating to the drone strike that occurred on 24 October 2026 in the Emiloulou area, Agadez region, which, according to the authorities, resulted in the death of two civilians, injuries and material damage.",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "civilian"
+        ],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      }
+    ],
+    "created_at": "2026-10-30T20:55:34.404097Z",
+    "updated_at": "2026-10-30T20:55:34.404097Z",
+    "extraction_confidence": "low",
+    "victim_categories": [
+      "civilian"
+    ],
+    "civilian_targeting_flag": false,
+    "casualty_claims": [],
+    "fatalities_min": null,
+    "fatalities_max": null,
+    "fatalities_best": null,
+    "injured_min": null,
+    "injured_max": null,
+    "abducted_min": null,
+    "abducted_max": null,
+    "casualty_disputed": false,
+    "revision_history": [
+      {
+        "at": "2026-10-30T20:55:34.404097Z",
+        "type": "event_created",
+        "source": "Le Sahel"
+      }
+    ],
+    "corroboration": "single-source",
+    "confidence": "low",
+    "independent_source_domains": [
+      "lesahel.org"
+    ],
+    "independent_source_count": 1,
+    "significance": "ROUTINE",
+    "significance_reasons": [
+      "limited currently observed significance"
+    ]
+  },
+  {
     "id": "8dec849a689660d7b4ecdf537db0f1355b6738ac",
     "event_date": "2026-10-27",
     "event_date_confidence": "explicit-text",
@@ -2105,6 +2201,102 @@
     "significance": "MAJOR",
     "significance_reasons": [
       "multi-location activity"
+    ]
+  },
+  {
+    "id": "60e394f657424faf5e2804d97082cfd5d9d015ab",
+    "event_date": "2026-10-24",
+    "event_date_confidence": "explicit-text",
+    "event_date_source": "explicit-calendar-date",
+    "published_at": "2026-10-30T21:55:00Z",
+    "published_date_source": "html:time",
+    "published_time_precision": "datetime",
+    "collected_at": "2026-10-30T20:55:35.172493Z",
+    "actor": "Other",
+    "perpetrator": null,
+    "target": null,
+    "claimant": null,
+    "supporting_force": null,
+    "mentioned_actors": [],
+    "parent_report_id": null,
+    "event_type": "attack",
+    "country": "Niger",
+    "city": "Agadez",
+    "lat": 16.9733,
+    "lng": 7.9911,
+    "locations": [
+      {
+        "name": "Agadez",
+        "country": "Niger",
+        "lat": 16.9733,
+        "lng": 7.9911,
+        "confidence": "explicit-place"
+      }
+    ],
+    "title": "Press release: USTN condemns in the strongest terms the drone attack on Nigerian territory by Chad",
+    "summary": "The National Executive Office of the Union of Workers' Unions of Niger (BEN/USTN) took note, with deep indignation, of the government statement reporting a drone airstrike that occurred on October 24, 2026, around 1 a.m., in the area of Miloulou, Agadez region. This attack claimed the lives of two civilians, injured others and caused significant material damage .",
+    "sources": [
+      "Le Sahel"
+    ],
+    "languages": [
+      "fr"
+    ],
+    "source_count": 1,
+    "report_urls": [
+      "https://www.lesahel.org/communique-de-presse-lustn-condamne-avec-la-plus-grande-fermete-lattaque-par-drone-sur-le-territoire-nigerien-par-le-tchad/"
+    ],
+    "report_summaries": [
+      {
+        "url": "https://www.lesahel.org/communique-de-presse-lustn-condamne-avec-la-plus-grande-fermete-lattaque-par-drone-sur-le-territoire-nigerien-par-le-tchad/",
+        "source": "Le Sahel",
+        "title": "Press release: USTN condemns in the strongest terms the drone attack on Nigerian territory by Chad",
+        "summary": "The National Executive Office of the Union of Workers' Unions of Niger (BEN/USTN) took note, with deep indignation, of the government statement reporting a drone airstrike that occurred on October 24, 2026, around 1 a.m., in the area of Miloulou, Agadez region. This attack claimed the lives of two civilians, injured others and caused significant material damage .",
+        "summary_basis": "translated-excerpt",
+        "fatalities_min": null,
+        "fatalities_max": null,
+        "injured_min": null,
+        "injured_max": null,
+        "abducted_min": null,
+        "abducted_max": null,
+        "victim_categories": [
+          "civilian"
+        ],
+        "civilian_targeting_flag": false,
+        "casualty_claims": []
+      }
+    ],
+    "created_at": "2026-10-30T20:55:35.172493Z",
+    "updated_at": "2026-10-30T20:55:35.172493Z",
+    "extraction_confidence": "low",
+    "victim_categories": [
+      "civilian"
+    ],
+    "civilian_targeting_flag": false,
+    "casualty_claims": [],
+    "fatalities_min": null,
+    "fatalities_max": null,
+    "fatalities_best": null,
+    "injured_min": null,
+    "injured_max": null,
+    "abducted_min": null,
+    "abducted_max": null,
+    "casualty_disputed": false,
+    "revision_history": [
+      {
+        "at": "2026-10-30T20:55:35.172493Z",
+        "type": "event_created",
+        "source": "Le Sahel"
+      }
+    ],
+    "corroboration": "single-source",
+    "confidence": "low",
+    "independent_source_domains": [
+      "lesahel.org"
+    ],
+    "independent_source_count": 1,
+    "significance": "ROUTINE",
+    "significance_reasons": [
+      "limited currently observed significance"
     ]
   },
   {
