@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-31T14:42:07.993831Z",
+  "generated_at": "2026-10-31T20:06:36.645095Z",
   "window_days": 30,
   "cutoff": "2026-10-01",
-  "reports": 745,
-  "incident_reports": 200,
+  "reports": 742,
+  "incident_reports": 199,
   "candidate_events": 121,
   "corroborated_events": 40,
   "mapped_events": 98,
@@ -34,8 +34,8 @@
     "territorial seizure/blockade": 1
   },
   "by_language": {
-    "fr": 592,
-    "en": 106,
+    "fr": 590,
+    "en": 105,
     "ar": 47
   },
   "by_confidence": {
@@ -48,12 +48,12 @@
     {
       "source_code": "SRC-0008",
       "source": "Bamada",
-      "count": 111
+      "count": 108
     },
     {
       "source_code": "SRC-0006",
       "source": "Malijet",
-      "count": 78
+      "count": 77
     },
     {
       "source_code": "SRC-0075",
@@ -63,7 +63,7 @@
     {
       "source_code": "SRC-0092",
       "source": "La Nouvelle Tribune (Bénin)",
-      "count": 26
+      "count": 27
     },
     {
       "source_code": "SRC-0090",
@@ -76,6 +76,11 @@
       "count": 24
     },
     {
+      "source_code": "SRC-0014",
+      "source": "Agence Nigérienne de Presse",
+      "count": 19
+    },
+    {
       "source_code": "SRC-0085",
       "source": "Seneweb",
       "count": 19
@@ -83,11 +88,6 @@
     {
       "source_code": "SRC-0003",
       "source": "Jeune Afrique",
-      "count": 18
-    },
-    {
-      "source_code": "SRC-0014",
-      "source": "Agence Nigérienne de Presse",
       "count": 18
     },
     {
@@ -304,7 +304,7 @@
     },
     {
       "date": "2026-10-31",
-      "reports": 11,
+      "reports": 13,
       "events": 1
     }
   ],
@@ -4277,6 +4277,42 @@
   ],
   "latest_reports": [
     {
+      "published_at": "2026-10-31T20:38:00Z",
+      "published_date_source": "html:time",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-31T20:05:39.283521Z",
+      "discovered_at": "2026-10-31T20:05:39.283521Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0014",
+      "source": "Agence Nigérienne de Presse",
+      "language": "fr",
+      "actor": null,
+      "country": "Niger",
+      "city": "Tahoua",
+      "event_type": "clash",
+      "candidate_event": false,
+      "title": "Summary of the visit of the Minister of Refoundation and Promotion of Social Values to Tahoua",
+      "url": "https://anp.ne/synthese-de-la-visite-du-ministre-de-la-refondation-et-de-la-promotion-des-valeurs-sociales-a-tahoua/"
+    },
+    {
+      "published_at": "2026-10-31T19:49:24Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-31T20:05:40.392847Z",
+      "discovered_at": "2026-10-31T20:05:40.392847Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0092",
+      "source": "La Nouvelle Tribune (Bénin)",
+      "language": "fr",
+      "actor": "Africa Corps/Wagner",
+      "country": "Mali",
+      "city": "Bamako",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Mali: Abdoulaye Diop discusses the impact of cooperation with Russia on the army",
+      "url": "https://lanouvelletribune.info/2026/10/mali-abdoulaye-diop-evoque-limpact-de-la-cooperation-avec-la-russie-sur-larmee/"
+    },
+    {
       "published_at": "2026-10-31T13:56:03Z",
       "published_date_source": "itemprop",
       "published_time_precision": "datetime",
@@ -4959,42 +4995,6 @@
       "candidate_event": false,
       "title": "Mali: Russian army and Africa Corps decimate more than 200 head of cattle near Diéma",
       "url": "https://www.rfi.fr/fr/afrique/20261030-mali-l-arm%C3%A9e-et-l-africa-corps-russe-d%C3%A9ciment-plus-de-200-t%C3%AAtes-de-b%C3%A9tail-pr%C3%A8s-de-di%C3%A9ma"
-    },
-    {
-      "published_at": "2026-10-30T01:48:23Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-30T06:00:52.502884Z",
-      "discovered_at": "2026-10-30T06:00:52.502884Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0008",
-      "source": "Bamada",
-      "language": "fr",
-      "actor": "State",
-      "country": "Mali",
-      "city": null,
-      "event_type": "political/security policy",
-      "candidate_event": false,
-      "title": "Dem/DSMIL: The Chief of the General Staff of the Armed Forces on an authority visit to both structures",
-      "url": "https://bamada.net/dem-dsmil-le-chef-detat-major-general-des-armees-en-visite-dautorite-au-sein-des-deux-structures"
-    },
-    {
-      "published_at": "2026-10-29T23:56:34Z",
-      "published_date_source": "feed",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-30T06:00:52.124971Z",
-      "discovered_at": "2026-10-30T06:00:52.124971Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0008",
-      "source": "Bamada",
-      "language": "fr",
-      "actor": null,
-      "country": null,
-      "city": null,
-      "event_type": "kidnapping",
-      "candidate_event": false,
-      "title": "San: Release of abducted teachers",
-      "url": "https://bamada.net/san-liberation-des-enseignants-enleves"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
