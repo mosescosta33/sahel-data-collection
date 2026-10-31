@@ -1,46 +1,46 @@
 {
-  "generated_at": "2026-10-30T20:57:11.508992Z",
+  "generated_at": "2026-10-31T05:58:19.120570Z",
   "window_days": 30,
-  "cutoff": "2026-09-30",
-  "reports": 751,
-  "incident_reports": 201,
-  "candidate_events": 122,
-  "corroborated_events": 41,
-  "mapped_events": 99,
-  "mapped_locations": 185,
-  "distinct_sources": 87,
+  "cutoff": "2026-10-01",
+  "reports": 746,
+  "incident_reports": 200,
+  "candidate_events": 120,
+  "corroborated_events": 40,
+  "mapped_events": 97,
+  "mapped_locations": 183,
+  "distinct_sources": 86,
   "by_actor": {
-    "State": 69,
-    "Other": 24,
+    "State": 68,
+    "Other": 23,
     "JNIM": 14,
     "Africa Corps/Wagner": 10,
     "IS Sahel": 5
   },
   "by_country": {
-    "Mali": 99,
+    "Mali": 98,
     "Niger": 21,
-    "Burkina Faso": 2
+    "Burkina Faso": 1
   },
   "by_event_type": {
-    "security operation": 49,
+    "security operation": 48,
     "clash": 15,
     "attack": 14,
     "offensive/campaign": 14,
     "civilian targeting": 10,
     "air/drone strike": 7,
-    "kidnapping": 7,
+    "kidnapping": 6,
     "raid": 4,
     "ambush": 1,
     "territorial seizure/blockade": 1
   },
   "by_language": {
-    "fr": 592,
-    "en": 114,
-    "ar": 45
+    "fr": 589,
+    "en": 111,
+    "ar": 46
   },
   "by_confidence": {
     "low": 56,
-    "moderate": 51,
+    "moderate": 49,
     "moderate-high": 13,
     "high": 2
   },
@@ -48,17 +48,17 @@
     {
       "source_code": "SRC-0008",
       "source": "Bamada",
-      "count": 110
+      "count": 109
     },
     {
       "source_code": "SRC-0006",
       "source": "Malijet",
-      "count": 75
+      "count": 77
     },
     {
       "source_code": "SRC-0075",
       "source": "AMAP (Agence Malienne de Presse et de Publicité)",
-      "count": 32
+      "count": 33
     },
     {
       "source_code": "SRC-0090",
@@ -73,7 +73,7 @@
     {
       "source_code": "SRC-0001",
       "source": "RFI Afrique",
-      "count": 25
+      "count": 24
     },
     {
       "source_code": "SRC-0085",
@@ -81,18 +81,8 @@
       "count": 19
     },
     {
-      "source_code": "SRC-0121",
-      "source": "AllAfrica (English Edition)",
-      "count": 19
-    },
-    {
       "source_code": "SRC-0003",
       "source": "Jeune Afrique",
-      "count": 18
-    },
-    {
-      "source_code": "SRC-0015",
-      "source": "ActuNiger",
       "count": 18
     },
     {
@@ -104,6 +94,16 @@
       "source_code": "SRC-0079",
       "source": "L'Essor",
       "count": 18
+    },
+    {
+      "source_code": "SRC-0121",
+      "source": "AllAfrica (English Edition)",
+      "count": 18
+    },
+    {
+      "source_code": "SRC-0014",
+      "source": "Agence Nigérienne de Presse",
+      "count": 17
     }
   ],
   "top_locations": [
@@ -148,20 +148,15 @@
       "count": 8
     },
     {
-      "location": "Tessalit",
-      "count": 6
+      "location": "Djenné",
+      "count": 5
     },
     {
-      "location": "Djenné",
+      "location": "Tessalit",
       "count": 5
     }
   ],
   "daily": [
-    {
-      "date": "2026-10-01",
-      "reports": 28,
-      "events": 0
-    },
     {
       "date": "2026-10-02",
       "reports": 6,
@@ -294,7 +289,7 @@
     },
     {
       "date": "2026-10-28",
-      "reports": 28,
+      "reports": 29,
       "events": 3
     },
     {
@@ -304,7 +299,12 @@
     },
     {
       "date": "2026-10-30",
-      "reports": 24,
+      "reports": 28,
+      "events": 0
+    },
+    {
+      "date": "2026-10-31",
+      "reports": 0,
       "events": 0
     }
   ],
@@ -4279,6 +4279,60 @@
   ],
   "latest_reports": [
     {
+      "published_at": "2026-10-30T23:16:49Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-31T05:56:51.535779Z",
+      "discovered_at": "2026-10-31T05:56:51.535779Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0006",
+      "source": "Malijet",
+      "language": "fr",
+      "actor": null,
+      "country": "Mali",
+      "city": "Bamako",
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Month of Solidarity and the Fight against Exclusion: The Autonomous Port of Dakar respects tradition",
+      "url": "https://malijet.com/la_societe_malienne_aujourdhui/312608-mois-de-la-solidarite-et-de-la-lutte-contre-lexclusion-le-2.html"
+    },
+    {
+      "published_at": "2026-10-30T23:07:23Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-31T05:56:51.311648Z",
+      "discovered_at": "2026-10-31T05:56:51.311648Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0006",
+      "source": "Malijet",
+      "language": "fr",
+      "actor": null,
+      "country": "Mali",
+      "city": null,
+      "event_type": "political/security policy",
+      "candidate_event": false,
+      "title": "Bilateral meeting in the Kremlin: President Assimi GOÏTA and Vladimir PUTIN open a new stage of the Mali-Russia partnership",
+      "url": "https://malijet.com/a_la_une_du_mali/312607-rencontre-bilaterale-au-kremlin-le-president-assimi-goita.html"
+    },
+    {
+      "published_at": "2026-10-30T22:39:05Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-31T05:56:52.681154Z",
+      "discovered_at": "2026-10-31T05:56:52.681154Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0075",
+      "source": "AMAP (Agence Malienne de Presse et de Publicité)",
+      "language": "fr",
+      "actor": "State",
+      "country": "Burkina Faso",
+      "city": null,
+      "event_type": null,
+      "candidate_event": false,
+      "title": "Kangaba: six (6) dead in the collapse of a mining well in Nouga",
+      "url": "https://amap.ml/2026/10/30/kangaba-six-6-morts-dans-leboulement-dun-puit-minier-a-nouga/"
+    },
+    {
       "published_at": "2026-10-30T21:55:00Z",
       "published_date_source": "html:time",
       "published_time_precision": "datetime",
@@ -4313,6 +4367,24 @@
       "candidate_event": true,
       "title": "Press release: USTN condemns in the strongest terms the drone attack on Nigerian territory by Chad",
       "url": "https://www.lesahel.org/communique-de-presse-lustn-condamne-avec-la-plus-grande-fermete-lattaque-par-drone-sur-le-territoire-nigerien-par-le-tchad/"
+    },
+    {
+      "published_at": "2026-10-30T21:17:36Z",
+      "published_date_source": "jsonld:datePublished",
+      "published_time_precision": "datetime",
+      "collected_at": "2026-10-31T05:56:54.069594Z",
+      "discovered_at": "2026-10-31T05:56:54.069594Z",
+      "timestamp_integrity": "complete",
+      "source_code": "SRC-0029",
+      "source": "Al Jazeera Arabic",
+      "language": "ar",
+      "actor": null,
+      "country": "Niger",
+      "city": "Arlit",
+      "event_type": "political/security policy",
+      "candidate_event": false,
+      "title": "In the first external move since 1973, Algeria deploys its forces in Niger",
+      "url": "https://www.aljazeera.net/news/2026/10/31/%d9%82%d8%a7%d9%81%d9%84%d8%a9-%d8%ac%d8%b2%d8%a7%d8%a6%d8%b1%d9%8a%d8%a9-%d8%aa%d8%b5%d9%84-%d8%a5%d9%84%d9%89-%d8%a7%d9%84%d9%86%d9%8a%d8%ac%d8%b1-%d9%84%d8%ad%d9%85%d8%a7%d9%8a%d8%a9?traffic_source=rss"
     },
     {
       "published_at": "2026-10-30T20:16:01Z",
@@ -4925,78 +4997,6 @@
       "candidate_event": false,
       "title": "San: Release of abducted teachers",
       "url": "https://www.studiotamani.org/209642-san-liberation-des-enseignants-enleves"
-    },
-    {
-      "published_at": "2026-10-29T12:30:00Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-29T15:22:08.016206Z",
-      "discovered_at": "2026-10-29T15:22:08.016206Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0047",
-      "source": "The Africa Report",
-      "language": "en",
-      "actor": "State",
-      "country": "Niger",
-      "city": "Niamey",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Algeria prepares troop deployment in Niger to protect oil assets and expand influence",
-      "url": "https://www.theafricareport.com/434864/algeria-prepares-troop-deployment-in-niger-to-protect-oil-assets-and-expand-influence/"
-    },
-    {
-      "published_at": "2026-10-29T12:28:52Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-29T15:22:07.816748Z",
-      "discovered_at": "2026-10-29T15:22:07.816748Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0013",
-      "source": "Wakat Sera",
-      "language": "fr",
-      "actor": null,
-      "country": "Burkina Faso",
-      "city": "Ouagadougou",
-      "event_type": "political/security policy",
-      "candidate_event": false,
-      "title": "Military cooperation: opening of the second session of the Joint Monitoring Committee Burkina Faso-Egypt",
-      "url": "https://www.wakatsera.com/cooperation-militaire-ouverture-de-la-deuxieme-session-de-comite-mixte-de-suivi-burkina-faso-egypte/"
-    },
-    {
-      "published_at": "2026-10-29T11:16:34Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-29T15:22:06.975200Z",
-      "discovered_at": "2026-10-29T15:22:06.975200Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0075",
-      "source": "AMAP (Agence Malienne de Presse et de Publicité)",
-      "language": "fr",
-      "actor": null,
-      "country": "Mali",
-      "city": "Bamako",
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Russia-Africa: Moscow says it is ready to help the continent against terrorism",
-      "url": "https://amap.ml/2026/10/29/russie-afrique-moscou-se-dit-pret-a-aider-le-continent-contre-le-terrorisme/"
-    },
-    {
-      "published_at": "2026-10-29T10:38:14Z",
-      "published_date_source": "jsonld:datePublished",
-      "published_time_precision": "datetime",
-      "collected_at": "2026-10-29T15:22:07.034699Z",
-      "discovered_at": "2026-10-29T15:22:07.034699Z",
-      "timestamp_integrity": "complete",
-      "source_code": "SRC-0075",
-      "source": "AMAP (Agence Malienne de Presse et de Publicité)",
-      "language": "fr",
-      "actor": "State",
-      "country": "Mali",
-      "city": null,
-      "event_type": null,
-      "candidate_event": false,
-      "title": "Macina: meeting of the local watch committee coupled with that of crises and disasters",
-      "url": "https://amap.ml/2026/10/29/macina-reunion-du-comite-local-de-veille-couplee-a-celle-des-crises-et-catastrophes/"
     }
   ],
   "method_note": "30-day reporting volume and fused candidate-event activity are shown separately. Candidate events are extracted from monitored open-source reporting and are not independently verified incident counts."
